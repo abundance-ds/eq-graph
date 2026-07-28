@@ -48,7 +48,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -171,13 +172,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274140",
-        "pdf_url": "https://europepmc.org/articles/PMC12274140?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03989-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03989-w.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03989-w",
         "retrieval": "open"
       }
@@ -219,12 +221,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10121527",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40271-022-00611-w.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-022-00611-w.pdf",
         "landing_page": "https://doi.org/10.1007/s40271-022-00611-w",
         "retrieval": "open"
@@ -282,12 +285,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.02.008",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301523000578/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523000578/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.02.008",
         "retrieval": "open"
@@ -365,7 +369,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

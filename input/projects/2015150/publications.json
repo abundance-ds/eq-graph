@@ -48,13 +48,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5420378",
-        "pdf_url": "https://europepmc.org/articles/PMC5420378?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs11136-017-1512-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs11136-017-1512-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-017-1512-x",
         "retrieval": "open"
       }
@@ -96,12 +97,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.10.006",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519351782/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519351782/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.10.006",
         "retrieval": "open"
@@ -149,12 +151,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
-        "oa_url": "https://europepmc.org/articles/PMC6587359",
+        "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X18765184",
         "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X18765184",
         "landing_page": "https://doi.org/10.1177/0272989x18765184",
         "retrieval": "open"
@@ -342,13 +345,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
-        "oa_url": "https://europepmc.org/articles/PMC6791017",
-        "pdf_url": "https://europepmc.org/articles/PMC6791017?pdf=render",
+        "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X19841587",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X19841587",
         "landing_page": "https://doi.org/10.1177/0272989x19841587",
         "retrieval": "open"
       }
@@ -393,12 +397,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9356942",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03155-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03155-6.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-022-03155-6",
         "retrieval": "open"
@@ -446,13 +451,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12081533",
-        "pdf_url": "https://europepmc.org/articles/PMC12081533?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01471-6.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01471-6.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01471-6",
         "retrieval": "open"
       }
@@ -489,13 +495,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11542326",
-        "pdf_url": "https://europepmc.org/articles/PMC11542326?pdf=render",
+        "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X241286477",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X241286477",
         "landing_page": "https://doi.org/10.1177/0272989x241286477",
         "retrieval": "open"
       }

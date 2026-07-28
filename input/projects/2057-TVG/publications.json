@@ -85,101 +85,15 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11186300",
-        "pdf_url": "https://europepmc.org/articles/PMC11186300?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/trc2.12486",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/trc2.12486",
         "landing_page": "https://doi.org/10.1002/trc2.12486",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s12311-023-01597-3",
-      "doi": "10.1007/s12311-023-01597-3",
-      "pmid": "37713052",
-      "pmcid": "PMC11102408",
-      "title": "Health-Related Quality of Life in Patients with Spinocerebellar Ataxia: a Validation Study of the EQ-5D-3L",
-      "journal": "Cerebellum (London, England)",
-      "year": 2024,
-      "authors": [
-        {
-          "full_name": "Buchholz M",
-          "last_name": "Buchholz",
-          "orcid": null
-        },
-        {
-          "full_name": "Weber N",
-          "last_name": "Weber",
-          "orcid": null
-        },
-        {
-          "full_name": "Rädke A",
-          "last_name": "Rädke",
-          "orcid": null
-        },
-        {
-          "full_name": "Faber J",
-          "last_name": "Faber",
-          "orcid": null
-        },
-        {
-          "full_name": "Schmitz-Hübsch T",
-          "last_name": "Schmitz-Hübsch",
-          "orcid": null
-        },
-        {
-          "full_name": "Jacobi H",
-          "last_name": "Jacobi",
-          "orcid": null
-        },
-        {
-          "full_name": "Xie F",
-          "last_name": "Xie",
-          "orcid": null
-        },
-        {
-          "full_name": "Klockgether T",
-          "last_name": "Klockgether",
-          "orcid": null
-        },
-        {
-          "full_name": "Michalowsky B",
-          "last_name": "Michalowsky",
-          "orcid": "0000-0002-3425-0089"
-        },
-        {
-          "full_name": null,
-          "last_name": null,
-          "orcid": null
-        },
-        {
-          "full_name": null,
-          "last_name": null,
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC11102408",
-        "pdf_url": "https://europepmc.org/articles/PMC11102408?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s12311-023-01597-3",
         "retrieval": "open"
       }
     },
@@ -189,173 +103,173 @@
       "pmid": "42174309",
       "pmcid": "PMC13197451",
       "title": "A Patient-Reported Outcome Measure of Communication Difficulties in Friedreich Ataxia: COMATAX",
-      "journal": "Cerebellum (London, England)",
+      "journal": "The Cerebellum",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Buchholz M",
+          "full_name": "Maresa Buchholz",
           "last_name": "Buchholz",
-          "orcid": "0000-0002-4486-8632"
+          "orcid": "https://orcid.org/0000-0002-4486-8632"
         },
         {
-          "full_name": "Monier V",
+          "full_name": "Victoire Monier",
           "last_name": "Monier",
           "orcid": null
         },
         {
-          "full_name": "Ewenczyk C",
+          "full_name": "Claire Ewenczyk",
           "last_name": "Ewenczyk",
-          "orcid": "0000-0002-4864-6287"
+          "orcid": "https://orcid.org/0000-0002-4864-6287"
         },
         {
-          "full_name": "Heinzmann A",
+          "full_name": "Anna Heinzmann",
           "last_name": "Heinzmann",
-          "orcid": "0000-0001-8522-7199"
+          "orcid": "https://orcid.org/0000-0001-8522-7199"
         },
         {
-          "full_name": "Pierron L",
+          "full_name": "Lucie Pierron",
           "last_name": "Pierron",
-          "orcid": "0000-0002-2888-3226"
+          "orcid": "https://orcid.org/0000-0002-2888-3226"
         },
         {
-          "full_name": "Sayah S",
+          "full_name": "Sabrina Sayah",
           "last_name": "Sayah",
-          "orcid": "0000-0002-0382-9995"
+          "orcid": "https://orcid.org/0000-0002-0382-9995"
         },
         {
-          "full_name": "Hilab R",
+          "full_name": "Rania Hilab",
           "last_name": "Hilab",
-          "orcid": "0009-0002-6310-2066"
+          "orcid": null
         },
         {
-          "full_name": "Atencio M",
+          "full_name": "Mariana Atencio",
           "last_name": "Atencio",
-          "orcid": "0009-0000-3574-0728"
+          "orcid": "https://orcid.org/0009-0000-3574-0728"
         },
         {
-          "full_name": "Petit E",
+          "full_name": "Elodie Petit",
           "last_name": "Petit",
-          "orcid": "0009-0008-7016-9908"
+          "orcid": "https://orcid.org/0009-0008-7016-9908"
         },
         {
-          "full_name": "Bertrand F",
+          "full_name": "Fanny Bertrand",
           "last_name": "Bertrand",
           "orcid": null
         },
         {
-          "full_name": "Vallancien A",
+          "full_name": "Alix Vallancien",
           "last_name": "Vallancien",
           "orcid": null
         },
         {
-          "full_name": "Diot C",
+          "full_name": "Chloé Diot",
           "last_name": "Diot",
           "orcid": null
         },
         {
-          "full_name": "Rouillon S",
+          "full_name": "Stéphan Rouillon",
           "last_name": "Rouillon",
           "orcid": null
         },
         {
-          "full_name": "Nadke A",
+          "full_name": "Andreas Nadke",
           "last_name": "Nadke",
           "orcid": null
         },
         {
-          "full_name": "Feldmann K",
+          "full_name": "Katrin Feldmann",
           "last_name": "Feldmann",
           "orcid": null
         },
         {
-          "full_name": "Maas V",
+          "full_name": "Vivian Maas",
           "last_name": "Maas",
-          "orcid": "0009-0006-0767-7745"
+          "orcid": null
         },
         {
-          "full_name": "Faber J",
+          "full_name": "Jennifer Faber",
           "last_name": "Faber",
-          "orcid": "0000-0003-3265-0262"
+          "orcid": "https://orcid.org/0000-0003-3265-0262"
         },
         {
-          "full_name": "Sarwinska D",
+          "full_name": "Dorota Sarwinska",
           "last_name": "Sarwinska",
-          "orcid": "0000-0002-7592-0544"
+          "orcid": "https://orcid.org/0000-0002-7592-0544"
         },
         {
-          "full_name": "Boesch SM",
+          "full_name": "Sylvia Boesch",
           "last_name": "Boesch",
-          "orcid": "0000-0003-1657-7368"
+          "orcid": "https://orcid.org/0000-0003-1657-7368"
         },
         {
-          "full_name": "Indelicato E",
+          "full_name": "Elisabetta Indelicato",
           "last_name": "Indelicato",
-          "orcid": "0000-0003-0217-8630"
+          "orcid": "https://orcid.org/0000-0003-0217-8630"
         },
         {
-          "full_name": "Bischoff AT",
+          "full_name": "Almut T. Bischoff",
           "last_name": "Bischoff",
           "orcid": null
         },
         {
-          "full_name": "Klopstock T",
+          "full_name": "Thomas Klopstock",
           "last_name": "Klopstock",
-          "orcid": "0000-0003-2805-4652"
+          "orcid": "https://orcid.org/0000-0003-2805-4652"
         },
         {
-          "full_name": "Schulz JB",
+          "full_name": "Jörg B. Schulz",
           "last_name": "Schulz",
           "orcid": null
         },
         {
-          "full_name": "Reetz K",
+          "full_name": "Kathrin Reetz",
           "last_name": "Reetz",
           "orcid": null
         },
         {
-          "full_name": "Fleszar Z",
+          "full_name": "Zofia Fleszar",
           "last_name": "Fleszar",
           "orcid": null
         },
         {
-          "full_name": "Iskandar A",
+          "full_name": "Arif Iskandar",
           "last_name": "Iskandar",
-          "orcid": "0009-0007-6400-507X"
+          "orcid": null
         },
         {
-          "full_name": "Klockgether T",
+          "full_name": "Thomas Klockgether",
           "last_name": "Klockgether",
-          "orcid": "0000-0001-6174-5442"
+          "orcid": "https://orcid.org/0000-0001-6174-5442"
         },
         {
-          "full_name": "Grobe-Einsler M",
+          "full_name": "Marcus Grobe-Einsler",
           "last_name": "Grobe-Einsler",
           "orcid": null
         },
         {
-          "full_name": "Xie F",
+          "full_name": "Feng Xie",
           "last_name": "Xie",
           "orcid": null
         },
         {
-          "full_name": "Humphries B",
+          "full_name": "Brittany Humphries",
           "last_name": "Humphries",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-9364-5788"
         },
         {
-          "full_name": "Michalowsky B",
+          "full_name": "Bernhard Michalowsky",
           "last_name": "Michalowsky",
-          "orcid": "0000-0002-3425-0089"
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
         },
         {
-          "full_name": "Durr A",
+          "full_name": "Alexandra Durr",
           "last_name": "Durr",
-          "orcid": "0000-0002-8921-7104"
+          "orcid": "https://orcid.org/0000-0002-8921-7104"
         },
         {
-          "full_name": "Borel S",
+          "full_name": "Stéphanie Borel",
           "last_name": "Borel",
-          "orcid": "0000-0002-8597-9937"
+          "orcid": "https://orcid.org/0000-0002-8597-9937"
         }
       ],
       "score": 0.45,
@@ -369,13 +283,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC13197451",
-        "pdf_url": "https://europepmc.org/articles/PMC13197451?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s12311-026-02020-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12311-026-02020-3.pdf",
         "landing_page": "https://doi.org/10.1007/s12311-026-02020-3",
         "retrieval": "open"
       }

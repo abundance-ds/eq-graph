@@ -3,6 +3,20 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1016/j.burns.2020.08.015",
+      "doi": "10.1016/j.burns.2020.08.015",
+      "title": "The added value of extending the EQ-5D-5L with an itching item for the assessment of health-related quality of life of burn patients: an explorative study",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.burns.2020.08.015",
+      "method": "repository_pdf",
+      "source_url": "https://pure.eur.nl/ws/files/51864062/1_s2.0_S0305417920305155_main.pdf",
+      "alternates": 0,
+      "status": "ok",
+      "file": "input/projects/20180330/papers/doi_10.1016_j.burns.2020.08.015.pdf",
+      "bytes": 557505,
+      "sha256": "3813ff140dd828a9106081309d90b936402a20bdb51250dd37b240b2c413d895"
+    },
+    {
       "work_id": "doi:10.1186/s12955-020-01394-0",
       "doi": "10.1186/s12955-020-01394-0",
       "title": "Exploring the relation between the EQ-5D-5L pain/discomfort and pain and itching in a sample of burn patients",

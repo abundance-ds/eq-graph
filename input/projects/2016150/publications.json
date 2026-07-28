@@ -45,12 +45,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7423806",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-020-01205-9",
         "retrieval": "open"
@@ -170,7 +171,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -179,6 +181,58 @@
         "pdf_url": "https://opus.lib.uts.edu.au/bitstream/10453/125508/4/bm_the%20patient.pdf",
         "landing_page": "https://doi.org/10.1007/s40271-017-0240-1",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2015.10.012",
+      "doi": "10.1016/j.jval.2015.10.012",
+      "pmid": "26797236",
+      "pmcid": null,
+      "title": "An Empirical Study of Two Alternative Comparators for Use in Time Trade-Off Studies",
+      "journal": "Value in Health",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Louise Longworth",
+          "last_name": "Longworth",
+          "orcid": "https://orcid.org/0000-0003-2512-4862"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301515050858/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301515050858/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2015.10.012",
+        "retrieval": "open"
       }
     },
     {
@@ -223,12 +277,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2021.11.1377",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00048-1/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00048-1/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2021.11.1377",
         "retrieval": "open"

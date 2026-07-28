@@ -75,13 +75,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10570159",
-        "pdf_url": "https://europepmc.org/articles/PMC10570159?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40271-023-00647-6.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-023-00647-6.pdf",
         "landing_page": "https://doi.org/10.1007/s40271-023-00647-6",
         "retrieval": "open"
       }
@@ -205,7 +206,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -214,6 +216,68 @@
         "pdf_url": "https://opus.lib.uts.edu.au/bitstream/10453/133626/3/1342C0F5-1FF4-43E8-8F1B-EA64FCA928F3.pdf",
         "landing_page": "https://doi.org/10.1016/j.socscimed.2019.05.032",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x17738754",
+      "doi": "10.1177/0272989x17738754",
+      "pmid": "29084472",
+      "pmcid": null,
+      "title": "How Should Discrete Choice Experiments with Duration Choice Sets Be Presented for the Valuation of Health States?",
+      "journal": "Medical Decision Making",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": "https://orcid.org/0000-0002-1510-3462"
+        },
+        {
+          "full_name": "Louise Longworth",
+          "last_name": "Longworth",
+          "orcid": "https://orcid.org/0000-0003-2512-4862"
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://opus.lib.uts.edu.au/bitstream/10453/122484/1/Mulhern%20et%20al%20MDM%20presentation%20paper.pdf",
+        "pdf_url": "https://opus.lib.uts.edu.au/bitstream/10453/122484/1/Mulhern%20et%20al%20MDM%20presentation%20paper.pdf",
+        "landing_page": "https://doi.org/10.1177/0272989x17738754",
+        "retrieval": "open"
       }
     },
     {
@@ -273,13 +337,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://doi.org/10.1186/s12955-025-02352-4",
-        "pdf_url": "https://europepmc.org/articles/PMC11934538?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-025-02352-4",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-025-02352-4",
         "landing_page": "https://doi.org/10.1186/s12955-025-02352-4",
         "retrieval": "open"
       }

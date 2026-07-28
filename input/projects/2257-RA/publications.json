@@ -8,39 +8,39 @@
       "doi": "10.1002/hsr2.70308",
       "pmid": "39741745",
       "pmcid": "PMC11683768",
-      "title": "Using Patient-Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
-      "journal": "Health science reports",
-      "year": 2025,
+      "title": "Using Patient‐Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
+      "journal": "Health Science Reports",
+      "year": 2024,
       "authors": [
         {
-          "full_name": "Soprovich AL",
+          "full_name": "Allison Soprovich",
           "last_name": "Soprovich",
-          "orcid": "0000-0002-6143-1555"
+          "orcid": "https://orcid.org/0000-0002-6143-1555"
         },
         {
-          "full_name": "Short H",
+          "full_name": "Hilary Short",
           "last_name": "Short",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-7142-3364"
         },
         {
-          "full_name": "Ali AB",
+          "full_name": "Al‐Bakir Ali",
           "last_name": "Ali",
           "orcid": null
         },
         {
-          "full_name": "Brower K",
+          "full_name": "Krista Brower",
           "last_name": "Brower",
-          "orcid": "0000-0002-0416-7655"
-        },
-        {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
           "orcid": null
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -54,13 +54,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC11683768",
-        "pdf_url": "https://europepmc.org/articles/PMC11683768?pdf=render",
+        "licence": "cc-by-nc",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hsr2.70308",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hsr2.70308",
         "landing_page": "https://doi.org/10.1002/hsr2.70308",
         "retrieval": "open"
       }
@@ -172,13 +173,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12689827",
-        "pdf_url": "https://europepmc.org/articles/PMC12689827?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03983-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03983-2.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03983-2",
         "retrieval": "open"
       }
@@ -235,7 +237,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -303,12 +306,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12395153",
+        "oa_url": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "pdf_url": "https://europepmc.org/articles/PMC12395153?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "retrieval": "open"
@@ -371,13 +375,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10902977",
-        "pdf_url": "https://europepmc.org/articles/PMC10902977?pdf=render",
+        "oa_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-07304-5",
+        "pdf_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-07304-5",
         "landing_page": "https://doi.org/10.1186/s12891-024-07304-5",
         "retrieval": "open"
       }

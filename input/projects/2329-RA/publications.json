@@ -9,28 +9,28 @@
       "pmid": "41920393",
       "pmcid": "PMC13043599",
       "title": "Population norms for the EQ-5D-3L and EQ-5D-5L in Peninsular Malaysia",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "journal": "Quality of Life Research",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Vasan Thakumar A",
-          "last_name": "Vasan Thakumar",
-          "orcid": "0000-0001-7261-1255"
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Thakumar",
+          "orcid": "https://orcid.org/0000-0001-7261-1255"
         },
         {
-          "full_name": "Li X",
+          "full_name": "Xun Li",
           "last_name": "Li",
-          "orcid": "0009-0008-6135-508X"
+          "orcid": null
         },
         {
-          "full_name": "Shafie AA",
+          "full_name": "Asrul Akmal Shafie",
           "last_name": "Shafie",
-          "orcid": "0000-0002-5629-9270"
+          "orcid": null
         },
         {
-          "full_name": "Cheng LJ",
+          "full_name": "Ling Jie Cheng",
           "last_name": "Cheng",
-          "orcid": "0000-0002-5338-578X"
+          "orcid": "https://orcid.org/0000-0002-5338-578x"
         }
       ],
       "score": 0.45,
@@ -44,13 +44,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC13043599",
-        "pdf_url": "https://europepmc.org/articles/PMC13043599?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04231-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04231-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-026-04231-x",
         "retrieval": "open"
       }
@@ -179,7 +180,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,

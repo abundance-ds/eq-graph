@@ -48,13 +48,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://scholarbank.nus.edu.sg/handle/10635/181162",
-        "pdf_url": "https://europepmc.org/articles/PMC6394787?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-018-0987-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-018-0987-x.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-018-0987-x",
         "retrieval": "open"
       }
@@ -124,7 +125,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -249,7 +251,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -327,7 +330,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -385,7 +389,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -458,7 +463,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -526,12 +532,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
-        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "oa_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
         "retrieval": "open"
@@ -619,7 +626,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -672,7 +680,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -735,7 +744,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -808,7 +818,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -866,7 +877,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -887,29 +899,29 @@
       "year": 2016,
       "authors": [
         {
-          "full_name": "Oppe M",
+          "full_name": "Mark Oppe",
           "last_name": "Oppe",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
         },
         {
-          "full_name": "Rand-Hendriksen K",
-          "last_name": "Rand-Hendriksen",
-          "orcid": "0000-0001-7692-4099"
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
         },
         {
-          "full_name": "Shah K",
+          "full_name": "Koonal Shah",
           "last_name": "Shah",
-          "orcid": "0000-0002-4927-7858"
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
         },
         {
-          "full_name": "Ramos-Goñi JM",
+          "full_name": "Juan Manuel Ramos-Goñi",
           "last_name": "Ramos-Goñi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9568-5190"
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 0.45,
@@ -923,13 +935,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC5023738",
-        "pdf_url": "https://europepmc.org/articles/PMC5023738?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-016-0404-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-016-0404-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-016-0404-1",
         "retrieval": "open"
       }
@@ -971,13 +984,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5954015",
-        "pdf_url": "https://europepmc.org/articles/PMC5954015?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0623-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0623-8.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-018-0623-8",
         "retrieval": "open"
       }
@@ -1024,17 +1038,18 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7081654",
-        "pdf_url": "https://europepmc.org/articles/PMC7081654?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-019-00854-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-019-00854-w.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-019-00854-w",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 16
+  "weak_omitted": 19
 }

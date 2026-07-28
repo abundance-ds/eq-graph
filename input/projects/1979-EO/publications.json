@@ -60,12 +60,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
-        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "oa_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
         "retrieval": "open"
@@ -113,7 +114,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -166,7 +168,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -224,12 +227,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.01.010",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00037-3/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00037-3/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.01.010",
         "retrieval": "open"

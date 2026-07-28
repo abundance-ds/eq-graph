@@ -43,12 +43,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2021.12.014",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522000419/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522000419/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2021.12.014",
         "retrieval": "open"

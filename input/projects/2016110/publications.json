@@ -263,13 +263,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12681457",
-        "pdf_url": "https://europepmc.org/articles/PMC12681457?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04077-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04077-9.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-04077-9",
         "retrieval": "open"
       }
@@ -305,12 +306,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/s11238-019-09707-6",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11238-019-09707-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11238-019-09707-6.pdf",
         "landing_page": "https://doi.org/10.1007/s11238-019-09707-6",
         "retrieval": "open"
@@ -358,7 +360,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -446,7 +449,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -489,12 +493,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.05.013",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522020010/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522020010/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.05.013",
         "retrieval": "open"
@@ -595,18 +600,18 @@
       "pmid": "36498500",
       "pmcid": "PMC9740302",
       "title": "Health-Related Quality of Life in Migraine: EQ-5D-5L-Based Study in Routine Clinical Practice",
-      "journal": "Journal of clinical medicine",
+      "journal": "Journal of Clinical Medicine",
       "year": 2022,
       "authors": [
         {
-          "full_name": "Domitrz I",
+          "full_name": "Izabela Domitrz",
           "last_name": "Domitrz",
-          "orcid": "0000-0003-3130-1036"
+          "orcid": "https://orcid.org/0000-0003-3130-1036"
         },
         {
-          "full_name": "Golicki D",
+          "full_name": "Dominik Golicki",
           "last_name": "Golicki",
-          "orcid": "0000-0001-7741-4760"
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
         }
       ],
       "score": 0.45,
@@ -620,12 +625,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC9740302",
+        "licence": "cc-by",
+        "oa_url": "https://www.mdpi.com/2077-0383/11/23/6925/pdf?version=1669275490",
         "pdf_url": "https://www.mdpi.com/2077-0383/11/23/6925/pdf?version=1669275490",
         "landing_page": "https://doi.org/10.3390/jcm11236925",
         "retrieval": "open"

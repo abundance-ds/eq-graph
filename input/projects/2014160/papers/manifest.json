@@ -15,6 +15,17 @@
       "file": "input/projects/2014160/papers/doi_10.1007_s11136-019-02115-x.xml",
       "bytes": 111972,
       "sha256": "9c84d2fa7e8ebbb3470837733982f3c1d00dc3ad096c45b40c9c72cedeb3d7db"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.05.002",
+      "doi": "10.1016/j.jval.2018.05.002",
+      "title": "Valuation of EuroQol Five-Dimensional Questionnaire, Youth Version (EQ-5D-Y) and EuroQol Five-Dimensional Questionnaire, Three-Level Version (EQ-5D-3L) Health States: The Impact of Wording and Perspective",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.jval.2018.05.002",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
     }
   ]
 }

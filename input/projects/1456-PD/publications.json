@@ -68,13 +68,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12191542",
-        "pdf_url": "https://europepmc.org/articles/PMC12191542?pdf=render",
+        "oa_url": "https://www.mdpi.com/1718-7729/32/6/308/pdf?version=1748337715",
+        "pdf_url": "https://www.mdpi.com/1718-7729/32/6/308/pdf?version=1748337715",
         "landing_page": "https://doi.org/10.3390/curroncol32060308",
         "retrieval": "open"
       }
@@ -126,13 +127,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12651012",
-        "pdf_url": "https://europepmc.org/articles/PMC12651012?pdf=render",
+        "oa_url": "https://www.mdpi.com/1718-7729/32/11/645/pdf?version=1763537715",
+        "pdf_url": "https://www.mdpi.com/1718-7729/32/11/645/pdf?version=1763537715",
         "landing_page": "https://doi.org/10.3390/curroncol32110645",
         "retrieval": "open"
       }

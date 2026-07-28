@@ -4,6 +4,63 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1002/hec.3445",
+      "doi": "10.1002/hec.3445",
+      "pmid": "27790801",
+      "pmcid": null,
+      "title": "Are Health State Valuations from the General Public Biased? A Test of Health State Reference Dependency Using Self‐assessed Health and an Efficient Discrete Choice Experiment",
+      "journal": "Health Economics",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        },
+        {
+          "full_name": "Arthur E. Attema",
+          "last_name": "Attema",
+          "orcid": "https://orcid.org/0000-0003-3607-6579"
+        },
+        {
+          "full_name": "Bas Donkers",
+          "last_name": "Donkers",
+          "orcid": "https://orcid.org/0000-0002-0412-4276"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Matthijs Versteegh",
+          "last_name": "Versteegh",
+          "orcid": "https://orcid.org/0000-0003-4804-235x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "other-oa",
+        "oa_url": "https://pure.eur.nl/en/publications/87d8b6b3-61d0-48ad-8996-3bcee8e0d3a9",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1002/hec.3445",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1002/hec.4529",
       "doi": "10.1002/hec.4529",
       "pmid": "35474364",
@@ -40,13 +97,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9541376",
-        "pdf_url": "https://pure.eur.nl/files/54163867/Health_Economics_2022_Lipman_Correcting_for_discounting_and_loss_aversion_in_composite_time_trade_off.pdf",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4529",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4529",
         "landing_page": "https://doi.org/10.1002/hec.4529",
         "retrieval": "open"
       }
@@ -142,6 +200,115 @@
         "oa_url": "https://europepmc.org/articles/PMC5073108",
         "pdf_url": "https://europepmc.org/articles/PMC5073108?pdf=render",
         "landing_page": "https://doi.org/10.1007/s40273-016-0421-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.06.002",
+      "doi": "10.1016/j.jval.2022.06.002",
+      "pmid": "35803844",
+      "pmcid": null,
+      "title": "Estimating Quality of Life Decrements in Oncology Using Time to Death",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Matthijs Versteegh",
+          "last_name": "Versteegh",
+          "orcid": "https://orcid.org/0000-0003-4804-235x"
+        },
+        {
+          "full_name": "Ide van der Helm",
+          "last_name": "Helm",
+          "orcid": null
+        },
+        {
+          "full_name": "Hamraz Mokri",
+          "last_name": "Mokri",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Oerlemans",
+          "last_name": "Oerlemans",
+          "orcid": "https://orcid.org/0000-0003-1595-7262"
+        },
+        {
+          "full_name": "Hedwig M. Blommestein",
+          "last_name": "Blommestein",
+          "orcid": "https://orcid.org/0000-0002-5846-0531"
+        },
+        {
+          "full_name": "Pieter van Baal",
+          "last_name": "Baal",
+          "orcid": "https://orcid.org/0000-0001-9913-2393"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://doi.org/10.1016/j.jval.2022.06.002",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.06.002",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2018.12.028",
+      "doi": "10.1016/j.socscimed.2018.12.028",
+      "pmid": "30658291",
+      "pmcid": null,
+      "title": "Can time heal all wounds? An empirical assessment of adaptation to functional limitations in an older population",
+      "journal": "Social Science & Medicine",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Anne de Hond",
+          "last_name": "Hond",
+          "orcid": "https://orcid.org/0000-0002-3473-3398"
+        },
+        {
+          "full_name": "Pieter Bakx",
+          "last_name": "Bakx",
+          "orcid": "https://orcid.org/0000-0001-7749-3091"
+        },
+        {
+          "full_name": "Matthijs Versteegh",
+          "last_name": "Versteegh",
+          "orcid": "https://orcid.org/0000-0003-4804-235x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2018.12.028",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2018.12.028",
         "retrieval": "open"
       }
     }

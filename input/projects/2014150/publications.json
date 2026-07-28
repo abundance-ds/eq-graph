@@ -43,13 +43,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5954059",
-        "pdf_url": "https://europepmc.org/articles/PMC5954059?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0647-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0647-0.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-018-0647-0",
         "retrieval": "open"
       }
@@ -91,12 +92,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC5755756",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0190111&type=printable",
         "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0190111&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0190111",
         "retrieval": "open"
@@ -111,38 +113,38 @@
       "pmid": "27807631",
       "pmcid": "PMC5602004",
       "title": "Head-to-head comparison of health-state values derived by a probabilistic choice model and scores on a visual analogue scale",
-      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
-      "year": 2017,
+      "journal": "The European Journal of Health Economics",
+      "year": 2016,
       "authors": [
         {
-          "full_name": "Krabbe PFM",
+          "full_name": "Paul F. M. Krabbe",
           "last_name": "Krabbe",
-          "orcid": "0000-0001-6042-1243"
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
         },
         {
-          "full_name": "Stolk EA",
+          "full_name": "Elly Stolk",
           "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
         },
         {
-          "full_name": "Devlin NJ",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Xie F",
+          "full_name": "Feng Xie",
           "last_name": "Xie",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
         },
         {
-          "full_name": "Quik EH",
+          "full_name": "E.H. Quik",
           "last_name": "Quik",
-          "orcid": "0000-0002-2314-327X"
+          "orcid": "https://orcid.org/0000-0002-2314-327x"
         },
         {
-          "full_name": "Pickard AS",
+          "full_name": "A. Simon Pickard",
           "last_name": "Pickard",
-          "orcid": "0000-0001-5645-7091"
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
         }
       ],
       "score": 0.45,
@@ -156,13 +158,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC5602004",
-        "pdf_url": "https://europepmc.org/articles/PMC5602004?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-016-0841-y.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-016-0841-y.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-016-0841-y",
         "retrieval": "open"
       }
@@ -215,23 +218,28 @@
       }
     },
     {
-      "work_id": "doi:10.1080/14737167.2020.1779062",
-      "doi": "10.1080/14737167.2020.1779062",
-      "pmid": "32552002",
+      "work_id": "doi:10.1007/s40258-023-00861-1",
+      "doi": "10.1007/s40258-023-00861-1",
+      "pmid": "38103159",
       "pmcid": null,
-      "title": "An overview of the time trade-off method: concept, foundation, and the evaluation of distorting factors in putting a value on health",
-      "journal": "Expert review of pharmacoeconomics & outcomes research",
-      "year": 2020,
+      "title": "Correction to: Different Frameworks, Similar Results? Head-to-Head Comparison of the Generic Preference-Based Health-Outcome Measures CS-Base and EQ-5D-5L",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2023,
       "authors": [
         {
-          "full_name": "Lugnér AK",
-          "last_name": "Lugnér",
-          "orcid": null
+          "full_name": "Xin Zhang",
+          "last_name": "Zhang",
+          "orcid": "https://orcid.org/0000-0002-7678-4468"
         },
         {
-          "full_name": "Krabbe PFM",
+          "full_name": "Karin M. Vermeulen",
+          "last_name": "Vermeulen",
+          "orcid": "https://orcid.org/0000-0001-9257-2791"
+        },
+        {
+          "full_name": "Paul F. M. Krabbe",
           "last_name": "Krabbe",
-          "orcid": "0000-0001-6042-1243"
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
         }
       ],
       "score": 0.45,
@@ -245,15 +253,58 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "openalex"
       ],
       "access": {
-        "is_oa": false,
+        "is_oa": true,
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00861-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00861-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40258-023-00861-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1080/14737167.2020.1779062",
+      "doi": "10.1080/14737167.2020.1779062",
+      "pmid": "32552002",
+      "pmcid": null,
+      "title": "An overview of the time trade-off method: concept, foundation, and the evaluation of distorting factors in putting a value on health",
+      "journal": "Expert Review of Pharmacoeconomics & Outcomes Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Anna K. Lugnér",
+          "last_name": "Lugnér",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul F. M. Krabbe",
+          "last_name": "Krabbe",
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
         "licence": "cc by-nc-nd",
-        "oa_url": null,
-        "pdf_url": null,
+        "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/14737167.2020.1779062?needAccess=true",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14737167.2020.1779062?needAccess=true",
         "landing_page": "https://doi.org/10.1080/14737167.2020.1779062",
-        "retrieval": "requires_subscription"
+        "retrieval": "open"
       }
     },
     {

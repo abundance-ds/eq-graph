@@ -117,13 +117,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5376385",
-        "pdf_url": "https://europepmc.org/articles/PMC5376385?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs11136-016-1445-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs11136-016-1445-9.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-016-1445-9",
         "retrieval": "open"
       }
@@ -190,13 +191,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5656740",
-        "pdf_url": "https://europepmc.org/articles/PMC5656740?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-017-0538-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-017-0538-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-017-0538-9",
         "retrieval": "open"
       }
@@ -283,12 +285,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.02.009",
         "retrieval": "open"
@@ -336,12 +339,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10262504",
+        "oa_url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-023-16003-0",
         "pdf_url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-023-16003-0",
         "landing_page": "https://doi.org/10.1186/s12889-023-16003-0",
         "retrieval": "open"
@@ -409,12 +413,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8591892",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01889-4",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01889-4",
         "landing_page": "https://doi.org/10.1186/s12955-021-01889-4",
         "retrieval": "open"
@@ -462,13 +467,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9164342",
-        "pdf_url": "https://europepmc.org/articles/PMC9164342?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-01996-w",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-01996-w",
         "landing_page": "https://doi.org/10.1186/s12955-022-01996-w",
         "retrieval": "open"
       }
@@ -530,13 +536,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC5947896",
-        "pdf_url": "https://europepmc.org/articles/PMC5947896?pdf=render",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197098&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197098&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0197098",
         "retrieval": "open"
       }

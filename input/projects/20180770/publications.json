@@ -58,13 +58,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9780618",
-        "pdf_url": "https://europepmc.org/articles/PMC9780618?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02083-w",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02083-w",
         "landing_page": "https://doi.org/10.1186/s12955-022-02083-w",
         "retrieval": "open"
       }
@@ -129,76 +130,15 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7295839",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02469-7.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02469-7.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02469-7",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s11136-021-02959-2",
-      "doi": "10.1007/s11136-021-02959-2",
-      "pmid": "34370187",
-      "pmcid": "PMC8847252",
-      "title": "Reference data among general population and known-groups validity among hypertensive population of the EQ-5D-5L in Vietnam",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Mai VQ",
-          "last_name": "Mai",
-          "orcid": "0000-0001-6962-0564"
-        },
-        {
-          "full_name": "Giang KB",
-          "last_name": "Giang",
-          "orcid": "0000-0003-2290-0205"
-        },
-        {
-          "full_name": "Minh HV",
-          "last_name": "Minh",
-          "orcid": "0000-0002-4749-5536"
-        },
-        {
-          "full_name": "Lindholm L",
-          "last_name": "Lindholm",
-          "orcid": "0000-0002-1633-2179"
-        },
-        {
-          "full_name": "Sun S",
-          "last_name": "Sun",
-          "orcid": "0000-0001-5948-3025"
-        },
-        {
-          "full_name": "Sahlen KG",
-          "last_name": "Sahlen",
-          "orcid": "0000-0002-3975-4868"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC8847252",
-        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02959-2.pdf",
-        "landing_page": "https://doi.org/10.1007/s11136-021-02959-2",
         "retrieval": "open"
       }
     }

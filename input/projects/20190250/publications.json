@@ -48,7 +48,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -62,6 +63,113 @@
   ],
   "review": [],
   "weak": [
+    {
+      "work_id": "doi:10.1002/lci2.84",
+      "doi": "10.1002/lci2.84",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Impact of hepatic steatosis on risk of acute liver injury in people with chronic hepatitis B and <scp>SARS</scp>‐CoV‐2 infection",
+      "journal": "Liver international communications.",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Matthew Shing Hin Chung",
+          "last_name": "Chung",
+          "orcid": "https://orcid.org/0000-0002-1669-4479"
+        },
+        {
+          "full_name": "Carlos King Ho Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Xue Li",
+          "last_name": "Li",
+          "orcid": "https://orcid.org/0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Francisco Tsz Tsun Lai",
+          "last_name": "Lai",
+          "orcid": "https://orcid.org/0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Eric Yuk Fai Wan",
+          "last_name": "Wan",
+          "orcid": "https://orcid.org/0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Celine Sze Ling Chui",
+          "last_name": "Chui",
+          "orcid": "https://orcid.org/0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Franco Wing Tak Cheng",
+          "last_name": "Cheng",
+          "orcid": "https://orcid.org/0000-0001-7818-1575"
+        },
+        {
+          "full_name": "Esther W. Chan",
+          "last_name": "Chan",
+          "orcid": "https://orcid.org/0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Ching‐Lung Cheung",
+          "last_name": "Cheung",
+          "orcid": "https://orcid.org/0000-0002-6233-9144"
+        },
+        {
+          "full_name": "Xi Xiong",
+          "last_name": "Xiong",
+          "orcid": "https://orcid.org/0000-0002-9418-7448"
+        },
+        {
+          "full_name": "Lanlan Li",
+          "last_name": "Li",
+          "orcid": "https://orcid.org/0009-0002-5529-5830"
+        },
+        {
+          "full_name": "Wai Kay Seto",
+          "last_name": "Seto",
+          "orcid": null
+        },
+        {
+          "full_name": "Man‐Fung Yuen",
+          "last_name": "Yuen",
+          "orcid": "https://orcid.org/0000-0001-7985-7725"
+        },
+        {
+          "full_name": "Lung‐Yi Mak",
+          "last_name": "Mak",
+          "orcid": "https://orcid.org/0000-0002-2266-3935"
+        },
+        {
+          "full_name": "Ian Chi Kei Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0001-8242-0014"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lci2.84",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lci2.84",
+        "landing_page": "https://doi.org/10.1002/lci2.84",
+        "retrieval": "open"
+      }
+    },
     {
       "work_id": "doi:10.1007/s40264-022-01228-6",
       "doi": "10.1007/s40264-022-01228-6",
@@ -257,108 +365,108 @@
       "pmid": "35128500",
       "pmcid": "PMC8808060",
       "title": "Herpes zoster related hospitalization after inactivated (CoronaVac) and mRNA (BNT162b2) SARS-CoV-2 vaccination: A self-controlled case series and nested case-control study",
-      "journal": "The Lancet regional health. Western Pacific",
+      "journal": "The Lancet Regional Health - Western Pacific",
       "year": 2022,
       "authors": [
         {
-          "full_name": "Wan EYF",
+          "full_name": "Eric Yuk Fai Wan",
           "last_name": "Wan",
-          "orcid": "0000-0002-6275-1147"
+          "orcid": "https://orcid.org/0000-0002-6275-1147"
         },
         {
-          "full_name": "Chui CSL",
+          "full_name": "Celine Sze Ling Chui",
           "last_name": "Chui",
-          "orcid": "0000-0003-1513-8726"
+          "orcid": "https://orcid.org/0000-0003-1513-8726"
         },
         {
-          "full_name": "Wang Y",
+          "full_name": "Yuan Wang",
           "last_name": "Wang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-5692-2659"
         },
         {
-          "full_name": "Ng VWS",
+          "full_name": "V Ng",
           "last_name": "Ng",
-          "orcid": "0000-0003-2594-545X"
+          "orcid": "https://orcid.org/0000-0003-2594-545x"
         },
         {
-          "full_name": "Yan VKC",
+          "full_name": "Vincent Ka Chun Yan",
           "last_name": "Yan",
-          "orcid": "0000-0001-5225-3032"
+          "orcid": "https://orcid.org/0000-0001-5225-3032"
         },
         {
-          "full_name": "Lai FTT",
+          "full_name": "Francisco Tsz Tsun Lai",
           "last_name": "Lai",
-          "orcid": "0000-0002-9121-1959"
+          "orcid": "https://orcid.org/0000-0002-9121-1959"
         },
         {
-          "full_name": "Li X",
+          "full_name": "Xue Li",
           "last_name": "Li",
-          "orcid": "0000-0003-4836-7808"
+          "orcid": "https://orcid.org/0000-0003-4836-7808"
         },
         {
-          "full_name": "Wong CKH",
+          "full_name": "Carlos King Ho Wong",
           "last_name": "Wong",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-6895-6071"
         },
         {
-          "full_name": "Chan EWY",
+          "full_name": "Esther W. Chan",
           "last_name": "Chan",
-          "orcid": "0000-0002-7602-9470"
+          "orcid": "https://orcid.org/0000-0002-7602-9470"
         },
         {
-          "full_name": "Wong CSM",
+          "full_name": "Christina Sze Man Wong",
           "last_name": "Wong",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4603-6407"
         },
         {
-          "full_name": "Leung KSM",
+          "full_name": "Kathy Leung",
           "last_name": "Leung",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4777-388x"
         },
         {
-          "full_name": "Ni MY",
+          "full_name": "Michael Y. Ni",
           "last_name": "Ni",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1217-5858"
         },
         {
-          "full_name": "Valkenburg SA",
+          "full_name": "Sophie Valkenburg",
           "last_name": "Valkenburg",
-          "orcid": "0000-0002-0768-9926"
+          "orcid": "https://orcid.org/0000-0003-3019-550x"
         },
         {
-          "full_name": "Peiris JSM",
+          "full_name": "Joseph Sriyal Malik Peiris",
           "last_name": "Peiris",
           "orcid": null
         },
         {
-          "full_name": "Wu JTK",
+          "full_name": "Joseph T. Wu",
           "last_name": "Wu",
-          "orcid": "0000-0002-3155-5987"
+          "orcid": "https://orcid.org/0000-0002-3155-5987"
         },
         {
-          "full_name": "Cowling BJ",
+          "full_name": "Benjamin J. Cowling",
           "last_name": "Cowling",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-6297-7154"
         },
         {
-          "full_name": "Ashcroft DM",
+          "full_name": "Darren M. Ashcroft",
           "last_name": "Ashcroft",
-          "orcid": "0000-0002-2958-915X"
+          "orcid": "https://orcid.org/0000-0002-2958-915x"
         },
         {
-          "full_name": "Hung IFN",
+          "full_name": "Ivan Fan‐Ngai Hung",
           "last_name": "Hung",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1556-2538"
         },
         {
-          "full_name": "Leung GM",
+          "full_name": "GM Leung",
           "last_name": "Leung",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-2503-6283"
         },
         {
-          "full_name": "Wong ICK",
+          "full_name": "Ian Chi Kei Wong",
           "last_name": "Wong",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8242-0014"
         }
       ],
       "score": 0.45,
@@ -372,12 +480,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC8808060",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "http://www.thelancet.com/article/S2666606522000128/pdf",
         "pdf_url": "http://www.thelancet.com/article/S2666606522000128/pdf",
         "landing_page": "https://doi.org/10.1016/j.lanwpc.2022.100393",
         "retrieval": "open"
@@ -715,6 +824,63 @@
       }
     },
     {
+      "work_id": "doi:10.1093/cid/ciad519",
+      "doi": "10.1093/cid/ciad519",
+      "pmid": "37647855",
+      "pmcid": null,
+      "title": "Comparison of Bivalent and Monovalent mRNA Vaccine Boosters",
+      "journal": "Clinical Infectious Diseases",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Carlos King Ho Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Kristy T. K. Lau",
+          "last_name": "Lau",
+          "orcid": "https://orcid.org/0000-0003-4412-2969"
+        },
+        {
+          "full_name": "Ivan Chi Ho Au",
+          "last_name": "Au",
+          "orcid": "https://orcid.org/0000-0001-5904-8322"
+        },
+        {
+          "full_name": "Eric H. Y. Lau",
+          "last_name": "Lau",
+          "orcid": "https://orcid.org/0000-0002-6688-9637"
+        },
+        {
+          "full_name": "Benjamin J. Cowling",
+          "last_name": "Cowling",
+          "orcid": "https://orcid.org/0000-0002-6297-7154"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://academic.oup.com/cid/advance-article-pdf/doi/10.1093/cid/ciad519/51725249/ciad519.pdf",
+        "pdf_url": "https://academic.oup.com/cid/advance-article-pdf/doi/10.1093/cid/ciad519/51725249/ciad519.pdf",
+        "landing_page": "https://doi.org/10.1093/cid/ciad519",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1093/ndt/gfac292",
       "doi": "10.1093/ndt/gfac292",
       "pmid": "36367015",
@@ -996,68 +1162,68 @@
       "pmid": "34686479",
       "pmcid": "PMC8550868",
       "title": "Two-dose COVID-19 vaccination and possible arthritis flare among patients with rheumatoid arthritis in Hong Kong",
-      "journal": "Annals of the rheumatic diseases",
-      "year": 2022,
+      "journal": "Annals of the Rheumatic Diseases",
+      "year": 2021,
       "authors": [
         {
-          "full_name": "Li X",
+          "full_name": "Xue Li",
           "last_name": "Li",
-          "orcid": "0000-0003-4836-7808"
+          "orcid": "https://orcid.org/0000-0003-4836-7808"
         },
         {
-          "full_name": "Tong X",
+          "full_name": "Xinning Tong",
           "last_name": "Tong",
-          "orcid": "0000-0003-2310-0365"
+          "orcid": "https://orcid.org/0000-0003-2310-0365"
         },
         {
-          "full_name": "Yeung WWY",
+          "full_name": "Winnie Wan Yin Yeung",
           "last_name": "Yeung",
-          "orcid": "0000-0002-1785-4921"
+          "orcid": "https://orcid.org/0000-0002-1785-4921"
         },
         {
-          "full_name": "Kuan P",
-          "last_name": "Kuan",
+          "full_name": "Kuan Peng",
+          "last_name": "Peng",
           "orcid": null
         },
         {
-          "full_name": "Yum SHH",
+          "full_name": "Samson Hin Hei Yum",
           "last_name": "Yum",
           "orcid": null
         },
         {
-          "full_name": "Chui CSL",
+          "full_name": "Celine Sze Ling Chui",
           "last_name": "Chui",
-          "orcid": "0000-0003-1513-8726"
+          "orcid": "https://orcid.org/0000-0003-1513-8726"
         },
         {
-          "full_name": "Lai FTT",
+          "full_name": "Francisco Tsz Tsun Lai",
           "last_name": "Lai",
-          "orcid": "0000-0002-9121-1959"
+          "orcid": "https://orcid.org/0000-0002-9121-1959"
         },
         {
-          "full_name": "Wan EYF",
+          "full_name": "Eric Yuk Fai Wan",
           "last_name": "Wan",
-          "orcid": "0000-0002-6275-1147"
+          "orcid": "https://orcid.org/0000-0002-6275-1147"
         },
         {
-          "full_name": "Wong CKH",
+          "full_name": "Carlos King Ho Wong",
           "last_name": "Wong",
-          "orcid": "0000-0002-6895-6071"
+          "orcid": "https://orcid.org/0000-0002-6895-6071"
         },
         {
-          "full_name": "Chan EWY",
+          "full_name": "Esther W. Chan",
           "last_name": "Chan",
-          "orcid": "0000-0002-7602-9470"
+          "orcid": "https://orcid.org/0000-0002-7602-9470"
         },
         {
-          "full_name": "Lau CS",
+          "full_name": "Chak Sing Lau",
           "last_name": "Lau",
-          "orcid": "0000-0001-6698-8355"
+          "orcid": "https://orcid.org/0000-0001-6698-8355"
         },
         {
-          "full_name": "Wong ICK",
+          "full_name": "Ian Chi Kei Wong",
           "last_name": "Wong",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8242-0014"
         }
       ],
       "score": 0.45,
@@ -1071,13 +1237,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC8550868",
-        "pdf_url": "https://europepmc.org/articles/PMC8550868?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://ard.bmj.com/content/annrheumdis/81/4/564.full.pdf",
+        "pdf_url": "https://ard.bmj.com/content/annrheumdis/81/4/564.full.pdf",
         "landing_page": "https://doi.org/10.1136/annrheumdis-2021-221571",
         "retrieval": "open"
       }

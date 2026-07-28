@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -118,12 +119,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "http://hdl.handle.net/1942/43064",
+        "oa_url": "https://documentserver.uhasselt.be//bitstream/1942/43064/2/auteursversie.pdf",
         "pdf_url": "https://documentserver.uhasselt.be//bitstream/1942/43064/2/auteursversie.pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.01.005",
         "retrieval": "open"
@@ -176,7 +178,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -255,33 +258,33 @@
       "pmid": "33809532",
       "pmcid": "PMC7999450",
       "title": "Investigating the Self-Reported Health Status of Domestic and Overseas Chinese Populations during the COVID-19 Pandemic",
-      "journal": "International journal of environmental research and public health",
+      "journal": "International Journal of Environmental Research and Public Health",
       "year": 2021,
       "authors": [
         {
-          "full_name": "Mao Z",
+          "full_name": "Zhuxin Mao",
           "last_name": "Mao",
-          "orcid": "0000-0002-7444-1584"
+          "orcid": "https://orcid.org/0000-0002-7444-1584"
         },
         {
-          "full_name": "Chen B",
+          "full_name": "Bohao Chen",
           "last_name": "Chen",
           "orcid": null
         },
         {
-          "full_name": "Wang W",
+          "full_name": "Wei Wang",
           "last_name": "Wang",
-          "orcid": "0000-0002-1718-2758"
+          "orcid": "https://orcid.org/0000-0002-1718-2758"
         },
         {
-          "full_name": "Kind P",
+          "full_name": "Paul Kind",
           "last_name": "Kind",
-          "orcid": "0000-0003-2377-1652"
+          "orcid": "https://orcid.org/0000-0003-2377-1652"
         },
         {
-          "full_name": "Wang P",
+          "full_name": "Pei Wang",
           "last_name": "Wang",
-          "orcid": "0000-0003-3661-3944"
+          "orcid": "https://orcid.org/0000-0003-3661-3944"
         }
       ],
       "score": 0.45,
@@ -295,12 +298,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC7999450",
+        "licence": "cc-by",
+        "oa_url": "https://www.mdpi.com/1660-4601/18/6/3043/pdf?version=1615889432",
         "pdf_url": "https://www.mdpi.com/1660-4601/18/6/3043/pdf?version=1615889432",
         "landing_page": "https://doi.org/10.3390/ijerph18063043",
         "retrieval": "open"

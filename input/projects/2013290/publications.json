@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -103,7 +104,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -310,7 +312,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -378,13 +381,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6387514",
-        "pdf_url": "https://bmcmusculoskeletdisord.biomedcentral.com/track/pdf/10.1186/s12891-019-2434-2",
+        "oa_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-019-2434-2",
+        "pdf_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-019-2434-2",
         "landing_page": "https://doi.org/10.1186/s12891-019-2434-2",
         "retrieval": "open"
       }

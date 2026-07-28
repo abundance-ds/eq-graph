@@ -50,12 +50,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10232554",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01264-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01264-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-023-01264-9",
         "retrieval": "open"
@@ -108,14 +109,72 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.07.005",
-        "pdf_url": "https://www.medrxiv.org/content/medrxiv/early/2021/12/14/2021.12.13.21267671.full.pdf",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)02101-5/pdf",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)02101-5/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.07.005",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1101/2021.12.13.21267671",
+      "doi": "10.1101/2021.12.13.21267671",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Quality-adjusted life expectancy norms for the English population",
+      "journal": "medRxiv",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "P. Schneider",
+          "last_name": "Schneider",
+          "orcid": "https://orcid.org/0000-0003-3552-1087"
+        },
+        {
+          "full_name": "Simon McNamara",
+          "last_name": "McNamara",
+          "orcid": "https://orcid.org/0000-0003-1082-118x"
+        },
+        {
+          "full_name": "James Love-Koh",
+          "last_name": "Love-Koh",
+          "orcid": "https://orcid.org/0000-0001-9009-5346"
+        },
+        {
+          "full_name": "Tim Doran",
+          "last_name": "Doran",
+          "orcid": "https://orcid.org/0000-0001-7857-3704"
+        },
+        {
+          "full_name": "Nils Gutacker",
+          "last_name": "Gutacker",
+          "orcid": "https://orcid.org/0000-0002-2833-0621"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.medrxiv.org/content/medrxiv/early/2021/12/14/2021.12.13.21267671.full.pdf",
+        "pdf_url": "https://www.medrxiv.org/content/medrxiv/early/2021/12/14/2021.12.13.21267671.full.pdf",
+        "landing_page": "https://doi.org/10.1101/2021.12.13.21267671",
         "retrieval": "open"
       }
     },
@@ -166,12 +225,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9347153",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02024-7",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02024-7",
         "landing_page": "https://doi.org/10.1186/s12955-022-02024-7",
         "retrieval": "open"

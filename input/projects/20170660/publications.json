@@ -60,14 +60,77 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2020.05.004",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301520320994/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301520320994/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2020.05.004",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.12.010",
+      "doi": "10.1016/j.jval.2021.12.010",
+      "pmid": "35148961",
+      "pmcid": null,
+      "title": "The Development of a New International Generic Measure (EQ-HWB): Face Validity and Psychometric Stages in Argentina",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": "https://orcid.org/0000-0002-2914-5022"
+        },
+        {
+          "full_name": "Fernando Argento",
+          "last_name": "Argento",
+          "orcid": "https://orcid.org/0000-0002-2492-8933"
+        },
+        {
+          "full_name": "Rocio Rodríguez",
+          "last_name": "Rodríguez",
+          "orcid": "https://orcid.org/0000-0001-5687-5517"
+        },
+        {
+          "full_name": "Luz Gibbons",
+          "last_name": "Gibbons",
+          "orcid": "https://orcid.org/0000-0002-0235-1635"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        },
+        {
+          "full_name": "María Belizán",
+          "last_name": "Belizán",
+          "orcid": "https://orcid.org/0000-0002-8739-5249"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522000134/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522000134/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.12.010",
         "retrieval": "open"
       }
     },
@@ -113,12 +176,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9808950",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02079-6",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02079-6",
         "landing_page": "https://doi.org/10.1186/s12955-022-02079-6",
         "retrieval": "open"

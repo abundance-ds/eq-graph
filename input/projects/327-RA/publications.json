@@ -50,7 +50,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -67,28 +68,28 @@
       "pmid": "39012559",
       "pmcid": "PMC11452469",
       "title": "Health-related quality of life and utility values among patients with anxiety and/or depression in a low-income tertiary care setting: a cross-sectional analysis",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "journal": "Quality of Life Research",
       "year": 2024,
       "authors": [
         {
-          "full_name": "Belay YB",
+          "full_name": "Yared Belete Belay",
           "last_name": "Belay",
-          "orcid": "0000-0001-5473-3857"
+          "orcid": "https://orcid.org/0000-0001-5473-3857"
         },
         {
-          "full_name": "Mihalopoulos C",
+          "full_name": "Cathrine Mihalopoulos",
           "last_name": "Mihalopoulos",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-7127-9462"
         },
         {
-          "full_name": "Lee YY",
+          "full_name": "Yong Yi Lee",
           "last_name": "Lee",
-          "orcid": "0000-0003-2359-6823"
+          "orcid": "https://orcid.org/0000-0003-2359-6823"
         },
         {
-          "full_name": "Engel L",
+          "full_name": "Lidia Engel",
           "last_name": "Engel",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
         }
       ],
       "score": 0.45,
@@ -102,13 +103,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC11452469",
-        "pdf_url": "https://europepmc.org/articles/PMC11452469?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03735-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03735-8.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03735-8",
         "retrieval": "open"
       }

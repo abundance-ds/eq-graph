@@ -48,13 +48,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274235",
-        "pdf_url": "https://europepmc.org/articles/PMC12274235?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03990-3",
         "retrieval": "open"
       }
@@ -186,13 +187,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274246",
-        "pdf_url": "https://europepmc.org/articles/PMC12274246?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03996-x",
         "retrieval": "open"
       }
@@ -269,13 +271,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11169028",
-        "pdf_url": "https://europepmc.org/articles/PMC11169028?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01330-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01330-2.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-023-01330-2",
         "retrieval": "open"
       }
@@ -342,12 +345,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11168999",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01354-2.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01354-2.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-024-01354-2",
         "retrieval": "open"
@@ -415,12 +419,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11169045",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01355-1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01355-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-024-01355-1",
         "retrieval": "open"
@@ -473,7 +478,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -487,7 +493,7 @@
     {
       "work_id": "doi:10.1136/archdischild-2025-329475",
       "doi": "10.1136/archdischild-2025-329475",
-      "pmid": null,
+      "pmid": "41881521",
       "pmcid": null,
       "title": "Comparative performance of common paediatric patient-reported outcome measures (P-PROMs) across health conditions",
       "journal": "Archives of Disease in Childhood",
@@ -565,12 +571,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://doi.org/10.1136/archdischild-2025-329475",
+        "oa_url": "https://adc.bmj.com/content/archdischild/early/2026/03/25/archdischild-2025-329475.full.pdf",
         "pdf_url": "https://adc.bmj.com/content/archdischild/early/2026/03/25/archdischild-2025-329475.full.pdf",
         "landing_page": "https://doi.org/10.1136/archdischild-2025-329475",
         "retrieval": "open"
@@ -653,13 +660,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10605580",
-        "pdf_url": "https://europepmc.org/articles/PMC10605580?pdf=render",
+        "oa_url": "https://www.mdpi.com/2227-9067/10/10/1604/pdf?version=1695734516",
+        "pdf_url": "https://www.mdpi.com/2227-9067/10/10/1604/pdf?version=1695734516",
         "landing_page": "https://doi.org/10.3390/children10101604",
         "retrieval": "open"
       }
@@ -821,12 +829,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.06.004",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.06.004",
         "retrieval": "open"
@@ -884,12 +893,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9993735",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2023.115818",
         "pdf_url": "https://europepmc.org/articles/PMC9993735?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.socscimed.2023.115818",
         "retrieval": "open"

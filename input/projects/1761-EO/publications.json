@@ -45,13 +45,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12535937",
-        "pdf_url": "https://europepmc.org/articles/PMC12535937?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00989-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00989-2.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-025-00989-2",
         "retrieval": "open"
       }
@@ -114,78 +115,6 @@
       }
     },
     {
-      "work_id": "doi:10.1016/j.jval.2022.08.011",
-      "doi": "10.1016/j.jval.2022.08.011",
-      "pmid": "36244905",
-      "pmcid": null,
-      "title": "Modifying the Composite Time Trade-Off Method to Improve Its Discriminatory Power",
-      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
-      "year": 2023,
-      "authors": [
-        {
-          "full_name": "Jakubczyk M",
-          "last_name": "Jakubczyk",
-          "orcid": "0000-0002-0006-6769"
-        },
-        {
-          "full_name": "Lipman SA",
-          "last_name": "Lipman",
-          "orcid": null
-        },
-        {
-          "full_name": "Roudijk B",
-          "last_name": "Roudijk",
-          "orcid": null
-        },
-        {
-          "full_name": "Norman R",
-          "last_name": "Norman",
-          "orcid": null
-        },
-        {
-          "full_name": "Pullenayegum E",
-          "last_name": "Pullenayegum",
-          "orcid": null
-        },
-        {
-          "full_name": "Yang Y",
-          "last_name": "Yang",
-          "orcid": null
-        },
-        {
-          "full_name": "Gu NY",
-          "last_name": "Gu",
-          "orcid": null
-        },
-        {
-          "full_name": "Stolk E",
-          "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": false,
-        "licence": "cc by-nc-nd",
-        "oa_url": null,
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2022.08.011",
-        "retrieval": "requires_subscription"
-      }
-    },
-    {
       "work_id": "doi:10.1016/j.jval.2022.10.005",
       "doi": "10.1016/j.jval.2022.10.005",
       "pmid": "36328327",
@@ -233,73 +162,73 @@
       "pmid": "40518518",
       "pmcid": "PMC12168295",
       "title": "Optimal DCE design for modelling nonlinear time preferences in EQ-5D-5L valuation studies: exploration of data from Denmark and Peru",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2025,
       "authors": [
         {
-          "full_name": "Yu A",
+          "full_name": "Alice Yu",
           "last_name": "Yu",
-          "orcid": "0000-0003-4515-9878"
+          "orcid": "https://orcid.org/0000-0003-4515-9878"
         },
         {
-          "full_name": "Street D",
+          "full_name": "Deborah J. Street",
           "last_name": "Street",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-4476-0656"
         },
         {
-          "full_name": "Jonker M",
+          "full_name": "Marcel F. Jonker",
           "last_name": "Jonker",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
         },
         {
-          "full_name": "Bour S",
+          "full_name": "Sterre Bour",
           "last_name": "Bour",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-6592-1850"
         },
         {
-          "full_name": "Mulhern B",
+          "full_name": "Brendan Mulhern",
           "last_name": "Mulhern",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
         },
         {
-          "full_name": "Augustovski F",
+          "full_name": "Federico Augustovski",
           "last_name": "Augustovski",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-2914-5022"
         },
         {
-          "full_name": "Jensen C",
+          "full_name": "Cathrine Elgaard Jensen",
           "last_name": "Jensen",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-7300-254x"
         },
         {
-          "full_name": "Gudex C",
+          "full_name": "Claire Gudex",
           "last_name": "Gudex",
-          "orcid": "0000-0003-3881-9890"
+          "orcid": "https://orcid.org/0000-0003-3881-9890"
         },
         {
-          "full_name": "Jensen M",
+          "full_name": "Morten Berg Jensen",
           "last_name": "Jensen",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9455-0104"
         },
         {
-          "full_name": "Tejada R",
+          "full_name": "Romina A. Tejada",
           "last_name": "Tejada",
-          "orcid": "0000-0003-4420-5289"
+          "orcid": "https://orcid.org/0000-0003-4420-5289"
         },
         {
-          "full_name": "Norman R",
+          "full_name": "Richard Norman",
           "last_name": "Norman",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8210-9936"
         },
         {
-          "full_name": "Viney R",
+          "full_name": "Rosalie Viney",
           "last_name": "Viney",
-          "orcid": "0000-0002-0039-9635"
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
         },
         {
-          "full_name": "Stolk E",
+          "full_name": "Elly Stolk",
           "last_name": "Stolk",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
         }
       ],
       "score": 0.45,
@@ -313,13 +242,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC12168295",
-        "pdf_url": "https://europepmc.org/articles/PMC12168295?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-025-02391-x",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-025-02391-x",
         "landing_page": "https://doi.org/10.1186/s12955-025-02391-x",
         "retrieval": "open"
       }

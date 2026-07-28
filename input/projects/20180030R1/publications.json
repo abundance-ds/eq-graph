@@ -68,12 +68,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10060331",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01481-7.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01481-7.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-022-01481-7",
         "retrieval": "open"
@@ -141,12 +142,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10386277",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02144-8",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02144-8",
         "landing_page": "https://doi.org/10.1186/s12955-023-02144-8",
         "retrieval": "open"
@@ -207,13 +209,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC6701682",
-        "pdf_url": "https://europepmc.org/articles/PMC6701682?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/9/8/e029067.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/9/8/e029067.full.pdf",
         "landing_page": "https://doi.org/10.1136/bmjopen-2019-029067",
         "retrieval": "open"
       }
@@ -267,6 +270,68 @@
         "oa_url": "https://europepmc.org/articles/PMC9780407",
         "pdf_url": "https://europepmc.org/articles/PMC9780407?pdf=render",
         "landing_page": "https://doi.org/10.1186/s41687-022-00530-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-2144821/v1",
+      "doi": "10.21203/rs.3.rs-2144821/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Population norms for the Romanian version of EQ-5D-3L and EQ-5D- 5L",
+      "journal": "Research Square",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Elena Olariu",
+          "last_name": "Olariu",
+          "orcid": "https://orcid.org/0000-0002-8718-5516"
+        },
+        {
+          "full_name": "Raluca Căplescu",
+          "last_name": "Căplescu",
+          "orcid": "https://orcid.org/0000-0001-6489-171x"
+        },
+        {
+          "full_name": "Luke Vale",
+          "last_name": "Vale",
+          "orcid": "https://orcid.org/0000-0001-8574-8429"
+        },
+        {
+          "full_name": "Ileana Gabriela Niculescu-Aron",
+          "last_name": "Niculescu-Aron",
+          "orcid": "https://orcid.org/0000-0003-2902-1641"
+        },
+        {
+          "full_name": "Yemi Oluboyede",
+          "last_name": "Oluboyede",
+          "orcid": "https://orcid.org/0000-0002-9891-8279"
+        },
+        {
+          "full_name": "Marian Sorin Paveliu",
+          "last_name": "Paveliu",
+          "orcid": "https://orcid.org/0000-0002-0702-1715"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-2144821/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-2144821/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-2144821/v1",
         "retrieval": "open"
       }
     }

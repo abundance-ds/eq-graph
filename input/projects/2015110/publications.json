@@ -50,7 +50,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -59,6 +60,43 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s11136-019-02226-5",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.21956/hrbopenres.13910.r26391",
+      "doi": "10.21956/hrbopenres.13910.r26391",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Referee report. For: The health of the residents of Ireland: Population norms for Ireland based on the EQ-5D-5L descriptive system – a cross sectional study [version 1; referees: 1 approved, 1 approved with reservations]",
+      "journal": "Faculty of 1000 Research Ltd",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Pedro Lopes Ferreira",
+          "last_name": "Ferreira",
+          "orcid": "https://orcid.org/0000-0002-9448-9542"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://doi.org/10.21956/hrbopenres.13910.r26391",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.21956/hrbopenres.13910.r26391",
+        "retrieval": "open"
       }
     }
   ],

@@ -45,7 +45,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -62,71 +63,71 @@
       "pmid": "35347553",
       "pmcid": "PMC9876862",
       "title": "Health state utilities for beta-thalassemia: a time trade-off study",
-      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
-      "year": 2023,
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
       "authors": [
         {
-          "full_name": "Martin AP",
+          "full_name": "Antony P. Martin",
           "last_name": "Martin",
-          "orcid": "0000-0003-4383-6038"
+          "orcid": "https://orcid.org/0000-0003-4383-6038"
         },
         {
-          "full_name": "Ferri Grazzi E",
-          "last_name": "Ferri Grazzi",
-          "orcid": "0000-0002-0567-0260"
+          "full_name": "Enrico Ferri Grazzi",
+          "last_name": "Grazzi",
+          "orcid": "https://orcid.org/0000-0002-0567-0260"
         },
         {
-          "full_name": "Mighiu C",
+          "full_name": "Claudia Mighiu",
           "last_name": "Mighiu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-2938-4939"
         },
         {
-          "full_name": "Chevli M",
+          "full_name": "Manoj Chevli",
           "last_name": "Chevli",
           "orcid": null
         },
         {
-          "full_name": "Shah F",
+          "full_name": "Farrukh Shah",
           "last_name": "Shah",
-          "orcid": "0000-0001-5975-1309"
+          "orcid": "https://orcid.org/0000-0001-5975-1309"
         },
         {
-          "full_name": "Maher L",
+          "full_name": "Louise Maher",
           "last_name": "Maher",
           "orcid": null
         },
         {
-          "full_name": "Shaikh A",
+          "full_name": "Anum Shaikh",
           "last_name": "Shaikh",
           "orcid": null
         },
         {
-          "full_name": "Sagar A",
+          "full_name": "Aliah Sagar",
           "last_name": "Sagar",
           "orcid": null
         },
         {
-          "full_name": "Hubberstey H",
+          "full_name": "Hayley Hubberstey",
           "last_name": "Hubberstey",
           "orcid": null
         },
         {
-          "full_name": "Franks B",
+          "full_name": "Bethany Franks",
           "last_name": "Franks",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-3427-7142"
         },
         {
-          "full_name": "Ramos-Goñi JM",
+          "full_name": "Juan Manuel Ramos-Goñi",
           "last_name": "Ramos-Goñi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9568-5190"
         },
         {
-          "full_name": "Oppe M",
+          "full_name": "Mark Oppe",
           "last_name": "Oppe",
-          "orcid": "0000-0003-4286-8855"
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
         },
         {
-          "full_name": "Tang D",
+          "full_name": "Derek Tang",
           "last_name": "Tang",
           "orcid": null
         }
@@ -142,12 +143,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC9876862",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01449-7.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01449-7.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-022-01449-7",
         "retrieval": "open"
@@ -195,12 +197,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9946870",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-023-01569-8.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-023-01569-8.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-023-01569-8",
         "retrieval": "open"

@@ -53,13 +53,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12618299",
-        "pdf_url": "https://europepmc.org/articles/PMC12618299?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01812-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01812-4.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01812-4",
         "retrieval": "open"
       }
@@ -114,12 +115,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8492455",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-021-01377-y.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-021-01377-y.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-021-01377-y",
         "retrieval": "open"
@@ -167,12 +169,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9123877",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01466-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01466-6.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-022-01466-6",
         "retrieval": "open"
@@ -209,12 +212,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/s11166-024-09439-1",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11166-024-09439-1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11166-024-09439-1.pdf",
         "landing_page": "https://doi.org/10.1007/s11166-024-09439-1",
         "retrieval": "open"
@@ -267,7 +271,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

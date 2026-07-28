@@ -50,13 +50,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://doi.wiley.com/10.1002/tdm_license_1.1",
-        "oa_url": "https://europepmc.org/articles/PMC6680214",
-        "pdf_url": "https://europepmc.org/articles/PMC6680214?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3564",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3564",
         "landing_page": "https://doi.org/10.1002/hec.3564",
         "retrieval": "open"
       }
@@ -269,7 +270,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -327,12 +329,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6438932",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-018-0993-z.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-018-0993-z.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-018-0993-z",
         "retrieval": "open"
@@ -391,16 +394,16 @@
       "pmid": "28194657",
       "pmcid": "PMC5343080",
       "title": "EQ-5D and the EuroQol Group: Past, Present and Future",
-      "journal": "Applied health economics and health policy",
+      "journal": "Applied Health Economics and Health Policy",
       "year": 2017,
       "authors": [
         {
-          "full_name": "Devlin NJ",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Brooks R",
+          "full_name": "Richard Brooks",
           "last_name": "Brooks",
           "orcid": null
         }
@@ -416,13 +419,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC5343080",
-        "pdf_url": "https://europepmc.org/articles/PMC5343080?pdf=render",
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40258-017-0310-5.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40258-017-0310-5.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-017-0310-5",
         "retrieval": "open"
       }
@@ -469,13 +473,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5954053",
-        "pdf_url": "https://europepmc.org/articles/PMC5954053?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0622-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0622-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-018-0622-9",
         "retrieval": "open"
       }

@@ -9,43 +9,43 @@
       "pmid": "29802576",
       "pmcid": "PMC6103929",
       "title": "Developing Accessible, Pictorial Versions of Health-Related Quality-of-Life Instruments Suitable for Economic Evaluation: A Report of Preliminary Studies Conducted in Canada and the United Kingdom",
-      "journal": "PharmacoEconomics - open",
+      "journal": "PharmacoEconomics - Open",
       "year": 2018,
       "authors": [
         {
-          "full_name": "Whitehurst DGT",
+          "full_name": "David G. T. Whitehurst",
           "last_name": "Whitehurst",
-          "orcid": "0000-0002-7890-6756"
+          "orcid": "https://orcid.org/0000-0002-7890-6756"
         },
         {
-          "full_name": "Latimer NR",
+          "full_name": "Nicholas Latimer",
           "last_name": "Latimer",
-          "orcid": "0000-0001-5304-5585"
+          "orcid": "https://orcid.org/0000-0001-5304-5585"
         },
         {
-          "full_name": "Kagan A",
+          "full_name": "Aura Kagan",
           "last_name": "Kagan",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9905-9939"
         },
         {
-          "full_name": "Palmer R",
+          "full_name": "Rebecca Palmer",
           "last_name": "Palmer",
-          "orcid": "0000-0002-2335-7104"
+          "orcid": "https://orcid.org/0000-0002-2335-7104"
         },
         {
-          "full_name": "Simmons-Mackie N",
-          "last_name": "Simmons-Mackie",
-          "orcid": null
+          "full_name": "Nina Simmons‐Mackie",
+          "last_name": "Simmons‐Mackie",
+          "orcid": "https://orcid.org/0000-0002-2811-1613"
         },
         {
-          "full_name": "Victor JC",
+          "full_name": "J. Charles Victor",
           "last_name": "Victor",
-          "orcid": "0000-0003-1720-9356"
+          "orcid": "https://orcid.org/0000-0003-1720-9356"
         },
         {
-          "full_name": "Hoch JS",
+          "full_name": "Jeffrey S. Hoch",
           "last_name": "Hoch",
-          "orcid": "0000-0002-4880-4281"
+          "orcid": "https://orcid.org/0000-0002-4880-4281"
         }
       ],
       "score": 0.45,
@@ -59,13 +59,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC6103929",
-        "pdf_url": "https://europepmc.org/articles/PMC6103929?pdf=render",
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s41669-018-0083-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s41669-018-0083-2.pdf",
         "landing_page": "https://doi.org/10.1007/s41669-018-0083-2",
         "retrieval": "open"
       }

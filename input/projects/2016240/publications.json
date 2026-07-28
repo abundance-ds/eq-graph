@@ -4,6 +4,83 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1016/j.jval.2021.11.1371",
+      "doi": "10.1016/j.jval.2021.11.1371",
+      "pmid": "35365298",
+      "pmcid": null,
+      "title": "Qualitative Review on Domains of Quality of Life Important for Patients, Social Care Users, and Informal Carers to Inform the Development of the EQ-HWB",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": "https://orcid.org/0000-0003-4609-3911"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": "https://orcid.org/0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Alison Scope",
+          "last_name": "Scope",
+          "orcid": "https://orcid.org/0000-0003-1604-1758"
+        },
+        {
+          "full_name": "Mark Clowes",
+          "last_name": "Clowes",
+          "orcid": "https://orcid.org/0000-0002-5582-9946"
+        },
+        {
+          "full_name": "Stacey Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-9071-2842"
+        },
+        {
+          "full_name": "Karen Jones",
+          "last_name": "Jones",
+          "orcid": "https://orcid.org/0000-0003-0851-8341"
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": "https://orcid.org/0000-0001-8645-4780"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301521032277/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301521032277/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.11.1371",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1177/0272989x20969686",
       "doi": "10.1177/0272989x20969686",
       "pmid": "33256502",
@@ -40,12 +117,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC7780267",
+        "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X20969686",
         "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X20969686",
         "landing_page": "https://doi.org/10.1177/0272989x20969686",
         "retrieval": "open"

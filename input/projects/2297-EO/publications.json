@@ -1,0 +1,149 @@
+{
+  "project_id": "2297-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04231-x",
+      "doi": "10.1007/s11136-026-04231-x",
+      "pmid": "41920393",
+      "pmcid": "PMC13043599",
+      "title": "Population norms for the EQ-5D-3L and EQ-5D-5L in Peninsular Malaysia",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Thakumar",
+          "orcid": "https://orcid.org/0000-0001-7261-1255"
+        },
+        {
+          "full_name": "Xun Li",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Asrul Akmal Shafie",
+          "last_name": "Shafie",
+          "orcid": null
+        },
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": "https://orcid.org/0000-0002-5338-578x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04231-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04231-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04231-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1017/s0266462326103602",
+      "doi": "10.1017/s0266462326103602",
+      "pmid": "41749053",
+      "pmcid": "PMC13071849",
+      "title": "What do HTA agencies need for generating health-related quality of life evidence? Findings from a global survey",
+      "journal": "International Journal of Technology Assessment in Health Care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Thakumar",
+          "orcid": "https://orcid.org/0000-0001-7261-1255"
+        },
+        {
+          "full_name": "Paula Lorgelly",
+          "last_name": "Lorgelly",
+          "orcid": null
+        },
+        {
+          "full_name": "Louise Longworth",
+          "last_name": "Longworth",
+          "orcid": "https://orcid.org/0000-0003-2512-4862"
+        },
+        {
+          "full_name": "Lucila Rey-Ares",
+          "last_name": "Rey-Ares",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6282EAAECE0C8CBCA72696D40C37395/S0266462326103602a.pdf/div-class-title-what-do-hta-agencies-need-for-generating-health-related-quality-of-life-evidence-findings-from-a-global-survey-div.pdf",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6282EAAECE0C8CBCA72696D40C37395/S0266462326103602a.pdf/div-class-title-what-do-hta-agencies-need-for-generating-health-related-quality-of-life-evidence-findings-from-a-global-survey-div.pdf",
+        "landing_page": "https://doi.org/10.1017/s0266462326103602",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

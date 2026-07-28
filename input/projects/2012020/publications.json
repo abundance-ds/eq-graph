@@ -43,12 +43,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5954069",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0615-8.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0615-8.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-018-0615-8",
         "retrieval": "open"
@@ -124,13 +125,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6571085",
-        "pdf_url": "https://europepmc.org/articles/PMC6571085?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-019-02115-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-019-02115-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-019-02115-x",
         "retrieval": "open"
       }
@@ -177,13 +179,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8800913",
-        "pdf_url": "https://europepmc.org/articles/PMC8800913?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02899-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02899-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-021-02899-x",
         "retrieval": "open"
       }
@@ -225,13 +228,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9098572",
-        "pdf_url": "https://europepmc.org/articles/PMC9098572?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-03007-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-03007-9.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-021-03007-9",
         "retrieval": "open"
       }
@@ -242,63 +246,63 @@
       "pmid": "30442276",
       "pmcid": null,
       "title": "Valuation of EuroQol Five-Dimensional Questionnaire, Youth Version (EQ-5D-Y) and EuroQol Five-Dimensional Questionnaire, Three-Level Version (EQ-5D-3L) Health States: The Impact of Wording and Perspective",
-      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "journal": "Value in Health",
       "year": 2018,
       "authors": [
         {
-          "full_name": "Kreimeier S",
+          "full_name": "Simone Kreimeier",
           "last_name": "Kreimeier",
-          "orcid": "0000-0002-4832-7833"
+          "orcid": "https://orcid.org/0000-0002-4832-7833"
         },
         {
-          "full_name": "Oppe M",
+          "full_name": "Mark Oppe",
           "last_name": "Oppe",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
         },
         {
-          "full_name": "Ramos-Goñi JM",
+          "full_name": "Juan Manuel Ramos-Goñi",
           "last_name": "Ramos-Goñi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9568-5190"
         },
         {
-          "full_name": "Cole A",
+          "full_name": "Amanda Cole",
           "last_name": "Cole",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6179-7752"
         },
         {
-          "full_name": "Devlin N",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Herdman M",
+          "full_name": "Michael Herdman",
           "last_name": "Herdman",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
         },
         {
-          "full_name": "Mulhern B",
+          "full_name": "Brendan Mulhern",
           "last_name": "Mulhern",
-          "orcid": "0000-0003-3656-8063"
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
         },
         {
-          "full_name": "Shah KK",
+          "full_name": "Koonal Shah",
           "last_name": "Shah",
-          "orcid": "0000-0002-4927-7858"
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
         },
         {
-          "full_name": "Stolk E",
+          "full_name": "Elly Stolk",
           "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
         },
         {
-          "full_name": "Rivero-Arias O",
-          "last_name": "Rivero-Arias",
-          "orcid": "0000-0003-2233-6544"
+          "full_name": "Oliver Rivero‐Arias",
+          "last_name": "Rivero‐Arias",
+          "orcid": "https://orcid.org/0000-0003-2233-6544"
         },
         {
-          "full_name": "Greiner W",
+          "full_name": "Wolfgang Greiner",
           "last_name": "Greiner",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
         }
       ],
       "score": 0.45,
@@ -312,15 +316,58 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
-        "is_oa": false,
-        "licence": "cc by-nc-nd",
-        "oa_url": null,
-        "pdf_url": null,
+        "is_oa": true,
+        "licence": "cc-by-nc-nd",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301518321983/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301518321983/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2018.05.002",
-        "retrieval": "requires_subscription"
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.11.001",
+      "doi": "10.1016/j.jval.2018.11.001",
+      "pmid": "30661631",
+      "pmcid": null,
+      "title": "EQ-5D-Y as a Health-Related Quality of Life Instrument for Children and Adolescents: The Instrument's Characteristics, Development, Current Use, and Challenges of Developing Its Value Set",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": "https://orcid.org/0000-0002-4832-7833"
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://doi.org/10.1016/j.jval.2018.11.001",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.11.001",
+        "retrieval": "open"
       }
     },
     {
@@ -375,12 +422,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2021.03.019",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(21)01526-6/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(21)01526-6/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2021.03.019",
         "retrieval": "open"
@@ -418,7 +466,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -466,13 +515,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC5319015",
-        "pdf_url": "https://europepmc.org/articles/PMC5319015?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-017-0617-9",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-017-0617-9",
         "landing_page": "https://doi.org/10.1186/s12955-017-0617-9",
         "retrieval": "open"
       }
@@ -509,13 +559,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC7937199",
-        "pdf_url": "https://europepmc.org/articles/PMC7937199?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01719-7",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01719-7",
         "landing_page": "https://doi.org/10.1186/s12955-021-01719-7",
         "retrieval": "open"
       }
@@ -592,13 +643,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC7733616",
-        "pdf_url": "https://europepmc.org/articles/PMC7733616?pdf=render",
+        "oa_url": "https://healtheconomicsreview.biomedcentral.com/track/pdf/10.1186/s13561-020-00297-6",
+        "pdf_url": "https://healtheconomicsreview.biomedcentral.com/track/pdf/10.1186/s13561-020-00297-6",
         "landing_page": "https://doi.org/10.1186/s13561-020-00297-6",
         "retrieval": "open"
       }
@@ -635,13 +687,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9121571",
-        "pdf_url": "https://europepmc.org/articles/PMC9121571?pdf=render",
+        "oa_url": "https://healtheconomicsreview.biomedcentral.com/track/pdf/10.1186/s13561-022-00374-y",
+        "pdf_url": "https://healtheconomicsreview.biomedcentral.com/track/pdf/10.1186/s13561-022-00374-y",
         "landing_page": "https://doi.org/10.1186/s13561-022-00374-y",
         "retrieval": "open"
       }

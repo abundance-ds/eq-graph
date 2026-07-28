@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -118,12 +119,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "http://hdl.handle.net/1942/43064",
+        "oa_url": "https://documentserver.uhasselt.be//bitstream/1942/43064/2/auteursversie.pdf",
         "pdf_url": "https://documentserver.uhasselt.be//bitstream/1942/43064/2/auteursversie.pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.01.005",
         "retrieval": "open"
@@ -176,7 +178,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,

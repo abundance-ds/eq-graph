@@ -78,13 +78,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6306233",
-        "pdf_url": "https://europepmc.org/articles/PMC6306233?pdf=render",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0209344&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0209344&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0209344",
         "retrieval": "open"
       }
@@ -95,58 +96,58 @@
       "pmid": "38889178",
       "pmcid": "PMC11185465",
       "title": "Correction: Valuation of the EQ-5D-5L in Taiwan",
-      "journal": "PloS one",
+      "journal": "PLoS ONE",
       "year": 2024,
       "authors": [
         {
-          "full_name": "Lin HW",
+          "full_name": "Hsiang-Wen Lin",
           "last_name": "Lin",
           "orcid": null
         },
         {
-          "full_name": "Li CI",
+          "full_name": "Chia-Ing Li",
           "last_name": "Li",
           "orcid": null
         },
         {
-          "full_name": "Lin FJ",
+          "full_name": "Fang- Ju Lin",
           "last_name": "Lin",
           "orcid": null
         },
         {
-          "full_name": "Chang JY",
+          "full_name": "J Chang",
           "last_name": "Chang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6660-5246"
         },
         {
-          "full_name": "Gau CS",
+          "full_name": "Churn‐Shiouh Gau",
           "last_name": "Gau",
           "orcid": null
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         },
         {
-          "full_name": "Pickard AS",
+          "full_name": "A. Simon Pickard",
           "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Juan Manuel Ramos Goñi",
+          "last_name": "Goñi",
           "orcid": null
         },
         {
-          "full_name": "Ramos Goñi JM",
-          "last_name": "Ramos Goñi",
-          "orcid": null
-        },
-        {
-          "full_name": "Tang CH",
+          "full_name": "Chao‐Hsiun Tang",
           "last_name": "Tang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-0545-1567"
         },
         {
-          "full_name": "Hsu CN",
+          "full_name": "Chien‐Ning Hsu",
           "last_name": "Hsu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-7470-528x"
         }
       ],
       "score": 1.0,
@@ -160,13 +161,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://doi.org/10.1371/journal.pone.0305983",
-        "pdf_url": "https://europepmc.org/articles/PMC11185465?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0305983&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0305983&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0305983",
         "retrieval": "open"
       }

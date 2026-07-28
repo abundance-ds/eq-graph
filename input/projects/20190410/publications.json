@@ -60,7 +60,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -108,13 +109,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7952367",
-        "pdf_url": "https://europepmc.org/articles/PMC7952367?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02650-y.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02650-y.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02650-y",
         "retrieval": "open"
       }
@@ -181,12 +183,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8068705",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02712-1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02712-1.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02712-1",
         "retrieval": "open"
@@ -244,13 +247,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11045574",
-        "pdf_url": "https://europepmc.org/articles/PMC11045574?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03601-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03601-7.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03601-7",
         "retrieval": "open"
       }
@@ -302,7 +306,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -427,7 +432,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -520,14 +526,62 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.01.003",
+      "doi": "10.1016/j.jval.2022.01.003",
+      "pmid": "35279371",
+      "pmcid": null,
+      "title": "A Comparison of a Preliminary Version of the EQ-HWB Short and the 5-Level Version EQ-5D",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "A Monteiro",
+          "last_name": "Monteiro",
+          "orcid": "https://orcid.org/0000-0001-9763-3485"
+        },
+        {
+          "full_name": "Maja Kuharić",
+          "last_name": "Kuharić",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00051-1/pdf",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00051-1/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.01.003",
         "retrieval": "open"
       }
     },
@@ -578,7 +632,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -631,12 +686,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.01.020",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00062-2/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00062-2/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.01.020",
         "retrieval": "open"
@@ -679,7 +735,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -732,7 +789,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -804,7 +862,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -862,95 +921,18 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://academic.oup.com/pages/standard-publication-reuse-rights",
-        "oa_url": "https://doi.org/10.1093/geront/gnae143",
+        "oa_url": "https://academic.oup.com/gerontologist/advance-article-pdf/doi/10.1093/geront/gnae143/60072354/gnae143.pdf",
         "pdf_url": "https://academic.oup.com/gerontologist/advance-article-pdf/doi/10.1093/geront/gnae143/60072354/gnae143.pdf",
         "landing_page": "https://doi.org/10.1093/geront/gnae143",
         "retrieval": "open"
       }
-    },
-    {
-      "work_id": "doi:10.1177/0272989x231171912",
-      "doi": "10.1177/0272989x231171912",
-      "pmid": "37199407",
-      "pmcid": "PMC10422849",
-      "title": "Comparison of Preferences and Data Quality between Discrete Choice Experiments Conducted in Online and Face-to-Face Respondents",
-      "journal": "Medical Decision Making",
-      "year": 2023,
-      "authors": [
-        {
-          "full_name": "Ruixuan Jiang",
-          "last_name": "Jiang",
-          "orcid": "https://orcid.org/0000-0003-1737-2989"
-        },
-        {
-          "full_name": "Eleanor Pullenayegum",
-          "last_name": "Pullenayegum",
-          "orcid": "https://orcid.org/0000-0003-4265-1330"
-        },
-        {
-          "full_name": "James W. Shaw",
-          "last_name": "Shaw",
-          "orcid": null
-        },
-        {
-          "full_name": "Axel Mühlbacher",
-          "last_name": "Mühlbacher",
-          "orcid": null
-        },
-        {
-          "full_name": "Todd A. Lee",
-          "last_name": "Lee",
-          "orcid": null
-        },
-        {
-          "full_name": "Surrey Walton",
-          "last_name": "Walton",
-          "orcid": null
-        },
-        {
-          "full_name": "Thomas Kohlmann",
-          "last_name": "Kohlmann",
-          "orcid": null
-        },
-        {
-          "full_name": "Richard Norman",
-          "last_name": "Norman",
-          "orcid": "https://orcid.org/0000-0002-3112-3893"
-        },
-        {
-          "full_name": "A. Simon Pickard",
-          "last_name": "Pickard",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10422849",
-        "pdf_url": "https://europepmc.org/articles/PMC10422849?pdf=render",
-        "landing_page": "https://doi.org/10.1177/0272989x231171912",
-        "retrieval": "open"
-      }
     }
   ],
-  "weak_omitted": 2
+  "weak_omitted": 5
 }

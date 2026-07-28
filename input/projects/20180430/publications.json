@@ -9,43 +9,43 @@
       "pmid": "33713323",
       "pmcid": "PMC8233249",
       "title": "Valuation of the EQ-5D-3L in Russia",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "journal": "Quality of Life Research",
       "year": 2021,
       "authors": [
         {
-          "full_name": "Omelyanovskiy V",
-          "last_name": "Omelyanovskiy",
-          "orcid": "0000-0003-1581-0703"
+          "full_name": "V. V. Оmelyanovskiy",
+          "last_name": "Оmelyanovskiy",
+          "orcid": "https://orcid.org/0000-0003-1581-0703"
         },
         {
-          "full_name": "Musina N",
-          "last_name": "Musina",
-          "orcid": "0000-0002-6914-6222"
+          "full_name": "Н. З. Мусина",
+          "last_name": "Мусина",
+          "orcid": "https://orcid.org/0000-0002-6914-6222"
         },
         {
-          "full_name": "Ratushnyak S",
+          "full_name": "S. Ratushnyak",
           "last_name": "Ratushnyak",
-          "orcid": "0000-0001-7967-5112"
+          "orcid": "https://orcid.org/0000-0001-7967-5112"
         },
         {
-          "full_name": "Bezdenezhnykh T",
+          "full_name": "T. P. Bezdenezhnykh",
           "last_name": "Bezdenezhnykh",
-          "orcid": "0000-0003-4839-8081"
+          "orcid": "https://orcid.org/0000-0003-4839-8081"
         },
         {
-          "full_name": "Fediaeva V",
-          "last_name": "Fediaeva",
+          "full_name": "Влада Константиновна Федяева",
+          "last_name": "Федяева",
           "orcid": null
         },
         {
-          "full_name": "Roudijk B",
+          "full_name": "Bram Roudijk",
           "last_name": "Roudijk",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
         },
         {
-          "full_name": "Purba FD",
+          "full_name": "Fredrick Dermawan Purba",
           "last_name": "Purba",
-          "orcid": "0000-0002-7336-3043"
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
         }
       ],
       "score": 0.45,
@@ -59,12 +59,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC8233249",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02804-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02804-6.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-021-02804-6",
         "retrieval": "open"
@@ -184,13 +185,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6013864",
-        "pdf_url": "https://europepmc.org/articles/PMC6013864?pdf=render",
+        "oa_url": "https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-018-5706-0",
+        "pdf_url": "https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-018-5706-0",
         "landing_page": "https://doi.org/10.1186/s12889-018-5706-0",
         "retrieval": "open"
       }
@@ -299,13 +301,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC5947896",
-        "pdf_url": "https://europepmc.org/articles/PMC5947896?pdf=render",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197098&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197098&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0197098",
         "retrieval": "open"
       }

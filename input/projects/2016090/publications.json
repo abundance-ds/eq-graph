@@ -9,38 +9,38 @@
       "pmid": "27807631",
       "pmcid": "PMC5602004",
       "title": "Head-to-head comparison of health-state values derived by a probabilistic choice model and scores on a visual analogue scale",
-      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
-      "year": 2017,
+      "journal": "The European Journal of Health Economics",
+      "year": 2016,
       "authors": [
         {
-          "full_name": "Krabbe PFM",
+          "full_name": "Paul F. M. Krabbe",
           "last_name": "Krabbe",
-          "orcid": "0000-0001-6042-1243"
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
         },
         {
-          "full_name": "Stolk EA",
+          "full_name": "Elly Stolk",
           "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
         },
         {
-          "full_name": "Devlin NJ",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Xie F",
+          "full_name": "Feng Xie",
           "last_name": "Xie",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
         },
         {
-          "full_name": "Quik EH",
+          "full_name": "E.H. Quik",
           "last_name": "Quik",
-          "orcid": "0000-0002-2314-327X"
+          "orcid": "https://orcid.org/0000-0002-2314-327x"
         },
         {
-          "full_name": "Pickard AS",
+          "full_name": "A. Simon Pickard",
           "last_name": "Pickard",
-          "orcid": "0000-0001-5645-7091"
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
         }
       ],
       "score": 0.45,
@@ -54,13 +54,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC5602004",
-        "pdf_url": "https://europepmc.org/articles/PMC5602004?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-016-0841-y.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-016-0841-y.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-016-0841-y",
         "retrieval": "open"
       }
@@ -256,7 +257,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -304,13 +306,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7952367",
-        "pdf_url": "https://europepmc.org/articles/PMC7952367?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02650-y.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02650-y.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02650-y",
         "retrieval": "open"
       }
@@ -377,12 +380,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8068705",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02712-1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02712-1.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02712-1",
         "retrieval": "open"
@@ -502,7 +506,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -595,14 +600,62 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.01.003",
+      "doi": "10.1016/j.jval.2022.01.003",
+      "pmid": "35279371",
+      "pmcid": null,
+      "title": "A Comparison of a Preliminary Version of the EQ-HWB Short and the 5-Level Version EQ-5D",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "A Monteiro",
+          "last_name": "Monteiro",
+          "orcid": "https://orcid.org/0000-0001-9763-3485"
+        },
+        {
+          "full_name": "Maja Kuharić",
+          "last_name": "Kuharić",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00051-1/pdf",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00051-1/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.01.003",
         "retrieval": "open"
       }
     },
@@ -648,7 +701,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -701,13 +755,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9463847",
-        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02031-8",
+        "oa_url": "https://link.springer.com/content/pdf/10.1186/s12955-022-02031-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s12955-022-02031-8.pdf",
         "landing_page": "https://doi.org/10.1186/s12955-022-02031-8",
         "retrieval": "open"
       }

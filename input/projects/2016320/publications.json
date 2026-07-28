@@ -50,13 +50,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://doi.wiley.com/10.1002/tdm_license_1.1",
-        "oa_url": "https://europepmc.org/articles/PMC6680214",
-        "pdf_url": "https://europepmc.org/articles/PMC6680214?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3564",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3564",
         "landing_page": "https://doi.org/10.1002/hec.3564",
         "retrieval": "open"
       }
@@ -97,12 +98,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-47622-9.pdf?pdf=button",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-47622-9.pdf?pdf=button",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9",
         "retrieval": "open"
@@ -144,12 +146,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_1",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_1.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_1",
         "retrieval": "open"
@@ -191,12 +194,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_2",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_2.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_2.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_2",
         "retrieval": "open"
@@ -238,12 +242,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_3",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_3.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_3.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_3",
         "retrieval": "open"
@@ -285,12 +290,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_4",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_4.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_4.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_4",
         "retrieval": "open"
@@ -332,14 +338,63 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-89289-0",
+      "doi": "10.1007/978-3-030-89289-0",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Value Sets for EQ-5D-5L",
+      "journal": null,
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": "https://orcid.org/0000-0002-4306-4667"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-89289-0",
         "retrieval": "open"
       }
     },
@@ -390,7 +445,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -448,12 +504,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6438932",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-018-0993-z.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-018-0993-z.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-018-0993-z",
         "retrieval": "open"
@@ -501,12 +558,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7423806",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-020-01205-9",
         "retrieval": "open"
@@ -569,7 +627,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -637,12 +696,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
         "retrieval": "open"
@@ -654,16 +714,16 @@
       "pmid": "28194657",
       "pmcid": "PMC5343080",
       "title": "EQ-5D and the EuroQol Group: Past, Present and Future",
-      "journal": "Applied health economics and health policy",
+      "journal": "Applied Health Economics and Health Policy",
       "year": 2017,
       "authors": [
         {
-          "full_name": "Devlin NJ",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Brooks R",
+          "full_name": "Richard Brooks",
           "last_name": "Brooks",
           "orcid": null
         }
@@ -679,13 +739,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC5343080",
-        "pdf_url": "https://europepmc.org/articles/PMC5343080?pdf=render",
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40258-017-0310-5.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40258-017-0310-5.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-017-0310-5",
         "retrieval": "open"
       }
@@ -761,60 +822,7 @@
         "landing_page": "https://doi.org/10.1007/s40258-021-00658-0",
         "retrieval": "open"
       }
-    },
-    {
-      "work_id": "doi:10.1007/s40273-018-0622-9",
-      "doi": "10.1007/s40273-018-0622-9",
-      "pmid": "29480350",
-      "pmcid": "PMC5954053",
-      "title": "3L, 5L, What the L? A NICE Conundrum",
-      "journal": "PharmacoEconomics",
-      "year": 2018,
-      "authors": [
-        {
-          "full_name": "Nancy Devlin",
-          "last_name": "Devlin",
-          "orcid": null
-        },
-        {
-          "full_name": "John Brazier",
-          "last_name": "Brazier",
-          "orcid": null
-        },
-        {
-          "full_name": "A. Simon Pickard",
-          "last_name": "Pickard",
-          "orcid": null
-        },
-        {
-          "full_name": "Elly Stolk",
-          "last_name": "Stolk",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "http://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5954053",
-        "pdf_url": "https://europepmc.org/articles/PMC5954053?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s40273-018-0622-9",
-        "retrieval": "open"
-      }
     }
   ],
-  "weak_omitted": 12
+  "weak_omitted": 14
 }

@@ -5,7 +5,7 @@
     {
       "work_id": "doi:10.1002/ppul.71031",
       "doi": "10.1002/ppul.71031",
-      "title": "Are EQ-5D-Y-3L and EQ-5D-Y-5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
+      "title": "Are EQ‐5D‐Y‐3L and EQ‐5D‐Y‐5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1002/ppul.71031",
       "method": "epmc_xml",
@@ -47,6 +47,17 @@
       "title": "Validity and responsiveness of EQ-5D-Y in children with haematological malignancies and their caregivers",
       "licence": "other-oa",
       "landing_page": "https://doi.org/10.1007/s10198-024-01669-z",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    },
+    {
+      "work_id": "doi:10.22541/au.169215780.00019852/v1",
+      "doi": "10.22541/au.169215780.00019852/v1",
+      "title": "Psychometric validation of EQ-5D-Y in children with asthma and their caregivers",
+      "licence": null,
+      "landing_page": "https://doi.org/10.22541/au.169215780.00019852/v1",
       "method": "skip",
       "source_url": null,
       "status": "skipped",

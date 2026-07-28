@@ -40,13 +40,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/s10198-024-01701-2",
-        "pdf_url": "https://europepmc.org/articles/PMC11889000?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-024-01701-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-024-01701-2.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-024-01701-2",
         "retrieval": "open"
       }
@@ -83,13 +84,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12170785",
-        "pdf_url": "https://europepmc.org/articles/PMC12170785?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00954-z.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00954-z.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-025-00954-z",
         "retrieval": "open"
       }
@@ -136,12 +138,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.vhri.2020.12.002",
+        "oa_url": "http://www.valuehealthregionalissues.com/article/S2212109921000030/pdf",
         "pdf_url": "http://www.valuehealthregionalissues.com/article/S2212109921000030/pdf",
         "landing_page": "https://doi.org/10.1016/j.vhri.2020.12.002",
         "retrieval": "open"
@@ -153,36 +156,36 @@
       "pmid": "33741000",
       "pmcid": "PMC7980638",
       "title": "EQ-5D self-reported health in Barbados and Jamaica with EQ-5D-5L population norms for the English-speaking Caribbean",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2021,
       "authors": [
         {
-          "full_name": "Bailey H",
+          "full_name": "Henry Bailey",
           "last_name": "Bailey",
-          "orcid": "0000-0002-4479-9948"
+          "orcid": "https://orcid.org/0000-0002-4479-9948"
         },
         {
-          "full_name": "Janssen MF",
+          "full_name": "Mathieu F. Janssen",
           "last_name": "Janssen",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
         },
         {
-          "full_name": "La Foucade A",
-          "last_name": "La Foucade",
-          "orcid": null
+          "full_name": "Althea La Foucade",
+          "last_name": "Foucade",
+          "orcid": "https://orcid.org/0000-0001-8416-224x"
         },
         {
-          "full_name": "Boodraj G",
+          "full_name": "Girjanauth Boodraj",
           "last_name": "Boodraj",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-5666-3394"
         },
         {
-          "full_name": "Wharton M",
+          "full_name": "Marjorie Wharton",
           "last_name": "Wharton",
           "orcid": null
         },
         {
-          "full_name": "Castillo P",
+          "full_name": "Philip Castillo",
           "last_name": "Castillo",
           "orcid": null
         }
@@ -198,12 +201,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC7980638",
+        "licence": "cc-by",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01734-8",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01734-8",
         "landing_page": "https://doi.org/10.1186/s12955-021-01734-8",
         "retrieval": "open"
@@ -256,13 +260,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11218064",
-        "pdf_url": "https://europepmc.org/articles/PMC11218064?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02266-7",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02266-7",
         "landing_page": "https://doi.org/10.1186/s12955-024-02266-7",
         "retrieval": "open"
       }
@@ -314,13 +319,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://doi.org/10.1186/s12955-024-02323-1",
-        "pdf_url": "https://europepmc.org/articles/PMC11606218?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02323-1",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02323-1",
         "landing_page": "https://doi.org/10.1186/s12955-024-02323-1",
         "retrieval": "open"
       }

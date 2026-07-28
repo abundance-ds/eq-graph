@@ -112,12 +112,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.014",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519301822/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301822/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.02.014",
         "retrieval": "open"
@@ -175,7 +176,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -192,46 +194,46 @@
       "pmid": "41872908",
       "pmcid": "PMC13130612",
       "title": "Value set of EQ-5D-Y-3L for Hong Kong",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Wong EL",
+          "full_name": "Eliza Lai-Yi Wong",
           "last_name": "Wong",
           "orcid": null
         },
         {
-          "full_name": "Wang K",
+          "full_name": "Kailu Wang",
           "last_name": "Wang",
           "orcid": null
         },
         {
-          "full_name": "Wong AY",
+          "full_name": "A Wong",
           "last_name": "Wong",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0007-4700-6740"
         },
         {
-          "full_name": "Cheung AW",
+          "full_name": "Annie Wai-Ling Cheung",
           "last_name": "Cheung",
           "orcid": null
         },
         {
-          "full_name": "Wong CKH",
+          "full_name": "Carlos King Ho Wong",
           "last_name": "Wong",
           "orcid": null
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
           "orcid": null
         },
         {
-          "full_name": "Rivero-Arias O",
+          "full_name": "Oliver Rivero-Arias",
           "last_name": "Rivero-Arias",
           "orcid": null
         },
         {
-          "full_name": "Yeoh EK",
+          "full_name": "Eng-Kiong Yeoh",
           "last_name": "Yeoh",
           "orcid": null
         }
@@ -247,12 +249,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC13130612",
+        "licence": "cc-by",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02522-y",
         "pdf_url": "https://europepmc.org/articles/PMC13130612?pdf=render",
         "landing_page": "https://doi.org/10.1186/s12955-026-02522-y",
         "retrieval": "open"
@@ -261,7 +264,7 @@
     {
       "work_id": "doi:10.1186/s41687-026-01075-4",
       "doi": "10.1186/s41687-026-01075-4",
-      "pmid": null,
+      "pmid": "42098471",
       "pmcid": null,
       "title": "Face validity of the EQ health and wellbeing instrument (EQ-HWB) in Hong Kong",
       "journal": "Journal of Patient-Reported Outcomes",
@@ -299,7 +302,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

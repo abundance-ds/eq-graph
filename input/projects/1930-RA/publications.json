@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1007/s10198-025-01866-4",
       "doi": "10.1007/s10198-025-01866-4",
-      "pmid": null,
+      "pmid": "41222855",
       "pmcid": null,
       "title": "Eliciting discounting model and direction at the individual level with time trade-off follow-up questions",
       "journal": "The European Journal of Health Economics",
@@ -29,12 +29,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://doi.org/10.1007/s10198-025-01866-4",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01866-4.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01866-4.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01866-4",
         "retrieval": "open"
@@ -72,13 +73,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://doi.org/10.1007/s40273-023-01267-6",
-        "pdf_url": "https://europepmc.org/articles/PMC10163582?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01267-6.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01267-6.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-023-01267-6",
         "retrieval": "open"
       }
@@ -125,87 +127,16 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12081533",
-        "pdf_url": "https://europepmc.org/articles/PMC12081533?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01471-6.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01471-6.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01471-6",
         "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2022.08.011",
-      "doi": "10.1016/j.jval.2022.08.011",
-      "pmid": "36244905",
-      "pmcid": null,
-      "title": "Modifying the Composite Time Trade-Off Method to Improve Its Discriminatory Power",
-      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
-      "year": 2023,
-      "authors": [
-        {
-          "full_name": "Jakubczyk M",
-          "last_name": "Jakubczyk",
-          "orcid": "0000-0002-0006-6769"
-        },
-        {
-          "full_name": "Lipman SA",
-          "last_name": "Lipman",
-          "orcid": null
-        },
-        {
-          "full_name": "Roudijk B",
-          "last_name": "Roudijk",
-          "orcid": null
-        },
-        {
-          "full_name": "Norman R",
-          "last_name": "Norman",
-          "orcid": null
-        },
-        {
-          "full_name": "Pullenayegum E",
-          "last_name": "Pullenayegum",
-          "orcid": null
-        },
-        {
-          "full_name": "Yang Y",
-          "last_name": "Yang",
-          "orcid": null
-        },
-        {
-          "full_name": "Gu NY",
-          "last_name": "Gu",
-          "orcid": null
-        },
-        {
-          "full_name": "Stolk E",
-          "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": false,
-        "licence": "cc by-nc-nd",
-        "oa_url": null,
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2022.08.011",
-        "retrieval": "requires_subscription"
       }
     },
     {
@@ -250,12 +181,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.10.009",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(23)06155-7/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(23)06155-7/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.10.009",
         "retrieval": "open"
@@ -350,13 +282,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10603523",
-        "pdf_url": "https://europepmc.org/articles/PMC10603523?pdf=render",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/13/10/e077256.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/13/10/e077256.full.pdf",
         "landing_page": "https://doi.org/10.1136/bmjopen-2023-077256",
         "retrieval": "open"
       }
@@ -388,7 +321,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -446,7 +380,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -494,13 +429,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11555889",
-        "pdf_url": "https://europepmc.org/articles/PMC11555889?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02271-w",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02271-w",
         "landing_page": "https://doi.org/10.1186/s12955-024-02271-w",
         "retrieval": "open"
       }

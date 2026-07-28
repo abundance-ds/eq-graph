@@ -7,43 +7,43 @@
       "pmid": "40220214",
       "pmcid": "PMC12572001",
       "title": "Comparing the measurement properties of the EQ-5D-Y-3L, EQ-5D-Y-5L and CHU9D in children and adolescents: a measurement property study",
-      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "journal": "The European Journal of Health Economics",
       "year": 2025,
       "authors": [
         {
-          "full_name": "Espirito Santo CMD",
-          "last_name": "Espirito Santo",
-          "orcid": "0000-0002-1175-2211"
+          "full_name": "Caique de Melo do Espírito Santo",
+          "last_name": "Santo",
+          "orcid": "https://orcid.org/0000-0002-1175-2211"
         },
         {
-          "full_name": "Santos VS",
+          "full_name": "Verônica Souza Santos",
           "last_name": "Santos",
-          "orcid": "0000-0002-1433-818X"
+          "orcid": "https://orcid.org/0000-0002-1433-818x"
         },
         {
-          "full_name": "Souza YB",
+          "full_name": "Yasmin Brasileiro de Souza",
           "last_name": "Souza",
-          "orcid": "0009-0009-2934-8362"
+          "orcid": "https://orcid.org/0009-0009-2934-8362"
         },
         {
-          "full_name": "Finch AP",
+          "full_name": "Aureliano Paolo Finch",
           "last_name": "Finch",
-          "orcid": "0000-0003-1438-321X"
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
         },
         {
-          "full_name": "Verstraete J",
+          "full_name": "Janine Verstraete",
           "last_name": "Verstraete",
-          "orcid": "0000-0002-1148-4747"
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
         },
         {
-          "full_name": "Miyamoto GC",
+          "full_name": "Gisela Cristiane Miyamoto",
           "last_name": "Miyamoto",
-          "orcid": "0000-0002-6826-4278"
+          "orcid": "https://orcid.org/0000-0002-6826-4278"
         },
         {
-          "full_name": "Yamato TP",
+          "full_name": "Tiê Parma Yamato",
           "last_name": "Yamato",
-          "orcid": "0000-0002-5228-1292"
+          "orcid": "https://orcid.org/0000-0002-5228-1292"
         }
       ],
       "score": 1.0,
@@ -57,13 +57,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC12572001",
-        "pdf_url": "https://europepmc.org/articles/PMC12572001?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01770-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01770-x.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01770-x",
         "retrieval": "open"
       }
@@ -200,13 +201,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11343814",
-        "pdf_url": "https://europepmc.org/articles/PMC11343814?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01404-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01404-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-024-01404-9",
         "retrieval": "open"
       }

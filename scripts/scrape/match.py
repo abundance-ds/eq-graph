@@ -214,6 +214,8 @@ def replay(fetcher: Fetcher, projects: list[Project], log=print) -> WorkPool:
 
     collect(None, sources.crossref_to_work, sources.crossref_funder_works(fetcher),
             corpus=True)
+    collect(None, sources.openalex_to_work, sources.openalex_funder_works(fetcher),
+            corpus=True)
     collect(None, sources.epmc_to_work,
             sources.epmc_search(fetcher, sources.epmc_ack_query()), corpus=True)
     collect(None, sources.epmc_to_work,

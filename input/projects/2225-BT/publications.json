@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -108,7 +109,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -174,7 +176,7 @@
     {
       "work_id": "doi:10.1186/s41687-026-01075-4",
       "doi": "10.1186/s41687-026-01075-4",
-      "pmid": null,
+      "pmid": "42098471",
       "pmcid": null,
       "title": "Face validity of the EQ health and wellbeing instrument (EQ-HWB) in Hong Kong",
       "journal": "Journal of Patient-Reported Outcomes",
@@ -212,7 +214,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

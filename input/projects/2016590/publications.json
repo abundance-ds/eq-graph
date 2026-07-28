@@ -70,29 +70,29 @@
       "year": 2016,
       "authors": [
         {
-          "full_name": "Oppe M",
+          "full_name": "Mark Oppe",
           "last_name": "Oppe",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
         },
         {
-          "full_name": "Rand-Hendriksen K",
-          "last_name": "Rand-Hendriksen",
-          "orcid": "0000-0001-7692-4099"
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
         },
         {
-          "full_name": "Shah K",
+          "full_name": "Koonal Shah",
           "last_name": "Shah",
-          "orcid": "0000-0002-4927-7858"
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
         },
         {
-          "full_name": "Ramos-Goñi JM",
+          "full_name": "Juan Manuel Ramos-Goñi",
           "last_name": "Ramos-Goñi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9568-5190"
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 0.45,
@@ -106,13 +106,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC5023738",
-        "pdf_url": "https://europepmc.org/articles/PMC5023738?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-016-0404-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-016-0404-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-016-0404-1",
         "retrieval": "open"
       }
@@ -231,12 +232,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.03.001",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00141-3/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00141-3/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.03.001",
         "retrieval": "open"

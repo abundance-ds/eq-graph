@@ -1,0 +1,129 @@
+{
+  "project_id": "102-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41687-021-00375-1",
+      "doi": "10.1186/s41687-021-00375-1",
+      "pmid": "34637031",
+      "pmcid": "PMC8511251",
+      "title": "A multi-level approach for the use of routinely collected patient-reported outcome measures (PROMs) data in healthcare systems",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
+        },
+        {
+          "full_name": "Markus Lahtinen",
+          "last_name": "Lahtinen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Jeffrey Johnson",
+          "last_name": "Johnson",
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00375-1",
+        "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00375-1",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00375-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.17269/s41997-021-00606-4",
+      "doi": "10.17269/s41997-021-00606-4",
+      "pmid": "35015286",
+      "pmcid": "PMC8750643",
+      "title": "The impact of COVID-19 pandemic on health-related quality of life of adults visiting emergency departments and primary care settings in Alberta",
+      "journal": "Canadian Journal of Public Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
+        },
+        {
+          "full_name": "Markus Lahtinen",
+          "last_name": "Lahtinen",
+          "orcid": null
+        },
+        {
+          "full_name": "Roland Simon",
+          "last_name": "Simon",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamín Higgins",
+          "last_name": "Higgins",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Jeffrey Johnson",
+          "last_name": "Johnson",
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://link.springer.com/content/pdf/10.17269/s41997-021-00606-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.17269/s41997-021-00606-4.pdf",
+        "landing_page": "https://doi.org/10.17269/s41997-021-00606-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

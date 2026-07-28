@@ -40,12 +40,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12487048",
+        "oa_url": "https://doi.org/10.1186/s12889-025-24238-2",
         "pdf_url": "https://europepmc.org/articles/PMC12487048?pdf=render",
         "landing_page": "https://doi.org/10.1186/s12889-025-24238-2",
         "retrieval": "open"

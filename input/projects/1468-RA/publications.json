@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1016/j.gtc.2025.01.002",
       "doi": "10.1016/j.gtc.2025.01.002",
-      "pmid": null,
+      "pmid": "40752919",
       "pmcid": null,
       "title": "Pediatric Constipation",
       "journal": "Gastroenterology Clinics of North America",
@@ -44,7 +44,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

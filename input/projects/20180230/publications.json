@@ -108,12 +108,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9188617",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-03075-x.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-03075-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-021-03075-x",
         "retrieval": "open"
@@ -169,7 +170,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -222,7 +224,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -285,7 +288,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -383,15 +387,73 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9758244",
-        "pdf_url": "https://europepmc.org/articles/PMC9758244?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01216-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01216-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01216-9",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.12.008",
+      "doi": "10.1016/j.jval.2018.12.008",
+      "pmid": "31277831",
+      "pmcid": null,
+      "title": "How Prevalent Are Implausible EQ-5D-5L Health States and How Do They Affect Valuation? A Study Combining Quantitative and Qualitative Evidence",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Zeyun Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-4723-6283"
+        },
+        {
+          "full_name": "Jan J.V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.12.008",
+        "retrieval": "requires_subscription"
       }
     },
     {
@@ -446,14 +508,67 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.12.012",
+      "doi": "10.1016/j.jval.2022.12.012",
+      "pmid": "36566885",
+      "pmcid": null,
+      "title": "Cross-Attribute Level Effects Models for Modeling Modified 5-Level Version of EQ-5D Health State Values: Is Less Still More?",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J.V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522047866/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522047866/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.12.012",
         "retrieval": "open"
       }
     },
@@ -519,12 +634,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.03.003",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301523001018/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523001018/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.03.003",
         "retrieval": "open"
@@ -572,12 +688,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.08.015",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301523060394/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523060394/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.08.015",
         "retrieval": "open"
@@ -620,12 +737,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://pure.eur.nl/en/publications/239b5d34-e3cc-4317-b586-213dee0c098d",
+        "oa_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.06.018",
         "retrieval": "open"
@@ -673,7 +791,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -726,13 +845,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6225616",
-        "pdf_url": "https://europepmc.org/articles/PMC6225616?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-018-1036-2",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-018-1036-2",
         "landing_page": "https://doi.org/10.1186/s12955-018-1036-2",
         "retrieval": "open"
       }
@@ -743,48 +863,48 @@
       "pmid": "37340446",
       "pmcid": "PMC10283288",
       "title": "Characteristics of health-state utilities used in cost-effectiveness analyses: a systematic review of published studies in Asia",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2023,
       "authors": [
         {
-          "full_name": "Yang Z",
+          "full_name": "Zhihao Yang",
           "last_name": "Yang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
         },
         {
-          "full_name": "Zeng X",
+          "full_name": "Xueyun Zeng",
           "last_name": "Zeng",
           "orcid": null
         },
         {
-          "full_name": "Huang W",
+          "full_name": "Weidong Huang",
           "last_name": "Huang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-2798-4735"
         },
         {
-          "full_name": "Chai Q",
+          "full_name": "Qingqing Chai",
           "last_name": "Chai",
-          "orcid": "0000-0003-4871-1840"
+          "orcid": "https://orcid.org/0000-0003-4871-1840"
         },
         {
-          "full_name": "Zhao A",
+          "full_name": "Angela Zhao",
           "last_name": "Zhao",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0004-5019-9094"
         },
         {
-          "full_name": "Chuang LH",
+          "full_name": "Ling‐Hsiang Chuang",
           "last_name": "Chuang",
           "orcid": null
         },
         {
-          "full_name": "Wu B",
+          "full_name": "Bin Wu",
           "last_name": "Wu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-4867-929x"
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 0.45,
@@ -798,12 +918,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC10283288",
+        "licence": "cc-by",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02131-z",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02131-z",
         "landing_page": "https://doi.org/10.1186/s12955-023-02131-z",
         "retrieval": "open"
@@ -815,23 +936,23 @@
       "pmid": "39550577",
       "pmcid": "PMC11568534",
       "title": "The effect of positive mental well-being on patient reported outcome (PRO): finding from a cross-sectional multi-disease study in China",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2024,
       "authors": [
         {
-          "full_name": "Yang Z",
+          "full_name": "Zhihao Yang",
           "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
           "orcid": null
         },
         {
-          "full_name": "Luo N",
-          "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
-        },
-        {
-          "full_name": "Hong Y",
+          "full_name": "Yanming Hong",
           "last_name": "Hong",
-          "orcid": "0009-0000-6669-3602"
+          "orcid": "https://orcid.org/0009-0000-6669-3602"
         }
       ],
       "score": 0.45,
@@ -845,13 +966,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC11568534",
-        "pdf_url": "https://europepmc.org/articles/PMC11568534?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02314-2",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02314-2",
         "landing_page": "https://doi.org/10.1186/s12955-024-02314-2",
         "retrieval": "open"
       }
@@ -907,116 +1029,7 @@
         "landing_page": "https://doi.org/10.1186/s12955-026-02548-2",
         "retrieval": "requires_subscription"
       }
-    },
-    {
-      "work_id": "doi:10.1186/s41687-026-01075-4",
-      "doi": "10.1186/s41687-026-01075-4",
-      "pmid": null,
-      "pmcid": null,
-      "title": "Face validity of the EQ health and wellbeing instrument (EQ-HWB) in Hong Kong",
-      "journal": "Journal of Patient-Reported Outcomes",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Eliza Lai-Yi Wong",
-          "last_name": "Wong",
-          "orcid": null
-        },
-        {
-          "full_name": "Annie Wai-Ling Cheung",
-          "last_name": "Cheung",
-          "orcid": null
-        },
-        {
-          "full_name": "Amy Yuen-Kwan Wong",
-          "last_name": "Wong",
-          "orcid": null
-        },
-        {
-          "full_name": "Zhihao Yang",
-          "last_name": "Yang",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1186/s41687-026-01075-4",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1186/s41687-026-01075-4",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1371/journal.pone.0184883",
-      "doi": "10.1371/journal.pone.0184883",
-      "pmid": "28934266",
-      "pmcid": "PMC5608280",
-      "title": "Logical inconsistencies in time trade-off valuation of EQ-5D-5L health states: Whose fault is it?",
-      "journal": "PloS one",
-      "year": 2017,
-      "authors": [
-        {
-          "full_name": "Yang Z",
-          "last_name": "Yang",
-          "orcid": "0000-0001-5468-0847"
-        },
-        {
-          "full_name": "van Busschbach J",
-          "last_name": "van Busschbach",
-          "orcid": null
-        },
-        {
-          "full_name": "Timman R",
-          "last_name": "Timman",
-          "orcid": null
-        },
-        {
-          "full_name": "Janssen MF",
-          "last_name": "Janssen",
-          "orcid": null
-        },
-        {
-          "full_name": "Luo N",
-          "last_name": "Luo",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC5608280",
-        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0184883&type=printable",
-        "landing_page": "https://doi.org/10.1371/journal.pone.0184883",
-        "retrieval": "open"
-      }
     }
   ],
-  "weak_omitted": 0
+  "weak_omitted": 2
 }

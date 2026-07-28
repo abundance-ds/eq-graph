@@ -29,6 +29,17 @@
       "file": "input/projects/445-RA/papers/doi_10.1186_s12891-024-07304-5.xml",
       "bytes": 87207,
       "sha256": "920a122e8165a0c90167182b4c75534aa72af47dd9064bd7d6b133633bb6dc02"
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-3693180/v1",
+      "doi": "10.21203/rs.3.rs-3693180/v1",
+      "title": "Exploring Patient Perspectives on EQ-5D-5L Data Visualization within an Individualized Decision Aid for Total Knee Arthroplasty (TKA) in Alberta, Canada",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.21203/rs.3.rs-3693180/v1",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
     }
   ]
 }

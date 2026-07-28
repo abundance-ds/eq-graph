@@ -40,13 +40,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12681457",
-        "pdf_url": "https://europepmc.org/articles/PMC12681457?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04077-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04077-9.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-04077-9",
         "retrieval": "open"
       }
@@ -93,7 +94,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -102,6 +104,100 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.jval.2026.03.2239",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.5281/zenodo.20689092",
+      "doi": "10.5281/zenodo.20689092",
+      "pmid": null,
+      "pmcid": null,
+      "title": "1st EuroQol Central and Eastern Europe Regional Meeting: Book of Abstracts",
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://doi.org/10.5281/zenodo.20689092",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.5281/zenodo.20689092",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.5281/zenodo.20689093",
+      "doi": "10.5281/zenodo.20689093",
+      "pmid": null,
+      "pmcid": null,
+      "title": "1st EuroQol Central and Eastern Europe Regional Meeting: Book of Abstracts",
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://doi.org/10.5281/zenodo.20689093",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.5281/zenodo.20689093",
+        "retrieval": "open"
       }
     }
   ],

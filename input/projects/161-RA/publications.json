@@ -4,6 +4,53 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1016/j.jval.2022.01.003",
+      "doi": "10.1016/j.jval.2022.01.003",
+      "pmid": "35279371",
+      "pmcid": null,
+      "title": "A Comparison of a Preliminary Version of the EQ-HWB Short and the 5-Level Version EQ-5D",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "A Monteiro",
+          "last_name": "Monteiro",
+          "orcid": "https://orcid.org/0000-0001-9763-3485"
+        },
+        {
+          "full_name": "Maja Kuharić",
+          "last_name": "Kuharić",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00051-1/pdf",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00051-1/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.01.003",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.vhri.2025.101524",
       "doi": "10.1016/j.vhri.2025.101524",
       "pmid": "41205347",
@@ -50,12 +97,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101524",
+        "oa_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00450-9/pdf",
         "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00450-9/pdf",
         "landing_page": "https://doi.org/10.1016/j.vhri.2025.101524",
         "retrieval": "open"

@@ -53,7 +53,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -129,7 +130,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -138,6 +140,73 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-019-01156-w",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.09.010",
+      "doi": "10.1016/j.jval.2021.09.010",
+      "pmid": "35227458",
+      "pmcid": null,
+      "title": "Investigating 5-Level EQ-5D (EQ-5D-5L) Values Based on Preferences of Patients With Heart Disease",
+      "journal": "Value in Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Ru‐San Tan",
+          "last_name": "Tan",
+          "orcid": "https://orcid.org/0000-0003-2086-6517"
+        },
+        {
+          "full_name": "Shir Lynn Lim",
+          "last_name": "Lim",
+          "orcid": "https://orcid.org/0000-0002-1151-2357"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Carolyn S.P. Lam",
+          "last_name": "Lam",
+          "orcid": "https://orcid.org/0000-0003-1903-0018"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Yin Bun Cheung",
+          "last_name": "Cheung",
+          "orcid": "https://orcid.org/0000-0003-0517-7625"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301521017514/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301521017514/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.09.010",
+        "retrieval": "open"
       }
     },
     {

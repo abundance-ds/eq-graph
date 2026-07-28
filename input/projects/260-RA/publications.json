@@ -53,7 +53,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -109,12 +110,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10039326",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00798-5.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00798-5.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-023-00798-5",
         "retrieval": "open"
@@ -167,12 +169,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9450469",
+        "oa_url": "https://doi.org/10.1016/j.pmedr.2022.101977",
         "pdf_url": "https://europepmc.org/articles/PMC9450469?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.pmedr.2022.101977",
         "retrieval": "open"
@@ -235,7 +238,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -420,12 +424,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12144378",
+        "oa_url": "https://doi.org/10.1177/17455057251344733",
         "pdf_url": "https://europepmc.org/articles/PMC12144378?pdf=render",
         "landing_page": "https://doi.org/10.1177/17455057251344733",
         "retrieval": "open"

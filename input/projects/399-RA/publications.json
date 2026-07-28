@@ -48,7 +48,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -156,14 +157,63 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://doi.org/10.1002/hec.4863",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
         "landing_page": "https://doi.org/10.1002/hec.4863",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-89289-0",
+      "doi": "10.1007/978-3-030-89289-0",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Value Sets for EQ-5D-5L",
+      "journal": null,
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": "https://orcid.org/0000-0002-4306-4667"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-89289-0",
         "retrieval": "open"
       }
     },
@@ -224,13 +274,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13046671",
-        "pdf_url": "https://europepmc.org/articles/PMC13046671?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01789-0",
         "retrieval": "open"
       }
@@ -277,13 +328,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13190540",
-        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01852-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01852-w.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
         "retrieval": "open"
       }
@@ -345,7 +397,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -413,12 +466,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
         "retrieval": "open"
@@ -471,13 +525,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274235",
-        "pdf_url": "https://europepmc.org/articles/PMC12274235?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03990-3",
         "retrieval": "open"
       }
@@ -609,13 +664,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274246",
-        "pdf_url": "https://europepmc.org/articles/PMC12274246?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03996-x",
         "retrieval": "open"
       }
@@ -734,13 +790,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12535937",
-        "pdf_url": "https://europepmc.org/articles/PMC12535937?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00989-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00989-2.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-025-00989-2",
         "retrieval": "open"
       }
@@ -797,12 +854,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8866274",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-021-01109-3.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-021-01109-3.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-021-01109-3",
         "retrieval": "open"
@@ -850,13 +908,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9758242",
-        "pdf_url": "https://europepmc.org/articles/PMC9758242?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01226-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01226-7.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01226-7",
         "retrieval": "open"
       }
@@ -923,13 +982,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10492668",
-        "pdf_url": "https://europepmc.org/articles/PMC10492668?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01300-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01300-8.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-023-01300-8",
         "retrieval": "open"
       }
@@ -1001,75 +1061,31 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12011929",
-        "pdf_url": "https://europepmc.org/articles/PMC12011929?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01476-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01476-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01476-1",
         "retrieval": "open"
       }
     },
     {
-      "work_id": "doi:10.1016/j.jval.2023.06.004",
-      "doi": "10.1016/j.jval.2023.06.004",
-      "pmid": "37348834",
+      "work_id": "doi:10.1016/j.jval.2022.05.009",
+      "doi": "10.1016/j.jval.2022.05.009",
+      "pmid": "35667949",
       "pmcid": null,
-      "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
+      "title": "Valuing Child Health Isn’t Child’s Play",
       "journal": "Value in Health",
-      "year": 2023,
+      "year": 2022,
       "authors": [
-        {
-          "full_name": "Kim Dalziel",
-          "last_name": "Dalziel",
-          "orcid": null
-        },
-        {
-          "full_name": "Alexander van Heusden",
-          "last_name": "van Heusden",
-          "orcid": null
-        },
-        {
-          "full_name": "Janani Sarvananthar",
-          "last_name": "Sarvananthar",
-          "orcid": null
-        },
-        {
-          "full_name": "Renee Jones",
-          "last_name": "Jones",
-          "orcid": null
-        },
-        {
-          "full_name": "Kristy McGregor",
-          "last_name": "McGregor",
-          "orcid": null
-        },
-        {
-          "full_name": "Li Huang",
-          "last_name": "Huang",
-          "orcid": null
-        },
-        {
-          "full_name": "Oliver Rivero-Arias",
-          "last_name": "Rivero-Arias",
-          "orcid": null
-        },
-        {
-          "full_name": "Mike Herdman",
-          "last_name": "Herdman",
-          "orcid": null
-        },
-        {
-          "full_name": "Harriet Hiscock",
-          "last_name": "Hiscock",
-          "orcid": null
-        },
         {
           "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         }
       ],
       "score": 0.45,
@@ -1083,76 +1099,17 @@
         }
       ],
       "sources": [
-        "crossref",
-        "europepmc"
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.06.004",
-        "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
-        "landing_page": "https://doi.org/10.1016/j.jval.2023.06.004",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.04.2161",
-      "doi": "10.1016/j.jval.2025.04.2161",
-      "pmid": "40339642",
-      "pmcid": null,
-      "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
-      "journal": "Value in Health",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Nicole Reyes",
-          "last_name": "Reyes",
-          "orcid": null
-        },
-        {
-          "full_name": "Tianxin Pan",
-          "last_name": "Pan",
-          "orcid": null
-        },
-        {
-          "full_name": "Renee Jones",
-          "last_name": "Jones",
-          "orcid": null
-        },
-        {
-          "full_name": "Kim Dalziel",
-          "last_name": "Dalziel",
-          "orcid": null
-        },
-        {
-          "full_name": "Nancy Devlin",
-          "last_name": "Devlin",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.04.2161",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2161",
+        "licence": null,
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522019957/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522019957/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.05.009",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 8
+  "weak_omitted": 10
 }

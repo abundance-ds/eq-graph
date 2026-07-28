@@ -45,13 +45,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9550755",
-        "pdf_url": "https://europepmc.org/articles/PMC9550755?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01172-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01172-4.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01172-4",
         "retrieval": "open"
       }
@@ -108,12 +109,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.joca.2023.07.004",
+        "oa_url": "http://www.oarsijournal.com/article/S1063458423008543/pdf",
         "pdf_url": "http://www.oarsijournal.com/article/S1063458423008543/pdf",
         "landing_page": "https://doi.org/10.1016/j.joca.2023.07.004",
         "retrieval": "open"
@@ -171,7 +173,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -234,13 +237,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12102890",
-        "pdf_url": "https://europepmc.org/articles/PMC12102890?pdf=render",
+        "oa_url": "https://equityhealthj.biomedcentral.com/counter/pdf/10.1186/s12939-025-02520-4",
+        "pdf_url": "https://equityhealthj.biomedcentral.com/counter/pdf/10.1186/s12939-025-02520-4",
         "landing_page": "https://doi.org/10.1186/s12939-025-02520-4",
         "retrieval": "open"
       }
@@ -250,34 +254,34 @@
       "doi": "10.1186/s12955-024-02312-4",
       "pmid": "39593045",
       "pmcid": "PMC11600902",
-      "title": "The use of patient-reported outcome measures to improve patient-related outcomes - a systematic review",
-      "journal": "Health and quality of life outcomes",
+      "title": "The use of patient-reported outcome measures to improve patient-related outcomes – a systematic review",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2024,
       "authors": [
         {
-          "full_name": "Bonsel JM",
+          "full_name": "Joshua M. Bonsel",
           "last_name": "Bonsel",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9143-5506"
         },
         {
-          "full_name": "Itiola AJ",
+          "full_name": "Ademola Joshua Itiola",
           "last_name": "Itiola",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-9074-7359"
         },
         {
-          "full_name": "Huberts AS",
+          "full_name": "Anouk S. Huberts",
           "last_name": "Huberts",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1716-9123"
         },
         {
-          "full_name": "Bonsel GJ",
+          "full_name": "Gouke J. Bonsel",
           "last_name": "Bonsel",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
         },
         {
-          "full_name": "Penton H",
+          "full_name": "Hannah Penton",
           "last_name": "Penton",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-9492-7875"
         }
       ],
       "score": 0.45,
@@ -291,13 +295,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC11600902",
-        "pdf_url": "https://europepmc.org/articles/PMC11600902?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02312-4",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02312-4",
         "landing_page": "https://doi.org/10.1186/s12955-024-02312-4",
         "retrieval": "open"
       }
@@ -364,13 +369,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1186/s41687-025-00842-z",
-        "pdf_url": "https://europepmc.org/articles/PMC11780234?pdf=render",
+        "oa_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-025-00842-z",
+        "pdf_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-025-00842-z",
         "landing_page": "https://doi.org/10.1186/s41687-025-00842-z",
         "retrieval": "open"
       }
@@ -474,14 +480,72 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9333246",
-        "pdf_url": "https://europepmc.org/articles/PMC9333246?pdf=render",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0272252&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0272252&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0272252",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-4116168/v1",
+      "doi": "10.21203/rs.3.rs-4116168/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The use of patient-reported outcome measures to improve patient-related outcomes – a systematic review",
+      "journal": "Research Square",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-9143-5506"
+        },
+        {
+          "full_name": "Ademola Joshua Itiola",
+          "last_name": "Itiola",
+          "orcid": "https://orcid.org/0000-0001-9074-7359"
+        },
+        {
+          "full_name": "Anouk S. Huberts",
+          "last_name": "Huberts",
+          "orcid": "https://orcid.org/0000-0002-1716-9123"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "Hannah Penton",
+          "last_name": "Penton",
+          "orcid": "https://orcid.org/0000-0001-9492-7875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-4116168/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-4116168/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-4116168/v1",
         "retrieval": "open"
       }
     },
@@ -537,12 +601,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC8599146",
+        "oa_url": "https://doi.org/10.3389/fpubh.2021.744405",
         "pdf_url": "https://europepmc.org/articles/PMC8599146?pdf=render",
         "landing_page": "https://doi.org/10.3389/fpubh.2021.744405",
         "retrieval": "open"

@@ -68,13 +68,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12011929",
-        "pdf_url": "https://europepmc.org/articles/PMC12011929?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01476-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01476-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01476-1",
         "retrieval": "open"
       }
@@ -114,13 +115,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9298783",
-        "pdf_url": "https://europepmc.org/articles/PMC9298783?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4457",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4457",
         "landing_page": "https://doi.org/10.1002/hec.4457",
         "retrieval": "open"
       }
@@ -177,13 +179,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13046674",
-        "pdf_url": "https://europepmc.org/articles/PMC13046674?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01821-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01821-3.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01821-3",
         "retrieval": "open"
       }
@@ -281,6 +284,78 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s11482-022-10071-x",
+      "doi": "10.1007/s11482-022-10071-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Prior Coronary Artery Bypass Graft Surgery Impacts 30-day Quality of Life after Percutaneous Coronary Intervention: Evidence from the Victorian Cardiac Outcomes Registry (VCOR)",
+      "journal": "Applied Research in Quality of Life",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Chau Ho",
+          "last_name": "Ho",
+          "orcid": "https://orcid.org/0000-0002-4285-9409"
+        },
+        {
+          "full_name": "Angela Brennan",
+          "last_name": "Brennan",
+          "orcid": "https://orcid.org/0000-0003-1375-7187"
+        },
+        {
+          "full_name": "Diem Dinh",
+          "last_name": "Dinh",
+          "orcid": "https://orcid.org/0000-0002-8167-3906"
+        },
+        {
+          "full_name": "Jeffrey Lefkovits",
+          "last_name": "Lefkovits",
+          "orcid": "https://orcid.org/0000-0003-1923-4571"
+        },
+        {
+          "full_name": "Danny Liew",
+          "last_name": "Liew",
+          "orcid": "https://orcid.org/0000-0002-0131-623x"
+        },
+        {
+          "full_name": "Si Si",
+          "last_name": "Si",
+          "orcid": "https://orcid.org/0000-0002-2406-7221"
+        },
+        {
+          "full_name": "Christopher M. Reid",
+          "last_name": "Reid",
+          "orcid": "https://orcid.org/0000-0001-9173-3944"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11482-022-10071-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11482-022-10071-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s11482-022-10071-x",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40271-023-00655-6",
       "doi": "10.1007/s40271-023-00655-6",
       "pmid": "37985620",
@@ -357,7 +432,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -497,13 +573,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10492668",
-        "pdf_url": "https://europepmc.org/articles/PMC10492668?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01300-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01300-8.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-023-01300-8",
         "retrieval": "open"
       }
@@ -555,13 +632,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12261590",
-        "pdf_url": "https://europepmc.org/articles/PMC12261590?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-025-02402-x",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-025-02402-x",
         "landing_page": "https://doi.org/10.1186/s12955-025-02402-x",
         "retrieval": "open"
       }

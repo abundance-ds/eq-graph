@@ -45,13 +45,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6590347",
-        "pdf_url": "https://europepmc.org/articles/PMC6590347?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3846",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3846",
         "landing_page": "https://doi.org/10.1002/hec.3846",
         "retrieval": "open"
       }
@@ -88,13 +89,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9298783",
-        "pdf_url": "https://europepmc.org/articles/PMC9298783?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4457",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4457",
         "landing_page": "https://doi.org/10.1002/hec.4457",
         "retrieval": "open"
       }
@@ -131,12 +133,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://doi.org/10.1007/s10198-025-01892-2",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01892-2",
         "retrieval": "open"
@@ -169,13 +172,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11541319",
-        "pdf_url": "https://europepmc.org/articles/PMC11541319?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03770-5.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03770-5.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03770-5",
         "retrieval": "open"
       }
@@ -227,13 +231,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12960390",
-        "pdf_url": "https://europepmc.org/articles/PMC12960390?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04189-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04189-w.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-026-04189-w",
         "retrieval": "open"
       }
@@ -264,7 +269,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -273,58 +279,6 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.jocm.2024.100494",
         "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2017.10.002",
-      "doi": "10.1016/j.jval.2017.10.002",
-      "pmid": "30005748",
-      "pmcid": null,
-      "title": "Effect of Level Overlap and Color Coding on Attribute Non-Attendance in Discrete Choice Experiments",
-      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
-      "year": 2018,
-      "authors": [
-        {
-          "full_name": "Jonker MF",
-          "last_name": "Jonker",
-          "orcid": null
-        },
-        {
-          "full_name": "Donkers B",
-          "last_name": "Donkers",
-          "orcid": "0000-0002-0412-4276"
-        },
-        {
-          "full_name": "de Bekker-Grob EW",
-          "last_name": "de Bekker-Grob",
-          "orcid": null
-        },
-        {
-          "full_name": "Stolk EA",
-          "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": false,
-        "licence": null,
-        "oa_url": null,
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2017.10.002",
-        "retrieval": "requires_subscription"
       }
     },
     {
@@ -411,12 +365,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.05.014",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519322466/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519322466/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.05.014",
         "retrieval": "open"
@@ -459,7 +414,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -497,12 +453,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.07.013",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S109830152202109X/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152202109X/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.07.013",
         "retrieval": "open"
@@ -540,12 +497,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.10.008",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522046940/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522046940/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.10.008",
         "retrieval": "open"
@@ -583,7 +541,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

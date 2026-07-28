@@ -45,13 +45,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13046569",
-        "pdf_url": "https://europepmc.org/articles/PMC13046569?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01823-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01823-1.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01823-1",
         "retrieval": "open"
       }

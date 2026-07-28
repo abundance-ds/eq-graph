@@ -45,7 +45,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -113,12 +114,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10089360",
+        "oa_url": "https://doi.org/10.1371/journal.pmed.1004146",
         "pdf_url": "https://europepmc.org/articles/PMC10089360?pdf=render",
         "landing_page": "https://doi.org/10.1371/journal.pmed.1004146",
         "retrieval": "open"

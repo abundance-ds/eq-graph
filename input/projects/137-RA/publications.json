@@ -45,12 +45,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11045599",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03618-y.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03618-y.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03618-y",
         "retrieval": "open"
@@ -98,7 +99,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -171,7 +173,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -234,12 +237,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.04.010",
         "retrieval": "open"
@@ -327,12 +331,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "http://hdl.handle.net/10397/117784",
+        "oa_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
         "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.02.001",
         "retrieval": "open"
@@ -395,7 +400,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -458,7 +464,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -546,12 +553,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11495100",
+        "oa_url": "https://doi.org/10.1093/ehjopen/oeae083",
         "pdf_url": "https://europepmc.org/articles/PMC11495100?pdf=render",
         "landing_page": "https://doi.org/10.1093/ehjopen/oeae083",
         "retrieval": "open"
@@ -604,12 +612,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11979510",
+        "oa_url": "https://doi.org/10.1136/bmjopen-2024-097598",
         "pdf_url": "https://europepmc.org/articles/PMC11979510?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2024-097598",
         "retrieval": "open"
@@ -652,7 +661,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -710,14 +720,191 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9535990",
-        "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02049-y",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02049-y",
         "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-1260576/v1",
+      "doi": "10.21203/rs.3.rs-1260576/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Who Should do What? Comparing EQ-5D-3L and EQ-5D-5L Proxy-ratings by Informal Caregivers and Health Professional for People with Dementia",
+      "journal": "Research Square",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": "https://orcid.org/0000-0002-6359-8797"
+        },
+        {
+          "full_name": "Wiebke Mohr",
+          "last_name": "Mohr",
+          "orcid": "https://orcid.org/0000-0002-0036-3413"
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": "https://orcid.org/0000-0003-0634-8756"
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-1260576/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-1260576/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-1260576/v1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-9066454/v1",
+      "doi": "10.21203/rs.3.rs-9066454/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Agreement and measurement properties of the interviewer-administered, self-completed and proxy‐reported versions of the Tigrinya EQ-5D-Y-5L in Ethiopia",
+      "journal": "Research Square",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Abraham Welie",
+          "last_name": "Welie",
+          "orcid": null
+        },
+        {
+          "full_name": "EA Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Laura Duncan",
+          "last_name": "Duncan",
+          "orcid": "https://orcid.org/0000-0001-7120-6629"
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-9066454/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-9066454/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-9066454/v1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-9851237/v1",
+      "doi": "10.21203/rs.3.rs-9851237/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Cultural adaptation of the EQ-5D-Y-5L into Amharic and Tigrinya languages in Ethiopia",
+      "journal": "Research Square",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Abraham G Welie",
+          "last_name": "Welie",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Laura Duncan",
+          "last_name": "Duncan",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-9851237/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-9851237/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-9851237/v1",
         "retrieval": "open"
       }
     },

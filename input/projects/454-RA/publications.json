@@ -54,6 +54,88 @@
         "landing_page": "https://doi.org/10.1186/s12955-023-02216-9",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-8341102/v1",
+      "doi": "10.21203/rs.3.rs-8341102/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Content validity, face validity and comprehensiveness of generic quality-of-life measures in adults and children with rare genetic conditions and their carers: a think aloud qualitative study",
+      "journal": "Research Square",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Mackenzie Bourke",
+          "last_name": "Bourke",
+          "orcid": "https://orcid.org/0000-0001-7870-9771"
+        },
+        {
+          "full_name": "Xuemin Zhu",
+          "last_name": "Zhu",
+          "orcid": null
+        },
+        {
+          "full_name": "Tiffany Boughtwood",
+          "last_name": "Boughtwood",
+          "orcid": "https://orcid.org/0000-0002-9634-3731"
+        },
+        {
+          "full_name": "Clara Gaff",
+          "last_name": "Gaff",
+          "orcid": null
+        },
+        {
+          "full_name": "Amy Hunter",
+          "last_name": "Hunter",
+          "orcid": "https://orcid.org/0000-0001-5076-8761"
+        },
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Clare Stuart",
+          "last_name": "Stuart",
+          "orcid": null
+        },
+        {
+          "full_name": "James M. Buchanan",
+          "last_name": "Buchanan",
+          "orcid": null
+        },
+        {
+          "full_name": "Ilias Goranitis",
+          "last_name": "Goranitis",
+          "orcid": "https://orcid.org/0000-0001-7946-8324"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-8341102/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-8341102/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-8341102/v1",
+        "retrieval": "open"
+      }
     }
   ],
   "weak_omitted": 0

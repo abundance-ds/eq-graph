@@ -45,13 +45,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6590347",
-        "pdf_url": "https://europepmc.org/articles/PMC6590347?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3846",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.3846",
         "landing_page": "https://doi.org/10.1002/hec.3846",
         "retrieval": "open"
       }
@@ -98,13 +99,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC5954053",
-        "pdf_url": "https://europepmc.org/articles/PMC5954053?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0622-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0622-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-018-0622-9",
         "retrieval": "open"
       }
@@ -208,13 +210,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6182499",
-        "pdf_url": "https://europepmc.org/articles/PMC6182499?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0694-6.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0694-6.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-018-0694-6",
         "retrieval": "open"
       }
@@ -328,13 +331,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9758088",
-        "pdf_url": "https://europepmc.org/articles/PMC9758088?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01210-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01210-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01210-1",
         "retrieval": "open"
       }
@@ -381,13 +385,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9758242",
-        "pdf_url": "https://europepmc.org/articles/PMC9758242?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01226-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01226-7.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01226-7",
         "retrieval": "open"
       }
@@ -398,33 +403,33 @@
       "pmid": "28292492",
       "pmcid": null,
       "title": "Quality Control Process for EQ-5D-5L Valuation Studies",
-      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
-      "year": 2017,
+      "journal": "Value in Health",
+      "year": 2016,
       "authors": [
         {
-          "full_name": "Ramos-Goñi JM",
+          "full_name": "Juan Manuel Ramos-Goñi",
           "last_name": "Ramos-Goñi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-9568-5190"
         },
         {
-          "full_name": "Oppe M",
+          "full_name": "Mark Oppe",
           "last_name": "Oppe",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
         },
         {
-          "full_name": "Slaap B",
+          "full_name": "Bernhard Slaap",
           "last_name": "Slaap",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-4301-4790"
         },
         {
-          "full_name": "Busschbach JJ",
+          "full_name": "Jan J.V. Busschbach",
           "last_name": "Busschbach",
-          "orcid": "0000-0002-8602-0381"
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
         },
         {
-          "full_name": "Stolk E",
+          "full_name": "Elly Stolk",
           "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
         }
       ],
       "score": 0.45,
@@ -438,15 +443,16 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
-        "is_oa": false,
-        "licence": "cc by-nc-nd",
-        "oa_url": null,
-        "pdf_url": null,
+        "is_oa": true,
+        "licence": "cc-by-nc-nd",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301516340669/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301516340669/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2016.10.012",
-        "retrieval": "requires_subscription"
+        "retrieval": "open"
       }
     },
     {
@@ -455,28 +461,28 @@
       "pmid": "30005748",
       "pmcid": null,
       "title": "Effect of Level Overlap and Color Coding on Attribute Non-Attendance in Discrete Choice Experiments",
-      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
-      "year": 2018,
+      "journal": "Value in Health",
+      "year": 2017,
       "authors": [
         {
-          "full_name": "Jonker MF",
+          "full_name": "Marcel F. Jonker",
           "last_name": "Jonker",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
         },
         {
-          "full_name": "Donkers B",
+          "full_name": "Bas Donkers",
           "last_name": "Donkers",
-          "orcid": "0000-0002-0412-4276"
+          "orcid": "https://orcid.org/0000-0002-0412-4276"
         },
         {
-          "full_name": "de Bekker-Grob EW",
-          "last_name": "de Bekker-Grob",
-          "orcid": null
+          "full_name": "Esther W. de Bekker‐Grob",
+          "last_name": "Bekker‐Grob",
+          "orcid": "https://orcid.org/0000-0001-7645-6168"
         },
         {
-          "full_name": "Stolk EA",
+          "full_name": "Elly Stolk",
           "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
         }
       ],
       "score": 0.45,
@@ -490,15 +496,16 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
-        "is_oa": false,
-        "licence": null,
-        "oa_url": null,
+        "is_oa": true,
+        "licence": "other-oa",
+        "oa_url": "https://pure.eur.nl/en/publications/9bdbd5ce-a703-49b8-bb58-aeabe0966283",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.jval.2017.10.002",
-        "retrieval": "requires_subscription"
+        "retrieval": "open"
       }
     },
     {
@@ -662,15 +669,89 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2019.06.008",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.08.011",
+      "doi": "10.1016/j.jval.2022.08.011",
+      "pmid": "36244905",
+      "pmcid": null,
+      "title": "Modifying the Composite Time Trade-Off Method to Improve Its Discriminatory Power",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "Yaling Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0002-9529-1685"
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": "https://orcid.org/0000-0002-1250-7605"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": "https://orcid.org/0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.08.011",
+        "retrieval": "requires_subscription"
       }
     },
     {
@@ -786,54 +867,7 @@
         "landing_page": null,
         "retrieval": "open"
       }
-    },
-    {
-      "work_id": "pmid:36810044",
-      "doi": null,
-      "pmid": "36810044",
-      "pmcid": null,
-      "title": "Where Next for EQ-5D-5L National Value Sets and the EQ-VT Protocol?",
-      "journal": null,
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Norman R",
-          "last_name": "Norman",
-          "orcid": null
-        },
-        {
-          "full_name": "Devlin N",
-          "last_name": "Devlin",
-          "orcid": null
-        },
-        {
-          "full_name": "Stolk E",
-          "last_name": "Stolk",
-          "orcid": "0000-0001-5968-0416"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": null,
-        "oa_url": "http://europepmc.org/books/NBK589308",
-        "pdf_url": null,
-        "landing_page": null,
-        "retrieval": "open"
-      }
     }
   ],
-  "weak_omitted": 0
+  "weak_omitted": 1
 }

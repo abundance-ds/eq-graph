@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -108,12 +109,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.08.015",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301523060394/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523060394/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.08.015",
         "retrieval": "open"
@@ -156,12 +158,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://pure.eur.nl/en/publications/239b5d34-e3cc-4317-b586-213dee0c098d",
+        "oa_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.06.018",
         "retrieval": "open"
@@ -209,7 +212,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -226,23 +230,23 @@
       "pmid": "39550577",
       "pmcid": "PMC11568534",
       "title": "The effect of positive mental well-being on patient reported outcome (PRO): finding from a cross-sectional multi-disease study in China",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2024,
       "authors": [
         {
-          "full_name": "Yang Z",
+          "full_name": "Zhihao Yang",
           "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
           "orcid": null
         },
         {
-          "full_name": "Luo N",
-          "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
-        },
-        {
-          "full_name": "Hong Y",
+          "full_name": "Yanming Hong",
           "last_name": "Hong",
-          "orcid": "0009-0000-6669-3602"
+          "orcid": "https://orcid.org/0009-0000-6669-3602"
         }
       ],
       "score": 0.45,
@@ -256,13 +260,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC11568534",
-        "pdf_url": "https://europepmc.org/articles/PMC11568534?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02314-2",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02314-2",
         "landing_page": "https://doi.org/10.1186/s12955-024-02314-2",
         "retrieval": "open"
       }
@@ -322,7 +327,7 @@
     {
       "work_id": "doi:10.1186/s41687-026-01075-4",
       "doi": "10.1186/s41687-026-01075-4",
-      "pmid": null,
+      "pmid": "42098471",
       "pmcid": null,
       "title": "Face validity of the EQ health and wellbeing instrument (EQ-HWB) in Hong Kong",
       "journal": "Journal of Patient-Reported Outcomes",
@@ -360,7 +365,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -63,6 +64,63 @@
         "oa_url": "https://doi.org/10.1186/s12955-026-02581-1",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1186/s12955-026-02581-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-6976096/v1",
+      "doi": "10.21203/rs.3.rs-6976096/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Conceptual Mapping of Health-Related Quality of Life, Quality of Life, and Wellbeing: A Systematic Review and Assessment of Commonly Used Patient-Reported Outcomes Measures",
+      "journal": "Research Square",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": "https://orcid.org/0000-0002-2914-5022"
+        },
+        {
+          "full_name": "Fernando Argento",
+          "last_name": "Argento",
+          "orcid": "https://orcid.org/0000-0002-2492-8933"
+        },
+        {
+          "full_name": "Natalí Ini",
+          "last_name": "Ini",
+          "orcid": "https://orcid.org/0009-0002-9411-0851"
+        },
+        {
+          "full_name": "Joaquín Cantos",
+          "last_name": "Cantos",
+          "orcid": null
+        },
+        {
+          "full_name": "María Belizán",
+          "last_name": "Belizán",
+          "orcid": "https://orcid.org/0000-0002-8739-5249"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-6976096/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-6976096/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-6976096/v1",
         "retrieval": "open"
       }
     }

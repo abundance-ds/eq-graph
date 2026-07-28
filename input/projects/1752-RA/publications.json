@@ -132,12 +132,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12395153",
+        "oa_url": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "pdf_url": "https://europepmc.org/articles/PMC12395153?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "retrieval": "open"
@@ -149,83 +150,83 @@
       "pmid": "38783891",
       "pmcid": "PMC11115369",
       "title": "Paving the path for implementation of clinical genomic sequencing globally: Are we ready?",
-      "journal": "Health affairs scholar",
+      "journal": "Health Affairs Scholar",
       "year": 2024,
       "authors": [
         {
-          "full_name": "Marshall DA",
+          "full_name": "Deborah A. Marshall",
           "last_name": "Marshall",
-          "orcid": "0000-0002-8467-8008"
+          "orcid": "https://orcid.org/0000-0002-8467-8008"
         },
         {
-          "full_name": "Hua N",
+          "full_name": "Nicolle Hua",
           "last_name": "Hua",
-          "orcid": "0009-0007-9472-901X"
+          "orcid": "https://orcid.org/0009-0007-9472-901x"
         },
         {
-          "full_name": "Buchanan J",
+          "full_name": "James Buchanan",
           "last_name": "Buchanan",
-          "orcid": "0000-0003-2528-0638"
+          "orcid": "https://orcid.org/0000-0003-2528-0638"
         },
         {
-          "full_name": "Christensen KD",
+          "full_name": "Kurt D. Christensen",
           "last_name": "Christensen",
-          "orcid": "0000-0003-4068-776X"
+          "orcid": "https://orcid.org/0000-0003-4068-776x"
         },
         {
-          "full_name": "Frederix GWJ",
+          "full_name": "Geert Frederix",
           "last_name": "Frederix",
           "orcid": null
         },
         {
-          "full_name": "Goranitis I",
+          "full_name": "Ilias Goranitis",
           "last_name": "Goranitis",
-          "orcid": "0000-0001-7946-8324"
+          "orcid": "https://orcid.org/0000-0001-7946-8324"
         },
         {
-          "full_name": "Ijzerman M",
-          "last_name": "Ijzerman",
-          "orcid": "0000-0001-5788-5805"
+          "full_name": "Maarten J. IJzerman",
+          "last_name": "IJzerman",
+          "orcid": "https://orcid.org/0000-0001-5788-5805"
         },
         {
-          "full_name": "Jansen JP",
+          "full_name": "Jeroen P. Jansen",
           "last_name": "Jansen",
-          "orcid": "0000-0003-2686-9217"
+          "orcid": "https://orcid.org/0000-0003-2686-9217"
         },
         {
-          "full_name": "Lavelle TA",
+          "full_name": "Tara A. Lavelle",
           "last_name": "Lavelle",
-          "orcid": "0000-0003-1212-6973"
+          "orcid": "https://orcid.org/0000-0003-1212-6973"
         },
         {
-          "full_name": "Regier DA",
+          "full_name": "Dean A. Regier",
           "last_name": "Regier",
-          "orcid": "0000-0001-8876-0511"
+          "orcid": "https://orcid.org/0000-0001-8876-0511"
         },
         {
-          "full_name": "Smith HS",
+          "full_name": "Hadley Stevens Smith",
           "last_name": "Smith",
-          "orcid": "0000-0003-1247-6535"
+          "orcid": "https://orcid.org/0000-0003-1247-6535"
         },
         {
-          "full_name": "Ungar WJ",
+          "full_name": "Wendy J. Ungar",
           "last_name": "Ungar",
-          "orcid": "0000-0002-0762-0101"
+          "orcid": "https://orcid.org/0000-0002-0762-0101"
         },
         {
-          "full_name": "Weymann D",
+          "full_name": "Deirdre Weymann",
           "last_name": "Weymann",
-          "orcid": "0000-0002-3072-5657"
+          "orcid": "https://orcid.org/0000-0002-3072-5657"
         },
         {
-          "full_name": "Wordsworth S",
+          "full_name": "Sarah Wordsworth",
           "last_name": "Wordsworth",
-          "orcid": "0000-0002-2361-3040"
+          "orcid": "https://orcid.org/0000-0002-2361-3040"
         },
         {
-          "full_name": "Phillips KA",
+          "full_name": "Kathryn A. Phillips",
           "last_name": "Phillips",
-          "orcid": "0000-0003-0822-4968"
+          "orcid": "https://orcid.org/0000-0003-0822-4968"
         }
       ],
       "score": 0.45,
@@ -239,13 +240,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC11115369",
-        "pdf_url": "https://europepmc.org/articles/PMC11115369?pdf=render",
+        "licence": "cc-by-nc",
+        "oa_url": "https://academic.oup.com/healthaffairsscholar/advance-article-pdf/doi/10.1093/haschl/qxae053/57349136/qxae053.pdf",
+        "pdf_url": "https://academic.oup.com/healthaffairsscholar/advance-article-pdf/doi/10.1093/haschl/qxae053/57349136/qxae053.pdf",
         "landing_page": "https://doi.org/10.1093/haschl/qxae053",
         "retrieval": "open"
       }
@@ -307,13 +309,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10902977",
-        "pdf_url": "https://europepmc.org/articles/PMC10902977?pdf=render",
+        "oa_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-07304-5",
+        "pdf_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-07304-5",
         "landing_page": "https://doi.org/10.1186/s12891-024-07304-5",
         "retrieval": "open"
       }

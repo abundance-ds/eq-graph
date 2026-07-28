@@ -60,13 +60,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13046671",
-        "pdf_url": "https://europepmc.org/articles/PMC13046671?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01789-0",
         "retrieval": "open"
       }
@@ -128,12 +129,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://doi.org/10.1007/s10198-025-01865-5",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01865-5.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01865-5.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01865-5",
         "retrieval": "open"
@@ -201,13 +203,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12789245",
-        "pdf_url": "https://europepmc.org/articles/PMC12789245?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04150-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04150-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-04150-3",
         "retrieval": "open"
       }
@@ -279,12 +282,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13043596",
+        "oa_url": "https://doi.org/10.1007/s11136-026-04199-8",
         "pdf_url": "https://europepmc.org/articles/PMC13043596?pdf=render",
         "landing_page": "https://doi.org/10.1007/s11136-026-04199-8",
         "retrieval": "open"
@@ -332,12 +336,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12243590",
+        "oa_url": "https://doi.org/10.1136/bmjopen-2025-100897",
         "pdf_url": "https://europepmc.org/articles/PMC12243590?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
         "retrieval": "open"
@@ -430,7 +435,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -451,69 +457,69 @@
       "year": 2025,
       "authors": [
         {
-          "full_name": "Verstraete J",
+          "full_name": "Janine Verstraete",
           "last_name": "Verstraete",
-          "orcid": "0000-0002-1148-4747"
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
         },
         {
-          "full_name": "Zampoli M",
+          "full_name": "Marco Zampoli",
           "last_name": "Zampoli",
-          "orcid": "0000-0002-6899-6137"
+          "orcid": "https://orcid.org/0000-0002-6899-6137"
         },
         {
-          "full_name": "Davidson A",
+          "full_name": "Alan Davidson",
           "last_name": "Davidson",
-          "orcid": "0000-0002-4646-4332"
+          "orcid": "https://orcid.org/0000-0002-4646-4332"
         },
         {
-          "full_name": "Hendricks M",
+          "full_name": "Marc Hendricks",
           "last_name": "Hendricks",
-          "orcid": "0000-0002-3636-0994"
+          "orcid": "https://orcid.org/0000-0002-3636-0994"
         },
         {
-          "full_name": "de Quintal H",
-          "last_name": "de Quintal",
-          "orcid": "0000-0003-3796-4420"
+          "full_name": "Helder De Quintal",
+          "last_name": "Quintal",
+          "orcid": "https://orcid.org/0000-0003-3796-4420"
         },
         {
-          "full_name": "Goga Y",
+          "full_name": "Yasmin Goga",
           "last_name": "Goga",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-6740-2376"
         },
         {
-          "full_name": "Wilmshurst JM",
+          "full_name": "Jo M. Wilmshurst",
           "last_name": "Wilmshurst",
-          "orcid": "0000-0001-7328-1796"
+          "orcid": "https://orcid.org/0000-0001-7328-1796"
         },
         {
-          "full_name": "Ndondo A",
+          "full_name": "Alvin Ndondo",
           "last_name": "Ndondo",
           "orcid": null
         },
         {
-          "full_name": "Riordan G",
+          "full_name": "Gillian Riordan",
           "last_name": "Riordan",
-          "orcid": "0000-0003-2698-9948"
+          "orcid": "https://orcid.org/0000-0003-2698-9948"
         },
         {
-          "full_name": "De Lacy R",
-          "last_name": "De Lacy",
+          "full_name": "Ronalda De Lacy",
+          "last_name": "Lacy",
           "orcid": null
         },
         {
-          "full_name": "McCullogh M",
-          "last_name": "McCullogh",
-          "orcid": "0000-0003-2876-4785"
+          "full_name": "Mignon McCulloch",
+          "last_name": "McCulloch",
+          "orcid": "https://orcid.org/0000-0003-2876-4785"
         },
         {
-          "full_name": "Reddy D",
+          "full_name": "D.S. Reddy",
           "last_name": "Reddy",
-          "orcid": "0000-0001-5575-7586"
+          "orcid": "https://orcid.org/0000-0001-5575-7586"
         },
         {
-          "full_name": "Herdien L",
+          "full_name": "Lasse Herdien",
           "last_name": "Herdien",
-          "orcid": "0000-0001-5961-8962"
+          "orcid": "https://orcid.org/0000-0001-5961-8962"
         }
       ],
       "score": 0.45,
@@ -527,14 +533,112 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC12629638",
+        "licence": "cc-by",
+        "oa_url": "https://doi.org/10.36469/001c.145813",
         "pdf_url": "https://europepmc.org/articles/PMC12629638?pdf=render",
         "landing_page": "https://doi.org/10.36469/001c.145813",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.36469/jheor.2025.145813",
+      "doi": "10.36469/jheor.2025.145813",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Performance of the Experimental EuroQol Toddler and Infant Populations (EQ-TIPS) and PedsQL in Infants and Toddlers with a Health Condition",
+      "journal": "Journal of health economics and outcomes research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Marco Zampoli",
+          "last_name": "Zampoli",
+          "orcid": "https://orcid.org/0000-0002-6899-6137"
+        },
+        {
+          "full_name": "Alan Davidson",
+          "last_name": "Davidson",
+          "orcid": "https://orcid.org/0000-0002-4646-4332"
+        },
+        {
+          "full_name": "Marc Hendricks",
+          "last_name": "Hendricks",
+          "orcid": "https://orcid.org/0000-0002-3636-0994"
+        },
+        {
+          "full_name": "Helder De Quintal",
+          "last_name": "Quintal",
+          "orcid": "https://orcid.org/0000-0003-3796-4420"
+        },
+        {
+          "full_name": "Yasmin Goga",
+          "last_name": "Goga",
+          "orcid": "https://orcid.org/0000-0002-6740-2376"
+        },
+        {
+          "full_name": "Jo M. Wilmshurst",
+          "last_name": "Wilmshurst",
+          "orcid": "https://orcid.org/0000-0001-7328-1796"
+        },
+        {
+          "full_name": "Alvin Ndondo",
+          "last_name": "Ndondo",
+          "orcid": null
+        },
+        {
+          "full_name": "Gillian Riordan",
+          "last_name": "Riordan",
+          "orcid": "https://orcid.org/0000-0003-2698-9948"
+        },
+        {
+          "full_name": "Ronalda De Lacy",
+          "last_name": "Lacy",
+          "orcid": null
+        },
+        {
+          "full_name": "Mignon McCullogh",
+          "last_name": "McCullogh",
+          "orcid": null
+        },
+        {
+          "full_name": "D.S. Reddy",
+          "last_name": "Reddy",
+          "orcid": "https://orcid.org/0000-0001-5575-7586"
+        },
+        {
+          "full_name": "Lasse Herdien",
+          "last_name": "Herdien",
+          "orcid": "https://orcid.org/0000-0001-5961-8962"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://jheor.org/article/145813.pdf",
+        "pdf_url": "https://jheor.org/article/145813.pdf",
+        "landing_page": "https://doi.org/10.36469/jheor.2025.145813",
         "retrieval": "open"
       }
     }

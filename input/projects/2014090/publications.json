@@ -45,13 +45,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9550755",
-        "pdf_url": "https://europepmc.org/articles/PMC9550755?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01172-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01172-4.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01172-4",
         "retrieval": "open"
       }
@@ -108,12 +109,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.joca.2023.07.004",
+        "oa_url": "http://www.oarsijournal.com/article/S1063458423008543/pdf",
         "pdf_url": "http://www.oarsijournal.com/article/S1063458423008543/pdf",
         "landing_page": "https://doi.org/10.1016/j.joca.2023.07.004",
         "retrieval": "open"
@@ -171,7 +173,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -276,13 +279,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9333246",
-        "pdf_url": "https://europepmc.org/articles/PMC9333246?pdf=render",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0272252&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0272252&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0272252",
         "retrieval": "open"
       }
@@ -339,12 +343,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC8599146",
+        "oa_url": "https://doi.org/10.3389/fpubh.2021.744405",
         "pdf_url": "https://europepmc.org/articles/PMC8599146?pdf=render",
         "landing_page": "https://doi.org/10.3389/fpubh.2021.744405",
         "retrieval": "open"

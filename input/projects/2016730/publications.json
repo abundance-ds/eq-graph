@@ -70,12 +70,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9470642",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03138-7.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03138-7.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-022-03138-7",
         "retrieval": "open"
@@ -143,14 +144,57 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12789245",
-        "pdf_url": "https://europepmc.org/articles/PMC12789245?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04150-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04150-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-04150-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01383-x",
+      "doi": "10.1007/s40273-024-01383-x",
+      "pmid": "38722540",
+      "pmcid": null,
+      "title": "Meeting the Challenges of Preference-Weighted Health-Related Quality-of-Life Measurement in Children",
+      "journal": "PharmacoEconomics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Wendy J. Ungar",
+          "last_name": "Ungar",
+          "orcid": "https://orcid.org/0000-0002-0762-0101"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01383-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01383-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-024-01383-x",
         "retrieval": "open"
       }
     },

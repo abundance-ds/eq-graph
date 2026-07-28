@@ -58,7 +58,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -75,38 +76,98 @@
       "pmid": "37038172",
       "pmcid": "PMC10084671",
       "title": "Experience-based health state valuation using the EQ VAS: a register-based study of the EQ-5D-3L among nine patient groups in Sweden",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2023,
       "authors": [
         {
-          "full_name": "Teni FS",
+          "full_name": "Fitsum Sebsibe Teni",
           "last_name": "Teni",
-          "orcid": "0000-0002-6182-499X"
+          "orcid": "https://orcid.org/0000-0002-6182-499x"
         },
         {
-          "full_name": "Burström K",
+          "full_name": "Kristina Burström",
           "last_name": "Burström",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-9996-4317"
         },
         {
-          "full_name": "Devlin N",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Parkin D",
+          "full_name": "David Parkin",
           "last_name": "Parkin",
-          "orcid": "0000-0002-9990-8208"
+          "orcid": "https://orcid.org/0000-0002-9990-8208"
         },
         {
-          "full_name": "Rolfson O",
+          "full_name": "Ola Rolfson",
           "last_name": "Rolfson",
+          "orcid": "https://orcid.org/0000-0001-6534-1242"
+        },
+        {
+          "full_name": "The Swedish Quality Register (SWEQR) Study Group",
+          "last_name": "Group",
           "orcid": null
         },
         {
-          "full_name": null,
-          "last_name": null,
+          "full_name": "Allan Abbott",
+          "last_name": "Abbott",
+          "orcid": "https://orcid.org/0000-0002-4318-9216"
+        },
+        {
+          "full_name": "Magnus Ekström",
+          "last_name": "Ekström",
+          "orcid": "https://orcid.org/0000-0002-7227-5113"
+        },
+        {
+          "full_name": "Magnus Forssblad",
+          "last_name": "Forssblad",
+          "orcid": "https://orcid.org/0000-0002-5870-7477"
+        },
+        {
+          "full_name": "Peter Fritzell",
+          "last_name": "Fritzell",
+          "orcid": "https://orcid.org/0000-0002-2043-6376"
+        },
+        {
+          "full_name": "Åsa Jönsson",
+          "last_name": "Jönsson",
           "orcid": null
+        },
+        {
+          "full_name": "Mikael Landén",
+          "last_name": "Landén",
+          "orcid": "https://orcid.org/0000-0002-4496-6451"
+        },
+        {
+          "full_name": "Michael Möller",
+          "last_name": "Möller",
+          "orcid": "https://orcid.org/0000-0001-7394-6057"
+        },
+        {
+          "full_name": "Malin Regardt",
+          "last_name": "Regardt",
+          "orcid": "https://orcid.org/0000-0002-1908-5708"
+        },
+        {
+          "full_name": "Björn E. Rosengren",
+          "last_name": "Rosengren",
+          "orcid": "https://orcid.org/0000-0001-5588-6927"
+        },
+        {
+          "full_name": "Marcus Schmitt‐Egenolf",
+          "last_name": "Schmitt‐Egenolf",
+          "orcid": "https://orcid.org/0000-0002-3858-8474"
+        },
+        {
+          "full_name": "Johanna Vinblad",
+          "last_name": "Vinblad",
+          "orcid": "https://orcid.org/0000-0003-1842-7355"
+        },
+        {
+          "full_name": "Annette W‐Dahl",
+          "last_name": "W‐Dahl",
+          "orcid": "https://orcid.org/0000-0003-4053-7358"
         }
       ],
       "score": 1.0,
@@ -130,12 +191,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC10084671",
+        "licence": "cc-by",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02115-z",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02115-z",
         "landing_page": "https://doi.org/10.1186/s12955-023-02115-z",
         "retrieval": "open"
@@ -263,13 +325,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6208600",
-        "pdf_url": "https://europepmc.org/articles/PMC6208600?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-018-1985-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-018-1985-2.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-018-1985-2",
         "retrieval": "open"
       }
@@ -280,38 +343,38 @@
       "pmid": "31515749",
       "pmcid": "PMC6962279",
       "title": "Influence of elicitation procedure and phrasing on health state valuations in experience-based time trade-off tasks among diabetes patients in China",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
-      "year": 2020,
+      "journal": "Quality of Life Research",
+      "year": 2019,
       "authors": [
         {
-          "full_name": "Hao S",
+          "full_name": "Shuang Hao",
           "last_name": "Hao",
-          "orcid": "0000-0002-2303-4532"
+          "orcid": "https://orcid.org/0000-0002-2303-4532"
         },
         {
-          "full_name": "Heintz E",
+          "full_name": "Emelie Heintz",
           "last_name": "Heintz",
-          "orcid": "0000-0002-0715-7591"
+          "orcid": "https://orcid.org/0000-0002-0715-7591"
         },
         {
-          "full_name": "Helgesson G",
+          "full_name": "Gert Helgesson",
           "last_name": "Helgesson",
-          "orcid": "0000-0002-0075-0165"
+          "orcid": "https://orcid.org/0000-0002-0075-0165"
         },
         {
-          "full_name": "Langenskiöld S",
+          "full_name": "Sophie Langenskiöld",
           "last_name": "Langenskiöld",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3888-2910"
         },
         {
-          "full_name": "Chen J",
+          "full_name": "Jiaying Chen",
           "last_name": "Chen",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8845-5792"
         },
         {
-          "full_name": "Burström K",
+          "full_name": "Kristina Burström",
           "last_name": "Burström",
-          "orcid": "0000-0001-9996-4317"
+          "orcid": "https://orcid.org/0000-0001-9996-4317"
         }
       ],
       "score": 0.45,
@@ -325,13 +388,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC6962279",
-        "pdf_url": "https://europepmc.org/articles/PMC6962279?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-019-02292-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-019-02292-9.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-019-02292-9",
         "retrieval": "open"
       }
@@ -378,12 +442,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9188517",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03107-0.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03107-0.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-022-03107-0",
         "retrieval": "open"
@@ -426,7 +491,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -484,13 +550,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9853521",
-        "pdf_url": "https://europepmc.org/articles/PMC9853521?pdf=render",
+        "oa_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2022.959252/pdf",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2022.959252/pdf",
         "landing_page": "https://doi.org/10.3389/fpubh.2022.959252",
         "retrieval": "open"
       }

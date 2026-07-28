@@ -97,12 +97,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "oa_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00469-8/pdf",
         "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00469-8/pdf",
         "landing_page": "https://doi.org/10.1016/j.vhri.2025.101543",
         "retrieval": "open"

@@ -58,7 +58,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -77,49 +78,49 @@
       "doi": "10.1002/ppul.71031",
       "pmid": "40042135",
       "pmcid": "PMC11881216",
-      "title": "Are EQ-5D-Y-3L and EQ-5D-Y-5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
-      "journal": "Pediatric pulmonology",
+      "title": "Are EQ‐5D‐Y‐3L and EQ‐5D‐Y‐5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
+      "journal": "Pediatric Pulmonology",
       "year": 2025,
       "authors": [
         {
-          "full_name": "Zhou W",
+          "full_name": "Wenjing Zhou",
           "last_name": "Zhou",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-0770-4564"
         },
         {
-          "full_name": "Herdman M",
+          "full_name": "Michael Herdman",
           "last_name": "Herdman",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
         },
         {
-          "full_name": "Yang Z",
+          "full_name": "Zhihao Yang",
           "last_name": "Yang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
         },
         {
-          "full_name": "Wu B",
+          "full_name": "Bin Wu",
           "last_name": "Wu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8314-8259"
         },
         {
-          "full_name": "Wang P",
+          "full_name": "Pei Wang",
           "last_name": "Wang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3661-3944"
         },
         {
-          "full_name": "Busschbach J",
+          "full_name": "Jan J.V. Busschbach",
           "last_name": "Busschbach",
-          "orcid": "0000-0002-8602-0381"
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
         },
         {
-          "full_name": "Lu Y",
+          "full_name": "Yanming Lu",
           "last_name": "Lu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5559-2574"
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 0.45,
@@ -133,13 +134,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC11881216",
-        "pdf_url": "https://europepmc.org/articles/PMC11881216?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppul.71031",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppul.71031",
         "landing_page": "https://doi.org/10.1002/ppul.71031",
         "retrieval": "open"
       }
@@ -191,7 +193,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -269,7 +272,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -327,7 +331,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -400,7 +405,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -468,12 +474,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
-        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "oa_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
         "retrieval": "open"
@@ -531,7 +538,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -589,7 +597,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -652,7 +661,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -715,7 +725,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -773,7 +784,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -871,13 +883,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9758244",
-        "pdf_url": "https://europepmc.org/articles/PMC9758244?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01216-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01216-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-022-01216-9",
         "retrieval": "open"
       }
@@ -939,13 +952,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12602574",
-        "pdf_url": "https://europepmc.org/articles/PMC12602574?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01519-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01519-7.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01519-7",
         "retrieval": "open"
       }
@@ -1002,7 +1016,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -1014,53 +1029,33 @@
       }
     },
     {
-      "work_id": "doi:10.1016/j.jval.2023.03.003",
-      "doi": "10.1016/j.jval.2023.03.003",
-      "pmid": "36921897",
+      "work_id": "doi:10.1016/j.jval.2022.12.012",
+      "doi": "10.1016/j.jval.2022.12.012",
+      "pmid": "36566885",
       "pmcid": null,
-      "title": "Using Time Trade-Off Values to Estimate EQ-5D-Y Value Sets: An Exploratory Study",
+      "title": "Cross-Attribute Level Effects Models for Modeling Modified 5-Level Version of EQ-5D Health State Values: Is Less Still More?",
       "journal": "Value in Health",
-      "year": 2023,
+      "year": 2022,
       "authors": [
         {
           "full_name": "Zhihao Yang",
           "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
           "orcid": null
         },
         {
-          "full_name": "Jie Jiang",
-          "last_name": "Jiang",
-          "orcid": null
-        },
-        {
-          "full_name": "Pei Wang",
-          "last_name": "Wang",
-          "orcid": null
-        },
-        {
-          "full_name": "Jing Wu",
-          "last_name": "Wu",
-          "orcid": null
-        },
-        {
-          "full_name": "Yu Fang",
-          "last_name": "Fang",
-          "orcid": null
-        },
-        {
-          "full_name": "Da Feng",
-          "last_name": "Feng",
-          "orcid": null
-        },
-        {
-          "full_name": "Xiaoyu Xi",
-          "last_name": "Xi",
-          "orcid": null
+          "full_name": "Jan J.V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
         },
         {
           "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 0.45,
@@ -1074,18 +1069,17 @@
         }
       ],
       "sources": [
-        "crossref",
-        "europepmc"
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.03.003",
-        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523001018/pdf",
-        "landing_page": "https://doi.org/10.1016/j.jval.2023.03.003",
+        "licence": "cc-by",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522047866/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522047866/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.12.012",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 13
+  "weak_omitted": 14
 }

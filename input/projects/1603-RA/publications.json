@@ -35,13 +35,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9121571",
-        "pdf_url": "https://europepmc.org/articles/PMC9121571?pdf=render",
+        "oa_url": "https://healtheconomicsreview.biomedcentral.com/track/pdf/10.1186/s13561-022-00374-y",
+        "pdf_url": "https://healtheconomicsreview.biomedcentral.com/track/pdf/10.1186/s13561-022-00374-y",
         "landing_page": "https://doi.org/10.1186/s13561-022-00374-y",
         "retrieval": "open"
       }
@@ -78,13 +79,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10456181",
-        "pdf_url": "https://europepmc.org/articles/PMC10456181?pdf=render",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0290606&type=printable",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0290606&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0290606",
         "retrieval": "open"
       }

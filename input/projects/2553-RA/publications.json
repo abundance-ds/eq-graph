@@ -4,68 +4,6 @@
   "review": [],
   "weak": [
     {
-      "work_id": "doi:10.1002/hsr2.70308",
-      "doi": "10.1002/hsr2.70308",
-      "pmid": "39741745",
-      "pmcid": "PMC11683768",
-      "title": "Using Patient-Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
-      "journal": "Health science reports",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Soprovich AL",
-          "last_name": "Soprovich",
-          "orcid": "0000-0002-6143-1555"
-        },
-        {
-          "full_name": "Short H",
-          "last_name": "Short",
-          "orcid": null
-        },
-        {
-          "full_name": "Ali AB",
-          "last_name": "Ali",
-          "orcid": null
-        },
-        {
-          "full_name": "Brower K",
-          "last_name": "Brower",
-          "orcid": "0000-0002-0416-7655"
-        },
-        {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
-          "orcid": null
-        },
-        {
-          "full_name": "Johnson JA",
-          "last_name": "Johnson",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC11683768",
-        "pdf_url": "https://europepmc.org/articles/PMC11683768?pdf=render",
-        "landing_page": "https://doi.org/10.1002/hsr2.70308",
-        "retrieval": "open"
-      }
-    },
-    {
       "work_id": "doi:10.1007/s11136-025-03983-2",
       "doi": "10.1007/s11136-025-03983-2",
       "pmid": "40317454",
@@ -172,13 +110,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12689827",
-        "pdf_url": "https://europepmc.org/articles/PMC12689827?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03983-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03983-2.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03983-2",
         "retrieval": "open"
       }
@@ -235,7 +174,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -303,12 +243,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12395153",
+        "oa_url": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "pdf_url": "https://europepmc.org/articles/PMC12395153?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "retrieval": "open"

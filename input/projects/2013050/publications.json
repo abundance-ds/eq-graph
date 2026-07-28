@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -128,7 +129,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -149,39 +151,39 @@
       "year": 2015,
       "authors": [
         {
-          "full_name": "Xie F",
+          "full_name": "Feng Xie",
           "last_name": "Xie",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
         },
         {
-          "full_name": "Pickard AS",
+          "full_name": "A. Simon Pickard",
           "last_name": "Pickard",
-          "orcid": "0000-0001-5645-7091"
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
         },
         {
-          "full_name": "Krabbe PF",
+          "full_name": "Paul F. M. Krabbe",
           "last_name": "Krabbe",
-          "orcid": "0000-0001-6042-1243"
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
         },
         {
-          "full_name": "Revicki D",
+          "full_name": "Dennis A. Revicki",
           "last_name": "Revicki",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6780-0019"
         },
         {
-          "full_name": "Viney R",
+          "full_name": "Rosalie Viney",
           "last_name": "Viney",
-          "orcid": "0000-0002-0039-9635"
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
         },
         {
-          "full_name": "Devlin N",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Feeny D",
+          "full_name": "David Feeny",
           "last_name": "Feeny",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1998-9408"
         }
       ],
       "score": 0.45,
@@ -195,12 +197,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC4519579",
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-015-0292-9",
         "retrieval": "open"
@@ -397,7 +400,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,

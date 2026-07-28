@@ -8,39 +8,39 @@
       "doi": "10.1002/hsr2.70308",
       "pmid": "39741745",
       "pmcid": "PMC11683768",
-      "title": "Using Patient-Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
-      "journal": "Health science reports",
-      "year": 2025,
+      "title": "Using Patient‐Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
+      "journal": "Health Science Reports",
+      "year": 2024,
       "authors": [
         {
-          "full_name": "Soprovich AL",
+          "full_name": "Allison Soprovich",
           "last_name": "Soprovich",
-          "orcid": "0000-0002-6143-1555"
+          "orcid": "https://orcid.org/0000-0002-6143-1555"
         },
         {
-          "full_name": "Short H",
+          "full_name": "Hilary Short",
           "last_name": "Short",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-7142-3364"
         },
         {
-          "full_name": "Ali AB",
+          "full_name": "Al‐Bakir Ali",
           "last_name": "Ali",
           "orcid": null
         },
         {
-          "full_name": "Brower K",
+          "full_name": "Krista Brower",
           "last_name": "Brower",
-          "orcid": "0000-0002-0416-7655"
-        },
-        {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
           "orcid": null
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -54,13 +54,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC11683768",
-        "pdf_url": "https://europepmc.org/articles/PMC11683768?pdf=render",
+        "licence": "cc-by-nc",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hsr2.70308",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hsr2.70308",
         "landing_page": "https://doi.org/10.1002/hsr2.70308",
         "retrieval": "open"
       }
@@ -112,7 +113,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -170,7 +172,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -243,12 +246,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10850204",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03499-7.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03499-7.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-023-03499-7",
         "retrieval": "open"
@@ -361,13 +365,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12689827",
-        "pdf_url": "https://europepmc.org/articles/PMC12689827?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03983-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03983-2.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03983-2",
         "retrieval": "open"
       }
@@ -419,7 +424,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -482,7 +488,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -550,12 +557,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12395153",
+        "oa_url": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "pdf_url": "https://europepmc.org/articles/PMC12395153?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
         "retrieval": "open"
@@ -567,38 +575,38 @@
       "pmid": "30801280",
       "pmcid": "PMC6999959",
       "title": "The EQ-5D-5L Is Superior to the -3L Version in Measuring Health-related Quality of Life in Patients Awaiting THA or TKA",
-      "journal": "Clinical orthopaedics and related research",
+      "journal": "Clinical Orthopaedics and Related Research",
       "year": 2019,
       "authors": [
         {
-          "full_name": "Jin X",
+          "full_name": "Xuejing Jin",
           "last_name": "Jin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3513-2364"
         },
         {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": null
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
         },
         {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
-          "orcid": null
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
         },
         {
-          "full_name": "Marshall DA",
+          "full_name": "Deborah A. Marshall",
           "last_name": "Marshall",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8467-8008"
         },
         {
-          "full_name": "Smith C",
+          "full_name": "Christopher Smith",
           "last_name": "Smith",
-          "orcid": "0000-0002-9625-6902"
+          "orcid": "https://orcid.org/0000-0002-9625-6902"
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -612,12 +620,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": null,
-        "oa_url": "https://europepmc.org/articles/PMC6999959",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6999959",
         "pdf_url": "https://europepmc.org/articles/PMC6999959?pdf=render",
         "landing_page": "https://doi.org/10.1097/corr.0000000000000662",
         "retrieval": "open"
@@ -680,13 +689,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10902977",
-        "pdf_url": "https://europepmc.org/articles/PMC10902977?pdf=render",
+        "oa_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-07304-5",
+        "pdf_url": "https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-07304-5",
         "landing_page": "https://doi.org/10.1186/s12891-024-07304-5",
         "retrieval": "open"
       }
@@ -825,7 +835,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -883,12 +894,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6883516",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-019-1243-5",
         "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-019-1243-5",
         "landing_page": "https://doi.org/10.1186/s12955-019-1243-5",
         "retrieval": "open"
@@ -900,43 +912,43 @@
       "pmid": "37978502",
       "pmcid": "PMC10657124",
       "title": "The use of EQ-5D-5L as a patient-reported outcome measure in evaluating community rehabilitation services in Alberta, Canada",
-      "journal": "Health and quality of life outcomes",
+      "journal": "Health and Quality of Life Outcomes",
       "year": 2023,
       "authors": [
         {
-          "full_name": "Short H",
+          "full_name": "Hilary Short",
           "last_name": "Short",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-7142-3364"
         },
         {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": "0000-0003-3891-5452"
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
         },
         {
-          "full_name": "Churchill K",
+          "full_name": "Katie Churchill",
           "last_name": "Churchill",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-2802-2810"
         },
         {
-          "full_name": "Keogh E",
+          "full_name": "Eileen Keogh",
           "last_name": "Keogh",
           "orcid": null
         },
         {
-          "full_name": "Warner L",
+          "full_name": "Lisa Warner",
           "last_name": "Warner",
           "orcid": null
         },
         {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
-          "orcid": "0000-0002-7094-1573"
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": "0000-0001-8290-2857"
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -950,13 +962,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC10657124",
-        "pdf_url": "https://europepmc.org/articles/PMC10657124?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02207-w",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02207-w",
         "landing_page": "https://doi.org/10.1186/s12955-023-02207-w",
         "retrieval": "open"
       }
@@ -966,24 +979,24 @@
       "doi": "10.1186/s41687-021-00364-4",
       "pmid": "34637001",
       "pmcid": "PMC8511223",
-      "title": "Measuring value in healthcare from a patients' perspective",
-      "journal": "Journal of patient-reported outcomes",
+      "title": "Measuring value in healthcare from a patients’ perspective",
+      "journal": "Journal of Patient-Reported Outcomes",
       "year": 2021,
       "authors": [
         {
-          "full_name": "Dean S",
+          "full_name": "Stafford Dean",
           "last_name": "Dean",
           "orcid": null
         },
         {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": null
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": "0000-0001-8290-2857"
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -997,17 +1010,18 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC8511223",
+        "licence": "cc-by",
+        "oa_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00364-4",
         "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00364-4",
         "landing_page": "https://doi.org/10.1186/s41687-021-00364-4",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 7
+  "weak_omitted": 9
 }

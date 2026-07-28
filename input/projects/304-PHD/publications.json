@@ -42,12 +42,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/s10614-024-10637-x",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10614-024-10637-x.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10614-024-10637-x.pdf",
         "landing_page": "https://doi.org/10.1007/s10614-024-10637-x",
         "retrieval": "open"
@@ -95,13 +96,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11461645",
-        "pdf_url": "https://europepmc.org/articles/PMC11461645?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40271-024-00708-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-024-00708-4.pdf",
         "landing_page": "https://doi.org/10.1007/s40271-024-00708-4",
         "retrieval": "open"
       }
@@ -143,12 +145,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11782394",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01444-1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01444-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-024-01444-1",
         "retrieval": "open"
@@ -248,13 +251,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10603523",
-        "pdf_url": "https://europepmc.org/articles/PMC10603523?pdf=render",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/13/10/e077256.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/13/10/e077256.full.pdf",
         "landing_page": "https://doi.org/10.1136/bmjopen-2023-077256",
         "retrieval": "open"
       }
@@ -296,13 +300,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11555889",
-        "pdf_url": "https://europepmc.org/articles/PMC11555889?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02271-w",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-024-02271-w",
         "landing_page": "https://doi.org/10.1186/s12955-024-02271-w",
         "retrieval": "open"
       }
@@ -348,12 +353,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://doi.org/10.3390/econometrics11010004",
+        "oa_url": "https://www.mdpi.com/2225-1146/11/1/4/pdf?version=1676271863",
         "pdf_url": "https://www.mdpi.com/2225-1146/11/1/4/pdf?version=1676271863",
         "landing_page": "https://doi.org/10.3390/econometrics11010004",
         "retrieval": "open"
@@ -431,13 +437,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11848668",
-        "pdf_url": "https://europepmc.org/articles/PMC11848668?pdf=render",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/15/2/e091097.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/15/2/e091097.full.pdf",
         "landing_page": "https://doi.org/10.1136/bmjopen-2024-091097",
         "retrieval": "open"
       }
@@ -484,12 +491,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12243590",
+        "oa_url": "https://doi.org/10.1136/bmjopen-2025-100897",
         "pdf_url": "https://europepmc.org/articles/PMC12243590?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
         "retrieval": "open"

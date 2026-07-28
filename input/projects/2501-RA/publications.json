@@ -30,13 +30,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11848668",
-        "pdf_url": "https://europepmc.org/articles/PMC11848668?pdf=render",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/15/2/e091097.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/15/2/e091097.full.pdf",
         "landing_page": "https://doi.org/10.1136/bmjopen-2024-091097",
         "retrieval": "open"
       }
@@ -83,12 +84,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC12243590",
+        "oa_url": "https://doi.org/10.1136/bmjopen-2025-100897",
         "pdf_url": "https://europepmc.org/articles/PMC12243590?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
         "retrieval": "open"

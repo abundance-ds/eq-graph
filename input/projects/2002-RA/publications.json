@@ -85,13 +85,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11186300",
-        "pdf_url": "https://europepmc.org/articles/PMC11186300?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/trc2.12486",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/trc2.12486",
         "landing_page": "https://doi.org/10.1002/trc2.12486",
         "retrieval": "open"
       }
@@ -148,12 +149,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.04.010",
         "retrieval": "open"

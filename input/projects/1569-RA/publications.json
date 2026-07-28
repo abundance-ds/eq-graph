@@ -1,0 +1,146 @@
+{
+  "project_id": "1569-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41512-025-00203-w",
+      "doi": "10.1186/s41512-025-00203-w",
+      "pmid": "40887598",
+      "pmcid": "PMC12400538",
+      "title": "Development and internal validation of a prediction model for post-COVID-19 condition 2 years after infection—results of the CORFU study",
+      "journal": "Diagnostic and Prognostic Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Dorthe O. Klein",
+          "last_name": "Klein",
+          "orcid": "https://orcid.org/0000-0003-0182-9569"
+        },
+        {
+          "full_name": "Nick Wilmes",
+          "last_name": "Wilmes",
+          "orcid": "https://orcid.org/0000-0002-7231-8654"
+        },
+        {
+          "full_name": "Sophie Waardenburg",
+          "last_name": "Waardenburg",
+          "orcid": "https://orcid.org/0000-0002-8077-7877"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "Erwin Birnie",
+          "last_name": "Birnie",
+          "orcid": "https://orcid.org/0000-0002-4534-4857"
+        },
+        {
+          "full_name": "Marieke S. J. N. Wintjens",
+          "last_name": "Wintjens",
+          "orcid": "https://orcid.org/0000-0002-7384-6002"
+        },
+        {
+          "full_name": "Stella C M Heemskerk",
+          "last_name": "Heemskerk",
+          "orcid": "https://orcid.org/0000-0002-1320-8084"
+        },
+        {
+          "full_name": "Emma B N J Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6916-7261"
+        },
+        {
+          "full_name": "Chahinda Ghossein‐Doha",
+          "last_name": "Ghossein‐Doha",
+          "orcid": "https://orcid.org/0000-0003-4783-0987"
+        },
+        {
+          "full_name": "Michiel C. Warlé",
+          "last_name": "Warlé",
+          "orcid": "https://orcid.org/0000-0002-1151-4571"
+        },
+        {
+          "full_name": "Lotte M. C. Jacobs",
+          "last_name": "Jacobs",
+          "orcid": "https://orcid.org/0000-0001-5169-1970"
+        },
+        {
+          "full_name": "Bea Hemmen",
+          "last_name": "Hemmen",
+          "orcid": "https://orcid.org/0000-0003-3066-3254"
+        },
+        {
+          "full_name": "Jeanine Verbunt",
+          "last_name": "Verbunt",
+          "orcid": "https://orcid.org/0000-0002-9060-9455"
+        },
+        {
+          "full_name": "Bas C. T. van Bussel",
+          "last_name": "Bussel",
+          "orcid": "https://orcid.org/0000-0003-1621-7848"
+        },
+        {
+          "full_name": "Susanne van Santen",
+          "last_name": "Santen",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Kietselaer",
+          "last_name": "Kietselaer",
+          "orcid": "https://orcid.org/0000-0002-0096-8594"
+        },
+        {
+          "full_name": "Gwyneth Jansen",
+          "last_name": "Jansen",
+          "orcid": "https://orcid.org/0000-0003-2391-7551"
+        },
+        {
+          "full_name": "Folkert W. Asselbergs",
+          "last_name": "Asselbergs",
+          "orcid": "https://orcid.org/0000-0002-1692-8669"
+        },
+        {
+          "full_name": "Marijke Linschoten",
+          "last_name": "Linschoten",
+          "orcid": "https://orcid.org/0000-0002-4541-080x"
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        },
+        {
+          "full_name": "Sander M. J. van Kuijk",
+          "last_name": "Kuijk",
+          "orcid": "https://orcid.org/0000-0003-2796-729x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://diagnprognres.biomedcentral.com/counter/pdf/10.1186/s41512-025-00203-w",
+        "pdf_url": "https://diagnprognres.biomedcentral.com/counter/pdf/10.1186/s41512-025-00203-w",
+        "landing_page": "https://doi.org/10.1186/s41512-025-00203-w",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -40,12 +40,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://doi.org/10.1002/hec.4863",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
         "landing_page": "https://doi.org/10.1002/hec.4863",
         "retrieval": "open"
@@ -108,13 +109,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13046671",
-        "pdf_url": "https://europepmc.org/articles/PMC13046671?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01789-0",
         "retrieval": "open"
       }
@@ -161,13 +163,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13190540",
-        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01852-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01852-w.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
         "retrieval": "open"
       }
@@ -219,13 +222,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274235",
-        "pdf_url": "https://europepmc.org/articles/PMC12274235?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03990-3",
         "retrieval": "open"
       }
@@ -357,13 +361,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274246",
-        "pdf_url": "https://europepmc.org/articles/PMC12274246?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03996-x",
         "retrieval": "open"
       }
@@ -410,13 +415,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12535937",
-        "pdf_url": "https://europepmc.org/articles/PMC12535937?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00989-2.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-025-00989-2.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-025-00989-2",
         "retrieval": "open"
       }
@@ -488,13 +494,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12011929",
-        "pdf_url": "https://europepmc.org/articles/PMC12011929?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01476-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01476-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01476-1",
         "retrieval": "open"
       }
@@ -546,7 +553,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -604,7 +612,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -682,12 +691,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.07.016",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.07.016",
         "retrieval": "open"
@@ -971,12 +981,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11146702",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0302886&type=printable",
         "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0302886&type=printable",
         "landing_page": "https://doi.org/10.1371/journal.pone.0302886",
         "retrieval": "open"

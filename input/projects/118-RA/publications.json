@@ -4,6 +4,83 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1016/j.socscimed.2021.114653",
+      "doi": "10.1016/j.socscimed.2021.114653",
+      "pmid": "35184921",
+      "pmcid": null,
+      "title": "The QALY at 50: One story many voices",
+      "journal": "Social Science & Medicine",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Anne Spencer",
+          "last_name": "Spencer",
+          "orcid": "https://orcid.org/0000-0002-8163-3103"
+        },
+        {
+          "full_name": "Oliver Rivero‐Arias",
+          "last_name": "Rivero‐Arias",
+          "orcid": "https://orcid.org/0000-0003-2233-6544"
+        },
+        {
+          "full_name": "Ruth Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-4536-4794"
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": "https://orcid.org/0000-0003-4245-5399"
+        },
+        {
+          "full_name": "Han Bleichrodt",
+          "last_name": "Bleichrodt",
+          "orcid": "https://orcid.org/0000-0002-2700-412x"
+        },
+        {
+          "full_name": "Rhiannon Tudor Edwards",
+          "last_name": "Edwards",
+          "orcid": "https://orcid.org/0000-0003-4748-5730"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Andrew Lloyd",
+          "last_name": "Lloyd",
+          "orcid": "https://orcid.org/0000-0002-7597-6556"
+        },
+        {
+          "full_name": "Philip Clarke",
+          "last_name": "Clarke",
+          "orcid": "https://orcid.org/0000-0002-7555-5348"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "other-oa",
+        "oa_url": "https://www.sciencedirect.com/science/article/pii/S0277953621009850",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0277953621009850",
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2021.114653",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.vaccine.2025.127450",
       "doi": "10.1016/j.vaccine.2025.127450",
       "pmid": "40633130",
@@ -45,7 +122,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -113,12 +191,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC10089360",
+        "oa_url": "https://doi.org/10.1371/journal.pmed.1004146",
         "pdf_url": "https://europepmc.org/articles/PMC10089360?pdf=render",
         "landing_page": "https://doi.org/10.1371/journal.pmed.1004146",
         "retrieval": "open"

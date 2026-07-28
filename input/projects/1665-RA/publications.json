@@ -48,7 +48,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -99,12 +100,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.007",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301524023672/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023672/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.05.007",
         "retrieval": "open"

@@ -4,6 +4,63 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s11136-015-1073-9",
+      "doi": "10.1007/s11136-015-1073-9",
+      "pmid": "26216584",
+      "pmcid": null,
+      "title": "How dead is dead? Qualitative findings from participants of combined traditional and lead-time time trade-off valuations",
+      "journal": "Quality of Life Research",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
+        },
+        {
+          "full_name": "Ana Mladenovic",
+          "last_name": "Mladenovic",
+          "orcid": null
+        },
+        {
+          "full_name": "Kathryn Gaebel",
+          "last_name": "Gaebel",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        },
+        {
+          "full_name": "Jeffrey Johnson",
+          "last_name": "Johnson",
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-015-1073-9",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s11136-015-1203-4",
       "doi": "10.1007/s11136-015-1203-4",
       "pmid": "26659899",
@@ -65,7 +122,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -138,7 +196,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -196,7 +255,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -254,7 +314,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -312,7 +373,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -329,38 +391,38 @@
       "pmid": "30801280",
       "pmcid": "PMC6999959",
       "title": "The EQ-5D-5L Is Superior to the -3L Version in Measuring Health-related Quality of Life in Patients Awaiting THA or TKA",
-      "journal": "Clinical orthopaedics and related research",
+      "journal": "Clinical Orthopaedics and Related Research",
       "year": 2019,
       "authors": [
         {
-          "full_name": "Jin X",
+          "full_name": "Xuejing Jin",
           "last_name": "Jin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3513-2364"
         },
         {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": null
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
         },
         {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
-          "orcid": null
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
         },
         {
-          "full_name": "Marshall DA",
+          "full_name": "Deborah A. Marshall",
           "last_name": "Marshall",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8467-8008"
         },
         {
-          "full_name": "Smith C",
+          "full_name": "Christopher Smith",
           "last_name": "Smith",
-          "orcid": "0000-0002-9625-6902"
+          "orcid": "https://orcid.org/0000-0002-9625-6902"
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -374,12 +436,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": null,
-        "oa_url": "https://europepmc.org/articles/PMC6999959",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6999959",
         "pdf_url": "https://europepmc.org/articles/PMC6999959?pdf=render",
         "landing_page": "https://doi.org/10.1097/corr.0000000000000662",
         "retrieval": "open"
@@ -519,7 +582,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -577,12 +641,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6883516",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-019-1243-5",
         "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-019-1243-5",
         "landing_page": "https://doi.org/10.1186/s12955-019-1243-5",
         "retrieval": "open"
@@ -593,24 +658,24 @@
       "doi": "10.1186/s41687-021-00364-4",
       "pmid": "34637001",
       "pmcid": "PMC8511223",
-      "title": "Measuring value in healthcare from a patients' perspective",
-      "journal": "Journal of patient-reported outcomes",
+      "title": "Measuring value in healthcare from a patients’ perspective",
+      "journal": "Journal of Patient-Reported Outcomes",
       "year": 2021,
       "authors": [
         {
-          "full_name": "Dean S",
+          "full_name": "Stafford Dean",
           "last_name": "Dean",
           "orcid": null
         },
         {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": null
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": "0000-0001-8290-2857"
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -624,12 +689,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC8511223",
+        "licence": "cc-by",
+        "oa_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00364-4",
         "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00364-4",
         "landing_page": "https://doi.org/10.1186/s41687-021-00364-4",
         "retrieval": "open"
@@ -760,33 +826,33 @@
       "pmid": "34637031",
       "pmcid": "PMC8511251",
       "title": "A multi-level approach for the use of routinely collected patient-reported outcome measures (PROMs) data in healthcare systems",
-      "journal": "Journal of patient-reported outcomes",
+      "journal": "Journal of Patient-Reported Outcomes",
       "year": 2021,
       "authors": [
         {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": null
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
         },
         {
-          "full_name": "Lahtinen M",
+          "full_name": "Markus Lahtinen",
           "last_name": "Lahtinen",
           "orcid": null
         },
         {
-          "full_name": "Bonsel GJ",
+          "full_name": "Gouke J. Bonsel",
           "last_name": "Bonsel",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
         },
         {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
-          "orcid": null
+          "full_name": "Arto Öhinmaa",
+          "last_name": "Öhinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
         },
         {
-          "full_name": "Johnson JA",
+          "full_name": "Jeffrey Johnson",
           "last_name": "Johnson",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
         }
       ],
       "score": 0.45,
@@ -800,11 +866,12 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
+        "licence": "cc-by",
         "oa_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00375-1",
         "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00375-1",
         "landing_page": "https://doi.org/10.1186/s41687-021-00375-1",
@@ -873,74 +940,18 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8555046",
-        "pdf_url": "https://europepmc.org/articles/PMC8555046?pdf=render",
+        "oa_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00385-z",
+        "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00385-z",
         "landing_page": "https://doi.org/10.1186/s41687-021-00385-z",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1186/s41687-022-00474-7",
-      "doi": "10.1186/s41687-022-00474-7",
-      "pmid": "35696002",
-      "pmcid": "PMC9192869",
-      "title": "Comparative performance of the EuroQol EQ-5D-5L and the CDC healthy days measures in assessing population health",
-      "journal": "Journal of patient-reported outcomes",
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Derkach M",
-          "last_name": "Derkach",
-          "orcid": null
-        },
-        {
-          "full_name": "Al Sayah F",
-          "last_name": "Al Sayah",
-          "orcid": "0000-0003-3891-5452"
-        },
-        {
-          "full_name": "Ohinmaa A",
-          "last_name": "Ohinmaa",
-          "orcid": "0000-0002-7094-1573"
-        },
-        {
-          "full_name": "Svenson LW",
-          "last_name": "Svenson",
-          "orcid": "0000-0002-3391-578X"
-        },
-        {
-          "full_name": "Johnson JA",
-          "last_name": "Johnson",
-          "orcid": "0000-0001-8290-2857"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC9192869",
-        "pdf_url": "https://europepmc.org/articles/PMC9192869?pdf=render",
-        "landing_page": "https://doi.org/10.1186/s41687-022-00474-7",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 2
+  "weak_omitted": 3
 }

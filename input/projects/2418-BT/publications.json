@@ -8,49 +8,49 @@
       "doi": "10.1002/ppul.71031",
       "pmid": "40042135",
       "pmcid": "PMC11881216",
-      "title": "Are EQ-5D-Y-3L and EQ-5D-Y-5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
-      "journal": "Pediatric pulmonology",
+      "title": "Are EQ‐5D‐Y‐3L and EQ‐5D‐Y‐5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
+      "journal": "Pediatric Pulmonology",
       "year": 2025,
       "authors": [
         {
-          "full_name": "Zhou W",
+          "full_name": "Wenjing Zhou",
           "last_name": "Zhou",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-0770-4564"
         },
         {
-          "full_name": "Herdman M",
+          "full_name": "Michael Herdman",
           "last_name": "Herdman",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
         },
         {
-          "full_name": "Yang Z",
+          "full_name": "Zhihao Yang",
           "last_name": "Yang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
         },
         {
-          "full_name": "Wu B",
+          "full_name": "Bin Wu",
           "last_name": "Wu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8314-8259"
         },
         {
-          "full_name": "Wang P",
+          "full_name": "Pei Wang",
           "last_name": "Wang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3661-3944"
         },
         {
-          "full_name": "Busschbach J",
+          "full_name": "Jan J.V. Busschbach",
           "last_name": "Busschbach",
-          "orcid": "0000-0002-8602-0381"
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
         },
         {
-          "full_name": "Lu Y",
+          "full_name": "Yanming Lu",
           "last_name": "Lu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5559-2574"
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 0.45,
@@ -64,13 +64,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC11881216",
-        "pdf_url": "https://europepmc.org/articles/PMC11881216?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppul.71031",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppul.71031",
         "landing_page": "https://doi.org/10.1002/ppul.71031",
         "retrieval": "open"
       }
@@ -132,7 +133,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -190,7 +192,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -253,7 +256,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -316,7 +320,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -384,13 +389,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12602574",
-        "pdf_url": "https://europepmc.org/articles/PMC12602574?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01519-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-025-01519-7.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-025-01519-7",
         "retrieval": "open"
       }
@@ -442,12 +448,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.01.010",
+        "oa_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00037-3/pdf",
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00037-3/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.01.010",
         "retrieval": "open"
@@ -535,7 +542,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -588,7 +596,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -605,61 +614,61 @@
       "pmid": "41749053",
       "pmcid": "PMC13071849",
       "title": "What do HTA agencies need for generating health-related quality of life evidence? Findings from a global survey",
-      "journal": "International journal of technology assessment in health care",
+      "journal": "International Journal of Technology Assessment in Health Care",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Vasan Thakumar A",
-          "last_name": "Vasan Thakumar",
-          "orcid": "0000-0001-7261-1255"
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Thakumar",
+          "orcid": "https://orcid.org/0000-0001-7261-1255"
         },
         {
-          "full_name": "Lorgelly P",
+          "full_name": "Paula Lorgelly",
           "last_name": "Lorgelly",
-          "orcid": "0000-0002-8990-9514"
+          "orcid": null
         },
         {
-          "full_name": "Longworth L",
+          "full_name": "Louise Longworth",
           "last_name": "Longworth",
-          "orcid": "0000-0003-2512-4862"
+          "orcid": "https://orcid.org/0000-0003-2512-4862"
         },
         {
-          "full_name": "Rey-Ares L",
+          "full_name": "Lucila Rey-Ares",
           "last_name": "Rey-Ares",
           "orcid": null
         },
         {
-          "full_name": "Purba F",
+          "full_name": "Fredrick Purba",
           "last_name": "Purba",
-          "orcid": "0000-0002-7336-3043"
+          "orcid": null
         },
         {
-          "full_name": "Golicki D",
+          "full_name": "Dominik Golicki",
           "last_name": "Golicki",
-          "orcid": "0000-0001-7741-4760"
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
         },
         {
-          "full_name": "Augustovski F",
+          "full_name": "Federico Augustovski",
           "last_name": "Augustovski",
           "orcid": null
         },
         {
-          "full_name": "Rand K",
+          "full_name": "Kim Rand",
           "last_name": "Rand",
-          "orcid": "0000-0001-7692-4099"
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
         },
         {
-          "full_name": "Viney R",
+          "full_name": "Rosalie Viney",
           "last_name": "Viney",
-          "orcid": "0000-0002-0039-9635"
+          "orcid": null
         },
         {
-          "full_name": "Bansback N",
+          "full_name": "Nick Bansback",
           "last_name": "Bansback",
           "orcid": null
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
           "orcid": null
         }
@@ -675,13 +684,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC13071849",
-        "pdf_url": "https://europepmc.org/articles/PMC13071849?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6282EAAECE0C8CBCA72696D40C37395/S0266462326103602a.pdf/div-class-title-what-do-hta-agencies-need-for-generating-health-related-quality-of-life-evidence-findings-from-a-global-survey-div.pdf",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6282EAAECE0C8CBCA72696D40C37395/S0266462326103602a.pdf/div-class-title-what-do-hta-agencies-need-for-generating-health-related-quality-of-life-evidence-findings-from-a-global-survey-div.pdf",
         "landing_page": "https://doi.org/10.1017/s0266462326103602",
         "retrieval": "open"
       }

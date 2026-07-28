@@ -6,54 +6,54 @@
       "doi": "10.1007/s11136-026-04230-y",
       "pmid": "41920390",
       "pmcid": "PMC13043530",
-      "title": "Carers' interpretation of the recall period and perspective-taking when completing the EQ health and wellbeing instrument (EQ-HWB)-9 as proxies for people with dementia: a think-aloud study",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "title": "Carers’ interpretation of the recall period and perspective-taking when completing the EQ health and wellbeing instrument (EQ-HWB)-9 as proxies for people with dementia: a think-aloud study",
+      "journal": "Quality of Life Research",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Ng CA",
+          "full_name": "Carrie‐Anne Ng",
           "last_name": "Ng",
-          "orcid": "0000-0001-9326-8492"
+          "orcid": "https://orcid.org/0000-0001-9326-8492"
         },
         {
-          "full_name": "Doherty K",
+          "full_name": "Kathleen Doherty",
           "last_name": "Doherty",
-          "orcid": "0000-0002-0122-0123"
+          "orcid": "https://orcid.org/0000-0002-0122-0123"
         },
         {
-          "full_name": "Bryan M",
+          "full_name": "Margo Bryan",
           "last_name": "Bryan",
           "orcid": null
         },
         {
-          "full_name": "Carlton J",
+          "full_name": "J. Carlton",
           "last_name": "Carlton",
-          "orcid": "0000-0002-9373-7663"
+          "orcid": null
         },
         {
-          "full_name": "Luckett T",
+          "full_name": "Tim Luckett",
           "last_name": "Luckett",
-          "orcid": "0000-0001-6121-5409"
+          "orcid": "https://orcid.org/0000-0001-6121-5409"
         },
         {
-          "full_name": "Mulhern B",
+          "full_name": "Brendan Mulhern",
           "last_name": "Mulhern",
-          "orcid": "0000-0003-3656-8063"
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
         },
         {
-          "full_name": "Norman R",
+          "full_name": "Richard Norman",
           "last_name": "Norman",
-          "orcid": "0000-0002-3112-3893"
+          "orcid": null
         },
         {
-          "full_name": "Wills K",
+          "full_name": "Karen Wills",
           "last_name": "Wills",
-          "orcid": "0000-0003-3897-2908"
+          "orcid": null
         },
         {
-          "full_name": "Roydhouse J",
+          "full_name": "Jessica Roydhouse",
           "last_name": "Roydhouse",
-          "orcid": "0000-0002-8025-5841"
+          "orcid": "https://orcid.org/0000-0002-8025-5841"
         }
       ],
       "score": 1.0,
@@ -67,13 +67,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC13043530",
-        "pdf_url": "https://europepmc.org/articles/PMC13043530?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04230-y.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04230-y.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-026-04230-y",
         "retrieval": "open"
       }
@@ -82,58 +83,58 @@
   "review": [],
   "weak": [
     {
-      "work_id": "doi:10.1177/17407745251405412",
-      "doi": "10.1177/17407745251405412",
-      "pmid": "41491584",
-      "pmcid": "PMC12782623",
-      "title": "A single item for overall side effect impact: Association with clinician-reported adverse events and global health",
-      "journal": "Clinical trials (London, England)",
+      "work_id": "doi:10.1007/s43441-025-00906-8",
+      "doi": "10.1007/s43441-025-00906-8",
+      "pmid": "41513883",
+      "pmcid": null,
+      "title": "Patient-Perceived Overall Side Effect Bother at and After Cancer Treatment Discontinuation: An Analysis Using Commercial Cancer Trial Data",
+      "journal": "Therapeutic Innovation & Regulatory Science",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Roydhouse J",
+          "full_name": "Jessica Roydhouse",
           "last_name": "Roydhouse",
-          "orcid": "0000-0002-8025-5841"
+          "orcid": "https://orcid.org/0000-0002-8025-5841"
         },
         {
-          "full_name": "Zola A",
-          "last_name": "Zola",
-          "orcid": "0000-0001-7111-1515"
-        },
-        {
-          "full_name": "Breslin M",
+          "full_name": "Monique Breslin",
           "last_name": "Breslin",
+          "orcid": "https://orcid.org/0000-0002-8135-3136"
+        },
+        {
+          "full_name": "Anne Rose Zola",
+          "last_name": "Zola",
           "orcid": null
         },
         {
-          "full_name": "Basch E",
+          "full_name": "Ethan Basch",
           "last_name": "Basch",
-          "orcid": "0000-0003-3813-9318"
+          "orcid": null
         },
         {
-          "full_name": "Calvert M",
+          "full_name": "Melanie Calvert",
           "last_name": "Calvert",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1856-837x"
         },
         {
-          "full_name": "Cella D",
+          "full_name": "David Cella",
           "last_name": "Cella",
-          "orcid": "0000-0002-9881-4541"
-        },
-        {
-          "full_name": "Smith ML",
-          "last_name": "Smith",
           "orcid": null
         },
         {
-          "full_name": "Thanarajasingam G",
+          "full_name": "Mary Lou Smith",
+          "last_name": "Smith",
+          "orcid": "https://orcid.org/0000-0002-1937-1026"
+        },
+        {
+          "full_name": "G. Thanarajasingam",
           "last_name": "Thanarajasingam",
           "orcid": null
         },
         {
-          "full_name": "Peipert JD",
+          "full_name": "John Devin Peipert",
           "last_name": "Peipert",
-          "orcid": "0000-0001-5762-7881"
+          "orcid": null
         }
       ],
       "score": 0.45,
@@ -147,12 +148,90 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "cc-by",
-        "oa_url": "https://europepmc.org/articles/PMC12782623",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s43441-025-00906-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43441-025-00906-8.pdf",
+        "landing_page": "https://doi.org/10.1007/s43441-025-00906-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/17407745251405412",
+      "doi": "10.1177/17407745251405412",
+      "pmid": "41491584",
+      "pmcid": "PMC12782623",
+      "title": "A single item for overall side effect impact: Association with clinician-reported adverse events and global health",
+      "journal": "Clinical Trials",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jessica Roydhouse",
+          "last_name": "Roydhouse",
+          "orcid": "https://orcid.org/0000-0002-8025-5841"
+        },
+        {
+          "full_name": "Anne Zola",
+          "last_name": "Zola",
+          "orcid": "https://orcid.org/0000-0001-7111-1515"
+        },
+        {
+          "full_name": "Monique Breslin",
+          "last_name": "Breslin",
+          "orcid": "https://orcid.org/0000-0002-8135-3136"
+        },
+        {
+          "full_name": "Ethan Basch",
+          "last_name": "Basch",
+          "orcid": null
+        },
+        {
+          "full_name": "Melanie Calvert",
+          "last_name": "Calvert",
+          "orcid": "https://orcid.org/0000-0002-1856-837x"
+        },
+        {
+          "full_name": "David Cella",
+          "last_name": "Cella",
+          "orcid": null
+        },
+        {
+          "full_name": "Mary Lou Smith",
+          "last_name": "Smith",
+          "orcid": "https://orcid.org/0000-0002-1937-1026"
+        },
+        {
+          "full_name": "Gita Thanarajasingam",
+          "last_name": "Thanarajasingam",
+          "orcid": "https://orcid.org/0000-0003-2144-5415"
+        },
+        {
+          "full_name": "John Devin Peipert",
+          "last_name": "Peipert",
+          "orcid": "https://orcid.org/0000-0001-5762-7881"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://research.birmingham.ac.uk/en/publications/da2ed4c6-fa45-43d3-8a6d-34354879bad4",
         "pdf_url": "https://europepmc.org/articles/PMC12782623?pdf=render",
         "landing_page": "https://doi.org/10.1177/17407745251405412",
         "retrieval": "open"

@@ -147,12 +147,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11169045",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01355-1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01355-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-024-01355-1",
         "retrieval": "open"
@@ -230,12 +231,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.06.004",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.06.004",
         "retrieval": "open"
@@ -293,12 +295,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9993735",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2023.115818",
         "pdf_url": "https://europepmc.org/articles/PMC9993735?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.socscimed.2023.115818",
         "retrieval": "open"

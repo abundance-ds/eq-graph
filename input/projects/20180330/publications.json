@@ -2,6 +2,70 @@
   "project_id": "20180330",
   "accepted": [
     {
+      "work_id": "doi:10.1016/j.burns.2020.08.015",
+      "doi": "10.1016/j.burns.2020.08.015",
+      "pmid": "33012569",
+      "pmcid": null,
+      "title": "The added value of extending the EQ-5D-5L with an itching item for the assessment of health-related quality of life of burn patients: an explorative study",
+      "journal": "Burns",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "I. Spronk",
+          "last_name": "Spronk",
+          "orcid": "https://orcid.org/0000-0001-9571-576x"
+        },
+        {
+          "full_name": "G.J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "S. Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "M.E. van Baar",
+          "last_name": "van Baar",
+          "orcid": null
+        },
+        {
+          "full_name": "M.F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "J.A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "grant id 20180330 credited to EuroQol in metadata",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.burns.2020.08.015",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.burns.2020.08.015",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-020-01394-0",
       "doi": "10.1186/s12955-020-01394-0",
       "pmid": "32429975",
@@ -63,13 +127,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7236121",
-        "pdf_url": "https://europepmc.org/articles/PMC7236121?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-020-01394-0",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-020-01394-0",
         "landing_page": "https://doi.org/10.1186/s12955-020-01394-0",
         "retrieval": "open"
       }
@@ -131,13 +196,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC8082864",
-        "pdf_url": "https://europepmc.org/articles/PMC8082864?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-021-01771-3",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-021-01771-3",
         "landing_page": "https://doi.org/10.1186/s12955-021-01771-3",
         "retrieval": "open"
       }
@@ -199,12 +265,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8727660",
+        "oa_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-021-00406-x",
         "pdf_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-021-00406-x",
         "landing_page": "https://doi.org/10.1186/s41687-021-00406-x",
         "retrieval": "open"
@@ -265,12 +332,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6571080",
+        "oa_url": "https://doi.org/10.1007/s11136-019-02156-2",
         "pdf_url": "https://europepmc.org/articles/PMC6571080?pdf=render",
         "landing_page": "https://doi.org/10.1007/s11136-019-02156-2",
         "retrieval": "open"
@@ -328,12 +396,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6803580",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-019-02256-z.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-019-02256-z.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-019-02256-z",
         "retrieval": "open"
@@ -391,13 +460,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7434722",
-        "pdf_url": "https://europepmc.org/articles/PMC7434722?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02496-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02496-4.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02496-4",
         "retrieval": "open"
       }
@@ -444,12 +514,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8481194",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02893-3.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02893-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-021-02893-3",
         "retrieval": "open"
@@ -512,12 +583,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8799410",
+        "oa_url": "https://doi.org/10.1007/s11136-021-03069-9",
         "pdf_url": "https://europepmc.org/articles/PMC8799410?pdf=render",
         "landing_page": "https://doi.org/10.1007/s11136-021-03069-9",
         "retrieval": "open"
@@ -580,13 +652,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11390791",
-        "pdf_url": "https://europepmc.org/articles/PMC11390791?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03704-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03704-1.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03704-1",
         "retrieval": "open"
       }
@@ -643,13 +716,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/s11136-024-03754-5",
-        "pdf_url": "https://europepmc.org/articles/PMC11541259?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03754-5.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03754-5.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03754-5",
         "retrieval": "open"
       }
@@ -706,77 +780,15 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13246841",
-        "pdf_url": "https://europepmc.org/articles/PMC13246841?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04285-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04285-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-026-04285-x",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.burns.2020.08.015",
-      "doi": "10.1016/j.burns.2020.08.015",
-      "pmid": "33012569",
-      "pmcid": null,
-      "title": "The added value of extending the EQ-5D-5L with an itching item for the assessment of health-related quality of life of burn patients: an explorative study",
-      "journal": "Burns",
-      "year": 2021,
-      "authors": [
-        {
-          "full_name": "I. Spronk",
-          "last_name": "Spronk",
-          "orcid": "https://orcid.org/0000-0001-9571-576x"
-        },
-        {
-          "full_name": "G.J. Bonsel",
-          "last_name": "Bonsel",
-          "orcid": "https://orcid.org/0000-0002-8364-1086"
-        },
-        {
-          "full_name": "S. Polinder",
-          "last_name": "Polinder",
-          "orcid": null
-        },
-        {
-          "full_name": "M.E. van Baar",
-          "last_name": "van Baar",
-          "orcid": null
-        },
-        {
-          "full_name": "M.F. Janssen",
-          "last_name": "Janssen",
-          "orcid": null
-        },
-        {
-          "full_name": "J.A. Haagsma",
-          "last_name": "Haagsma",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.burns.2020.08.015",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.burns.2020.08.015",
         "retrieval": "open"
       }
     },
@@ -832,12 +844,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2020.12.011",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301521000516/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301521000516/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2020.12.011",
         "retrieval": "open"
@@ -890,7 +903,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -943,13 +957,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC6480806",
-        "pdf_url": "https://europepmc.org/articles/PMC6480806?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-019-1139-4",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-019-1139-4",
         "landing_page": "https://doi.org/10.1186/s12955-019-1139-4",
         "retrieval": "open"
       }
@@ -1001,13 +1016,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7251884",
-        "pdf_url": "https://europepmc.org/articles/PMC7251884?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-020-01404-1",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-020-01404-1",
         "landing_page": "https://doi.org/10.1186/s12955-020-01404-1",
         "retrieval": "open"
       }
@@ -1059,12 +1075,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9672616",
+        "oa_url": "https://archpublichealth.biomedcentral.com/counter/pdf/10.1186/s13690-022-00990-4",
         "pdf_url": "https://archpublichealth.biomedcentral.com/counter/pdf/10.1186/s13690-022-00990-4",
         "landing_page": "https://doi.org/10.1186/s13690-022-00990-4",
         "retrieval": "open"
@@ -1076,36 +1093,94 @@
       "pmid": "38455931",
       "pmcid": "PMC10910898",
       "title": "Cross-sectional and longitudinal comparison of health-related quality of life and mental well-being between persons with and without post COVID-19 condition",
-      "journal": "Frontiers in epidemiology",
+      "journal": "Frontiers in Epidemiology",
       "year": 2023,
       "authors": [
         {
-          "full_name": "Scott ES",
+          "full_name": "Emily Stella Scott",
           "last_name": "Scott",
-          "orcid": "0000-0001-7548-1775"
+          "orcid": "https://orcid.org/0000-0001-7548-1775"
         },
         {
-          "full_name": "Lubetkin EI",
+          "full_name": "Erica I. Lubetkin",
           "last_name": "Lubetkin",
-          "orcid": "0000-0001-9962-7775"
+          "orcid": "https://orcid.org/0000-0001-9962-7775"
         },
         {
-          "full_name": "Janssen MF",
+          "full_name": "Mathieu F. Janssen",
           "last_name": "Janssen",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
         },
         {
-          "full_name": "Yfantopolous J",
+          "full_name": "John Yfantopolous",
           "last_name": "Yfantopolous",
           "orcid": null
         },
         {
-          "full_name": "Bonsel GJ",
+          "full_name": "Gouke J. Bonsel",
           "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.frontiersin.org/articles/10.3389/fepid.2023.1144162/pdf",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fepid.2023.1144162/pdf",
+        "landing_page": "https://doi.org/10.3389/fepid.2023.1144162",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/ijph.2026.1608807",
+      "doi": "10.3389/ijph.2026.1608807",
+      "pmid": "41727346",
+      "pmcid": "PMC12916432",
+      "title": "Health-Related Quality of Life Among Ukrainian War Refugees Compared to the General Population in Estonia",
+      "journal": "International Journal of Public Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Rainer Reile",
+          "last_name": "Reile",
           "orcid": null
         },
         {
-          "full_name": "Haagsma JA",
+          "full_name": "Johann Saavaste",
+          "last_name": "Saavaste",
+          "orcid": null
+        },
+        {
+          "full_name": "Galina Opikova",
+          "last_name": "Opikova",
+          "orcid": null
+        },
+        {
+          "full_name": "Taavi Lai",
+          "last_name": "Lai",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita Haagsma",
           "last_name": "Haagsma",
           "orcid": null
         }
@@ -1121,17 +1196,19 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "crossref",
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC10910898",
-        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fepid.2023.1144162/pdf",
-        "landing_page": "https://doi.org/10.3389/fepid.2023.1144162",
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://public-pages-files-2025.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2026.1608807/pdf",
+        "pdf_url": "https://public-pages-files-2025.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2026.1608807/pdf",
+        "landing_page": "https://doi.org/10.3389/ijph.2026.1608807",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 3
+  "weak_omitted": 2
 }

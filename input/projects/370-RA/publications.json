@@ -40,12 +40,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://doi.org/10.1002/hec.4863",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
         "landing_page": "https://doi.org/10.1002/hec.4863",
         "retrieval": "open"
@@ -87,12 +88,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-47622-9.pdf?pdf=button",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-47622-9.pdf?pdf=button",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9",
         "retrieval": "open"
@@ -134,12 +136,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_1",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_1.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_1.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_1",
         "retrieval": "open"
@@ -181,12 +184,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_2",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_2.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_2.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_2",
         "retrieval": "open"
@@ -228,12 +232,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_3",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_3.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_3.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_3",
         "retrieval": "open"
@@ -275,12 +280,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_4",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_4.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_4.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_4",
         "retrieval": "open"
@@ -322,14 +328,63 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-89289-0",
+      "doi": "10.1007/978-3-030-89289-0",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Value Sets for EQ-5D-5L",
+      "journal": null,
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": "https://orcid.org/0000-0002-4306-4667"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-89289-0",
         "retrieval": "open"
       }
     },
@@ -375,12 +430,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC7423806",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-020-01205-9",
         "retrieval": "open"
@@ -443,13 +499,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13046671",
-        "pdf_url": "https://europepmc.org/articles/PMC13046671?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01789-0.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01789-0",
         "retrieval": "open"
       }
@@ -496,13 +553,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13190540",
-        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01852-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01852-w.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
         "retrieval": "open"
       }
@@ -564,7 +622,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -632,12 +691,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
         "retrieval": "open"
@@ -690,13 +750,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274235",
-        "pdf_url": "https://europepmc.org/articles/PMC12274235?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03990-3.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03990-3",
         "retrieval": "open"
       }
@@ -828,89 +889,18 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274246",
-        "pdf_url": "https://europepmc.org/articles/PMC12274246?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-03996-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-03996-x",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s40258-021-00658-0",
-      "doi": "10.1007/s40258-021-00658-0",
-      "pmid": "34173957",
-      "pmcid": "PMC8545780",
-      "title": "EQ-5D-5L Health-State Values for the Mexican Population",
-      "journal": "Applied health economics and health policy",
-      "year": 2021,
-      "authors": [
-        {
-          "full_name": "Gutierrez-Delgado C",
-          "last_name": "Gutierrez-Delgado",
-          "orcid": null
-        },
-        {
-          "full_name": "Galindo-Suárez RM",
-          "last_name": "Galindo-Suárez",
-          "orcid": null
-        },
-        {
-          "full_name": "Cruz-Santiago C",
-          "last_name": "Cruz-Santiago",
-          "orcid": null
-        },
-        {
-          "full_name": "Shah K",
-          "last_name": "Shah",
-          "orcid": null
-        },
-        {
-          "full_name": "Papadimitropoulos M",
-          "last_name": "Papadimitropoulos",
-          "orcid": null
-        },
-        {
-          "full_name": "Feng Y",
-          "last_name": "Feng",
-          "orcid": "0000-0003-4436-1126"
-        },
-        {
-          "full_name": "Zamora B",
-          "last_name": "Zamora",
-          "orcid": "0000-0002-8123-644X"
-        },
-        {
-          "full_name": "Devlin N",
-          "last_name": "Devlin",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC8545780",
-        "pdf_url": "https://europepmc.org/articles/PMC8545780?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s40258-021-00658-0",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 19
+  "weak_omitted": 21
 }

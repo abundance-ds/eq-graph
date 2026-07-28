@@ -7,26 +7,26 @@
       "pmid": "41920383",
       "pmcid": "PMC13043573",
       "title": "Psychometric validation of a cognition and social participation bolt-on for the EQ-5D-5L in SARS-CoV-2 infected German healthcare workers",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "journal": "Quality of Life Research",
       "year": 2026,
       "authors": [
         {
-          "full_name": "Buchholz I",
+          "full_name": "Ines Buchholz",
           "last_name": "Buchholz",
-          "orcid": "0000-0001-9729-6992"
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
         },
         {
-          "full_name": "Lüdtke L",
+          "full_name": "Laura Lüdtke",
           "last_name": "Lüdtke",
           "orcid": null
         },
         {
-          "full_name": "Härter M",
+          "full_name": "Martin Härter",
           "last_name": "Härter",
           "orcid": null
         },
         {
-          "full_name": "Janssen MFB",
+          "full_name": "M. F. Bas Janssen",
           "last_name": "Janssen",
           "orcid": null
         }
@@ -42,13 +42,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC13043573",
-        "pdf_url": "https://europepmc.org/articles/PMC13043573?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04226-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04226-8.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-026-04226-8",
         "retrieval": "open"
       }

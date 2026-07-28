@@ -65,12 +65,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.vhri.2021.09.007",
+        "oa_url": "http://www.valuehealthregionalissues.com/article/S2212109921001412/pdf",
         "pdf_url": "http://www.valuehealthregionalissues.com/article/S2212109921001412/pdf",
         "landing_page": "https://doi.org/10.1016/j.vhri.2021.09.007",
         "retrieval": "open"
@@ -82,38 +83,38 @@
       "pmid": "36892714",
       "pmcid": "PMC9996597",
       "title": "Psychometric performance of the Chichewa versions of the EQ-5D-Y-3L and EQ-5D-Y-5L among healthy and sick children and adolescents in Malawi",
-      "journal": "Journal of patient-reported outcomes",
+      "journal": "Journal of Patient-Reported Outcomes",
       "year": 2023,
       "authors": [
         {
-          "full_name": "Ngwira LG",
+          "full_name": "Lucky G. Ngwira",
           "last_name": "Ngwira",
-          "orcid": "0000-0002-2695-8917"
+          "orcid": "https://orcid.org/0000-0002-2695-8917"
         },
         {
-          "full_name": "Maheswaran H",
+          "full_name": "Hendramoorthy Maheswaran",
           "last_name": "Maheswaran",
-          "orcid": "0000-0002-7375-4845"
+          "orcid": "https://orcid.org/0000-0002-7375-4845"
         },
         {
-          "full_name": "Verstraete J",
+          "full_name": "Janine Verstraete",
           "last_name": "Verstraete",
-          "orcid": "0000-0002-1148-4747"
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
         },
         {
-          "full_name": "Petrou S",
+          "full_name": "Stavros Petrou",
           "last_name": "Petrou",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3121-6050"
         },
         {
-          "full_name": "Niessen L",
+          "full_name": "Louis Niessen",
           "last_name": "Niessen",
-          "orcid": "0000-0002-8639-5191"
+          "orcid": "https://orcid.org/0000-0002-8639-5191"
         },
         {
-          "full_name": "Smith SC",
+          "full_name": "Sarah C. Smith",
           "last_name": "Smith",
-          "orcid": "0000-0002-2013-6963"
+          "orcid": "https://orcid.org/0000-0002-2013-6963"
         }
       ],
       "score": 0.45,
@@ -127,13 +128,14 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC9996597",
-        "pdf_url": "https://europepmc.org/articles/PMC9996597?pdf=render",
+        "licence": "cc-by",
+        "oa_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-023-00560-4",
+        "pdf_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-023-00560-4",
         "landing_page": "https://doi.org/10.1186/s41687-023-00560-4",
         "retrieval": "open"
       }
@@ -185,13 +187,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11387560",
-        "pdf_url": "https://europepmc.org/articles/PMC11387560?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1186/s41687-024-00761-5.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s41687-024-00761-5.pdf",
         "landing_page": "https://doi.org/10.1186/s41687-024-00761-5",
         "retrieval": "open"
       }

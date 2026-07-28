@@ -92,13 +92,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://scholarbank.nus.edu.sg/handle/10635/181162",
-        "pdf_url": "https://europepmc.org/articles/PMC6394787?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-018-0987-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-018-0987-x.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-018-0987-x",
         "retrieval": "open"
       }
@@ -165,7 +166,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -290,7 +292,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -368,7 +371,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -426,7 +430,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -499,7 +504,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -567,76 +573,15 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
-        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "oa_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s11136-012-0200-0",
-      "doi": "10.1007/s11136-012-0200-0",
-      "pmid": "22622627",
-      "pmcid": "PMC3636433",
-      "title": "Developing the Chinese version of the new 5-level EQ-5D descriptive system: the response scaling approach",
-      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
-      "year": 2013,
-      "authors": [
-        {
-          "full_name": "Luo N",
-          "last_name": "Luo",
-          "orcid": null
-        },
-        {
-          "full_name": "Li M",
-          "last_name": "Li",
-          "orcid": null
-        },
-        {
-          "full_name": "Liu GG",
-          "last_name": "Liu",
-          "orcid": null
-        },
-        {
-          "full_name": "Lloyd A",
-          "last_name": "Lloyd",
-          "orcid": null
-        },
-        {
-          "full_name": "de Charro F",
-          "last_name": "de Charro",
-          "orcid": "0000-0002-5280-5551"
-        },
-        {
-          "full_name": "Herdman M",
-          "last_name": "Herdman",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC3636433",
-        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-012-0200-0.pdf",
-        "landing_page": "https://doi.org/10.1007/s11136-012-0200-0",
         "retrieval": "open"
       }
     },
@@ -722,7 +667,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -775,7 +721,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -838,7 +785,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -911,7 +859,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -969,7 +918,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -979,7 +929,65 @@
         "landing_page": "https://doi.org/10.1007/s40271-020-00452-5",
         "retrieval": "requires_subscription"
       }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-016-0404-1",
+      "doi": "10.1007/s40273-016-0404-1",
+      "pmid": "27084198",
+      "pmcid": "PMC5023738",
+      "title": "EuroQol Protocols for Time Trade-Off Valuation of Health Outcomes",
+      "journal": "PharmacoEconomics",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": "https://orcid.org/0000-0002-9568-5190"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-016-0404-1.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-016-0404-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-016-0404-1",
+        "retrieval": "open"
+      }
     }
   ],
-  "weak_omitted": 20
+  "weak_omitted": 22
 }

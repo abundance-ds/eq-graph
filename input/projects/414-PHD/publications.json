@@ -48,7 +48,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -106,7 +107,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -162,13 +164,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12274242",
-        "pdf_url": "https://europepmc.org/articles/PMC12274242?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04003-z.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-025-04003-z.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-025-04003-z",
         "retrieval": "open"
       }
@@ -210,7 +213,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -282,7 +286,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -340,12 +345,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://academic.oup.com/pages/standard-publication-reuse-rights",
-        "oa_url": "https://doi.org/10.1093/geront/gnae143",
+        "oa_url": "https://academic.oup.com/gerontologist/advance-article-pdf/doi/10.1093/geront/gnae143/60072354/gnae143.pdf",
         "pdf_url": "https://academic.oup.com/gerontologist/advance-article-pdf/doi/10.1093/geront/gnae143/60072354/gnae143.pdf",
         "landing_page": "https://doi.org/10.1093/geront/gnae143",
         "retrieval": "open"
@@ -393,7 +399,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

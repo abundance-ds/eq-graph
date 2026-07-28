@@ -351,18 +351,19 @@ def openalex_funder_works(fetcher: Fetcher, max_pages: int = MAX_PAGES) -> Itera
     """OpenAlex works crediting the EuroQol funder.
 
     A free key carries a $1/day allowance, which at ~$0.0001 per request is ample for
-    this corpus; the anonymous tier is what runs out immediately. The key is sent both
-    as a query parameter and as a bearer header because the documentation renders
-    client-side and the exact form could not be confirmed -- whichever OpenAlex
-    ignores is harmless.
+    this corpus; the anonymous tier is what runs out immediately.
+
+    The key travels in the Authorization header only, never as a query parameter:
+    the cache is keyed by URL and stores it, so a query-param secret would be written
+    into cache files and the ledger's `url` column in plain text.
     """
     if not OPENALEX_API_KEY:
         return
     for page in range(1, max_pages + 1):
         resp = fetcher.get(
             OPENALEX_WORKS,
-            {"filter": f"grants.funder:{OPENALEX_FUNDER_ID}", "per-page": PAGE_SIZE,
-             "page": page, "mailto": CONTACT_EMAIL, "api_key": OPENALEX_API_KEY},
+            {"filter": f"funders.id:{OPENALEX_FUNDER_ID}", "per-page": PAGE_SIZE,
+             "page": page, "mailto": CONTACT_EMAIL},
             headers={"Authorization": f"Bearer {OPENALEX_API_KEY}"},
         )
         results = resp.json().get("results", [])
@@ -386,9 +387,14 @@ def openalex_to_work(item: dict) -> dict | None:
             "full_name": name, "last_name": name.split()[-1] if name else None,
             "orcid": normalize_doi((a.get("author") or {}).get("orcid")),
         })
-    grants = [{"grant_id": g.get("award_id"),
-               "agency": (g.get("funder_display_name") or "")}
-              for g in item.get("grants", []) if g.get("award_id")]
+    # The API moved from `grants` to `awards`; accept either so an older cached
+    # response still parses.
+    grants = [
+        {"grant_id": g.get("funder_award_id") or g.get("award_id"),
+         "agency": g.get("funder_display_name") or ""}
+        for g in (item.get("awards") or item.get("grants") or [])
+        if g.get("funder_award_id") or g.get("award_id")
+    ]
     oa = item.get("open_access") or {}
     return {
         "work_id": work_id, "doi": doi, "pmid": pmid, "pmcid": pmcid,
@@ -396,7 +402,8 @@ def openalex_to_work(item: dict) -> dict | None:
         "journal": ((item.get("primary_location") or {}).get("source") or {}).get("display_name"),
         "year": item.get("publication_year"), "authors": authors,
         "is_oa": 1 if oa.get("is_oa") else 0, "oa_url": oa.get("oa_url"),
-        "licence": (item.get("primary_location") or {}).get("license"),
+        "licence": ((item.get("best_oa_location") or {}).get("license")
+                    or (item.get("primary_location") or {}).get("license")),
         "pdf_url": (item.get("best_oa_location") or {}).get("pdf_url"),
         "source": "openalex", "grants": grants, "abstract": None,
     }

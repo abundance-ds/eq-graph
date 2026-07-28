@@ -17,6 +17,7 @@ CORPUS_OPS = [
     ("europepmc", "ack_sweep"),
     ("europepmc", "phrase_sweep"),
     ("crossref", "funder_sweep"),
+    ("openalex", "funder_sweep"),
 ]
 
 
@@ -31,13 +32,23 @@ def run_corpus(conn, fetcher: Fetcher, retry_failed: bool, log=print) -> None:
         query = {
             "ack_sweep": sources.epmc_ack_query(),
             "phrase_sweep": sources.epmc_phrase_query(),
-        }.get(op, f"crossref funder:{sources.CROSSREF_FUNDER_ID} offset-paged")
+        }.get(op, (f"openalex funders.id:{sources.OPENALEX_FUNDER_ID}"
+                   if source == "openalex"
+                   else f"crossref funder:{sources.CROSSREF_FUNDER_ID} offset-paged"))
         if is_settled(task_row(conn, CORPUS, source, op), retry_failed, query):
             log(f"  {source}/{op}: settled, skipping")
             continue
         try:
             if op in ("ack_sweep", "phrase_sweep"):
                 count = _drain(sources.epmc_search(fetcher, query, strict=True))
+            elif source == "openalex":
+                if not sources.OPENALEX_API_KEY:
+                    set_task(conn, CORPUS, source, op, "skipped",
+                             error="OPENALEX_API_KEY not set")
+                    log(f"  {source}/{op}: skipped, no API key")
+                    conn.commit()
+                    continue
+                count = _drain(sources.openalex_funder_works(fetcher))
             else:
                 count = _drain(sources.crossref_funder_works(fetcher))
         except (FetchError, RuntimeError) as exc:

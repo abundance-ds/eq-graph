@@ -60,14 +60,82 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12892695",
+        "oa_url": "https://doi.org/10.1186/s13643-025-03060-2",
         "pdf_url": "https://europepmc.org/articles/PMC12892695?pdf=render",
         "landing_page": "https://doi.org/10.1186/s13643-025-03060-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-7617141/v1",
+      "doi": "10.21203/rs.3.rs-7617141/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The use of generic health-related quality of life instruments among children and adolescents in low- and middle-income countries: a scoping review",
+      "journal": "Research Square",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Goitom Molalign Takele",
+          "last_name": "Takele",
+          "orcid": "https://orcid.org/0000-0002-9344-3390"
+        },
+        {
+          "full_name": "Trudy Sullivan",
+          "last_name": "Sullivan",
+          "orcid": "https://orcid.org/0000-0001-8452-2591"
+        },
+        {
+          "full_name": "Ari Samaranayaka",
+          "last_name": "Samaranayaka",
+          "orcid": "https://orcid.org/0000-0003-4933-9569"
+        },
+        {
+          "full_name": "Mimmi Åström",
+          "last_name": "Åström",
+          "orcid": "https://orcid.org/0000-0002-6711-5262"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0003-0423-6005"
+        },
+        {
+          "full_name": "Gashaw Arega",
+          "last_name": "Arega",
+          "orcid": "https://orcid.org/0000-0002-0243-9362"
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": "https://orcid.org/0000-0003-2867-0498"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-7617141/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7617141/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-7617141/v1",
         "retrieval": "open"
       }
     }

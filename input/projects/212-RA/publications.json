@@ -70,7 +70,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -78,6 +79,160 @@
         "oa_url": "https://doi.org/10.1186/s12955-026-02575-z",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1186/s12955-026-02575-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-7287257/v1",
+      "doi": "10.21203/rs.3.rs-7287257/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A Randomised Equivalency Study of the EQ-5D-5L Shona Versions - Evaluation of Measurement Equivalency Between Digital and Paper Formats",
+      "journal": "Research Square",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jermaine M. Dambi",
+          "last_name": "Dambi",
+          "orcid": "https://orcid.org/0000-0002-2446-7903"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Beatrice K Shava",
+          "last_name": "Shava",
+          "orcid": "https://orcid.org/0000-0002-9130-7010"
+        },
+        {
+          "full_name": "Anotida R. Hove",
+          "last_name": "Hove",
+          "orcid": "https://orcid.org/0009-0005-4050-0135"
+        },
+        {
+          "full_name": "Shalom R. Doyce",
+          "last_name": "Doyce",
+          "orcid": "https://orcid.org/0009-0006-7593-3253"
+        },
+        {
+          "full_name": "Tariro Dee Tunduwani",
+          "last_name": "Tunduwani",
+          "orcid": "https://orcid.org/0009-0004-8073-7068"
+        },
+        {
+          "full_name": "Benjamin W. Domingue",
+          "last_name": "Domingue",
+          "orcid": "https://orcid.org/0000-0002-3894-9049"
+        },
+        {
+          "full_name": "Dixon Chibanda",
+          "last_name": "Chibanda",
+          "orcid": "https://orcid.org/0000-0003-2505-8607"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-7287257/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7287257/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-7287257/v1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-7545144/v1",
+      "doi": "10.21203/rs.3.rs-7545144/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Validation and Diagnostic Accuracy Evaluation of the EQ-5D-5L Shona Digital Version for Screening Anxiety and Depression",
+      "journal": "Research Square",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jermaine M. Dambi",
+          "last_name": "Dambi",
+          "orcid": "https://orcid.org/0000-0002-2446-7903"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Beatrice K Shava",
+          "last_name": "Shava",
+          "orcid": "https://orcid.org/0000-0002-9130-7010"
+        },
+        {
+          "full_name": "Shalom R. Doyce",
+          "last_name": "Doyce",
+          "orcid": "https://orcid.org/0009-0006-7593-3253"
+        },
+        {
+          "full_name": "Tariro Dee Tunduwani",
+          "last_name": "Tunduwani",
+          "orcid": "https://orcid.org/0009-0004-8073-7068"
+        },
+        {
+          "full_name": "Anotida R. Hove",
+          "last_name": "Hove",
+          "orcid": "https://orcid.org/0009-0005-4050-0135"
+        },
+        {
+          "full_name": "Dixon Chibanda",
+          "last_name": "Chibanda",
+          "orcid": "https://orcid.org/0000-0003-2505-8607"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Benjamin W. Domingue",
+          "last_name": "Domingue",
+          "orcid": "https://orcid.org/0000-0002-3894-9049"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-7545144/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7545144/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-7545144/v1",
         "retrieval": "open"
       }
     }

@@ -80,7 +80,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -142,12 +143,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://doi.org/10.1155/2023/5839776",
+        "oa_url": "https://downloads.hindawi.com/journals/hsc/2023/5839776.pdf",
         "pdf_url": "https://downloads.hindawi.com/journals/hsc/2023/5839776.pdf",
         "landing_page": "https://doi.org/10.1155/2023/5839776",
         "retrieval": "open"

@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -128,7 +129,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -181,12 +183,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11045599",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03618-y.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03618-y.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03618-y",
         "retrieval": "open"
@@ -234,7 +237,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -255,39 +259,39 @@
       "year": 2015,
       "authors": [
         {
-          "full_name": "Xie F",
+          "full_name": "Feng Xie",
           "last_name": "Xie",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
         },
         {
-          "full_name": "Pickard AS",
+          "full_name": "A. Simon Pickard",
           "last_name": "Pickard",
-          "orcid": "0000-0001-5645-7091"
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
         },
         {
-          "full_name": "Krabbe PF",
+          "full_name": "Paul F. M. Krabbe",
           "last_name": "Krabbe",
-          "orcid": "0000-0001-6042-1243"
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
         },
         {
-          "full_name": "Revicki D",
+          "full_name": "Dennis A. Revicki",
           "last_name": "Revicki",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6780-0019"
         },
         {
-          "full_name": "Viney R",
+          "full_name": "Rosalie Viney",
           "last_name": "Viney",
-          "orcid": "0000-0002-0039-9635"
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
         },
         {
-          "full_name": "Devlin N",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Feeny D",
+          "full_name": "David Feeny",
           "last_name": "Feeny",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1998-9408"
         }
       ],
       "score": 0.45,
@@ -301,12 +305,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC4519579",
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-015-0292-9",
         "retrieval": "open"
@@ -374,7 +379,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -437,12 +443,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.04.010",
         "retrieval": "open"
@@ -530,12 +537,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "http://hdl.handle.net/10397/117784",
+        "oa_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
         "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.02.001",
         "retrieval": "open"
@@ -598,7 +606,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -661,7 +670,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -749,12 +759,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11495100",
+        "oa_url": "https://doi.org/10.1093/ehjopen/oeae083",
         "pdf_url": "https://europepmc.org/articles/PMC11495100?pdf=render",
         "landing_page": "https://doi.org/10.1093/ehjopen/oeae083",
         "retrieval": "open"
@@ -884,12 +895,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC11979510",
+        "oa_url": "https://doi.org/10.1136/bmjopen-2024-097598",
         "pdf_url": "https://europepmc.org/articles/PMC11979510?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2024-097598",
         "retrieval": "open"
@@ -932,7 +944,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -990,17 +1003,18 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9535990",
-        "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02049-y",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02049-y",
         "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
         "retrieval": "open"
       }
     }
   ],
-  "weak_omitted": 1
+  "weak_omitted": 4
 }

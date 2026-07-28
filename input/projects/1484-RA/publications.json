@@ -27,7 +27,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -73,13 +74,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
-        "oa_url": "https://europepmc.org/articles/PMC9298783",
-        "pdf_url": "https://europepmc.org/articles/PMC9298783?pdf=render",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4457",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4457",
         "landing_page": "https://doi.org/10.1002/hec.4457",
         "retrieval": "open"
       }
@@ -116,12 +118,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://doi.org/10.1007/s10198-025-01892-2",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01892-2",
         "retrieval": "open"
@@ -154,13 +157,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11541319",
-        "pdf_url": "https://europepmc.org/articles/PMC11541319?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03770-5.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03770-5.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-024-03770-5",
         "retrieval": "open"
       }
@@ -212,13 +216,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12960390",
-        "pdf_url": "https://europepmc.org/articles/PMC12960390?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04189-w.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-026-04189-w.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-026-04189-w",
         "retrieval": "open"
       }
@@ -260,7 +265,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -298,12 +304,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.07.013",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S109830152202109X/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152202109X/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.07.013",
         "retrieval": "open"
@@ -341,12 +348,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2022.10.008",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522046940/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522046940/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.10.008",
         "retrieval": "open"
@@ -384,7 +392,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,

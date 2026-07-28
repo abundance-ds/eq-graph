@@ -55,7 +55,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -128,7 +129,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -149,39 +151,39 @@
       "year": 2015,
       "authors": [
         {
-          "full_name": "Xie F",
+          "full_name": "Feng Xie",
           "last_name": "Xie",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
         },
         {
-          "full_name": "Pickard AS",
+          "full_name": "A. Simon Pickard",
           "last_name": "Pickard",
-          "orcid": "0000-0001-5645-7091"
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
         },
         {
-          "full_name": "Krabbe PF",
+          "full_name": "Paul F. M. Krabbe",
           "last_name": "Krabbe",
-          "orcid": "0000-0001-6042-1243"
+          "orcid": "https://orcid.org/0000-0001-6042-1243"
         },
         {
-          "full_name": "Revicki D",
+          "full_name": "Dennis A. Revicki",
           "last_name": "Revicki",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6780-0019"
         },
         {
-          "full_name": "Viney R",
+          "full_name": "Rosalie Viney",
           "last_name": "Viney",
-          "orcid": "0000-0002-0039-9635"
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
         },
         {
-          "full_name": "Devlin N",
+          "full_name": "Nancy Devlin",
           "last_name": "Devlin",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
         },
         {
-          "full_name": "Feeny D",
+          "full_name": "David Feeny",
           "last_name": "Feeny",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1998-9408"
         }
       ],
       "score": 0.45,
@@ -195,12 +197,13 @@
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://europepmc.org/articles/PMC4519579",
+        "licence": "cc-by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-015-0292-9",
         "retrieval": "open"
@@ -397,7 +400,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -455,14 +459,72 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9535990",
-        "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02049-y",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02049-y",
         "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-1260576/v1",
+      "doi": "10.21203/rs.3.rs-1260576/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Who Should do What? Comparing EQ-5D-3L and EQ-5D-5L Proxy-ratings by Informal Caregivers and Health Professional for People with Dementia",
+      "journal": "Research Square",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": "https://orcid.org/0000-0002-6359-8797"
+        },
+        {
+          "full_name": "Wiebke Mohr",
+          "last_name": "Mohr",
+          "orcid": "https://orcid.org/0000-0002-0036-3413"
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": "https://orcid.org/0000-0003-0634-8756"
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "https://www.researchsquare.com/article/rs-1260576/latest.pdf",
+        "pdf_url": "https://www.researchsquare.com/article/rs-1260576/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-1260576/v1",
         "retrieval": "open"
       }
     },

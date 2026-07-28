@@ -93,13 +93,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8318935",
-        "pdf_url": "https://europepmc.org/articles/PMC8318935?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-021-01306-z.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-021-01306-z.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-021-01306-z",
         "retrieval": "open"
       }
@@ -156,12 +157,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8068712",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02718-9.pdf",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02718-9.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-020-02718-9",
         "retrieval": "open"
@@ -289,13 +291,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8233275",
-        "pdf_url": "https://europepmc.org/articles/PMC8233275?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02802-8.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02802-8.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-021-02802-8",
         "retrieval": "open"
       }
@@ -352,14 +355,259 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC10063498",
-        "pdf_url": "https://europepmc.org/articles/PMC10063498?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03304-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03304-x.pdf",
         "landing_page": "https://doi.org/10.1007/s11136-022-03304-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.11.1371",
+      "doi": "10.1016/j.jval.2021.11.1371",
+      "pmid": "35365298",
+      "pmcid": null,
+      "title": "Qualitative Review on Domains of Quality of Life Important for Patients, Social Care Users, and Informal Carers to Inform the Development of the EQ-HWB",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": "https://orcid.org/0000-0003-4609-3911"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": "https://orcid.org/0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Alison Scope",
+          "last_name": "Scope",
+          "orcid": "https://orcid.org/0000-0003-1604-1758"
+        },
+        {
+          "full_name": "Mark Clowes",
+          "last_name": "Clowes",
+          "orcid": "https://orcid.org/0000-0002-5582-9946"
+        },
+        {
+          "full_name": "Stacey Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-9071-2842"
+        },
+        {
+          "full_name": "Karen Jones",
+          "last_name": "Jones",
+          "orcid": "https://orcid.org/0000-0003-0851-8341"
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": "https://orcid.org/0000-0001-8645-4780"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301521032277/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301521032277/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.11.1371",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.01.009",
+      "doi": "10.1016/j.jval.2022.01.009",
+      "pmid": "35277337",
+      "pmcid": null,
+      "title": "The EQ-HWB: Overview of the Development of a Measure of Health and Wellbeing and Key Results",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": "https://orcid.org/0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": "https://orcid.org/0000-0002-4832-7833"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": "https://orcid.org/0000-0002-2914-5022"
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "María Belizán",
+          "last_name": "Belizán",
+          "orcid": "https://orcid.org/0000-0002-8739-5249"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "A Monteiro",
+          "last_name": "Monteiro",
+          "orcid": "https://orcid.org/0000-0001-9763-3485"
+        },
+        {
+          "full_name": "Maja Kuharić",
+          "last_name": "Kuharić",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "Luz Gibbons",
+          "last_name": "Gibbons",
+          "orcid": "https://orcid.org/0000-0002-0235-1635"
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": "https://orcid.org/0000-0002-4306-4667"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": "https://orcid.org/0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": "https://orcid.org/0000-0003-4609-3911"
+        },
+        {
+          "full_name": "Stacey Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-9071-2842"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Karen Jones",
+          "last_name": "Jones",
+          "orcid": "https://orcid.org/0000-0003-0851-8341"
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": "https://orcid.org/0000-0003-4245-5399"
+        },
+        {
+          "full_name": "Rosemary Lovett",
+          "last_name": "Lovett",
+          "orcid": null
+        },
+        {
+          "full_name": "Bhash Naidoo",
+          "last_name": "Naidoo",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": "https://orcid.org/0000-0003-3018-5109"
+        },
+        {
+          "full_name": "Juan Carlos Rejón-Parrilla",
+          "last_name": "Rejón-Parrilla",
+          "orcid": "https://orcid.org/0000-0002-0680-7353"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc-by",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301522000833/pdf",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522000833/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.01.009",
         "retrieval": "open"
       }
     },
@@ -415,12 +663,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.02.008",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301523000578/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523000578/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.02.008",
         "retrieval": "open"
@@ -473,13 +722,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8461831",
-        "pdf_url": "https://europepmc.org/articles/PMC8461831?pdf=render",
+        "oa_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-021-01858-x",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-021-01858-x",
         "landing_page": "https://doi.org/10.1186/s12955-021-01858-x",
         "retrieval": "open"
       }

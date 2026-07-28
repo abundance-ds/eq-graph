@@ -6,49 +6,49 @@
       "doi": "10.1002/ppul.71031",
       "pmid": "40042135",
       "pmcid": "PMC11881216",
-      "title": "Are EQ-5D-Y-3L and EQ-5D-Y-5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
-      "journal": "Pediatric pulmonology",
+      "title": "Are EQ‐5D‐Y‐3L and EQ‐5D‐Y‐5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
+      "journal": "Pediatric Pulmonology",
       "year": 2025,
       "authors": [
         {
-          "full_name": "Zhou W",
+          "full_name": "Wenjing Zhou",
           "last_name": "Zhou",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-0770-4564"
         },
         {
-          "full_name": "Herdman M",
+          "full_name": "Michael Herdman",
           "last_name": "Herdman",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
         },
         {
-          "full_name": "Yang Z",
+          "full_name": "Zhihao Yang",
           "last_name": "Yang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
         },
         {
-          "full_name": "Wu B",
+          "full_name": "Bin Wu",
           "last_name": "Wu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8314-8259"
         },
         {
-          "full_name": "Wang P",
+          "full_name": "Pei Wang",
           "last_name": "Wang",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3661-3944"
         },
         {
-          "full_name": "Busschbach J",
+          "full_name": "Jan J.V. Busschbach",
           "last_name": "Busschbach",
-          "orcid": "0000-0002-8602-0381"
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
         },
         {
-          "full_name": "Lu Y",
+          "full_name": "Yanming Lu",
           "last_name": "Lu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-5559-2574"
         },
         {
-          "full_name": "Luo N",
+          "full_name": "Nan Luo",
           "last_name": "Luo",
-          "orcid": "0000-0001-7980-6979"
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
         }
       ],
       "score": 1.0,
@@ -61,19 +61,25 @@
           "weight": 1.0
         },
         {
+          "kind": "grant_id_structured",
+          "detail": "grant id 20170330 credited to EuroQol in metadata",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 20170330",
           "weight": 0.9
         }
       ],
       "sources": [
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC11881216",
-        "pdf_url": "https://europepmc.org/articles/PMC11881216?pdf=render",
+        "licence": "cc-by-nc-nd",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppul.71031",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppul.71031",
         "landing_page": "https://doi.org/10.1002/ppul.71031",
         "retrieval": "open"
       }
@@ -130,7 +136,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -280,7 +287,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -288,6 +296,83 @@
         "oa_url": "https://pure.eur.nl/en/publications/c9cf0784-fc67-4790-80b3-f1b9e3681a19",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-024-01669-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.22541/au.169215780.00019852/v1",
+      "doi": "10.22541/au.169215780.00019852/v1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric validation of EQ-5D-Y in children with asthma and their caregivers",
+      "journal": null,
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Wenjing Zhou",
+          "last_name": "Zhou",
+          "orcid": "https://orcid.org/0000-0003-0770-4564"
+        },
+        {
+          "full_name": "Bo Ding",
+          "last_name": "Ding",
+          "orcid": "https://orcid.org/0000-0001-8771-6578"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0003-0423-6005"
+        },
+        {
+          "full_name": "Bin Wu",
+          "last_name": "Wu",
+          "orcid": "https://orcid.org/0000-0002-8314-8259"
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": "https://orcid.org/0000-0003-3661-3944"
+        },
+        {
+          "full_name": "Jan J.V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Yanming Lu",
+          "last_name": "Lu",
+          "orcid": "https://orcid.org/0000-0001-5559-2574"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "grant id 20170330 credited to EuroQol in metadata",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://www.authorea.com/doi/pdf/10.22541/au.169215780.00019852",
+        "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.169215780.00019852",
+        "landing_page": "https://doi.org/10.22541/au.169215780.00019852/v1",
         "retrieval": "open"
       }
     }
@@ -331,13 +416,14 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://scholarbank.nus.edu.sg/handle/10635/181162",
-        "pdf_url": "https://europepmc.org/articles/PMC6394787?pdf=render",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10198-018-0987-x.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-018-0987-x.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-018-0987-x",
         "retrieval": "open"
       }
@@ -404,7 +490,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -462,7 +549,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -540,7 +628,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -598,7 +687,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -666,12 +756,13 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
-        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "oa_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
         "retrieval": "open"
@@ -759,7 +850,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -812,7 +904,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -875,7 +968,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -943,7 +1037,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -1001,7 +1096,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": true,
@@ -1064,7 +1160,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -1137,7 +1234,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -1195,7 +1293,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -1258,7 +1357,8 @@
       ],
       "sources": [
         "crossref",
-        "europepmc"
+        "europepmc",
+        "openalex"
       ],
       "access": {
         "is_oa": false,
@@ -1270,5 +1370,5 @@
       }
     }
   ],
-  "weak_omitted": 25
+  "weak_omitted": 28
 }
