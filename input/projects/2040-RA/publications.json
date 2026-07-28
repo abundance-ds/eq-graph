@@ -1,0 +1,406 @@
+{
+  "project_id": "2040-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03643-x",
+      "doi": "10.1007/s11136-024-03643-x",
+      "pmid": "38632146",
+      "pmcid": null,
+      "title": "Understanding caregiver burden from multiple perspectives: dyadic agreement between caregiver and care recipient",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Lisa K. Sharp",
+          "last_name": "Sharp",
+          "orcid": "https://orcid.org/0000-0002-7809-9042"
+        },
+        {
+          "full_name": "Robin S. Turpin",
+          "last_name": "Turpin",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-024-03643-x",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04003-z",
+      "doi": "10.1007/s11136-025-04003-z",
+      "pmid": "40493153",
+      "pmcid": "PMC12274242",
+      "title": "Frequency and severity response scales for pain and discomfort: psychometric insights from EQ-HWB",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Soumana C. Nasser",
+          "last_name": "Nasser",
+          "orcid": "https://orcid.org/0000-0003-4202-7116"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Jonathan L. Nazari",
+          "last_name": "Nazari",
+          "orcid": "https://orcid.org/0000-0002-4758-7588"
+        },
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12274242",
+        "pdf_url": "https://europepmc.org/articles/PMC12274242?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04003-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.03.003",
+      "doi": "10.1016/j.jval.2024.03.003",
+      "pmid": "38492925",
+      "pmcid": null,
+      "title": "Comparison of the EQ-HWB and EQ-HWB-S With Other Preference-Based Measures Among United States Informal Caregivers",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa K. Sharp",
+          "last_name": "Sharp",
+          "orcid": null
+        },
+        {
+          "full_name": "Robin S. Turpin",
+          "last_name": "Turpin",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.03.003",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.10.012",
+      "doi": "10.1016/j.jval.2025.10.012",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Reversing Proxy Roles: Care Recipients as Proxies for Caregiver Health-Related Quality of Life",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": null
+        },
+        {
+          "full_name": "Neo (Hsuanyun) Su",
+          "last_name": "Su",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.10.012",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.ssmqr.2024.100398",
+      "doi": "10.1016/j.ssmqr.2024.100398",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Care recipient self-perceived burden: Perspectives of individuals with chronic health conditions or personal experiences with caregiving on caregiver burden in the US",
+      "journal": "SSM - Qualitative Research in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "Lisa K. Sharp",
+          "last_name": "Sharp",
+          "orcid": null
+        },
+        {
+          "full_name": "Robin S. Turpin",
+          "last_name": "Turpin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Todd A. Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Chloe Elizabeth Grace Rose",
+          "last_name": "Grace Rose",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrea Monteiro",
+          "last_name": "Monteiro",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.ssmqr.2024.100398",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.ssmqr.2024.100398",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1093/geront/gnae143",
+      "doi": "10.1093/geront/gnae143",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Delineating Care Recipient Burden Constructs: Development and Validation of the CARE-2B Scale for Care Recipient Self-Perceived Burden and Proxy Assessment of Caregiver Burden",
+      "journal": "The Gerontologist",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": "https://orcid.org/0000-0003-3696-9086"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa K Sharp",
+          "last_name": "Sharp",
+          "orcid": null
+        },
+        {
+          "full_name": "Robin S Turpin",
+          "last_name": "Turpin",
+          "orcid": null
+        },
+        {
+          "full_name": "A Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://academic.oup.com/pages/standard-publication-reuse-rights",
+        "oa_url": "https://doi.org/10.1093/geront/gnae143",
+        "pdf_url": "https://academic.oup.com/gerontologist/advance-article-pdf/doi/10.1093/geront/gnae143/60072354/gnae143.pdf",
+        "landing_page": "https://doi.org/10.1093/geront/gnae143",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02561-5",
+      "doi": "10.1186/s12955-026-02561-5",
+      "pmid": "42249388",
+      "pmcid": null,
+      "title": "Qualitative assessment of content validity of the modified EQ-HWB-9 by patients, caregivers, and social care users in the United States",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jonathan L. Nazari",
+          "last_name": "Nazari",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Justin Yu",
+          "last_name": "Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02561-5",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02561-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

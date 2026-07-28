@@ -1,0 +1,19 @@
+{
+  "project_id": "2016220",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-022-01989-9",
+      "doi": "10.1186/s12955-022-01989-9",
+      "title": "Exploring the importance of controlling heteroskedasticity and heterogeneity in health valuation: a case study on Dutch EQ-5D-5L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9131619/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-022-01989-9",
+      "status": "ok",
+      "file": "input/projects/2016220/papers/doi_10.1186_s12955-022-01989-9.xml",
+      "bytes": 192968,
+      "sha256": "fb4cda4696ba5cafbc14672878c18e66090efee71924d757d6bfe4eb94a3a249"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "project_id": "2015170",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hpm.2406",
+      "doi": "10.1002/hpm.2406",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Bandung neurosurgery patient outcomes project, Indonesia (Part II): Patient pathways and feasibility and acceptability of telephone follow‐up",
+      "journal": "The International Journal of Health Planning and Management",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Agung Budi Sutiono",
+          "last_name": "Sutiono",
+          "orcid": null
+        },
+        {
+          "full_name": "Ahmad Faried",
+          "last_name": "Faried",
+          "orcid": null
+        },
+        {
+          "full_name": "Susan McAllister",
+          "last_name": "McAllister",
+          "orcid": null
+        },
+        {
+          "full_name": "Amelia Ganefianty",
+          "last_name": "Ganefianty",
+          "orcid": null
+        },
+        {
+          "full_name": "Kalih Sarjono",
+          "last_name": "Sarjono",
+          "orcid": null
+        },
+        {
+          "full_name": "Muhammad Zafrullah Arifin",
+          "last_name": "Arifin",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1002/hpm.2406",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1002/hpm.2408",
+      "doi": "10.1002/hpm.2408",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Bandung neurosurgery patient outcomes project, Indonesia (Part I): Methods, participant characteristics, and pre‐discharge outcomes",
+      "journal": "The International Journal of Health Planning and Management",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Susan McAllister",
+          "last_name": "McAllister",
+          "orcid": null
+        },
+        {
+          "full_name": "Amelia Ganefianty",
+          "last_name": "Ganefianty",
+          "orcid": null
+        },
+        {
+          "full_name": "Ahmad Faried",
+          "last_name": "Faried",
+          "orcid": null
+        },
+        {
+          "full_name": "Agung Budi Sutiono",
+          "last_name": "Sutiono",
+          "orcid": null
+        },
+        {
+          "full_name": "Kalih Sarjono",
+          "last_name": "Sarjono",
+          "orcid": null
+        },
+        {
+          "full_name": "Regina Melia",
+          "last_name": "Melia",
+          "orcid": null
+        },
+        {
+          "full_name": "Sheila Sumargo",
+          "last_name": "Sumargo",
+          "orcid": null
+        },
+        {
+          "full_name": "Muhammad Zafrullah Arifin",
+          "last_name": "Arifin",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1002/hpm.2408",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-021-00496-1",
+      "doi": "10.1007/s40271-021-00496-1",
+      "pmid": "33650034",
+      "pmcid": "PMC8357732",
+      "title": "A New Approach to Assessing Children’s Interpretation of Severity Qualifiers in a Multi-Attribute Utility Instrument–The EQ-5D-Y-5L: Development and Testing",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": "https://orcid.org/0000-0003-2867-0498"
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
+        },
+        {
+          "full_name": "Lucky G. Ngwira",
+          "last_name": "Ngwira",
+          "orcid": "https://orcid.org/0000-0002-2695-8917"
+        },
+        {
+          "full_name": "Elizabeth Yohe Moore",
+          "last_name": "Moore",
+          "orcid": null
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8357732",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-021-00496-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40271-021-00496-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.02.013",
+      "doi": "10.1016/j.jval.2025.02.013",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Can Adolescents Value the EQ-5D-Y-5L and EQ-5D-5L, and How Do the Values Compare? A Feasibility Study",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Trudy A. Sullivan",
+          "last_name": "Sullivan",
+          "orcid": null
+        },
+        {
+          "full_name": "Emma H. Wyeth",
+          "last_name": "Wyeth",
+          "orcid": null
+        },
+        {
+          "full_name": "Robin M. Turner",
+          "last_name": "Turner",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Hansen",
+          "last_name": "Hansen",
+          "orcid": null
+        },
+        {
+          "full_name": "Franz Ombler",
+          "last_name": "Ombler",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.02.013",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

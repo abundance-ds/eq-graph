@@ -1,0 +1,19 @@
+{
+  "project_id": "2016620",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-018-0623-8",
+      "doi": "10.1007/s40273-018-0623-8",
+      "title": "Is EQ-5D-5L Better Than EQ-5D-3L? A Head-to-Head Comparison of Descriptive Systems and Value Sets from Seven Countries",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5954015/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-018-0623-8",
+      "status": "ok",
+      "file": "input/projects/2016620/papers/doi_10.1007_s40273-018-0623-8.xml",
+      "bytes": 210888,
+      "sha256": "2a5a43812d1a00c19537929de21d93d39c6c96d87f3c70ccdf24de4f3d6d21ce"
+    }
+  ]
+}

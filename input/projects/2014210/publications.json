@@ -1,0 +1,75 @@
+{
+  "project_id": "2014210",
+  "accepted": [
+    {
+      "work_id": "doi:10.3390/ijerph19138208",
+      "doi": "10.3390/ijerph19138208",
+      "pmid": "35805867",
+      "pmcid": "PMC9266302",
+      "title": "Health-Related Quality of Life and Perceived Burden of Informal Caregivers of Patients with Rare Diseases in Selected European Countries",
+      "journal": "International journal of environmental research and public health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Valcárcel-Nazco C",
+          "last_name": "Valcárcel-Nazco",
+          "orcid": "0000-0003-4833-7967"
+        },
+        {
+          "full_name": "Ramallo-Fariña Y",
+          "last_name": "Ramallo-Fariña",
+          "orcid": "0000-0002-1541-3989"
+        },
+        {
+          "full_name": "Linertová R",
+          "last_name": "Linertová",
+          "orcid": "0000-0002-0138-9252"
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "García-Pérez L",
+          "last_name": "García-Pérez",
+          "orcid": "0000-0002-5626-8116"
+        },
+        {
+          "full_name": "Serrano-Aguilar P",
+          "last_name": "Serrano-Aguilar",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 2014210",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2014210",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9266302",
+        "pdf_url": "https://www.mdpi.com/1660-4601/19/13/8208/pdf?version=1657010334",
+        "landing_page": "https://doi.org/10.3390/ijerph19138208",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

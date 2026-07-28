@@ -1,0 +1,848 @@
+{
+  "project_id": "20180070R1",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-023-01647-x",
+      "doi": "10.1007/s10198-023-01647-x",
+      "pmid": "38104294",
+      "pmcid": null,
+      "title": "Exploring non-iterative time trade-off methods for valuation of EQ-5D-5L health states",
+      "journal": "The European Journal of Health Economics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/0434dae2-2858-4629-9457-5868c9052da0",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-023-01647-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-03075-x",
+      "doi": "10.1007/s11136-021-03075-x",
+      "pmid": "35181827",
+      "pmcid": "PMC9188617",
+      "title": "Do health preferences differ among Asian populations? A comparison of EQ-5D-5L discrete choice experiments data from 11 Asian studies",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Asrul Akmal Shafie",
+          "last_name": "Shafie",
+          "orcid": null
+        },
+        {
+          "full_name": "Ataru Igarashi",
+          "last_name": "Igarashi",
+          "orcid": null
+        },
+        {
+          "full_name": "Eliza Lai-Yi Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Hilton Lam",
+          "last_name": "Lam",
+          "orcid": null
+        },
+        {
+          "full_name": "Hoang Van Minh",
+          "last_name": "Van Minh",
+          "orcid": null
+        },
+        {
+          "full_name": "Hsiang-Wen Lin",
+          "last_name": "Lin",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeonghoon Ahn",
+          "last_name": "Ahn",
+          "orcid": null
+        },
+        {
+          "full_name": "Juntana Pattanaphesaj",
+          "last_name": "Pattanaphesaj",
+          "orcid": null
+        },
+        {
+          "full_name": "Min-Woo Jo",
+          "last_name": "Jo",
+          "orcid": null
+        },
+        {
+          "full_name": "Vu Quynh Mai",
+          "last_name": "Mai",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Jie Jiang",
+          "last_name": "Jiang",
+          "orcid": "https://orcid.org/0000-0002-6891-2650"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9188617",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-03075-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-021-03075-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03394-1",
+      "doi": "10.1007/s11136-023-03394-1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Urban/rural differences in preferences for EQ-5D-5L health states: a study of a multi-ethnic region in China",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": "https://orcid.org/0000-0001-7859-3684"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-023-03394-1",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04045-3",
+      "doi": "10.1007/s11136-025-04045-3",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Exploring subjective constructions of quality of life in patients, carers and the healthy general public: a Q-methodological study",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Shenaz Ahmed",
+          "last_name": "Ahmed",
+          "orcid": null
+        },
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yifan Ding",
+          "last_name": "Ding",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/fa396837-d8a1-4097-8fdf-6944652e978e",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-025-04045-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01216-9",
+      "doi": "10.1007/s40273-022-01216-9",
+      "pmid": "36396878",
+      "pmcid": "PMC9758244",
+      "title": "Estimating an EQ-5D-Y-3L Value Set for China",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Jie Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Xuejing Jin",
+          "last_name": "Jin",
+          "orcid": null
+        },
+        {
+          "full_name": "Jing Wu",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Yu Fang",
+          "last_name": "Fang",
+          "orcid": null
+        },
+        {
+          "full_name": "Da Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Xiaoyu Xi",
+          "last_name": "Xi",
+          "orcid": null
+        },
+        {
+          "full_name": "Shunping Li",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Mingxia Jing",
+          "last_name": "Jing",
+          "orcid": null
+        },
+        {
+          "full_name": "Bin Zheng",
+          "last_name": "Zheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Weidong Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9758244",
+        "pdf_url": "https://europepmc.org/articles/PMC9758244?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01216-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.06.008",
+      "doi": "10.1016/j.jval.2019.06.008",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Toward a Smaller Design for EQ-5D-5L Valuation Studies",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.03.003",
+      "doi": "10.1016/j.jval.2023.03.003",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Using Time Trade-Off Values to Estimate EQ-5D-Y Value Sets: An Exploratory Study",
+      "journal": "Value in Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jie Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jing Wu",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Yu Fang",
+          "last_name": "Fang",
+          "orcid": null
+        },
+        {
+          "full_name": "Da Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Xiaoyu Xi",
+          "last_name": "Xi",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.03.003",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523001018/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.03.003",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.08.015",
+      "doi": "10.1016/j.jval.2023.08.015",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Testing 2 Alternative Time Trade-Off Methods for Valuation of Children’s Health States",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.08.015",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523060394/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.08.015",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.06.018",
+      "doi": "10.1016/j.jval.2024.06.018",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Valuation of Multidimensional Health States With a Bolt-On: Is There a Shortcut?",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://pure.eur.nl/en/publications/239b5d34-e3cc-4317-b586-213dee0c098d",
+        "pdf_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.06.018",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-018-1036-2",
+      "doi": "10.1186/s12955-018-1036-2",
+      "pmid": "30409137",
+      "pmcid": "PMC6225616",
+      "title": "EQ-5D-5L norms for the urban Chinese population in China",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Gordon Liu",
+          "last_name": "Liu",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC6225616",
+        "pdf_url": "https://europepmc.org/articles/PMC6225616?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-018-1036-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02131-z",
+      "doi": "10.1186/s12955-023-02131-z",
+      "pmid": "37340446",
+      "pmcid": "PMC10283288",
+      "title": "Characteristics of health-state utilities used in cost-effectiveness analyses: a systematic review of published studies in Asia",
+      "journal": "Health and quality of life outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Zeng X",
+          "last_name": "Zeng",
+          "orcid": null
+        },
+        {
+          "full_name": "Huang W",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Chai Q",
+          "last_name": "Chai",
+          "orcid": "0000-0003-4871-1840"
+        },
+        {
+          "full_name": "Zhao A",
+          "last_name": "Zhao",
+          "orcid": null
+        },
+        {
+          "full_name": "Chuang LH",
+          "last_name": "Chuang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wu B",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": "0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10283288",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02131-z",
+        "landing_page": "https://doi.org/10.1186/s12955-023-02131-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02314-2",
+      "doi": "10.1186/s12955-024-02314-2",
+      "pmid": "39550577",
+      "pmcid": "PMC11568534",
+      "title": "The effect of positive mental well-being on patient reported outcome (PRO): finding from a cross-sectional multi-disease study in China",
+      "journal": "Health and quality of life outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": "0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Hong Y",
+          "last_name": "Hong",
+          "orcid": "0009-0000-6669-3602"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC11568534",
+        "pdf_url": "https://europepmc.org/articles/PMC11568534?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02314-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0184883",
+      "doi": "10.1371/journal.pone.0184883",
+      "pmid": "28934266",
+      "pmcid": "PMC5608280",
+      "title": "Logical inconsistencies in time trade-off valuation of EQ-5D-5L health states: Whose fault is it?",
+      "journal": "PloS one",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": "0000-0001-5468-0847"
+        },
+        {
+          "full_name": "van Busschbach J",
+          "last_name": "van Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Timman R",
+          "last_name": "Timman",
+          "orcid": null
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5608280",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0184883&type=printable",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0184883",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,166 @@
+{
+  "project_id": "427-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.4863",
+      "doi": "10.1002/hec.4863",
+      "pmid": "38831492",
+      "pmcid": null,
+      "title": "Is anchoring at ‘dead’ a theoretical requirement for health state valuation?",
+      "journal": "Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": "https://orcid.org/0000-0001-9470-2369"
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": "https://orcid.org/0000-0002-9990-8208"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://doi.org/10.1002/hec.4863",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
+        "landing_page": "https://doi.org/10.1002/hec.4863",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03851-5",
+      "doi": "10.1007/s11136-024-03851-5",
+      "pmid": "39579270",
+      "pmcid": "PMC11982117",
+      "title": "A qualitative systematic review of the impact of hearing on quality of life",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Nadine Henderson",
+          "last_name": "Henderson",
+          "orcid": "https://orcid.org/0000-0002-0981-9376"
+        },
+        {
+          "full_name": "Sian Hodgson",
+          "last_name": "Hodgson",
+          "orcid": "https://orcid.org/0000-0002-6052-8443"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Katie Page",
+          "last_name": "Page",
+          "orcid": "https://orcid.org/0000-0001-9183-9175"
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": "https://orcid.org/0000-0001-9470-2369"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11136-024-03851-5",
+        "pdf_url": "https://europepmc.org/articles/PMC11982117?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03851-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.10.009",
+      "doi": "10.1016/j.jval.2023.10.009",
+      "pmid": null,
+      "pmcid": null,
+      "title": "This Dead or That Dead: Framing Effects in the Evaluation of Health States",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.10.009",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(23)06155-7/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.10.009",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

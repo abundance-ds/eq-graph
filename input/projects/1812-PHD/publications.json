@@ -1,0 +1,144 @@
+{
+  "project_id": "1812-PHD",
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s13643-025-03060-2",
+      "doi": "10.1186/s13643-025-03060-2",
+      "pmid": "41540454",
+      "pmcid": "PMC12892695",
+      "title": "Generic health-related quality of life instruments among children and adolescents in low- and middle-income countries: a scoping review",
+      "journal": "Systematic Reviews",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Goitom Molalign Takele",
+          "last_name": "Takele",
+          "orcid": "https://orcid.org/0000-0002-9344-3390"
+        },
+        {
+          "full_name": "Trudy Sullivan",
+          "last_name": "Sullivan",
+          "orcid": null
+        },
+        {
+          "full_name": "Ari Samaranayaka",
+          "last_name": "Samaranayaka",
+          "orcid": null
+        },
+        {
+          "full_name": "Mimmi Åström",
+          "last_name": "Åström",
+          "orcid": null
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Gashaw Arega",
+          "last_name": "Arega",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": "https://orcid.org/0000-0003-2867-0498"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1812-PHD",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12892695",
+        "pdf_url": "https://europepmc.org/articles/PMC12892695?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s13643-025-03060-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.02.013",
+      "doi": "10.1016/j.jval.2025.02.013",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Can Adolescents Value the EQ-5D-Y-5L and EQ-5D-5L, and How Do the Values Compare? A Feasibility Study",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Trudy A. Sullivan",
+          "last_name": "Sullivan",
+          "orcid": null
+        },
+        {
+          "full_name": "Emma H. Wyeth",
+          "last_name": "Wyeth",
+          "orcid": null
+        },
+        {
+          "full_name": "Robin M. Turner",
+          "last_name": "Turner",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Hansen",
+          "last_name": "Hansen",
+          "orcid": null
+        },
+        {
+          "full_name": "Franz Ombler",
+          "last_name": "Ombler",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.02.013",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

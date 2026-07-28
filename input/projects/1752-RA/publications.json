@@ -1,0 +1,323 @@
+{
+  "project_id": "1752-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03682-4",
+      "doi": "10.1007/s11136-024-03682-4",
+      "pmid": "39141175",
+      "pmcid": "PMC11452410",
+      "title": "Validation of the EQ-5D-Y-5L parent-proxy version among children with juvenile idiopathic arthritis",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Wen J",
+          "last_name": "Wen",
+          "orcid": null
+        },
+        {
+          "full_name": "Currie GR",
+          "last_name": "Currie",
+          "orcid": "0000-0002-4681-9893"
+        },
+        {
+          "full_name": "Benseler SM",
+          "last_name": "Benseler",
+          "orcid": "0000-0001-5756-3638"
+        },
+        {
+          "full_name": "Swart JF",
+          "last_name": "Swart",
+          "orcid": null
+        },
+        {
+          "full_name": "Vastert SJ",
+          "last_name": "Vastert",
+          "orcid": null
+        },
+        {
+          "full_name": "Yeung RSM",
+          "last_name": "Yeung",
+          "orcid": null
+        },
+        {
+          "full_name": "Marshall DA",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11452410",
+        "pdf_url": "https://europepmc.org/articles/PMC11452410?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03682-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.pecinn.2025.100421",
+      "doi": "10.1016/j.pecinn.2025.100421",
+      "pmid": "40895644",
+      "pmcid": "PMC12395153",
+      "title": "Usability testing of an individualized decision aid for total knee arthroplasty",
+      "journal": "PEC Innovation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Ademola Joshua Itiola",
+          "last_name": "Itiola",
+          "orcid": null
+        },
+        {
+          "full_name": "Shakib Rahman",
+          "last_name": "Rahman",
+          "orcid": null
+        },
+        {
+          "full_name": "Christopher Smith",
+          "last_name": "Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "Allison Soprovich",
+          "last_name": "Soprovich",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa A. Wozniak",
+          "last_name": "Wozniak",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah A. Marshall",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12395153",
+        "pdf_url": "https://europepmc.org/articles/PMC12395153?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1093/haschl/qxae053",
+      "doi": "10.1093/haschl/qxae053",
+      "pmid": "38783891",
+      "pmcid": "PMC11115369",
+      "title": "Paving the path for implementation of clinical genomic sequencing globally: Are we ready?",
+      "journal": "Health affairs scholar",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Marshall DA",
+          "last_name": "Marshall",
+          "orcid": "0000-0002-8467-8008"
+        },
+        {
+          "full_name": "Hua N",
+          "last_name": "Hua",
+          "orcid": "0009-0007-9472-901X"
+        },
+        {
+          "full_name": "Buchanan J",
+          "last_name": "Buchanan",
+          "orcid": "0000-0003-2528-0638"
+        },
+        {
+          "full_name": "Christensen KD",
+          "last_name": "Christensen",
+          "orcid": "0000-0003-4068-776X"
+        },
+        {
+          "full_name": "Frederix GWJ",
+          "last_name": "Frederix",
+          "orcid": null
+        },
+        {
+          "full_name": "Goranitis I",
+          "last_name": "Goranitis",
+          "orcid": "0000-0001-7946-8324"
+        },
+        {
+          "full_name": "Ijzerman M",
+          "last_name": "Ijzerman",
+          "orcid": "0000-0001-5788-5805"
+        },
+        {
+          "full_name": "Jansen JP",
+          "last_name": "Jansen",
+          "orcid": "0000-0003-2686-9217"
+        },
+        {
+          "full_name": "Lavelle TA",
+          "last_name": "Lavelle",
+          "orcid": "0000-0003-1212-6973"
+        },
+        {
+          "full_name": "Regier DA",
+          "last_name": "Regier",
+          "orcid": "0000-0001-8876-0511"
+        },
+        {
+          "full_name": "Smith HS",
+          "last_name": "Smith",
+          "orcid": "0000-0003-1247-6535"
+        },
+        {
+          "full_name": "Ungar WJ",
+          "last_name": "Ungar",
+          "orcid": "0000-0002-0762-0101"
+        },
+        {
+          "full_name": "Weymann D",
+          "last_name": "Weymann",
+          "orcid": "0000-0002-3072-5657"
+        },
+        {
+          "full_name": "Wordsworth S",
+          "last_name": "Wordsworth",
+          "orcid": "0000-0002-2361-3040"
+        },
+        {
+          "full_name": "Phillips KA",
+          "last_name": "Phillips",
+          "orcid": "0000-0003-0822-4968"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC11115369",
+        "pdf_url": "https://europepmc.org/articles/PMC11115369?pdf=render",
+        "landing_page": "https://doi.org/10.1093/haschl/qxae053",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12891-024-07304-5",
+      "doi": "10.1186/s12891-024-07304-5",
+      "pmid": "38424523",
+      "pmcid": "PMC10902977",
+      "title": "Exploring patient perspectives on EQ-5D-5L data visualization within an individualized decision aid for total knee arthroplasty (TKA) in Alberta, Canada",
+      "journal": "BMC Musculoskeletal Disorders",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Ademola Itiola",
+          "last_name": "Itiola",
+          "orcid": null
+        },
+        {
+          "full_name": "Shakib Rahman",
+          "last_name": "Rahman",
+          "orcid": null
+        },
+        {
+          "full_name": "Christopher Smith",
+          "last_name": "Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "Allison Soprovich",
+          "last_name": "Soprovich",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa A. Wozniak",
+          "last_name": "Wozniak",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah A. Marshall",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10902977",
+        "pdf_url": "https://europepmc.org/articles/PMC10902977?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12891-024-07304-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

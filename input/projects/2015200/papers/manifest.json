@@ -1,0 +1,58 @@
+{
+  "project_id": "2015200",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-021-03007-9",
+      "doi": "10.1007/s11136-021-03007-9",
+      "title": "Feasibility of the EQ-5D in the elderly population: a systematic review of the literature",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9098572/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-021-03007-9",
+      "status": "ok",
+      "file": "input/projects/2015200/papers/doi_10.1007_s11136-021-03007-9.xml",
+      "bytes": 133205,
+      "sha256": "1bcdaa47d576062d531315c9003670d78bae3c1651fc9be124e25fdf24bb3df4"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01719-7",
+      "doi": "10.1186/s12955-021-01719-7",
+      "title": "EQ-5D-5L reference values for the German general elderly population",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7937199/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-021-01719-7",
+      "status": "ok",
+      "file": "input/projects/2015200/papers/doi_10.1186_s12955-021-01719-7.xml",
+      "bytes": 156264,
+      "sha256": "9646c84da3962cf7385fdf62185fc46bbd44fa22a7f35c95a7d73b3227c5dbf2"
+    },
+    {
+      "work_id": "doi:10.1186/s13561-022-00374-y",
+      "doi": "10.1186/s13561-022-00374-y",
+      "title": "Feasibility properties of the EQ-5D-3L and 5L in the general population: evidence from the GP Patient Survey on the impact of age",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9121571/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s13561-022-00374-y",
+      "status": "ok",
+      "file": "input/projects/2015200/papers/doi_10.1186_s13561-022-00374-y.xml",
+      "bytes": 121095,
+      "sha256": "f6bf4223959913d08df7ab29e97c5b767e0307dc2c1f1f6b6c71cddb2b1fabef"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0290606",
+      "doi": "10.1371/journal.pone.0290606",
+      "title": "Exploring differences and similarities of EQ-5D-3L, EQ-5D-5L and WHOQOL-OLD in recipients of aged care services in Germany",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10456181/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0290606",
+      "status": "ok",
+      "file": "input/projects/2015200/papers/doi_10.1371_journal.pone.0290606.xml",
+      "bytes": 207990,
+      "sha256": "5b8e0aaef87898c3ff7a339dde9ebe4db327ba0b49f063b856b2fb8b4ba785dc"
+    }
+  ]
+}

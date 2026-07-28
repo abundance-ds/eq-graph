@@ -1,0 +1,32 @@
+{
+  "project_id": "367-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-03983-2",
+      "doi": "10.1007/s11136-025-03983-2",
+      "title": "EuroQol data for assessment of population health needs and instrument evaluation (EQ-DAPHNIE): a study for enhancing population health assessment",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689827/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1007/s11136-025-03983-2",
+      "status": "ok",
+      "file": "input/projects/367-RA/papers/doi_10.1007_s11136-025-03983-2.xml",
+      "bytes": 120094,
+      "sha256": "d206123f5d69763c576d3ea181736ec840ad6376a6721bbb82ec054dd0a2f5fb"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04074-y",
+      "doi": "10.1007/s11136-025-04074-y",
+      "title": "Design and implementation of data quality controls in the EQ-DAPHNIE study: insights from the pilot phase and 15-country analysis",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689740/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1007/s11136-025-04074-y",
+      "status": "ok",
+      "file": "input/projects/367-RA/papers/doi_10.1007_s11136-025-04074-y.xml",
+      "bytes": 253284,
+      "sha256": "438ef38e9f2a2b06ce82352668ff77eef7aca23e006beb12fab66f8cdb935e72"
+    }
+  ]
+}

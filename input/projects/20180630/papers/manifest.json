@@ -1,0 +1,19 @@
+{
+  "project_id": "20180630",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3389/fpubh.2021.744405",
+      "doi": "10.3389/fpubh.2021.744405",
+      "title": "Health Inequality Analysis in Europe: Exploring the Potential of the EQ-5D as Outcome",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8599146/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3389/fpubh.2021.744405",
+      "status": "ok",
+      "file": "input/projects/20180630/papers/doi_10.3389_fpubh.2021.744405.xml",
+      "bytes": 222906,
+      "sha256": "5eb9a51de137d460a221f33229ac8ff545d4fe796453e350fffccc04812e57a5"
+    }
+  ]
+}

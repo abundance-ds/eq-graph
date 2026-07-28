@@ -1,0 +1,76 @@
+{
+  "project_id": "20170220",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02469-7",
+      "doi": "10.1007/s11136-020-02469-7",
+      "pmid": "32221805",
+      "pmcid": "PMC7295839",
+      "title": "An EQ-5D-5L Value Set for Vietnam",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Vu Quynh Mai",
+          "last_name": "Mai",
+          "orcid": "https://orcid.org/0000-0001-6962-0564"
+        },
+        {
+          "full_name": "Sun Sun",
+          "last_name": "Sun",
+          "orcid": "https://orcid.org/0000-0001-5948-3025"
+        },
+        {
+          "full_name": "Hoang Van Minh",
+          "last_name": "Minh",
+          "orcid": "https://orcid.org/0000-0002-4749-5536"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Kim Bao Giang",
+          "last_name": "Giang",
+          "orcid": "https://orcid.org/0000-0003-2290-0205"
+        },
+        {
+          "full_name": "Lars Lindholm",
+          "last_name": "Lindholm",
+          "orcid": "https://orcid.org/0000-0002-1633-2179"
+        },
+        {
+          "full_name": "Klas Goran Sahlen",
+          "last_name": "Sahlen",
+          "orcid": "https://orcid.org/0000-0002-3975-4868"
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20170220",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7295839",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02469-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02469-7",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

@@ -1,0 +1,111 @@
+{
+  "project_id": "1411-VS",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-025-03930-1",
+      "doi": "10.1007/s11136-025-03930-1",
+      "pmid": "40019677",
+      "pmcid": "PMC12119695",
+      "title": "Valuing health‐related quality of life: an EQ‐5D‐5L value set for Morocco",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Asmaa Azizi",
+          "last_name": "Azizi",
+          "orcid": null
+        },
+        {
+          "full_name": "Amal Boutib",
+          "last_name": "Boutib",
+          "orcid": null
+        },
+        {
+          "full_name": "Doha Achak",
+          "last_name": "Achak",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "Elmadani Saad",
+          "last_name": "Saad",
+          "orcid": null
+        },
+        {
+          "full_name": "Abderraouf Hilali",
+          "last_name": "Hilali",
+          "orcid": null
+        },
+        {
+          "full_name": "Samir Ahid",
+          "last_name": "Ahid",
+          "orcid": null
+        },
+        {
+          "full_name": "Chakib Nejjari",
+          "last_name": "Nejjari",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly A. Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Ibtissam Youlyouz-Marfak",
+          "last_name": "Youlyouz-Marfak",
+          "orcid": null
+        },
+        {
+          "full_name": "Abdelghafour Marfak",
+          "last_name": "Marfak",
+          "orcid": "https://orcid.org/0000-0002-4212-8438"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1411-VS",
+          "weight": 1.0
+        },
+        {
+          "kind": "title_exact",
+          "detail": "normalized titles identical",
+          "weight": 0.95
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12119695",
+        "pdf_url": "https://europepmc.org/articles/PMC12119695?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03930-1",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

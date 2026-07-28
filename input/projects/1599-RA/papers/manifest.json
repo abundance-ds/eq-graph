@@ -1,0 +1,19 @@
+{
+  "project_id": "1599-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.11.005",
+      "doi": "10.1016/j.jval.2025.11.005",
+      "title": "Impact of Heatwaves on Health-Related Quality of Life in Older Chinese Adults: A Longitudinal Cohort Study",
+      "method": "repository_pdf",
+      "source_url": "https://unipub.lib.uni-corvinus.hu/12164/1/rencz.pdf",
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.11.005",
+      "status": "ok",
+      "file": "input/projects/1599-RA/papers/doi_10.1016_j.jval.2025.11.005.pdf",
+      "bytes": 1668329,
+      "sha256": "39b58a8febf862fba1b367d7e01153713dd08e45b010baa26896ab475ad90cc3"
+    }
+  ]
+}

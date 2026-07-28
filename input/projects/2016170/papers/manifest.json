@@ -1,0 +1,32 @@
+{
+  "project_id": "2016170",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02688-y",
+      "doi": "10.1007/s11136-020-02688-y",
+      "title": "Psychometric properties of the EQ-5D-5L: a systematic review of the literature",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7952346/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-020-02688-y",
+      "status": "ok",
+      "file": "input/projects/2016170/papers/doi_10.1007_s11136-020-02688-y.xml",
+      "bytes": 279129,
+      "sha256": "c7c06f3a7d83931444bf453017208eb8eb93af78174a52aa9c58f9aabf44e078"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0642-5",
+      "doi": "10.1007/s40273-018-0642-5",
+      "title": "A Systematic Review of Studies Comparing the Measurement Properties of the Three-Level and Five-Level Versions of the EQ-5D",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5954044/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-018-0642-5",
+      "status": "ok",
+      "file": "input/projects/2016170/papers/doi_10.1007_s40273-018-0642-5.xml",
+      "bytes": 164536,
+      "sha256": "2df1ba58a681b046d1bc46331eff5b461a3938d61840992560601c09e2f7bf3c"
+    }
+  ]
+}

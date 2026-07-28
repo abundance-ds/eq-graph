@@ -1,0 +1,19 @@
+{
+  "project_id": "20170230",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03143-w",
+      "doi": "10.1007/s11136-022-03143-w",
+      "title": "Estimating the EQ-5D-5L value set for the Philippines",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9356948/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-022-03143-w",
+      "status": "ok",
+      "file": "input/projects/20170230/papers/doi_10.1007_s11136-022-03143-w.xml",
+      "bytes": 119406,
+      "sha256": "2f9086c54f5783e702544bf557fbd8a4c678c2026dca42390cccb80e5497d6ad"
+    }
+  ]
+}

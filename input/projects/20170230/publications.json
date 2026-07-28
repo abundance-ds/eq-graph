@@ -1,0 +1,96 @@
+{
+  "project_id": "20170230",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03143-w",
+      "doi": "10.1007/s11136-022-03143-w",
+      "pmid": "35532835",
+      "pmcid": "PMC9356948",
+      "title": "Estimating the EQ-5D-5L value set for the Philippines",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Red Thaddeus D. Miguel",
+          "last_name": "Miguel",
+          "orcid": "https://orcid.org/0000-0002-2635-7484"
+        },
+        {
+          "full_name": "Adovich S. Rivera",
+          "last_name": "Rivera",
+          "orcid": "https://orcid.org/0000-0003-2533-0818"
+        },
+        {
+          "full_name": "Kent Jason G. Cheng",
+          "last_name": "Cheng",
+          "orcid": "https://orcid.org/0000-0002-8931-4086"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Ma-Ann Zarsuelo",
+          "last_name": "Zarsuelo",
+          "orcid": null
+        },
+        {
+          "full_name": "Anne Julienne Genuino-Marfori",
+          "last_name": "Genuino-Marfori",
+          "orcid": null
+        },
+        {
+          "full_name": "Irene Florentino-Fariñas",
+          "last_name": "Florentino-Fariñas",
+          "orcid": null
+        },
+        {
+          "full_name": "Anna Melissa Guerrero",
+          "last_name": "Guerrero",
+          "orcid": null
+        },
+        {
+          "full_name": "Hilton Y. Lam",
+          "last_name": "Lam",
+          "orcid": "https://orcid.org/0000-0003-4042-5997"
+        }
+      ],
+      "score": 0.95,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "title_exact",
+          "detail": "normalized titles identical",
+          "weight": 0.95
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9356948",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03143-w.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03143-w",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

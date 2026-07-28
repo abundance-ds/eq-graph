@@ -1,0 +1,66 @@
+{
+  "project_id": "328-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-022-02015-8",
+      "doi": "10.1186/s12955-022-02015-8",
+      "pmid": "35794553",
+      "pmcid": "PMC9258760",
+      "title": "Predicting panel attrition in longitudinal HRQoL surveys during the COVID-19 pandemic in the US",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Tianzhou Yu",
+          "last_name": "Yu",
+          "orcid": "https://orcid.org/0000-0003-3116-5636"
+        },
+        {
+          "full_name": "Jiafan Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "Joel W. Hay",
+          "last_name": "Hay",
+          "orcid": null
+        },
+        {
+          "full_name": "Cynthia L. Gong",
+          "last_name": "Gong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9258760",
+        "pdf_url": "https://europepmc.org/articles/PMC9258760?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02015-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,17 @@
+{
+  "project_id": "1676-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.04.2160",
+      "doi": "10.1016/j.jval.2025.04.2160",
+      "title": "A Comparative Study of Health and Well-Being Measures in Ireland Using EQ Health and Wellbeing (EQ-HWB) and its Short Version, EQ-5D-5L, and ICEpop Capability Measure for Adults (ICECAP-A)",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2160",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

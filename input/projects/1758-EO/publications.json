@@ -1,0 +1,239 @@
+{
+  "project_id": "1758-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04038-2",
+      "doi": "10.1007/s11136-025-04038-2",
+      "pmid": "41042479",
+      "pmcid": "PMC12689660",
+      "title": "Developing a quality of life framework from the perspective of laypeople: a qualitative comparison with the EQ-HWB framework",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yifan Ding",
+          "last_name": "Ding",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12689660",
+        "pdf_url": "https://europepmc.org/articles/PMC12689660?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04038-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101081",
+      "doi": "10.1016/j.vhri.2025.101081",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Comparing the Measurement Properties of the Preliminary Version of the EuroQol Health and Well-Being and EQ-5D-5L in Patients, Healthy General Public, and Caregivers",
+      "journal": "Value in Health Regional Issues",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101081",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00006-8/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101081",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101501",
+      "doi": "10.1016/j.vhri.2025.101501",
+      "pmid": "41037937",
+      "pmcid": null,
+      "title": "Evaluating the Factor Structure of the Preliminary Version of EuroQol Health and Well-Being Instrument in China: A Replication of the Confirmatory Factor Analysis",
+      "journal": "Value in Health Regional Issues",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101501",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00427-3/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101501",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-024-00767-z",
+      "doi": "10.1186/s41687-024-00767-z",
+      "pmid": "39102010",
+      "pmcid": "PMC11300404",
+      "title": "Can items derived from international literature be used in national quality of life instruments? A qualitative study conceptualising the EQ-HWB in China",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-024-00767-z",
+        "pdf_url": "https://europepmc.org/articles/PMC11300404?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00767-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

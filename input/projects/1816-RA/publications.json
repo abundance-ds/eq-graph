@@ -1,0 +1,50 @@
+{
+  "project_id": "1816-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04133-4",
+      "doi": "10.1007/s11136-025-04133-4",
+      "pmid": "41511567",
+      "pmcid": "PMC12789248",
+      "title": "Validity of EQ-5D-5L breathing and cognition bolt-ons in non-hospitalized patients after COVID-19",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Stavem K",
+          "last_name": "Stavem",
+          "orcid": "0000-0003-4512-8000"
+        },
+        {
+          "full_name": "Garratt AM",
+          "last_name": "Garratt",
+          "orcid": "0000-0002-1000-4780"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12789248",
+        "pdf_url": "https://europepmc.org/articles/PMC12789248?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04133-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

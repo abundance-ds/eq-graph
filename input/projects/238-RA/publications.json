@@ -1,0 +1,495 @@
+{
+  "project_id": "238-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-022-01172-4",
+      "doi": "10.1007/s40273-022-01172-4",
+      "pmid": "35930137",
+      "pmcid": "PMC9550755",
+      "title": "Is EQ-5D-5L Better Than EQ-5D-3L Over Time? A Head-to-Head Comparison of Responsiveness of Descriptive Systems and Value Sets from Nine Countries",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9550755",
+        "pdf_url": "https://europepmc.org/articles/PMC9550755?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01172-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.joca.2023.07.004",
+      "doi": "10.1016/j.joca.2023.07.004",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Socioeconomic inequalities in patient-reported outcome measures of Dutch primary hip and knee arthroplasty patients for osteoarthritis",
+      "journal": "Osteoarthritis and Cartilage",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Max Reijman",
+          "last_name": "Reijman",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan A.N. Verhaar",
+          "last_name": "Verhaar",
+          "orcid": null
+        },
+        {
+          "full_name": "Liza N. van Steenbergen",
+          "last_name": "van Steenbergen",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.joca.2023.07.004",
+        "pdf_url": "http://www.oarsijournal.com/article/S1063458423008543/pdf",
+        "landing_page": "https://doi.org/10.1016/j.joca.2023.07.004",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.ssmph.2021.100913",
+      "doi": "10.1016/j.ssmph.2021.100913",
+      "pmid": "34522763",
+      "pmcid": "PMC8426285",
+      "title": "Health-related quality of life and mental well-being of healthy and diseased persons in 8 countries: Does stringency of government response against early COVID-19 matter?",
+      "journal": "SSM - Population Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Di Long",
+          "last_name": "Long",
+          "orcid": "https://orcid.org/0000-0001-6493-9314"
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "John N. Yfantopoulos",
+          "last_name": "Yfantopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": "https://orcid.org/0000-0001-9962-7775"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.ssmph.2021.100913",
+        "pdf_url": "https://europepmc.org/articles/PMC8426285?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.ssmph.2021.100913",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12939-025-02520-4",
+      "doi": "10.1186/s12939-025-02520-4",
+      "pmid": "40410867",
+      "pmcid": "PMC12102890",
+      "title": "Socioeconomic inequalities in patient-reported outcome measures among total hip and knee arthroplasty patients: a comprehensive analysis of instruments and domains",
+      "journal": "International Journal for Equity in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-9143-5506"
+        },
+        {
+          "full_name": "Max Reijman",
+          "last_name": "Reijman",
+          "orcid": "https://orcid.org/0000-0001-6316-9629"
+        },
+        {
+          "full_name": "Erin M. Macri",
+          "last_name": "Macri",
+          "orcid": "https://orcid.org/0000-0003-2798-6052"
+        },
+        {
+          "full_name": "Jan A. N. Verhaar",
+          "last_name": "Verhaar",
+          "orcid": "https://orcid.org/0000-0003-3016-9600"
+        },
+        {
+          "full_name": "Liza N. van Steenbergen",
+          "last_name": "van Steenbergen",
+          "orcid": "https://orcid.org/0000-0002-8141-842x"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12102890",
+        "pdf_url": "https://europepmc.org/articles/PMC12102890?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12939-025-02520-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-025-00842-z",
+      "doi": "10.1186/s41687-025-00842-z",
+      "pmid": "39878911",
+      "pmcid": "PMC11780234",
+      "title": "A head-to-head comparison of the adult EQ-5D-5L and youth EQ-5D-Y-5L in adolescents with idiopathic scoliosis",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-9143-5506"
+        },
+        {
+          "full_name": "Charles M. M. Peeters",
+          "last_name": "Peeters",
+          "orcid": "https://orcid.org/0000-0001-6292-6202"
+        },
+        {
+          "full_name": "Max Reijman",
+          "last_name": "Reijman",
+          "orcid": "https://orcid.org/0000-0001-6316-9629"
+        },
+        {
+          "full_name": "Tim Dings",
+          "last_name": "Dings",
+          "orcid": "https://orcid.org/0009-0002-7286-4863"
+        },
+        {
+          "full_name": "Joost P. H. J. Rutges",
+          "last_name": "Rutges",
+          "orcid": "https://orcid.org/0000-0002-9452-415x"
+        },
+        {
+          "full_name": "Diederik H. R. Kempen",
+          "last_name": "Kempen",
+          "orcid": "https://orcid.org/0000-0001-6840-4851"
+        },
+        {
+          "full_name": "Jan A. N. Verhaar",
+          "last_name": "Verhaar",
+          "orcid": "https://orcid.org/0000-0003-3016-9600"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-025-00842-z",
+        "pdf_url": "https://europepmc.org/articles/PMC11780234?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-025-00842-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1213/ane.0000000000007107",
+      "doi": "10.1213/ane.0000000000007107",
+      "pmid": "39042570",
+      "pmcid": "PMC11805468",
+      "title": "Socioeconomic, Patient, and Hospital Determinants for the Utilization of Peripheral Nerve Blocks in Total Joint Arthroplasty",
+      "journal": "Anesthesia and analgesia",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Bonsel JM",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Kodali H",
+          "last_name": "Kodali",
+          "orcid": "0000-0002-8229-4369"
+        },
+        {
+          "full_name": "Poeran J",
+          "last_name": "Poeran",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel GJ",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11805468",
+        "pdf_url": "https://europepmc.org/articles/PMC11805468?pdf=render",
+        "landing_page": "https://doi.org/10.1213/ane.0000000000007107",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0272252",
+      "doi": "10.1371/journal.pone.0272252",
+      "pmid": "35901071",
+      "pmcid": "PMC9333246",
+      "title": "Health inequities as measured by the EQ-5D-5L during COVID-19: Results from New York in healthy and diseased persons",
+      "journal": "PLOS ONE",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": "https://orcid.org/0000-0001-9962-7775"
+        },
+        {
+          "full_name": "Di Long",
+          "last_name": "Long",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC9333246",
+        "pdf_url": "https://europepmc.org/articles/PMC9333246?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0272252",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/fpubh.2021.744405",
+      "doi": "10.3389/fpubh.2021.744405",
+      "pmid": "34805069",
+      "pmcid": "PMC8599146",
+      "title": "Health Inequality Analysis in Europe: Exploring the Potential of the EQ-5D as Outcome",
+      "journal": "Frontiers in Public Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Inge Spronk",
+          "last_name": "Spronk",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "G. J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC8599146",
+        "pdf_url": "https://europepmc.org/articles/PMC8599146?pdf=render",
+        "landing_page": "https://doi.org/10.3389/fpubh.2021.744405",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

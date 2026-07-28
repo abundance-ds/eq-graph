@@ -1,0 +1,17 @@
+{
+  "project_id": "234-VS",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.vhri.2024.101045",
+      "doi": "10.1016/j.vhri.2024.101045",
+      "title": "An EQ-5D-5L Value Set for Ghana Using an Adapted EuroQol Valuation Technology Protocol",
+      "method": "publisher_pdf",
+      "source_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(24)00078-5/pdf",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.vhri.2024.101045",
+      "status": "unavailable",
+      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+    }
+  ]
+}

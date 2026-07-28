@@ -1,0 +1,475 @@
+{
+  "project_id": "1585-RA",
+  "accepted": [],
+  "review": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01471-6",
+      "doi": "10.1007/s40273-025-01471-6",
+      "pmid": "40009331",
+      "pmcid": "PMC12081533",
+      "title": "Making Composite Time Trade-Off Sensitive for Worse-than-Dead Health States",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        }
+      ],
+      "score": 0.65,
+      "confidence": "review",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "title_fuzzy",
+          "detail": "title similarity 0.91 + PI as lead author",
+          "weight": 0.65
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12081533",
+        "pdf_url": "https://europepmc.org/articles/PMC12081533?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-025-01471-6",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-022-01537-8",
+      "doi": "10.1007/s10198-022-01537-8",
+      "pmid": "36344630",
+      "pmcid": "PMC10406696",
+      "title": "What if 0 is not equal to 0? Inter-personal health utilities anchoring using the largest health gains",
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10406696",
+        "pdf_url": "https://europepmc.org/articles/PMC10406696?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-022-01537-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01866-4",
+      "doi": "10.1007/s10198-025-01866-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Eliciting discounting model and direction at the individual level with time trade-off follow-up questions",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1007/s10198-025-01866-4",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01866-4.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01866-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-023-01267-6",
+      "doi": "10.1007/s40273-023-01267-6",
+      "pmid": "37148531",
+      "pmcid": "PMC10163582",
+      "title": "Measuring the Indirect Cost of Illness Using EQ-5D-5L While Accounting for Job Characteristics",
+      "journal": "PharmacoEconomics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Beata Koń",
+          "last_name": "Koń",
+          "orcid": "https://orcid.org/0000-0003-2190-4546"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://doi.org/10.1007/s40273-023-01267-6",
+        "pdf_url": "https://europepmc.org/articles/PMC10163582?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-023-01267-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.10.009",
+      "doi": "10.1016/j.jval.2023.10.009",
+      "pmid": null,
+      "pmcid": null,
+      "title": "This Dead or That Dead: Framing Effects in the Evaluation of Health States",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.10.009",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(23)06155-7/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.10.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1097/mlr.0000000000002200",
+      "doi": "10.1097/mlr.0000000000002200",
+      "pmid": "40846650",
+      "pmcid": "PMC12422609",
+      "title": "Revisiting the Valuation of Child Health-Related Quality of Life: Replacing Paired Comparisons With Kaizen Tasks and QALY Scaling With Experience Scaling",
+      "journal": "Medical care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jumamyradov M",
+          "last_name": "Jumamyradov",
+          "orcid": "0009-0008-0180-7224"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": "0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC12422609",
+        "pdf_url": "https://europepmc.org/articles/PMC12422609?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000002200",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2023-077256",
+      "doi": "10.1136/bmjopen-2023-077256",
+      "pmid": "37879694",
+      "pmcid": "PMC10603523",
+      "title": "Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale",
+      "journal": "BMJ Open",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Maksat Jumamyradov",
+          "last_name": "Jumamyradov",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamin Matthew Craig",
+          "last_name": "Craig",
+          "orcid": "https://orcid.org/0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": "https://orcid.org/0000-0003-2233-6544"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC10603523",
+        "pdf_url": "https://europepmc.org/articles/PMC10603523?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2023-077256",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x231201147",
+      "doi": "10.1177/0272989x231201147",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Re-revisiting the Utilities of Health States Worse than Dead: The Problem Remains",
+      "journal": "Medical Decision Making",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x231201147",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x261446644",
+      "doi": "10.1177/0272989x261446644",
+      "pmid": "42206353",
+      "pmcid": null,
+      "title": "Exploring Perceived Interactions between EQ-5D-5L and Bolt-ons Using Composite Time-Tradeoff Valuations: A Qualitative Study",
+      "journal": "Medical Decision Making",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Stevanus Pangestu",
+          "last_name": "Pangestu",
+          "orcid": "https://orcid.org/0000-0003-2546-9449"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x261446644",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02271-w",
+      "doi": "10.1186/s12955-024-02271-w",
+      "pmid": "39003479",
+      "pmcid": "PMC11555889",
+      "title": "Scale and rate heterogeneity in the EQ-5D-5L valuation",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maksat Jumamyradov",
+          "last_name": "Jumamyradov",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamin M. Craig",
+          "last_name": "Craig",
+          "orcid": null
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11555889",
+        "pdf_url": "https://europepmc.org/articles/PMC11555889?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02271-w",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,91 @@
+{
+  "project_id": "2016440",
+  "accepted": [
+    {
+      "work_id": "doi:10.1371/journal.pone.0209344",
+      "doi": "10.1371/journal.pone.0209344",
+      "pmid": "30586400",
+      "pmcid": "PMC6306233",
+      "title": "Valuation of the EQ-5D-5L in Taiwan",
+      "journal": "PLOS ONE",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Hsiang-Wen Lin",
+          "last_name": "Lin",
+          "orcid": null
+        },
+        {
+          "full_name": "Chia-Ing Li",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Fang- Ju Lin",
+          "last_name": "Lin",
+          "orcid": null
+        },
+        {
+          "full_name": "Jen-Yu Chang",
+          "last_name": "Chang",
+          "orcid": null
+        },
+        {
+          "full_name": "Churn-Shiouh Gau",
+          "last_name": "Gau",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan M. Ramos Goñi",
+          "last_name": "Ramos Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Chao-Hsiun Tang",
+          "last_name": "Tang",
+          "orcid": null
+        },
+        {
+          "full_name": "Chien-Ning Hsu",
+          "last_name": "Hsu",
+          "orcid": "https://orcid.org/0000-0001-7470-528x"
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016440",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC6306233",
+        "pdf_url": "https://europepmc.org/articles/PMC6306233?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0209344",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

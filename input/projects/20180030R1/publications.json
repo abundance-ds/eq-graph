@@ -1,0 +1,213 @@
+{
+  "project_id": "20180030R1",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s10198-022-01481-7",
+      "doi": "10.1007/s10198-022-01481-7",
+      "pmid": "35688994",
+      "pmcid": "PMC10060331",
+      "title": "EQ-5D-5L: a value set for Romania",
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Elena Olariu",
+          "last_name": "Olariu",
+          "orcid": "https://orcid.org/0000-0002-8718-5516"
+        },
+        {
+          "full_name": "Wael Mohammed",
+          "last_name": "Mohammed",
+          "orcid": "https://orcid.org/0000-0003-0370-4903"
+        },
+        {
+          "full_name": "Yemi Oluboyede",
+          "last_name": "Oluboyede",
+          "orcid": "https://orcid.org/0000-0002-9891-8279"
+        },
+        {
+          "full_name": "Raluca Caplescu",
+          "last_name": "Caplescu",
+          "orcid": "https://orcid.org/0000-0001-6489-171x"
+        },
+        {
+          "full_name": "Ileana Gabriela Niculescu-Aron",
+          "last_name": "Niculescu-Aron",
+          "orcid": "https://orcid.org/0000-0003-2902-1641"
+        },
+        {
+          "full_name": "Marian Sorin Paveliu",
+          "last_name": "Paveliu",
+          "orcid": "https://orcid.org/0000-0002-0702-1715"
+        },
+        {
+          "full_name": "Luke Vale",
+          "last_name": "Vale",
+          "orcid": "https://orcid.org/0000-0001-8574-8429"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180030R1",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180030R1",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10060331",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01481-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-022-01481-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02144-8",
+      "doi": "10.1186/s12955-023-02144-8",
+      "pmid": "37507760",
+      "pmcid": "PMC10386277",
+      "title": "Population norms for the EQ-5D-3L and EQ-5D-5L in Romania",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Elena Olariu",
+          "last_name": "Olariu",
+          "orcid": "https://orcid.org/0000-0002-8718-5516"
+        },
+        {
+          "full_name": "Raluca Caplescu",
+          "last_name": "Caplescu",
+          "orcid": "https://orcid.org/0000-0001-6489-171x"
+        },
+        {
+          "full_name": "Luke Vale",
+          "last_name": "Vale",
+          "orcid": "https://orcid.org/0000-0001-8574-8429"
+        },
+        {
+          "full_name": "Ileana Gabriela Niculescu-Aron",
+          "last_name": "Niculescu-Aron",
+          "orcid": "https://orcid.org/0000-0003-2902-1641"
+        },
+        {
+          "full_name": "Yemi Oluboyede",
+          "last_name": "Oluboyede",
+          "orcid": "https://orcid.org/0000-0002-9891-8279"
+        },
+        {
+          "full_name": "Marian Sorin Paveliu",
+          "last_name": "Paveliu",
+          "orcid": "https://orcid.org/0000-0002-0702-1715"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180030R1",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180030R1",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10386277",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02144-8",
+        "landing_page": "https://doi.org/10.1186/s12955-023-02144-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2019-029067",
+      "doi": "10.1136/bmjopen-2019-029067",
+      "pmid": "31427330",
+      "pmcid": "PMC6701682",
+      "title": "Measuring health-related quality of life in the general population and Roma communities in Romania: study protocol for two cross-sectional studies",
+      "journal": "BMJ Open",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Elena Olariu",
+          "last_name": "Olariu",
+          "orcid": null
+        },
+        {
+          "full_name": "Marian Sorin Paveliu",
+          "last_name": "Paveliu",
+          "orcid": null
+        },
+        {
+          "full_name": "Eugen Baican",
+          "last_name": "Baican",
+          "orcid": null
+        },
+        {
+          "full_name": "Yemi Oluboyede",
+          "last_name": "Oluboyede",
+          "orcid": null
+        },
+        {
+          "full_name": "Luke Vale",
+          "last_name": "Vale",
+          "orcid": null
+        },
+        {
+          "full_name": "Ileana Gabriela Niculescu-Aron",
+          "last_name": "Niculescu-Aron",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC6701682",
+        "pdf_url": "https://europepmc.org/articles/PMC6701682?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2019-029067",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

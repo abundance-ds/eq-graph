@@ -1,0 +1,283 @@
+{
+  "project_id": "2016170",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02688-y",
+      "doi": "10.1007/s11136-020-02688-y",
+      "pmid": "33284428",
+      "pmcid": "PMC7952346",
+      "title": "Psychometric properties of the EQ-5D-5L: a systematic review of the literature",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-1509-3409"
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016170",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7952346",
+        "pdf_url": "https://europepmc.org/articles/PMC7952346?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02688-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0642-5",
+      "doi": "10.1007/s40273-018-0642-5",
+      "pmid": "29572719",
+      "pmcid": "PMC5954044",
+      "title": "A Systematic Review of Studies Comparing the Measurement Properties of the Three-Level and Five-Level Versions of the EQ-5D",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016170",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5954044",
+        "pdf_url": "https://europepmc.org/articles/PMC5954044?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0642-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03158-3",
+      "doi": "10.1007/s11136-022-03158-3",
+      "pmid": "35624409",
+      "pmcid": "PMC9546963",
+      "title": "Feasibility and validity of the EQ-5D-3L in the elderly Europeans: a secondary data analysis using SHARE(d) data",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9546963",
+        "pdf_url": "https://europepmc.org/articles/PMC9546963?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03158-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04226-8",
+      "doi": "10.1007/s11136-026-04226-8",
+      "pmid": "41920383",
+      "pmcid": "PMC13043573",
+      "title": "Psychometric validation of a cognition and social participation bolt-on for the EQ-5D-5L in SARS-CoV-2 infected German healthcare workers",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz I",
+          "last_name": "Buchholz",
+          "orcid": "0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Lüdtke L",
+          "last_name": "Lüdtke",
+          "orcid": null
+        },
+        {
+          "full_name": "Härter M",
+          "last_name": "Härter",
+          "orcid": null
+        },
+        {
+          "full_name": "Janssen MFB",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13043573",
+        "pdf_url": "https://europepmc.org/articles/PMC13043573?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04226-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.10.008",
+      "doi": "10.1016/j.jval.2025.10.008",
+      "pmid": "41177249",
+      "pmcid": null,
+      "title": "Psychometric Performance of Skin, Self-Confidence, and Social Health-Related EQ-5D-5L Bolt-Ons in Patients With Atopic Dermatitis and Psoriasis in Germany",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": null
+        },
+        {
+          "full_name": "Carsten Spitzer",
+          "last_name": "Spitzer",
+          "orcid": null
+        },
+        {
+          "full_name": "Alexander Thiem",
+          "last_name": "Thiem",
+          "orcid": null
+        },
+        {
+          "full_name": "Laura Lübke",
+          "last_name": "Lübke",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Wülfing",
+          "last_name": "Wülfing",
+          "orcid": null
+        },
+        {
+          "full_name": "Steffen Emmert",
+          "last_name": "Emmert",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.10.008",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

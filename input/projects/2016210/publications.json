@@ -1,0 +1,714 @@
+{
+  "project_id": "2016210",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-016-0841-y",
+      "doi": "10.1007/s10198-016-0841-y",
+      "pmid": "27807631",
+      "pmcid": "PMC5602004",
+      "title": "Head-to-head comparison of health-state values derived by a probabilistic choice model and scores on a visual analogue scale",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Krabbe PFM",
+          "last_name": "Krabbe",
+          "orcid": "0000-0001-6042-1243"
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Devlin NJ",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Quik EH",
+          "last_name": "Quik",
+          "orcid": "0000-0002-2314-327X"
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5602004",
+        "pdf_url": "https://europepmc.org/articles/PMC5602004?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-016-0841-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-014-0834-1",
+      "doi": "10.1007/s11136-014-0834-1",
+      "pmid": "25347978",
+      "pmcid": "PMC4366565",
+      "title": "Validity of EQ-5D-5L in stroke",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Niewada M",
+          "last_name": "Niewada",
+          "orcid": "0000-0002-3730-1996"
+        },
+        {
+          "full_name": "Buczek J",
+          "last_name": "Buczek",
+          "orcid": null
+        },
+        {
+          "full_name": "Karlińska A",
+          "last_name": "Karlińska",
+          "orcid": null
+        },
+        {
+          "full_name": "Kobayashi A",
+          "last_name": "Kobayashi",
+          "orcid": "0000-0002-0312-6173"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4366565",
+        "pdf_url": "https://europepmc.org/articles/PMC4366565?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-014-0834-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-014-0873-7",
+      "doi": "10.1007/s11136-014-0873-7",
+      "pmid": "25425288",
+      "pmcid": "PMC4457098",
+      "title": "Comparing responsiveness of the EQ-5D-5L, EQ-5D-3L and EQ VAS in stroke patients",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Niewada M",
+          "last_name": "Niewada",
+          "orcid": "0000-0002-3730-1996"
+        },
+        {
+          "full_name": "Karlińska A",
+          "last_name": "Karlińska",
+          "orcid": null
+        },
+        {
+          "full_name": "Buczek J",
+          "last_name": "Buczek",
+          "orcid": null
+        },
+        {
+          "full_name": "Kobayashi A",
+          "last_name": "Kobayashi",
+          "orcid": "0000-0002-0312-6173"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4457098",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-014-0873-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-014-0873-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-017-1774-3",
+      "doi": "10.1007/s11136-017-1774-3",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Lifestyle-related attitudes: do they explain self-rated health and life-satisfaction?",
+      "journal": "Quality of Life Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Yash J. Jalundhwala",
+          "last_name": "Jalundhwala",
+          "orcid": null
+        },
+        {
+          "full_name": "Helen Bewsher",
+          "last_name": "Bewsher",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa K. Sharp",
+          "last_name": "Sharp",
+          "orcid": null
+        },
+        {
+          "full_name": "Surrey M. Walton",
+          "last_name": "Walton",
+          "orcid": null
+        },
+        {
+          "full_name": "Glen T. Schumock",
+          "last_name": "Schumock",
+          "orcid": null
+        },
+        {
+          "full_name": "Rachel N. Caskey",
+          "last_name": "Caskey",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-017-1774-3",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02650-y",
+      "doi": "10.1007/s11136-020-02650-y",
+      "pmid": "33025373",
+      "pmcid": "PMC7952367",
+      "title": "US population norms for the EQ-5D-5L and comparison of norms from face-to-face and online samples",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": "https://orcid.org/0000-0003-1737-2989"
+        },
+        {
+          "full_name": "M. F. Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7952367",
+        "pdf_url": "https://europepmc.org/articles/PMC7952367?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02650-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02712-1",
+      "doi": "10.1007/s11136-020-02712-1",
+      "pmid": "33247810",
+      "pmcid": "PMC8068705",
+      "title": "Comparison of online and face-to-face valuation of the EQ-5D-5L using composite time trade-off",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "James Shaw",
+          "last_name": "Shaw",
+          "orcid": null
+        },
+        {
+          "full_name": "Axel Mühlbacher",
+          "last_name": "Mühlbacher",
+          "orcid": null
+        },
+        {
+          "full_name": "Todd A. Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Surrey Walton",
+          "last_name": "Walton",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8068705",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02712-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02712-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0752-0",
+      "doi": "10.1007/s40273-018-0752-0",
+      "pmid": "30515719",
+      "pmcid": "PMC6323104",
+      "title": "Q-TWiST Analysis to Assess Benefit-Risk of Pembrolizumab in Patients with PD-L1-Positive Advanced or Metastatic Non-small Cell Lung Cancer",
+      "journal": "PharmacoEconomics",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Huang M",
+          "last_name": "Huang",
+          "orcid": "0000-0003-1960-4552"
+        },
+        {
+          "full_name": "Pietanza MC",
+          "last_name": "Pietanza",
+          "orcid": null
+        },
+        {
+          "full_name": "Samkari A",
+          "last_name": "Samkari",
+          "orcid": null
+        },
+        {
+          "full_name": "Pellissier J",
+          "last_name": "Pellissier",
+          "orcid": null
+        },
+        {
+          "full_name": "Burke T",
+          "last_name": "Burke",
+          "orcid": null
+        },
+        {
+          "full_name": "Chandwani S",
+          "last_name": "Chandwani",
+          "orcid": "0000-0002-0335-5750"
+        },
+        {
+          "full_name": "Kong F",
+          "last_name": "Kong",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC6323104",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0752-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0752-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.02.006",
+      "doi": "10.1016/j.jval.2019.02.006",
+      "pmid": "31104730",
+      "pmcid": null,
+      "title": "Exploring the Internal Structure of the EQ-5D Using Non–Preference-Based Methods",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.006",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.02.006",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.02.009",
+      "doi": "10.1016/j.jval.2019.02.009",
+      "pmid": null,
+      "pmcid": null,
+      "title": "United States Valuation of EQ-5D-5L Health States Using an International Protocol",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Ernest H. Law",
+          "last_name": "Law",
+          "orcid": null
+        },
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "James W. Shaw",
+          "last_name": "Shaw",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina S. Boye",
+          "last_name": "Boye",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard H. Chapman",
+          "last_name": "Chapman",
+          "orcid": null
+        },
+        {
+          "full_name": "Cynthia L. Gong",
+          "last_name": "Gong",
+          "orcid": null
+        },
+        {
+          "full_name": "Alan Balch",
+          "last_name": "Balch",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J.V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x17700847",
+      "doi": "10.1177/0272989x17700847",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Choice Blindness and Health-State Choices among Adolescents and Adults",
+      "journal": "Medical Decision Making",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Ernest H. Law",
+          "last_name": "Law",
+          "orcid": null
+        },
+        {
+          "full_name": "Annika L. Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Kaczynski",
+          "last_name": "Kaczynski",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x17700847",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-02031-8",
+      "doi": "10.1186/s12955-022-02031-8",
+      "pmid": "36085228",
+      "pmcid": "PMC9463847",
+      "title": "EQ-5D-5L measurement properties are superior to EQ-5D-3L across the continuum of health using US value sets",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": "https://orcid.org/0000-0003-1737-2989"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9463847",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02031-8",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02031-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,19 @@
+{
+  "project_id": "20180280",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1177/0272989x211001859",
+      "doi": "10.1177/0272989x211001859",
+      "title": "Valuation Survey of EQ-5D-Y Based on the International Common Protocol: Development of a Value Set in Japan",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8191148/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1177/0272989x211001859",
+      "status": "ok",
+      "file": "input/projects/20180280/papers/doi_10.1177_0272989x211001859.xml",
+      "bytes": 94319,
+      "sha256": "b3a288bb42e8fb1ae4cad1439d051ff5e147ac1d9198a3e3bf1543837a8656ab"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "project_id": "2097-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.007",
+      "doi": "10.1016/j.jval.2024.05.007",
+      "pmid": "38795959",
+      "pmcid": null,
+      "title": "Psychometric Performance of the EQ Health and Wellbeing Short in a United Kingdom Population Sample",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.007",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023672/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.007",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.02.006",
+      "doi": "10.1016/j.jval.2026.02.006",
+      "pmid": "41771433",
+      "pmcid": null,
+      "title": "Evaluating the Validity of the EQ Health and Wellbeing (EQ-HWB-9) in a Large United Kingdom General Population Sample",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Nyantara Wickramasekera",
+          "last_name": "Wickramasekera",
+          "orcid": null
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.02.006",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

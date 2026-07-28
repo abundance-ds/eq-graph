@@ -1,0 +1,19 @@
+{
+  "project_id": "2014210",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3390/ijerph19138208",
+      "doi": "10.3390/ijerph19138208",
+      "title": "Health-Related Quality of Life and Perceived Burden of Informal Caregivers of Patients with Rare Diseases in Selected European Countries",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9266302/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/ijerph19138208",
+      "status": "ok",
+      "file": "input/projects/2014210/papers/doi_10.3390_ijerph19138208.xml",
+      "bytes": 129386,
+      "sha256": "56e8f7ab1ffd8f0b506c020a3acf5ade9ec758b70677fb90e83991ac8a69103c"
+    }
+  ]
+}

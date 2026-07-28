@@ -1,0 +1,193 @@
+{
+  "project_id": "432-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01545-5",
+      "doi": "10.1007/s40273-025-01545-5",
+      "pmid": "41047448",
+      "pmcid": "PMC12799685",
+      "title": "The Influence of Perspective on the Valuation of the EQ-5D-Y-3L: A Comparison Using the OPUF Tool and a Discrete Choice Experiment",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jake Hitch",
+          "last_name": "Hitch",
+          "orcid": null
+        },
+        {
+          "full_name": "Gayathri Kumar",
+          "last_name": "Kumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "David Mott",
+          "last_name": "Mott",
+          "orcid": "https://orcid.org/0000-0001-5959-8447"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 432-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12799685",
+        "pdf_url": "https://europepmc.org/articles/PMC12799685?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-025-01545-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-022-01214-x",
+      "doi": "10.1007/s40273-022-01214-x",
+      "pmid": "36396877",
+      "pmcid": "PMC9758092",
+      "title": "Analytical Considerations When Anchoring Discrete Choice Experiment Values Using Composite Time Trade-Off Data: The Case of EQ-5D-Y-3L",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "David J. Mott",
+          "last_name": "Mott",
+          "orcid": "https://orcid.org/0000-0001-5959-8447"
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9758092",
+        "pdf_url": "https://europepmc.org/articles/PMC9758092?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01214-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x21999607",
+      "doi": "10.1177/0272989x21999607",
+      "pmid": "33733920",
+      "pmcid": "PMC8191173",
+      "title": "Valuing EQ-5D-Y-3L Health States Using a Discrete Choice Experiment: Do Adult and Adolescent Preferences Differ?",
+      "journal": "Medical Decision Making",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "David J. Mott",
+          "last_name": "Mott",
+          "orcid": "https://orcid.org/0000-0001-5959-8447"
+        },
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": "https://orcid.org/0000-0003-2233-6544"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC8191173",
+        "pdf_url": "https://europepmc.org/articles/PMC8191173?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x21999607",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

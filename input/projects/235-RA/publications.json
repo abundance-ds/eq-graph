@@ -1,0 +1,144 @@
+{
+  "project_id": "235-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04023-9",
+      "doi": "10.1007/s11136-025-04023-9",
+      "pmid": "40728587",
+      "pmcid": "PMC12535484",
+      "title": "Does context matter? A discrete choice experiment investigating the impact of palliative context on EQ-5D-5L health state valuation",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Irina Kinchin",
+          "last_name": "Kinchin",
+          "orcid": "https://orcid.org/0000-0003-0133-2763"
+        },
+        {
+          "full_name": "Peiwen Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "David Currow",
+          "last_name": "Currow",
+          "orcid": null
+        },
+        {
+          "full_name": "Meera Agar",
+          "last_name": "Agar",
+          "orcid": null
+        },
+        {
+          "full_name": "Charles Normand",
+          "last_name": "Normand",
+          "orcid": null
+        },
+        {
+          "full_name": "Bridget Johnston",
+          "last_name": "Johnston",
+          "orcid": null
+        },
+        {
+          "full_name": "Peter May",
+          "last_name": "May",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11136-025-04023-9",
+        "pdf_url": "https://europepmc.org/articles/PMC12535484?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04023-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.04.2160",
+      "doi": "10.1016/j.jval.2025.04.2160",
+      "pmid": "40320237",
+      "pmcid": null,
+      "title": "A Comparative Study of Health and Well-Being Measures in Ireland Using EQ Health and Wellbeing (EQ-HWB) and its Short Version, EQ-5D-5L, and ICEpop Capability Measure for Adults (ICECAP-A)",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Irina Kinchin",
+          "last_name": "Kinchin",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.04.2160",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2160",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,51 @@
+{
+  "project_id": "91-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-023-01267-6",
+      "doi": "10.1007/s40273-023-01267-6",
+      "pmid": "37148531",
+      "pmcid": "PMC10163582",
+      "title": "Measuring the Indirect Cost of Illness Using EQ-5D-5L While Accounting for Job Characteristics",
+      "journal": "PharmacoEconomics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Beata Koń",
+          "last_name": "Koń",
+          "orcid": "https://orcid.org/0000-0003-2190-4546"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://doi.org/10.1007/s40273-023-01267-6",
+        "pdf_url": "https://europepmc.org/articles/PMC10163582?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-023-01267-6",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

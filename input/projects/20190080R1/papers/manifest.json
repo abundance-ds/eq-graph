@@ -1,0 +1,32 @@
+{
+  "project_id": "20190080R1",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1002/hec.4529",
+      "doi": "10.1002/hec.4529",
+      "title": "Correcting for discounting and loss aversion in composite time trade‐off",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9541376/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1002/hec.4529",
+      "status": "ok",
+      "file": "input/projects/20190080R1/papers/doi_10.1002_hec.4529.xml",
+      "bytes": 226736,
+      "sha256": "ec5d3c6548102af9949816354ec9702e332f373e215702bd15cc0ff3d99402e5"
+    },
+    {
+      "work_id": "doi:10.1007/s40271-020-00490-z",
+      "doi": "10.1007/s40271-020-00490-z",
+      "title": "Time for Tele-TTO? Lessons Learned From Digital Interviewer-Assisted Time Trade-Off Data Collection",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7750113/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-020-00490-z",
+      "status": "ok",
+      "file": "input/projects/20190080R1/papers/doi_10.1007_s40271-020-00490-z.xml",
+      "bytes": 113520,
+      "sha256": "7c8c38e447cfd055b9bf97441ce49130c7c69b70fa95dbf3cffbdc17b249dbf7"
+    }
+  ]
+}

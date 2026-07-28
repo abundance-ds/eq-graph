@@ -1,0 +1,19 @@
+{
+  "project_id": "461-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-023-03509-8",
+      "doi": "10.1007/s11136-023-03509-8",
+      "title": "Time perspective profile and self-reported health on the EQ-5D",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10784346/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-023-03509-8",
+      "status": "ok",
+      "file": "input/projects/461-RA/papers/doi_10.1007_s11136-023-03509-8.xml",
+      "bytes": 154364,
+      "sha256": "6359434e47db5c59c9372dd3e3edaeb7a3ac65690aa1e37a897139bdc7b60aea"
+    }
+  ]
+}

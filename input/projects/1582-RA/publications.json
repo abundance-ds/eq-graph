@@ -1,0 +1,240 @@
+{
+  "project_id": "1582-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/trc2.12486",
+      "doi": "10.1002/trc2.12486",
+      "pmid": "38899046",
+      "pmcid": "PMC11186300",
+      "title": "Discrepancies between self‐ and proxy‐rated quality of life in people living with dementia",
+      "journal": "Alzheimer's &amp; Dementia: Translational Research &amp; Clinical Interventions",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maresa Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Fabian Kleinke",
+          "last_name": "Kleinke",
+          "orcid": null
+        },
+        {
+          "full_name": "Franka Mühlichen",
+          "last_name": "Mühlichen",
+          "orcid": null
+        },
+        {
+          "full_name": "Michelle Pfaff",
+          "last_name": "Pfaff",
+          "orcid": "https://orcid.org/0009-0000-5239-1769"
+        },
+        {
+          "full_name": "Moritz Platen",
+          "last_name": "Platen",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Annelie Scharf",
+          "last_name": "Scharf",
+          "orcid": null
+        },
+        {
+          "full_name": "Niklas Weber",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Neeltje van den Berg",
+          "last_name": "van den Berg",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11186300",
+        "pdf_url": "https://europepmc.org/articles/PMC11186300?pdf=render",
+        "landing_page": "https://doi.org/10.1002/trc2.12486",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s12311-023-01597-3",
+      "doi": "10.1007/s12311-023-01597-3",
+      "pmid": "37713052",
+      "pmcid": "PMC11102408",
+      "title": "Health-Related Quality of Life in Patients with Spinocerebellar Ataxia: a Validation Study of the EQ-5D-3L",
+      "journal": "Cerebellum (London, England)",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": null
+        },
+        {
+          "full_name": "Weber N",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Rädke A",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Faber J",
+          "last_name": "Faber",
+          "orcid": null
+        },
+        {
+          "full_name": "Schmitz-Hübsch T",
+          "last_name": "Schmitz-Hübsch",
+          "orcid": null
+        },
+        {
+          "full_name": "Jacobi H",
+          "last_name": "Jacobi",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Klockgether T",
+          "last_name": "Klockgether",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11102408",
+        "pdf_url": "https://europepmc.org/articles/PMC11102408?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s12311-023-01597-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02478-z",
+      "doi": "10.1186/s12955-026-02478-z",
+      "pmid": "41606591",
+      "pmcid": "PMC12924600",
+      "title": "Examining the face validity of the EQ-HWB-9 in dementia: caregiver interpretation across \"Today\" and \"7-Day\" recall periods",
+      "journal": "Health and quality of life outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": "0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Engel L",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12924600",
+        "pdf_url": "https://europepmc.org/articles/PMC12924600?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-026-02478-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

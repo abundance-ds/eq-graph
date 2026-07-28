@@ -1,0 +1,139 @@
+{
+  "project_id": "20180500",
+  "accepted": [],
+  "review": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01412-y",
+      "doi": "10.1007/s10198-021-01412-y",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Reliability and validity of using EQ-5D-5L among healthy and adolescents with major mental health disorders in Ethiopia",
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Abraham G. Welie",
+          "last_name": "Welie",
+          "orcid": "https://orcid.org/0000-0003-4661-7287"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Murray D. Krahn",
+          "last_name": "Krahn",
+          "orcid": null
+        },
+        {
+          "full_name": "Beate Sander",
+          "last_name": "Sander",
+          "orcid": null
+        },
+        {
+          "full_name": "Gebremedhin Beedemariam Gebretekle",
+          "last_name": "Gebretekle",
+          "orcid": null
+        }
+      ],
+      "score": 0.8,
+      "confidence": "review",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "title_strong",
+          "detail": "title similarity 0.97",
+          "weight": 0.8
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-021-01412-y",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41687-024-00770-4",
+      "doi": "10.1186/s41687-024-00770-4",
+      "pmid": "39133433",
+      "pmcid": "PMC11319571",
+      "title": "Transitioning between the EQ-5D youth and adult descriptive systems in a group of adolescents",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Abraham Gebregziabiher",
+          "last_name": "Gebregziabiher",
+          "orcid": "https://orcid.org/0000-0003-4661-7287"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-024-00770-4",
+        "pdf_url": "https://europepmc.org/articles/PMC11319571?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00770-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

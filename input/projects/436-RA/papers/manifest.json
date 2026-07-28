@@ -1,0 +1,19 @@
+{
+  "project_id": "436-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s41687-025-00928-8",
+      "doi": "10.1186/s41687-025-00928-8",
+      "title": "Psychometric evaluation of the EQ-5D-Y-3L in Ethiopian pediatric inpatients: comparing self and proxy reports",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12350999/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s41687-025-00928-8",
+      "status": "ok",
+      "file": "input/projects/436-RA/papers/doi_10.1186_s41687-025-00928-8.xml",
+      "bytes": 139828,
+      "sha256": "8f6cde5e90bff447e206991da4898d63631986fa3c8511ff92085dbfc5c8f19f"
+    }
+  ]
+}

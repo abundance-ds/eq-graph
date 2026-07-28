@@ -1,0 +1,19 @@
+{
+  "project_id": "1485-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04038-2",
+      "doi": "10.1007/s11136-025-04038-2",
+      "title": "Developing a quality of life framework from the perspective of laypeople: a qualitative comparison with the EQ-HWB framework",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689660/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-04038-2",
+      "status": "ok",
+      "file": "input/projects/1485-RA/papers/doi_10.1007_s11136-025-04038-2.xml",
+      "bytes": 166981,
+      "sha256": "72cb8d821a04fbf467fe9454fbfed23a0bb06c5c6702a9ab2bfdfc719c731965"
+    }
+  ]
+}

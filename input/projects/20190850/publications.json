@@ -1,0 +1,70 @@
+{
+  "project_id": "20190850",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1177/0272989x19847983",
+      "doi": "10.1177/0272989x19847983",
+      "pmid": "31092111",
+      "pmcid": "PMC6613181",
+      "title": "Exploring the Impact of Adding a Respiratory Dimension to the EQ-5D-5L",
+      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Hoogendoorn M",
+          "last_name": "Hoogendoorn",
+          "orcid": "0000-0002-7122-9780"
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Boland MRS",
+          "last_name": "Boland",
+          "orcid": null
+        },
+        {
+          "full_name": "Goossens LMA",
+          "last_name": "Goossens",
+          "orcid": "0000-0003-4450-4887"
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Rutten-van Mölken MPMH",
+          "last_name": "Rutten-van Mölken",
+          "orcid": "0000-0001-8706-3159"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC6613181",
+        "pdf_url": "https://europepmc.org/articles/PMC6613181?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x19847983",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

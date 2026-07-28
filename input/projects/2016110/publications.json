@@ -1,0 +1,541 @@
+{
+  "project_id": "2016110",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-014-0834-1",
+      "doi": "10.1007/s11136-014-0834-1",
+      "pmid": "25347978",
+      "pmcid": "PMC4366565",
+      "title": "Validity of EQ-5D-5L in stroke",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Niewada M",
+          "last_name": "Niewada",
+          "orcid": "0000-0002-3730-1996"
+        },
+        {
+          "full_name": "Buczek J",
+          "last_name": "Buczek",
+          "orcid": null
+        },
+        {
+          "full_name": "Karlińska A",
+          "last_name": "Karlińska",
+          "orcid": null
+        },
+        {
+          "full_name": "Kobayashi A",
+          "last_name": "Kobayashi",
+          "orcid": "0000-0002-0312-6173"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4366565",
+        "pdf_url": "https://europepmc.org/articles/PMC4366565?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-014-0834-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-014-0873-7",
+      "doi": "10.1007/s11136-014-0873-7",
+      "pmid": "25425288",
+      "pmcid": "PMC4457098",
+      "title": "Comparing responsiveness of the EQ-5D-5L, EQ-5D-3L and EQ VAS in stroke patients",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Niewada M",
+          "last_name": "Niewada",
+          "orcid": "0000-0002-3730-1996"
+        },
+        {
+          "full_name": "Karlińska A",
+          "last_name": "Karlińska",
+          "orcid": null
+        },
+        {
+          "full_name": "Buczek J",
+          "last_name": "Buczek",
+          "orcid": null
+        },
+        {
+          "full_name": "Kobayashi A",
+          "last_name": "Kobayashi",
+          "orcid": "0000-0002-0312-6173"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4457098",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-014-0873-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-014-0873-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02667-3",
+      "doi": "10.1007/s11136-020-02667-3",
+      "pmid": "33099710",
+      "pmcid": "PMC7952292",
+      "title": "Validity of the EQ-5D-5L questionnaire among the general population of Poland",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Młyńczak K",
+          "last_name": "Młyńczak",
+          "orcid": "0000-0002-0877-5623"
+        },
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7952292",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02667-3.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02667-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04077-9",
+      "doi": "10.1007/s11136-025-04077-9",
+      "pmid": "41162689",
+      "pmcid": "PMC12681457",
+      "title": "Validity, reliability, and responsiveness of the EQ-5D in diseases of the upper respiratory tract: a systematic review of measurement properties",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Aleksandra Dudzisz",
+          "last_name": "Dudzisz",
+          "orcid": "https://orcid.org/0009-0007-1555-7169"
+        },
+        {
+          "full_name": "Eliza Brożek-Mądry",
+          "last_name": "Brożek-Mądry",
+          "orcid": "https://orcid.org/0000-0003-3113-3079"
+        },
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12681457",
+        "pdf_url": "https://europepmc.org/articles/PMC12681457?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04077-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11238-019-09707-6",
+      "doi": "10.1007/s11238-019-09707-6",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Elicitation and modelling of imprecise utility of health states",
+      "journal": "Theory and Decision",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11238-019-09707-6",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11238-019-09707-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11238-019-09707-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-019-00811-7",
+      "doi": "10.1007/s40273-019-00811-7",
+      "pmid": "31161586",
+      "pmcid": "PMC6830402",
+      "title": "Valuation of EQ-5D-5L Health States in Poland: the First EQ-VT-Based Study in Central and Eastern Europe",
+      "journal": "PharmacoEconomics",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": "https://orcid.org/0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Katarzyna Graczyk",
+          "last_name": "Graczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "Maciej Niewada",
+          "last_name": "Niewada",
+          "orcid": "https://orcid.org/0000-0002-3730-1996"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-019-00811-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-019-00811-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-019-00811-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2020.04.1825",
+      "doi": "10.1016/j.jval.2020.04.1825",
+      "pmid": null,
+      "pmcid": null,
+      "title": "EQ-5D–Derived Health State Utility Values in Hematologic Malignancies: A Catalog of 796 Utilities Based on a Systematic Review",
+      "journal": "Value in Health",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": null
+        },
+        {
+          "full_name": "Katarzyna Jaśkowiak",
+          "last_name": "Jaśkowiak",
+          "orcid": null
+        },
+        {
+          "full_name": "Alicja Wójcik",
+          "last_name": "Wójcik",
+          "orcid": null
+        },
+        {
+          "full_name": "Katarzyna Młyńczak",
+          "last_name": "Młyńczak",
+          "orcid": null
+        },
+        {
+          "full_name": "Iwona Dobrowolska",
+          "last_name": "Dobrowolska",
+          "orcid": null
+        },
+        {
+          "full_name": "Andżelika Gawrońska",
+          "last_name": "Gawrońska",
+          "orcid": null
+        },
+        {
+          "full_name": "Grzegorz Basak",
+          "last_name": "Basak",
+          "orcid": null
+        },
+        {
+          "full_name": "Emilian Snarski",
+          "last_name": "Snarski",
+          "orcid": null
+        },
+        {
+          "full_name": "Malwina Hołownia-Voloskova",
+          "last_name": "Hołownia-Voloskova",
+          "orcid": null
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "Maciej Niewada",
+          "last_name": "Niewada",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2020.04.1825",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.05.013",
+      "doi": "10.1016/j.jval.2022.05.013",
+      "pmid": "35752534",
+      "pmcid": null,
+      "title": "Measurement Properties of the EQ-5D-Y: A Systematic Review",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": null
+        },
+        {
+          "full_name": "Katarzyna Młyńczak",
+          "last_name": "Młyńczak",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2022.05.013",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522020010/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.05.013",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3390/jcm11236925",
+      "doi": "10.3390/jcm11236925",
+      "pmid": "36498500",
+      "pmcid": "PMC9740302",
+      "title": "Health-Related Quality of Life in Migraine: EQ-5D-5L-Based Study in Routine Clinical Practice",
+      "journal": "Journal of clinical medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Domitrz I",
+          "last_name": "Domitrz",
+          "orcid": "0000-0003-3130-1036"
+        },
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9740302",
+        "pdf_url": "https://www.mdpi.com/2077-0383/11/23/6925/pdf?version=1669275490",
+        "landing_page": "https://doi.org/10.3390/jcm11236925",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.5114/aoms.2015.52126",
+      "doi": "10.5114/aoms.2015.52126",
+      "pmid": "28144271",
+      "pmcid": "PMC5206353",
+      "title": "EQ-5D-5L Polish population norms",
+      "journal": "Archives of medical science : AMS",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        },
+        {
+          "full_name": "Niewada M",
+          "last_name": "Niewada",
+          "orcid": "0000-0002-3730-1996"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-sa",
+        "oa_url": "https://europepmc.org/articles/PMC5206353",
+        "pdf_url": "https://europepmc.org/articles/PMC5206353?pdf=render",
+        "landing_page": "https://doi.org/10.5114/aoms.2015.52126",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

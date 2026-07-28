@@ -1,0 +1,258 @@
+{
+  "project_id": "20190430",
+  "accepted": [
+    {
+      "work_id": "doi:10.1177/0272989x231159381",
+      "doi": "10.1177/0272989x231159381",
+      "pmid": "36866604",
+      "pmcid": null,
+      "title": "Efficient Designs for Valuation Studies That Use Time Tradeoff (TTO) Tasks to Map Latent Utilities from Discrete Choice Experiments to the Interval Scale: Selection of Health States for TTO Tasks",
+      "journal": "Medical Decision Making",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Menglu Che",
+          "last_name": "Che",
+          "orcid": "https://orcid.org/0000-0002-0594-5797"
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20190430",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x231159381",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.016",
+      "doi": "10.1016/j.jval.2024.05.016",
+      "pmid": "38843979",
+      "pmcid": null,
+      "title": "A Direct Comparison Between Discrete Choice With Duration and Composite Time Trade-Off Methods: Do They Produce Similar Results?",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.016",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.016",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x19841592",
+      "doi": "10.1177/0272989x19841592",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Latent Class Models Reveal Poor Agreement between Discrete-Choice and Time Tradeoff Preferences",
+      "journal": "Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x19841592",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x20924019",
+      "doi": "10.1177/0272989x20924019",
+      "pmid": "32517541",
+      "pmcid": null,
+      "title": "Using Both Time Tradeoff and Discrete Choice Experiments in Valuing the EQ-5D: Impact of Model Misspecification on Value Sets",
+      "journal": "Medical Decision Making",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Ian Waudby-Smith",
+          "last_name": "Waudby-Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X20924019",
+        "landing_page": "https://doi.org/10.1177/0272989x20924019",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x251325828",
+      "doi": "10.1177/0272989x251325828",
+      "pmid": "40110719",
+      "pmcid": "PMC11992645",
+      "title": "Immediate Death: Not So Bad If You Discount the Future but Still Worse than It Should Be",
+      "journal": "Medical Decision Making",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        },
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0002-4479-9948"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11992645",
+        "pdf_url": "https://europepmc.org/articles/PMC11992645?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x251325828",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

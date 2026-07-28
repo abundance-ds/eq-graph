@@ -1,0 +1,19 @@
+{
+  "project_id": "20170510",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-019-00876-4",
+      "doi": "10.1007/s40273-019-00876-4",
+      "title": "A French Value Set for the EQ-5D-5L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7080328/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-019-00876-4",
+      "status": "ok",
+      "file": "input/projects/20170510/papers/doi_10.1007_s40273-019-00876-4.xml",
+      "bytes": 125805,
+      "sha256": "cc1d457f1baf5b5137f48cc34ca12c2a8c7b6fe4b7cf8c0b106ef4e81c48f4df"
+    }
+  ]
+}

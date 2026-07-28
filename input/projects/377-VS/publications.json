@@ -1,0 +1,51 @@
+{
+  "project_id": "377-VS",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-023-01280-9",
+      "doi": "10.1007/s40273-023-01280-9",
+      "pmid": "37341959",
+      "pmcid": "PMC10570207",
+      "title": "EQ-5D-5L Value Set for Slovenia",
+      "journal": "PharmacoEconomics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Valentina Prevolnik Rupel",
+          "last_name": "Prevolnik Rupel",
+          "orcid": "https://orcid.org/0000-0002-1238-7156"
+        },
+        {
+          "full_name": "Marko Ogorevc",
+          "last_name": "Ogorevc",
+          "orcid": "https://orcid.org/0000-0001-9970-3045"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 377-VS",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://doi.org/10.1007/s40273-023-01280-9",
+        "pdf_url": "https://europepmc.org/articles/PMC10570207?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-023-01280-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

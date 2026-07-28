@@ -1,0 +1,196 @@
+{
+  "project_id": "2015380",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03618-y",
+      "doi": "10.1007/s11136-024-03618-y",
+      "pmid": "38438665",
+      "pmcid": "PMC11045599",
+      "title": "Understanding Canadian stakeholders’ views on measuring and valuing health for children and adolescents: a qualitative study",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        },
+        {
+          "full_name": "Shitong Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11045599",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03618-y.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03618-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03682-4",
+      "doi": "10.1007/s11136-024-03682-4",
+      "pmid": "39141175",
+      "pmcid": "PMC11452410",
+      "title": "Validation of the EQ-5D-Y-5L parent-proxy version among children with juvenile idiopathic arthritis",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Wen J",
+          "last_name": "Wen",
+          "orcid": null
+        },
+        {
+          "full_name": "Currie GR",
+          "last_name": "Currie",
+          "orcid": "0000-0002-4681-9893"
+        },
+        {
+          "full_name": "Benseler SM",
+          "last_name": "Benseler",
+          "orcid": "0000-0001-5756-3638"
+        },
+        {
+          "full_name": "Swart JF",
+          "last_name": "Swart",
+          "orcid": null
+        },
+        {
+          "full_name": "Vastert SJ",
+          "last_name": "Vastert",
+          "orcid": null
+        },
+        {
+          "full_name": "Yeung RSM",
+          "last_name": "Yeung",
+          "orcid": null
+        },
+        {
+          "full_name": "Marshall DA",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11452410",
+        "pdf_url": "https://europepmc.org/articles/PMC11452410?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03682-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-022-00518-y",
+      "doi": "10.1186/s41687-022-00518-y",
+      "pmid": "36224297",
+      "pmcid": "PMC9556143",
+      "title": "Self-reported health-related quality of life of the general population in Alberta, Canada during the COVID-19 pandemic",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Jiabi Wen",
+          "last_name": "Wen",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Roland Simon",
+          "last_name": "Simon",
+          "orcid": null
+        },
+        {
+          "full_name": "Markus Lahtinen",
+          "last_name": "Lahtinen",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-022-00518-y",
+        "pdf_url": "https://europepmc.org/articles/PMC9556143?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-022-00518-y",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

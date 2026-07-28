@@ -1,0 +1,253 @@
+{
+  "project_id": "2267-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04231-x",
+      "doi": "10.1007/s11136-026-04231-x",
+      "pmid": "41920393",
+      "pmcid": "PMC13043599",
+      "title": "Population norms for the EQ-5D-3L and EQ-5D-5L in Peninsular Malaysia",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Vasan Thakumar A",
+          "last_name": "Vasan Thakumar",
+          "orcid": "0000-0001-7261-1255"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0009-0008-6135-508X"
+        },
+        {
+          "full_name": "Shafie AA",
+          "last_name": "Shafie",
+          "orcid": "0000-0002-5629-9270"
+        },
+        {
+          "full_name": "Cheng LJ",
+          "last_name": "Cheng",
+          "orcid": "0000-0002-5338-578X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13043599",
+        "pdf_url": "https://europepmc.org/articles/PMC13043599?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04231-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00777-z",
+      "doi": "10.1007/s40271-025-00777-z",
+      "pmid": "41175171",
+      "pmcid": null,
+      "title": "Who Prefers Death to Life in Composite Time Trade-off Interviews, and Why? A Mixed-Methods Study among Asians in Singapore",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Vasan Thakumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Le Ann Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Tan",
+          "orcid": null
+        },
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-025-00777-z",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jamda.2023.10.020",
+      "doi": "10.1016/j.jamda.2023.10.020",
+      "pmid": "38043585",
+      "pmcid": null,
+      "title": "Using EQ-5D for Proxy Assessment of Health-Related Quality of Life in Residential Care Facilities: A Systematic Review of Feasibility and Psychometric Properties",
+      "journal": "Journal of the American Medical Directors Association",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Le Ann Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Sonia Zhi Yi Soh",
+          "last_name": "Soh",
+          "orcid": null
+        },
+        {
+          "full_name": "Gerald Choon-Huat Koh",
+          "last_name": "Koh",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jamda.2023.10.020",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.02.018",
+      "doi": "10.1016/j.jval.2024.02.018",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Ceiling Effects of EQ-5D-3L and 5L in General Population Health Surveys: A Systematic Review and Meta-Analysis",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Le Ann Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Jing Ying Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.02.018",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524000913/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.02.018",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

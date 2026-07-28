@@ -1,0 +1,226 @@
+{
+  "project_id": "2016730",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03138-7",
+      "doi": "10.1007/s11136-022-03138-7",
+      "pmid": "35486216",
+      "pmcid": "PMC9470642",
+      "title": "Criteria for developing, assessing and selecting candidate EQ-5D bolt-ons",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": null
+        },
+        {
+          "full_name": "Phil Haywood",
+          "last_name": "Haywood",
+          "orcid": null
+        },
+        {
+          "full_name": "Rebecca Addo",
+          "last_name": "Addo",
+          "orcid": null
+        },
+        {
+          "full_name": "Katie Page",
+          "last_name": "Page",
+          "orcid": null
+        },
+        {
+          "full_name": "David Mott",
+          "last_name": "Mott",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9470642",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03138-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03138-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04150-3",
+      "doi": "10.1007/s11136-025-04150-3",
+      "pmid": "41511684",
+      "pmcid": "PMC12789245",
+      "title": "Developing the EuroQol toddler and infant populations (EQ-TIPS) instrument: qualitative analysis of expert views on content validity and conceptual challenges",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "J. Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "E. Bidgood",
+          "last_name": "Bidgood",
+          "orcid": null
+        },
+        {
+          "full_name": "K. Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "N. Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "B. M. Morrow",
+          "last_name": "Morrow",
+          "orcid": "https://orcid.org/0000-0001-5193-918x"
+        },
+        {
+          "full_name": "J. Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        },
+        {
+          "full_name": "S. Schieskow",
+          "last_name": "Schieskow",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12789245",
+        "pdf_url": "https://europepmc.org/articles/PMC12789245?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04150-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-01998-8",
+      "doi": "10.1186/s12955-022-01998-8",
+      "pmid": "35794607",
+      "pmcid": "PMC9260978",
+      "title": "Valuing EQ-5D-Y: the current state of play",
+      "journal": "Health and quality of life outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Pan T",
+          "last_name": "Pan",
+          "orcid": "0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Kreimeier S",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9260978",
+        "pdf_url": "https://europepmc.org/articles/PMC9260978?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-01998-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

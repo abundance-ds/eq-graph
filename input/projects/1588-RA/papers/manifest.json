@@ -1,0 +1,19 @@
+{
+  "project_id": "1588-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.01.005",
+      "doi": "10.1016/j.jval.2024.01.005",
+      "title": "A Comparison of Items and Constructs of Standardized Health-Related Quality of Life and Mental Well-Being Measures",
+      "method": "repository_pdf",
+      "source_url": "https://documentserver.uhasselt.be//bitstream/1942/43064/2/auteursversie.pdf",
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2024.01.005",
+      "status": "ok",
+      "file": "input/projects/1588-RA/papers/doi_10.1016_j.jval.2024.01.005.pdf",
+      "bytes": 825695,
+      "sha256": "7ce0eb63f4f3bf1423136ee7bb0df2482c3f599714111e5748cab80bd3102d34"
+    }
+  ]
+}

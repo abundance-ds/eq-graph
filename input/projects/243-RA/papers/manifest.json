@@ -1,0 +1,19 @@
+{
+  "project_id": "243-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03754-5",
+      "doi": "10.1007/s11136-024-03754-5",
+      "title": "The performance relationship between the EQ-5D-5L composite “Anxiety/Depression” dimension and anxiety and depression symptoms in a large, general population sample",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11541259/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-024-03754-5",
+      "status": "ok",
+      "file": "input/projects/243-RA/papers/doi_10.1007_s11136-024-03754-5.xml",
+      "bytes": 119434,
+      "sha256": "dff0325e7097e4a7df56b12a00caecac7f3a2ced58230016e3ecb16725670569"
+    }
+  ]
+}

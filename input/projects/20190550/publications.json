@@ -1,0 +1,76 @@
+{
+  "project_id": "20190550",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03304-x",
+      "doi": "10.1007/s11136-022-03304-x",
+      "pmid": "36422771",
+      "pmcid": "PMC10063498",
+      "title": "Hypothetical versus experienced health state valuation: a qualitative study of adult general public views and preferences",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Philip A. Powell",
+          "last_name": "Powell",
+          "orcid": "https://orcid.org/0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Ben van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "John E. Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20190550",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20190550",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10063498",
+        "pdf_url": "https://europepmc.org/articles/PMC10063498?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03304-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

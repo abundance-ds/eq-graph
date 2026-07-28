@@ -1,0 +1,19 @@
+{
+  "project_id": "2016440",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1371/journal.pone.0209344",
+      "doi": "10.1371/journal.pone.0209344",
+      "title": "Valuation of the EQ-5D-5L in Taiwan",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6306233/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0209344",
+      "status": "ok",
+      "file": "input/projects/2016440/papers/doi_10.1371_journal.pone.0209344.xml",
+      "bytes": 122371,
+      "sha256": "576ccfe6e6a590363456b1ef92ec86601157ee5876d837c8175301d9288532ec"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "project_id": "1404-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01530-y",
+      "doi": "10.1007/s40273-025-01530-y",
+      "title": "Eliciting and Anchoring Health State Preferences Using Discrete Choice Experiments Among Adults, Adolescents, and Children",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01530-y",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.07.016",
+      "doi": "10.1016/j.jval.2025.07.016",
+      "title": "Testing the Valuation of the EQ-5D-Y-5L in Adults and Adolescents: Results From a 5-Country Study and Implications for the Descriptive System",
+      "method": "publisher_pdf",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.07.016",
+      "status": "unavailable",
+      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+    }
+  ]
+}

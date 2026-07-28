@@ -1,0 +1,128 @@
+{
+  "project_id": "1415-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.vaccine.2025.127450",
+      "doi": "10.1016/j.vaccine.2025.127450",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Accuracy of online surveys in predicting COVID-19 uptake and demand: A cohort study investigating vaccine sentiments and switching in 13 countries from 2020 to 2022",
+      "journal": "Vaccine",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Zachary D.V. Abel",
+          "last_name": "Abel",
+          "orcid": null
+        },
+        {
+          "full_name": "Laurence S.J. Roope",
+          "last_name": "Roope",
+          "orcid": null
+        },
+        {
+          "full_name": "Mara Violato",
+          "last_name": "Violato",
+          "orcid": null
+        },
+        {
+          "full_name": "Philip M. Clarke",
+          "last_name": "Clarke",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vaccine.2025.127450",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.vaccine.2025.127450",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pmed.1004146",
+      "doi": "10.1371/journal.pmed.1004146",
+      "pmid": "37040329",
+      "pmcid": "PMC10089360",
+      "title": "The COVID-19 pandemic and health-related quality of life across 13 high- and low-middle-income countries: A cross-sectional analysis",
+      "journal": "PLOS Medicine",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Mara Violato",
+          "last_name": "Violato",
+          "orcid": "https://orcid.org/0000-0002-0484-7706"
+        },
+        {
+          "full_name": "Jack Pollard",
+          "last_name": "Pollard",
+          "orcid": "https://orcid.org/0000-0002-2403-2635"
+        },
+        {
+          "full_name": "Andrew Lloyd",
+          "last_name": "Lloyd",
+          "orcid": "https://orcid.org/0000-0002-7597-6556"
+        },
+        {
+          "full_name": "Laurence S. J. Roope",
+          "last_name": "Roope",
+          "orcid": "https://orcid.org/0000-0001-9098-9331"
+        },
+        {
+          "full_name": "Raymond Duch",
+          "last_name": "Duch",
+          "orcid": null
+        },
+        {
+          "full_name": "Matias Fuentes Becerra",
+          "last_name": "Becerra",
+          "orcid": "https://orcid.org/0000-0001-5777-7580"
+        },
+        {
+          "full_name": "Philip M. Clarke",
+          "last_name": "Clarke",
+          "orcid": "https://orcid.org/0000-0002-7555-5348"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC10089360",
+        "pdf_url": "https://europepmc.org/articles/PMC10089360?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pmed.1004146",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

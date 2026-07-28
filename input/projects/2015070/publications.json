@@ -1,0 +1,202 @@
+{
+  "project_id": "2015070",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03837-3",
+      "doi": "10.1007/s11136-024-03837-3",
+      "pmid": "39565555",
+      "pmcid": "PMC11865167",
+      "title": "EQ-5D-5L value set for Norway: a hybrid model using cTTO and DCE data",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Garratt AM",
+          "last_name": "Garratt",
+          "orcid": "0000-0002-1000-4780"
+        },
+        {
+          "full_name": "Stavem K",
+          "last_name": "Stavem",
+          "orcid": "0000-0003-4512-8000"
+        },
+        {
+          "full_name": "Shaw JW",
+          "last_name": "Shaw",
+          "orcid": "0000-0002-2893-3211"
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": "0000-0001-7692-4099"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11865167",
+        "pdf_url": "https://europepmc.org/articles/PMC11865167?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03837-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2020.07.006",
+      "doi": "10.1016/j.jval.2020.07.006",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Testing the “Nonstopping” Time Trade-Off: Is It Better Than the Composite Time Trade-Off?",
+      "journal": "Value in Health",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Liv Augestad",
+          "last_name": "Augestad",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2020.07.006",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-020-00247-0",
+      "doi": "10.1186/s41687-020-00247-0",
+      "pmid": "33165764",
+      "pmcid": "PMC7652980",
+      "title": "Quality of life among patients seeking treatment for substance use disorder, as measured with the EQ-5D-3L",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Espen Ajo Arnevik",
+          "last_name": "Arnevik",
+          "orcid": "https://orcid.org/0000-0003-1071-0017"
+        },
+        {
+          "full_name": "Espen Walderhaug",
+          "last_name": "Walderhaug",
+          "orcid": "https://orcid.org/0000-0002-0115-9596"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7652980",
+        "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-020-00247-0",
+        "landing_page": "https://doi.org/10.1186/s41687-020-00247-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.2478/sjph-2020-0002",
+      "doi": "10.2478/sjph-2020-0002",
+      "pmid": "32952698",
+      "pmcid": "PMC7478084",
+      "title": "Valuation of EQ-5D-3l Health States in Slovenia: VAS Based and TTO Based Value Sets",
+      "journal": "Zdravstveno varstvo",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Prevolnik Rupel V",
+          "last_name": "Prevolnik Rupel",
+          "orcid": null
+        },
+        {
+          "full_name": "Srakar A",
+          "last_name": "Srakar",
+          "orcid": null
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": "0000-0001-7692-4099"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC7478084",
+        "pdf_url": "https://content.sciendo.com/downloadpdf/journals/sjph/59/1/article-p8.pdf",
+        "landing_page": "https://doi.org/10.2478/sjph-2020-0002",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

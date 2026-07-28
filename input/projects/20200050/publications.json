@@ -1,0 +1,56 @@
+{
+  "project_id": "20200050",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41687-020-00222-9",
+      "doi": "10.1186/s41687-020-00222-9",
+      "pmid": "32620995",
+      "pmcid": "PMC7334333",
+      "title": "EQ-5D: a plea for accurate nomenclature",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Richard Brooks",
+          "last_name": "Brooks",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina S. Boye",
+          "last_name": "Boye",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Slaap",
+          "last_name": "Slaap",
+          "orcid": "https://orcid.org/0000-0002-4301-4790"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7334333",
+        "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-020-00222-9",
+        "landing_page": "https://doi.org/10.1186/s41687-020-00222-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,60 @@
+{
+  "project_id": "2012040",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-013-0503-2",
+      "doi": "10.1007/s10198-013-0503-2",
+      "pmid": "23900660",
+      "pmcid": "PMC3728457",
+      "title": "Introducing the composite time trade-off: a test of feasibility and face validity",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2013,
+      "authors": [
+        {
+          "full_name": "Janssen BM",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Versteegh MM",
+          "last_name": "Versteegh",
+          "orcid": "0000-0003-4804-235X"
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC3728457",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-013-0503-2.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-013-0503-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

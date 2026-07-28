@@ -1,0 +1,19 @@
+{
+  "project_id": "1769-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2024-091097",
+      "doi": "10.1136/bmjopen-2024-091097",
+      "title": "Health valuation protocol for dual discrete choice experiment (dual-DCE) surveys to estimate the effects of different scenarios and attributes on main effects",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11848668/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2024-091097",
+      "status": "ok",
+      "file": "input/projects/1769-RA/papers/doi_10.1136_bmjopen-2024-091097.xml",
+      "bytes": 82752,
+      "sha256": "f126a2a21cd97088ba2325bbf416a3742bef422e8b4d2c5201a1080c8628889a"
+    }
+  ]
+}

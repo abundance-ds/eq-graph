@@ -1,0 +1,19 @@
+{
+  "project_id": "20170400",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40258-021-00639-3",
+      "doi": "10.1007/s40258-021-00639-3",
+      "title": "The Danish EQ-5D-5L Value Set: A Hybrid Model Using cTTO and DCE Data",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8270796/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40258-021-00639-3",
+      "status": "ok",
+      "file": "input/projects/20170400/papers/doi_10.1007_s40258-021-00639-3.xml",
+      "bytes": 140417,
+      "sha256": "4ce00910e6e1a763355bba8e65a9248f29bff4e321934d2f683e09f237a3dc8c"
+    }
+  ]
+}

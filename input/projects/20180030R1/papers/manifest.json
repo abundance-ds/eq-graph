@@ -1,0 +1,32 @@
+{
+  "project_id": "20180030R1",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-022-01481-7",
+      "doi": "10.1007/s10198-022-01481-7",
+      "title": "EQ-5D-5L: a value set for Romania",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10060331/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-022-01481-7",
+      "status": "ok",
+      "file": "input/projects/20180030R1/papers/doi_10.1007_s10198-022-01481-7.xml",
+      "bytes": 121152,
+      "sha256": "1d43766b183a4abf40ac2e65a1ab5cc75d3653182d139c8d45e818b0a097ac6e"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02144-8",
+      "doi": "10.1186/s12955-023-02144-8",
+      "title": "Population norms for the EQ-5D-3L and EQ-5D-5L in Romania",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10386277/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-023-02144-8",
+      "status": "ok",
+      "file": "input/projects/20180030R1/papers/doi_10.1186_s12955-023-02144-8.xml",
+      "bytes": 124512,
+      "sha256": "631e5e551be190236ccc346cbf4a486ebaf4aaa068cdc774cac32a7be2c87fe3"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "project_id": "2016350",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s41669-018-0083-2",
+      "doi": "10.1007/s41669-018-0083-2",
+      "pmid": "29802576",
+      "pmcid": "PMC6103929",
+      "title": "Developing Accessible, Pictorial Versions of Health-Related Quality-of-Life Instruments Suitable for Economic Evaluation: A Report of Preliminary Studies Conducted in Canada and the United Kingdom",
+      "journal": "PharmacoEconomics - open",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Whitehurst DGT",
+          "last_name": "Whitehurst",
+          "orcid": "0000-0002-7890-6756"
+        },
+        {
+          "full_name": "Latimer NR",
+          "last_name": "Latimer",
+          "orcid": "0000-0001-5304-5585"
+        },
+        {
+          "full_name": "Kagan A",
+          "last_name": "Kagan",
+          "orcid": null
+        },
+        {
+          "full_name": "Palmer R",
+          "last_name": "Palmer",
+          "orcid": "0000-0002-2335-7104"
+        },
+        {
+          "full_name": "Simmons-Mackie N",
+          "last_name": "Simmons-Mackie",
+          "orcid": null
+        },
+        {
+          "full_name": "Victor JC",
+          "last_name": "Victor",
+          "orcid": "0000-0003-1720-9356"
+        },
+        {
+          "full_name": "Hoch JS",
+          "last_name": "Hoch",
+          "orcid": "0000-0002-4880-4281"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC6103929",
+        "pdf_url": "https://europepmc.org/articles/PMC6103929?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s41669-018-0083-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-016-0565-9",
+      "doi": "10.1186/s12955-016-0565-9",
+      "pmid": "27894349",
+      "pmcid": "PMC5127051",
+      "title": "\"When I saw walking I just kind of took it as wheeling\": interpretations of mobility-related items in generic, preference-based health state instruments in the context of spinal cord injury",
+      "journal": "Health and quality of life outcomes",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Michel YA",
+          "last_name": "Michel",
+          "orcid": null
+        },
+        {
+          "full_name": "Engel L",
+          "last_name": "Engel",
+          "orcid": "0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Rand-Hendriksen K",
+          "last_name": "Rand-Hendriksen",
+          "orcid": "0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Augestad LA",
+          "last_name": "Augestad",
+          "orcid": "0000-0003-3330-5081"
+        },
+        {
+          "full_name": "Whitehurst DG",
+          "last_name": "Whitehurst",
+          "orcid": "0000-0002-7890-6756"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5127051",
+        "pdf_url": "https://europepmc.org/articles/PMC5127051?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-016-0565-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

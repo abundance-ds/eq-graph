@@ -1,0 +1,81 @@
+{
+  "project_id": "2017-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-024-01355-1",
+      "doi": "10.1007/s40273-024-01355-1",
+      "pmid": "38280126",
+      "pmcid": "PMC11169045",
+      "title": "Psychometric Properties of Child Health Utility 9D (CHU9D) Proxy Version Administered to Parents and Caregivers of Children Aged 2–4 Years Compared with Pediatric Quality of Life Inventory™ (PedsQL)",
+      "journal": "PharmacoEconomics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Xiuqin Xiong",
+          "last_name": "Xiong",
+          "orcid": "https://orcid.org/0000-0002-1323-4223"
+        },
+        {
+          "full_name": "Natalie Carvalho",
+          "last_name": "Carvalho",
+          "orcid": null
+        },
+        {
+          "full_name": "Li Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11169045",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01355-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-024-01355-1",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

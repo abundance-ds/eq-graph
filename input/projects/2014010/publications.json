@@ -1,0 +1,486 @@
+{
+  "project_id": "2014010",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03138-7",
+      "doi": "10.1007/s11136-022-03138-7",
+      "pmid": "35486216",
+      "pmcid": "PMC9470642",
+      "title": "Criteria for developing, assessing and selecting candidate EQ-5D bolt-ons",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": null
+        },
+        {
+          "full_name": "Phil Haywood",
+          "last_name": "Haywood",
+          "orcid": null
+        },
+        {
+          "full_name": "Rebecca Addo",
+          "last_name": "Addo",
+          "orcid": null
+        },
+        {
+          "full_name": "Katie Page",
+          "last_name": "Page",
+          "orcid": null
+        },
+        {
+          "full_name": "David Mott",
+          "last_name": "Mott",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9470642",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03138-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03138-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-022-03312-x",
+      "doi": "10.1007/s11136-022-03312-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "What is measured by the composite, single-item pain/discomfort dimension of the EQ-5D-5L? An exploratory analysis",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "David G. T. Whitehurst",
+          "last_name": "Whitehurst",
+          "orcid": "https://orcid.org/0000-0002-7890-6756"
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/c6dc6457-9324-4d0f-bb74-8af64a0446ce",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-022-03312-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03462-6",
+      "doi": "10.1007/s11136-023-03462-6",
+      "pmid": "37347395",
+      "pmcid": "PMC10522725",
+      "title": "Understanding the measurement relationship between EQ-5D-5L, PROMIS-29 and PROPr",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0628-3",
+      "doi": "10.1007/s40273-018-0628-3",
+      "pmid": "29476363",
+      "pmcid": "PMC5954043",
+      "title": "Comparing the UK EQ-5D-3L and English EQ-5D-5L Value Sets",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Feng Y",
+          "last_name": "Feng",
+          "orcid": "0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Shah K",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "van Hout B",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC5954043",
+        "pdf_url": "https://europepmc.org/articles/PMC5954043?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0628-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2019.05.032",
+      "doi": "10.1016/j.socscimed.2019.05.032",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Investigating the relative value of health and social care related quality of life using a discrete choice experiment",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard De Abreu Lourenco",
+          "last_name": "De Abreu Lourenco",
+          "orcid": null
+        },
+        {
+          "full_name": "Juliette Malley",
+          "last_name": "Malley",
+          "orcid": "https://orcid.org/0000-0001-5759-1647"
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2019.05.032",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2022.115370",
+      "doi": "10.1016/j.socscimed.2022.115370",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Where do measures of health, social care and wellbeing fit within a wider measurement framework? Implications for the measurement of quality of life and the identification of bolt-ons",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2022.115370",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2022.115370",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x19851049",
+      "doi": "10.1177/0272989x19851049",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Manipulating the 5 Dimensions of the EuroQol Instrument: The Effects on Self-Reporting Actual Health and Valuing Hypothetical Health States",
+      "journal": "Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": "https://orcid.org/0000-0003-4245-5399"
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Arne Risa Hole",
+          "last_name": "Hole",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x19851049",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-015-0382-6",
+      "doi": "10.1186/s12955-015-0382-6",
+      "pmid": "26612336",
+      "pmcid": "PMC4661997",
+      "title": "Comparing the measurement equivalence of EQ-5D-5L across different modes of administration",
+      "journal": "Health and quality of life outcomes",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        },
+        {
+          "full_name": "O'Gorman H",
+          "last_name": "O'Gorman",
+          "orcid": null
+        },
+        {
+          "full_name": "Rotherham N",
+          "last_name": "Rotherham",
+          "orcid": null
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4661997",
+        "pdf_url": "https://europepmc.org/articles/PMC4661997?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-015-0382-6",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

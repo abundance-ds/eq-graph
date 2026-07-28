@@ -1,0 +1,19 @@
+{
+  "project_id": "460-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3390/nu16162591",
+      "doi": "10.3390/nu16162591",
+      "title": "The Frequency and Predictive Factors of Change in Alcohol Consumption during the COVID-19 Pandemic: Results from a Multi-Country Longitudinal Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11357368/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/nu16162591",
+      "status": "ok",
+      "file": "input/projects/460-RA/papers/doi_10.3390_nu16162591.xml",
+      "bytes": 172881,
+      "sha256": "0fade87af8a98ff93cbf0cf3d60981ebb34b5573ad26ccb5fbecacaae4a93312"
+    }
+  ]
+}

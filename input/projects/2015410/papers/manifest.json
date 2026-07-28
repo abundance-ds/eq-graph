@@ -1,0 +1,19 @@
+{
+  "project_id": "2015410",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-016-0404-1",
+      "doi": "10.1007/s40273-016-0404-1",
+      "title": "EuroQol Protocols for Time Trade-Off Valuation of Health Outcomes",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5023738/fullTextXML",
+      "licence": "cc by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-016-0404-1",
+      "status": "ok",
+      "file": "input/projects/2015410/papers/doi_10.1007_s40273-016-0404-1.xml",
+      "bytes": 101754,
+      "sha256": "7ebb46736d82114a494741503a5b8c0d32bd75892f34117c921c6f18243b24b2"
+    }
+  ]
+}

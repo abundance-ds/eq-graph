@@ -1,0 +1,71 @@
+{
+  "project_id": "128-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01307-y",
+      "doi": "10.1007/s10198-021-01307-y",
+      "pmid": "33893889",
+      "pmcid": null,
+      "title": "Testing measurement properties of two EQ-5D youth versions and KIDSCREEN-10 in China",
+      "journal": "The European Journal of Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Wang Pei",
+          "last_name": "Pei",
+          "orcid": null
+        },
+        {
+          "full_name": "Sun Yue",
+          "last_name": "Yue",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Zhi-Hao",
+          "last_name": "Zhi-Hao",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhang Ruo-Yu",
+          "last_name": "Ruo-Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Wu Bin",
+          "last_name": "Bin",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo Nan",
+          "last_name": "Nan",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-021-01307-y",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

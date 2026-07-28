@@ -1,0 +1,56 @@
+{
+  "project_id": "2016240",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1177/0272989x20969686",
+      "doi": "10.1177/0272989x20969686",
+      "pmid": "33256502",
+      "pmcid": "PMC7780267",
+      "title": "Selecting Bolt-on Dimensions for the EQ-5D: Testing the Impact of Hearing, Sleep, Cognition, Energy, and Relationships on Preferences Using Pairwise Choices",
+      "journal": "Medical Decision Making",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-3950-9210"
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC7780267",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X20969686",
+        "landing_page": "https://doi.org/10.1177/0272989x20969686",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

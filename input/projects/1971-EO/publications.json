@@ -1,0 +1,162 @@
+{
+  "project_id": "1971-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04288-8",
+      "doi": "10.1007/s11136-026-04288-8",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Health-related quality of life of people with obesity who have and have not received metabolic bariatric surgery: a qualitative study in Singapore",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jia Jia Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Le Ann Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Asim Shabbir",
+          "last_name": "Shabbir",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-026-04288-8",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.07.004",
+      "doi": "10.1016/j.jval.2025.07.004",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Assessing the Health-Related Quality of Life of Children With Asthma or Eczema by a Proxy: Does Assessment Perspective Matter?",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jia Jia Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Lee-Yin Tan",
+          "orcid": null
+        },
+        {
+          "full_name": "Jian Yi Soh",
+          "last_name": "Soh",
+          "orcid": null
+        },
+        {
+          "full_name": "Elizabeth Huiwen Tham",
+          "last_name": "Tham",
+          "orcid": null
+        },
+        {
+          "full_name": "Anne Eng Neo Goh",
+          "last_name": "Goh",
+          "orcid": null
+        },
+        {
+          "full_name": "Zai Ru Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Nisha Suyien Chandran",
+          "last_name": "Chandran",
+          "orcid": null
+        },
+        {
+          "full_name": "Siyun Lucinda Tan",
+          "last_name": "Tan",
+          "orcid": null
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Jean Aan KOH",
+          "last_name": "KOH",
+          "orcid": null
+        },
+        {
+          "full_name": "Madeline Sheun Ling HO",
+          "last_name": "HO",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.07.004",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

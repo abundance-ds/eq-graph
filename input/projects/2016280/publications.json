@@ -1,0 +1,221 @@
+{
+  "project_id": "2016280",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-023-00647-6",
+      "doi": "10.1007/s40271-023-00647-6",
+      "pmid": "37803217",
+      "pmcid": "PMC10570159",
+      "title": "Face Validity of Four Preference-Weighted Quality-of-Life Measures in Residential Aged Care: A Think-Aloud Study",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Leona Kosowicz",
+          "last_name": "Kosowicz",
+          "orcid": null
+        },
+        {
+          "full_name": "Ekaterina Bogatyreva",
+          "last_name": "Bogatyreva",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew S. Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10570159",
+        "pdf_url": "https://europepmc.org/articles/PMC10570159?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-023-00647-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2019.05.032",
+      "doi": "10.1016/j.socscimed.2019.05.032",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Investigating the relative value of health and social care related quality of life using a discrete choice experiment",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard De Abreu Lourenco",
+          "last_name": "De Abreu Lourenco",
+          "orcid": null
+        },
+        {
+          "full_name": "Juliette Malley",
+          "last_name": "Malley",
+          "orcid": "https://orcid.org/0000-0001-5759-1647"
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2019.05.032",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-025-02352-4",
+      "doi": "10.1186/s12955-025-02352-4",
+      "pmid": "40128870",
+      "pmcid": "PMC11934538",
+      "title": "A framework for extending the health-related quality adjusted life year by combining instruments",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Akanksha Akanksha",
+          "last_name": "Akanksha",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Mina Bahrampour",
+          "last_name": "Bahrampour",
+          "orcid": null
+        },
+        {
+          "full_name": "Peiwen Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-025-02352-4",
+        "pdf_url": "https://europepmc.org/articles/PMC11934538?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-025-02352-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

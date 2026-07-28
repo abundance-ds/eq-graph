@@ -1,0 +1,282 @@
+{
+  "project_id": "20190470",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03638-8",
+      "doi": "10.1007/s11136-024-03638-8",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Can prediction models for hospital readmission be improved by incorporating patient-reported outcome measures? A systematic review and narrative synthesis",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maggie Yu",
+          "last_name": "Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Harrison",
+          "last_name": "Harrison",
+          "orcid": null
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": "https://orcid.org/0000-0002-1510-3462"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-024-03638-8",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1097/mlr.0000000000002315",
+      "doi": "10.1097/mlr.0000000000002315",
+      "pmid": "41861120",
+      "pmcid": "PMC13166071",
+      "title": "Can Patient-Reported Outcome Measures Help Predict Unplanned Hospital Readmission?",
+      "journal": "Medical care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Yu M",
+          "last_name": "Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Harrison M",
+          "last_name": "Harrison",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong H",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Trenaman L",
+          "last_name": "Trenaman",
+          "orcid": null
+        },
+        {
+          "full_name": "Bryan S",
+          "last_name": "Bryan",
+          "orcid": null
+        },
+        {
+          "full_name": "Lix L",
+          "last_name": "Lix",
+          "orcid": null
+        },
+        {
+          "full_name": "Sawatzky R",
+          "last_name": "Sawatzky",
+          "orcid": null
+        },
+        {
+          "full_name": "Cuthbertson L",
+          "last_name": "Cuthbertson",
+          "orcid": null
+        },
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Bansback N",
+          "last_name": "Bansback",
+          "orcid": "0000-0002-1510-3462"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC13166071",
+        "pdf_url": "https://europepmc.org/articles/PMC13166071?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000002315",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1111/jep.13804",
+      "doi": "10.1111/jep.13804",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Impact of an online, individualised, patient reported outcome measures based patient decision aid on patient expectations, decisional regret, satisfaction, and health‐related quality‐of‐life for patients considering total knee arthroplasty: Results from a randomised controlled trial",
+      "journal": "Journal of Evaluation in Clinical Practice",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Deborah A. Marshall",
+          "last_name": "Marshall",
+          "orcid": "https://orcid.org/0000-0002-8467-8008"
+        },
+        {
+          "full_name": "Logan Trenaman",
+          "last_name": "Trenaman",
+          "orcid": null
+        },
+        {
+          "full_name": "Karen V. MacDonald",
+          "last_name": "MacDonald",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Dawn Stacey",
+          "last_name": "Stacey",
+          "orcid": null
+        },
+        {
+          "full_name": "Gillian Hawker",
+          "last_name": "Hawker",
+          "orcid": "https://orcid.org/0000-0001-6358-1197"
+        },
+        {
+          "full_name": "Christopher Smith",
+          "last_name": "Smith",
+          "orcid": "https://orcid.org/0000-0002-9625-6902"
+        },
+        {
+          "full_name": "D'Arcy Durand",
+          "last_name": "Durand",
+          "orcid": null
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1111/jep.13804",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12891-019-2434-2",
+      "doi": "10.1186/s12891-019-2434-2",
+      "pmid": "30797238",
+      "pmcid": "PMC6387514",
+      "title": "An individualized patient-reported outcome measure (PROM) based patient decision aid and surgeon report for patients considering total knee arthroplasty: protocol for a pragmatic randomized controlled trial",
+      "journal": "BMC Musculoskeletal Disorders",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Logan Trenaman",
+          "last_name": "Trenaman",
+          "orcid": null
+        },
+        {
+          "full_name": "Karen V. MacDonald",
+          "last_name": "MacDonald",
+          "orcid": null
+        },
+        {
+          "full_name": "Gillian Hawker",
+          "last_name": "Hawker",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Dawn Stacey",
+          "last_name": "Stacey",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah A. Marshall",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC6387514",
+        "pdf_url": "https://bmcmusculoskeletdisord.biomedcentral.com/track/pdf/10.1186/s12891-019-2434-2",
+        "landing_page": "https://doi.org/10.1186/s12891-019-2434-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

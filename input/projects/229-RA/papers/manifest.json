@@ -1,0 +1,19 @@
+{
+  "project_id": "229-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-023-03372-7",
+      "doi": "10.1007/s11136-023-03372-7",
+      "title": "Examining the psychometric properties of a split version of the EQ-5D-5L anxiety/depression dimension in patients with anxiety and/or depression",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10241678/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-023-03372-7",
+      "status": "ok",
+      "file": "input/projects/229-RA/papers/doi_10.1007_s11136-023-03372-7.xml",
+      "bytes": 113836,
+      "sha256": "44a7e2b09a218904ba81a952773eee2349e419f28a396c274bade8d953cc5885"
+    }
+  ]
+}

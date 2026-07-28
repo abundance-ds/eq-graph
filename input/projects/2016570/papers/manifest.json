@@ -1,0 +1,19 @@
+{
+  "project_id": "2016570",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-020-01205-9",
+      "doi": "10.1007/s10198-020-01205-9",
+      "title": "An exploration of methods for obtaining 0 = dead anchors for latent scale EQ-5D-Y values",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7423806/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-020-01205-9",
+      "status": "ok",
+      "file": "input/projects/2016570/papers/doi_10.1007_s10198-020-01205-9.xml",
+      "bytes": 133497,
+      "sha256": "8d9db24ac445adf37316e26f1bc8264d38faf465726d243c34ee73ed851c60eb"
+    }
+  ]
+}

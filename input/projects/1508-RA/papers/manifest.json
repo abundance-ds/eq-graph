@@ -1,0 +1,28 @@
+{
+  "project_id": "1508-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.12688/wellcomeopenres.21408.1",
+      "doi": "10.12688/wellcomeopenres.21408.1",
+      "title": "Using the OPUF approach to create a value set for the EQ-HWB-S: An exploratory feasibility study",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.12688/wellcomeopenres.21408.1",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    },
+    {
+      "work_id": "doi:10.12688/wellcomeopenres.21408.2",
+      "doi": "10.12688/wellcomeopenres.21408.2",
+      "title": "Using the OPUF approach to create a value set for the EQ-HWB-S: An exploratory feasibility study",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "landing_page": "https://doi.org/10.12688/wellcomeopenres.21408.2",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

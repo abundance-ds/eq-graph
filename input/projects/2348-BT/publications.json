@@ -1,0 +1,174 @@
+{
+  "project_id": "2348-BT",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04045-3",
+      "doi": "10.1007/s11136-025-04045-3",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Exploring subjective constructions of quality of life in patients, carers and the healthy general public: a Q-methodological study",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Shenaz Ahmed",
+          "last_name": "Ahmed",
+          "orcid": null
+        },
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yifan Ding",
+          "last_name": "Ding",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/fa396837-d8a1-4097-8fdf-6944652e978e",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-025-04045-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.02.012",
+      "doi": "10.1016/j.jval.2026.02.012",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Valuation of EQ-5D-5L With 2 Bolt-On Items: Further Evaluation of the Scaling Factor Model",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.02.012",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-026-01075-4",
+      "doi": "10.1186/s41687-026-01075-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Face validity of the EQ health and wellbeing instrument (EQ-HWB) in Hong Kong",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Eliza Lai-Yi Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Annie Wai-Ling Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Amy Yuen-Kwan Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-026-01075-4",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s41687-026-01075-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

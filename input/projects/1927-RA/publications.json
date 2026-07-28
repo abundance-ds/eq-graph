@@ -1,0 +1,234 @@
+{
+  "project_id": "1927-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s12955-026-02561-5",
+      "doi": "10.1186/s12955-026-02561-5",
+      "pmid": "42249388",
+      "pmcid": null,
+      "title": "Qualitative assessment of content validity of the modified EQ-HWB-9 by patients, caregivers, and social care users in the United States",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jonathan L. Nazari",
+          "last_name": "Nazari",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Justin Yu",
+          "last_name": "Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1927-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02561-5",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02561-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s41669-024-00486-7",
+      "doi": "10.1007/s41669-024-00486-7",
+      "pmid": "38592657",
+      "pmcid": "PMC11058132",
+      "title": "Behind the Scenes: A Qualitative Investigation of Interviewers' Performance in EQ-5D Valuation Studies",
+      "journal": "PharmacoEconomics - Open",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Carlotta Varriale",
+          "last_name": "Varriale",
+          "orcid": "https://orcid.org/0000-0002-4441-6687"
+        },
+        {
+          "full_name": "Giovanni Andrulli",
+          "last_name": "Andrulli",
+          "orcid": "https://orcid.org/0009-0003-4264-0946"
+        },
+        {
+          "full_name": "Michela Meregaglia",
+          "last_name": "Meregaglia",
+          "orcid": "https://orcid.org/0000-0003-0092-5970"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11058132",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s41669-024-00486-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s41669-024-00486-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.03.002",
+      "doi": "10.1016/j.jval.2024.03.002",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Measurement Properties of the EQ-HWB and the EQ-HWB-S in Italian Population: A Comparative Study With EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maja Kuharić",
+          "last_name": "Kuharić",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.03.002",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524001165/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.03.002",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-024-00706-y",
+      "doi": "10.1186/s41687-024-00706-y",
+      "pmid": "38519577",
+      "pmcid": "PMC10959916",
+      "title": "Content validity of the EQ-HWB and EQ-HWB-S in a sample of Italian patients, informal caregivers and members of the general public",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Masutti S",
+          "last_name": "Masutti",
+          "orcid": "0009-0003-1666-1153"
+        },
+        {
+          "full_name": "Falivena C",
+          "last_name": "Falivena",
+          "orcid": "0000-0003-3259-095X"
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Jommi C",
+          "last_name": "Jommi",
+          "orcid": "0000-0002-2862-2990"
+        },
+        {
+          "full_name": "Mukuria C",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Finch AP",
+          "last_name": "Finch",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10959916",
+        "pdf_url": "https://europepmc.org/articles/PMC10959916?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00706-y",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

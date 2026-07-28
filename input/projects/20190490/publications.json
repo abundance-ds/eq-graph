@@ -1,0 +1,185 @@
+{
+  "project_id": "20190490",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-020-01205-9",
+      "doi": "10.1007/s10198-020-01205-9",
+      "pmid": "32506281",
+      "pmcid": "PMC7423806",
+      "title": "An exploration of methods for obtaining 0 = dead anchors for latent scale EQ-5D-Y values",
+      "journal": "The European Journal of Health Economics",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7423806",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-020-01205-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-021-01337-6",
+      "doi": "10.1007/s10198-021-01337-6",
+      "pmid": "34142266",
+      "pmcid": "PMC8526451",
+      "title": "Adapting preference-based utility measures to capture the impact of cancer treatment-related symptoms",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Shah KK",
+          "last_name": "Shah",
+          "orcid": "0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Bennett B",
+          "last_name": "Bennett",
+          "orcid": "0000-0002-5295-5576"
+        },
+        {
+          "full_name": "Lenny A",
+          "last_name": "Lenny",
+          "orcid": "0000-0002-9325-0062"
+        },
+        {
+          "full_name": "Longworth L",
+          "last_name": "Longworth",
+          "orcid": "0000-0003-2512-4862"
+        },
+        {
+          "full_name": "Brazier JE",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Shaw JW",
+          "last_name": "Shaw",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8526451",
+        "pdf_url": "https://europepmc.org/articles/PMC8526451?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-021-01337-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.11.1377",
+      "doi": "10.1016/j.jval.2021.11.1377",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Exploration of the Reasons Why Health State Valuation Differs for Children Compared With Adults: A Mixed Methods Approach",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sarah Dewilde",
+          "last_name": "Dewilde",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew J. Lloyd",
+          "last_name": "Lloyd",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2021.11.1377",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00048-1/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.11.1377",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

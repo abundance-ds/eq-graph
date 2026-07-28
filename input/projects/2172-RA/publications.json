@@ -1,0 +1,85 @@
+{
+  "project_id": "2172-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2026.03.008",
+      "doi": "10.1016/j.jval.2026.03.008",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A United Kingdom Value Set for the EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Nathan Bray",
+          "last_name": "Bray",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Louise Longworth",
+          "last_name": "Longworth",
+          "orcid": null
+        },
+        {
+          "full_name": "David Meads",
+          "last_name": "Meads",
+          "orcid": null
+        },
+        {
+          "full_name": "Yemi Oluboyede",
+          "last_name": "Oluboyede",
+          "orcid": null
+        },
+        {
+          "full_name": "Ciaran O’Neill",
+          "last_name": "O’Neill",
+          "orcid": null
+        },
+        {
+          "full_name": "Yaling Yang",
+          "last_name": "Yang",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.03.008",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

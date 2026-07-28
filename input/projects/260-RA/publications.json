@@ -1,0 +1,293 @@
+{
+  "project_id": "260-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.vaccine.2024.126568",
+      "doi": "10.1016/j.vaccine.2024.126568",
+      "pmid": "39705797",
+      "pmcid": null,
+      "title": "Structural equation modeling to evaluate the adult vaccine hesitancy scale for vaccines recommended during pregnancy",
+      "journal": "Vaccine",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Tasmiah Nuzhath",
+          "last_name": "Nuzhath",
+          "orcid": null
+        },
+        {
+          "full_name": "Yingwei Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Marie-Claude Couture",
+          "last_name": "Couture",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeannette L. Comeau",
+          "last_name": "Comeau",
+          "orcid": null
+        },
+        {
+          "full_name": "Annette K. Regan",
+          "last_name": "Regan",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 260-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.vaccine.2024.126568",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40258-023-00798-5",
+      "doi": "10.1007/s40258-023-00798-5",
+      "pmid": "36964853",
+      "pmcid": "PMC10039326",
+      "title": "Measurement of Health-Related Quality of Life from Conception to Postpartum Using the EQ-5D-5L Among a National Sample of US Pregnant and Postpartum Adults",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Annette K. Regan",
+          "last_name": "Regan",
+          "orcid": "https://orcid.org/0000-0002-3879-6193"
+        },
+        {
+          "full_name": "Pallavi Aytha Swathi",
+          "last_name": "Swathi",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcianna Nosek",
+          "last_name": "Nosek",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10039326",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00798-5.pdf",
+        "landing_page": "https://doi.org/10.1007/s40258-023-00798-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.pmedr.2022.101977",
+      "doi": "10.1016/j.pmedr.2022.101977",
+      "pmid": "36090471",
+      "pmcid": "PMC9450469",
+      "title": "COVID-19 vaccine acceptance and coverage among pregnant persons in the United States",
+      "journal": "Preventive Medicine Reports",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Annette K. Regan",
+          "last_name": "Regan",
+          "orcid": null
+        },
+        {
+          "full_name": "Ravneet Kaur",
+          "last_name": "Kaur",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcianna Nosek",
+          "last_name": "Nosek",
+          "orcid": null
+        },
+        {
+          "full_name": "Pallavi A. Swathi",
+          "last_name": "Swathi",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://europepmc.org/articles/PMC9450469",
+        "pdf_url": "https://europepmc.org/articles/PMC9450469?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.pmedr.2022.101977",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vaccine.2024.126420",
+      "doi": "10.1016/j.vaccine.2024.126420",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Pediatric COVID-19 vaccine hesitancy among pregnant and post-partum women: A mixed-method study",
+      "journal": "Vaccine",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Tasmiah Nuzhath",
+          "last_name": "Nuzhath",
+          "orcid": null
+        },
+        {
+          "full_name": "Brian Colwell",
+          "last_name": "Colwell",
+          "orcid": null
+        },
+        {
+          "full_name": "Timothy Callaghan",
+          "last_name": "Callaghan",
+          "orcid": null
+        },
+        {
+          "full_name": "Peter Hotez",
+          "last_name": "Hotez",
+          "orcid": null
+        },
+        {
+          "full_name": "Sabrina Mousum",
+          "last_name": "Mousum",
+          "orcid": null
+        },
+        {
+          "full_name": "Ummul Wara Masud",
+          "last_name": "Masud",
+          "orcid": null
+        },
+        {
+          "full_name": "Annette K. Regan",
+          "last_name": "Regan",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.vaccine.2024.126420",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/17455057251344733",
+      "doi": "10.1177/17455057251344733",
+      "pmid": "40478619",
+      "pmcid": "PMC12144378",
+      "title": "To be soft again: A phenomenological study of uncertainty and resilience in childbearing during the COVID-19 pandemic",
+      "journal": "Women's Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Marcianna Nosek",
+          "last_name": "Nosek",
+          "orcid": "https://orcid.org/0000-0001-5374-5100"
+        },
+        {
+          "full_name": "Annette Regan",
+          "last_name": "Regan",
+          "orcid": "https://orcid.org/0000-0002-3879-6193"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12144378",
+        "pdf_url": "https://europepmc.org/articles/PMC12144378?pdf=render",
+        "landing_page": "https://doi.org/10.1177/17455057251344733",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

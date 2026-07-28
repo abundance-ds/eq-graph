@@ -1,0 +1,45 @@
+{
+  "project_id": "2016160",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-019-02256-z",
+      "doi": "10.1007/s11136-019-02256-z",
+      "title": "Correspondence of directly reported and recalled health-related quality of life in a large heterogeneous sample of trauma patients",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6803580/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-019-02256-z",
+      "status": "ok",
+      "file": "input/projects/2016160/papers/doi_10.1007_s11136-019-02256-z.xml",
+      "bytes": 83340,
+      "sha256": "d4ef335237248053539fe70aa144b7a96c8ed570348be0276a157a2b0eb7d358"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-019-1139-4",
+      "doi": "10.1186/s12955-019-1139-4",
+      "title": "Agreement between retrospectively assessed health-related quality of life collected 1 week and 12 months post-injury: an observational follow-up study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6480806/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-019-1139-4",
+      "status": "ok",
+      "file": "input/projects/2016160/papers/doi_10.1186_s12955-019-1139-4.xml",
+      "bytes": 85632,
+      "sha256": "de2c61b533f0e1b219a80ee16bbf00de910ddf1e3ae187012d13d396c0672706"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-020-01404-1",
+      "doi": "10.1186/s12955-020-01404-1",
+      "title": "Conventional and retrospective change in health-related quality of life of trauma patients: an explorative observational follow-up study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7251884/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-020-01404-1",
+      "status": "ok",
+      "file": "input/projects/2016160/papers/doi_10.1186_s12955-020-01404-1.xml",
+      "bytes": 149052,
+      "sha256": "fee6b3d20e6cbff9f8bb3f277f00b84d575b64c5314cb98eae15dad3a813e376"
+    }
+  ]
+}

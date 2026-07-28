@@ -1,0 +1,859 @@
+{
+  "project_id": "137-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03618-y",
+      "doi": "10.1007/s11136-024-03618-y",
+      "pmid": "38438665",
+      "pmcid": "PMC11045599",
+      "title": "Understanding Canadian stakeholders’ views on measuring and valuing health for children and adolescents: a qualitative study",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        },
+        {
+          "full_name": "Shitong Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11045599",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03618-y.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03618-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03856-0",
+      "doi": "10.1007/s11136-024-03856-0",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Health utilities used in oncology cost-utility analyses: a registry-based analysis",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Ting Zhou",
+          "last_name": "Zhou",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhiyuan Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Brittany Humphries",
+          "last_name": "Humphries",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-024-03856-0",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01530-y",
+      "doi": "10.1007/s40273-025-01530-y",
+      "pmid": "40828359",
+      "pmcid": null,
+      "title": "Eliciting and Anchoring Health State Preferences Using Discrete Choice Experiments Among Adults, Adolescents, and Children",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Shitong Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goni",
+          "last_name": "Ramos-Goni",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40273-025-01530-y",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.04.010",
+      "doi": "10.1016/j.jval.2024.04.010",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Health Fluctuations in Dementia and its Impact on the Assessment of Health-Related Quality of Life Using the EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Maresa Buchholz",
+          "last_name": "Buchholz",
+          "orcid": null
+        },
+        {
+          "full_name": "Niklas Weber",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.02.001",
+      "doi": "10.1016/j.jval.2025.02.001",
+      "pmid": "39954858",
+      "pmcid": null,
+      "title": "Statistical Methods for Analyzing EQ-5D in Randomized Clinical Trials: A Systematic Literature Review",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jiajun Yan",
+          "last_name": "Yan",
+          "orcid": null
+        },
+        {
+          "full_name": "Brittany Humphries",
+          "last_name": "Humphries",
+          "orcid": null
+        },
+        {
+          "full_name": "Ruinan Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Ziran Yin",
+          "last_name": "Yin",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhenyan Bo",
+          "last_name": "Bo",
+          "orcid": null
+        },
+        {
+          "full_name": "Sha Diao",
+          "last_name": "Diao",
+          "orcid": null
+        },
+        {
+          "full_name": "Jing Cai",
+          "last_name": "Cai",
+          "orcid": null
+        },
+        {
+          "full_name": "Preston Tse",
+          "last_name": "Tse",
+          "orcid": null
+        },
+        {
+          "full_name": "Meixuan Li",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Shun Fu Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "http://hdl.handle.net/10397/117784",
+        "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.02.001",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.01.023",
+      "doi": "10.1016/j.jval.2026.01.023",
+      "pmid": "41692385",
+      "pmcid": null,
+      "title": "Exploring the Feasibility of Using Discrete Choice Experiments With Duration to Elicit Health State Preferences Among Canadian Youth: A Convergent Parallel Mixed Methods Study",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Brittany Humphries",
+          "last_name": "Humphries",
+          "orcid": null
+        },
+        {
+          "full_name": "Angel Ruhil",
+          "last_name": "Ruhil",
+          "orcid": null
+        },
+        {
+          "full_name": "Rebecca Liu",
+          "last_name": "Liu",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Susan M. Jack",
+          "last_name": "Jack",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.01.023",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.04.009",
+      "doi": "10.1016/j.jval.2026.04.009",
+      "pmid": null,
+      "pmcid": null,
+      "title": "An Empirical Comparison of Statistical Methods for Estimating Treatment Effects on EQ-5D in Randomized Clinical Trials",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jiajun Yan",
+          "last_name": "Yan",
+          "orcid": null
+        },
+        {
+          "full_name": "Brittany Humphries",
+          "last_name": "Humphries",
+          "orcid": null
+        },
+        {
+          "full_name": "Menglu Che",
+          "last_name": "Che",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Shun Fu Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.04.009",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1093/ehjopen/oeae083",
+      "doi": "10.1093/ehjopen/oeae083",
+      "pmid": "39439530",
+      "pmcid": "PMC11495100",
+      "title": "Health-related quality of life with rivaroxaban plus aspirin vs. aspirin alone in chronic stable cardiovascular disease: Cardiovascular Outcomes for People Using Anticoagulation Strategies (COMPASS) trial",
+      "journal": "European Heart Journal Open",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        },
+        {
+          "full_name": "Jiajun Yan",
+          "last_name": "Yan",
+          "orcid": null
+        },
+        {
+          "full_name": "John Eikelboom",
+          "last_name": "Eikelboom",
+          "orcid": null
+        },
+        {
+          "full_name": "Sonia Anand",
+          "last_name": "Anand",
+          "orcid": "https://orcid.org/0000-0003-3692-7441"
+        },
+        {
+          "full_name": "Eva Muehlhofer",
+          "last_name": "Muehlhofer",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Alvaro Avezum",
+          "last_name": "Avezum",
+          "orcid": "https://orcid.org/0000-0002-3073-6890"
+        },
+        {
+          "full_name": "Deepak L Bhatt",
+          "last_name": "Bhatt",
+          "orcid": "https://orcid.org/0000-0002-1278-6245"
+        },
+        {
+          "full_name": "Salim Yusuf",
+          "last_name": "Yusuf",
+          "orcid": "https://orcid.org/0000-0003-4776-5601"
+        },
+        {
+          "full_name": "Jackie Bosch",
+          "last_name": "Bosch",
+          "orcid": "https://orcid.org/0000-0001-6292-4207"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11495100",
+        "pdf_url": "https://europepmc.org/articles/PMC11495100?pdf=render",
+        "landing_page": "https://doi.org/10.1093/ehjopen/oeae083",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2024-097598",
+      "doi": "10.1136/bmjopen-2024-097598",
+      "pmid": "40204324",
+      "pmcid": "PMC11979510",
+      "title": "Exploring the feasibility of using discrete choice experiment (DCE) to elicit preferences among children and adolescents: protocol for a convergent parallel mixed methods study",
+      "journal": "BMJ Open",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Brittany Humphries",
+          "last_name": "Humphries",
+          "orcid": "https://orcid.org/0000-0001-9364-5788"
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Susan M Jack",
+          "last_name": "Jack",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11979510",
+        "pdf_url": "https://europepmc.org/articles/PMC11979510?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2024-097598",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x19841592",
+      "doi": "10.1177/0272989x19841592",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Latent Class Models Reveal Poor Agreement between Discrete-Choice and Time Tradeoff Preferences",
+      "journal": "Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x19841592",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-02049-y",
+      "doi": "10.1186/s12955-022-02049-y",
+      "pmid": "36199138",
+      "pmcid": "PMC9535990",
+      "title": "Comparing the psychometric properties of EQ-5D-3L and EQ-5D-5L proxy ratings by informal caregivers and a health professional for people with dementia",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Wiebke Mohr",
+          "last_name": "Mohr",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9535990",
+        "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.5492/wjccm.v11.i4.236",
+      "doi": "10.5492/wjccm.v11.i4.236",
+      "pmid": "36051941",
+      "pmcid": "PMC9305682",
+      "title": "Health-related quality-of-life and health-utility reporting in critical care",
+      "journal": "World journal of critical care medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Lau VI",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Bagshaw SM",
+          "last_name": "Bagshaw",
+          "orcid": null
+        },
+        {
+          "full_name": "Rewa OG",
+          "last_name": "Rewa",
+          "orcid": null
+        },
+        {
+          "full_name": "Basmaji J",
+          "last_name": "Basmaji",
+          "orcid": "0000-0001-9749-1747"
+        },
+        {
+          "full_name": "Lewis KA",
+          "last_name": "Lewis",
+          "orcid": null
+        },
+        {
+          "full_name": "Wilcox ME",
+          "last_name": "Wilcox",
+          "orcid": null
+        },
+        {
+          "full_name": "Barrett K",
+          "last_name": "Barrett",
+          "orcid": "0000-0001-7147-2222"
+        },
+        {
+          "full_name": "Lamontagne F",
+          "last_name": "Lamontagne",
+          "orcid": null
+        },
+        {
+          "full_name": "Lauzier F",
+          "last_name": "Lauzier",
+          "orcid": null
+        },
+        {
+          "full_name": "Ferguson ND",
+          "last_name": "Ferguson",
+          "orcid": "0000-0002-6213-5264"
+        },
+        {
+          "full_name": "Oczkowski SJW",
+          "last_name": "Oczkowski",
+          "orcid": null
+        },
+        {
+          "full_name": "Fiest KM",
+          "last_name": "Fiest",
+          "orcid": null
+        },
+        {
+          "full_name": "Niven DJ",
+          "last_name": "Niven",
+          "orcid": null
+        },
+        {
+          "full_name": "Stelfox HT",
+          "last_name": "Stelfox",
+          "orcid": null
+        },
+        {
+          "full_name": "Alhazzani W",
+          "last_name": "Alhazzani",
+          "orcid": null
+        },
+        {
+          "full_name": "Herridge M",
+          "last_name": "Herridge",
+          "orcid": null
+        },
+        {
+          "full_name": "Fowler R",
+          "last_name": "Fowler",
+          "orcid": "0000-0002-1002-2989"
+        },
+        {
+          "full_name": "Cook DJ",
+          "last_name": "Cook",
+          "orcid": null
+        },
+        {
+          "full_name": "Rochwerg B",
+          "last_name": "Rochwerg",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://doi.org/10.5492/wjccm.v11.i4.236",
+        "pdf_url": "https://europepmc.org/articles/PMC9305682?pdf=render",
+        "landing_page": "https://doi.org/10.5492/wjccm.v11.i4.236",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,65 @@
+{
+  "project_id": "1494-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-024-02312-4",
+      "doi": "10.1186/s12955-024-02312-4",
+      "pmid": "39593045",
+      "pmcid": "PMC11600902",
+      "title": "The use of patient-reported outcome measures to improve patient-related outcomes - a systematic review",
+      "journal": "Health and quality of life outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bonsel JM",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Itiola AJ",
+          "last_name": "Itiola",
+          "orcid": null
+        },
+        {
+          "full_name": "Huberts AS",
+          "last_name": "Huberts",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel GJ",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Penton H",
+          "last_name": "Penton",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11600902",
+        "pdf_url": "https://europepmc.org/articles/PMC11600902?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02312-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

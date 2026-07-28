@@ -1,0 +1,19 @@
+{
+  "project_id": "398-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03669-1",
+      "doi": "10.1007/s11136-024-03669-1",
+      "title": "Differences and common ground in the frameworks of health-related quality of life in traditional Chinese medicine and modern medicine: a systematic review",
+      "method": "publisher_pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03669-1.pdf",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-024-03669-1",
+      "status": "ok",
+      "file": "input/projects/398-RA/papers/doi_10.1007_s11136-024-03669-1.pdf",
+      "bytes": 2385188,
+      "sha256": "15aa57d0de50968d645282da9331906b1138e5311814282c900d4eb76c247512"
+    }
+  ]
+}

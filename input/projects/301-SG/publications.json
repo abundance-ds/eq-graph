@@ -1,0 +1,70 @@
+{
+  "project_id": "301-SG",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.2196/55267",
+      "doi": "10.2196/55267",
+      "pmid": "39357042",
+      "pmcid": "PMC11483256",
+      "title": "A Collection of Components to Design Clinical Dashboards Incorporating Patient-Reported Outcome Measures: Qualitative Study",
+      "journal": "Journal of medical Internet research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bischof AY",
+          "last_name": "Bischof",
+          "orcid": "0000-0002-9318-5408"
+        },
+        {
+          "full_name": "Kuklinski D",
+          "last_name": "Kuklinski",
+          "orcid": "0000-0002-7092-7480"
+        },
+        {
+          "full_name": "Salvi I",
+          "last_name": "Salvi",
+          "orcid": "0009-0009-0646-5064"
+        },
+        {
+          "full_name": "Walker C",
+          "last_name": "Walker",
+          "orcid": "0009-0002-4169-9156"
+        },
+        {
+          "full_name": "Vogel J",
+          "last_name": "Vogel",
+          "orcid": "0000-0002-2605-8994"
+        },
+        {
+          "full_name": "Geissler A",
+          "last_name": "Geissler",
+          "orcid": "0000-0002-7445-2929"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.2196/55267",
+        "pdf_url": "https://europepmc.org/articles/PMC11483256?pdf=render",
+        "landing_page": "https://doi.org/10.2196/55267",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

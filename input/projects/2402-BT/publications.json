@@ -1,0 +1,133 @@
+{
+  "project_id": "2402-BT",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-026-01970-z",
+      "doi": "10.1007/s10198-026-01970-z",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric benefits of adding four bolt-ons (skin irritation, self-confidence, social relationships and sleep) to EQ-5D-5L compared to PROMIS-29 and Skindex-16 in patients with psoriasis and atopic dermatitis",
+      "journal": "The European Journal of Health Economics",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Sandra N. Naguib",
+          "last_name": "Naguib",
+          "orcid": "https://orcid.org/0000-0003-1027-6089"
+        },
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Dina G. Saadi",
+          "last_name": "Saadi",
+          "orcid": "https://orcid.org/0000-0001-8774-0914"
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": "https://orcid.org/0000-0002-5956-8990"
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-026-01970-z",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-025-00985-z",
+      "doi": "10.1186/s41687-025-00985-z",
+      "pmid": "41678080",
+      "pmcid": "PMC12946566",
+      "title": "Translation and cultural adaptation of the EQ-5D-Y-5L into Modern Standard Arabic for use in Egypt",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Manar G. Elgaar",
+          "last_name": "Elgaar",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatma S. E. Ebeid",
+          "last_name": "Ebeid",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie M. Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar F. Farid",
+          "last_name": "Farid",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12946566",
+        "pdf_url": "https://europepmc.org/articles/PMC12946566?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-025-00985-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

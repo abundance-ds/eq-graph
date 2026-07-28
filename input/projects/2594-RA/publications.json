@@ -1,0 +1,60 @@
+{
+  "project_id": "2594-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04226-8",
+      "doi": "10.1007/s11136-026-04226-8",
+      "pmid": "41920383",
+      "pmcid": "PMC13043573",
+      "title": "Psychometric validation of a cognition and social participation bolt-on for the EQ-5D-5L in SARS-CoV-2 infected German healthcare workers",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz I",
+          "last_name": "Buchholz",
+          "orcid": "0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Lüdtke L",
+          "last_name": "Lüdtke",
+          "orcid": null
+        },
+        {
+          "full_name": "Härter M",
+          "last_name": "Härter",
+          "orcid": null
+        },
+        {
+          "full_name": "Janssen MFB",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13043573",
+        "pdf_url": "https://europepmc.org/articles/PMC13043573?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04226-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,19 @@
+{
+  "project_id": "289-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-023-01569-8",
+      "doi": "10.1007/s10198-023-01569-8",
+      "title": "COVID-19 and EQ-5D-5L health state valuation",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9946870/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-023-01569-8",
+      "status": "ok",
+      "file": "input/projects/289-RA/papers/doi_10.1007_s10198-023-01569-8.xml",
+      "bytes": 424416,
+      "sha256": "910d85f3960ff21c9a98913e94d2d952f6080dbb12a2b86628061ec9135df07c"
+    }
+  ]
+}

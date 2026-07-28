@@ -1,0 +1,154 @@
+{
+  "project_id": "436-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s41687-025-00928-8",
+      "doi": "10.1186/s41687-025-00928-8",
+      "pmid": "40802220",
+      "pmcid": "PMC12350999",
+      "title": "Psychometric evaluation of the EQ-5D-Y-3L in Ethiopian pediatric inpatients: comparing self and proxy reports",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Begashaw Melaku Gebresillassie",
+          "last_name": "Gebresillassie",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Adeladlew Kassie Netere",
+          "last_name": "Netere",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 436-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-025-00928-8",
+        "pdf_url": "https://europepmc.org/articles/PMC12350999?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-025-00928-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41687-026-01100-6",
+      "doi": "10.1186/s41687-026-01100-6",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Mapping health-related quality of life measurement tools in Africa: a scoping review",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Begashaw Melaku Gebresillassie",
+          "last_name": "Gebresillassie",
+          "orcid": null
+        },
+        {
+          "full_name": "Lucky Gift Ngwira",
+          "last_name": "Ngwira",
+          "orcid": null
+        },
+        {
+          "full_name": "Jermaine Dambi",
+          "last_name": "Dambi",
+          "orcid": null
+        },
+        {
+          "full_name": "Adeladlew Kassie Netere",
+          "last_name": "Netere",
+          "orcid": null
+        },
+        {
+          "full_name": "Eyayaw Ashete Belachew",
+          "last_name": "Belachew",
+          "orcid": null
+        },
+        {
+          "full_name": "Abdelghafour Marfak",
+          "last_name": "Marfak",
+          "orcid": null
+        },
+        {
+          "full_name": "Jaafar Chemli",
+          "last_name": "Chemli",
+          "orcid": null
+        },
+        {
+          "full_name": "Anthony Waka Udezi",
+          "last_name": "Udezi",
+          "orcid": null
+        },
+        {
+          "full_name": "Girma Tekle Gebremariam",
+          "last_name": "Gebremariam",
+          "orcid": null
+        },
+        {
+          "full_name": "Ian Neethling",
+          "last_name": "Neethling",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": null
+        },
+        {
+          "full_name": "POPQOL Africa Advisory",
+          "last_name": "POPQOL Africa Advisory",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-026-01100-6",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s41687-026-01100-6",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

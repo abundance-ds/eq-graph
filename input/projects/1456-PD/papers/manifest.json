@@ -1,0 +1,32 @@
+{
+  "project_id": "1456-PD",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3390/curroncol32060308",
+      "doi": "10.3390/curroncol32060308",
+      "title": "Patient Experiences Regarding Feasibility of Implementing Real-World EQ-5D Collection at an Oncology Centre in Ontario, Canada",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12191542/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/curroncol32060308",
+      "status": "ok",
+      "file": "input/projects/1456-PD/papers/doi_10.3390_curroncol32060308.xml",
+      "bytes": 91640,
+      "sha256": "73e7a8bc1ee59a6bceec30eb7dee743274a9d704dd4db5f5a0ea09841c5325f8"
+    },
+    {
+      "work_id": "doi:10.3390/curroncol32110645",
+      "doi": "10.3390/curroncol32110645",
+      "title": "Examining the Association Between Equity-Related Factors and EQ-5D-3L Health Utilities of Patients with Cancer",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12651012/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/curroncol32110645",
+      "status": "ok",
+      "file": "input/projects/1456-PD/papers/doi_10.3390_curroncol32110645.xml",
+      "bytes": 132272,
+      "sha256": "19bfb2da63063cce642690b71bf45233c2d032a78b2f1268adc4ae45be9c9ed8"
+    }
+  ]
+}

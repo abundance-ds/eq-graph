@@ -1,0 +1,19 @@
+{
+  "project_id": "20180230",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-021-03075-x",
+      "doi": "10.1007/s11136-021-03075-x",
+      "title": "Do health preferences differ among Asian populations? A comparison of EQ-5D-5L discrete choice experiments data from 11 Asian studies",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9188617/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-021-03075-x",
+      "status": "ok",
+      "file": "input/projects/20180230/papers/doi_10.1007_s11136-021-03075-x.xml",
+      "bytes": 155331,
+      "sha256": "d7980458dd75684dbb9efbb57cbe7c05e103d3db17eefd37aa60044b5518d225"
+    }
+  ]
+}

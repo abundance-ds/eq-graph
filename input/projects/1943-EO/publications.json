@@ -1,0 +1,128 @@
+{
+  "project_id": "1943-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41687-023-00560-4",
+      "doi": "10.1186/s41687-023-00560-4",
+      "pmid": "36892714",
+      "pmcid": "PMC9996597",
+      "title": "Psychometric performance of the Chichewa versions of the EQ-5D-Y-3L and EQ-5D-Y-5L among healthy and sick children and adolescents in Malawi",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Ngwira LG",
+          "last_name": "Ngwira",
+          "orcid": "0000-0002-2695-8917"
+        },
+        {
+          "full_name": "Maheswaran H",
+          "last_name": "Maheswaran",
+          "orcid": "0000-0002-7375-4845"
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Petrou S",
+          "last_name": "Petrou",
+          "orcid": null
+        },
+        {
+          "full_name": "Niessen L",
+          "last_name": "Niessen",
+          "orcid": "0000-0002-8639-5191"
+        },
+        {
+          "full_name": "Smith SC",
+          "last_name": "Smith",
+          "orcid": "0000-0002-2013-6963"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9996597",
+        "pdf_url": "https://europepmc.org/articles/PMC9996597?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-023-00560-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-024-00761-5",
+      "doi": "10.1186/s41687-024-00761-5",
+      "pmid": "39254899",
+      "pmcid": "PMC11387560",
+      "title": "Cross-cultural adaptation and psychometric validation of the Chichewa (Malawi) PedsQL™ 4.0 Generic Core Scales child self-report and PedsQL™ 4.0 GCS teen self-report",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Lucky Gift Ngwira",
+          "last_name": "Ngwira",
+          "orcid": "https://orcid.org/0000-0002-2695-8917"
+        },
+        {
+          "full_name": "Hendramoorthy Maheswaran",
+          "last_name": "Maheswaran",
+          "orcid": null
+        },
+        {
+          "full_name": "Stavros Petrou",
+          "last_name": "Petrou",
+          "orcid": null
+        },
+        {
+          "full_name": "Louis W. Niessen",
+          "last_name": "Niessen",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah C. Smith",
+          "last_name": "Smith",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11387560",
+        "pdf_url": "https://europepmc.org/articles/PMC11387560?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00761-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

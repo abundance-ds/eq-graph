@@ -1,0 +1,210 @@
+{
+  "project_id": "319-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.4399",
+      "doi": "10.1002/hec.4399",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Does a health crisis change how we value health?",
+      "journal": "Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Edward J. D. Webb",
+          "last_name": "Webb",
+          "orcid": "https://orcid.org/0000-0001-7918-839x"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "David Meads",
+          "last_name": "Meads",
+          "orcid": null
+        },
+        {
+          "full_name": "Adam Martin",
+          "last_name": "Martin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1002/hec.4399",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-022-01449-7",
+      "doi": "10.1007/s10198-022-01449-7",
+      "pmid": "35347553",
+      "pmcid": "PMC9876862",
+      "title": "Health state utilities for beta-thalassemia: a time trade-off study",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Martin AP",
+          "last_name": "Martin",
+          "orcid": "0000-0003-4383-6038"
+        },
+        {
+          "full_name": "Ferri Grazzi E",
+          "last_name": "Ferri Grazzi",
+          "orcid": "0000-0002-0567-0260"
+        },
+        {
+          "full_name": "Mighiu C",
+          "last_name": "Mighiu",
+          "orcid": null
+        },
+        {
+          "full_name": "Chevli M",
+          "last_name": "Chevli",
+          "orcid": null
+        },
+        {
+          "full_name": "Shah F",
+          "last_name": "Shah",
+          "orcid": "0000-0001-5975-1309"
+        },
+        {
+          "full_name": "Maher L",
+          "last_name": "Maher",
+          "orcid": null
+        },
+        {
+          "full_name": "Shaikh A",
+          "last_name": "Shaikh",
+          "orcid": null
+        },
+        {
+          "full_name": "Sagar A",
+          "last_name": "Sagar",
+          "orcid": null
+        },
+        {
+          "full_name": "Hubberstey H",
+          "last_name": "Hubberstey",
+          "orcid": null
+        },
+        {
+          "full_name": "Franks B",
+          "last_name": "Franks",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": "0000-0003-4286-8855"
+        },
+        {
+          "full_name": "Tang D",
+          "last_name": "Tang",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9876862",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01449-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-022-01449-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-023-01569-8",
+      "doi": "10.1007/s10198-023-01569-8",
+      "pmid": "36814039",
+      "pmcid": "PMC9946870",
+      "title": "COVID-19 and EQ-5D-5L health state valuation",
+      "journal": "The European Journal of Health Economics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Edward J. D. Webb",
+          "last_name": "Webb",
+          "orcid": "https://orcid.org/0000-0001-7918-839x"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "David Meads",
+          "last_name": "Meads",
+          "orcid": null
+        },
+        {
+          "full_name": "Adam Martin",
+          "last_name": "Martin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9946870",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-023-01569-8.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-023-01569-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

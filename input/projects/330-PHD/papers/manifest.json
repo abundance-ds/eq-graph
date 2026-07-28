@@ -1,0 +1,106 @@
+{
+  "project_id": "330-PHD",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-03990-3",
+      "doi": "10.1007/s11136-025-03990-3",
+      "title": "Use of a generic Paediatric Patient Reported Outcome Measure (P-PROM) in Routine hospital Outpatient Care for Kids (ROCK): A qualitative exploration of adolescent, caregiver and service provider perspectives (P-PROM ROCK Phase 1)",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12274235/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-03990-3",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.1007_s11136-025-03990-3.xml",
+      "bytes": 141633,
+      "sha256": "779355ba7f3a4862d6ff5866d36dace319081c0f9b7858e4b5f2d27a2402ddcd"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03996-x",
+      "doi": "10.1007/s11136-025-03996-x",
+      "title": "“If we ask, we must act”: co-designing the implementation of the EQ-5D-Y-5L as a Paediatric Patient Reported Outcome Measure in Routine hospital Outpatient Care for Kids to meaningfully impact clinical visits (P-PROM ROCK Phase 2)",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12274246/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-03996-x",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.1007_s11136-025-03996-x.xml",
+      "bytes": 110919,
+      "sha256": "4187e1a2aa3a7028440f8c06dbabab66a6bc004d300c682e9dd5cc57b10a94f8"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-023-01330-2",
+      "doi": "10.1007/s40273-023-01330-2",
+      "title": "Comparative Psychometric Performance of Common Generic Paediatric Health-Related Quality of Life Instrument Descriptive Systems: Results from the Australian Paediatric Multi-Instrument Comparison Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11169028/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-023-01330-2",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.1007_s40273-023-01330-2.xml",
+      "bytes": 173833,
+      "sha256": "8b6a711e67e55615414e2fd9b93d9a9a9b54ec4bf98c1b2058ff01adb71b09d7"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01354-2",
+      "doi": "10.1007/s40273-024-01354-2",
+      "title": "Comparing the Psychometric Performance of Generic Paediatric Health-Related Quality of Life Instruments in Children and Adolescents with ADHD, Anxiety and/or Depression",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11168999/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01354-2",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.1007_s40273-024-01354-2.xml",
+      "bytes": 188340,
+      "sha256": "775ee615c9f8b8505923e85a984ff2a9ccfd40863ed1645ae7a388a2aa48e424"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01355-1",
+      "doi": "10.1007/s40273-024-01355-1",
+      "title": "Psychometric Properties of Child Health Utility 9D (CHU9D) Proxy Version Administered to Parents and Caregivers of Children Aged 2–4 Years Compared with Pediatric Quality of Life Inventory™ (PedsQL)",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11169045/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01355-1",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.1007_s40273-024-01355-1.xml",
+      "bytes": 172724,
+      "sha256": "40a88ed671e062f9cd7589a00a96ebf211a1a5656f59ed19e241636809d4ae4e"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.04.2161",
+      "doi": "10.1016/j.jval.2025.04.2161",
+      "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2161",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    },
+    {
+      "work_id": "doi:10.1136/archdischild-2025-329475",
+      "doi": "10.1136/archdischild-2025-329475",
+      "title": "Comparative performance of common paediatric patient-reported outcome measures (P-PROMs) across health conditions",
+      "method": "publisher_pdf",
+      "source_url": "https://adc.bmj.com/content/archdischild/early/2026/03/25/archdischild-2025-329475.full.pdf",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1136/archdischild-2025-329475",
+      "status": "unavailable",
+      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+    },
+    {
+      "work_id": "doi:10.3390/children10101604",
+      "doi": "10.3390/children10101604",
+      "title": "Collecting Paediatric Health-Related Quality of Life Data: Assessing the Feasibility and Acceptability of the Australian Paediatric Multi-Instrument Comparison (P-MIC) Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10605580/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/children10101604",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.3390_children10101604.xml",
+      "bytes": 153676,
+      "sha256": "1eaae2380eabba23857d9b6c24d49d7a2d36f0cae19ed7bf745f1f6de9db0364"
+    }
+  ]
+}

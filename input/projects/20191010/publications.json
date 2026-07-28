@@ -1,0 +1,71 @@
+{
+  "project_id": "20191010",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s41687-024-00770-4",
+      "doi": "10.1186/s41687-024-00770-4",
+      "pmid": "39133433",
+      "pmcid": "PMC11319571",
+      "title": "Transitioning between the EQ-5D youth and adult descriptive systems in a group of adolescents",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Abraham Gebregziabiher",
+          "last_name": "Gebregziabiher",
+          "orcid": "https://orcid.org/0000-0003-4661-7287"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-024-00770-4",
+        "pdf_url": "https://europepmc.org/articles/PMC11319571?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00770-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

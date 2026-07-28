@@ -1,0 +1,32 @@
+{
+  "project_id": "2014150",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-018-0647-0",
+      "doi": "10.1007/s40273-018-0647-0",
+      "title": "Head-to-Head Comparison of EQ‐5D‐3L and EQ‐5D‐5L Health Values",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5954059/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-018-0647-0",
+      "status": "ok",
+      "file": "input/projects/2014150/papers/doi_10.1007_s40273-018-0647-0.xml",
+      "bytes": 114717,
+      "sha256": "e5b7bf1e8fe1d143f2d4ad8841b19a69d9a559ef79bc8b01b9857b1c82e7741d"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0190111",
+      "doi": "10.1371/journal.pone.0190111",
+      "title": "Eye tracking to explore attendance in health-state descriptions",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5755756/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0190111",
+      "status": "ok",
+      "file": "input/projects/2014150/papers/doi_10.1371_journal.pone.0190111.xml",
+      "bytes": 84718,
+      "sha256": "6af35e67e8c86f2542f745dcd9c853172fe851f3af1f427872be9878f4373d9c"
+    }
+  ]
+}

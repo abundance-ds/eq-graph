@@ -1,0 +1,19 @@
+{
+  "project_id": "1811-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04003-z",
+      "doi": "10.1007/s11136-025-04003-z",
+      "title": "Frequency and severity response scales for pain and discomfort: psychometric insights from EQ-HWB",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12274242/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-04003-z",
+      "status": "ok",
+      "file": "input/projects/1811-RA/papers/doi_10.1007_s11136-025-04003-z.xml",
+      "bytes": 96901,
+      "sha256": "6a95591a561b1a2461d87fd0808cfad0f402646db4182e62d27b662f15973bb1"
+    }
+  ]
+}

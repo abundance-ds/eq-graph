@@ -1,0 +1,983 @@
+{
+  "project_id": "243-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03754-5",
+      "doi": "10.1007/s11136-024-03754-5",
+      "pmid": "39269578",
+      "pmcid": "PMC11541259",
+      "title": "The performance relationship between the EQ-5D-5L composite “Anxiety/Depression” dimension and anxiety and depression symptoms in a large, general population sample",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Emily Stella Scott",
+          "last_name": "Scott",
+          "orcid": "https://orcid.org/0000-0001-7548-1775"
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "John N. Yfantopolous",
+          "last_name": "Yfantopolous",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 243-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11136-024-03754-5",
+        "pdf_url": "https://europepmc.org/articles/PMC11541259?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03754-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02496-4",
+      "doi": "10.1007/s11136-020-02496-4",
+      "pmid": "32277337",
+      "pmcid": "PMC7434722",
+      "title": "Does the EQ-5D-5L benefit from extension with a cognitive domain: Testing a multi-criteria psychometric strategy in trauma patients",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "A. J. L. M. Geraerds",
+          "last_name": "Geraerds",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "M. J. M. Panneman",
+          "last_name": "Panneman",
+          "orcid": null
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7434722",
+        "pdf_url": "https://europepmc.org/articles/PMC7434722?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02496-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02893-3",
+      "doi": "10.1007/s11136-021-02893-3",
+      "pmid": "34075530",
+      "pmcid": "PMC8481194",
+      "title": "Test–retest reliability of the EQ-5D-5L and the reworded QOLIBRI-OS in the general population of Italy, the Netherlands, and the United Kingdom",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Di Long",
+          "last_name": "Long",
+          "orcid": "https://orcid.org/0000-0001-6493-9314"
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8481194",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02893-3.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02893-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-03069-9",
+      "doi": "10.1007/s11136-021-03069-9",
+      "pmid": "35091984",
+      "pmcid": "PMC8799410",
+      "title": "Sensitivity of the EQ-5D-5L for fatigue and cognitive problems and their added value in Q-fever patients",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "A. J. L. M. Geraerds",
+          "last_name": "Geraerds",
+          "orcid": "https://orcid.org/0000-0002-1332-0500"
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "Inge Spronk",
+          "last_name": "Spronk",
+          "orcid": null
+        },
+        {
+          "full_name": "Alfons G. M. Olde Loohuis",
+          "last_name": "Olde Loohuis",
+          "orcid": null
+        },
+        {
+          "full_name": "Annemieke de Groot",
+          "last_name": "de Groot",
+          "orcid": null
+        },
+        {
+          "full_name": "Madelon B. Bronner",
+          "last_name": "Bronner",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8799410",
+        "pdf_url": "https://europepmc.org/articles/PMC8799410?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-021-03069-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03704-1",
+      "doi": "10.1007/s11136-024-03704-1",
+      "pmid": "38861096",
+      "pmcid": "PMC11390791",
+      "title": "The relationship between healthcare access and change in health-related quality-of-life among the general population of five countries during the COVID-19 pandemic",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Nadja Alexandrov",
+          "last_name": "Alexandrov",
+          "orcid": null
+        },
+        {
+          "full_name": "Emily Stella Scott",
+          "last_name": "Scott",
+          "orcid": "https://orcid.org/0000-0001-7548-1775"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "John N. Yfantopoulos",
+          "last_name": "Yfantopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11390791",
+        "pdf_url": "https://europepmc.org/articles/PMC11390791?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03704-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04285-x",
+      "doi": "10.1007/s11136-026-04285-x",
+      "pmid": "42260238",
+      "pmcid": "PMC13246841",
+      "title": "Socioeconomic inequalities in health-related quality of life during the COVID-19 pandemic: a six-country comparison using the EQ-5D-5 L",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Joëlle Eijkens",
+          "last_name": "Eijkens",
+          "orcid": null
+        },
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "M. F. Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13246841",
+        "pdf_url": "https://europepmc.org/articles/PMC13246841?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04285-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.burns.2020.08.015",
+      "doi": "10.1016/j.burns.2020.08.015",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The added value of extending the EQ-5D-5L with an itching item for the assessment of health-related quality of life of burn patients: an explorative study",
+      "journal": "Burns",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "I. Spronk",
+          "last_name": "Spronk",
+          "orcid": "https://orcid.org/0000-0001-9571-576x"
+        },
+        {
+          "full_name": "G.J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "S. Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "M.E. van Baar",
+          "last_name": "van Baar",
+          "orcid": null
+        },
+        {
+          "full_name": "M.F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "J.A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.burns.2020.08.015",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.burns.2020.08.015",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2020.12.011",
+      "doi": "10.1016/j.jval.2020.12.011",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Methods Used to Identify, Test, and Assess Impact on Preferences of Bolt-Ons: A Systematic Review",
+      "journal": "Value in Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Alexandra J.L.M. Geraerds",
+          "last_name": "Geraerds",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2020.12.011",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301521000516/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2020.12.011",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.06.010",
+      "doi": "10.1016/j.jval.2026.06.010",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Longitudinal Psychometric Evaluation of 15 Bolt-ons for the EQ-5D-5L in a Large-Scale Multi-Country Study",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Žan Luka Lavriha",
+          "last_name": "Lavriha",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. (Bas) Janssen",
+          "last_name": "(Bas) Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.06.010",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.06.010",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-020-01394-0",
+      "doi": "10.1186/s12955-020-01394-0",
+      "pmid": "32429975",
+      "pmcid": "PMC7236121",
+      "title": "Exploring the relation between the EQ-5D-5L pain/discomfort and pain and itching in a sample of burn patients",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "I. Spronk",
+          "last_name": "Spronk",
+          "orcid": "https://orcid.org/0000-0001-9571-576x"
+        },
+        {
+          "full_name": "G. J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "S. Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "M. E. van Baar",
+          "last_name": "van Baar",
+          "orcid": null
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "J. A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7236121",
+        "pdf_url": "https://europepmc.org/articles/PMC7236121?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-020-01394-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-020-01404-1",
+      "doi": "10.1186/s12955-020-01404-1",
+      "pmid": "32460896",
+      "pmcid": "PMC7251884",
+      "title": "Conventional and retrospective change in health-related quality of life of trauma patients: an explorative observational follow-up study",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        },
+        {
+          "full_name": "Inge Spronk",
+          "last_name": "Spronk",
+          "orcid": null
+        },
+        {
+          "full_name": "Mariska A. C. de Jongh",
+          "last_name": "de Jongh",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7251884",
+        "pdf_url": "https://europepmc.org/articles/PMC7251884?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-020-01404-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01771-3",
+      "doi": "10.1186/s12955-021-01771-3",
+      "pmid": "33926461",
+      "pmcid": "PMC8082864",
+      "title": "The relation between EQ-5D and fatigue in a Dutch general population sample: an explorative study",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "I. Spronk",
+          "last_name": "Spronk",
+          "orcid": "https://orcid.org/0000-0001-9571-576x"
+        },
+        {
+          "full_name": "S. Polinder",
+          "last_name": "Polinder",
+          "orcid": "https://orcid.org/0000-0002-4331-3141"
+        },
+        {
+          "full_name": "G. J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "J. A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC8082864",
+        "pdf_url": "https://europepmc.org/articles/PMC8082864?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01771-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s13690-022-00990-4",
+      "doi": "10.1186/s13690-022-00990-4",
+      "pmid": "36397099",
+      "pmcid": "PMC9672616",
+      "title": "Anxiety, depression, and social connectedness among the general population of eight countries during the COVID-19 pandemic",
+      "journal": "Archives of Public Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Di Long",
+          "last_name": "Long",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9672616",
+        "pdf_url": "https://archpublichealth.biomedcentral.com/counter/pdf/10.1186/s13690-022-00990-4",
+        "landing_page": "https://doi.org/10.1186/s13690-022-00990-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00406-x",
+      "doi": "10.1186/s41687-021-00406-x",
+      "pmid": "34982262",
+      "pmcid": "PMC8727660",
+      "title": "Adding a fatigue item to the EQ-5D-5L improves its psychometric performance in the general population",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Inge Spronk",
+          "last_name": "Spronk",
+          "orcid": "https://orcid.org/0000-0001-9571-576x"
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": "https://orcid.org/0000-0002-4331-3141"
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8727660",
+        "pdf_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-021-00406-x",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00406-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/fepid.2023.1144162",
+      "doi": "10.3389/fepid.2023.1144162",
+      "pmid": "38455931",
+      "pmcid": "PMC10910898",
+      "title": "Cross-sectional and longitudinal comparison of health-related quality of life and mental well-being between persons with and without post COVID-19 condition",
+      "journal": "Frontiers in epidemiology",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Scott ES",
+          "last_name": "Scott",
+          "orcid": "0000-0001-7548-1775"
+        },
+        {
+          "full_name": "Lubetkin EI",
+          "last_name": "Lubetkin",
+          "orcid": "0000-0001-9962-7775"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Yfantopolous J",
+          "last_name": "Yfantopolous",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel GJ",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Haagsma JA",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10910898",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fepid.2023.1144162/pdf",
+        "landing_page": "https://doi.org/10.3389/fepid.2023.1144162",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/ijph.2026.1608807",
+      "doi": "10.3389/ijph.2026.1608807",
+      "pmid": "41727346",
+      "pmcid": "PMC12916432",
+      "title": "Health-Related Quality of Life Among Ukrainian War Refugees Compared to the General Population in Estonia",
+      "journal": "International Journal of Public Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Rainer Reile",
+          "last_name": "Reile",
+          "orcid": null
+        },
+        {
+          "full_name": "Johann Saavaste",
+          "last_name": "Saavaste",
+          "orcid": null
+        },
+        {
+          "full_name": "Galina Opikova",
+          "last_name": "Opikova",
+          "orcid": null
+        },
+        {
+          "full_name": "Taavi Lai",
+          "last_name": "Lai",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12916432",
+        "pdf_url": "https://europepmc.org/articles/PMC12916432?pdf=render",
+        "landing_page": "https://doi.org/10.3389/ijph.2026.1608807",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 2
+}

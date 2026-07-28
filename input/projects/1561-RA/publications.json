@@ -1,0 +1,66 @@
+{
+  "project_id": "1561-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-022-02083-w",
+      "doi": "10.1186/s12955-022-02083-w",
+      "pmid": "36564844",
+      "pmcid": "PMC9780618",
+      "title": "Estimating a social value set for EQ-5D-5L in Sweden",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sun Sun",
+          "last_name": "Sun",
+          "orcid": "https://orcid.org/0000-0001-5948-3025"
+        },
+        {
+          "full_name": "Ling-Hsiang Chuang",
+          "last_name": "Chuang",
+          "orcid": "https://orcid.org/0000-0001-8043-0411"
+        },
+        {
+          "full_name": "Klas-Göran Sahlén",
+          "last_name": "Sahlén",
+          "orcid": "https://orcid.org/0000-0002-3975-4868"
+        },
+        {
+          "full_name": "Lars Lindholm",
+          "last_name": "Lindholm",
+          "orcid": "https://orcid.org/0000-0002-1633-2179"
+        },
+        {
+          "full_name": "Fredrik Norström",
+          "last_name": "Norström",
+          "orcid": "https://orcid.org/0000-0002-0457-2175"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9780618",
+        "pdf_url": "https://europepmc.org/articles/PMC9780618?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02083-w",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

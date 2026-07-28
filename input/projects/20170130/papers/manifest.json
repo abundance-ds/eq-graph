@@ -1,0 +1,30 @@
+{
+  "project_id": "20170130",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-021-02922-1",
+      "doi": "10.1007/s11136-021-02922-1",
+      "title": "Combining EQ-5D-5L items into a level summary score: demonstrating feasibility using non-parametric item response theory using an international dataset",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8800896/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-021-02922-1",
+      "status": "ok",
+      "file": "input/projects/20170130/papers/doi_10.1007_s11136-021-02922-1.xml",
+      "bytes": 138153,
+      "sha256": "31a12c3b6a3a92ad42477d7a58d561a571922c320f30927ee5af4421efd9a849"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.02.006",
+      "doi": "10.1016/j.jval.2019.02.006",
+      "title": "Exploring the Internal Structure of the EQ-5D Using Non–Preference-Based Methods",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.jval.2019.02.006",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

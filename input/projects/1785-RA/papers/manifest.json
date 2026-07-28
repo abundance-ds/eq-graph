@@ -1,0 +1,17 @@
+{
+  "project_id": "1785-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.10.008",
+      "doi": "10.1016/j.jval.2025.10.008",
+      "title": "Psychometric Performance of Skin, Self-Confidence, and Social Health-Related EQ-5D-5L Bolt-Ons in Patients With Atopic Dermatitis and Psoriasis in Germany",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.10.008",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

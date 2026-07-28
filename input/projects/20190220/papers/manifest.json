@@ -1,0 +1,19 @@
+{
+  "project_id": "20190220",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-021-01109-3",
+      "doi": "10.1007/s40273-021-01109-3",
+      "title": "A Comparison of PROPr and EQ-5D-5L Value Sets",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8866274/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-021-01109-3",
+      "status": "ok",
+      "file": "input/projects/20190220/papers/doi_10.1007_s40273-021-01109-3.xml",
+      "bytes": 99715,
+      "sha256": "9b21b84e2eddcc9b0c94bad54948173bd8f3dd0f5d26c54260cc4768af63f2c8"
+    }
+  ]
+}

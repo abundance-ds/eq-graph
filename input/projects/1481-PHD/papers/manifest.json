@@ -1,0 +1,30 @@
+{
+  "project_id": "1481-PHD",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01509-9",
+      "doi": "10.1007/s40273-025-01509-9",
+      "title": "The Psychometric Performance of Generic Preference-Based Measures in Informal Carers: A Systematic Review of Validation Studies",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12370823/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01509-9",
+      "status": "ok",
+      "file": "input/projects/1481-PHD/papers/doi_10.1007_s40273-025-01509-9.xml",
+      "bytes": 214719,
+      "sha256": "f37c5f0e585874113a536406297b8e13842c8fb953a0a102a4114fcd4e7d5889"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.07.009",
+      "doi": "10.1016/j.jval.2025.07.009",
+      "title": "Are Generic Preference-Based Measures Valid for Use in Informal Carers? A Psychometric Investigation",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.07.009",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

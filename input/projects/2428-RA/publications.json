@@ -1,0 +1,55 @@
+{
+  "project_id": "2428-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1097/mlr.0000000000002200",
+      "doi": "10.1097/mlr.0000000000002200",
+      "pmid": "40846650",
+      "pmcid": "PMC12422609",
+      "title": "Revisiting the Valuation of Child Health-Related Quality of Life: Replacing Paired Comparisons With Kaizen Tasks and QALY Scaling With Experience Scaling",
+      "journal": "Medical care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jumamyradov M",
+          "last_name": "Jumamyradov",
+          "orcid": "0009-0008-0180-7224"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": "0000-0002-0006-6769"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC12422609",
+        "pdf_url": "https://europepmc.org/articles/PMC12422609?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000002200",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

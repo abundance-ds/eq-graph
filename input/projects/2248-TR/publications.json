@@ -1,0 +1,75 @@
+{
+  "project_id": "2248-TR",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03765-2",
+      "doi": "10.1007/s11136-024-03765-2",
+      "pmid": "39207629",
+      "pmcid": "PMC11802602",
+      "title": "He/She/They - gender inclusivity in developing and using health-related questionnaires: a scoping review",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Scott D",
+          "last_name": "Scott",
+          "orcid": "0000-0003-3943-7392"
+        },
+        {
+          "full_name": "Derrett S",
+          "last_name": "Derrett",
+          "orcid": "0000-0003-2867-0498"
+        },
+        {
+          "full_name": "Rupel VP",
+          "last_name": "Rupel",
+          "orcid": "0000-0002-1238-7156"
+        },
+        {
+          "full_name": "Jelsma J",
+          "last_name": "Jelsma",
+          "orcid": null
+        },
+        {
+          "full_name": "Gurung G",
+          "last_name": "Gurung",
+          "orcid": "0000-0002-7609-1880"
+        },
+        {
+          "full_name": "Oduro GY",
+          "last_name": "Oduro",
+          "orcid": "0000-0003-3030-7196"
+        },
+        {
+          "full_name": "Withey-Rila C",
+          "last_name": "Withey-Rila",
+          "orcid": "0000-0002-7594-5549"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11802602",
+        "pdf_url": "https://europepmc.org/articles/PMC11802602?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03765-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,71 @@
+{
+  "project_id": "20170400",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40258-021-00639-3",
+      "doi": "10.1007/s40258-021-00639-3",
+      "pmid": "33527304",
+      "pmcid": "PMC8270796",
+      "title": "The Danish EQ-5D-5L Value Set: A Hybrid Model Using cTTO and DCE Data",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Cathrine Elgaard Jensen",
+          "last_name": "Jensen",
+          "orcid": "https://orcid.org/0000-0001-7300-254x"
+        },
+        {
+          "full_name": "Sabrina Storgaard Sørensen",
+          "last_name": "Sørensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Claire Gudex",
+          "last_name": "Gudex",
+          "orcid": null
+        },
+        {
+          "full_name": "Morten Berg Jensen",
+          "last_name": "Jensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Kjeld Møller Pedersen",
+          "last_name": "Pedersen",
+          "orcid": null
+        },
+        {
+          "full_name": "Lars Holger Ehlers",
+          "last_name": "Ehlers",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20170400",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8270796",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-021-00639-3.pdf",
+        "landing_page": "https://doi.org/10.1007/s40258-021-00639-3",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

@@ -1,0 +1,70 @@
+{
+  "project_id": "430-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2023-080985",
+      "doi": "10.1136/bmjopen-2023-080985",
+      "pmid": "39009459",
+      "pmcid": "PMC11253756",
+      "title": "Protocol for a longitudinal study examining the trajectory of COVID-19, post-COVID, multidimensional disadvantage and health-related quality of life in India: the IndiQol Project",
+      "journal": "BMJ open",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Sinha K",
+          "last_name": "Sinha",
+          "orcid": "0000-0003-4318-6100"
+        },
+        {
+          "full_name": "Gutacker N",
+          "last_name": "Gutacker",
+          "orcid": "0000-0002-2833-0621"
+        },
+        {
+          "full_name": "Gu Y",
+          "last_name": "Gu",
+          "orcid": "0000-0002-3816-9106"
+        },
+        {
+          "full_name": "Haagsma J",
+          "last_name": "Haagsma",
+          "orcid": "0000-0002-2055-548X"
+        },
+        {
+          "full_name": "Kumar K",
+          "last_name": "Kumar",
+          "orcid": "0000-0001-5913-0297"
+        },
+        {
+          "full_name": "Aghdaee M",
+          "last_name": "Aghdaee",
+          "orcid": "0000-0002-2570-1685"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 430-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC11253756",
+        "pdf_url": "https://europepmc.org/articles/PMC11253756?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2023-080985",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

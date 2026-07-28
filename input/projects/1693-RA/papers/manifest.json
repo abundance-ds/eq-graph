@@ -1,0 +1,19 @@
+{
+  "project_id": "1693-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01892-2",
+      "doi": "10.1007/s10198-025-01892-2",
+      "title": "Revisiting health state preferences after 20 years: A new EQ-5D-3L value set for the Netherlands",
+      "method": "publisher_pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1007/s10198-025-01892-2",
+      "status": "ok",
+      "file": "input/projects/1693-RA/papers/doi_10.1007_s10198-025-01892-2.pdf",
+      "bytes": 1030098,
+      "sha256": "d7ada217b510fa49fdb7d0dc473742f4d913cdf073b819f7ff8a1ec761609f46"
+    }
+  ]
+}

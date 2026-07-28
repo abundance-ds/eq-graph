@@ -1,0 +1,19 @@
+{
+  "project_id": "1711-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01550-8",
+      "doi": "10.1007/s40273-025-01550-8",
+      "title": "Improving Collaborative Engagement in Health State Valuation: A Scoping Review of Current Practices and Emerging Recommendations",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12858505/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01550-8",
+      "status": "ok",
+      "file": "input/projects/1711-RA/papers/doi_10.1007_s40273-025-01550-8.xml",
+      "bytes": 184334,
+      "sha256": "0fca0fc65d5aae9ed9ab59a4634579bfecdaf7b569fe0b4e4809913dda2eded5"
+    }
+  ]
+}

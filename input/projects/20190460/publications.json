@@ -1,0 +1,512 @@
+{
+  "project_id": "20190460",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40258-022-00772-7",
+      "doi": "10.1007/s40258-022-00772-7",
+      "pmid": "36434410",
+      "pmcid": "PMC9702834",
+      "title": "EQ-5D-5L Population Norms for Italy",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Michela Meregaglia",
+          "last_name": "Meregaglia",
+          "orcid": "https://orcid.org/0000-0003-0092-5970"
+        },
+        {
+          "full_name": "Francesco Malandrini",
+          "last_name": "Malandrini",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Oriana Ciani",
+          "last_name": "Ciani",
+          "orcid": null
+        },
+        {
+          "full_name": "Claudio Jommi",
+          "last_name": "Jommi",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20190460",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20190460",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9702834",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-022-00772-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s40258-022-00772-7",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03141-y",
+      "doi": "10.1007/s11136-022-03141-y",
+      "pmid": "35471487",
+      "pmcid": "PMC9039271",
+      "title": "A qualitative investigation of the relevance of skin irritation and self-confidence bolt-ons and their conceptual overlap with the EQ-5D in patients with psoriasis",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Alex Bató",
+          "last_name": "Bató",
+          "orcid": "https://orcid.org/0000-0002-1450-4790"
+        },
+        {
+          "full_name": "Adrienn Katalin Poór",
+          "last_name": "Poór",
+          "orcid": "https://orcid.org/0000-0002-6524-9021"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9039271",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03141-y.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03141-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01192-0",
+      "doi": "10.1007/s40273-022-01192-0",
+      "pmid": "36216977",
+      "pmcid": "PMC9549846",
+      "title": "A Value Set for the EQ-5D-Y-3L in the Netherlands",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Ayesha Sajjad",
+          "last_name": "Sajjad",
+          "orcid": null
+        },
+        {
+          "full_name": "Brigitte Essers",
+          "last_name": "Essers",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9549846",
+        "pdf_url": "https://europepmc.org/articles/PMC9549846?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01192-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s41669-024-00486-7",
+      "doi": "10.1007/s41669-024-00486-7",
+      "pmid": "38592657",
+      "pmcid": "PMC11058132",
+      "title": "Behind the Scenes: A Qualitative Investigation of Interviewers' Performance in EQ-5D Valuation Studies",
+      "journal": "PharmacoEconomics - Open",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Carlotta Varriale",
+          "last_name": "Varriale",
+          "orcid": "https://orcid.org/0000-0002-4441-6687"
+        },
+        {
+          "full_name": "Giovanni Andrulli",
+          "last_name": "Andrulli",
+          "orcid": "https://orcid.org/0009-0003-4264-0946"
+        },
+        {
+          "full_name": "Michela Meregaglia",
+          "last_name": "Meregaglia",
+          "orcid": "https://orcid.org/0000-0003-0092-5970"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11058132",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s41669-024-00486-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s41669-024-00486-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.03.002",
+      "doi": "10.1016/j.jval.2024.03.002",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Measurement Properties of the EQ-HWB and the EQ-HWB-S in Italian Population: A Comparative Study With EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maja Kuharić",
+          "last_name": "Kuharić",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.03.002",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524001165/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.03.002",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2021.114519",
+      "doi": "10.1016/j.socscimed.2021.114519",
+      "pmid": null,
+      "pmcid": null,
+      "title": "An EQ-5D-5L value set for Italy using videoconferencing interviews and feasibility of a new mode of administration",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        },
+        {
+          "full_name": "Michela Meregaglia",
+          "last_name": "Meregaglia",
+          "orcid": null
+        },
+        {
+          "full_name": "Oriana Ciani",
+          "last_name": "Ciani",
+          "orcid": "https://orcid.org/0000-0002-3607-0508"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Claudio Jommi",
+          "last_name": "Jommi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2021.114519",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2021.114519",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2022.115370",
+      "doi": "10.1016/j.socscimed.2022.115370",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Where do measures of health, social care and wellbeing fit within a wider measurement framework? Implications for the measurement of quality of life and the identification of bolt-ons",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2022.115370",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2022.115370",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x20969686",
+      "doi": "10.1177/0272989x20969686",
+      "pmid": "33256502",
+      "pmcid": "PMC7780267",
+      "title": "Selecting Bolt-on Dimensions for the EQ-5D: Testing the Impact of Hearing, Sleep, Cognition, Energy, and Relationships on Preferences Using Pairwise Choices",
+      "journal": "Medical Decision Making",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-3950-9210"
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC7780267",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X20969686",
+        "landing_page": "https://doi.org/10.1177/0272989x20969686",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-024-00706-y",
+      "doi": "10.1186/s41687-024-00706-y",
+      "pmid": "38519577",
+      "pmcid": "PMC10959916",
+      "title": "Content validity of the EQ-HWB and EQ-HWB-S in a sample of Italian patients, informal caregivers and members of the general public",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Masutti S",
+          "last_name": "Masutti",
+          "orcid": "0009-0003-1666-1153"
+        },
+        {
+          "full_name": "Falivena C",
+          "last_name": "Falivena",
+          "orcid": "0000-0003-3259-095X"
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Jommi C",
+          "last_name": "Jommi",
+          "orcid": "0000-0002-2862-2990"
+        },
+        {
+          "full_name": "Mukuria C",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Finch AP",
+          "last_name": "Finch",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10959916",
+        "pdf_url": "https://europepmc.org/articles/PMC10959916?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00706-y",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

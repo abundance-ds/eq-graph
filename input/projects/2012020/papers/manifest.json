@@ -1,0 +1,19 @@
+{
+  "project_id": "2012020",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-018-0615-8",
+      "doi": "10.1007/s40273-018-0615-8",
+      "title": "German Value Set for the EQ-5D-5L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5954069/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-018-0615-8",
+      "status": "ok",
+      "file": "input/projects/2012020/papers/doi_10.1007_s40273-018-0615-8.xml",
+      "bytes": 83414,
+      "sha256": "a4d85be57bdad3a0ea02b266175df164eb45cee73db85f8631839be04e84969c"
+    }
+  ]
+}

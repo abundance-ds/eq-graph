@@ -1,0 +1,99 @@
+{
+  "project_id": "2337-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2024-091097",
+      "doi": "10.1136/bmjopen-2024-091097",
+      "pmid": "39987002",
+      "pmcid": "PMC11848668",
+      "title": "Health valuation protocol for dual discrete choice experiment (dual-DCE) surveys to estimate the effects of different scenarios and attributes on main effects",
+      "journal": "BMJ Open",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Benjamin Matthew Craig",
+          "last_name": "Craig",
+          "orcid": "https://orcid.org/0000-0003-1121-1316"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11848668",
+        "pdf_url": "https://europepmc.org/articles/PMC11848668?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2024-091097",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2025-100897",
+      "doi": "10.1136/bmjopen-2025-100897",
+      "pmid": "40633947",
+      "pmcid": "PMC12243590",
+      "title": "Assessing the experimental EuroQol toddler and infant populations (EQ-TIPS) descriptive system: a protocol integrating discrete choice experiment (DCE) surveys in instrument development",
+      "journal": "BMJ Open",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Benjamin Matthew Craig",
+          "last_name": "Craig",
+          "orcid": "https://orcid.org/0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": "https://orcid.org/0000-0003-2233-6544"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12243590",
+        "pdf_url": "https://europepmc.org/articles/PMC12243590?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

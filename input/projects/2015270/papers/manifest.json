@@ -1,0 +1,19 @@
+{
+  "project_id": "2015270",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s41687-020-00247-0",
+      "doi": "10.1186/s41687-020-00247-0",
+      "title": "Quality of life among patients seeking treatment for substance use disorder, as measured with the EQ-5D-3L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7652980/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s41687-020-00247-0",
+      "status": "ok",
+      "file": "input/projects/2015270/papers/doi_10.1186_s41687-020-00247-0.xml",
+      "bytes": 88318,
+      "sha256": "e9d46e5a7326c9bf795400f36dce13a2a766f1ff87227194cf2fd904c3e16fd1"
+    }
+  ]
+}

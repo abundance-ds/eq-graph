@@ -1,0 +1,17 @@
+{
+  "project_id": "2015280",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2020.04.1825",
+      "doi": "10.1016/j.jval.2020.04.1825",
+      "title": "EQ-5D–Derived Health State Utility Values in Hematologic Malignancies: A Catalog of 796 Utilities Based on a Systematic Review",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2020.04.1825",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

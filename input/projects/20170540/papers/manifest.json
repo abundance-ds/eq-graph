@@ -1,0 +1,32 @@
+{
+  "project_id": "20170540",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-020-01410-3",
+      "doi": "10.1186/s12955-020-01410-3",
+      "title": "How does the EQ-5D-Y Proxy version 1 perform in 3, 4 and 5-year-old children?",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7247261/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-020-01410-3",
+      "status": "ok",
+      "file": "input/projects/20170540/papers/doi_10.1186_s12955-020-01410-3.xml",
+      "bytes": 88882,
+      "sha256": "2e21faeeb695ed968a8a10eb5aeea4b699f9cb76bc9d1524fc25e36ae8bd53ce"
+    },
+    {
+      "work_id": "doi:10.3390/children8100920",
+      "doi": "10.3390/children8100920",
+      "title": "Performance of the Toddler and Infant (TANDI) Health-Related Quality of Life Instrument in 3–4-Year-Old Children",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8534352/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/children8100920",
+      "status": "ok",
+      "file": "input/projects/20170540/papers/doi_10.3390_children8100920.xml",
+      "bytes": 167967,
+      "sha256": "2be77b101062f01d172e17bd4db2aa4183b9965e7407f0debb2cce764ac08f64"
+    }
+  ]
+}

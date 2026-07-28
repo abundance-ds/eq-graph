@@ -1,0 +1,19 @@
+{
+  "project_id": "2016290",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3961/jpmph.22.151",
+      "doi": "10.3961/jpmph.22.151",
+      "title": "Perceptions of the General Public About Health-related Quality of Life and the EQ-5D Questionnaire: A Qualitative Study in Korea",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9201084/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.3961/jpmph.22.151",
+      "status": "ok",
+      "file": "input/projects/2016290/papers/doi_10.3961_jpmph.22.151.xml",
+      "bytes": 105828,
+      "sha256": "84b0b27f2794fd65cf236121e198e71c32a0f05b45fba9d289a7dceb677b536d"
+    }
+  ]
+}

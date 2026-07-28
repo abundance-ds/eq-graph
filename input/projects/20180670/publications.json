@@ -1,0 +1,162 @@
+{
+  "project_id": "20180670",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.ctro.2022.09.008",
+      "doi": "10.1016/j.ctro.2022.09.008",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Replacing performance status with a simple patient-reported outcome in palliative radiotherapy prognostic modelling",
+      "journal": "Clinical and Translational Radiation Oncology",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Daniel Howdon",
+          "last_name": "Howdon",
+          "orcid": null
+        },
+        {
+          "full_name": "Wilbert van den Hout",
+          "last_name": "van den Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "Yvette van der Linden",
+          "last_name": "van der Linden",
+          "orcid": null
+        },
+        {
+          "full_name": "Katie Spencer",
+          "last_name": "Spencer",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.ctro.2022.09.008",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.ctro.2022.09.008",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1200/cci.23.00070",
+      "doi": "10.1200/cci.23.00070",
+      "pmid": "37976441",
+      "pmcid": "PMC10681558",
+      "title": "Fixing the Leaky Pipe: How to Improve the Uptake of Patient-Reported Outcomes-Based Prognostic and Predictive Models in Cancer Clinical Practice",
+      "journal": "JCO clinical cancer informatics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Spencer KL",
+          "last_name": "Spencer",
+          "orcid": "0000-0002-6846-4341"
+        },
+        {
+          "full_name": "Absolom KL",
+          "last_name": "Absolom",
+          "orcid": "0000-0002-5477-6643"
+        },
+        {
+          "full_name": "Allsop MJ",
+          "last_name": "Allsop",
+          "orcid": "0000-0002-7399-0194"
+        },
+        {
+          "full_name": "Relton SD",
+          "last_name": "Relton",
+          "orcid": "0000-0003-0634-4587"
+        },
+        {
+          "full_name": "Pearce J",
+          "last_name": "Pearce",
+          "orcid": "0000-0002-6553-2652"
+        },
+        {
+          "full_name": "Liao K",
+          "last_name": "Liao",
+          "orcid": "0000-0002-8840-0599"
+        },
+        {
+          "full_name": "Naseer S",
+          "last_name": "Naseer",
+          "orcid": "0000-0002-8812-8417"
+        },
+        {
+          "full_name": "Salako O",
+          "last_name": "Salako",
+          "orcid": "0000-0003-3165-8879"
+        },
+        {
+          "full_name": "Howdon D",
+          "last_name": "Howdon",
+          "orcid": "0000-0001-8052-2893"
+        },
+        {
+          "full_name": "Hewison J",
+          "last_name": "Hewison",
+          "orcid": null
+        },
+        {
+          "full_name": "Velikova G",
+          "last_name": "Velikova",
+          "orcid": "0000-0003-1899-5942"
+        },
+        {
+          "full_name": "Faivre-Finn C",
+          "last_name": "Faivre-Finn",
+          "orcid": "0000-0001-5617-9781"
+        },
+        {
+          "full_name": "Bekker HL",
+          "last_name": "Bekker",
+          "orcid": "0000-0003-1978-5795"
+        },
+        {
+          "full_name": "van der Veer SN",
+          "last_name": "van der Veer",
+          "orcid": "0000-0003-0929-436X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10681558",
+        "pdf_url": "https://europepmc.org/articles/PMC10681558?pdf=render",
+        "landing_page": "https://doi.org/10.1200/cci.23.00070",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

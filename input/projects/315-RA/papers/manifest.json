@@ -1,0 +1,19 @@
+{
+  "project_id": "315-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-021-03069-9",
+      "doi": "10.1007/s11136-021-03069-9",
+      "title": "Sensitivity of the EQ-5D-5L for fatigue and cognitive problems and their added value in Q-fever patients",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8799410/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-021-03069-9",
+      "status": "ok",
+      "file": "input/projects/315-RA/papers/doi_10.1007_s11136-021-03069-9.xml",
+      "bytes": 111020,
+      "sha256": "1e2aa799eb4412323869df9ceafb5d5e7bf4127166481f67e5afc6bdfaa7d778"
+    }
+  ]
+}

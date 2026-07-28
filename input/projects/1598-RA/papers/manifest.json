@@ -1,0 +1,19 @@
+{
+  "project_id": "1598-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2025-102509",
+      "doi": "10.1136/bmjopen-2025-102509",
+      "title": "Validation of EuroQol instruments in paediatric patients and their caregivers in China: protocol for a prospective observational study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12182107/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2025-102509",
+      "status": "ok",
+      "file": "input/projects/1598-RA/papers/doi_10.1136_bmjopen-2025-102509.xml",
+      "bytes": 88850,
+      "sha256": "35e4a0b745d5da7d8ce6129b264d4d88b2404ec253704edc03a6901f245f5d6f"
+    }
+  ]
+}

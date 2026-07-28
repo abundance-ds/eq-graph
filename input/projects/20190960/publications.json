@@ -1,0 +1,815 @@
+{
+  "project_id": "20190960",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03312-x",
+      "doi": "10.1007/s11136-022-03312-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "What is measured by the composite, single-item pain/discomfort dimension of the EQ-5D-5L? An exploratory analysis",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "David G. T. Whitehurst",
+          "last_name": "Whitehurst",
+          "orcid": "https://orcid.org/0000-0002-7890-6756"
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        },
+        {
+          "full_name": "M. F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/c6dc6457-9324-4d0f-bb74-8af64a0446ce",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-022-03312-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03372-7",
+      "doi": "10.1007/s11136-023-03372-7",
+      "pmid": "36809437",
+      "pmcid": "PMC10241678",
+      "title": "Examining the psychometric properties of a split version of the EQ-5D-5L anxiety/depression dimension in patients with anxiety and/or depression",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": "https://orcid.org/0000-0001-5473-3857"
+        },
+        {
+          "full_name": "Cathrine Mihalopoulos",
+          "last_name": "Mihalopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Yong Yi Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03372-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03372-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03372-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03735-8",
+      "doi": "10.1007/s11136-024-03735-8",
+      "pmid": "39012559",
+      "pmcid": "PMC11452469",
+      "title": "Health-related quality of life and utility values among patients with anxiety and/or depression in a low-income tertiary care setting: a cross-sectional analysis",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Belay YB",
+          "last_name": "Belay",
+          "orcid": "0000-0001-5473-3857"
+        },
+        {
+          "full_name": "Mihalopoulos C",
+          "last_name": "Mihalopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Lee YY",
+          "last_name": "Lee",
+          "orcid": "0000-0003-2359-6823"
+        },
+        {
+          "full_name": "Engel L",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11452469",
+        "pdf_url": "https://europepmc.org/articles/PMC11452469?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03735-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-023-00647-6",
+      "doi": "10.1007/s40271-023-00647-6",
+      "pmid": "37803217",
+      "pmcid": "PMC10570159",
+      "title": "Face Validity of Four Preference-Weighted Quality-of-Life Measures in Residential Aged Care: A Think-Aloud Study",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Leona Kosowicz",
+          "last_name": "Kosowicz",
+          "orcid": null
+        },
+        {
+          "full_name": "Ekaterina Bogatyreva",
+          "last_name": "Bogatyreva",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew S. Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10570159",
+        "pdf_url": "https://europepmc.org/articles/PMC10570159?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-023-00647-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-024-00715-5",
+      "doi": "10.1007/s40271-024-00715-5",
+      "pmid": "39235710",
+      "pmcid": "PMC11461598",
+      "title": "Appropriateness of the EQ-HWB for Use in Residential Aged Care: A Proxy Perspective",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Ekaterina Bogatyreva",
+          "last_name": "Bogatyreva",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew S. Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11461598",
+        "pdf_url": "https://europepmc.org/articles/PMC11461598?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-024-00715-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00729-7",
+      "doi": "10.1007/s40271-025-00729-7",
+      "pmid": "39899209",
+      "pmcid": "PMC11985636",
+      "title": "Routine Quality-of-Life Measurement in Residential Aged Care: Staff, Resident, and Family Perspectives",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Andrew Simon Gilbert",
+          "last_name": "Gilbert",
+          "orcid": "https://orcid.org/0000-0002-0525-8516"
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": "https://orcid.org/0000-0002-7302-7293"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": "https://orcid.org/0000-0002-4186-314x"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11985636",
+        "pdf_url": "https://europepmc.org/articles/PMC11985636?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00729-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00787-x",
+      "doi": "10.1007/s40271-025-00787-x",
+      "pmid": "41204006",
+      "pmcid": "PMC13124758",
+      "title": "Feasibility of Routine Quality-of-Life Measurement in Residential Aged Care: Results from a Pilot Study in Australia",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13124758",
+        "pdf_url": "https://europepmc.org/articles/PMC13124758?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00787-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01509-9",
+      "doi": "10.1007/s40273-025-01509-9",
+      "pmid": "40580406",
+      "pmcid": "PMC12370823",
+      "title": "The Psychometric Performance of Generic Preference-Based Measures in Informal Carers: A Systematic Review of Validation Studies",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jan Faller",
+          "last_name": "Faller",
+          "orcid": "https://orcid.org/0000-0001-7645-2079"
+        },
+        {
+          "full_name": "Valeriia Sokolova",
+          "last_name": "Sokolova",
+          "orcid": "https://orcid.org/0000-0001-7335-4852"
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": "https://orcid.org/0000-0001-5473-3857"
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": "https://orcid.org/0000-0002-8385-5965"
+        },
+        {
+          "full_name": "Cathrine Mihalopoulos",
+          "last_name": "Mihalopoulos",
+          "orcid": "https://orcid.org/0000-0002-7127-9462"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12370823",
+        "pdf_url": "https://europepmc.org/articles/PMC12370823?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-025-01509-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.04.2168",
+      "doi": "10.1016/j.jval.2025.04.2168",
+      "pmid": "40350057",
+      "pmcid": null,
+      "title": "The Psychometric Performance of the EQ Health and Wellbeing in Caregivers of Persons Living With Dementia",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.04.2168",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2168",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.05.012",
+      "doi": "10.1016/j.jval.2025.05.012",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Validity of the EQ-5D-5L for Routine Assessment in Residential Aged Care: Results From a Feasibility Study",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.05.012",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.05.012",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.07.009",
+      "doi": "10.1016/j.jval.2025.07.009",
+      "pmid": "40701341",
+      "pmcid": null,
+      "title": "Are Generic Preference-Based Measures Valid for Use in Informal Carers? A Psychometric Investigation",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jan Faller",
+          "last_name": "Faller",
+          "orcid": null
+        },
+        {
+          "full_name": "Cathrine Mihalopoulos",
+          "last_name": "Mihalopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nikki McCaffrey",
+          "last_name": "McCaffrey",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://figshare.com/articles/journal_contribution/Are_generic_preference-based_measures_valid_for_use_in_informal_carers_A_psychometric_investigation/29878841",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.07.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.03.2234",
+      "doi": "10.1016/j.jval.2026.03.2234",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric Performance of Preference-Weighted Instruments in Older Adults: A Systematic Review",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Valeriia Sokolova",
+          "last_name": "Sokolova",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Faller",
+          "last_name": "Faller",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.03.2234",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.03.2234",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

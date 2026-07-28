@@ -1,0 +1,19 @@
+{
+  "project_id": "2015300",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-018-0694-6",
+      "doi": "10.1007/s40273-018-0694-6",
+      "title": "Severity-Stratified Discrete Choice Experiment Designs for Health State Evaluations",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6182499/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-018-0694-6",
+      "status": "ok",
+      "file": "input/projects/2015300/papers/doi_10.1007_s40273-018-0694-6.xml",
+      "bytes": 149834,
+      "sha256": "2e1cebc0108c6fcbda08377396fad8012bf8ccdbcbed8b62102cfb924221e8e1"
+    }
+  ]
+}

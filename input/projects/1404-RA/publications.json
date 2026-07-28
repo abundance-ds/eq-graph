@@ -1,0 +1,1192 @@
+{
+  "project_id": "1404-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01530-y",
+      "doi": "10.1007/s40273-025-01530-y",
+      "pmid": "40828359",
+      "pmcid": null,
+      "title": "Eliciting and Anchoring Health State Preferences Using Discrete Choice Experiments Among Adults, Adolescents, and Children",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Shitong Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goni",
+          "last_name": "Ramos-Goni",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": "https://orcid.org/0000-0003-3454-6266"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1404-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40273-025-01530-y",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.07.016",
+      "doi": "10.1016/j.jval.2025.07.016",
+      "pmid": "40738298",
+      "pmcid": null,
+      "title": "Testing the Valuation of the EQ-5D-Y-5L in Adults and Adolescents: Results From a 5-Country Study and Implications for the Descriptive System",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goni",
+          "last_name": "Ramos-Goni",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Shitong Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1404-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.07.016",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.07.016",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.4863",
+      "doi": "10.1002/hec.4863",
+      "pmid": "38831492",
+      "pmcid": null,
+      "title": "Is anchoring at ‘dead’ a theoretical requirement for health state valuation?",
+      "journal": "Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": "https://orcid.org/0000-0001-9470-2369"
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": "https://orcid.org/0000-0002-9990-8208"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://doi.org/10.1002/hec.4863",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
+        "landing_page": "https://doi.org/10.1002/hec.4863",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01789-0",
+      "doi": "10.1007/s10198-025-01789-0",
+      "pmid": "40679687",
+      "pmcid": "PMC13046671",
+      "title": "Valuing health states for infants and toddlers: challenges and methodological considerations in EQ-TIPS preference elicitation",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": "https://orcid.org/0000-0002-4832-7833"
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13046671",
+        "pdf_url": "https://europepmc.org/articles/PMC13046671?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01789-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01852-w",
+      "doi": "10.1007/s10198-025-01852-w",
+      "pmid": "41160306",
+      "pmcid": "PMC13190540",
+      "title": "Do EQ-5D-Y-3L value sets have common properties, and how do they compare to EQ-5D-5L value sets?",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13190540",
+        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02911-4",
+      "doi": "10.1007/s11136-021-02911-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": "https://orcid.org/0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-021-02911-4",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03462-6",
+      "doi": "10.1007/s11136-023-03462-6",
+      "pmid": "37347395",
+      "pmcid": "PMC10522725",
+      "title": "Understanding the measurement relationship between EQ-5D-5L, PROMIS-29 and PROPr",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03990-3",
+      "doi": "10.1007/s11136-025-03990-3",
+      "pmid": "40366531",
+      "pmcid": "PMC12274235",
+      "title": "Use of a generic Paediatric Patient Reported Outcome Measure (P-PROM) in Routine hospital Outpatient Care for Kids (ROCK): A qualitative exploration of adolescent, caregiver and service provider perspectives (P-PROM ROCK Phase 1)",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": "https://orcid.org/0000-0002-5332-5226"
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "Harriet Hiscock",
+          "last_name": "Hiscock",
+          "orcid": "https://orcid.org/0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Alexander van Heudsen",
+          "last_name": "van Heudsen",
+          "orcid": "https://orcid.org/0009-0007-8055-5450"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12274235",
+        "pdf_url": "https://europepmc.org/articles/PMC12274235?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03990-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03996-x",
+      "doi": "10.1007/s11136-025-03996-x",
+      "pmid": "40448866",
+      "pmcid": "PMC12274246",
+      "title": "“If we ask, we must act”: co-designing the implementation of the EQ-5D-Y-5L as a Paediatric Patient Reported Outcome Measure in Routine hospital Outpatient Care for Kids to meaningfully impact clinical visits (P-PROM ROCK Phase 2)",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": "https://orcid.org/0000-0002-5332-5226"
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "Harriet Hiscock",
+          "last_name": "Hiscock",
+          "orcid": "https://orcid.org/0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Karen McLean",
+          "last_name": "McLean",
+          "orcid": "https://orcid.org/0000-0002-8438-2901"
+        },
+        {
+          "full_name": "Diana Truong",
+          "last_name": "Truong",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Tuan Phuong Dao",
+          "last_name": "Dao",
+          "orcid": null
+        },
+        {
+          "full_name": "Kathe Holmes",
+          "last_name": "Holmes",
+          "orcid": "https://orcid.org/0009-0006-8425-0825"
+        },
+        {
+          "full_name": "Kath Feely",
+          "last_name": "Feely",
+          "orcid": null
+        },
+        {
+          "full_name": "Jessica Taranto",
+          "last_name": "Taranto",
+          "orcid": "https://orcid.org/0000-0002-4290-4863"
+        },
+        {
+          "full_name": "Abby Palmer",
+          "last_name": "Palmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Tanya Wolfe",
+          "last_name": "Wolfe",
+          "orcid": null
+        },
+        {
+          "full_name": "Penny Richards Fowler",
+          "last_name": "Fowler",
+          "orcid": null
+        },
+        {
+          "full_name": "Kirsten Pini",
+          "last_name": "Pini",
+          "orcid": null
+        },
+        {
+          "full_name": "Max Pini",
+          "last_name": "Pini",
+          "orcid": null
+        },
+        {
+          "full_name": "Einat Martonovich-Lantsberg",
+          "last_name": "Martonovich-Lantsberg",
+          "orcid": null
+        },
+        {
+          "full_name": "Joanna Lawrence",
+          "last_name": "Lawrence",
+          "orcid": "https://orcid.org/0000-0002-7913-7274"
+        },
+        {
+          "full_name": "Misel Trajanovska",
+          "last_name": "Trajanovska",
+          "orcid": "https://orcid.org/0000-0001-6983-0166"
+        },
+        {
+          "full_name": "Adele Berry",
+          "last_name": "Berry",
+          "orcid": null
+        },
+        {
+          "full_name": "Valerie Sung",
+          "last_name": "Sung",
+          "orcid": "https://orcid.org/0000-0003-2029-6331"
+        },
+        {
+          "full_name": "Sebastian King",
+          "last_name": "King",
+          "orcid": "https://orcid.org/0000-0001-5396-0265"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12274246",
+        "pdf_url": "https://europepmc.org/articles/PMC12274246?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03996-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-021-00658-0",
+      "doi": "10.1007/s40258-021-00658-0",
+      "pmid": "34173957",
+      "pmcid": "PMC8545780",
+      "title": "EQ-5D-5L Health-State Values for the Mexican Population",
+      "journal": "Applied health economics and health policy",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Gutierrez-Delgado C",
+          "last_name": "Gutierrez-Delgado",
+          "orcid": null
+        },
+        {
+          "full_name": "Galindo-Suárez RM",
+          "last_name": "Galindo-Suárez",
+          "orcid": null
+        },
+        {
+          "full_name": "Cruz-Santiago C",
+          "last_name": "Cruz-Santiago",
+          "orcid": null
+        },
+        {
+          "full_name": "Shah K",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Papadimitropoulos M",
+          "last_name": "Papadimitropoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Y",
+          "last_name": "Feng",
+          "orcid": "0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Zamora B",
+          "last_name": "Zamora",
+          "orcid": "0000-0002-8123-644X"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC8545780",
+        "pdf_url": "https://europepmc.org/articles/PMC8545780?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-021-00658-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-025-00989-2",
+      "doi": "10.1007/s40258-025-00989-2",
+      "pmid": "40705271",
+      "pmcid": "PMC12535937",
+      "title": "Measuring and Valuing Health Using EuroQol Instruments: New Developments 2025 and Beyond",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Slaap",
+          "last_name": "Slaap",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12535937",
+        "pdf_url": "https://europepmc.org/articles/PMC12535937?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-025-00989-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-021-01109-3",
+      "doi": "10.1007/s40273-021-01109-3",
+      "pmid": "34786591",
+      "pmcid": "PMC8866274",
+      "title": "A Comparison of PROPr and EQ-5D-5L Value Sets",
+      "journal": "PharmacoEconomics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": "https://orcid.org/0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8866274",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-021-01109-3.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-021-01109-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01226-7",
+      "doi": "10.1007/s40273-022-01226-7",
+      "pmid": "36504378",
+      "pmcid": "PMC9758242",
+      "title": "EQ-5D-Y-3L Value Sets, Valuation Methods and Conceptual Questions",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9758242",
+        "pdf_url": "https://europepmc.org/articles/PMC9758242?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01226-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-023-01300-8",
+      "doi": "10.1007/s40273-023-01300-8",
+      "pmid": "37439998",
+      "pmcid": "PMC10492668",
+      "title": "Using Age-Specific Values for Pediatric HRQoL in Cost-Effectiveness Analysis: Is There a Problem to Be Solved? If So, How?",
+      "journal": "PharmacoEconomics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Sculpher",
+          "last_name": "Sculpher",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Jit",
+          "last_name": "Jit",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Barend van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10492668",
+        "pdf_url": "https://europepmc.org/articles/PMC10492668?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-023-01300-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01476-1",
+      "doi": "10.1007/s40273-025-01476-1",
+      "pmid": "39960567",
+      "pmcid": "PMC12011929",
+      "title": "A Taxonomy for Assessing Whether HRQoL Value Sets Are Obsolete",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcel Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Saskia Knies",
+          "last_name": "Knies",
+          "orcid": null
+        },
+        {
+          "full_name": "Raoh-Fang Pwu",
+          "last_name": "Pwu",
+          "orcid": null
+        },
+        {
+          "full_name": "Ciaran O’Neill",
+          "last_name": "O’Neill",
+          "orcid": null
+        },
+        {
+          "full_name": "Kirsten Howard",
+          "last_name": "Howard",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12011929",
+        "pdf_url": "https://europepmc.org/articles/PMC12011929?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-025-01476-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.06.004",
+      "doi": "10.1016/j.jval.2023.06.004",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
+      "journal": "Value in Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "Alexander van Heusden",
+          "last_name": "van Heusden",
+          "orcid": null
+        },
+        {
+          "full_name": "Janani Sarvananthar",
+          "last_name": "Sarvananthar",
+          "orcid": null
+        },
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristy McGregor",
+          "last_name": "McGregor",
+          "orcid": null
+        },
+        {
+          "full_name": "Li Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Harriet Hiscock",
+          "last_name": "Hiscock",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.06.004",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.06.004",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.11.010",
+      "doi": "10.1016/j.jval.2024.11.010",
+      "pmid": "39694262",
+      "pmcid": null,
+      "title": "Reporting Uncertainty Around Health-State Values: A Standard Method and Worked Example",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Giselle Abangma",
+          "last_name": "Abangma",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Lloyd",
+          "last_name": "Lloyd",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Briggs",
+          "last_name": "Briggs",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.11.010",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 5
+}

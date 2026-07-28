@@ -1,0 +1,32 @@
+{
+  "project_id": "2016670",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-019-02156-2",
+      "doi": "10.1007/s11136-019-02156-2",
+      "title": "Health-related quality of life in injury patients: the added value of extending the EQ-5D-3L with a cognitive dimension",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6571080/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-019-02156-2",
+      "status": "ok",
+      "file": "input/projects/2016670/papers/doi_10.1007_s11136-019-02156-2.xml",
+      "bytes": 88452,
+      "sha256": "8c3c80e8349ee8184f686ac0159ba70d7a0b7b490554cfab0f41fc87aad69df5"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02496-4",
+      "doi": "10.1007/s11136-020-02496-4",
+      "title": "Does the EQ-5D-5L benefit from extension with a cognitive domain: Testing a multi-criteria psychometric strategy in trauma patients",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7434722/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-020-02496-4",
+      "status": "ok",
+      "file": "input/projects/2016670/papers/doi_10.1007_s11136-020-02496-4.xml",
+      "bytes": 107568,
+      "sha256": "0d216a910ceabbe95c6e992b79ce10ba1344ea1038eb944ffe4f7b278411961d"
+    }
+  ]
+}

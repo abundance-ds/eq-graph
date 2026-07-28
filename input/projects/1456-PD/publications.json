@@ -1,0 +1,134 @@
+{
+  "project_id": "1456-PD",
+  "accepted": [
+    {
+      "work_id": "doi:10.3390/curroncol32060308",
+      "doi": "10.3390/curroncol32060308",
+      "pmid": "40558251",
+      "pmcid": "PMC12191542",
+      "title": "Patient Experiences Regarding Feasibility of Implementing Real-World EQ-5D Collection at an Oncology Centre in Ontario, Canada",
+      "journal": "Current Oncology",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Teresa C. O. Tsui",
+          "last_name": "Tsui",
+          "orcid": "https://orcid.org/0000-0002-9806-9393"
+        },
+        {
+          "full_name": "Rebecca E. Mercer",
+          "last_name": "Mercer",
+          "orcid": "https://orcid.org/0000-0002-9264-7797"
+        },
+        {
+          "full_name": "Elena J. Zhou",
+          "last_name": "Zhou",
+          "orcid": null
+        },
+        {
+          "full_name": "Rahul K. Desai",
+          "last_name": "Desai",
+          "orcid": "https://orcid.org/0009-0003-3441-7795"
+        },
+        {
+          "full_name": "Shreya Chatterjee",
+          "last_name": "Chatterjee",
+          "orcid": "https://orcid.org/0000-0001-5541-5930"
+        },
+        {
+          "full_name": "Curtis Y. L. Yeung",
+          "last_name": "Yeung",
+          "orcid": "https://orcid.org/0009-0003-6953-6997"
+        },
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Kelvin K. W. Chan",
+          "last_name": "Chan",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1456-PD",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12191542",
+        "pdf_url": "https://europepmc.org/articles/PMC12191542?pdf=render",
+        "landing_page": "https://doi.org/10.3390/curroncol32060308",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3390/curroncol32110645",
+      "doi": "10.3390/curroncol32110645",
+      "pmid": "41294707",
+      "pmcid": "PMC12651012",
+      "title": "Examining the Association Between Equity-Related Factors and EQ-5D-3L Health Utilities of Patients with Cancer",
+      "journal": "Current Oncology",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Teresa C. O. Tsui",
+          "last_name": "Tsui",
+          "orcid": "https://orcid.org/0000-0002-9806-9393"
+        },
+        {
+          "full_name": "Rebecca E. Mercer",
+          "last_name": "Mercer",
+          "orcid": "https://orcid.org/0000-0002-9264-7797"
+        },
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "Kelvin K. W. Chan",
+          "last_name": "Chan",
+          "orcid": "https://orcid.org/0000-0002-2501-3057"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "grant id 1456-PD credited to EuroQol in metadata",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12651012",
+        "pdf_url": "https://europepmc.org/articles/PMC12651012?pdf=render",
+        "landing_page": "https://doi.org/10.3390/curroncol32110645",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

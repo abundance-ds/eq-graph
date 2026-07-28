@@ -1,0 +1,19 @@
+{
+  "project_id": "20180490",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-022-01210-1",
+      "doi": "10.1007/s40273-022-01210-1",
+      "title": "Estimating an EQ-5D-Y-3L Value Set for Indonesia by Mapping the DCE onto TTO Values",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9758088/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-022-01210-1",
+      "status": "ok",
+      "file": "input/projects/20180490/papers/doi_10.1007_s40273-022-01210-1.xml",
+      "bytes": 123967,
+      "sha256": "f1dc29ae7f7cd6ca2c848f63d44e7a5262bb6f21dc12bc3cfcdaaa8d1a4f5082"
+    }
+  ]
+}

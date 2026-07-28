@@ -1,0 +1,19 @@
+{
+  "project_id": "337-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04077-9",
+      "doi": "10.1007/s11136-025-04077-9",
+      "title": "Validity, reliability, and responsiveness of the EQ-5D in diseases of the upper respiratory tract: a systematic review of measurement properties",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12681457/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1007/s11136-025-04077-9",
+      "status": "ok",
+      "file": "input/projects/337-RA/papers/doi_10.1007_s11136-025-04077-9.xml",
+      "bytes": 167320,
+      "sha256": "8f2433eca82e2a0dbe8f49bbe8fe0d839bc8531c51d799175eec7b390940a02b"
+    }
+  ]
+}

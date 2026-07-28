@@ -1,0 +1,85 @@
+{
+  "project_id": "212-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-026-02575-z",
+      "doi": "10.1186/s12955-026-02575-z",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A randomised equivalence study of the EQ-5D-5L Shona versions: evaluation of measurement equivalence between digital and paper formats",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jermaine M. Dambi",
+          "last_name": "Dambi",
+          "orcid": "https://orcid.org/0000-0002-2446-7903"
+        },
+        {
+          "full_name": "Fredrick D. Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Beatrice K. Shava",
+          "last_name": "Shava",
+          "orcid": "https://orcid.org/0000-0002-9130-7010"
+        },
+        {
+          "full_name": "Anotida R. Hove",
+          "last_name": "Hove",
+          "orcid": "https://orcid.org/0009-0005-4050-0135"
+        },
+        {
+          "full_name": "Shalom R. Doyce",
+          "last_name": "Doyce",
+          "orcid": "https://orcid.org/0009-0006-7593-3253"
+        },
+        {
+          "full_name": "Tariro Tunduwani",
+          "last_name": "Tunduwani",
+          "orcid": "https://orcid.org/0009-0004-8073-7068"
+        },
+        {
+          "full_name": "Ben Domingue",
+          "last_name": "Domingue",
+          "orcid": "https://orcid.org/0000-0002-3894-9049"
+        },
+        {
+          "full_name": "Dixon Chibanda",
+          "last_name": "Chibanda",
+          "orcid": "https://orcid.org/0000-0003-2505-8607"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": "https://orcid.org/0000-0001-5645-7091"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02575-z",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02575-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

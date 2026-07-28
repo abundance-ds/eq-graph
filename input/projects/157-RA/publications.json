@@ -1,0 +1,342 @@
+{
+  "project_id": "157-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9",
+      "doi": "10.1007/978-3-030-47622-9",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Methods for Analysing and Reporting EQ-5D Data",
+      "journal": null,
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-47622-9.pdf?pdf=button",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_1",
+      "doi": "10.1007/978-3-030-47622-9_1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "An Introduction to EQ-5D Instruments and Their Applications",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_1.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_2",
+      "doi": "10.1007/978-3-030-47622-9_2",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Analysis of EQ-5D Profiles",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_2",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_2.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_3",
+      "doi": "10.1007/978-3-030-47622-9_3",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Analysis of EQ VAS Data",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_3",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_3.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_4",
+      "doi": "10.1007/978-3-030-47622-9_4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Analysis of EQ-5D Values",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_4",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_4.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_5",
+      "doi": "10.1007/978-3-030-47622-9_5",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Advanced Topics",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04226-8",
+      "doi": "10.1007/s11136-026-04226-8",
+      "pmid": "41920383",
+      "pmcid": "PMC13043573",
+      "title": "Psychometric validation of a cognition and social participation bolt-on for the EQ-5D-5L in SARS-CoV-2 infected German healthcare workers",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz I",
+          "last_name": "Buchholz",
+          "orcid": "0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Lüdtke L",
+          "last_name": "Lüdtke",
+          "orcid": null
+        },
+        {
+          "full_name": "Härter M",
+          "last_name": "Härter",
+          "orcid": null
+        },
+        {
+          "full_name": "Janssen MFB",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13043573",
+        "pdf_url": "https://europepmc.org/articles/PMC13043573?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04226-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

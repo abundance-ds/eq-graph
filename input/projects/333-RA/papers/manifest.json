@@ -1,0 +1,19 @@
+{
+  "project_id": "333-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-023-02177-z",
+      "doi": "10.1186/s12955-023-02177-z",
+      "title": "Psychometric properties of EQ-5D-5L for use in patients with Graves’ disease",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10426177/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-023-02177-z",
+      "status": "ok",
+      "file": "input/projects/333-RA/papers/doi_10.1186_s12955-023-02177-z.xml",
+      "bytes": 84711,
+      "sha256": "ab1641d76d7a6c1330f39fa9203749d912a9d135fa574edf24ba28c5dd4c2b70"
+    }
+  ]
+}

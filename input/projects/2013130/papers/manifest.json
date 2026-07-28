@@ -1,0 +1,17 @@
+{
+  "project_id": "2013130",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2014.11.005",
+      "doi": "10.1016/j.jval.2014.11.005",
+      "title": "Learning and satisficing: an analysis of sequence effects in health valuation",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4361790/fullTextXML",
+      "licence": null,
+      "landing_page": "https://doi.org/10.1016/j.jval.2014.11.005",
+      "status": "unavailable",
+      "reason": "HTTP 404 for https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4361790/fullTextXML"
+    }
+  ]
+}

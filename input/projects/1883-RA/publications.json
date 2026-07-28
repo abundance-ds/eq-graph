@@ -1,0 +1,296 @@
+{
+  "project_id": "1883-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1177/0272989x261446644",
+      "doi": "10.1177/0272989x261446644",
+      "pmid": "42206353",
+      "pmcid": null,
+      "title": "Exploring Perceived Interactions between EQ-5D-5L and Bolt-ons Using Composite Time-Tradeoff Valuations: A Qualitative Study",
+      "journal": "Medical Decision Making",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Stevanus Pangestu",
+          "last_name": "Pangestu",
+          "orcid": "https://orcid.org/0000-0003-2546-9449"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": "https://orcid.org/0000-0002-0006-6769"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1883-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x261446644",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01857-5",
+      "doi": "10.1007/s10198-025-01857-5",
+      "pmid": "41165953",
+      "pmcid": "PMC13190758",
+      "title": "Child- versus adult-perspective composite time trade-off valuations for the EQ-5D-Y-3L: evidence from the Hungarian valuation study",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Pangestu S",
+          "last_name": "Pangestu",
+          "orcid": "0000-0003-2546-9449"
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": "0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        },
+        {
+          "full_name": "Lipman SA",
+          "last_name": "Lipman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13190758",
+        "pdf_url": "https://europepmc.org/articles/PMC13190758?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01857-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03925-y",
+      "doi": "10.1007/s11136-025-03925-y",
+      "pmid": "39998755",
+      "pmcid": "PMC12119780",
+      "title": "Associations between financial toxicity, health-related quality of life, and well-being in Indonesian patients with breast cancer",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Pangestu S",
+          "last_name": "Pangestu",
+          "orcid": "0000-0003-2546-9449"
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": "0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Setyowibowo H",
+          "last_name": "Setyowibowo",
+          "orcid": "0000-0001-5091-3180"
+        },
+        {
+          "full_name": "Mukuria C",
+          "last_name": "Mukuria",
+          "orcid": "0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1007/s11136-025-03925-y",
+        "pdf_url": "https://europepmc.org/articles/PMC12119780?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03925-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.12.003",
+      "doi": "10.1016/j.jval.2024.12.003",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Psychometric Properties of the EQ-HWB and EQ-HWB-S in Patients With Breast Cancer: A Comparative Analysis With EQ-5D-5L, FACT-8D, and SWEMWBS",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Stevanus Pangestu",
+          "last_name": "Pangestu",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Hari Setyowibowo",
+          "last_name": "Setyowibowo",
+          "orcid": null
+        },
+        {
+          "full_name": "Yohana Azhar",
+          "last_name": "Azhar",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.12.003",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.12.003",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02303-5",
+      "doi": "10.1186/s12955-024-02303-5",
+      "pmid": "39427212",
+      "pmcid": "PMC11491015",
+      "title": "Validity, test-retest reliability, and responsiveness of the Indonesian version of FACIT-COST measure for subjective financial toxicity",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Stevanus Pangestu",
+          "last_name": "Pangestu",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Hari Setyowibowo",
+          "last_name": "Setyowibowo",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-024-02303-5",
+        "pdf_url": "https://europepmc.org/articles/PMC11491015?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02303-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

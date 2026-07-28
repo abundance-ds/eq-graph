@@ -1,0 +1,17 @@
+{
+  "project_id": "399-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.11.010",
+      "doi": "10.1016/j.jval.2024.11.010",
+      "title": "Reporting Uncertainty Around Health-State Values: A Standard Method and Worked Example",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2024.11.010",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

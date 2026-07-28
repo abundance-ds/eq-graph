@@ -1,0 +1,56 @@
+{
+  "project_id": "341-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.016",
+      "doi": "10.1016/j.jval.2024.05.016",
+      "title": "A Direct Comparison Between Discrete Choice With Duration and Composite Time Trade-Off Methods: Do They Produce Similar Results?",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.jval.2024.05.016",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    },
+    {
+      "work_id": "doi:10.1177/0272989x251325828",
+      "doi": "10.1177/0272989x251325828",
+      "title": "Immediate Death: Not So Bad If You Discount the Future but Still Worse than It Should Be",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11992645/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1177/0272989x251325828",
+      "status": "ok",
+      "file": "input/projects/341-RA/papers/doi_10.1177_0272989x251325828.xml",
+      "bytes": 92981,
+      "sha256": "036bafe3f84a51fb7ddc2eb1b43dfb5d1f875d00818b0cfea54a6bd2b4138efe"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02266-7",
+      "doi": "10.1186/s12955-024-02266-7",
+      "title": "The EQ-5D-5L valuation study for Trinidad and Tobago",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11218064/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-024-02266-7",
+      "status": "ok",
+      "file": "input/projects/341-RA/papers/doi_10.1186_s12955-024-02266-7.xml",
+      "bytes": 335889,
+      "sha256": "ec2dae9b852f0e2fd38c042c76d355207d7d9e0c9723e5d0d5640daee1b816f5"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02323-1",
+      "doi": "10.1186/s12955-024-02323-1",
+      "title": "EQ-5D-5L population norms and health inequality for Trinidad and Tobago in 2022–2023 and comparison with 2012",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11606218/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-024-02323-1",
+      "status": "ok",
+      "file": "input/projects/341-RA/papers/doi_10.1186_s12955-024-02323-1.xml",
+      "bytes": 149102,
+      "sha256": "a08b55a1d4b1657da202fe74078fb8a245ce0657aa6667fbae16a5341363efec"
+    }
+  ]
+}

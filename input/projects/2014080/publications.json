@@ -1,0 +1,529 @@
+{
+  "project_id": "2014080",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-017-0931-5",
+      "doi": "10.1007/s10198-017-0931-5",
+      "pmid": "29022120",
+      "pmcid": "PMC6008352",
+      "title": "Experience-based utility and own health state valuation for a health state classification system: why and how to do it",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Rowen D",
+          "last_name": "Rowen",
+          "orcid": "0000-0003-3018-5109"
+        },
+        {
+          "full_name": "Karimi M",
+          "last_name": "Karimi",
+          "orcid": "0000-0002-5298-174X"
+        },
+        {
+          "full_name": "Peasgood T",
+          "last_name": "Peasgood",
+          "orcid": "0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Tsuchiya A",
+          "last_name": "Tsuchiya",
+          "orcid": "0000-0003-4245-5399"
+        },
+        {
+          "full_name": "Ratcliffe J",
+          "last_name": "Ratcliffe",
+          "orcid": "0000-0001-7365-1988"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC6008352",
+        "pdf_url": "https://europepmc.org/articles/PMC6008352?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-017-0931-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-021-01306-z",
+      "doi": "10.1007/s10198-021-01306-z",
+      "pmid": "33909157",
+      "pmcid": "PMC8318935",
+      "title": "What is the best approach to adopt for identifying the domains for a new measure of health, social care and carer-related quality of life to measure quality-adjusted life years? Application to the development of the EQ-HWB?",
+      "journal": "The European Journal of Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Karen Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosemary Lovett",
+          "last_name": "Lovett",
+          "orcid": null
+        },
+        {
+          "full_name": "Bhash Naidoo",
+          "last_name": "Naidoo",
+          "orcid": null
+        },
+        {
+          "full_name": "Stacey Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Carlos Rejon-Parrilla",
+          "last_name": "Rejon-Parrilla",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8318935",
+        "pdf_url": "https://europepmc.org/articles/PMC8318935?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-021-01306-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02718-9",
+      "doi": "10.1007/s11136-020-02718-9",
+      "pmid": "33289063",
+      "pmcid": "PMC8068712",
+      "title": "Criteria for item selection for a preference-based measure for use in economic evaluation",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8068712",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02718-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02718-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02802-8",
+      "doi": "10.1007/s11136-021-02802-8",
+      "pmid": "33710593",
+      "pmcid": "PMC8233275",
+      "title": "How to measure fluctuating impairments in people with MS: development of an ambulatory assessment version of the EQ-5D-5L in an exploratory study",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Christine Blome",
+          "last_name": "Blome",
+          "orcid": "https://orcid.org/0000-0002-1163-1639"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": "https://orcid.org/0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Christoph Heesen",
+          "last_name": "Heesen",
+          "orcid": "https://orcid.org/0000-0001-8131-9467"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Andrew Lloyd",
+          "last_name": "Lloyd",
+          "orcid": "https://orcid.org/0000-0002-7597-6556"
+        },
+        {
+          "full_name": "Marina Otten",
+          "last_name": "Otten",
+          "orcid": "https://orcid.org/0000-0003-3767-1548"
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": "https://orcid.org/0000-0001-8645-4780"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8233275",
+        "pdf_url": "https://europepmc.org/articles/PMC8233275?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02802-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-022-03304-x",
+      "doi": "10.1007/s11136-022-03304-x",
+      "pmid": "36422771",
+      "pmcid": "PMC10063498",
+      "title": "Hypothetical versus experienced health state valuation: a qualitative study of adult general public views and preferences",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Philip A. Powell",
+          "last_name": "Powell",
+          "orcid": "https://orcid.org/0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Ben van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "John E. Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10063498",
+        "pdf_url": "https://europepmc.org/articles/PMC10063498?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03304-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.02.008",
+      "doi": "10.1016/j.jval.2023.02.008",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Valuing the EQ Health and Wellbeing Short Using Time Trade-Off and a Discrete Choice Experiment: A Feasibility Study",
+      "journal": "Value in Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.02.008",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523000578/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.02.008",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-015-0382-6",
+      "doi": "10.1186/s12955-015-0382-6",
+      "pmid": "26612336",
+      "pmcid": "PMC4661997",
+      "title": "Comparing the measurement equivalence of EQ-5D-5L across different modes of administration",
+      "journal": "Health and quality of life outcomes",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        },
+        {
+          "full_name": "O'Gorman H",
+          "last_name": "O'Gorman",
+          "orcid": null
+        },
+        {
+          "full_name": "Rotherham N",
+          "last_name": "Rotherham",
+          "orcid": null
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4661997",
+        "pdf_url": "https://europepmc.org/articles/PMC4661997?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-015-0382-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01858-x",
+      "doi": "10.1186/s12955-021-01858-x",
+      "pmid": "34556133",
+      "pmcid": "PMC8461831",
+      "title": "Valuing child and adolescent health: a qualitative study on different perspectives and priorities taken by the adult general public",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Philip A. Powell",
+          "last_name": "Powell",
+          "orcid": "https://orcid.org/0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": null
+        },
+        {
+          "full_name": "John E. Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8461831",
+        "pdf_url": "https://europepmc.org/articles/PMC8461831?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01858-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

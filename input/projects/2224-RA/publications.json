@@ -1,0 +1,71 @@
+{
+  "project_id": "2224-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jclinepi.2025.111982",
+      "doi": "10.1016/j.jclinepi.2025.111982",
+      "pmid": "40992519",
+      "pmcid": null,
+      "title": "PedsQL Generic Core Scales was more discriminative while EQ-5D-Y-5L was more responsive in a longitudinal study of multiethnic Asian children and adolescents with heart disease",
+      "journal": "Journal of Clinical Epidemiology",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Ching Kit Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Dyan Zhewei Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Chun Fan Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Yin Bun Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jclinepi.2025.111982",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

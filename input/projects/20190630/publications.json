@@ -1,0 +1,152 @@
+{
+  "project_id": "20190630",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.vhri.2022.03.004",
+      "doi": "10.1016/j.vhri.2022.03.004",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Guidelines for Utility Measurement for Economic Analysis: The Brazilian Policy",
+      "journal": "Value in Health Regional Issues",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Marisa Santos",
+          "last_name": "Santos",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrea Liborio Monteiro",
+          "last_name": "Monteiro",
+          "orcid": null
+        },
+        {
+          "full_name": "Aline Navega Biz",
+          "last_name": "Biz",
+          "orcid": null
+        },
+        {
+          "full_name": "Augusto Guerra",
+          "last_name": "Guerra",
+          "orcid": null
+        },
+        {
+          "full_name": "Helena Cramer",
+          "last_name": "Cramer",
+          "orcid": null
+        },
+        {
+          "full_name": "Vania Canuto",
+          "last_name": "Canuto",
+          "orcid": null
+        },
+        {
+          "full_name": "Luciane Cruz",
+          "last_name": "Cruz",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcia Pinto",
+          "last_name": "Pinto",
+          "orcid": null
+        },
+        {
+          "full_name": "Monica Viegas",
+          "last_name": "Viegas",
+          "orcid": null
+        },
+        {
+          "full_name": "Ricardo Fernandes",
+          "last_name": "Fernandes",
+          "orcid": null
+        },
+        {
+          "full_name": "Ivan Zimmermann",
+          "last_name": "Zimmermann",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2022.03.004",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.vhri.2022.03.004",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101524",
+      "doi": "10.1016/j.vhri.2025.101524",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Assessing the Impact of a Social Program Using EQ-HWB-9 and EQ-5D-5L: The Dara Project",
+      "journal": "Value in Health Regional Issues",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Marisa Santos",
+          "last_name": "Santos",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcelo G. Correia",
+          "last_name": "Correia",
+          "orcid": null
+        },
+        {
+          "full_name": "Vanessa R. von Doellinger",
+          "last_name": "von Doellinger",
+          "orcid": null
+        },
+        {
+          "full_name": "Sylvia Lordello",
+          "last_name": "Lordello",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrea L. Monteiro",
+          "last_name": "Monteiro",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101524",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00450-9/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101524",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

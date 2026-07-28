@@ -1,0 +1,19 @@
+{
+  "project_id": "377-VS",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-023-01280-9",
+      "doi": "10.1007/s40273-023-01280-9",
+      "title": "EQ-5D-5L Value Set for Slovenia",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10570207/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-023-01280-9",
+      "status": "ok",
+      "file": "input/projects/377-VS/papers/doi_10.1007_s40273-023-01280-9.xml",
+      "bytes": 95353,
+      "sha256": "e4e30d7cffccbbeaace85715e0c1d2489ac14aed361a0f27d9f1558c97ffa83a"
+    }
+  ]
+}

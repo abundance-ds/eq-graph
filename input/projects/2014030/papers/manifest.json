@@ -1,0 +1,19 @@
+{
+  "project_id": "2014030",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-017-0617-9",
+      "doi": "10.1186/s12955-017-0617-9",
+      "title": "Valuation of the EQ-5D-5L with composite time trade-off for the German population – an exploratory study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5319015/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-017-0617-9",
+      "status": "ok",
+      "file": "input/projects/2014030/papers/doi_10.1186_s12955-017-0617-9.xml",
+      "bytes": 96901,
+      "sha256": "5e8a4da0dcfa844f34aae703ea252ac63b2afd745aff370a0559b92af5133eda"
+    }
+  ]
+}

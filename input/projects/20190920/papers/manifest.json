@@ -1,0 +1,17 @@
+{
+  "project_id": "20190920",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2021.12.014",
+      "doi": "10.1016/j.jval.2021.12.014",
+      "title": "Why Do Adults Value EQ-5D-Y-3L Health States Differently for Themselves Than for Children and Adolescents: A Think-Aloud Study",
+      "method": "publisher_pdf",
+      "source_url": "http://www.valueinhealthjournal.com/article/S1098301522000419/pdf",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.jval.2021.12.014",
+      "status": "unavailable",
+      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+    }
+  ]
+}

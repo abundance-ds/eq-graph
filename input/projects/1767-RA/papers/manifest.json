@@ -1,0 +1,19 @@
+{
+  "project_id": "1767-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40258-025-00954-z",
+      "doi": "10.1007/s40258-025-00954-z",
+      "title": "A Head-On Comparison of EQ-VT- and Crosswalk-Based EQ-5D-5L Value Sets",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12170785/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40258-025-00954-z",
+      "status": "ok",
+      "file": "input/projects/1767-RA/papers/doi_10.1007_s40258-025-00954-z.xml",
+      "bytes": 117878,
+      "sha256": "b861b576480ea7935e44a0946094c42646b0945d5ad83a73c34f7b324a2c272e"
+    }
+  ]
+}

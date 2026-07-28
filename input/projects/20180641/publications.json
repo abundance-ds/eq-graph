@@ -1,0 +1,293 @@
+{
+  "project_id": "20180641",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-022-01187-x",
+      "doi": "10.1007/s40273-022-01187-x",
+      "pmid": "36316544",
+      "pmcid": "PMC9628592",
+      "title": "An EQ-5D-Y-3L Value Set for Belgium",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sarah Dewilde",
+          "last_name": "Dewilde",
+          "orcid": "https://orcid.org/0000-0002-7315-3230"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Nafthali H. Tollenaar",
+          "last_name": "Tollenaar",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan M. Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9628592",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01187-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01187-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.11.1377",
+      "doi": "10.1016/j.jval.2021.11.1377",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Exploration of the Reasons Why Health State Valuation Differs for Children Compared With Adults: A Mixed Methods Approach",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sarah Dewilde",
+          "last_name": "Dewilde",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew J. Lloyd",
+          "last_name": "Lloyd",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2021.11.1377",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(22)00048-1/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.11.1377",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.09.009",
+      "doi": "10.1016/j.jval.2025.09.009",
+      "pmid": "41005701",
+      "pmcid": null,
+      "title": "Comparing Psychometric Properties of 6 of the 5-Level and 3-Level EQ-5D Bolt-Ons in a Large, Multinational, Longitudinal General Population Sample",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Sarah Dewilde",
+          "last_name": "Dewilde",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Glenn Phillips",
+          "last_name": "Phillips",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.09.009",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.09.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2022-066445",
+      "doi": "10.1136/bmjopen-2022-066445",
+      "pmid": "36720569",
+      "pmcid": "PMC9890761",
+      "title": "Patient-reported burden of myasthenia gravis: baseline results of the international prospective, observational, longitudinal real-world digital study MyRealWorld-MG",
+      "journal": "BMJ open",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Dewilde S",
+          "last_name": "Dewilde",
+          "orcid": "0000-0002-7315-3230"
+        },
+        {
+          "full_name": "Philips G",
+          "last_name": "Philips",
+          "orcid": null
+        },
+        {
+          "full_name": "Paci S",
+          "last_name": "Paci",
+          "orcid": null
+        },
+        {
+          "full_name": "Beauchamp J",
+          "last_name": "Beauchamp",
+          "orcid": "0009-0009-3892-769X"
+        },
+        {
+          "full_name": "Chiroli S",
+          "last_name": "Chiroli",
+          "orcid": null
+        },
+        {
+          "full_name": "Quinn C",
+          "last_name": "Quinn",
+          "orcid": null
+        },
+        {
+          "full_name": "Day L",
+          "last_name": "Day",
+          "orcid": null
+        },
+        {
+          "full_name": "Larkin M",
+          "last_name": "Larkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Palace J",
+          "last_name": "Palace",
+          "orcid": "0000-0003-4779-6133"
+        },
+        {
+          "full_name": "Berrih-Aknin S",
+          "last_name": "Berrih-Aknin",
+          "orcid": "0000-0001-9199-4175"
+        },
+        {
+          "full_name": "Claeys KG",
+          "last_name": "Claeys",
+          "orcid": "0000-0001-9937-443X"
+        },
+        {
+          "full_name": "Muppidi S",
+          "last_name": "Muppidi",
+          "orcid": null
+        },
+        {
+          "full_name": "Mantegazza R",
+          "last_name": "Mantegazza",
+          "orcid": null
+        },
+        {
+          "full_name": "Saccà F",
+          "last_name": "Saccà",
+          "orcid": null
+        },
+        {
+          "full_name": "Meisel A",
+          "last_name": "Meisel",
+          "orcid": "0000-0001-7233-5342"
+        },
+        {
+          "full_name": "Bassez G",
+          "last_name": "Bassez",
+          "orcid": null
+        },
+        {
+          "full_name": "Murai H",
+          "last_name": "Murai",
+          "orcid": null
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC9890761",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/13/1/e066445.full.pdf",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2022-066445",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

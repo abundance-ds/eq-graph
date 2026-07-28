@@ -1,0 +1,172 @@
+{
+  "project_id": "1644-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s12955-024-02303-5",
+      "doi": "10.1186/s12955-024-02303-5",
+      "pmid": "39427212",
+      "pmcid": "PMC11491015",
+      "title": "Validity, test-retest reliability, and responsiveness of the Indonesian version of FACIT-COST measure for subjective financial toxicity",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Stevanus Pangestu",
+          "last_name": "Pangestu",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Hari Setyowibowo",
+          "last_name": "Setyowibowo",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1644-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-024-02303-5",
+        "pdf_url": "https://europepmc.org/articles/PMC11491015?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02303-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s41669-023-00437-8",
+      "doi": "10.1007/s41669-023-00437-8",
+      "pmid": "37702988",
+      "pmcid": "PMC10721573",
+      "title": "The EQ-5D-3L Valuation Study in Pakistan",
+      "journal": "PharmacoEconomics - open",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Malik M",
+          "last_name": "Malik",
+          "orcid": "0000-0001-5824-9405"
+        },
+        {
+          "full_name": "Gu NY",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "Hussain A",
+          "last_name": "Hussain",
+          "orcid": null
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC10721573",
+        "pdf_url": "https://europepmc.org/articles/PMC10721573?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s41669-023-00437-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101543",
+      "doi": "10.1016/j.vhri.2025.101543",
+      "pmid": "41259893",
+      "pmcid": null,
+      "title": "Psychometric Performance of EQ-HWB and EQ-HWB-9 Self-Complete and Interviewer-Administered Versions in Literate, Low-Literacy, and Patient Populations in Indonesia",
+      "journal": "Value in Health Regional Issues",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Grace Helena Firmansyah Putri",
+          "last_name": "Putri",
+          "orcid": null
+        },
+        {
+          "full_name": "Putu Getsha Pradnyan Rarasati Mudita",
+          "last_name": "Mudita",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00469-8/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

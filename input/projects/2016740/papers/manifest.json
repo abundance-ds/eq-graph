@@ -1,0 +1,19 @@
+{
+  "project_id": "2016740",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3389/fpsyg.2023.1175402",
+      "doi": "10.3389/fpsyg.2023.1175402",
+      "title": "An investigation of age dependency in Dutch and Chinese values for EQ-5D-Y",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10583565/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3389/fpsyg.2023.1175402",
+      "status": "ok",
+      "file": "input/projects/2016740/papers/doi_10.3389_fpsyg.2023.1175402.xml",
+      "bytes": 118746,
+      "sha256": "b5f16015e4cf213f55bb353411e9db2e19d1b2d1754241869a7b403246205ba2"
+    }
+  ]
+}

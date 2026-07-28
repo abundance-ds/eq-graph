@@ -1,0 +1,1006 @@
+{
+  "project_id": "20180350",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01306-z",
+      "doi": "10.1007/s10198-021-01306-z",
+      "pmid": "33909157",
+      "pmcid": "PMC8318935",
+      "title": "What is the best approach to adopt for identifying the domains for a new measure of health, social care and carer-related quality of life to measure quality-adjusted life years? Application to the development of the EQ-HWB?",
+      "journal": "The European Journal of Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Karen Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosemary Lovett",
+          "last_name": "Lovett",
+          "orcid": null
+        },
+        {
+          "full_name": "Bhash Naidoo",
+          "last_name": "Naidoo",
+          "orcid": null
+        },
+        {
+          "full_name": "Stacey Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Carlos Rejon-Parrilla",
+          "last_name": "Rejon-Parrilla",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180350",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8318935",
+        "pdf_url": "https://europepmc.org/articles/PMC8318935?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-021-01306-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01688-w",
+      "doi": "10.1007/s10198-024-01688-w",
+      "pmid": "38578477",
+      "pmcid": "PMC11743351",
+      "title": "The performance of the EQ-HWB-S as a measure of quality-of-life of caregivers in families that have experienced adverse events",
+      "journal": "The European Journal of Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0001-5030-430x"
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "Leanne Constable",
+          "last_name": "Constable",
+          "orcid": "https://orcid.org/0000-0002-5692-8882"
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Harriet Hiscock",
+          "last_name": "Hiscock",
+          "orcid": "https://orcid.org/0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Helen Skouteris",
+          "last_name": "Skouteris",
+          "orcid": "https://orcid.org/0000-0001-9959-5750"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11743351",
+        "pdf_url": "https://europepmc.org/articles/PMC11743351?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01688-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01769-4",
+      "doi": "10.1007/s10198-025-01769-4",
+      "pmid": "40055295",
+      "pmcid": "PMC12431937",
+      "title": "Test-retest reliability of the Online Elicitation of Personal Utility Functions (OPUF) approach for valuing the EQ-HWB-S",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Aisha Moolla",
+          "last_name": "Moolla",
+          "orcid": "https://orcid.org/0000-0002-9768-5389"
+        },
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": null
+        },
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12431937",
+        "pdf_url": "https://europepmc.org/articles/PMC12431937?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01769-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02718-9",
+      "doi": "10.1007/s11136-020-02718-9",
+      "pmid": "33289063",
+      "pmcid": "PMC8068712",
+      "title": "Criteria for item selection for a preference-based measure for use in economic evaluation",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Janice Connell",
+          "last_name": "Connell",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8068712",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02718-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02718-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03989-w",
+      "doi": "10.1007/s11136-025-03989-w",
+      "pmid": "40381096",
+      "pmcid": "PMC12274140",
+      "title": "How well do participants understand the questions asked in the Online Personal Utility Functions (OPUF) approach? A cognitive debrief of the EQ-HWB-S (EQ Health and Wellbeing Short version) valuation",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": "https://orcid.org/0000-0002-4306-4667"
+        },
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": "https://orcid.org/0000-0002-3530-7921"
+        },
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": "https://orcid.org/0000-0003-3552-1087"
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12274140",
+        "pdf_url": "https://europepmc.org/articles/PMC12274140?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03989-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04189-w",
+      "doi": "10.1007/s11136-026-04189-w",
+      "pmid": "41779236",
+      "pmcid": "PMC12960390",
+      "title": "Understanding decision-making strategies in discrete choice experiment tasks when valuing health states that include duration, a cognitive interview study with Australian adults",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": "https://orcid.org/0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": "https://orcid.org/0000-0003-3018-5109"
+        },
+        {
+          "full_name": "Marcel Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12960390",
+        "pdf_url": "https://europepmc.org/articles/PMC12960390?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04189-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-022-00611-w",
+      "doi": "10.1007/s40271-022-00611-w",
+      "pmid": "36786931",
+      "pmcid": "PMC10121527",
+      "title": "Systematic Review of the Effect of a One-Day Versus Seven-Day Recall Duration on Patient Reported Outcome Measures (PROMs)",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Julia M. Caruana",
+          "last_name": "Caruana",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10121527",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-022-00611-w.pdf",
+        "landing_page": "https://doi.org/10.1007/s40271-022-00611-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-024-00715-5",
+      "doi": "10.1007/s40271-024-00715-5",
+      "pmid": "39235710",
+      "pmcid": "PMC11461598",
+      "title": "Appropriateness of the EQ-HWB for Use in Residential Aged Care: A Proxy Perspective",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Ekaterina Bogatyreva",
+          "last_name": "Bogatyreva",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew S. Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11461598",
+        "pdf_url": "https://europepmc.org/articles/PMC11461598?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-024-00715-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00749-3",
+      "doi": "10.1007/s40271-025-00749-3",
+      "pmid": "40531304",
+      "pmcid": "PMC12559129",
+      "title": "Content Validity of the EQ-HWB in Caregivers of Children with Health Conditions",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0001-5030-430x"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12559129",
+        "pdf_url": "https://europepmc.org/articles/PMC12559129?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00749-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.007",
+      "doi": "10.1016/j.jval.2024.05.007",
+      "pmid": "38795959",
+      "pmcid": null,
+      "title": "Psychometric Performance of the EQ Health and Wellbeing Short in a United Kingdom Population Sample",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.007",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023672/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.007",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.05.013",
+      "doi": "10.1016/j.jval.2025.05.013",
+      "pmid": "40482772",
+      "pmcid": null,
+      "title": "Validity and Reliability of the EQ-HWB in Parents of Children With Health Conditions",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "Leanne Constable",
+          "last_name": "Constable",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.05.013",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.05.013",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2023.115818",
+      "doi": "10.1016/j.socscimed.2023.115818",
+      "pmid": "36940582",
+      "pmcid": "PMC9993735",
+      "title": "Randomised comparison of online interviews versus face-to-face interviews to value health states",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Mackenzie Bourke",
+          "last_name": "Bourke",
+          "orcid": "https://orcid.org/0000-0001-7870-9771"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": "https://orcid.org/0000-0003-3018-5109"
+        },
+        {
+          "full_name": "Yaling Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://europepmc.org/articles/PMC9993735",
+        "pdf_url": "https://europepmc.org/articles/PMC9993735?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2023.115818",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02577-x",
+      "doi": "10.1186/s12955-026-02577-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Qualitative testing of potential modifications to the EQ-HWB-9 v1.2 in adults with mobility problems in the United Kingdom",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Aisha Moolla",
+          "last_name": "Moolla",
+          "orcid": "https://orcid.org/0000-0002-9768-5389"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02577-x",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02577-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02578-w",
+      "doi": "10.1186/s12955-026-02578-w",
+      "pmid": "42449362",
+      "pmcid": null,
+      "title": "Qualitative testing of potential modifications to the EQ-HWB-9 in the United Kingdom",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Victoria Gale",
+          "last_name": "Gale",
+          "orcid": null
+        },
+        {
+          "full_name": "Aisha Moolla",
+          "last_name": "Moolla",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02578-w",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02578-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02579-9",
+      "doi": "10.1186/s12955-026-02579-9",
+      "pmid": "42381072",
+      "pmcid": null,
+      "title": "Validation of the EQ-HWB-9 in a mental health sample and an investigation of modifications to items",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0001-5030-430x"
+        },
+        {
+          "full_name": "Karen Trapani",
+          "last_name": "Trapani",
+          "orcid": "https://orcid.org/0000-0002-3257-9147"
+        },
+        {
+          "full_name": "Jonathan N. Davies",
+          "last_name": "Davies",
+          "orcid": "https://orcid.org/0000-0001-7838-126x"
+        },
+        {
+          "full_name": "Nicholas T. Van Dam",
+          "last_name": "Van Dam",
+          "orcid": "https://orcid.org/0000-0002-1131-0739"
+        },
+        {
+          "full_name": "Julieta Galante",
+          "last_name": "Galante",
+          "orcid": "https://orcid.org/0000-0002-4108-5341"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02579-9",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02579-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0302886",
+      "doi": "10.1371/journal.pone.0302886",
+      "pmid": "38829857",
+      "pmcid": "PMC11146702",
+      "title": "Rationale, conceptual issues, and resultant protocol for a mixed methods Person Trade Off (PTO) and qualitative study to estimate and understand the relative value of gains in health for children and young people compared to adults",
+      "journal": "PLOS ONE",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": "https://orcid.org/0000-0002-8385-5965"
+        },
+        {
+          "full_name": "Ashwini De Silva",
+          "last_name": "De Silva",
+          "orcid": "https://orcid.org/0000-0003-4535-442x"
+        },
+        {
+          "full_name": "Udeni De Silva Perera",
+          "last_name": "De Silva Perera",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11146702",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0302886&type=printable",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0302886",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

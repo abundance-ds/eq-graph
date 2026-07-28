@@ -1,0 +1,56 @@
+{
+  "project_id": "1696-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04278-w",
+      "doi": "10.1007/s11136-026-04278-w",
+      "pmid": "42070201",
+      "pmcid": null,
+      "title": "The association of food insecurity with psychological distress and health-related quality of life in the general adult population of Lebanon",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Samer A. Kharroubi",
+          "last_name": "Kharroubi",
+          "orcid": "https://orcid.org/0000-0002-2355-2719"
+        },
+        {
+          "full_name": "Rouba Ballout",
+          "last_name": "Ballout",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1696-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-026-04278-w",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

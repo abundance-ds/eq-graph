@@ -1,0 +1,206 @@
+{
+  "project_id": "389-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.jclinepi.2025.111982",
+      "doi": "10.1016/j.jclinepi.2025.111982",
+      "pmid": "40992519",
+      "pmcid": null,
+      "title": "PedsQL Generic Core Scales was more discriminative while EQ-5D-Y-5L was more responsive in a longitudinal study of multiethnic Asian children and adolescents with heart disease",
+      "journal": "Journal of Clinical Epidemiology",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Ching Kit Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Dyan Zhewei Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Chun Fan Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Yin Bun Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 389-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jclinepi.2025.111982",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-019-01156-w",
+      "doi": "10.1007/s10198-019-01156-w",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A vision ‘bolt-on’ increases the responsiveness of EQ-5D: preliminary evidence from a study of cataract surgery",
+      "journal": "The European Journal of Health Economics",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Marcus Ang",
+          "last_name": "Ang",
+          "orcid": "https://orcid.org/0000-0003-3022-0795"
+        },
+        {
+          "full_name": "Kelvin Teo",
+          "last_name": "Teo",
+          "orcid": "https://orcid.org/0000-0002-7458-7081"
+        },
+        {
+          "full_name": "Chee Wai Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-0935-2016"
+        },
+        {
+          "full_name": "Yvonne Chung-Hsi Wei",
+          "last_name": "Wei",
+          "orcid": "https://orcid.org/0000-0002-5515-4029"
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Tan",
+          "orcid": "https://orcid.org/0000-0002-4610-1195"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-019-01156-w",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-60893/v2",
+      "doi": "10.21203/rs.3.rs-60893/v2",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Impact of COVID-19 on Health-related Quality of Life in Patients With Cardiovascular Disease: a Multi-ethnic Asian Study",
+      "journal": null,
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Lim SL",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Woo KL",
+          "last_name": "Woo",
+          "orcid": null
+        },
+        {
+          "full_name": "Lim E",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Ng F",
+          "last_name": "Ng",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan MY",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Gandhi M",
+          "last_name": "Gandhi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.21203/rs.3.rs-60893/v2",
+        "pdf_url": "https://www.researchsquare.com/article/rs-60893/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-60893/v2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

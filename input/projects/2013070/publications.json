@@ -1,0 +1,263 @@
+{
+  "project_id": "2013070",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-013-0505-0",
+      "doi": "10.1007/s10198-013-0505-0",
+      "pmid": "23900662",
+      "pmcid": "PMC3728455",
+      "title": "Lead versus lag-time trade-off variants: does it make any difference?",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2013,
+      "authors": [
+        {
+          "full_name": "Augustovski F",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "Rey-Ares L",
+          "last_name": "Rey-Ares",
+          "orcid": null
+        },
+        {
+          "full_name": "Irazola V",
+          "last_name": "Irazola",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin NJ",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC3728455",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-013-0505-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-013-0505-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-015-1086-4",
+      "doi": "10.1007/s11136-015-1086-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "An EQ-5D-5L value set based on Uruguayan population preferences",
+      "journal": "Quality of Life Research",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "Lucila Rey-Ares",
+          "last_name": "Rey-Ares",
+          "orcid": null
+        },
+        {
+          "full_name": "Vilma Irazola",
+          "last_name": "Irazola",
+          "orcid": null
+        },
+        {
+          "full_name": "Osvaldo Ulises Garay",
+          "last_name": "Garay",
+          "orcid": null
+        },
+        {
+          "full_name": "Oscar Gianneo",
+          "last_name": "Gianneo",
+          "orcid": null
+        },
+        {
+          "full_name": "Graciela Fernández",
+          "last_name": "Fernández",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcelo Morales",
+          "last_name": "Morales",
+          "orcid": null
+        },
+        {
+          "full_name": "Luz Gibbons",
+          "last_name": "Gibbons",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": "http://hdl.handle.net/11336/43733",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-015-1086-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2020.05.004",
+      "doi": "10.1016/j.jval.2020.05.004",
+      "pmid": "32762989",
+      "pmcid": null,
+      "title": "Peruvian Valuation of the EQ-5D-5L: A Direct Comparison of Time Trade-Off and Discrete Choice Experiments",
+      "journal": "Value in Health",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "María Belizán",
+          "last_name": "Belizán",
+          "orcid": null
+        },
+        {
+          "full_name": "Luz Gibbons",
+          "last_name": "Gibbons",
+          "orcid": null
+        },
+        {
+          "full_name": "Nora Reyes",
+          "last_name": "Reyes",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamin M. Craig",
+          "last_name": "Craig",
+          "orcid": null
+        },
+        {
+          "full_name": "Romina A. Tejada",
+          "last_name": "Tejada",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2020.05.004",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301520320994/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2020.05.004",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-02079-6",
+      "doi": "10.1186/s12955-022-02079-6",
+      "pmid": "36593473",
+      "pmcid": "PMC9808950",
+      "title": "Preference heterogeneity in health valuation: a latent class analysis of the Peru EQ-5D-5L values",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Suzana Karim",
+          "last_name": "Karim",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamin Matthew Craig",
+          "last_name": "Craig",
+          "orcid": null
+        },
+        {
+          "full_name": "Romina Arely Tejada",
+          "last_name": "Tejada",
+          "orcid": null
+        },
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9808950",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02079-6",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02079-6",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

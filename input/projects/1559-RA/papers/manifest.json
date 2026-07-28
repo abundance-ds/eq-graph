@@ -1,0 +1,17 @@
+{
+  "project_id": "1559-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.05.013",
+      "doi": "10.1016/j.jval.2025.05.013",
+      "title": "Validity and Reliability of the EQ-HWB in Parents of Children With Health Conditions",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.jval.2025.05.013",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

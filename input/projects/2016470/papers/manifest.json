@@ -1,0 +1,19 @@
+{
+  "project_id": "2016470",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02712-1",
+      "doi": "10.1007/s11136-020-02712-1",
+      "title": "Comparison of online and face-to-face valuation of the EQ-5D-5L using composite time trade-off",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8068705/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-020-02712-1",
+      "status": "ok",
+      "file": "input/projects/2016470/papers/doi_10.1007_s11136-020-02712-1.xml",
+      "bytes": 114622,
+      "sha256": "44fa8ebc1bca577cd67cf714dae9cfd0e01e4eb79c2b620a41f9d5dde97eac03"
+    }
+  ]
+}

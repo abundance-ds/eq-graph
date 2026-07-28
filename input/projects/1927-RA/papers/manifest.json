@@ -1,0 +1,17 @@
+{
+  "project_id": "1927-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-026-02561-5",
+      "doi": "10.1186/s12955-026-02561-5",
+      "title": "Qualitative assessment of content validity of the modified EQ-HWB-9 by patients, caregivers, and social care users in the United States",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-026-02561-5",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

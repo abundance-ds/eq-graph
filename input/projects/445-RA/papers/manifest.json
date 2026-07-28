@@ -1,0 +1,32 @@
+{
+  "project_id": "445-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.pecinn.2025.100421",
+      "doi": "10.1016/j.pecinn.2025.100421",
+      "title": "Usability testing of an individualized decision aid for total knee arthroplasty",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12395153/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
+      "status": "ok",
+      "file": "input/projects/445-RA/papers/doi_10.1016_j.pecinn.2025.100421.xml",
+      "bytes": 96911,
+      "sha256": "1af80a21a6b9e8e2ece45649a7e4145a40d90eacbca9f8e9b818dbfe7b6d05db"
+    },
+    {
+      "work_id": "doi:10.1186/s12891-024-07304-5",
+      "doi": "10.1186/s12891-024-07304-5",
+      "title": "Exploring patient perspectives on EQ-5D-5L data visualization within an individualized decision aid for total knee arthroplasty (TKA) in Alberta, Canada",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10902977/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12891-024-07304-5",
+      "status": "ok",
+      "file": "input/projects/445-RA/papers/doi_10.1186_s12891-024-07304-5.xml",
+      "bytes": 87207,
+      "sha256": "920a122e8165a0c90167182b4c75534aa72af47dd9064bd7d6b133633bb6dc02"
+    }
+  ]
+}

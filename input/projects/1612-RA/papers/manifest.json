@@ -1,0 +1,19 @@
+{
+  "project_id": "1612-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03770-5",
+      "doi": "10.1007/s11136-024-03770-5",
+      "title": "The impact of demographic change on value set validity and obsolescence",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11541319/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-024-03770-5",
+      "status": "ok",
+      "file": "input/projects/1612-RA/papers/doi_10.1007_s11136-024-03770-5.xml",
+      "bytes": 93996,
+      "sha256": "700fb82b14fb2167bcf102c9d6be5bebebd3f331aae6967252916502f681c253"
+    }
+  ]
+}

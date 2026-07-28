@@ -1,0 +1,111 @@
+{
+  "project_id": "1731-VS",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04319-4",
+      "doi": "10.1007/s11136-026-04319-4",
+      "pmid": "42295458",
+      "pmcid": "PMC13269515",
+      "title": "The EQ-5D-5L valuation study in Nigeria",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Abdulrasheed Hassan Yusuf",
+          "last_name": "Yusuf",
+          "orcid": null
+        },
+        {
+          "full_name": "Bello Usman Ardo",
+          "last_name": "Ardo",
+          "orcid": null
+        },
+        {
+          "full_name": "Montarat Thavorncharoensap",
+          "last_name": "Thavorncharoensap",
+          "orcid": "https://orcid.org/0000-0002-8256-2167"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": null
+        },
+        {
+          "full_name": "Usa Chaikledkaew",
+          "last_name": "Chaikledkaew",
+          "orcid": "https://orcid.org/0000-0001-9457-9823"
+        },
+        {
+          "full_name": "Sitaporn Youngkong",
+          "last_name": "Youngkong",
+          "orcid": "https://orcid.org/0000-0002-2448-3954"
+        },
+        {
+          "full_name": "Ammarin Thakkinstian",
+          "last_name": "Thakkinstian",
+          "orcid": "https://orcid.org/0000-0001-9991-386x"
+        },
+        {
+          "full_name": "Yakubu Adole Agada-Amade",
+          "last_name": "Agada-Amade",
+          "orcid": null
+        },
+        {
+          "full_name": "Taiwo Gboluwaga Amole",
+          "last_name": "Amole",
+          "orcid": null
+        },
+        {
+          "full_name": "Mohammed Nasir Sambo",
+          "last_name": "Sambo",
+          "orcid": null
+        },
+        {
+          "full_name": "Kelechi Ohiri",
+          "last_name": "Ohiri",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13269515",
+        "pdf_url": "https://europepmc.org/articles/PMC13269515?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04319-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

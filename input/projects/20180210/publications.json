@@ -1,0 +1,867 @@
+{
+  "project_id": "20180210",
+  "accepted": [
+    {
+      "work_id": "doi:10.1002/hec.4863",
+      "doi": "10.1002/hec.4863",
+      "pmid": "38831492",
+      "pmcid": null,
+      "title": "Is anchoring at ‘dead’ a theoretical requirement for health state valuation?",
+      "journal": "Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": "https://orcid.org/0000-0001-9470-2369"
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": "https://orcid.org/0000-0002-9990-8208"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180210",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://doi.org/10.1002/hec.4863",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
+        "landing_page": "https://doi.org/10.1002/hec.4863",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.3564",
+      "doi": "10.1002/hec.3564",
+      "pmid": "28833869",
+      "pmcid": "PMC6680214",
+      "title": "Valuing health-related quality of life: An EQ-5D-5L value set for England",
+      "journal": "Health Economics",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Yan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Ben van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+        "oa_url": "https://europepmc.org/articles/PMC6680214",
+        "pdf_url": "https://europepmc.org/articles/PMC6680214?pdf=render",
+        "landing_page": "https://doi.org/10.1002/hec.3564",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9",
+      "doi": "10.1007/978-3-030-47622-9",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Methods for Analysing and Reporting EQ-5D Data",
+      "journal": null,
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-47622-9.pdf?pdf=button",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_1",
+      "doi": "10.1007/978-3-030-47622-9_1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "An Introduction to EQ-5D Instruments and Their Applications",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_1.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_2",
+      "doi": "10.1007/978-3-030-47622-9_2",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Analysis of EQ-5D Profiles",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_2",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_2.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_3",
+      "doi": "10.1007/978-3-030-47622-9_3",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Analysis of EQ VAS Data",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_3",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_3.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_4",
+      "doi": "10.1007/978-3-030-47622-9_4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Analysis of EQ-5D Values",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_4",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_4.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/978-3-030-47622-9_5",
+      "doi": "10.1007/978-3-030-47622-9_5",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Advanced Topics",
+      "journal": "Methods for Analysing and Reporting EQ-5D Data",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
+        "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-017-0905-7",
+      "doi": "10.1007/s10198-017-0905-7",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Valuing EQ-5D-5L health states ‘in context’ using a discrete choice experiment",
+      "journal": "The European Journal of Health Economics",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Amanda Cole",
+          "last_name": "Cole",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Yan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-017-0905-7",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-018-0993-z",
+      "doi": "10.1007/s10198-018-0993-z",
+      "pmid": "30030647",
+      "pmcid": "PMC6438932",
+      "title": "A new method for valuing health: directly eliciting personal utility functions",
+      "journal": "The European Journal of Health Economics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Krystallia Pantiri",
+          "last_name": "Pantiri",
+          "orcid": null
+        },
+        {
+          "full_name": "Ben van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC6438932",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs10198-018-0993-z.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-018-0993-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-020-01205-9",
+      "doi": "10.1007/s10198-020-01205-9",
+      "pmid": "32506281",
+      "pmcid": "PMC7423806",
+      "title": "An exploration of methods for obtaining 0 = dead anchors for latent scale EQ-5D-Y values",
+      "journal": "The European Journal of Health Economics",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": "https://orcid.org/0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7423806",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-020-01205-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-020-01205-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02911-4",
+      "doi": "10.1007/s11136-021-02911-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": "https://orcid.org/0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-021-02911-4",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03462-6",
+      "doi": "10.1007/s11136-023-03462-6",
+      "pmid": "37347395",
+      "pmcid": "PMC10522725",
+      "title": "Understanding the measurement relationship between EQ-5D-5L, PROMIS-29 and PROPr",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-017-0310-5",
+      "doi": "10.1007/s40258-017-0310-5",
+      "pmid": "28194657",
+      "pmcid": "PMC5343080",
+      "title": "EQ-5D and the EuroQol Group: Past, Present and Future",
+      "journal": "Applied health economics and health policy",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Devlin NJ",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brooks R",
+          "last_name": "Brooks",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC5343080",
+        "pdf_url": "https://europepmc.org/articles/PMC5343080?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-017-0310-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-021-00658-0",
+      "doi": "10.1007/s40258-021-00658-0",
+      "pmid": "34173957",
+      "pmcid": "PMC8545780",
+      "title": "EQ-5D-5L Health-State Values for the Mexican Population",
+      "journal": "Applied health economics and health policy",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Gutierrez-Delgado C",
+          "last_name": "Gutierrez-Delgado",
+          "orcid": null
+        },
+        {
+          "full_name": "Galindo-Suárez RM",
+          "last_name": "Galindo-Suárez",
+          "orcid": null
+        },
+        {
+          "full_name": "Cruz-Santiago C",
+          "last_name": "Cruz-Santiago",
+          "orcid": null
+        },
+        {
+          "full_name": "Shah K",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Papadimitropoulos M",
+          "last_name": "Papadimitropoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Y",
+          "last_name": "Feng",
+          "orcid": "0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Zamora B",
+          "last_name": "Zamora",
+          "orcid": "0000-0002-8123-644X"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC8545780",
+        "pdf_url": "https://europepmc.org/articles/PMC8545780?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-021-00658-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0622-9",
+      "doi": "10.1007/s40273-018-0622-9",
+      "pmid": "29480350",
+      "pmcid": "PMC5954053",
+      "title": "3L, 5L, What the L? A NICE Conundrum",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5954053",
+        "pdf_url": "https://europepmc.org/articles/PMC5954053?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0622-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 8
+}

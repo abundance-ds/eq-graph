@@ -1,0 +1,61 @@
+{
+  "project_id": "20190920",
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.jval.2021.12.014",
+      "doi": "10.1016/j.jval.2021.12.014",
+      "pmid": "35168891",
+      "pmcid": null,
+      "title": "Why Do Adults Value EQ-5D-Y-3L Health States Differently for Themselves Than for Children and Adolescents: A Think-Aloud Study",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Vivian Reckers-Droog",
+          "last_name": "Reckers-Droog",
+          "orcid": null
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20190920",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2021.12.014",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522000419/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.12.014",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

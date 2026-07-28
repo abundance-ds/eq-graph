@@ -1,0 +1,43 @@
+{
+  "project_id": "20190200",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.vhri.2021.09.007",
+      "doi": "10.1016/j.vhri.2021.09.007",
+      "title": "Cross-Cultural Adaptation of the Beta EQ-5D-Y-5L Into Chichewa (Malawi)",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.vhri.2021.09.007",
+      "status": "skipped",
+      "reason": "OA but licence 'unstated' is not clearly redistributable"
+    },
+    {
+      "work_id": "doi:10.1186/s41687-023-00560-4",
+      "doi": "10.1186/s41687-023-00560-4",
+      "title": "Psychometric performance of the Chichewa versions of the EQ-5D-Y-3L and EQ-5D-Y-5L among healthy and sick children and adolescents in Malawi",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9996597/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s41687-023-00560-4",
+      "status": "ok",
+      "file": "input/projects/20190200/papers/doi_10.1186_s41687-023-00560-4.xml",
+      "bytes": 189500,
+      "sha256": "ebefe1f5e2a7334d236022e14d9f2d872ba6ab0090c525e006ef33986dd6910f"
+    },
+    {
+      "work_id": "doi:10.1186/s41687-024-00761-5",
+      "doi": "10.1186/s41687-024-00761-5",
+      "title": "Cross-cultural adaptation and psychometric validation of the Chichewa (Malawi) PedsQL™ 4.0 Generic Core Scales child self-report and PedsQL™ 4.0 GCS teen self-report",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11387560/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s41687-024-00761-5",
+      "status": "ok",
+      "file": "input/projects/20190200/papers/doi_10.1186_s41687-024-00761-5.xml",
+      "bytes": 109477,
+      "sha256": "f95d7846564d18d6ef81cb1a105f19785e6dfe0bc4732926b472f4e4166fb4fb"
+    }
+  ]
+}

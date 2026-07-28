@@ -1,0 +1,55 @@
+{
+  "project_id": "2016220",
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s12955-022-01989-9",
+      "doi": "10.1186/s12955-022-01989-9",
+      "pmid": "35614472",
+      "pmcid": "PMC9131619",
+      "title": "Exploring the importance of controlling heteroskedasticity and heterogeneity in health valuation: a case study on Dutch EQ-5D-5L",
+      "journal": "Health and quality of life outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Karim S",
+          "last_name": "Karim",
+          "orcid": "0000-0002-3370-1554"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Groothuis-Oudshoorn CGM",
+          "last_name": "Groothuis-Oudshoorn",
+          "orcid": "0000-0002-4875-5379"
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016220",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9131619",
+        "pdf_url": "https://europepmc.org/articles/PMC9131619?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-01989-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

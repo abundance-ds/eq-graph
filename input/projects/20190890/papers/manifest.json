@@ -1,0 +1,19 @@
+{
+  "project_id": "20190890",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01377-y",
+      "doi": "10.1007/s10198-021-01377-y",
+      "title": "Self vs. other, child vs. adult. An experimental comparison of valuation perspectives for valuation of EQ-5D-Y-3L health states",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8492455/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-021-01377-y",
+      "status": "ok",
+      "file": "input/projects/20190890/papers/doi_10.1007_s10198-021-01377-y.xml",
+      "bytes": 117685,
+      "sha256": "c9e1d25c65f4fa23177a2b31f974a8c1b6b0aad7a9699d623d17d5df586e1f12"
+    }
+  ]
+}

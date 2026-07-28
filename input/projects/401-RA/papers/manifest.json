@@ -1,0 +1,19 @@
+{
+  "project_id": "401-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-03917-y",
+      "doi": "10.1007/s11136-025-03917-y",
+      "title": "Evaluating the content validity of the EQ-5D-Y for Chinese children and adolescents",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12119704/fullTextXML",
+      "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "landing_page": "https://doi.org/10.1007/s11136-025-03917-y",
+      "status": "ok",
+      "file": "input/projects/401-RA/papers/doi_10.1007_s11136-025-03917-y.xml",
+      "bytes": 120015,
+      "sha256": "fdb6ec60509414c1fc951c3f9b38d94548155802a599dc34ce74da45fda03798"
+    }
+  ]
+}

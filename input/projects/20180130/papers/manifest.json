@@ -1,0 +1,58 @@
+{
+  "project_id": "20180130",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40271-022-00572-0",
+      "doi": "10.1007/s40271-022-00572-0",
+      "title": "Determinants of Health Preferences Using Data from the Egyptian EQ-5D-5L Valuation Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9365720/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-022-00572-0",
+      "status": "ok",
+      "file": "input/projects/20180130/papers/doi_10.1007_s40271-022-00572-0.xml",
+      "bytes": 107329,
+      "sha256": "bd609cbad538cb41b521ead5433b1658d736811710c5d6aac7f3cf8987db83af"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-021-01002-z",
+      "doi": "10.1007/s40273-021-01002-z",
+      "title": "RETRACTED ARTICLE: The EQ-5D-5L Valuation Study in Egypt",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7952144/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-021-01002-z",
+      "status": "ok",
+      "file": "input/projects/20180130/papers/doi_10.1007_s40273-021-01002-z.xml",
+      "bytes": 171390,
+      "sha256": "01a092c8f0e35e8afeaadf90e7dde4d56d021ac1779bd2f02d268bb7a4fc2e5a"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-021-01100-y",
+      "doi": "10.1007/s40273-021-01100-y",
+      "title": "The EQ-5D-5L Valuation Study in Egypt",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8595057/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-021-01100-y",
+      "status": "ok",
+      "file": "input/projects/20180130/papers/doi_10.1007_s40273-021-01100-y.xml",
+      "bytes": 179684,
+      "sha256": "73118fd045e08db3406618a11410914b5bf9be004a5eaa97f1b6c67d08222c4b"
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2021-051727",
+      "doi": "10.1136/bmjopen-2021-051727",
+      "title": "EQ-VT protocol: one-size-fits-all? Challenges and innovative adaptations used in Egypt: a cross-sectional study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8712977/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2021-051727",
+      "status": "ok",
+      "file": "input/projects/20180130/papers/doi_10.1136_bmjopen-2021-051727.xml",
+      "bytes": 78779,
+      "sha256": "adfbfd63b8ce5bebb33ae255199b06a69d388b7f8b07f24541269ba5fb0c0d45"
+    }
+  ]
+}

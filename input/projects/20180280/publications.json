@@ -1,0 +1,65 @@
+{
+  "project_id": "20180280",
+  "accepted": [
+    {
+      "work_id": "doi:10.1177/0272989x211001859",
+      "doi": "10.1177/0272989x211001859",
+      "pmid": "33754886",
+      "pmcid": "PMC8191148",
+      "title": "Valuation Survey of EQ-5D-Y Based on the International Common Protocol: Development of a Value Set in Japan",
+      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Shiroiwa T",
+          "last_name": "Shiroiwa",
+          "orcid": "0000-0003-3055-9932"
+        },
+        {
+          "full_name": "Ikeda S",
+          "last_name": "Ikeda",
+          "orcid": null
+        },
+        {
+          "full_name": "Noto S",
+          "last_name": "Noto",
+          "orcid": "0000-0002-6952-7770"
+        },
+        {
+          "full_name": "Fukuda T",
+          "last_name": "Fukuda",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180280",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://doi.org/10.1177/0272989x211001859",
+        "pdf_url": "https://europepmc.org/articles/PMC8191148?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x211001859",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

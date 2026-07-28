@@ -1,0 +1,71 @@
+{
+  "project_id": "2013240",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-016-1445-9",
+      "doi": "10.1007/s11136-016-1445-9",
+      "title": "Employing quality control and feedback to the EQ-5D-5L valuation protocol to improve the quality of data collection",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5376385/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-016-1445-9",
+      "status": "ok",
+      "file": "input/projects/2013240/papers/doi_10.1007_s11136-016-1445-9.xml",
+      "bytes": 98541,
+      "sha256": "70ce25ed2466f0010c5f2da6ed8e603ddbd2584c6ba1c3547361239f4226ddf2"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-017-0538-9",
+      "doi": "10.1007/s40273-017-0538-9",
+      "title": "The Indonesian EQ-5D-5L Value Set",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5656740/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-017-0538-9",
+      "status": "ok",
+      "file": "input/projects/2013240/papers/doi_10.1007_s40273-017-0538-9.xml",
+      "bytes": 130022,
+      "sha256": "de79d78aa4ab8fbe14edd9c8edae80b877f9b55a7afafd646b1af59d3d5e7fc3"
+    },
+    {
+      "work_id": "doi:10.1186/s12889-018-5706-0",
+      "doi": "10.1186/s12889-018-5706-0",
+      "title": "Living in uncertainty due to floods and pollution: the health status and quality of life of people living on an unhealthy riverbank",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6013864/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12889-018-5706-0",
+      "status": "ok",
+      "file": "input/projects/2013240/papers/doi_10.1186_s12889-018-5706-0.xml",
+      "bytes": 135663,
+      "sha256": "f21b4164c581510faa98fd633e29092a877c5c182553214d492ddfc9c5be50e0"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0197098",
+      "doi": "10.1371/journal.pone.0197098",
+      "title": "Quality of life of the Indonesian general population: Test-retest reliability and population norms of the EQ-5D-5L and WHOQOL-BREF",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5947896/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0197098",
+      "status": "ok",
+      "file": "input/projects/2013240/papers/doi_10.1371_journal.pone.0197098.xml",
+      "bytes": 224736,
+      "sha256": "c277b98b16b9b5f8919797fb023defd348d3a132c03f7ce4477cbb3b09e6396f"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0200966",
+      "doi": "10.1371/journal.pone.0200966",
+      "title": "Quality of life and health status of Indonesian women with breast cancer symptoms before the definitive diagnosis: A comparison with Indonesian women in general",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6053201/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0200966",
+      "status": "ok",
+      "file": "input/projects/2013240/papers/doi_10.1371_journal.pone.0200966.xml",
+      "bytes": 103087,
+      "sha256": "54605e31d4d3eee2a9459bdb4906fc6379059552dc698ac2684cc3ca5ea4fe85"
+    }
+  ]
+}

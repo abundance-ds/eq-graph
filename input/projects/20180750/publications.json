@@ -1,0 +1,256 @@
+{
+  "project_id": "20180750",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2019.02.014",
+      "doi": "10.1016/j.jval.2019.02.014",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Normative Profile of Health-Related Quality of Life for Hong Kong General Population Using Preference-Based Instrument EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Eliza Lai-yi Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Annie Wai-ling Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Amy Yuen-kwan Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Huan Xu",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan M. Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.014",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301822/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.02.014",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.08.005",
+      "doi": "10.1016/j.jval.2025.08.005",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Comparing Adolescent and Adult Preferences for EQ-5D-Y-3L Health States in Hong Kong",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Kailu Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Annie Wai-Ling Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Amy Yuen-Kwan Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Eng-Kiong Yeoh",
+          "last_name": "Yeoh",
+          "orcid": null
+        },
+        {
+          "full_name": "Eliza Lai-Yi Wong",
+          "last_name": "Wong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.08.005",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02522-y",
+      "doi": "10.1186/s12955-026-02522-y",
+      "pmid": "41872908",
+      "pmcid": "PMC13130612",
+      "title": "Value set of EQ-5D-Y-3L for Hong Kong",
+      "journal": "Health and quality of life outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Wong EL",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang K",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong AY",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Cheung AW",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Rivero-Arias O",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Yeoh EK",
+          "last_name": "Yeoh",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13130612",
+        "pdf_url": "https://europepmc.org/articles/PMC13130612?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-026-02522-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-026-01075-4",
+      "doi": "10.1186/s41687-026-01075-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Face validity of the EQ health and wellbeing instrument (EQ-HWB) in Hong Kong",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Eliza Lai-Yi Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Annie Wai-Ling Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Amy Yuen-Kwan Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-026-01075-4",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s41687-026-01075-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

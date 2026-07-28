@@ -1,0 +1,45 @@
+{
+  "project_id": "20180330",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-020-01394-0",
+      "doi": "10.1186/s12955-020-01394-0",
+      "title": "Exploring the relation between the EQ-5D-5L pain/discomfort and pain and itching in a sample of burn patients",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7236121/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-020-01394-0",
+      "status": "ok",
+      "file": "input/projects/20180330/papers/doi_10.1186_s12955-020-01394-0.xml",
+      "bytes": 81742,
+      "sha256": "93b153f579a50047223ca5cfb2703056f406594057393acaa7c189b3fb17d9df"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01771-3",
+      "doi": "10.1186/s12955-021-01771-3",
+      "title": "The relation between EQ-5D and fatigue in a Dutch general population sample: an explorative study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8082864/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-021-01771-3",
+      "status": "ok",
+      "file": "input/projects/20180330/papers/doi_10.1186_s12955-021-01771-3.xml",
+      "bytes": 102626,
+      "sha256": "a337a2cdd2075051fad56f7cef096df1b4ef8416e666216ba92e53a6ef7adafb"
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00406-x",
+      "doi": "10.1186/s41687-021-00406-x",
+      "title": "Adding a fatigue item to the EQ-5D-5L improves its psychometric performance in the general population",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8727660/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s41687-021-00406-x",
+      "status": "ok",
+      "file": "input/projects/20180330/papers/doi_10.1186_s41687-021-00406-x.xml",
+      "bytes": 114239,
+      "sha256": "fefb959ab8191f9b11ed4670107f4cb10162e7d73e630d72edc6d296b437d41a"
+    }
+  ]
+}

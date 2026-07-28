@@ -1,0 +1,17 @@
+{
+  "project_id": "1696-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04278-w",
+      "doi": "10.1007/s11136-026-04278-w",
+      "title": "The association of food insecurity with psychological distress and health-related quality of life in the general adult population of Lebanon",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04278-w",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

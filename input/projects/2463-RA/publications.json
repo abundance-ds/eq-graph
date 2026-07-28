@@ -1,0 +1,56 @@
+{
+  "project_id": "2463-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101543",
+      "doi": "10.1016/j.vhri.2025.101543",
+      "pmid": "41259893",
+      "pmcid": null,
+      "title": "Psychometric Performance of EQ-HWB and EQ-HWB-9 Self-Complete and Interviewer-Administered Versions in Literate, Low-Literacy, and Patient Populations in Indonesia",
+      "journal": "Value in Health Regional Issues",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Grace Helena Firmansyah Putri",
+          "last_name": "Putri",
+          "orcid": null
+        },
+        {
+          "full_name": "Putu Getsha Pradnyan Rarasati Mudita",
+          "last_name": "Mudita",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00469-8/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,17 @@
+{
+  "project_id": "20190250",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-022-01435-z",
+      "doi": "10.1007/s10198-022-01435-z",
+      "title": "Psychometric performance of proxy-reported EQ-5D youth version 5-level (EQ-5D-Y-5L) in comparison with three-level (EQ-5D-Y-3L) in children and adolescents with scoliosis",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.springer.com/tdm",
+      "landing_page": "https://doi.org/10.1007/s10198-022-01435-z",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

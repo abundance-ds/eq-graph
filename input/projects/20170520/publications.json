@@ -1,0 +1,85 @@
+{
+  "project_id": "20170520",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1177/0272989x231180134",
+      "doi": "10.1177/0272989x231180134",
+      "pmid": "37480281",
+      "pmcid": "PMC10422850",
+      "title": "Evaluation of EuroQol Valuation Technology (EQ-VT) Designs to Generate National Value Sets: Learnings from the Development of an EQ-5D Value Set for India Using an Extended Design (DEVINE) Study",
+      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Jyani G",
+          "last_name": "Jyani",
+          "orcid": "0000-0003-3787-2446"
+        },
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": "0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Sharma A",
+          "last_name": "Sharma",
+          "orcid": null
+        },
+        {
+          "full_name": "Goyal A",
+          "last_name": "Goyal",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Grover S",
+          "last_name": "Grover",
+          "orcid": null
+        },
+        {
+          "full_name": "Kaur M",
+          "last_name": "Kaur",
+          "orcid": null
+        },
+        {
+          "full_name": "Prinja S",
+          "last_name": "Prinja",
+          "orcid": "0000-0001-7719-6986"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC10422850",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X231180134",
+        "landing_page": "https://doi.org/10.1177/0272989x231180134",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,19 @@
+{
+  "project_id": "2015240",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-019-00811-7",
+      "doi": "10.1007/s40273-019-00811-7",
+      "title": "Valuation of EQ-5D-5L Health States in Poland: the First EQ-VT-Based Study in Central and Eastern Europe",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6830402/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-019-00811-7",
+      "status": "ok",
+      "file": "input/projects/2015240/papers/doi_10.1007_s40273-019-00811-7.xml",
+      "bytes": 141527,
+      "sha256": "e0549ab03230d104ea917821dda53decf99e39b40f8c8871274f50943e438206"
+    }
+  ]
+}

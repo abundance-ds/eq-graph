@@ -1,0 +1,30 @@
+{
+  "project_id": "1741-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40271-025-00777-z",
+      "doi": "10.1007/s40271-025-00777-z",
+      "title": "Who Prefers Death to Life in Composite Time Trade-off Interviews, and Why? A Mixed-Methods Study among Asians in Singapore",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+      "landing_page": "https://doi.org/10.1007/s40271-025-00777-z",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01519-7",
+      "doi": "10.1007/s40273-025-01519-7",
+      "title": "Developing an EQ-5D-5L Value Set for Singapore",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12602574/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01519-7",
+      "status": "ok",
+      "file": "input/projects/1741-RA/papers/doi_10.1007_s40273-025-01519-7.xml",
+      "bytes": 269718,
+      "sha256": "237f007ba67cc219644585242e818961a64fd6e46a8fdd9bdf15d9c1e73ba172"
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "project_id": "20180130",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40271-022-00572-0",
+      "doi": "10.1007/s40271-022-00572-0",
+      "pmid": "35156181",
+      "pmcid": "PMC9365720",
+      "title": "Determinants of Health Preferences Using Data from the Egyptian EQ-5D-5L Valuation Study",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sahar Al Shabasy",
+          "last_name": "Al Shabasy",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180130",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180130",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9365720",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-022-00572-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s40271-022-00572-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-021-01002-z",
+      "doi": "10.1007/s40273-021-01002-z",
+      "pmid": "33709283",
+      "pmcid": "PMC7952144",
+      "title": "RETRACTED ARTICLE: The EQ-5D-5L Valuation Study in Egypt",
+      "journal": "PharmacoEconomics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Sahar A. Al Shabasy",
+          "last_name": "Al Shabasy",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie M. Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Darrin Baines",
+          "last_name": "Baines",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar F. Farid",
+          "last_name": "Farid",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180130",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180130",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7952144",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-021-01002-z.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-021-01002-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-021-01100-y",
+      "doi": "10.1007/s40273-021-01100-y",
+      "pmid": "34786590",
+      "pmcid": "PMC8595057",
+      "title": "The EQ-5D-5L Valuation Study in Egypt",
+      "journal": "PharmacoEconomics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Sahar Al Shabasy",
+          "last_name": "Al Shabasy",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Darrin Baines",
+          "last_name": "Baines",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180130",
+          "weight": 1.0
+        },
+        {
+          "kind": "title_exact",
+          "detail": "normalized titles identical",
+          "weight": 0.95
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180130",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8595057",
+        "pdf_url": "https://europepmc.org/articles/PMC8595057?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-021-01100-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2021-051727",
+      "doi": "10.1136/bmjopen-2021-051727",
+      "pmid": "34949616",
+      "pmcid": "PMC8712977",
+      "title": "EQ-VT protocol: one-size-fits-all? Challenges and innovative adaptations used in Egypt: a cross-sectional study",
+      "journal": "BMJ Open",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Sahar Al Shabasy",
+          "last_name": "Al Shabasy",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180130",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180130",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/11/12/e051727.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/11/12/e051727.full.pdf",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2021-051727",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-026-01970-z",
+      "doi": "10.1007/s10198-026-01970-z",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric benefits of adding four bolt-ons (skin irritation, self-confidence, social relationships and sleep) to EQ-5D-5L compared to PROMIS-29 and Skindex-16 in patients with psoriasis and atopic dermatitis",
+      "journal": "The European Journal of Health Economics",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Sandra N. Naguib",
+          "last_name": "Naguib",
+          "orcid": "https://orcid.org/0000-0003-1027-6089"
+        },
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Dina G. Saadi",
+          "last_name": "Saadi",
+          "orcid": "https://orcid.org/0000-0001-8774-0914"
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": "https://orcid.org/0000-0002-5956-8990"
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-026-01970-z",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01208-9",
+      "doi": "10.1007/s40273-022-01208-9",
+      "pmid": "36434416",
+      "pmcid": "PMC9928797",
+      "title": "The Egyptian EQ-5D-5L Extensive Pilot Study: Lessons Learned",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sahar Al Shabasy",
+          "last_name": "Al Shabasy",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9928797",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01208-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01208-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-025-00985-z",
+      "doi": "10.1186/s41687-025-00985-z",
+      "pmid": "41678080",
+      "pmcid": "PMC12946566",
+      "title": "Translation and cultural adaptation of the EQ-5D-Y-5L into Modern Standard Arabic for use in Egypt",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Manar G. Elgaar",
+          "last_name": "Elgaar",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatma S. E. Ebeid",
+          "last_name": "Ebeid",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie M. Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar F. Farid",
+          "last_name": "Farid",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12946566",
+        "pdf_url": "https://europepmc.org/articles/PMC12946566?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-025-00985-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

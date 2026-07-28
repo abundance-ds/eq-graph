@@ -1,0 +1,186 @@
+{
+  "project_id": "2426-PHD",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04285-x",
+      "doi": "10.1007/s11136-026-04285-x",
+      "pmid": "42260238",
+      "pmcid": "PMC13246841",
+      "title": "Socioeconomic inequalities in health-related quality of life during the COVID-19 pandemic: a six-country comparison using the EQ-5D-5 L",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Joëlle Eijkens",
+          "last_name": "Eijkens",
+          "orcid": null
+        },
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "M. F. Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13246841",
+        "pdf_url": "https://europepmc.org/articles/PMC13246841?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04285-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.06.010",
+      "doi": "10.1016/j.jval.2026.06.010",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Longitudinal Psychometric Evaluation of 15 Bolt-ons for the EQ-5D-5L in a Large-Scale Multi-Country Study",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Žan Luka Lavriha",
+          "last_name": "Lavriha",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. (Bas) Janssen",
+          "last_name": "(Bas) Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.06.010",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.06.010",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/ijph.2026.1608807",
+      "doi": "10.3389/ijph.2026.1608807",
+      "pmid": "41727346",
+      "pmcid": "PMC12916432",
+      "title": "Health-Related Quality of Life Among Ukrainian War Refugees Compared to the General Population in Estonia",
+      "journal": "International Journal of Public Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Rainer Reile",
+          "last_name": "Reile",
+          "orcid": null
+        },
+        {
+          "full_name": "Johann Saavaste",
+          "last_name": "Saavaste",
+          "orcid": null
+        },
+        {
+          "full_name": "Galina Opikova",
+          "last_name": "Opikova",
+          "orcid": null
+        },
+        {
+          "full_name": "Taavi Lai",
+          "last_name": "Lai",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12916432",
+        "pdf_url": "https://europepmc.org/articles/PMC12916432?pdf=render",
+        "landing_page": "https://doi.org/10.3389/ijph.2026.1608807",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

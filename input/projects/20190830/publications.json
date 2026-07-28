@@ -1,0 +1,973 @@
+{
+  "project_id": "20190830",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/ppul.71031",
+      "doi": "10.1002/ppul.71031",
+      "pmid": "40042135",
+      "pmcid": "PMC11881216",
+      "title": "Are EQ-5D-Y-3L and EQ-5D-Y-5L Useful Tools to Assess Health Outcomes in Children With Asthma? An Analysis of Child and Parental Carer Reporting",
+      "journal": "Pediatric pulmonology",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Zhou W",
+          "last_name": "Zhou",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wu B",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Busschbach J",
+          "last_name": "Busschbach",
+          "orcid": "0000-0002-8602-0381"
+        },
+        {
+          "full_name": "Lu Y",
+          "last_name": "Lu",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": "0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC11881216",
+        "pdf_url": "https://europepmc.org/articles/PMC11881216?pdf=render",
+        "landing_page": "https://doi.org/10.1002/ppul.71031",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-018-0987-x",
+      "doi": "10.1007/s10198-018-0987-x",
+      "pmid": "29948432",
+      "pmcid": "PMC6394787",
+      "title": "Impact of mapped EQ-5D utilities on cost-effectiveness analysis: in the case of dialysis treatments",
+      "journal": "The European Journal of Health Economics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Fan Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0003-4689-265x"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://scholarbank.nus.edu.sg/handle/10635/181162",
+        "pdf_url": "https://europepmc.org/articles/PMC6394787?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-018-0987-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-019-01156-w",
+      "doi": "10.1007/s10198-019-01156-w",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A vision ‘bolt-on’ increases the responsiveness of EQ-5D: preliminary evidence from a study of cataract surgery",
+      "journal": "The European Journal of Health Economics",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Marcus Ang",
+          "last_name": "Ang",
+          "orcid": "https://orcid.org/0000-0003-3022-0795"
+        },
+        {
+          "full_name": "Kelvin Teo",
+          "last_name": "Teo",
+          "orcid": "https://orcid.org/0000-0002-7458-7081"
+        },
+        {
+          "full_name": "Chee Wai Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-0935-2016"
+        },
+        {
+          "full_name": "Yvonne Chung-Hsi Wei",
+          "last_name": "Wei",
+          "orcid": "https://orcid.org/0000-0002-5515-4029"
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Tan",
+          "orcid": "https://orcid.org/0000-0002-4610-1195"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-019-01156-w",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-021-01309-w",
+      "doi": "10.1007/s10198-021-01309-w",
+      "pmid": "33950465",
+      "pmcid": "PMC8318941",
+      "title": "Patient-caregiver agreement and test-retest reliability of the EQ-5D-Y-3L and EQ-5D-Y-5L in paediatric patients with haematological malignancies",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Zhou W",
+          "last_name": "Zhou",
+          "orcid": null
+        },
+        {
+          "full_name": "Shen A",
+          "last_name": "Shen",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wu B",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": "0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://scholarbank.nus.edu.sg/handle/10635/232596",
+        "pdf_url": "https://europepmc.org/articles/PMC8318941?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-021-01309-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-022-01435-z",
+      "doi": "10.1007/s10198-022-01435-z",
+      "pmid": "35122171",
+      "pmcid": null,
+      "title": "Psychometric performance of proxy-reported EQ-5D youth version 5-level (EQ-5D-Y-5L) in comparison with three-level (EQ-5D-Y-3L) in children and adolescents with scoliosis",
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Jiaer Lin",
+          "last_name": "Lin",
+          "orcid": null
+        },
+        {
+          "full_name": "Carlos King Ho Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Jason Pui Yin Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Prudence Wing Hang Cheung",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-022-01435-z",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-023-01635-1",
+      "doi": "10.1007/s10198-023-01635-1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Valuation of EQ-5D-5L health states from cancer patients’ perspective: a feasibility study",
+      "journal": "The European Journal of Health Economics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Qingqing Chai",
+          "last_name": "Chai",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Xiaoyan Liu",
+          "last_name": "Liu",
+          "orcid": null
+        },
+        {
+          "full_name": "Di An",
+          "last_name": "An",
+          "orcid": null
+        },
+        {
+          "full_name": "Jiangyang Du",
+          "last_name": "Du",
+          "orcid": null
+        },
+        {
+          "full_name": "Xiumei Ma",
+          "last_name": "Ma",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Bin Wu",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-023-01635-1",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-023-01647-x",
+      "doi": "10.1007/s10198-023-01647-x",
+      "pmid": "38104294",
+      "pmcid": null,
+      "title": "Exploring non-iterative time trade-off methods for valuation of EQ-5D-5L health states",
+      "journal": "The European Journal of Health Economics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/0434dae2-2858-4629-9457-5868c9052da0",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-023-01647-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-024-01669-z",
+      "doi": "10.1007/s10198-024-01669-z",
+      "pmid": "38356007",
+      "pmcid": null,
+      "title": "Validity and responsiveness of EQ-5D-Y in children with haematological malignancies and their caregivers",
+      "journal": "The European Journal of Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Wenjing Zhou",
+          "last_name": "Zhou",
+          "orcid": "https://orcid.org/0000-0003-0770-4564"
+        },
+        {
+          "full_name": "Anle Shen",
+          "last_name": "Shen",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Bin Wu",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/c9cf0784-fc67-4790-80b3-f1b9e3681a19",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-024-01669-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-024-01714-x",
+      "doi": "10.1007/s10198-024-01714-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Testing four cognition bolt-on items to the EQ-5D in a general Chinese population",
+      "journal": "The European Journal of Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": "https://orcid.org/0000-0001-7859-3684"
+        },
+        {
+          "full_name": "Hongyan Wu",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Yan Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-018-2027-9",
+      "doi": "10.1007/s11136-018-2027-9",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric performance assessment of Malay and Malaysian English version of EQ-5D-5L in the Malaysian population",
+      "journal": "Quality of Life Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Asrul Akmal Shafie",
+          "last_name": "Shafie",
+          "orcid": "https://orcid.org/0000-0002-5629-9270"
+        },
+        {
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Vasan Thakumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Ching Jou Lim",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-018-2027-9",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-022-03329-2",
+      "doi": "10.1007/s11136-022-03329-2",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Censoring in the time trade-off valuation of worse-than-dead EQ-5D-5L health states: can a time-based willingness-to-accept question be the solution?",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": "https://orcid.org/0000-0001-7859-3684"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Chien-Ning Hsu",
+          "last_name": "Hsu",
+          "orcid": "https://orcid.org/0000-0001-7470-528x"
+        },
+        {
+          "full_name": "Hsiang-Wen Lin",
+          "last_name": "Lin",
+          "orcid": "https://orcid.org/0000-0002-6771-6746"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-022-03329-2",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03985-0",
+      "doi": "10.1007/s11136-025-03985-0",
+      "pmid": "40399643",
+      "pmcid": null,
+      "title": "Developing and testing a patient-reported outcome measure for patients with sleep disturbances using EQ-5D and condition-specific bolt-ons: a mixed method study",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ai-Ping Chua",
+          "last_name": "Chua",
+          "orcid": "https://orcid.org/0000-0003-1773-5049"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Shaffinaz Abd Rahman",
+          "last_name": "Rahman",
+          "orcid": null
+        },
+        {
+          "full_name": "Mary Anne Relimbo Dela Cruz",
+          "last_name": "Cruz",
+          "orcid": null
+        },
+        {
+          "full_name": "Emelita Naval Montaniel",
+          "last_name": "Montaniel",
+          "orcid": null
+        },
+        {
+          "full_name": "Kaayathiri Ravichandran",
+          "last_name": "Ravichandran",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-025-03985-0",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04016-8",
+      "doi": "10.1007/s11136-025-04016-8",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric testing of two respiratory bolt-on items to EQ-5D-5L in patients with obstructive airway diseases",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ai-Ping Chua",
+          "last_name": "Chua",
+          "orcid": "https://orcid.org/0000-0003-1773-5049"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Ling-Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/b892b743-406d-4204-93c1-53d99b3cd2af",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-025-04016-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04288-8",
+      "doi": "10.1007/s11136-026-04288-8",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Health-related quality of life of people with obesity who have and have not received metabolic bariatric surgery: a qualitative study in Singapore",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jia Jia Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Le Ann Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Asim Shabbir",
+          "last_name": "Shabbir",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-026-04288-8",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-018-00354-7",
+      "doi": "10.1007/s40271-018-00354-7",
+      "pmid": null,
+      "pmcid": null,
+      "title": "EQ-5D-5L is More Responsive than EQ-5D-3L to Treatment Benefit of Cataract Surgery",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Marcus Ang",
+          "last_name": "Ang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kelvin Teo",
+          "last_name": "Teo",
+          "orcid": null
+        },
+        {
+          "full_name": "Chee Wai Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Yvonne Chung-Hsi Wei",
+          "last_name": "Wei",
+          "orcid": null
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Tan",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-018-00354-7",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 24
+}

@@ -1,0 +1,17 @@
+{
+  "project_id": "458-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.03.2195",
+      "doi": "10.1016/j.jval.2024.03.2195",
+      "title": "Testing the Psychometric Properties of 9 Bolt-Ons for the EQ-5D-5L in a General Population Sample",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.jval.2024.03.2195",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "project_id": "1644-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-024-02303-5",
+      "doi": "10.1186/s12955-024-02303-5",
+      "title": "Validity, test-retest reliability, and responsiveness of the Indonesian version of FACIT-COST measure for subjective financial toxicity",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11491015/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-024-02303-5",
+      "status": "ok",
+      "file": "input/projects/1644-RA/papers/doi_10.1186_s12955-024-02303-5.xml",
+      "bytes": 172574,
+      "sha256": "7b1a4470210af144037fe53de7eed19d6b2c62ea61d3c89f06ffe1690396a969"
+    }
+  ]
+}

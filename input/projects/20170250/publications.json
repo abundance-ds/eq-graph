@@ -1,0 +1,357 @@
+{
+  "project_id": "20170250",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-021-00496-1",
+      "doi": "10.1007/s40271-021-00496-1",
+      "pmid": "33650034",
+      "pmcid": "PMC8357732",
+      "title": "A New Approach to Assessing Children’s Interpretation of Severity Qualifiers in a Multi-Attribute Utility Instrument–The EQ-5D-Y-5L: Development and Testing",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": "https://orcid.org/0000-0003-2867-0498"
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
+        },
+        {
+          "full_name": "Lucky G. Ngwira",
+          "last_name": "Ngwira",
+          "orcid": "https://orcid.org/0000-0002-2695-8917"
+        },
+        {
+          "full_name": "Elizabeth Yohe Moore",
+          "last_name": "Moore",
+          "orcid": null
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8357732",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40271-021-00496-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40271-021-00496-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-017-0590-3",
+      "doi": "10.1186/s12955-017-0590-3",
+      "pmid": "28103872",
+      "pmcid": "PMC5248508",
+      "title": "The use of the EQ-5D-Y health related quality of life outcome measure in children in the Western Cape, South Africa: psychometric properties, feasibility and usefulness - a longitudinal, analytical study",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Des Scott",
+          "last_name": "Scott",
+          "orcid": "https://orcid.org/0000-0003-3943-7392"
+        },
+        {
+          "full_name": "Gillian D. Ferguson",
+          "last_name": "Ferguson",
+          "orcid": null
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5248508",
+        "pdf_url": "https://europepmc.org/articles/PMC5248508?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-017-0590-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-020-01410-3",
+      "doi": "10.1186/s12955-020-01410-3",
+      "pmid": "32448278",
+      "pmcid": "PMC7247261",
+      "title": "How does the EQ-5D-Y Proxy version 1 perform in 3, 4 and 5-year-old children?",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Andrew Lloyd",
+          "last_name": "Lloyd",
+          "orcid": null
+        },
+        {
+          "full_name": "Des Scott",
+          "last_name": "Scott",
+          "orcid": null
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7247261",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-020-01410-3",
+        "landing_page": "https://doi.org/10.1186/s12955-020-01410-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-020-1271-1",
+      "doi": "10.1186/s12955-020-1271-1",
+      "pmid": "31937311",
+      "pmcid": "PMC6961344",
+      "title": "Item generation for a proxy health related quality of life measure in very young children",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Lebogang Ramma",
+          "last_name": "Ramma",
+          "orcid": null
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC6961344",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-020-1271-1",
+        "landing_page": "https://doi.org/10.1186/s12955-020-1271-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-020-00251-4",
+      "doi": "10.1186/s41687-020-00251-4",
+      "pmid": "33165662",
+      "pmcid": "PMC7652950",
+      "title": "Validity and reliability testing of the Toddler and Infant (TANDI) Health Related Quality of Life instrument for very young children",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Ramma L",
+          "last_name": "Ramma",
+          "orcid": "0000-0001-9109-9103"
+        },
+        {
+          "full_name": "Jelsma J",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7652950",
+        "pdf_url": "https://europepmc.org/articles/PMC7652950?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-020-00251-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3390/children8100920",
+      "doi": "10.3390/children8100920",
+      "pmid": "34682184",
+      "pmcid": "PMC8534352",
+      "title": "Performance of the Toddler and Infant (TANDI) Health-Related Quality of Life Instrument in 3–4-Year-Old Children",
+      "journal": "Children",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Andrew J. Lloyd",
+          "last_name": "Lloyd",
+          "orcid": "https://orcid.org/0000-0002-7597-6556"
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC8534352",
+        "pdf_url": "https://europepmc.org/articles/PMC8534352?pdf=render",
+        "landing_page": "https://doi.org/10.3390/children8100920",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.4102/ajod.v8i0.512",
+      "doi": "10.4102/ajod.v8i0.512",
+      "pmid": "31534919",
+      "pmcid": "PMC6739523",
+      "title": "Disability prevalence-context matters: A descriptive community-based survey",
+      "journal": "African journal of disability",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Maart S",
+          "last_name": "Maart",
+          "orcid": "0000-0001-8056-3484"
+        },
+        {
+          "full_name": "Amosun S",
+          "last_name": "Amosun",
+          "orcid": "0000-0001-7385-227X"
+        },
+        {
+          "full_name": "Jelsma J",
+          "last_name": "Jelsma",
+          "orcid": "0000-0003-4049-8395"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://ajod.org/index.php/ajod/article/download/512/1113",
+        "pdf_url": "https://ajod.org/index.php/ajod/article/download/512/1113",
+        "landing_page": "https://doi.org/10.4102/ajod.v8i0.512",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

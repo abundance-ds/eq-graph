@@ -1,0 +1,56 @@
+{
+  "project_id": "1583-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12889-025-24238-2",
+      "doi": "10.1186/s12889-025-24238-2",
+      "pmid": "41029256",
+      "pmcid": "PMC12487048",
+      "title": "Self-reported health status in the general population over 2 decades: variation in EQ-5D-3L in Health Survey for England",
+      "journal": "BMC Public Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ling-Hsiang Chuang",
+          "last_name": "Chuang",
+          "orcid": null
+        },
+        {
+          "full_name": "Ranjeeta Thomas",
+          "last_name": "Thomas",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12487048",
+        "pdf_url": "https://europepmc.org/articles/PMC12487048?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12889-025-24238-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

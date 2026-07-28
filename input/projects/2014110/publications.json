@@ -1,0 +1,262 @@
+{
+  "project_id": "2014110",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-012-0200-0",
+      "doi": "10.1007/s11136-012-0200-0",
+      "pmid": "22622627",
+      "pmcid": "PMC3636433",
+      "title": "Developing the Chinese version of the new 5-level EQ-5D descriptive system: the response scaling approach",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2013,
+      "authors": [
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Li M",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Liu GG",
+          "last_name": "Liu",
+          "orcid": null
+        },
+        {
+          "full_name": "Lloyd A",
+          "last_name": "Lloyd",
+          "orcid": null
+        },
+        {
+          "full_name": "de Charro F",
+          "last_name": "de Charro",
+          "orcid": "0000-0002-5280-5551"
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC3636433",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-012-0200-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-012-0200-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-022-03138-7",
+      "doi": "10.1007/s11136-022-03138-7",
+      "pmid": "35486216",
+      "pmcid": "PMC9470642",
+      "title": "Criteria for developing, assessing and selecting candidate EQ-5D bolt-ons",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": null
+        },
+        {
+          "full_name": "Phil Haywood",
+          "last_name": "Haywood",
+          "orcid": null
+        },
+        {
+          "full_name": "Rebecca Addo",
+          "last_name": "Addo",
+          "orcid": null
+        },
+        {
+          "full_name": "Katie Page",
+          "last_name": "Page",
+          "orcid": null
+        },
+        {
+          "full_name": "David Mott",
+          "last_name": "Mott",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9470642",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03138-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03138-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-015-0356-8",
+      "doi": "10.1186/s12955-015-0356-8",
+      "pmid": "26489956",
+      "pmcid": "PMC4618130",
+      "title": "Assessing the health of the general population in England: how do the three- and five-level versions of EQ-5D compare?",
+      "journal": "Health and quality of life outcomes",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Feng Y",
+          "last_name": "Feng",
+          "orcid": "0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4618130",
+        "pdf_url": "https://europepmc.org/articles/PMC4618130?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-015-0356-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-01998-8",
+      "doi": "10.1186/s12955-022-01998-8",
+      "pmid": "35794607",
+      "pmcid": "PMC9260978",
+      "title": "Valuing EQ-5D-Y: the current state of play",
+      "journal": "Health and quality of life outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Pan T",
+          "last_name": "Pan",
+          "orcid": "0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Kreimeier S",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9260978",
+        "pdf_url": "https://europepmc.org/articles/PMC9260978?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-01998-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

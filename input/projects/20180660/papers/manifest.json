@@ -1,0 +1,19 @@
+{
+  "project_id": "20180660",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s41669-023-00437-8",
+      "doi": "10.1007/s41669-023-00437-8",
+      "title": "The EQ-5D-3L Valuation Study in Pakistan",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10721573/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s41669-023-00437-8",
+      "status": "ok",
+      "file": "input/projects/20180660/papers/doi_10.1007_s41669-023-00437-8.xml",
+      "bytes": 134719,
+      "sha256": "377eea220ff27f4031a87d0159bdbb7ce2953ad664c614702591cc325a9031af"
+    }
+  ]
+}

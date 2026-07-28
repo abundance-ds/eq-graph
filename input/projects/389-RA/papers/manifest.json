@@ -1,0 +1,17 @@
+{
+  "project_id": "389-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jclinepi.2025.111982",
+      "doi": "10.1016/j.jclinepi.2025.111982",
+      "title": "PedsQL Generic Core Scales was more discriminative while EQ-5D-Y-5L was more responsive in a longitudinal study of multiethnic Asian children and adolescents with heart disease",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jclinepi.2025.111982",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

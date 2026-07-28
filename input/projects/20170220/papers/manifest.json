@@ -1,0 +1,19 @@
+{
+  "project_id": "20170220",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02469-7",
+      "doi": "10.1007/s11136-020-02469-7",
+      "title": "An EQ-5D-5L Value Set for Vietnam",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7295839/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-020-02469-7",
+      "status": "ok",
+      "file": "input/projects/20170220/papers/doi_10.1007_s11136-020-02469-7.xml",
+      "bytes": 120475,
+      "sha256": "01e36da4c30f08d32ac309ce545d50201d3b50a2666625bdfb5c1ad7853d6933"
+    }
+  ]
+}

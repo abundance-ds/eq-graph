@@ -1,0 +1,32 @@
+{
+  "project_id": "2016230",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-019-00854-w",
+      "doi": "10.1007/s40273-019-00854-w",
+      "title": "Measurement Properties of Commonly Used Generic Preference-Based Measures in East and South-East Asia: A Systematic Review",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7081654/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-019-00854-w",
+      "status": "ok",
+      "file": "input/projects/2016230/papers/doi_10.1007_s40273-019-00854-w.xml",
+      "bytes": 208051,
+      "sha256": "a2f7a83ddbccff96e0bf913327025b2e1f1a9f01caa399629d767fbd414eee98"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02131-z",
+      "doi": "10.1186/s12955-023-02131-z",
+      "title": "Characteristics of health-state utilities used in cost-effectiveness analyses: a systematic review of published studies in Asia",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10283288/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-023-02131-z",
+      "status": "ok",
+      "file": "input/projects/2016230/papers/doi_10.1186_s12955-023-02131-z.xml",
+      "bytes": 91224,
+      "sha256": "f315300c429496213613038bf407ec80dc8350cba23bcbf1510e29309b02eb39"
+    }
+  ]
+}

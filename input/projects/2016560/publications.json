@@ -1,0 +1,187 @@
+{
+  "project_id": "2016560",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03304-x",
+      "doi": "10.1007/s11136-022-03304-x",
+      "pmid": "36422771",
+      "pmcid": "PMC10063498",
+      "title": "Hypothetical versus experienced health state valuation: a qualitative study of adult general public views and preferences",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Philip A. Powell",
+          "last_name": "Powell",
+          "orcid": "https://orcid.org/0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Ben van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "John E. Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 2016560",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016560",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10063498",
+        "pdf_url": "https://europepmc.org/articles/PMC10063498?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03304-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01858-x",
+      "doi": "10.1186/s12955-021-01858-x",
+      "pmid": "34556133",
+      "pmcid": "PMC8461831",
+      "title": "Valuing child and adolescent health: a qualitative study on different perspectives and priorities taken by the adult general public",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Philip A. Powell",
+          "last_name": "Powell",
+          "orcid": "https://orcid.org/0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": null
+        },
+        {
+          "full_name": "John E. Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 2016560",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016560",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8461831",
+        "pdf_url": "https://europepmc.org/articles/PMC8461831?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01858-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-017-0678-9",
+      "doi": "10.1186/s12955-017-0678-9",
+      "pmid": "28521836",
+      "pmcid": "PMC5437695",
+      "title": "Are preferences over health states informed?",
+      "journal": "Health and quality of life outcomes",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Karimi M",
+          "last_name": "Karimi",
+          "orcid": "0000-0002-5298-174X"
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Paisley S",
+          "last_name": "Paisley",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5437695",
+        "pdf_url": "https://europepmc.org/articles/PMC5437695?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-017-0678-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

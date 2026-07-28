@@ -1,0 +1,75 @@
+{
+  "project_id": "1863-RA",
+  "accepted": [],
+  "review": [
+    {
+      "work_id": "doi:10.1016/j.jval.2026.03.2234",
+      "doi": "10.1016/j.jval.2026.03.2234",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric Performance of Preference-Weighted Instruments in Older Adults: A Systematic Review",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Valeriia Sokolova",
+          "last_name": "Sokolova",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Faller",
+          "last_name": "Faller",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.8,
+      "confidence": "review",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "title_strong",
+          "detail": "title similarity 0.95",
+          "weight": 0.8
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.03.2234",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.03.2234",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak": [],
+  "weak_omitted": 0
+}

@@ -1,0 +1,32 @@
+{
+  "project_id": "20180140",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-021-01889-4",
+      "doi": "10.1186/s12955-021-01889-4",
+      "title": "Comparing measurement properties of EQ-5D-Y-3L and EQ-5D-Y-5L in paediatric patients",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8591892/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-021-01889-4",
+      "status": "ok",
+      "file": "input/projects/20180140/papers/doi_10.1186_s12955-021-01889-4.xml",
+      "bytes": 135369,
+      "sha256": "391d5a4709420294b9327dd92a89a63bad287380e31d3ba17e15bc73b2c6859d"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-01996-w",
+      "doi": "10.1186/s12955-022-01996-w",
+      "title": "EQ-5D-Y-3L and EQ-5D-Y-5L proxy report: psychometric performance and agreement with self-report",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9164342/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-022-01996-w",
+      "status": "ok",
+      "file": "input/projects/20180140/papers/doi_10.1186_s12955-022-01996-w.xml",
+      "bytes": 108074,
+      "sha256": "61c64b847e8c56d5c27521cb5772a4eda4ac73333664914540f9499b728afc36"
+    }
+  ]
+}

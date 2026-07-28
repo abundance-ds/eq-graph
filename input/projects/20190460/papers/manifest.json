@@ -1,0 +1,19 @@
+{
+  "project_id": "20190460",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40258-022-00772-7",
+      "doi": "10.1007/s40258-022-00772-7",
+      "title": "EQ-5D-5L Population Norms for Italy",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9702834/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40258-022-00772-7",
+      "status": "ok",
+      "file": "input/projects/20190460/papers/doi_10.1007_s40258-022-00772-7.xml",
+      "bytes": 210415,
+      "sha256": "d842a3b656e5287b494ecdaf400b1907cb684fb8c2f1955672fb86169cf800ef"
+    }
+  ]
+}

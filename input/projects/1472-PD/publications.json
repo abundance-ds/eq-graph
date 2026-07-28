@@ -1,0 +1,419 @@
+{
+  "project_id": "1472-PD",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01804-4",
+      "doi": "10.1007/s10198-025-01804-4",
+      "pmid": "40736640",
+      "pmcid": "PMC13046681",
+      "title": "Comparison of the psychometric performance of experimental EuroQol Toddler and Infant Populations Instrument (EQ-TIPS) and Pediatric Quality of Life Inventory™ (PedsQL) in young children",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Pan T",
+          "last_name": "Pan",
+          "orcid": "0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Huang L",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "He V",
+          "last_name": "He",
+          "orcid": "0000-0002-1513-1164"
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Dalziel K",
+          "last_name": "Dalziel",
+          "orcid": "0000-0003-4972-8871"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13046681",
+        "pdf_url": "https://europepmc.org/articles/PMC13046681?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01804-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02911-4",
+      "doi": "10.1007/s11136-021-02911-4",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": "https://orcid.org/0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-021-02911-4",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-021-01109-3",
+      "doi": "10.1007/s40273-021-01109-3",
+      "pmid": "34786591",
+      "pmcid": "PMC8866274",
+      "title": "A Comparison of PROPr and EQ-5D-5L Value Sets",
+      "journal": "PharmacoEconomics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": "https://orcid.org/0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8866274",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-021-01109-3.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-021-01109-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01493-0",
+      "doi": "10.1007/s40273-025-01493-0",
+      "pmid": "40261492",
+      "pmcid": "PMC12167273",
+      "title": "How do Health State Values Differ When Respondents Consider Adults Versus Children Living in Those States? A Systematic Review",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ashwini De Silva",
+          "last_name": "De Silva",
+          "orcid": "https://orcid.org/0000-0003-4535-442x"
+        },
+        {
+          "full_name": "Alexander van Heusden",
+          "last_name": "van Heusden",
+          "orcid": "https://orcid.org/0009-0007-8055-5450"
+        },
+        {
+          "full_name": "Zhongyu Lang",
+          "last_name": "Lang",
+          "orcid": "https://orcid.org/0000-0002-2399-6942"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": "https://orcid.org/0000-0002-2243-8818"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12167273",
+        "pdf_url": "https://europepmc.org/articles/PMC12167273?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-025-01493-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.07.016",
+      "doi": "10.1016/j.jval.2025.07.016",
+      "pmid": "40738298",
+      "pmcid": null,
+      "title": "Testing the Valuation of the EQ-5D-Y-5L in Adults and Adolescents: Results From a 5-Country Study and Implications for the Descriptive System",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goni",
+          "last_name": "Ramos-Goni",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Shitong Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.07.016",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.07.016",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-025-02402-x",
+      "doi": "10.1186/s12955-025-02402-x",
+      "pmid": "40660259",
+      "pmcid": "PMC12261590",
+      "title": "An Australian Value Set for the EQ-5D-Y-3L",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12261590",
+        "pdf_url": "https://europepmc.org/articles/PMC12261590?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-025-02402-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,58 @@
+{
+  "project_id": "150-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40271-023-00647-6",
+      "doi": "10.1007/s40271-023-00647-6",
+      "title": "Face Validity of Four Preference-Weighted Quality-of-Life Measures in Residential Aged Care: A Think-Aloud Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10570159/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-023-00647-6",
+      "status": "ok",
+      "file": "input/projects/150-RA/papers/doi_10.1007_s40271-023-00647-6.xml",
+      "bytes": 118045,
+      "sha256": "7e525370e4416d9dc5fd1662fa7b9c2928d18b3f6eefe7c60a27ff71feff8726"
+    },
+    {
+      "work_id": "doi:10.1007/s40271-024-00715-5",
+      "doi": "10.1007/s40271-024-00715-5",
+      "title": "Appropriateness of the EQ-HWB for Use in Residential Aged Care: A Proxy Perspective",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11461598/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-024-00715-5",
+      "status": "ok",
+      "file": "input/projects/150-RA/papers/doi_10.1007_s40271-024-00715-5.xml",
+      "bytes": 95270,
+      "sha256": "3229a5eede9e1230b0b20cb28fa6587ba5269688e0ec8ad7f27417badf07061b"
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00729-7",
+      "doi": "10.1007/s40271-025-00729-7",
+      "title": "Routine Quality-of-Life Measurement in Residential Aged Care: Staff, Resident, and Family Perspectives",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11985636/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-025-00729-7",
+      "status": "ok",
+      "file": "input/projects/150-RA/papers/doi_10.1007_s40271-025-00729-7.xml",
+      "bytes": 104552,
+      "sha256": "aab9bda48945ab81bcaac2ecc2eef7d071aff48af37ffa3192f30412fc14599e"
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00787-x",
+      "doi": "10.1007/s40271-025-00787-x",
+      "title": "Feasibility of Routine Quality-of-Life Measurement in Residential Aged Care: Results from a Pilot Study in Australia",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13124758/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-025-00787-x",
+      "status": "ok",
+      "file": "input/projects/150-RA/papers/doi_10.1007_s40271-025-00787-x.xml",
+      "bytes": 134855,
+      "sha256": "e2e6a1af23430803c85c45263258f5cefc8bbe0e6a9cd12bd4387e629124b4c7"
+    }
+  ]
+}

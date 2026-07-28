@@ -1,0 +1,19 @@
+{
+  "project_id": "364-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-024-02290-7",
+      "doi": "10.1186/s12955-024-02290-7",
+      "title": "Cross-cultural adaptation and content validation of the Singapore English version of EQ-5D-Y: a qualitative study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11437613/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-024-02290-7",
+      "status": "ok",
+      "file": "input/projects/364-RA/papers/doi_10.1186_s12955-024-02290-7.xml",
+      "bytes": 79053,
+      "sha256": "fb13012707bed41964a1dcf6534e56d0249fbada21ecd8660c7861914670a782"
+    }
+  ]
+}

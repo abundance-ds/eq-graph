@@ -1,0 +1,19 @@
+{
+  "project_id": "1572-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04229-5",
+      "doi": "10.1007/s11136-026-04229-5",
+      "title": "Measuring health-related quality of life in multiple sclerosis: comparing the acceptability, validity and responsiveness of the EQ-5D-3L and MSIS-8D",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13043564/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04229-5",
+      "status": "ok",
+      "file": "input/projects/1572-RA/papers/doi_10.1007_s11136-026-04229-5.xml",
+      "bytes": 160623,
+      "sha256": "1a748073e9280046e6ab2ac4581f27084752a92fecab8dea4eee537ad13c45ae"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "project_id": "2016560",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03304-x",
+      "doi": "10.1007/s11136-022-03304-x",
+      "title": "Hypothetical versus experienced health state valuation: a qualitative study of adult general public views and preferences",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10063498/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-022-03304-x",
+      "status": "ok",
+      "file": "input/projects/2016560/papers/doi_10.1007_s11136-022-03304-x.xml",
+      "bytes": 91299,
+      "sha256": "2487225de2e283f7cf5b5fe22ab6a84a0541c5685a86f36f603968ea7129e0b4"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01858-x",
+      "doi": "10.1186/s12955-021-01858-x",
+      "title": "Valuing child and adolescent health: a qualitative study on different perspectives and priorities taken by the adult general public",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8461831/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-021-01858-x",
+      "status": "ok",
+      "file": "input/projects/2016560/papers/doi_10.1186_s12955-021-01858-x.xml",
+      "bytes": 120432,
+      "sha256": "502f4ad0b74e38e9bed2b01e0763627773ce7de60b1ccc97ae57fa3c5a2061ab"
+    }
+  ]
+}

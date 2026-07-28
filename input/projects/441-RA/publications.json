@@ -1,0 +1,75 @@
+{
+  "project_id": "441-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.02.013",
+      "doi": "10.1016/j.jval.2025.02.013",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Can Adolescents Value the EQ-5D-Y-5L and EQ-5D-5L, and How Do the Values Compare? A Feasibility Study",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Trudy A. Sullivan",
+          "last_name": "Sullivan",
+          "orcid": null
+        },
+        {
+          "full_name": "Emma H. Wyeth",
+          "last_name": "Wyeth",
+          "orcid": null
+        },
+        {
+          "full_name": "Robin M. Turner",
+          "last_name": "Turner",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Hansen",
+          "last_name": "Hansen",
+          "orcid": null
+        },
+        {
+          "full_name": "Franz Ombler",
+          "last_name": "Ombler",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Sarah Derrett",
+          "last_name": "Derrett",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.02.013",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

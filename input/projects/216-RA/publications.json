@@ -1,0 +1,1029 @@
+{
+  "project_id": "216-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hsr2.70308",
+      "doi": "10.1002/hsr2.70308",
+      "pmid": "39741745",
+      "pmcid": "PMC11683768",
+      "title": "Using Patient-Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
+      "journal": "Health science reports",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Soprovich AL",
+          "last_name": "Soprovich",
+          "orcid": "0000-0002-6143-1555"
+        },
+        {
+          "full_name": "Short H",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Ali AB",
+          "last_name": "Ali",
+          "orcid": null
+        },
+        {
+          "full_name": "Brower K",
+          "last_name": "Brower",
+          "orcid": "0000-0002-0416-7655"
+        },
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC11683768",
+        "pdf_url": "https://europepmc.org/articles/PMC11683768?pdf=render",
+        "landing_page": "https://doi.org/10.1002/hsr2.70308",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03499-7",
+      "doi": "10.1007/s11136-023-03499-7",
+      "pmid": "37715878",
+      "pmcid": "PMC10850204",
+      "title": "Preference-based measures of health-related quality of life in Indigenous people: a systematic review",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Lilla M. Roy",
+          "last_name": "Roy",
+          "orcid": "https://orcid.org/0000-0003-1725-9732"
+        },
+        {
+          "full_name": "Aidan Neill",
+          "last_name": "Neill",
+          "orcid": "https://orcid.org/0009-0009-2156-620x"
+        },
+        {
+          "full_name": "Kristen Swampy",
+          "last_name": "Swampy",
+          "orcid": null
+        },
+        {
+          "full_name": "Juliette Auger",
+          "last_name": "Auger",
+          "orcid": null
+        },
+        {
+          "full_name": "Sandra M. Campbell",
+          "last_name": "Campbell",
+          "orcid": "https://orcid.org/0000-0002-9347-3880"
+        },
+        {
+          "full_name": "Susan Chatwood",
+          "last_name": "Chatwood",
+          "orcid": "https://orcid.org/0000-0003-2848-7116"
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": "https://orcid.org/0000-0003-3891-5452"
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10850204",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03499-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03499-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03983-2",
+      "doi": "10.1007/s11136-025-03983-2",
+      "pmid": "40317454",
+      "pmcid": "PMC12689827",
+      "title": "EuroQol data for assessment of population health needs and instrument evaluation (EQ-DAPHNIE): a study for enhancing population health assessment",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": null
+        },
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": null
+        },
+        {
+          "full_name": "Nils Gutacker",
+          "last_name": "Gutacker",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan M. Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Desiree Scott",
+          "last_name": "Scott",
+          "orcid": null
+        },
+        {
+          "full_name": "Hilary Short",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Trudy Sullivan",
+          "last_name": "Sullivan",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Victor Zárate",
+          "last_name": "Zárate",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12689827",
+        "pdf_url": "https://europepmc.org/articles/PMC12689827?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03983-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jclinepi.2021.10.019",
+      "doi": "10.1016/j.jclinepi.2021.10.019",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Small differences in EQ-5D-5L health utility scores were interpreted differently between and within respondents",
+      "journal": "Journal of Clinical Epidemiology",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Nathan S. McClure",
+          "last_name": "McClure",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Paulden",
+          "last_name": "Paulden",
+          "orcid": "https://orcid.org/0000-0002-0381-5980"
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": "https://orcid.org/0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jclinepi.2021.10.019",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jclinepi.2021.10.019",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.11.006",
+      "doi": "10.1016/j.jval.2024.11.006",
+      "pmid": "39694263",
+      "pmcid": null,
+      "title": "A Systematic Literature Review of Important and Meaningful Differences in the EQ-5D Index and Visual Analog Scale Scores",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Xuejing Jin",
+          "last_name": "Jin",
+          "orcid": null
+        },
+        {
+          "full_name": "Hilary Short",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Nathan S. McClure",
+          "last_name": "McClure",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.11.006",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.11.006",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.pecinn.2025.100421",
+      "doi": "10.1016/j.pecinn.2025.100421",
+      "pmid": "40895644",
+      "pmcid": "PMC12395153",
+      "title": "Usability testing of an individualized decision aid for total knee arthroplasty",
+      "journal": "PEC Innovation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Ademola Joshua Itiola",
+          "last_name": "Itiola",
+          "orcid": null
+        },
+        {
+          "full_name": "Shakib Rahman",
+          "last_name": "Rahman",
+          "orcid": null
+        },
+        {
+          "full_name": "Christopher Smith",
+          "last_name": "Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "Allison Soprovich",
+          "last_name": "Soprovich",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa A. Wozniak",
+          "last_name": "Wozniak",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah A. Marshall",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12395153",
+        "pdf_url": "https://europepmc.org/articles/PMC12395153?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.pecinn.2025.100421",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12891-024-07304-5",
+      "doi": "10.1186/s12891-024-07304-5",
+      "pmid": "38424523",
+      "pmcid": "PMC10902977",
+      "title": "Exploring patient perspectives on EQ-5D-5L data visualization within an individualized decision aid for total knee arthroplasty (TKA) in Alberta, Canada",
+      "journal": "BMC Musculoskeletal Disorders",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Ademola Itiola",
+          "last_name": "Itiola",
+          "orcid": null
+        },
+        {
+          "full_name": "Shakib Rahman",
+          "last_name": "Rahman",
+          "orcid": null
+        },
+        {
+          "full_name": "Christopher Smith",
+          "last_name": "Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "Allison Soprovich",
+          "last_name": "Soprovich",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa A. Wozniak",
+          "last_name": "Wozniak",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah A. Marshall",
+          "last_name": "Marshall",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10902977",
+        "pdf_url": "https://europepmc.org/articles/PMC10902977?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12891-024-07304-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12913-020-05557-z",
+      "doi": "10.1186/s12913-020-05557-z",
+      "pmid": "32778102",
+      "pmcid": "PMC7418420",
+      "title": "A cluster randomized controlled trial for the Evaluation of routinely Measured PATient reported outcomes in HemodialYsis care (EMPATHY): a study protocol",
+      "journal": "BMC health services research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": "0000-0001-8290-2857"
+        },
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Buzinski R",
+          "last_name": "Buzinski",
+          "orcid": null
+        },
+        {
+          "full_name": "Corradetti B",
+          "last_name": "Corradetti",
+          "orcid": null
+        },
+        {
+          "full_name": "Davison SN",
+          "last_name": "Davison",
+          "orcid": "0000-0003-4513-6449"
+        },
+        {
+          "full_name": "Elliott MJ",
+          "last_name": "Elliott",
+          "orcid": null
+        },
+        {
+          "full_name": "Klarenbach S",
+          "last_name": "Klarenbach",
+          "orcid": "0000-0002-8611-1056"
+        },
+        {
+          "full_name": "Manns B",
+          "last_name": "Manns",
+          "orcid": null
+        },
+        {
+          "full_name": "Schick-Makaroff K",
+          "last_name": "Schick-Makaroff",
+          "orcid": "0000-0001-6200-3416"
+        },
+        {
+          "full_name": "Short H",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas C",
+          "last_name": "Thomas",
+          "orcid": null
+        },
+        {
+          "full_name": "Walsh M",
+          "last_name": "Walsh",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7418420",
+        "pdf_url": "https://europepmc.org/articles/PMC7418420?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12913-020-05557-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02207-w",
+      "doi": "10.1186/s12955-023-02207-w",
+      "pmid": "37978502",
+      "pmcid": "PMC10657124",
+      "title": "The use of EQ-5D-5L as a patient-reported outcome measure in evaluating community rehabilitation services in Alberta, Canada",
+      "journal": "Health and quality of life outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Short H",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": "0000-0003-3891-5452"
+        },
+        {
+          "full_name": "Churchill K",
+          "last_name": "Churchill",
+          "orcid": null
+        },
+        {
+          "full_name": "Keogh E",
+          "last_name": "Keogh",
+          "orcid": null
+        },
+        {
+          "full_name": "Warner L",
+          "last_name": "Warner",
+          "orcid": null
+        },
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": "0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": "0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10657124",
+        "pdf_url": "https://europepmc.org/articles/PMC10657124?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-023-02207-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00364-4",
+      "doi": "10.1186/s41687-021-00364-4",
+      "pmid": "34637001",
+      "pmcid": "PMC8511223",
+      "title": "Measuring value in healthcare from a patients' perspective",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Dean S",
+          "last_name": "Dean",
+          "orcid": null
+        },
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": "0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8511223",
+        "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00364-4",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00364-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00365-3",
+      "doi": "10.1186/s41687-021-00365-3",
+      "pmid": "34637030",
+      "pmcid": "PMC8511202",
+      "title": "Patient-reported outcome measures in the care of in-centre hemodialysis patients",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Davison SN",
+          "last_name": "Davison",
+          "orcid": "0000-0003-4513-6449"
+        },
+        {
+          "full_name": "Klarenbach S",
+          "last_name": "Klarenbach",
+          "orcid": "0000-0002-8611-1056"
+        },
+        {
+          "full_name": "Manns B",
+          "last_name": "Manns",
+          "orcid": null
+        },
+        {
+          "full_name": "Schnick-Makaroff K",
+          "last_name": "Schnick-Makaroff",
+          "orcid": "0000-0001-6200-3416"
+        },
+        {
+          "full_name": "Buzinski R",
+          "last_name": "Buzinski",
+          "orcid": null
+        },
+        {
+          "full_name": "Corradetti B",
+          "last_name": "Corradetti",
+          "orcid": null
+        },
+        {
+          "full_name": "Short H",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8511202",
+        "pdf_url": "https://europepmc.org/articles/PMC8511202?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00365-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00374-2",
+      "doi": "10.1186/s41687-021-00374-2",
+      "pmid": "34637010",
+      "pmcid": "PMC8511255",
+      "title": "Selection of patient-reported outcome measures (PROMs) for use in health systems",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Jin X",
+          "last_name": "Jin",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8511255",
+        "pdf_url": "https://europepmc.org/articles/PMC8511255?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00374-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00375-1",
+      "doi": "10.1186/s41687-021-00375-1",
+      "pmid": "34637031",
+      "pmcid": "PMC8511251",
+      "title": "A multi-level approach for the use of routinely collected patient-reported outcome measures (PROMs) data in healthcare systems",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Lahtinen M",
+          "last_name": "Lahtinen",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel GJ",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00375-1",
+        "pdf_url": "https://jpro.springeropen.com/track/pdf/10.1186/s41687-021-00375-1",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00375-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-021-00385-z",
+      "doi": "10.1186/s41687-021-00385-z",
+      "pmid": "34709470",
+      "pmcid": "PMC8555046",
+      "title": "Burden of mental health symptoms and perceptions of their management in in-centre hemodialysis care: a mixed methods study",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Kara Schick-Makaroff",
+          "last_name": "Schick-Makaroff",
+          "orcid": null
+        },
+        {
+          "full_name": "Lisa A. Wozniak",
+          "last_name": "Wozniak",
+          "orcid": null
+        },
+        {
+          "full_name": "Hilary Short",
+          "last_name": "Short",
+          "orcid": null
+        },
+        {
+          "full_name": "Sara N. Davison",
+          "last_name": "Davison",
+          "orcid": null
+        },
+        {
+          "full_name": "Scott Klarenbach",
+          "last_name": "Klarenbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Robert Buzinski",
+          "last_name": "Buzinski",
+          "orcid": null
+        },
+        {
+          "full_name": "Michael Walsh",
+          "last_name": "Walsh",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": "https://orcid.org/0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8555046",
+        "pdf_url": "https://europepmc.org/articles/PMC8555046?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-021-00385-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-022-00474-7",
+      "doi": "10.1186/s41687-022-00474-7",
+      "pmid": "35696002",
+      "pmcid": "PMC9192869",
+      "title": "Comparative performance of the EuroQol EQ-5D-5L and the CDC healthy days measures in assessing population health",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Derkach M",
+          "last_name": "Derkach",
+          "orcid": null
+        },
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": "0000-0003-3891-5452"
+        },
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": "0000-0002-7094-1573"
+        },
+        {
+          "full_name": "Svenson LW",
+          "last_name": "Svenson",
+          "orcid": "0000-0002-3391-578X"
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": "0000-0001-8290-2857"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9192869",
+        "pdf_url": "https://europepmc.org/articles/PMC9192869?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-022-00474-7",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 2
+}

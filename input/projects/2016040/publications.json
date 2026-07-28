@@ -1,0 +1,545 @@
+{
+  "project_id": "2016040",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01411-z",
+      "doi": "10.1007/s10198-021-01411-z",
+      "pmid": "34846623",
+      "pmcid": "PMC9304056",
+      "title": "The remarkably frequent use of EQ-5D in non-economic research",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Wang A",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": "0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": "0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Brooks R",
+          "last_name": "Brooks",
+          "orcid": null
+        },
+        {
+          "full_name": "Busschbach J",
+          "last_name": "Busschbach",
+          "orcid": "0000-0002-8602-0381"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9304056",
+        "pdf_url": "https://europepmc.org/articles/PMC9304056?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-021-01411-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-016-1445-9",
+      "doi": "10.1007/s11136-016-1445-9",
+      "pmid": "27796774",
+      "pmcid": "PMC5376385",
+      "title": "Employing quality control and feedback to the EQ-5D-5L valuation protocol to improve the quality of data collection",
+      "journal": "Quality of Life Research",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Joke A. M. Hunfeld",
+          "last_name": "Hunfeld",
+          "orcid": null
+        },
+        {
+          "full_name": "Aulia Iskandarsyah",
+          "last_name": "Iskandarsyah",
+          "orcid": null
+        },
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Sawitri S. Sadarjoen",
+          "last_name": "Sadarjoen",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Passchier",
+          "last_name": "Passchier",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5376385",
+        "pdf_url": "https://europepmc.org/articles/PMC5376385?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-016-1445-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-017-0538-9",
+      "doi": "10.1007/s40273-017-0538-9",
+      "pmid": "28695543",
+      "pmcid": "PMC5656740",
+      "title": "The Indonesian EQ-5D-5L Value Set",
+      "journal": "PharmacoEconomics",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Joke A. M. Hunfeld",
+          "last_name": "Hunfeld",
+          "orcid": null
+        },
+        {
+          "full_name": "Aulia Iskandarsyah",
+          "last_name": "Iskandarsyah",
+          "orcid": null
+        },
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Sawitri Supardi Sadarjoen",
+          "last_name": "Sadarjoen",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Passchier",
+          "last_name": "Passchier",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5656740",
+        "pdf_url": "https://europepmc.org/articles/PMC5656740?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-017-0538-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.02.009",
+      "doi": "10.1016/j.jval.2019.02.009",
+      "pmid": null,
+      "pmcid": null,
+      "title": "United States Valuation of EQ-5D-5L Health States Using an International Protocol",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Ernest H. Law",
+          "last_name": "Law",
+          "orcid": null
+        },
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "James W. Shaw",
+          "last_name": "Shaw",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina S. Boye",
+          "last_name": "Boye",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard H. Chapman",
+          "last_name": "Chapman",
+          "orcid": null
+        },
+        {
+          "full_name": "Cynthia L. Gong",
+          "last_name": "Gong",
+          "orcid": null
+        },
+        {
+          "full_name": "Alan Balch",
+          "last_name": "Balch",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J.V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519301433/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.02.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12889-023-16003-0",
+      "doi": "10.1186/s12889-023-16003-0",
+      "pmid": "37308934",
+      "pmcid": "PMC10262504",
+      "title": "Indonesia youth population norms for EQ-5D-Y-3 L, EQ-5D-Y-5 L and the PedsQL generic core scale: lower health related quality of life relates to high economic status and stress",
+      "journal": "BMC Public Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10262504",
+        "pdf_url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-023-16003-0",
+        "landing_page": "https://doi.org/10.1186/s12889-023-16003-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01889-4",
+      "doi": "10.1186/s12955-021-01889-4",
+      "pmid": "34781978",
+      "pmcid": "PMC8591892",
+      "title": "Comparing measurement properties of EQ-5D-Y-3L and EQ-5D-Y-5L in paediatric patients",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": "https://orcid.org/0000-0001-5062-6886"
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Rina Rahmatika",
+          "last_name": "Rahmatika",
+          "orcid": null
+        },
+        {
+          "full_name": "Riski Muhaimin",
+          "last_name": "Muhaimin",
+          "orcid": null
+        },
+        {
+          "full_name": "Nur Melani Sari",
+          "last_name": "Sari",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8591892",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-021-01889-4",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01889-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-01996-w",
+      "doi": "10.1186/s12955-022-01996-w",
+      "pmid": "35659313",
+      "pmcid": "PMC9164342",
+      "title": "EQ-5D-Y-3L and EQ-5D-Y-5L proxy report: psychometric performance and agreement with self-report",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9164342",
+        "pdf_url": "https://europepmc.org/articles/PMC9164342?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-01996-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0197098",
+      "doi": "10.1371/journal.pone.0197098",
+      "pmid": "29750806",
+      "pmcid": "PMC5947896",
+      "title": "Quality of life of the Indonesian general population: Test-retest reliability and population norms of the EQ-5D-5L and WHOQOL-BREF",
+      "journal": "PLOS ONE",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": "https://orcid.org/0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Joke A. M. Hunfeld",
+          "last_name": "Hunfeld",
+          "orcid": null
+        },
+        {
+          "full_name": "Aulia Iskandarsyah",
+          "last_name": "Iskandarsyah",
+          "orcid": null
+        },
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Sawitri S. Sadarjoen",
+          "last_name": "Sadarjoen",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Passchier",
+          "last_name": "Passchier",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC5947896",
+        "pdf_url": "https://europepmc.org/articles/PMC5947896?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0197098",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

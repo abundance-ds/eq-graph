@@ -1,0 +1,202 @@
+{
+  "project_id": "20180770",
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s12955-022-02083-w",
+      "doi": "10.1186/s12955-022-02083-w",
+      "pmid": "36564844",
+      "pmcid": "PMC9780618",
+      "title": "Estimating a social value set for EQ-5D-5L in Sweden",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sun Sun",
+          "last_name": "Sun",
+          "orcid": "https://orcid.org/0000-0001-5948-3025"
+        },
+        {
+          "full_name": "Ling-Hsiang Chuang",
+          "last_name": "Chuang",
+          "orcid": "https://orcid.org/0000-0001-8043-0411"
+        },
+        {
+          "full_name": "Klas-Göran Sahlén",
+          "last_name": "Sahlén",
+          "orcid": "https://orcid.org/0000-0002-3975-4868"
+        },
+        {
+          "full_name": "Lars Lindholm",
+          "last_name": "Lindholm",
+          "orcid": "https://orcid.org/0000-0002-1633-2179"
+        },
+        {
+          "full_name": "Fredrik Norström",
+          "last_name": "Norström",
+          "orcid": "https://orcid.org/0000-0002-0457-2175"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 20180770",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180770",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9780618",
+        "pdf_url": "https://europepmc.org/articles/PMC9780618?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02083-w",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-020-02469-7",
+      "doi": "10.1007/s11136-020-02469-7",
+      "pmid": "32221805",
+      "pmcid": "PMC7295839",
+      "title": "An EQ-5D-5L Value Set for Vietnam",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Vu Quynh Mai",
+          "last_name": "Mai",
+          "orcid": "https://orcid.org/0000-0001-6962-0564"
+        },
+        {
+          "full_name": "Sun Sun",
+          "last_name": "Sun",
+          "orcid": "https://orcid.org/0000-0001-5948-3025"
+        },
+        {
+          "full_name": "Hoang Van Minh",
+          "last_name": "Minh",
+          "orcid": "https://orcid.org/0000-0002-4749-5536"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Kim Bao Giang",
+          "last_name": "Giang",
+          "orcid": "https://orcid.org/0000-0003-2290-0205"
+        },
+        {
+          "full_name": "Lars Lindholm",
+          "last_name": "Lindholm",
+          "orcid": "https://orcid.org/0000-0002-1633-2179"
+        },
+        {
+          "full_name": "Klas Goran Sahlen",
+          "last_name": "Sahlen",
+          "orcid": "https://orcid.org/0000-0002-3975-4868"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7295839",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02469-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02469-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02959-2",
+      "doi": "10.1007/s11136-021-02959-2",
+      "pmid": "34370187",
+      "pmcid": "PMC8847252",
+      "title": "Reference data among general population and known-groups validity among hypertensive population of the EQ-5D-5L in Vietnam",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Mai VQ",
+          "last_name": "Mai",
+          "orcid": "0000-0001-6962-0564"
+        },
+        {
+          "full_name": "Giang KB",
+          "last_name": "Giang",
+          "orcid": "0000-0003-2290-0205"
+        },
+        {
+          "full_name": "Minh HV",
+          "last_name": "Minh",
+          "orcid": "0000-0002-4749-5536"
+        },
+        {
+          "full_name": "Lindholm L",
+          "last_name": "Lindholm",
+          "orcid": "0000-0002-1633-2179"
+        },
+        {
+          "full_name": "Sun S",
+          "last_name": "Sun",
+          "orcid": "0000-0001-5948-3025"
+        },
+        {
+          "full_name": "Sahlen KG",
+          "last_name": "Sahlen",
+          "orcid": "0000-0002-3975-4868"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8847252",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02959-2.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02959-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

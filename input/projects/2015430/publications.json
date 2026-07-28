@@ -1,0 +1,552 @@
+{
+  "project_id": "2015430",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.3846",
+      "doi": "10.1002/hec.3846",
+      "pmid": "30565338",
+      "pmcid": "PMC6590347",
+      "title": "Attribute level overlap (and color coding) can reduce task complexity, improve choice consistency, and decrease the dropout rate in discrete choice experiments",
+      "journal": "Health Economics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        },
+        {
+          "full_name": "Bas Donkers",
+          "last_name": "Donkers",
+          "orcid": null
+        },
+        {
+          "full_name": "Esther de Bekker‐Grob",
+          "last_name": "de Bekker‐Grob",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly A. Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC6590347",
+        "pdf_url": "https://europepmc.org/articles/PMC6590347?pdf=render",
+        "landing_page": "https://doi.org/10.1002/hec.3846",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-025-00989-2",
+      "doi": "10.1007/s40258-025-00989-2",
+      "pmid": "40705271",
+      "pmcid": "PMC12535937",
+      "title": "Measuring and Valuing Health Using EuroQol Instruments: New Developments 2025 and Beyond",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Slaap",
+          "last_name": "Slaap",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12535937",
+        "pdf_url": "https://europepmc.org/articles/PMC12535937?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-025-00989-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0622-9",
+      "doi": "10.1007/s40273-018-0622-9",
+      "pmid": "29480350",
+      "pmcid": "PMC5954053",
+      "title": "3L, 5L, What the L? A NICE Conundrum",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5954053",
+        "pdf_url": "https://europepmc.org/articles/PMC5954053?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0622-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0694-6",
+      "doi": "10.1007/s40273-018-0694-6",
+      "pmid": "30030818",
+      "pmcid": "PMC6182499",
+      "title": "Severity-Stratified Discrete Choice Experiment Designs for Health State Evaluations",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Sesil Lim",
+          "last_name": "Lim",
+          "orcid": "https://orcid.org/0000-0002-2227-8906"
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Donkers",
+          "last_name": "Donkers",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC6182499",
+        "pdf_url": "https://europepmc.org/articles/PMC6182499?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0694-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01210-1",
+      "doi": "10.1007/s40273-022-01210-1",
+      "pmid": "36348155",
+      "pmcid": "PMC9758088",
+      "title": "Estimating an EQ-5D-Y-3L Value Set for Indonesia by Mapping the DCE onto TTO Values",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Titi Sahidah Fitriana",
+          "last_name": "Fitriana",
+          "orcid": "https://orcid.org/0000-0001-5062-6886"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan J. V. Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9758088",
+        "pdf_url": "https://europepmc.org/articles/PMC9758088?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01210-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01226-7",
+      "doi": "10.1007/s40273-022-01226-7",
+      "pmid": "36504378",
+      "pmcid": "PMC9758242",
+      "title": "EQ-5D-Y-3L Value Sets, Valuation Methods and Conceptual Questions",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9758242",
+        "pdf_url": "https://europepmc.org/articles/PMC9758242?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01226-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.06.008",
+      "doi": "10.1016/j.jval.2019.06.008",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Toward a Smaller Design for EQ-5D-5L Valuation Studies",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.06.008",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x211001859",
+      "doi": "10.1177/0272989x211001859",
+      "pmid": "33754886",
+      "pmcid": "PMC8191148",
+      "title": "Valuation Survey of EQ-5D-Y Based on the International Common Protocol: Development of a Value Set in Japan",
+      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Shiroiwa T",
+          "last_name": "Shiroiwa",
+          "orcid": "0000-0003-3055-9932"
+        },
+        {
+          "full_name": "Ikeda S",
+          "last_name": "Ikeda",
+          "orcid": null
+        },
+        {
+          "full_name": "Noto S",
+          "last_name": "Noto",
+          "orcid": "0000-0002-6952-7770"
+        },
+        {
+          "full_name": "Fukuda T",
+          "last_name": "Fukuda",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://doi.org/10.1177/0272989x211001859",
+        "pdf_url": "https://europepmc.org/articles/PMC8191148?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x211001859",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-025-02391-x",
+      "doi": "10.1186/s12955-025-02391-x",
+      "pmid": "40518518",
+      "pmcid": "PMC12168295",
+      "title": "Optimal DCE design for modelling nonlinear time preferences in EQ-5D-5L valuation studies: exploration of data from Denmark and Peru",
+      "journal": "Health and quality of life outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Yu A",
+          "last_name": "Yu",
+          "orcid": "0000-0003-4515-9878"
+        },
+        {
+          "full_name": "Street D",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Jonker M",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Bour S",
+          "last_name": "Bour",
+          "orcid": null
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Augustovski F",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "Jensen C",
+          "last_name": "Jensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gudex C",
+          "last_name": "Gudex",
+          "orcid": "0000-0003-3881-9890"
+        },
+        {
+          "full_name": "Jensen M",
+          "last_name": "Jensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Tejada R",
+          "last_name": "Tejada",
+          "orcid": "0000-0003-4420-5289"
+        },
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC12168295",
+        "pdf_url": "https://europepmc.org/articles/PMC12168295?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-025-02391-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

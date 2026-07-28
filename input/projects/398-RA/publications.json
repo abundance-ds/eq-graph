@@ -1,0 +1,305 @@
+{
+  "project_id": "398-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03669-1",
+      "doi": "10.1007/s11136-024-03669-1",
+      "pmid": "38740639",
+      "pmcid": null,
+      "title": "Differences and common ground in the frameworks of health-related quality of life in traditional Chinese medicine and modern medicine: a systematic review",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Yifan Ding",
+          "last_name": "Ding",
+          "orcid": "https://orcid.org/0009-0006-8112-628x"
+        },
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 398-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11136-024-03669-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03669-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03669-1",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04045-3",
+      "doi": "10.1007/s11136-025-04045-3",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Exploring subjective constructions of quality of life in patients, carers and the healthy general public: a Q-methodological study",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Shenaz Ahmed",
+          "last_name": "Ahmed",
+          "orcid": null
+        },
+        {
+          "full_name": "Guangjie Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yifan Ding",
+          "last_name": "Ding",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/fa396837-d8a1-4097-8fdf-6944652e978e",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-025-04045-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.01.005",
+      "doi": "10.1016/j.jval.2024.01.005",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A Comparison of Items and Constructs of Standardized Health-Related Quality of Life and Mental Well-Being Measures",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "Jonas Crèvecoeur",
+          "last_name": "Crèvecoeur",
+          "orcid": null
+        },
+        {
+          "full_name": "Koen Pepermans",
+          "last_name": "Pepermans",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Neyens",
+          "last_name": "Neyens",
+          "orcid": null
+        },
+        {
+          "full_name": "Philippe Beutels",
+          "last_name": "Beutels",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "http://hdl.handle.net/1942/43064",
+        "pdf_url": "https://documentserver.uhasselt.be//bitstream/1942/43064/2/auteursversie.pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.01.005",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.06.003",
+      "doi": "10.1016/j.jval.2026.06.003",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Development, Use, and Psychometric Properties of Vision and Hearing Bolt-Ons for EQ-5D-3L and EQ-5D-5L: A Systematic Review",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Zhuxin Mao",
+          "last_name": "Mao",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Chris Sampson",
+          "last_name": "Sampson",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.06.003",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.3390/ijerph18063043",
+      "doi": "10.3390/ijerph18063043",
+      "pmid": "33809532",
+      "pmcid": "PMC7999450",
+      "title": "Investigating the Self-Reported Health Status of Domestic and Overseas Chinese Populations during the COVID-19 Pandemic",
+      "journal": "International journal of environmental research and public health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Mao Z",
+          "last_name": "Mao",
+          "orcid": "0000-0002-7444-1584"
+        },
+        {
+          "full_name": "Chen B",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang W",
+          "last_name": "Wang",
+          "orcid": "0000-0002-1718-2758"
+        },
+        {
+          "full_name": "Kind P",
+          "last_name": "Kind",
+          "orcid": "0000-0003-2377-1652"
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": "0000-0003-3661-3944"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7999450",
+        "pdf_url": "https://www.mdpi.com/1660-4601/18/6/3043/pdf?version=1615889432",
+        "landing_page": "https://doi.org/10.3390/ijerph18063043",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

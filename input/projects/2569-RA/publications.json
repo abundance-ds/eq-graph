@@ -1,0 +1,66 @@
+{
+  "project_id": "2569-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.3389/ijph.2026.1608807",
+      "doi": "10.3389/ijph.2026.1608807",
+      "pmid": "41727346",
+      "pmcid": "PMC12916432",
+      "title": "Health-Related Quality of Life Among Ukrainian War Refugees Compared to the General Population in Estonia",
+      "journal": "International Journal of Public Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Rainer Reile",
+          "last_name": "Reile",
+          "orcid": null
+        },
+        {
+          "full_name": "Johann Saavaste",
+          "last_name": "Saavaste",
+          "orcid": null
+        },
+        {
+          "full_name": "Galina Opikova",
+          "last_name": "Opikova",
+          "orcid": null
+        },
+        {
+          "full_name": "Taavi Lai",
+          "last_name": "Lai",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12916432",
+        "pdf_url": "https://europepmc.org/articles/PMC12916432?pdf=render",
+        "landing_page": "https://doi.org/10.3389/ijph.2026.1608807",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

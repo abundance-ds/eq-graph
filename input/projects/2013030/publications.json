@@ -1,0 +1,70 @@
+{
+  "project_id": "2013030",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1080/14737167.2018.1494574",
+      "doi": "10.1080/14737167.2018.1494574",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The EQ-5D-5L Valuation study in Thailand",
+      "journal": "Expert Review of Pharmacoeconomics &amp; Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Juntana Pattanaphesaj",
+          "last_name": "Pattanaphesaj",
+          "orcid": null
+        },
+        {
+          "full_name": "Montarat Thavorncharoensap",
+          "last_name": "Thavorncharoensap",
+          "orcid": "https://orcid.org/0000-0002-8256-2167"
+        },
+        {
+          "full_name": "Juan Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Sirinart Tongsiri",
+          "last_name": "Tongsiri",
+          "orcid": null
+        },
+        {
+          "full_name": "Lily Ingsrisawang",
+          "last_name": "Ingsrisawang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yot Teerawattananon",
+          "last_name": "Teerawattananon",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1080/14737167.2018.1494574",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

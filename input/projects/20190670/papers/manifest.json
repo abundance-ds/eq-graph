@@ -1,0 +1,19 @@
+{
+  "project_id": "20190670",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.4314/ahs.v23i4.63",
+      "doi": "10.4314/ahs.v23i4.63",
+      "title": "The reliability and validity of the isixhosa version of the euroqol toddler and infant populations (EQ-TIPS) health related quality of life instrument",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11225485/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.4314/ahs.v23i4.63",
+      "status": "ok",
+      "file": "input/projects/20190670/papers/doi_10.4314_ahs.v23i4.63.xml",
+      "bytes": 115077,
+      "sha256": "ed35ad6817d6e0526eee5e96cf148bdda30c7960a9ffdc20a62ece6ba1fe2a49"
+    }
+  ]
+}

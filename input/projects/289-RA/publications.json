@@ -1,0 +1,119 @@
+{
+  "project_id": "289-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s10198-023-01569-8",
+      "doi": "10.1007/s10198-023-01569-8",
+      "pmid": "36814039",
+      "pmcid": "PMC9946870",
+      "title": "COVID-19 and EQ-5D-5L health state valuation",
+      "journal": "The European Journal of Health Economics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Edward J. D. Webb",
+          "last_name": "Webb",
+          "orcid": "https://orcid.org/0000-0001-7918-839x"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "David Meads",
+          "last_name": "Meads",
+          "orcid": null
+        },
+        {
+          "full_name": "Adam Martin",
+          "last_name": "Martin",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 289-RA",
+          "weight": 1.0
+        },
+        {
+          "kind": "title_exact",
+          "detail": "normalized titles identical",
+          "weight": 0.95
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9946870",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-023-01569-8.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-023-01569-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.4399",
+      "doi": "10.1002/hec.4399",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Does a health crisis change how we value health?",
+      "journal": "Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Edward J. D. Webb",
+          "last_name": "Webb",
+          "orcid": "https://orcid.org/0000-0001-7918-839x"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "David Meads",
+          "last_name": "Meads",
+          "orcid": null
+        },
+        {
+          "full_name": "Adam Martin",
+          "last_name": "Martin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1002/hec.4399",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

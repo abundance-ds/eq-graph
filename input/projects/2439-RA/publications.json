@@ -1,0 +1,220 @@
+{
+  "project_id": "2439-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-025-00749-3",
+      "doi": "10.1007/s40271-025-00749-3",
+      "pmid": "40531304",
+      "pmcid": "PMC12559129",
+      "title": "Content Validity of the EQ-HWB in Caregivers of Children with Health Conditions",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0001-5030-430x"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12559129",
+        "pdf_url": "https://europepmc.org/articles/PMC12559129?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00749-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.04.2168",
+      "doi": "10.1016/j.jval.2025.04.2168",
+      "pmid": "40350057",
+      "pmcid": null,
+      "title": "The Psychometric Performance of the EQ Health and Wellbeing in Caregivers of Persons Living With Dementia",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.04.2168",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2168",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.05.013",
+      "doi": "10.1016/j.jval.2025.05.013",
+      "pmid": "40482772",
+      "pmcid": null,
+      "title": "Validity and Reliability of the EQ-HWB in Parents of Children With Health Conditions",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "Leanne Constable",
+          "last_name": "Constable",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.05.013",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.05.013",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02579-9",
+      "doi": "10.1186/s12955-026-02579-9",
+      "pmid": "42381072",
+      "pmcid": null,
+      "title": "Validation of the EQ-HWB-9 in a mental health sample and an investigation of modifications to items",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0001-5030-430x"
+        },
+        {
+          "full_name": "Karen Trapani",
+          "last_name": "Trapani",
+          "orcid": "https://orcid.org/0000-0002-3257-9147"
+        },
+        {
+          "full_name": "Jonathan N. Davies",
+          "last_name": "Davies",
+          "orcid": "https://orcid.org/0000-0001-7838-126x"
+        },
+        {
+          "full_name": "Nicholas T. Van Dam",
+          "last_name": "Van Dam",
+          "orcid": "https://orcid.org/0000-0002-1131-0739"
+        },
+        {
+          "full_name": "Julieta Galante",
+          "last_name": "Galante",
+          "orcid": "https://orcid.org/0000-0002-4108-5341"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02579-9",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02579-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

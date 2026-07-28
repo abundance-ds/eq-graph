@@ -1,0 +1,19 @@
+{
+  "project_id": "2014160",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-019-02115-x",
+      "doi": "10.1007/s11136-019-02115-x",
+      "title": "EQ-5D-Y-5L: developing a revised EQ-5D-Y with increased response categories",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6571085/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-019-02115-x",
+      "status": "ok",
+      "file": "input/projects/2014160/papers/doi_10.1007_s11136-019-02115-x.xml",
+      "bytes": 111972,
+      "sha256": "9c84d2fa7e8ebbb3470837733982f3c1d00dc3ad096c45b40c9c72cedeb3d7db"
+    }
+  ]
+}

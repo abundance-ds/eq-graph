@@ -1,0 +1,19 @@
+{
+  "project_id": "417-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-023-01668-6",
+      "doi": "10.1007/s10198-023-01668-6",
+      "title": "Comparing heuristic valuation processes between health state valuation from child and adult perspectives",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11442527/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-023-01668-6",
+      "status": "ok",
+      "file": "input/projects/417-RA/papers/doi_10.1007_s10198-023-01668-6.xml",
+      "bytes": 156611,
+      "sha256": "33073694eb0b31d537862471764ab168776206884db393b66b657d0ec85eaa10"
+    }
+  ]
+}

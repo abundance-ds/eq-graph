@@ -1,0 +1,119 @@
+{
+  "project_id": "361-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-023-01330-2",
+      "doi": "10.1007/s40273-023-01330-2",
+      "title": "Comparative Psychometric Performance of Common Generic Paediatric Health-Related Quality of Life Instrument Descriptive Systems: Results from the Australian Paediatric Multi-Instrument Comparison Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11169028/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-023-01330-2",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-023-01330-2.xml",
+      "bytes": 173833,
+      "sha256": "8b6a711e67e55615414e2fd9b93d9a9a9b54ec4bf98c1b2058ff01adb71b09d7"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01354-2",
+      "doi": "10.1007/s40273-024-01354-2",
+      "title": "Comparing the Psychometric Performance of Generic Paediatric Health-Related Quality of Life Instruments in Children and Adolescents with ADHD, Anxiety and/or Depression",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11168999/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01354-2",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01354-2.xml",
+      "bytes": 188340,
+      "sha256": "775ee615c9f8b8505923e85a984ff2a9ccfd40863ed1645ae7a388a2aa48e424"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01355-1",
+      "doi": "10.1007/s40273-024-01355-1",
+      "title": "Psychometric Properties of Child Health Utility 9D (CHU9D) Proxy Version Administered to Parents and Caregivers of Children Aged 2–4 Years Compared with Pediatric Quality of Life Inventory™ (PedsQL)",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11169045/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01355-1",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01355-1.xml",
+      "bytes": 172724,
+      "sha256": "40a88ed671e062f9cd7589a00a96ebf211a1a5656f59ed19e241636809d4ae4e"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01379-7",
+      "doi": "10.1007/s40273-024-01379-7",
+      "title": "A Comparison of the Psychometric Properties of the EQ-5D-Y-3L and EQ-5D-Y-5L Using Paediatric Multi-Instrument Comparison (P-MIC) Study Data",
+      "method": "publisher_pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01379-7.pdf",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01379-7",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01379-7.pdf",
+      "bytes": 1399864,
+      "sha256": "a9d5b1509420e55fe55603b2b86a8dfe806d3387331dffcc3724bb7f08b7b7d5"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01382-y",
+      "doi": "10.1007/s40273-024-01382-y",
+      "title": "Comparing Generic Paediatric Health-Related Quality-of-Life Instruments: A Dimensionality Assessment Using Factor Analysis",
+      "method": "publisher_pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01382-y.pdf",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01382-y",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01382-y.pdf",
+      "bytes": 2421132,
+      "sha256": "3f2237f6197c29c87c2be9af8d2a631fec17cc06647fec6b46753cd9e1b87c64"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.01.004",
+      "doi": "10.1016/j.jval.2026.01.004",
+      "title": "Mapping Patient-Reported Outcomes Measurement Information System Pediatric-25 Profile to EQ-5D-Y-3L",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2026.01.004",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    },
+    {
+      "work_id": "doi:10.1136/archdischild-2025-329475",
+      "doi": "10.1136/archdischild-2025-329475",
+      "title": "Comparative performance of common paediatric patient-reported outcome measures (P-PROMs) across health conditions",
+      "method": "publisher_pdf",
+      "source_url": "https://adc.bmj.com/content/archdischild/early/2026/03/25/archdischild-2025-329475.full.pdf",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1136/archdischild-2025-329475",
+      "status": "unavailable",
+      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+    },
+    {
+      "work_id": "doi:10.3390/children10101604",
+      "doi": "10.3390/children10101604",
+      "title": "Collecting Paediatric Health-Related Quality of Life Data: Assessing the Feasibility and Acceptability of the Australian Paediatric Multi-Instrument Comparison (P-MIC) Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10605580/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/children10101604",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.3390_children10101604.xml",
+      "bytes": 153676,
+      "sha256": "1eaae2380eabba23857d9b6c24d49d7a2d36f0cae19ed7bf745f1f6de9db0364"
+    },
+    {
+      "work_id": "doi:10.3390/children8080714",
+      "doi": "10.3390/children8080714",
+      "title": "Psychometric Performance of HRQoL Measures: An Australian Paediatric Multi-Instrument Comparison Study Protocol (P-MIC)",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8393323/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/children8080714",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.3390_children8080714.xml",
+      "bytes": 158618,
+      "sha256": "49659928d6530cf93d9497a0dc9d546b5a2ac9c7b03fa9c710bfd680b760012e"
+    }
+  ]
+}

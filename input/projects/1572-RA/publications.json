@@ -1,0 +1,61 @@
+{
+  "project_id": "1572-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04229-5",
+      "doi": "10.1007/s11136-026-04229-5",
+      "pmid": "41920450",
+      "pmcid": "PMC13043564",
+      "title": "Measuring health-related quality of life in multiple sclerosis: comparing the acceptability, validity and responsiveness of the EQ-5D-3L and MSIS-8D",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Elizabeth Goodwin",
+          "last_name": "Goodwin",
+          "orcid": "https://orcid.org/0000-0003-1351-9170"
+        },
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Rod Middleton",
+          "last_name": "Middleton",
+          "orcid": "https://orcid.org/0000-0002-2130-4420"
+        },
+        {
+          "full_name": "Annie Hawton",
+          "last_name": "Hawton",
+          "orcid": "https://orcid.org/0000-0002-1336-5899"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1572-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13043564",
+        "pdf_url": "https://europepmc.org/articles/PMC13043564?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04229-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

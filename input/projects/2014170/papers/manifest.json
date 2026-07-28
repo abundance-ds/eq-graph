@@ -1,0 +1,19 @@
+{
+  "project_id": "2014170",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-018-0993-z",
+      "doi": "10.1007/s10198-018-0993-z",
+      "title": "A new method for valuing health: directly eliciting personal utility functions",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6438932/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-018-0993-z",
+      "status": "ok",
+      "file": "input/projects/2014170/papers/doi_10.1007_s10198-018-0993-z.xml",
+      "bytes": 131975,
+      "sha256": "dec669d4343395a111005589a7c0b37c718f02cf6620fff4ba7f9f09009b7789"
+    }
+  ]
+}

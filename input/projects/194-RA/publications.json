@@ -1,0 +1,157 @@
+{
+  "project_id": "194-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-023-00655-6",
+      "doi": "10.1007/s40271-023-00655-6",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Unravelling the Self-Report Versus Proxy-Report Conundrum for Older Aged Care Residents: Findings from a Mixed-Methods Study",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Julie Ratcliffe",
+          "last_name": "Ratcliffe",
+          "orcid": "https://orcid.org/0000-0001-7365-1988"
+        },
+        {
+          "full_name": "Kiri Lay",
+          "last_name": "Lay",
+          "orcid": "https://orcid.org/0000-0003-1077-3771"
+        },
+        {
+          "full_name": "Matthew Crocker",
+          "last_name": "Crocker",
+          "orcid": "https://orcid.org/0000-0002-6207-7850"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Rachel Milte",
+          "last_name": "Milte",
+          "orcid": "https://orcid.org/0000-0001-7533-6260"
+        },
+        {
+          "full_name": "Claire Hutchinson",
+          "last_name": "Hutchinson",
+          "orcid": "https://orcid.org/0000-0003-4289-8886"
+        },
+        {
+          "full_name": "Jyoti Khadka",
+          "last_name": "Khadka",
+          "orcid": "https://orcid.org/0000-0003-1012-2119"
+        },
+        {
+          "full_name": "David G. T. Whitehurst",
+          "last_name": "Whitehurst",
+          "orcid": "https://orcid.org/0000-0002-7890-6756"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://figshare.com/articles/journal_contribution/Unravelling_the_Self-Report_Versus_Proxy-Report_Conundrum_for_Older_Aged_Care_Residents_Findings_from_a_Mixed-Methods_Study/27199434",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-023-00655-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1155/2023/5839776",
+      "doi": "10.1155/2023/5839776",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Measuring Quality of Life in Residential Aged Care Using the EQ-5D-5L: A Cross-Sectional Study on the Impact of Cognition Level and Proxy Perspective on Interrater Agreement",
+      "journal": "Health &amp; Social Care in the Community",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Claire Hutchinson",
+          "last_name": "Hutchinson",
+          "orcid": "https://orcid.org/0000-0003-4289-8886"
+        },
+        {
+          "full_name": "David G. T. Whitehurst",
+          "last_name": "Whitehurst",
+          "orcid": "https://orcid.org/0000-0002-7890-6756"
+        },
+        {
+          "full_name": "Matthew Crocker",
+          "last_name": "Crocker",
+          "orcid": "https://orcid.org/0000-0002-6207-7850"
+        },
+        {
+          "full_name": "Kiri Lay",
+          "last_name": "Lay",
+          "orcid": "https://orcid.org/0000-0003-1077-3771"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Julie Ratcliffe",
+          "last_name": "Ratcliffe",
+          "orcid": "https://orcid.org/0000-0001-7365-1988"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://doi.org/10.1155/2023/5839776",
+        "pdf_url": "https://downloads.hindawi.com/journals/hsc/2023/5839776.pdf",
+        "landing_page": "https://doi.org/10.1155/2023/5839776",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

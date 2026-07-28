@@ -1,0 +1,599 @@
+{
+  "project_id": "2013200",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-019-02115-x",
+      "doi": "10.1007/s11136-019-02115-x",
+      "pmid": "30739287",
+      "pmcid": "PMC6571085",
+      "title": "EQ-5D-Y-5L: developing a revised EQ-5D-Y with increased response categories",
+      "journal": "Quality of Life Research",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Mimmi Åström",
+          "last_name": "Åström",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina Burström",
+          "last_name": "Burström",
+          "orcid": null
+        },
+        {
+          "full_name": "Ann-Charlotte Egmar",
+          "last_name": "Egmar",
+          "orcid": null
+        },
+        {
+          "full_name": "Narcis Gusi",
+          "last_name": "Gusi",
+          "orcid": null
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "Miguel A. Perez-Sousa",
+          "last_name": "Perez-Sousa",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC6571085",
+        "pdf_url": "https://europepmc.org/articles/PMC6571085?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-019-02115-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02899-x",
+      "doi": "10.1007/s11136-021-02899-x",
+      "pmid": "34110552",
+      "pmcid": "PMC8800913",
+      "title": "Developing and testing a cognitive bolt-on for the EQ-5D-Y (Youth)",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Bastian Surmann",
+          "last_name": "Surmann",
+          "orcid": "https://orcid.org/0000-0003-1655-0907"
+        },
+        {
+          "full_name": "Eva Räcker",
+          "last_name": "Räcker",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8800913",
+        "pdf_url": "https://europepmc.org/articles/PMC8800913?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02899-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-03007-9",
+      "doi": "10.1007/s11136-021-03007-9",
+      "pmid": "34613597",
+      "pmcid": "PMC9098572",
+      "title": "Feasibility of the EQ-5D in the elderly population: a systematic review of the literature",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Laura Brand",
+          "last_name": "Brand",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9098572",
+        "pdf_url": "https://europepmc.org/articles/PMC9098572?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-021-03007-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0615-8",
+      "doi": "10.1007/s40273-018-0615-8",
+      "pmid": "29460066",
+      "pmcid": "PMC5954069",
+      "title": "German Value Set for the EQ-5D-5L",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "J.-Matthias Graf von der Schulenburg",
+          "last_name": "Graf von der Schulenburg",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5954069",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs40273-018-0615-8.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0615-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.03.019",
+      "doi": "10.1016/j.jval.2021.03.019",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Comparison of Adult and Adolescent Preferences Toward EQ-5D-Y-3L Health States",
+      "journal": "Value in Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Valentina Prevolnik Rupel",
+          "last_name": "Prevolnik Rupel",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan M. Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Marko Ogorevc",
+          "last_name": "Ogorevc",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2021.03.019",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(21)01526-6/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.03.019",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.zefq.2019.05.011",
+      "doi": "10.1016/j.zefq.2019.05.011",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Entwicklung der deutschen Version des EQ-5D-Y-5L zur Messung der gesundheitsbezogenen Lebensqualität bei Kindern und Jugendlichen: Identifikation von Antwortformulierungen und Pilotierung",
+      "journal": "Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.zefq.2019.05.011",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.zefq.2019.05.011",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-017-0617-9",
+      "doi": "10.1186/s12955-017-0617-9",
+      "pmid": "28219389",
+      "pmcid": "PMC5319015",
+      "title": "Valuation of the EQ-5D-5L with composite time trade-off for the German population – an exploratory study",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "J.-Matthias Graf von der Schulenburg",
+          "last_name": "von der Schulenburg",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5319015",
+        "pdf_url": "https://europepmc.org/articles/PMC5319015?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-017-0617-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01719-7",
+      "doi": "10.1186/s12955-021-01719-7",
+      "pmid": "33676523",
+      "pmcid": "PMC7937199",
+      "title": "EQ-5D-5L reference values for the German general elderly population",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC7937199",
+        "pdf_url": "https://europepmc.org/articles/PMC7937199?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01719-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s13561-020-00297-6",
+      "doi": "10.1186/s13561-020-00297-6",
+      "pmid": "33313984",
+      "pmcid": "PMC7733616",
+      "title": "Application study of the EQ-5D-5L in oncology: linking self-reported quality of life of patients with advanced or metastatic colorectal cancer to clinical data from a German tumor registry",
+      "journal": "Health Economics Review",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Kathrin Borchert",
+          "last_name": "Borchert",
+          "orcid": "https://orcid.org/0000-0003-2769-0075"
+        },
+        {
+          "full_name": "Christian Jacob",
+          "last_name": "Jacob",
+          "orcid": null
+        },
+        {
+          "full_name": "Natalie Wetzel",
+          "last_name": "Wetzel",
+          "orcid": null
+        },
+        {
+          "full_name": "Martina Jänicke",
+          "last_name": "Jänicke",
+          "orcid": null
+        },
+        {
+          "full_name": "Egbert Eggers",
+          "last_name": "Eggers",
+          "orcid": null
+        },
+        {
+          "full_name": "Annette Sauer",
+          "last_name": "Sauer",
+          "orcid": null
+        },
+        {
+          "full_name": "Norbert Marschner",
+          "last_name": "Marschner",
+          "orcid": null
+        },
+        {
+          "full_name": "Julia Altevers",
+          "last_name": "Altevers",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Mittendorf",
+          "last_name": "Mittendorf",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC7733616",
+        "pdf_url": "https://europepmc.org/articles/PMC7733616?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s13561-020-00297-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s13561-022-00374-y",
+      "doi": "10.1186/s13561-022-00374-y",
+      "pmid": "35593942",
+      "pmcid": "PMC9121571",
+      "title": "Feasibility properties of the EQ-5D-3L and 5L in the general population: evidence from the GP Patient Survey on the impact of age",
+      "journal": "Health Economics Review",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9121571",
+        "pdf_url": "https://europepmc.org/articles/PMC9121571?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s13561-022-00374-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0290606",
+      "doi": "10.1371/journal.pone.0290606",
+      "pmid": "37624857",
+      "pmcid": "PMC10456181",
+      "title": "Exploring differences and similarities of EQ-5D-3L, EQ-5D-5L and WHOQOL-OLD in recipients of aged care services in Germany",
+      "journal": "PLOS ONE",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC10456181",
+        "pdf_url": "https://europepmc.org/articles/PMC10456181?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0290606",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

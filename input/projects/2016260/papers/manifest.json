@@ -1,0 +1,19 @@
+{
+  "project_id": "2016260",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40271-025-00735-9",
+      "doi": "10.1007/s40271-025-00735-9",
+      "title": "How do Design Characteristics Affect Respondent Engagement? Assessing Attribute Non-attendance in Discrete Choice Experiments Valuing the EQ-5D-5L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12170736/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s40271-025-00735-9",
+      "status": "ok",
+      "file": "input/projects/2016260/papers/doi_10.1007_s40271-025-00735-9.xml",
+      "bytes": 178252,
+      "sha256": "627e3aa895a17583b844b0fcab39ad9b7d4d37a905f5d1e020708e78569c1b65"
+    }
+  ]
+}

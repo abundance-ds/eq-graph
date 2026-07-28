@@ -1,0 +1,69 @@
+{
+  "project_id": "304-PHD",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10614-024-10637-x",
+      "doi": "10.1007/s10614-024-10637-x",
+      "title": "Comparing the Mixed Logit Estimates and True Parameters under Informative and Uninformative Heterogeneity: A Simulated Discrete Choice Experiment",
+      "method": "publisher_pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10614-024-10637-x.pdf",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10614-024-10637-x",
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.1007_s10614-024-10637-x.pdf",
+      "bytes": 2216953,
+      "sha256": "768e44634dd3a305b1ccaef3ed60d3f0df85dbaba0b7b10ce8646ec2774a0cc3"
+    },
+    {
+      "work_id": "doi:10.1007/s40271-024-00708-4",
+      "doi": "10.1007/s40271-024-00708-4",
+      "title": "The Performance of Kaizen Tasks Across Three Online Discrete Choice Experiment Surveys: An Evidence Synthesis",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11461645/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-024-00708-4",
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.1007_s40271-024-00708-4.xml",
+      "bytes": 81290,
+      "sha256": "012ed970044d1a6ebd382dca9671722067f86c0e8cacc3cf605058a166509c3a"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01444-1",
+      "doi": "10.1007/s40273-024-01444-1",
+      "title": "Measuring Effectiveness Based on Patient Experience (Instead of QALYs) in US Value Assessments",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11782394/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01444-1",
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.1007_s40273-024-01444-1.xml",
+      "bytes": 75132,
+      "sha256": "b908b254e120ba604b65b6fbf9515bb55da21e943ecf3337deed20ec67399722"
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2023-077256",
+      "doi": "10.1136/bmjopen-2023-077256",
+      "title": "Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10603523/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2023-077256",
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.1136_bmjopen-2023-077256.xml",
+      "bytes": 73230,
+      "sha256": "bdf0ee6cff8e5fdcab70ea6a6166873e62ba67ffc8df94e41175558aa450bd92"
+    },
+    {
+      "work_id": "doi:10.3390/econometrics11010004",
+      "doi": "10.3390/econometrics11010004",
+      "title": "Comparing the Conditional Logit Estimates and True Parameters under Preference Heterogeneity: A Simulated Discrete Choice Experiment",
+      "method": "publisher_pdf",
+      "source_url": "https://www.mdpi.com/2225-1146/11/1/4/pdf?version=1676271863",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3390/econometrics11010004",
+      "status": "unavailable",
+      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+    }
+  ]
+}

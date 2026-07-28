@@ -1,0 +1,75 @@
+{
+  "project_id": "2016740",
+  "accepted": [
+    {
+      "work_id": "doi:10.3389/fpsyg.2023.1175402",
+      "doi": "10.3389/fpsyg.2023.1175402",
+      "pmid": "37860294",
+      "pmcid": "PMC10583565",
+      "title": "An investigation of age dependency in Dutch and Chinese values for EQ-5D-Y",
+      "journal": "Frontiers in psychology",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Essers B",
+          "last_name": "Essers",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Jonker MF",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Evers S",
+          "last_name": "Evers",
+          "orcid": "0000-0003-1026-570X"
+        },
+        {
+          "full_name": "Joore M",
+          "last_name": "Joore",
+          "orcid": "0000-0002-5649-6768"
+        },
+        {
+          "full_name": "Dirksen C",
+          "last_name": "Dirksen",
+          "orcid": null
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016740",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.3389/fpsyg.2023.1175402",
+        "pdf_url": "https://europepmc.org/articles/PMC10583565?pdf=render",
+        "landing_page": "https://doi.org/10.3389/fpsyg.2023.1175402",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

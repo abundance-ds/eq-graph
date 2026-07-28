@@ -1,0 +1,96 @@
+{
+  "project_id": "20180710",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-021-01101-x",
+      "doi": "10.1007/s40273-021-01101-x",
+      "pmid": "34841471",
+      "pmcid": "PMC8627844",
+      "title": "Developing the EQ-5D-5L Value Set for Uganda Using the ‘Lite’ Protocol",
+      "journal": "PharmacoEconomics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Fan Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0003-4689-265x"
+        },
+        {
+          "full_name": "Kenneth R. Katumba",
+          "last_name": "Katumba",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Revill",
+          "last_name": "Revill",
+          "orcid": null
+        },
+        {
+          "full_name": "Susan Griffin",
+          "last_name": "Griffin",
+          "orcid": null
+        },
+        {
+          "full_name": "Perez N. Ochanda",
+          "last_name": "Ochanda",
+          "orcid": null
+        },
+        {
+          "full_name": "Mohammed Lamorde",
+          "last_name": "Lamorde",
+          "orcid": null
+        },
+        {
+          "full_name": "Giulia Greco",
+          "last_name": "Greco",
+          "orcid": null
+        },
+        {
+          "full_name": "Janet Seeley",
+          "last_name": "Seeley",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Sculpher",
+          "last_name": "Sculpher",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8627844",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-021-01101-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-021-01101-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

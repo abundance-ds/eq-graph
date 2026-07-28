@@ -1,0 +1,231 @@
+{
+  "project_id": "1596-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-022-02024-7",
+      "doi": "10.1186/s12955-022-02024-7",
+      "pmid": "35918765",
+      "pmcid": "PMC9347153",
+      "title": "Socioeconomic inequalities in HRQoL in England: an age-sex stratified analysis",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": null
+        },
+        {
+          "full_name": "James Love-Koh",
+          "last_name": "Love-Koh",
+          "orcid": null
+        },
+        {
+          "full_name": "Simon McNamara",
+          "last_name": "McNamara",
+          "orcid": null
+        },
+        {
+          "full_name": "Tim Doran",
+          "last_name": "Doran",
+          "orcid": null
+        },
+        {
+          "full_name": "Nils Gutacker",
+          "last_name": "Gutacker",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9347153",
+        "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-022-02024-7",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02024-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.12688/wellcomeopenres.21408.1",
+      "doi": "10.12688/wellcomeopenres.21408.1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Using the OPUF approach to create a value set for the EQ-HWB-S: An exploratory feasibility study",
+      "journal": "Wellcome Open Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": "https://orcid.org/0000-0003-3552-1087"
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://doi.org/10.12688/wellcomeopenres.21408.1",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.12688/wellcomeopenres.21408.1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.12688/wellcomeopenres.21408.2",
+      "doi": "10.12688/wellcomeopenres.21408.2",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Using the OPUF approach to create a value set for the EQ-HWB-S: An exploratory feasibility study",
+      "journal": "Wellcome Open Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Paul Schneider",
+          "last_name": "Schneider",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina Ludwig",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Emily McDool",
+          "last_name": "McDool",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "John Brazier",
+          "last_name": "Brazier",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.12688/wellcomeopenres.21408.2",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

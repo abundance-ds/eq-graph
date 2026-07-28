@@ -1,0 +1,108 @@
+{
+  "project_id": "2305-BT",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04053-3",
+      "doi": "10.1007/s11136-025-04053-3",
+      "pmid": "40911276",
+      "pmcid": "PMC12689771",
+      "title": "The psychometric performance of the EQ-5D-5L composite and component items in the U.S. General population and by age group",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Minh Pham",
+          "last_name": "Pham",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamin M. Craig",
+          "last_name": "Craig",
+          "orcid": "https://orcid.org/0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12689771",
+        "pdf_url": "https://europepmc.org/articles/PMC12689771?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04053-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04242-8",
+      "doi": "10.1007/s11136-026-04242-8",
+      "pmid": "42070162",
+      "pmcid": "PMC13136203",
+      "title": "A direct comparison of the measurement properties of the PROMIS-16 and EQ-5D-5L in the U.S. general population",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Pham M",
+          "last_name": "Pham",
+          "orcid": null
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Peasgood T",
+          "last_name": "Peasgood",
+          "orcid": "0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13136203",
+        "pdf_url": "https://europepmc.org/articles/PMC13136203?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04242-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

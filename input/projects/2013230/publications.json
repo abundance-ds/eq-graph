@@ -1,0 +1,611 @@
+{
+  "project_id": "2013230",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-015-0292-9",
+      "doi": "10.1007/s40273-015-0292-9",
+      "pmid": "26026667",
+      "pmcid": "PMC4519579",
+      "title": "A Checklist for Reporting Valuation Studies of Multi-Attribute Utility-Based Instruments (CREATE)",
+      "journal": "PharmacoEconomics",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Krabbe PF",
+          "last_name": "Krabbe",
+          "orcid": "0000-0001-6042-1243"
+        },
+        {
+          "full_name": "Revicki D",
+          "last_name": "Revicki",
+          "orcid": null
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Feeny D",
+          "last_name": "Feeny",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 2013230",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2013230",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC4519579",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-015-0292-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-015-0292-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-015-1129-x",
+      "doi": "10.1007/s11136-015-1129-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Is bad living better than good death? Impact of demographic and cultural factors on health state preference",
+      "journal": "Quality of Life Research",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Xuejing Jin",
+          "last_name": "Jin",
+          "orcid": null
+        },
+        {
+          "full_name": "Gordon Guoen Liu",
+          "last_name": "Liu",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Hongchao Li",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Haijing Guan",
+          "last_name": "Guan",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-015-1129-x",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-016-1242-5",
+      "doi": "10.1007/s11136-016-1242-5",
+      "pmid": null,
+      "pmcid": null,
+      "title": "How different are composite and traditional TTO valuations of severe EQ-5D-5L states?",
+      "journal": "Quality of Life Research",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Kathy Gaebel",
+          "last_name": "Gaebel",
+          "orcid": null
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Stirling Bryan",
+          "last_name": "Bryan",
+          "orcid": null
+        },
+        {
+          "full_name": "Arto Ohinmaa",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Lise Poissant",
+          "last_name": "Poissant",
+          "orcid": null
+        },
+        {
+          "full_name": "Jeffrey A. Johnson",
+          "last_name": "Johnson",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-016-1242-5",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1097/mlr.0000000000000178",
+      "doi": "10.1097/mlr.0000000000000178",
+      "pmid": "25100229",
+      "pmcid": "PMC4196797",
+      "title": "Multinational evidence of the applicability and robustness of discrete choice modeling for deriving EQ-5D-5L health-state values",
+      "journal": "Medical care",
+      "year": 2014,
+      "authors": [
+        {
+          "full_name": "Krabbe PF",
+          "last_name": "Krabbe",
+          "orcid": "0000-0001-6042-1243"
+        },
+        {
+          "full_name": "Devlin NJ",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Shah KK",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "van Hout B",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "Quik EH",
+          "last_name": "Quik",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": "0000-0001-5645-7091"
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC4196797",
+        "pdf_url": "https://europepmc.org/articles/PMC4196797?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000000178",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1097/mlr.0000000000000447",
+      "doi": "10.1097/mlr.0000000000000447",
+      "pmid": "26492214",
+      "pmcid": "PMC4674140",
+      "title": "A Time Trade-off-derived Value Set of the EQ-5D-5L for Canada",
+      "journal": "Medical care",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Pullenayegum E",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Gaebel K",
+          "last_name": "Gaebel",
+          "orcid": null
+        },
+        {
+          "full_name": "Bansback N",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Bryan S",
+          "last_name": "Bryan",
+          "orcid": null
+        },
+        {
+          "full_name": "Ohinmaa A",
+          "last_name": "Ohinmaa",
+          "orcid": null
+        },
+        {
+          "full_name": "Poissant L",
+          "last_name": "Poissant",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC4674140",
+        "pdf_url": "https://europepmc.org/articles/PMC4674140?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000000447",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x19841592",
+      "doi": "10.1177/0272989x19841592",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Latent Class Models Reveal Poor Agreement between Discrete-Choice and Time Tradeoff Preferences",
+      "journal": "Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x19841592",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-02049-y",
+      "doi": "10.1186/s12955-022-02049-y",
+      "pmid": "36199138",
+      "pmcid": "PMC9535990",
+      "title": "Comparing the psychometric properties of EQ-5D-3L and EQ-5D-5L proxy ratings by informal caregivers and a health professional for people with dementia",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Wiebke Mohr",
+          "last_name": "Mohr",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9535990",
+        "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.5492/wjccm.v11.i4.236",
+      "doi": "10.5492/wjccm.v11.i4.236",
+      "pmid": "36051941",
+      "pmcid": "PMC9305682",
+      "title": "Health-related quality-of-life and health-utility reporting in critical care",
+      "journal": "World journal of critical care medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Lau VI",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Bagshaw SM",
+          "last_name": "Bagshaw",
+          "orcid": null
+        },
+        {
+          "full_name": "Rewa OG",
+          "last_name": "Rewa",
+          "orcid": null
+        },
+        {
+          "full_name": "Basmaji J",
+          "last_name": "Basmaji",
+          "orcid": "0000-0001-9749-1747"
+        },
+        {
+          "full_name": "Lewis KA",
+          "last_name": "Lewis",
+          "orcid": null
+        },
+        {
+          "full_name": "Wilcox ME",
+          "last_name": "Wilcox",
+          "orcid": null
+        },
+        {
+          "full_name": "Barrett K",
+          "last_name": "Barrett",
+          "orcid": "0000-0001-7147-2222"
+        },
+        {
+          "full_name": "Lamontagne F",
+          "last_name": "Lamontagne",
+          "orcid": null
+        },
+        {
+          "full_name": "Lauzier F",
+          "last_name": "Lauzier",
+          "orcid": null
+        },
+        {
+          "full_name": "Ferguson ND",
+          "last_name": "Ferguson",
+          "orcid": "0000-0002-6213-5264"
+        },
+        {
+          "full_name": "Oczkowski SJW",
+          "last_name": "Oczkowski",
+          "orcid": null
+        },
+        {
+          "full_name": "Fiest KM",
+          "last_name": "Fiest",
+          "orcid": null
+        },
+        {
+          "full_name": "Niven DJ",
+          "last_name": "Niven",
+          "orcid": null
+        },
+        {
+          "full_name": "Stelfox HT",
+          "last_name": "Stelfox",
+          "orcid": null
+        },
+        {
+          "full_name": "Alhazzani W",
+          "last_name": "Alhazzani",
+          "orcid": null
+        },
+        {
+          "full_name": "Herridge M",
+          "last_name": "Herridge",
+          "orcid": null
+        },
+        {
+          "full_name": "Fowler R",
+          "last_name": "Fowler",
+          "orcid": "0000-0002-1002-2989"
+        },
+        {
+          "full_name": "Cook DJ",
+          "last_name": "Cook",
+          "orcid": null
+        },
+        {
+          "full_name": "Rochwerg B",
+          "last_name": "Rochwerg",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://doi.org/10.5492/wjccm.v11.i4.236",
+        "pdf_url": "https://europepmc.org/articles/PMC9305682?pdf=render",
+        "landing_page": "https://doi.org/10.5492/wjccm.v11.i4.236",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

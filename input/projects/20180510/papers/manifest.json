@@ -1,0 +1,56 @@
+{
+  "project_id": "20180510",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40271-022-00573-z",
+      "doi": "10.1007/s40271-022-00573-z",
+      "title": "Exploring the Comparability of Face-to-Face Versus Video Conference-Based Composite Time Trade-Off Interviews: Insights from EQ-5D-Y-3L Valuation Studies in Belgium and Spain",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8853046/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-022-00573-z",
+      "status": "ok",
+      "file": "input/projects/20180510/papers/doi_10.1007_s40271-022-00573-z.xml",
+      "bytes": 121217,
+      "sha256": "7f15562ef4da0a24362ddcb6c856abc4601a2edd2f5e1a229cf95156afb4d752"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-020-00994-4",
+      "doi": "10.1007/s40273-020-00994-4",
+      "title": "EQ-5D-Y Value Set for Slovenia",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8009800/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-020-00994-4",
+      "status": "ok",
+      "file": "input/projects/20180510/papers/doi_10.1007_s40273-020-00994-4.xml",
+      "bytes": 89729,
+      "sha256": "9a785c300b8808613a0f9bcf40996be6a44225155b970b462fb971deeea0d8c7"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01143-9",
+      "doi": "10.1007/s40273-022-01143-9",
+      "title": "EQ-5D-Y Value Set for Germany",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9124748/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-022-01143-9",
+      "status": "ok",
+      "file": "input/projects/20180510/papers/doi_10.1007_s40273-022-01143-9.xml",
+      "bytes": 128839,
+      "sha256": "647b656987ebfcf2c0919489e2f06536648d7926cd1c2511b3acbf9b00a55f34"
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.10.013",
+      "doi": "10.1016/j.jval.2021.10.013",
+      "title": "Accounting for Unobservable Preference Heterogeneity and Evaluating Alternative Anchoring Approaches to Estimate Country-Specific EQ-5D-Y Value Sets: A Case Study Using Spanish Preference Data",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.jval.2021.10.013",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

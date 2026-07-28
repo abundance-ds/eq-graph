@@ -1,0 +1,112 @@
+{
+  "project_id": "2013170",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.socscimed.2014.05.026",
+      "doi": "10.1016/j.socscimed.2014.05.026",
+      "pmid": "24908173",
+      "pmcid": "PMC4074344",
+      "title": "Testing a discrete choice experiment including duration to value health states for large descriptive systems: addressing design and sampling issues",
+      "journal": "Social science & medicine (1982)",
+      "year": 2014,
+      "authors": [
+        {
+          "full_name": "Bansback N",
+          "last_name": "Bansback",
+          "orcid": "0000-0002-1510-3462"
+        },
+        {
+          "full_name": "Hole AR",
+          "last_name": "Hole",
+          "orcid": "0000-0002-9413-8101"
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Tsuchiya A",
+          "last_name": "Tsuchiya",
+          "orcid": "0000-0003-4245-5399"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4074344",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2014.05.026",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x19851049",
+      "doi": "10.1177/0272989x19851049",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Manipulating the 5 Dimensions of the EuroQol Instrument: The Effects on Self-Reporting Actual Health and Valuing Hypothetical Health States",
+      "journal": "Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": "https://orcid.org/0000-0003-4245-5399"
+        },
+        {
+          "full_name": "Nick Bansback",
+          "last_name": "Bansback",
+          "orcid": null
+        },
+        {
+          "full_name": "Arne Risa Hole",
+          "last_name": "Hole",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x19851049",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

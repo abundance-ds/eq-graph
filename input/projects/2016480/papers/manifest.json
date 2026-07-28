@@ -1,0 +1,45 @@
+{
+  "project_id": "2016480",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2020-048176",
+      "doi": "10.1136/bmjopen-2020-048176",
+      "title": "Longitudinal study of patients’ health-related quality of life using EQ-5D-3L in 11 Swedish National Quality Registers",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8739074/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2020-048176",
+      "status": "ok",
+      "file": "input/projects/2016480/papers/doi_10.1136_bmjopen-2020-048176.xml",
+      "bytes": 222656,
+      "sha256": "45fc2157c840889ce250d2472610a7b52490db719f3b2c234d3dc27ebc935bce"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02115-z",
+      "doi": "10.1186/s12955-023-02115-z",
+      "title": "Experience-based health state valuation using the EQ VAS: a register-based study of the EQ-5D-3L among nine patient groups in Sweden",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10084671/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-023-02115-z",
+      "status": "ok",
+      "file": "input/projects/2016480/papers/doi_10.1186_s12955-023-02115-z.xml",
+      "bytes": 175119,
+      "sha256": "929bbaab8f44781b4f9b8740ed94fea60de80a0d59b90a26dadad9955a4c9c6c"
+    },
+    {
+      "work_id": "doi:10.2196/27669",
+      "doi": "10.2196/27669",
+      "title": "Variations in Patients' Overall Assessment of Their Health Across and Within Disease Groups Using the EQ-5D Questionnaire: Protocol for a Longitudinal Study in the Swedish National Quality Registers",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8433865/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.2196/27669",
+      "status": "ok",
+      "file": "input/projects/2016480/papers/doi_10.2196_27669.xml",
+      "bytes": 135432,
+      "sha256": "3bca14c08e195c1a14cbdb35eee45a1c081e177fa8f0bb144647c5b672b1c3ac"
+    }
+  ]
+}

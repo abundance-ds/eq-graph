@@ -1,0 +1,19 @@
+{
+  "project_id": "2013230",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-015-0292-9",
+      "doi": "10.1007/s40273-015-0292-9",
+      "title": "A Checklist for Reporting Valuation Studies of Multi-Attribute Utility-Based Instruments (CREATE)",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4519579/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-015-0292-9",
+      "status": "ok",
+      "file": "input/projects/2013230/papers/doi_10.1007_s40273-015-0292-9.xml",
+      "bytes": 92740,
+      "sha256": "48ed6cd422b428a53edaca97c35d62ba88be6c99b05e6f7213ddfa7cd9cb06aa"
+    }
+  ]
+}

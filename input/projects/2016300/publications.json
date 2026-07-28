@@ -1,0 +1,55 @@
+{
+  "project_id": "2016300",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-014-0638-9",
+      "doi": "10.1007/s10198-014-0638-9",
+      "pmid": "25358263",
+      "pmcid": "PMC4646948",
+      "title": "EQ-5D in skin conditions: an assessment of validity and responsiveness",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2015,
+      "authors": [
+        {
+          "full_name": "Yang Y",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Longworth L",
+          "last_name": "Longworth",
+          "orcid": "0000-0003-2512-4862"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC4646948",
+        "pdf_url": "https://europepmc.org/articles/PMC4646948?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-014-0638-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

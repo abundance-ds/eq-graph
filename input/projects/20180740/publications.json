@@ -1,0 +1,485 @@
+{
+  "project_id": "20180740",
+  "accepted": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2024-084440",
+      "doi": "10.1136/bmjopen-2024-084440",
+      "pmid": "39920057",
+      "pmcid": "PMC11815445",
+      "title": "Heterogeneous association of health with patient and general practice characteristics by region, age and chronic condition: pooled cross-sectional study of patient-level data from England",
+      "journal": "BMJ Open",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Yan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Hugh Gravelle",
+          "last_name": "Gravelle",
+          "orcid": null
+        },
+        {
+          "full_name": "Vladimir Sergeevich Gordeev",
+          "last_name": "Gordeev",
+          "orcid": null
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20180740",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11815445",
+        "pdf_url": "https://europepmc.org/articles/PMC11815445?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2024-084440",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.3773",
+      "doi": "10.1002/hec.3773",
+      "pmid": "29774632",
+      "pmcid": "PMC6055741",
+      "title": "An exploration of the non‐iterative time trade‐off method to value health states",
+      "journal": "Health Economics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Yan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-4436-1126"
+        },
+        {
+          "full_name": "Arne Risa Hole",
+          "last_name": "Hole",
+          "orcid": "https://orcid.org/0000-0002-9413-8101"
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": "https://orcid.org/0000-0002-5298-174x"
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": "https://orcid.org/0000-0003-4245-5399"
+        },
+        {
+          "full_name": "Ben van Hout",
+          "last_name": "van Hout",
+          "orcid": "https://orcid.org/0000-0001-9698-6094"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC6055741",
+        "pdf_url": "https://europepmc.org/articles/PMC6055741?pdf=render",
+        "landing_page": "https://doi.org/10.1002/hec.3773",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-020-02688-y",
+      "doi": "10.1007/s11136-020-02688-y",
+      "pmid": "33284428",
+      "pmcid": "PMC7952346",
+      "title": "Psychometric properties of the EQ-5D-5L: a systematic review of the literature",
+      "journal": "Quality of Life Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-1509-3409"
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7952346",
+        "pdf_url": "https://europepmc.org/articles/PMC7952346?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02688-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-021-02922-1",
+      "doi": "10.1007/s11136-021-02922-1",
+      "pmid": "34236579",
+      "pmcid": "PMC8800896",
+      "title": "Combining EQ-5D-5L items into a level summary score: demonstrating feasibility using non-parametric item response theory using an international dataset",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-1509-3409"
+        },
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8800896",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02922-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02922-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03601-7",
+      "doi": "10.1007/s11136-024-03601-7",
+      "pmid": "38381281",
+      "pmcid": "PMC11045574",
+      "title": "Scoring the EQ-HWB-S: can we do it without value sets? A non-parametric item response theory analysis",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-1509-3409"
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11045574",
+        "pdf_url": "https://europepmc.org/articles/PMC11045574?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03601-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03947-6",
+      "doi": "10.1007/s11136-025-03947-6",
+      "pmid": "40285933",
+      "pmcid": "PMC12274267",
+      "title": "Exploring the origin and conceptual framework of the EQ VAS",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ling-Hsiang Chuang",
+          "last_name": "Chuang",
+          "orcid": "https://orcid.org/0000-0001-8043-0411"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12274267",
+        "pdf_url": "https://europepmc.org/articles/PMC12274267?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03947-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0642-5",
+      "doi": "10.1007/s40273-018-0642-5",
+      "pmid": "29572719",
+      "pmcid": "PMC5954044",
+      "title": "A Systematic Review of Studies Comparing the Measurement Properties of the Three-Level and Five-Level Versions of the EQ-5D",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Ines Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0001-9729-6992"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC5954044",
+        "pdf_url": "https://europepmc.org/articles/PMC5954044?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0642-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.02.006",
+      "doi": "10.1016/j.jval.2019.02.006",
+      "pmid": "31104730",
+      "pmcid": null,
+      "title": "Exploring the Internal Structure of the EQ-5D Using Non–Preference-Based Methods",
+      "journal": "Value in Health",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.02.006",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.02.006",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.05.019",
+      "doi": "10.1016/j.jval.2021.05.019",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Patient Self-Reported Health, Clinical Quality, and Patient Satisfaction in English Primary Care: Practice-Level Longitudinal Observational Study",
+      "journal": "Value in Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Yan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "Hugh Gravelle",
+          "last_name": "Gravelle",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://qmro.qmul.ac.uk/xmlui/handle/123456789/73998",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.05.019",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

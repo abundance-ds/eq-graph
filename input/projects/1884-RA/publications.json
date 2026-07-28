@@ -1,0 +1,66 @@
+{
+  "project_id": "1884-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03875-x",
+      "doi": "10.1007/s11136-024-03875-x",
+      "pmid": "39673587",
+      "pmcid": "PMC11982113",
+      "title": "Exploring the content validity of the EQ-5D-5L and four bolt-ons (skin irritation, self-confidence, sleep, social relationships) in atopic dermatitis and chronic urticaria",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Anna-Katrine Sussex",
+          "last_name": "Sussex",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "Millie Gaydon",
+          "last_name": "Gaydon",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Lloyd",
+          "last_name": "Lloyd",
+          "orcid": null
+        },
+        {
+          "full_name": "Katy Gallop",
+          "last_name": "Gallop",
+          "orcid": "https://orcid.org/0000-0002-6826-3865"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1007/s11136-024-03875-x",
+        "pdf_url": "https://europepmc.org/articles/PMC11982113?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03875-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

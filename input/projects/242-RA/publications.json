@@ -1,0 +1,180 @@
+{
+  "project_id": "242-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-021-02804-6",
+      "doi": "10.1007/s11136-021-02804-6",
+      "pmid": "33713323",
+      "pmcid": "PMC8233249",
+      "title": "Valuation of the EQ-5D-3L in Russia",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Omelyanovskiy V",
+          "last_name": "Omelyanovskiy",
+          "orcid": "0000-0003-1581-0703"
+        },
+        {
+          "full_name": "Musina N",
+          "last_name": "Musina",
+          "orcid": "0000-0002-6914-6222"
+        },
+        {
+          "full_name": "Ratushnyak S",
+          "last_name": "Ratushnyak",
+          "orcid": "0000-0001-7967-5112"
+        },
+        {
+          "full_name": "Bezdenezhnykh T",
+          "last_name": "Bezdenezhnykh",
+          "orcid": "0000-0003-4839-8081"
+        },
+        {
+          "full_name": "Fediaeva V",
+          "last_name": "Fediaeva",
+          "orcid": null
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": "0000-0002-7336-3043"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8233249",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02804-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02804-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s41669-023-00437-8",
+      "doi": "10.1007/s41669-023-00437-8",
+      "pmid": "37702988",
+      "pmcid": "PMC10721573",
+      "title": "The EQ-5D-3L Valuation Study in Pakistan",
+      "journal": "PharmacoEconomics - open",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Malik M",
+          "last_name": "Malik",
+          "orcid": "0000-0001-5824-9405"
+        },
+        {
+          "full_name": "Gu NY",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "Hussain A",
+          "last_name": "Hussain",
+          "orcid": null
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC10721573",
+        "pdf_url": "https://europepmc.org/articles/PMC10721573?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s41669-023-00437-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101543",
+      "doi": "10.1016/j.vhri.2025.101543",
+      "pmid": "41259893",
+      "pmcid": null,
+      "title": "Psychometric Performance of EQ-HWB and EQ-HWB-9 Self-Complete and Interviewer-Administered Versions in Literate, Low-Literacy, and Patient Populations in Indonesia",
+      "journal": "Value in Health Regional Issues",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Fredrick Dermawan Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Grace Helena Firmansyah Putri",
+          "last_name": "Putri",
+          "orcid": null
+        },
+        {
+          "full_name": "Putu Getsha Pradnyan Rarasati Mudita",
+          "last_name": "Mudita",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00469-8/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101543",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

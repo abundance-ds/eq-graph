@@ -1,0 +1,71 @@
+{
+  "project_id": "2119-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-026-02581-1",
+      "doi": "10.1186/s12955-026-02581-1",
+      "pmid": "42399970",
+      "pmcid": null,
+      "title": "Content validity of the modified EQ-HWB-9 in a sample of Argentinean patients, informal caregivers, and members of the general public",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Maria Belizan",
+          "last_name": "Belizan",
+          "orcid": "https://orcid.org/0000-0002-8739-5249"
+        },
+        {
+          "full_name": "Natalí Ini",
+          "last_name": "Ini",
+          "orcid": "https://orcid.org/0009-0002-9411-0851"
+        },
+        {
+          "full_name": "Fernando Argento",
+          "last_name": "Argento",
+          "orcid": "https://orcid.org/0000-0002-2492-8933"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": "https://orcid.org/0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": "https://orcid.org/0000-0002-2914-5022"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02581-1",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02581-1",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

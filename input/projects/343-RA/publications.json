@@ -1,0 +1,81 @@
+{
+  "project_id": "343-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-024-02305-3",
+      "doi": "10.1186/s12955-024-02305-3",
+      "pmid": "39538221",
+      "pmcid": "PMC11562086",
+      "title": "The psychometric properties of the amharic version of EuroQoL five-dimensions-five level among Ethiopian cervical cancer patients",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Girma Tekle Gebremariam",
+          "last_name": "Gebremariam",
+          "orcid": null
+        },
+        {
+          "full_name": "Gebremedhin Beedemariam Gebretekle",
+          "last_name": "Gebretekle",
+          "orcid": null
+        },
+        {
+          "full_name": "Wondemagegnhu Tigneh",
+          "last_name": "Tigneh",
+          "orcid": null
+        },
+        {
+          "full_name": "Biruck Gashawbeza",
+          "last_name": "Gashawbeza",
+          "orcid": null
+        },
+        {
+          "full_name": "Alemu Belayneh",
+          "last_name": "Belayneh",
+          "orcid": null
+        },
+        {
+          "full_name": "Abdu Mengesha",
+          "last_name": "Mengesha",
+          "orcid": null
+        },
+        {
+          "full_name": "Abraham G. Welie",
+          "last_name": "Welie",
+          "orcid": null
+        },
+        {
+          "full_name": "Eskinder Eshetu Ali",
+          "last_name": "Ali",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11562086",
+        "pdf_url": "https://europepmc.org/articles/PMC11562086?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02305-3",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

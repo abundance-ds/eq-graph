@@ -1,0 +1,19 @@
+{
+  "project_id": "342-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03618-y",
+      "doi": "10.1007/s11136-024-03618-y",
+      "title": "Understanding Canadian stakeholders’ views on measuring and valuing health for children and adolescents: a qualitative study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11045599/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-024-03618-y",
+      "status": "ok",
+      "file": "input/projects/342-RA/papers/doi_10.1007_s11136-024-03618-y.xml",
+      "bytes": 94461,
+      "sha256": "1e2b092223e7ad7a20fe561df61a9d0bbcb8e0a902e5246d6562b3208a276c54"
+    }
+  ]
+}

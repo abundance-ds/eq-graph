@@ -1,0 +1,19 @@
+{
+  "project_id": "2016630",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1177/0272989x21999607",
+      "doi": "10.1177/0272989x21999607",
+      "title": "Valuing EQ-5D-Y-3L Health States Using a Discrete Choice Experiment: Do Adult and Adolescent Preferences Differ?",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8191173/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1177/0272989x21999607",
+      "status": "ok",
+      "file": "input/projects/2016630/papers/doi_10.1177_0272989x21999607.xml",
+      "bytes": 136237,
+      "sha256": "77c681afc831d47e80699f1d8c1b4f3c984101af91b0f6a974b8fc7e7bcf0aa7"
+    }
+  ]
+}

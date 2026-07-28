@@ -1,0 +1,19 @@
+{
+  "project_id": "430-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2023-080985",
+      "doi": "10.1136/bmjopen-2023-080985",
+      "title": "Protocol for a longitudinal study examining the trajectory of COVID-19, post-COVID, multidimensional disadvantage and health-related quality of life in India: the IndiQol Project",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11253756/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2023-080985",
+      "status": "ok",
+      "file": "input/projects/430-RA/papers/doi_10.1136_bmjopen-2023-080985.xml",
+      "bytes": 101631,
+      "sha256": "19c4a892aff6046e1261bb7d07a7b2f32c1362cdd5970da6d4f8ac7fb665148b"
+    }
+  ]
+}

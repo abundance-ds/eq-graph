@@ -1,0 +1,19 @@
+{
+  "project_id": "220-VS",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-024-01404-9",
+      "doi": "10.1007/s40273-024-01404-9",
+      "title": "Estimating an EQ-5D-Y-3L Value Set for Brazil",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11343814/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-024-01404-9",
+      "status": "ok",
+      "file": "input/projects/220-VS/papers/doi_10.1007_s40273-024-01404-9.xml",
+      "bytes": 202313,
+      "sha256": "819cffd610ec5aa47211c1d82bb8df6d122cacdb547fc23a19e5797280eb9fc3"
+    }
+  ]
+}

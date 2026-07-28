@@ -1,0 +1,523 @@
+{
+  "project_id": "349-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/trc2.12486",
+      "doi": "10.1002/trc2.12486",
+      "pmid": "38899046",
+      "pmcid": "PMC11186300",
+      "title": "Discrepancies between self‐ and proxy‐rated quality of life in people living with dementia",
+      "journal": "Alzheimer's &amp; Dementia: Translational Research &amp; Clinical Interventions",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maresa Buchholz",
+          "last_name": "Buchholz",
+          "orcid": "https://orcid.org/0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Fabian Kleinke",
+          "last_name": "Kleinke",
+          "orcid": null
+        },
+        {
+          "full_name": "Franka Mühlichen",
+          "last_name": "Mühlichen",
+          "orcid": null
+        },
+        {
+          "full_name": "Michelle Pfaff",
+          "last_name": "Pfaff",
+          "orcid": "https://orcid.org/0009-0000-5239-1769"
+        },
+        {
+          "full_name": "Moritz Platen",
+          "last_name": "Platen",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Annelie Scharf",
+          "last_name": "Scharf",
+          "orcid": null
+        },
+        {
+          "full_name": "Niklas Weber",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Neeltje van den Berg",
+          "last_name": "van den Berg",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11186300",
+        "pdf_url": "https://europepmc.org/articles/PMC11186300?pdf=render",
+        "landing_page": "https://doi.org/10.1002/trc2.12486",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.04.010",
+      "doi": "10.1016/j.jval.2024.04.010",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Health Fluctuations in Dementia and its Impact on the Assessment of Health-Related Quality of Life Using the EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Maresa Buchholz",
+          "last_name": "Buchholz",
+          "orcid": null
+        },
+        {
+          "full_name": "Niklas Weber",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524023428/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.04.010",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.lanepe.2025.101552",
+      "doi": "10.1016/j.lanepe.2025.101552",
+      "pmid": "41488489",
+      "pmcid": "PMC12756708",
+      "title": "Patient-reported, psychosocial and health economic outcomes in mild to moderate Friedreich's ataxia: baseline results of the PROFA study",
+      "journal": "The Lancet regional health. Europe",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Grobe-Einsler M",
+          "last_name": "Grobe-Einsler",
+          "orcid": "0000-0002-1808-2134"
+        },
+        {
+          "full_name": "Borel S",
+          "last_name": "Borel",
+          "orcid": null
+        },
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": "0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Sayah S",
+          "last_name": "Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Hilab R",
+          "last_name": "Hilab",
+          "orcid": null
+        },
+        {
+          "full_name": "Pierron L",
+          "last_name": "Pierron",
+          "orcid": null
+        },
+        {
+          "full_name": "Iskandar A",
+          "last_name": "Iskandar",
+          "orcid": null
+        },
+        {
+          "full_name": "Humphries B",
+          "last_name": "Humphries",
+          "orcid": null
+        },
+        {
+          "full_name": "Ewenczyk C",
+          "last_name": "Ewenczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "Heinzmann A",
+          "last_name": "Heinzmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Atencio M",
+          "last_name": "Atencio",
+          "orcid": null
+        },
+        {
+          "full_name": "Feldmann K",
+          "last_name": "Feldmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Maas V",
+          "last_name": "Maas",
+          "orcid": "0009-0006-0767-7745"
+        },
+        {
+          "full_name": "Faber J",
+          "last_name": "Faber",
+          "orcid": null
+        },
+        {
+          "full_name": "Boesch S",
+          "last_name": "Boesch",
+          "orcid": null
+        },
+        {
+          "full_name": "Indelicato E",
+          "last_name": "Indelicato",
+          "orcid": null
+        },
+        {
+          "full_name": "Reetz K",
+          "last_name": "Reetz",
+          "orcid": "0000-0002-9730-9228"
+        },
+        {
+          "full_name": "Schulz JB",
+          "last_name": "Schulz",
+          "orcid": null
+        },
+        {
+          "full_name": "Bischoff AT",
+          "last_name": "Bischoff",
+          "orcid": null
+        },
+        {
+          "full_name": "Klopstock T",
+          "last_name": "Klopstock",
+          "orcid": null
+        },
+        {
+          "full_name": "Schöls L",
+          "last_name": "Schöls",
+          "orcid": null
+        },
+        {
+          "full_name": "Minnerop M",
+          "last_name": "Minnerop",
+          "orcid": null
+        },
+        {
+          "full_name": "Timmann D",
+          "last_name": "Timmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Davies EH",
+          "last_name": "Davies",
+          "orcid": null
+        },
+        {
+          "full_name": "Klockgether T",
+          "last_name": "Klockgether",
+          "orcid": null
+        },
+        {
+          "full_name": "Durr A",
+          "last_name": "Durr",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12756708",
+        "pdf_url": "https://europepmc.org/articles/PMC12756708?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.lanepe.2025.101552",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-02049-y",
+      "doi": "10.1186/s12955-022-02049-y",
+      "pmid": "36199138",
+      "pmcid": "PMC9535990",
+      "title": "Comparing the psychometric properties of EQ-5D-3L and EQ-5D-5L proxy ratings by informal caregivers and a health professional for people with dementia",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": "https://orcid.org/0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Wolfgang Hoffmann",
+          "last_name": "Hoffmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Wiebke Mohr",
+          "last_name": "Mohr",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9535990",
+        "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02478-z",
+      "doi": "10.1186/s12955-026-02478-z",
+      "pmid": "41606591",
+      "pmcid": "PMC12924600",
+      "title": "Examining the face validity of the EQ-HWB-9 in dementia: caregiver interpretation across \"Today\" and \"7-Day\" recall periods",
+      "journal": "Health and quality of life outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": "0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Engel L",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12924600",
+        "pdf_url": "https://europepmc.org/articles/PMC12924600?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-026-02478-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/fpubh.2023.1031978",
+      "doi": "10.3389/fpubh.2023.1031978",
+      "pmid": "37006562",
+      "pmcid": "PMC10064342",
+      "title": "Fluctuations of health states in dementia diseases and their impact on the assessment of health today using the EQ-5D-5L: Protocol of a mixed-methods study",
+      "journal": "Frontiers in Public Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Niklas Weber",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Wiebke Mohr",
+          "last_name": "Mohr",
+          "orcid": null
+        },
+        {
+          "full_name": "Moritz Platen",
+          "last_name": "Platen",
+          "orcid": null
+        },
+        {
+          "full_name": "Anika Rädke",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Ingo Kilimann",
+          "last_name": "Kilimann",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Bernhard Michalowsky",
+          "last_name": "Michalowsky",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC10064342",
+        "pdf_url": "https://europepmc.org/articles/PMC10064342?pdf=render",
+        "landing_page": "https://doi.org/10.3389/fpubh.2023.1031978",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

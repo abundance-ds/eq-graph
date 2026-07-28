@@ -1,0 +1,28 @@
+{
+  "project_id": "2013100",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-014-0897-z",
+      "doi": "10.1007/s11136-014-0897-z",
+      "title": "Do health preferences contradict ordering of EQ-5D labels?",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5115631/fullTextXML",
+      "licence": null,
+      "landing_page": "https://doi.org/10.1007/s11136-014-0897-z",
+      "status": "unavailable",
+      "reason": "HTTP 404 for https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5115631/fullTextXML"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-017-1591-8",
+      "doi": "10.1007/s11136-017-1591-8",
+      "title": "Further evidence on EQ-5D-5L preference inversion: a Brazil/U.S. collaboration",
+      "method": "skip",
+      "source_url": null,
+      "licence": "http://www.springer.com/tdm",
+      "landing_page": "https://doi.org/10.1007/s11136-017-1591-8",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

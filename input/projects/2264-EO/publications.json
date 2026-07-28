@@ -1,0 +1,114 @@
+{
+  "project_id": "2264-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2025.01.020",
+      "doi": "10.1016/j.jval.2025.01.020",
+      "pmid": "39954857",
+      "pmcid": null,
+      "title": "An Acquired Taste: Latent Class Analysis to Compare Adolescent and Adult Preferences for EQ-5D-Y-3L Health States",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jonathan L. Nazari",
+          "last_name": "Nazari",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan M. Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.01.020",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00062-2/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.01.020",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02561-5",
+      "doi": "10.1186/s12955-026-02561-5",
+      "pmid": "42249388",
+      "pmcid": null,
+      "title": "Qualitative assessment of content validity of the modified EQ-HWB-9 by patients, caregivers, and social care users in the United States",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jonathan L. Nazari",
+          "last_name": "Nazari",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Justin Yu",
+          "last_name": "Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Maja Kuharic",
+          "last_name": "Kuharic",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-026-02561-5",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s12955-026-02561-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,32 @@
+{
+  "project_id": "20190690",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1002/hsr2.70308",
+      "doi": "10.1002/hsr2.70308",
+      "title": "Using Patient-Reported Outcomes in Two Program Examples Measuring Health Status in Primary Care: An Observational Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11683768/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1002/hsr2.70308",
+      "status": "ok",
+      "file": "input/projects/20190690/papers/doi_10.1002_hsr2.70308.xml",
+      "bytes": 107682,
+      "sha256": "e5c106eb9ec417ba5c636ae86dabe9944319c6643e3594008b1c7328ee503edc"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02207-w",
+      "doi": "10.1186/s12955-023-02207-w",
+      "title": "The use of EQ-5D-5L as a patient-reported outcome measure in evaluating community rehabilitation services in Alberta, Canada",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10657124/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-023-02207-w",
+      "status": "ok",
+      "file": "input/projects/20190690/papers/doi_10.1186_s12955-023-02207-w.xml",
+      "bytes": 138911,
+      "sha256": "e33dfe9c55198e6b76f209353725364f024771d6b23a5d7b076a413d47965aa7"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "project_id": "220-VS",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-024-01404-9",
+      "doi": "10.1007/s40273-024-01404-9",
+      "pmid": "38954389",
+      "pmcid": "PMC11343814",
+      "title": "Estimating an EQ-5D-Y-3L Value Set for Brazil",
+      "journal": "PharmacoEconomics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Caique Melo Espirito Santo",
+          "last_name": "Espirito Santo",
+          "orcid": "https://orcid.org/0000-0002-1175-2211"
+        },
+        {
+          "full_name": "Gisela Cristiane Miyamoto",
+          "last_name": "Miyamoto",
+          "orcid": "https://orcid.org/0000-0002-6826-4278"
+        },
+        {
+          "full_name": "Verônica Souza Santos",
+          "last_name": "Santos",
+          "orcid": "https://orcid.org/0000-0002-1433-818x"
+        },
+        {
+          "full_name": "Ângela Jornada Ben",
+          "last_name": "Ben",
+          "orcid": "https://orcid.org/0000-0003-4793-9026"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Fabianna Resende de Jesus-Moraleida",
+          "last_name": "de Jesus-Moraleida",
+          "orcid": "https://orcid.org/0000-0002-3797-949x"
+        },
+        {
+          "full_name": "Airton Tetelbom Stein",
+          "last_name": "Stein",
+          "orcid": "https://orcid.org/0000-0002-8756-8699"
+        },
+        {
+          "full_name": "Marisa Santos",
+          "last_name": "Santos",
+          "orcid": "https://orcid.org/0000-0002-2174-6800"
+        },
+        {
+          "full_name": "Tiê Parma Yamato",
+          "last_name": "Yamato",
+          "orcid": "https://orcid.org/0000-0002-5228-1292"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 220-VS",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11343814",
+        "pdf_url": "https://europepmc.org/articles/PMC11343814?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-024-01404-9",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01770-x",
+      "doi": "10.1007/s10198-025-01770-x",
+      "pmid": "40220214",
+      "pmcid": "PMC12572001",
+      "title": "Comparing the measurement properties of the EQ-5D-Y-3L, EQ-5D-Y-5L and CHU9D in children and adolescents: a measurement property study",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Espirito Santo CMD",
+          "last_name": "Espirito Santo",
+          "orcid": "0000-0002-1175-2211"
+        },
+        {
+          "full_name": "Santos VS",
+          "last_name": "Santos",
+          "orcid": "0000-0002-1433-818X"
+        },
+        {
+          "full_name": "Souza YB",
+          "last_name": "Souza",
+          "orcid": "0009-0009-2934-8362"
+        },
+        {
+          "full_name": "Finch AP",
+          "last_name": "Finch",
+          "orcid": "0000-0003-1438-321X"
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Miyamoto GC",
+          "last_name": "Miyamoto",
+          "orcid": "0000-0002-6826-4278"
+        },
+        {
+          "full_name": "Yamato TP",
+          "last_name": "Yamato",
+          "orcid": "0000-0002-5228-1292"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12572001",
+        "pdf_url": "https://europepmc.org/articles/PMC12572001?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01770-x",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

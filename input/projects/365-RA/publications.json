@@ -1,0 +1,918 @@
+{
+  "project_id": "365-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01789-0",
+      "doi": "10.1007/s10198-025-01789-0",
+      "pmid": "40679687",
+      "pmcid": "PMC13046671",
+      "title": "Valuing health states for infants and toddlers: challenges and methodological considerations in EQ-TIPS preference elicitation",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": "https://orcid.org/0000-0002-8189-5357"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": "https://orcid.org/0000-0002-4832-7833"
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13046671",
+        "pdf_url": "https://europepmc.org/articles/PMC13046671?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01789-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01865-5",
+      "doi": "10.1007/s10198-025-01865-5",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Multinational stakeholder engagement to inform future development and refinement of the EuroQol toddler and infant populations (EQ-TIPS)",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "J. Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "S. Schieskow",
+          "last_name": "Schieskow",
+          "orcid": null
+        },
+        {
+          "full_name": "J. Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "B. M. Morrow",
+          "last_name": "Morrow",
+          "orcid": "https://orcid.org/0000-0001-5193-918x"
+        },
+        {
+          "full_name": "K. Dalziel",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "E. Bidgood",
+          "last_name": "Bidgood",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1007/s10198-025-01865-5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01865-5.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01865-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04150-3",
+      "doi": "10.1007/s11136-025-04150-3",
+      "pmid": "41511684",
+      "pmcid": "PMC12789245",
+      "title": "Developing the EuroQol toddler and infant populations (EQ-TIPS) instrument: qualitative analysis of expert views on content validity and conceptual challenges",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "J. Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "E. Bidgood",
+          "last_name": "Bidgood",
+          "orcid": null
+        },
+        {
+          "full_name": "K. Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "N. Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "B. M. Morrow",
+          "last_name": "Morrow",
+          "orcid": "https://orcid.org/0000-0001-5193-918x"
+        },
+        {
+          "full_name": "J. Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        },
+        {
+          "full_name": "S. Schieskow",
+          "last_name": "Schieskow",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12789245",
+        "pdf_url": "https://europepmc.org/articles/PMC12789245?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04150-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04199-8",
+      "doi": "10.1007/s11136-026-04199-8",
+      "pmid": "41920378",
+      "pmcid": "PMC13043596",
+      "title": "Measuring health-related quality of life in infants and toddlers: conceptual challenges and proposed recommendations",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Philip A. Powell",
+          "last_name": "Powell",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Schieskow",
+          "last_name": "Schieskow",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13043596",
+        "pdf_url": "https://europepmc.org/articles/PMC13043596?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04199-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-023-00657-4",
+      "doi": "10.1007/s40271-023-00657-4",
+      "pmid": "37991685",
+      "pmcid": "PMC10769921",
+      "title": "Fighting to Breathe and Fighting for Health-Related Quality of Life: Measuring the Impact of Being Dependent on Technology for Breathing on the Child and Their Caregiver",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Christopher Booth",
+          "last_name": "Booth",
+          "orcid": null
+        },
+        {
+          "full_name": "Jane Booth",
+          "last_name": "Booth",
+          "orcid": null
+        },
+        {
+          "full_name": "Shazia Peer",
+          "last_name": "Peer",
+          "orcid": null
+        },
+        {
+          "full_name": "Jessica McGuire",
+          "last_name": "McGuire",
+          "orcid": null
+        },
+        {
+          "full_name": "Fiona Kritzinger",
+          "last_name": "Kritzinger",
+          "orcid": "https://orcid.org/0009-0004-0155-7377"
+        },
+        {
+          "full_name": "Taryn Gray",
+          "last_name": "Gray",
+          "orcid": null
+        },
+        {
+          "full_name": "Noluthando Zibi",
+          "last_name": "Zibi",
+          "orcid": null
+        },
+        {
+          "full_name": "Primrose Shabangu",
+          "last_name": "Shabangu",
+          "orcid": null
+        },
+        {
+          "full_name": "Marco Zampoli",
+          "last_name": "Zampoli",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10769921",
+        "pdf_url": "https://europepmc.org/articles/PMC10769921?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-023-00657-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.dialog.2022.100032",
+      "doi": "10.1016/j.dialog.2022.100032",
+      "pmid": "38515901",
+      "pmcid": "PMC10953924",
+      "title": "The performance of the EQ-5D-Y-5L compared to the EQ-5D-Y-3L in children and adolescents with cerebral palsy (CP)",
+      "journal": "Dialogues in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        },
+        {
+          "full_name": "Des Scott",
+          "last_name": "Scott",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.dialog.2022.100032",
+        "pdf_url": "https://europepmc.org/articles/PMC10953924?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.dialog.2022.100032",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.12.014",
+      "doi": "10.1016/j.jval.2021.12.014",
+      "pmid": "35168891",
+      "pmcid": null,
+      "title": "Why Do Adults Value EQ-5D-Y-3L Health States Differently for Themselves Than for Children and Adolescents: A Think-Aloud Study",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Vivian Reckers-Droog",
+          "last_name": "Reckers-Droog",
+          "orcid": null
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2021.12.014",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522000419/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.12.014",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2023.01.009",
+      "doi": "10.1016/j.vhri.2023.01.009",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Cross-Cultural Adaptation and Validation of the EuroQoL Toddler and Infant Populations Instrument Into Afrikaans for South Africa",
+      "journal": "Value in Health Regional Issues",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        },
+        {
+          "full_name": "Razia Amien",
+          "last_name": "Amien",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2023.01.009",
+        "pdf_url": "http://www.valuehealthregionalissues.com/article/S2212109923000122/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2023.01.009",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2025-100897",
+      "doi": "10.1136/bmjopen-2025-100897",
+      "pmid": "40633947",
+      "pmcid": "PMC12243590",
+      "title": "Assessing the experimental EuroQol toddler and infant populations (EQ-TIPS) descriptive system: a protocol integrating discrete choice experiment (DCE) surveys in instrument development",
+      "journal": "BMJ Open",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Benjamin Matthew Craig",
+          "last_name": "Craig",
+          "orcid": "https://orcid.org/0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": "https://orcid.org/0000-0003-2233-6544"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC12243590",
+        "pdf_url": "https://europepmc.org/articles/PMC12243590?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-022-01938-6",
+      "doi": "10.1186/s12955-022-01938-6",
+      "pmid": "35177084",
+      "pmcid": "PMC8851798",
+      "title": "Measurement properties and responsiveness of the EQ-5D-Y-5L compared to the EQ-5D-Y-3L in children and adolescents receiving acute orthopaedic care",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        },
+        {
+          "full_name": "Zara Marthinus",
+          "last_name": "Marthinus",
+          "orcid": null
+        },
+        {
+          "full_name": "Stewart Dix-Peek",
+          "last_name": "Dix-Peek",
+          "orcid": null
+        },
+        {
+          "full_name": "Des Scott",
+          "last_name": "Scott",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8851798",
+        "pdf_url": "https://europepmc.org/articles/PMC8851798?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-022-01938-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-023-02100-6",
+      "doi": "10.1186/s12955-023-02100-6",
+      "pmid": "36814254",
+      "pmcid": "PMC9948371",
+      "title": "The validity and reliability of the interviewer-administered EQ-5D-Y-3L version in young children",
+      "journal": "Health and quality of life outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Amien R",
+          "last_name": "Amien",
+          "orcid": null
+        },
+        {
+          "full_name": "Scott D",
+          "last_name": "Scott",
+          "orcid": "0000-0003-3943-7392"
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9948371",
+        "pdf_url": "https://europepmc.org/articles/PMC9948371?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-023-02100-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-022-00480-9",
+      "doi": "10.1186/s41687-022-00480-9",
+      "pmid": "35708825",
+      "pmcid": "PMC9203648",
+      "title": "Comparison of the EQ-5D-Y-5L, EQ-5D-Y-3L and PedsQL in children and adolescents",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Des Scott",
+          "last_name": "Scott",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9203648",
+        "pdf_url": "https://europepmc.org/articles/PMC9203648?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-022-00480-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-024-00770-4",
+      "doi": "10.1186/s41687-024-00770-4",
+      "pmid": "39133433",
+      "pmcid": "PMC11319571",
+      "title": "Transitioning between the EQ-5D youth and adult descriptive systems in a group of adolescents",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Abraham Gebregziabiher",
+          "last_name": "Gebregziabiher",
+          "orcid": "https://orcid.org/0000-0003-4661-7287"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-024-00770-4",
+        "pdf_url": "https://europepmc.org/articles/PMC11319571?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-024-00770-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-026-01113-1",
+      "doi": "10.1186/s41687-026-01113-1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Expanding the experimental EuroQol toddler and infant populations (EQ-TIPS) descriptive system: comparing 3-level and 5-level performance for infants and toddlers with chronic conditions",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Marco Zampoli",
+          "last_name": "Zampoli",
+          "orcid": null
+        },
+        {
+          "full_name": "Alan Davidson",
+          "last_name": "Davidson",
+          "orcid": null
+        },
+        {
+          "full_name": "Marc Hendricks",
+          "last_name": "Hendricks",
+          "orcid": null
+        },
+        {
+          "full_name": "Helder de Quintal",
+          "last_name": "de Quintal",
+          "orcid": null
+        },
+        {
+          "full_name": "Yasmin Goga",
+          "last_name": "Goga",
+          "orcid": null
+        },
+        {
+          "full_name": "Jo M. Wilmshurst",
+          "last_name": "Wilmshurst",
+          "orcid": null
+        },
+        {
+          "full_name": "Alvin Ndondo",
+          "last_name": "Ndondo",
+          "orcid": null
+        },
+        {
+          "full_name": "Gill Riordan",
+          "last_name": "Riordan",
+          "orcid": null
+        },
+        {
+          "full_name": "Ronalda De Lacy",
+          "last_name": "De Lacy",
+          "orcid": null
+        },
+        {
+          "full_name": "Mignon McCulloch",
+          "last_name": "McCulloch",
+          "orcid": null
+        },
+        {
+          "full_name": "Deveshni Reddy",
+          "last_name": "Reddy",
+          "orcid": null
+        },
+        {
+          "full_name": "Lasse Herdien",
+          "last_name": "Herdien",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1186/s41687-026-01113-1",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1186/s41687-026-01113-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3390/children11081034",
+      "doi": "10.3390/children11081034",
+      "pmid": "39201968",
+      "pmcid": "PMC11353094",
+      "title": "EuroQol Toddler and Infant Populations (EQ-TIPS): Age-Related Differences in Performance",
+      "journal": "Children (Basel, Switzerland)",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Amien R",
+          "last_name": "Amien",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdien L",
+          "last_name": "Herdien",
+          "orcid": "0000-0001-5961-8962"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11353094",
+        "pdf_url": "https://europepmc.org/articles/PMC11353094?pdf=render",
+        "landing_page": "https://doi.org/10.3390/children11081034",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 4
+}

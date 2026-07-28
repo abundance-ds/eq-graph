@@ -1,0 +1,352 @@
+{
+  "project_id": "1695-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01892-2",
+      "doi": "10.1007/s10198-025-01892-2",
+      "pmid": "41525009",
+      "pmcid": null,
+      "title": "Revisiting health state preferences after 20 years: A new EQ-5D-3L value set for the Netherlands",
+      "journal": "The European Journal of Health Economics",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1007/s10198-025-01892-2",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01892-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03770-5",
+      "doi": "10.1007/s11136-024-03770-5",
+      "pmid": "39269579",
+      "pmcid": "PMC11541319",
+      "title": "The impact of demographic change on value set validity and obsolescence",
+      "journal": "Quality of Life Research",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11541319",
+        "pdf_url": "https://europepmc.org/articles/PMC11541319?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03770-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04189-w",
+      "doi": "10.1007/s11136-026-04189-w",
+      "pmid": "41779236",
+      "pmcid": "PMC12960390",
+      "title": "Understanding decision-making strategies in discrete choice experiment tasks when valuing health states that include duration, a cognitive interview study with Australian adults",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Jill Carlton",
+          "last_name": "Carlton",
+          "orcid": "https://orcid.org/0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": "https://orcid.org/0000-0003-3018-5109"
+        },
+        {
+          "full_name": "Marcel Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12960390",
+        "pdf_url": "https://europepmc.org/articles/PMC12960390?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04189-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jocm.2024.100494",
+      "doi": "10.1016/j.jocm.2024.100494",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Level overlap and level color coding revisited: Improved attribute attendance and higher choice consistency in discrete choice experiments",
+      "journal": "Journal of Choice Modelling",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jocm.2024.100494",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jocm.2024.100494",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.01.015",
+      "doi": "10.1016/j.jval.2022.01.015",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Sensitivity and Specificity of Repeated and Dominant Choice Tasks in Discrete Choice Experiments",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Merit Maas",
+          "last_name": "Maas",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2022.01.015",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.01.015",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.07.013",
+      "doi": "10.1016/j.jval.2022.07.013",
+      "pmid": null,
+      "pmcid": null,
+      "title": "The Garbage Class Mixed Logit Model: Accounting for Low-Quality Response Patterns in Discrete Choice Experiments",
+      "journal": "Value in Health",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2022.07.013",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152202109X/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.07.013",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.10.008",
+      "doi": "10.1016/j.jval.2022.10.008",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Interaction Effects in Health State Valuation Studies: An Optimal Scaling Approach",
+      "journal": "Value in Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Bas Donkers",
+          "last_name": "Donkers",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2022.10.008",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522046940/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.10.008",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.024",
+      "doi": "10.1016/j.jval.2024.05.024",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A New and Improved Experimental Design for the Discrete Choice Experiment Module of the EuroQol Valuation Technology Protocol",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.024",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.024",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

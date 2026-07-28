@@ -1,0 +1,65 @@
+{
+  "project_id": "20170530",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.3390/ijerph18063043",
+      "doi": "10.3390/ijerph18063043",
+      "pmid": "33809532",
+      "pmcid": "PMC7999450",
+      "title": "Investigating the Self-Reported Health Status of Domestic and Overseas Chinese Populations during the COVID-19 Pandemic",
+      "journal": "International journal of environmental research and public health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Mao Z",
+          "last_name": "Mao",
+          "orcid": "0000-0002-7444-1584"
+        },
+        {
+          "full_name": "Chen B",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang W",
+          "last_name": "Wang",
+          "orcid": "0000-0002-1718-2758"
+        },
+        {
+          "full_name": "Kind P",
+          "last_name": "Kind",
+          "orcid": "0000-0003-2377-1652"
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": "0000-0003-3661-3944"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7999450",
+        "pdf_url": "https://www.mdpi.com/1660-4601/18/6/3043/pdf?version=1615889432",
+        "landing_page": "https://doi.org/10.3390/ijerph18063043",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

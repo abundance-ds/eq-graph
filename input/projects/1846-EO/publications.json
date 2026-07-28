@@ -1,0 +1,118 @@
+{
+  "project_id": "1846-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-023-03372-7",
+      "doi": "10.1007/s11136-023-03372-7",
+      "pmid": "36809437",
+      "pmcid": "PMC10241678",
+      "title": "Examining the psychometric properties of a split version of the EQ-5D-5L anxiety/depression dimension in patients with anxiety and/or depression",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": "https://orcid.org/0000-0001-5473-3857"
+        },
+        {
+          "full_name": "Cathrine Mihalopoulos",
+          "last_name": "Mihalopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Yong Yi Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03372-7.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03372-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03372-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03735-8",
+      "doi": "10.1007/s11136-024-03735-8",
+      "pmid": "39012559",
+      "pmcid": "PMC11452469",
+      "title": "Health-related quality of life and utility values among patients with anxiety and/or depression in a low-income tertiary care setting: a cross-sectional analysis",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Belay YB",
+          "last_name": "Belay",
+          "orcid": "0000-0001-5473-3857"
+        },
+        {
+          "full_name": "Mihalopoulos C",
+          "last_name": "Mihalopoulos",
+          "orcid": null
+        },
+        {
+          "full_name": "Lee YY",
+          "last_name": "Lee",
+          "orcid": "0000-0003-2359-6823"
+        },
+        {
+          "full_name": "Engel L",
+          "last_name": "Engel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11452469",
+        "pdf_url": "https://europepmc.org/articles/PMC11452469?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03735-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

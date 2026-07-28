@@ -1,0 +1,114 @@
+{
+  "project_id": "1830-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04294-w",
+      "doi": "10.1007/s11136-026-04294-w",
+      "pmid": "42295447",
+      "pmcid": "PMC13269496",
+      "title": "Measuring inequality in quality of life: further evidence that the EQ-5D-5L may underestimate it",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Admassu N. Lamu",
+          "last_name": "Lamu",
+          "orcid": "https://orcid.org/0000-0001-6638-421x"
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": "https://orcid.org/0000-0002-8385-5965"
+        },
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": "https://orcid.org/0000-0002-5338-578x"
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": "https://orcid.org/0000-0001-9472-2669"
+        },
+        {
+          "full_name": "",
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 1830-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13269496",
+        "pdf_url": "https://europepmc.org/articles/PMC13269496?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04294-w",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04087-7",
+      "doi": "10.1007/s11136-025-04087-7",
+      "pmid": "41217656",
+      "pmcid": "PMC12681450",
+      "title": "Measuring inequality in quality of life: Why the EQ-5D may underestimate it",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Olsen JA",
+          "last_name": "Olsen",
+          "orcid": "0000-0001-9472-2669"
+        },
+        {
+          "full_name": "Chen G",
+          "last_name": "Chen",
+          "orcid": "0000-0002-8385-5965"
+        },
+        {
+          "full_name": "Lamu A",
+          "last_name": "Lamu",
+          "orcid": "0000-0001-6638-421X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12681450",
+        "pdf_url": "https://europepmc.org/articles/PMC12681450?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04087-7",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

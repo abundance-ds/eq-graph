@@ -1,0 +1,19 @@
+{
+  "project_id": "432-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01545-5",
+      "doi": "10.1007/s40273-025-01545-5",
+      "title": "The Influence of Perspective on the Valuation of the EQ-5D-Y-3L: A Comparison Using the OPUF Tool and a Discrete Choice Experiment",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12799685/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01545-5",
+      "status": "ok",
+      "file": "input/projects/432-RA/papers/doi_10.1007_s40273-025-01545-5.xml",
+      "bytes": 121650,
+      "sha256": "bf2842b609b80d1520cd81973f4cc4d8a2d2f3aa90502d6f6239654cd9da6adc"
+    }
+  ]
+}

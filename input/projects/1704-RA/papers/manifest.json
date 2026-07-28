@@ -1,0 +1,30 @@
+{
+  "project_id": "1704-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2026.01.023",
+      "doi": "10.1016/j.jval.2026.01.023",
+      "title": "Exploring the Feasibility of Using Discrete Choice Experiments With Duration to Elicit Health State Preferences Among Canadian Youth: A Convergent Parallel Mixed Methods Study",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2026.01.023",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2024-097598",
+      "doi": "10.1136/bmjopen-2024-097598",
+      "title": "Exploring the feasibility of using discrete choice experiment (DCE) to elicit preferences among children and adolescents: protocol for a convergent parallel mixed methods study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11979510/fullTextXML",
+      "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2024-097598",
+      "status": "ok",
+      "file": "input/projects/1704-RA/papers/doi_10.1136_bmjopen-2024-097598.xml",
+      "bytes": 96731,
+      "sha256": "a87ac588b161dea28c4808f78e62be6eaeef97d70ecc2d3322c22148caa5764f"
+    }
+  ]
+}

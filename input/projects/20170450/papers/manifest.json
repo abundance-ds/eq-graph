@@ -1,0 +1,19 @@
+{
+  "project_id": "20170450",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-018-0987-x",
+      "doi": "10.1007/s10198-018-0987-x",
+      "title": "Impact of mapped EQ-5D utilities on cost-effectiveness analysis: in the case of dialysis treatments",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6394787/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-018-0987-x",
+      "status": "ok",
+      "file": "input/projects/20170450/papers/doi_10.1007_s10198-018-0987-x.xml",
+      "bytes": 77612,
+      "sha256": "e14d5224491c287f9b87e33a2179419cb35353da74b99a0c18011d61f11aadb6"
+    }
+  ]
+}

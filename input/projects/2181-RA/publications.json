@@ -1,0 +1,103 @@
+{
+  "project_id": "2181-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.jval.2026.01.001",
+      "doi": "10.1016/j.jval.2026.01.001",
+      "pmid": "41548714",
+      "pmcid": null,
+      "title": "Exploring Recall Periods for EQ-5D-5L and EQ-HWB-9: A Hong Kong Population Study",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Richard Huan Xu",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Chenxi Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 2181-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.01.001",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.01.001",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.02.013",
+      "doi": "10.1016/j.jval.2026.02.013",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A Quantitative Exploration of the Performance of a Potential “Health and Well-Being” Visual Analog Scale (EQ-HWB VAS) for the EQ-HWB-9",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Richard H. Xu",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Chenxi Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "grant id 2181-RA credited to EuroQol in metadata",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.02.013",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.02.013",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

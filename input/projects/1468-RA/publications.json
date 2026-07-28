@@ -1,0 +1,60 @@
+{
+  "project_id": "1468-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.gtc.2025.01.002",
+      "doi": "10.1016/j.gtc.2025.01.002",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Pediatric Constipation",
+      "journal": "Gastroenterology Clinics of North America",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Michelle N. Bloem",
+          "last_name": "Bloem",
+          "orcid": null
+        },
+        {
+          "full_name": "Daniel Keszthelyi",
+          "last_name": "Keszthelyi",
+          "orcid": null
+        },
+        {
+          "full_name": "Marc A. Benninga",
+          "last_name": "Benninga",
+          "orcid": null
+        },
+        {
+          "full_name": "Ilan J.N. Koppen",
+          "last_name": "Koppen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://cris.maastrichtuniversity.nl/en/publications/da76c5aa-537e-4164-9cbe-6cc37a0d2f02",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.gtc.2025.01.002",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

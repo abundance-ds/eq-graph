@@ -1,0 +1,226 @@
+{
+  "project_id": "111-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40273-024-01355-1",
+      "doi": "10.1007/s40273-024-01355-1",
+      "pmid": "38280126",
+      "pmcid": "PMC11169045",
+      "title": "Psychometric Properties of Child Health Utility 9D (CHU9D) Proxy Version Administered to Parents and Caregivers of Children Aged 2–4 Years Compared with Pediatric Quality of Life Inventory™ (PedsQL)",
+      "journal": "PharmacoEconomics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Xiuqin Xiong",
+          "last_name": "Xiong",
+          "orcid": "https://orcid.org/0000-0002-1323-4223"
+        },
+        {
+          "full_name": "Natalie Carvalho",
+          "last_name": "Carvalho",
+          "orcid": null
+        },
+        {
+          "full_name": "Li Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11169045",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01355-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-024-01355-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2023.06.004",
+      "doi": "10.1016/j.jval.2023.06.004",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
+      "journal": "Value in Health",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "Alexander van Heusden",
+          "last_name": "van Heusden",
+          "orcid": null
+        },
+        {
+          "full_name": "Janani Sarvananthar",
+          "last_name": "Sarvananthar",
+          "orcid": null
+        },
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristy McGregor",
+          "last_name": "McGregor",
+          "orcid": null
+        },
+        {
+          "full_name": "Li Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Oliver Rivero-Arias",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Mike Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Harriet Hiscock",
+          "last_name": "Hiscock",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.06.004",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152303019X/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.06.004",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2023.115818",
+      "doi": "10.1016/j.socscimed.2023.115818",
+      "pmid": "36940582",
+      "pmcid": "PMC9993735",
+      "title": "Randomised comparison of online interviews versus face-to-face interviews to value health states",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Mackenzie Bourke",
+          "last_name": "Bourke",
+          "orcid": "https://orcid.org/0000-0001-7870-9771"
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": "https://orcid.org/0000-0003-3018-5109"
+        },
+        {
+          "full_name": "Yaling Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://europepmc.org/articles/PMC9993735",
+        "pdf_url": "https://europepmc.org/articles/PMC9993735?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2023.115818",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

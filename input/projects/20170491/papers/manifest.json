@@ -1,0 +1,19 @@
+{
+  "project_id": "20170491",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s41669-022-00353-3",
+      "doi": "10.1007/s41669-022-00353-3",
+      "title": "An EQ-5D-5L Value Set for Belgium",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9362639/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s41669-022-00353-3",
+      "status": "ok",
+      "file": "input/projects/20170491/papers/doi_10.1007_s41669-022-00353-3.xml",
+      "bytes": 129871,
+      "sha256": "c02746111cab030771ec13406412902165f3ec1bff6505a5ca66a0305ba0e866"
+    }
+  ]
+}

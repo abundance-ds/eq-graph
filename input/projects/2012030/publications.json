@@ -1,0 +1,259 @@
+{
+  "project_id": "2012030",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1101/2021.10.21.21265314",
+      "doi": "10.1101/2021.10.21.21265314",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Autoimmune conditions following mRNA (BNT162b2) and inactivated (CoronaVac) COVID-19 vaccination: a descriptive cohort study among 1.1 million vaccinated people in Hong Kong",
+      "journal": null,
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Gao L",
+          "last_name": "Gao",
+          "orcid": null
+        },
+        {
+          "full_name": "Tong X",
+          "last_name": "Tong",
+          "orcid": "0000-0003-2310-0365"
+        },
+        {
+          "full_name": "Chan VK",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Chui CS",
+          "last_name": "Chui",
+          "orcid": null
+        },
+        {
+          "full_name": "Lai FT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Wong CK",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Wan EY",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Chan EW",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Lau KK",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Lau CS",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong IC",
+          "last_name": "Wong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1101/2021.10.21.21265314",
+        "pdf_url": "https://www.medrxiv.org/content/medrxiv/early/2021/10/23/2021.10.21.21265314.full.pdf",
+        "landing_page": "https://doi.org/10.1101/2021.10.21.21265314",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/annrheumdis-2021-221571",
+      "doi": "10.1136/annrheumdis-2021-221571",
+      "pmid": "34686479",
+      "pmcid": "PMC8550868",
+      "title": "Two-dose COVID-19 vaccination and possible arthritis flare among patients with rheumatoid arthritis in Hong Kong",
+      "journal": "Annals of the rheumatic diseases",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Tong X",
+          "last_name": "Tong",
+          "orcid": "0000-0003-2310-0365"
+        },
+        {
+          "full_name": "Yeung WWY",
+          "last_name": "Yeung",
+          "orcid": "0000-0002-1785-4921"
+        },
+        {
+          "full_name": "Kuan P",
+          "last_name": "Kuan",
+          "orcid": null
+        },
+        {
+          "full_name": "Yum SHH",
+          "last_name": "Yum",
+          "orcid": null
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": "0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Lau CS",
+          "last_name": "Lau",
+          "orcid": "0000-0001-6698-8355"
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC8550868",
+        "pdf_url": "https://europepmc.org/articles/PMC8550868?pdf=render",
+        "landing_page": "https://doi.org/10.1136/annrheumdis-2021-221571",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjdrc-2020-001346",
+      "doi": "10.1136/bmjdrc-2020-001346",
+      "pmid": "32532851",
+      "pmcid": "PMC7295418",
+      "title": "DPP4i, thiazolidinediones, or insulin and risks of cancer in patients with type 2 diabetes mellitus on metformin-sulfonylurea dual therapy with inadequate control",
+      "journal": "BMJ open diabetes research & care",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": "0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Man KKC",
+          "last_name": "Man",
+          "orcid": "0000-0001-8645-1942"
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Wu T",
+          "last_name": "Wu",
+          "orcid": "0000-0003-3609-5016"
+        },
+        {
+          "full_name": "Tse ETY",
+          "last_name": "Tse",
+          "orcid": "0000-0001-7409-9507"
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": "0000-0001-8242-0014"
+        },
+        {
+          "full_name": "Lam CLK",
+          "last_name": "Lam",
+          "orcid": "0000-0001-7536-8481"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC7295418",
+        "pdf_url": "https://drc.bmj.com/content/bmjdrc/8/1/e001346.full.pdf",
+        "landing_page": "https://doi.org/10.1136/bmjdrc-2020-001346",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

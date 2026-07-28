@@ -1,0 +1,17 @@
+{
+  "project_id": "20180080",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.ssmqr.2024.100398",
+      "doi": "10.1016/j.ssmqr.2024.100398",
+      "title": "Care recipient self-perceived burden: Perspectives of individuals with chronic health conditions or personal experiences with caregiving on caregiver burden in the US",
+      "method": "skip",
+      "source_url": null,
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.ssmqr.2024.100398",
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

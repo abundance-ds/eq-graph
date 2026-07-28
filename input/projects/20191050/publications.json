@@ -1,0 +1,133 @@
+{
+  "project_id": "20191050",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12889-025-24238-2",
+      "doi": "10.1186/s12889-025-24238-2",
+      "pmid": "41029256",
+      "pmcid": "PMC12487048",
+      "title": "Self-reported health status in the general population over 2 decades: variation in EQ-5D-3L in Health Survey for England",
+      "journal": "BMC Public Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ling-Hsiang Chuang",
+          "last_name": "Chuang",
+          "orcid": null
+        },
+        {
+          "full_name": "Ranjeeta Thomas",
+          "last_name": "Thomas",
+          "orcid": null
+        },
+        {
+          "full_name": "Paul Kind",
+          "last_name": "Kind",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12487048",
+        "pdf_url": "https://europepmc.org/articles/PMC12487048?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12889-025-24238-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01898-3",
+      "doi": "10.1186/s12955-021-01898-3",
+      "pmid": "34922564",
+      "pmcid": "PMC8684117",
+      "title": "A pilot study on the validity and psychometric properties of the electronic EQ-5D-5L in routine clinical practice",
+      "journal": "Health and quality of life outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Lam CLK",
+          "last_name": "Lam",
+          "orcid": null
+        },
+        {
+          "full_name": "Tse ETY",
+          "last_name": "Tse",
+          "orcid": "0000-0001-7409-9507"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Lam JSM",
+          "last_name": "Lam",
+          "orcid": null
+        },
+        {
+          "full_name": "Chen SS",
+          "last_name": "Chen",
+          "orcid": "0000-0002-0537-1762"
+        },
+        {
+          "full_name": "Bedford LE",
+          "last_name": "Bedford",
+          "orcid": null
+        },
+        {
+          "full_name": "Cheung JPY",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Or CK",
+          "last_name": "Or",
+          "orcid": null
+        },
+        {
+          "full_name": "Kind P",
+          "last_name": "Kind",
+          "orcid": "0000-0003-2377-1652"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8684117",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-021-01898-3",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01898-3",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

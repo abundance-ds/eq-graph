@@ -1,0 +1,55 @@
+{
+  "project_id": "1972-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s40258-023-00837-1",
+      "doi": "10.1007/s40258-023-00837-1",
+      "pmid": "37824057",
+      "pmcid": "PMC10864418",
+      "title": "Different Frameworks, Similar Results? Head-to-Head Comparison of the Generic Preference-Based Health-Outcome Measures CS-Base and EQ-5D-5L",
+      "journal": "Applied health economics and health policy",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Zhang X",
+          "last_name": "Zhang",
+          "orcid": "0000-0002-7678-4468"
+        },
+        {
+          "full_name": "Vermeulen KM",
+          "last_name": "Vermeulen",
+          "orcid": null
+        },
+        {
+          "full_name": "Krabbe PFM",
+          "last_name": "Krabbe",
+          "orcid": "0000-0001-6042-1243"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC10864418",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00837-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s40258-023-00837-1",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

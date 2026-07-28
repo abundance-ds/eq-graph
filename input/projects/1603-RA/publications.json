@@ -1,0 +1,94 @@
+{
+  "project_id": "1603-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s13561-022-00374-y",
+      "doi": "10.1186/s13561-022-00374-y",
+      "pmid": "35593942",
+      "pmcid": "PMC9121571",
+      "title": "Feasibility properties of the EQ-5D-3L and 5L in the general population: evidence from the GP Patient Survey on the impact of age",
+      "journal": "Health Economics Review",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": "https://orcid.org/0000-0002-2576-9110"
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": "https://orcid.org/0000-0001-9552-6969"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9121571",
+        "pdf_url": "https://europepmc.org/articles/PMC9121571?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s13561-022-00374-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0290606",
+      "doi": "10.1371/journal.pone.0290606",
+      "pmid": "37624857",
+      "pmcid": "PMC10456181",
+      "title": "Exploring differences and similarities of EQ-5D-3L, EQ-5D-5L and WHOQOL-OLD in recipients of aged care services in Germany",
+      "journal": "PLOS ONE",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Ole Marten",
+          "last_name": "Marten",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC10456181",
+        "pdf_url": "https://europepmc.org/articles/PMC10456181?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0290606",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -1,0 +1,19 @@
+{
+  "project_id": "1850-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1136/bmjopen-2025-100897",
+      "doi": "10.1136/bmjopen-2025-100897",
+      "title": "Assessing the experimental EuroQol toddler and infant populations (EQ-TIPS) descriptive system: a protocol integrating discrete choice experiment (DCE) surveys in instrument development",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12243590/fullTextXML",
+      "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+      "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
+      "status": "ok",
+      "file": "input/projects/1850-RA/papers/doi_10.1136_bmjopen-2025-100897.xml",
+      "bytes": 74758,
+      "sha256": "8a5693ae4af751df9825b0ca1a5a50fefeafd569da1323793ac1c2949d1cd554"
+    }
+  ]
+}

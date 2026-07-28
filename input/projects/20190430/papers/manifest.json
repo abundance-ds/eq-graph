@@ -1,0 +1,17 @@
+{
+  "project_id": "20190430",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1177/0272989x231159381",
+      "doi": "10.1177/0272989x231159381",
+      "title": "Efficient Designs for Valuation Studies That Use Time Tradeoff (TTO) Tasks to Map Latent Utilities from Discrete Choice Experiments to the Interval Scale: Selection of Health States for TTO Tasks",
+      "method": "skip",
+      "source_url": null,
+      "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+      "landing_page": "https://doi.org/10.1177/0272989x231159381",
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

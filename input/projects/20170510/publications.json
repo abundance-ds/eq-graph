@@ -1,0 +1,70 @@
+{
+  "project_id": "20170510",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-019-00876-4",
+      "doi": "10.1007/s40273-019-00876-4",
+      "pmid": "31912325",
+      "pmcid": "PMC7080328",
+      "title": "A French Value Set for the EQ-5D-5L",
+      "journal": "PharmacoEconomics",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Andrade LF",
+          "last_name": "Andrade",
+          "orcid": "0009-0002-1117-376X"
+        },
+        {
+          "full_name": "Andrade LF",
+          "last_name": "Andrade",
+          "orcid": "0000-0001-6783-0023"
+        },
+        {
+          "full_name": "Ludwig K",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Goni JMR",
+          "last_name": "Goni",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "de Pouvourville G",
+          "last_name": "de Pouvourville",
+          "orcid": "0000-0002-5941-6823"
+        }
+      ],
+      "score": 0.9,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20170510",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC7080328",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-019-00876-4.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-019-00876-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

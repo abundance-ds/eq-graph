@@ -1,0 +1,75 @@
+{
+  "project_id": "133-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01412-y",
+      "doi": "10.1007/s10198-021-01412-y",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Reliability and validity of using EQ-5D-5L among healthy and adolescents with major mental health disorders in Ethiopia",
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Abraham G. Welie",
+          "last_name": "Welie",
+          "orcid": "https://orcid.org/0000-0003-4661-7287"
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Murray D. Krahn",
+          "last_name": "Krahn",
+          "orcid": null
+        },
+        {
+          "full_name": "Beate Sander",
+          "last_name": "Sander",
+          "orcid": null
+        },
+        {
+          "full_name": "Gebremedhin Beedemariam Gebretekle",
+          "last_name": "Gebretekle",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-021-01412-y",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

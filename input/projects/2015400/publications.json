@@ -1,0 +1,125 @@
+{
+  "project_id": "2015400",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-018-1985-2",
+      "doi": "10.1007/s11136-018-1985-2",
+      "pmid": "30196340",
+      "pmcid": "PMC6208600",
+      "title": "Population health status based on the EQ-5D-Y-3L among adolescents in Sweden: Results by sociodemographic factors and self-reported comorbidity",
+      "journal": "Quality of Life Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Mimmi Åström",
+          "last_name": "Åström",
+          "orcid": "https://orcid.org/0000-0002-6711-5262"
+        },
+        {
+          "full_name": "Carina Persson",
+          "last_name": "Persson",
+          "orcid": null
+        },
+        {
+          "full_name": "Margareta Lindén-Boström",
+          "last_name": "Lindén-Boström",
+          "orcid": null
+        },
+        {
+          "full_name": "Ola Rolfson",
+          "last_name": "Rolfson",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina Burström",
+          "last_name": "Burström",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 2015400",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2015400",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC6208600",
+        "pdf_url": "https://europepmc.org/articles/PMC6208600?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-018-1985-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-022-03107-0",
+      "doi": "10.1007/s11136-022-03107-0",
+      "pmid": "35201557",
+      "pmcid": "PMC9188517",
+      "title": "‘Like holding the axe on who should live or not’: adolescents’ and adults’ perceptions of valuing children’s health states using a standardised valuation protocol for the EQ-5D-Y-3L",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Mimmi Åström",
+          "last_name": "Åström",
+          "orcid": "https://orcid.org/0000-0002-6711-5262"
+        },
+        {
+          "full_name": "Helen Conte",
+          "last_name": "Conte",
+          "orcid": "https://orcid.org/0000-0002-6967-528x"
+        },
+        {
+          "full_name": "Jenny Berg",
+          "last_name": "Berg",
+          "orcid": "https://orcid.org/0000-0002-5994-6816"
+        },
+        {
+          "full_name": "Kristina Burström",
+          "last_name": "Burström",
+          "orcid": "https://orcid.org/0000-0001-9996-4317"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9188517",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03107-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03107-0",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

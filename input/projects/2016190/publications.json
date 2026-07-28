@@ -1,0 +1,122 @@
+{
+  "project_id": "2016190",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-018-2027-9",
+      "doi": "10.1007/s11136-018-2027-9",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric performance assessment of Malay and Malaysian English version of EQ-5D-5L in the Malaysian population",
+      "journal": "Quality of Life Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Asrul Akmal Shafie",
+          "last_name": "Shafie",
+          "orcid": "https://orcid.org/0000-0002-5629-9270"
+        },
+        {
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Vasan Thakumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Ching Jou Lim",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-018-2027-9",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0758-7",
+      "doi": "10.1007/s40273-018-0758-7",
+      "pmid": null,
+      "pmcid": null,
+      "title": "EQ-5D-5L Valuation for the Malaysian Population",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Asrul Akmal Shafie",
+          "last_name": "Shafie",
+          "orcid": "https://orcid.org/0000-0002-5629-9270"
+        },
+        {
+          "full_name": "Annushiah Vasan Thakumar",
+          "last_name": "Vasan Thakumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Ching Jou Lim",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand-Hendriksen",
+          "last_name": "Rand-Hendriksen",
+          "orcid": null
+        },
+        {
+          "full_name": "Faridah Aryani Md Yusof",
+          "last_name": "Md Yusof",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40273-018-0758-7",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

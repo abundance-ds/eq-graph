@@ -1,0 +1,145 @@
+{
+  "project_id": "299-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.5492/wjccm.v11.i4.236",
+      "doi": "10.5492/wjccm.v11.i4.236",
+      "pmid": "36051941",
+      "pmcid": "PMC9305682",
+      "title": "Health-related quality-of-life and health-utility reporting in critical care",
+      "journal": "World journal of critical care medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Lau VI",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Bagshaw SM",
+          "last_name": "Bagshaw",
+          "orcid": null
+        },
+        {
+          "full_name": "Rewa OG",
+          "last_name": "Rewa",
+          "orcid": null
+        },
+        {
+          "full_name": "Basmaji J",
+          "last_name": "Basmaji",
+          "orcid": "0000-0001-9749-1747"
+        },
+        {
+          "full_name": "Lewis KA",
+          "last_name": "Lewis",
+          "orcid": null
+        },
+        {
+          "full_name": "Wilcox ME",
+          "last_name": "Wilcox",
+          "orcid": null
+        },
+        {
+          "full_name": "Barrett K",
+          "last_name": "Barrett",
+          "orcid": "0000-0001-7147-2222"
+        },
+        {
+          "full_name": "Lamontagne F",
+          "last_name": "Lamontagne",
+          "orcid": null
+        },
+        {
+          "full_name": "Lauzier F",
+          "last_name": "Lauzier",
+          "orcid": null
+        },
+        {
+          "full_name": "Ferguson ND",
+          "last_name": "Ferguson",
+          "orcid": "0000-0002-6213-5264"
+        },
+        {
+          "full_name": "Oczkowski SJW",
+          "last_name": "Oczkowski",
+          "orcid": null
+        },
+        {
+          "full_name": "Fiest KM",
+          "last_name": "Fiest",
+          "orcid": null
+        },
+        {
+          "full_name": "Niven DJ",
+          "last_name": "Niven",
+          "orcid": null
+        },
+        {
+          "full_name": "Stelfox HT",
+          "last_name": "Stelfox",
+          "orcid": null
+        },
+        {
+          "full_name": "Alhazzani W",
+          "last_name": "Alhazzani",
+          "orcid": null
+        },
+        {
+          "full_name": "Herridge M",
+          "last_name": "Herridge",
+          "orcid": null
+        },
+        {
+          "full_name": "Fowler R",
+          "last_name": "Fowler",
+          "orcid": "0000-0002-1002-2989"
+        },
+        {
+          "full_name": "Cook DJ",
+          "last_name": "Cook",
+          "orcid": null
+        },
+        {
+          "full_name": "Rochwerg B",
+          "last_name": "Rochwerg",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://doi.org/10.5492/wjccm.v11.i4.236",
+        "pdf_url": "https://europepmc.org/articles/PMC9305682?pdf=render",
+        "landing_page": "https://doi.org/10.5492/wjccm.v11.i4.236",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

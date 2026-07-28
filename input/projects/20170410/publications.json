@@ -1,0 +1,211 @@
+{
+  "project_id": "20170410",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.4457",
+      "doi": "10.1002/hec.4457",
+      "pmid": "34841637",
+      "pmcid": "PMC9298783",
+      "title": "Not all respondents use a multiplicative utility function in choice experiments for health state valuations, which should be reflected in the elicitation format (or statistical analysis)",
+      "journal": "Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC9298783",
+        "pdf_url": "https://europepmc.org/articles/PMC9298783?pdf=render",
+        "landing_page": "https://doi.org/10.1002/hec.4457",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-023-00655-6",
+      "doi": "10.1007/s40271-023-00655-6",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Unravelling the Self-Report Versus Proxy-Report Conundrum for Older Aged Care Residents: Findings from a Mixed-Methods Study",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Julie Ratcliffe",
+          "last_name": "Ratcliffe",
+          "orcid": "https://orcid.org/0000-0001-7365-1988"
+        },
+        {
+          "full_name": "Kiri Lay",
+          "last_name": "Lay",
+          "orcid": "https://orcid.org/0000-0003-1077-3771"
+        },
+        {
+          "full_name": "Matthew Crocker",
+          "last_name": "Crocker",
+          "orcid": "https://orcid.org/0000-0002-6207-7850"
+        },
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": "https://orcid.org/0000-0002-7959-3149"
+        },
+        {
+          "full_name": "Rachel Milte",
+          "last_name": "Milte",
+          "orcid": "https://orcid.org/0000-0001-7533-6260"
+        },
+        {
+          "full_name": "Claire Hutchinson",
+          "last_name": "Hutchinson",
+          "orcid": "https://orcid.org/0000-0003-4289-8886"
+        },
+        {
+          "full_name": "Jyoti Khadka",
+          "last_name": "Khadka",
+          "orcid": "https://orcid.org/0000-0003-1012-2119"
+        },
+        {
+          "full_name": "David G. T. Whitehurst",
+          "last_name": "Whitehurst",
+          "orcid": "https://orcid.org/0000-0002-7890-6756"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-3112-3893"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://figshare.com/articles/journal_contribution/Unravelling_the_Self-Report_Versus_Proxy-Report_Conundrum_for_Older_Aged_Care_Residents_Findings_from_a_Mixed-Methods_Study/27199434",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-023-00655-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-023-01300-8",
+      "doi": "10.1007/s40273-023-01300-8",
+      "pmid": "37439998",
+      "pmcid": "PMC10492668",
+      "title": "Using Age-Specific Values for Pediatric HRQoL in Cost-Effectiveness Analysis: Is There a Problem to Be Solved? If So, How?",
+      "journal": "PharmacoEconomics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Sculpher",
+          "last_name": "Sculpher",
+          "orcid": null
+        },
+        {
+          "full_name": "Mark Jit",
+          "last_name": "Jit",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Donna Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Barend van Hout",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10492668",
+        "pdf_url": "https://europepmc.org/articles/PMC10492668?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-023-01300-8",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

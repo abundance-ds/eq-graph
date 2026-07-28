@@ -1,0 +1,294 @@
+{
+  "project_id": "1979-EO",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01714-x",
+      "doi": "10.1007/s10198-024-01714-x",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Testing four cognition bolt-on items to the EQ-5D in a general Chinese population",
+      "journal": "The European Journal of Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": "https://orcid.org/0000-0001-7859-3684"
+        },
+        {
+          "full_name": "Hongyan Wu",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Yan Huang",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke Bonsel",
+          "last_name": "Bonsel",
+          "orcid": "https://orcid.org/0000-0002-8364-1086"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": "https://pure.eur.nl/en/publications/db74608e-657a-456d-a10d-1f40a0380b97",
+        "pdf_url": "https://pure.eur.nl/ws/files/189470144/Testing_four_cognition_bolt-on_items_to_the_EQ-5D_in_a_general_Chinese_population.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01714-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03394-1",
+      "doi": "10.1007/s11136-023-03394-1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Urban/rural differences in preferences for EQ-5D-5L health states: a study of a multi-ethnic region in China",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": "https://orcid.org/0000-0001-7859-3684"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-023-03394-1",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.009",
+      "doi": "10.1016/j.jval.2024.05.009",
+      "pmid": "38795961",
+      "pmcid": null,
+      "title": "Testing “Pits” Time Trade-Off: Can Data Quality be Improved by Removing Death From Valuation of Health States?",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.009",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.01.010",
+      "doi": "10.1016/j.jval.2025.01.010",
+      "pmid": null,
+      "pmcid": null,
+      "title": "How Do Individuals Value Worse-Than-Dead EQ-5D-5L Health States in Composite Time Trade-Off Tasks? A Qualitative Study",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Meixia Liao",
+          "last_name": "Liao",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Milad Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.01.010",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)00037-3/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.01.010",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02521-z",
+      "doi": "10.1186/s12955-026-02521-z",
+      "pmid": "41943046",
+      "pmcid": "PMC13182084",
+      "title": "Validity and responsiveness of the EQ-5D-5L, EQ-HWB and EQ-HWB-9 to measure health and wellbeing impact of heatwaves among older adults",
+      "journal": "Health and quality of life outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Liao M",
+          "last_name": "Liao",
+          "orcid": null
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Xiang J",
+          "last_name": "Xiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC13182084",
+        "pdf_url": "https://europepmc.org/articles/PMC13182084?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-026-02521-z",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

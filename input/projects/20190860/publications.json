@@ -1,0 +1,627 @@
+{
+  "project_id": "20190860",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1002/hec.4529",
+      "doi": "10.1002/hec.4529",
+      "pmid": "35474364",
+      "pmcid": "PMC9541376",
+      "title": "Correcting for discounting and loss aversion in composite time trade‐off",
+      "journal": "Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Arthur E. Attema",
+          "last_name": "Attema",
+          "orcid": "https://orcid.org/0000-0003-3607-6579"
+        },
+        {
+          "full_name": "Matthijs M. Versteegh",
+          "last_name": "Versteegh",
+          "orcid": "https://orcid.org/0000-0003-4804-235x"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "http://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC9541376",
+        "pdf_url": "https://pure.eur.nl/files/54163867/Health_Economics_2022_Lipman_Correcting_for_discounting_and_loss_aversion_in_composite_time_trade_off.pdf",
+        "landing_page": "https://doi.org/10.1002/hec.4529",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-021-01377-y",
+      "doi": "10.1007/s10198-021-01377-y",
+      "pmid": "34611793",
+      "pmcid": "PMC8492455",
+      "title": "Self vs. other, child vs. adult. An experimental comparison of valuation perspectives for valuation of EQ-5D-Y-3L health states",
+      "journal": "The European Journal of Health Economics",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "S. A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "V. T. Reckers-Droog",
+          "last_name": "Reckers-Droog",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Karimi",
+          "last_name": "Karimi",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "A. E. Attema",
+          "last_name": "Attema",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8492455",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-021-01377-y.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-021-01377-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-022-01466-6",
+      "doi": "10.1007/s10198-022-01466-6",
+      "pmid": "35596831",
+      "pmcid": "PMC9123877",
+      "title": "Time and lexicographic preferences in the valuation of EQ-5D-Y with time trade-off methodology",
+      "journal": "The European Journal of Health Economics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Liying Zhang",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal K. Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Arthur E. Attema",
+          "last_name": "Attema",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9123877",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-022-01466-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-022-01466-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-023-01612-8",
+      "doi": "10.1007/s10198-023-01612-8",
+      "pmid": "37420133",
+      "pmcid": "PMC11136812",
+      "title": "The effect of duration and time preference on the gap between adult and child health state valuations in time trade-off",
+      "journal": "The European Journal of Health Economics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Zhongyu Lang",
+          "last_name": "Lang",
+          "orcid": "https://orcid.org/0000-0002-2399-6942"
+        },
+        {
+          "full_name": "Arthur E. Attema",
+          "last_name": "Attema",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11136812",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-023-01612-8.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-023-01612-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-023-01668-6",
+      "doi": "10.1007/s10198-023-01668-6",
+      "pmid": "38308719",
+      "pmcid": "PMC11442527",
+      "title": "Comparing heuristic valuation processes between health state valuation from child and adult perspectives",
+      "journal": "The European Journal of Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Vivian T. Reckers-Droog",
+          "last_name": "Reckers-Droog",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11442527",
+        "pdf_url": "https://europepmc.org/articles/PMC11442527?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-023-01668-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01857-5",
+      "doi": "10.1007/s10198-025-01857-5",
+      "pmid": "41165953",
+      "pmcid": "PMC13190758",
+      "title": "Child- versus adult-perspective composite time trade-off valuations for the EQ-5D-Y-3L: evidence from the Hungarian valuation study",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Pangestu S",
+          "last_name": "Pangestu",
+          "orcid": "0000-0003-2546-9449"
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": "0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        },
+        {
+          "full_name": "Lipman SA",
+          "last_name": "Lipman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13190758",
+        "pdf_url": "https://europepmc.org/articles/PMC13190758?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01857-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11166-024-09439-1",
+      "doi": "10.1007/s11166-024-09439-1",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A systematic review of unique methods for measuring discount rates",
+      "journal": "Journal of Risk and Uncertainty",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Arthur E. Attema",
+          "last_name": "Attema",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11166-024-09439-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11166-024-09439-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s11166-024-09439-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-020-00490-z",
+      "doi": "10.1007/s40271-020-00490-z",
+      "pmid": "33345290",
+      "pmcid": "PMC7750113",
+      "title": "Time for Tele-TTO? Lessons Learned From Digital Interviewer-Assisted Time Trade-Off Data Collection",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC7750113",
+        "pdf_url": "https://europepmc.org/articles/PMC7750113?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-020-00490-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01202-1",
+      "doi": "10.1007/s40273-022-01202-1",
+      "pmid": "36255560",
+      "pmcid": "PMC9579618",
+      "title": "In a Child’s Shoes: Composite Time Trade-Off Valuations for EQ-5D-Y-3L with Different Proxy Perspectives",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Brigitte A. B. Essers",
+          "last_name": "Essers",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano P. Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Ayesha Sajjad",
+          "last_name": "Sajjad",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep F. M. Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9579618",
+        "pdf_url": "https://europepmc.org/articles/PMC9579618?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01202-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-026-01589-1",
+      "doi": "10.1007/s40273-026-01589-1",
+      "pmid": "41629564",
+      "pmcid": "PMC12917023",
+      "title": "EQ-5D(-Y) Valuation from Adult and Child Perspectives: Where Does the Empirical Evidence Leave Us and How Should We Proceed?",
+      "journal": "PharmacoEconomics",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Lipman SA",
+          "last_name": "Lipman",
+          "orcid": "0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Guo Z",
+          "last_name": "Guo",
+          "orcid": "0009-0001-4495-5357"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC12917023",
+        "pdf_url": "https://europepmc.org/articles/PMC12917023?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-026-01589-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2021.01.011",
+      "doi": "10.1016/j.jval.2021.01.011",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Think of the Children: A Discussion of the Rationale for and Implications of the Perspective Used for EQ-5D-Y Health State Valuation",
+      "journal": "Value in Health",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Vivian T. Reckers-Droog",
+          "last_name": "Reckers-Droog",
+          "orcid": null
+        },
+        {
+          "full_name": "Simone Kreimeier",
+          "last_name": "Kreimeier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2021.01.011",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301521001418/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2021.01.011",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x261462936",
+      "doi": "10.1177/0272989x261462936",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Employing Psychological Distance to Explain Perspective-Specific EQ-5D-Y-3L Health State Valuation: A Bayesian Hierarchical Analysis",
+      "journal": "Medical Decision Making",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Zhongyu Lang",
+          "last_name": "Lang",
+          "orcid": "https://orcid.org/0000-0002-2399-6942"
+        },
+        {
+          "full_name": "Arthur E. Attema",
+          "last_name": "Attema",
+          "orcid": "https://orcid.org/0000-0003-3607-6579"
+        },
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://doi.org/10.1177/0272989x261462936",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x261462936",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/frhs.2022.803109",
+      "doi": "10.3389/frhs.2022.803109",
+      "pmid": "36925864",
+      "pmcid": "PMC10012738",
+      "title": "Expect Nothing: The (Lack of) Influence of Subjective Life Expectancy on Valuation of Child Health States",
+      "journal": "Frontiers in Health Services",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC10012738",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/frhs.2022.803109/pdf",
+        "landing_page": "https://doi.org/10.3389/frhs.2022.803109",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

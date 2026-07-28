@@ -1,0 +1,71 @@
+{
+  "project_id": "2107-TVG",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01821-3",
+      "doi": "10.1007/s10198-025-01821-3",
+      "pmid": "40736642",
+      "pmcid": "PMC13046674",
+      "title": "Valuing health and wellbeing using discrete choice experiment: exploring feasibility, design effect and international preference similarity",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Haode Wang",
+          "last_name": "Wang",
+          "orcid": "https://orcid.org/0000-0002-0759-7087"
+        },
+        {
+          "full_name": "Donna L. Rowen",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Yuen Chen",
+          "last_name": "Chen",
+          "orcid": null
+        },
+        {
+          "full_name": "Clara Mukuria",
+          "last_name": "Mukuria",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13046674",
+        "pdf_url": "https://europepmc.org/articles/PMC13046674?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01821-3",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

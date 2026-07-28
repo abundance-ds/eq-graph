@@ -1,0 +1,149 @@
+{
+  "project_id": "429-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.02.016",
+      "doi": "10.1016/j.jval.2024.02.016",
+      "pmid": "38467188",
+      "pmcid": null,
+      "title": "Psychometric Properties of the EQ-5D-Y-5L for Children With Intellectual Disability",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Jenny Downs",
+          "last_name": "Downs",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Peter Jacoby",
+          "last_name": "Jacoby",
+          "orcid": null
+        },
+        {
+          "full_name": "Dinah Reddihough",
+          "last_name": "Reddihough",
+          "orcid": null
+        },
+        {
+          "full_name": "Catherine S. Choong",
+          "last_name": "Choong",
+          "orcid": null
+        },
+        {
+          "full_name": "Amy Finlay-Jones",
+          "last_name": "Finlay-Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Marie Blackmore",
+          "last_name": "Blackmore",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_structured",
+          "detail": "returned by grant_id_structured query for 429-RA",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.02.016",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.jval.2023.11.005",
+      "doi": "10.1016/j.jval.2023.11.005",
+      "pmid": null,
+      "pmcid": null,
+      "title": "How Well Does the EQ-5D-Y-5L Describe Children With Intellectual Disability?: “There’s a Lot More to My Child Than That She Can’t Wash or Dress Herself.”",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "A. Marie Blackmore",
+          "last_name": "Blackmore",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Dinah Reddihough",
+          "last_name": "Reddihough",
+          "orcid": null
+        },
+        {
+          "full_name": "Catherine S. Choong",
+          "last_name": "Choong",
+          "orcid": null
+        },
+        {
+          "full_name": "Peter Jacoby",
+          "last_name": "Jacoby",
+          "orcid": null
+        },
+        {
+          "full_name": "Jenny Downs",
+          "last_name": "Downs",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2023.11.005",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S109830152306196X/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2023.11.005",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

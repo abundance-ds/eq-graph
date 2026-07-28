@@ -1,0 +1,19 @@
+{
+  "project_id": "444-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01682-2",
+      "doi": "10.1007/s10198-024-01682-2",
+      "title": "Measurement properties of the EQ-5D-3L, EQ-5D-5L, and SF-6Dv2 in patients with late-onset Pompe disease",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11512824/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-024-01682-2",
+      "status": "ok",
+      "file": "input/projects/444-RA/papers/doi_10.1007_s10198-024-01682-2.xml",
+      "bytes": 144581,
+      "sha256": "71c82e502fd5912693182e8c6882846f3a9b086b2ac787645f3057278ff852c4"
+    }
+  ]
+}

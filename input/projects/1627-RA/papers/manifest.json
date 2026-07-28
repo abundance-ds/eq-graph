@@ -1,0 +1,19 @@
+{
+  "project_id": "1627-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-025-02421-8",
+      "doi": "10.1186/s12955-025-02421-8",
+      "title": "Health-related quality of life in COVID-19 patients: a systematic review and meta-analysis of EQ-5D studies",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506383/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-025-02421-8",
+      "status": "ok",
+      "file": "input/projects/1627-RA/papers/doi_10.1186_s12955-025-02421-8.xml",
+      "bytes": 580961,
+      "sha256": "69f528610fb97eb60c0542a9778eaf007491e7722fbf685732feb7d3b1e8c694"
+    }
+  ]
+}

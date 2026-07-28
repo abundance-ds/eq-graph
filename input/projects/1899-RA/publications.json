@@ -1,0 +1,70 @@
+{
+  "project_id": "1899-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1016/j.vhri.2024.101045",
+      "doi": "10.1016/j.vhri.2024.101045",
+      "pmid": null,
+      "pmcid": null,
+      "title": "An EQ-5D-5L Value Set for Ghana Using an Adapted EuroQol Valuation Technology Protocol",
+      "journal": "Value in Health Regional Issues",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Rebecca Addo",
+          "last_name": "Addo",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Richmond Owusu",
+          "last_name": "Owusu",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Justice Nonvignon",
+          "last_name": "Nonvignon",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.vhri.2024.101045",
+        "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(24)00078-5/pdf",
+        "landing_page": "https://doi.org/10.1016/j.vhri.2024.101045",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

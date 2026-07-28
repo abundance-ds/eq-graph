@@ -1,0 +1,553 @@
+{
+  "project_id": "1903-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-023-03462-6",
+      "doi": "10.1007/s11136-023-03462-6",
+      "pmid": "37347395",
+      "pmcid": "PMC10522725",
+      "title": "Understanding the measurement relationship between EQ-5D-5L, PROMIS-29 and PROPr",
+      "journal": "Quality of Life Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Brendan J. Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "An Tran-Duy",
+          "last_name": "Tran-Duy",
+          "orcid": null
+        },
+        {
+          "full_name": "Janel Hanmer",
+          "last_name": "Hanmer",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy J. Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10522725",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03462-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03462-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03817-7",
+      "doi": "10.1007/s11136-024-03817-7",
+      "pmid": "39461931",
+      "pmcid": "PMC11865160",
+      "title": "Testing the psychometric characteristics of EQ-5D-5L and respiratory bolt-ons using a sample of the Australian population",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Bahrampour M",
+          "last_name": "Bahrampour",
+          "orcid": "0000-0002-6915-1865"
+        },
+        {
+          "full_name": "Kochovska S",
+          "last_name": "Kochovska",
+          "orcid": "0000-0002-3531-0389"
+        },
+        {
+          "full_name": "Currow DC",
+          "last_name": "Currow",
+          "orcid": "0000-0003-1988-1250"
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11865160",
+        "pdf_url": "https://europepmc.org/articles/PMC11865160?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03817-7",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04023-9",
+      "doi": "10.1007/s11136-025-04023-9",
+      "pmid": "40728587",
+      "pmcid": "PMC12535484",
+      "title": "Does context matter? A discrete choice experiment investigating the impact of palliative context on EQ-5D-5L health state valuation",
+      "journal": "Quality of Life Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Irina Kinchin",
+          "last_name": "Kinchin",
+          "orcid": "https://orcid.org/0000-0003-0133-2763"
+        },
+        {
+          "full_name": "Peiwen Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "David Currow",
+          "last_name": "Currow",
+          "orcid": null
+        },
+        {
+          "full_name": "Meera Agar",
+          "last_name": "Agar",
+          "orcid": null
+        },
+        {
+          "full_name": "Charles Normand",
+          "last_name": "Normand",
+          "orcid": null
+        },
+        {
+          "full_name": "Bridget Johnston",
+          "last_name": "Johnston",
+          "orcid": null
+        },
+        {
+          "full_name": "Peter May",
+          "last_name": "May",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s11136-025-04023-9",
+        "pdf_url": "https://europepmc.org/articles/PMC12535484?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04023-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04315-8",
+      "doi": "10.1007/s11136-026-04315-8",
+      "pmid": "42295438",
+      "pmcid": "PMC13269440",
+      "title": "Assessing the dimensionality of the EQ-HWB-25 alongside EQ-5D-5L, QOL-ACC and ASCOT in an older adult population",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Bahrampour M",
+          "last_name": "Bahrampour",
+          "orcid": "0000-0002-6915-1865"
+        },
+        {
+          "full_name": "Akanksha A",
+          "last_name": "Akanksha",
+          "orcid": "0000-0002-4899-7538"
+        },
+        {
+          "full_name": "Kuharic M",
+          "last_name": "Kuharic",
+          "orcid": "0000-0003-3696-9086"
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13269440",
+        "pdf_url": "https://europepmc.org/articles/PMC13269440?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04315-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-025-00735-9",
+      "doi": "10.1007/s40271-025-00735-9",
+      "pmid": "40088394",
+      "pmcid": "PMC12170736",
+      "title": "How do Design Characteristics Affect Respondent Engagement? Assessing Attribute Non-attendance in Discrete Choice Experiments Valuing the EQ-5D-5L",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Peiwen Jiang",
+          "last_name": "Jiang",
+          "orcid": "https://orcid.org/0009-0000-4173-3487"
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": "https://orcid.org/0000-0002-4476-0656"
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": "https://orcid.org/0000-0002-8210-9936"
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": "https://orcid.org/0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Mark Oppe",
+          "last_name": "Oppe",
+          "orcid": "https://orcid.org/0000-0003-4286-8855"
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": "https://orcid.org/0000-0003-3656-8063"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://doi.org/10.1007/s40271-025-00735-9",
+        "pdf_url": "https://europepmc.org/articles/PMC12170736?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00735-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.05.012",
+      "doi": "10.1016/j.jval.2025.05.012",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Validity of the EQ-5D-5L for Routine Assessment in Residential Aged Care: Results From a Feasibility Study",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Briony Dow",
+          "last_name": "Dow",
+          "orcid": null
+        },
+        {
+          "full_name": "Andrew Gilbert",
+          "last_name": "Gilbert",
+          "orcid": null
+        },
+        {
+          "full_name": "Frances Batchelor",
+          "last_name": "Batchelor",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.05.012",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.05.012",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2026.03.2234",
+      "doi": "10.1016/j.jval.2026.03.2234",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Psychometric Performance of Preference-Weighted Instruments in Older Adults: A Systematic Review",
+      "journal": "Value in Health",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Lidia Engel",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Valeriia Sokolova",
+          "last_name": "Sokolova",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Faller",
+          "last_name": "Faller",
+          "orcid": null
+        },
+        {
+          "full_name": "Yared Belete Belay",
+          "last_name": "Belay",
+          "orcid": null
+        },
+        {
+          "full_name": "Pei Wang",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2026.03.2234",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.03.2234",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-025-02352-4",
+      "doi": "10.1186/s12955-025-02352-4",
+      "pmid": "40128870",
+      "pmcid": "PMC11934538",
+      "title": "A framework for extending the health-related quality adjusted life year by combining instruments",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Akanksha Akanksha",
+          "last_name": "Akanksha",
+          "orcid": null
+        },
+        {
+          "full_name": "Richard Norman",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Mina Bahrampour",
+          "last_name": "Bahrampour",
+          "orcid": null
+        },
+        {
+          "full_name": "Peiwen Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "Deborah Street",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1186/s12955-025-02352-4",
+        "pdf_url": "https://europepmc.org/articles/PMC11934538?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-025-02352-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

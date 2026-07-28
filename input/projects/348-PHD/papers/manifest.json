@@ -1,0 +1,45 @@
+{
+  "project_id": "348-PHD",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-025-01493-0",
+      "doi": "10.1007/s40273-025-01493-0",
+      "title": "How do Health State Values Differ When Respondents Consider Adults Versus Children Living in Those States? A Systematic Review",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12167273/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01493-0",
+      "status": "ok",
+      "file": "input/projects/348-PHD/papers/doi_10.1007_s40273-025-01493-0.xml",
+      "bytes": 208340,
+      "sha256": "52d3cfc8c0b3d769bb0df1c34cadd45bb0d9b9af631db749eb2a8183442b5dfc"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0302886",
+      "doi": "10.1371/journal.pone.0302886",
+      "title": "Rationale, conceptual issues, and resultant protocol for a mixed methods Person Trade Off (PTO) and qualitative study to estimate and understand the relative value of gains in health for children and young people compared to adults",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11146702/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0302886",
+      "status": "ok",
+      "file": "input/projects/348-PHD/papers/doi_10.1371_journal.pone.0302886.xml",
+      "bytes": 289296,
+      "sha256": "a98c9ce6411424d4bd3bfda21c3bb3ec53185d624102a8c256bbd9e9ea3c21c6"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0319227",
+      "doi": "10.1371/journal.pone.0319227",
+      "title": "A qualitative study to understand public views on the relative value of health gains for children and young people in Australia compared to adults",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12578166/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0319227",
+      "status": "ok",
+      "file": "input/projects/348-PHD/papers/doi_10.1371_journal.pone.0319227.xml",
+      "bytes": 238685,
+      "sha256": "679fcd8524700de5ced1ef77a54409df14c75deed0cd910396e234540fb5dc7d"
+    }
+  ]
+}

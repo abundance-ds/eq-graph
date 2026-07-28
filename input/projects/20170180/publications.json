@@ -1,0 +1,306 @@
+{
+  "project_id": "20170180",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-019-01156-w",
+      "doi": "10.1007/s10198-019-01156-w",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A vision ‘bolt-on’ increases the responsiveness of EQ-5D: preliminary evidence from a study of cataract surgery",
+      "journal": "The European Journal of Health Economics",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Marcus Ang",
+          "last_name": "Ang",
+          "orcid": "https://orcid.org/0000-0003-3022-0795"
+        },
+        {
+          "full_name": "Kelvin Teo",
+          "last_name": "Teo",
+          "orcid": "https://orcid.org/0000-0002-7458-7081"
+        },
+        {
+          "full_name": "Chee Wai Wong",
+          "last_name": "Wong",
+          "orcid": "https://orcid.org/0000-0002-0935-2016"
+        },
+        {
+          "full_name": "Yvonne Chung-Hsi Wei",
+          "last_name": "Wei",
+          "orcid": "https://orcid.org/0000-0002-5515-4029"
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Tan",
+          "orcid": "https://orcid.org/0000-0002-4610-1195"
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": "https://orcid.org/0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s10198-019-01156-w",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-017-1683-5",
+      "doi": "10.1007/s11136-017-1683-5",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Comparison of health state values derived from patients and individuals from the general population",
+      "journal": "Quality of Life Research",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Ru San Tan",
+          "last_name": "Tan",
+          "orcid": "https://orcid.org/0000-0003-2086-6517"
+        },
+        {
+          "full_name": "Raymond Ng",
+          "last_name": "Ng",
+          "orcid": "https://orcid.org/0000-0001-9651-234x"
+        },
+        {
+          "full_name": "Su Pin Choo",
+          "last_name": "Choo",
+          "orcid": "https://orcid.org/0000-0002-8925-3922"
+        },
+        {
+          "full_name": "Whay Kuang Chia",
+          "last_name": "Chia",
+          "orcid": "https://orcid.org/0000-0003-4198-9831"
+        },
+        {
+          "full_name": "Chee Keong Toh",
+          "last_name": "Toh",
+          "orcid": "https://orcid.org/0000-0002-5691-6144"
+        },
+        {
+          "full_name": "Carolyn Lam",
+          "last_name": "Lam",
+          "orcid": "https://orcid.org/0000-0003-1903-0018"
+        },
+        {
+          "full_name": "Phong Teck Lee",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Nang Khaing Zar Latt",
+          "last_name": "Latt",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand-Hendriksen",
+          "last_name": "Rand-Hendriksen",
+          "orcid": "https://orcid.org/0000-0001-7692-4099"
+        },
+        {
+          "full_name": "Yin Bun Cheung",
+          "last_name": "Cheung",
+          "orcid": "https://orcid.org/0000-0003-0517-7625"
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": "https://orcid.org/0000-0001-7980-6979"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s11136-017-1683-5",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40271-018-00354-7",
+      "doi": "10.1007/s40271-018-00354-7",
+      "pmid": null,
+      "pmcid": null,
+      "title": "EQ-5D-5L is More Responsive than EQ-5D-3L to Treatment Benefit of Cataract Surgery",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Mihir Gandhi",
+          "last_name": "Gandhi",
+          "orcid": "https://orcid.org/0000-0002-8902-2710"
+        },
+        {
+          "full_name": "Marcus Ang",
+          "last_name": "Ang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kelvin Teo",
+          "last_name": "Teo",
+          "orcid": null
+        },
+        {
+          "full_name": "Chee Wai Wong",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Yvonne Chung-Hsi Wei",
+          "last_name": "Wei",
+          "orcid": null
+        },
+        {
+          "full_name": "Rachel Lee-Yin Tan",
+          "last_name": "Tan",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "http://www.springer.com/tdm",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-018-00354-7",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.21203/rs.3.rs-60893/v2",
+      "doi": "10.21203/rs.3.rs-60893/v2",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Impact of COVID-19 on Health-related Quality of Life in Patients With Cardiovascular Disease: a Multi-ethnic Asian Study",
+      "journal": null,
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Lim SL",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Woo KL",
+          "last_name": "Woo",
+          "orcid": null
+        },
+        {
+          "full_name": "Lim E",
+          "last_name": "Lim",
+          "orcid": null
+        },
+        {
+          "full_name": "Ng F",
+          "last_name": "Ng",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan MY",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Gandhi M",
+          "last_name": "Gandhi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.21203/rs.3.rs-60893/v2",
+        "pdf_url": "https://www.researchsquare.com/article/rs-60893/latest.pdf",
+        "landing_page": "https://doi.org/10.21203/rs.3.rs-60893/v2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

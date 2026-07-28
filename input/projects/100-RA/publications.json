@@ -1,0 +1,912 @@
+{
+  "project_id": "100-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01852-w",
+      "doi": "10.1007/s10198-025-01852-w",
+      "pmid": "41160306",
+      "pmcid": "PMC13190540",
+      "title": "Do EQ-5D-Y-3L value sets have common properties, and how do they compare to EQ-5D-5L value sets?",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13190540",
+        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01892-2",
+      "doi": "10.1007/s10198-025-01892-2",
+      "pmid": "41525009",
+      "pmcid": null,
+      "title": "Revisiting health state preferences after 20 years: A new EQ-5D-3L value set for the Netherlands",
+      "journal": "The European Journal of Health Economics",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://doi.org/10.1007/s10198-025-01892-2",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01892-2.pdf",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01892-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-022-03155-6",
+      "doi": "10.1007/s11136-022-03155-6",
+      "pmid": "35622295",
+      "pmcid": "PMC9356942",
+      "title": "A threshold explanation for the lack of variation in negative composite time trade-off values",
+      "journal": "Quality of Life Research",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Rogier Donders",
+          "last_name": "Donders",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9356942",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-022-03155-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-022-03155-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-04145-0",
+      "doi": "10.1007/s11136-025-04145-0",
+      "pmid": "41634385",
+      "pmcid": "PMC12868079",
+      "title": "Unconscious death thoughts: Do they play a role in time trade-off and visual analogue scale scores for health?",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Peep Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "Bastiaan Rutjens",
+          "last_name": "Rutjens",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12868079",
+        "pdf_url": "https://europepmc.org/articles/PMC12868079?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04145-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-025-00954-z",
+      "doi": "10.1007/s40258-025-00954-z",
+      "pmid": "40069434",
+      "pmcid": "PMC12170785",
+      "title": "A Head-On Comparison of EQ-VT- and Crosswalk-Based EQ-5D-5L Value Sets",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0002-4479-9948"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12170785",
+        "pdf_url": "https://europepmc.org/articles/PMC12170785?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-025-00954-z",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01192-0",
+      "doi": "10.1007/s40273-022-01192-0",
+      "pmid": "36216977",
+      "pmcid": "PMC9549846",
+      "title": "A Value Set for the EQ-5D-Y-3L in the Netherlands",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Ayesha Sajjad",
+          "last_name": "Sajjad",
+          "orcid": null
+        },
+        {
+          "full_name": "Brigitte Essers",
+          "last_name": "Essers",
+          "orcid": null
+        },
+        {
+          "full_name": "Stefan Lipman",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9549846",
+        "pdf_url": "https://europepmc.org/articles/PMC9549846?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01192-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01202-1",
+      "doi": "10.1007/s40273-022-01202-1",
+      "pmid": "36255560",
+      "pmcid": "PMC9579618",
+      "title": "In a Child’s Shoes: Composite Time Trade-Off Valuations for EQ-5D-Y-3L with Different Proxy Perspectives",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Stefan A. Lipman",
+          "last_name": "Lipman",
+          "orcid": "https://orcid.org/0000-0002-8784-9650"
+        },
+        {
+          "full_name": "Brigitte A. B. Essers",
+          "last_name": "Essers",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano P. Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Ayesha Sajjad",
+          "last_name": "Sajjad",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep F. M. Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9579618",
+        "pdf_url": "https://europepmc.org/articles/PMC9579618?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01202-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2019.10.006",
+      "doi": "10.1016/j.jval.2019.10.006",
+      "pmid": "32113629",
+      "pmcid": null,
+      "title": "A Head-On Ordinal Comparison of the Composite Time Trade-Off and the Better-Than-Dead Method",
+      "journal": "Value in Health",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Rogier T. Donders",
+          "last_name": "Donders",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep F.M. Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2019.10.006",
+        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519351782/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2019.10.006",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.016",
+      "doi": "10.1016/j.jval.2024.05.016",
+      "pmid": "38843979",
+      "pmcid": null,
+      "title": "A Direct Comparison Between Discrete Choice With Duration and Composite Time Trade-Off Methods: Do They Produce Similar Results?",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.016",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.016",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2024.05.024",
+      "doi": "10.1016/j.jval.2024.05.024",
+      "pmid": null,
+      "pmcid": null,
+      "title": "A New and Improved Experimental Design for the Discrete Choice Experiment Module of the EuroQol Valuation Technology Protocol",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2024.05.024",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.05.024",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.05.014",
+      "doi": "10.1016/j.jval.2025.05.014",
+      "pmid": "40482771",
+      "pmcid": null,
+      "title": "Stability of Danish Population Health Preferences Over Time",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cathrine Elgaard Jensen",
+          "last_name": "Jensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Sabrina Storgaard Sørensen",
+          "last_name": "Sørensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Claire Gudex",
+          "last_name": "Gudex",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.05.014",
+        "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02375-7/pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.05.014",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x19841587",
+      "doi": "10.1177/0272989x19841587",
+      "pmid": "31257997",
+      "pmcid": "PMC6791017",
+      "title": "Cultural Values: Can They Explain Differences in Health Utilities between Countries?",
+      "journal": "Medical Decision Making",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "A. Rogier T. Donders",
+          "last_name": "Donders",
+          "orcid": null
+        },
+        {
+          "full_name": "Peep F. M. Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Rosalie Viney",
+          "last_name": "Viney",
+          "orcid": null
+        },
+        {
+          "full_name": "Monica Viegas Andrade",
+          "last_name": "Andrade",
+          "orcid": null
+        },
+        {
+          "full_name": "Claire Gudex",
+          "last_name": "Gudex",
+          "orcid": null
+        },
+        {
+          "full_name": "Gerard de Pouvourville",
+          "last_name": "de Pouvourville",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolfgang Greiner",
+          "last_name": "Greiner",
+          "orcid": null
+        },
+        {
+          "full_name": "Luciana Scalone",
+          "last_name": "Scalone",
+          "orcid": null
+        },
+        {
+          "full_name": "Aki Tsuchiya",
+          "last_name": "Tsuchiya",
+          "orcid": null
+        },
+        {
+          "full_name": "Dominik Golicki",
+          "last_name": "Golicki",
+          "orcid": null
+        },
+        {
+          "full_name": "Pedro Ferreira",
+          "last_name": "Ferreira",
+          "orcid": null
+        },
+        {
+          "full_name": "Valentina Prevolnik-Rupel",
+          "last_name": "Prevolnik-Rupel",
+          "orcid": null
+        },
+        {
+          "full_name": "Xavier Badia",
+          "last_name": "Badia",
+          "orcid": null
+        },
+        {
+          "full_name": "Ching-Lin Hsieh",
+          "last_name": "Hsieh",
+          "orcid": null
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        },
+        {
+          "full_name": "Marisa Santos",
+          "last_name": "Santos",
+          "orcid": null
+        },
+        {
+          "full_name": "Feng Xie",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Fredrick Purba",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Shunya Ikeda",
+          "last_name": "Ikeda",
+          "orcid": null
+        },
+        {
+          "full_name": "Takeru Shiroiwa",
+          "last_name": "Shiroiwa",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Min-Woo Jo",
+          "last_name": "Jo",
+          "orcid": null
+        },
+        {
+          "full_name": "Juan-Manuel Ramos-Goñi",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Federico Augustovski",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "Lucila Rey-Ares",
+          "last_name": "Rey-Ares",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Koonal Shah",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Juntana Pattanaphesaj",
+          "last_name": "Pattanaphesaj",
+          "orcid": null
+        },
+        {
+          "full_name": "Sirinart Tongsiri",
+          "last_name": "Tongsiri",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
+        "oa_url": "https://europepmc.org/articles/PMC6791017",
+        "pdf_url": "https://europepmc.org/articles/PMC6791017?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x19841587",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x241286477",
+      "doi": "10.1177/0272989x241286477",
+      "pmid": "39403849",
+      "pmcid": "PMC11542326",
+      "title": "What Makes the Time Tradeoff Tick? A Sociopsychological Explanation",
+      "journal": "Medical Decision Making",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Peep F. M. Stalmeier",
+          "last_name": "Stalmeier",
+          "orcid": "https://orcid.org/0000-0002-7553-562x"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11542326",
+        "pdf_url": "https://europepmc.org/articles/PMC11542326?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x241286477",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x251325828",
+      "doi": "10.1177/0272989x251325828",
+      "pmid": "40110719",
+      "pmcid": "PMC11992645",
+      "title": "Immediate Death: Not So Bad If You Discount the Future but Still Worse than It Should Be",
+      "journal": "Medical Decision Making",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Eleanor M. Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": "https://orcid.org/0000-0001-8433-1402"
+        },
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0002-4479-9948"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC11992645",
+        "pdf_url": "https://europepmc.org/articles/PMC11992645?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x251325828",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02266-7",
+      "doi": "10.1186/s12955-024-02266-7",
+      "pmid": "38956543",
+      "pmcid": "PMC11218064",
+      "title": "The EQ-5D-5L valuation study for Trinidad and Tobago",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Henry Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0002-4479-9948"
+        },
+        {
+          "full_name": "Marcel F. Jonker",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Eleanor Pullenayegum",
+          "last_name": "Pullenayegum",
+          "orcid": "https://orcid.org/0000-0003-4265-1330"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11218064",
+        "pdf_url": "https://europepmc.org/articles/PMC11218064?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02266-7",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 1
+}
