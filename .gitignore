@@ -2,8 +2,3 @@ cache/
 state/
 __pycache__/
 *.pyc
-
-# Downloaded full texts: large, re-downloadable, and licence-bound.
-# The manifests that describe them stay tracked.
-input/projects/*/papers/*
-!input/projects/*/papers/manifest.json

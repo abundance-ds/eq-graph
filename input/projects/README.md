@@ -36,7 +36,7 @@ enriched from external sources yet. `pi_name_raw` is deliberately unparsed — t
 field mixes appended academic titles and multi-name rows, and splitting it is part of
 the entity-resolution work, not of this export.
 
-| `papers/` | Downloaded open-access full texts, one file per publication, named by work id. Europe PMC JATS XML where available, otherwise an openly licensed PDF. **Gitignored** — large, re-downloadable, licence-bound. |
+| `papers/` | Downloaded open-access full texts, one file per publication, named by work id. Europe PMC JATS XML where available, otherwise an openly licensed PDF. Committed, since the repository is private. |
 | `papers/manifest.json` | Tracked in git: every accepted publication with its retrieval `status`, `method`, source URL, licence, byte count and SHA-256 — including the ones deliberately *not* downloaded, with the reason and a DOI landing page. |
 
 Identifiers and match evidence live in `publications.json`, so there is no separate

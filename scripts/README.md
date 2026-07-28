@@ -112,6 +112,11 @@ A publisher answering 401/403 is recorded as `skipped`, not `failed`: it is a
 deliberate refusal, so retrying cannot succeed and re-hammering the endpoint would be
 rude. `--retry-failed` therefore never touches them.
 
-Payloads under `papers/` are gitignored — large, re-downloadable, and licence-bound.
-Each `papers/manifest.json` stays in git with the source URL, licence, byte count and
-SHA-256 of every file.
+Downloaded files under `papers/` are committed, alongside a `papers/manifest.json`
+recording the source URL, licence, byte count and SHA-256 of each one — and the
+reason for every publication deliberately *not* fetched.
+
+This is safe because the repository is **private**. Two repository-hosted PDFs carry
+an Elsevier "TDM user licence", which permits text and data mining but not
+redistribution; making this repository public would mean revisiting those. The rest
+are Europe PMC's open-access subset or explicitly Creative Commons.
