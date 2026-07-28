@@ -407,3 +407,57 @@ def openalex_to_work(item: dict) -> dict | None:
         "pdf_url": (item.get("best_oa_location") or {}).get("pdf_url"),
         "source": "openalex", "grants": grants, "abstract": None,
     }
+
+
+def s2_by_doi(fetcher: Fetcher, doi: str) -> dict | None:
+    """Semantic Scholar lookup for one DOI.
+
+    S2 has no funder filter and its search covers title/abstract rather than
+    acknowledgements, so it is poor at *discovering* EuroQol grants. Its value is
+    enrichment of works we already hold: a free full-text PDF link, ORCIDs, and the
+    citation/reference edges the knowledge graph will need.
+
+    The introductory key allows 1 request per second; see HOST_DELAY.
+    """
+    if not S2_API_KEY:
+        return None
+    fields = ("title,year,externalIds,openAccessPdf,venue,"
+              "authors.name,authors.externalIds,referenceCount,citationCount")
+    try:
+        payload = fetcher.get(
+            f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}",
+            {"fields": fields},
+            headers={"x-api-key": S2_API_KEY},
+        ).json()
+    except FetchError as exc:
+        if getattr(exc, "status", None) == 404:
+            return None
+        raise
+    return payload or None
+
+
+def s2_to_work(item: dict) -> dict | None:
+    ext = item.get("externalIds") or {}
+    doi = normalize_doi(ext.get("DOI"))
+    pmid = str(ext.get("PubMed")) if ext.get("PubMed") else None
+    pmcid = f"PMC{ext['PubMedCentral']}" if ext.get("PubMedCentral") else None
+    work_id = make_work_id(doi, pmid, pmcid)
+    if not work_id:
+        return None
+    authors = []
+    for a in item.get("authors") or []:
+        name = a.get("name") or ""
+        authors.append({
+            "full_name": name,
+            "last_name": name.split()[-1] if name else None,
+            "orcid": (a.get("externalIds") or {}).get("ORCID"),
+        })
+    pdf = (item.get("openAccessPdf") or {}).get("url")
+    return {
+        "work_id": work_id, "doi": doi, "pmid": pmid, "pmcid": pmcid,
+        "title": (item.get("title") or "").strip().rstrip("."),
+        "journal": item.get("venue"), "year": item.get("year"),
+        "authors": authors, "is_oa": 1 if pdf else 0, "oa_url": pdf,
+        "licence": None, "pdf_url": pdf, "source": "semanticscholar",
+        "grants": [], "abstract": None,
+    }

@@ -32,6 +32,8 @@ HOST_DELAY = {
     "api.crossref.org": 0.34,
     "api.unpaywall.org": 0.12,
     "api.openalex.org": 0.34,
+    # Introductory Semantic Scholar keys allow 1 request per second.
+    "api.semanticscholar.org": 1.05,
 }
 DEFAULT_DELAY = 0.5
 
