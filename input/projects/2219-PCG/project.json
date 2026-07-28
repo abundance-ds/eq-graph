@@ -1,0 +1,25 @@
+{
+  "project_id": "2219-PCG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2219,
+  "call_year": null,
+  "grant_type_code": "PCG",
+  "grant_type": "4.2 Program coordination grants",
+  "revision": null,
+  "title": "Partnership Agreement between Kemri-Wellcome Trust Research Programme and Euroqol Research Foundation",
+  "pi_name_raw": "Elly Stolk",
+  "working_groups": [
+    "Valuation",
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 162000,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2027,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 639,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

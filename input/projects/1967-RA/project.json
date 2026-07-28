@@ -1,0 +1,24 @@
+{
+  "project_id": "1967-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1967,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Assessing bolt-ons in cognition (ABC): a secondary analysis",
+  "pi_name_raw": "Hannah Hussain",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 24676,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 953,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

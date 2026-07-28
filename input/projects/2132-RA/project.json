@@ -1,0 +1,24 @@
+{
+  "project_id": "2132-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2132,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Does a spoonful of honey improve a barrel of tar? Comparing 33333+1 with 33333",
+  "pi_name_raw": "Michał Jakubczyk",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 56236,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 1019,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

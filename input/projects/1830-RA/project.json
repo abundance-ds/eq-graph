@@ -1,0 +1,24 @@
+{
+  "project_id": "1830-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1830,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Response heterogeneities in EQ-VAS within identical EQ-5D-5L profiles: Investigating potential underestimation of the education-health gradient",
+  "pi_name_raw": "Jan Abel Olsen",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 29940,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 415,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

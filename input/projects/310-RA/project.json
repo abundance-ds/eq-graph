@@ -1,0 +1,24 @@
+{
+  "project_id": "310-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 310,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "CANDOUR study: Using EQ-5D-5L to assess the impact of global use of COVID-19 vaccines on health-related quality of life",
+  "pi_name_raw": "Professor Philip Clarke",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 99518,
+  "status": "Ongoing",
+  "start_year": 2021,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 583,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

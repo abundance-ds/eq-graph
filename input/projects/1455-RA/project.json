@@ -1,0 +1,25 @@
+{
+  "project_id": "1455-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1455,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "A comparison of the EQ Health and Wellbeing (EQ-HWB) and EQ-5D-5L instruments.",
+  "pi_name_raw": "Emily McDool",
+  "working_groups": [
+    "Descriptive Systems",
+    "Valuation"
+  ],
+  "approved_budget_eur": 20420,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 147,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

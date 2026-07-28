@@ -1,5 +1,8 @@
 # Input data
 
+Split into one directory per project under [`projects/`](projects/README.md), which
+is where downloaded papers and per-project metadata will accumulate.
+
 ## `Funded projects – Table for Download - EuroQol.csv`
 
 Export of the EuroQol Research Foundation's funded-projects portfolio, downloaded

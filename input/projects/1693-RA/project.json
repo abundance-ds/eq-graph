@@ -1,0 +1,24 @@
+{
+  "project_id": "1693-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1693,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "RAndomized Matched PAirwise Choice Tasks (RAMPACT): making the stand-alone DCE with duration protocol robust to flatliners and validate the protocol’s results with cTTO.",
+  "pi_name_raw": "Marcel Jonker",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 112570,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 35,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

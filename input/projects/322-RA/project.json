@@ -1,0 +1,24 @@
+{
+  "project_id": "322-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 322,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Investigating the development of a multi layered “Deep Dive” measure of health-related quality of life based on the EQ-5D: A pilot study",
+  "pi_name_raw": "Brendan Mulhern",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 40280,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 359,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

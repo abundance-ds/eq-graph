@@ -1,0 +1,24 @@
+{
+  "project_id": "645-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 645,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Implementation of a digital survey, and development of an EQ-based patient platform (dashboard) in national longcovid study (CORFU) focussing on quality of life",
+  "pi_name_raw": "Gouke Bonsel",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 54840,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 414,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

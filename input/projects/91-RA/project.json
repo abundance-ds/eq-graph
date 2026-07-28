@@ -1,0 +1,24 @@
+{
+  "project_id": "91-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 91,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "EQ-5D-5L in productivity assessment according to the type of occupation",
+  "pi_name_raw": "Beata Koń",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 24226,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2021,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 82,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

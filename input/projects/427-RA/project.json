@@ -1,0 +1,25 @@
+{
+  "project_id": "427-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 427,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Conceptualising bolt-ons: identifying key questions",
+  "pi_name_raw": "Chris Sampson",
+  "working_groups": [
+    "Descriptive Systems",
+    "Valuation"
+  ],
+  "approved_budget_eur": 42840,
+  "status": "Ongoing",
+  "start_year": 2022,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 814,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

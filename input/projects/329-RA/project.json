@@ -1,0 +1,25 @@
+{
+  "project_id": "329-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 329,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "EQ VAS: What does it measure? A structured analysis of the EQ VAS in national population surveys (the Health Survey of England)",
+  "pi_name_raw": "You-Shan Feng",
+  "working_groups": [
+    "Descriptive Systems",
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 55230,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 249,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

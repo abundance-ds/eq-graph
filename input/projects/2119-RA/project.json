@@ -1,0 +1,24 @@
+{
+  "project_id": "2119-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2119,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Translation of the EQ-TIPS experimental version (V.3.0) in Spanish for Argentina and development of the digital and paper-based version mok-ups both for 3L and 5L versions.",
+  "pi_name_raw": "Federico Augustovski",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 3100,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 985,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

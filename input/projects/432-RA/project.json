@@ -1,0 +1,25 @@
+{
+  "project_id": "432-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 432,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Using the online personal utility functions (OPUF) tool to explore issues in the valuation of EQ-5D-Y",
+  "pi_name_raw": "David Mott",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 72150,
+  "status": "Ongoing",
+  "start_year": 2022,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 238,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

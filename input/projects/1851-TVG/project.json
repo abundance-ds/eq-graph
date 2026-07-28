@@ -1,0 +1,24 @@
+{
+  "project_id": "1851-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1851,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Travel scholarship request to attend the EuHEA conference 2024 in Vienna, Austria - Jan Faller",
+  "pi_name_raw": "Jan Faller",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 2310,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 920,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

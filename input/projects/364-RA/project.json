@@ -1,0 +1,24 @@
+{
+  "project_id": "364-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 364,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Exploring the relevance and coverage of the EQ-5D-Y in Asia",
+  "pi_name_raw": "Nan Luo",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 24040,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 242,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

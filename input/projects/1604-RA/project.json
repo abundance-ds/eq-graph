@@ -1,0 +1,24 @@
+{
+  "project_id": "1604-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1604,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Population health impact of the COVID-19 pandemic (POPCORN): fourth wave",
+  "pi_name_raw": "Juanita Haagsma",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 131551,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 925,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

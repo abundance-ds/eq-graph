@@ -1,0 +1,24 @@
+{
+  "project_id": "415-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 415,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Modelling interactions in the EQ-5D descriptive system",
+  "pi_name_raw": "Marcel Jonker",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 25000,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 37,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

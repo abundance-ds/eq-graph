@@ -1,0 +1,24 @@
+{
+  "project_id": "238-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 238,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Population health impact of the COVID-19 pandemic (POPCORN): longitudinal effects of the COVID-19 pandemic on individual's health-related quality of life",
+  "pi_name_raw": "Gouke Bonsel",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 111160,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 380,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

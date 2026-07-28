@@ -1,0 +1,24 @@
+{
+  "project_id": "458-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 458,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Testing the psychometric properties of 9 bolt-ons for the EQ-5D",
+  "pi_name_raw": "Bas Janssen",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 39820,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 756,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

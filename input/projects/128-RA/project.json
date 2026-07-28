@@ -1,0 +1,24 @@
+{
+  "project_id": "128-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 128,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "A global survey of HTA agencies for their views on health utility instruments and data: protocol development",
+  "pi_name_raw": "Luo Nan",
+  "working_groups": [
+    "Others"
+  ],
+  "approved_budget_eur": 50400,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 594,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

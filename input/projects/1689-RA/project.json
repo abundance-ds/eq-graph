@@ -1,0 +1,25 @@
+{
+  "project_id": "1689-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1689,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Estimating the relative importance of health when being a child vs when being an adult at an individual respondent level",
+  "pi_name_raw": "Michał Jakubczyk",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 55840,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 425,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

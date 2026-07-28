@@ -1,0 +1,25 @@
+{
+  "project_id": "2138-TR",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2138,
+  "call_year": null,
+  "grant_type_code": "TR",
+  "grant_type": "4.1 Tools and resources",
+  "revision": null,
+  "title": "Data collection to support developing a crosswalk between EQ-TIPS and EQ-5D-Y",
+  "pi_name_raw": "Elly Stolk",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 160000,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 452,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

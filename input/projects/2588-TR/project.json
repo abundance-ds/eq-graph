@@ -1,0 +1,24 @@
+{
+  "project_id": "2588-TR",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2588,
+  "call_year": null,
+  "grant_type_code": "TR",
+  "grant_type": "4.1 Tools and resources",
+  "revision": null,
+  "title": "QC Tool as Web App (R/Shiny)",
+  "pi_name_raw": "Juan M. Ramos-Goñi",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 55350,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 784,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

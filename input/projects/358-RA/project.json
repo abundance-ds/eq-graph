@@ -1,0 +1,24 @@
+{
+  "project_id": "358-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 358,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "{(RRM + RUM) + DCE} *EQ-5D-5L = Preference",
+  "pi_name_raw": "Ning Yan Gu",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 26820,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 549,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "69-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 69,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "A mixed methods approach to testing alternative recall periods for EQ-5D (2nd revision)",
+  "pi_name_raw": "Nan Luo",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 65280,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 300,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "2366-EO",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2366,
+  "call_year": null,
+  "grant_type_code": "EO",
+  "grant_type": "3.1 Education and outreach project",
+  "revision": null,
+  "title": "Sponsporship request for UK PROMS conference 2026",
+  "pi_name_raw": "Tessa Peasgood",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 3500,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 227,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "180-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 180,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "A fast-track proposal for supporting a fresh PhD graduate to do post-doc research work on EQ-5D",
+  "pi_name_raw": "Nan Luo",
+  "working_groups": [
+    "Others"
+  ],
+  "approved_budget_eur": 20000,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 267,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

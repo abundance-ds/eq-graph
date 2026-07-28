@@ -1,0 +1,24 @@
+{
+  "project_id": "377-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 377,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "EQ-5D-5L Slovenia national value set",
+  "pi_name_raw": "Valentina Prevolnik Rupel",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 24620,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 528,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

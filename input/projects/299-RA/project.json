@@ -1,0 +1,26 @@
+{
+  "project_id": "299-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 299,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Validation of EQ-5D-5L in critical care (EuroQoL Working Groups Project Request for Proposal)",
+  "pi_name_raw": "Vincent Lau",
+  "working_groups": [
+    "Descriptive Systems",
+    "Valuation",
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 39680,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 554,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

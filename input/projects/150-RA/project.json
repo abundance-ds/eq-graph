@@ -1,0 +1,26 @@
+{
+  "project_id": "150-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 150,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Feasibility and validity of routine collection of patient-reported outcome measures (PROMs) in residential aged care facilities",
+  "pi_name_raw": "Lidia Engel",
+  "working_groups": [
+    "Descriptive Systems",
+    "Populations and Health Systems",
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 128900,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 285,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

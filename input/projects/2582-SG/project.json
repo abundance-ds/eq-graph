@@ -1,0 +1,24 @@
+{
+  "project_id": "2582-SG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2582,
+  "call_year": null,
+  "grant_type_code": "SG",
+  "grant_type": "1.3 Seed grants",
+  "revision": null,
+  "title": "Creating a EuroQol Research Knowledge Graph",
+  "pi_name_raw": "Paul Schneider",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 28404,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 1018,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

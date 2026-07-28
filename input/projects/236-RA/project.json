@@ -1,0 +1,25 @@
+{
+  "project_id": "236-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 236,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Does priority setting when deciding between adults and children correspond to valuation of EQ-5D(-Y)?",
+  "pi_name_raw": "Arthur Attema",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 39360,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2021,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 57,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

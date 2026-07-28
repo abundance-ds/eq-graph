@@ -1,0 +1,25 @@
+{
+  "project_id": "1497-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1497,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Values for EQ-5D-Y-3L: a comparative analysis of value sets and meta-analysis of international valuation data",
+  "pi_name_raw": "Nancy Devlin",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 56000,
+  "status": "Ongoing",
+  "start_year": 2022,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 671,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

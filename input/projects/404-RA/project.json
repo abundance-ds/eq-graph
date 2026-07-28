@@ -1,0 +1,24 @@
+{
+  "project_id": "404-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 404,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Better than dead? – but this or that? Testing how framing impacts viewing a health state as worse than dead.",
+  "pi_name_raw": "Michał Jakubczyk",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 39404,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 908,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

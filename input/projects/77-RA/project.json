@@ -1,0 +1,24 @@
+{
+  "project_id": "77-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 77,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Public health impact of the COVID-19 pandemia: inequity of its effects and the role of health policies.",
+  "pi_name_raw": "Juanita Haagsma",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 173280,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": null,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 335,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

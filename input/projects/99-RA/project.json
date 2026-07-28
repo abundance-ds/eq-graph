@@ -1,0 +1,24 @@
+{
+  "project_id": "99-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 99,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "How much do the EQ-5D-5L and bolt-on dimensions contribute to the overall measurement of quality of life? A psychometric investigation",
+  "pi_name_raw": "Brendan Mulhern",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 15400,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2021,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 8,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

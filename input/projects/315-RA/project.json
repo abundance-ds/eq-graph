@@ -1,0 +1,24 @@
+{
+  "project_id": "315-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 315,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "The relation between the EQ-5D-5L and fatigue and cognition problems: does the EQ-5D-5L capture persistent symptoms of infectious disease?",
+  "pi_name_raw": "Juanita Haagsma",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 16080,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 125,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

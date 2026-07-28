@@ -1,0 +1,24 @@
+{
+  "project_id": "1973-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1973,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Three weeks research visit to University of Melbourne, Monash University and University Technology Sydney to: facilitate collaborative work on two RFPs; present EQ-based papers at various seminars, and; revise a grant application investigating relevant bolt-ons for older adults.",
+  "pi_name_raw": "Jan Abel Olsen",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 9965,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 477,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

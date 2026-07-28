@@ -1,0 +1,25 @@
+{
+  "project_id": "2501-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2501,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Measuring the strength of preferences on bolt-ons: a DSWG/VWG collaboration",
+  "pi_name_raw": "Benjamin M. Craig",
+  "working_groups": [
+    "Descriptive Systems",
+    "Valuation"
+  ],
+  "approved_budget_eur": 129880,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2027,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 1023,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

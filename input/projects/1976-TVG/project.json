@@ -1,0 +1,24 @@
+{
+  "project_id": "1976-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1976,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Brendan Mulhern - Study visit to Canada (hosted by Simon Fraser University, and the University of British Columbia)",
+  "pi_name_raw": "Brendan Mulhern",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 13872,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 484,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "project_id": "318-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 318,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Measurement properties of the EQ-5D-5L among non-small cell lung cancer patients on active treatments in China",
+  "pi_name_raw": "Xuejing Jin",
+  "working_groups": [
+    "Descriptive Systems",
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 39040,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 635,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}
