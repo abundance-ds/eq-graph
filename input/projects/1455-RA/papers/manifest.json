@@ -6,12 +6,15 @@
       "work_id": "doi:10.1016/j.jval.2024.05.007",
       "doi": "10.1016/j.jval.2024.05.007",
       "title": "Psychometric Performance of the EQ Health and Wellbeing Short in a United Kingdom Population Sample",
-      "method": "publisher_pdf",
-      "source_url": "http://www.valueinhealthjournal.com/article/S1098301524023672/pdf",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jval.2024.05.007",
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "method": "repository_pdf",
+      "source_url": "https://eprints.whiterose.ac.uk/212547/16/1-s2.0-S1098301524023672-main.pdf",
+      "alternates": 1,
+      "status": "ok",
+      "file": "input/projects/1455-RA/papers/doi_10.1016_j.jval.2024.05.007.pdf",
+      "bytes": 912584,
+      "sha256": "f173fabb549b4bfa3ec8de2af210b103b1c1b07f200f52173fa81aa25880ee9c"
     }
   ]
 }

@@ -6,10 +6,11 @@
       "work_id": "doi:10.1016/j.jval.2025.02.001",
       "doi": "10.1016/j.jval.2025.02.001",
       "title": "Statistical Methods for Analyzing EQ-5D in Randomized Clinical Trials: A Systematic Literature Review",
-      "method": "repository_pdf",
-      "source_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2025.02.001",
+      "method": "repository_pdf",
+      "source_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf",
+      "alternates": 0,
       "status": "unavailable",
       "reason": "giving up on http://ira.lib.polyu.edu.hk/bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf: HTTPConnectionPool(host='ira.lib.polyu.edu.hk', port=80): Max retries exceeded with url: /bitstream/10397/117784/1/1-s2.0-S1098301525000671-main.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x79f7c7394fb0>, 'Connection to ira.lib.polyu.edu.hk timed out. (connect timeout=120)'))"
     }

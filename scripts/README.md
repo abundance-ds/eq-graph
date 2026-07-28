@@ -114,18 +114,22 @@ fraction of a cent. `reports/coverage.md` quantifies what it would add.
 
 ## Full-text policy
 
-Only openly licensed copies are downloaded, in this order of preference:
+Every free location Unpaywall knows is considered, not just `best_oa_location` —
+that field is often the publisher's own copy, which is exactly the one that answers
+403. Candidates are tried in order until one yields the document:
 
 1. **Europe PMC JATS XML** for anything with a PMCID. Europe PMC serves `fullTextXML`
    only for its open-access subset, so a 200 *is* the licence check — and the result
-   is structured text rather than a PDF to re-parse later. This covers the large
-   majority (171 of 177 files).
-2. **Repository-hosted PDFs** (green OA) as recorded by Unpaywall.
+   is structured text rather than a PDF to re-parse later (223 of 235 files).
+2. **Repository-hosted PDFs** (green OA). Ranked above publishers deliberately: a
+   repository deposit is redistributable and rarely blocks automated fetching.
 3. **Publisher PDFs only under an explicit Creative Commons licence.** An Elsevier
    "TDM user licence" is not a redistribution licence and does not qualify.
 
-Everything else is skipped with a recorded reason and its DOI landing page. Downloads
-are checked for magic bytes, so a paywall interstitial cannot be stored as a PDF.
+Preferring repositories turned 18 publisher fetches into 15 repository ones and
+recovered 7 articles that were previously unobtainable. Everything still unreachable
+is skipped with a recorded reason and its DOI landing page. Downloads are checked for
+magic bytes, so a paywall interstitial cannot be stored as a PDF.
 
 A publisher answering 401/403 is recorded as `skipped`, not `failed`: it is a
 deliberate refusal, so retrying cannot succeed and re-hammering the endpoint would be

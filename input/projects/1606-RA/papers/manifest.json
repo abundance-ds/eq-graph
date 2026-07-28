@@ -6,12 +6,15 @@
       "work_id": "doi:10.1016/j.jval.2025.05.014",
       "doi": "10.1016/j.jval.2025.05.014",
       "title": "Stability of Danish Population Health Preferences Over Time",
-      "method": "publisher_pdf",
-      "source_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02375-7/pdf",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jval.2025.05.014",
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "method": "repository_pdf",
+      "source_url": "https://findresearcher.sdu.dk/ws/files/298234937/Stability_of_Danish_Population_Health_Preferences_Over_Time.pdf",
+      "alternates": 2,
+      "status": "ok",
+      "file": "input/projects/1606-RA/papers/doi_10.1016_j.jval.2025.05.014.pdf",
+      "bytes": 1414836,
+      "sha256": "f018f929e6198c032f178f8c64b9d785bbef7a51dd76ec733623f0b5d87a6e13"
     }
   ]
 }

@@ -6,12 +6,15 @@
       "work_id": "doi:10.1016/j.jval.2024.03.2195",
       "doi": "10.1016/j.jval.2024.03.2195",
       "title": "Testing the Psychometric Properties of 9 Bolt-Ons for the EQ-5D-5L in a General Population Sample",
-      "method": "skip",
-      "source_url": null,
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2024.03.2195",
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "repository_pdf",
+      "source_url": "https://unipub.lib.uni-corvinus.hu/10757/1/1-s2.0-S1098301524023106-main.pdf",
+      "alternates": 0,
+      "status": "ok",
+      "file": "input/projects/458-RA/papers/doi_10.1016_j.jval.2024.03.2195.pdf",
+      "bytes": 1091041,
+      "sha256": "543cc0993d06b36bbd3c1c84ec198440bce1961af400efbfc11056e7727123c9"
     }
   ]
 }

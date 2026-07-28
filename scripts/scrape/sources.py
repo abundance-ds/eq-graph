@@ -299,11 +299,11 @@ def dumps(value) -> str:
 #
 #   CORE_API_KEY              https://core.ac.uk/services/api  (free)
 #   SEMANTIC_SCHOLAR_API_KEY  https://www.semanticscholar.org/product/api  (free)
-#   OPENALEX_ENABLED=1        requires prepaid credits; openalex.org/pricing
+#   OPENALEX_API_KEY          https://openalex.org/settings/api  (free, $1/day)
 
 CORE_API_KEY = os.environ.get("CORE_API_KEY")
 S2_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
-OPENALEX_ENABLED = os.environ.get("OPENALEX_ENABLED") == "1"
+OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY")
 
 CORE_SEARCH = "https://api.core.ac.uk/v3/search/works"
 S2_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search"
@@ -348,14 +348,22 @@ def core_to_work(item: dict) -> dict | None:
 
 
 def openalex_funder_works(fetcher: Fetcher, max_pages: int = MAX_PAGES) -> Iterator[dict]:
-    """OpenAlex works crediting the EuroQol funder. Metered -- opt in explicitly."""
-    if not OPENALEX_ENABLED:
+    """OpenAlex works crediting the EuroQol funder.
+
+    A free key carries a $1/day allowance, which at ~$0.0001 per request is ample for
+    this corpus; the anonymous tier is what runs out immediately. The key is sent both
+    as a query parameter and as a bearer header because the documentation renders
+    client-side and the exact form could not be confirmed -- whichever OpenAlex
+    ignores is harmless.
+    """
+    if not OPENALEX_API_KEY:
         return
     for page in range(1, max_pages + 1):
         resp = fetcher.get(
             OPENALEX_WORKS,
             {"filter": f"grants.funder:{OPENALEX_FUNDER_ID}", "per-page": PAGE_SIZE,
-             "page": page, "mailto": CONTACT_EMAIL},
+             "page": page, "mailto": CONTACT_EMAIL, "api_key": OPENALEX_API_KEY},
+            headers={"Authorization": f"Bearer {OPENALEX_API_KEY}"},
         )
         results = resp.json().get("results", [])
         yield from results

@@ -45,36 +45,67 @@ def safe_name(work_id: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", work_id)
 
 
-def unpaywall_from_cache(fetcher: Fetcher, doi: str) -> dict | None:
-    """Re-read the cached Unpaywall record for licence and host type."""
+def unpaywall_from_cache(fetcher: Fetcher, doi: str) -> list[dict]:
+    """Every free location Unpaywall knows for a DOI, not just the best one.
+
+    `best_oa_location` is Unpaywall's single pick and is frequently the publisher's
+    own copy -- exactly the one that answers 403. The `oa_locations` array usually
+    also lists a repository deposit of the same article, which is both openly
+    licensed and happy to be fetched.
+    """
     try:
-        payload = fetcher.get(f"{sources.UNPAYWALL}{doi}", {"email": sources.CONTACT_EMAIL})
+        payload = fetcher.get(
+            f"{sources.UNPAYWALL}{doi}", {"email": sources.CONTACT_EMAIL}
+        ).json()
     except FetchError:
-        return None
-    best = (payload.json().get("best_oa_location") or {})
-    return {
-        "host_type": best.get("host_type"),
-        "licence": best.get("license"),
-        "pdf_url": best.get("url_for_pdf"),
-        "landing": best.get("url_for_landing_page"),
-    }
+        return []
+    locations = list(payload.get("oa_locations") or [])
+    best = payload.get("best_oa_location")
+    if best and best not in locations:
+        locations.insert(0, best)
+    return [loc for loc in locations if loc]
 
 
-def choose_source(work, oa: dict | None) -> tuple[str, str | None, str]:
-    """Return (method, url, reason)."""
+def candidate_sources(work, locations: list[dict]) -> list[tuple[str, str, str]]:
+    """Ordered (method, url, reason) candidates to try for one work.
+
+    Repositories come before publishers: a green-OA deposit is redistributable and
+    rarely blocks automated fetching, whereas the publisher copy often does both the
+    opposite. Within each tier, order is stable so the ledger key is deterministic.
+    """
+    out: list[tuple[str, str, str]] = []
     if work["pmcid"]:
-        return "epmc_xml", EPMC_FULLTEXT.format(pmcid=work["pmcid"]), "PMCID present"
-    if oa:
-        licence = oa.get("licence") or ""
-        if oa.get("pdf_url") and oa.get("host_type") in OPEN_HOST_TYPES:
-            return "repository_pdf", oa["pdf_url"], f"repository copy, licence {licence or 'unstated'}"
-        if oa.get("pdf_url") and CC_LICENCE_RE.search(licence):
-            return "publisher_pdf", oa["pdf_url"], f"explicit {licence}"
-        if oa.get("pdf_url"):
-            return "skip", None, f"OA but licence '{licence or 'unstated'}' is not clearly redistributable"
+        out.append(("epmc_xml", EPMC_FULLTEXT.format(pmcid=work["pmcid"]), "PMCID present"))
+
+    tiers: dict[str, list[tuple[str, str, str]]] = {"repo": [], "cc": []}
+    for loc in locations:
+        url = loc.get("url_for_pdf")
+        if not url:
+            continue
+        licence = loc.get("license") or ""
+        host = loc.get("host_type")
+        if host in OPEN_HOST_TYPES:
+            tiers["repo"].append(
+                ("repository_pdf", url, f"repository copy, licence {licence or 'unstated'}")
+            )
+        elif CC_LICENCE_RE.search(licence):
+            tiers["cc"].append(("publisher_pdf", url, f"explicit {licence}"))
+
+    seen: set[str] = set()
+    for tier in ("repo", "cc"):
+        for method, url, reason in tiers[tier]:
+            if url not in seen:
+                seen.add(url)
+                out.append((method, url, reason))
+    return out
+
+
+def skip_reason(work, locations: list[dict]) -> str:
+    if any(loc.get("url_for_pdf") for loc in locations):
+        return "open access, but no location with a clearly redistributable licence"
     if work["is_oa"]:
-        return "skip", None, "flagged OA but no usable free location recorded"
-    return "skip", None, "no open-access copy; use the landing page"
+        return "flagged OA but no usable free location recorded"
+    return "no open-access copy; use the landing page"
 
 
 def verify(method: str, data: bytes) -> str | None:
@@ -112,30 +143,48 @@ def run(conn, fetcher: Fetcher, retry_failed: bool = False,
 
     for row in rows:
         project_id, work_id = row["project_id"], row["work_id"]
-        oa = unpaywall_from_cache(offline, row["doi"]) if row["doi"] else None
-        method, url, reason = choose_source(row, oa)
+        locations = unpaywall_from_cache(offline, row["doi"]) if row["doi"] else []
+        candidates = candidate_sources(row, locations)
         entry = {
             "work_id": work_id,
             "doi": row["doi"],
             "title": row["title"],
-            "method": method,
-            "source_url": url,
-            "licence": (oa or {}).get("licence") or row["licence"],
+            "licence": next((loc.get("license") for loc in locations if loc.get("license")),
+                            row["licence"]),
             "landing_page": f"https://doi.org/{row['doi']}" if row["doi"] else row["oa_url"],
         }
 
-        if method == "skip":
-            entry.update(status="skipped", reason=reason)
+        if not candidates:
+            entry.update(method="skip", source_url=None, status="skipped",
+                         reason=skip_reason(row, locations))
             manifests.setdefault(project_id, []).append(entry)
             stats["skipped"] += 1
             continue
+
+        method, url, reason = candidates[0]
+        entry.update(method=method, source_url=url,
+                     alternates=max(0, len(candidates) - 1))
 
         papers_dir = PROJECTS_DIR / project_id / "papers"
         suffix = ".xml" if method == "epmc_xml" else ".pdf"
         dest = papers_dir / f"{safe_name(work_id)}{suffix}"
 
         ledger_key = f"{project_id}|{work_id}"
+        # Key the ledger on the whole candidate list: if a new alternate location
+        # appears, the task un-settles and the extra copy gets tried.
+        url = "|".join(c[1] for c in candidates)
         prior = task_row(conn, ledger_key, "fulltext", "download")
+        # An already-downloaded file stays put even when the candidate list grows:
+        # discovering more mirrors is no reason to re-fetch something we hold. The
+        # query comparison therefore only un-settles tasks that did NOT succeed.
+        if prior is not None and prior["status"] == "ok" and dest.exists():
+            stats["settled"] += 1
+            entry.update(status="ok", file=str(dest.relative_to(REPO)),
+                         bytes=dest.stat().st_size,
+                         sha256=hashlib.sha256(dest.read_bytes()).hexdigest())
+            manifests.setdefault(project_id, []).append(entry)
+            continue
+
         # A settled *failure* leaves no file behind, so the ledger alone decides;
         # requiring dest.exists() here would silently re-attempt it on every run.
         if is_settled(prior, retry_failed, url) and (
@@ -152,35 +201,50 @@ def run(conn, fetcher: Fetcher, retry_failed: bool = False,
             continue
 
         papers_dir.mkdir(parents=True, exist_ok=True)
-        try:
-            if work_id in blobs:
-                data = blobs[work_id].read_bytes()
-                stats["reused"] += 1
-            else:
-                data = fetcher.get_bytes(url, max_bytes=MAX_BYTES)
-                problem = verify(method, data)
-                if problem:
-                    raise FetchError(problem)
+        data = None
+        attempts: list[str] = []
+
+        if work_id in blobs:
+            data = blobs[work_id].read_bytes()
+            stats["reused"] += 1
+        else:
+            # Walk the candidates: a publisher 403 is terminal for *that URL*, not for
+            # the article, so fall through to the repository deposit behind it.
+            for cand_method, cand_url, _reason in candidates:
+                try:
+                    payload = fetcher.get_bytes(cand_url, max_bytes=MAX_BYTES)
+                    problem = verify(cand_method, payload)
+                    if problem:
+                        raise FetchError(problem)
+                except FetchError as exc:
+                    code = getattr(exc, "status", None)
+                    attempts.append(f"{cand_url} -> {code or str(exc)[:60]}")
+                    continue
+                data = payload
+                method, dest = cand_method, papers_dir / (
+                    safe_name(work_id) + (".xml" if cand_method == "epmc_xml" else ".pdf")
+                )
+                entry["method"] = cand_method
+                entry["source_url"] = cand_url
                 stats["downloaded"] += 1
-        except FetchError as exc:
-            status_code = getattr(exc, "status", None)
-            # 401/403 is a publisher deliberately refusing automated download. That is
-            # a terminal answer, not a transient fault: retrying cannot succeed and
-            # re-hammering the endpoint would be rude. 404 means simply not there.
-            if status_code in (401, 403):
-                ledger_status = "skipped"
-                reason = (f"publisher refuses automated download (HTTP {status_code}); "
-                          "use the landing page")
-            elif status_code == 404:
-                ledger_status, reason = "empty", "no copy at the recorded location"
-            else:
-                ledger_status, reason = "failed", str(exc)[:200]
-            set_task(conn, ledger_key, "fulltext", "download", ledger_status,
-                     query=url, http_status=status_code, error=reason)
-            entry.update(status="unavailable", reason=reason)
+                break
+
+        if data is None:
+            blocked = any("403" in a or "401" in a for a in attempts)
+            reason = (
+                f"no candidate location yielded the document ({len(candidates)} tried); "
+                + ("publisher refuses automated download" if blocked else "see attempts")
+            )
+            set_task(conn, ledger_key, "fulltext", "download",
+                     "skipped" if blocked else "failed",
+                     query=url, error=reason + " :: " + "; ".join(attempts)[:300])
+            entry.update(status="unavailable", reason=reason, attempts=attempts)
             manifests.setdefault(project_id, []).append(entry)
-            stats["failed" if ledger_status == "failed" else "skipped"] += 1
+            stats["skipped" if blocked else "failed"] += 1
             continue
+
+        if entry.get("attempts_failed") is None and attempts:
+            entry["attempts_failed"] = attempts
 
         dest.write_bytes(data)
         blobs.setdefault(work_id, dest)

@@ -6,10 +6,11 @@
       "work_id": "doi:10.1007/s40273-022-01216-9",
       "doi": "10.1007/s40273-022-01216-9",
       "title": "Estimating an EQ-5D-Y-3L Value Set for China",
-      "method": "epmc_xml",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9758244/fullTextXML",
       "licence": "cc-by-nc",
       "landing_page": "https://doi.org/10.1007/s40273-022-01216-9",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9758244/fullTextXML",
+      "alternates": 1,
       "status": "ok",
       "file": "input/projects/20191020/papers/doi_10.1007_s40273-022-01216-9.xml",
       "bytes": 104099,
@@ -19,12 +20,12 @@
       "work_id": "doi:10.1016/j.jval.2023.03.003",
       "doi": "10.1016/j.jval.2023.03.003",
       "title": "Using Time Trade-Off Values to Estimate EQ-5D-Y Value Sets: An Exploratory Study",
-      "method": "skip",
-      "source_url": null,
       "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
       "landing_page": "https://doi.org/10.1016/j.jval.2023.03.003",
+      "method": "skip",
+      "source_url": null,
       "status": "skipped",
-      "reason": "OA but licence 'unstated' is not clearly redistributable"
+      "reason": "open access, but no location with a clearly redistributable licence"
     }
   ]
 }

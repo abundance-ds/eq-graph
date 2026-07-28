@@ -6,12 +6,15 @@
       "work_id": "doi:10.1016/j.vhri.2025.101501",
       "doi": "10.1016/j.vhri.2025.101501",
       "title": "Evaluating the Factor Structure of the Preliminary Version of EuroQol Health and Well-Being Instrument in China: A Replication of the Confirmatory Factor Analysis",
-      "method": "skip",
-      "source_url": null,
-      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.vhri.2025.101501",
-      "status": "skipped",
-      "reason": "OA but licence 'unstated' is not clearly redistributable"
+      "method": "repository_pdf",
+      "source_url": "https://pure.eur.nl/ws/files/219409625/Evaluating_the_Factor_Structure_of_the_Preliminary_Version_of_EuroQol_Health_and_Well-Being_Instrument_in_China.pdf",
+      "alternates": 0,
+      "status": "ok",
+      "file": "input/projects/20180600/papers/doi_10.1016_j.vhri.2025.101501.pdf",
+      "bytes": 1895544,
+      "sha256": "ea8e3327c57fe513cea084a0f942c670115a189b1d3296bdbfceb9b5c687ea14"
     }
   ]
 }

@@ -6,12 +6,12 @@
       "work_id": "doi:10.1016/j.jval.2020.05.004",
       "doi": "10.1016/j.jval.2020.05.004",
       "title": "Peruvian Valuation of the EQ-5D-5L: A Direct Comparison of Time Trade-Off and Discrete Choice Experiments",
+      "licence": "cc-by-nc-sa",
+      "landing_page": "https://doi.org/10.1016/j.jval.2020.05.004",
       "method": "skip",
       "source_url": null,
-      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-      "landing_page": "https://doi.org/10.1016/j.jval.2020.05.004",
       "status": "skipped",
-      "reason": "OA but licence 'unstated' is not clearly redistributable"
+      "reason": "open access, but no location with a clearly redistributable licence"
     }
   ]
 }
