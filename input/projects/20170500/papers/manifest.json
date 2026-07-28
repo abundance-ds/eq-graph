@@ -8,11 +8,13 @@
       "title": "Parallel Valuation of the EQ-5D-3L and EQ-5D-5L by Time Trade-Off in Hungary",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2020.03.019",
-      "method": "publisher_pdf",
-      "source_url": "http://www.valueinhealthjournal.com/article/S1098301520321173/pdf",
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098301520321173/pdf",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/20170500/papers/doi_10.1016_j.jval.2020.03.019.pdf",
+      "bytes": 817284,
+      "sha256": "912c553e7eeac91f2fdb944209ba8b284a1bf92501f32c759e4c37f22c92d5af"
     }
   ]
 }

@@ -43,6 +43,14 @@ Both developers and AI agents are expected to add entries as they encounter surp
   highest-yield attribution route available without paid sources.
 - OpenAIRE holds no EuroQol funder records (`funder=EuroQol` returns 0). Do not spend
   time on it for this corpus.
+- A real desktop browser gets the same publisher URLs that answer 403 to `requests`,
+  Elsevier/Wiley/MDPI/BMJ included. Two catches: Chrome opens a PDF in its viewer
+  instead of saving it unless `plugins.always_open_pdf_externally` is set in the
+  profile, and BMJ's `.full.pdf` needs the clearance cookie from a prior visit to the
+  article landing page. Manual retrieval is a last resort, not a pipeline stage.
+- Europe PMC's `fullTextXML` 404s for PMCIDs it lists, because the PMCID exists in the
+  index while the OA full text does not. `pmc.ncbi.nlm.nih.gov/articles/<PMCID>/pdf/`
+  usually serves the article those 404s hid.
 
 ## Anti-patterns to avoid
 

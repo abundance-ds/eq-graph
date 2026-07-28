@@ -19,11 +19,13 @@
       "title": "Testing the Valuation of the EQ-5D-Y-5L in Adults and Adolescents: Results From a 5-Country Study and Implications for the Descriptive System",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2025.07.016",
-      "method": "publisher_pdf",
+      "method": "manual_browser",
       "source_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/1404-RA/papers/doi_10.1016_j.jval.2025.07.016.pdf",
+      "bytes": 3751647,
+      "sha256": "2d9560d5af4f563a9bd48498d9485f23496b76bc4e2bdad1a095aa97a29a4e72"
     }
   ]
 }

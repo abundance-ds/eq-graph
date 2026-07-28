@@ -8,11 +8,13 @@
       "title": "Learning and satisficing: an analysis of sequence effects in health valuation",
       "licence": "other-oa",
       "landing_page": "https://doi.org/10.1016/j.jval.2014.11.005",
-      "method": "epmc_xml",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4361790/fullTextXML",
+      "method": "manual_browser",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4361790/pdf/",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "HTTP 404 for https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4361790/fullTextXML"
+      "status": "ok",
+      "file": "input/projects/2013130/papers/doi_10.1016_j.jval.2014.11.005.pdf",
+      "bytes": 478113,
+      "sha256": "ca5aba52109b03d571ce21ee0bcef28bc15280f9c9ecdab40345c6394c9ffc91"
     }
   ]
 }

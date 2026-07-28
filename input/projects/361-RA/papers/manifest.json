@@ -117,11 +117,13 @@
       "title": "Comparative performance of common paediatric patient-reported outcome measures (P-PROMs) across health conditions",
       "licence": "cc-by-nc",
       "landing_page": "https://doi.org/10.1136/archdischild-2025-329475",
-      "method": "publisher_pdf",
+      "method": "manual_browser",
       "source_url": "https://adc.bmj.com/content/archdischild/early/2026/03/25/archdischild-2025-329475.full.pdf",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1136_archdischild-2025-329475.pdf",
+      "bytes": 404777,
+      "sha256": "c5b2d110fbf29144c20b67053aeb7f2997d70801b39c8a74ed6ec2640b09478d"
     },
     {
       "work_id": "doi:10.3390/children10101604",

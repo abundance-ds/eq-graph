@@ -8,11 +8,13 @@
       "title": "Measurement Properties of the EQ-5D-Y: A Systematic Review",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jval.2022.05.013",
-      "method": "publisher_pdf",
-      "source_url": "http://www.valueinhealthjournal.com/article/S1098301522020010/pdf",
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098301522020010/pdf",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/214-RA/papers/doi_10.1016_j.jval.2022.05.013.pdf",
+      "bytes": 1034532,
+      "sha256": "9edaee91ab68700bd7ce906ebb10631ba30b0dea4abe53d015e43f6de00b797b"
     }
   ]
 }

@@ -8,11 +8,13 @@
       "title": "Psychometric Performance of EQ-HWB and EQ-HWB-9 Self-Complete and Interviewer-Administered Versions in Literate, Low-Literacy, and Patient Populations in Indonesia",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.vhri.2025.101543",
-      "method": "publisher_pdf",
+      "method": "manual_browser",
       "source_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00469-8/pdf",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/442-RA/papers/doi_10.1016_j.vhri.2025.101543.pdf",
+      "bytes": 2133300,
+      "sha256": "6d60a107a91138a161ca1651b1a61306764329473f91b57dc936831fc75fba89"
     }
   ]
 }

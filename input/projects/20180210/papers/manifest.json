@@ -8,11 +8,13 @@
       "title": "Is anchoring at ‘dead’ a theoretical requirement for health state valuation?",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1002/hec.4863",
-      "method": "publisher_pdf",
+      "method": "manual_browser",
       "source_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hec.4863",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/20180210/papers/doi_10.1002_hec.4863.pdf",
+      "bytes": 320101,
+      "sha256": "7fbc93a61f09abadcf6017f962636c6880ea58bf02bca40ea62edf80227d569d"
     }
   ]
 }

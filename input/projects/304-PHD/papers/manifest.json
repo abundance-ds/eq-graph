@@ -92,11 +92,13 @@
       "title": "Comparing the Conditional Logit Estimates and True Parameters under Preference Heterogeneity: A Simulated Discrete Choice Experiment",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.3390/econometrics11010004",
-      "method": "publisher_pdf",
+      "method": "manual_browser",
       "source_url": "https://www.mdpi.com/2225-1146/11/1/4/pdf?version=1676271863",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "publisher refuses automated download (HTTP 403); use the landing page"
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.3390_econometrics11010004.pdf",
+      "bytes": 438358,
+      "sha256": "b72070d08d03a0daac19dbdcb5b74af2e9dd7dd0bc93434502deb589da46d039"
     }
   ]
 }

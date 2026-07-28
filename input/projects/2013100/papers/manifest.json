@@ -8,11 +8,13 @@
       "title": "Do health preferences contradict ordering of EQ-5D labels?",
       "licence": null,
       "landing_page": "https://doi.org/10.1007/s11136-014-0897-z",
-      "method": "epmc_xml",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5115631/fullTextXML",
+      "method": "manual_browser",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5115631/pdf/",
       "alternates": 0,
-      "status": "unavailable",
-      "reason": "HTTP 404 for https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5115631/fullTextXML"
+      "status": "ok",
+      "file": "input/projects/2013100/papers/doi_10.1007_s11136-014-0897-z.pdf",
+      "bytes": 349535,
+      "sha256": "5b139268b64a6be0773688cd162753c9a04a8f8f802a4bd0af249942d5a6648e"
     },
     {
       "work_id": "doi:10.1007/s11136-017-1591-8",
