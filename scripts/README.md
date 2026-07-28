@@ -125,6 +125,16 @@ that field is often the publisher's own copy, which is exactly the one that answ
    repository deposit is redistributable and rarely blocks automated fetching.
 3. **Publisher PDFs only under an explicit Creative Commons licence.** An Elsevier
    "TDM user licence" is not a redistribution licence and does not qualify.
+4. **A pointer recorded on the work itself**, from OpenAlex or Europe PMC, under the
+   same licence bar. Mostly duplicates Unpaywall — of OpenAlex's 515 PDF pointers,
+   198 were byte-identical to a location Unpaywall already listed and only 7 were
+   novel — but the handful it alone knows are worth trying last.
+
+Note what OpenAlex is: a catalogue, not an archive. Its 739 funder works carry 515
+PDF *pointers* and zero documents, and those pointers lead to publisher hosts
+(Springer, Wiley, MDPI, valueinhealthjournal) that block automated fetching. CORE, by
+contrast, harvests repository deposits and returns the text inline. Metadata
+completeness and full-text retrievability are different axes.
 
 Preferring repositories turned 18 publisher fetches into 15 repository ones and
 recovered 7 articles that were previously unobtainable. Everything still unreachable

@@ -22,10 +22,14 @@
       "title": "Valuation of EuroQol Five-Dimensional Questionnaire, Youth Version (EQ-5D-Y) and EuroQol Five-Dimensional Questionnaire, Three-Level Version (EQ-5D-3L) Health States: The Impact of Wording and Perspective",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2018.05.002",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "indexed_pdf",
+      "source_url": "http://www.valueinhealthjournal.com/article/S1098301518321983/pdf",
+      "alternates": 0,
+      "status": "unavailable",
+      "reason": "no candidate location yielded the document (1 tried); publisher refuses automated download",
+      "attempts": [
+        "http://www.valueinhealthjournal.com/article/S1098301518321983/pdf -> 403"
+      ]
     }
   ]
 }

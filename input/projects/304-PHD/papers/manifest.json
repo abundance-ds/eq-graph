@@ -52,7 +52,7 @@
       "landing_page": "https://doi.org/10.1097/mlr.0000000000002200",
       "method": "epmc_xml",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12422609/fullTextXML",
-      "alternates": 0,
+      "alternates": 1,
       "status": "ok",
       "file": "input/projects/304-PHD/papers/doi_10.1097_mlr.0000000000002200.xml",
       "bytes": 95368,

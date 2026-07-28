@@ -8,11 +8,16 @@
       "title": "Performance of the Experimental EuroQol Toddler and Infant Populations (EQ-TIPS) and PedsQL in Infants and Toddlers with a Health Condition",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.36469/001c.145813",
-      "method": "epmc_xml",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12629638/fullTextXML",
-      "alternates": 0,
-      "status": "unavailable",
-      "reason": "no copy at the recorded location"
+      "method": "indexed_pdf",
+      "source_url": "https://europepmc.org/articles/PMC12629638?pdf=render",
+      "alternates": 1,
+      "attempts_failed": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12629638/fullTextXML -> 404"
+      ],
+      "status": "ok",
+      "file": "input/projects/1681-RA/papers/doi_10.36469_001c.145813.pdf",
+      "bytes": 1226291,
+      "sha256": "9b06ca9e5c291c925f3d10e60b20e0ffdbc66b14b05a7af66cae648c8c75ba68"
     }
   ]
 }

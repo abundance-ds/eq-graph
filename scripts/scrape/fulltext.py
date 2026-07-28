@@ -97,6 +97,13 @@ def candidate_sources(work, locations: list[dict]) -> list[tuple[str, str, str]]
             if url not in seen:
                 seen.add(url)
                 out.append((method, url, reason))
+
+    # Last resort: a pointer recorded on the work itself, from OpenAlex or Europe PMC.
+    # These mostly duplicate Unpaywall, but a handful of locations are known only to
+    # those sources. Same licence bar as above -- an unstated licence does not qualify.
+    own = work["pdf_url"]
+    if own and own not in seen and work["is_oa"] and CC_LICENCE_RE.search(work["licence"] or ""):
+        out.append(("indexed_pdf", own, f"location from work metadata, {work['licence']}"))
     return out
 
 
