@@ -3,6 +3,17 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1016/j.vhri.2025.101121",
+      "doi": "10.1016/j.vhri.2025.101121",
+      "title": "Adaptation of the Experimental Version of EQ-5D-Y-5L Into Bahasa Indonesia",
+      "licence": "cc by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.vhri.2025.101121",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    },
+    {
       "work_id": "doi:10.1186/s12955-021-01889-4",
       "doi": "10.1186/s12955-021-01889-4",
       "title": "Comparing measurement properties of EQ-5D-Y-3L and EQ-5D-Y-5L in paediatric patients",

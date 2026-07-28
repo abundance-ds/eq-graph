@@ -64,6 +64,65 @@
         "landing_page": "https://doi.org/10.1007/s40258-022-00772-7",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2021.114519",
+      "doi": "10.1016/j.socscimed.2021.114519",
+      "pmid": "34736804",
+      "pmcid": null,
+      "title": "An EQ-5D-5L value set for Italy using videoconferencing interviews and feasibility of a new mode of administration",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        },
+        {
+          "full_name": "Michela Meregaglia",
+          "last_name": "Meregaglia",
+          "orcid": null
+        },
+        {
+          "full_name": "Oriana Ciani",
+          "last_name": "Ciani",
+          "orcid": "https://orcid.org/0000-0002-3607-0508"
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Claudio Jommi",
+          "last_name": "Jommi",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2021.114519",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2021.114519",
+        "retrieval": "open"
+      }
     }
   ],
   "review": [],
@@ -301,65 +360,6 @@
         "oa_url": "http://www.valueinhealthjournal.com/article/S1098301524001165/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301524001165/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2024.03.002",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.socscimed.2021.114519",
-      "doi": "10.1016/j.socscimed.2021.114519",
-      "pmid": "34736804",
-      "pmcid": null,
-      "title": "An EQ-5D-5L value set for Italy using videoconferencing interviews and feasibility of a new mode of administration",
-      "journal": "Social Science &amp; Medicine",
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Aureliano Paolo Finch",
-          "last_name": "Finch",
-          "orcid": "https://orcid.org/0000-0003-1438-321x"
-        },
-        {
-          "full_name": "Michela Meregaglia",
-          "last_name": "Meregaglia",
-          "orcid": null
-        },
-        {
-          "full_name": "Oriana Ciani",
-          "last_name": "Ciani",
-          "orcid": "https://orcid.org/0000-0002-3607-0508"
-        },
-        {
-          "full_name": "Bram Roudijk",
-          "last_name": "Roudijk",
-          "orcid": null
-        },
-        {
-          "full_name": "Claudio Jommi",
-          "last_name": "Jommi",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc",
-        "openalex"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.socscimed.2021.114519",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.socscimed.2021.114519",
         "retrieval": "open"
       }
     },

@@ -1,0 +1,17 @@
+{
+  "project_id": "20180500",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-021-01412-y",
+      "doi": "10.1007/s10198-021-01412-y",
+      "title": "Reliability and validity of using EQ-5D-5L among healthy and adolescents with major mental health disorders in Ethiopia",
+      "licence": "https://www.springer.com/tdm",
+      "landing_page": "https://doi.org/10.1007/s10198-021-01412-y",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "no open-access copy; use the landing page"
+    }
+  ]
+}

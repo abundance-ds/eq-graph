@@ -98,6 +98,67 @@ def harvest(conn, fetcher: Fetcher, retry_failed: bool = False, log=print) -> di
     return stats
 
 
+def core_store_path(doi: str) -> Path:
+    return STORE / ("doi_" + re.sub(r"[^A-Za-z0-9._-]+", "_", doi) + ".txt")
+
+
+def harvest_core(conn, fetcher, retry_failed: bool = False, log=print) -> dict:
+    """Fetch full text from CORE for pooled works Europe PMC cannot serve.
+
+    Only works with a DOI and no PMCID: those have no Europe PMC full text at all,
+    so CORE's repository deposit is the only text available to mine.
+    """
+    from . import sources
+    if not sources.CORE_API_KEY:
+        log("  core: skipped, CORE_API_KEY not set")
+        return {"skipped": True}
+
+    rows = conn.execute(
+        "SELECT work_id, doi FROM work WHERE pmcid IS NULL AND doi IS NOT NULL "
+        "ORDER BY work_id"
+    ).fetchall()
+    STORE.mkdir(parents=True, exist_ok=True)
+    stats = {"fetched": 0, "no_text": 0, "absent": 0, "settled": 0, "failed": 0}
+
+    for index, row in enumerate(rows, 1):
+        work_id, doi = row["work_id"], row["doi"]
+        dest = core_store_path(doi)
+        key = f"core:{doi}"
+        prior = task_row(conn, work_id, "core", "harvest")
+        if is_settled(prior, retry_failed, key) and (
+            prior["status"] != "ok" or dest.exists()
+        ):
+            stats["settled"] += 1
+            continue
+        try:
+            record = sources.core_by_doi(fetcher, doi)
+        except FetchError as exc:
+            set_task(conn, work_id, "core", "harvest", "failed", query=key,
+                     http_status=getattr(exc, "status", None), error=str(exc)[:300])
+            stats["failed"] += 1
+            continue
+        text = (record or {}).get("fullText") or ""
+        if not record:
+            set_task(conn, work_id, "core", "harvest", "empty", query=key,
+                     error="not in CORE")
+            stats["absent"] += 1
+        elif not text:
+            set_task(conn, work_id, "core", "harvest", "empty", query=key,
+                     error="in CORE but no full text deposited")
+            stats["no_text"] += 1
+        else:
+            dest.write_text(text, encoding="utf-8")
+            set_task(conn, work_id, "core", "harvest", "ok", query=key,
+                     result_count=len(text))
+            stats["fetched"] += 1
+        if index % 50 == 0:
+            conn.commit()
+            log(f"  core {index}/{len(rows)} | {stats}")
+    conn.commit()
+    log(f"core harvest: {stats}")
+    return stats
+
+
 def project_ids(conn) -> set[str]:
     return {
         json.loads(p.read_text(encoding="utf-8"))["project_id"]
@@ -131,18 +192,28 @@ def mine(conn, log=print) -> dict:
         row["pmcid"]: row["work_id"]
         for row in conn.execute("SELECT work_id, pmcid FROM work WHERE pmcid IS NOT NULL")
     }
+    work_by_corefile = {
+        core_store_path(row["doi"]).name: row["work_id"]
+        for row in conn.execute("SELECT work_id, doi FROM work WHERE doi IS NOT NULL")
+    }
     conn.execute("DELETE FROM fulltext_mention")
     stamp = now()
     scanned = linked = 0
 
-    for path in sorted(STORE.glob("*.xml")):
-        work_id = work_by_pmcid.get(path.stem)
-        if not work_id:
-            continue
-        try:
-            text = " ".join(t for t in ET.parse(path).getroot().itertext())
-        except ET.ParseError:
-            continue
+    for path in sorted(list(STORE.glob("*.xml")) + list(STORE.glob("*.txt"))):
+        if path.suffix == ".xml":
+            work_id = work_by_pmcid.get(path.stem)
+            if not work_id:
+                continue
+            try:
+                text = " ".join(t for t in ET.parse(path).getroot().itertext())
+            except ET.ParseError:
+                continue
+        else:
+            work_id = work_by_corefile.get(path.name)
+            if not work_id:
+                continue
+            text = path.read_text(encoding="utf-8", errors="replace")
         scanned += 1
         for project_id, snippet in mentions_in(text, known).items():
             conn.execute(

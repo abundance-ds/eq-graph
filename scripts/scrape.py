@@ -58,6 +58,7 @@ def cmd_enrich(conn, args) -> None:
 def cmd_harvest(conn, args) -> None:
     fetcher = Fetcher(conn, force=args.force)
     mine.harvest(conn, fetcher, args.retry_failed)
+    mine.harvest_core(conn, fetcher, args.retry_failed)
 
 
 def cmd_mine(conn, args) -> None:

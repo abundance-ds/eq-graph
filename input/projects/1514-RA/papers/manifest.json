@@ -1,0 +1,20 @@
+{
+  "project_id": "1514-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.03.002",
+      "doi": "10.1016/j.jval.2024.03.002",
+      "title": "The Measurement Properties of the EQ-HWB and the EQ-HWB-S in Italian Population: A Comparative Study With EQ-5D-5L",
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.jval.2024.03.002",
+      "method": "repository_pdf",
+      "source_url": "https://eprints.whiterose.ac.uk/224163/1/PIIS1098301524001165.pdf",
+      "alternates": 0,
+      "status": "ok",
+      "file": "input/projects/1514-RA/papers/doi_10.1016_j.jval.2024.03.002.pdf",
+      "bytes": 572440,
+      "sha256": "2cc73a337f6813ebde245856d49d94b644f405b5a14fe4649ec8fbf26e193f78"
+    }
+  ]
+}

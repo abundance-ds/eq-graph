@@ -15,6 +15,17 @@
       "file": "input/projects/20190460/papers/doi_10.1007_s40258-022-00772-7.xml",
       "bytes": 210415,
       "sha256": "d842a3b656e5287b494ecdaf400b1907cb684fb8c2f1955672fb86169cf800ef"
+    },
+    {
+      "work_id": "doi:10.1016/j.socscimed.2021.114519",
+      "doi": "10.1016/j.socscimed.2021.114519",
+      "title": "An EQ-5D-5L value set for Italy using videoconferencing interviews and feasibility of a new mode of administration",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1016/j.socscimed.2021.114519",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
     }
   ]
 }

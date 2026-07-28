@@ -1,0 +1,17 @@
+{
+  "project_id": "1447-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.socscimed.2024.116720",
+      "doi": "10.1016/j.socscimed.2024.116720",
+      "title": "Exploring the measurement of health related quality of life and broader instruments: A dimensionality analysis",
+      "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "landing_page": "https://doi.org/10.1016/j.socscimed.2024.116720",
+      "method": "skip",
+      "source_url": null,
+      "status": "skipped",
+      "reason": "flagged OA but no usable free location recorded"
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "project_id": "20180500",
-  "accepted": [],
-  "review": [
+  "accepted": [
     {
       "work_id": "doi:10.1007/s10198-021-01412-y",
       "doi": "10.1007/s10198-021-01412-y",
@@ -47,10 +46,15 @@
           "orcid": null
         }
       ],
-      "score": 0.8,
-      "confidence": "review",
+      "score": 1.0,
+      "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "title_strong",
           "detail": "title similarity 0.97",
@@ -72,6 +76,7 @@
       }
     }
   ],
+  "review": [],
   "weak": [
     {
       "work_id": "doi:10.1186/s41687-024-00770-4",

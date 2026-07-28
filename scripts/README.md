@@ -31,7 +31,7 @@ takes about a second and costs nothing. Refining a heuristic means editing
 | `discover` | yes | Issues corpus sweeps and per-project queries; fills the cache; records every attempt |
 | `match` | no | Replays the cache, scores project↔work links, writes `work` and `candidate` |
 | `enrich` | yes | Unpaywall lookup per DOI for OA status and a free full-text location |
-| `harvest` | yes | Pulls Europe PMC JATS XML for **every** pooled work with a PMCID into `cache/fulltext/` |
+| `harvest` | yes | Pulls Europe PMC JATS XML for every pooled work with a PMCID, then CORE full text for those with a DOI but no PMCID, into `cache/fulltext/` |
 | `mine` | no | Reads project ids out of that text, near a EuroQol mention |
 | `fulltext` | yes | Downloads openly licensed full texts into each project's `papers/` |
 | `export` | no | Writes `publications.json` into each project directory |

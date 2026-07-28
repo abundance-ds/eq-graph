@@ -1,0 +1,20 @@
+{
+  "project_id": "20170640",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.06.018",
+      "doi": "10.1016/j.jval.2024.06.018",
+      "title": "Valuation of Multidimensional Health States With a Bolt-On: Is There a Shortcut?",
+      "licence": "other-oa",
+      "landing_page": "https://doi.org/10.1016/j.jval.2024.06.018",
+      "method": "repository_pdf",
+      "source_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
+      "alternates": 0,
+      "status": "ok",
+      "file": "input/projects/20170640/papers/doi_10.1016_j.jval.2024.06.018.pdf",
+      "bytes": 736734,
+      "sha256": "3bc28bf879fce1cae422785875900a21016b34ad42791e0688ffe7b2b5d13572"
+    }
+  ]
+}

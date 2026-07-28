@@ -1,0 +1,62 @@
+{
+  "project_id": "1447-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.socscimed.2024.116720",
+      "doi": "10.1016/j.socscimed.2024.116720",
+      "pmid": "38452490",
+      "pmcid": null,
+      "title": "Exploring the measurement of health related quality of life and broader instruments: A dimensionality analysis",
+      "journal": "Social Science &amp; Medicine",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Jan M. Heijdra Suasnabar",
+          "last_name": "Heijdra Suasnabar",
+          "orcid": "https://orcid.org/0000-0002-8057-1318"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Brendan Mulhern",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Elske van den Akker-van Marle",
+          "last_name": "van den Akker-van Marle",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.socscimed.2024.116720",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.socscimed.2024.116720",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

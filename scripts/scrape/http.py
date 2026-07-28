@@ -13,6 +13,7 @@ import os
 import time
 import urllib.parse
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -34,11 +35,35 @@ HOST_DELAY = {
     "api.openalex.org": 0.34,
     # Introductory Semantic Scholar keys allow 1 request per second.
     "api.semanticscholar.org": 1.05,
+    # CORE allows 10 requests per window and 429s well before 1/s is sustainable;
+    # measured empirically, ~6s between calls is what it actually tolerates.
+    "api.core.ac.uk": 6.5,
 }
 DEFAULT_DELAY = 0.5
 
 RETRY_STATUS = {429, 500, 502, 503, 504}
 MAX_ATTEMPTS = 4
+
+
+def _retry_delay(resp, attempt: int) -> float:
+    """Seconds to wait before retrying, honouring whatever the server told us.
+
+    CORE returns `x-ratelimit-retry-after` as an ISO timestamp rather than the
+    seconds-offset that `Retry-After` uses, so both forms are handled.
+    """
+    header = resp.headers.get("Retry-After")
+    if header and header.strip().isdigit():
+        return min(float(header), 120.0)
+    stamp = resp.headers.get("x-ratelimit-retry-after")
+    if stamp:
+        try:
+            target = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+            delta = (target - datetime.now(timezone.utc)).total_seconds()
+            if delta > 0:
+                return min(delta + 1.0, 120.0)
+        except ValueError:
+            pass
+    return min(2 ** attempt, 30)
 
 
 class FetchError(RuntimeError):
@@ -56,7 +81,9 @@ class Response:
     from_cache: bool
 
     def json(self):
-        return json.loads(self.body)
+        # strict=False: CORE embeds raw control characters inside `fullText`, which
+        # the default parser rejects outright.
+        return json.loads(self.body, strict=False)
 
 
 def canonical_url(url: str, params: dict | None = None) -> str:
@@ -127,9 +154,18 @@ class Fetcher:
                 continue
 
             if resp.status_code in RETRY_STATUS and attempt < MAX_ATTEMPTS:
-                wait = resp.headers.get("Retry-After")
-                time.sleep(float(wait) if wait and wait.isdigit() else min(2**attempt, 30))
+                time.sleep(_retry_delay(resp, attempt))
                 last_error = FetchError(f"HTTP {resp.status_code}", resp.status_code)
+                continue
+
+            # CORE answers an exhausted quota with HTTP 200 and an empty body, so the
+            # counter header is the only reliable signal.
+            remaining = resp.headers.get("x-ratelimit-remaining")
+            if remaining is not None and remaining.isdigit() and int(remaining) <= 1:
+                time.sleep(2)
+            if not resp.text.strip() and attempt < MAX_ATTEMPTS:
+                last_error = FetchError("empty body (quota exhausted?)", resp.status_code)
+                time.sleep(min(2 ** attempt, 20))
                 continue
 
             self._store(full, key, path, resp.status_code, resp.text)

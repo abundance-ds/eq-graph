@@ -305,26 +305,27 @@ CORE_API_KEY = os.environ.get("CORE_API_KEY")
 S2_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
 OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY")
 
-CORE_SEARCH = "https://api.core.ac.uk/v3/search/works"
+# The trailing slash matters: without it CORE answers 301.
+CORE_SEARCH = "https://api.core.ac.uk/v3/search/works/"
 S2_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search"
 OPENALEX_WORKS = "https://api.openalex.org/works"
 
 
-def core_works(fetcher: Fetcher, max_pages: int = MAX_PAGES) -> Iterator[dict]:
-    """CORE aggregates open-access repository deposits, including full text."""
+def core_by_doi(fetcher: Fetcher, doi: str) -> dict | None:
+    """Look one DOI up in CORE, which returns the deposited full text inline.
+
+    Broad phrase search is useless here -- CORE's parser ORs the terms, so
+    `"EuroQol Research Foundation"` matches 4.4M records. A `doi:"..."` query is
+    exact. The value is works with no PMCID, which Europe PMC cannot supply at all.
+    """
     if not CORE_API_KEY:
-        return
-    for page in range(max_pages):
-        resp = fetcher.get(
-            CORE_SEARCH,
-            {"q": '"EuroQol Research Foundation"', "limit": PAGE_SIZE,
-             "offset": page * PAGE_SIZE},
-            headers={"Authorization": f"Bearer {CORE_API_KEY}"},
-        )
-        results = resp.json().get("results", [])
-        yield from results
-        if len(results) < PAGE_SIZE:
-            return
+        return None
+    resp = fetcher.get(
+        CORE_SEARCH, {"q": f'doi:"{doi}"', "limit": 1},
+        headers={"Authorization": f"Bearer {CORE_API_KEY}"},
+    )
+    results = resp.json().get("results") or []
+    return results[0] if results else None
 
 
 def core_to_work(item: dict) -> dict | None:

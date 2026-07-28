@@ -1,6 +1,56 @@
 {
   "project_id": "20170640",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1016/j.jval.2024.06.018",
+      "doi": "10.1016/j.jval.2024.06.018",
+      "pmid": "38977194",
+      "pmcid": null,
+      "title": "Valuation of Multidimensional Health States With a Bolt-On: Is There a Shortcut?",
+      "journal": "Value in Health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Rand",
+          "last_name": "Rand",
+          "orcid": null
+        },
+        {
+          "full_name": "Nan Luo",
+          "last_name": "Luo",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc",
+        "openalex"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
+        "pdf_url": "https://pure.eur.nl/ws/files/174504994/1-s2.0-S1098301524027578-main.pdf",
+        "landing_page": "https://doi.org/10.1016/j.jval.2024.06.018",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -1021,5 +1071,5 @@
       }
     }
   ],
-  "weak_omitted": 26
+  "weak_omitted": 25
 }
