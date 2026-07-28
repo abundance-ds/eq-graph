@@ -5,7 +5,7 @@
     {
       "work_id": "doi:10.1007/s10198-021-01412-y",
       "doi": "10.1007/s10198-021-01412-y",
-      "pmid": null,
+      "pmid": "35013918",
       "pmcid": null,
       "title": "Reliability and validity of using EQ-5D-5L among healthy and adolescents with major mental health disorders in Ethiopia",
       "journal": "The European Journal of Health Economics",
@@ -58,13 +58,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "https://www.springer.com/tdm",
         "oa_url": null,
-        "pdf_url": null,
+        "pdf_url": "https://eprints.whiterose.ac.uk/186229/1/Accepted%20manuscript%20%EF%80%A0Reliability%20and%20Validity%20of%20Using%20EQ-5D-5L%20among%20Healthy%20and%20Adolescents%20with%20Major%20Mental%20Health%20Disorders%20in%20Ethiopia.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-021-01412-y",
         "retrieval": "requires_subscription"
       }

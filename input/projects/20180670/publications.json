@@ -6,8 +6,8 @@
     {
       "work_id": "doi:10.1016/j.ctro.2022.09.008",
       "doi": "10.1016/j.ctro.2022.09.008",
-      "pmid": null,
-      "pmcid": null,
+      "pmid": "36247687",
+      "pmcid": "PMC9554755",
       "title": "Replacing performance status with a simple patient-reported outcome in palliative radiotherapy prognostic modelling",
       "journal": "Clinical and Translational Radiation Oncology",
       "year": 2022,
@@ -44,13 +44,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.ctro.2022.09.008",
-        "pdf_url": null,
+        "oa_url": "https://europepmc.org/articles/PMC9554755",
+        "pdf_url": "https://europepmc.org/articles/PMC9554755?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.ctro.2022.09.008",
         "retrieval": "open"
       }

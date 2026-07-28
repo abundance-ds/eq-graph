@@ -4,6 +4,48 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s40271-021-00509-z",
+      "doi": "10.1007/s40271-021-00509-z",
+      "pmid": "33782840",
+      "pmcid": "PMC8007385",
+      "title": "QALYs for COVID-19: A Comparison of US EQ-5D-5L Value Sets",
+      "journal": "The patient",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Poteet S",
+          "last_name": "Poteet",
+          "orcid": "0000-0002-4502-6461"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://europepmc.org/articles/PMC8007385",
+        "pdf_url": "https://europepmc.org/articles/PMC8007385?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-021-00509-z",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40271-024-00708-4",
       "doi": "10.1007/s40271-024-00708-4",
       "pmid": "39031285",

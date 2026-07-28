@@ -31,10 +31,15 @@
           "orcid": "https://orcid.org/0000-0002-3730-1996"
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 2015240",
@@ -234,6 +239,53 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s11136-020-02705-0",
+      "doi": "10.1007/s11136-020-02705-0",
+      "pmid": "33237551",
+      "pmcid": "PMC7952340",
+      "title": "Population norms of health-related quality of life in Moscow, Russia: the EQ-5D-5L-based survey",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Hołownia-Voloskova M",
+          "last_name": "Hołownia-Voloskova",
+          "orcid": "0000-0002-2437-298X"
+        },
+        {
+          "full_name": "Tarbastaev A",
+          "last_name": "Tarbastaev",
+          "orcid": "0000-0002-7301-9891"
+        },
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7952340",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-020-02705-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-020-02705-0",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s11136-025-04077-9",
       "doi": "10.1007/s11136-025-04077-9",
       "pmid": "41162689",
@@ -326,7 +378,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2020.04.1825",
       "doi": "10.1016/j.jval.2020.04.1825",
-      "pmid": null,
+      "pmid": "32762998",
       "pmcid": null,
       "title": "EQ-5D–Derived Health State Utility Values in Hematologic Malignancies: A Catalog of 796 Utilities Based on a Systematic Review",
       "journal": "Value in Health",
@@ -399,7 +451,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -450,6 +503,95 @@
         "oa_url": "https://doi.org/10.1016/j.jval.2022.05.013",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301522020010/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2022.05.013",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-021-01780-2",
+      "doi": "10.1186/s12955-021-01780-2",
+      "pmid": "33952271",
+      "pmcid": "PMC8097836",
+      "title": "Validity of EQ-5D-5L health-related quality of life questionnaire in self-reported diabetes: evidence from a general population survey",
+      "journal": "Health and quality of life outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Jankowska A",
+          "last_name": "Jankowska",
+          "orcid": "0000-0002-8889-2060"
+        },
+        {
+          "full_name": "Młyńczak K",
+          "last_name": "Młyńczak",
+          "orcid": "0000-0002-0877-5623"
+        },
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8097836",
+        "pdf_url": "https://europepmc.org/articles/PMC8097836?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01780-2",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0257998",
+      "doi": "10.1371/journal.pone.0257998",
+      "pmid": "34587218",
+      "pmcid": "PMC8480847",
+      "title": "EQ-5D-5L-based quality of life normative data for patients with self-reported diabetes in Poland",
+      "journal": "PloS one",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Jankowska A",
+          "last_name": "Jankowska",
+          "orcid": null
+        },
+        {
+          "full_name": "Golicki D",
+          "last_name": "Golicki",
+          "orcid": "0000-0001-7741-4760"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8480847",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0257998&type=printable",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0257998",
         "retrieval": "open"
       }
     },

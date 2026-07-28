@@ -473,7 +473,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.05.024",
       "doi": "10.1016/j.jval.2024.05.024",
-      "pmid": null,
+      "pmid": "38977189",
       "pmcid": null,
       "title": "A New and Improved Experimental Design for the Discrete Choice Experiment Module of the EuroQol Valuation Technology Protocol",
       "journal": "Value in Health",
@@ -501,7 +501,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -898,5 +899,5 @@
       }
     }
   ],
-  "weak_omitted": 2
+  "weak_omitted": 5
 }

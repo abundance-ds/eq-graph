@@ -110,6 +110,53 @@
       }
     },
     {
+      "work_id": "doi:10.1186/s12955-018-0840-z",
+      "doi": "10.1186/s12955-018-0840-z",
+      "pmid": "29321017",
+      "pmcid": "PMC5763523",
+      "title": "Influence of the child's perceived general health on the primary caregiver's health status",
+      "journal": "Health and quality of life outcomes",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Ramma L",
+          "last_name": "Ramma",
+          "orcid": "0000-0001-9109-9103"
+        },
+        {
+          "full_name": "Jelsma J",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5763523",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-018-0840-z",
+        "landing_page": "https://doi.org/10.1186/s12955-018-0840-z",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-020-01410-3",
       "doi": "10.1186/s12955-020-01410-3",
       "pmid": "32448278",

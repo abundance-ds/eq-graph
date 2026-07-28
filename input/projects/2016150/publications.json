@@ -131,7 +131,7 @@
     {
       "work_id": "doi:10.1007/s40271-017-0240-1",
       "doi": "10.1007/s40271-017-0240-1",
-      "pmid": null,
+      "pmid": "28409481",
       "pmcid": null,
       "title": "Views of the UK General Public on Important Aspects of Health Not Captured by EQ-5D",
       "journal": "The Patient - Patient-Centered Outcomes Research",
@@ -169,13 +169,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "http://www.springer.com/tdm",
         "oa_url": null,
-        "pdf_url": null,
+        "pdf_url": "https://opus.lib.uts.edu.au/bitstream/10453/125508/4/bm_the%20patient.pdf",
         "landing_page": "https://doi.org/10.1007/s40271-017-0240-1",
         "retrieval": "requires_subscription"
       }
@@ -183,7 +184,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2021.11.1377",
       "doi": "10.1016/j.jval.2021.11.1377",
-      "pmid": null,
+      "pmid": "35232661",
       "pmcid": null,
       "title": "Exploration of the Reasons Why Health State Valuation Differs for Children Compared With Adults: A Mixed Methods Approach",
       "journal": "Value in Health",
@@ -221,7 +222,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -4,6 +4,259 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s10198-022-01460-y",
+      "doi": "10.1007/s10198-022-01460-y",
+      "pmid": "35412162",
+      "pmcid": "PMC9877050",
+      "title": "Comparing the psychometric properties of the EQ-5D-3L and EQ-5D-5L descriptive systems and utilities in atopic dermatitis",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Koszorú K",
+          "last_name": "Koszorú",
+          "orcid": "0000-0002-7820-683X"
+        },
+        {
+          "full_name": "Hajdu K",
+          "last_name": "Hajdu",
+          "orcid": "0000-0003-0833-9116"
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Bató A",
+          "last_name": "Bató",
+          "orcid": "0000-0002-1450-4790"
+        },
+        {
+          "full_name": "Gergely LH",
+          "last_name": "Gergely",
+          "orcid": "0000-0001-5266-4667"
+        },
+        {
+          "full_name": "Kovács A",
+          "last_name": "Kovács",
+          "orcid": "0000-0002-4854-8935"
+        },
+        {
+          "full_name": "Beretzky Z",
+          "last_name": "Beretzky",
+          "orcid": "0000-0001-8300-3888"
+        },
+        {
+          "full_name": "Sárdy M",
+          "last_name": "Sárdy",
+          "orcid": "0000-0003-4306-5093"
+        },
+        {
+          "full_name": "Szegedi A",
+          "last_name": "Szegedi",
+          "orcid": "0000-0003-2109-9014"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9877050",
+        "pdf_url": "https://europepmc.org/articles/PMC9877050?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-022-01460-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-024-01719-6",
+      "doi": "10.1007/s10198-024-01719-6",
+      "pmid": "39212881",
+      "pmcid": "PMC11937053",
+      "title": "The added value of the cognition, dining, gastrointestinal problems, sleep and tiredness bolt-on dimensions to the EQ-5D-5L in patients with coeliac disease",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Angyal MM",
+          "last_name": "Angyal",
+          "orcid": "0000-0001-7161-6767"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": "0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Lakatos PL",
+          "last_name": "Lakatos",
+          "orcid": "0000-0002-3948-6488"
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11937053",
+        "pdf_url": "https://europepmc.org/articles/PMC11937053?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01719-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-024-01728-5",
+      "doi": "10.1007/s10198-024-01728-5",
+      "pmid": "39340749",
+      "pmcid": "PMC12126321",
+      "title": "Comparing EQ-5D-5L, PROPr, SF-6D and TTO utilities in patients with chronic skin diseases",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Szabó Á",
+          "last_name": "Szabó",
+          "orcid": "0000-0003-2386-4525"
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1007/s10198-024-01728-5",
+        "pdf_url": "https://europepmc.org/articles/PMC12126321?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01728-5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s10198-025-01772-9",
+      "doi": "10.1007/s10198-025-01772-9",
+      "pmid": "40075019",
+      "pmcid": "PMC12432065",
+      "title": "Psychometric benefits of adding bolt-ons to the EQ-5D-5L in populations undergoing minimally invasive cosmetic procedures",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Müller EM",
+          "last_name": "Müller",
+          "orcid": "0009-0004-6107-9274"
+        },
+        {
+          "full_name": "Nikl A",
+          "last_name": "Nikl",
+          "orcid": "0000-0003-3170-728X"
+        },
+        {
+          "full_name": "Krebs M",
+          "last_name": "Krebs",
+          "orcid": "0009-0004-6394-4276"
+        },
+        {
+          "full_name": "Holló P",
+          "last_name": "Holló",
+          "orcid": "0000-0002-0744-8989"
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Kemény LV",
+          "last_name": "Kemény",
+          "orcid": "0000-0002-8233-1844"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12432065",
+        "pdf_url": "https://europepmc.org/articles/PMC12432065?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01772-9",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s10198-025-01839-7",
       "doi": "10.1007/s10198-025-01839-7",
       "pmid": "41107671",
@@ -95,6 +348,130 @@
         "oa_url": "https://europepmc.org/articles/PMC10784346",
         "pdf_url": "https://europepmc.org/articles/PMC10784346?pdf=render",
         "landing_page": "https://doi.org/10.1007/s11136-023-03509-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-023-03519-6",
+      "doi": "10.1007/s11136-023-03519-6",
+      "pmid": "37787930",
+      "pmcid": "PMC10784357",
+      "title": "Content validity of the EQ-5D-5L with skin irritation and self-confidence bolt-ons in patients with atopic dermatitis: a qualitative think-aloud study",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Szlávicz E",
+          "last_name": "Szlávicz",
+          "orcid": "0000-0002-1083-0994"
+        },
+        {
+          "full_name": "Szabó Á",
+          "last_name": "Szabó",
+          "orcid": "0000-0003-2386-4525"
+        },
+        {
+          "full_name": "Kinyó Á",
+          "last_name": "Kinyó",
+          "orcid": "0000-0002-9827-2690"
+        },
+        {
+          "full_name": "Szeiffert A",
+          "last_name": "Szeiffert",
+          "orcid": null
+        },
+        {
+          "full_name": "Bancsók T",
+          "last_name": "Bancsók",
+          "orcid": null
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Gyulai R",
+          "last_name": "Gyulai",
+          "orcid": "0000-0002-3286-8846"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10784357",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-023-03519-6.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-023-03519-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-024-03871-1",
+      "doi": "10.1007/s11136-024-03871-1",
+      "pmid": "39704914",
+      "pmcid": "PMC11982107",
+      "title": "Qualitative evidence on EQ-5D-5L skin irritation and self-confidence bolt-ons in Darier's disease and Hailey-Hailey disease",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Plázár D",
+          "last_name": "Plázár",
+          "orcid": "0000-0001-9301-6703"
+        },
+        {
+          "full_name": "Metyovinyi Z",
+          "last_name": "Metyovinyi",
+          "orcid": "0009-0006-2553-1571"
+        },
+        {
+          "full_name": "Medvecz M",
+          "last_name": "Medvecz",
+          "orcid": "0000-0002-3126-096X"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC11982107",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-024-03871-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-024-03871-1",
         "retrieval": "open"
       }
     },
@@ -204,6 +581,63 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s11136-026-04177-0",
+      "doi": "10.1007/s11136-026-04177-0",
+      "pmid": "41677942",
+      "pmcid": "PMC12901120",
+      "title": "Qualitative testing of the EQ-HWB-9 with a 'blank' EQ-HWB VAS and EQ-5D-5L with skin bolt-ons in a rare genetic skin disease population",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Metyovinyi Z",
+          "last_name": "Metyovinyi",
+          "orcid": "0009-0006-2553-1571"
+        },
+        {
+          "full_name": "Plázár D",
+          "last_name": "Plázár",
+          "orcid": "0000-0001-9301-6703"
+        },
+        {
+          "full_name": "Becker K",
+          "last_name": "Becker",
+          "orcid": null
+        },
+        {
+          "full_name": "Medvecz M",
+          "last_name": "Medvecz",
+          "orcid": "0000-0002-3126-096X"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12901120",
+        "pdf_url": "https://europepmc.org/articles/PMC12901120?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04177-0",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s11136-026-04242-8",
       "doi": "10.1007/s11136-026-04242-8",
       "pmid": "42070162",
@@ -256,9 +690,66 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s40273-024-01360-4",
+      "doi": "10.1007/s40273-024-01360-4",
+      "pmid": "38416366",
+      "pmcid": "PMC11039522",
+      "title": "Population Norms for the EQ-5D-5L, PROPr and SF-6D in Hungary",
+      "journal": "PharmacoEconomics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Nikl A",
+          "last_name": "Nikl",
+          "orcid": "0000-0003-3170-728X"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": "0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Jenei B",
+          "last_name": "Jenei",
+          "orcid": "0000-0002-4947-2514"
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01360-4.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01360-4.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-024-01360-4",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2023.02.002",
       "doi": "10.1016/j.jval.2023.02.002",
-      "pmid": null,
+      "pmid": "36804583",
       "pmcid": null,
       "title": "A Direct Comparison of the Measurement Properties of EQ-5D-5L, PROMIS-29+2 and PROMIS Global Health Instruments and EQ-5D-5L and PROPr Utilities in a General Population Sample",
       "journal": "Value in Health",
@@ -291,7 +782,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -344,449 +836,7 @@
         "landing_page": "https://doi.org/10.1016/j.jval.2024.03.2195",
         "retrieval": "open"
       }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2024.12.003",
-      "doi": "10.1016/j.jval.2024.12.003",
-      "pmid": null,
-      "pmcid": null,
-      "title": "The Psychometric Properties of the EQ-HWB and EQ-HWB-S in Patients With Breast Cancer: A Comparative Analysis With EQ-5D-5L, FACT-8D, and SWEMWBS",
-      "journal": "Value in Health",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Stevanus Pangestu",
-          "last_name": "Pangestu",
-          "orcid": null
-        },
-        {
-          "full_name": "Fredrick Dermawan Purba",
-          "last_name": "Purba",
-          "orcid": null
-        },
-        {
-          "full_name": "Hari Setyowibowo",
-          "last_name": "Setyowibowo",
-          "orcid": null
-        },
-        {
-          "full_name": "Yohana Azhar",
-          "last_name": "Azhar",
-          "orcid": null
-        },
-        {
-          "full_name": "Clara Mukuria",
-          "last_name": "Mukuria",
-          "orcid": null
-        },
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2024.12.003",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2024.12.003",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.04.2151",
-      "doi": "10.1016/j.jval.2025.04.2151",
-      "pmid": null,
-      "pmcid": null,
-      "title": "Psychometric Properties of the Modified EQ Health and Wellbeing and its Shorter Version in a General Chinese Population: A Comparative Analysis With EQ-5D-5L, SF-6Dv2, ICEpop CAPability measure for Adults, Short Version of Warwick-Edinburgh Mental Wellbeing Scale, and World Health Organization Well-Being Index 5-Item",
-      "journal": "Value in Health",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Richard H. Xu",
-          "last_name": "Xu",
-          "orcid": null
-        },
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "http://hdl.handle.net/10397/114829",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2151",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.04.2160",
-      "doi": "10.1016/j.jval.2025.04.2160",
-      "pmid": "40320237",
-      "pmcid": null,
-      "title": "A Comparative Study of Health and Well-Being Measures in Ireland Using EQ Health and Wellbeing (EQ-HWB) and its Short Version, EQ-5D-5L, and ICEpop Capability Measure for Adults (ICECAP-A)",
-      "journal": "Value in Health",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Irina Kinchin",
-          "last_name": "Kinchin",
-          "orcid": null
-        },
-        {
-          "full_name": "Lidia Engel",
-          "last_name": "Engel",
-          "orcid": null
-        },
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.04.2160",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2160",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.05.015",
-      "doi": "10.1016/j.jval.2025.05.015",
-      "pmid": "40490133",
-      "pmcid": null,
-      "title": "Development and Use of Cognition Bolt-Ons for the EQ-5D-3L and EQ-5D-5L: A Systematic Review",
-      "journal": "Value in Health",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        },
-        {
-          "full_name": "Stevanus Pangestu",
-          "last_name": "Pangestu",
-          "orcid": null
-        },
-        {
-          "full_name": "Brendan Mulhern",
-          "last_name": "Mulhern",
-          "orcid": null
-        },
-        {
-          "full_name": "Aureliano Paolo Finch",
-          "last_name": "Finch",
-          "orcid": null
-        },
-        {
-          "full_name": "Mathieu F. Janssen",
-          "last_name": "Janssen",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://pure.eur.nl/en/publications/f2cdf58d-07c1-4588-82f5-a5881a80019e",
-        "pdf_url": "https://pure.eur.nl/ws/files/212328632/Development_and_Use_of_Cognition_Bolt-Ons_for_the_EQ-5D-3L_and_EQ-5D-5L.pdf",
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.05.015",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.09.009",
-      "doi": "10.1016/j.jval.2025.09.009",
-      "pmid": "41005701",
-      "pmcid": null,
-      "title": "Comparing Psychometric Properties of 6 of the 5-Level and 3-Level EQ-5D Bolt-Ons in a Large, Multinational, Longitudinal General Population Sample",
-      "journal": "Value in Health",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Sarah Dewilde",
-          "last_name": "Dewilde",
-          "orcid": null
-        },
-        {
-          "full_name": "Mathieu F. Janssen",
-          "last_name": "Janssen",
-          "orcid": null
-        },
-        {
-          "full_name": "Glenn Phillips",
-          "last_name": "Phillips",
-          "orcid": null
-        },
-        {
-          "full_name": "Brendan Mulhern",
-          "last_name": "Mulhern",
-          "orcid": null
-        },
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2025.09.009",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.09.009",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.09.3053",
-      "doi": "10.1016/j.jval.2025.09.3053",
-      "pmid": "41046102",
-      "pmcid": null,
-      "title": "Psychometric Properties of Cognition Bolt-Ons for the EQ-5D-3L and EQ-5D-5L: A Systematic Review",
-      "journal": "Value in Health",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        },
-        {
-          "full_name": "Stevanus Pangestu",
-          "last_name": "Pangestu",
-          "orcid": null
-        },
-        {
-          "full_name": "Brendan Mulhern",
-          "last_name": "Mulhern",
-          "orcid": null
-        },
-        {
-          "full_name": "Aureliano Paolo Finch",
-          "last_name": "Finch",
-          "orcid": null
-        },
-        {
-          "full_name": "Mathieu F. Janssen",
-          "last_name": "Janssen",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": false,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": null,
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.09.3053",
-        "retrieval": "requires_subscription"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2025.10.008",
-      "doi": "10.1016/j.jval.2025.10.008",
-      "pmid": "41177249",
-      "pmcid": null,
-      "title": "Psychometric Performance of Skin, Self-Confidence, and Social Health-Related EQ-5D-5L Bolt-Ons in Patients With Atopic Dermatitis and Psoriasis in Germany",
-      "journal": "Value in Health",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Ines Buchholz",
-          "last_name": "Buchholz",
-          "orcid": null
-        },
-        {
-          "full_name": "Carsten Spitzer",
-          "last_name": "Spitzer",
-          "orcid": null
-        },
-        {
-          "full_name": "Alexander Thiem",
-          "last_name": "Thiem",
-          "orcid": null
-        },
-        {
-          "full_name": "Laura Lübke",
-          "last_name": "Lübke",
-          "orcid": null
-        },
-        {
-          "full_name": "Clara Wülfing",
-          "last_name": "Wülfing",
-          "orcid": null
-        },
-        {
-          "full_name": "Steffen Emmert",
-          "last_name": "Emmert",
-          "orcid": null
-        },
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": false,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": null,
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2025.10.008",
-        "retrieval": "requires_subscription"
-      }
-    },
-    {
-      "work_id": "doi:10.1016/j.jval.2026.01.001",
-      "doi": "10.1016/j.jval.2026.01.001",
-      "pmid": "41548714",
-      "pmcid": null,
-      "title": "Exploring Recall Periods for EQ-5D-5L and EQ-HWB-9: A Hong Kong Population Study",
-      "journal": "Value in Health",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Richard Huan Xu",
-          "last_name": "Xu",
-          "orcid": null
-        },
-        {
-          "full_name": "Chenxi Yang",
-          "last_name": "Yang",
-          "orcid": null
-        },
-        {
-          "full_name": "Fanni Rencz",
-          "last_name": "Rencz",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2026.01.001",
-        "pdf_url": null,
-        "landing_page": "https://doi.org/10.1016/j.jval.2026.01.001",
-        "retrieval": "open"
-      }
     }
   ],
-  "weak_omitted": 5
+  "weak_omitted": 15
 }

@@ -83,6 +83,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 304-PHD",
           "weight": 1.0
@@ -126,6 +131,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 304-PHD",
           "weight": 1.0
@@ -141,6 +151,53 @@
         "oa_url": "https://europepmc.org/articles/PMC11782394",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01444-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40273-024-01444-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1097/mlr.0000000000002200",
+      "doi": "10.1097/mlr.0000000000002200",
+      "pmid": "40846650",
+      "pmcid": "PMC12422609",
+      "title": "Revisiting the Valuation of Child Health-Related Quality of Life: Replacing Paired Comparisons With Kaizen Tasks and QALY Scaling With Experience Scaling",
+      "journal": "Medical care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Jumamyradov M",
+          "last_name": "Jumamyradov",
+          "orcid": "0009-0008-0180-7224"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": "0000-0002-0006-6769"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC12422609",
+        "pdf_url": "https://europepmc.org/articles/PMC12422609?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000002200",
         "retrieval": "open"
       }
     },
@@ -179,6 +236,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 304-PHD",
           "weight": 1.0
@@ -194,6 +256,54 @@
         "oa_url": "https://europepmc.org/articles/PMC10603523",
         "pdf_url": "https://europepmc.org/articles/PMC10603523?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2023-077256",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02271-w",
+      "doi": "10.1186/s12955-024-02271-w",
+      "pmid": "39003479",
+      "pmcid": "PMC11555889",
+      "title": "Scale and rate heterogeneity in the EQ-5D-5L valuation",
+      "journal": "Health and Quality of Life Outcomes",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Maksat Jumamyradov",
+          "last_name": "Jumamyradov",
+          "orcid": null
+        },
+        {
+          "full_name": "Benjamin M. Craig",
+          "last_name": "Craig",
+          "orcid": null
+        },
+        {
+          "full_name": "Michał Jakubczyk",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11555889",
+        "pdf_url": "https://europepmc.org/articles/PMC11555889?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-024-02271-w",
         "retrieval": "open"
       }
     },
@@ -252,6 +362,48 @@
   ],
   "review": [],
   "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-021-00509-z",
+      "doi": "10.1007/s40271-021-00509-z",
+      "pmid": "33782840",
+      "pmcid": "PMC8007385",
+      "title": "QALYs for COVID-19: A Comparison of US EQ-5D-5L Value Sets",
+      "journal": "The patient",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Poteet S",
+          "last_name": "Poteet",
+          "orcid": "0000-0002-4502-6461"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://europepmc.org/articles/PMC8007385",
+        "pdf_url": "https://europepmc.org/articles/PMC8007385?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-021-00509-z",
+        "retrieval": "open"
+      }
+    },
     {
       "work_id": "doi:10.1136/bmjopen-2024-091097",
       "doi": "10.1136/bmjopen-2024-091097",

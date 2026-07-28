@@ -51,6 +51,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20180030R1",
           "weight": 1.0
@@ -118,6 +123,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20180030R1",
@@ -205,6 +215,58 @@
         "oa_url": "https://europepmc.org/articles/PMC6701682",
         "pdf_url": "https://europepmc.org/articles/PMC6701682?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2019-029067",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-022-00530-2",
+      "doi": "10.1186/s41687-022-00530-2",
+      "pmid": "36547744",
+      "pmcid": "PMC9780407",
+      "title": "Differences in health-related quality of life between the Roma community and the general population in Romania",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Robinson T",
+          "last_name": "Robinson",
+          "orcid": "0000-0001-8695-9738"
+        },
+        {
+          "full_name": "Oluboyede Y",
+          "last_name": "Oluboyede",
+          "orcid": "0000-0002-9891-8279"
+        },
+        {
+          "full_name": "Vale L",
+          "last_name": "Vale",
+          "orcid": "0000-0001-8574-8429"
+        },
+        {
+          "full_name": "Olariu E",
+          "last_name": "Olariu",
+          "orcid": "0000-0002-8718-5516"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC9780407",
+        "pdf_url": "https://europepmc.org/articles/PMC9780407?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-022-00530-2",
         "retrieval": "open"
       }
     }

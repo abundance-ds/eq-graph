@@ -14,6 +14,19 @@
       "file": "input/projects/464-RA/papers/doi_10.1007_s11136-025-04053-3.xml",
       "bytes": 245660,
       "sha256": "1d4a77b5283acfcee9227b25f9250598e627b757d83371fa3621ed7dafc8f99e"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04242-8",
+      "doi": "10.1007/s11136-026-04242-8",
+      "title": "A direct comparison of the measurement properties of the PROMIS-16 and EQ-5D-5L in the U.S. general population",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13136203/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04242-8",
+      "status": "ok",
+      "file": "input/projects/464-RA/papers/doi_10.1007_s11136-026-04242-8.xml",
+      "bytes": 171300,
+      "sha256": "8b404c35b3123e576ef44f15c4bcecbe05223e105bd71e3cb24e5bfaa38a2bbe"
     }
   ]
 }

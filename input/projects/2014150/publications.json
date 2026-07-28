@@ -26,10 +26,15 @@
           "orcid": null
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 2014150",
@@ -69,10 +74,15 @@
           "orcid": null
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 2014150",
@@ -202,6 +212,48 @@
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00837-1.pdf",
         "landing_page": "https://doi.org/10.1007/s40258-023-00837-1",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1080/14737167.2020.1779062",
+      "doi": "10.1080/14737167.2020.1779062",
+      "pmid": "32552002",
+      "pmcid": null,
+      "title": "An overview of the time trade-off method: concept, foundation, and the evaluation of distorting factors in putting a value on health",
+      "journal": "Expert review of pharmacoeconomics & outcomes research",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Lugnér AK",
+          "last_name": "Lugnér",
+          "orcid": null
+        },
+        {
+          "full_name": "Krabbe PFM",
+          "last_name": "Krabbe",
+          "orcid": "0000-0001-6042-1243"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1080/14737167.2020.1779062",
+        "retrieval": "requires_subscription"
       }
     },
     {

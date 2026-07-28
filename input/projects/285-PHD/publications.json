@@ -1,0 +1,70 @@
+{
+  "project_id": "285-PHD",
+  "accepted": [
+    {
+      "work_id": "doi:10.3390/cancers16111952",
+      "doi": "10.3390/cancers16111952",
+      "pmid": "38893073",
+      "pmcid": "PMC11170999",
+      "title": "Internal Responsiveness of EQ-5D-5L and EORTC QLQ-C30 in Dutch Breast Cancer Patients during the First Year Post-Surgery: A Longitudinal Cohort Study",
+      "journal": "Cancers",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Vrancken Peeters NJMC",
+          "last_name": "Vrancken Peeters",
+          "orcid": "0009-0007-3558-3946"
+        },
+        {
+          "full_name": "van Til JA",
+          "last_name": "van Til",
+          "orcid": "0000-0002-5416-5893"
+        },
+        {
+          "full_name": "Huberts AS",
+          "last_name": "Huberts",
+          "orcid": null
+        },
+        {
+          "full_name": "Siesling S",
+          "last_name": "Siesling",
+          "orcid": "0000-0002-0273-824X"
+        },
+        {
+          "full_name": "Husson O",
+          "last_name": "Husson",
+          "orcid": "0000-0002-1387-8686"
+        },
+        {
+          "full_name": "Koppert LB",
+          "last_name": "Koppert",
+          "orcid": "0000-0003-1944-6777"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11170999",
+        "pdf_url": "https://europepmc.org/articles/PMC11170999?pdf=render",
+        "landing_page": "https://doi.org/10.3390/cancers16111952",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

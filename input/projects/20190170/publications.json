@@ -276,9 +276,113 @@
       }
     },
     {
+      "work_id": "doi:10.1016/j.jval.2017.10.002",
+      "doi": "10.1016/j.jval.2017.10.002",
+      "pmid": "30005748",
+      "pmcid": null,
+      "title": "Effect of Level Overlap and Color Coding on Attribute Non-Attendance in Discrete Choice Experiments",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Jonker MF",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Donkers B",
+          "last_name": "Donkers",
+          "orcid": "0000-0002-0412-4276"
+        },
+        {
+          "full_name": "de Bekker-Grob EW",
+          "last_name": "de Bekker-Grob",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2017.10.002",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.01.016",
+      "doi": "10.1016/j.jval.2018.01.016",
+      "pmid": "30098678",
+      "pmcid": null,
+      "title": "Advocating a Paradigm Shift in Health-State Valuations: The Estimation of Time-Preference Corrected QALY Tariffs",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Jonker MF",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Donkers B",
+          "last_name": "Donkers",
+          "orcid": "0000-0002-0412-4276"
+        },
+        {
+          "full_name": "de Bekker-Grob EW",
+          "last_name": "de Bekker-Grob",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.01.016",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2019.05.014",
       "doi": "10.1016/j.jval.2019.05.014",
-      "pmid": null,
+      "pmid": "31563259",
       "pmcid": null,
       "title": "On the Optimization of Bayesian D-Efficient Discrete Choice Experiment Designs for the Estimation of QALY Tariffs That Are Corrected for Nonlinear Time Preferences",
       "journal": "Value in Health",
@@ -306,7 +410,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -320,7 +425,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2022.01.015",
       "doi": "10.1016/j.jval.2022.01.015",
-      "pmid": null,
+      "pmid": "35527163",
       "pmcid": null,
       "title": "The Sensitivity and Specificity of Repeated and Dominant Choice Tasks in Discrete Choice Experiments",
       "journal": "Value in Health",
@@ -353,7 +458,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -367,7 +473,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2022.07.013",
       "doi": "10.1016/j.jval.2022.07.013",
-      "pmid": null,
+      "pmid": "36202702",
       "pmcid": null,
       "title": "The Garbage Class Mixed Logit Model: Accounting for Low-Quality Response Patterns in Discrete Choice Experiments",
       "journal": "Value in Health",
@@ -390,7 +496,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -404,7 +511,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2022.10.008",
       "doi": "10.1016/j.jval.2022.10.008",
-      "pmid": null,
+      "pmid": "36323377",
       "pmcid": null,
       "title": "Interaction Effects in Health State Valuation Studies: An Optimal Scaling Approach",
       "journal": "Value in Health",
@@ -432,7 +539,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -446,7 +554,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.05.024",
       "doi": "10.1016/j.jval.2024.05.024",
-      "pmid": null,
+      "pmid": "38977189",
       "pmcid": null,
       "title": "A New and Improved Experimental Design for the Discrete Choice Experiment Module of the EuroQol Valuation Technology Protocol",
       "journal": "Value in Health",
@@ -474,7 +582,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

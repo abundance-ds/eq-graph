@@ -247,6 +247,48 @@
         "landing_page": "https://doi.org/10.1177/0272989x241286477",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x251380565",
+      "doi": "10.1177/0272989x251380565",
+      "pmid": "41214847",
+      "pmcid": null,
+      "title": "Do Worse than Dead Values Add Relevant Information in (Composite) Time-Tradeoff Valuations?",
+      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Stalmeier PFM",
+          "last_name": "Stalmeier",
+          "orcid": "0000-0002-7553-562X"
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": "0000-0001-5000-0875"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1177/0272989x251380565",
+        "retrieval": "requires_subscription"
+      }
     }
   ],
   "weak_omitted": 0

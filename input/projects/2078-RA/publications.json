@@ -56,6 +56,78 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s11136-026-04257-1",
+      "doi": "10.1007/s11136-026-04257-1",
+      "pmid": "42070195",
+      "pmcid": "PMC13136196",
+      "title": "Factors associated with preoperative health-related quality of life in patients undergoing lumbar spine surgery: a multi-ethnic Asian cohort",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0009-0008-6135-508X"
+        },
+        {
+          "full_name": "Chern CWJ",
+          "last_name": "Chern",
+          "orcid": "0009-0001-5432-4305"
+        },
+        {
+          "full_name": "Teo AQA",
+          "last_name": "Teo",
+          "orcid": "0000-0002-0200-3331"
+        },
+        {
+          "full_name": "Tan JHJ",
+          "last_name": "Tan",
+          "orcid": "0000-0002-9237-2586"
+        },
+        {
+          "full_name": "Vasan Thakumar A",
+          "last_name": "Vasan Thakumar",
+          "orcid": "0000-0001-7261-1255"
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": "0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Hey HWD",
+          "last_name": "Hey",
+          "orcid": "0000-0002-2012-9835"
+        },
+        {
+          "full_name": "Cheng LJ",
+          "last_name": "Cheng",
+          "orcid": "0000-0002-5338-578X"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13136196",
+        "pdf_url": "https://europepmc.org/articles/PMC13136196?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04257-1",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40271-025-00777-z",
       "doi": "10.1007/s40271-025-00777-z",
       "pmid": "41175171",
@@ -184,7 +256,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.02.018",
       "doi": "10.1016/j.jval.2024.02.018",
-      "pmid": null,
+      "pmid": "38467187",
       "pmcid": null,
       "title": "The Ceiling Effects of EQ-5D-3L and 5L in General Population Health Surveys: A Systematic Review and Meta-Analysis",
       "journal": "Value in Health",
@@ -237,7 +309,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1002/hec.4399",
       "doi": "10.1002/hec.4399",
-      "pmid": null,
+      "pmid": "34302310",
       "pmcid": null,
       "title": "Does a health crisis change how we value health?",
       "journal": "Health Economics",
@@ -44,13 +44,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
         "oa_url": null,
-        "pdf_url": null,
+        "pdf_url": "https://eprints.whiterose.ac.uk/176049/3/Covid%20survey%20valuation%20accepted%20version.pdf",
         "landing_page": "https://doi.org/10.1002/hec.4399",
         "retrieval": "requires_subscription"
       }

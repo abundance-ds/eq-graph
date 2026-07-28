@@ -42,6 +42,19 @@
       "sha256": "b908b254e120ba604b65b6fbf9515bb55da21e943ecf3337deed20ec67399722"
     },
     {
+      "work_id": "doi:10.1097/mlr.0000000000002200",
+      "doi": "10.1097/mlr.0000000000002200",
+      "title": "Revisiting the Valuation of Child Health-Related Quality of Life: Replacing Paired Comparisons With Kaizen Tasks and QALY Scaling With Experience Scaling",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12422609/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1097/mlr.0000000000002200",
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.1097_mlr.0000000000002200.xml",
+      "bytes": 95368,
+      "sha256": "e25654840107b21d30b5d6283727cdc5fc67abd828adbf624c6d76f92c6716e1"
+    },
+    {
       "work_id": "doi:10.1136/bmjopen-2023-077256",
       "doi": "10.1136/bmjopen-2023-077256",
       "title": "Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale",
@@ -53,6 +66,19 @@
       "file": "input/projects/304-PHD/papers/doi_10.1136_bmjopen-2023-077256.xml",
       "bytes": 73230,
       "sha256": "bdf0ee6cff8e5fdcab70ea6a6166873e62ba67ffc8df94e41175558aa450bd92"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-024-02271-w",
+      "doi": "10.1186/s12955-024-02271-w",
+      "title": "Scale and rate heterogeneity in the EQ-5D-5L valuation",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11555889/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-024-02271-w",
+      "status": "ok",
+      "file": "input/projects/304-PHD/papers/doi_10.1186_s12955-024-02271-w.xml",
+      "bytes": 385766,
+      "sha256": "59e62ecd0e11fd4edab1abe87f830fd33f578a81ac16790591ed370542118ba4"
     },
     {
       "work_id": "doi:10.3390/econometrics11010004",

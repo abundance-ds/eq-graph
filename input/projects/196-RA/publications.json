@@ -1,0 +1,85 @@
+{
+  "project_id": "196-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1186/s12955-020-01481-2",
+      "doi": "10.1186/s12955-020-01481-2",
+      "pmid": "32690011",
+      "pmcid": "PMC7370458",
+      "title": "Evaluation of the performance of algorithms mapping EORTC QLQ-C30 onto the EQ-5D index in a metastatic colorectal cancer cost-effectiveness model",
+      "journal": "Health and quality of life outcomes",
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Franken MD",
+          "last_name": "Franken",
+          "orcid": "0000-0003-2285-7411"
+        },
+        {
+          "full_name": "Franken MD",
+          "last_name": "Franken",
+          "orcid": "0009-0008-2251-0104"
+        },
+        {
+          "full_name": "de Hond A",
+          "last_name": "de Hond",
+          "orcid": null
+        },
+        {
+          "full_name": "Degeling K",
+          "last_name": "Degeling",
+          "orcid": "0000-0001-7487-2491"
+        },
+        {
+          "full_name": "Punt CJA",
+          "last_name": "Punt",
+          "orcid": null
+        },
+        {
+          "full_name": "Koopman M",
+          "last_name": "Koopman",
+          "orcid": null
+        },
+        {
+          "full_name": "Uyl-de Groot CA",
+          "last_name": "Uyl-de Groot",
+          "orcid": "0000-0001-5808-302X"
+        },
+        {
+          "full_name": "Versteegh MM",
+          "last_name": "Versteegh",
+          "orcid": "0000-0003-4804-235X"
+        },
+        {
+          "full_name": "van Oijen MGH",
+          "last_name": "van Oijen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC7370458",
+        "pdf_url": "https://europepmc.org/articles/PMC7370458?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-020-01481-2",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

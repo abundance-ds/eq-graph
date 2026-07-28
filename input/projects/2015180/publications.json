@@ -58,7 +58,7 @@
     {
       "work_id": "doi:10.1177/0272989x19851049",
       "doi": "10.1177/0272989x19851049",
-      "pmid": null,
+      "pmid": "31161860",
       "pmcid": null,
       "title": "Manipulating the 5 Dimensions of the EuroQol Instrument: The Effects on Self-Reporting Actual Health and Valuing Hypothetical Health States",
       "journal": "Medical Decision Making",
@@ -96,13 +96,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
-        "oa_url": null,
-        "pdf_url": null,
+        "oa_url": "https://eprints.whiterose.ac.uk/145042/9/MDM_18_176_R1_author_approved_version.pdf",
+        "pdf_url": "https://eprints.whiterose.ac.uk/145042/9/MDM_18_176_R1_author_approved_version.pdf",
         "landing_page": "https://doi.org/10.1177/0272989x19851049",
         "retrieval": "requires_subscription"
       }

@@ -14,6 +14,19 @@
       "file": "input/projects/2016440/papers/doi_10.1371_journal.pone.0209344.xml",
       "bytes": 122371,
       "sha256": "576ccfe6e6a590363456b1ef92ec86601157ee5876d837c8175301d9288532ec"
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0305983",
+      "doi": "10.1371/journal.pone.0305983",
+      "title": "Correction: Valuation of the EQ-5D-5L in Taiwan",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11185465/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.1371/journal.pone.0305983",
+      "status": "ok",
+      "file": "input/projects/2016440/papers/doi_10.1371_journal.pone.0305983.xml",
+      "bytes": 10486,
+      "sha256": "307213f16749cb651e92e091eabfad32d7aae231e657280f2bf2e705e4c91f73"
     }
   ]
 }

@@ -14,6 +14,19 @@
       "file": "input/projects/1599-RA/papers/doi_10.1016_j.jval.2025.11.005.pdf",
       "bytes": 1668329,
       "sha256": "39b58a8febf862fba1b367d7e01153713dd08e45b010baa26896ab475ad90cc3"
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02521-z",
+      "doi": "10.1186/s12955-026-02521-z",
+      "title": "Validity and responsiveness of the EQ-5D-5L, EQ-HWB and EQ-HWB-9 to measure health and wellbeing impact of heatwaves among older adults",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13182084/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-026-02521-z",
+      "status": "ok",
+      "file": "input/projects/1599-RA/papers/doi_10.1186_s12955-026-02521-z.xml",
+      "bytes": 165962,
+      "sha256": "c48debce3442c3ec97a59362172314c7e8f71c5abf4931323d256aece53c2300"
     }
   ]
 }

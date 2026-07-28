@@ -4,9 +4,61 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s40271-025-00743-9",
+      "doi": "10.1007/s40271-025-00743-9",
+      "pmid": "40377866",
+      "pmcid": "PMC12408752",
+      "title": "Determining the Content Validity of the EQ-5D-5L, EQ-5D-Y-3L, and CHU9D Instruments for Assessing Generic Child and Adolescent Health-Related Quality of Life: A Qualitative Study",
+      "journal": "The patient",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Carlton J",
+          "last_name": "Carlton",
+          "orcid": "0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Powell PA",
+          "last_name": "Powell",
+          "orcid": "0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Kirkcaldy A",
+          "last_name": "Kirkcaldy",
+          "orcid": "0000-0002-8455-8786"
+        },
+        {
+          "full_name": "Rowen D",
+          "last_name": "Rowen",
+          "orcid": "0000-0003-3018-5109"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC12408752",
+        "pdf_url": "https://europepmc.org/articles/PMC12408752?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00743-9",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2026.03.008",
       "doi": "10.1016/j.jval.2026.03.008",
-      "pmid": null,
+      "pmid": "41887403",
       "pmcid": null,
       "title": "A United Kingdom Value Set for the EQ-5D-5L",
       "journal": "Value in Health",
@@ -69,7 +121,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

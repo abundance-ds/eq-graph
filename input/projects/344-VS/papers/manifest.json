@@ -1,0 +1,19 @@
+{
+  "project_id": "344-VS",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-025-02397-5",
+      "doi": "10.1186/s12955-025-02397-5",
+      "title": "Findings from a roundtable discussion with Pakistani stakeholders on measuring and valuing health and health-related quality of life for children and adolescents",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12210699/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-025-02397-5",
+      "status": "ok",
+      "file": "input/projects/344-VS/papers/doi_10.1186_s12955-025-02397-5.xml",
+      "bytes": 81796,
+      "sha256": "fcc9913210eae61725e4a78d9209882c8dde48cc82ad2ef206d5162ec2980ee3"
+    }
+  ]
+}

@@ -231,10 +231,97 @@
       }
     },
     {
+      "work_id": "doi:10.1016/j.jval.2018.05.002",
+      "doi": "10.1016/j.jval.2018.05.002",
+      "pmid": "30442276",
+      "pmcid": null,
+      "title": "Valuation of EuroQol Five-Dimensional Questionnaire, Youth Version (EQ-5D-Y) and EuroQol Five-Dimensional Questionnaire, Three-Level Version (EQ-5D-3L) Health States: The Impact of Wording and Perspective",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Kreimeier S",
+          "last_name": "Kreimeier",
+          "orcid": "0000-0002-4832-7833"
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Cole A",
+          "last_name": "Cole",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Shah KK",
+          "last_name": "Shah",
+          "orcid": "0000-0002-4927-7858"
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Rivero-Arias O",
+          "last_name": "Rivero-Arias",
+          "orcid": "0000-0003-2233-6544"
+        },
+        {
+          "full_name": "Greiner W",
+          "last_name": "Greiner",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.05.002",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2021.03.019",
       "doi": "10.1016/j.jval.2021.03.019",
-      "pmid": null,
-      "pmcid": null,
+      "pmid": "34452716",
+      "pmcid": "PMC8404973",
       "title": "Comparison of Adult and Adolescent Preferences Toward EQ-5D-Y-3L Health States",
       "journal": "Value in Health",
       "year": 2021,
@@ -281,7 +368,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -295,7 +383,7 @@
     {
       "work_id": "doi:10.1016/j.zefq.2019.05.011",
       "doi": "10.1016/j.zefq.2019.05.011",
-      "pmid": null,
+      "pmid": "31378708",
       "pmcid": null,
       "title": "Entwicklung der deutschen Version des EQ-5D-Y-5L zur Messung der gesundheitsbezogenen Lebensqualität bei Kindern und Jugendlichen: Identifikation von Antwortformulierungen und Pilotierung",
       "journal": "Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen",
@@ -323,7 +411,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

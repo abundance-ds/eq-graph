@@ -1,0 +1,61 @@
+{
+  "project_id": "2021-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40258-023-00798-5",
+      "doi": "10.1007/s40258-023-00798-5",
+      "pmid": "36964853",
+      "pmcid": "PMC10039326",
+      "title": "Measurement of Health-Related Quality of Life from Conception to Postpartum Using the EQ-5D-5L Among a National Sample of US Pregnant and Postpartum Adults",
+      "journal": "Applied Health Economics and Health Policy",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Annette K. Regan",
+          "last_name": "Regan",
+          "orcid": "https://orcid.org/0000-0002-3879-6193"
+        },
+        {
+          "full_name": "Pallavi Aytha Swathi",
+          "last_name": "Swathi",
+          "orcid": null
+        },
+        {
+          "full_name": "Marcianna Nosek",
+          "last_name": "Nosek",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC10039326",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40258-023-00798-5.pdf",
+        "landing_page": "https://doi.org/10.1007/s40258-023-00798-5",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

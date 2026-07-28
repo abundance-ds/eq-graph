@@ -31,6 +31,8 @@ takes about a second and costs nothing. Refining a heuristic means editing
 | `discover` | yes | Issues corpus sweeps and per-project queries; fills the cache; records every attempt |
 | `match` | no | Replays the cache, scores project↔work links, writes `work` and `candidate` |
 | `enrich` | yes | Unpaywall lookup per DOI for OA status and a free full-text location |
+| `harvest` | yes | Pulls Europe PMC JATS XML for **every** pooled work with a PMCID into `cache/fulltext/` |
+| `mine` | no | Reads project ids out of that text, near a EuroQol mention |
 | `fulltext` | yes | Downloads openly licensed full texts into each project's `papers/` |
 | `export` | no | Writes `publications.json` into each project directory |
 | `report` | no | Coverage gap report in `reports/` |
@@ -58,6 +60,7 @@ A link carries the evidence that produced it, not just a number:
 
 | Kind | Weight | Meaning |
 | --- | ---: | --- |
+| `grant_id_acknowledged` | 1.00 | The article's own text prints this project id beside a EuroQol mention |
 | `grant_id_structured` | 1.00 | Indexed grant metadata credits this id **to EuroQol** |
 | `title_exact` | 0.95 | Normalized project and article titles identical |
 | `grant_id_fulltext` | 0.90 | Id appears in the text of a EuroQol-acknowledged article |
@@ -71,6 +74,22 @@ The bottom rule cannot be promoted by tuning: 344 PIs hold 1024 grants, so name 
 date evidence identifies *a* paper by that PI, never *which grant* funded it. That
 band is a review pool. It is capped at 15 entries per project in the export, with
 `weak_omitted` recording what was dropped.
+
+## Why full-text mining matters
+
+Europe PMC's `GRANT_ID` and `ACK_FUND` indexes capture EuroQol awards only patchily,
+but the project id is usually *printed* in the acknowledgement or funding statement.
+Reading the text therefore reaches attributions no index query can:
+
+- `ACK_FUND:"EuroQol"` returns 626 works; the free-text phrase
+  `"EuroQol Research Foundation"` returns **1147**. The extra ~500 are largely works
+  whose funding statement Europe PMC never structured.
+- Mining 1422 harvested full texts yields 202 hard grant-id links across 139 projects.
+
+A bare number is not evidence, because grant numbers are reused across funders. An id
+counts only when it appears within 300 characters of a EuroQol mention. As a
+precision check, every one of the first 102 ids mined matched the project the paper
+was already filed under — no misattributions.
 
 ## Curation
 

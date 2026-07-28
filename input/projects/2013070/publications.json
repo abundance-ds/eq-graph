@@ -63,7 +63,7 @@
     {
       "work_id": "doi:10.1007/s11136-015-1086-4",
       "doi": "10.1007/s11136-015-1086-4",
-      "pmid": null,
+      "pmid": "26242249",
       "pmcid": null,
       "title": "An EQ-5D-5L value set based on Uruguayan population preferences",
       "journal": "Quality of Life Research",
@@ -126,7 +126,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -135,6 +136,83 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s11136-015-1086-4",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-015-1146-9",
+      "doi": "10.1007/s11136-015-1146-9",
+      "pmid": "26439111",
+      "pmcid": null,
+      "title": "Erratum to: An EQ-5D-5L value set based on Uruguayan population preferences",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2016,
+      "authors": [
+        {
+          "full_name": "Augustovski F",
+          "last_name": "Augustovski",
+          "orcid": null
+        },
+        {
+          "full_name": "Rey-Ares L",
+          "last_name": "Rey-Ares",
+          "orcid": null
+        },
+        {
+          "full_name": "Irazola V",
+          "last_name": "Irazola",
+          "orcid": null
+        },
+        {
+          "full_name": "Garay OU",
+          "last_name": "Garay",
+          "orcid": null
+        },
+        {
+          "full_name": "Gianneo O",
+          "last_name": "Gianneo",
+          "orcid": null
+        },
+        {
+          "full_name": "Fernández G",
+          "last_name": "Fernández",
+          "orcid": null
+        },
+        {
+          "full_name": "Morales M",
+          "last_name": "Morales",
+          "orcid": null
+        },
+        {
+          "full_name": "Gibbons L",
+          "last_name": "Gibbons",
+          "orcid": "0000-0002-0235-1635"
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-015-1146-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-015-1146-9",
+        "retrieval": "requires_subscription"
       }
     },
     {

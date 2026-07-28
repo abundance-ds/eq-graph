@@ -327,7 +327,7 @@
     {
       "work_id": "doi:10.1007/s11136-021-02911-4",
       "doi": "10.1007/s11136-021-02911-4",
-      "pmid": null,
+      "pmid": "34181154",
       "pmcid": null,
       "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
       "journal": "Quality of Life Research",
@@ -380,7 +380,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -1050,7 +1051,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.06.004",
       "doi": "10.1016/j.jval.2023.06.004",
-      "pmid": null,
+      "pmid": "37348834",
       "pmcid": null,
       "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
       "journal": "Value in Health",
@@ -1118,7 +1119,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -1188,5 +1190,5 @@
       }
     }
   ],
-  "weak_omitted": 5
+  "weak_omitted": 9
 }

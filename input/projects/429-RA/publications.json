@@ -2,6 +2,103 @@
   "project_id": "429-RA",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s11136-026-04223-x",
+      "doi": "10.1007/s11136-026-04223-x",
+      "pmid": "41920472",
+      "pmcid": "PMC13043590",
+      "title": "From QI-disability to QID-12: creating a brief proxy-report measure of quality of life for children with intellectual disability",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Licari MK",
+          "last_name": "Licari",
+          "orcid": "0000-0003-3705-5323"
+        },
+        {
+          "full_name": "Whitehouse AJO",
+          "last_name": "Whitehouse",
+          "orcid": "0000-0001-8722-1575"
+        },
+        {
+          "full_name": "Ludwig NN",
+          "last_name": "Ludwig",
+          "orcid": "0000-0002-8934-7267"
+        },
+        {
+          "full_name": "Wojnaroski M",
+          "last_name": "Wojnaroski",
+          "orcid": "0009-0006-5595-0419"
+        },
+        {
+          "full_name": "Hommer R",
+          "last_name": "Hommer",
+          "orcid": "0009-0005-4800-6182"
+        },
+        {
+          "full_name": "Conecker G",
+          "last_name": "Conecker",
+          "orcid": "0000-0003-3274-0292"
+        },
+        {
+          "full_name": "Hecker J",
+          "last_name": "Hecker",
+          "orcid": "0009-0001-2704-5044"
+        },
+        {
+          "full_name": "Muzyczka K",
+          "last_name": "Muzyczka",
+          "orcid": "0000-0001-5307-0692"
+        },
+        {
+          "full_name": "Leonard H",
+          "last_name": "Leonard",
+          "orcid": "0000-0001-6405-5834"
+        },
+        {
+          "full_name": "Williams KJ",
+          "last_name": "Williams",
+          "orcid": "0000-0002-1686-4458"
+        },
+        {
+          "full_name": "Reddihough DS",
+          "last_name": "Reddihough",
+          "orcid": "0000-0003-3634-7906"
+        },
+        {
+          "full_name": "Downs J",
+          "last_name": "Downs",
+          "orcid": "0000-0001-7358-9037"
+        },
+        {
+          "full_name": "Jacoby P",
+          "last_name": "Jacoby",
+          "orcid": "0000-0001-5092-7697"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13043590",
+        "pdf_url": "https://europepmc.org/articles/PMC13043590?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04223-x",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2024.02.016",
       "doi": "10.1016/j.jval.2024.02.016",
       "pmid": "38467188",
@@ -80,7 +177,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.11.005",
       "doi": "10.1016/j.jval.2023.11.005",
-      "pmid": null,
+      "pmid": "38043713",
       "pmcid": null,
       "title": "How Well Does the EQ-5D-Y-5L Describe Children With Intellectual Disability?: “There’s a Lot More to My Child Than That She Can’t Wash or Dress Herself.”",
       "journal": "Value in Health",
@@ -133,7 +230,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

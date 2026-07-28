@@ -4,6 +4,750 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s40264-022-01228-6",
+      "doi": "10.1007/s40264-022-01228-6",
+      "pmid": "36184720",
+      "pmcid": "PMC9527074",
+      "title": "mRNA (BNT162b2) and Inactivated (CoronaVac) COVID-19 Vaccination and Risk of Adverse Events and Acute Diabetic Complications in Patients with Type 2 Diabetes Mellitus: A Population-Based Study",
+      "journal": "Drug safety",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Mok AHY",
+          "last_name": "Mok",
+          "orcid": null
+        },
+        {
+          "full_name": "Xu W",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Yan VKC",
+          "last_name": "Yan",
+          "orcid": "0000-0001-5225-3032"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Lui DTW",
+          "last_name": "Lui",
+          "orcid": "0000-0002-9813-1126"
+        },
+        {
+          "full_name": "Tan KCB",
+          "last_name": "Tan",
+          "orcid": null
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": null
+        },
+        {
+          "full_name": "Lam CLK",
+          "last_name": "Lam",
+          "orcid": null
+        },
+        {
+          "full_name": "Leung GM",
+          "last_name": "Leung",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": "0000-0001-8242-0014"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9527074",
+        "pdf_url": "https://europepmc.org/articles/PMC9527074?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40264-022-01228-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.kint.2022.07.018",
+      "doi": "10.1016/j.kint.2022.07.018",
+      "pmid": "35964798",
+      "pmcid": "PMC9367175",
+      "title": "The effectiveness and safety of mRNA (BNT162b2) and inactivated (CoronaVac) COVID-19 vaccines among individuals with chronic kidney diseases",
+      "journal": "Kidney international",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Cheng FWT",
+          "last_name": "Cheng",
+          "orcid": "0000-0001-7818-1575"
+        },
+        {
+          "full_name": "Fan M",
+          "last_name": "Fan",
+          "orcid": "0000-0001-9074-633X"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Tang SCW",
+          "last_name": "Tang",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://europepmc.org/articles/PMC9367175",
+        "pdf_url": "https://europepmc.org/articles/PMC9367175?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.kint.2022.07.018",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.lanwpc.2022.100393",
+      "doi": "10.1016/j.lanwpc.2022.100393",
+      "pmid": "35128500",
+      "pmcid": "PMC8808060",
+      "title": "Herpes zoster related hospitalization after inactivated (CoronaVac) and mRNA (BNT162b2) SARS-CoV-2 vaccination: A self-controlled case series and nested case-control study",
+      "journal": "The Lancet regional health. Western Pacific",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Wang Y",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Ng VWS",
+          "last_name": "Ng",
+          "orcid": "0000-0003-2594-545X"
+        },
+        {
+          "full_name": "Yan VKC",
+          "last_name": "Yan",
+          "orcid": "0000-0001-5225-3032"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Wong CSM",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Leung KSM",
+          "last_name": "Leung",
+          "orcid": null
+        },
+        {
+          "full_name": "Ni MY",
+          "last_name": "Ni",
+          "orcid": null
+        },
+        {
+          "full_name": "Valkenburg SA",
+          "last_name": "Valkenburg",
+          "orcid": "0000-0002-0768-9926"
+        },
+        {
+          "full_name": "Peiris JSM",
+          "last_name": "Peiris",
+          "orcid": null
+        },
+        {
+          "full_name": "Wu JTK",
+          "last_name": "Wu",
+          "orcid": "0000-0002-3155-5987"
+        },
+        {
+          "full_name": "Cowling BJ",
+          "last_name": "Cowling",
+          "orcid": null
+        },
+        {
+          "full_name": "Ashcroft DM",
+          "last_name": "Ashcroft",
+          "orcid": "0000-0002-2958-915X"
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": null
+        },
+        {
+          "full_name": "Leung GM",
+          "last_name": "Leung",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC8808060",
+        "pdf_url": "http://www.thelancet.com/article/S2666606522000128/pdf",
+        "landing_page": "https://doi.org/10.1016/j.lanwpc.2022.100393",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/s2666-7568(22)00125-8",
+      "doi": "10.1016/s2666-7568(22)00125-8",
+      "pmid": "35813276",
+      "pmcid": "PMC9252509",
+      "title": "Safety of an inactivated, whole-virion COVID-19 vaccine (CoronaVac) in people aged 60 years or older in Hong Kong: a modified self-controlled case series",
+      "journal": "The lancet. Healthy longevity",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Wang Y",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Mok AHY",
+          "last_name": "Mok",
+          "orcid": null
+        },
+        {
+          "full_name": "Xu W",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Yan VKC",
+          "last_name": "Yan",
+          "orcid": "0000-0001-5225-3032"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Lau KK",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Cowling BJ",
+          "last_name": "Cowling",
+          "orcid": null
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC9252509",
+        "pdf_url": "https://europepmc.org/articles/PMC9252509?pdf=render",
+        "landing_page": "https://doi.org/10.1016/s2666-7568(22)00125-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1038/s41467-023-43706-0",
+      "doi": "10.1038/s41467-023-43706-0",
+      "pmid": "38104114",
+      "pmcid": "PMC10725470",
+      "title": "Optimal timing of nirmatrelvir/ritonavir treatment after COVID-19 symptom onset or diagnosis: target trial emulation",
+      "journal": "Nature communications",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": "0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Lau JJ",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Au ICH",
+          "last_name": "Au",
+          "orcid": "0000-0001-5904-8322"
+        },
+        {
+          "full_name": "Lau KTK",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": "0000-0002-1556-2538"
+        },
+        {
+          "full_name": "Peiris M",
+          "last_name": "Peiris",
+          "orcid": "0000-0001-8217-5995"
+        },
+        {
+          "full_name": "Leung GM",
+          "last_name": "Leung",
+          "orcid": "0000-0002-2503-6283"
+        },
+        {
+          "full_name": "Wu JT",
+          "last_name": "Wu",
+          "orcid": "0000-0002-3155-5987"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10725470",
+        "pdf_url": "https://europepmc.org/articles/PMC10725470?pdf=render",
+        "landing_page": "https://doi.org/10.1038/s41467-023-43706-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1093/cid/ciac460",
+      "doi": "10.1093/cid/ciac460",
+      "pmid": "35675702",
+      "pmcid": "PMC9278169",
+      "title": "Messenger RNA Coronavirus Disease 2019 (COVID-19) Vaccination With BNT162b2 Increased Risk of Bell's Palsy: A Nested Case-Control and Self-Controlled Case Series Study",
+      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Ng VWS",
+          "last_name": "Ng",
+          "orcid": "0000-0003-2594-545X"
+        },
+        {
+          "full_name": "Wang Y",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yan VKC",
+          "last_name": "Yan",
+          "orcid": "0000-0001-5225-3032"
+        },
+        {
+          "full_name": "Lam ICH",
+          "last_name": "Lam",
+          "orcid": "0000-0002-5891-3940"
+        },
+        {
+          "full_name": "Fan M",
+          "last_name": "Fan",
+          "orcid": "0000-0001-9074-633X"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Chung RKC",
+          "last_name": "Chung",
+          "orcid": null
+        },
+        {
+          "full_name": "Cowling BJ",
+          "last_name": "Cowling",
+          "orcid": null
+        },
+        {
+          "full_name": "Fong WC",
+          "last_name": "Fong",
+          "orcid": null
+        },
+        {
+          "full_name": "Lau AYL",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Mok VCT",
+          "last_name": "Mok",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan FLF",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Lee CK",
+          "last_name": "Lee",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan LST",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Lo D",
+          "last_name": "Lo",
+          "orcid": null
+        },
+        {
+          "full_name": "Lau KK",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": null
+        },
+        {
+          "full_name": "Lau CS",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Leung GM",
+          "last_name": "Leung",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": "0000-0001-8242-0014"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9278169",
+        "pdf_url": "https://europepmc.org/articles/PMC9278169?pdf=render",
+        "landing_page": "https://doi.org/10.1093/cid/ciac460",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1093/ndt/gfac292",
+      "doi": "10.1093/ndt/gfac292",
+      "pmid": "36367015",
+      "pmcid": "PMC9620371",
+      "title": "Risk of glomerular diseases, proteinuria and hematuria following mRNA (BNT162b2) and inactivated (CoronaVac) SARS-CoV-2 vaccines",
+      "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Cheng FWT",
+          "last_name": "Cheng",
+          "orcid": "0000-0001-7818-1575"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": "0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Qin SX",
+          "last_name": "Qin",
+          "orcid": null
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Chan EW",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Au CH",
+          "last_name": "Au",
+          "orcid": "0000-0001-5904-8322"
+        },
+        {
+          "full_name": "Ye X",
+          "last_name": "Ye",
+          "orcid": null
+        },
+        {
+          "full_name": "Tang SCW",
+          "last_name": "Tang",
+          "orcid": "0000-0002-6862-1941"
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": "0000-0001-8242-0014"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://europepmc.org/articles/PMC9620371",
+        "pdf_url": "https://europepmc.org/articles/PMC9620371?pdf=render",
+        "landing_page": "https://doi.org/10.1093/ndt/gfac292",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1101/2021.10.21.21265314",
       "doi": "10.1101/2021.10.21.21265314",
       "pmid": null,
@@ -92,6 +836,98 @@
         "oa_url": "https://doi.org/10.1101/2021.10.21.21265314",
         "pdf_url": "https://www.medrxiv.org/content/medrxiv/early/2021/10/23/2021.10.21.21265314.full.pdf",
         "landing_page": "https://doi.org/10.1101/2021.10.21.21265314",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1111/epi.17436",
+      "doi": "10.1111/epi.17436",
+      "pmid": "36226469",
+      "pmcid": "PMC9874430",
+      "title": "Association between the risk of seizure and COVID-19 vaccinations: A self-controlled case-series study",
+      "journal": "Epilepsia",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Ng VWS",
+          "last_name": "Ng",
+          "orcid": "0000-0003-2594-545X"
+        },
+        {
+          "full_name": "Chang RS",
+          "last_name": "Chang",
+          "orcid": "0000-0002-9346-3877"
+        },
+        {
+          "full_name": "Yan VKC",
+          "last_name": "Yan",
+          "orcid": "0000-0001-5225-3032"
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Wong CKH",
+          "last_name": "Wong",
+          "orcid": "0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": "0000-0002-7602-9470"
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": "0000-0002-1556-2538"
+        },
+        {
+          "full_name": "Lau KK",
+          "last_name": "Lau",
+          "orcid": "0000-0002-8657-2418"
+        },
+        {
+          "full_name": "Wong ICK",
+          "last_name": "Wong",
+          "orcid": "0000-0001-8242-0014"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC9874430",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/epi.17436",
+        "landing_page": "https://doi.org/10.1111/epi.17436",
         "retrieval": "open"
       }
     },

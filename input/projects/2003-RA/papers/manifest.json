@@ -1,0 +1,19 @@
+{
+  "project_id": "2003-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01857-5",
+      "doi": "10.1007/s10198-025-01857-5",
+      "title": "Child- versus adult-perspective composite time trade-off valuations for the EQ-5D-Y-3L: evidence from the Hungarian valuation study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13190758/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-025-01857-5",
+      "status": "ok",
+      "file": "input/projects/2003-RA/papers/doi_10.1007_s10198-025-01857-5.xml",
+      "bytes": 92342,
+      "sha256": "96f2d67bf07bfe743e95bb6a3f729349281c851fad33d82b8700a54488019652"
+    }
+  ]
+}

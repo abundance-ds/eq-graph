@@ -75,7 +75,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.02.013",
       "doi": "10.1016/j.jval.2025.02.013",
-      "pmid": null,
+      "pmid": "40113016",
       "pmcid": null,
       "title": "Can Adolescents Value the EQ-5D-Y-5L and EQ-5D-5L, and How Do the Values Compare? A Feasibility Study",
       "journal": "Value in Health",
@@ -128,7 +128,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -137,6 +138,48 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.jval.2025.02.013",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/frma.2023.1212827",
+      "doi": "10.3389/frma.2023.1212827",
+      "pmid": "37822976",
+      "pmcid": "PMC10562715",
+      "title": "Reflections on the Prospective Outcomes of Injury Study (POIS; 2006-2023): how population-based research can address Māori outcomes and governance",
+      "journal": "Frontiers in research metrics and analytics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Wyeth EH",
+          "last_name": "Wyeth",
+          "orcid": null
+        },
+        {
+          "full_name": "Derrett S",
+          "last_name": "Derrett",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10562715",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/frma.2023.1212827/pdf?isPublishedV2=False",
+        "landing_page": "https://doi.org/10.3389/frma.2023.1212827",
+        "retrieval": "open"
       }
     }
   ],

@@ -36,6 +36,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20180130",
           "weight": 1.0
@@ -98,6 +103,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20180130",
@@ -167,6 +177,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20180130",
           "weight": 1.0
@@ -224,6 +239,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20180130",

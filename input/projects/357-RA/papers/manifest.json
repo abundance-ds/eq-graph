@@ -1,0 +1,19 @@
+{
+  "project_id": "357-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1038/s41433-023-02860-x",
+      "doi": "10.1038/s41433-023-02860-x",
+      "title": "The societal economic impact of vision impairment in adults 40 years and above: findings from the National Eye Survey of Trinidad and Tobago",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11269728/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.1038/s41433-023-02860-x",
+      "status": "ok",
+      "file": "input/projects/357-RA/papers/doi_10.1038_s41433-023-02860-x.xml",
+      "bytes": 117778,
+      "sha256": "f0cfc7babf470ce52123902331f18766b073f6fb9ef5bf99ff37355be5b08b53"
+    }
+  ]
+}

@@ -101,6 +101,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 367-RA",
           "weight": 1.0
@@ -244,6 +249,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 367-RA",
           "weight": 1.0
@@ -259,6 +269,64 @@
         "oa_url": "https://europepmc.org/articles/PMC12689740",
         "pdf_url": "https://europepmc.org/articles/PMC12689740?pdf=render",
         "landing_page": "https://doi.org/10.1007/s11136-025-04074-y",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04294-w",
+      "doi": "10.1007/s11136-026-04294-w",
+      "pmid": "42295447",
+      "pmcid": "PMC13269496",
+      "title": "Measuring inequality in quality of life: further evidence that the EQ-5D-5L may underestimate it",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Admassu N. Lamu",
+          "last_name": "Lamu",
+          "orcid": "https://orcid.org/0000-0001-6638-421x"
+        },
+        {
+          "full_name": "Gang Chen",
+          "last_name": "Chen",
+          "orcid": "https://orcid.org/0000-0002-8385-5965"
+        },
+        {
+          "full_name": "Ling Jie Cheng",
+          "last_name": "Cheng",
+          "orcid": "https://orcid.org/0000-0002-5338-578x"
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": "https://orcid.org/0000-0001-9472-2669"
+        },
+        {
+          "full_name": "",
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13269496",
+        "pdf_url": "https://europepmc.org/articles/PMC13269496?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04294-w",
         "retrieval": "open"
       }
     }
@@ -403,7 +471,7 @@
     {
       "work_id": "doi:10.1016/j.jclinepi.2021.10.019",
       "doi": "10.1016/j.jclinepi.2021.10.019",
-      "pmid": null,
+      "pmid": "34737062",
       "pmcid": null,
       "title": "Small differences in EQ-5D-5L health utility scores were interpreted differently between and within respondents",
       "journal": "Journal of Clinical Epidemiology",
@@ -446,13 +514,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
         "oa_url": "https://doi.org/10.1016/j.jclinepi.2021.10.019",
-        "pdf_url": null,
+        "pdf_url": "http://www.jclinepi.com/article/S0895435621003437/pdf",
         "landing_page": "https://doi.org/10.1016/j.jclinepi.2021.10.019",
         "retrieval": "open"
       }

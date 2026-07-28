@@ -1,0 +1,19 @@
+{
+  "project_id": "343-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-024-02305-3",
+      "doi": "10.1186/s12955-024-02305-3",
+      "title": "The psychometric properties of the amharic version of EuroQoL five-dimensions-five level among Ethiopian cervical cancer patients",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11562086/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1186/s12955-024-02305-3",
+      "status": "ok",
+      "file": "input/projects/343-RA/papers/doi_10.1186_s12955-024-02305-3.xml",
+      "bytes": 138778,
+      "sha256": "53a202353447ead8b1e62678047d4d1a6f2ae9d490cf18587767d9d74ee5f6bc"
+    }
+  ]
+}

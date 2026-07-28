@@ -2,6 +2,63 @@
   "project_id": "1644-RA",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s11136-025-03925-y",
+      "doi": "10.1007/s11136-025-03925-y",
+      "pmid": "39998755",
+      "pmcid": "PMC12119780",
+      "title": "Associations between financial toxicity, health-related quality of life, and well-being in Indonesian patients with breast cancer",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Pangestu S",
+          "last_name": "Pangestu",
+          "orcid": "0000-0003-2546-9449"
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": "0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Setyowibowo H",
+          "last_name": "Setyowibowo",
+          "orcid": "0000-0001-5091-3180"
+        },
+        {
+          "full_name": "Mukuria C",
+          "last_name": "Mukuria",
+          "orcid": "0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1007/s11136-025-03925-y",
+        "pdf_url": "https://europepmc.org/articles/PMC12119780?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-03925-y",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-024-02303-5",
       "doi": "10.1186/s12955-024-02303-5",
       "pmid": "39427212",
@@ -40,6 +97,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 1644-RA",

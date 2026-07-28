@@ -1,6 +1,104 @@
 {
   "project_id": "1681-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.36469/001c.145813",
+      "doi": "10.36469/001c.145813",
+      "pmid": "41268146",
+      "pmcid": "PMC12629638",
+      "title": "Performance of the Experimental EuroQol Toddler and Infant Populations (EQ-TIPS) and PedsQL in Infants and Toddlers with a Health Condition",
+      "journal": "Journal of health economics and outcomes research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Zampoli M",
+          "last_name": "Zampoli",
+          "orcid": "0000-0002-6899-6137"
+        },
+        {
+          "full_name": "Davidson A",
+          "last_name": "Davidson",
+          "orcid": "0000-0002-4646-4332"
+        },
+        {
+          "full_name": "Hendricks M",
+          "last_name": "Hendricks",
+          "orcid": "0000-0002-3636-0994"
+        },
+        {
+          "full_name": "de Quintal H",
+          "last_name": "de Quintal",
+          "orcid": "0000-0003-3796-4420"
+        },
+        {
+          "full_name": "Goga Y",
+          "last_name": "Goga",
+          "orcid": null
+        },
+        {
+          "full_name": "Wilmshurst JM",
+          "last_name": "Wilmshurst",
+          "orcid": "0000-0001-7328-1796"
+        },
+        {
+          "full_name": "Ndondo A",
+          "last_name": "Ndondo",
+          "orcid": null
+        },
+        {
+          "full_name": "Riordan G",
+          "last_name": "Riordan",
+          "orcid": "0000-0003-2698-9948"
+        },
+        {
+          "full_name": "De Lacy R",
+          "last_name": "De Lacy",
+          "orcid": null
+        },
+        {
+          "full_name": "McCullogh M",
+          "last_name": "McCullogh",
+          "orcid": "0000-0003-2876-4785"
+        },
+        {
+          "full_name": "Reddy D",
+          "last_name": "Reddy",
+          "orcid": "0000-0001-5575-7586"
+        },
+        {
+          "full_name": "Herdien L",
+          "last_name": "Herdien",
+          "orcid": "0000-0001-5961-8962"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12629638",
+        "pdf_url": "https://europepmc.org/articles/PMC12629638?pdf=render",
+        "landing_page": "https://doi.org/10.36469/001c.145813",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -74,7 +172,7 @@
     {
       "work_id": "doi:10.1007/s10198-025-01865-5",
       "doi": "10.1007/s10198-025-01865-5",
-      "pmid": null,
+      "pmid": "41252106",
       "pmcid": null,
       "title": "Multinational stakeholder engagement to inform future development and refinement of the EuroQol toddler and infant populations (EQ-TIPS)",
       "journal": "The European Journal of Health Economics",
@@ -127,7 +225,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -471,7 +570,7 @@
     {
       "work_id": "doi:10.1016/j.vhri.2023.01.009",
       "doi": "10.1016/j.vhri.2023.01.009",
-      "pmid": null,
+      "pmid": "36905789",
       "pmcid": null,
       "title": "Cross-Cultural Adaptation and Validation of the EuroQoL Toddler and Infant Populations Instrument Into Afrikaans for South Africa",
       "journal": "Value in Health Regional Issues",
@@ -499,7 +598,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -772,7 +872,7 @@
     {
       "work_id": "doi:10.1186/s41687-026-01113-1",
       "doi": "10.1186/s41687-026-01113-1",
-      "pmid": null,
+      "pmid": "42286271",
       "pmcid": null,
       "title": "Expanding the experimental EuroQol toddler and infant populations (EQ-TIPS) descriptive system: comparing 3-level and 5-level performance for infants and toddlers with chronic conditions",
       "journal": "Journal of Patient-Reported Outcomes",
@@ -855,7 +955,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -914,5 +1015,5 @@
       }
     }
   ],
-  "weak_omitted": 3
+  "weak_omitted": 2
 }

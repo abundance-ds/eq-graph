@@ -59,7 +59,7 @@
     {
       "work_id": "doi:10.1186/s41687-026-01100-6",
       "doi": "10.1186/s41687-026-01100-6",
-      "pmid": null,
+      "pmid": "42223529",
       "pmcid": null,
       "title": "Mapping health-related quality of life measurement tools in Africa: a scoping review",
       "journal": "Journal of Patient-Reported Outcomes",
@@ -137,7 +137,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

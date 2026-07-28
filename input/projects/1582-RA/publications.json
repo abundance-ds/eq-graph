@@ -184,6 +184,203 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s12311-026-02020-3",
+      "doi": "10.1007/s12311-026-02020-3",
+      "pmid": "42174309",
+      "pmcid": "PMC13197451",
+      "title": "A Patient-Reported Outcome Measure of Communication Difficulties in Friedreich Ataxia: COMATAX",
+      "journal": "Cerebellum (London, England)",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": "0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Monier V",
+          "last_name": "Monier",
+          "orcid": null
+        },
+        {
+          "full_name": "Ewenczyk C",
+          "last_name": "Ewenczyk",
+          "orcid": "0000-0002-4864-6287"
+        },
+        {
+          "full_name": "Heinzmann A",
+          "last_name": "Heinzmann",
+          "orcid": "0000-0001-8522-7199"
+        },
+        {
+          "full_name": "Pierron L",
+          "last_name": "Pierron",
+          "orcid": "0000-0002-2888-3226"
+        },
+        {
+          "full_name": "Sayah S",
+          "last_name": "Sayah",
+          "orcid": "0000-0002-0382-9995"
+        },
+        {
+          "full_name": "Hilab R",
+          "last_name": "Hilab",
+          "orcid": "0009-0002-6310-2066"
+        },
+        {
+          "full_name": "Atencio M",
+          "last_name": "Atencio",
+          "orcid": "0009-0000-3574-0728"
+        },
+        {
+          "full_name": "Petit E",
+          "last_name": "Petit",
+          "orcid": "0009-0008-7016-9908"
+        },
+        {
+          "full_name": "Bertrand F",
+          "last_name": "Bertrand",
+          "orcid": null
+        },
+        {
+          "full_name": "Vallancien A",
+          "last_name": "Vallancien",
+          "orcid": null
+        },
+        {
+          "full_name": "Diot C",
+          "last_name": "Diot",
+          "orcid": null
+        },
+        {
+          "full_name": "Rouillon S",
+          "last_name": "Rouillon",
+          "orcid": null
+        },
+        {
+          "full_name": "Nadke A",
+          "last_name": "Nadke",
+          "orcid": null
+        },
+        {
+          "full_name": "Feldmann K",
+          "last_name": "Feldmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Maas V",
+          "last_name": "Maas",
+          "orcid": "0009-0006-0767-7745"
+        },
+        {
+          "full_name": "Faber J",
+          "last_name": "Faber",
+          "orcid": "0000-0003-3265-0262"
+        },
+        {
+          "full_name": "Sarwinska D",
+          "last_name": "Sarwinska",
+          "orcid": "0000-0002-7592-0544"
+        },
+        {
+          "full_name": "Boesch SM",
+          "last_name": "Boesch",
+          "orcid": "0000-0003-1657-7368"
+        },
+        {
+          "full_name": "Indelicato E",
+          "last_name": "Indelicato",
+          "orcid": "0000-0003-0217-8630"
+        },
+        {
+          "full_name": "Bischoff AT",
+          "last_name": "Bischoff",
+          "orcid": null
+        },
+        {
+          "full_name": "Klopstock T",
+          "last_name": "Klopstock",
+          "orcid": "0000-0003-2805-4652"
+        },
+        {
+          "full_name": "Schulz JB",
+          "last_name": "Schulz",
+          "orcid": null
+        },
+        {
+          "full_name": "Reetz K",
+          "last_name": "Reetz",
+          "orcid": null
+        },
+        {
+          "full_name": "Fleszar Z",
+          "last_name": "Fleszar",
+          "orcid": null
+        },
+        {
+          "full_name": "Iskandar A",
+          "last_name": "Iskandar",
+          "orcid": "0009-0007-6400-507X"
+        },
+        {
+          "full_name": "Klockgether T",
+          "last_name": "Klockgether",
+          "orcid": "0000-0001-6174-5442"
+        },
+        {
+          "full_name": "Grobe-Einsler M",
+          "last_name": "Grobe-Einsler",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Humphries B",
+          "last_name": "Humphries",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        },
+        {
+          "full_name": "Durr A",
+          "last_name": "Durr",
+          "orcid": "0000-0002-8921-7104"
+        },
+        {
+          "full_name": "Borel S",
+          "last_name": "Borel",
+          "orcid": "0000-0002-8597-9937"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13197451",
+        "pdf_url": "https://europepmc.org/articles/PMC13197451?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s12311-026-02020-3",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-026-02478-z",
       "doi": "10.1186/s12955-026-02478-z",
       "pmid": "41606591",

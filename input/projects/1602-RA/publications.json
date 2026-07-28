@@ -164,7 +164,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.11.004",
       "doi": "10.1016/j.jval.2025.11.004",
-      "pmid": null,
+      "pmid": "41314416",
       "pmcid": null,
       "title": "The Effect of Perspective, Duration, and Views on Death on the Valuation of Severe Health States",
       "journal": "Value in Health",
@@ -207,7 +207,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

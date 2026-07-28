@@ -15,7 +15,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 DB_PATH = REPO / "state" / "scrape.db"
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 # A task is one (project or corpus) x source x operation unit of work.
 #   pending  - never attempted, or explicitly reset for a retry
@@ -87,6 +87,16 @@ CREATE TABLE IF NOT EXISTS candidate (
     PRIMARY KEY (project_id, work_id)
 );
 CREATE INDEX IF NOT EXISTS candidate_project ON candidate(project_id, score DESC);
+
+-- Project ids found printed inside a work's own full text, near a EuroQol mention.
+-- The strongest evidence available: the paper itself names the grant.
+CREATE TABLE IF NOT EXISTS fulltext_mention (
+    work_id    TEXT NOT NULL,
+    project_id TEXT NOT NULL,
+    snippet    TEXT,
+    updated_at TEXT NOT NULL,
+    PRIMARY KEY (work_id, project_id)
+);
 
 -- Human curation. The automated stages only ever READ this table.
 CREATE TABLE IF NOT EXISTS decision (

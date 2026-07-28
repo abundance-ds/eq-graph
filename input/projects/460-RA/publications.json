@@ -2,6 +2,131 @@
   "project_id": "460-RA",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s11136-026-04285-x",
+      "doi": "10.1007/s11136-026-04285-x",
+      "pmid": "42260238",
+      "pmcid": "PMC13246841",
+      "title": "Socioeconomic inequalities in health-related quality of life during the COVID-19 pandemic: a six-country comparison using the EQ-5D-5 L",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Joëlle Eijkens",
+          "last_name": "Eijkens",
+          "orcid": null
+        },
+        {
+          "full_name": "Joshua M. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": null
+        },
+        {
+          "full_name": "M. F. Bas Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Erica I. Lubetkin",
+          "last_name": "Lubetkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": "https://orcid.org/0000-0002-2055-548x"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13246841",
+        "pdf_url": "https://europepmc.org/articles/PMC13246841?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04285-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3389/fepid.2023.1144162",
+      "doi": "10.3389/fepid.2023.1144162",
+      "pmid": "38455931",
+      "pmcid": "PMC10910898",
+      "title": "Cross-sectional and longitudinal comparison of health-related quality of life and mental well-being between persons with and without post COVID-19 condition",
+      "journal": "Frontiers in epidemiology",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Scott ES",
+          "last_name": "Scott",
+          "orcid": "0000-0001-7548-1775"
+        },
+        {
+          "full_name": "Lubetkin EI",
+          "last_name": "Lubetkin",
+          "orcid": "0000-0001-9962-7775"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Yfantopolous J",
+          "last_name": "Yfantopolous",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel GJ",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Haagsma JA",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10910898",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fepid.2023.1144162/pdf",
+        "landing_page": "https://doi.org/10.3389/fepid.2023.1144162",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.3390/nu16162591",
       "doi": "10.3390/nu16162591",
       "pmid": "39203728",
@@ -65,6 +190,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 460-RA",
@@ -340,72 +470,9 @@
       }
     },
     {
-      "work_id": "doi:10.1007/s11136-026-04285-x",
-      "doi": "10.1007/s11136-026-04285-x",
-      "pmid": "42260238",
-      "pmcid": "PMC13246841",
-      "title": "Socioeconomic inequalities in health-related quality of life during the COVID-19 pandemic: a six-country comparison using the EQ-5D-5 L",
-      "journal": "Quality of Life Research",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Joëlle Eijkens",
-          "last_name": "Eijkens",
-          "orcid": null
-        },
-        {
-          "full_name": "Joshua M. Bonsel",
-          "last_name": "Bonsel",
-          "orcid": null
-        },
-        {
-          "full_name": "You-Shan Feng",
-          "last_name": "Feng",
-          "orcid": null
-        },
-        {
-          "full_name": "M. F. Bas Janssen",
-          "last_name": "Janssen",
-          "orcid": null
-        },
-        {
-          "full_name": "Erica I. Lubetkin",
-          "last_name": "Lubetkin",
-          "orcid": null
-        },
-        {
-          "full_name": "Juanita A. Haagsma",
-          "last_name": "Haagsma",
-          "orcid": "https://orcid.org/0000-0002-2055-548x"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13246841",
-        "pdf_url": "https://europepmc.org/articles/PMC13246841?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s11136-026-04285-x",
-        "retrieval": "open"
-      }
-    },
-    {
       "work_id": "doi:10.1016/j.burns.2020.08.015",
       "doi": "10.1016/j.burns.2020.08.015",
-      "pmid": null,
+      "pmid": "33012569",
       "pmcid": null,
       "title": "The added value of extending the EQ-5D-5L with an itching item for the assessment of health-related quality of life of burn patients: an explorative study",
       "journal": "Burns",
@@ -453,7 +520,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -467,7 +535,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2020.12.011",
       "doi": "10.1016/j.jval.2020.12.011",
-      "pmid": null,
+      "pmid": "34119088",
       "pmcid": null,
       "title": "Methods Used to Identify, Test, and Assess Impact on Preferences of Bolt-Ons: A Systematic Review",
       "journal": "Value in Health",
@@ -515,7 +583,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -529,7 +598,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.06.010",
       "doi": "10.1016/j.jval.2026.06.010",
-      "pmid": null,
+      "pmid": "42447979",
       "pmcid": null,
       "title": "Longitudinal Psychometric Evaluation of 15 Bolt-ons for the EQ-5D-5L in a Large-Scale Multi-Country Study",
       "journal": "Value in Health",
@@ -572,7 +641,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -754,68 +824,6 @@
         "oa_url": "https://europepmc.org/articles/PMC8727660",
         "pdf_url": "https://jpro.springeropen.com/counter/pdf/10.1186/s41687-021-00406-x",
         "landing_page": "https://doi.org/10.1186/s41687-021-00406-x",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.3389/fepid.2023.1144162",
-      "doi": "10.3389/fepid.2023.1144162",
-      "pmid": "38455931",
-      "pmcid": "PMC10910898",
-      "title": "Cross-sectional and longitudinal comparison of health-related quality of life and mental well-being between persons with and without post COVID-19 condition",
-      "journal": "Frontiers in epidemiology",
-      "year": 2023,
-      "authors": [
-        {
-          "full_name": "Scott ES",
-          "last_name": "Scott",
-          "orcid": "0000-0001-7548-1775"
-        },
-        {
-          "full_name": "Lubetkin EI",
-          "last_name": "Lubetkin",
-          "orcid": "0000-0001-9962-7775"
-        },
-        {
-          "full_name": "Janssen MF",
-          "last_name": "Janssen",
-          "orcid": null
-        },
-        {
-          "full_name": "Yfantopolous J",
-          "last_name": "Yfantopolous",
-          "orcid": null
-        },
-        {
-          "full_name": "Bonsel GJ",
-          "last_name": "Bonsel",
-          "orcid": null
-        },
-        {
-          "full_name": "Haagsma JA",
-          "last_name": "Haagsma",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC10910898",
-        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fepid.2023.1144162/pdf",
-        "landing_page": "https://doi.org/10.3389/fepid.2023.1144162",
         "retrieval": "open"
       }
     },

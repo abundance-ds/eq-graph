@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1007/s11136-016-1495-z",
       "doi": "10.1007/s11136-016-1495-z",
-      "pmid": null,
+      "pmid": "28124280",
       "pmcid": null,
       "title": "Health literacy and logical inconsistencies in valuations of hypothetical health states: results from the Canadian EQ-5D-5L valuation study",
       "journal": "Quality of Life Research",
@@ -54,7 +54,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -68,7 +69,7 @@
     {
       "work_id": "doi:10.1007/s11136-024-03638-8",
       "doi": "10.1007/s11136-024-03638-8",
-      "pmid": null,
+      "pmid": "38689165",
       "pmcid": null,
       "title": "Can prediction models for hospital readmission be improved by incorporating patient-reported outcome measures? A systematic review and narrative synthesis",
       "journal": "Quality of Life Research",
@@ -101,7 +102,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -110,6 +112,83 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s11136-024-03638-8",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.ocarto.2022.100286",
+      "doi": "10.1016/j.ocarto.2022.100286",
+      "pmid": "36474942",
+      "pmcid": "PMC9718273",
+      "title": "An online individualised patient decision aid improves the quality of decisions in patients considering total knee arthroplasty in routine care: A randomized controlled trial",
+      "journal": "Osteoarthritis and cartilage open",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bansback N",
+          "last_name": "Bansback",
+          "orcid": "0000-0002-1510-3462"
+        },
+        {
+          "full_name": "Trenaman L",
+          "last_name": "Trenaman",
+          "orcid": "0000-0002-6399-5741"
+        },
+        {
+          "full_name": "MacDonald KV",
+          "last_name": "MacDonald",
+          "orcid": null
+        },
+        {
+          "full_name": "Durand D",
+          "last_name": "Durand",
+          "orcid": null
+        },
+        {
+          "full_name": "Hawker G",
+          "last_name": "Hawker",
+          "orcid": "0000-0001-6358-1197"
+        },
+        {
+          "full_name": "Johnson JA",
+          "last_name": "Johnson",
+          "orcid": null
+        },
+        {
+          "full_name": "Smith C",
+          "last_name": "Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "Stacey D",
+          "last_name": "Stacey",
+          "orcid": null
+        },
+        {
+          "full_name": "Marshall DA",
+          "last_name": "Marshall",
+          "orcid": "0000-0002-8467-8008"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9718273",
+        "pdf_url": "https://europepmc.org/articles/PMC9718273?pdf=render",
+        "landing_page": "https://doi.org/10.1016/j.ocarto.2022.100286",
+        "retrieval": "open"
       }
     },
     {
@@ -167,7 +246,7 @@
     {
       "work_id": "doi:10.1111/jep.13804",
       "doi": "10.1111/jep.13804",
-      "pmid": null,
+      "pmid": "36575631",
       "pmcid": null,
       "title": "Impact of an online, individualised, patient reported outcome measures based patient decision aid on patient expectations, decisional regret, satisfaction, and health‐related quality‐of‐life for patients considering total knee arthroplasty: Results from a randomised controlled trial",
       "journal": "Journal of Evaluation in Clinical Practice",
@@ -230,7 +309,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

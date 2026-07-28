@@ -69,7 +69,7 @@
     {
       "work_id": "doi:10.1016/j.vhri.2025.101081",
       "doi": "10.1016/j.vhri.2025.101081",
-      "pmid": null,
+      "pmid": "39965310",
       "pmcid": null,
       "title": "Comparing the Measurement Properties of the Preliminary Version of the EuroQol Health and Well-Being and EQ-5D-5L in Patients, Healthy General Public, and Caregivers",
       "journal": "Value in Health Regional Issues",
@@ -107,7 +107,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

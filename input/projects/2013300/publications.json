@@ -271,6 +271,63 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s40271-024-00696-5",
+      "doi": "10.1007/s40271-024-00696-5",
+      "pmid": "38744798",
+      "pmcid": null,
+      "title": "Putting the Choice in Choice Tasks: Incorporating Preference Elicitation Tasks in Health Preference Research",
+      "journal": "The patient",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Whitty JA",
+          "last_name": "Whitty",
+          "orcid": "0000-0002-5886-1933"
+        },
+        {
+          "full_name": "Lancsar E",
+          "last_name": "Lancsar",
+          "orcid": "0000-0003-2404-6735"
+        },
+        {
+          "full_name": "De Abreu Lourenco R",
+          "last_name": "De Abreu Lourenco",
+          "orcid": "0000-0002-5978-8774"
+        },
+        {
+          "full_name": "Howard K",
+          "last_name": "Howard",
+          "orcid": "0000-0002-0918-7540"
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-024-00696-5",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40273-018-0622-9",
       "doi": "10.1007/s40273-018-0622-9",
       "pmid": "29480350",
@@ -321,6 +378,58 @@
         "pdf_url": "https://europepmc.org/articles/PMC5954053?pdf=render",
         "landing_page": "https://doi.org/10.1007/s40273-018-0622-9",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0659-9",
+      "doi": "10.1007/s40273-018-0659-9",
+      "pmid": "29744795",
+      "pmcid": "PMC6830400",
+      "title": "Correction to: 3L, 5L, What the L? A NICE Conundrum",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Simon Pickard A",
+          "last_name": "Simon Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0659-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0659-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0659-9",
+        "retrieval": "requires_subscription"
       }
     },
     {
@@ -379,6 +488,68 @@
         "pdf_url": "https://europepmc.org/articles/PMC6182499?pdf=render",
         "landing_page": "https://doi.org/10.1007/s40273-018-0694-6",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0704-8",
+      "doi": "10.1007/s40273-018-0704-8",
+      "pmid": "30136178",
+      "pmcid": null,
+      "title": "Health State Utilities for Acute Myeloid Leukaemia: A Time Trade-off Study",
+      "journal": "PharmacoEconomics",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Joshi N",
+          "last_name": "Joshi",
+          "orcid": null
+        },
+        {
+          "full_name": "Hensen M",
+          "last_name": "Hensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Patel S",
+          "last_name": "Patel",
+          "orcid": null
+        },
+        {
+          "full_name": "Xu W",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Lasch K",
+          "last_name": "Lasch",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40273-018-0704-8",
+        "retrieval": "requires_subscription"
       }
     },
     {
@@ -493,95 +664,33 @@
       }
     },
     {
-      "work_id": "doi:10.1016/j.jval.2019.06.008",
-      "doi": "10.1016/j.jval.2019.06.008",
-      "pmid": null,
+      "work_id": "doi:10.1016/j.jval.2016.10.012",
+      "doi": "10.1016/j.jval.2016.10.012",
+      "pmid": "28292492",
       "pmcid": null,
-      "title": "Toward a Smaller Design for EQ-5D-5L Valuation Studies",
-      "journal": "Value in Health",
-      "year": 2019,
+      "title": "Quality Control Process for EQ-5D-5L Valuation Studies",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2017,
       "authors": [
         {
-          "full_name": "Zhihao Yang",
-          "last_name": "Yang",
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
           "orcid": null
         },
         {
-          "full_name": "Nan Luo",
-          "last_name": "Luo",
-          "orcid": null
-        },
-        {
-          "full_name": "Mark Oppe",
+          "full_name": "Oppe M",
           "last_name": "Oppe",
           "orcid": null
         },
         {
-          "full_name": "Gouke Bonsel",
-          "last_name": "Bonsel",
+          "full_name": "Slaap B",
+          "last_name": "Slaap",
           "orcid": null
         },
         {
-          "full_name": "Jan Busschbach",
+          "full_name": "Busschbach JJ",
           "last_name": "Busschbach",
-          "orcid": null
-        },
-        {
-          "full_name": "Elly Stolk",
-          "last_name": "Stolk",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2019.06.008",
-        "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301519322594/pdf",
-        "landing_page": "https://doi.org/10.1016/j.jval.2019.06.008",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1177/0272989x211001859",
-      "doi": "10.1177/0272989x211001859",
-      "pmid": "33754886",
-      "pmcid": "PMC8191148",
-      "title": "Valuation Survey of EQ-5D-Y Based on the International Common Protocol: Development of a Value Set in Japan",
-      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
-      "year": 2021,
-      "authors": [
-        {
-          "full_name": "Shiroiwa T",
-          "last_name": "Shiroiwa",
-          "orcid": "0000-0003-3055-9932"
-        },
-        {
-          "full_name": "Ikeda S",
-          "last_name": "Ikeda",
-          "orcid": null
-        },
-        {
-          "full_name": "Noto S",
-          "last_name": "Noto",
-          "orcid": "0000-0002-6952-7770"
-        },
-        {
-          "full_name": "Fukuda T",
-          "last_name": "Fukuda",
-          "orcid": null
+          "orcid": "0000-0002-8602-0381"
         },
         {
           "full_name": "Stolk E",
@@ -603,87 +712,42 @@
         "europepmc"
       ],
       "access": {
-        "is_oa": true,
-        "licence": "cc by-nc",
-        "oa_url": "https://doi.org/10.1177/0272989x211001859",
-        "pdf_url": "https://europepmc.org/articles/PMC8191148?pdf=render",
-        "landing_page": "https://doi.org/10.1177/0272989x211001859",
-        "retrieval": "open"
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2016.10.012",
+        "retrieval": "requires_subscription"
       }
     },
     {
-      "work_id": "doi:10.1186/s12955-025-02391-x",
-      "doi": "10.1186/s12955-025-02391-x",
-      "pmid": "40518518",
-      "pmcid": "PMC12168295",
-      "title": "Optimal DCE design for modelling nonlinear time preferences in EQ-5D-5L valuation studies: exploration of data from Denmark and Peru",
-      "journal": "Health and quality of life outcomes",
-      "year": 2025,
+      "work_id": "doi:10.1016/j.jval.2017.10.002",
+      "doi": "10.1016/j.jval.2017.10.002",
+      "pmid": "30005748",
+      "pmcid": null,
+      "title": "Effect of Level Overlap and Color Coding on Attribute Non-Attendance in Discrete Choice Experiments",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
       "authors": [
         {
-          "full_name": "Yu A",
-          "last_name": "Yu",
-          "orcid": "0000-0003-4515-9878"
-        },
-        {
-          "full_name": "Street D",
-          "last_name": "Street",
-          "orcid": null
-        },
-        {
-          "full_name": "Jonker M",
+          "full_name": "Jonker MF",
           "last_name": "Jonker",
           "orcid": null
         },
         {
-          "full_name": "Bour S",
-          "last_name": "Bour",
+          "full_name": "Donkers B",
+          "last_name": "Donkers",
+          "orcid": "0000-0002-0412-4276"
+        },
+        {
+          "full_name": "de Bekker-Grob EW",
+          "last_name": "de Bekker-Grob",
           "orcid": null
         },
         {
-          "full_name": "Mulhern B",
-          "last_name": "Mulhern",
-          "orcid": null
-        },
-        {
-          "full_name": "Augustovski F",
-          "last_name": "Augustovski",
-          "orcid": null
-        },
-        {
-          "full_name": "Jensen C",
-          "last_name": "Jensen",
-          "orcid": null
-        },
-        {
-          "full_name": "Gudex C",
-          "last_name": "Gudex",
-          "orcid": "0000-0003-3881-9890"
-        },
-        {
-          "full_name": "Jensen M",
-          "last_name": "Jensen",
-          "orcid": null
-        },
-        {
-          "full_name": "Tejada R",
-          "last_name": "Tejada",
-          "orcid": "0000-0003-4420-5289"
-        },
-        {
-          "full_name": "Norman R",
-          "last_name": "Norman",
-          "orcid": null
-        },
-        {
-          "full_name": "Viney R",
-          "last_name": "Viney",
-          "orcid": "0000-0002-0039-9635"
-        },
-        {
-          "full_name": "Stolk E",
+          "full_name": "Stolk EA",
           "last_name": "Stolk",
-          "orcid": null
+          "orcid": "0000-0001-5968-0416"
         }
       ],
       "score": 0.45,
@@ -700,14 +764,66 @@
         "europepmc"
       ],
       "access": {
-        "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC12168295",
-        "pdf_url": "https://europepmc.org/articles/PMC12168295?pdf=render",
-        "landing_page": "https://doi.org/10.1186/s12955-025-02391-x",
-        "retrieval": "open"
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2017.10.002",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.01.016",
+      "doi": "10.1016/j.jval.2018.01.016",
+      "pmid": "30098678",
+      "pmcid": null,
+      "title": "Advocating a Paradigm Shift in Health-State Valuations: The Estimation of Time-Preference Corrected QALY Tariffs",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Jonker MF",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Donkers B",
+          "last_name": "Donkers",
+          "orcid": "0000-0002-0412-4276"
+        },
+        {
+          "full_name": "de Bekker-Grob EW",
+          "last_name": "de Bekker-Grob",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.01.016",
+        "retrieval": "requires_subscription"
       }
     }
   ],
-  "weak_omitted": 0
+  "weak_omitted": 8
 }

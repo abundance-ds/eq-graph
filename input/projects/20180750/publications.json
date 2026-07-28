@@ -4,9 +4,66 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s40271-017-0278-0",
+      "doi": "10.1007/s40271-017-0278-0",
+      "pmid": "29019161",
+      "pmcid": "PMC5845074",
+      "title": "Assessing the Use of a Feedback Module to Model EQ-5D-5L Health States Values in Hong Kong",
+      "journal": "The patient",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Wong ELY",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Cheung AWL",
+          "last_name": "Cheung",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong AYK",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Rivero-Arias O",
+          "last_name": "Rivero-Arias",
+          "orcid": "0000-0003-2233-6544"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC5845074",
+        "pdf_url": "https://europepmc.org/articles/PMC5845074?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-017-0278-0",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2019.02.014",
       "doi": "10.1016/j.jval.2019.02.014",
-      "pmid": null,
+      "pmid": "31426933",
       "pmcid": null,
       "title": "Normative Profile of Health-Related Quality of Life for Hong Kong General Population Using Preference-Based Instrument EQ-5D-5L",
       "journal": "Value in Health",
@@ -54,7 +111,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -68,7 +126,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.08.005",
       "doi": "10.1016/j.jval.2025.08.005",
-      "pmid": null,
+      "pmid": "40845976",
       "pmcid": null,
       "title": "Comparing Adolescent and Adult Preferences for EQ-5D-Y-3L Health States in Hong Kong",
       "journal": "Value in Health",
@@ -116,7 +174,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

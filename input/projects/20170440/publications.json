@@ -55,6 +55,53 @@
         "landing_page": "https://doi.org/10.1177/0272989x20927705",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "pmid:36810035",
+      "doi": null,
+      "pmid": "36810035",
+      "pmcid": null,
+      "title": "Guidance to Users of EQ-5D-5L Value Sets",
+      "journal": null,
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Finch AP",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Parkin D",
+          "last_name": "Parkin",
+          "orcid": "0000-0002-9990-8208"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "http://europepmc.org/books/NBK589295",
+        "pdf_url": null,
+        "landing_page": null,
+        "retrieval": "open"
+      }
     }
   ],
   "weak_omitted": 0

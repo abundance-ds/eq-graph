@@ -227,6 +227,58 @@
       }
     },
     {
+      "work_id": "doi:10.1186/s12955-023-02216-9",
+      "doi": "10.1186/s12955-023-02216-9",
+      "pmid": "38087302",
+      "pmcid": "PMC10717517",
+      "title": "QALYs and rare diseases: exploring the responsiveness of SF-6D, EQ-5D-5L and AQoL-8D following genomic testing for childhood and adult-onset rare genetic conditions in Australia",
+      "journal": "Health and quality of life outcomes",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Pan T",
+          "last_name": "Pan",
+          "orcid": "0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Wu Y",
+          "last_name": "Wu",
+          "orcid": null
+        },
+        {
+          "full_name": "Buchanan J",
+          "last_name": "Buchanan",
+          "orcid": "0000-0003-2528-0638"
+        },
+        {
+          "full_name": "Goranitis I",
+          "last_name": "Goranitis",
+          "orcid": "0000-0001-7946-8324"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10717517",
+        "pdf_url": "https://europepmc.org/articles/PMC10717517?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-023-02216-9",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-025-02402-x",
       "doi": "10.1186/s12955-025-02402-x",
       "pmid": "40660259",

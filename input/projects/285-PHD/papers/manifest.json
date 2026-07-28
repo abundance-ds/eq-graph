@@ -1,0 +1,19 @@
+{
+  "project_id": "285-PHD",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.3390/cancers16111952",
+      "doi": "10.3390/cancers16111952",
+      "title": "Internal Responsiveness of EQ-5D-5L and EORTC QLQ-C30 in Dutch Breast Cancer Patients during the First Year Post-Surgery: A Longitudinal Cohort Study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11170999/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.3390/cancers16111952",
+      "status": "ok",
+      "file": "input/projects/285-PHD/papers/doi_10.3390_cancers16111952.xml",
+      "bytes": 187669,
+      "sha256": "a234cc4cc87528c5139eefd7aae433906b6ff3ef1fb655875d45011c7d336296"
+    }
+  ]
+}

@@ -6,6 +6,8 @@ Stages, each independently rerunnable:
     discover  network only  -- fill the HTTP cache, record attempts in the ledger
     match     offline       -- replay the cache, link projects to works
     enrich    network only  -- OA status and free full-text location per DOI
+    harvest   network only  -- pull Europe PMC full text for the whole work pool
+    mine      offline       -- read grant ids out of that text
     fulltext  network only  -- download openly licensed full texts
     export    offline       -- write publications.json into each project directory
     report    offline       -- coverage gap report
@@ -25,7 +27,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from scrape import discover, fulltext, match, report  # noqa: E402
+from scrape import discover, fulltext, match, mine, report  # noqa: E402
 from scrape.db import connect  # noqa: E402
 from scrape.http import Fetcher  # noqa: E402
 
@@ -53,6 +55,15 @@ def cmd_enrich(conn, args) -> None:
     print(f"enrichment: {stats}")
 
 
+def cmd_harvest(conn, args) -> None:
+    fetcher = Fetcher(conn, force=args.force)
+    mine.harvest(conn, fetcher, args.retry_failed)
+
+
+def cmd_mine(conn, args) -> None:
+    mine.mine(conn)
+
+
 def cmd_fulltext(conn, args) -> None:
     fetcher = Fetcher(conn, force=args.force)
     fulltext.run(conn, fetcher, args.retry_failed, args.min_fulltext_score)
@@ -63,6 +74,7 @@ def cmd_export(conn, args) -> None:
 
 
 def cmd_report(conn, args) -> None:
+    report.no_publication_report(conn)
     report.gap_report(conn)
 
 
@@ -90,7 +102,9 @@ def cmd_all(conn, args) -> None:
     cmd_discover(conn, args)
     cmd_match(conn, args)
     cmd_enrich(conn, args)
-    cmd_match(conn, args)  # re-link so exports carry the enriched OA fields
+    cmd_harvest(conn, args)
+    cmd_mine(conn, args)
+    cmd_match(conn, args)  # re-link with enriched OA fields and mined grant ids
     cmd_export(conn, args)
     cmd_fulltext(conn, args)
     cmd_report(conn, args)
@@ -98,6 +112,7 @@ def cmd_all(conn, args) -> None:
 
 COMMANDS = {
     "discover": cmd_discover, "match": cmd_match, "enrich": cmd_enrich,
+    "harvest": cmd_harvest, "mine": cmd_mine,
     "fulltext": cmd_fulltext, "export": cmd_export, "report": cmd_report,
     "status": cmd_status, "all": cmd_all,
 }

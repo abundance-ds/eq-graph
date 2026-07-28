@@ -1,0 +1,19 @@
+{
+  "project_id": "1557-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04230-y",
+      "doi": "10.1007/s11136-026-04230-y",
+      "title": "Carers' interpretation of the recall period and perspective-taking when completing the EQ health and wellbeing instrument (EQ-HWB)-9 as proxies for people with dementia: a think-aloud study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13043530/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04230-y",
+      "status": "ok",
+      "file": "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml",
+      "bytes": 177976,
+      "sha256": "ab6a51b16fd7785ff1e29018cd5e659f8f0aaaa276dab7480be8c88b2b5911fc"
+    }
+  ]
+}

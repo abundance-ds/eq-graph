@@ -58,6 +58,63 @@
         "landing_page": "https://doi.org/10.1016/j.jval.2024.11.010",
         "retrieval": "requires_subscription"
       }
+    },
+    {
+      "work_id": "doi:10.1177/0272989x251380556",
+      "doi": "10.1177/0272989x251380556",
+      "pmid": "41408725",
+      "pmcid": "PMC12769929",
+      "title": "Uncertainty around Health State Values Used in Cost-Effectiveness Analysis: How It Arises and How to Deal with It",
+      "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Parkin D",
+          "last_name": "Parkin",
+          "orcid": "0000-0002-9990-8208"
+        },
+        {
+          "full_name": "Briggs A",
+          "last_name": "Briggs",
+          "orcid": "0000-0002-0777-1997"
+        },
+        {
+          "full_name": "Abangma G",
+          "last_name": "Abangma",
+          "orcid": "0009-0005-5260-4652"
+        },
+        {
+          "full_name": "Lloyd A",
+          "last_name": "Lloyd",
+          "orcid": "0000-0002-7597-6556"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC12769929",
+        "pdf_url": "https://europepmc.org/articles/PMC12769929?pdf=render",
+        "landing_page": "https://doi.org/10.1177/0272989x251380556",
+        "retrieval": "open"
+      }
     }
   ],
   "review": [],
@@ -234,7 +291,7 @@
     {
       "work_id": "doi:10.1007/s11136-021-02911-4",
       "doi": "10.1007/s11136-021-02911-4",
-      "pmid": null,
+      "pmid": "34181154",
       "pmcid": null,
       "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
       "journal": "Quality of Life Research",
@@ -287,7 +344,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -957,7 +1015,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.06.004",
       "doi": "10.1016/j.jval.2023.06.004",
-      "pmid": null,
+      "pmid": "37348834",
       "pmcid": null,
       "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
       "journal": "Value in Health",
@@ -1025,7 +1083,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -1039,7 +1098,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.04.2161",
       "doi": "10.1016/j.jval.2025.04.2161",
-      "pmid": null,
+      "pmid": "40339642",
       "pmcid": null,
       "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
       "journal": "Value in Health",
@@ -1082,7 +1141,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -1094,5 +1154,5 @@
       }
     }
   ],
-  "weak_omitted": 5
+  "weak_omitted": 8
 }

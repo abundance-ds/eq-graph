@@ -36,6 +36,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20190360",
           "weight": 1.0
@@ -65,7 +70,7 @@
     {
       "work_id": "doi:10.1007/s11136-017-1774-3",
       "doi": "10.1007/s11136-017-1774-3",
-      "pmid": null,
+      "pmid": "29302851",
       "pmcid": null,
       "title": "Lifestyle-related attitudes: do they explain self-rated health and life-satisfaction?",
       "journal": "Quality of Life Research",
@@ -118,7 +123,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -499,7 +505,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2019.02.009",
       "doi": "10.1016/j.jval.2019.02.009",
-      "pmid": null,
+      "pmid": "31426935",
       "pmcid": null,
       "title": "United States Valuation of EQ-5D-5L Health States Using an International Protocol",
       "journal": "Value in Health",
@@ -577,7 +583,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -702,7 +709,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.10.012",
       "doi": "10.1016/j.jval.2025.10.012",
-      "pmid": null,
+      "pmid": "41260296",
       "pmcid": null,
       "title": "Reversing Proxy Roles: Care Recipients as Proxies for Caregiver Health-Related Quality of Life",
       "journal": "Value in Health",
@@ -735,7 +742,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -874,7 +882,7 @@
     {
       "work_id": "doi:10.1093/geront/gnae143",
       "doi": "10.1093/geront/gnae143",
-      "pmid": null,
+      "pmid": "39447028",
       "pmcid": null,
       "title": "Delineating Care Recipient Burden Constructs: Development and Validation of the CARE-2B Scale for Care Recipient Self-Perceived Burden and Proxy Assessment of Caregiver Burden",
       "journal": "The Gerontologist",
@@ -917,7 +925,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

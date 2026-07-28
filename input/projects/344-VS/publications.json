@@ -1,6 +1,59 @@
 {
   "project_id": "344-VS",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s12955-025-02397-5",
+      "doi": "10.1186/s12955-025-02397-5",
+      "pmid": "40598511",
+      "pmcid": "PMC12210699",
+      "title": "Findings from a roundtable discussion with Pakistani stakeholders on measuring and valuing health and health-related quality of life for children and adolescents",
+      "journal": "Health and quality of life outcomes",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Malik M",
+          "last_name": "Malik",
+          "orcid": "0000-0001-5824-9405"
+        },
+        {
+          "full_name": "Hussain A",
+          "last_name": "Hussain",
+          "orcid": null
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Gu NY",
+          "last_name": "Gu",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC12210699",
+        "pdf_url": "https://europepmc.org/articles/PMC12210699?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-025-02397-5",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -57,58 +110,6 @@
         "oa_url": "https://europepmc.org/articles/PMC10721573",
         "pdf_url": "https://europepmc.org/articles/PMC10721573?pdf=render",
         "landing_page": "https://doi.org/10.1007/s41669-023-00437-8",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1186/s12955-025-02397-5",
-      "doi": "10.1186/s12955-025-02397-5",
-      "pmid": "40598511",
-      "pmcid": "PMC12210699",
-      "title": "Findings from a roundtable discussion with Pakistani stakeholders on measuring and valuing health and health-related quality of life for children and adolescents",
-      "journal": "Health and quality of life outcomes",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Malik M",
-          "last_name": "Malik",
-          "orcid": "0000-0001-5824-9405"
-        },
-        {
-          "full_name": "Hussain A",
-          "last_name": "Hussain",
-          "orcid": null
-        },
-        {
-          "full_name": "Purba FD",
-          "last_name": "Purba",
-          "orcid": null
-        },
-        {
-          "full_name": "Gu NY",
-          "last_name": "Gu",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by-nc-nd",
-        "oa_url": "https://europepmc.org/articles/PMC12210699",
-        "pdf_url": "https://europepmc.org/articles/PMC12210699?pdf=render",
-        "landing_page": "https://doi.org/10.1186/s12955-025-02397-5",
         "retrieval": "open"
       }
     }

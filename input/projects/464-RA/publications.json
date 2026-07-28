@@ -31,6 +31,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 464-RA",
           "weight": 1.0
@@ -48,10 +53,104 @@
         "landing_page": "https://doi.org/10.1007/s11136-025-04053-3",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04242-8",
+      "doi": "10.1007/s11136-026-04242-8",
+      "pmid": "42070162",
+      "pmcid": "PMC13136203",
+      "title": "A direct comparison of the measurement properties of the PROMIS-16 and EQ-5D-5L in the U.S. general population",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Pham M",
+          "last_name": "Pham",
+          "orcid": null
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Peasgood T",
+          "last_name": "Peasgood",
+          "orcid": "0000-0001-8024-7801"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13136203",
+        "pdf_url": "https://europepmc.org/articles/PMC13136203?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04242-8",
+        "retrieval": "open"
+      }
     }
   ],
   "review": [],
   "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-021-00509-z",
+      "doi": "10.1007/s40271-021-00509-z",
+      "pmid": "33782840",
+      "pmcid": "PMC8007385",
+      "title": "QALYs for COVID-19: A Comparison of US EQ-5D-5L Value Sets",
+      "journal": "The patient",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Poteet S",
+          "last_name": "Poteet",
+          "orcid": "0000-0002-4502-6461"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "https://europepmc.org/articles/PMC8007385",
+        "pdf_url": "https://europepmc.org/articles/PMC8007385?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-021-00509-z",
+        "retrieval": "open"
+      }
+    },
     {
       "work_id": "doi:10.1007/s40271-024-00708-4",
       "doi": "10.1007/s40271-024-00708-4",

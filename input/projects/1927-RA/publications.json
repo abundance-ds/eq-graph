@@ -118,7 +118,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.03.002",
       "doi": "10.1016/j.jval.2024.03.002",
-      "pmid": null,
+      "pmid": "38490471",
       "pmcid": null,
       "title": "The Measurement Properties of the EQ-HWB and the EQ-HWB-S in Italian Population: A Comparative Study With EQ-5D-5L",
       "journal": "Value in Health",
@@ -156,7 +156,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

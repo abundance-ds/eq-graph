@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1080/14737167.2018.1494574",
       "doi": "10.1080/14737167.2018.1494574",
-      "pmid": null,
+      "pmid": "29958008",
       "pmcid": null,
       "title": "The EQ-5D-5L Valuation study in Thailand",
       "journal": "Expert Review of Pharmacoeconomics &amp; Outcomes Research",
@@ -54,7 +54,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

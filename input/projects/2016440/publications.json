@@ -61,10 +61,15 @@
           "orcid": "https://orcid.org/0000-0001-7470-528x"
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 2016440",
@@ -81,6 +86,88 @@
         "oa_url": "https://europepmc.org/articles/PMC6306233",
         "pdf_url": "https://europepmc.org/articles/PMC6306233?pdf=render",
         "landing_page": "https://doi.org/10.1371/journal.pone.0209344",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1371/journal.pone.0305983",
+      "doi": "10.1371/journal.pone.0305983",
+      "pmid": "38889178",
+      "pmcid": "PMC11185465",
+      "title": "Correction: Valuation of the EQ-5D-5L in Taiwan",
+      "journal": "PloS one",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Lin HW",
+          "last_name": "Lin",
+          "orcid": null
+        },
+        {
+          "full_name": "Li CI",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Lin FJ",
+          "last_name": "Lin",
+          "orcid": null
+        },
+        {
+          "full_name": "Chang JY",
+          "last_name": "Chang",
+          "orcid": null
+        },
+        {
+          "full_name": "Gau CS",
+          "last_name": "Gau",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": null
+        },
+        {
+          "full_name": "Pickard AS",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramos Goñi JM",
+          "last_name": "Ramos Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Tang CH",
+          "last_name": "Tang",
+          "orcid": null
+        },
+        {
+          "full_name": "Hsu CN",
+          "last_name": "Hsu",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1371/journal.pone.0305983",
+        "pdf_url": "https://europepmc.org/articles/PMC11185465?pdf=render",
+        "landing_page": "https://doi.org/10.1371/journal.pone.0305983",
         "retrieval": "open"
       }
     }

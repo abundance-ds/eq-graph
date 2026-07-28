@@ -41,6 +41,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2015300",
           "weight": 1.0
@@ -67,6 +72,63 @@
   ],
   "review": [],
   "weak": [
+    {
+      "work_id": "doi:10.1007/s40271-018-0309-5",
+      "doi": "10.1007/s40271-018-0309-5",
+      "pmid": "29691804",
+      "pmcid": null,
+      "title": "Key Issues and Potential Solutions for Understanding Healthcare Preference Heterogeneity Free from Patient-Level Scale Confounds",
+      "journal": "The patient",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Groothuis-Oudshoorn CGM",
+          "last_name": "Groothuis-Oudshoorn",
+          "orcid": "0000-0002-4875-5379"
+        },
+        {
+          "full_name": "Flynn TN",
+          "last_name": "Flynn",
+          "orcid": null
+        },
+        {
+          "full_name": "Yoo HI",
+          "last_name": "Yoo",
+          "orcid": "0000-0003-3810-1811"
+        },
+        {
+          "full_name": "Magidson J",
+          "last_name": "Magidson",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": "https://durham-repository.worktribe.com/preview/1333376/24697.pdf",
+        "landing_page": "https://doi.org/10.1007/s40271-018-0309-5",
+        "retrieval": "requires_subscription"
+      }
+    },
     {
       "work_id": "doi:10.1007/s40273-016-0404-1",
       "doi": "10.1007/s40273-016-0404-1",
@@ -184,7 +246,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2022.03.001",
       "doi": "10.1016/j.jval.2022.03.001",
-      "pmid": null,
+      "pmid": "35379562",
       "pmcid": null,
       "title": "Does Changing the Age of a Child to be Considered in 3-Level Version of EQ-5D-Y Discrete Choice Experiment–Based Valuation Studies Affect Health Preferences?",
       "journal": "Value in Health",
@@ -237,7 +299,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

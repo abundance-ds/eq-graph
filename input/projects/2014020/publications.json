@@ -555,7 +555,7 @@
     {
       "work_id": "doi:10.1007/s10198-017-0905-7",
       "doi": "10.1007/s10198-017-0905-7",
-      "pmid": null,
+      "pmid": "28569351",
       "pmcid": null,
       "title": "Valuing EQ-5D-5L health states ‘in context’ using a discrete choice experiment",
       "journal": "The European Journal of Health Economics",
@@ -598,12 +598,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "http://www.springer.com/tdm",
-        "oa_url": null,
+        "oa_url": "https://qmro.qmul.ac.uk/xmlui/handle/123456789/54147",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-017-0905-7",
         "retrieval": "requires_subscription"
@@ -768,5 +769,5 @@
       }
     }
   ],
-  "weak_omitted": 13
+  "weak_omitted": 18
 }

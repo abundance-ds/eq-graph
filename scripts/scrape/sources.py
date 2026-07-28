@@ -7,6 +7,7 @@ stage never needs to know where a work came from.
 from __future__ import annotations
 
 import json
+import os
 import re
 from typing import Iterator
 
@@ -130,6 +131,17 @@ def epmc_to_work(item: dict) -> dict | None:
 
 def epmc_ack_query() -> str:
     return 'ACK_FUND:"EuroQol" OR ACK_FUND:"EuroQol Research Foundation"'
+
+
+def epmc_phrase_query() -> str:
+    """Free-text phrase sweep.
+
+    The ACK_FUND index only holds what Europe PMC managed to parse out of the funding
+    statement; searching the phrase across the whole text finds ~1147 works against
+    626 for the index. The extra hits are exactly the ones whose funding statement was
+    never structured -- which is where full-text grant-id mining pays off.
+    """
+    return '"EuroQol Research Foundation"'
 
 
 # Only the 8-digit scheme is distinctive enough for free-text search. Suffix ids like
@@ -277,3 +289,106 @@ def unpaywall_lookup(fetcher: Fetcher, doi: str) -> dict | None:
 
 def dumps(value) -> str:
     return json.dumps(value, ensure_ascii=False)
+
+
+# ---------------------------------------------------- keyed / metered sources
+#
+# All three need credentials this machine does not have yet, so each is inert
+# until its environment variable is set. They are wired but UNVERIFIED: no live
+# response has been seen from them, unlike Europe PMC, Crossref and Unpaywall.
+#
+#   CORE_API_KEY              https://core.ac.uk/services/api  (free)
+#   SEMANTIC_SCHOLAR_API_KEY  https://www.semanticscholar.org/product/api  (free)
+#   OPENALEX_ENABLED=1        requires prepaid credits; openalex.org/pricing
+
+CORE_API_KEY = os.environ.get("CORE_API_KEY")
+S2_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
+OPENALEX_ENABLED = os.environ.get("OPENALEX_ENABLED") == "1"
+
+CORE_SEARCH = "https://api.core.ac.uk/v3/search/works"
+S2_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search"
+OPENALEX_WORKS = "https://api.openalex.org/works"
+
+
+def core_works(fetcher: Fetcher, max_pages: int = MAX_PAGES) -> Iterator[dict]:
+    """CORE aggregates open-access repository deposits, including full text."""
+    if not CORE_API_KEY:
+        return
+    for page in range(max_pages):
+        resp = fetcher.get(
+            CORE_SEARCH,
+            {"q": '"EuroQol Research Foundation"', "limit": PAGE_SIZE,
+             "offset": page * PAGE_SIZE},
+            headers={"Authorization": f"Bearer {CORE_API_KEY}"},
+        )
+        results = resp.json().get("results", [])
+        yield from results
+        if len(results) < PAGE_SIZE:
+            return
+
+
+def core_to_work(item: dict) -> dict | None:
+    doi = normalize_doi(item.get("doi"))
+    work_id = make_work_id(doi, None, None) or (
+        f"core:{item['id']}" if item.get("id") else None
+    )
+    if not work_id:
+        return None
+    authors = [{"full_name": a.get("name"), "last_name": (a.get("name") or "").split()[-1]
+                if a.get("name") else None, "orcid": None}
+               for a in item.get("authors", [])]
+    return {
+        "work_id": work_id, "doi": doi, "pmid": None, "pmcid": None,
+        "title": (item.get("title") or "").strip().rstrip("."),
+        "journal": item.get("publisher"), "year": item.get("yearPublished"),
+        "authors": authors, "is_oa": 1, "oa_url": item.get("downloadUrl"),
+        "licence": None, "pdf_url": item.get("downloadUrl"),
+        "source": "core", "grants": [], "abstract": item.get("abstract"),
+    }
+
+
+def openalex_funder_works(fetcher: Fetcher, max_pages: int = MAX_PAGES) -> Iterator[dict]:
+    """OpenAlex works crediting the EuroQol funder. Metered -- opt in explicitly."""
+    if not OPENALEX_ENABLED:
+        return
+    for page in range(1, max_pages + 1):
+        resp = fetcher.get(
+            OPENALEX_WORKS,
+            {"filter": f"grants.funder:{OPENALEX_FUNDER_ID}", "per-page": PAGE_SIZE,
+             "page": page, "mailto": CONTACT_EMAIL},
+        )
+        results = resp.json().get("results", [])
+        yield from results
+        if len(results) < PAGE_SIZE:
+            return
+
+
+def openalex_to_work(item: dict) -> dict | None:
+    doi = normalize_doi(item.get("doi"))
+    ids = item.get("ids") or {}
+    pmid = (ids.get("pmid") or "").rsplit("/", 1)[-1] or None
+    pmcid = (ids.get("pmcid") or "").rsplit("/", 1)[-1] or None
+    work_id = make_work_id(doi, pmid, pmcid)
+    if not work_id:
+        return None
+    authors = []
+    for a in item.get("authorships", []):
+        name = (a.get("author") or {}).get("display_name") or ""
+        authors.append({
+            "full_name": name, "last_name": name.split()[-1] if name else None,
+            "orcid": normalize_doi((a.get("author") or {}).get("orcid")),
+        })
+    grants = [{"grant_id": g.get("award_id"),
+               "agency": (g.get("funder_display_name") or "")}
+              for g in item.get("grants", []) if g.get("award_id")]
+    oa = item.get("open_access") or {}
+    return {
+        "work_id": work_id, "doi": doi, "pmid": pmid, "pmcid": pmcid,
+        "title": (item.get("title") or "").strip().rstrip("."),
+        "journal": ((item.get("primary_location") or {}).get("source") or {}).get("display_name"),
+        "year": item.get("publication_year"), "authors": authors,
+        "is_oa": 1 if oa.get("is_oa") else 0, "oa_url": oa.get("oa_url"),
+        "licence": (item.get("primary_location") or {}).get("license"),
+        "pdf_url": (item.get("best_oa_location") or {}).get("pdf_url"),
+        "source": "openalex", "grants": grants, "abstract": None,
+    }

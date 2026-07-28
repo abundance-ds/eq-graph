@@ -34,6 +34,15 @@ Both developers and AI agents are expected to add entries as they encounter surp
   exported evidence and rewrote ~540 tracked files on every identical rerun.
 - Publishers 403 automated PDF fetches even for CC-licensed articles (Elsevier, BMJ,
   MDPI, Wiley all did). Treat 401/403 as terminal, not as a retryable failure.
+- Europe PMC's `ACK_FUND:"EuroQol"` finds 626 works; the free-text phrase
+  `"EuroQol Research Foundation"` finds 1147. The index only holds funding statements
+  EPMC managed to parse, so never treat it as the full funder corpus.
+- The grant id is printed in the article's acknowledgement text far more reliably than
+  it is indexed. Harvesting OA full text and reading ids out of it (within ~300 chars
+  of a EuroQol mention, else reused grant numbers produce false hits) is the
+  highest-yield attribution route available without paid sources.
+- OpenAIRE holds no EuroQol funder records (`funder=EuroQol` returns 0). Do not spend
+  time on it for this corpus.
 
 ## Anti-patterns to avoid
 

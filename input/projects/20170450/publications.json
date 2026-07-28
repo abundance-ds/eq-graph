@@ -31,6 +31,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20170450",
           "weight": 1.0
@@ -60,7 +65,7 @@
     {
       "work_id": "doi:10.1007/s10198-019-01156-w",
       "doi": "10.1007/s10198-019-01156-w",
-      "pmid": null,
+      "pmid": "31902023",
       "pmcid": null,
       "title": "A vision ‘bolt-on’ increases the responsiveness of EQ-5D: preliminary evidence from a study of cataract surgery",
       "journal": "The European Journal of Health Economics",
@@ -118,7 +123,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -257,7 +263,7 @@
     {
       "work_id": "doi:10.1007/s10198-023-01635-1",
       "doi": "10.1007/s10198-023-01635-1",
-      "pmid": null,
+      "pmid": "37837519",
       "pmcid": null,
       "title": "Valuation of EQ-5D-5L health states from cancer patients’ perspective: a feasibility study",
       "journal": "The European Journal of Health Economics",
@@ -320,7 +326,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -465,7 +472,7 @@
     {
       "work_id": "doi:10.1007/s10198-024-01714-x",
       "doi": "10.1007/s10198-024-01714-x",
-      "pmid": null,
+      "pmid": "39162893",
       "pmcid": null,
       "title": "Testing four cognition bolt-on items to the EQ-5D in a general Chinese population",
       "journal": "The European Journal of Health Economics",
@@ -518,7 +525,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -532,7 +540,7 @@
     {
       "work_id": "doi:10.1007/s11136-017-1683-5",
       "doi": "10.1007/s11136-017-1683-5",
-      "pmid": null,
+      "pmid": "28808840",
       "pmcid": null,
       "title": "Comparison of health state values derived from patients and individuals from the general population",
       "journal": "Quality of Life Research",
@@ -610,7 +618,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -624,7 +633,7 @@
     {
       "work_id": "doi:10.1007/s11136-018-2027-9",
       "doi": "10.1007/s11136-018-2027-9",
-      "pmid": null,
+      "pmid": "30317426",
       "pmcid": null,
       "title": "Psychometric performance assessment of Malay and Malaysian English version of EQ-5D-5L in the Malaysian population",
       "journal": "Quality of Life Research",
@@ -662,7 +671,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -676,7 +686,7 @@
     {
       "work_id": "doi:10.1007/s11136-022-03329-2",
       "doi": "10.1007/s11136-022-03329-2",
-      "pmid": null,
+      "pmid": "36564637",
       "pmcid": null,
       "title": "Censoring in the time trade-off valuation of worse-than-dead EQ-5D-5L health states: can a time-based willingness-to-accept question be the solution?",
       "journal": "Quality of Life Research",
@@ -724,7 +734,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -738,7 +749,7 @@
     {
       "work_id": "doi:10.1007/s40271-018-00354-7",
       "doi": "10.1007/s40271-018-00354-7",
-      "pmid": null,
+      "pmid": "30607809",
       "pmcid": null,
       "title": "EQ-5D-5L is More Responsive than EQ-5D-3L to Treatment Benefit of Cataract Surgery",
       "journal": "The Patient - Patient-Centered Outcomes Research",
@@ -796,7 +807,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -810,7 +822,7 @@
     {
       "work_id": "doi:10.1007/s40271-020-00452-5",
       "doi": "10.1007/s40271-020-00452-5",
-      "pmid": null,
+      "pmid": "32944897",
       "pmcid": null,
       "title": "How Do Respondents Interpret and View the EQ-VAS? A Qualitative Study of Three Asian Populations",
       "journal": "The Patient - Patient-Centered Outcomes Research",
@@ -853,7 +865,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -1023,5 +1036,5 @@
       }
     }
   ],
-  "weak_omitted": 15
+  "weak_omitted": 16
 }

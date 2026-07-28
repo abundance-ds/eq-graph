@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2021.07.006",
       "doi": "10.1016/j.jval.2021.07.006",
-      "pmid": null,
+      "pmid": "34838278",
       "pmcid": null,
       "title": "Comparison of the Psychometric Properties of the EQ-5D-3L-Y and EQ-5D-5L-Y Instruments in Spanish Children and Adolescents",
       "journal": "Value in Health",
@@ -44,7 +44,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -99,6 +100,93 @@
         "oa_url": "https://europepmc.org/articles/PMC9517348",
         "pdf_url": "https://www.mdpi.com/1660-4601/19/18/11420/pdf?version=1663063183",
         "landing_page": "https://doi.org/10.3390/ijerph191811420",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.3390/sports14020059",
+      "doi": "10.3390/sports14020059",
+      "pmid": "41745661",
+      "pmcid": "PMC12944858",
+      "title": "Effects of a Strength and Creative Dance Intervention on Brain Electrical Activity, Heart Rate Variability, and Dual-Task Performance in Women with Fibromyalgia: A Randomized Controlled Trial Protocol",
+      "journal": "Sports (Basel, Switzerland)",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Melo-Alonso M",
+          "last_name": "Melo-Alonso",
+          "orcid": "0000-0003-1434-6750"
+        },
+        {
+          "full_name": "Padilla-Moledo C",
+          "last_name": "Padilla-Moledo",
+          "orcid": "0000-0001-9691-9000"
+        },
+        {
+          "full_name": "Martínez-Sánchez A",
+          "last_name": "Martínez-Sánchez",
+          "orcid": "0009-0009-3086-9878"
+        },
+        {
+          "full_name": "Bohn L",
+          "last_name": "Bohn",
+          "orcid": "0000-0001-7988-968X"
+        },
+        {
+          "full_name": "Molero P",
+          "last_name": "Molero",
+          "orcid": null
+        },
+        {
+          "full_name": "Dominguez-Muñoz FJ",
+          "last_name": "Dominguez-Muñoz",
+          "orcid": "0000-0001-5388-2009"
+        },
+        {
+          "full_name": "Villafaina S",
+          "last_name": "Villafaina",
+          "orcid": "0000-0003-0784-1753"
+        },
+        {
+          "full_name": "Olivares PR",
+          "last_name": "Olivares",
+          "orcid": "0000-0001-7371-343X"
+        },
+        {
+          "full_name": "Tornero-Quiñones I",
+          "last_name": "Tornero-Quiñones",
+          "orcid": "0000-0002-8069-3884"
+        },
+        {
+          "full_name": "Leon-Llamas JL",
+          "last_name": "Leon-Llamas",
+          "orcid": "0000-0002-0757-5937"
+        },
+        {
+          "full_name": "Gusi N",
+          "last_name": "Gusi",
+          "orcid": "0000-0002-1001-8883"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12944858",
+        "pdf_url": "https://europepmc.org/articles/PMC12944858?pdf=render",
+        "landing_page": "https://doi.org/10.3390/sports14020059",
         "retrieval": "open"
       }
     }

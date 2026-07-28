@@ -1,0 +1,110 @@
+{
+  "project_id": "2421-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1136/bmjph-2023-000833",
+      "doi": "10.1136/bmjph-2023-000833",
+      "pmid": "40017919",
+      "pmcid": "PMC11816715",
+      "title": "Post-acute sequelae of hospitalised COVID-19 re-infection compared with hospitalised first-time infection: a population-based retrospective cohort study in Hong Kong",
+      "journal": "BMJ public health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Yan VKC",
+          "last_name": "Yan",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhang Y",
+          "last_name": "Zhang",
+          "orcid": "0009-0000-4538-0383"
+        },
+        {
+          "full_name": "Yang D",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Li X",
+          "last_name": "Li",
+          "orcid": "0000-0003-4836-7808"
+        },
+        {
+          "full_name": "Mak LY",
+          "last_name": "Mak",
+          "orcid": null
+        },
+        {
+          "full_name": "Lai FTT",
+          "last_name": "Lai",
+          "orcid": "0000-0002-9121-1959"
+        },
+        {
+          "full_name": "Chui CSL",
+          "last_name": "Chui",
+          "orcid": "0000-0003-1513-8726"
+        },
+        {
+          "full_name": "Wan EYF",
+          "last_name": "Wan",
+          "orcid": "0000-0002-6275-1147"
+        },
+        {
+          "full_name": "Wong C",
+          "last_name": "Wong",
+          "orcid": "0000-0002-6895-6071"
+        },
+        {
+          "full_name": "Chan SCW",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Hung IFN",
+          "last_name": "Hung",
+          "orcid": null
+        },
+        {
+          "full_name": "Lau CS",
+          "last_name": "Lau",
+          "orcid": null
+        },
+        {
+          "full_name": "Chan EWY",
+          "last_name": "Chan",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong IC",
+          "last_name": "Wong",
+          "orcid": "0000-0001-8242-0014"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC11816715",
+        "pdf_url": "https://europepmc.org/articles/PMC11816715?pdf=render",
+        "landing_page": "https://doi.org/10.1136/bmjph-2023-000833",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -3,6 +3,32 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s10198-025-01804-4",
+      "doi": "10.1007/s10198-025-01804-4",
+      "title": "Comparison of the psychometric performance of experimental EuroQol Toddler and Infant Populations Instrument (EQ-TIPS) and Pediatric Quality of Life Inventory™ (PedsQL) in young children",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13046681/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-025-01804-4",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s10198-025-01804-4.xml",
+      "bytes": 160750,
+      "sha256": "8060ea67581f07ff90a74057d81c47172391b6d96756d03f377f93506367fac1"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04246-4",
+      "doi": "10.1007/s11136-026-04246-4",
+      "title": "Measuring quality of life in autistic children and young people: comparing the performance of common generic health related quality of life instruments",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13241415/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04246-4",
+      "status": "ok",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s11136-026-04246-4.xml",
+      "bytes": 150248,
+      "sha256": "d20591859fd343e37b633fcb829248012971ff753fff43274eede3a09a827a5e"
+    },
+    {
       "work_id": "doi:10.1007/s40273-023-01330-2",
       "doi": "10.1007/s40273-023-01330-2",
       "title": "Comparative Psychometric Performance of Common Generic Paediatric Health-Related Quality of Life Instrument Descriptive Systems: Results from the Australian Paediatric Multi-Instrument Comparison Study",

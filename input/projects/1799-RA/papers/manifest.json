@@ -1,0 +1,19 @@
+{
+  "project_id": "1799-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04315-8",
+      "doi": "10.1007/s11136-026-04315-8",
+      "title": "Assessing the dimensionality of the EQ-HWB-25 alongside EQ-5D-5L, QOL-ACC and ASCOT in an older adult population",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13269440/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04315-8",
+      "status": "ok",
+      "file": "input/projects/1799-RA/papers/doi_10.1007_s11136-026-04315-8.xml",
+      "bytes": 112832,
+      "sha256": "ccf80f3e041f9bd07b41fffa9e194a1880dead99e9369ea966c3763098f92996"
+    }
+  ]
+}

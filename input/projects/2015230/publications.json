@@ -398,7 +398,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2019.02.009",
       "doi": "10.1016/j.jval.2019.02.009",
-      "pmid": null,
+      "pmid": "31426935",
       "pmcid": null,
       "title": "United States Valuation of EQ-5D-5L Health States Using an International Protocol",
       "journal": "Value in Health",
@@ -476,7 +476,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -490,7 +491,7 @@
     {
       "work_id": "doi:10.1016/j.vhri.2025.101081",
       "doi": "10.1016/j.vhri.2025.101081",
-      "pmid": null,
+      "pmid": "39965310",
       "pmcid": null,
       "title": "Comparing the Measurement Properties of the Preliminary Version of the EuroQol Health and Well-Being and EQ-5D-5L in Patients, Healthy General Public, and Caregivers",
       "journal": "Value in Health Regional Issues",
@@ -528,7 +529,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -537,6 +539,58 @@
         "pdf_url": "https://www.valuehealthregionalissues.com/article/S2212-1099(25)00006-8/pdf",
         "landing_page": "https://doi.org/10.1016/j.vhri.2025.101081",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101121",
+      "doi": "10.1016/j.vhri.2025.101121",
+      "pmid": "40347856",
+      "pmcid": null,
+      "title": "Adaptation of the Experimental Version of EQ-5D-Y-5L Into Bahasa Indonesia",
+      "journal": "Value in health regional issues",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Fitriana TS",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Busschbach JJV",
+          "last_name": "Busschbach",
+          "orcid": "0000-0002-8602-0381"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101121",
+        "retrieval": "requires_subscription"
       }
     },
     {

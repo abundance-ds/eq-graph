@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1007/s40271-023-00655-6",
       "doi": "10.1007/s40271-023-00655-6",
-      "pmid": null,
+      "pmid": "37985620",
       "pmcid": null,
       "title": "Unravelling the Self-Report Versus Proxy-Report Conundrum for Older Aged Care Residents: Findings from a Mixed-Methods Study",
       "journal": "The Patient - Patient-Centered Outcomes Research",
@@ -79,7 +79,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

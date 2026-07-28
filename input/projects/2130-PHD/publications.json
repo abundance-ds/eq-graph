@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.03.008",
       "doi": "10.1016/j.jval.2026.03.008",
-      "pmid": null,
+      "pmid": "41887403",
       "pmcid": null,
       "title": "A United Kingdom Value Set for the EQ-5D-5L",
       "journal": "Value in Health",
@@ -69,7 +69,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

@@ -1,6 +1,65 @@
 {
   "project_id": "351-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s41669-024-00486-7",
+      "doi": "10.1007/s41669-024-00486-7",
+      "pmid": "38592657",
+      "pmcid": "PMC11058132",
+      "title": "Behind the Scenes: A Qualitative Investigation of Interviewers' Performance in EQ-5D Valuation Studies",
+      "journal": "PharmacoEconomics - Open",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Carlotta Varriale",
+          "last_name": "Varriale",
+          "orcid": "https://orcid.org/0000-0002-4441-6687"
+        },
+        {
+          "full_name": "Giovanni Andrulli",
+          "last_name": "Andrulli",
+          "orcid": "https://orcid.org/0009-0003-4264-0946"
+        },
+        {
+          "full_name": "Michela Meregaglia",
+          "last_name": "Meregaglia",
+          "orcid": "https://orcid.org/0000-0003-0092-5970"
+        },
+        {
+          "full_name": "Fanni Rencz",
+          "last_name": "Rencz",
+          "orcid": "https://orcid.org/0000-0001-9674-620x"
+        },
+        {
+          "full_name": "Aureliano Paolo Finch",
+          "last_name": "Finch",
+          "orcid": "https://orcid.org/0000-0003-1438-321x"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11058132",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s41669-024-00486-7.pdf",
+        "landing_page": "https://doi.org/10.1007/s41669-024-00486-7",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {

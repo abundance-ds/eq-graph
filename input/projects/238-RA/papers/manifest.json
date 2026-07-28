@@ -1,0 +1,19 @@
+{
+  "project_id": "238-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01719-6",
+      "doi": "10.1007/s10198-024-01719-6",
+      "title": "The added value of the cognition, dining, gastrointestinal problems, sleep and tiredness bolt-on dimensions to the EQ-5D-5L in patients with coeliac disease",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11937053/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.1007/s10198-024-01719-6",
+      "status": "ok",
+      "file": "input/projects/238-RA/papers/doi_10.1007_s10198-024-01719-6.xml",
+      "bytes": 172618,
+      "sha256": "a328b636b560990e08c18a4c89ca1185ed4899191f7de4117b7c6bd9e56844d5"
+    }
+  ]
+}

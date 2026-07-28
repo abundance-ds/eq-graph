@@ -337,6 +337,53 @@
       }
     },
     {
+      "work_id": "doi:10.1186/s12955-021-01873-y",
+      "doi": "10.1186/s12955-021-01873-y",
+      "pmid": "34641911",
+      "pmcid": "PMC8513280",
+      "title": "EQ-5D-5L in Schizophrenia: differences between patients and nurses' reports",
+      "journal": "Health and quality of life outcomes",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": "0000-0002-7336-3043"
+        },
+        {
+          "full_name": "Anggriani Y",
+          "last_name": "Anggriani",
+          "orcid": null
+        },
+        {
+          "full_name": "Murtini T",
+          "last_name": "Murtini",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC8513280",
+        "pdf_url": "https://europepmc.org/articles/PMC8513280?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-021-01873-y",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1371/journal.pone.0197098",
       "doi": "10.1371/journal.pone.0197098",
       "pmid": "29750806",

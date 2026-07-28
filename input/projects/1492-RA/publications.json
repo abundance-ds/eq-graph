@@ -1,6 +1,70 @@
 {
   "project_id": "1492-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s41687-025-00985-z",
+      "doi": "10.1186/s41687-025-00985-z",
+      "pmid": "41678080",
+      "pmcid": "PMC12946566",
+      "title": "Translation and cultural adaptation of the EQ-5D-Y-5L into Modern Standard Arabic for use in Egypt",
+      "journal": "Journal of Patient-Reported Outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Manar G. Elgaar",
+          "last_name": "Elgaar",
+          "orcid": null
+        },
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatima Al Sayah",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Fatma S. E. Ebeid",
+          "last_name": "Ebeid",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie M. Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar F. Farid",
+          "last_name": "Farid",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12946566",
+        "pdf_url": "https://europepmc.org/articles/PMC12946566?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-025-00985-z",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -347,69 +411,6 @@
         "oa_url": "https://bmjopen.bmj.com/content/bmjopen/11/12/e051727.full.pdf",
         "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/11/12/e051727.full.pdf",
         "landing_page": "https://doi.org/10.1136/bmjopen-2021-051727",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1186/s41687-025-00985-z",
-      "doi": "10.1186/s41687-025-00985-z",
-      "pmid": "41678080",
-      "pmcid": "PMC12946566",
-      "title": "Translation and cultural adaptation of the EQ-5D-Y-5L into Modern Standard Arabic for use in Egypt",
-      "journal": "Journal of Patient-Reported Outcomes",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Manar G. Elgaar",
-          "last_name": "Elgaar",
-          "orcid": null
-        },
-        {
-          "full_name": "Janine Verstraete",
-          "last_name": "Verstraete",
-          "orcid": null
-        },
-        {
-          "full_name": "Fatima Al Sayah",
-          "last_name": "Al Sayah",
-          "orcid": null
-        },
-        {
-          "full_name": "Fatma S. E. Ebeid",
-          "last_name": "Ebeid",
-          "orcid": null
-        },
-        {
-          "full_name": "Maggie M. Abbassi",
-          "last_name": "Abbassi",
-          "orcid": null
-        },
-        {
-          "full_name": "Samar F. Farid",
-          "last_name": "Farid",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12946566",
-        "pdf_url": "https://europepmc.org/articles/PMC12946566?pdf=render",
-        "landing_page": "https://doi.org/10.1186/s41687-025-00985-z",
         "retrieval": "open"
       }
     }

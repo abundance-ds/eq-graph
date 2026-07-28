@@ -1,6 +1,60 @@
 {
   "project_id": "1497-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01852-w",
+      "doi": "10.1007/s10198-025-01852-w",
+      "pmid": "41160306",
+      "pmcid": "PMC13190540",
+      "title": "Do EQ-5D-Y-3L value sets have common properties, and how do they compare to EQ-5D-5L value sets?",
+      "journal": "The European Journal of Health Economics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": "https://orcid.org/0000-0001-5000-0875"
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Abel Olsen",
+          "last_name": "Olsen",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC13190540",
+        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -120,62 +174,9 @@
       }
     },
     {
-      "work_id": "doi:10.1007/s10198-025-01852-w",
-      "doi": "10.1007/s10198-025-01852-w",
-      "pmid": "41160306",
-      "pmcid": "PMC13190540",
-      "title": "Do EQ-5D-Y-3L value sets have common properties, and how do they compare to EQ-5D-5L value sets?",
-      "journal": "The European Journal of Health Economics",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Bram Roudijk",
-          "last_name": "Roudijk",
-          "orcid": "https://orcid.org/0000-0001-5000-0875"
-        },
-        {
-          "full_name": "Tianxin Pan",
-          "last_name": "Pan",
-          "orcid": null
-        },
-        {
-          "full_name": "Jan Abel Olsen",
-          "last_name": "Olsen",
-          "orcid": null
-        },
-        {
-          "full_name": "Nancy Devlin",
-          "last_name": "Devlin",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC13190540",
-        "pdf_url": "https://europepmc.org/articles/PMC13190540?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s10198-025-01852-w",
-        "retrieval": "open"
-      }
-    },
-    {
       "work_id": "doi:10.1007/s11136-021-02911-4",
       "doi": "10.1007/s11136-021-02911-4",
-      "pmid": null,
+      "pmid": "34181154",
       "pmcid": null,
       "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
       "journal": "Quality of Life Research",
@@ -228,7 +229,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -898,7 +900,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.06.004",
       "doi": "10.1016/j.jval.2023.06.004",
-      "pmid": null,
+      "pmid": "37348834",
       "pmcid": null,
       "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
       "journal": "Value in Health",
@@ -966,7 +968,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -1034,7 +1037,65 @@
         "landing_page": "https://doi.org/10.1016/j.jval.2024.11.010",
         "retrieval": "requires_subscription"
       }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.04.2161",
+      "doi": "10.1016/j.jval.2025.04.2161",
+      "pmid": "40339642",
+      "pmcid": null,
+      "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
+      "journal": "Value in Health",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Nicole Reyes",
+          "last_name": "Reyes",
+          "orcid": null
+        },
+        {
+          "full_name": "Tianxin Pan",
+          "last_name": "Pan",
+          "orcid": null
+        },
+        {
+          "full_name": "Renee Jones",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Kim Dalziel",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "oa_url": "https://doi.org/10.1016/j.jval.2025.04.2161",
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2161",
+        "retrieval": "open"
+      }
     }
   ],
-  "weak_omitted": 6
+  "weak_omitted": 9
 }

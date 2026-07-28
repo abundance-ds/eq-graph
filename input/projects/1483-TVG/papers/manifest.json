@@ -1,0 +1,19 @@
+{
+  "project_id": "1483-TVG",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1213/ane.0000000000007107",
+      "doi": "10.1213/ane.0000000000007107",
+      "title": "Socioeconomic, Patient, and Hospital Determinants for the Utilization of Peripheral Nerve Blocks in Total Joint Arthroplasty",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11805468/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1213/ane.0000000000007107",
+      "status": "ok",
+      "file": "input/projects/1483-TVG/papers/doi_10.1213_ane.0000000000007107.xml",
+      "bytes": 141944,
+      "sha256": "29b8e49882800ec858ac6d8027cb8d474b27e857dd132b9b4b10f05886bab8a0"
+    }
+  ]
+}

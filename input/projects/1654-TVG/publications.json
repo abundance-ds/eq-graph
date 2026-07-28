@@ -1,6 +1,133 @@
 {
   "project_id": "1654-TVG",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01710-1",
+      "doi": "10.1007/s10198-024-01710-1",
+      "pmid": "39066840",
+      "pmcid": "PMC11937211",
+      "title": "Psychometric validation of the Chinese versions of EQ-5D-Y-3L and the experimental EQ-TIPS in children and adolescents with COVID-19",
+      "journal": "The European Journal of Health Economics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Wenjing Zhou",
+          "last_name": "Zhou",
+          "orcid": "https://orcid.org/0000-0003-0770-4564"
+        },
+        {
+          "full_name": "Yaqin Li",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": "https://orcid.org/0000-0002-8602-0381"
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Yanming Lu",
+          "last_name": "Lu",
+          "orcid": "https://orcid.org/0009-0008-6782-4182"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC11937211",
+        "pdf_url": "https://europepmc.org/articles/PMC11937211?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01710-1",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01473-4",
+      "doi": "10.1007/s40273-025-01473-4",
+      "pmid": "39907985",
+      "pmcid": "PMC12011911",
+      "title": "EQ-5D-5L or EQ-HWB-S: Which is the Better Instrument for Capturing Spillover Effects in Parental Carers of Children with COVID-19?",
+      "journal": "PharmacoEconomics",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Wenjing Zhou",
+          "last_name": "Zhou",
+          "orcid": null
+        },
+        {
+          "full_name": "Bo Ding",
+          "last_name": "Ding",
+          "orcid": null
+        },
+        {
+          "full_name": "Jan Busschbach",
+          "last_name": "Busschbach",
+          "orcid": null
+        },
+        {
+          "full_name": "Michael Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhihao Yang",
+          "last_name": "Yang",
+          "orcid": "https://orcid.org/0000-0001-5468-0847"
+        },
+        {
+          "full_name": "Yanming Lu",
+          "last_name": "Lu",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12011911",
+        "pdf_url": "https://europepmc.org/articles/PMC12011911?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-025-01473-4",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -145,132 +272,6 @@
         "oa_url": "https://pure.eur.nl/en/publications/c9cf0784-fc67-4790-80b3-f1b9e3681a19",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-024-01669-z",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s10198-024-01710-1",
-      "doi": "10.1007/s10198-024-01710-1",
-      "pmid": "39066840",
-      "pmcid": "PMC11937211",
-      "title": "Psychometric validation of the Chinese versions of EQ-5D-Y-3L and the experimental EQ-TIPS in children and adolescents with COVID-19",
-      "journal": "The European Journal of Health Economics",
-      "year": 2024,
-      "authors": [
-        {
-          "full_name": "Wenjing Zhou",
-          "last_name": "Zhou",
-          "orcid": "https://orcid.org/0000-0003-0770-4564"
-        },
-        {
-          "full_name": "Yaqin Li",
-          "last_name": "Li",
-          "orcid": null
-        },
-        {
-          "full_name": "Jan Busschbach",
-          "last_name": "Busschbach",
-          "orcid": "https://orcid.org/0000-0002-8602-0381"
-        },
-        {
-          "full_name": "Michael Herdman",
-          "last_name": "Herdman",
-          "orcid": null
-        },
-        {
-          "full_name": "Zhihao Yang",
-          "last_name": "Yang",
-          "orcid": "https://orcid.org/0000-0001-5468-0847"
-        },
-        {
-          "full_name": "Yanming Lu",
-          "last_name": "Lu",
-          "orcid": "https://orcid.org/0009-0008-6782-4182"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC11937211",
-        "pdf_url": "https://europepmc.org/articles/PMC11937211?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s10198-024-01710-1",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s40273-025-01473-4",
-      "doi": "10.1007/s40273-025-01473-4",
-      "pmid": "39907985",
-      "pmcid": "PMC12011911",
-      "title": "EQ-5D-5L or EQ-HWB-S: Which is the Better Instrument for Capturing Spillover Effects in Parental Carers of Children with COVID-19?",
-      "journal": "PharmacoEconomics",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Wenjing Zhou",
-          "last_name": "Zhou",
-          "orcid": null
-        },
-        {
-          "full_name": "Bo Ding",
-          "last_name": "Ding",
-          "orcid": null
-        },
-        {
-          "full_name": "Jan Busschbach",
-          "last_name": "Busschbach",
-          "orcid": null
-        },
-        {
-          "full_name": "Michael Herdman",
-          "last_name": "Herdman",
-          "orcid": null
-        },
-        {
-          "full_name": "Zhihao Yang",
-          "last_name": "Yang",
-          "orcid": "https://orcid.org/0000-0001-5468-0847"
-        },
-        {
-          "full_name": "Yanming Lu",
-          "last_name": "Lu",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12011911",
-        "pdf_url": "https://europepmc.org/articles/PMC12011911?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s40273-025-01473-4",
         "retrieval": "open"
       }
     }

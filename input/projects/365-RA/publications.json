@@ -1,6 +1,80 @@
 {
   "project_id": "365-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04150-3",
+      "doi": "10.1007/s11136-025-04150-3",
+      "pmid": "41511684",
+      "pmcid": "PMC12789245",
+      "title": "Developing the EuroQol toddler and infant populations (EQ-TIPS) instrument: qualitative analysis of expert views on content validity and conceptual challenges",
+      "journal": "Quality of Life Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "J. Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "E. Bidgood",
+          "last_name": "Bidgood",
+          "orcid": null
+        },
+        {
+          "full_name": "K. Dalziel",
+          "last_name": "Dalziel",
+          "orcid": "https://orcid.org/0000-0003-4972-8871"
+        },
+        {
+          "full_name": "N. Devlin",
+          "last_name": "Devlin",
+          "orcid": "https://orcid.org/0000-0002-1561-5361"
+        },
+        {
+          "full_name": "B. M. Morrow",
+          "last_name": "Morrow",
+          "orcid": "https://orcid.org/0000-0001-5193-918x"
+        },
+        {
+          "full_name": "J. Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        },
+        {
+          "full_name": "S. Schieskow",
+          "last_name": "Schieskow",
+          "orcid": null
+        },
+        {
+          "full_name": "M. Herdman",
+          "last_name": "Herdman",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12789245",
+        "pdf_url": "https://europepmc.org/articles/PMC12789245?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04150-3",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -74,7 +148,7 @@
     {
       "work_id": "doi:10.1007/s10198-025-01865-5",
       "doi": "10.1007/s10198-025-01865-5",
-      "pmid": null,
+      "pmid": "41252106",
       "pmcid": null,
       "title": "Multinational stakeholder engagement to inform future development and refinement of the EuroQol toddler and infant populations (EQ-TIPS)",
       "journal": "The European Journal of Health Economics",
@@ -127,7 +201,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -135,79 +210,6 @@
         "oa_url": "https://doi.org/10.1007/s10198-025-01865-5",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10198-025-01865-5.pdf",
         "landing_page": "https://doi.org/10.1007/s10198-025-01865-5",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s11136-025-04150-3",
-      "doi": "10.1007/s11136-025-04150-3",
-      "pmid": "41511684",
-      "pmcid": "PMC12789245",
-      "title": "Developing the EuroQol toddler and infant populations (EQ-TIPS) instrument: qualitative analysis of expert views on content validity and conceptual challenges",
-      "journal": "Quality of Life Research",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "J. Verstraete",
-          "last_name": "Verstraete",
-          "orcid": "https://orcid.org/0000-0002-1148-4747"
-        },
-        {
-          "full_name": "E. Bidgood",
-          "last_name": "Bidgood",
-          "orcid": null
-        },
-        {
-          "full_name": "K. Dalziel",
-          "last_name": "Dalziel",
-          "orcid": "https://orcid.org/0000-0003-4972-8871"
-        },
-        {
-          "full_name": "N. Devlin",
-          "last_name": "Devlin",
-          "orcid": "https://orcid.org/0000-0002-1561-5361"
-        },
-        {
-          "full_name": "B. M. Morrow",
-          "last_name": "Morrow",
-          "orcid": "https://orcid.org/0000-0001-5193-918x"
-        },
-        {
-          "full_name": "J. Jelsma",
-          "last_name": "Jelsma",
-          "orcid": null
-        },
-        {
-          "full_name": "S. Schieskow",
-          "last_name": "Schieskow",
-          "orcid": null
-        },
-        {
-          "full_name": "M. Herdman",
-          "last_name": "Herdman",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12789245",
-        "pdf_url": "https://europepmc.org/articles/PMC12789245?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s11136-025-04150-3",
         "retrieval": "open"
       }
     },
@@ -471,7 +473,7 @@
     {
       "work_id": "doi:10.1016/j.vhri.2023.01.009",
       "doi": "10.1016/j.vhri.2023.01.009",
-      "pmid": null,
+      "pmid": "36905789",
       "pmcid": null,
       "title": "Cross-Cultural Adaptation and Validation of the EuroQoL Toddler and Infant Populations Instrument Into Afrikaans for South Africa",
       "journal": "Value in Health Regional Issues",
@@ -499,7 +501,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -772,7 +775,7 @@
     {
       "work_id": "doi:10.1186/s41687-026-01113-1",
       "doi": "10.1186/s41687-026-01113-1",
-      "pmid": null,
+      "pmid": "42286271",
       "pmcid": null,
       "title": "Expanding the experimental EuroQol toddler and infant populations (EQ-TIPS) descriptive system: comparing 3-level and 5-level performance for infants and toddlers with chronic conditions",
       "journal": "Journal of Patient-Reported Outcomes",
@@ -855,7 +858,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -912,7 +916,55 @@
         "landing_page": "https://doi.org/10.3390/children11081034",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "doi:10.3390/children8100920",
+      "doi": "10.3390/children8100920",
+      "pmid": "34682184",
+      "pmcid": "PMC8534352",
+      "title": "Performance of the Toddler and Infant (TANDI) Health-Related Quality of Life Instrument in 3–4-Year-Old Children",
+      "journal": "Children",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Janine Verstraete",
+          "last_name": "Verstraete",
+          "orcid": "https://orcid.org/0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Andrew J. Lloyd",
+          "last_name": "Lloyd",
+          "orcid": "https://orcid.org/0000-0002-7597-6556"
+        },
+        {
+          "full_name": "Jennifer Jelsma",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://europepmc.org/articles/PMC8534352",
+        "pdf_url": "https://europepmc.org/articles/PMC8534352?pdf=render",
+        "landing_page": "https://doi.org/10.3390/children8100920",
+        "retrieval": "open"
+      }
     }
   ],
-  "weak_omitted": 4
+  "weak_omitted": 3
 }

@@ -55,7 +55,7 @@
     {
       "work_id": "doi:10.1007/s40273-022-01159-1",
       "doi": "10.1007/s40273-022-01159-1",
-      "pmid": null,
+      "pmid": "35829931",
       "pmcid": null,
       "title": "A Systematic Review of the Methodologies and Modelling Approaches Used to Generate International EQ-5D-5L Value Sets",
       "journal": "PharmacoEconomics",
@@ -88,7 +88,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

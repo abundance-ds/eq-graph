@@ -1,0 +1,19 @@
+{
+  "project_id": "1816-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-025-04133-4",
+      "doi": "10.1007/s11136-025-04133-4",
+      "title": "Validity of EQ-5D-5L breathing and cognition bolt-ons in non-hospitalized patients after COVID-19",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12789248/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-04133-4",
+      "status": "ok",
+      "file": "input/projects/1816-RA/papers/doi_10.1007_s11136-025-04133-4.xml",
+      "bytes": 172409,
+      "sha256": "383567be9e63c714437b6ab068e5489950229251847a630e711e01da88a5db82"
+    }
+  ]
+}

@@ -23,7 +23,7 @@ PROJECTS_DIR = REPO / "input" / "projects"
 
 # Stamped on every candidate row so exported links say which matcher produced them.
 # Bump on any scoring change; `run()` rebuilds the candidate table wholesale.
-EXTRACTOR_VERSION = 2
+EXTRACTOR_VERSION = 3
 
 # Score at or above which a link is treated as established rather than a suggestion.
 ACCEPT_THRESHOLD = 0.85
@@ -32,6 +32,7 @@ ACCEPT_THRESHOLD = 0.85
 REVIEW_THRESHOLD = 0.60
 
 WEIGHTS = {
+    "grant_id_acknowledged": 1.00,  # the paper's own text names this project id
     "grant_id_structured": 1.00,  # the id is in the indexed grant metadata
     "grant_id_fulltext": 0.90,    # the id appears in the article text/acknowledgement
     "title_exact": 0.95,
@@ -215,6 +216,8 @@ def replay(fetcher: Fetcher, projects: list[Project], log=print) -> WorkPool:
             corpus=True)
     collect(None, sources.epmc_to_work,
             sources.epmc_search(fetcher, sources.epmc_ack_query()), corpus=True)
+    collect(None, sources.epmc_to_work,
+            sources.epmc_search(fetcher, sources.epmc_phrase_query()), corpus=True)
     log(f"corpus sweeps: {len(pool.works)} works")
 
     for project in projects:
@@ -230,7 +233,16 @@ def replay(fetcher: Fetcher, projects: list[Project], log=print) -> WorkPool:
     return pool
 
 
-def score_project(project: Project, pool: WorkPool, token_index: dict) -> dict[str, dict]:
+def load_mentions(conn) -> dict[str, set[str]]:
+    """project_id -> {work_id} mined from full text (see mine.py)."""
+    out: dict[str, set[str]] = {}
+    for row in conn.execute("SELECT project_id, work_id FROM fulltext_mention"):
+        out.setdefault(row["project_id"], set()).add(row["work_id"])
+    return out
+
+
+def score_project(project: Project, pool: WorkPool, token_index: dict,
+                  mentions: dict[str, set[str]] | None = None) -> dict[str, dict]:
     """Return {work_id: {"score": float, "evidence": [...]}} for one project."""
     found: dict[str, list[dict]] = {}
     pid_lower = project.project_id.lower()
@@ -239,6 +251,12 @@ def score_project(project: Project, pool: WorkPool, token_index: dict) -> dict[s
         found.setdefault(work_id, []).append(
             {"kind": kind, "detail": detail, "weight": WEIGHTS[kind]}
         )
+
+    # 0. The work's own full text names this project id near a EuroQol mention.
+    for work_id in sorted((mentions or {}).get(project.project_id, ())):
+        if work_id in pool.works:
+            add(work_id, "grant_id_acknowledged",
+                "project id printed in the article's own acknowledgement/funding text")
 
     # 1. Targeted grant-id queries that returned this work. A GRANT_ID hit only counts
     #    once the agency confirms EuroQol -- grant numbers are reused across funders.
@@ -324,6 +342,10 @@ def run(conn, log=print) -> dict:
     projects = load_projects()
     pool = replay(fetcher, projects, log=log)
     token_index = build_token_index(pool)
+    mentions = load_mentions(conn)
+    if mentions:
+        log(f"full-text grant mentions: {sum(len(v) for v in mentions.values())} "
+            f"across {len(mentions)} projects")
 
     stamp = now()
     for work_id, work in pool.works.items():
@@ -356,7 +378,7 @@ def run(conn, log=print) -> dict:
     total = 0
     for project in projects:
         for work_id, result in sorted(
-            score_project(project, pool, token_index).items(),
+            score_project(project, pool, token_index, mentions).items(),
             key=lambda item: (-item[1]["score"], item[0]),
         ):
             conn.execute(

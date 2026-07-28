@@ -3,6 +3,19 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s11136-025-03925-y",
+      "doi": "10.1007/s11136-025-03925-y",
+      "title": "Associations between financial toxicity, health-related quality of life, and well-being in Indonesian patients with breast cancer",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12119780/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-03925-y",
+      "status": "ok",
+      "file": "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml",
+      "bytes": 195825,
+      "sha256": "ef17c80b21ef72b35feb1c2da99f6221380b177f17620f7ac81d60f0c78597f8"
+    },
+    {
       "work_id": "doi:10.1186/s12955-024-02303-5",
       "doi": "10.1186/s12955-024-02303-5",
       "title": "Validity, test-retest reliability, and responsiveness of the Indonesian version of FACIT-COST measure for subjective financial toxicity",

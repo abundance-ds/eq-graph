@@ -1,0 +1,19 @@
+{
+  "project_id": "1719-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04226-8",
+      "doi": "10.1007/s11136-026-04226-8",
+      "title": "Psychometric validation of a cognition and social participation bolt-on for the EQ-5D-5L in SARS-CoV-2 infected German healthcare workers",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13043573/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04226-8",
+      "status": "ok",
+      "file": "input/projects/1719-RA/papers/doi_10.1007_s11136-026-04226-8.xml",
+      "bytes": 231894,
+      "sha256": "b3f88161972ef2982cb616a02b9371aeae870735038571402fdc3b6bd96df936"
+    }
+  ]
+}

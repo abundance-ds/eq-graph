@@ -1,0 +1,19 @@
+{
+  "project_id": "1475-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03875-x",
+      "doi": "10.1007/s11136-024-03875-x",
+      "title": "Exploring the content validity of the EQ-5D-5L and four bolt-ons (skin irritation, self-confidence, sleep, social relationships) in atopic dermatitis and chronic urticaria",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11982113/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1007/s11136-024-03875-x",
+      "status": "ok",
+      "file": "input/projects/1475-RA/papers/doi_10.1007_s11136-024-03875-x.xml",
+      "bytes": 146028,
+      "sha256": "f198017e1d66ff17c61a6f9d907399dd77421c89e49b3b0f82015f727ff38099"
+    }
+  ]
+}

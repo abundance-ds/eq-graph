@@ -1,6 +1,59 @@
 {
   "project_id": "1592-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1186/s12955-026-02478-z",
+      "doi": "10.1186/s12955-026-02478-z",
+      "pmid": "41606591",
+      "pmcid": "PMC12924600",
+      "title": "Examining the face validity of the EQ-HWB-9 in dementia: caregiver interpretation across \"Today\" and \"7-Day\" recall periods",
+      "journal": "Health and quality of life outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": "0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Engel L",
+          "last_name": "Engel",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12924600",
+        "pdf_url": "https://europepmc.org/articles/PMC12924600?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-026-02478-z",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -99,7 +152,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.04.010",
       "doi": "10.1016/j.jval.2024.04.010",
-      "pmid": null,
+      "pmid": "38649092",
       "pmcid": null,
       "title": "Health Fluctuations in Dementia and its Impact on the Assessment of Health-Related Quality of Life Using the EQ-5D-5L",
       "journal": "Value in Health",
@@ -147,7 +200,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -385,58 +439,6 @@
         "oa_url": "https://europepmc.org/articles/PMC9535990",
         "pdf_url": "https://europepmc.org/articles/PMC9535990?pdf=render",
         "landing_page": "https://doi.org/10.1186/s12955-022-02049-y",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1186/s12955-026-02478-z",
-      "doi": "10.1186/s12955-026-02478-z",
-      "pmid": "41606591",
-      "pmcid": "PMC12924600",
-      "title": "Examining the face validity of the EQ-HWB-9 in dementia: caregiver interpretation across \"Today\" and \"7-Day\" recall periods",
-      "journal": "Health and quality of life outcomes",
-      "year": 2026,
-      "authors": [
-        {
-          "full_name": "Buchholz M",
-          "last_name": "Buchholz",
-          "orcid": "0000-0002-4486-8632"
-        },
-        {
-          "full_name": "Engel L",
-          "last_name": "Engel",
-          "orcid": null
-        },
-        {
-          "full_name": "Xie F",
-          "last_name": "Xie",
-          "orcid": null
-        },
-        {
-          "full_name": "Michalowsky B",
-          "last_name": "Michalowsky",
-          "orcid": "0000-0002-3425-0089"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC12924600",
-        "pdf_url": "https://europepmc.org/articles/PMC12924600?pdf=render",
-        "landing_page": "https://doi.org/10.1186/s12955-026-02478-z",
         "retrieval": "open"
       }
     },

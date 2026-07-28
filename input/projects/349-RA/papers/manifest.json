@@ -1,0 +1,32 @@
+{
+  "project_id": "349-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s12311-023-01597-3",
+      "doi": "10.1007/s12311-023-01597-3",
+      "title": "Health-Related Quality of Life in Patients with Spinocerebellar Ataxia: a Validation Study of the EQ-5D-3L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11102408/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s12311-023-01597-3",
+      "status": "ok",
+      "file": "input/projects/349-RA/papers/doi_10.1007_s12311-023-01597-3.xml",
+      "bytes": 124757,
+      "sha256": "1c8e523e659974af11dcd27eddaec2c3e36d4537f12228c838b526461a053291"
+    },
+    {
+      "work_id": "doi:10.1007/s12311-024-01657-2",
+      "doi": "10.1007/s12311-024-01657-2",
+      "title": "Factors Influencing Health-Related Quality of Life of Patients with Spinocerebellar Ataxia",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11269494/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.1007/s12311-024-01657-2",
+      "status": "ok",
+      "file": "input/projects/349-RA/papers/doi_10.1007_s12311-024-01657-2.xml",
+      "bytes": 136457,
+      "sha256": "d029d75e937db21cdff3a68256c2396eea25d5313d16cec76016baf6776485c2"
+    }
+  ]
+}

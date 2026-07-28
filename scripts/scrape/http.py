@@ -92,7 +92,8 @@ class Fetcher:
             time.sleep(delay - elapsed)
         self._last_request[host] = time.monotonic()
 
-    def get(self, url: str, params: dict | None = None) -> Response:
+    def get(self, url: str, params: dict | None = None,
+            headers: dict | None = None) -> Response:
         full = canonical_url(url, params)
         key = cache_key(full)
         path = cache_path(key)
@@ -117,7 +118,7 @@ class Fetcher:
         for attempt in range(1, MAX_ATTEMPTS + 1):
             self._throttle(host)
             try:
-                resp = self.session.get(full, timeout=60)
+                resp = self.session.get(full, timeout=60, headers=headers or {})
             except requests.RequestException as exc:
                 last_error = exc
                 time.sleep(min(2**attempt, 30))

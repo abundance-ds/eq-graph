@@ -58,7 +58,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2020.07.006",
       "doi": "10.1016/j.jval.2020.07.006",
-      "pmid": null,
+      "pmid": "33127020",
       "pmcid": null,
       "title": "Testing the “Nonstopping” Time Trade-Off: Is It Better Than the Composite Time Trade-Off?",
       "journal": "Value in Health",
@@ -91,7 +91,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

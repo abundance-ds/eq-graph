@@ -4,9 +4,106 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1002/cncr.35970",
+      "doi": "10.1002/cncr.35970",
+      "pmid": "40631980",
+      "pmcid": "PMC12239854",
+      "title": "The hidden economic burden of cancer caring",
+      "journal": "Cancer",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Gao L",
+          "last_name": "Gao",
+          "orcid": "0000-0001-9734-1140"
+        },
+        {
+          "full_name": "Bohingamu Mudiyanselage S",
+          "last_name": "Bohingamu Mudiyanselage",
+          "orcid": "0000-0003-1090-4401"
+        },
+        {
+          "full_name": "Ugalde A",
+          "last_name": "Ugalde",
+          "orcid": "0000-0002-2473-8435"
+        },
+        {
+          "full_name": "Watts JJ",
+          "last_name": "Watts",
+          "orcid": null
+        },
+        {
+          "full_name": "Jongebloed H",
+          "last_name": "Jongebloed",
+          "orcid": "0000-0001-6215-1849"
+        },
+        {
+          "full_name": "Thomas S",
+          "last_name": "Thomas",
+          "orcid": null
+        },
+        {
+          "full_name": "Das N",
+          "last_name": "Das",
+          "orcid": null
+        },
+        {
+          "full_name": "Lyall A",
+          "last_name": "Lyall",
+          "orcid": null
+        },
+        {
+          "full_name": "Winter N",
+          "last_name": "Winter",
+          "orcid": "0000-0002-1847-6862"
+        },
+        {
+          "full_name": "Cowdery S",
+          "last_name": "Cowdery",
+          "orcid": "0000-0002-1034-6166"
+        },
+        {
+          "full_name": "McCaffrey N",
+          "last_name": "McCaffrey",
+          "orcid": null
+        },
+        {
+          "full_name": "White V",
+          "last_name": "White",
+          "orcid": "0000-0001-6619-8484"
+        },
+        {
+          "full_name": "Livingston PM",
+          "last_name": "Livingston",
+          "orcid": "0000-0001-6616-3839"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC12239854",
+        "pdf_url": "https://europepmc.org/articles/PMC12239854?pdf=render",
+        "landing_page": "https://doi.org/10.1002/cncr.35970",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2023.08.013",
       "doi": "10.1016/j.jval.2023.08.013",
-      "pmid": null,
+      "pmid": "37757909",
       "pmcid": null,
       "title": "An Intersectional Approach to Quantifying the Impact of Geographic Remoteness and Health Disparities on Quality-Adjusted Life Expectancy: Application to Australia",
       "journal": "Value in Health",
@@ -54,12 +151,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
-        "oa_url": "https://doi.org/10.1016/j.jval.2023.08.013",
+        "oa_url": "http://www.valueinhealthjournal.com/article/S1098301523031315/pdf",
         "pdf_url": "http://www.valueinhealthjournal.com/article/S1098301523031315/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2023.08.013",
         "retrieval": "open"
@@ -68,7 +166,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.01.004",
       "doi": "10.1016/j.jval.2024.01.004",
-      "pmid": null,
+      "pmid": "38286249",
       "pmcid": null,
       "title": "Exploring the Comparability Between EQ-5D and the EQ Health and Wellbeing in the General Australian Population",
       "journal": "Value in Health",
@@ -106,7 +204,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

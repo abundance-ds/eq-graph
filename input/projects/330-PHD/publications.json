@@ -429,7 +429,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.04.2161",
       "doi": "10.1016/j.jval.2025.04.2161",
-      "pmid": null,
+      "pmid": "40339642",
       "pmcid": null,
       "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
       "journal": "Value in Health",
@@ -472,7 +472,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -667,9 +668,91 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1001/jamanetworkopen.2025.58973",
+      "doi": "10.1001/jamanetworkopen.2025.58973",
+      "pmid": "41678191",
+      "pmcid": "PMC12902895",
+      "title": "Use of Parent- and Patient-Reported Outcome Measures in Pediatric Specialty Clinics: A Pilot Randomized Clinical Trial",
+      "journal": "JAMA network open",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jones R",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "McLean K",
+          "last_name": "McLean",
+          "orcid": null
+        },
+        {
+          "full_name": "Roberts G",
+          "last_name": "Roberts",
+          "orcid": null
+        },
+        {
+          "full_name": "Berry A",
+          "last_name": "Berry",
+          "orcid": null
+        },
+        {
+          "full_name": "Shanthikumar S",
+          "last_name": "Shanthikumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Trajanovska M",
+          "last_name": "Trajanovska",
+          "orcid": null
+        },
+        {
+          "full_name": "King S",
+          "last_name": "King",
+          "orcid": null
+        },
+        {
+          "full_name": "Hiscock H",
+          "last_name": "Hiscock",
+          "orcid": "0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Dalziel KM",
+          "last_name": "Dalziel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12902895",
+        "pdf_url": "https://europepmc.org/articles/PMC12902895?pdf=render",
+        "landing_page": "https://doi.org/10.1001/jamanetworkopen.2025.58973",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2023.06.004",
       "doi": "10.1016/j.jval.2023.06.004",
-      "pmid": null,
+      "pmid": "37348834",
       "pmcid": null,
       "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
       "journal": "Value in Health",
@@ -737,7 +820,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

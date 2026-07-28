@@ -1,0 +1,19 @@
+{
+  "project_id": "351-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s41669-024-00486-7",
+      "doi": "10.1007/s41669-024-00486-7",
+      "title": "Behind the Scenes: A Qualitative Investigation of Interviewers' Performance in EQ-5D Valuation Studies",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11058132/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s41669-024-00486-7",
+      "status": "ok",
+      "file": "input/projects/351-RA/papers/doi_10.1007_s41669-024-00486-7.xml",
+      "bytes": 102218,
+      "sha256": "d08e5e83f4a1e19ce7a189f4dfdba426004c228752bd2ab3e6f61238edc3d142"
+    }
+  ]
+}

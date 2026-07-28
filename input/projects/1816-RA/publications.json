@@ -1,14 +1,57 @@
 {
   "project_id": "1816-RA",
-  "accepted": [],
-  "review": [],
-  "weak": [
+  "accepted": [
     {
       "work_id": "doi:10.1007/s11136-025-04133-4",
       "doi": "10.1007/s11136-025-04133-4",
       "pmid": "41511567",
       "pmcid": "PMC12789248",
       "title": "Validity of EQ-5D-5L breathing and cognition bolt-ons in non-hospitalized patients after COVID-19",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Stavem K",
+          "last_name": "Stavem",
+          "orcid": "0000-0003-4512-8000"
+        },
+        {
+          "full_name": "Garratt AM",
+          "last_name": "Garratt",
+          "orcid": "0000-0002-1000-4780"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12789248",
+        "pdf_url": "https://europepmc.org/articles/PMC12789248?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-025-04133-4",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.1007/s11136-026-04188-x",
+      "doi": "10.1007/s11136-026-04188-x",
+      "pmid": "41739310",
+      "pmcid": "PMC12935706",
+      "title": "Correction: Validity of EQ-5D-5L breathing and cognition bolt-ons in non-hospitalized patients after COVID-19",
       "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
       "year": 2026,
       "authors": [
@@ -39,9 +82,9 @@
       "access": {
         "is_oa": true,
         "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC12789248",
-        "pdf_url": "https://europepmc.org/articles/PMC12789248?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s11136-025-04133-4",
+        "oa_url": "https://europepmc.org/articles/PMC12935706",
+        "pdf_url": "https://europepmc.org/articles/PMC12935706?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04188-x",
         "retrieval": "open"
       }
     }

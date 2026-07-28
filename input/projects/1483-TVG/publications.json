@@ -1,6 +1,59 @@
 {
   "project_id": "1483-TVG",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1213/ane.0000000000007107",
+      "doi": "10.1213/ane.0000000000007107",
+      "pmid": "39042570",
+      "pmcid": "PMC11805468",
+      "title": "Socioeconomic, Patient, and Hospital Determinants for the Utilization of Peripheral Nerve Blocks in Total Joint Arthroplasty",
+      "journal": "Anesthesia and analgesia",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Bonsel JM",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Kodali H",
+          "last_name": "Kodali",
+          "orcid": "0000-0002-8229-4369"
+        },
+        {
+          "full_name": "Poeran J",
+          "last_name": "Poeran",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel GJ",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11805468",
+        "pdf_url": "https://europepmc.org/articles/PMC11805468?pdf=render",
+        "landing_page": "https://doi.org/10.1213/ane.0000000000007107",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -59,7 +112,7 @@
     {
       "work_id": "doi:10.1016/j.joca.2023.07.004",
       "doi": "10.1016/j.joca.2023.07.004",
-      "pmid": null,
+      "pmid": "37482250",
       "pmcid": null,
       "title": "Socioeconomic inequalities in patient-reported outcome measures of Dutch primary hip and knee arthroplasty patients for osteoarthritis",
       "journal": "Osteoarthritis and Cartilage",
@@ -107,7 +160,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -371,58 +425,6 @@
         "oa_url": "https://doi.org/10.1186/s41687-025-00842-z",
         "pdf_url": "https://europepmc.org/articles/PMC11780234?pdf=render",
         "landing_page": "https://doi.org/10.1186/s41687-025-00842-z",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1213/ane.0000000000007107",
-      "doi": "10.1213/ane.0000000000007107",
-      "pmid": "39042570",
-      "pmcid": "PMC11805468",
-      "title": "Socioeconomic, Patient, and Hospital Determinants for the Utilization of Peripheral Nerve Blocks in Total Joint Arthroplasty",
-      "journal": "Anesthesia and analgesia",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Bonsel JM",
-          "last_name": "Bonsel",
-          "orcid": null
-        },
-        {
-          "full_name": "Kodali H",
-          "last_name": "Kodali",
-          "orcid": "0000-0002-8229-4369"
-        },
-        {
-          "full_name": "Poeran J",
-          "last_name": "Poeran",
-          "orcid": null
-        },
-        {
-          "full_name": "Bonsel GJ",
-          "last_name": "Bonsel",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "cc by",
-        "oa_url": "https://europepmc.org/articles/PMC11805468",
-        "pdf_url": "https://europepmc.org/articles/PMC11805468?pdf=render",
-        "landing_page": "https://doi.org/10.1213/ane.0000000000007107",
         "retrieval": "open"
       }
     },

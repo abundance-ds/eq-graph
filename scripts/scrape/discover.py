@@ -15,6 +15,7 @@ CORPUS = "__corpus__"
 
 CORPUS_OPS = [
     ("europepmc", "ack_sweep"),
+    ("europepmc", "phrase_sweep"),
     ("crossref", "funder_sweep"),
 ]
 
@@ -27,13 +28,15 @@ def run_corpus(conn, fetcher: Fetcher, retry_failed: bool, log=print) -> None:
     for source, op in CORPUS_OPS:
         # The descriptor is what the ledger compares against, so encoding the paging
         # mode here means changing it re-runs the sweep instead of trusting old rows.
-        query = (sources.epmc_ack_query() if op == "ack_sweep"
-                 else f"crossref funder:{sources.CROSSREF_FUNDER_ID} offset-paged")
+        query = {
+            "ack_sweep": sources.epmc_ack_query(),
+            "phrase_sweep": sources.epmc_phrase_query(),
+        }.get(op, f"crossref funder:{sources.CROSSREF_FUNDER_ID} offset-paged")
         if is_settled(task_row(conn, CORPUS, source, op), retry_failed, query):
             log(f"  {source}/{op}: settled, skipping")
             continue
         try:
-            if op == "ack_sweep":
+            if op in ("ack_sweep", "phrase_sweep"):
                 count = _drain(sources.epmc_search(fetcher, query, strict=True))
             else:
                 count = _drain(sources.crossref_funder_works(fetcher))

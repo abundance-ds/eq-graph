@@ -12,6 +12,19 @@
       "landing_page": "https://doi.org/10.1016/j.jval.2024.11.010",
       "status": "skipped",
       "reason": "no open-access copy; use the landing page"
+    },
+    {
+      "work_id": "doi:10.1177/0272989x251380556",
+      "doi": "10.1177/0272989x251380556",
+      "title": "Uncertainty around Health State Values Used in Cost-Effectiveness Analysis: How It Arises and How to Deal with It",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12769929/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1177/0272989x251380556",
+      "status": "ok",
+      "file": "input/projects/399-RA/papers/doi_10.1177_0272989x251380556.xml",
+      "bytes": 109581,
+      "sha256": "9fd8ac69e93b15f22ffd1385e0a0a39b57e54857a0ba7168b13355211e72bfa1"
     }
   ]
 }

@@ -271,6 +271,58 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s40273-018-0659-9",
+      "doi": "10.1007/s40273-018-0659-9",
+      "pmid": "29744795",
+      "pmcid": "PMC6830400",
+      "title": "Correction to: 3L, 5L, What the L? A NICE Conundrum",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Simon Pickard A",
+          "last_name": "Simon Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0659-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0659-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0659-9",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40273-018-0694-6",
       "doi": "10.1007/s40273-018-0694-6",
       "pmid": "30030818",
@@ -329,9 +381,289 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s40273-018-0704-8",
+      "doi": "10.1007/s40273-018-0704-8",
+      "pmid": "30136178",
+      "pmcid": null,
+      "title": "Health State Utilities for Acute Myeloid Leukaemia: A Time Trade-off Study",
+      "journal": "PharmacoEconomics",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Joshi N",
+          "last_name": "Joshi",
+          "orcid": null
+        },
+        {
+          "full_name": "Hensen M",
+          "last_name": "Hensen",
+          "orcid": null
+        },
+        {
+          "full_name": "Patel S",
+          "last_name": "Patel",
+          "orcid": null
+        },
+        {
+          "full_name": "Xu W",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Lasch K",
+          "last_name": "Lasch",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40273-018-0704-8",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2016.10.012",
+      "doi": "10.1016/j.jval.2016.10.012",
+      "pmid": "28292492",
+      "pmcid": null,
+      "title": "Quality Control Process for EQ-5D-5L Valuation Studies",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2017,
+      "authors": [
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Slaap B",
+          "last_name": "Slaap",
+          "orcid": null
+        },
+        {
+          "full_name": "Busschbach JJ",
+          "last_name": "Busschbach",
+          "orcid": "0000-0002-8602-0381"
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2016.10.012",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2017.10.002",
+      "doi": "10.1016/j.jval.2017.10.002",
+      "pmid": "30005748",
+      "pmcid": null,
+      "title": "Effect of Level Overlap and Color Coding on Attribute Non-Attendance in Discrete Choice Experiments",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Jonker MF",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Donkers B",
+          "last_name": "Donkers",
+          "orcid": "0000-0002-0412-4276"
+        },
+        {
+          "full_name": "de Bekker-Grob EW",
+          "last_name": "de Bekker-Grob",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2017.10.002",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.01.016",
+      "doi": "10.1016/j.jval.2018.01.016",
+      "pmid": "30098678",
+      "pmcid": null,
+      "title": "Advocating a Paradigm Shift in Health-State Valuations: The Estimation of Time-Preference Corrected QALY Tariffs",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Jonker MF",
+          "last_name": "Jonker",
+          "orcid": null
+        },
+        {
+          "full_name": "Donkers B",
+          "last_name": "Donkers",
+          "orcid": "0000-0002-0412-4276"
+        },
+        {
+          "full_name": "de Bekker-Grob EW",
+          "last_name": "de Bekker-Grob",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.01.016",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2018.05.010",
+      "doi": "10.1016/j.jval.2018.05.010",
+      "pmid": "30661630",
+      "pmcid": null,
+      "title": "Overview, Update, and Lessons Learned From the International EQ-5D-5L Valuation Work: Version 2 of the EQ-5D-5L Valuation Protocol",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Ludwig K",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": "0000-0001-7692-4099"
+        },
+        {
+          "full_name": "van Hout B",
+          "last_name": "van Hout",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2018.05.010",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2019.06.008",
       "doi": "10.1016/j.jval.2019.06.008",
-      "pmid": null,
+      "pmid": "31708067",
       "pmcid": null,
       "title": "Toward a Smaller Design for EQ-5D-5L Valuation Studies",
       "journal": "Value in Health",
@@ -379,7 +711,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

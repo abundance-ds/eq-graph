@@ -41,10 +41,15 @@
           "orcid": null
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 20190690",
@@ -108,10 +113,15 @@
           "orcid": "0000-0001-8290-2857"
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 20190690",
@@ -136,7 +146,7 @@
     {
       "work_id": "doi:10.1007/s11136-019-02200-1",
       "doi": "10.1007/s11136-019-02200-1",
-      "pmid": null,
+      "pmid": "31089988",
       "pmcid": null,
       "title": "Responsiveness of the EQ-5D-3L and EQ-5D-5L in patients following total hip or knee replacement",
       "journal": "Quality of Life Research",
@@ -179,7 +189,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -384,7 +395,7 @@
     {
       "work_id": "doi:10.1016/j.jclinepi.2021.10.019",
       "doi": "10.1016/j.jclinepi.2021.10.019",
-      "pmid": null,
+      "pmid": "34737062",
       "pmcid": null,
       "title": "Small differences in EQ-5D-5L health utility scores were interpreted differently between and within respondents",
       "journal": "Journal of Clinical Epidemiology",
@@ -427,13 +438,14 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
         "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
         "oa_url": "https://doi.org/10.1016/j.jclinepi.2021.10.019",
-        "pdf_url": null,
+        "pdf_url": "http://www.jclinepi.com/article/S0895435621003437/pdf",
         "landing_page": "https://doi.org/10.1016/j.jclinepi.2021.10.019",
         "retrieval": "open"
       }

@@ -27,6 +27,19 @@
       "file": "input/projects/367-RA/papers/doi_10.1007_s11136-025-04074-y.xml",
       "bytes": 253284,
       "sha256": "438ef38e9f2a2b06ce82352668ff77eef7aca23e006beb12fab66f8cdb935e72"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04294-w",
+      "doi": "10.1007/s11136-026-04294-w",
+      "title": "Measuring inequality in quality of life: further evidence that the EQ-5D-5L may underestimate it",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13269496/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04294-w",
+      "status": "ok",
+      "file": "input/projects/367-RA/papers/doi_10.1007_s11136-026-04294-w.xml",
+      "bytes": 93978,
+      "sha256": "96ac5b9ba5f71c9e71fb8a5be43c2ff855739e1bf0396e4538ee523b2e0d413e"
     }
   ]
 }

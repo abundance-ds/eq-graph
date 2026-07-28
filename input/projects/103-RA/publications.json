@@ -59,7 +59,7 @@
     {
       "work_id": "doi:10.1007/s11136-025-04045-3",
       "doi": "10.1007/s11136-025-04045-3",
-      "pmid": null,
+      "pmid": "40833673",
       "pmcid": null,
       "title": "Exploring subjective constructions of quality of life in patients, carers and the healthy general public: a Q-methodological study",
       "journal": "Quality of Life Research",
@@ -107,7 +107,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -121,7 +122,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.01.005",
       "doi": "10.1016/j.jval.2024.01.005",
-      "pmid": null,
+      "pmid": "38296048",
       "pmcid": null,
       "title": "A Comparison of Items and Constructs of Standardized Health-Related Quality of Life and Mental Well-Being Measures",
       "journal": "Value in Health",
@@ -169,7 +170,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -183,7 +185,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.06.003",
       "doi": "10.1016/j.jval.2026.06.003",
-      "pmid": null,
+      "pmid": "42336321",
       "pmcid": null,
       "title": "Development, Use, and Psychometric Properties of Vision and Hearing Bolt-Ons for EQ-5D-3L and EQ-5D-5L: A Systematic Review",
       "journal": "Value in Health",
@@ -226,7 +228,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -235,6 +238,68 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.jval.2026.06.003",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/bmjopen-2023-081140",
+      "doi": "10.1136/bmjopen-2023-081140",
+      "pmid": "38286698",
+      "pmcid": "PMC10826542",
+      "title": "Developing and testing culturally relevant bolt-on items for EQ-5D-5L in Chinese populations: a mixed-methods study protocol",
+      "journal": "BMJ open",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Mao Z",
+          "last_name": "Mao",
+          "orcid": "0000-0002-7444-1584"
+        },
+        {
+          "full_name": "Fan J",
+          "last_name": "Fan",
+          "orcid": null
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Z",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Luo N",
+          "last_name": "Luo",
+          "orcid": "0000-0001-7980-6979"
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC10826542",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/14/1/e081140.full.pdf",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2023-081140",
+        "retrieval": "open"
       }
     },
     {

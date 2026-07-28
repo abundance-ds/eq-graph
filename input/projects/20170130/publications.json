@@ -2,6 +2,64 @@
   "project_id": "20170130",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s11136-021-02922-1",
+      "doi": "10.1007/s11136-021-02922-1",
+      "pmid": "34236579",
+      "pmcid": "PMC8800896",
+      "title": "Combining EQ-5D-5L items into a level summary score: demonstrating feasibility using non-parametric item response theory using an international dataset",
+      "journal": "Quality of Life Research",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "You-Shan Feng",
+          "last_name": "Feng",
+          "orcid": "https://orcid.org/0000-0003-1509-3409"
+        },
+        {
+          "full_name": "Ruixuan Jiang",
+          "last_name": "Jiang",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Thomas Kohlmann",
+          "last_name": "Kohlmann",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 20170130",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC8800896",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02922-1.pdf",
+        "landing_page": "https://doi.org/10.1007/s11136-021-02922-1",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2019.02.006",
       "doi": "10.1016/j.jval.2019.02.006",
       "pmid": "31104730",
@@ -51,59 +109,6 @@
         "oa_url": "https://doi.org/10.1016/j.jval.2019.02.006",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.jval.2019.02.006",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s11136-021-02922-1",
-      "doi": "10.1007/s11136-021-02922-1",
-      "pmid": "34236579",
-      "pmcid": "PMC8800896",
-      "title": "Combining EQ-5D-5L items into a level summary score: demonstrating feasibility using non-parametric item response theory using an international dataset",
-      "journal": "Quality of Life Research",
-      "year": 2021,
-      "authors": [
-        {
-          "full_name": "You-Shan Feng",
-          "last_name": "Feng",
-          "orcid": "https://orcid.org/0000-0003-1509-3409"
-        },
-        {
-          "full_name": "Ruixuan Jiang",
-          "last_name": "Jiang",
-          "orcid": null
-        },
-        {
-          "full_name": "A. Simon Pickard",
-          "last_name": "Pickard",
-          "orcid": null
-        },
-        {
-          "full_name": "Thomas Kohlmann",
-          "last_name": "Kohlmann",
-          "orcid": null
-        }
-      ],
-      "score": 0.9,
-      "confidence": "accepted",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "grant_id_fulltext",
-          "detail": "returned by grant_id_fulltext query for 20170130",
-          "weight": 0.9
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC8800896",
-        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11136-021-02922-1.pdf",
-        "landing_page": "https://doi.org/10.1007/s11136-021-02922-1",
         "retrieval": "open"
       }
     }

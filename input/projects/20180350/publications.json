@@ -76,10 +76,15 @@
           "orcid": null
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 20180350",
@@ -758,7 +763,7 @@
     {
       "work_id": "doi:10.1186/s12955-026-02577-x",
       "doi": "10.1186/s12955-026-02577-x",
-      "pmid": null,
+      "pmid": "42415034",
       "pmcid": null,
       "title": "Qualitative testing of potential modifications to the EQ-HWB-9 v1.2 in adults with mobility problems in the United Kingdom",
       "journal": "Health and Quality of Life Outcomes",
@@ -791,7 +796,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

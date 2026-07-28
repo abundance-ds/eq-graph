@@ -225,7 +225,7 @@
     {
       "work_id": "doi:10.1007/s10198-017-0905-7",
       "doi": "10.1007/s10198-017-0905-7",
-      "pmid": null,
+      "pmid": "28569351",
       "pmcid": null,
       "title": "Valuing EQ-5D-5L health states ‘in context’ using a discrete choice experiment",
       "journal": "The European Journal of Health Economics",
@@ -268,12 +268,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "http://www.springer.com/tdm",
-        "oa_url": null,
+        "oa_url": "https://qmro.qmul.ac.uk/xmlui/handle/123456789/54147",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-017-0905-7",
         "retrieval": "requires_subscription"
@@ -544,6 +545,58 @@
         "pdf_url": "https://europepmc.org/articles/PMC5954043?pdf=render",
         "landing_page": "https://doi.org/10.1007/s40273-018-0628-3",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-018-0659-9",
+      "doi": "10.1007/s40273-018-0659-9",
+      "pmid": "29744795",
+      "pmcid": "PMC6830400",
+      "title": "Correction to: 3L, 5L, What the L? A NICE Conundrum",
+      "journal": "PharmacoEconomics",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Brazier J",
+          "last_name": "Brazier",
+          "orcid": "0000-0001-8645-4780"
+        },
+        {
+          "full_name": "Simon Pickard A",
+          "last_name": "Simon Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0659-9.pdf",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-018-0659-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-018-0659-9",
+        "retrieval": "requires_subscription"
       }
     }
   ],

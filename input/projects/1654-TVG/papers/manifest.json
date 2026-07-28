@@ -1,0 +1,32 @@
+{
+  "project_id": "1654-TVG",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01710-1",
+      "doi": "10.1007/s10198-024-01710-1",
+      "title": "Psychometric validation of the Chinese versions of EQ-5D-Y-3L and the experimental EQ-TIPS in children and adolescents with COVID-19",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11937211/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-024-01710-1",
+      "status": "ok",
+      "file": "input/projects/1654-TVG/papers/doi_10.1007_s10198-024-01710-1.xml",
+      "bytes": 185003,
+      "sha256": "fbfa00b6b8d3552027a8ff1492f54f9087f80b767856f57817b64c7a6747a73b"
+    },
+    {
+      "work_id": "doi:10.1007/s40273-025-01473-4",
+      "doi": "10.1007/s40273-025-01473-4",
+      "title": "EQ-5D-5L or EQ-HWB-S: Which is the Better Instrument for Capturing Spillover Effects in Parental Carers of Children with COVID-19?",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12011911/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-025-01473-4",
+      "status": "ok",
+      "file": "input/projects/1654-TVG/papers/doi_10.1007_s40273-025-01473-4.xml",
+      "bytes": 166622,
+      "sha256": "a42ecc3b2372e2abf53ee99ee2f044a8bf5eec1599e5b65300ae07f33625ca0f"
+    }
+  ]
+}

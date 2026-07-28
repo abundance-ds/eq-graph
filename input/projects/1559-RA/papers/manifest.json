@@ -3,6 +3,19 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s40271-025-00749-3",
+      "doi": "10.1007/s40271-025-00749-3",
+      "title": "Content Validity of the EQ-HWB in Caregivers of Children with Health Conditions",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12559129/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40271-025-00749-3",
+      "status": "ok",
+      "file": "input/projects/1559-RA/papers/doi_10.1007_s40271-025-00749-3.xml",
+      "bytes": 95817,
+      "sha256": "d4780eff97f947e21d29b348313d6374e6c51434b0aa93471d30b45f78177f22"
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2025.05.013",
       "doi": "10.1016/j.jval.2025.05.013",
       "title": "Validity and Reliability of the EQ-HWB in Parents of Children With Health Conditions",

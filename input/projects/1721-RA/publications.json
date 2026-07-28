@@ -57,6 +57,177 @@
       }
     },
     {
+      "work_id": "doi:10.1007/s40271-024-00696-5",
+      "doi": "10.1007/s40271-024-00696-5",
+      "pmid": "38744798",
+      "pmcid": null,
+      "title": "Putting the Choice in Choice Tasks: Incorporating Preference Elicitation Tasks in Health Preference Research",
+      "journal": "The patient",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Whitty JA",
+          "last_name": "Whitty",
+          "orcid": "0000-0002-5886-1933"
+        },
+        {
+          "full_name": "Lancsar E",
+          "last_name": "Lancsar",
+          "orcid": "0000-0003-2404-6735"
+        },
+        {
+          "full_name": "De Abreu Lourenco R",
+          "last_name": "De Abreu Lourenco",
+          "orcid": "0000-0002-5978-8774"
+        },
+        {
+          "full_name": "Howard K",
+          "last_name": "Howard",
+          "orcid": "0000-0002-0918-7540"
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1007/s40271-024-00696-5",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.08.011",
+      "doi": "10.1016/j.jval.2022.08.011",
+      "pmid": "36244905",
+      "pmcid": null,
+      "title": "Modifying the Composite Time Trade-Off Method to Improve Its Discriminatory Power",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": "0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Lipman SA",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Pullenayegum E",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Y",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Gu NY",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.08.011",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2022.10.005",
+      "doi": "10.1016/j.jval.2022.10.005",
+      "pmid": "36328327",
+      "pmcid": null,
+      "title": "Patient-Reported Satisfaction, Experiences, and Preferences: Same but Different?",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Mühlbacher A",
+          "last_name": "Mühlbacher",
+          "orcid": "0000-0003-4402-9211"
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.10.005",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-025-02391-x",
       "doi": "10.1186/s12955-025-02391-x",
       "pmid": "40518518",

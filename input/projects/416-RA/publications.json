@@ -455,7 +455,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2021.01.011",
       "doi": "10.1016/j.jval.2021.01.011",
-      "pmid": null,
+      "pmid": "34243841",
       "pmcid": null,
       "title": "Think of the Children: A Discussion of the Rationale for and Implications of the Perspective Used for EQ-5D-Y Health State Valuation",
       "journal": "Value in Health",
@@ -488,7 +488,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -36,10 +36,15 @@
           "orcid": null
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 20180490",
@@ -62,6 +67,58 @@
   ],
   "review": [],
   "weak": [
+    {
+      "work_id": "doi:10.1016/j.vhri.2025.101121",
+      "doi": "10.1016/j.vhri.2025.101121",
+      "pmid": "40347856",
+      "pmcid": null,
+      "title": "Adaptation of the Experimental Version of EQ-5D-Y-5L Into Bahasa Indonesia",
+      "journal": "Value in health regional issues",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Fitriana TS",
+          "last_name": "Fitriana",
+          "orcid": null
+        },
+        {
+          "full_name": "Purba FD",
+          "last_name": "Purba",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Busschbach JJV",
+          "last_name": "Busschbach",
+          "orcid": "0000-0002-8602-0381"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.vhri.2025.101121",
+        "retrieval": "requires_subscription"
+      }
+    },
     {
       "work_id": "doi:10.1186/s12889-023-16003-0",
       "doi": "10.1186/s12889-023-16003-0",

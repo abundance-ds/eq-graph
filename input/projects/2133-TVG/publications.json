@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1007/s11136-024-03638-8",
       "doi": "10.1007/s11136-024-03638-8",
-      "pmid": null,
+      "pmid": "38689165",
       "pmcid": null,
       "title": "Can prediction models for hospital readmission be improved by incorporating patient-reported outcome measures? A systematic review and narrative synthesis",
       "journal": "Quality of Life Research",
@@ -39,7 +39,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

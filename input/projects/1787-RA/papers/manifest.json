@@ -1,0 +1,19 @@
+{
+  "project_id": "1787-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1097/mlr.0000000000002315",
+      "doi": "10.1097/mlr.0000000000002315",
+      "title": "Can Patient-Reported Outcome Measures Help Predict Unplanned Hospital Readmission?",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13166071/fullTextXML",
+      "licence": "cc-by-nc-nd",
+      "landing_page": "https://doi.org/10.1097/mlr.0000000000002315",
+      "status": "ok",
+      "file": "input/projects/1787-RA/papers/doi_10.1097_mlr.0000000000002315.xml",
+      "bytes": 95937,
+      "sha256": "6450e29301da6d37d3974b1aba432c7594fddff77e353b283e314b2dfd9438f5"
+    }
+  ]
+}

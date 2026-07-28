@@ -3,6 +3,19 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s11136-026-04223-x",
+      "doi": "10.1007/s11136-026-04223-x",
+      "title": "From QI-disability to QID-12: creating a brief proxy-report measure of quality of life for children with intellectual disability",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13043590/fullTextXML",
+      "licence": "cc by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04223-x",
+      "status": "ok",
+      "file": "input/projects/429-RA/papers/doi_10.1007_s11136-026-04223-x.xml",
+      "bytes": 81976,
+      "sha256": "65ae57046de369fa94d69b7ba772e367a6e666ecf03b434067c7afe07f579194"
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2024.02.016",
       "doi": "10.1016/j.jval.2024.02.016",
       "title": "Psychometric Properties of the EQ-5D-Y-5L for Children With Intellectual Disability",

@@ -1,0 +1,125 @@
+{
+  "project_id": "2012010",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.3747/co.26.5297",
+      "doi": "10.3747/co.26.5297",
+      "pmid": "31896943",
+      "pmcid": "PMC6927786",
+      "title": "Combined cancer patient-reported symptom and health utility tool for routine clinical implementation: a real-world comparison of the ESAS and EQ-5D in multiple cancer sites",
+      "journal": "Current oncology (Toronto, Ont.)",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Moskovitz M",
+          "last_name": "Moskovitz",
+          "orcid": null
+        },
+        {
+          "full_name": "Jao K",
+          "last_name": "Jao",
+          "orcid": null
+        },
+        {
+          "full_name": "Su J",
+          "last_name": "Su",
+          "orcid": null
+        },
+        {
+          "full_name": "Brown MC",
+          "last_name": "Brown",
+          "orcid": null
+        },
+        {
+          "full_name": "Naik H",
+          "last_name": "Naik",
+          "orcid": null
+        },
+        {
+          "full_name": "Eng L",
+          "last_name": "Eng",
+          "orcid": "0000-0002-4816-8385"
+        },
+        {
+          "full_name": "Wang T",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Kuo J",
+          "last_name": "Kuo",
+          "orcid": null
+        },
+        {
+          "full_name": "Leung Y",
+          "last_name": "Leung",
+          "orcid": null
+        },
+        {
+          "full_name": "Xu W",
+          "last_name": "Xu",
+          "orcid": null
+        },
+        {
+          "full_name": "Mittmann N",
+          "last_name": "Mittmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Moody L",
+          "last_name": "Moody",
+          "orcid": null
+        },
+        {
+          "full_name": "Barbera L",
+          "last_name": "Barbera",
+          "orcid": null
+        },
+        {
+          "full_name": "Devins G",
+          "last_name": "Devins",
+          "orcid": null
+        },
+        {
+          "full_name": "Li M",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Howell D",
+          "last_name": "Howell",
+          "orcid": null
+        },
+        {
+          "full_name": "Liu G",
+          "last_name": "Liu",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC6927786",
+        "pdf_url": "https://current-oncology.com/index.php/oncology/article/download/5297/4255",
+        "landing_page": "https://doi.org/10.3747/co.26.5297",
+        "retrieval": "requires_subscription"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

@@ -41,6 +41,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2016630",
           "weight": 1.0
@@ -410,7 +415,7 @@
     {
       "work_id": "doi:10.1007/s10198-017-0905-7",
       "doi": "10.1007/s10198-017-0905-7",
-      "pmid": null,
+      "pmid": "28569351",
       "pmcid": null,
       "title": "Valuing EQ-5D-5L health states ‘in context’ using a discrete choice experiment",
       "journal": "The European Journal of Health Economics",
@@ -453,12 +458,13 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
         "licence": "http://www.springer.com/tdm",
-        "oa_url": null,
+        "oa_url": "https://qmro.qmul.ac.uk/xmlui/handle/123456789/54147",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-017-0905-7",
         "retrieval": "requires_subscription"
@@ -578,7 +584,7 @@
     {
       "work_id": "doi:10.1007/s11136-021-02911-4",
       "doi": "10.1007/s11136-021-02911-4",
-      "pmid": null,
+      "pmid": "34181154",
       "pmcid": null,
       "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
       "journal": "Quality of Life Research",
@@ -631,7 +637,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -878,5 +885,5 @@
       }
     }
   ],
-  "weak_omitted": 7
+  "weak_omitted": 12
 }

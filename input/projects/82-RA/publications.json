@@ -131,7 +131,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2021.11.1377",
       "doi": "10.1016/j.jval.2021.11.1377",
-      "pmid": null,
+      "pmid": "35232661",
       "pmcid": null,
       "title": "Exploration of the Reasons Why Health State Valuation Differs for Children Compared With Adults: A Mixed Methods Approach",
       "journal": "Value in Health",
@@ -169,7 +169,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

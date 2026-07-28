@@ -51,6 +51,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2013240",
           "weight": 1.0
@@ -202,6 +207,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2013240",
           "weight": 1.0
@@ -275,6 +285,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2013240",
           "weight": 1.0
@@ -347,6 +362,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2013240",
@@ -563,7 +583,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2019.02.009",
       "doi": "10.1016/j.jval.2019.02.009",
-      "pmid": null,
+      "pmid": "31426935",
       "pmcid": null,
       "title": "United States Valuation of EQ-5D-5L Health States Using an International Protocol",
       "journal": "Value in Health",
@@ -641,7 +661,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -2,6 +2,74 @@
   "project_id": "2016670",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s11136-019-02156-2",
+      "doi": "10.1007/s11136-019-02156-2",
+      "pmid": "30887386",
+      "pmcid": "PMC6571080",
+      "title": "Health-related quality of life in injury patients: the added value of extending the EQ-5D-3L with a cognitive dimension",
+      "journal": "Quality of Life Research",
+      "year": 2019,
+      "authors": [
+        {
+          "full_name": "Robbin H. Ophuis",
+          "last_name": "Ophuis",
+          "orcid": null
+        },
+        {
+          "full_name": "Mathieu F. Janssen",
+          "last_name": "Janssen",
+          "orcid": null
+        },
+        {
+          "full_name": "Gouke J. Bonsel",
+          "last_name": "Bonsel",
+          "orcid": null
+        },
+        {
+          "full_name": "Martien J. Panneman",
+          "last_name": "Panneman",
+          "orcid": null
+        },
+        {
+          "full_name": "Suzanne Polinder",
+          "last_name": "Polinder",
+          "orcid": null
+        },
+        {
+          "full_name": "Juanita A. Haagsma",
+          "last_name": "Haagsma",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016670",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC6571080",
+        "pdf_url": "https://europepmc.org/articles/PMC6571080?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-019-02156-2",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s11136-020-02496-4",
       "doi": "10.1007/s11136-020-02496-4",
       "pmid": "32277337",
@@ -46,6 +114,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2016670",
           "weight": 1.0
@@ -66,69 +139,6 @@
         "oa_url": "https://europepmc.org/articles/PMC7434722",
         "pdf_url": "https://europepmc.org/articles/PMC7434722?pdf=render",
         "landing_page": "https://doi.org/10.1007/s11136-020-02496-4",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s11136-019-02156-2",
-      "doi": "10.1007/s11136-019-02156-2",
-      "pmid": "30887386",
-      "pmcid": "PMC6571080",
-      "title": "Health-related quality of life in injury patients: the added value of extending the EQ-5D-3L with a cognitive dimension",
-      "journal": "Quality of Life Research",
-      "year": 2019,
-      "authors": [
-        {
-          "full_name": "Robbin H. Ophuis",
-          "last_name": "Ophuis",
-          "orcid": null
-        },
-        {
-          "full_name": "Mathieu F. Janssen",
-          "last_name": "Janssen",
-          "orcid": null
-        },
-        {
-          "full_name": "Gouke J. Bonsel",
-          "last_name": "Bonsel",
-          "orcid": null
-        },
-        {
-          "full_name": "Martien J. Panneman",
-          "last_name": "Panneman",
-          "orcid": null
-        },
-        {
-          "full_name": "Suzanne Polinder",
-          "last_name": "Polinder",
-          "orcid": null
-        },
-        {
-          "full_name": "Juanita A. Haagsma",
-          "last_name": "Haagsma",
-          "orcid": null
-        }
-      ],
-      "score": 0.9,
-      "confidence": "accepted",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "grant_id_fulltext",
-          "detail": "returned by grant_id_fulltext query for 2016670",
-          "weight": 0.9
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC6571080",
-        "pdf_url": "https://europepmc.org/articles/PMC6571080?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s11136-019-02156-2",
         "retrieval": "open"
       }
     }
@@ -191,7 +201,7 @@
     {
       "work_id": "doi:10.1016/j.joca.2023.07.004",
       "doi": "10.1016/j.joca.2023.07.004",
-      "pmid": null,
+      "pmid": "37482250",
       "pmcid": null,
       "title": "Socioeconomic inequalities in patient-reported outcome measures of Dutch primary hip and knee arthroplasty patients for osteoarthritis",
       "journal": "Osteoarthritis and Cartilage",
@@ -239,7 +249,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -310,6 +321,53 @@
         "oa_url": "https://doi.org/10.1016/j.ssmph.2021.100913",
         "pdf_url": "https://europepmc.org/articles/PMC8426285?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.ssmph.2021.100913",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/oemed-2020-107072",
+      "doi": "10.1136/oemed-2020-107072",
+      "pmid": "33627481",
+      "pmcid": "PMC8380879",
+      "title": "First trimester employment, working conditions and preterm birth: a prospective population-based cohort study",
+      "journal": "Occupational and environmental medicine",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Vrijkotte T",
+          "last_name": "Vrijkotte",
+          "orcid": "0000-0003-3641-4048"
+        },
+        {
+          "full_name": "Brand T",
+          "last_name": "Brand",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel G",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC8380879",
+        "pdf_url": "https://oem.bmj.com/content/oemed/78/9/654.full.pdf",
+        "landing_page": "https://doi.org/10.1136/oemed-2020-107072",
         "retrieval": "open"
       }
     },

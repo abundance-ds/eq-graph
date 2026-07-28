@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1007/s11136-019-02226-5",
       "doi": "10.1007/s11136-019-02226-5",
-      "pmid": null,
+      "pmid": "31201730",
       "pmcid": null,
       "title": "A hybrid modelling approach for eliciting health state preferences: the Portuguese EQ-5D-5L value set",
       "journal": "Quality of Life Research",
@@ -49,7 +49,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

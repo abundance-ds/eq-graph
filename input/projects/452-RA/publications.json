@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2022.03.001",
       "doi": "10.1016/j.jval.2022.03.001",
-      "pmid": null,
+      "pmid": "35379562",
       "pmcid": null,
       "title": "Does Changing the Age of a Child to be Considered in 3-Level Version of EQ-5D-Y Discrete Choice Experiment–Based Valuation Studies Affect Health Preferences?",
       "journal": "Value in Health",
@@ -59,7 +59,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -74,7 +74,7 @@
     {
       "work_id": "doi:10.1007/s10198-025-01865-5",
       "doi": "10.1007/s10198-025-01865-5",
-      "pmid": null,
+      "pmid": "41252106",
       "pmcid": null,
       "title": "Multinational stakeholder engagement to inform future development and refinement of the EuroQol toddler and infant populations (EQ-TIPS)",
       "journal": "The European Journal of Health Economics",
@@ -127,7 +127,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -471,7 +472,7 @@
     {
       "work_id": "doi:10.1016/j.vhri.2023.01.009",
       "doi": "10.1016/j.vhri.2023.01.009",
-      "pmid": null,
+      "pmid": "36905789",
       "pmcid": null,
       "title": "Cross-Cultural Adaptation and Validation of the EuroQoL Toddler and Infant Populations Instrument Into Afrikaans for South Africa",
       "journal": "Value in Health Regional Issues",
@@ -499,7 +500,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -560,6 +562,53 @@
         "oa_url": "https://europepmc.org/articles/PMC12243590",
         "pdf_url": "https://europepmc.org/articles/PMC12243590?pdf=render",
         "landing_page": "https://doi.org/10.1136/bmjopen-2025-100897",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-018-0840-z",
+      "doi": "10.1186/s12955-018-0840-z",
+      "pmid": "29321017",
+      "pmcid": "PMC5763523",
+      "title": "Influence of the child's perceived general health on the primary caregiver's health status",
+      "journal": "Health and quality of life outcomes",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Ramma L",
+          "last_name": "Ramma",
+          "orcid": "0000-0001-9109-9103"
+        },
+        {
+          "full_name": "Jelsma J",
+          "last_name": "Jelsma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC5763523",
+        "pdf_url": "https://hqlo.biomedcentral.com/track/pdf/10.1186/s12955-018-0840-z",
+        "landing_page": "https://doi.org/10.1186/s12955-018-0840-z",
         "retrieval": "open"
       }
     },
@@ -810,50 +859,7 @@
         "landing_page": "https://doi.org/10.1186/s41687-020-00251-4",
         "retrieval": "open"
       }
-    },
-    {
-      "work_id": "doi:10.1186/s41687-022-00480-9",
-      "doi": "10.1186/s41687-022-00480-9",
-      "pmid": "35708825",
-      "pmcid": "PMC9203648",
-      "title": "Comparison of the EQ-5D-Y-5L, EQ-5D-Y-3L and PedsQL in children and adolescents",
-      "journal": "Journal of Patient-Reported Outcomes",
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Janine Verstraete",
-          "last_name": "Verstraete",
-          "orcid": "https://orcid.org/0000-0002-1148-4747"
-        },
-        {
-          "full_name": "Des Scott",
-          "last_name": "Scott",
-          "orcid": null
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9203648",
-        "pdf_url": "https://europepmc.org/articles/PMC9203648?pdf=render",
-        "landing_page": "https://doi.org/10.1186/s41687-022-00480-9",
-        "retrieval": "open"
-      }
     }
   ],
-  "weak_omitted": 9
+  "weak_omitted": 10
 }

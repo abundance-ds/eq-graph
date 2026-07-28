@@ -70,7 +70,7 @@
     {
       "work_id": "doi:10.1007/s10198-019-01156-w",
       "doi": "10.1007/s10198-019-01156-w",
-      "pmid": null,
+      "pmid": "31902023",
       "pmcid": null,
       "title": "A vision ‘bolt-on’ increases the responsiveness of EQ-5D: preliminary evidence from a study of cataract surgery",
       "journal": "The European Journal of Health Economics",
@@ -128,7 +128,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -137,6 +138,108 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s10198-019-01156-w",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1038/s41598-026-36189-8",
+      "doi": "10.1038/s41598-026-36189-8",
+      "pmid": "41857005",
+      "pmcid": "PMC13139396",
+      "title": "Association of long COVID with health-related quality-of-life outcomes",
+      "journal": "Scientific reports",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Gandhi MM",
+          "last_name": "Gandhi",
+          "orcid": null
+        },
+        {
+          "full_name": "Moser C",
+          "last_name": "Moser",
+          "orcid": null
+        },
+        {
+          "full_name": "Currier JS",
+          "last_name": "Currier",
+          "orcid": null
+        },
+        {
+          "full_name": "Ritz J",
+          "last_name": "Ritz",
+          "orcid": null
+        },
+        {
+          "full_name": "Eron JJ",
+          "last_name": "Eron",
+          "orcid": null
+        },
+        {
+          "full_name": "Daar ES",
+          "last_name": "Daar",
+          "orcid": null
+        },
+        {
+          "full_name": "Wohl DA",
+          "last_name": "Wohl",
+          "orcid": null
+        },
+        {
+          "full_name": "Fischer WA 2nd",
+          "last_name": "Fischer",
+          "orcid": null
+        },
+        {
+          "full_name": "Singh U",
+          "last_name": "Singh",
+          "orcid": null
+        },
+        {
+          "full_name": "Hughes MD",
+          "last_name": "Hughes",
+          "orcid": null
+        },
+        {
+          "full_name": "Smith DM",
+          "last_name": "Smith",
+          "orcid": null
+        },
+        {
+          "full_name": "Evering TH",
+          "last_name": "Evering",
+          "orcid": null
+        },
+        {
+          "full_name": "Chew KW",
+          "last_name": "Chew",
+          "orcid": null
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC13139396",
+        "pdf_url": "https://europepmc.org/articles/PMC13139396?pdf=render",
+        "landing_page": "https://doi.org/10.1038/s41598-026-36189-8",
+        "retrieval": "open"
       }
     },
     {

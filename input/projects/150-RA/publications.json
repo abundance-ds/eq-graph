@@ -66,6 +66,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 150-RA",
           "weight": 1.0
@@ -149,6 +154,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 150-RA",
           "weight": 1.0
@@ -221,6 +231,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 150-RA",
@@ -295,6 +310,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 150-RA",
           "weight": 1.0
@@ -319,7 +339,7 @@
     {
       "work_id": "doi:10.1007/s11136-022-03312-x",
       "doi": "10.1007/s11136-022-03312-x",
-      "pmid": null,
+      "pmid": "36469212",
       "pmcid": null,
       "title": "What is measured by the composite, single-item pain/discomfort dimension of the EQ-5D-5L? An exploratory analysis",
       "journal": "Quality of Life Research",
@@ -362,7 +382,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -607,7 +628,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.05.012",
       "doi": "10.1016/j.jval.2025.05.012",
-      "pmid": null,
+      "pmid": "40482770",
       "pmcid": null,
       "title": "Validity of the EQ-5D-5L for Routine Assessment in Residential Aged Care: Results From a Feasibility Study",
       "journal": "Value in Health",
@@ -670,7 +691,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -747,7 +769,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.03.2234",
       "doi": "10.1016/j.jval.2026.03.2234",
-      "pmid": null,
+      "pmid": "41962836",
       "pmcid": null,
       "title": "Psychometric Performance of Preference-Weighted Instruments in Older Adults: A Systematic Review",
       "journal": "Value in Health",
@@ -800,7 +822,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -1,0 +1,19 @@
+{
+  "project_id": "299-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.5492/wjccm.v11.i4.236",
+      "doi": "10.5492/wjccm.v11.i4.236",
+      "title": "Health-related quality-of-life and health-utility reporting in critical care",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9305682/fullTextXML",
+      "licence": "cc by-nc",
+      "landing_page": "https://doi.org/10.5492/wjccm.v11.i4.236",
+      "status": "ok",
+      "file": "input/projects/299-RA/papers/doi_10.5492_wjccm.v11.i4.236.xml",
+      "bytes": 84439,
+      "sha256": "729a4255e6d7db8d96f9cd7e86688239e670a0324b355507133a0f010f512fa4"
+    }
+  ]
+}

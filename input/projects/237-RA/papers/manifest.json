@@ -1,0 +1,19 @@
+{
+  "project_id": "237-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-023-01612-8",
+      "doi": "10.1007/s10198-023-01612-8",
+      "title": "The effect of duration and time preference on the gap between adult and child health state valuations in time trade-off",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11136812/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-023-01612-8",
+      "status": "ok",
+      "file": "input/projects/237-RA/papers/doi_10.1007_s10198-023-01612-8.xml",
+      "bytes": 156262,
+      "sha256": "ce0f554e8bc7a7711ceee5310c780d9b4ab2bab912610dc2662bb4a47039bb14"
+    }
+  ]
+}

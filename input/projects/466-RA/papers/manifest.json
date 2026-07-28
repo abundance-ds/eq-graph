@@ -1,0 +1,19 @@
+{
+  "project_id": "466-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s11136-024-03817-7",
+      "doi": "10.1007/s11136-024-03817-7",
+      "title": "Testing the psychometric characteristics of EQ-5D-5L and respiratory bolt-ons using a sample of the Australian population",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11865160/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-024-03817-7",
+      "status": "ok",
+      "file": "input/projects/466-RA/papers/doi_10.1007_s11136-024-03817-7.xml",
+      "bytes": 115612,
+      "sha256": "d5a10885c9f7bf5bf12b7f356bf41bb60fe96f7a7a085cc41eb97b6860f1f923"
+    }
+  ]
+}

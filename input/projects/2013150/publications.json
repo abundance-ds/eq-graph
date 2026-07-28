@@ -120,6 +120,53 @@
       }
     },
     {
+      "work_id": "doi:10.1136/oemed-2020-107072",
+      "doi": "10.1136/oemed-2020-107072",
+      "pmid": "33627481",
+      "pmcid": "PMC8380879",
+      "title": "First trimester employment, working conditions and preterm birth: a prospective population-based cohort study",
+      "journal": "Occupational and environmental medicine",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Vrijkotte T",
+          "last_name": "Vrijkotte",
+          "orcid": "0000-0003-3641-4048"
+        },
+        {
+          "full_name": "Brand T",
+          "last_name": "Brand",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel G",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC8380879",
+        "pdf_url": "https://oem.bmj.com/content/oemed/78/9/654.full.pdf",
+        "landing_page": "https://doi.org/10.1136/oemed-2020-107072",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1371/journal.pone.0272252",
       "doi": "10.1371/journal.pone.0272252",
       "pmid": "35901071",

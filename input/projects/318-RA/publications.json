@@ -1,0 +1,100 @@
+{
+  "project_id": "318-RA",
+  "accepted": [],
+  "review": [],
+  "weak": [
+    {
+      "work_id": "doi:10.3389/fpubh.2024.1398803",
+      "doi": "10.3389/fpubh.2024.1398803",
+      "pmid": "39234078",
+      "pmcid": "PMC11371622",
+      "title": "Long-term distress throughout one's life: health-related quality of life, economic and caregiver burden of patients with neurofibromatosis type 1 in China",
+      "journal": "Frontiers in public health",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Liang W",
+          "last_name": "Liang",
+          "orcid": null
+        },
+        {
+          "full_name": "Cao S",
+          "last_name": "Cao",
+          "orcid": null
+        },
+        {
+          "full_name": "Suo Y",
+          "last_name": "Suo",
+          "orcid": null
+        },
+        {
+          "full_name": "Zhang L",
+          "last_name": "Zhang",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang L",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang P",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang H",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Wang H",
+          "last_name": "Wang",
+          "orcid": null
+        },
+        {
+          "full_name": "Bai G",
+          "last_name": "Bai",
+          "orcid": null
+        },
+        {
+          "full_name": "Li Q",
+          "last_name": "Li",
+          "orcid": null
+        },
+        {
+          "full_name": "Zheng J",
+          "last_name": "Zheng",
+          "orcid": null
+        },
+        {
+          "full_name": "Jin X",
+          "last_name": "Jin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.3389/fpubh.2024.1398803",
+        "pdf_url": "https://europepmc.org/articles/PMC11371622?pdf=render",
+        "landing_page": "https://doi.org/10.3389/fpubh.2024.1398803",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "weak_omitted": 0
+}

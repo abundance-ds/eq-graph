@@ -1,0 +1,19 @@
+{
+  "project_id": "218-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s10198-025-01770-x",
+      "doi": "10.1007/s10198-025-01770-x",
+      "title": "Comparing the measurement properties of the EQ-5D-Y-3L, EQ-5D-Y-5L and CHU9D in children and adolescents: a measurement property study",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12572001/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-025-01770-x",
+      "status": "ok",
+      "file": "input/projects/218-RA/papers/doi_10.1007_s10198-025-01770-x.xml",
+      "bytes": 262678,
+      "sha256": "3e0764427e7d623271e9fdc65a93f7975fd7954312a422687e158f576a1403b9"
+    }
+  ]
+}

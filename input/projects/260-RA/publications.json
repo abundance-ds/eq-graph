@@ -181,7 +181,7 @@
     {
       "work_id": "doi:10.1016/j.vaccine.2024.126420",
       "doi": "10.1016/j.vaccine.2024.126420",
-      "pmid": null,
+      "pmid": "39418689",
       "pmcid": null,
       "title": "Pediatric COVID-19 vaccine hesitancy among pregnant and post-partum women: A mixed-method study",
       "journal": "Vaccine",
@@ -234,7 +234,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -243,6 +244,148 @@
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1016/j.vaccine.2024.126420",
         "retrieval": "requires_subscription"
+      }
+    },
+    {
+      "work_id": "doi:10.1111/aogs.70025",
+      "doi": "10.1111/aogs.70025",
+      "pmid": "40747952",
+      "pmcid": "PMC12451205",
+      "title": "COVID-19 vaccination around the time of conception and risk of placenta-mediated adverse pregnancy outcomes",
+      "journal": "Acta obstetricia et gynecologica Scandinavica",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Regan AK",
+          "last_name": "Regan",
+          "orcid": "0000-0002-3879-6193"
+        },
+        {
+          "full_name": "Bruce L",
+          "last_name": "Bruce",
+          "orcid": "0009-0004-9741-2809"
+        },
+        {
+          "full_name": "Lavin Venegas C",
+          "last_name": "Lavin Venegas",
+          "orcid": null
+        },
+        {
+          "full_name": "Török E",
+          "last_name": "Török",
+          "orcid": null
+        },
+        {
+          "full_name": "Platt RW",
+          "last_name": "Platt",
+          "orcid": "0000-0002-5981-8443"
+        },
+        {
+          "full_name": "Gravel CA",
+          "last_name": "Gravel",
+          "orcid": null
+        },
+        {
+          "full_name": "Alton GD",
+          "last_name": "Alton",
+          "orcid": "0009-0003-0039-3924"
+        },
+        {
+          "full_name": "Dimanlig-Cruz S",
+          "last_name": "Dimanlig-Cruz",
+          "orcid": null
+        },
+        {
+          "full_name": "Shah PS",
+          "last_name": "Shah",
+          "orcid": "0000-0002-9920-0488"
+        },
+        {
+          "full_name": "Barrett J",
+          "last_name": "Barrett",
+          "orcid": null
+        },
+        {
+          "full_name": "Walker MC",
+          "last_name": "Walker",
+          "orcid": null
+        },
+        {
+          "full_name": "El-Chaâr D",
+          "last_name": "El-Chaâr",
+          "orcid": "0000-0002-8266-0242"
+        },
+        {
+          "full_name": "Wilson K",
+          "last_name": "Wilson",
+          "orcid": null
+        },
+        {
+          "full_name": "Sprague AE",
+          "last_name": "Sprague",
+          "orcid": null
+        },
+        {
+          "full_name": "Buchan SA",
+          "last_name": "Buchan",
+          "orcid": null
+        },
+        {
+          "full_name": "Kwong JC",
+          "last_name": "Kwong",
+          "orcid": null
+        },
+        {
+          "full_name": "Wilson SE",
+          "last_name": "Wilson",
+          "orcid": null
+        },
+        {
+          "full_name": "Håberg SE",
+          "last_name": "Håberg",
+          "orcid": null
+        },
+        {
+          "full_name": "Okun N",
+          "last_name": "Okun",
+          "orcid": "0000-0002-1686-2057"
+        },
+        {
+          "full_name": "Dhinsa T",
+          "last_name": "Dhinsa",
+          "orcid": null
+        },
+        {
+          "full_name": "Dunn S",
+          "last_name": "Dunn",
+          "orcid": null
+        },
+        {
+          "full_name": "Fell DB",
+          "last_name": "Fell",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://doi.org/10.1111/aogs.70025",
+        "pdf_url": "https://europepmc.org/articles/PMC12451205?pdf=render",
+        "landing_page": "https://doi.org/10.1111/aogs.70025",
+        "retrieval": "open"
       }
     },
     {

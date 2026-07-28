@@ -1,6 +1,64 @@
 {
   "project_id": "238-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s10198-024-01719-6",
+      "doi": "10.1007/s10198-024-01719-6",
+      "pmid": "39212881",
+      "pmcid": "PMC11937053",
+      "title": "The added value of the cognition, dining, gastrointestinal problems, sleep and tiredness bolt-on dimensions to the EQ-5D-5L in patients with coeliac disease",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Angyal MM",
+          "last_name": "Angyal",
+          "orcid": "0000-0001-7161-6767"
+        },
+        {
+          "full_name": "Janssen MF",
+          "last_name": "Janssen",
+          "orcid": "0000-0001-6602-6949"
+        },
+        {
+          "full_name": "Lakatos PL",
+          "last_name": "Lakatos",
+          "orcid": "0000-0002-3948-6488"
+        },
+        {
+          "full_name": "Brodszky V",
+          "last_name": "Brodszky",
+          "orcid": "0000-0002-6095-2295"
+        },
+        {
+          "full_name": "Rencz F",
+          "last_name": "Rencz",
+          "orcid": "0000-0001-9674-620X"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11937053",
+        "pdf_url": "https://europepmc.org/articles/PMC11937053?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01719-6",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -59,7 +117,7 @@
     {
       "work_id": "doi:10.1016/j.joca.2023.07.004",
       "doi": "10.1016/j.joca.2023.07.004",
-      "pmid": null,
+      "pmid": "37482250",
       "pmcid": null,
       "title": "Socioeconomic inequalities in patient-reported outcome measures of Dutch primary hip and knee arthroplasty patients for osteoarthritis",
       "journal": "Osteoarthritis and Cartilage",
@@ -107,7 +165,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -178,6 +237,53 @@
         "oa_url": "https://doi.org/10.1016/j.ssmph.2021.100913",
         "pdf_url": "https://europepmc.org/articles/PMC8426285?pdf=render",
         "landing_page": "https://doi.org/10.1016/j.ssmph.2021.100913",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1136/oemed-2020-107072",
+      "doi": "10.1136/oemed-2020-107072",
+      "pmid": "33627481",
+      "pmcid": "PMC8380879",
+      "title": "First trimester employment, working conditions and preterm birth: a prospective population-based cohort study",
+      "journal": "Occupational and environmental medicine",
+      "year": 2021,
+      "authors": [
+        {
+          "full_name": "Vrijkotte T",
+          "last_name": "Vrijkotte",
+          "orcid": "0000-0003-3641-4048"
+        },
+        {
+          "full_name": "Brand T",
+          "last_name": "Brand",
+          "orcid": null
+        },
+        {
+          "full_name": "Bonsel G",
+          "last_name": "Bonsel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC8380879",
+        "pdf_url": "https://oem.bmj.com/content/oemed/78/9/654.full.pdf",
+        "landing_page": "https://doi.org/10.1136/oemed-2020-107072",
         "retrieval": "open"
       }
     },

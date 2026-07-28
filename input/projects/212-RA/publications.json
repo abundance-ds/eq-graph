@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1186/s12955-026-02575-z",
       "doi": "10.1186/s12955-026-02575-z",
-      "pmid": null,
+      "pmid": "42374495",
       "pmcid": null,
       "title": "A randomised equivalence study of the EQ-5D-5L Shona versions: evaluation of measurement equivalence between digital and paper formats",
       "journal": "Health and Quality of Life Outcomes",
@@ -69,7 +69,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

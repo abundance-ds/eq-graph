@@ -3,6 +3,19 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s40273-022-01222-x",
+      "doi": "10.1007/s40273-022-01222-x",
+      "title": "Findings from a Roundtable Discussion with US Stakeholders on Valuation of the EQ-5D-Y-3L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9758239/fullTextXML",
+      "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+      "landing_page": "https://doi.org/10.1007/s40273-022-01222-x",
+      "status": "ok",
+      "file": "input/projects/409-RA/papers/doi_10.1007_s40273-022-01222-x.xml",
+      "bytes": 64191,
+      "sha256": "aee930887bd6198b346247768a74d817cde119fad886f1224ca335b61535d15d"
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2025.01.020",
       "doi": "10.1016/j.jval.2025.01.020",
       "title": "An Acquired Taste: Latent Class Analysis to Compare Adolescent and Adult Preferences for EQ-5D-Y-3L Health States",

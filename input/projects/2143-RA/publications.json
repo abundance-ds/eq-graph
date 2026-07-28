@@ -96,7 +96,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.10.009",
       "doi": "10.1016/j.jval.2023.10.009",
-      "pmid": null,
+      "pmid": "37913922",
       "pmcid": null,
       "title": "This Dead or That Dead: Framing Effects in the Evaluation of Health States",
       "journal": "Value in Health",
@@ -134,7 +134,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

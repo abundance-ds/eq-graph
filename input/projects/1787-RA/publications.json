@@ -1,0 +1,90 @@
+{
+  "project_id": "1787-RA",
+  "accepted": [
+    {
+      "work_id": "doi:10.1097/mlr.0000000000002315",
+      "doi": "10.1097/mlr.0000000000002315",
+      "pmid": "41861120",
+      "pmcid": "PMC13166071",
+      "title": "Can Patient-Reported Outcome Measures Help Predict Unplanned Hospital Readmission?",
+      "journal": "Medical care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Yu M",
+          "last_name": "Yu",
+          "orcid": null
+        },
+        {
+          "full_name": "Harrison M",
+          "last_name": "Harrison",
+          "orcid": null
+        },
+        {
+          "full_name": "Wong H",
+          "last_name": "Wong",
+          "orcid": null
+        },
+        {
+          "full_name": "Trenaman L",
+          "last_name": "Trenaman",
+          "orcid": null
+        },
+        {
+          "full_name": "Bryan S",
+          "last_name": "Bryan",
+          "orcid": null
+        },
+        {
+          "full_name": "Lix L",
+          "last_name": "Lix",
+          "orcid": null
+        },
+        {
+          "full_name": "Sawatzky R",
+          "last_name": "Sawatzky",
+          "orcid": null
+        },
+        {
+          "full_name": "Cuthbertson L",
+          "last_name": "Cuthbertson",
+          "orcid": null
+        },
+        {
+          "full_name": "Al Sayah F",
+          "last_name": "Al Sayah",
+          "orcid": null
+        },
+        {
+          "full_name": "Bansback N",
+          "last_name": "Bansback",
+          "orcid": "0000-0002-1510-3462"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC13166071",
+        "pdf_url": "https://europepmc.org/articles/PMC13166071?pdf=render",
+        "landing_page": "https://doi.org/10.1097/mlr.0000000000002315",
+        "retrieval": "open"
+      }
+    }
+  ],
+  "review": [],
+  "weak": [],
+  "weak_omitted": 0
+}

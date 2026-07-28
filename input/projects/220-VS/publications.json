@@ -66,6 +66,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 220-VS",
           "weight": 1.0
@@ -151,6 +156,125 @@
         "oa_url": "https://europepmc.org/articles/PMC12572001",
         "pdf_url": "https://europepmc.org/articles/PMC12572001?pdf=render",
         "landing_page": "https://doi.org/10.1007/s10198-025-01770-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40258-025-00953-0",
+      "doi": "10.1007/s40258-025-00953-0",
+      "pmid": "40252155",
+      "pmcid": "PMC12364749",
+      "title": "Measurement Properties of the EQ-5D Instruments in Children and Adolescents: A Systematic Review",
+      "journal": "Applied health economics and health policy",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "de Melo do Espirito Santo C",
+          "last_name": "de Melo do Espirito Santo",
+          "orcid": "0000-0002-1175-2211"
+        },
+        {
+          "full_name": "Santos VS",
+          "last_name": "Santos",
+          "orcid": "0000-0002-1433-818X"
+        },
+        {
+          "full_name": "Chiarotto A",
+          "last_name": "Chiarotto",
+          "orcid": "0000-0003-2350-9945"
+        },
+        {
+          "full_name": "Miyamoto GC",
+          "last_name": "Miyamoto",
+          "orcid": "0000-0002-6826-4278"
+        },
+        {
+          "full_name": "Yamato TP",
+          "last_name": "Yamato",
+          "orcid": "0000-0002-5228-1292"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC12364749",
+        "pdf_url": "https://europepmc.org/articles/PMC12364749?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40258-025-00953-0",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s13643-023-02443-7",
+      "doi": "10.1186/s13643-023-02443-7",
+      "pmid": "38183127",
+      "pmcid": "PMC10768350",
+      "title": "Measurement properties of the EQ-5D in children and adolescents: a systematic review protocol",
+      "journal": "Systematic reviews",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "do Espirito Santo CM",
+          "last_name": "do Espirito Santo",
+          "orcid": "0000-0002-1175-2211"
+        },
+        {
+          "full_name": "Santos VS",
+          "last_name": "Santos",
+          "orcid": null
+        },
+        {
+          "full_name": "Miyamoto GC",
+          "last_name": "Miyamoto",
+          "orcid": null
+        },
+        {
+          "full_name": "Chiarotto A",
+          "last_name": "Chiarotto",
+          "orcid": "0000-0003-2350-9945"
+        },
+        {
+          "full_name": "Santos M",
+          "last_name": "Santos",
+          "orcid": null
+        },
+        {
+          "full_name": "Yamato TP",
+          "last_name": "Yamato",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC10768350",
+        "pdf_url": "https://systematicreviewsjournal.biomedcentral.com/counter/pdf/10.1186/s13643-023-02443-7",
+        "landing_page": "https://doi.org/10.1186/s13643-023-02443-7",
         "retrieval": "open"
       }
     }

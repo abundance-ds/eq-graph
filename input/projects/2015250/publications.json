@@ -56,9 +56,86 @@
       }
     },
     {
+      "work_id": "doi:10.1016/j.jval.2017.09.016",
+      "doi": "10.1016/j.jval.2017.09.016",
+      "pmid": "29477405",
+      "pmcid": null,
+      "title": "Choice Defines Value: A Predictive Modeling Competition in Health Preference Research",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2018,
+      "authors": [
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": "0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": "0000-0003-1121-1316"
+        },
+        {
+          "full_name": "Barra M",
+          "last_name": "Barra",
+          "orcid": "0000-0002-0022-4042"
+        },
+        {
+          "full_name": "Groothuis-Oudshoorn CGM",
+          "last_name": "Groothuis-Oudshoorn",
+          "orcid": "0000-0002-4875-5379"
+        },
+        {
+          "full_name": "Hartman JD",
+          "last_name": "Hartman",
+          "orcid": null
+        },
+        {
+          "full_name": "Huynh E",
+          "last_name": "Huynh",
+          "orcid": "0000-0002-1855-3143"
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk EA",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Rand K",
+          "last_name": "Rand",
+          "orcid": "0000-0001-7692-4099"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2017.09.016",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2020.07.006",
       "doi": "10.1016/j.jval.2020.07.006",
-      "pmid": null,
+      "pmid": "33127020",
       "pmcid": null,
       "title": "Testing the “Nonstopping” Time Trade-Off: Is It Better Than the Composite Time Trade-Off?",
       "journal": "Value in Health",
@@ -91,7 +168,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

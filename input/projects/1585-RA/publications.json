@@ -176,9 +176,81 @@
       }
     },
     {
+      "work_id": "doi:10.1016/j.jval.2022.08.011",
+      "doi": "10.1016/j.jval.2022.08.011",
+      "pmid": "36244905",
+      "pmcid": null,
+      "title": "Modifying the Composite Time Trade-Off Method to Improve Its Discriminatory Power",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": "0000-0002-0006-6769"
+        },
+        {
+          "full_name": "Lipman SA",
+          "last_name": "Lipman",
+          "orcid": null
+        },
+        {
+          "full_name": "Roudijk B",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Pullenayegum E",
+          "last_name": "Pullenayegum",
+          "orcid": null
+        },
+        {
+          "full_name": "Yang Y",
+          "last_name": "Yang",
+          "orcid": null
+        },
+        {
+          "full_name": "Gu NY",
+          "last_name": "Gu",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": "cc by-nc-nd",
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2022.08.011",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2023.10.009",
       "doi": "10.1016/j.jval.2023.10.009",
-      "pmid": null,
+      "pmid": "37913922",
       "pmcid": null,
       "title": "This Dead or That Dead: Framing Effects in the Evaluation of Health States",
       "journal": "Value in Health",
@@ -216,7 +288,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -330,7 +403,7 @@
     {
       "work_id": "doi:10.1177/0272989x231201147",
       "doi": "10.1177/0272989x231201147",
-      "pmid": null,
+      "pmid": "37846095",
       "pmcid": null,
       "title": "Re-revisiting the Utilities of Health States Worse than Dead: The Problem Remains",
       "journal": "Medical Decision Making",
@@ -353,7 +426,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

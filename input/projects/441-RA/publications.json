@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.02.013",
       "doi": "10.1016/j.jval.2025.02.013",
-      "pmid": null,
+      "pmid": "40113016",
       "pmcid": null,
       "title": "Can Adolescents Value the EQ-5D-Y-5L and EQ-5D-5L, and How Do the Values Compare? A Feasibility Study",
       "journal": "Value in Health",
@@ -59,7 +59,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

@@ -2,6 +2,54 @@
   "project_id": "1559-RA",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s40271-025-00749-3",
+      "doi": "10.1007/s40271-025-00749-3",
+      "pmid": "40531304",
+      "pmcid": "PMC12559129",
+      "title": "Content Validity of the EQ-HWB in Caregivers of Children with Health Conditions",
+      "journal": "The Patient - Patient-Centered Outcomes Research",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Cate Bailey",
+          "last_name": "Bailey",
+          "orcid": "https://orcid.org/0000-0001-5030-430x"
+        },
+        {
+          "full_name": "Tessa Peasgood",
+          "last_name": "Peasgood",
+          "orcid": "https://orcid.org/0000-0001-8024-7801"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
+          "kind": "title_fuzzy",
+          "detail": "title similarity 0.91 + PI as lead author",
+          "weight": 0.65
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC12559129",
+        "pdf_url": "https://europepmc.org/articles/PMC12559129?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00749-3",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2025.05.013",
       "doi": "10.1016/j.jval.2025.05.013",
       "pmid": "40482772",
@@ -55,51 +103,7 @@
       }
     }
   ],
-  "review": [
-    {
-      "work_id": "doi:10.1007/s40271-025-00749-3",
-      "doi": "10.1007/s40271-025-00749-3",
-      "pmid": "40531304",
-      "pmcid": "PMC12559129",
-      "title": "Content Validity of the EQ-HWB in Caregivers of Children with Health Conditions",
-      "journal": "The Patient - Patient-Centered Outcomes Research",
-      "year": 2025,
-      "authors": [
-        {
-          "full_name": "Cate Bailey",
-          "last_name": "Bailey",
-          "orcid": "https://orcid.org/0000-0001-5030-430x"
-        },
-        {
-          "full_name": "Tessa Peasgood",
-          "last_name": "Peasgood",
-          "orcid": "https://orcid.org/0000-0001-8024-7801"
-        }
-      ],
-      "score": 0.65,
-      "confidence": "review",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "title_fuzzy",
-          "detail": "title similarity 0.91 + PI as lead author",
-          "weight": 0.65
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC12559129",
-        "pdf_url": "https://europepmc.org/articles/PMC12559129?pdf=render",
-        "landing_page": "https://doi.org/10.1007/s40271-025-00749-3",
-        "retrieval": "open"
-      }
-    }
-  ],
+  "review": [],
   "weak": [
     {
       "work_id": "doi:10.1007/s10198-024-01688-w",
@@ -166,6 +170,195 @@
         "oa_url": "https://europepmc.org/articles/PMC11743351",
         "pdf_url": "https://europepmc.org/articles/PMC11743351?pdf=render",
         "landing_page": "https://doi.org/10.1007/s10198-024-01688-w",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-022-01149-3",
+      "doi": "10.1007/s40273-022-01149-3",
+      "pmid": "35619044",
+      "pmcid": "PMC9270310",
+      "title": "Preference Elicitation Techniques Used in Valuing Children's Health-Related Quality-of-Life: A Systematic Review",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Bailey C",
+          "last_name": "Bailey",
+          "orcid": "0000-0001-5030-430X"
+        },
+        {
+          "full_name": "Howell M",
+          "last_name": "Howell",
+          "orcid": "0000-0001-9740-712X"
+        },
+        {
+          "full_name": "Raghunandan R",
+          "last_name": "Raghunandan",
+          "orcid": "0000-0001-7848-6109"
+        },
+        {
+          "full_name": "Salisbury A",
+          "last_name": "Salisbury",
+          "orcid": "0000-0003-1557-5918"
+        },
+        {
+          "full_name": "Chen G",
+          "last_name": "Chen",
+          "orcid": "0000-0002-8385-5965"
+        },
+        {
+          "full_name": "Coast J",
+          "last_name": "Coast",
+          "orcid": "0000-0002-3537-5166"
+        },
+        {
+          "full_name": "Craig JC",
+          "last_name": "Craig",
+          "orcid": "0000-0002-2548-4035"
+        },
+        {
+          "full_name": "Devlin NJ",
+          "last_name": "Devlin",
+          "orcid": "0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Huynh E",
+          "last_name": "Huynh",
+          "orcid": "0000-0002-1855-3143"
+        },
+        {
+          "full_name": "Lancsar E",
+          "last_name": "Lancsar",
+          "orcid": "0000-0003-2404-6735"
+        },
+        {
+          "full_name": "Mulhern BJ",
+          "last_name": "Mulhern",
+          "orcid": "0000-0003-3656-8063"
+        },
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": "0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Petrou S",
+          "last_name": "Petrou",
+          "orcid": "0000-0003-3121-6050"
+        },
+        {
+          "full_name": "Ratcliffe J",
+          "last_name": "Ratcliffe",
+          "orcid": "0000-0001-7365-1988"
+        },
+        {
+          "full_name": "Street DJ",
+          "last_name": "Street",
+          "orcid": "0000-0002-4476-0656"
+        },
+        {
+          "full_name": "Howard K",
+          "last_name": "Howard",
+          "orcid": "0000-0002-0918-7540"
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC9270310",
+        "pdf_url": "https://europepmc.org/articles/PMC9270310?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01149-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-024-01351-5",
+      "doi": "10.1007/s40273-024-01351-5",
+      "pmid": "38238605",
+      "pmcid": "PMC11168993",
+      "title": "The Validity of the EuroQol Health and Wellbeing Short Version (EQ-HWB-S) Instrument in Parents of Children With and Without Health Conditions",
+      "journal": "PharmacoEconomics",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Bailey C",
+          "last_name": "Bailey",
+          "orcid": "0000-0001-5030-430X"
+        },
+        {
+          "full_name": "Dalziel K",
+          "last_name": "Dalziel",
+          "orcid": "0000-0003-4972-8871"
+        },
+        {
+          "full_name": "Jones R",
+          "last_name": "Jones",
+          "orcid": "0000-0002-5332-5226"
+        },
+        {
+          "full_name": "Hiscock H",
+          "last_name": "Hiscock",
+          "orcid": "0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Devlin NJ",
+          "last_name": "Devlin",
+          "orcid": "0000-0002-1561-5361"
+        },
+        {
+          "full_name": "Peasgood T",
+          "last_name": "Peasgood",
+          "orcid": "0000-0001-8024-7801"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC11168993",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-024-01351-5.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-024-01351-5",
         "retrieval": "open"
       }
     },

@@ -69,6 +69,93 @@
         "landing_page": "https://doi.org/10.1007/s11136-024-03765-2",
         "retrieval": "open"
       }
+    },
+    {
+      "work_id": "doi:10.1177/07334648251316633",
+      "doi": "10.1177/07334648251316633",
+      "pmid": "40008933",
+      "pmcid": "PMC12420939",
+      "title": "Exploring the Validity of Measures of Health-Related Quality of Life in Older Adults at Increased Risk of Falls and/or Fractures in Exercise Clinical Trials",
+      "journal": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Ng CA",
+          "last_name": "Ng",
+          "orcid": "0000-0001-9326-8492"
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Akanksha A",
+          "last_name": "Akanksha",
+          "orcid": "0000-0002-4899-7538"
+        },
+        {
+          "full_name": "Bahrampour M",
+          "last_name": "Bahrampour",
+          "orcid": null
+        },
+        {
+          "full_name": "Jansons P",
+          "last_name": "Jansons",
+          "orcid": "0000-0002-8766-0516"
+        },
+        {
+          "full_name": "Mesinovic J",
+          "last_name": "Mesinovic",
+          "orcid": "0000-0003-1297-2731"
+        },
+        {
+          "full_name": "Gandham A",
+          "last_name": "Gandham",
+          "orcid": null
+        },
+        {
+          "full_name": "Glavas C",
+          "last_name": "Glavas",
+          "orcid": null
+        },
+        {
+          "full_name": "Ebeling PR",
+          "last_name": "Ebeling",
+          "orcid": null
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        },
+        {
+          "full_name": "Scott D",
+          "last_name": "Scott",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1177/07334648251316633",
+        "pdf_url": "https://europepmc.org/articles/PMC12420939?pdf=render",
+        "landing_page": "https://doi.org/10.1177/07334648251316633",
+        "retrieval": "open"
+      }
     }
   ],
   "weak_omitted": 0

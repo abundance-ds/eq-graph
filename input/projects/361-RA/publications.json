@@ -2,6 +2,140 @@
   "project_id": "361-RA",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s10198-025-01804-4",
+      "doi": "10.1007/s10198-025-01804-4",
+      "pmid": "40736640",
+      "pmcid": "PMC13046681",
+      "title": "Comparison of the psychometric performance of experimental EuroQol Toddler and Infant Populations Instrument (EQ-TIPS) and Pediatric Quality of Life Inventory™ (PedsQL) in young children",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Pan T",
+          "last_name": "Pan",
+          "orcid": "0000-0002-2243-8818"
+        },
+        {
+          "full_name": "Huang L",
+          "last_name": "Huang",
+          "orcid": null
+        },
+        {
+          "full_name": "He V",
+          "last_name": "He",
+          "orcid": "0000-0002-1513-1164"
+        },
+        {
+          "full_name": "Verstraete J",
+          "last_name": "Verstraete",
+          "orcid": "0000-0002-1148-4747"
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Herdman M",
+          "last_name": "Herdman",
+          "orcid": null
+        },
+        {
+          "full_name": "Dalziel K",
+          "last_name": "Dalziel",
+          "orcid": "0000-0003-4972-8871"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13046681",
+        "pdf_url": "https://europepmc.org/articles/PMC13046681?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-025-01804-4",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s11136-026-04246-4",
+      "doi": "10.1007/s11136-026-04246-4",
+      "pmid": "42247163",
+      "pmcid": "PMC13241415",
+      "title": "Measuring quality of life in autistic children and young people: comparing the performance of common generic health related quality of life instruments",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Constable L",
+          "last_name": "Constable",
+          "orcid": "0000-0002-5692-8882"
+        },
+        {
+          "full_name": "O'Loughlin R",
+          "last_name": "O'Loughlin",
+          "orcid": "0000-0002-6451-2713"
+        },
+        {
+          "full_name": "Jones R",
+          "last_name": "Jones",
+          "orcid": "0000-0002-5332-5226"
+        },
+        {
+          "full_name": "Hiscock H",
+          "last_name": "Hiscock",
+          "orcid": "0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Dalziel K",
+          "last_name": "Dalziel",
+          "orcid": "0000-0003-4972-8871"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13241415",
+        "pdf_url": "https://europepmc.org/articles/PMC13241415?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s11136-026-04246-4",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40273-023-01330-2",
       "doi": "10.1007/s40273-023-01330-2",
       "pmid": "37955799",
@@ -65,6 +199,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 361-RA",
@@ -139,6 +278,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 361-RA",
           "weight": 1.0
@@ -211,6 +355,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 361-RA",
@@ -576,6 +725,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 361-RA",
           "weight": 1.0
@@ -654,6 +808,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 361-RA",
           "weight": 1.0
@@ -676,9 +835,91 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1001/jamanetworkopen.2025.58973",
+      "doi": "10.1001/jamanetworkopen.2025.58973",
+      "pmid": "41678191",
+      "pmcid": "PMC12902895",
+      "title": "Use of Parent- and Patient-Reported Outcome Measures in Pediatric Specialty Clinics: A Pilot Randomized Clinical Trial",
+      "journal": "JAMA network open",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jones R",
+          "last_name": "Jones",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "McLean K",
+          "last_name": "McLean",
+          "orcid": null
+        },
+        {
+          "full_name": "Roberts G",
+          "last_name": "Roberts",
+          "orcid": null
+        },
+        {
+          "full_name": "Berry A",
+          "last_name": "Berry",
+          "orcid": null
+        },
+        {
+          "full_name": "Shanthikumar S",
+          "last_name": "Shanthikumar",
+          "orcid": null
+        },
+        {
+          "full_name": "Trajanovska M",
+          "last_name": "Trajanovska",
+          "orcid": null
+        },
+        {
+          "full_name": "King S",
+          "last_name": "King",
+          "orcid": null
+        },
+        {
+          "full_name": "Hiscock H",
+          "last_name": "Hiscock",
+          "orcid": "0000-0003-3017-2770"
+        },
+        {
+          "full_name": "Dalziel KM",
+          "last_name": "Dalziel",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC12902895",
+        "pdf_url": "https://europepmc.org/articles/PMC12902895?pdf=render",
+        "landing_page": "https://doi.org/10.1001/jamanetworkopen.2025.58973",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2023.06.004",
       "doi": "10.1016/j.jval.2023.06.004",
-      "pmid": null,
+      "pmid": "37348834",
       "pmcid": null,
       "title": "A Qualitative Investigation to Develop an Adapted Version of the EQ-5D-Y-3L for Use in Children Aged 2-4 Years",
       "journal": "Value in Health",
@@ -746,7 +987,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

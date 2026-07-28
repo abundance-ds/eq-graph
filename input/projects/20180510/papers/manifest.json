@@ -42,6 +42,19 @@
       "sha256": "647b656987ebfcf2c0919489e2f06536648d7926cd1c2511b3acbf9b00a55f34"
     },
     {
+      "work_id": "doi:10.1016/j.jval.2021.03.019",
+      "doi": "10.1016/j.jval.2021.03.019",
+      "title": "Comparison of Adult and Adolescent Preferences Toward EQ-5D-Y-3L Health States",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8404973/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1016/j.jval.2021.03.019",
+      "status": "ok",
+      "file": "input/projects/20180510/papers/doi_10.1016_j.jval.2021.03.019.xml",
+      "bytes": 112919,
+      "sha256": "8f835ca11d498e90722787e973e7132071154716f7092cb700f13e9b8349f3fd"
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2021.10.013",
       "doi": "10.1016/j.jval.2021.10.013",
       "title": "Accounting for Unobservable Preference Heterogeneity and Evaluating Alternative Anchoring Approaches to Estimate Country-Specific EQ-5D-Y Value Sets: A Case Study Using Spanish Preference Data",

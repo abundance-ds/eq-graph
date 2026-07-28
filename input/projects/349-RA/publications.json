@@ -1,6 +1,181 @@
 {
   "project_id": "349-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s12311-023-01597-3",
+      "doi": "10.1007/s12311-023-01597-3",
+      "pmid": "37713052",
+      "pmcid": "PMC11102408",
+      "title": "Health-Related Quality of Life in Patients with Spinocerebellar Ataxia: a Validation Study of the EQ-5D-3L",
+      "journal": "Cerebellum (London, England)",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": null
+        },
+        {
+          "full_name": "Weber N",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Rädke A",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Faber J",
+          "last_name": "Faber",
+          "orcid": null
+        },
+        {
+          "full_name": "Schmitz-Hübsch T",
+          "last_name": "Schmitz-Hübsch",
+          "orcid": null
+        },
+        {
+          "full_name": "Jacobi H",
+          "last_name": "Jacobi",
+          "orcid": null
+        },
+        {
+          "full_name": "Xie F",
+          "last_name": "Xie",
+          "orcid": null
+        },
+        {
+          "full_name": "Klockgether T",
+          "last_name": "Klockgether",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11102408",
+        "pdf_url": "https://europepmc.org/articles/PMC11102408?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s12311-023-01597-3",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s12311-024-01657-2",
+      "doi": "10.1007/s12311-024-01657-2",
+      "pmid": "38279001",
+      "pmcid": "PMC11269494",
+      "title": "Factors Influencing Health-Related Quality of Life of Patients with Spinocerebellar Ataxia",
+      "journal": "Cerebellum (London, England)",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Weber N",
+          "last_name": "Weber",
+          "orcid": null
+        },
+        {
+          "full_name": "Buchholz M",
+          "last_name": "Buchholz",
+          "orcid": "0000-0002-4486-8632"
+        },
+        {
+          "full_name": "Rädke A",
+          "last_name": "Rädke",
+          "orcid": null
+        },
+        {
+          "full_name": "Faber J",
+          "last_name": "Faber",
+          "orcid": null
+        },
+        {
+          "full_name": "Schmitz-Hübsch T",
+          "last_name": "Schmitz-Hübsch",
+          "orcid": null
+        },
+        {
+          "full_name": "Jacobi H",
+          "last_name": "Jacobi",
+          "orcid": null
+        },
+        {
+          "full_name": "Klockgether T",
+          "last_name": "Klockgether",
+          "orcid": null
+        },
+        {
+          "full_name": "Hoffmann W",
+          "last_name": "Hoffmann",
+          "orcid": null
+        },
+        {
+          "full_name": "Michalowsky B",
+          "last_name": "Michalowsky",
+          "orcid": "0000-0002-3425-0089"
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        },
+        {
+          "full_name": null,
+          "last_name": null,
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11269494",
+        "pdf_url": "https://europepmc.org/articles/PMC11269494?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s12311-024-01657-2",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -99,7 +274,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.04.010",
       "doi": "10.1016/j.jval.2024.04.010",
-      "pmid": null,
+      "pmid": "38649092",
       "pmcid": null,
       "title": "Health Fluctuations in Dementia and its Impact on the Assessment of Health-Related Quality of Life Using the EQ-5D-5L",
       "journal": "Value in Health",
@@ -147,7 +322,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

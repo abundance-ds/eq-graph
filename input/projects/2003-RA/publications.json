@@ -1,8 +1,6 @@
 {
   "project_id": "2003-RA",
-  "accepted": [],
-  "review": [],
-  "weak": [
+  "accepted": [
     {
       "work_id": "doi:10.1007/s10198-025-01857-5",
       "doi": "10.1007/s10198-025-01857-5",
@@ -33,14 +31,14 @@
           "orcid": null
         }
       ],
-      "score": 0.45,
-      "confidence": "weak",
+      "score": 1.0,
+      "confidence": "accepted",
       "curated": null,
       "evidence": [
         {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
         }
       ],
       "sources": [
@@ -54,7 +52,10 @@
         "landing_page": "https://doi.org/10.1007/s10198-025-01857-5",
         "retrieval": "open"
       }
-    },
+    }
+  ],
+  "review": [],
+  "weak": [
     {
       "work_id": "doi:10.1007/s11136-025-03925-y",
       "doi": "10.1007/s11136-025-03925-y",
@@ -115,7 +116,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.12.003",
       "doi": "10.1016/j.jval.2024.12.003",
-      "pmid": null,
+      "pmid": "39733837",
       "pmcid": null,
       "title": "The Psychometric Properties of the EQ-HWB and EQ-HWB-S in Patients With Breast Cancer: A Comparative Analysis With EQ-5D-5L, FACT-8D, and SWEMWBS",
       "journal": "Value in Health",
@@ -163,7 +164,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

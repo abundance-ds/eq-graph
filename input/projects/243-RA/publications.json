@@ -46,6 +46,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 243-RA",
           "weight": 1.0
@@ -385,7 +390,7 @@
     {
       "work_id": "doi:10.1016/j.burns.2020.08.015",
       "doi": "10.1016/j.burns.2020.08.015",
-      "pmid": null,
+      "pmid": "33012569",
       "pmcid": null,
       "title": "The added value of extending the EQ-5D-5L with an itching item for the assessment of health-related quality of life of burn patients: an explorative study",
       "journal": "Burns",
@@ -433,7 +438,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -447,7 +453,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2020.12.011",
       "doi": "10.1016/j.jval.2020.12.011",
-      "pmid": null,
+      "pmid": "34119088",
       "pmcid": null,
       "title": "Methods Used to Identify, Test, and Assess Impact on Preferences of Bolt-Ons: A Systematic Review",
       "journal": "Value in Health",
@@ -495,7 +501,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -509,7 +516,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.06.010",
       "doi": "10.1016/j.jval.2026.06.010",
-      "pmid": null,
+      "pmid": "42447979",
       "pmcid": null,
       "title": "Longitudinal Psychometric Evaluation of 15 Bolt-ons for the EQ-5D-5L in a Large-Scale Multi-Country Study",
       "journal": "Value in Health",
@@ -552,7 +559,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

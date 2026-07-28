@@ -568,7 +568,7 @@
     {
       "work_id": "doi:10.1007/s11136-021-02911-4",
       "doi": "10.1007/s11136-021-02911-4",
-      "pmid": null,
+      "pmid": "34181154",
       "pmcid": null,
       "title": "Evidence on the relationship between PROMIS-29 and EQ-5D: a literature review",
       "journal": "Quality of Life Research",
@@ -621,7 +621,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,
@@ -897,5 +898,5 @@
       }
     }
   ],
-  "weak_omitted": 17
+  "weak_omitted": 23
 }

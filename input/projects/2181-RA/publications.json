@@ -52,7 +52,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.02.013",
       "doi": "10.1016/j.jval.2026.02.013",
-      "pmid": null,
+      "pmid": "41819363",
       "pmcid": null,
       "title": "A Quantitative Exploration of the Performance of a Potential “Health and Well-Being” Visual Analog Scale (EQ-HWB VAS) for the EQ-HWB-9",
       "journal": "Value in Health",
@@ -85,7 +85,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -103,7 +103,7 @@
     {
       "work_id": "doi:10.1177/0272989x19841592",
       "doi": "10.1177/0272989x19841592",
-      "pmid": null,
+      "pmid": "30982403",
       "pmcid": null,
       "title": "Latent Class Models Reveal Poor Agreement between Discrete-Choice and Time Tradeoff Preferences",
       "journal": "Medical Decision Making",
@@ -136,7 +136,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

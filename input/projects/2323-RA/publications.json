@@ -115,7 +115,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2024.12.003",
       "doi": "10.1016/j.jval.2024.12.003",
-      "pmid": null,
+      "pmid": "39733837",
       "pmcid": null,
       "title": "The Psychometric Properties of the EQ-HWB and EQ-HWB-S in Patients With Breast Cancer: A Comparative Analysis With EQ-5D-5L, FACT-8D, and SWEMWBS",
       "journal": "Value in Health",
@@ -163,7 +163,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

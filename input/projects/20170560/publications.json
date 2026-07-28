@@ -204,7 +204,7 @@
     {
       "work_id": "doi:10.1007/s40271-023-00655-6",
       "doi": "10.1007/s40271-023-00655-6",
-      "pmid": null,
+      "pmid": "37985620",
       "pmcid": null,
       "title": "Unravelling the Self-Report Versus Proxy-Report Conundrum for Older Aged Care Residents: Findings from a Mixed-Methods Study",
       "journal": "The Patient - Patient-Centered Outcomes Research",
@@ -277,7 +277,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -285,6 +286,73 @@
         "oa_url": "https://figshare.com/articles/journal_contribution/Unravelling_the_Self-Report_Versus_Proxy-Report_Conundrum_for_Older_Aged_Care_Residents_Findings_from_a_Mixed-Methods_Study/27199434",
         "pdf_url": null,
         "landing_page": "https://doi.org/10.1007/s40271-023-00655-6",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1007/s40273-023-01243-0",
+      "doi": "10.1007/s40273-023-01243-0",
+      "pmid": "36720793",
+      "pmcid": "PMC10020301",
+      "title": "The Use of a Discrete Choice Experiment Including Both Duration and Dead for the Development of an EQ-5D-5L Value Set for Australia",
+      "journal": "PharmacoEconomics",
+      "year": 2023,
+      "authors": [
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": "0000-0002-3112-3893"
+        },
+        {
+          "full_name": "Mulhern B",
+          "last_name": "Mulhern",
+          "orcid": null
+        },
+        {
+          "full_name": "Lancsar E",
+          "last_name": "Lancsar",
+          "orcid": "0000-0003-2404-6735"
+        },
+        {
+          "full_name": "Lorgelly P",
+          "last_name": "Lorgelly",
+          "orcid": "0000-0002-8990-9514"
+        },
+        {
+          "full_name": "Ratcliffe J",
+          "last_name": "Ratcliffe",
+          "orcid": "0000-0001-7365-1988"
+        },
+        {
+          "full_name": "Street D",
+          "last_name": "Street",
+          "orcid": null
+        },
+        {
+          "full_name": "Viney R",
+          "last_name": "Viney",
+          "orcid": "0000-0002-0039-9635"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC10020301",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-023-01243-0.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-023-01243-0",
         "retrieval": "open"
       }
     },
@@ -494,6 +562,110 @@
         "oa_url": "https://europepmc.org/articles/PMC12261590",
         "pdf_url": "https://europepmc.org/articles/PMC12261590?pdf=render",
         "landing_page": "https://doi.org/10.1186/s12955-025-02402-x",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "pmid:36810038",
+      "doi": null,
+      "pmid": "36810038",
+      "pmcid": null,
+      "title": "The Development and Strengthening of Methods for Valuing EQ-5D-5L – An Overview",
+      "journal": null,
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        },
+        {
+          "full_name": "Ramos-Goñi JM",
+          "last_name": "Ramos-Goñi",
+          "orcid": null
+        },
+        {
+          "full_name": "Ludwig K",
+          "last_name": "Ludwig",
+          "orcid": null
+        },
+        {
+          "full_name": "Oppe M",
+          "last_name": "Oppe",
+          "orcid": null
+        },
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "http://europepmc.org/books/NBK589298",
+        "pdf_url": null,
+        "landing_page": null,
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "pmid:36810044",
+      "doi": null,
+      "pmid": "36810044",
+      "pmcid": null,
+      "title": "Where Next for EQ-5D-5L National Value Sets and the EQ-VT Protocol?",
+      "journal": null,
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Norman R",
+          "last_name": "Norman",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": "0000-0001-5968-0416"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "http://europepmc.org/books/NBK589308",
+        "pdf_url": null,
+        "landing_page": null,
         "retrieval": "open"
       }
     }

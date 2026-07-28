@@ -59,7 +59,7 @@
     {
       "work_id": "doi:10.1016/j.joca.2023.07.004",
       "doi": "10.1016/j.joca.2023.07.004",
-      "pmid": null,
+      "pmid": "37482250",
       "pmcid": null,
       "title": "Socioeconomic inequalities in patient-reported outcome measures of Dutch primary hip and knee arthroplasty patients for osteoarthritis",
       "journal": "Osteoarthritis and Cartilage",
@@ -107,7 +107,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

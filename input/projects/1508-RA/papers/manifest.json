@@ -3,6 +3,32 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s10198-025-01769-4",
+      "doi": "10.1007/s10198-025-01769-4",
+      "title": "Test-retest reliability of the Online Elicitation of Personal Utility Functions (OPUF) approach for valuing the EQ-HWB-S",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12431937/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s10198-025-01769-4",
+      "status": "ok",
+      "file": "input/projects/1508-RA/papers/doi_10.1007_s10198-025-01769-4.xml",
+      "bytes": 142977,
+      "sha256": "425cbde1851b620a1a1ef8d597d4ae33c1e1672d14c08674b4e9609a48617dd2"
+    },
+    {
+      "work_id": "doi:10.1007/s11136-025-03989-w",
+      "doi": "10.1007/s11136-025-03989-w",
+      "title": "How well do participants understand the questions asked in the Online Personal Utility Functions (OPUF) approach? A cognitive debrief of the EQ-HWB-S (EQ Health and Wellbeing Short version) valuation",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12274140/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-025-03989-w",
+      "status": "ok",
+      "file": "input/projects/1508-RA/papers/doi_10.1007_s11136-025-03989-w.xml",
+      "bytes": 80251,
+      "sha256": "d3392ed52299632af1ab8cbdeb23d06e8af789a66203ddf2f3b67ae12a2aeb31"
+    },
+    {
       "work_id": "doi:10.12688/wellcomeopenres.21408.1",
       "doi": "10.12688/wellcomeopenres.21408.1",
       "title": "Using the OPUF approach to create a value set for the EQ-HWB-S: An exploratory feasibility study",

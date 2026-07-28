@@ -4,6 +4,58 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s40271-025-00743-9",
+      "doi": "10.1007/s40271-025-00743-9",
+      "pmid": "40377866",
+      "pmcid": "PMC12408752",
+      "title": "Determining the Content Validity of the EQ-5D-5L, EQ-5D-Y-3L, and CHU9D Instruments for Assessing Generic Child and Adolescent Health-Related Quality of Life: A Qualitative Study",
+      "journal": "The patient",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Carlton J",
+          "last_name": "Carlton",
+          "orcid": "0000-0002-9373-7663"
+        },
+        {
+          "full_name": "Powell PA",
+          "last_name": "Powell",
+          "orcid": "0000-0003-1169-3431"
+        },
+        {
+          "full_name": "Kirkcaldy A",
+          "last_name": "Kirkcaldy",
+          "orcid": "0000-0002-8455-8786"
+        },
+        {
+          "full_name": "Rowen D",
+          "last_name": "Rowen",
+          "orcid": "0000-0003-3018-5109"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc",
+        "oa_url": "https://europepmc.org/articles/PMC12408752",
+        "pdf_url": "https://europepmc.org/articles/PMC12408752?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s40271-025-00743-9",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s40273-025-01550-8",
       "doi": "10.1007/s40273-025-01550-8",
       "pmid": "41212392",
@@ -78,6 +130,73 @@
         "oa_url": "https://europepmc.org/articles/PMC12858505",
         "pdf_url": "https://europepmc.org/articles/PMC12858505?pdf=render",
         "landing_page": "https://doi.org/10.1007/s40273-025-01550-8",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s12955-026-02519-7",
+      "doi": "10.1186/s12955-026-02519-7",
+      "pmid": "41888922",
+      "pmcid": "PMC13188302",
+      "title": "Measuring health-related quality of life in facioscapulohumeral muscular dystrophy: a COSMIN systematic review and conceptual framework",
+      "journal": "Health and quality of life outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Carlton J",
+          "last_name": "Carlton",
+          "orcid": null
+        },
+        {
+          "full_name": "Powell P",
+          "last_name": "Powell",
+          "orcid": null
+        },
+        {
+          "full_name": "Street J",
+          "last_name": "Street",
+          "orcid": "0000-0002-2135-7063"
+        },
+        {
+          "full_name": "Frances S",
+          "last_name": "Frances",
+          "orcid": null
+        },
+        {
+          "full_name": "Williams C",
+          "last_name": "Williams",
+          "orcid": null
+        },
+        {
+          "full_name": "Sutton A",
+          "last_name": "Sutton",
+          "orcid": null
+        },
+        {
+          "full_name": "Hewamadduma C",
+          "last_name": "Hewamadduma",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by-nc-nd",
+        "oa_url": "https://europepmc.org/articles/PMC13188302",
+        "pdf_url": "https://europepmc.org/articles/PMC13188302?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s12955-026-02519-7",
         "retrieval": "open"
       }
     }

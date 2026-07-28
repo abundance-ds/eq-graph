@@ -36,6 +36,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 20170600",
           "weight": 1.0
@@ -341,6 +346,53 @@
         "oa_url": "https://doi.org/10.1007/978-3-030-47622-9_5",
         "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47622-9_5.pdf",
         "landing_page": "https://doi.org/10.1007/978-3-030-47622-9_5",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "pmid:33347096",
+      "doi": null,
+      "pmid": "33347096",
+      "pmcid": null,
+      "title": "Methods for Analysing and Reporting EQ-5D Data",
+      "journal": null,
+      "year": 2020,
+      "authors": [
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "Parkin D",
+          "last_name": "Parkin",
+          "orcid": "0000-0002-9990-8208"
+        },
+        {
+          "full_name": "Janssen B",
+          "last_name": "Janssen",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": null,
+        "oa_url": "http://europepmc.org/books/NBK565678",
+        "pdf_url": null,
+        "landing_page": null,
         "retrieval": "open"
       }
     }

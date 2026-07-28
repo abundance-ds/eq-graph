@@ -54,7 +54,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2026.03.2239",
       "doi": "10.1016/j.jval.2026.03.2239",
-      "pmid": null,
+      "pmid": "41985879",
       "pmcid": null,
       "title": "Validity, Reliability, and Responsiveness of the EQ-5D in Hematological Cancers: A Systematic Review of Measurement Properties",
       "journal": "Value in Health",
@@ -92,7 +92,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

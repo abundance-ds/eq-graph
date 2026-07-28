@@ -355,7 +355,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.02.008",
       "doi": "10.1016/j.jval.2023.02.008",
-      "pmid": null,
+      "pmid": "36805577",
       "pmcid": null,
       "title": "Valuing the EQ Health and Wellbeing Short Using Time Trade-Off and a Discrete Choice Experiment: A Feasibility Study",
       "journal": "Value in Health",
@@ -403,7 +403,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

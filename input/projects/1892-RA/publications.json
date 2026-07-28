@@ -63,6 +63,53 @@
   "review": [],
   "weak": [
     {
+      "work_id": "doi:10.1007/s10198-024-01692-0",
+      "doi": "10.1007/s10198-024-01692-0",
+      "pmid": "38664317",
+      "pmcid": "PMC11743390",
+      "title": "Mapping functions for the PHQ-9 and GAD-7 to generate EQ-5D-3L for economic evaluation",
+      "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+      "year": 2025,
+      "authors": [
+        {
+          "full_name": "Mukuria C",
+          "last_name": "Mukuria",
+          "orcid": "0000-0003-4318-1481"
+        },
+        {
+          "full_name": "Franklin M",
+          "last_name": "Franklin",
+          "orcid": "0000-0002-2774-9439"
+        },
+        {
+          "full_name": "Hinde S",
+          "last_name": "Hinde",
+          "orcid": "0000-0002-7117-4142"
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://doi.org/10.1007/s10198-024-01692-0",
+        "pdf_url": "https://europepmc.org/articles/PMC11743390?pdf=render",
+        "landing_page": "https://doi.org/10.1007/s10198-024-01692-0",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1007/s11136-025-03989-w",
       "doi": "10.1007/s11136-025-03989-w",
       "pmid": "40381096",
@@ -186,7 +233,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2023.02.008",
       "doi": "10.1016/j.jval.2023.02.008",
-      "pmid": null,
+      "pmid": "36805577",
       "pmcid": null,
       "title": "Valuing the EQ Health and Wellbeing Short Using Time Trade-Off and a Discrete Choice Experiment: A Feasibility Study",
       "journal": "Value in Health",
@@ -234,7 +281,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -55,6 +55,103 @@
       }
     },
     {
+      "work_id": "doi:10.1038/s41433-023-02860-x",
+      "doi": "10.1038/s41433-023-02860-x",
+      "pmid": "38066111",
+      "pmcid": "PMC11269728",
+      "title": "The societal economic impact of vision impairment in adults 40 years and above: findings from the National Eye Survey of Trinidad and Tobago",
+      "journal": "Eye (London, England)",
+      "year": 2024,
+      "authors": [
+        {
+          "full_name": "Braithwaite T",
+          "last_name": "Braithwaite",
+          "orcid": "0000-0002-3025-4066"
+        },
+        {
+          "full_name": "Bailey H",
+          "last_name": "Bailey",
+          "orcid": "0000-0002-4479-9948"
+        },
+        {
+          "full_name": "Bartholomew D",
+          "last_name": "Bartholomew",
+          "orcid": null
+        },
+        {
+          "full_name": "Maharaj V",
+          "last_name": "Maharaj",
+          "orcid": null
+        },
+        {
+          "full_name": "Fraser A",
+          "last_name": "Fraser",
+          "orcid": null
+        },
+        {
+          "full_name": "Deomansingh F",
+          "last_name": "Deomansingh",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramsewak SS",
+          "last_name": "Ramsewak",
+          "orcid": null
+        },
+        {
+          "full_name": "Tripathi V",
+          "last_name": "Tripathi",
+          "orcid": null
+        },
+        {
+          "full_name": "Sharma S",
+          "last_name": "Sharma",
+          "orcid": null
+        },
+        {
+          "full_name": "Singh D",
+          "last_name": "Singh",
+          "orcid": null
+        },
+        {
+          "full_name": "Ramsewak SS",
+          "last_name": "Ramsewak",
+          "orcid": null
+        },
+        {
+          "full_name": "Bourne RRA",
+          "last_name": "Bourne",
+          "orcid": "0000-0002-8169-1645"
+        },
+        {
+          "full_name": "Gray A",
+          "last_name": "Gray",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC11269728",
+        "pdf_url": "https://europepmc.org/articles/PMC11269728?pdf=render",
+        "landing_page": "https://doi.org/10.1038/s41433-023-02860-x",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1177/0272989x251325828",
       "doi": "10.1177/0272989x251325828",
       "pmid": "40110719",
@@ -88,6 +185,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 341-RA",
@@ -147,6 +249,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 341-RA",
           "weight": 1.0
@@ -204,6 +311,11 @@
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 341-RA",
@@ -320,7 +432,7 @@
     {
       "work_id": "doi:10.1016/j.vhri.2020.12.002",
       "doi": "10.1016/j.vhri.2020.12.002",
-      "pmid": null,
+      "pmid": "33773292",
       "pmcid": null,
       "title": "EQ-5D-5L Population Norms and Health Inequality in Colombia",
       "journal": "Value in Health Regional Issues",
@@ -358,7 +470,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

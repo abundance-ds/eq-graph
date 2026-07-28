@@ -2,6 +2,74 @@
   "project_id": "2016480",
   "accepted": [
     {
+      "work_id": "doi:10.1136/bmjopen-2020-048176",
+      "doi": "10.1136/bmjopen-2020-048176",
+      "pmid": "34992101",
+      "pmcid": "PMC8739074",
+      "title": "Longitudinal study of patients’ health-related quality of life using EQ-5D-3L in 11 Swedish National Quality Registers",
+      "journal": "BMJ Open",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Fitsum Sebsibe Teni",
+          "last_name": "Teni",
+          "orcid": "https://orcid.org/0000-0002-6182-499x"
+        },
+        {
+          "full_name": "Ola Rolfson",
+          "last_name": "Rolfson",
+          "orcid": null
+        },
+        {
+          "full_name": "Nancy Devlin",
+          "last_name": "Devlin",
+          "orcid": null
+        },
+        {
+          "full_name": "David Parkin",
+          "last_name": "Parkin",
+          "orcid": null
+        },
+        {
+          "full_name": "Emma Nauclér",
+          "last_name": "Nauclér",
+          "orcid": null
+        },
+        {
+          "full_name": "Kristina Burström",
+          "last_name": "Burström",
+          "orcid": null
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
+          "kind": "grant_id_fulltext",
+          "detail": "returned by grant_id_fulltext query for 2016480",
+          "weight": 0.9
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by/4.0/",
+        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/12/1/e048176.full.pdf",
+        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/12/1/e048176.full.pdf",
+        "landing_page": "https://doi.org/10.1136/bmjopen-2020-048176",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1186/s12955-023-02115-z",
       "doi": "10.1186/s12955-023-02115-z",
       "pmid": "37038172",
@@ -46,6 +114,11 @@
       "curated": null,
       "evidence": [
         {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
+        {
           "kind": "grant_id_structured",
           "detail": "returned by grant_id_structured query for 2016480",
           "weight": 1.0
@@ -65,69 +138,6 @@
         "oa_url": "https://europepmc.org/articles/PMC10084671",
         "pdf_url": "https://hqlo.biomedcentral.com/counter/pdf/10.1186/s12955-023-02115-z",
         "landing_page": "https://doi.org/10.1186/s12955-023-02115-z",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1136/bmjopen-2020-048176",
-      "doi": "10.1136/bmjopen-2020-048176",
-      "pmid": "34992101",
-      "pmcid": "PMC8739074",
-      "title": "Longitudinal study of patients’ health-related quality of life using EQ-5D-3L in 11 Swedish National Quality Registers",
-      "journal": "BMJ Open",
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Fitsum Sebsibe Teni",
-          "last_name": "Teni",
-          "orcid": "https://orcid.org/0000-0002-6182-499x"
-        },
-        {
-          "full_name": "Ola Rolfson",
-          "last_name": "Rolfson",
-          "orcid": null
-        },
-        {
-          "full_name": "Nancy Devlin",
-          "last_name": "Devlin",
-          "orcid": null
-        },
-        {
-          "full_name": "David Parkin",
-          "last_name": "Parkin",
-          "orcid": null
-        },
-        {
-          "full_name": "Emma Nauclér",
-          "last_name": "Nauclér",
-          "orcid": null
-        },
-        {
-          "full_name": "Kristina Burström",
-          "last_name": "Burström",
-          "orcid": null
-        }
-      ],
-      "score": 0.9,
-      "confidence": "accepted",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "grant_id_fulltext",
-          "detail": "returned by grant_id_fulltext query for 2016480",
-          "weight": 0.9
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by/4.0/",
-        "oa_url": "https://bmjopen.bmj.com/content/bmjopen/12/1/e048176.full.pdf",
-        "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/12/1/e048176.full.pdf",
-        "landing_page": "https://doi.org/10.1136/bmjopen-2020-048176",
         "retrieval": "open"
       }
     },
@@ -176,10 +186,15 @@
           "orcid": null
         }
       ],
-      "score": 0.9,
+      "score": 1.0,
       "confidence": "accepted",
       "curated": null,
       "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        },
         {
           "kind": "grant_id_fulltext",
           "detail": "returned by grant_id_fulltext query for 2016480",
@@ -377,7 +392,7 @@
     {
       "work_id": "doi:10.1007/s40271-017-0292-2",
       "doi": "10.1007/s40271-017-0292-2",
-      "pmid": null,
+      "pmid": "29305706",
       "pmcid": null,
       "title": "Experience-Based Values: A Framework for Classifying Different Types of Experience in Health Valuation Research",
       "journal": "The Patient - Patient-Centered Outcomes Research",
@@ -410,7 +425,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": false,

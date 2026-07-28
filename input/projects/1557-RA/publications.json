@@ -1,8 +1,6 @@
 {
   "project_id": "1557-RA",
-  "accepted": [],
-  "review": [],
-  "weak": [
+  "accepted": [
     {
       "work_id": "doi:10.1007/s11136-026-04230-y",
       "doi": "10.1007/s11136-026-04230-y",
@@ -58,14 +56,14 @@
           "orcid": "0000-0002-8025-5841"
         }
       ],
-      "score": 0.45,
-      "confidence": "weak",
+      "score": 1.0,
+      "confidence": "accepted",
       "curated": null,
       "evidence": [
         {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
         }
       ],
       "sources": [
@@ -79,7 +77,10 @@
         "landing_page": "https://doi.org/10.1007/s11136-026-04230-y",
         "retrieval": "open"
       }
-    },
+    }
+  ],
+  "review": [],
+  "weak": [
     {
       "work_id": "doi:10.1177/17407745251405412",
       "doi": "10.1177/17407745251405412",

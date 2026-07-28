@@ -2,6 +2,54 @@
   "project_id": "409-RA",
   "accepted": [
     {
+      "work_id": "doi:10.1007/s40273-022-01222-x",
+      "doi": "10.1007/s40273-022-01222-x",
+      "pmid": "36443519",
+      "pmcid": "PMC9758239",
+      "title": "Findings from a Roundtable Discussion with US Stakeholders on Valuation of the EQ-5D-Y-3L",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Jonathan L. Nazari",
+          "last_name": "Nazari",
+          "orcid": null
+        },
+        {
+          "full_name": "A. Simon Pickard",
+          "last_name": "Pickard",
+          "orcid": null
+        },
+        {
+          "full_name": "Ning Yan Gu",
+          "last_name": "Gu",
+          "orcid": "https://orcid.org/0000-0002-1250-7605"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9758239",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01222-x.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01222-x",
+        "retrieval": "open"
+      }
+    },
+    {
       "work_id": "doi:10.1016/j.jval.2025.01.020",
       "doi": "10.1016/j.jval.2025.01.020",
       "pmid": "39954857",

@@ -1,6 +1,70 @@
 {
   "project_id": "335-RA",
-  "accepted": [],
+  "accepted": [
+    {
+      "work_id": "doi:10.1007/s40273-022-01208-9",
+      "doi": "10.1007/s40273-022-01208-9",
+      "pmid": "36434416",
+      "pmcid": "PMC9928797",
+      "title": "The Egyptian EQ-5D-5L Extensive Pilot Study: Lessons Learned",
+      "journal": "PharmacoEconomics",
+      "year": 2022,
+      "authors": [
+        {
+          "full_name": "Sahar Al Shabasy",
+          "last_name": "Al Shabasy",
+          "orcid": null
+        },
+        {
+          "full_name": "Bram Roudijk",
+          "last_name": "Roudijk",
+          "orcid": null
+        },
+        {
+          "full_name": "Maggie Abbassi",
+          "last_name": "Abbassi",
+          "orcid": null
+        },
+        {
+          "full_name": "Aureliano Finch",
+          "last_name": "Finch",
+          "orcid": null
+        },
+        {
+          "full_name": "Elly Stolk",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Samar Farid",
+          "last_name": "Farid",
+          "orcid": "https://orcid.org/0000-0002-6048-847x"
+        }
+      ],
+      "score": 1.0,
+      "confidence": "accepted",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "grant_id_acknowledged",
+          "detail": "project id printed in the article's own acknowledgement/funding text",
+          "weight": 1.0
+        }
+      ],
+      "sources": [
+        "crossref",
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
+        "oa_url": "https://europepmc.org/articles/PMC9928797",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01208-9.pdf",
+        "landing_page": "https://doi.org/10.1007/s40273-022-01208-9",
+        "retrieval": "open"
+      }
+    }
+  ],
   "review": [],
   "weak": [
     {
@@ -236,69 +300,6 @@
         "oa_url": "https://europepmc.org/articles/PMC8595057",
         "pdf_url": "https://europepmc.org/articles/PMC8595057?pdf=render",
         "landing_page": "https://doi.org/10.1007/s40273-021-01100-y",
-        "retrieval": "open"
-      }
-    },
-    {
-      "work_id": "doi:10.1007/s40273-022-01208-9",
-      "doi": "10.1007/s40273-022-01208-9",
-      "pmid": "36434416",
-      "pmcid": "PMC9928797",
-      "title": "The Egyptian EQ-5D-5L Extensive Pilot Study: Lessons Learned",
-      "journal": "PharmacoEconomics",
-      "year": 2022,
-      "authors": [
-        {
-          "full_name": "Sahar Al Shabasy",
-          "last_name": "Al Shabasy",
-          "orcid": null
-        },
-        {
-          "full_name": "Bram Roudijk",
-          "last_name": "Roudijk",
-          "orcid": null
-        },
-        {
-          "full_name": "Maggie Abbassi",
-          "last_name": "Abbassi",
-          "orcid": null
-        },
-        {
-          "full_name": "Aureliano Finch",
-          "last_name": "Finch",
-          "orcid": null
-        },
-        {
-          "full_name": "Elly Stolk",
-          "last_name": "Stolk",
-          "orcid": null
-        },
-        {
-          "full_name": "Samar Farid",
-          "last_name": "Farid",
-          "orcid": "https://orcid.org/0000-0002-6048-847x"
-        }
-      ],
-      "score": 0.45,
-      "confidence": "weak",
-      "curated": null,
-      "evidence": [
-        {
-          "kind": "ack_pi_year",
-          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
-          "weight": 0.45
-        }
-      ],
-      "sources": [
-        "crossref",
-        "europepmc"
-      ],
-      "access": {
-        "is_oa": true,
-        "licence": "https://creativecommons.org/licenses/by-nc/4.0",
-        "oa_url": "https://europepmc.org/articles/PMC9928797",
-        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01208-9.pdf",
-        "landing_page": "https://doi.org/10.1007/s40273-022-01208-9",
         "retrieval": "open"
       }
     },

@@ -1,0 +1,19 @@
+{
+  "project_id": "335-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1007/s40273-022-01208-9",
+      "doi": "10.1007/s40273-022-01208-9",
+      "title": "The Egyptian EQ-5D-5L Extensive Pilot Study: Lessons Learned",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9928797/fullTextXML",
+      "licence": "cc-by-nc",
+      "landing_page": "https://doi.org/10.1007/s40273-022-01208-9",
+      "status": "ok",
+      "file": "input/projects/335-RA/papers/doi_10.1007_s40273-022-01208-9.xml",
+      "bytes": 104720,
+      "sha256": "a57d75341120c6cd0a60113758034da60bb3a06df574433dc4d2e767dda880df"
+    }
+  ]
+}

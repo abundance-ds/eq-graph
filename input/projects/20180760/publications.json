@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1080/09638288.2021.2015628",
       "doi": "10.1080/09638288.2021.2015628",
-      "pmid": null,
+      "pmid": "34932426",
       "pmcid": null,
       "title": "Health-related quality of life in patients with lower limb amputation – an assessment of the measurement properties of EQ-5D-3L and EQ-5D-5L using data from the Swedish Amputation and Prosthetics Registry",
       "journal": "Disability and Rehabilitation",
@@ -59,7 +59,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -171,6 +172,68 @@
         "oa_url": "https://europepmc.org/articles/PMC10973303",
         "pdf_url": "https://europepmc.org/articles/PMC10973303?pdf=render",
         "landing_page": "https://doi.org/10.1186/s41687-024-00709-9",
+        "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1186/s41687-026-01009-0",
+      "doi": "10.1186/s41687-026-01009-0",
+      "pmid": "41653349",
+      "pmcid": "PMC13057080",
+      "title": "The value of EQ-5D-3L and EQ VAS as a patient-reported outcome measure for patients with ankylosing spondylitis in routine healthcare: an evaluation of construct validity and responsiveness based on the Swedish Rheumatology Quality Register",
+      "journal": "Journal of patient-reported outcomes",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Degerlund-Maldi K",
+          "last_name": "Degerlund-Maldi",
+          "orcid": null
+        },
+        {
+          "full_name": "Regardt M",
+          "last_name": "Regardt",
+          "orcid": null
+        },
+        {
+          "full_name": "Nystrand Länsman C",
+          "last_name": "Nystrand Länsman",
+          "orcid": null
+        },
+        {
+          "full_name": "Larsson L",
+          "last_name": "Larsson",
+          "orcid": null
+        },
+        {
+          "full_name": "Parodis I",
+          "last_name": "Parodis",
+          "orcid": "0000-0002-4875-5395"
+        },
+        {
+          "full_name": "Heintz E",
+          "last_name": "Heintz",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": true,
+        "licence": "cc by",
+        "oa_url": "https://europepmc.org/articles/PMC13057080",
+        "pdf_url": "https://europepmc.org/articles/PMC13057080?pdf=render",
+        "landing_page": "https://doi.org/10.1186/s41687-026-01009-0",
         "retrieval": "open"
       }
     }

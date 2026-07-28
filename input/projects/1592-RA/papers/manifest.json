@@ -1,0 +1,19 @@
+{
+  "project_id": "1592-RA",
+  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "entries": [
+    {
+      "work_id": "doi:10.1186/s12955-026-02478-z",
+      "doi": "10.1186/s12955-026-02478-z",
+      "title": "Examining the face validity of the EQ-HWB-9 in dementia: caregiver interpretation across \"Today\" and \"7-Day\" recall periods",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12924600/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1186/s12955-026-02478-z",
+      "status": "ok",
+      "file": "input/projects/1592-RA/papers/doi_10.1186_s12955-026-02478-z.xml",
+      "bytes": 110466,
+      "sha256": "55cdfe0b41935ecfec27c4f68d0a12376e71d6fc9839658541876e4f9c257c88"
+    }
+  ]
+}

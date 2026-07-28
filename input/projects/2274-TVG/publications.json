@@ -560,7 +560,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2025.04.2161",
       "doi": "10.1016/j.jval.2025.04.2161",
-      "pmid": null,
+      "pmid": "40339642",
       "pmcid": null,
       "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
       "journal": "Value in Health",
@@ -603,7 +603,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
@@ -690,6 +691,98 @@
         "pdf_url": "https://www.valueinhealthjournal.com/article/S1098-3015(25)02483-0/pdf",
         "landing_page": "https://doi.org/10.1016/j.jval.2025.07.016",
         "retrieval": "open"
+      }
+    },
+    {
+      "work_id": "doi:10.1016/j.jval.2025.12.016",
+      "doi": "10.1016/j.jval.2025.12.016",
+      "pmid": "41581858",
+      "pmcid": null,
+      "title": "Valuing Child and Adolescent Health States to Derive Utilities for Use in Economic Evaluation: A Good Practices Report of an ISPOR Task Force",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Matza LS",
+          "last_name": "Matza",
+          "orcid": null
+        },
+        {
+          "full_name": "Rowen D",
+          "last_name": "Rowen",
+          "orcid": null
+        },
+        {
+          "full_name": "Chandler F",
+          "last_name": "Chandler",
+          "orcid": null
+        },
+        {
+          "full_name": "Dalziel K",
+          "last_name": "Dalziel",
+          "orcid": null
+        },
+        {
+          "full_name": "Ghabri S",
+          "last_name": "Ghabri",
+          "orcid": null
+        },
+        {
+          "full_name": "Law EH",
+          "last_name": "Law",
+          "orcid": null
+        },
+        {
+          "full_name": "Prosser LA",
+          "last_name": "Prosser",
+          "orcid": null
+        },
+        {
+          "full_name": "Rivero-Arias O",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        },
+        {
+          "full_name": "Shah K",
+          "last_name": "Shah",
+          "orcid": null
+        },
+        {
+          "full_name": "Stolk E",
+          "last_name": "Stolk",
+          "orcid": null
+        },
+        {
+          "full_name": "Wolff J",
+          "last_name": "Wolff",
+          "orcid": null
+        },
+        {
+          "full_name": "Devlin N",
+          "last_name": "Devlin",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2025.12.016",
+        "retrieval": "requires_subscription"
       }
     },
     {

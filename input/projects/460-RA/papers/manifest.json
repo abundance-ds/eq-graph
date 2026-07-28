@@ -3,6 +3,32 @@
   "policy": "open-access only; see scripts/scrape/fulltext.py",
   "entries": [
     {
+      "work_id": "doi:10.1007/s11136-026-04285-x",
+      "doi": "10.1007/s11136-026-04285-x",
+      "title": "Socioeconomic inequalities in health-related quality of life during the COVID-19 pandemic: a six-country comparison using the EQ-5D-5 L",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13246841/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.1007/s11136-026-04285-x",
+      "status": "ok",
+      "file": "input/projects/460-RA/papers/doi_10.1007_s11136-026-04285-x.xml",
+      "bytes": 131604,
+      "sha256": "48a11a77aa0db598cc9ac3be264317f009a2d98874e87f03bcdd345725b996a5"
+    },
+    {
+      "work_id": "doi:10.3389/fepid.2023.1144162",
+      "doi": "10.3389/fepid.2023.1144162",
+      "title": "Cross-sectional and longitudinal comparison of health-related quality of life and mental well-being between persons with and without post COVID-19 condition",
+      "method": "epmc_xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10910898/fullTextXML",
+      "licence": "cc-by",
+      "landing_page": "https://doi.org/10.3389/fepid.2023.1144162",
+      "status": "ok",
+      "file": "input/projects/460-RA/papers/doi_10.3389_fepid.2023.1144162.xml",
+      "bytes": 128357,
+      "sha256": "5f1817e727fdb9b8fdff38072c36a0c7c3e723ac4eff311a1603f65339cd1763"
+    },
+    {
       "work_id": "doi:10.3390/nu16162591",
       "doi": "10.3390/nu16162591",
       "title": "The Frequency and Predictive Factors of Change in Alcohol Consumption during the COVID-19 Pandemic: Results from a Multi-Country Longitudinal Study",

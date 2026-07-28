@@ -381,7 +381,7 @@
     {
       "work_id": "doi:10.1016/j.jval.2021.05.019",
       "doi": "10.1016/j.jval.2021.05.019",
-      "pmid": null,
+      "pmid": "34711367",
       "pmcid": null,
       "title": "Patient Self-Reported Health, Clinical Quality, and Patient Satisfaction in English Primary Care: Practice-Level Longitudinal Observational Study",
       "journal": "Value in Health",
@@ -409,7 +409,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,

@@ -148,6 +148,58 @@
       }
     },
     {
+      "work_id": "doi:10.1016/j.jval.2026.06.011",
+      "doi": "10.1016/j.jval.2026.06.011",
+      "pmid": "42447980",
+      "pmcid": null,
+      "title": "Valuation of Child Health-Related Quality of Life by Child Age and Problem Duration Using a Novel Method",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "year": 2026,
+      "authors": [
+        {
+          "full_name": "Jumamyradov M",
+          "last_name": "Jumamyradov",
+          "orcid": null
+        },
+        {
+          "full_name": "Craig BM",
+          "last_name": "Craig",
+          "orcid": null
+        },
+        {
+          "full_name": "Jakubczyk M",
+          "last_name": "Jakubczyk",
+          "orcid": null
+        },
+        {
+          "full_name": "Rivero-Arias O",
+          "last_name": "Rivero-Arias",
+          "orcid": null
+        }
+      ],
+      "score": 0.45,
+      "confidence": "weak",
+      "curated": null,
+      "evidence": [
+        {
+          "kind": "ack_pi_year",
+          "detail": "EuroQol-acknowledged work with the PI as lead author, in window",
+          "weight": 0.45
+        }
+      ],
+      "sources": [
+        "europepmc"
+      ],
+      "access": {
+        "is_oa": false,
+        "licence": null,
+        "oa_url": null,
+        "pdf_url": null,
+        "landing_page": "https://doi.org/10.1016/j.jval.2026.06.011",
+        "retrieval": "requires_subscription"
+      }
+    },
+    {
       "work_id": "doi:10.1097/mlr.0000000000002200",
       "doi": "10.1097/mlr.0000000000002200",
       "pmid": "40846650",

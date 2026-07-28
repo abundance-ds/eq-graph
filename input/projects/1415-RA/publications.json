@@ -6,7 +6,7 @@
     {
       "work_id": "doi:10.1016/j.vaccine.2025.127450",
       "doi": "10.1016/j.vaccine.2025.127450",
-      "pmid": null,
+      "pmid": "40633130",
       "pmcid": null,
       "title": "Accuracy of online surveys in predicting COVID-19 uptake and demand: A cohort study investigating vaccine sentiments and switching in 13 countries from 2020 to 2022",
       "journal": "Vaccine",
@@ -44,7 +44,8 @@
         }
       ],
       "sources": [
-        "crossref"
+        "crossref",
+        "europepmc"
       ],
       "access": {
         "is_oa": true,
