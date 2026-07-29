@@ -1,6 +1,6 @@
 {
   "project_id": "2015150",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s11136-017-1512-x",
@@ -22,10 +22,12 @@
       "title": "A Head-On Ordinal Comparison of the Composite Time Trade-Off and the Better-Than-Dead Method",
       "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
       "landing_page": "https://doi.org/10.1016/j.jval.2019.10.006",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "open access, but no location with a clearly redistributable licence"
+      "method": "manual_browser",
+      "source_url": "http://www.valueinhealthjournal.com/article/S1098301519351782/pdf",
+      "status": "ok",
+      "file": "input/projects/2015150/papers/doi_10.1016_j.jval.2019.10.006.pdf",
+      "bytes": 495759,
+      "sha256": "547bf2ff2f3ccde8445907a9eb6aaa42c9be4e2c7f41c4688a7b1a3256be89a0"
     },
     {
       "work_id": "doi:10.1177/0272989x18765184",

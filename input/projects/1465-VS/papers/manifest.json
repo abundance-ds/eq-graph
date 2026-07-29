@@ -1,6 +1,6 @@
 {
   "project_id": "1465-VS",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.jval.2025.01.003",
@@ -8,10 +8,12 @@
       "title": "A Value Set for EQ-5D-5L in the United Arab Emirates",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2025.01.003",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S109830152500021X/pdf",
+      "status": "ok",
+      "file": "input/projects/1465-VS/papers/doi_10.1016_j.jval.2025.01.003.pdf",
+      "bytes": 1003770,
+      "sha256": "647a8362131ba907e7b58e3253cda0086b4c624ae6dd5d632ee93ed48f1ae248"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "project_id": "2181-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.jval.2026.01.001",
@@ -8,10 +8,12 @@
       "title": "Exploring Recall Periods for EQ-5D-5L and EQ-HWB-9: A Hong Kong Population Study",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jval.2026.01.001",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098301526000057/pdf",
+      "status": "ok",
+      "file": "input/projects/2181-RA/papers/doi_10.1016_j.jval.2026.01.001.pdf",
+      "bytes": 2430180,
+      "sha256": "4d575c02c618be6e58588ee66bffcf8e3292813f8fef8ab5622757b6b715b155"
     },
     {
       "work_id": "doi:10.1016/j.jval.2026.02.013",
@@ -19,10 +21,12 @@
       "title": "A Quantitative Exploration of the Performance of a Potential “Health and Well-Being” Visual Analog Scale (EQ-HWB VAS) for the EQ-HWB-9",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jval.2026.02.013",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S109830152600094X/pdf",
+      "status": "ok",
+      "file": "input/projects/2181-RA/papers/doi_10.1016_j.jval.2026.02.013.pdf",
+      "bytes": 3748095,
+      "sha256": "a6d3776f33d2cbe57fa2319e995c3d6d17d4b7bc9282c03e8a324712cb9699bc"
     }
   ]
 }

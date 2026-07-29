@@ -1,6 +1,6 @@
 {
   "project_id": "1447-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.socscimed.2024.116720",
@@ -11,7 +11,7 @@
       "method": "skip",
       "source_url": null,
       "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "reason": "flagged OA but no free location records a pdf url; use the landing page"
     }
   ]
 }

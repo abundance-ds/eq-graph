@@ -1,6 +1,6 @@
 {
   "project_id": "20180140",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.vhri.2025.101121",
@@ -8,10 +8,12 @@
       "title": "Adaptation of the Experimental Version of EQ-5D-Y-5L Into Bahasa Indonesia",
       "licence": "cc by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.vhri.2025.101121",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "method": "manual_browser",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2212109925000469/pdfft?isDTMRedir=true&download=true",
+      "status": "ok",
+      "file": "input/projects/20180140/papers/doi_10.1016_j.vhri.2025.101121.pdf",
+      "bytes": 835062,
+      "sha256": "3b0b1f852cd2e787ff2e2c4683fc66d8add0dd28d701969c50dbc9936cb631ef"
     },
     {
       "work_id": "doi:10.1186/s12955-021-01889-4",

@@ -1,6 +1,6 @@
 {
   "project_id": "1883-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1177/0272989x261446644",
@@ -8,10 +8,12 @@
       "title": "Exploring Perceived Interactions between EQ-5D-5L and Bolt-ons Using Composite Time-Tradeoff Valuations: A Qualitative Study",
       "licence": "https://creativecommons.org/licenses/by-nc/4.0/",
       "landing_page": "https://doi.org/10.1177/0272989x261446644",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "method": "manual_browser",
+      "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X261446644",
+      "status": "ok",
+      "file": "input/projects/1883-RA/papers/doi_10.1177_0272989x261446644.pdf",
+      "bytes": 517649,
+      "sha256": "ca4ca681fc49404509181ad19ab13c02cf99bfd3f033a2fd4c99846f3b18dafb"
     }
   ]
 }

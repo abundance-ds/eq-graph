@@ -1,6 +1,6 @@
 {
   "project_id": "1696-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s11136-026-04278-w",
@@ -11,7 +11,7 @@
       "method": "skip",
       "source_url": null,
       "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "reason": "no free copy located; use the landing page"
     }
   ]
 }

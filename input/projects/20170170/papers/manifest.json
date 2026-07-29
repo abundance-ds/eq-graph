@@ -1,6 +1,6 @@
 {
   "project_id": "20170170",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.jval.2020.05.004",
@@ -8,10 +8,12 @@
       "title": "Peruvian Valuation of the EQ-5D-5L: A Direct Comparison of Time Trade-Off and Discrete Choice Experiments",
       "licence": "cc-by-nc-sa",
       "landing_page": "https://doi.org/10.1016/j.jval.2020.05.004",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "open access, but no location with a clearly redistributable licence"
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098301520320994/pdf",
+      "status": "ok",
+      "file": "input/projects/20170170/papers/doi_10.1016_j.jval.2020.05.004.pdf",
+      "bytes": 384602,
+      "sha256": "95b85c2a00dfdb2955c15bf5764d5cf742889e9a31fd5177c8aca6390ed517d9"
     }
   ]
 }

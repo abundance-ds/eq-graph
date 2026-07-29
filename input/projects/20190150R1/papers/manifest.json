@@ -1,6 +1,6 @@
 {
   "project_id": "20190150R1",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s10198-023-01647-x",
@@ -8,10 +8,12 @@
       "title": "Exploring non-iterative time trade-off methods for valuation of EQ-5D-5L health states",
       "licence": "other-oa",
       "landing_page": "https://doi.org/10.1007/s10198-023-01647-x",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://pure.eur.nl/files/131735035/s10198-023-01647-x.pdf",
+      "status": "ok",
+      "file": "input/projects/20190150R1/papers/doi_10.1007_s10198-023-01647-x.pdf",
+      "bytes": 573625,
+      "sha256": "749f2fec09bdacdb227bd44bab643735b9b67758414560e4da46a6b530ba36ee"
     }
   ]
 }

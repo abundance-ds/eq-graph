@@ -1,6 +1,6 @@
 {
   "project_id": "1892-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1186/s12955-026-02578-w",
@@ -8,10 +8,12 @@
       "title": "Qualitative testing of potential modifications to the EQ-HWB-9 in the United Kingdom",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1186/s12955-026-02578-w",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/s12955-026-02578-w_reference.pdf",
+      "status": "ok",
+      "file": "input/projects/1892-RA/papers/doi_10.1186_s12955-026-02578-w.pdf",
+      "bytes": 802974,
+      "sha256": "da5da844d78d85c66131dd1452113199d11f8fd0bf009f12c997fcd2dfec85e1"
     }
   ]
 }

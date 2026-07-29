@@ -1,6 +1,6 @@
 {
   "project_id": "20170130",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s11136-021-02922-1",
@@ -22,10 +22,12 @@
       "title": "Exploring the Internal Structure of the EQ-5D Using Non–Preference-Based Methods",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.jval.2019.02.006",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098301519301202/pdf",
+      "status": "ok",
+      "file": "input/projects/20170130/papers/doi_10.1016_j.jval.2019.02.006.pdf",
+      "bytes": 591322,
+      "sha256": "4835f941eee765ad3fdc8c4a4ea887f97916ef5ca383ef35a10bd5584def92f5"
     }
   ]
 }

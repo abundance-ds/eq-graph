@@ -1,6 +1,6 @@
 {
   "project_id": "20190270",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1177/0272989x20924019",
@@ -8,10 +8,11 @@
       "title": "Using Both Time Tradeoff and Discrete Choice Experiments in Valuing the EQ-5D: Impact of Model Misspecification on Value Sets",
       "licence": "https://journals.sagepub.com/page/policies/text-and-data-mining-license",
       "landing_page": "https://doi.org/10.1177/0272989x20924019",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "method": "indexed_pdf",
+      "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/0272989X20924019",
+      "alternates": 0,
+      "status": "unavailable",
+      "reason": "no candidate location yielded the document (1 tried); publisher refuses automated download :: https://journals.sagepub.com/doi/pdf/10.1177/0272989X20924019 -> 403"
     }
   ]
 }

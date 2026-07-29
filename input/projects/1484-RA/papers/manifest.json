@@ -1,6 +1,6 @@
 {
   "project_id": "1484-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.jocm.2024.100494",
@@ -8,10 +8,12 @@
       "title": "Level overlap and level color coding revisited: Improved attribute attendance and higher choice consistency in discrete choice experiments",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jocm.2024.100494",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1755534524000265/pdfft?isDTMRedir=true&download=true",
+      "status": "ok",
+      "file": "input/projects/1484-RA/papers/doi_10.1016_j.jocm.2024.100494.pdf",
+      "bytes": 2641720,
+      "sha256": "9a2a94e11664328f96d8e4c313b66f59b238e8e8306f81c8f332fd4c6202b056"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "project_id": "20191020",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s40273-022-01216-9",
@@ -22,10 +22,12 @@
       "title": "Using Time Trade-Off Values to Estimate EQ-5D-Y Value Sets: An Exploratory Study",
       "licence": "https://www.elsevier.com/tdm/userlicense/1.0/",
       "landing_page": "https://doi.org/10.1016/j.jval.2023.03.003",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "open access, but no location with a clearly redistributable licence"
+      "method": "manual_browser",
+      "source_url": "http://www.valueinhealthjournal.com/article/S1098301523001018/pdf",
+      "status": "ok",
+      "file": "input/projects/20191020/papers/doi_10.1016_j.jval.2023.03.003.pdf",
+      "bytes": 613615,
+      "sha256": "d607e18dbb28be92a9ea87708a6ad73ae26b1008084318cdf6a36b0668eb103c"
     }
   ]
 }

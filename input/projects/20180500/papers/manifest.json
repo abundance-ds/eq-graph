@@ -1,6 +1,6 @@
 {
   "project_id": "20180500",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s10198-021-01412-y",
@@ -8,10 +8,13 @@
       "title": "Reliability and validity of using EQ-5D-5L among healthy and adolescents with major mental health disorders in Ethiopia",
       "licence": "https://www.springer.com/tdm",
       "landing_page": "https://doi.org/10.1007/s10198-021-01412-y",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "method": "indexed_pdf",
+      "source_url": "https://eprints.whiterose.ac.uk/186229/1/Accepted%20manuscript%20%EF%80%A0Reliability%20and%20Validity%20of%20Using%20EQ-5D-5L%20among%20Healthy%20and%20Adolescents%20with%20Major%20Mental%20Health%20Disorders%20in%20Ethiopia.pdf",
+      "alternates": 0,
+      "status": "ok",
+      "file": "input/projects/20180500/papers/doi_10.1007_s10198-021-01412-y.pdf",
+      "bytes": 808247,
+      "sha256": "fb087a5d8b786a68f32d908df94fc5e5b5eaa97673463082c3e5ad0dfc4a0a2d"
     }
   ]
 }

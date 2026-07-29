@@ -1,6 +1,6 @@
 {
   "project_id": "20190460",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s40258-022-00772-7",
@@ -22,10 +22,12 @@
       "title": "An EQ-5D-5L value set for Italy using videoconferencing interviews and feasibility of a new mode of administration",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.socscimed.2021.114519",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0277953621008510/pdfft?isDTMRedir=true&download=true",
+      "status": "ok",
+      "file": "input/projects/20190460/papers/doi_10.1016_j.socscimed.2021.114519.pdf",
+      "bytes": 3863813,
+      "sha256": "0defbd9ee2e59492119b2e25f5139ba5fc5d21f90ea74763d86cd3d26d7f0fe5"
     }
   ]
 }

@@ -287,10 +287,11 @@ def gap_report(conn, log=print) -> dict:
             f"text on disk ({ft_bytes/1e6:.0f} MB)",
             "- by method: "
             + ", ".join(f"{k} {v}" for k, v in sorted(methods.items(), key=lambda kv: -kv[1])),
-            f"- {ft['skipped']} skipped before any request: no open copy, or a licence "
-            "that is not clearly redistributable",
-            f"- {ft['unavailable']} requested but not obtained, nearly all publishers "
-            "refusing automated download (HTTP 403)",
+            f"- {ft['skipped']} skipped before any request: no free location is "
+            "recorded anywhere, so only institutional access can reach them",
+            f"- {ft['unavailable']} requested but not obtained"
+            + (", the publisher refusing both an automated and a browser request"
+               if ft["unavailable"] else ""),
             "",
             "Nothing is lost silently: every non-`ok` entry keeps its reason and DOI "
             "landing page in the project's `papers/manifest.json`, ready for retrieval "

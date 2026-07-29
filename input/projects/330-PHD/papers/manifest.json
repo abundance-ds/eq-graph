@@ -1,6 +1,6 @@
 {
   "project_id": "330-PHD",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s11136-025-03990-3",
@@ -78,10 +78,12 @@
       "title": "Understanding the Transition Between Age-Specific Measures of Health-Related Quality of Life: Evidence on the Relationship Between and Comparative Performance of the EQ-5D-Y-5L and EQ-5D-5L",
       "licence": "cc-by",
       "landing_page": "https://doi.org/10.1016/j.jval.2025.04.2161",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.valueinhealthjournal.com/article/S1098301525023265/pdf",
+      "status": "ok",
+      "file": "input/projects/330-PHD/papers/doi_10.1016_j.jval.2025.04.2161.pdf",
+      "bytes": 1558669,
+      "sha256": "0b4c691696e6d2b0cd9c48612deecc4d9e12f0f93d6057bc1257269385450ffa"
     },
     {
       "work_id": "doi:10.1136/archdischild-2025-329475",

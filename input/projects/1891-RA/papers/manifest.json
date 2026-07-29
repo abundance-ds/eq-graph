@@ -1,6 +1,6 @@
 {
   "project_id": "1891-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1186/s12955-026-02581-1",
@@ -8,10 +8,12 @@
       "title": "Content validity of the modified EQ-HWB-9 in a sample of Argentinean patients, informal caregivers, and members of the general public",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1186/s12955-026-02581-1",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/s12955-026-02581-1_reference.pdf",
+      "status": "ok",
+      "file": "input/projects/1891-RA/papers/doi_10.1186_s12955-026-02581-1.pdf",
+      "bytes": 836121,
+      "sha256": "cdb3f7f3e99771415c1762116d04289a71f0e0fece8d54e3c6a1bc54d44c5711"
     }
   ]
 }

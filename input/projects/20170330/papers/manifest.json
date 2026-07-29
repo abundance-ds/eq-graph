@@ -1,6 +1,6 @@
 {
   "project_id": "20170330",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1002/ppul.71031",
@@ -25,7 +25,7 @@
       "method": "skip",
       "source_url": null,
       "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "reason": "no free copy located; use the landing page"
     },
     {
       "work_id": "doi:10.1007/s10198-021-01309-w",
@@ -47,10 +47,12 @@
       "title": "Validity and responsiveness of EQ-5D-Y in children with haematological malignancies and their caregivers",
       "licence": "other-oa",
       "landing_page": "https://doi.org/10.1007/s10198-024-01669-z",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://pure.eur.nl/files/136876177/s10198-024-01669-z.pdf",
+      "status": "ok",
+      "file": "input/projects/20170330/papers/doi_10.1007_s10198-024-01669-z.pdf",
+      "bytes": 545844,
+      "sha256": "b3e41d40e938140433b55d2fd768721f5ee0e77379da0f16bd66808fb20f7efa"
     },
     {
       "work_id": "doi:10.22541/au.169215780.00019852/v1",
@@ -58,10 +60,12 @@
       "title": "Psychometric validation of EQ-5D-Y in children with asthma and their caregivers",
       "licence": null,
       "landing_page": "https://doi.org/10.22541/au.169215780.00019852/v1",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.authorea.com/doi/pdf/10.22541/au.169215780.00019852",
+      "status": "ok",
+      "file": "input/projects/20170330/papers/doi_10.22541_au.169215780.00019852_v1.pdf",
+      "bytes": 194314,
+      "sha256": "1fb95997bc8537889e26aebb6ed4102e5fc4f31d69239348dac8b5020ecdc01f"
     }
   ]
 }

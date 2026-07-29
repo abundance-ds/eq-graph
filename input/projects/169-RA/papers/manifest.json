@@ -1,6 +1,6 @@
 {
   "project_id": "169-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "pmid:36810025",
@@ -8,10 +8,12 @@
       "title": "Value Sets for EQ-5D-5L: A Compendium, Comparative Review & User Guide",
       "licence": null,
       "landing_page": "http://europepmc.org/books/NBK589304",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "publisher_pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf",
+      "status": "ok",
+      "file": "input/projects/169-RA/papers/pmid_36810025.pdf",
+      "bytes": 4800882,
+      "sha256": "0184fae65766a3e7c41e89773b0785fbf17891b111660aa44f2bd85a91f69bec"
     }
   ]
 }

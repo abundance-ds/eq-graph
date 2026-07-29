@@ -1,6 +1,6 @@
 {
   "project_id": "1872-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1186/s12955-026-02579-9",
@@ -8,10 +8,12 @@
       "title": "Validation of the EQ-HWB-9 in a mental health sample and an investigation of modifications to items",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1186/s12955-026-02579-9",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/s12955-026-02579-9_reference.pdf",
+      "status": "ok",
+      "file": "input/projects/1872-RA/papers/doi_10.1186_s12955-026-02579-9.pdf",
+      "bytes": 844265,
+      "sha256": "47a8bb10c7f0020ae63398ea71fa8e677ffdd95f984329738fcc37d19f58544c"
     }
   ]
 }

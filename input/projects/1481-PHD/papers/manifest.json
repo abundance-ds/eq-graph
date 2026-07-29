@@ -1,6 +1,6 @@
 {
   "project_id": "1481-PHD",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s40273-025-01509-9",
@@ -25,7 +25,7 @@
       "method": "skip",
       "source_url": null,
       "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "reason": "flagged OA but no free location records a pdf url; use the landing page"
     }
   ]
 }

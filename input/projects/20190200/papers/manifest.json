@@ -1,6 +1,6 @@
 {
   "project_id": "20190200",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.vhri.2021.09.007",
@@ -8,10 +8,12 @@
       "title": "Cross-Cultural Adaptation of the Beta EQ-5D-Y-5L Into Chichewa (Malawi)",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.vhri.2021.09.007",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "open access, but no location with a clearly redistributable licence"
+      "method": "manual_browser",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2212109921001412/pdfft?isDTMRedir=true&download=true",
+      "status": "ok",
+      "file": "input/projects/20190200/papers/doi_10.1016_j.vhri.2021.09.007.pdf",
+      "bytes": 918955,
+      "sha256": "356fcf09b1a9b4611e3ec5ca63fc0431359f7928073524bd693540da8391098b"
     },
     {
       "work_id": "doi:10.1186/s41687-023-00560-4",

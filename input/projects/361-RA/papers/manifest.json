@@ -1,6 +1,6 @@
 {
   "project_id": "361-RA",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1007/s10198-025-01804-4",
@@ -109,7 +109,7 @@
       "method": "skip",
       "source_url": null,
       "status": "skipped",
-      "reason": "no open-access copy; use the landing page"
+      "reason": "no free copy located; use the landing page"
     },
     {
       "work_id": "doi:10.1136/archdischild-2025-329475",

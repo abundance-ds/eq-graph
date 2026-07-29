@@ -145,6 +145,36 @@ A publisher answering 401/403 is recorded as `skipped`, not `failed`: it is a
 deliberate refusal, so retrying cannot succeed and re-hammering the endpoint would be
 rude. `--retry-failed` therefore never touches them.
 
+## Copies retrieved by hand
+
+Some openly licensed articles are reachable only from a desktop browser — either the
+publisher refuses every automated request, or Unpaywall records no location at all and
+the URL has to be read off the landing page. Those are fetched manually and filed
+exactly where this stage would have put them, with an `ok` ledger row whose note
+begins `retrieved manually`.
+
+The stage treats a copy it already holds as the answer, whatever the candidate list
+now says. That matters twice over: a hand-retrieved article has no candidate to
+rediscover, and one taken as a PDF is invisible to a candidate list that has since
+started proposing Europe PMC's XML — which is how a held paper came to be reported
+`unavailable` on a later run. Provenance for anything on disk is read back from
+`manifest.json`, never re-derived from the ledger's `query`; that field is the settle
+key, not a record of where the file came from.
+
+Of 61 works this stage once skipped, 22 were Creative Commons with no Unpaywall
+location. All 22 were served by the publisher's own landing page.
+
+The remaining 39 carried publisher TDM licences. Since the corpus is held privately
+for analysis rather than redistributed, licence is no longer an acquisition gate: the
+stage now tries **every free location Unpaywall records, whatever its licence**, and
+resolves repository landing pages that carry no direct `url_for_pdf`. That recovered a
+White Rose deposit and an open-access Springer book, and left 36 works. Seven of those
+have a known URL that answers 403 to any script and needs the browser route; 29 have
+no free location anywhere and need institutional access.
+
+What this stage still does *not* do is get around a paywall — no credential sharing,
+no scraper evasion. A refusal is recorded, not worked around.
+
 Downloaded files under `papers/` are committed, alongside a `papers/manifest.json`
 recording the source URL, licence, byte count and SHA-256 of each one — and the
 reason for every publication deliberately *not* fetched.

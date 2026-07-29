@@ -51,12 +51,56 @@ Both developers and AI agents are expected to add entries as they encounter surp
 - Europe PMC's `fullTextXML` 404s for PMCIDs it lists, because the PMCID exists in the
   index while the OA full text does not. `pmc.ncbi.nlm.nih.gov/articles/<PMCID>/pdf/`
   usually serves the article those 404s hid.
+- Unpaywall listing *no* location is not evidence an article is unobtainable. All 22
+  Creative-Commons works with an empty `oa_locations` were served by the publisher's
+  own landing page, so `skip_reason` describes Unpaywall's coverage, not the article.
+- A repository location with `url_for_pdf: null` is usually not a location without a
+  file — the file is one fetch behind the landing page's `citation_pdf_url` meta tag
+  (both Erasmus `pure.eur.nl` deposits resolved this way). Resolve landing pages only
+  for works that would otherwise be skipped, or every settled work re-fetches one.
+- Not every repository record has a file, though: figshare 29878841 is listed by
+  Unpaywall as an OA location for `10.1016/j.jval.2025.07.009` while the record itself
+  is metadata-only — zero files, licence *All Rights Reserved*. Check the figshare API
+  (`api.figshare.com/v2/articles/<id>`) before treating such a hit as retrievable.
+- A work with no DOI never reaches the Unpaywall path at all, so it is reported as
+  having no free copy however open it is. 169-RA's compendium was indexed only as an
+  NCBI Bookshelf stub (`NBK589304`, no PDF) while being a fully open-access Springer
+  book — `link.springer.com/content/pdf/10.1007/978-3-030-89289-0.pdf` serves all 115
+  pages to plain `curl`. For book-shaped records, search Crossref by title for the
+  book DOI rather than trusting the work row.
+- Publisher PDF routes that are not what the obvious URL suggests: BMC articles now
+  redirect to `link.springer.com`, where the download button serves
+  `/content/pdf/<doi>_reference.pdf` — the bare `<doi>.pdf` that `citation_pdf_url`
+  advertises 404s. ScienceDirect challenges a direct `/pdfft` navigation every time,
+  but the tokenised `pdfft?md5=…&pid=1-s2.0-<PII>-main.pdf` href *on the article page*
+  is served; match that anchor on the article's own PII, since the page also links the
+  PDFs of everything it cites.
+- ISPOR society sites (`valueinhealthjournal.com/article/<PII>/pdf`) hand a browser the
+  same Elsevier article that ScienceDirect guards behind Cloudflare, and never
+  challenged. Prefer them for `j.jval.*`; VHRI has no such site.
+- Driving Chrome over CDP needs two flags that fail silently or obscurely without it:
+  Chrome 136+ **ignores `--remote-debugging-port` when `--user-data-dir` is the default
+  profile** (the port simply never opens, and a second launch just prints "Opening in
+  existing browser session"), and the WebSocket upgrade is rejected 403 without
+  `--remote-allow-origins=*`. Use a throwaway profile dir carrying only
+  `plugins.always_open_pdf_externally`; the open-access publishers that 403 scripts are
+  checking for a browser, not for a login, so no cookies from the real profile are
+  needed. 6 of 7 such PDFs came down from a cold profile.
+- CDP download events are **browser-wide**, not per-connection. Two fetch jobs against
+  one Chrome will consume and delete each other's files: running a Sage and a
+  ScienceDirect job together filed the Sage PDF under the ScienceDirect DOI, and the
+  byte count looked entirely plausible. Drive one target at a time, and verify a
+  downloaded PDF against its expected title before trusting it.
 
 ## Anti-patterns to avoid
 
 - Do not attribute a paper to a specific grant on PI-name evidence alone. 344 PIs hold
   1024 grants, so name matching cannot tell which of a PI's grants a paper belongs to;
   it yields a review pool, not an attribution.
+- Do not treat the ledger's `query` as a record of where a file came from. It is the
+  settle key — the whole candidate list — so reading provenance out of it rewrote
+  hand-recorded source URLs with a pipe-joined string. For anything already on disk,
+  `manifest.json` is the only provenance record, and `fulltext.py` reads it back.
 
 ## Anti-patterns to avoid
 

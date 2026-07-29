@@ -1,6 +1,6 @@
 {
   "project_id": "20180080",
-  "policy": "open-access only; see scripts/scrape/fulltext.py",
+  "policy": "every free location, any licence; see scripts/scrape/fulltext.py",
   "entries": [
     {
       "work_id": "doi:10.1016/j.ssmqr.2024.100398",
@@ -8,10 +8,12 @@
       "title": "Care recipient self-perceived burden: Perspectives of individuals with chronic health conditions or personal experiences with caregiving on caregiver burden in the US",
       "licence": "cc-by-nc-nd",
       "landing_page": "https://doi.org/10.1016/j.ssmqr.2024.100398",
-      "method": "skip",
-      "source_url": null,
-      "status": "skipped",
-      "reason": "flagged OA but no usable free location recorded"
+      "method": "manual_browser",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2667321524000076/pdfft?isDTMRedir=true&download=true",
+      "status": "ok",
+      "file": "input/projects/20180080/papers/doi_10.1016_j.ssmqr.2024.100398.pdf",
+      "bytes": 1145672,
+      "sha256": "56146e5f9f74fc3fada1580c6f051a5ca20ebd5130de5bb8a3ee80ae62b3ffa9"
     },
     {
       "work_id": "doi:10.21203/rs.3.rs-2423517/v1",
