@@ -101,7 +101,4 @@ Both developers and AI agents are expected to add entries as they encounter surp
   settle key — the whole candidate list — so reading provenance out of it rewrote
   hand-recorded source URLs with a pipe-joined string. For anything already on disk,
   `manifest.json` is the only provenance record, and `fulltext.py` reads it back.
-
-## Anti-patterns to avoid
-
 - Do not add content to this file that is already discoverable by reading the source or build scripts — that inflates context without adding signal, reducing AI agent task success rates (see [arxiv 2602.11988](https://arxiv.org/abs/2602.11988)).
