@@ -60,6 +60,14 @@ Both developers and AI agents are expected to add entries as they encounter surp
 - CDP download events are **browser-wide**, not per-connection.
   Two fetch jobs against one Chrome will consume and delete each other's files: running a Sage and a ScienceDirect job together filed the Sage PDF under the ScienceDirect DOI, and the byte count looked entirely plausible.
   Drive one target at a time, and verify a downloaded PDF against its expected title before trusting it.
+- Pandoc's JATS reader **discards the reference text at read time**: each `<ref>` survives only as `{"id": "CR1"}`, so the body gets an empty `<div id="refs">` and no template, Lua filter or `--citeproc` can put the bibliography back.
+  `--citeproc` actively makes it worse — every entry renders as "n.d.-a" *and* the numeric markers in the body are rewritten to match, so `[4]` becomes `[(n.d.-d)]`.
+  Read the reference list out of the XML instead, and leave citations as pandoc emits them without citeproc.
+  Same class of loss, quieter: the abstract is filed under document metadata, and every Markdown writer drops it unless a `--template` asks for it, so a plain `pandoc -f jats -t gfm` silently loses the abstract *and* the title.
+- A replacement string passed to `re.sub`/`subn` is scanned for escapes, so substituting text harvested from a document explodes on the first `\c` (`re.PatternError`) and would silently expand a `\1`.
+  Pass a callable — `subn(lambda _: block, …)` — whenever the replacement is data rather than a literal.
+- Demoting headings by one to nest a document under its own title can push a level-6 heading to `#######`, which is not a heading in Markdown at all and renders as literal text — 27 of 220 papers hit this.
+  Clamp at 6.
 - `npx skills add <repo> --skill <name>` installs one skill at a time (the repo README only advertises the install-everything form), but it **skips a skill silently** when its `SKILL.md` frontmatter is invalid YAML — the warning scrolls past among unrelated ones and the exit code stays 0.
   `neo4j-mcp-skill` hits this, and is vendored here with the offending colon patched; see [`.agents/skills/README.md`](.agents/skills/README.md).
   `skills-lock.json` pins no commit SHA and does not list the patched skill, so it is a provenance record, not a restore mechanism — that is why the skills are committed.

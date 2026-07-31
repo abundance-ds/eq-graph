@@ -1,0 +1,1951 @@
+{
+  "converter_version": 1,
+  "pandoc": "3.10",
+  "format": "gfm",
+  "documents": [
+    {
+      "project_id": "1411-VS",
+      "source": "input/projects/1411-VS/papers/doi_10.1007_s11136-025-03930-1.xml",
+      "markdown": "corpus/1411-VS/doi_10.1007_s11136-025-03930-1.md",
+      "source_sha256": "c91dba6b0e6b2afc5af21631c142d2fa0898b4309b598c6400f727b10a825eaa",
+      "bytes": 73318
+    },
+    {
+      "project_id": "1456-PD",
+      "source": "input/projects/1456-PD/papers/doi_10.3390_curroncol32060308.xml",
+      "markdown": "corpus/1456-PD/doi_10.3390_curroncol32060308.md",
+      "source_sha256": "73e7a8bc1ee59a6bceec30eb7dee743274a9d704dd4db5f5a0ea09841c5325f8",
+      "bytes": 50596
+    },
+    {
+      "project_id": "1456-PD",
+      "source": "input/projects/1456-PD/papers/doi_10.3390_curroncol32110645.xml",
+      "markdown": "corpus/1456-PD/doi_10.3390_curroncol32110645.md",
+      "source_sha256": "19bfb2da63063cce642690b71bf45233c2d032a78b2f1268adc4ae45be9c9ed8",
+      "bytes": 58691
+    },
+    {
+      "project_id": "1462-PHD",
+      "source": "input/projects/1462-PHD/papers/doi_10.1007_s10198-025-01823-1.xml",
+      "markdown": "corpus/1462-PHD/doi_10.1007_s10198-025-01823-1.md",
+      "source_sha256": "656eac5a600d3e37a992378ab104f8fb15a1de950ada17b0daa03ebbbdc3047f",
+      "bytes": 48411
+    },
+    {
+      "project_id": "1475-RA",
+      "source": "input/projects/1475-RA/papers/doi_10.1007_s11136-024-03875-x.xml",
+      "markdown": "corpus/1475-RA/doi_10.1007_s11136-024-03875-x.md",
+      "source_sha256": "f198017e1d66ff17c61a6f9d907399dd77421c89e49b3b0f82015f727ff38099",
+      "bytes": 64852
+    },
+    {
+      "project_id": "1481-PHD",
+      "source": "input/projects/1481-PHD/papers/doi_10.1007_s40273-025-01509-9.xml",
+      "markdown": "corpus/1481-PHD/doi_10.1007_s40273-025-01509-9.md",
+      "source_sha256": "f37c5f0e585874113a536406297b8e13842c8fb953a0a102a4114fcd4e7d5889",
+      "bytes": 113841
+    },
+    {
+      "project_id": "1483-TVG",
+      "source": "input/projects/1483-TVG/papers/doi_10.1213_ane.0000000000007107.xml",
+      "markdown": "corpus/1483-TVG/doi_10.1213_ane.0000000000007107.md",
+      "source_sha256": "29b8e49882800ec858ac6d8027cb8d474b27e857dd132b9b4b10f05886bab8a0",
+      "bytes": 93921
+    },
+    {
+      "project_id": "1485-RA",
+      "source": "input/projects/1485-RA/papers/doi_10.1007_s11136-025-04038-2.xml",
+      "markdown": "corpus/1485-RA/doi_10.1007_s11136-025-04038-2.md",
+      "source_sha256": "72cb8d821a04fbf467fe9454fbfed23a0bb06c5c6702a9ab2bfdfc719c731965",
+      "bytes": 76716
+    },
+    {
+      "project_id": "1487-RA",
+      "source": "input/projects/1487-RA/papers/doi_10.1007_s11136-025-04145-0.xml",
+      "markdown": "corpus/1487-RA/doi_10.1007_s11136-025-04145-0.md",
+      "source_sha256": "d0cedf26c1b8fdad98da82866889bd5da2c773b5b1bc559b5d731a4e2c5e925a",
+      "bytes": 52012
+    },
+    {
+      "project_id": "1492-RA",
+      "source": "input/projects/1492-RA/papers/doi_10.1186_s41687-025-00985-z.xml",
+      "markdown": "corpus/1492-RA/doi_10.1186_s41687-025-00985-z.md",
+      "source_sha256": "fce98ea320430f2ae1ed7406b846120079f5589b3d848ad012fe64c0168f7d1d",
+      "bytes": 49236
+    },
+    {
+      "project_id": "1497-RA",
+      "source": "input/projects/1497-RA/papers/doi_10.1007_s10198-025-01852-w.xml",
+      "markdown": "corpus/1497-RA/doi_10.1007_s10198-025-01852-w.md",
+      "source_sha256": "b5bdef93161e84399a8d524d5f6df482dfa2c199b4ccc2d7d974c38d5dcfe86f",
+      "bytes": 69374
+    },
+    {
+      "project_id": "150-RA",
+      "source": "input/projects/150-RA/papers/doi_10.1007_s40271-023-00647-6.xml",
+      "markdown": "corpus/150-RA/doi_10.1007_s40271-023-00647-6.md",
+      "source_sha256": "7e525370e4416d9dc5fd1662fa7b9c2928d18b3f6eefe7c60a27ff71feff8726",
+      "bytes": 75984
+    },
+    {
+      "project_id": "150-RA",
+      "source": "input/projects/150-RA/papers/doi_10.1007_s40271-024-00715-5.xml",
+      "markdown": "corpus/150-RA/doi_10.1007_s40271-024-00715-5.md",
+      "source_sha256": "3229a5eede9e1230b0b20cb28fa6587ba5269688e0ec8ad7f27417badf07061b",
+      "bytes": 62053
+    },
+    {
+      "project_id": "150-RA",
+      "source": "input/projects/150-RA/papers/doi_10.1007_s40271-025-00729-7.xml",
+      "markdown": "corpus/150-RA/doi_10.1007_s40271-025-00729-7.md",
+      "source_sha256": "aab9bda48945ab81bcaac2ecc2eef7d071aff48af37ffa3192f30412fc14599e",
+      "bytes": 70997
+    },
+    {
+      "project_id": "150-RA",
+      "source": "input/projects/150-RA/papers/doi_10.1007_s40271-025-00787-x.xml",
+      "markdown": "corpus/150-RA/doi_10.1007_s40271-025-00787-x.md",
+      "source_sha256": "e2e6a1af23430803c85c45263258f5cefc8bbe0e6a9cd12bd4387e629124b4c7",
+      "bytes": 84703
+    },
+    {
+      "project_id": "1505-RA",
+      "source": "input/projects/1505-RA/papers/doi_10.1017_s0266462326103602.xml",
+      "markdown": "corpus/1505-RA/doi_10.1017_s0266462326103602.md",
+      "source_sha256": "494d09880a686266c8f11352e37b8767c146b9c59c1d6885a71885a31dbc5724",
+      "bytes": 101826
+    },
+    {
+      "project_id": "1508-RA",
+      "source": "input/projects/1508-RA/papers/doi_10.1007_s10198-025-01769-4.xml",
+      "markdown": "corpus/1508-RA/doi_10.1007_s10198-025-01769-4.md",
+      "source_sha256": "425cbde1851b620a1a1ef8d597d4ae33c1e1672d14c08674b4e9609a48617dd2",
+      "bytes": 78866
+    },
+    {
+      "project_id": "1508-RA",
+      "source": "input/projects/1508-RA/papers/doi_10.1007_s11136-025-03989-w.xml",
+      "markdown": "corpus/1508-RA/doi_10.1007_s11136-025-03989-w.md",
+      "source_sha256": "d3392ed52299632af1ab8cbdeb23d06e8af789a66203ddf2f3b67ae12a2aeb31",
+      "bytes": 49094
+    },
+    {
+      "project_id": "1557-RA",
+      "source": "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml",
+      "markdown": "corpus/1557-RA/doi_10.1007_s11136-026-04230-y.md",
+      "source_sha256": "ab6a51b16fd7785ff1e29018cd5e659f8f0aaaa276dab7480be8c88b2b5911fc",
+      "bytes": 68823
+    },
+    {
+      "project_id": "1559-RA",
+      "source": "input/projects/1559-RA/papers/doi_10.1007_s40271-025-00749-3.xml",
+      "markdown": "corpus/1559-RA/doi_10.1007_s40271-025-00749-3.md",
+      "source_sha256": "d4780eff97f947e21d29b348313d6374e6c51434b0aa93471d30b45f78177f22",
+      "bytes": 56703
+    },
+    {
+      "project_id": "1572-RA",
+      "source": "input/projects/1572-RA/papers/doi_10.1007_s11136-026-04229-5.xml",
+      "markdown": "corpus/1572-RA/doi_10.1007_s11136-026-04229-5.md",
+      "source_sha256": "1a748073e9280046e6ab2ac4581f27084752a92fecab8dea4eee537ad13c45ae",
+      "bytes": 98062
+    },
+    {
+      "project_id": "1578-RA",
+      "source": "input/projects/1578-RA/papers/doi_10.1007_s40273-025-01476-1.xml",
+      "markdown": "corpus/1578-RA/doi_10.1007_s40273-025-01476-1.md",
+      "source_sha256": "7b2a9d7cea906a48eaabb3cc82974ae51cc8dd0f357d575cc7a8a802ff58ce7f",
+      "bytes": 43713
+    },
+    {
+      "project_id": "1592-RA",
+      "source": "input/projects/1592-RA/papers/doi_10.1186_s12955-026-02478-z.xml",
+      "markdown": "corpus/1592-RA/doi_10.1186_s12955-026-02478-z.md",
+      "source_sha256": "55cdfe0b41935ecfec27c4f68d0a12376e71d6fc9839658541876e4f9c257c88",
+      "bytes": 52777
+    },
+    {
+      "project_id": "1598-RA",
+      "source": "input/projects/1598-RA/papers/doi_10.1136_bmjopen-2025-102509.xml",
+      "markdown": "corpus/1598-RA/doi_10.1136_bmjopen-2025-102509.md",
+      "source_sha256": "35e4a0b745d5da7d8ce6129b264d4d88b2404ec253704edc03a6901f245f5d6f",
+      "bytes": 47716
+    },
+    {
+      "project_id": "1599-RA",
+      "source": "input/projects/1599-RA/papers/doi_10.1186_s12955-026-02521-z.xml",
+      "markdown": "corpus/1599-RA/doi_10.1186_s12955-026-02521-z.md",
+      "source_sha256": "c48debce3442c3ec97a59362172314c7e8f71c5abf4931323d256aece53c2300",
+      "bytes": 109181
+    },
+    {
+      "project_id": "1612-RA",
+      "source": "input/projects/1612-RA/papers/doi_10.1007_s11136-024-03770-5.xml",
+      "markdown": "corpus/1612-RA/doi_10.1007_s11136-024-03770-5.md",
+      "source_sha256": "700fb82b14fb2167bcf102c9d6be5bebebd3f331aae6967252916502f681c253",
+      "bytes": 47993
+    },
+    {
+      "project_id": "1627-RA",
+      "source": "input/projects/1627-RA/papers/doi_10.1186_s12955-025-02421-8.xml",
+      "markdown": "corpus/1627-RA/doi_10.1186_s12955-025-02421-8.md",
+      "source_sha256": "69f528610fb97eb60c0542a9778eaf007491e7722fbf685732feb7d3b1e8c694",
+      "bytes": 219415
+    },
+    {
+      "project_id": "1644-RA",
+      "source": "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml",
+      "markdown": "corpus/1644-RA/doi_10.1007_s11136-025-03925-y.md",
+      "source_sha256": "ef17c80b21ef72b35feb1c2da99f6221380b177f17620f7ac81d60f0c78597f8",
+      "bytes": 106684
+    },
+    {
+      "project_id": "1644-RA",
+      "source": "input/projects/1644-RA/papers/doi_10.1186_s12955-024-02303-5.xml",
+      "markdown": "corpus/1644-RA/doi_10.1186_s12955-024-02303-5.md",
+      "source_sha256": "7b1a4470210af144037fe53de7eed19d6b2c62ea61d3c89f06ffe1690396a969",
+      "bytes": 109230
+    },
+    {
+      "project_id": "1654-TVG",
+      "source": "input/projects/1654-TVG/papers/doi_10.1007_s10198-024-01710-1.xml",
+      "markdown": "corpus/1654-TVG/doi_10.1007_s10198-024-01710-1.md",
+      "source_sha256": "fbfa00b6b8d3552027a8ff1492f54f9087f80b767856f57817b64c7a6747a73b",
+      "bytes": 114399
+    },
+    {
+      "project_id": "1654-TVG",
+      "source": "input/projects/1654-TVG/papers/doi_10.1007_s40273-025-01473-4.xml",
+      "markdown": "corpus/1654-TVG/doi_10.1007_s40273-025-01473-4.md",
+      "source_sha256": "a42ecc3b2372e2abf53ee99ee2f044a8bf5eec1599e5b65300ae07f33625ca0f",
+      "bytes": 79803
+    },
+    {
+      "project_id": "1704-RA",
+      "source": "input/projects/1704-RA/papers/doi_10.1136_bmjopen-2024-097598.xml",
+      "markdown": "corpus/1704-RA/doi_10.1136_bmjopen-2024-097598.md",
+      "source_sha256": "a87ac588b161dea28c4808f78e62be6eaeef97d70ecc2d3322c22148caa5764f",
+      "bytes": 48411
+    },
+    {
+      "project_id": "1711-RA",
+      "source": "input/projects/1711-RA/papers/doi_10.1007_s40273-025-01550-8.xml",
+      "markdown": "corpus/1711-RA/doi_10.1007_s40273-025-01550-8.md",
+      "source_sha256": "0fca0fc65d5aae9ed9ab59a4634579bfecdaf7b569fe0b4e4809913dda2eded5",
+      "bytes": 111094
+    },
+    {
+      "project_id": "1719-RA",
+      "source": "input/projects/1719-RA/papers/doi_10.1007_s11136-026-04226-8.xml",
+      "markdown": "corpus/1719-RA/doi_10.1007_s11136-026-04226-8.md",
+      "source_sha256": "b3f88161972ef2982cb616a02b9371aeae870735038571402fdc3b6bd96df936",
+      "bytes": 141251
+    },
+    {
+      "project_id": "1741-RA",
+      "source": "input/projects/1741-RA/papers/doi_10.1007_s40273-025-01519-7.xml",
+      "markdown": "corpus/1741-RA/doi_10.1007_s40273-025-01519-7.md",
+      "source_sha256": "237f007ba67cc219644585242e818961a64fd6e46a8fdd9bdf15d9c1e73ba172",
+      "bytes": 96091
+    },
+    {
+      "project_id": "1767-RA",
+      "source": "input/projects/1767-RA/papers/doi_10.1007_s40258-025-00954-z.xml",
+      "markdown": "corpus/1767-RA/doi_10.1007_s40258-025-00954-z.md",
+      "source_sha256": "b861b576480ea7935e44a0946094c42646b0945d5ad83a73c34f7b324a2c272e",
+      "bytes": 68428
+    },
+    {
+      "project_id": "1769-RA",
+      "source": "input/projects/1769-RA/papers/doi_10.1136_bmjopen-2024-091097.xml",
+      "markdown": "corpus/1769-RA/doi_10.1136_bmjopen-2024-091097.md",
+      "source_sha256": "f126a2a21cd97088ba2325bbf416a3742bef422e8b4d2c5201a1080c8628889a",
+      "bytes": 47505
+    },
+    {
+      "project_id": "1787-RA",
+      "source": "input/projects/1787-RA/papers/doi_10.1097_mlr.0000000000002315.xml",
+      "markdown": "corpus/1787-RA/doi_10.1097_mlr.0000000000002315.md",
+      "source_sha256": "6450e29301da6d37d3974b1aba432c7594fddff77e353b283e314b2dfd9438f5",
+      "bytes": 55617
+    },
+    {
+      "project_id": "1799-RA",
+      "source": "input/projects/1799-RA/papers/doi_10.1007_s11136-026-04315-8.xml",
+      "markdown": "corpus/1799-RA/doi_10.1007_s11136-026-04315-8.md",
+      "source_sha256": "ccf80f3e041f9bd07b41fffa9e194a1880dead99e9369ea966c3763098f92996",
+      "bytes": 46500
+    },
+    {
+      "project_id": "1811-RA",
+      "source": "input/projects/1811-RA/papers/doi_10.1007_s11136-025-04003-z.xml",
+      "markdown": "corpus/1811-RA/doi_10.1007_s11136-025-04003-z.md",
+      "source_sha256": "6a95591a561b1a2461d87fd0808cfad0f402646db4182e62d27b662f15973bb1",
+      "bytes": 58977
+    },
+    {
+      "project_id": "1812-PHD",
+      "source": "input/projects/1812-PHD/papers/doi_10.1186_s13643-025-03060-2.xml",
+      "markdown": "corpus/1812-PHD/doi_10.1186_s13643-025-03060-2.md",
+      "source_sha256": "b48f6ba215560bfecea3fdb9c5173900c174b5c39d8a9e381af9e5b08a7ef95c",
+      "bytes": 96276
+    },
+    {
+      "project_id": "1816-RA",
+      "source": "input/projects/1816-RA/papers/doi_10.1007_s11136-025-04133-4.xml",
+      "markdown": "corpus/1816-RA/doi_10.1007_s11136-025-04133-4.md",
+      "source_sha256": "383567be9e63c714437b6ab068e5489950229251847a630e711e01da88a5db82",
+      "bytes": 75885
+    },
+    {
+      "project_id": "1830-RA",
+      "source": "input/projects/1830-RA/papers/doi_10.1007_s11136-026-04294-w.xml",
+      "markdown": "corpus/1830-RA/doi_10.1007_s11136-026-04294-w.md",
+      "source_sha256": "96ac5b9ba5f71c9e71fb8a5be43c2ff855739e1bf0396e4538ee523b2e0d413e",
+      "bytes": 49092
+    },
+    {
+      "project_id": "1850-RA",
+      "source": "input/projects/1850-RA/papers/doi_10.1136_bmjopen-2025-100897.xml",
+      "markdown": "corpus/1850-RA/doi_10.1136_bmjopen-2025-100897.md",
+      "source_sha256": "8a5693ae4af751df9825b0ca1a5a50fefeafd569da1323793ac1c2949d1cd554",
+      "bytes": 42479
+    },
+    {
+      "project_id": "1970-RA",
+      "source": "input/projects/1970-RA/papers/doi_10.1007_s11136-025-04053-3.xml",
+      "markdown": "corpus/1970-RA/doi_10.1007_s11136-025-04053-3.md",
+      "source_sha256": "1d4a77b5283acfcee9227b25f9250598e627b757d83371fa3621ed7dafc8f99e",
+      "bytes": 175492
+    },
+    {
+      "project_id": "1987-SG",
+      "source": "input/projects/1987-SG/papers/doi_10.3389_ijph.2026.1608807.xml",
+      "markdown": "corpus/1987-SG/doi_10.3389_ijph.2026.1608807.md",
+      "source_sha256": "6450a38abac3dc7f89ba716b91f835cfcd54394f6d992f19f7007304da9f3ef4",
+      "bytes": 61090
+    },
+    {
+      "project_id": "2003-RA",
+      "source": "input/projects/2003-RA/papers/doi_10.1007_s10198-025-01857-5.xml",
+      "markdown": "corpus/2003-RA/doi_10.1007_s10198-025-01857-5.md",
+      "source_sha256": "96f2d67bf07bfe743e95bb6a3f729349281c851fad33d82b8700a54488019652",
+      "bytes": 58123
+    },
+    {
+      "project_id": "2012020",
+      "source": "input/projects/2012020/papers/doi_10.1007_s40273-018-0615-8.xml",
+      "markdown": "corpus/2012020/doi_10.1007_s40273-018-0615-8.md",
+      "source_sha256": "a4d85be57bdad3a0ea02b266175df164eb45cee73db85f8631839be04e84969c",
+      "bytes": 48419
+    },
+    {
+      "project_id": "2013230",
+      "source": "input/projects/2013230/papers/doi_10.1007_s40273-015-0292-9.xml",
+      "markdown": "corpus/2013230/doi_10.1007_s40273-015-0292-9.md",
+      "source_sha256": "48ed6cd422b428a53edaca97c35d62ba88be6c99b05e6f7213ddfa7cd9cb06aa",
+      "bytes": 55363
+    },
+    {
+      "project_id": "2013240",
+      "source": "input/projects/2013240/papers/doi_10.1007_s11136-016-1445-9.xml",
+      "markdown": "corpus/2013240/doi_10.1007_s11136-016-1445-9.md",
+      "source_sha256": "70ce25ed2466f0010c5f2da6ed8e603ddbd2584c6ba1c3547361239f4226ddf2",
+      "bytes": 60714
+    },
+    {
+      "project_id": "2013240",
+      "source": "input/projects/2013240/papers/doi_10.1007_s40273-017-0538-9.xml",
+      "markdown": "corpus/2013240/doi_10.1007_s40273-017-0538-9.md",
+      "source_sha256": "de79d78aa4ab8fbe14edd9c8edae80b877f9b55a7afafd646b1af59d3d5e7fc3",
+      "bytes": 81428
+    },
+    {
+      "project_id": "2013240",
+      "source": "input/projects/2013240/papers/doi_10.1186_s12889-018-5706-0.xml",
+      "markdown": "corpus/2013240/doi_10.1186_s12889-018-5706-0.md",
+      "source_sha256": "f21b4164c581510faa98fd633e29092a877c5c182553214d492ddfc9c5be50e0",
+      "bytes": 67215
+    },
+    {
+      "project_id": "2013240",
+      "source": "input/projects/2013240/papers/doi_10.1371_journal.pone.0197098.xml",
+      "markdown": "corpus/2013240/doi_10.1371_journal.pone.0197098.md",
+      "source_sha256": "c277b98b16b9b5f8919797fb023defd348d3a132c03f7ce4477cbb3b09e6396f",
+      "bytes": 142228
+    },
+    {
+      "project_id": "2013240",
+      "source": "input/projects/2013240/papers/doi_10.1371_journal.pone.0200966.xml",
+      "markdown": "corpus/2013240/doi_10.1371_journal.pone.0200966.md",
+      "source_sha256": "54605e31d4d3eee2a9459bdb4906fc6379059552dc698ac2684cc3ca5ea4fe85",
+      "bytes": 58529
+    },
+    {
+      "project_id": "2014030",
+      "source": "input/projects/2014030/papers/doi_10.1186_s12955-017-0617-9.xml",
+      "markdown": "corpus/2014030/doi_10.1186_s12955-017-0617-9.md",
+      "source_sha256": "5e8a4da0dcfa844f34aae703ea252ac63b2afd745aff370a0559b92af5133eda",
+      "bytes": 64738
+    },
+    {
+      "project_id": "2014150",
+      "source": "input/projects/2014150/papers/doi_10.1007_s40273-018-0647-0.xml",
+      "markdown": "corpus/2014150/doi_10.1007_s40273-018-0647-0.md",
+      "source_sha256": "e5b7bf1e8fe1d143f2d4ad8841b19a69d9a559ef79bc8b01b9857b1c82e7741d",
+      "bytes": 51610
+    },
+    {
+      "project_id": "2014150",
+      "source": "input/projects/2014150/papers/doi_10.1371_journal.pone.0190111.xml",
+      "markdown": "corpus/2014150/doi_10.1371_journal.pone.0190111.md",
+      "source_sha256": "6af35e67e8c86f2542f745dcd9c853172fe851f3af1f427872be9878f4373d9c",
+      "bytes": 40553
+    },
+    {
+      "project_id": "2014160",
+      "source": "input/projects/2014160/papers/doi_10.1007_s11136-019-02115-x.xml",
+      "markdown": "corpus/2014160/doi_10.1007_s11136-019-02115-x.md",
+      "source_sha256": "9c84d2fa7e8ebbb3470837733982f3c1d00dc3ad096c45b40c9c72cedeb3d7db",
+      "bytes": 69271
+    },
+    {
+      "project_id": "2014170",
+      "source": "input/projects/2014170/papers/doi_10.1007_s10198-018-0993-z.xml",
+      "markdown": "corpus/2014170/doi_10.1007_s10198-018-0993-z.md",
+      "source_sha256": "dec669d4343395a111005589a7c0b37c718f02cf6620fff4ba7f9f09009b7789",
+      "bytes": 80616
+    },
+    {
+      "project_id": "2014210",
+      "source": "input/projects/2014210/papers/doi_10.3390_ijerph19138208.xml",
+      "markdown": "corpus/2014210/doi_10.3390_ijerph19138208.md",
+      "source_sha256": "56e8f7ab1ffd8f0b506c020a3acf5ade9ec758b70677fb90e83991ac8a69103c",
+      "bytes": 65099
+    },
+    {
+      "project_id": "2015150",
+      "source": "input/projects/2015150/papers/doi_10.1007_s11136-017-1512-x.xml",
+      "markdown": "corpus/2015150/doi_10.1007_s11136-017-1512-x.md",
+      "source_sha256": "fd5d55ec8aec95ec877b838f8d9e60929a6324387a284d47c9e5741697cf55e7",
+      "bytes": 44907
+    },
+    {
+      "project_id": "2015150",
+      "source": "input/projects/2015150/papers/doi_10.1177_0272989x18765184.xml",
+      "markdown": "corpus/2015150/doi_10.1177_0272989x18765184.md",
+      "source_sha256": "282bd855497b9d23b9a0f3965f0d22fe6f8923cc26a85e0be344de53fa3728bf",
+      "bytes": 38334
+    },
+    {
+      "project_id": "2015150",
+      "source": "input/projects/2015150/papers/doi_10.1177_0272989x19841587.xml",
+      "markdown": "corpus/2015150/doi_10.1177_0272989x19841587.md",
+      "source_sha256": "bf0634600b4fadcce9cec6eafd1b6306052f2d6a672c22d5545acf4cc3486233",
+      "bytes": 62695
+    },
+    {
+      "project_id": "2015200",
+      "source": "input/projects/2015200/papers/doi_10.1007_s11136-021-03007-9.xml",
+      "markdown": "corpus/2015200/doi_10.1007_s11136-021-03007-9.md",
+      "source_sha256": "1bcdaa47d576062d531315c9003670d78bae3c1651fc9be124e25fdf24bb3df4",
+      "bytes": 70639
+    },
+    {
+      "project_id": "2015200",
+      "source": "input/projects/2015200/papers/doi_10.1186_s12955-021-01719-7.xml",
+      "markdown": "corpus/2015200/doi_10.1186_s12955-021-01719-7.md",
+      "source_sha256": "9646c84da3962cf7385fdf62185fc46bbd44fa22a7f35c95a7d73b3227c5dbf2",
+      "bytes": 87701
+    },
+    {
+      "project_id": "2015200",
+      "source": "input/projects/2015200/papers/doi_10.1186_s13561-022-00374-y.xml",
+      "markdown": "corpus/2015200/doi_10.1186_s13561-022-00374-y.md",
+      "source_sha256": "f6bf4223959913d08df7ab29e97c5b767e0307dc2c1f1f6b6c71cddb2b1fabef",
+      "bytes": 56852
+    },
+    {
+      "project_id": "2015200",
+      "source": "input/projects/2015200/papers/doi_10.1371_journal.pone.0290606.xml",
+      "markdown": "corpus/2015200/doi_10.1371_journal.pone.0290606.md",
+      "source_sha256": "5b8e0aaef87898c3ff7a339dde9ebe4db327ba0b49f063b856b2fb8b4ba785dc",
+      "bytes": 129275
+    },
+    {
+      "project_id": "2015240",
+      "source": "input/projects/2015240/papers/doi_10.1007_s40273-019-00811-7.xml",
+      "markdown": "corpus/2015240/doi_10.1007_s40273-019-00811-7.md",
+      "source_sha256": "e0549ab03230d104ea917821dda53decf99e39b40f8c8871274f50943e438206",
+      "bytes": 78010
+    },
+    {
+      "project_id": "2015270",
+      "source": "input/projects/2015270/papers/doi_10.1186_s41687-020-00247-0.xml",
+      "markdown": "corpus/2015270/doi_10.1186_s41687-020-00247-0.md",
+      "source_sha256": "e9d46e5a7326c9bf795400f36dce13a2a766f1ff87227194cf2fd904c3e16fd1",
+      "bytes": 52427
+    },
+    {
+      "project_id": "2015300",
+      "source": "input/projects/2015300/papers/doi_10.1007_s40273-018-0694-6.xml",
+      "markdown": "corpus/2015300/doi_10.1007_s40273-018-0694-6.md",
+      "source_sha256": "2e1cebc0108c6fcbda08377396fad8012bf8ccdbcbed8b62102cfb924221e8e1",
+      "bytes": 88551
+    },
+    {
+      "project_id": "2015400",
+      "source": "input/projects/2015400/papers/doi_10.1007_s11136-018-1985-2.xml",
+      "markdown": "corpus/2015400/doi_10.1007_s11136-018-1985-2.md",
+      "source_sha256": "19dbf59e5b15b068173889c41d6bbdab5b34ab08b194adbff790c1964731ebb5",
+      "bytes": 71162
+    },
+    {
+      "project_id": "2015410",
+      "source": "input/projects/2015410/papers/doi_10.1007_s40273-016-0404-1.xml",
+      "markdown": "corpus/2015410/doi_10.1007_s40273-016-0404-1.md",
+      "source_sha256": "7ebb46736d82114a494741503a5b8c0d32bd75892f34117c921c6f18243b24b2",
+      "bytes": 56286
+    },
+    {
+      "project_id": "2016160",
+      "source": "input/projects/2016160/papers/doi_10.1007_s11136-019-02256-z.xml",
+      "markdown": "corpus/2016160/doi_10.1007_s11136-019-02256-z.md",
+      "source_sha256": "d4ef335237248053539fe70aa144b7a96c8ed570348be0276a157a2b0eb7d358",
+      "bytes": 49267
+    },
+    {
+      "project_id": "2016160",
+      "source": "input/projects/2016160/papers/doi_10.1186_s12955-019-1139-4.xml",
+      "markdown": "corpus/2016160/doi_10.1186_s12955-019-1139-4.md",
+      "source_sha256": "de2c61b533f0e1b219a80ee16bbf00de910ddf1e3ae187012d13d396c0672706",
+      "bytes": 47075
+    },
+    {
+      "project_id": "2016160",
+      "source": "input/projects/2016160/papers/doi_10.1186_s12955-020-01404-1.xml",
+      "markdown": "corpus/2016160/doi_10.1186_s12955-020-01404-1.md",
+      "source_sha256": "fee6b3d20e6cbff9f8bb3f277f00b84d575b64c5314cb98eae15dad3a813e376",
+      "bytes": 77418
+    },
+    {
+      "project_id": "2016170",
+      "source": "input/projects/2016170/papers/doi_10.1007_s11136-020-02688-y.xml",
+      "markdown": "corpus/2016170/doi_10.1007_s11136-020-02688-y.md",
+      "source_sha256": "c7c06f3a7d83931444bf453017208eb8eb93af78174a52aa9c58f9aabf44e078",
+      "bytes": 121988
+    },
+    {
+      "project_id": "2016170",
+      "source": "input/projects/2016170/papers/doi_10.1007_s40273-018-0642-5.xml",
+      "markdown": "corpus/2016170/doi_10.1007_s40273-018-0642-5.md",
+      "source_sha256": "2df1ba58a681b046d1bc46331eff5b461a3938d61840992560601c09e2f7bf3c",
+      "bytes": 84553
+    },
+    {
+      "project_id": "2016220",
+      "source": "input/projects/2016220/papers/doi_10.1186_s12955-022-01989-9.xml",
+      "markdown": "corpus/2016220/doi_10.1186_s12955-022-01989-9.md",
+      "source_sha256": "fb4cda4696ba5cafbc14672878c18e66090efee71924d757d6bfe4eb94a3a249",
+      "bytes": 130037
+    },
+    {
+      "project_id": "2016230",
+      "source": "input/projects/2016230/papers/doi_10.1007_s40273-019-00854-w.xml",
+      "markdown": "corpus/2016230/doi_10.1007_s40273-019-00854-w.md",
+      "source_sha256": "a2f7a83ddbccff96e0bf913327025b2e1f1a9f01caa399629d767fbd414eee98",
+      "bytes": 113530
+    },
+    {
+      "project_id": "2016230",
+      "source": "input/projects/2016230/papers/doi_10.1186_s12955-023-02131-z.xml",
+      "markdown": "corpus/2016230/doi_10.1186_s12955-023-02131-z.md",
+      "source_sha256": "f315300c429496213613038bf407ec80dc8350cba23bcbf1510e29309b02eb39",
+      "bytes": 50150
+    },
+    {
+      "project_id": "2016260",
+      "source": "input/projects/2016260/papers/doi_10.1007_s40271-025-00735-9.xml",
+      "markdown": "corpus/2016260/doi_10.1007_s40271-025-00735-9.md",
+      "source_sha256": "627e3aa895a17583b844b0fcab39ad9b7d4d37a905f5d1e020708e78569c1b65",
+      "bytes": 112933
+    },
+    {
+      "project_id": "2016290",
+      "source": "input/projects/2016290/papers/doi_10.3961_jpmph.22.151.xml",
+      "markdown": "corpus/2016290/doi_10.3961_jpmph.22.151.md",
+      "source_sha256": "84b0b27f2794fd65cf236121e198e71c32a0f05b45fba9d289a7dceb677b536d",
+      "bytes": 58582
+    },
+    {
+      "project_id": "2016440",
+      "source": "input/projects/2016440/papers/doi_10.1371_journal.pone.0209344.xml",
+      "markdown": "corpus/2016440/doi_10.1371_journal.pone.0209344.md",
+      "source_sha256": "576ccfe6e6a590363456b1ef92ec86601157ee5876d837c8175301d9288532ec",
+      "bytes": 62503
+    },
+    {
+      "project_id": "2016440",
+      "source": "input/projects/2016440/papers/doi_10.1371_journal.pone.0305983.xml",
+      "markdown": "corpus/2016440/doi_10.1371_journal.pone.0305983.md",
+      "source_sha256": "307213f16749cb651e92e091eabfad32d7aae231e657280f2bf2e705e4c91f73",
+      "bytes": 3148
+    },
+    {
+      "project_id": "2016470",
+      "source": "input/projects/2016470/papers/doi_10.1007_s11136-020-02712-1.xml",
+      "markdown": "corpus/2016470/doi_10.1007_s11136-020-02712-1.md",
+      "source_sha256": "44fa8ebc1bca577cd67cf714dae9cfd0e01e4eb79c2b620a41f9d5dde97eac03",
+      "bytes": 66890
+    },
+    {
+      "project_id": "2016480",
+      "source": "input/projects/2016480/papers/doi_10.1136_bmjopen-2020-048176.xml",
+      "markdown": "corpus/2016480/doi_10.1136_bmjopen-2020-048176.md",
+      "source_sha256": "45fc2157c840889ce250d2472610a7b52490db719f3b2c234d3dc27ebc935bce",
+      "bytes": 131677
+    },
+    {
+      "project_id": "2016480",
+      "source": "input/projects/2016480/papers/doi_10.1186_s12955-023-02115-z.xml",
+      "markdown": "corpus/2016480/doi_10.1186_s12955-023-02115-z.md",
+      "source_sha256": "929bbaab8f44781b4f9b8740ed94fea60de80a0d59b90a26dadad9955a4c9c6c",
+      "bytes": 110575
+    },
+    {
+      "project_id": "2016480",
+      "source": "input/projects/2016480/papers/doi_10.2196_27669.xml",
+      "markdown": "corpus/2016480/doi_10.2196_27669.md",
+      "source_sha256": "3bca14c08e195c1a14cbdb35eee45a1c081e177fa8f0bb144647c5b672b1c3ac",
+      "bytes": 57943
+    },
+    {
+      "project_id": "2016560",
+      "source": "input/projects/2016560/papers/doi_10.1007_s11136-022-03304-x.xml",
+      "markdown": "corpus/2016560/doi_10.1007_s11136-022-03304-x.md",
+      "source_sha256": "2487225de2e283f7cf5b5fe22ab6a84a0541c5685a86f36f603968ea7129e0b4",
+      "bytes": 54385
+    },
+    {
+      "project_id": "2016560",
+      "source": "input/projects/2016560/papers/doi_10.1186_s12955-021-01858-x.xml",
+      "markdown": "corpus/2016560/doi_10.1186_s12955-021-01858-x.md",
+      "source_sha256": "502f4ad0b74e38e9bed2b01e0763627773ce7de60b1ccc97ae57fa3c5a2061ab",
+      "bytes": 74048
+    },
+    {
+      "project_id": "2016570",
+      "source": "input/projects/2016570/papers/doi_10.1007_s10198-020-01205-9.xml",
+      "markdown": "corpus/2016570/doi_10.1007_s10198-020-01205-9.md",
+      "source_sha256": "8d9db24ac445adf37316e26f1bc8264d38faf465726d243c34ee73ed851c60eb",
+      "bytes": 93389
+    },
+    {
+      "project_id": "2016620",
+      "source": "input/projects/2016620/papers/doi_10.1007_s40273-018-0623-8.xml",
+      "markdown": "corpus/2016620/doi_10.1007_s40273-018-0623-8.md",
+      "source_sha256": "2a5a43812d1a00c19537929de21d93d39c6c96d87f3c70ccdf24de4f3d6d21ce",
+      "bytes": 137198
+    },
+    {
+      "project_id": "2016630",
+      "source": "input/projects/2016630/papers/doi_10.1177_0272989x21999607.xml",
+      "markdown": "corpus/2016630/doi_10.1177_0272989x21999607.md",
+      "source_sha256": "77c681afc831d47e80699f1d8c1b4f3c984101af91b0f6a974b8fc7e7bcf0aa7",
+      "bytes": 65644
+    },
+    {
+      "project_id": "2016631",
+      "source": "input/projects/2016631/papers/doi_10.1177_0272989x21999607.xml",
+      "markdown": "corpus/2016631/doi_10.1177_0272989x21999607.md",
+      "source_sha256": "77c681afc831d47e80699f1d8c1b4f3c984101af91b0f6a974b8fc7e7bcf0aa7",
+      "bytes": 65644
+    },
+    {
+      "project_id": "2016670",
+      "source": "input/projects/2016670/papers/doi_10.1007_s11136-019-02156-2.xml",
+      "markdown": "corpus/2016670/doi_10.1007_s11136-019-02156-2.md",
+      "source_sha256": "8c3c80e8349ee8184f686ac0159ba70d7a0b7b490554cfab0f41fc87aad69df5",
+      "bytes": 49777
+    },
+    {
+      "project_id": "2016670",
+      "source": "input/projects/2016670/papers/doi_10.1007_s11136-020-02496-4.xml",
+      "markdown": "corpus/2016670/doi_10.1007_s11136-020-02496-4.md",
+      "source_sha256": "0d216a910ceabbe95c6e992b79ce10ba1344ea1038eb944ffe4f7b278411961d",
+      "bytes": 56550
+    },
+    {
+      "project_id": "2016710",
+      "source": "input/projects/2016710/papers/doi_10.1007_s10198-021-01306-z.xml",
+      "markdown": "corpus/2016710/doi_10.1007_s10198-021-01306-z.md",
+      "source_sha256": "4635a42ac27ffc95d4f09a228cd0f585a258727259ec5e5792840555c56a2f12",
+      "bytes": 92752
+    },
+    {
+      "project_id": "2016710",
+      "source": "input/projects/2016710/papers/doi_10.1007_s11136-020-02718-9.xml",
+      "markdown": "corpus/2016710/doi_10.1007_s11136-020-02718-9.md",
+      "source_sha256": "baa57fe61e09a2503410644382472f886a8d8f1e84487eef23002a3cf7390a59",
+      "bytes": 36139
+    },
+    {
+      "project_id": "2016740",
+      "source": "input/projects/2016740/papers/doi_10.3389_fpsyg.2023.1175402.xml",
+      "markdown": "corpus/2016740/doi_10.3389_fpsyg.2023.1175402.md",
+      "source_sha256": "b5f16015e4cf213f55bb353411e9db2e19d1b2d1754241869a7b403246205ba2",
+      "bytes": 72783
+    },
+    {
+      "project_id": "20170130",
+      "source": "input/projects/20170130/papers/doi_10.1007_s11136-021-02922-1.xml",
+      "markdown": "corpus/20170130/doi_10.1007_s11136-021-02922-1.md",
+      "source_sha256": "31a12c3b6a3a92ad42477d7a58d561a571922c320f30927ee5af4421efd9a849",
+      "bytes": 71168
+    },
+    {
+      "project_id": "20170210",
+      "source": "input/projects/20170210/papers/doi_10.1177_0272989x20969686.xml",
+      "markdown": "corpus/20170210/doi_10.1177_0272989x20969686.md",
+      "source_sha256": "1ca4ad33d75839fc283c962dcfaec8ab22ba280d7bd021e690e4a318ba7d01c3",
+      "bytes": 65568
+    },
+    {
+      "project_id": "20170220",
+      "source": "input/projects/20170220/papers/doi_10.1007_s11136-020-02469-7.xml",
+      "markdown": "corpus/20170220/doi_10.1007_s11136-020-02469-7.md",
+      "source_sha256": "01e36da4c30f08d32ac309ce545d50201d3b50a2666625bdfb5c1ad7853d6933",
+      "bytes": 61434
+    },
+    {
+      "project_id": "20170230",
+      "source": "input/projects/20170230/papers/doi_10.1007_s11136-022-03143-w.xml",
+      "markdown": "corpus/20170230/doi_10.1007_s11136-022-03143-w.md",
+      "source_sha256": "2f9086c54f5783e702544bf557fbd8a4c678c2026dca42390cccb80e5497d6ad",
+      "bytes": 59654
+    },
+    {
+      "project_id": "20170330",
+      "source": "input/projects/20170330/papers/doi_10.1002_ppul.71031.xml",
+      "markdown": "corpus/20170330/doi_10.1002_ppul.71031.md",
+      "source_sha256": "7e71f2901184c8fe4ecb8cc87aa8e373f94228d74ac7085fda2e6340c4e51ee0",
+      "bytes": 97991
+    },
+    {
+      "project_id": "20170330",
+      "source": "input/projects/20170330/papers/doi_10.1007_s10198-021-01309-w.xml",
+      "markdown": "corpus/20170330/doi_10.1007_s10198-021-01309-w.md",
+      "source_sha256": "c1ebc30a1a23e2fb60c1ba11dee5994e65d62817a582b4085ea230d569db3dc9",
+      "bytes": 68283
+    },
+    {
+      "project_id": "20170400",
+      "source": "input/projects/20170400/papers/doi_10.1007_s40258-021-00639-3.xml",
+      "markdown": "corpus/20170400/doi_10.1007_s40258-021-00639-3.md",
+      "source_sha256": "4ce00910e6e1a763355bba8e65a9248f29bff4e321934d2f683e09f237a3dc8c",
+      "bytes": 77402
+    },
+    {
+      "project_id": "20170401",
+      "source": "input/projects/20170401/papers/doi_10.1007_s40258-021-00639-3.xml",
+      "markdown": "corpus/20170401/doi_10.1007_s40258-021-00639-3.md",
+      "source_sha256": "4ce00910e6e1a763355bba8e65a9248f29bff4e321934d2f683e09f237a3dc8c",
+      "bytes": 77402
+    },
+    {
+      "project_id": "20170450",
+      "source": "input/projects/20170450/papers/doi_10.1007_s10198-018-0987-x.xml",
+      "markdown": "corpus/20170450/doi_10.1007_s10198-018-0987-x.md",
+      "source_sha256": "e14d5224491c287f9b87e33a2179419cb35353da74b99a0c18011d61f11aadb6",
+      "bytes": 39487
+    },
+    {
+      "project_id": "20170491",
+      "source": "input/projects/20170491/papers/doi_10.1007_s41669-022-00353-3.xml",
+      "markdown": "corpus/20170491/doi_10.1007_s41669-022-00353-3.md",
+      "source_sha256": "c02746111cab030771ec13406412902165f3ec1bff6505a5ca66a0305ba0e866",
+      "bytes": 68195
+    },
+    {
+      "project_id": "20170510",
+      "source": "input/projects/20170510/papers/doi_10.1007_s40273-019-00876-4.xml",
+      "markdown": "corpus/20170510/doi_10.1007_s40273-019-00876-4.md",
+      "source_sha256": "cc1d457f1baf5b5137f48cc34ca12c2a8c7b6fe4b7cf8c0b106ef4e81c48f4df",
+      "bytes": 67028
+    },
+    {
+      "project_id": "20170540",
+      "source": "input/projects/20170540/papers/doi_10.1186_s12955-020-01410-3.xml",
+      "markdown": "corpus/20170540/doi_10.1186_s12955-020-01410-3.md",
+      "source_sha256": "2e21faeeb695ed968a8a10eb5aeea4b699f9cb76bc9d1524fc25e36ae8bd53ce",
+      "bytes": 47836
+    },
+    {
+      "project_id": "20170540",
+      "source": "input/projects/20170540/papers/doi_10.3390_children8100920.xml",
+      "markdown": "corpus/20170540/doi_10.3390_children8100920.md",
+      "source_sha256": "2be77b101062f01d172e17bd4db2aa4183b9965e7407f0debb2cce764ac08f64",
+      "bytes": 78850
+    },
+    {
+      "project_id": "20170600",
+      "source": "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml",
+      "markdown": "corpus/20170600/doi_10.1007_s40273-022-01172-4.md",
+      "source_sha256": "052b52c2ab9866b7061786a05141c1d17605acfb93fc62972321f0165142cd9d",
+      "bytes": 84705
+    },
+    {
+      "project_id": "20180030R1",
+      "source": "input/projects/20180030R1/papers/doi_10.1007_s10198-022-01481-7.xml",
+      "markdown": "corpus/20180030R1/doi_10.1007_s10198-022-01481-7.md",
+      "source_sha256": "1d43766b183a4abf40ac2e65a1ab5cc75d3653182d139c8d45e818b0a097ac6e",
+      "bytes": 57058
+    },
+    {
+      "project_id": "20180030R1",
+      "source": "input/projects/20180030R1/papers/doi_10.1186_s12955-023-02144-8.xml",
+      "markdown": "corpus/20180030R1/doi_10.1186_s12955-023-02144-8.md",
+      "source_sha256": "631e5e551be190236ccc346cbf4a486ebaf4aaa068cdc774cac32a7be2c87fe3",
+      "bytes": 72829
+    },
+    {
+      "project_id": "20180130",
+      "source": "input/projects/20180130/papers/doi_10.1007_s40271-022-00572-0.xml",
+      "markdown": "corpus/20180130/doi_10.1007_s40271-022-00572-0.md",
+      "source_sha256": "bd609cbad538cb41b521ead5433b1658d736811710c5d6aac7f3cf8987db83af",
+      "bytes": 58495
+    },
+    {
+      "project_id": "20180130",
+      "source": "input/projects/20180130/papers/doi_10.1007_s40273-021-01002-z.xml",
+      "markdown": "corpus/20180130/doi_10.1007_s40273-021-01002-z.md",
+      "source_sha256": "01a092c8f0e35e8afeaadf90e7dde4d56d021ac1779bd2f02d268bb7a4fc2e5a",
+      "bytes": 94816
+    },
+    {
+      "project_id": "20180130",
+      "source": "input/projects/20180130/papers/doi_10.1007_s40273-021-01100-y.xml",
+      "markdown": "corpus/20180130/doi_10.1007_s40273-021-01100-y.md",
+      "source_sha256": "73118fd045e08db3406618a11410914b5bf9be004a5eaa97f1b6c67d08222c4b",
+      "bytes": 97000
+    },
+    {
+      "project_id": "20180130",
+      "source": "input/projects/20180130/papers/doi_10.1136_bmjopen-2021-051727.xml",
+      "markdown": "corpus/20180130/doi_10.1136_bmjopen-2021-051727.md",
+      "source_sha256": "adfbfd63b8ce5bebb33ae255199b06a69d388b7f8b07f24541269ba5fb0c0d45",
+      "bytes": 41246
+    },
+    {
+      "project_id": "20180140",
+      "source": "input/projects/20180140/papers/doi_10.1186_s12955-021-01889-4.xml",
+      "markdown": "corpus/20180140/doi_10.1186_s12955-021-01889-4.md",
+      "source_sha256": "391d5a4709420294b9327dd92a89a63bad287380e31d3ba17e15bc73b2c6859d",
+      "bytes": 79549
+    },
+    {
+      "project_id": "20180140",
+      "source": "input/projects/20180140/papers/doi_10.1186_s12955-022-01996-w.xml",
+      "markdown": "corpus/20180140/doi_10.1186_s12955-022-01996-w.md",
+      "source_sha256": "61c64b847e8c56d5c27521cb5772a4eda4ac73333664914540f9499b728afc36",
+      "bytes": 61492
+    },
+    {
+      "project_id": "20180230",
+      "source": "input/projects/20180230/papers/doi_10.1007_s11136-021-03075-x.xml",
+      "markdown": "corpus/20180230/doi_10.1007_s11136-021-03075-x.md",
+      "source_sha256": "d7980458dd75684dbb9efbb57cbe7c05e103d3db17eefd37aa60044b5518d225",
+      "bytes": 57070
+    },
+    {
+      "project_id": "20180280",
+      "source": "input/projects/20180280/papers/doi_10.1177_0272989x211001859.xml",
+      "markdown": "corpus/20180280/doi_10.1177_0272989x211001859.md",
+      "source_sha256": "b3a288bb42e8fb1ae4cad1439d051ff5e147ac1d9198a3e3bf1543837a8656ab",
+      "bytes": 49985
+    },
+    {
+      "project_id": "20180330",
+      "source": "input/projects/20180330/papers/doi_10.1186_s12955-020-01394-0.xml",
+      "markdown": "corpus/20180330/doi_10.1186_s12955-020-01394-0.md",
+      "source_sha256": "93b153f579a50047223ca5cfb2703056f406594057393acaa7c189b3fb17d9df",
+      "bytes": 45118
+    },
+    {
+      "project_id": "20180330",
+      "source": "input/projects/20180330/papers/doi_10.1186_s12955-021-01771-3.xml",
+      "markdown": "corpus/20180330/doi_10.1186_s12955-021-01771-3.md",
+      "source_sha256": "a337a2cdd2075051fad56f7cef096df1b4ef8416e666216ba92e53a6ef7adafb",
+      "bytes": 54332
+    },
+    {
+      "project_id": "20180330",
+      "source": "input/projects/20180330/papers/doi_10.1186_s41687-021-00406-x.xml",
+      "markdown": "corpus/20180330/doi_10.1186_s41687-021-00406-x.md",
+      "source_sha256": "fefb959ab8191f9b11ed4670107f4cb10162e7d73e630d72edc6d296b437d41a",
+      "bytes": 60136
+    },
+    {
+      "project_id": "20180350",
+      "source": "input/projects/20180350/papers/doi_10.1007_s10198-021-01306-z.xml",
+      "markdown": "corpus/20180350/doi_10.1007_s10198-021-01306-z.md",
+      "source_sha256": "4635a42ac27ffc95d4f09a228cd0f585a258727259ec5e5792840555c56a2f12",
+      "bytes": 92754
+    },
+    {
+      "project_id": "20180490",
+      "source": "input/projects/20180490/papers/doi_10.1007_s40273-022-01210-1.xml",
+      "markdown": "corpus/20180490/doi_10.1007_s40273-022-01210-1.md",
+      "source_sha256": "f1dc29ae7f7cd6ca2c848f63d44e7a5262bb6f21dc12bc3cfcdaaa8d1a4f5082",
+      "bytes": 61466
+    },
+    {
+      "project_id": "20180510",
+      "source": "input/projects/20180510/papers/doi_10.1007_s40271-022-00573-z.xml",
+      "markdown": "corpus/20180510/doi_10.1007_s40271-022-00573-z.md",
+      "source_sha256": "7f15562ef4da0a24362ddcb6c856abc4601a2edd2f5e1a229cf95156afb4d752",
+      "bytes": 89014
+    },
+    {
+      "project_id": "20180510",
+      "source": "input/projects/20180510/papers/doi_10.1007_s40273-020-00994-4.xml",
+      "markdown": "corpus/20180510/doi_10.1007_s40273-020-00994-4.md",
+      "source_sha256": "9a785c300b8808613a0f9bcf40996be6a44225155b970b462fb971deeea0d8c7",
+      "bytes": 44807
+    },
+    {
+      "project_id": "20180510",
+      "source": "input/projects/20180510/papers/doi_10.1007_s40273-022-01143-9.xml",
+      "markdown": "corpus/20180510/doi_10.1007_s40273-022-01143-9.md",
+      "source_sha256": "647b656987ebfcf2c0919489e2f06536648d7926cd1c2511b3acbf9b00a55f34",
+      "bytes": 75576
+    },
+    {
+      "project_id": "20180510",
+      "source": "input/projects/20180510/papers/doi_10.1016_j.jval.2021.03.019.xml",
+      "markdown": "corpus/20180510/doi_10.1016_j.jval.2021.03.019.md",
+      "source_sha256": "8f835ca11d498e90722787e973e7132071154716f7092cb700f13e9b8349f3fd",
+      "bytes": 60879
+    },
+    {
+      "project_id": "20180630",
+      "source": "input/projects/20180630/papers/doi_10.3389_fpubh.2021.744405.xml",
+      "markdown": "corpus/20180630/doi_10.3389_fpubh.2021.744405.md",
+      "source_sha256": "5eb9a51de137d460a221f33229ac8ff545d4fe796453e350fffccc04812e57a5",
+      "bytes": 134250
+    },
+    {
+      "project_id": "20180660",
+      "source": "input/projects/20180660/papers/doi_10.1007_s41669-023-00437-8.xml",
+      "markdown": "corpus/20180660/doi_10.1007_s41669-023-00437-8.md",
+      "source_sha256": "377eea220ff27f4031a87d0159bdbb7ce2953ad664c614702591cc325a9031af",
+      "bytes": 62825
+    },
+    {
+      "project_id": "20180740",
+      "source": "input/projects/20180740/papers/doi_10.1136_bmjopen-2024-084440.xml",
+      "markdown": "corpus/20180740/doi_10.1136_bmjopen-2024-084440.md",
+      "source_sha256": "9ff24a3ff7dec4c09722d5fb83c4f5e09d6885e3b6cd20817a292be9b4cfd13e",
+      "bytes": 62615
+    },
+    {
+      "project_id": "20180770",
+      "source": "input/projects/20180770/papers/doi_10.1186_s12955-022-02083-w.xml",
+      "markdown": "corpus/20180770/doi_10.1186_s12955-022-02083-w.md",
+      "source_sha256": "1fc64e0aa34d1d6280420ab3849178eb96ee0de785143bd628a49832d375af77",
+      "bytes": 60251
+    },
+    {
+      "project_id": "20190080R1",
+      "source": "input/projects/20190080R1/papers/doi_10.1002_hec.4529.xml",
+      "markdown": "corpus/20190080R1/doi_10.1002_hec.4529.md",
+      "source_sha256": "ec5d3c6548102af9949816354ec9702e332f373e215702bd15cc0ff3d99402e5",
+      "bytes": 97490
+    },
+    {
+      "project_id": "20190080R1",
+      "source": "input/projects/20190080R1/papers/doi_10.1007_s40271-020-00490-z.xml",
+      "markdown": "corpus/20190080R1/doi_10.1007_s40271-020-00490-z.md",
+      "source_sha256": "7c8c38e447cfd055b9bf97441ce49130c7c69b70fa95dbf3cffbdc17b249dbf7",
+      "bytes": 60814
+    },
+    {
+      "project_id": "20190200",
+      "source": "input/projects/20190200/papers/doi_10.1186_s41687-023-00560-4.xml",
+      "markdown": "corpus/20190200/doi_10.1186_s41687-023-00560-4.md",
+      "source_sha256": "ebefe1f5e2a7334d236022e14d9f2d872ba6ab0090c525e006ef33986dd6910f",
+      "bytes": 116878
+    },
+    {
+      "project_id": "20190200",
+      "source": "input/projects/20190200/papers/doi_10.1186_s41687-024-00761-5.xml",
+      "markdown": "corpus/20190200/doi_10.1186_s41687-024-00761-5.md",
+      "source_sha256": "f95d7846564d18d6ef81cb1a105f19785e6dfe0bc4732926b472f4e4166fb4fb",
+      "bytes": 72470
+    },
+    {
+      "project_id": "20190220",
+      "source": "input/projects/20190220/papers/doi_10.1007_s40273-021-01109-3.xml",
+      "markdown": "corpus/20190220/doi_10.1007_s40273-021-01109-3.md",
+      "source_sha256": "9b21b84e2eddcc9b0c94bad54948173bd8f3dd0f5d26c54260cc4768af63f2c8",
+      "bytes": 61036
+    },
+    {
+      "project_id": "20190360",
+      "source": "input/projects/20190360/papers/doi_10.1186_s12955-022-02031-8.xml",
+      "markdown": "corpus/20190360/doi_10.1186_s12955-022-02031-8.md",
+      "source_sha256": "73f8279c19c9274f9596922292daaec60589578bbe50ba34a55372d0cf43b489",
+      "bytes": 37525
+    },
+    {
+      "project_id": "20190460",
+      "source": "input/projects/20190460/papers/doi_10.1007_s40258-022-00772-7.xml",
+      "markdown": "corpus/20190460/doi_10.1007_s40258-022-00772-7.md",
+      "source_sha256": "d842a3b656e5287b494ecdaf400b1907cb684fb8c2f1955672fb86169cf800ef",
+      "bytes": 132749
+    },
+    {
+      "project_id": "20190550",
+      "source": "input/projects/20190550/papers/doi_10.1007_s11136-022-03304-x.xml",
+      "markdown": "corpus/20190550/doi_10.1007_s11136-022-03304-x.md",
+      "source_sha256": "2487225de2e283f7cf5b5fe22ab6a84a0541c5685a86f36f603968ea7129e0b4",
+      "bytes": 54387
+    },
+    {
+      "project_id": "20190670",
+      "source": "input/projects/20190670/papers/doi_10.4314_ahs.v23i4.63.xml",
+      "markdown": "corpus/20190670/doi_10.4314_ahs.v23i4.63.md",
+      "source_sha256": "ed35ad6817d6e0526eee5e96cf148bdda30c7960a9ffdc20a62ece6ba1fe2a49",
+      "bytes": 69709
+    },
+    {
+      "project_id": "20190690",
+      "source": "input/projects/20190690/papers/doi_10.1002_hsr2.70308.xml",
+      "markdown": "corpus/20190690/doi_10.1002_hsr2.70308.md",
+      "source_sha256": "e5c106eb9ec417ba5c636ae86dabe9944319c6643e3594008b1c7328ee503edc",
+      "bytes": 58585
+    },
+    {
+      "project_id": "20190690",
+      "source": "input/projects/20190690/papers/doi_10.1186_s12955-023-02207-w.xml",
+      "markdown": "corpus/20190690/doi_10.1186_s12955-023-02207-w.md",
+      "source_sha256": "e33dfe9c55198e6b76f209353725364f024771d6b23a5d7b076a413d47965aa7",
+      "bytes": 82335
+    },
+    {
+      "project_id": "20190890",
+      "source": "input/projects/20190890/papers/doi_10.1007_s10198-021-01377-y.xml",
+      "markdown": "corpus/20190890/doi_10.1007_s10198-021-01377-y.md",
+      "source_sha256": "c9e1d25c65f4fa23177a2b31f974a8c1b6b0aad7a9699d623d17d5df586e1f12",
+      "bytes": 63193
+    },
+    {
+      "project_id": "20191020",
+      "source": "input/projects/20191020/papers/doi_10.1007_s40273-022-01216-9.xml",
+      "markdown": "corpus/20191020/doi_10.1007_s40273-022-01216-9.md",
+      "source_sha256": "5602075d4c8f56a3cd4548bda28dd8d7f3e1d547577971d18a9c4177280a5e24",
+      "bytes": 55701
+    },
+    {
+      "project_id": "2021-RA",
+      "source": "input/projects/2021-RA/papers/doi_10.1007_s40258-023-00798-5.xml",
+      "markdown": "corpus/2021-RA/doi_10.1007_s40258-023-00798-5.md",
+      "source_sha256": "1dea935df539601911206d823932ef202c4ebdf189ceea7dd81fab99bf2a747b",
+      "bytes": 50592
+    },
+    {
+      "project_id": "218-RA",
+      "source": "input/projects/218-RA/papers/doi_10.1007_s10198-025-01770-x.xml",
+      "markdown": "corpus/218-RA/doi_10.1007_s10198-025-01770-x.md",
+      "source_sha256": "3e0764427e7d623271e9fdc65a93f7975fd7954312a422687e158f576a1403b9",
+      "bytes": 173513
+    },
+    {
+      "project_id": "220-VS",
+      "source": "input/projects/220-VS/papers/doi_10.1007_s40273-024-01404-9.xml",
+      "markdown": "corpus/220-VS/doi_10.1007_s40273-024-01404-9.md",
+      "source_sha256": "819cffd610ec5aa47211c1d82bb8df6d122cacdb547fc23a19e5797280eb9fc3",
+      "bytes": 95575
+    },
+    {
+      "project_id": "229-RA",
+      "source": "input/projects/229-RA/papers/doi_10.1007_s11136-023-03372-7.xml",
+      "markdown": "corpus/229-RA/doi_10.1007_s11136-023-03372-7.md",
+      "source_sha256": "44a7e2b09a218904ba81a952773eee2349e419f28a396c274bade8d953cc5885",
+      "bytes": 74378
+    },
+    {
+      "project_id": "237-RA",
+      "source": "input/projects/237-RA/papers/doi_10.1007_s10198-023-01612-8.xml",
+      "markdown": "corpus/237-RA/doi_10.1007_s10198-023-01612-8.md",
+      "source_sha256": "ce0f554e8bc7a7711ceee5310c780d9b4ab2bab912610dc2662bb4a47039bb14",
+      "bytes": 80820
+    },
+    {
+      "project_id": "238-RA",
+      "source": "input/projects/238-RA/papers/doi_10.1007_s10198-024-01719-6.xml",
+      "markdown": "corpus/238-RA/doi_10.1007_s10198-024-01719-6.md",
+      "source_sha256": "a328b636b560990e08c18a4c89ca1185ed4899191f7de4117b7c6bd9e56844d5",
+      "bytes": 101030
+    },
+    {
+      "project_id": "243-RA",
+      "source": "input/projects/243-RA/papers/doi_10.1007_s11136-024-03754-5.xml",
+      "markdown": "corpus/243-RA/doi_10.1007_s11136-024-03754-5.md",
+      "source_sha256": "dff0325e7097e4a7df56b12a00caecac7f3a2ced58230016e3ecb16725670569",
+      "bytes": 79308
+    },
+    {
+      "project_id": "285-PHD",
+      "source": "input/projects/285-PHD/papers/doi_10.3390_cancers16111952.xml",
+      "markdown": "corpus/285-PHD/doi_10.3390_cancers16111952.md",
+      "source_sha256": "a234cc4cc87528c5139eefd7aae433906b6ff3ef1fb655875d45011c7d336296",
+      "bytes": 92054
+    },
+    {
+      "project_id": "289-RA",
+      "source": "input/projects/289-RA/papers/doi_10.1007_s10198-023-01569-8.xml",
+      "markdown": "corpus/289-RA/doi_10.1007_s10198-023-01569-8.md",
+      "source_sha256": "910d85f3960ff21c9a98913e94d2d952f6080dbb12a2b86628061ec9135df07c",
+      "bytes": 264026
+    },
+    {
+      "project_id": "299-RA",
+      "source": "input/projects/299-RA/papers/doi_10.5492_wjccm.v11.i4.236.xml",
+      "markdown": "corpus/299-RA/doi_10.5492_wjccm.v11.i4.236.md",
+      "source_sha256": "729a4255e6d7db8d96f9cd7e86688239e670a0324b355507133a0f010f512fa4",
+      "bytes": 42232
+    },
+    {
+      "project_id": "304-PHD",
+      "source": "input/projects/304-PHD/papers/doi_10.1007_s40271-024-00708-4.xml",
+      "markdown": "corpus/304-PHD/doi_10.1007_s40271-024-00708-4.md",
+      "source_sha256": "012ed970044d1a6ebd382dca9671722067f86c0e8cacc3cf605058a166509c3a",
+      "bytes": 53929
+    },
+    {
+      "project_id": "304-PHD",
+      "source": "input/projects/304-PHD/papers/doi_10.1007_s40273-024-01444-1.xml",
+      "markdown": "corpus/304-PHD/doi_10.1007_s40273-024-01444-1.md",
+      "source_sha256": "b908b254e120ba604b65b6fbf9515bb55da21e943ecf3337deed20ec67399722",
+      "bytes": 32807
+    },
+    {
+      "project_id": "304-PHD",
+      "source": "input/projects/304-PHD/papers/doi_10.1097_mlr.0000000000002200.xml",
+      "markdown": "corpus/304-PHD/doi_10.1097_mlr.0000000000002200.md",
+      "source_sha256": "e25654840107b21d30b5d6283727cdc5fc67abd828adbf624c6d76f92c6716e1",
+      "bytes": 41427
+    },
+    {
+      "project_id": "304-PHD",
+      "source": "input/projects/304-PHD/papers/doi_10.1136_bmjopen-2023-077256.xml",
+      "markdown": "corpus/304-PHD/doi_10.1136_bmjopen-2023-077256.md",
+      "source_sha256": "bdf0ee6cff8e5fdcab70ea6a6166873e62ba67ffc8df94e41175558aa450bd92",
+      "bytes": 39142
+    },
+    {
+      "project_id": "304-PHD",
+      "source": "input/projects/304-PHD/papers/doi_10.1186_s12955-024-02271-w.xml",
+      "markdown": "corpus/304-PHD/doi_10.1186_s12955-024-02271-w.md",
+      "source_sha256": "59e62ecd0e11fd4edab1abe87f830fd33f578a81ac16790591ed370542118ba4",
+      "bytes": 125516
+    },
+    {
+      "project_id": "315-RA",
+      "source": "input/projects/315-RA/papers/doi_10.1007_s11136-021-03069-9.xml",
+      "markdown": "corpus/315-RA/doi_10.1007_s11136-021-03069-9.md",
+      "source_sha256": "1e2aa799eb4412323869df9ceafb5d5e7bf4127166481f67e5afc6bdfaa7d778",
+      "bytes": 58405
+    },
+    {
+      "project_id": "330-PHD",
+      "source": "input/projects/330-PHD/papers/doi_10.1007_s11136-025-03990-3.xml",
+      "markdown": "corpus/330-PHD/doi_10.1007_s11136-025-03990-3.md",
+      "source_sha256": "779355ba7f3a4862d6ff5866d36dace319081c0f9b7858e4b5f2d27a2402ddcd",
+      "bytes": 77245
+    },
+    {
+      "project_id": "330-PHD",
+      "source": "input/projects/330-PHD/papers/doi_10.1007_s11136-025-03996-x.xml",
+      "markdown": "corpus/330-PHD/doi_10.1007_s11136-025-03996-x.md",
+      "source_sha256": "4187e1a2aa3a7028440f8c06dbabab66a6bc004d300c682e9dd5cc57b10a94f8",
+      "bytes": 69560
+    },
+    {
+      "project_id": "330-PHD",
+      "source": "input/projects/330-PHD/papers/doi_10.1007_s40273-023-01330-2.xml",
+      "markdown": "corpus/330-PHD/doi_10.1007_s40273-023-01330-2.md",
+      "source_sha256": "8b6a711e67e55615414e2fd9b93d9a9a9b54ec4bf98c1b2058ff01adb71b09d7",
+      "bytes": 107588
+    },
+    {
+      "project_id": "330-PHD",
+      "source": "input/projects/330-PHD/papers/doi_10.1007_s40273-024-01354-2.xml",
+      "markdown": "corpus/330-PHD/doi_10.1007_s40273-024-01354-2.md",
+      "source_sha256": "775ee615c9f8b8505923e85a984ff2a9ccfd40863ed1645ae7a388a2aa48e424",
+      "bytes": 122201
+    },
+    {
+      "project_id": "330-PHD",
+      "source": "input/projects/330-PHD/papers/doi_10.1007_s40273-024-01355-1.xml",
+      "markdown": "corpus/330-PHD/doi_10.1007_s40273-024-01355-1.md",
+      "source_sha256": "40a88ed671e062f9cd7589a00a96ebf211a1a5656f59ed19e241636809d4ae4e",
+      "bytes": 90806
+    },
+    {
+      "project_id": "330-PHD",
+      "source": "input/projects/330-PHD/papers/doi_10.3390_children10101604.xml",
+      "markdown": "corpus/330-PHD/doi_10.3390_children10101604.md",
+      "source_sha256": "1eaae2380eabba23857d9b6c24d49d7a2d36f0cae19ed7bf745f1f6de9db0364",
+      "bytes": 83966
+    },
+    {
+      "project_id": "333-RA",
+      "source": "input/projects/333-RA/papers/doi_10.1186_s12955-023-02177-z.xml",
+      "markdown": "corpus/333-RA/doi_10.1186_s12955-023-02177-z.md",
+      "source_sha256": "ab1641d76d7a6c1330f39fa9203749d912a9d135fa574edf24ba28c5dd4c2b70",
+      "bytes": 44049
+    },
+    {
+      "project_id": "335-RA",
+      "source": "input/projects/335-RA/papers/doi_10.1007_s40273-022-01208-9.xml",
+      "markdown": "corpus/335-RA/doi_10.1007_s40273-022-01208-9.md",
+      "source_sha256": "a57d75341120c6cd0a60113758034da60bb3a06df574433dc4d2e767dda880df",
+      "bytes": 59469
+    },
+    {
+      "project_id": "337-RA",
+      "source": "input/projects/337-RA/papers/doi_10.1007_s11136-025-04077-9.xml",
+      "markdown": "corpus/337-RA/doi_10.1007_s11136-025-04077-9.md",
+      "source_sha256": "8f2433eca82e2a0dbe8f49bbe8fe0d839bc8531c51d799175eec7b390940a02b",
+      "bytes": 86999
+    },
+    {
+      "project_id": "341-RA",
+      "source": "input/projects/341-RA/papers/doi_10.1038_s41433-023-02860-x.xml",
+      "markdown": "corpus/341-RA/doi_10.1038_s41433-023-02860-x.md",
+      "source_sha256": "f0cfc7babf470ce52123902331f18766b073f6fb9ef5bf99ff37355be5b08b53",
+      "bytes": 71413
+    },
+    {
+      "project_id": "341-RA",
+      "source": "input/projects/341-RA/papers/doi_10.1177_0272989x251325828.xml",
+      "markdown": "corpus/341-RA/doi_10.1177_0272989x251325828.md",
+      "source_sha256": "036bafe3f84a51fb7ddc2eb1b43dfb5d1f875d00818b0cfea54a6bd2b4138efe",
+      "bytes": 42340
+    },
+    {
+      "project_id": "341-RA",
+      "source": "input/projects/341-RA/papers/doi_10.1186_s12955-024-02266-7.xml",
+      "markdown": "corpus/341-RA/doi_10.1186_s12955-024-02266-7.md",
+      "source_sha256": "ec2dae9b852f0e2fd38c042c76d355207d7d9e0c9723e5d0d5640daee1b816f5",
+      "bytes": 123881
+    },
+    {
+      "project_id": "341-RA",
+      "source": "input/projects/341-RA/papers/doi_10.1186_s12955-024-02323-1.xml",
+      "markdown": "corpus/341-RA/doi_10.1186_s12955-024-02323-1.md",
+      "source_sha256": "a08b55a1d4b1657da202fe74078fb8a245ce0657aa6667fbae16a5341363efec",
+      "bytes": 106425
+    },
+    {
+      "project_id": "342-RA",
+      "source": "input/projects/342-RA/papers/doi_10.1007_s11136-024-03618-y.xml",
+      "markdown": "corpus/342-RA/doi_10.1007_s11136-024-03618-y.md",
+      "source_sha256": "1e2b092223e7ad7a20fe561df61a9d0bbcb8e0a902e5246d6562b3208a276c54",
+      "bytes": 48199
+    },
+    {
+      "project_id": "343-RA",
+      "source": "input/projects/343-RA/papers/doi_10.1186_s12955-024-02305-3.xml",
+      "markdown": "corpus/343-RA/doi_10.1186_s12955-024-02305-3.md",
+      "source_sha256": "53a202353447ead8b1e62678047d4d1a6f2ae9d490cf18587767d9d74ee5f6bc",
+      "bytes": 88414
+    },
+    {
+      "project_id": "344-VS",
+      "source": "input/projects/344-VS/papers/doi_10.1186_s12955-025-02397-5.xml",
+      "markdown": "corpus/344-VS/doi_10.1186_s12955-025-02397-5.md",
+      "source_sha256": "fcc9913210eae61725e4a78d9209882c8dde48cc82ad2ef206d5162ec2980ee3",
+      "bytes": 55922
+    },
+    {
+      "project_id": "348-PHD",
+      "source": "input/projects/348-PHD/papers/doi_10.1007_s40273-025-01493-0.xml",
+      "markdown": "corpus/348-PHD/doi_10.1007_s40273-025-01493-0.md",
+      "source_sha256": "52d3cfc8c0b3d769bb0df1c34cadd45bb0d9b9af631db749eb2a8183442b5dfc",
+      "bytes": 100833
+    },
+    {
+      "project_id": "348-PHD",
+      "source": "input/projects/348-PHD/papers/doi_10.1371_journal.pone.0302886.xml",
+      "markdown": "corpus/348-PHD/doi_10.1371_journal.pone.0302886.md",
+      "source_sha256": "a98c9ce6411424d4bd3bfda21c3bb3ec53185d624102a8c256bbd9e9ea3c21c6",
+      "bytes": 188611
+    },
+    {
+      "project_id": "348-PHD",
+      "source": "input/projects/348-PHD/papers/doi_10.1371_journal.pone.0319227.xml",
+      "markdown": "corpus/348-PHD/doi_10.1371_journal.pone.0319227.md",
+      "source_sha256": "679fcd8524700de5ced1ef77a54409df14c75deed0cd910396e234540fb5dc7d",
+      "bytes": 163225
+    },
+    {
+      "project_id": "349-RA",
+      "source": "input/projects/349-RA/papers/doi_10.1007_s12311-023-01597-3.xml",
+      "markdown": "corpus/349-RA/doi_10.1007_s12311-023-01597-3.md",
+      "source_sha256": "1c8e523e659974af11dcd27eddaec2c3e36d4537f12228c838b526461a053291",
+      "bytes": 60887
+    },
+    {
+      "project_id": "349-RA",
+      "source": "input/projects/349-RA/papers/doi_10.1007_s12311-024-01657-2.xml",
+      "markdown": "corpus/349-RA/doi_10.1007_s12311-024-01657-2.md",
+      "source_sha256": "d029d75e937db21cdff3a68256c2396eea25d5313d16cec76016baf6776485c2",
+      "bytes": 64795
+    },
+    {
+      "project_id": "351-RA",
+      "source": "input/projects/351-RA/papers/doi_10.1007_s41669-024-00486-7.xml",
+      "markdown": "corpus/351-RA/doi_10.1007_s41669-024-00486-7.md",
+      "source_sha256": "d08e5e83f4a1e19ce7a189f4dfdba426004c228752bd2ab3e6f61238edc3d142",
+      "bytes": 62604
+    },
+    {
+      "project_id": "357-RA",
+      "source": "input/projects/357-RA/papers/doi_10.1038_s41433-023-02860-x.xml",
+      "markdown": "corpus/357-RA/doi_10.1038_s41433-023-02860-x.md",
+      "source_sha256": "f0cfc7babf470ce52123902331f18766b073f6fb9ef5bf99ff37355be5b08b53",
+      "bytes": 71413
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.1007_s10198-025-01804-4.xml",
+      "markdown": "corpus/361-RA/doi_10.1007_s10198-025-01804-4.md",
+      "source_sha256": "8060ea67581f07ff90a74057d81c47172391b6d96756d03f377f93506367fac1",
+      "bytes": 99398
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.1007_s11136-026-04246-4.xml",
+      "markdown": "corpus/361-RA/doi_10.1007_s11136-026-04246-4.md",
+      "source_sha256": "d20591859fd343e37b633fcb829248012971ff753fff43274eede3a09a827a5e",
+      "bytes": 78727
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.1007_s40273-023-01330-2.xml",
+      "markdown": "corpus/361-RA/doi_10.1007_s40273-023-01330-2.md",
+      "source_sha256": "8b6a711e67e55615414e2fd9b93d9a9a9b54ec4bf98c1b2058ff01adb71b09d7",
+      "bytes": 107586
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01354-2.xml",
+      "markdown": "corpus/361-RA/doi_10.1007_s40273-024-01354-2.md",
+      "source_sha256": "775ee615c9f8b8505923e85a984ff2a9ccfd40863ed1645ae7a388a2aa48e424",
+      "bytes": 122199
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01355-1.xml",
+      "markdown": "corpus/361-RA/doi_10.1007_s40273-024-01355-1.md",
+      "source_sha256": "40a88ed671e062f9cd7589a00a96ebf211a1a5656f59ed19e241636809d4ae4e",
+      "bytes": 90804
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.3390_children10101604.xml",
+      "markdown": "corpus/361-RA/doi_10.3390_children10101604.md",
+      "source_sha256": "1eaae2380eabba23857d9b6c24d49d7a2d36f0cae19ed7bf745f1f6de9db0364",
+      "bytes": 83964
+    },
+    {
+      "project_id": "361-RA",
+      "source": "input/projects/361-RA/papers/doi_10.3390_children8080714.xml",
+      "markdown": "corpus/361-RA/doi_10.3390_children8080714.md",
+      "source_sha256": "49659928d6530cf93d9497a0dc9d546b5a2ac9c7b03fa9c710bfd680b760012e",
+      "bytes": 87964
+    },
+    {
+      "project_id": "364-RA",
+      "source": "input/projects/364-RA/papers/doi_10.1186_s12955-024-02290-7.xml",
+      "markdown": "corpus/364-RA/doi_10.1186_s12955-024-02290-7.md",
+      "source_sha256": "fb13012707bed41964a1dcf6534e56d0249fbada21ecd8660c7861914670a782",
+      "bytes": 52978
+    },
+    {
+      "project_id": "365-RA",
+      "source": "input/projects/365-RA/papers/doi_10.1007_s11136-025-04150-3.xml",
+      "markdown": "corpus/365-RA/doi_10.1007_s11136-025-04150-3.md",
+      "source_sha256": "3e851aacf92a416a553c4e4b07d50112eb56d9875402f21a46c46c9fdf0318c2",
+      "bytes": 101717
+    },
+    {
+      "project_id": "367-RA",
+      "source": "input/projects/367-RA/papers/doi_10.1007_s11136-025-03983-2.xml",
+      "markdown": "corpus/367-RA/doi_10.1007_s11136-025-03983-2.md",
+      "source_sha256": "d206123f5d69763c576d3ea181736ec840ad6376a6721bbb82ec054dd0a2f5fb",
+      "bytes": 73694
+    },
+    {
+      "project_id": "367-RA",
+      "source": "input/projects/367-RA/papers/doi_10.1007_s11136-025-04074-y.xml",
+      "markdown": "corpus/367-RA/doi_10.1007_s11136-025-04074-y.md",
+      "source_sha256": "438ef38e9f2a2b06ce82352668ff77eef7aca23e006beb12fab66f8cdb935e72",
+      "bytes": 90076
+    },
+    {
+      "project_id": "367-RA",
+      "source": "input/projects/367-RA/papers/doi_10.1007_s11136-026-04294-w.xml",
+      "markdown": "corpus/367-RA/doi_10.1007_s11136-026-04294-w.md",
+      "source_sha256": "96ac5b9ba5f71c9e71fb8a5be43c2ff855739e1bf0396e4538ee523b2e0d413e",
+      "bytes": 49090
+    },
+    {
+      "project_id": "377-VS",
+      "source": "input/projects/377-VS/papers/doi_10.1007_s40273-023-01280-9.xml",
+      "markdown": "corpus/377-VS/doi_10.1007_s40273-023-01280-9.md",
+      "source_sha256": "e4e30d7cffccbbeaace85715e0c1d2489ac14aed361a0f27d9f1558c97ffa83a",
+      "bytes": 49490
+    },
+    {
+      "project_id": "399-RA",
+      "source": "input/projects/399-RA/papers/doi_10.1177_0272989x251380556.xml",
+      "markdown": "corpus/399-RA/doi_10.1177_0272989x251380556.md",
+      "source_sha256": "9fd8ac69e93b15f22ffd1385e0a0a39b57e54857a0ba7168b13355211e72bfa1",
+      "bytes": 59876
+    },
+    {
+      "project_id": "401-RA",
+      "source": "input/projects/401-RA/papers/doi_10.1007_s11136-025-03917-y.xml",
+      "markdown": "corpus/401-RA/doi_10.1007_s11136-025-03917-y.md",
+      "source_sha256": "fdb6ec60509414c1fc951c3f9b38d94548155802a599dc34ce74da45fda03798",
+      "bytes": 56224
+    },
+    {
+      "project_id": "409-RA",
+      "source": "input/projects/409-RA/papers/doi_10.1007_s40273-022-01222-x.xml",
+      "markdown": "corpus/409-RA/doi_10.1007_s40273-022-01222-x.md",
+      "source_sha256": "aee930887bd6198b346247768a74d817cde119fad886f1224ca335b61535d15d",
+      "bytes": 42476
+    },
+    {
+      "project_id": "417-RA",
+      "source": "input/projects/417-RA/papers/doi_10.1007_s10198-023-01668-6.xml",
+      "markdown": "corpus/417-RA/doi_10.1007_s10198-023-01668-6.md",
+      "source_sha256": "33073694eb0b31d537862471764ab168776206884db393b66b657d0ec85eaa10",
+      "bytes": 97711
+    },
+    {
+      "project_id": "429-RA",
+      "source": "input/projects/429-RA/papers/doi_10.1007_s11136-026-04223-x.xml",
+      "markdown": "corpus/429-RA/doi_10.1007_s11136-026-04223-x.md",
+      "source_sha256": "65ae57046de369fa94d69b7ba772e367a6e666ecf03b434067c7afe07f579194",
+      "bytes": 49434
+    },
+    {
+      "project_id": "430-RA",
+      "source": "input/projects/430-RA/papers/doi_10.1136_bmjopen-2023-080985.xml",
+      "markdown": "corpus/430-RA/doi_10.1136_bmjopen-2023-080985.md",
+      "source_sha256": "19c4a892aff6046e1261bb7d07a7b2f32c1362cdd5970da6d4f8ac7fb665148b",
+      "bytes": 48266
+    },
+    {
+      "project_id": "432-RA",
+      "source": "input/projects/432-RA/papers/doi_10.1007_s40273-025-01545-5.xml",
+      "markdown": "corpus/432-RA/doi_10.1007_s40273-025-01545-5.md",
+      "source_sha256": "bf2842b609b80d1520cd81973f4cc4d8a2d2f3aa90502d6f6239654cd9da6adc",
+      "bytes": 62941
+    },
+    {
+      "project_id": "435-RA",
+      "source": "input/projects/435-RA/papers/doi_10.1007_s10198-025-01812-4.xml",
+      "markdown": "corpus/435-RA/doi_10.1007_s10198-025-01812-4.md",
+      "source_sha256": "cbe1b66764375104a037f96c6a7f65913245e334ee4870eadd83a24d1ccb0d23",
+      "bytes": 152625
+    },
+    {
+      "project_id": "436-RA",
+      "source": "input/projects/436-RA/papers/doi_10.1186_s41687-025-00928-8.xml",
+      "markdown": "corpus/436-RA/doi_10.1186_s41687-025-00928-8.md",
+      "source_sha256": "8f6cde5e90bff447e206991da4898d63631986fa3c8511ff92085dbfc5c8f19f",
+      "bytes": 95266
+    },
+    {
+      "project_id": "444-RA",
+      "source": "input/projects/444-RA/papers/doi_10.1007_s10198-024-01682-2.xml",
+      "markdown": "corpus/444-RA/doi_10.1007_s10198-024-01682-2.md",
+      "source_sha256": "71c82e502fd5912693182e8c6882846f3a9b086b2ac787645f3057278ff852c4",
+      "bytes": 74791
+    },
+    {
+      "project_id": "445-RA",
+      "source": "input/projects/445-RA/papers/doi_10.1016_j.pecinn.2025.100421.xml",
+      "markdown": "corpus/445-RA/doi_10.1016_j.pecinn.2025.100421.md",
+      "source_sha256": "1af80a21a6b9e8e2ece45649a7e4145a40d90eacbca9f8e9b818dbfe7b6d05db",
+      "bytes": 47416
+    },
+    {
+      "project_id": "445-RA",
+      "source": "input/projects/445-RA/papers/doi_10.1186_s12891-024-07304-5.xml",
+      "markdown": "corpus/445-RA/doi_10.1186_s12891-024-07304-5.md",
+      "source_sha256": "920a122e8165a0c90167182b4c75534aa72af47dd9064bd7d6b133633bb6dc02",
+      "bytes": 57114
+    },
+    {
+      "project_id": "460-RA",
+      "source": "input/projects/460-RA/papers/doi_10.1007_s11136-026-04285-x.xml",
+      "markdown": "corpus/460-RA/doi_10.1007_s11136-026-04285-x.md",
+      "source_sha256": "48a11a77aa0db598cc9ac3be264317f009a2d98874e87f03bcdd345725b996a5",
+      "bytes": 89156
+    },
+    {
+      "project_id": "460-RA",
+      "source": "input/projects/460-RA/papers/doi_10.3389_fepid.2023.1144162.xml",
+      "markdown": "corpus/460-RA/doi_10.3389_fepid.2023.1144162.md",
+      "source_sha256": "5f1817e727fdb9b8fdff38072c36a0c7c3e723ac4eff311a1603f65339cd1763",
+      "bytes": 82786
+    },
+    {
+      "project_id": "460-RA",
+      "source": "input/projects/460-RA/papers/doi_10.3390_nu16162591.xml",
+      "markdown": "corpus/460-RA/doi_10.3390_nu16162591.md",
+      "source_sha256": "0fade87af8a98ff93cbf0cf3d60981ebb34b5573ad26ccb5fbecacaae4a93312",
+      "bytes": 82631
+    },
+    {
+      "project_id": "461-RA",
+      "source": "input/projects/461-RA/papers/doi_10.1007_s11136-023-03509-8.xml",
+      "markdown": "corpus/461-RA/doi_10.1007_s11136-023-03509-8.md",
+      "source_sha256": "6359434e47db5c59c9372dd3e3edaeb7a3ac65690aa1e37a897139bdc7b60aea",
+      "bytes": 81310
+    },
+    {
+      "project_id": "464-RA",
+      "source": "input/projects/464-RA/papers/doi_10.1007_s11136-025-04053-3.xml",
+      "markdown": "corpus/464-RA/doi_10.1007_s11136-025-04053-3.md",
+      "source_sha256": "1d4a77b5283acfcee9227b25f9250598e627b757d83371fa3621ed7dafc8f99e",
+      "bytes": 175490
+    },
+    {
+      "project_id": "464-RA",
+      "source": "input/projects/464-RA/papers/doi_10.1007_s11136-026-04242-8.xml",
+      "markdown": "corpus/464-RA/doi_10.1007_s11136-026-04242-8.md",
+      "source_sha256": "8b404c35b3123e576ef44f15c4bcecbe05223e105bd71e3cb24e5bfaa38a2bbe",
+      "bytes": 82441
+    },
+    {
+      "project_id": "466-RA",
+      "source": "input/projects/466-RA/papers/doi_10.1007_s11136-024-03817-7.xml",
+      "markdown": "corpus/466-RA/doi_10.1007_s11136-024-03817-7.md",
+      "source_sha256": "d5a10885c9f7bf5bf12b7f356bf41bb60fe96f7a7a085cc41eb97b6860f1f923",
+      "bytes": 50613
+    }
+  ],
+  "unconverted": [
+    {
+      "project_id": "1404-RA",
+      "work_id": "doi:10.1016/j.jval.2025.07.016",
+      "file": "input/projects/1404-RA/papers/doi_10.1016_j.jval.2025.07.016.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1455-RA",
+      "work_id": "doi:10.1016/j.jval.2024.05.007",
+      "file": "input/projects/1455-RA/papers/doi_10.1016_j.jval.2024.05.007.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1465-VS",
+      "work_id": "doi:10.1016/j.jval.2025.01.003",
+      "file": "input/projects/1465-VS/papers/doi_10.1016_j.jval.2025.01.003.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1484-RA",
+      "work_id": "doi:10.1016/j.jocm.2024.100494",
+      "file": "input/projects/1484-RA/papers/doi_10.1016_j.jocm.2024.100494.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1508-RA",
+      "work_id": "doi:10.12688/wellcomeopenres.21408.1",
+      "file": "input/projects/1508-RA/papers/doi_10.12688_wellcomeopenres.21408.1.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1508-RA",
+      "work_id": "doi:10.12688/wellcomeopenres.21408.2",
+      "file": "input/projects/1508-RA/papers/doi_10.12688_wellcomeopenres.21408.2.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1514-RA",
+      "work_id": "doi:10.1016/j.jval.2024.03.002",
+      "file": "input/projects/1514-RA/papers/doi_10.1016_j.jval.2024.03.002.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1559-RA",
+      "work_id": "doi:10.1016/j.jval.2025.05.013",
+      "file": "input/projects/1559-RA/papers/doi_10.1016_j.jval.2025.05.013.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1566-RA",
+      "work_id": "doi:10.1016/j.jval.2025.04.2168",
+      "file": "input/projects/1566-RA/papers/doi_10.1016_j.jval.2025.04.2168.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1588-RA",
+      "work_id": "doi:10.1016/j.jval.2024.01.005",
+      "file": "input/projects/1588-RA/papers/doi_10.1016_j.jval.2024.01.005.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1599-RA",
+      "work_id": "doi:10.1016/j.jval.2025.11.005",
+      "file": "input/projects/1599-RA/papers/doi_10.1016_j.jval.2025.11.005.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1601-RA",
+      "work_id": "doi:10.1016/j.jval.2025.09.009",
+      "file": "input/projects/1601-RA/papers/doi_10.1016_j.jval.2025.09.009.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1606-RA",
+      "work_id": "doi:10.1016/j.jval.2025.05.014",
+      "file": "input/projects/1606-RA/papers/doi_10.1016_j.jval.2025.05.014.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1644-RA",
+      "work_id": "doi:10.1016/j.jval.2024.12.003",
+      "file": "input/projects/1644-RA/papers/doi_10.1016_j.jval.2024.12.003.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1676-RA",
+      "work_id": "doi:10.1016/j.jval.2025.04.2160",
+      "file": "input/projects/1676-RA/papers/doi_10.1016_j.jval.2025.04.2160.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1681-RA",
+      "work_id": "doi:10.36469/001c.145813",
+      "file": "input/projects/1681-RA/papers/doi_10.36469_001c.145813.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "169-RA",
+      "work_id": "pmid:36810025",
+      "file": "input/projects/169-RA/papers/pmid_36810025.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1693-RA",
+      "work_id": "doi:10.1007/s10198-025-01892-2",
+      "file": "input/projects/1693-RA/papers/doi_10.1007_s10198-025-01892-2.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1700-RA",
+      "work_id": "doi:10.1016/j.jval.2025.05.015",
+      "file": "input/projects/1700-RA/papers/doi_10.1016_j.jval.2025.05.015.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1872-RA",
+      "work_id": "doi:10.1186/s12955-026-02579-9",
+      "file": "input/projects/1872-RA/papers/doi_10.1186_s12955-026-02579-9.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1883-RA",
+      "work_id": "doi:10.1177/0272989x261446644",
+      "file": "input/projects/1883-RA/papers/doi_10.1177_0272989x261446644.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1891-RA",
+      "work_id": "doi:10.1186/s12955-026-02581-1",
+      "file": "input/projects/1891-RA/papers/doi_10.1186_s12955-026-02581-1.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1892-RA",
+      "work_id": "doi:10.1186/s12955-026-02578-w",
+      "file": "input/projects/1892-RA/papers/doi_10.1186_s12955-026-02578-w.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "1927-RA",
+      "work_id": "doi:10.1186/s12955-026-02561-5",
+      "file": "input/projects/1927-RA/papers/doi_10.1186_s12955-026-02561-5.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "2013100",
+      "work_id": "doi:10.1007/s11136-014-0897-z",
+      "file": "input/projects/2013100/papers/doi_10.1007_s11136-014-0897-z.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "2013130",
+      "work_id": "doi:10.1016/j.jval.2014.11.005",
+      "file": "input/projects/2013130/papers/doi_10.1016_j.jval.2014.11.005.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "2014160",
+      "work_id": "doi:10.1016/j.jval.2018.05.002",
+      "file": "input/projects/2014160/papers/doi_10.1016_j.jval.2018.05.002.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "2015150",
+      "work_id": "doi:10.1016/j.jval.2019.10.006",
+      "file": "input/projects/2015150/papers/doi_10.1016_j.jval.2019.10.006.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170130",
+      "work_id": "doi:10.1016/j.jval.2019.02.006",
+      "file": "input/projects/20170130/papers/doi_10.1016_j.jval.2019.02.006.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170160",
+      "work_id": "doi:10.1016/j.jval.2019.06.008",
+      "file": "input/projects/20170160/papers/doi_10.1016_j.jval.2019.06.008.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170170",
+      "work_id": "doi:10.1016/j.jval.2020.05.004",
+      "file": "input/projects/20170170/papers/doi_10.1016_j.jval.2020.05.004.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170330",
+      "work_id": "doi:10.1007/s10198-024-01669-z",
+      "file": "input/projects/20170330/papers/doi_10.1007_s10198-024-01669-z.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170330",
+      "work_id": "doi:10.22541/au.169215780.00019852/v1",
+      "file": "input/projects/20170330/papers/doi_10.22541_au.169215780.00019852_v1.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170500",
+      "work_id": "doi:10.1016/j.jval.2020.03.019",
+      "file": "input/projects/20170500/papers/doi_10.1016_j.jval.2020.03.019.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170610",
+      "work_id": "doi:10.1016/j.jval.2024.11.006",
+      "file": "input/projects/20170610/papers/doi_10.1016_j.jval.2024.11.006.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20170640",
+      "work_id": "doi:10.1016/j.jval.2024.06.018",
+      "file": "input/projects/20170640/papers/doi_10.1016_j.jval.2024.06.018.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180080",
+      "work_id": "doi:10.1016/j.ssmqr.2024.100398",
+      "file": "input/projects/20180080/papers/doi_10.1016_j.ssmqr.2024.100398.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180080",
+      "work_id": "doi:10.21203/rs.3.rs-2423517/v1",
+      "file": "input/projects/20180080/papers/doi_10.21203_rs.3.rs-2423517_v1.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180140",
+      "work_id": "doi:10.1016/j.vhri.2025.101121",
+      "file": "input/projects/20180140/papers/doi_10.1016_j.vhri.2025.101121.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180210",
+      "work_id": "doi:10.1002/hec.4863",
+      "file": "input/projects/20180210/papers/doi_10.1002_hec.4863.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180330",
+      "work_id": "doi:10.1016/j.burns.2020.08.015",
+      "file": "input/projects/20180330/papers/doi_10.1016_j.burns.2020.08.015.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180500",
+      "work_id": "doi:10.1007/s10198-021-01412-y",
+      "file": "input/projects/20180500/papers/doi_10.1007_s10198-021-01412-y.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180510",
+      "work_id": "doi:10.1016/j.jval.2021.10.013",
+      "file": "input/projects/20180510/papers/doi_10.1016_j.jval.2021.10.013.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20180600",
+      "work_id": "doi:10.1016/j.vhri.2025.101501",
+      "file": "input/projects/20180600/papers/doi_10.1016_j.vhri.2025.101501.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20190150R1",
+      "work_id": "doi:10.1007/s10198-023-01647-x",
+      "file": "input/projects/20190150R1/papers/doi_10.1007_s10198-023-01647-x.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20190200",
+      "work_id": "doi:10.1016/j.vhri.2021.09.007",
+      "file": "input/projects/20190200/papers/doi_10.1016_j.vhri.2021.09.007.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20190460",
+      "work_id": "doi:10.1016/j.socscimed.2021.114519",
+      "file": "input/projects/20190460/papers/doi_10.1016_j.socscimed.2021.114519.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20190920",
+      "work_id": "doi:10.1016/j.jval.2021.12.014",
+      "file": "input/projects/20190920/papers/doi_10.1016_j.jval.2021.12.014.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "20191020",
+      "work_id": "doi:10.1016/j.jval.2023.03.003",
+      "file": "input/projects/20191020/papers/doi_10.1016_j.jval.2023.03.003.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "214-RA",
+      "work_id": "doi:10.1016/j.jval.2022.05.013",
+      "file": "input/projects/214-RA/papers/doi_10.1016_j.jval.2022.05.013.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "2181-RA",
+      "work_id": "doi:10.1016/j.jval.2026.01.001",
+      "file": "input/projects/2181-RA/papers/doi_10.1016_j.jval.2026.01.001.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "2181-RA",
+      "work_id": "doi:10.1016/j.jval.2026.02.013",
+      "file": "input/projects/2181-RA/papers/doi_10.1016_j.jval.2026.02.013.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "234-VS",
+      "work_id": "doi:10.1016/j.vhri.2024.101045",
+      "file": "input/projects/234-VS/papers/doi_10.1016_j.vhri.2024.101045.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "304-PHD",
+      "work_id": "doi:10.1007/s10614-024-10637-x",
+      "file": "input/projects/304-PHD/papers/doi_10.1007_s10614-024-10637-x.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "304-PHD",
+      "work_id": "doi:10.3390/econometrics11010004",
+      "file": "input/projects/304-PHD/papers/doi_10.3390_econometrics11010004.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "330-PHD",
+      "work_id": "doi:10.1016/j.jval.2025.04.2161",
+      "file": "input/projects/330-PHD/papers/doi_10.1016_j.jval.2025.04.2161.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "330-PHD",
+      "work_id": "doi:10.1136/archdischild-2025-329475",
+      "file": "input/projects/330-PHD/papers/doi_10.1136_archdischild-2025-329475.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "341-RA",
+      "work_id": "doi:10.1016/j.jval.2024.05.016",
+      "file": "input/projects/341-RA/papers/doi_10.1016_j.jval.2024.05.016.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "345-PHD",
+      "work_id": "doi:10.1016/j.jval.2025.02.001",
+      "file": "input/projects/345-PHD/papers/doi_10.1016_j.jval.2025.02.001.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "361-RA",
+      "work_id": "doi:10.1007/s40273-024-01379-7",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01379-7.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "361-RA",
+      "work_id": "doi:10.1007/s40273-024-01382-y",
+      "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01382-y.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "361-RA",
+      "work_id": "doi:10.1136/archdischild-2025-329475",
+      "file": "input/projects/361-RA/papers/doi_10.1136_archdischild-2025-329475.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "398-RA",
+      "work_id": "doi:10.1007/s11136-024-03669-1",
+      "file": "input/projects/398-RA/papers/doi_10.1007_s11136-024-03669-1.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "409-RA",
+      "work_id": "doi:10.1016/j.jval.2025.01.020",
+      "file": "input/projects/409-RA/papers/doi_10.1016_j.jval.2025.01.020.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "442-RA",
+      "work_id": "doi:10.1016/j.vhri.2025.101543",
+      "file": "input/projects/442-RA/papers/doi_10.1016_j.vhri.2025.101543.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "445-RA",
+      "work_id": "doi:10.21203/rs.3.rs-3693180/v1",
+      "file": "input/projects/445-RA/papers/doi_10.21203_rs.3.rs-3693180_v1.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    },
+    {
+      "project_id": "458-RA",
+      "work_id": "doi:10.1016/j.jval.2024.03.2195",
+      "file": "input/projects/458-RA/papers/doi_10.1016_j.jval.2024.03.2195.pdf",
+      "reason": "pdf: pandoc has no PDF reader"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ The proposal defines three stages.
 | # | Stage | Status |
 | --- | --- | --- |
 | 1 | **Corpus assembly** — resolve every funded project to its publications, retrieve full texts | largely done, see below |
-| 2 | **Schema + LLM extraction pipeline** — extract structured data from full text, refine the schema iteratively | graph model designed, extraction not started |
+| 2 | **Schema + LLM extraction pipeline** — extract structured data from full text, refine the schema iteratively | graph model designed, corpus converted to Markdown, extraction not started |
 | 3 | **Graph database + web application** — Neo4j, visual summaries, structured search, natural-language queries | schema DDL written, nothing loaded |
 
 Deliverables promised to EuroQol:
@@ -62,6 +62,7 @@ From the current run over all 1024 projects:
 - **209 projects (20.4%)** have a publication linked at accepted confidence; 243 have no candidate at all; the remaining 572 sit in review or name-only bands.
 - **2603 works** in the pool, 305 linked at accepted confidence.
 - **287 full texts on disk** (114 MB), mostly Europe PMC JATS XML.
+  The 220 XML ones are converted to Markdown in [`corpus/`](corpus/README.md) (16.9 MB); the remaining 67 are PDFs and are not yet extracted.
 
 Read [`reports/coverage.md`](reports/coverage.md) before drawing conclusions from those numbers,
 and [`reports/no-publications.md`](reports/no-publications.md) for the caveat that matters most:
@@ -77,7 +78,8 @@ That band is a review pool by construction and cannot be promoted by tuning.
 | --- | --- |
 | [`input/`](input/README.md) | The immutable record of what was collected — the source CSV and its documented schema |
 | [`input/projects/`](input/projects/README.md) | One directory per funded project: `project.json`, `abstract.txt`, `publications.json`, `papers/` |
-| [`scripts/`](scripts/README.md) | The scraping pipeline and the CSV splitter |
+| [`scripts/`](scripts/README.md) | The scraping pipeline, the CSV splitter and the Markdown converter |
+| [`corpus/`](corpus/README.md) | The full texts converted to Markdown, ready for stage-2 extraction |
 | [`graph/`](graph/) | Neo4j schema DDL — constraints, indexes, and the declarative `GRAPH TYPE` equivalent |
 | [`reports/`](reports/) | Generated coverage and gap reports |
 | [`docs/`](docs/) | The submitted proposal and [the graph model](docs/graph-model.md) |
@@ -91,9 +93,11 @@ Derived graph artefacts do not belong under `input/` — that tree stays the rec
 python3 scripts/split_projects.py    # CSV -> input/projects/*
 python3 scripts/scrape.py all        # discover -> match -> enrich -> harvest -> mine -> export -> fulltext -> report
 python3 scripts/scrape.py status     # what the ledger currently knows
+python3 scripts/to_markdown.py       # papers/*.xml -> corpus/*.md, for stage-2 extraction
 ```
 
 Python 3 with `requests` as the only third-party dependency.
+`to_markdown.py` additionally needs `pandoc` on the path (`brew install pandoc`); it is offline and touches no network.
 Europe PMC, Crossref and Unpaywall need no key;
 the CORE harvest stage skips itself unless `CORE_API_KEY` is set (free).
 Every source in use is free — OpenAlex is deliberately *not* used, being metered at a rate a single funders query exhausts.
