@@ -53,7 +53,7 @@ If the agent can traverse `(:Project)-[:PRODUCED]->(:Work)` without seeing confi
 So the link is reified:
 
 ```cypher
-(:Project)-[:CLAIMS]->(:Attribution {confidence, score, curated, sources})-[:TO_WORK]->(:Work)
+(:Project)-[:CLAIMS]->(:Attribution {confidence, score, curated, sources})-[:OF_WORK]->(:Work)
 (:Attribution)-[:SUPPORTED_BY]->(:Evidence {kind, detail, weight})
 ```
 
@@ -77,9 +77,11 @@ A person's affiliation changes between papers, so it cannot hang off `:Person`:
 (:Authorship)-[:AT_ORGANIZATION]->(:Organization)-[:LOCATED_IN]->(:Country)
 ```
 
+Contributor roles go on the authorship as `creditRoles`, following the [CRediT](https://credit.niso.org/) taxonomy — JATS already carries them, so they cost nothing to capture.
+
 31 269 author mentions resolve to far fewer people, and most have no ORCID.
 `Person.personId` is the ORCID where present and a normalised-name key otherwise, with `resolved` recording which.
-Unresolved duplicates are merged with `[:SAME_AS]` rather than destructively, so a bad merge can be undone — the same lifecycle as layer C.
+Unresolved duplicates are retired with `[:MERGED_INTO]` rather than destructively, so a bad merge can be undone — the same lifecycle as layer C.
 
 ### Country means three different things
 
@@ -132,7 +134,7 @@ National value sets are the portfolio's highest-value output and deserve to be q
 Mode, language and role (index measure versus comparator) are properties of *this study's use* of the instrument, not of the instrument:
 
 ```cypher
-(:Study)-[:USED]->(:InstrumentUse {role, mode, language})-[:OF_INSTRUMENT]->(:Instrument)
+(:Study)-[:ADMINISTERED]->(:InstrumentUse {role, mode, language})-[:OF_INSTRUMENT]->(:Instrument)
 ```
 
 `Instrument` itself is curated and closed for the EQ family (`EQ-5D-3L`, `EQ-5D-5L`, `EQ-5D-Y-3L`, `EQ-5D-Y-5L`, `EQ-HWB`, `EQ-HWB-S`, `EQ-VAS`, bolt-ons) and open for comparators, flagged by `isEuroQol`.
@@ -151,9 +153,14 @@ So everything novel lands as data:
 (:Concept {conceptId, prefLabel, definition, scheme, kind, status, support, embedding})
 (:Term {text, normalized})-[:DENOTES]->(:Concept)
 (:Concept)-[:BROADER]->(:Concept)
-(:Concept)-[:SAME_AS]->(:Concept)
+(:Concept)-[:MERGED_INTO]->(:Concept)                     // internal dedup
+(:Concept)-[:EXACT_MATCH|CLOSE_MATCH]->(:Concept)         // external alignment
 (:Chunk)-[:MENTIONS {count}]->(:Concept)
 ```
+
+Deduplication and alignment are separate acts and get separate types.
+`MERGED_INTO` retires a duplicate candidate; `EXACT_MATCH` and `CLOSE_MATCH` are `skos:exactMatch` and `skos:closeMatch`, pointing at a MeSH or Cochrane concept.
+An LLM-proposed alignment to MeSH is rarely exact, and recording an approximate one as identity would poison the `BROADER*` rollups the whole design leans on.
 
 `status` runs `candidate → promoted → merged`.
 A candidate accumulates `support` as more papers mention it.
@@ -183,6 +190,117 @@ There is no reason to hand-build a research-domain ontology.
 MeSH is the significant one.
 Europe PMC already returns MeSH headings per PMID, so a maintained hierarchical ontology of the research domain arrives attached to the corpus at no cost, and `BROADER*` traversal gives the agent rollups ("all cancer studies") for free.
 Only the genuinely EuroQol-local vocabularies are worth curating by hand, and they are all small and closed.
+
+## Vocabulary alignment
+
+The table above lists identifier *systems*.
+This section states what the classes themselves mean in published vocabularies, which is a different question and matters for two reasons: the web app should emit JSON-LD the outside world can read, and alignment is free evidence that a reification is not idiosyncratic.
+
+The governing rule is that we **model to the domain and project to schema.org at the API edge**, never the reverse.
+schema.org is a web-publishing vocabulary with no way to express a measurement property, an elicitation technique or a value-set coefficient.
+Modelling to it would discard exactly the distinctions that make questions 2, 3 and 8 answerable.
+
+### Layer A
+
+| Class | schema.org | Research-domain |
+| --- | --- | --- |
+| `Project` | `schema:ResearchProject`, `schema:MonetaryGrant` | `vivo:Grant` |
+| `Work` | `schema:ScholarlyArticle` | `fabio:JournalArticle`, `dcterms:*` |
+| `Journal` | `schema:Periodical` | `fabio:Journal` |
+| `Person` | `schema:Person` | `foaf:Person` |
+| `Organization` | `schema:Organization` | `org:FormalOrganization` |
+| `Country` | `schema:Country` | — |
+| `Authorship` | `schema:Role` | `vivo:Authorship` |
+| `Attribution` | — | `prov:Attribution` |
+| `Evidence` | — | partly `prov:hadRole`; mostly local |
+| `FullText`, `Chunk` | `schema:MediaObject` | `prov:Entity` |
+| `Extraction` | — | `prov:Activity` |
+
+Three alignments are exact rather than approximate, which is worth knowing because each one independently validates a reification:
+
+- `Authorship` is schema.org's `Role` pattern, and VIVO arrived at a class literally named `vivo:Authorship` for the same reason — affiliation belongs to the person-work pairing, not the person.
+- `Attribution` is PROV-O's qualified-relation pattern node for node. `prov:qualifiedAttribution` → `prov:Attribution` exists precisely to hang confidence and justification off an otherwise binary link.
+- `Concept` and `Term` are SKOS and SKOS-XL, below.
+
+PROV also supplies the vocabulary for recording that an LLM produced something: `:Extraction` is a `prov:Activity`, layer-B nodes reach it via `[:GENERATED_BY]` (`prov:wasGeneratedBy`), and `[:EXTRACTED_FROM]` is `prov:wasDerivedFrom`.
+That is worth having for the accuracy assessment on its own terms, export or no export — a bad prompt version has to be traceable to exactly the nodes it produced.
+
+### Layer B
+
+Standards thin out here, and the gaps matter more than the matches.
+
+The best available fit is **Cochrane's PICO ontology and Linked Data Vocabulary** — roughly 400 000 terms already cross-linked to MeSH, SNOMED-CT, MedDRA, RxNorm and ATC.
+PICO maps onto the extraction targets closely enough to be worth adopting rather than paralleling:
+
+| Our class | PICO / other |
+| --- | --- |
+| `Sample` | PICO Population |
+| `InstrumentUse {role:'index'}` | PICO Intervention |
+| `InstrumentUse {role:'comparator'}` | PICO Comparison |
+| `Finding` → `Property` | PICO Outcome |
+| `Study` | `obi:investigation` |
+| `Method` (statistical) | STATO |
+
+What has no standard:
+
+- **COSMIN is a taxonomy, not an ontology** — no IRIs, no machine-readable release. `:Property` codes are local, with the COSMIN term as the label.
+- **Value sets and coefficients have no published ontology at all.** Entirely local, which is unsurprising: they are also the portfolio's most distinctive output.
+- **LOINC for instruments is unverified.** LOINC has patient-reported-outcome panel infrastructure (`89196-0`, `72355-1`), but whether an EQ-5D-specific panel code exists was not confirmed. Search LOINC directly before designing around it.
+
+### Layer C
+
+SKOS, essentially unchanged: `skos:Concept`, `skos:prefLabel`, `skos:definition`, `skos:inScheme`, `skos:broader`, `skos:exactMatch`, `skos:closeMatch`, and `skosxl:Label` for `:Term`.
+
+### Where the alignment lives
+
+Two mechanisms, deliberately not merged.
+Class-level alignment is design-time and static, so it goes in the catalog subgraph where it costs nothing at query time and the agent can read it during progressive disclosure:
+
+```cypher
+(:_Vocabulary {prefix, namespace, title})
+(:_VocabularyTerm {curie})-[:IN_VOCABULARY]->(:_Vocabulary)
+(:_NodeType)-[:ALIGNS_WITH {relation}]->(:_VocabularyTerm)
+(:_RelType)-[:ALIGNS_WITH {relation}]->(:_VocabularyTerm)
+```
+
+Instance-level alignment is data and grows with the corpus: the `EXACT_MATCH` and `CLOSE_MATCH` edges between `:Concept` nodes.
+
+We do **not** run the graph as RDF.
+Neosemantics can round-trip it if that is ever needed, but a property graph carrying alignment metadata gives the interoperability without giving up the reified n-ary modelling that motivated choosing a graph at all.
+
+## Presenting the graph
+
+Some of the audience will see the graph rendered, not queried, and will not know Cypher.
+That constrains presentation, not the schema — and the two are kept apart on purpose.
+
+Relationship types stay `SCREAMING_SNAKE_CASE` and labels stay `PascalCase`, because the graph's other primary consumer is an LLM writing Cypher, and every sample in the vendored skills and in any model's training data uses those conventions.
+A miscased relationship type does not raise an error in Neo4j; it returns **zero rows**, and the agent reports "no results" with full confidence.
+That failure is silent and permanent, whereas readability is solved once, elsewhere:
+
+```cypher
+(:_RelType {
+  name:                'PRODUCED_VALUE_SET',
+  displayLabel:        'produced value set',
+  displayLabelInverse: 'was produced by',
+  description:         'A study that elicited a national value set.'
+})
+(:_NodeType {
+  name:              'InstrumentUse',
+  displayName:       'instrument use',
+  displayNamePlural: 'instrument uses'
+})
+```
+
+A display layer is needed regardless of casing — `ValueSet` and `InstrumentUse` are no more self-explanatory as captions than `PRODUCED_VALUE_SET` is — so putting it in the catalog costs nothing extra and buys three things a naming convention cannot:
+
+- **Direction-aware phrasing.** The same edge reads *"project claims work"* one way and *"work claimed by project"* the other.
+- **Renaming never breaks a query.** Wording can be iterated with EuroQol during the demo without a migration.
+- **Translation stays possible.** EuroQol is not an English-only organisation.
+
+One rendering rule follows from the reifications.
+`Attribution`, `Authorship`, `InstrumentUse` and `Finding` exist because a binary edge could not carry the fact;
+in a diagram they should be drawn as the labelled node with their surrounding edges left unlabelled.
+`Project —— [Attribution: accepted, 0.9] —— Work` reads better than three labelled hops, and it puts confidence where a non-technical viewer will actually see it, which is the single most important thing to be visible in a EuroQol demonstration.
 
 ## Semantic search
 
@@ -214,10 +332,12 @@ The agent does not get a schema dump.
 The database carries its own description, generated from `apoc.meta.stats` plus hand-written prose, under `_`-prefixed labels the application filters out of the domain schema:
 
 ```cypher
-(:_NodeType {name, description, count, keyProperties, exampleCypher})
+(:_NodeType {name, displayName, displayNamePlural, description, count, keyProperties, exampleCypher})
   -[:HAS_PROPERTY]->(:_PropertyDef {name, type, cardinality, sampleValues})
-(:_NodeType)-[:CONNECTS_VIA]->(:_RelType {name, description, count})
+(:_NodeType)-[:CONNECTS_VIA]->(:_RelType {name, displayLabel, displayLabelInverse, description, count})
 ```
+
+The same nodes carry the display captions and the vocabulary alignment, so one catalog serves the agent, the visualisation and the JSON-LD export.
 
 First call: read the catalog.
 Then drill into only the region the question touches.
@@ -272,6 +392,9 @@ This is where the confidence default is enforced, and it is what makes the demo 
 | `ValueSet` | `valueSetId` | B | |
 | `Coefficient` | `coefficientId` | B | |
 | `Finding` | `findingId` | B | n-ary; the reason the graph exists |
+| `Extraction` | `extractionId` | B | `prov:Activity`; one per pipeline run |
 | `Concept` | `conceptId` | C | candidate → promoted → merged |
 | `Term` | `normalized` | C | surface forms |
-| `_NodeType`, `_RelType`, `_PropertyDef`, `_QueryTemplate` | `name` | meta | the agent's self-description |
+| `_NodeType`, `_RelType`, `_PropertyDef`, `_QueryTemplate` | `name` | meta | the agent's self-description, plus display captions |
+| `_Vocabulary` | `prefix` | meta | published vocabularies the model aligns to |
+| `_VocabularyTerm` | `curie` | meta | the aligned class or property |

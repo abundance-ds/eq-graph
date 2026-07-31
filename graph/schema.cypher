@@ -112,6 +112,11 @@ CREATE CONSTRAINT coefficient_id_key IF NOT EXISTS
 CREATE CONSTRAINT finding_id_key IF NOT EXISTS
   FOR (n:Finding) REQUIRE n.findingId IS NODE KEY;
 
+// prov:Activity — one node per extraction run. Every layer-B node points at the run
+// that produced it, so a bad prompt version is traceable to exactly its own output.
+CREATE CONSTRAINT extraction_id_key IF NOT EXISTS
+  FOR (n:Extraction) REQUIRE n.extractionId IS NODE KEY;
+
 // ---------------------------------------------------------------------------
 // 3. Uniqueness / key constraints — layer C and the meta catalog
 // ---------------------------------------------------------------------------
@@ -134,6 +139,16 @@ CREATE CONSTRAINT meta_property_def_key IF NOT EXISTS
 
 CREATE CONSTRAINT meta_query_template_key IF NOT EXISTS
   FOR (n:_QueryTemplate) REQUIRE n.name IS NODE KEY;
+
+// Class-level alignment to published vocabularies (schema.org, PROV-O, SKOS, ...).
+// Design-time and static, so it lives in the catalog rather than on the domain nodes.
+// Instance-level alignment is a different thing entirely: EXACT_MATCH / CLOSE_MATCH
+// edges between :Concept nodes, which are data and grow with the corpus.
+CREATE CONSTRAINT meta_vocabulary_prefix_key IF NOT EXISTS
+  FOR (n:_Vocabulary) REQUIRE n.prefix IS NODE KEY;
+
+CREATE CONSTRAINT meta_vocabulary_term_curie_key IF NOT EXISTS
+  FOR (n:_VocabularyTerm) REQUIRE n.curie IS NODE KEY;
 
 // ---------------------------------------------------------------------------
 // 4. Property type and existence constraints — Enterprise / Aura only
@@ -218,6 +233,10 @@ CREATE INDEX concept_status_support_idx IF NOT EXISTS
 
 CREATE INDEX concept_scheme_idx IF NOT EXISTS
   FOR (n:Concept) ON (n.scheme);
+
+// Lets the accuracy audit slice output by the run that produced it.
+CREATE INDEX extraction_prompt_version_idx IF NOT EXISTS
+  FOR (n:Extraction) ON (n.promptVersion);
 
 // ---------------------------------------------------------------------------
 // 6. Full-text indexes

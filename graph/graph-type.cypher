@@ -15,9 +15,9 @@
 // open model, so undeclared elements are still permitted, and the catalog is generated
 // from the live database rather than authored.
 //
-// Untested against a live instance. Two declarations reuse a relationship type with
-// different endpoints (:SAME_AS on both :Person and :Concept); confirm the preview
-// accepts that union before relying on this file.
+// Untested against a live instance. Several declarations reuse a relationship type with
+// different endpoints — :MERGED_INTO on both :Person and :Concept, :GENERATED_BY on six
+// layer-B types. Confirm the preview accepts that union before relying on this file.
 
 CYPHER 25
 ALTER CURRENT GRAPH TYPE SET {
@@ -78,7 +78,8 @@ ALTER CURRENT GRAPH TYPE SET {
     position        :: INTEGER,
     isFirst         :: BOOLEAN,
     isLast          :: BOOLEAN,
-    isCorresponding :: BOOLEAN
+    isCorresponding :: BOOLEAN,
+    creditRoles     :: LIST<STRING>     // CRediT taxonomy, already present in JATS
   }) REQUIRE authorship.authorshipId IS KEY,
 
   (org:Organization {
@@ -178,6 +179,16 @@ ALTER CURRENT GRAPH TYPE SET {
     se            :: FLOAT
   }) REQUIRE coefficient.coefficientId IS KEY,
 
+  // prov:Activity — one per extraction run, so a bad prompt version is traceable
+  // to exactly the nodes it produced and no others.
+  (extraction:Extraction {
+    extractionId  :: STRING NOT NULL,
+    model         :: STRING NOT NULL,
+    promptVersion :: STRING NOT NULL,
+    runAt         :: ZONED DATETIME NOT NULL,
+    codeRevision  :: STRING
+  }) REQUIRE extraction.extractionId IS KEY,
+
   (finding:Finding {
     findingId :: STRING NOT NULL,
     metric    :: STRING NOT NULL,
@@ -221,13 +232,13 @@ ALTER CURRENT GRAPH TYPE SET {
   (:Project)-[:LED_BY]->(:Person),
 
   (:Project)-[:CLAIMS]->(:Attribution),
-  (:Attribution)-[:TO_WORK]->(:Work),
+  (:Attribution)-[:OF_WORK]->(:Work),
   (:Attribution)-[:SUPPORTED_BY]->(:Evidence),
 
   (:Person)-[:AUTHORED]->(:Authorship),
   (:Authorship)-[:OF_WORK]->(:Work),
   (:Authorship)-[:AT_ORGANIZATION]->(:Organization),
-  (:Person)-[:SAME_AS]->(:Person),
+  (:Person)-[:MERGED_INTO]->(:Person),
   (:Organization)-[:LOCATED_IN]->(:Country),
   (:Work)-[:PUBLISHED_IN]->(:Journal),
 
@@ -240,7 +251,7 @@ ALTER CURRENT GRAPH TYPE SET {
   (:Study)-[:ENROLLED]->(:Sample),
   (:Sample)-[:RECRUITED_IN]->(:Country),
   (:Sample)-[:HAS_CONDITION]->(:Condition),
-  (:Study)-[:USED]->(:InstrumentUse),
+  (:Study)-[:ADMINISTERED]->(:InstrumentUse),
   (:InstrumentUse)-[:OF_INSTRUMENT]->(:Instrument),
   (:Study)-[:APPLIED]->(:Method),
   (:Study)-[:PRODUCED_VALUE_SET]->(:ValueSet),
@@ -257,6 +268,19 @@ ALTER CURRENT GRAPH TYPE SET {
 
   (:Term)-[:DENOTES]->(:Concept),
   (:Concept)-[:BROADER]->(:Concept),
-  (:Concept)-[:SAME_AS]->(:Concept),
-  (:Chunk)-[:MENTIONS { count :: INTEGER }]->(:Concept)
+  // Internal dedup and external alignment are different acts and get different types.
+  // MERGED_INTO retires a duplicate; the *_MATCH pair are skos:exactMatch / skos:closeMatch.
+  (:Concept)-[:MERGED_INTO]->(:Concept),
+  (:Concept)-[:EXACT_MATCH]->(:Concept),
+  (:Concept)-[:CLOSE_MATCH]->(:Concept),
+  (:Chunk)-[:MENTIONS { count :: INTEGER }]->(:Concept),
+
+  // PROV-O: every layer-B node records the run that produced it, which is what
+  // makes the accuracy assessment against the hand-coded papers attributable.
+  (:Study)-[:GENERATED_BY]->(:Extraction),
+  (:Sample)-[:GENERATED_BY]->(:Extraction),
+  (:InstrumentUse)-[:GENERATED_BY]->(:Extraction),
+  (:ValueSet)-[:GENERATED_BY]->(:Extraction),
+  (:Finding)-[:GENERATED_BY]->(:Extraction),
+  (:Concept)-[:GENERATED_BY]->(:Extraction)
 };
