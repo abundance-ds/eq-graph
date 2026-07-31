@@ -21,8 +21,8 @@ The proposal defines three stages.
 | # | Stage | Status |
 | --- | --- | --- |
 | 1 | **Corpus assembly** — resolve every funded project to its publications, retrieve full texts | largely done, see below |
-| 2 | **Schema + LLM extraction pipeline** — extract structured data from full text, refine the schema iteratively | not started |
-| 3 | **Graph database + web application** — Neo4j, visual summaries, structured search, natural-language queries | not started |
+| 2 | **Schema + LLM extraction pipeline** — extract structured data from full text, refine the schema iteratively | graph model designed, extraction not started |
+| 3 | **Graph database + web application** — Neo4j, visual summaries, structured search, natural-language queries | schema DDL written, nothing loaded |
 
 Deliverables promised to EuroQol:
 
@@ -78,8 +78,9 @@ That band is a review pool by construction and cannot be promoted by tuning.
 | [`input/`](input/README.md) | The immutable record of what was collected — the source CSV and its documented schema |
 | [`input/projects/`](input/projects/README.md) | One directory per funded project: `project.json`, `abstract.txt`, `publications.json`, `papers/` |
 | [`scripts/`](scripts/README.md) | The scraping pipeline and the CSV splitter |
+| [`graph/`](graph/) | Neo4j schema DDL — constraints, indexes, and the declarative `GRAPH TYPE` equivalent |
 | [`reports/`](reports/) | Generated coverage and gap reports |
-| [`docs/`](docs/) | The submitted proposal |
+| [`docs/`](docs/) | The submitted proposal and [the graph model](docs/graph-model.md) |
 | `cache/`, `state/` | Gitignored: raw HTTP responses and the SQLite ledger |
 
 Derived graph artefacts do not belong under `input/` — that tree stays the record of what was collected, not of what was inferred from it.
