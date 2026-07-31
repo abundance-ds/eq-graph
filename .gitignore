@@ -3,3 +3,5 @@ state/
 __pycache__/
 *.pyc
 /.idea
+# Agent skills are vendored under /.agents/skills — see its README for why
+/.claude/settings.local.json

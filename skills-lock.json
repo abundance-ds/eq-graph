@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "neo4j-aura-provisioning-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-aura-provisioning-skill/SKILL.md",
+      "computedHash": "7410b7fde29c02bee520d3eba750866bfdba19605dbe23536b7fe0449063f3cc"
+    },
+    "neo4j-cypher-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-cypher-skill/SKILL.md",
+      "computedHash": "1822c0a56aae0e1f3a704671dfae3370260a2489dda3598e8485b9a6733202ae"
+    },
+    "neo4j-driver-python-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-driver-python-skill/SKILL.md",
+      "computedHash": "daef535fd218c4c370c5bfe993d53c16ffbfd7ce57224e03b4890d282975d5ae"
+    },
+    "neo4j-gds-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-gds-skill/SKILL.md",
+      "computedHash": "46ff2fdb4be970c599fb62d2aa2d637094eff28acf168eb0e3738d843a89fb5b"
+    },
+    "neo4j-graphrag-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-graphrag-skill/SKILL.md",
+      "computedHash": "0ce5a306fbb4105ee52d9cefa033f6e6fc7003b34b98389dc89e4f7e651358f5"
+    },
+    "neo4j-import-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-import-skill/SKILL.md",
+      "computedHash": "aea07d3fb395d2a257dca21dc8780d0dc0652207e5667e29fa7583a15e92d3a2"
+    },
+    "neo4j-modeling-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-modeling-skill/SKILL.md",
+      "computedHash": "9b6eb52efcc46908ff153d2f9d344db0c4cff7c0b5dd26dcd45c680120e6d608"
+    },
+    "neo4j-vector-index-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-vector-index-skill/SKILL.md",
+      "computedHash": "76b6284d2d0ba5dca31fded5af76f3ec931e17bd516138fb8859ec99c8c501f3"
+    }
+  }
+}

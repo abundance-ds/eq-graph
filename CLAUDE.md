@@ -60,6 +60,9 @@ Both developers and AI agents are expected to add entries as they encounter surp
 - CDP download events are **browser-wide**, not per-connection.
   Two fetch jobs against one Chrome will consume and delete each other's files: running a Sage and a ScienceDirect job together filed the Sage PDF under the ScienceDirect DOI, and the byte count looked entirely plausible.
   Drive one target at a time, and verify a downloaded PDF against its expected title before trusting it.
+- `npx skills add <repo> --skill <name>` installs one skill at a time (the repo README only advertises the install-everything form), but it **skips a skill silently** when its `SKILL.md` frontmatter is invalid YAML — the warning scrolls past among unrelated ones and the exit code stays 0.
+  `neo4j-mcp-skill` hits this, and is vendored here with the offending colon patched; see [`.agents/skills/README.md`](.agents/skills/README.md).
+  `skills-lock.json` pins no commit SHA and does not list the patched skill, so it is a provenance record, not a restore mechanism — that is why the skills are committed.
 
 ## Anti-patterns to avoid
 
