@@ -216,9 +216,9 @@ final message, run the tools, push the results, and repeat. Stop when
 `stop_reason` is not `tool_use`. Keep the round cap and the second system
 prompt that removes the tools on the last round.
 
-**Model:** `claude-opus-5` for the agent. `claude-haiku-4-5` for the follow-up
-questions. Put the schema in the system prompt with `cache_control` on the last
-block. The prompt-cache minimum on Opus 5 is 512 tokens, so the schema caches.
+**Test model:** `claude-sonnet-5` drives the agent and writes the follow-up
+questions in the same turn. Put the schema in the system prompt with
+`cache_control` so the stable schema can use prompt caching.
 
 ### The tools
 

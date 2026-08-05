@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     neo4jDatabase: "",
     // The model that drives the agent. Change the provider in one place:
     // server/utils/model.ts
-    agentModel: "claude-opus-5",
+    agentModel: "claude-sonnet-5",
     // Guards for run_cypher.
     cypherTimeoutMs: 10_000,
     cypherRowCap: 2000,

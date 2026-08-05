@@ -14,6 +14,7 @@ Stable knowledge lives in README.md; this file is the narrative.
 - Added a live graph-status endpoint and interface state. Added a read-only
   connection check and made all demo seed, reset, and migration commands refuse
   remote Neo4j hosts.
+- Switched the application test agent from Claude Opus 5 to Claude Sonnet 5.
 - Continued the frozen screen to 300/918 batches and 6,000/18,348 records. The
   validated checkpoint had 1,151 retained and 4,849 excluded decisions. The retention
   rate was 19.18%; no prompt, rule, corpus, or retrieval state changed.
