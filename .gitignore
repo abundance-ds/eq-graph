@@ -7,3 +7,22 @@ __pycache__/
 /.idea
 # Agent skills are vendored under /.agents/skills — see its README for why
 /.claude/settings.local.json
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+!**/.env.example
+.DS_Store
+
+# Local pipeline work and active run output
+/artefacts/
+/pilot/
+/scale/
+/runs/
+/work/
+
+# Nuxt dependencies and generated output
+node_modules/
+.nuxt/
+.output/
