@@ -1,0 +1,20 @@
+{"record_id": "P194d15e1ded5", "outcome": "exclude", "reason": "[E4] This cross-sectional study examines parents' COVID-19 vaccination intentions and beliefs, not health measurement or valuation."}
+{"record_id": "P400a9a39db25", "outcome": "exclude", "reason": "[E2] This systematic review examines how adherence is incorporated into asthma cost-effectiveness models, not measurement or valuation methods."}
+{"record_id": "P5adb70ae1f53", "outcome": "retain", "reason": "[R2] The study directly compares DCE-to-QALY anchoring, mapping, and hybrid methods for valuing health states."}
+{"record_id": "Ped09f2dc0688", "outcome": "exclude", "reason": "[E3] This DCE elicits patient and physician preferences for atopic dermatitis treatment attributes, not health-state values."}
+{"record_id": "P31ff012c0beb", "outcome": "retain", "reason": "[R1] The study assesses content validity of the Italian EQ-HWB and EQ-HWB-S instruments."}
+{"record_id": "P9cab91ca50fd", "outcome": "exclude", "reason": "[E4] This evaluates a parenting-style scale across cultures rather than a health or wellbeing measurement instrument."}
+{"record_id": "Pbe9b7dc732f5", "outcome": "exclude", "reason": "[E2] This vaccine decision model and budget-impact analysis reports cost per QALY rather than studying valuation."}
+{"record_id": "Pdbef0c2452ff", "outcome": "exclude", "reason": "[E4] This study maps nursing-home-care accessibility and its sociodemographic correlates, outside measurement and valuation research."}
+{"record_id": "P319a919037f5", "outcome": "retain", "reason": "[R2] This protocol centrally develops a Duchenne muscular dystrophy preference-based HRQoL measure and its value set."}
+{"record_id": "P595e0df3a2cf", "outcome": "retain", "reason": "[R1] The article studies attribute non-attendance in EQ-5D-5L DCE health-state valuation for national value sets."}
+{"record_id": "Pd40392956b2d", "outcome": "exclude", "reason": "[E4] This clinical screening study compares HbA1c and glucose tests for detecting abnormal glucose tolerance after gestational diabetes."}
+{"record_id": "Pd7ce056308c8", "outcome": "exclude", "reason": "[E5] The supplied abstract is an incomplete fragment and cannot support article screening."}
+{"record_id": "Pc77ab47251bf", "outcome": "exclude", "reason": "[E4] This comparative discussion concerns regulation of general medical practice and healthcare expenditure, not measurement or valuation."}
+{"record_id": "P13a50c7a151d", "outcome": "retain", "reason": "[R1] The article directly compares UK and English EQ-5D value sets and their utility-score properties."}
+{"record_id": "Pa494ae4c9bea", "outcome": "exclude", "reason": "[E4] This is a feasibility trial of an oral-health intervention; the OHAT is used within delivery rather than evaluated as its research object."}
+{"record_id": "Pcfb895e0b381", "outcome": "exclude", "reason": "[E2] This revascularization trial focuses on clinical and cost-effectiveness comparisons; EuroQol is only a quality-of-life outcome."}
+{"record_id": "P5e758f731736", "outcome": "retain", "reason": "[R1] The study evaluates alternative EQ-VT designs for generating more precise national EQ-5D-5L value sets."}
+{"record_id": "P197b91cd88a6", "outcome": "exclude", "reason": "[E5] The supplied abstract is only an introductory fragment and is not a usable article abstract."}
+{"record_id": "P139d8058a935", "outcome": "exclude", "reason": "[E4] This estimates the healthcare cost burden attributable to sedentary behaviour, outside measurement and valuation research."}
+{"record_id": "P8ece1bb2377a", "outcome": "exclude", "reason": "[E5] The supplied abstract field contains only author and citation information, not a usable article abstract."}

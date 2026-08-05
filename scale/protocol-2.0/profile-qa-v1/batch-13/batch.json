@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-13",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Deborah Street",
+      "openalex_id": "A5053497885"
+    },
+    {
+      "name": "Des Scott",
+      "openalex_id": "A5038664789"
+    },
+    {
+      "name": "Dominik Golicki",
+      "openalex_id": "A5035126117"
+    },
+    {
+      "name": "Donna Rowen",
+      "openalex_id": "A5067226056"
+    },
+    {
+      "name": "Edward Webb",
+      "openalex_id": "A5011344482"
+    }
+  ]
+}

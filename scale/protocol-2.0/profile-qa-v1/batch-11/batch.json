@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-11",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Ciaran O'Neill",
+      "openalex_id": "A5016414995"
+    },
+    {
+      "name": "Claire Gudex",
+      "openalex_id": "A5047944478"
+    },
+    {
+      "name": "Clara Mukuria",
+      "openalex_id": "A5043083823"
+    },
+    {
+      "name": "Corneliu Bolbocean",
+      "openalex_id": "A5018646670"
+    },
+    {
+      "name": "Cynthia L. Gong",
+      "openalex_id": "A5101451604"
+    }
+  ]
+}

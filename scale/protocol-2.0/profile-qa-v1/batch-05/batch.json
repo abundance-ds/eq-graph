@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-05",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Annette Regan",
+      "openalex_id": "A5010948852"
+    },
+    {
+      "name": "Annushiah Vasan Thakumar",
+      "openalex_id": "A5007225491"
+    },
+    {
+      "name": "Antony Martin",
+      "openalex_id": "A5070568819"
+    },
+    {
+      "name": "Arjun Bhadhuri",
+      "openalex_id": "A5064578943"
+    },
+    {
+      "name": "Arthur Attema",
+      "openalex_id": "A5082166488"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "profiles_assessed": 271,
+  "accepted": 222,
+  "held": 49,
+  "inspection_set": {
+    "all_held": 49,
+    "largest_accepted": 25,
+    "random_accepted": 20,
+    "unique_people": 93,
+    "seed": 20260804,
+    "status": "Inspected by the project operator; not independently validated."
+  },
+  "people_in_final_review_queue": 137,
+  "rule": "Only accept enters the author discovery route. Hold requires review.",
+  "failures": []
+}

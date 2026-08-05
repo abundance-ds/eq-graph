@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-45",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Rosalie Viney",
+      "openalex_id": "A5076742980"
+    },
+    {
+      "name": "Ruixuan Jiang",
+      "openalex_id": "A5049026946"
+    },
+    {
+      "name": "Sander van Kuijk",
+      "openalex_id": "A5087173002"
+    },
+    {
+      "name": "Sarah Derrett",
+      "openalex_id": "A5021576811"
+    },
+    {
+      "name": "Sarah Dewilde",
+      "openalex_id": "A5043932217"
+    }
+  ]
+}

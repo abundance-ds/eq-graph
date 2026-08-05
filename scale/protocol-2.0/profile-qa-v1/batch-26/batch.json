@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-26",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "John Brazier",
+      "openalex_id": "A5007276743"
+    },
+    {
+      "name": "John Hartman",
+      "openalex_id": "A5108501222"
+    },
+    {
+      "name": "John Yfantopoulos",
+      "openalex_id": "A5050078092"
+    },
+    {
+      "name": "Jose Luis Pinto-Prades",
+      "openalex_id": "A5017788431"
+    },
+    {
+      "name": "Josephine Walker",
+      "openalex_id": "A5038317615"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-10",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Carlos Wong",
+      "openalex_id": "A5041610413"
+    },
+    {
+      "name": "Cate Bailey",
+      "openalex_id": "A5020867003"
+    },
+    {
+      "name": "Cathrine Elgaard Jensen",
+      "openalex_id": "A5102727513"
+    },
+    {
+      "name": "Chris Sampson",
+      "openalex_id": "A5002636040"
+    },
+    {
+      "name": "Christine Mpundu-Kaambwa",
+      "openalex_id": "A5020619329"
+    }
+  ]
+}

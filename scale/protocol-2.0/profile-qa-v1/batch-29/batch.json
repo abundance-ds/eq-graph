@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-29",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Katy Gallop",
+      "openalex_id": "A5091811569"
+    },
+    {
+      "name": "Kelly de Ligt",
+      "openalex_id": "A5000687889"
+    },
+    {
+      "name": "Kidu Gidey",
+      "openalex_id": "A5040157120"
+    },
+    {
+      "name": "Kim Dalziel",
+      "openalex_id": "A5078953009"
+    },
+    {
+      "name": "Kim Rand",
+      "openalex_id": "A5041551368"
+    }
+  ]
+}

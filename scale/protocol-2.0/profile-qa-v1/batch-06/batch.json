@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-06",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Arto Ohinmaa",
+      "openalex_id": "A5087246819"
+    },
+    {
+      "name": "Asrul Shafie",
+      "openalex_id": "A5089160643"
+    },
+    {
+      "name": "Ataru Igarashi",
+      "openalex_id": "A5071771037"
+    },
+    {
+      "name": "Aureliano Finch",
+      "openalex_id": "A5055927783"
+    },
+    {
+      "name": "Ava Hoogenboom",
+      "openalex_id": "A5117116214"
+    }
+  ]
+}

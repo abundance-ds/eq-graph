@@ -1,0 +1,29 @@
+{
+  "records": 86,
+  "model": "gpt-5.6-terra",
+  "prompt_sha256": "f08214947079d7ed660fc3ac69aafb3f53d96d1a80acfaf123c216fd695acefd",
+  "counts": {
+    "batch-0001": {
+      "retain": 3,
+      "exclude": 17
+    },
+    "batch-0002": {
+      "retain": 3,
+      "exclude": 17
+    },
+    "batch-0003": {
+      "retain": 9,
+      "exclude": 11
+    },
+    "batch-0004": {
+      "retain": 6,
+      "exclude": 14
+    },
+    "batch-0005": {
+      "retain": 0,
+      "exclude": 6
+    }
+  },
+  "submission_validated": true,
+  "accuracy_validated": false
+}

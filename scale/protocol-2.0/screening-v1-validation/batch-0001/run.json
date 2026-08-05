@@ -1,0 +1,9 @@
+{
+  "batch_id": "batch-0001",
+  "model": "gpt-5.6-terra",
+  "codex_version": "codex-cli 0.146.0",
+  "command": "codex exec --ephemeral --sandbox workspace-write --skip-git-repo-check --json -c 'web_search=\"disabled\"' -m gpt-5.6-terra -o /Users/waqr/Desktop/eq-graph/scale/protocol-2.0/screening-v1-validation/batch-0001/final.txt -",
+  "started_utc": "2026-08-03T23:06:19.024869+00:00",
+  "ended_utc": "2026-08-03T23:06:53.986226+00:00",
+  "return_code": 0
+}

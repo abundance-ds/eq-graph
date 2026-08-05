@@ -1,0 +1,80 @@
+[
+  {
+    "record_id": "P20b4604aa789",
+    "title": "Shared decision-making and disease management in advanced cancer and chronic kidney disease using patient-reported outcome dashboards.",
+    "production_batch": "batch-0099",
+    "production_outcome": "exclude",
+    "production_code": "E1",
+    "production_reason": "[E1] PROMIS health-related quality of life measures are outcomes of a clinical dashboard intervention, not the research object.",
+    "audit_batch": "batch-0001",
+    "audit_outcome": "retain",
+    "audit_code": "RU",
+    "audit_reason": "[RU] The co-designed PRO dashboard is the intervention, but the abstract is ambiguous about whether its evaluation is measurement implementation or only clinical impact.",
+    "outcome_agreement": "false"
+  },
+  {
+    "record_id": "Pffe3eca4dc88",
+    "title": "Stated-Preference Survey Design and Testing in Health Applications.",
+    "production_batch": "batch-0090",
+    "production_outcome": "exclude",
+    "production_code": "E4",
+    "production_reason": "[E4] This paper provides general guidance for stated-preference surveys of patient preferences, not health-state valuation or health measurement.",
+    "audit_batch": "batch-0001",
+    "audit_outcome": "retain",
+    "audit_code": "RU",
+    "audit_reason": "[RU] The paper studies design and testing of stated-preference surveys in health, but the abstract does not specify whether the methods include health-state valuation.",
+    "outcome_agreement": "false"
+  },
+  {
+    "record_id": "Pc104991b8d09",
+    "title": "Acceptability and perceived barriers to adoption of the core outcome set for maternal and neonatal health research and surveillance during emerging and ongoing epidemic threats (MNH-EPI-COS). An online survey",
+    "production_batch": "batch-0074",
+    "production_outcome": "exclude",
+    "production_code": "E4",
+    "production_reason": "[E4] This survey assesses adoption barriers for a maternal-neonatal core outcome set, not a health measurement instrument.",
+    "audit_batch": "batch-0004",
+    "audit_outcome": "retain",
+    "audit_code": "R2",
+    "audit_reason": "[R2] The study evaluates the acceptability, outcome definitions, and data-collection feasibility of a standardized maternal and neonatal core outcome set.",
+    "outcome_agreement": "false"
+  },
+  {
+    "record_id": "Pbef6e623447a",
+    "title": "Methods for Evaluation of Surrogate Endpoints for HTA Decision Making: A Good Practices Report of an ISPOR Task Force",
+    "production_batch": "batch-0018",
+    "production_outcome": "exclude",
+    "production_code": "E4",
+    "production_reason": "[E4] This task-force report recommends methods for validating surrogate endpoints for HTA, without a direct health-measurement or health-state-valuation focus.",
+    "audit_batch": "batch-0004",
+    "audit_outcome": "retain",
+    "audit_code": "R2",
+    "audit_reason": "[R2] The task force report develops methods and good practices for validating surrogate health endpoints against patient-relevant outcomes.",
+    "outcome_agreement": "false"
+  },
+  {
+    "record_id": "Pe8a33f1b5e19",
+    "title": "Did a digital quality of life (QOL) assessment and practice support system in home health care improve the QOL of older adults living with life-limiting conditions and of their family caregivers? A mixed-methods pragmatic randomized controlled trial",
+    "production_batch": "batch-0084",
+    "production_outcome": "exclude",
+    "production_code": "E1",
+    "production_reason": "[E1] Tests whether access to QOL data improves patient and caregiver QOL; QOL assessment is an intervention outcome.",
+    "audit_batch": "batch-0004",
+    "audit_outcome": "retain",
+    "audit_code": "R2",
+    "audit_reason": "[R2] The digital system for collecting, displaying, and integrating quality-of-life assessment data into home care is the primary intervention under evaluation.",
+    "outcome_agreement": "false"
+  },
+  {
+    "record_id": "P844a23f9b837",
+    "title": "Comprehension of and preferences for visualization of patient-reported outcome data to support clinical decision making: A systematic review",
+    "production_batch": "batch-0014",
+    "production_outcome": "exclude",
+    "production_code": "E4",
+    "production_reason": "[E4] Reviews visualization preferences for communicating PROM results in clinical decisions, not evaluation of a health measure.",
+    "audit_batch": "batch-0004",
+    "audit_outcome": "retain",
+    "audit_code": "R2",
+    "audit_reason": "[R2] The review directly evaluates user comprehension and preferences for visualization formats used to communicate PROM data.",
+    "outcome_agreement": "false"
+  }
+]

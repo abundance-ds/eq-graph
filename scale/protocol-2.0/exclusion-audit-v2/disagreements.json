@@ -1,0 +1,28 @@
+[
+  {
+    "record_id": "P87a0b8d01ebc",
+    "title": "Applying the Clinician-reported Genetic testing Utility InDEx (C-GUIDE) to genome sequencing: further evidence of validity",
+    "production_batch": "batch-0245",
+    "production_outcome": "exclude",
+    "production_code": "E4",
+    "production_reason": "[E4] This validates an index of clinical utility for genome sequencing, not a health or wellbeing measurement or health-state valuation.",
+    "audit_batch": "batch-0003",
+    "audit_outcome": "retain",
+    "audit_code": "R2",
+    "audit_reason": "[R2] The clinician-reported C-GUIDE measurement instrument is the primary object, and the study directly tests its construct validity.",
+    "outcome_agreement": "false"
+  },
+  {
+    "record_id": "P362be7fa8a06",
+    "title": "A Collection of Components to Design Clinical Dashboards Incorporating Patient-Reported Outcome Measures: Qualitative Study",
+    "production_batch": "batch-0104",
+    "production_outcome": "exclude",
+    "production_code": "E4",
+    "production_reason": "[E4] The research develops clinical-dashboard design components; PROMs are incorporated data, not the measurement research object.",
+    "audit_batch": "batch-0004",
+    "audit_outcome": "retain",
+    "audit_code": "RU",
+    "audit_reason": "[RU] The study develops a framework for PROM dashboard design, but the abstract leaves uncertainty about whether this is health-measurement implementation research.",
+    "outcome_agreement": "false"
+  }
+]
