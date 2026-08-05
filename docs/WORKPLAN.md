@@ -11,29 +11,29 @@ and the WP4 application design.
 | 1 | Paper identification | The set of papers for full-text processing | Paused: main screen complete; human check and held identity tranche pending |
 | 2 | Full-text retrieval | The full texts on disk | Pilot: 123/201 retrieved; scale not started or authorized |
 | 3 | Full-text processing | Graph-ready evidence: read, filter, link, extract | Pilot complete; scale not started |
-| 4 | Application | Graph + backend + two frontend pillars | The chat runs end to end on an invented graph. See the state below. |
+| 4 | Application | Graph + backend + two frontend pillars | Nuxt reads the real Aura ontology pilot. The narrative story is not built. |
 
 ### The state of WP4, on 2026-08-05
 
-The application runs. Start it with the four commands in
+The application runs. Start it with the instructions in
 [`../web/README.md`](../web/README.md).
 
 Done:
 
-- Neo4j 5 Community in a container, through OrbStack. `V001__layer_a.cypher`
-  holds 17 constraints, 8 indexes and 4 full-text indexes.
-- An invented graph: 2,263 nodes and 4,805 relationships. Real vocabularies,
-  invented rows.
+- A Neo4j Aura ontology pilot with real records. On 2026-08-05 it has 5,137
+  nodes, 8,661 relationships, 20 projects, 174 works, 30 accepted
+  attributions, 30 full texts, 20 studies, and 178 findings.
+- The full three-layer schema, including extracted study content and emergent
+  concepts. The pilot is small and will grow as ingestion continues.
 - The Nitro backend with the three tools, the query guards and the result store.
-- The chat, with streamed text, tool calls, charts and follow-up questions. One
-  question answered end to end: the model wrote the Cypher, read 8 rows, drew a
-  bar chart and offered three follow-up questions.
+- The chat, with streamed text, tool calls, charts, follow-up questions, full
+  ontology guidance, broad entity resolution, and a live graph-status line.
 - An activity trail in the chat that shows each step while it runs.
 - The chart templates on `/widgets`, drawn with Observable Plot, with a
   validated palette and a light and a dark mode. A copy is published at
   <https://shoulders-ai.github.io/eq-test-viz-1/>.
 
-Not done: the real layer A loader, the map and the relation marks, thread
+Not done: the scale loader, embeddings, the map and relation marks, thread
 storage, authentication, and the narrative story.
 
 ### WP1 — Paper identification
@@ -91,12 +91,15 @@ Both pipelines now live in this repository.
 
 **What Kazik has.** `graph/schema.cypher` gives 30 constraints and the indexes.
 `graph/graph-type.cypher` gives the closed relationship model with the property
-types. 33 node labels and about 45 relationship types. The design also has a
+types. It defines 27 domain node labels and 34 relationship types. The design also has a
 catalog subgraph (`_NodeType`, `_RelType`, `_PropertyDef`, `_QueryTemplate`)
 and two vector indexes.
 
-**What Kazik does not have.** No Neo4j instance. No loader. No extraction. The
-graph is empty. All of WP4 waits for the loader.
+**What is now online.** Neo4j Aura holds a real ontology pilot across all three
+layers. It includes bibliographic records, full-text chunks, extracted studies,
+findings, samples, instruments, value sets, and emergent concepts. The vector
+indexes are online, but no chunk or concept embeddings are loaded yet. The
+catalog schema exists, but its `_`-prefixed catalog rows are not loaded.
 
 **What amnog-graph has.** Nuxt 4, the Anthropic SDK, a hand-written SSE
 transport, and a manual agent loop with a 64-round cap. The loop is good and it
@@ -221,11 +224,11 @@ block. The prompt-cache minimum on Opus 5 is 512 tokens, so the schema caches.
 
 Four tools. Three for the first version.
 
-**1. `search_graph({ q, kinds?, limit? })`**
+**1. `search_graph({ query, kinds?, limit? })`**
 
-Resolves a name to an identifier. Uses the full-text indexes that
-`schema.cypher` already declares: `project_text_ft`, `work_text_ft`,
-`person_name_ft`, `concept_label_ft`. Without this tool the agent guesses exact
+Resolves a name or identifier. It uses full-text indexes for projects, works,
+people, concepts, and terms. It also resolves instruments, countries, working
+groups, journals, and value sets. Without this tool the agent guesses exact
 strings in the `WHERE` clause and finds nothing.
 
 **2. `run_cypher({ cypher, params?, purpose })`**
@@ -234,11 +237,10 @@ Runs a read query. Returns the columns, a capped preview of the rows, the row
 count, and a `result_id`. The server keeps the full result set in memory under
 that `result_id` for the length of the turn.
 
-Guards. Neo4j Community Edition has no roles and no users, so a read-only
-database user is not available. Use these instead:
+Guards. The Aura account can write because ingestion needs it. The application
+path must stay read-only. Use these controls:
 
-- A **read transaction** (`session.executeRead`). The server refuses a write
-  inside one. Smoke-test this on the instance before you trust it.
+- A **read transaction** (`session.executeRead`).
 - **Inspect the `EXPLAIN` plan**, not the query text. Reject a plan that has a
   write operator: `CreateNode`, `MergeNode`, `SetProperty`, `DeleteRelationship`,
   `RemoveLabel`. A regular expression on the text loses to comments, to string
@@ -246,8 +248,7 @@ database user is not available. Use these instead:
 - An allowlist for procedures. Deny `CALL apoc.*`, `CALL dbms.*` and `CALL db.*`
   unless the procedure is on the list.
 - One statement per call.
-- A transaction timeout and a row cap. The driver sets the timeout, so this
-  works on Community Edition.
+- A transaction timeout and a row cap.
 
 **3. `render({ spec })`**
 
@@ -346,9 +347,12 @@ Three rules make this safe:
 Use one block with symmetric tags. Do not use numbered tags such as `<|FU1|>`,
 because the scanner must then match many tags.
 
-### The graph schema on Community Edition
+### The graph schema on Aura and local Community Edition
 
-We use Neo4j Community Edition. Three of Kazik's constraints do not apply.
+Aura is the real shared database. It supports node keys, existence constraints,
+property-type constraints, full-text indexes, and vector indexes. Neo4j
+Community Edition remains an optional local fixture. Three Aura constraints do
+not apply to that local fixture.
 
 | Feature | Community Edition | What we do |
 |---|---|---|
@@ -359,8 +363,8 @@ We use Neo4j Community Edition. Three of Kazik's constraints do not apply.
 
 Kazik's `schema.cypher` header already gives the first two substitutions.
 
-Write `graph/schema.community.cypher` from his file. Keep the constraint names,
-because the names are stable identifiers that the tests can assert.
+`web/graph/migrations/V001__layer_a.cypher` is the local Community form. Its
+constraint names stay aligned with the Aura schema.
 
 **Use versioned migrations, not one DDL file.** Kazik uses this pattern in
 `xemantic/xemantic-neo4j-demo`: numbered Cypher files under a `migrations`
@@ -375,8 +379,8 @@ graph/migrations/V003__fulltext_indexes.cypher
 The tool is `neo4j-migrations`. It has a command-line version, so we can run it
 from CI or from the pipeline. We need no Kotlin, no Gradle and no JVM for this.
 
-This matters because the schema will change. Layer B and layer C arrive in WP3,
-and the first loader run will find errors in layer A.
+The ingestion pipeline owns Aura schema changes. The Nuxt application only
+reads Aura and does not run its local migrations against a remote host.
 
 **The loader becomes the validation layer.** Section 4 would have enforced
 non-null keys, integer years and float scores. The loader must check these
@@ -407,7 +411,8 @@ That is not sufficient here, because a Cypher result set is large.
 2. **Nuxt is the full-stack application, and Nitro is the backend.** Nitro
    connects to Neo4j directly. No second server is in the request path. This is
    settled, and it is not open for discussion with Kazik.
-3. **Neo4j Community Edition.** No Enterprise. No version 2026.02 preview.
+3. **Neo4j Aura for the real graph.** Neo4j Community Edition is an optional
+   local fixture only.
 4. **Zod for the tool schemas.** Both SDKs accept Zod.
 5. **A sentinel block for the follow-up questions.** No tool, no second call.
    But see the warning under the open decisions.
@@ -434,15 +439,10 @@ That is not sufficient here, because a Cypher result set is large.
 3. **Which embedding model?** Both vector indexes use 1024 dimensions as a
    placeholder. A change needs an index rebuild and a new embedding run. This
    blocks nothing until WP3.
-4. **Where does the database run in production?** The container answers for
-   development. For production the plan is a plain Ubuntu instance on EC2, with
-   Neo4j bound to the local address and Caddy in front for the certificate. Not
-   started, and it does not block the work.
-5. **Does the invented seed stay?** The pilot produced real rows: 50 candidate
-   article-project links in `pilot/protocol-2.0/`. A loader over those would
-   make every answer real, and it would make the competency questions a true
-   measurement. The seed keeps one advantage: 140 projects and 260 works fill a
-   chart, and the pilot set is smaller.
+
+The invented seed stays only as an explicit local fixture for interface tests.
+It is not an application data source. The seed, reset, and Community migration
+commands refuse remote Neo4j hosts.
 
 ## Coordination with Kazik
 
@@ -454,12 +454,9 @@ Kotlin, Ktor, Netty and the Neo4j driver, with no frontend. His Gradle files in
 migrations. Either answer is acceptable now, because the pipeline is a batch job
 and its language is free.
 
-Two items need his agreement:
-
-1. **The schema on Community Edition.** He must accept `IS UNIQUE` in place of
-   `IS NODE KEY`, and the loss of section 4. See the section above.
-2. **The migrations.** Agree one set of versioned Cypher files, and agree who
-   owns them.
+The ingestion pipeline owns Aura writes and schema migrations. Nuxt owns the
+read contract. Changes to labels, relationship types, or property meanings must
+update `graph/graph-type.cypher` and the compact agent schema in the same change.
 
 ## Next steps, in order
 
@@ -478,9 +475,8 @@ tomorrow. Nothing here waits for WP3.
    The renderer decides the rest. Grow `widgetSpec` for the new marks, and grow
    the check in `resolveWidget` with it, so a wrong specification returns a
    plain sentence and the model corrects itself.
-4. **Write the real layer A loader.** The data is on disk and the work is
-   mechanical: the project files, the publication files, the manifests and the
-   Markdown with front matter. This replaces the invented seed and it turns
+4. **Expand the Aura loader.** Load the accepted project, publication, full-text,
+   and extraction records beyond the current ontology pilot. This turns more of
    `COMPETENCY_QUESTIONS.md` into a real measurement.
 5. **Measure the models.** 20 to 30 questions against each candidate. Then
    choose from the numbers.
@@ -488,6 +484,5 @@ tomorrow. Nothing here waits for WP3.
 7. **Add `map` and the relation mark.** The map needs country shapes. The
    relation mark needs a layout that a person can read.
 8. **Build the narrative story** with the same components as the chat.
-9. **Deploy.** A plain Ubuntu instance on EC2: Node 22, a systemd unit for
-   `.output/server/index.mjs`, Caddy for the certificate, and Neo4j bound to
-   `127.0.0.1`.
+9. **Deploy Nuxt.** Set the Aura and model credentials in the host environment,
+   then run the built Nitro server.

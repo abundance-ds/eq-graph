@@ -5,9 +5,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // Filled from NUXT_-prefixed environment variables. Never hard code a key.
     anthropicApiKey: "",
-    neo4jUri: "bolt://localhost:7687",
-    neo4jUser: "neo4j",
+    neo4jUri: "",
+    neo4jUser: "",
     neo4jPassword: "",
+    // Leave this empty to use the account's Neo4j home database.
+    neo4jDatabase: "",
     // The model that drives the agent. Change the provider in one place:
     // server/utils/model.ts
     agentModel: "claude-opus-5",

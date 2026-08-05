@@ -8,14 +8,13 @@
  *
  * The generator is deterministic, so two runs give the same graph.
  *
- * Run:  pnpm db:seed          add the data
- *       pnpm db:reset         delete everything first, then add the data
+ * Run: pnpm db:local:seed   add the data
+ *      pnpm db:local:reset  delete local data, then add the fixture
  */
 import neo4j from "neo4j-driver";
+import { localDatabaseConnection } from "./local-database";
 
-const uri = process.env.NUXT_NEO4J_URI ?? "bolt://localhost:7687";
-const user = process.env.NUXT_NEO4J_USER ?? "neo4j";
-const password = process.env.NUXT_NEO4J_PASSWORD ?? "eqgraphdev";
+const { uri, user, password } = localDatabaseConnection("The demo-data script");
 const wipe = process.argv.includes("--wipe");
 
 // --- A deterministic random generator ---------------------------------------

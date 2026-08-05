@@ -1,10 +1,11 @@
 /**
  * The Neo4j connection and the read guards.
  *
- * Community Edition has no roles, so the application cannot use a read-only
- * database account. These guards do that work instead:
+ * The Aura account can write because the ingestion pipeline needs write
+ * access. The application does not. These guards keep the application path
+ * read-only:
  *
- *   1. Every query runs in a read transaction. The server refuses a write.
+ *   1. Every query runs in a read transaction.
  *   2. The runner inspects the EXPLAIN plan and rejects a write operator.
  *      A plan is reliable. A regular expression on the query text is not,
  *      because it loses against comments, string literals and Unicode.
@@ -12,24 +13,47 @@
  *   4. One statement for each call.
  *   5. A transaction timeout and a row cap.
  */
-import neo4j, { type Driver, type Record as Neo4jRecord } from "neo4j-driver";
+import neo4j, {
+  type Driver,
+  type Record as Neo4jRecord,
+  type Session,
+} from "neo4j-driver";
 
 let driver: Driver | undefined;
 
 export function getDriver(): Driver {
   if (!driver) {
     const config = useRuntimeConfig();
+    if (!config.neo4jUri || !config.neo4jUser || !config.neo4jPassword) {
+      throw new Error(
+        "Neo4j is not configured. Set NUXT_NEO4J_URI, NUXT_NEO4J_USER, and " +
+          "NUXT_NEO4J_PASSWORD.",
+      );
+    }
     driver = neo4j.driver(
       config.neo4jUri,
       neo4j.auth.basic(config.neo4jUser, config.neo4jPassword),
-      { disableLosslessIntegers: true },
+      {
+        disableLosslessIntegers: true,
+        connectionAcquisitionTimeout: 10_000,
+        maxConnectionPoolSize: 20,
+      },
     );
   }
   return driver;
 }
 
+function readSession(): Session {
+  const database = String(useRuntimeConfig().neo4jDatabase ?? "").trim();
+  return getDriver().session({
+    defaultAccessMode: neo4j.session.READ,
+    ...(database ? { database } : {}),
+  });
+}
+
 /** An operator that changes the database. The plan must hold none of these. */
-const WRITE_OPERATOR = /^(Create|Merge|Delete|DetachDelete|Set|Remove|Foreach|LoadCSV)/;
+const WRITE_OPERATOR =
+  /^(Create|Merge|Delete|DetachDelete|Set|Remove|Foreach|LoadCSV|Drop|Alter|Rename|Grant|Deny|Revoke|StartDatabase|StopDatabase|Terminate)/;
 
 /** The procedures that a query may call. */
 const PROCEDURE_ALLOWLIST = new Set([
@@ -91,6 +115,24 @@ function mapValues(input: Record<string, unknown>): Record<string, unknown> {
   return output;
 }
 
+/** Converts JSON-like query parameters into values with explicit integer types. */
+function toDriverValue(value: unknown): unknown {
+  if (neo4j.isInt(value)) return value;
+  if (typeof value === "number" && Number.isSafeInteger(value)) {
+    return neo4j.int(value);
+  }
+  if (Array.isArray(value)) return value.map(toDriverValue);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value as Record<string, unknown>).map(([key, entry]) => [
+        key,
+        toDriverValue(entry),
+      ]),
+    );
+  }
+  return value;
+}
+
 export type CypherResult = {
   columns: string[];
   rows: Record<string, unknown>[];
@@ -112,17 +154,24 @@ export async function runReadCypher(
   const rowCap = Number(config.cypherRowCap);
   const timeout = Number(config.cypherTimeoutMs);
 
-  if (countStatements(cypher) > 1) {
+  const statementCount = countStatements(cypher);
+  if (statementCount === 0) {
+    throw new CypherRejected("Send one read statement.");
+  }
+  if (statementCount > 1) {
     throw new CypherRejected("Send one statement for each call.");
   }
 
-  const session = getDriver().session({ defaultAccessMode: neo4j.session.READ });
+  const session = readSession();
+  const driverParams = Object.fromEntries(
+    Object.entries(params).map(([key, value]) => [key, toDriverValue(value)]),
+  );
   const warnings: string[] = [];
   const startedAt = Date.now();
 
   try {
     // Step 1. Plan the query, and read the plan. EXPLAIN executes nothing.
-    const explained = await session.run(`EXPLAIN ${cypher}`, params);
+    const explained = await session.run(`EXPLAIN ${cypher}`, driverParams);
     const plan = explained.summary.plan as unknown as PlanNode | undefined;
     if (!plan) throw new CypherRejected("Neo4j returned no plan for this query.");
 
@@ -132,7 +181,7 @@ export async function runReadCypher(
           `This query writes to the database (${node.operatorType}). Only a read is allowed.`,
         );
       }
-      if (node.operatorType === "ProcedureCall") {
+      if (node.operatorType.startsWith("ProcedureCall")) {
         const signature = String(node.arguments?.["Details"] ?? "");
         const name = signature.match(/([\w.]+)\s*\(/)?.[1] ?? signature;
         if (!PROCEDURE_ALLOWLIST.has(name)) {
@@ -148,7 +197,7 @@ export async function runReadCypher(
 
     // Step 2. Run the query in a read transaction, with a timeout.
     const result = await session.executeRead(
-      (tx) => tx.run(cypher, params),
+      (tx) => tx.run(cypher, driverParams),
       { timeout },
     );
 

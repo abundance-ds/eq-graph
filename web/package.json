@@ -7,11 +7,12 @@
     "build": "nuxt build",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "db:up": "docker compose up -d",
-    "db:down": "docker compose down",
-    "db:migrate": "tsx scripts/migrate.ts",
-    "db:seed": "tsx scripts/seed.ts",
-    "db:reset": "tsx scripts/seed.ts --wipe"
+    "db:check": "tsx --env-file=.env scripts/check-database.ts",
+    "db:local:up": "docker compose up -d",
+    "db:local:down": "docker compose down",
+    "db:local:migrate": "tsx scripts/migrate.ts",
+    "db:local:seed": "tsx scripts/seed.ts",
+    "db:local:reset": "tsx scripts/seed.ts --wipe"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^2.0.0",

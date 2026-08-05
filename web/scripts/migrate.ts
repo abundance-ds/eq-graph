@@ -4,19 +4,18 @@
  * The runner records each applied file on a :_Migration node. A file runs once.
  * Every statement uses IF NOT EXISTS, so a second run is still safe.
  *
- * Run:  pnpm db:migrate
+ * Run: pnpm db:local:migrate
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import neo4j from "neo4j-driver";
+import { localDatabaseConnection } from "./local-database";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const migrationsDir = join(here, "..", "graph", "migrations");
 
-const uri = process.env.NUXT_NEO4J_URI ?? "bolt://localhost:7687";
-const user = process.env.NUXT_NEO4J_USER ?? "neo4j";
-const password = process.env.NUXT_NEO4J_PASSWORD ?? "eqgraphdev";
+const { uri, user, password } = localDatabaseConnection("The migration script");
 
 /** Splits a file into statements. Removes the line comments first. */
 function statements(sql: string): string[] {

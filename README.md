@@ -56,10 +56,17 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 
 ### Graph and application
 
-- The Neo4j graph model and schema DDL exist under [`graph/`](graph/).
-- The Protocol 2.0 pipeline does not yet load its accepted evidence into Neo4j.
-- The Nuxt application is under [`web/`](web/) and has a passing production build.
-- The application includes graph access, chat tools, and visual-output components.
+- A real ontology pilot is online in Neo4j Aura. On 2026-08-05 it contains
+  **5,137 nodes**, **8,661 relationships**, **20 projects**, **174 works**,
+  **30 accepted project-work attributions**, and **178 extracted findings**.
+- This Aura load is a small pilot. It is not the complete 1,024-project
+  portfolio or the completed Protocol 2.0 screen. Its record counts will grow.
+- The full closed graph model and Aura DDL are under [`graph/`](graph/).
+- The Nuxt application under [`web/`](web/) reads the Aura graph through Nitro.
+  Its status line reads current counts from Neo4j instead of hard-coding them.
+- The application agent knows all three graph layers and can resolve projects,
+  people, works, instruments, concepts, methods, conditions, properties,
+  countries, working groups, journals, and value sets.
 
 ## Repository map
 
@@ -111,10 +118,14 @@ The Nuxt application uses pnpm:
 ```sh
 cd web
 pnpm install --frozen-lockfile
-pnpm run build
+cp .env.example .env
+# Add the Anthropic and Neo4j Aura values to .env.
+pnpm db:check
+pnpm dev
 ```
 
-The example environment file is [`web/.env.example`](web/.env.example).
+See [`web/README.md`](web/README.md) for the live Aura setup, checks, and the
+separate local demo database.
 
 ## Data and repository rules
 
@@ -141,4 +152,4 @@ No credential belongs in Git.
 3. Confirm the final retained set without replacing the completed 918-batch screen.
 4. Retrieve lawful scale full text and keep unavailable papers unassessed.
 5. Assess EuroQol connection, funding scope, project links, and graph evidence.
-6. Load accepted evidence into Neo4j and evaluate the graph and application.
+6. Expand the Aura pilot with accepted evidence and evaluate the graph and application.

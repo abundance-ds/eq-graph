@@ -5,6 +5,39 @@ const chat = new Chat({});
 const input = ref("");
 const thread = ref<HTMLElement | null>(null);
 
+type GraphStatus = {
+  ok: true;
+  checkedAt: string;
+  counts: {
+    nodes: number;
+    relationships: number;
+    projects: number;
+    works: number;
+    acceptedAttributions: number;
+    fullTexts: number;
+    studies: number;
+    findings: number;
+  };
+};
+
+const {
+  data: graphStatus,
+  status: graphRequestStatus,
+  error: graphStatusError,
+  refresh: refreshGraphStatus,
+} = await useFetch<GraphStatus>("/api/graph/status");
+
+const number = new Intl.NumberFormat("en");
+let graphRefreshTimer: ReturnType<typeof setInterval> | undefined;
+
+onMounted(() => {
+  graphRefreshTimer = setInterval(() => refreshGraphStatus(), 60_000);
+});
+
+onBeforeUnmount(() => {
+  if (graphRefreshTimer) clearInterval(graphRefreshTimer);
+});
+
 const busy = computed(() => chat.status === "submitted" || chat.status === "streaming");
 
 function send(question?: string) {
@@ -143,10 +176,10 @@ const tailThinks = computed(() => {
 });
 
 const EXAMPLES = [
-  "How many projects has each working group reviewed?",
-  "Which countries have the most value sets, and which techniques did they use?",
-  "Show the number of publications for each year since 2015.",
-  "Who leads the most projects?",
+  "Show the accepted publications for project 341-RA.",
+  "Which instruments have the most extracted findings?",
+  "Which countries appear in the extracted study samples?",
+  "What does the graph report about ceiling effects?",
 ];
 
 watch(
@@ -162,7 +195,30 @@ watch(
   <main class="page">
     <header class="head">
       <h1>eq-graph</h1>
-      <p>Ask a question about the EuroQol portfolio. The data is invented, and the shape is real.</p>
+      <p>Ask about funded projects, publications, and evidence extracted from the research literature.</p>
+      <div
+        class="graph-state"
+        :class="{
+          'graph-state--ready': graphStatus?.ok,
+          'graph-state--error': graphStatusError,
+        }"
+        aria-live="polite"
+      >
+        <span class="graph-state__dot" aria-hidden="true" />
+        <template v-if="graphStatus?.ok">
+          <strong>Live research graph</strong>
+          <span>{{ number.format(graphStatus.counts.projects) }} projects</span>
+          <span>{{ number.format(graphStatus.counts.works) }} publications</span>
+          <span>{{ number.format(graphStatus.counts.findings) }} findings</span>
+        </template>
+        <template v-else-if="graphStatusError">
+          <strong>Research graph unavailable</strong>
+          <span>Check the Neo4j connection.</span>
+        </template>
+        <template v-else>
+          <strong>{{ graphRequestStatus === "pending" ? "Connecting to the research graph" : "Reading the research graph" }}</strong>
+        </template>
+      </div>
     </header>
 
     <div ref="thread" class="thread">
@@ -198,7 +254,7 @@ watch(
       <textarea
         v-model="input"
         rows="1"
-        placeholder="Ask about projects, people, publications or value sets…"
+        placeholder="Ask about projects, publications, studies, or findings…"
         @keydown="onKeydown"
       />
       <button type="submit" :disabled="busy || !input.trim()">
@@ -213,6 +269,32 @@ watch(
 .head { padding-bottom: 0.9rem; border-bottom: 1px solid #e9e5dd; }
 .head h1 { margin: 0; font-size: 1.05rem; letter-spacing: -0.01em; }
 .head p { margin: 0.2rem 0 0; font-size: 0.8rem; color: #8a847a; }
+
+.graph-state {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.65rem;
+  margin-top: 0.7rem;
+  color: #777168;
+  font-size: 0.7rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.graph-state strong { color: #4a453e; font-weight: 600; }
+.graph-state span:not(.graph-state__dot)::before {
+  content: "·";
+  margin-right: 0.65rem;
+  color: #bbb4a9;
+}
+.graph-state__dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: #aaa49a;
+}
+.graph-state--ready .graph-state__dot { background: #24816f; box-shadow: 0 0 0 3px #dcefe9; }
+.graph-state--error .graph-state__dot { background: #b4552d; box-shadow: 0 0 0 3px #f5e4da; }
+.graph-state--error strong { color: #9b4424; }
 
 .thread { flex: 1; overflow-y: auto; padding: 1.1rem 0; }
 .empty { color: #8a847a; font-size: 0.85rem; }
@@ -231,11 +313,26 @@ watch(
 .followups { display: flex; flex-wrap: wrap; gap: 0.4rem; padding-bottom: 0.6rem; }
 .chip { display: block; margin-bottom: 0.35rem; text-align: left; background: #fff; border: 1px solid #e4e1da; border-radius: 999px; padding: 0.35rem 0.75rem; font: inherit; font-size: 0.78rem; color: #4a453e; cursor: pointer; }
 .chip:hover { border-color: #b4552d; color: #b4552d; }
+.chip:focus-visible { outline: 2px solid #b4552d; outline-offset: 2px; }
 .followups .chip { margin-bottom: 0; }
 
 .composer { display: flex; gap: 0.5rem; align-items: flex-end; border-top: 1px solid #e9e5dd; padding-top: 0.8rem; }
 .composer textarea { flex: 1; resize: none; font: inherit; font-size: 0.9rem; padding: 0.6rem 0.75rem; border: 1px solid #e4e1da; border-radius: 10px; background: #fff; max-height: 8rem; }
 .composer textarea:focus { outline: 2px solid #b4552d; outline-offset: -1px; border-color: transparent; }
 .composer button { padding: 0.6rem 1.1rem; border-radius: 10px; border: none; background: #1c1a17; color: #faf8f4; font: inherit; font-size: 0.85rem; cursor: pointer; }
+.composer button:focus-visible { outline: 2px solid #b4552d; outline-offset: 2px; }
 .composer button:disabled { opacity: 0.35; cursor: default; }
+
+@media (max-width: 36rem) {
+  .graph-state {
+    display: grid;
+    grid-template-columns: 0.45rem 1fr;
+    align-items: start;
+    gap: 0.2rem 0.55rem;
+  }
+  .graph-state span:not(.graph-state__dot)::before { content: none; }
+  .graph-state__dot { grid-column: 1; grid-row: 1; margin-top: 0.2rem; }
+  .graph-state strong,
+  .graph-state span:not(.graph-state__dot) { grid-column: 2; }
+}
 </style>

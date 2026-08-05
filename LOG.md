@@ -5,6 +5,15 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-05
 
+- Connected the Nuxt application to the real Neo4j Aura ontology pilot. The
+  first checked load has 5,137 nodes, 8,661 relationships, 20 projects, 174
+  works, 30 accepted attributions, 30 full texts, 20 studies, and 178 findings.
+- Replaced the old layer-A-only agent schema with the complete closed graph
+  model. Expanded graph search to identifiers, concepts, methods, conditions,
+  properties, countries, working groups, journals, and value sets.
+- Added a live graph-status endpoint and interface state. Added a read-only
+  connection check and made all demo seed, reset, and migration commands refuse
+  remote Neo4j hosts.
 - Continued the frozen screen to 300/918 batches and 6,000/18,348 records. The
   validated checkpoint had 1,151 retained and 4,849 excluded decisions. The retention
   rate was 19.18%; no prompt, rule, corpus, or retrieval state changed.
