@@ -1,130 +1,144 @@
 # eq-graph
 
-A research knowledge graph of the EuroQol Research Foundation's funded projects and the publications they produced.
+A research knowledge graph of the EuroQol Research Foundation's funded projects, their publications, and the evidence reported in those publications.
 
-EuroQol has funded over a thousand research projects, producing a large body of literature on EQ-5D and related instruments.
-That literature holds detailed evidence on how the instruments perform across populations, countries, clinical areas and methods —
-but it is distributed across individual papers and is not searchable or aggregable at the portfolio level.
-This project extracts that evidence into a graph and makes it queryable.
+EuroQol has funded more than one thousand research projects.
+The related literature contains evidence about EQ-5D and other instruments across populations, countries, clinical areas, and methods.
+This project finds that literature, assesses it, extracts structured evidence, loads the evidence into a graph, and makes the graph available through a web application.
 
-Funded as EuroQol seed grant **2582-SG** (1.3 Seed grant), €28,404, running **2026-07-01 to 2026-12-31**.
-The submitted proposal is in [`docs/submitted-proposal.pdf`](docs/submitted-proposal.pdf) and is the authoritative statement of scope;
-this README summarises it and records how far the work has got.
+The project is funded as EuroQol seed grant **2582-SG** (1.3 Seed grant), with a budget of €28,404 and a term from **2026-07-01 to 2026-12-31**.
+The submitted proposal is in [`docs/submitted-proposal.pdf`](docs/submitted-proposal.pdf).
 
-Team: Paul Schneider (PI, paul@shoulde.rs), Sofia Fabishevskaya (co-I), Kazik Pogoda (advisor).
+Team: Paul Schneider (PI), Sofia Fabishevskaya (co-I), and Kazik Pogoda (advisor).
 Executed by [Shoulders](https://shoulde.rs).
 
-## Scope
+## Project flow
 
-The proposal defines three stages.
+```text
+project and member records
+  -> author and paper discovery
+  -> title-and-abstract screening
+  -> full-text retrieval
+  -> full-text assessment and evidence extraction
+  -> graph loading
+  -> Nuxt application
+```
 
-| # | Stage | Status |
-| --- | --- | --- |
-| 1 | **Corpus assembly** — resolve every funded project to its publications, retrieve full texts | largely done, see below |
-| 2 | **Schema + LLM extraction pipeline** — extract structured data from full text, refine the schema iteratively | graph model designed, corpus converted to Markdown, extraction not started |
-| 3 | **Graph database + web application** — Neo4j, visual summaries, structured search, natural-language queries | schema DDL written, nothing loaded |
+The ontology and graph schema develop with the extraction stage.
+Extraction can identify concepts that the schema does not yet represent, and the schema controls how accepted evidence enters the graph.
 
-Deliverables promised to EuroQol:
+## Current status
 
-1. Populated knowledge graph of the funded projects
-2. Web application with AI-assisted search and visualisation (12 months hosting)
-3. Open-source code repository
-4. Plenary presentation with live demonstration (2027)
-5. Final report
+### Portfolio and publication discovery
 
-### What gets extracted (stage 2)
+- The canonical public export contains **1,024 projects**.
+- The project-first pipeline has **305 distinct works** linked at accepted confidence and **287 full texts** on disk.
+- The author and funding routes produced a deduplicated union of **28,600 records**, including **23,175 articles or reviews**.
+- Binary identity QA accepted **222 profiles** for the current author route.
+- A total of **94 people** and **76 additional profile suggestions** remain in a separate identity queue.
 
-Per paper: study design;
-sample characteristics (size, age range, sex distribution, clinical condition, severity, recruitment setting);
-instrument versions and administration modes;
-statistical methods and models;
-comparator instruments used alongside EQ-5D;
-key findings (value set coefficients, measurement properties, population norms).
+### Protocol 2.0 screening
 
-Initial entity types: Study, Instrument (version-specific — EQ-5D-3L, EQ-5D-5L, EQ-5D-Y, EQ-HWB), Population, Method, Country, Author, Institution, Working Group, Value Set, Outcome.
-The schema is expected to **grow from the data**: the pipeline flags what does not fit the current categories, and a researcher decides whether to widen the schema.
+The frozen title-and-abstract screen is complete and validated:
 
-Accuracy is to be assessed against ~50 papers hand-coded by a research assistant, reporting per-field extraction accuracy.
+- Input: **18,348 records** with usable abstracts.
+- Complete batches: **918/918**.
+- Retained: **3,148**.
+- Excluded: **15,200**.
+- Collector failures: **0**.
+- Two nonoverlapping 100-record exclusion audits found no confirmed false exclusion after adjudication.
+- Scale full texts downloaded: **0**.
 
-### Explicitly out of scope for the seed grant
+The project is paused before scale full-text retrieval.
+Independent human screening validation and the held identity queue remain as gates.
+Do not rerun or replace the completed screen.
+See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-05.md).
 
-The broader EQ-5D literature (17,000+ PubMed publications) is a possible follow-on, not part of this grant.
-The seed grant covers the *funded portfolio* and produces the evidence needed to judge whether the wider expansion is warranted.
+### Graph and application
 
-A prior demonstration built from 944 project abstracts alone (2,116 nodes, 8,213 edges) is at <https://shoulde.rs/eq-graph>.
-It is not in this repository; this work supersedes it by going to full text.
-
-## Where things stand
-
-Stage 1 is implemented as a resumable scraping pipeline.
-From the current run over all 1024 projects:
-
-- **209 projects (20.4%)** have a publication linked at accepted confidence; 243 have no candidate at all; the remaining 572 sit in review or name-only bands.
-- **2603 works** in the pool, 305 linked at accepted confidence.
-- **287 full texts on disk** (114 MB), mostly Europe PMC JATS XML.
-  The 220 XML ones are converted to Markdown in [`corpus/`](corpus/README.md) (16.9 MB); the remaining 67 are PDFs and are not yet extracted.
-
-Read [`reports/coverage.md`](reports/coverage.md) before drawing conclusions from those numbers,
-and [`reports/no-publications.md`](reports/no-publications.md) for the caveat that matters most:
-a project drops off the "no publications" list as soon as the *weakest* rule fires, so absence from it is not resolution.
-
-The hard ceiling on stage 1 is stated in [`scripts/README.md`](scripts/README.md#evidence-and-scoring):
-344 PIs hold 1024 grants, so name-and-date evidence identifies *a* paper by that PI, never *which grant* funded it.
-That band is a review pool by construction and cannot be promoted by tuning.
+- The Neo4j graph model and schema DDL exist under [`graph/`](graph/).
+- The Protocol 2.0 pipeline does not yet load its accepted evidence into Neo4j.
+- The Nuxt application is under [`web/`](web/) and has a passing production build.
+- The application includes graph access, chat tools, and visual-output components.
 
 ## Repository map
 
-| Path | What it holds |
+| Path | Contents |
 | --- | --- |
-| [`input/`](input/README.md) | The immutable record of what was collected — the source CSV and its documented schema |
-| [`input/projects/`](input/projects/README.md) | One directory per funded project: `project.json`, `abstract.txt`, `publications.json`, `papers/` |
-| [`scripts/`](scripts/README.md) | The scraping pipeline, the CSV splitter and the Markdown converter |
-| [`corpus/`](corpus/README.md) | The full texts converted to Markdown, ready for stage-2 extraction |
-| [`graph/`](graph/) | Neo4j schema DDL — constraints, indexes, and the declarative `GRAPH TYPE` equivalent |
-| [`reports/`](reports/) | Generated coverage and gap reports |
-| [`docs/`](docs/) | The submitted proposal and [the graph model](docs/graph-model.md) |
-| `cache/`, `state/` | Gitignored: raw HTTP responses and the SQLite ledger |
+| [`input/`](input/README.md) | Canonical project export and project-first publication records |
+| [`scripts/`](scripts/README.md) | Existing project-first discovery, matching, retrieval, and report pipeline |
+| [`pipeline/`](pipeline/) | Protocol 2.0 author discovery, screening, assessment, validation, and preparation stages |
+| [`data/`](data/) | Legacy graph inputs, extractions, and a compatibility link to the canonical project export |
+| [`artefacts/`](artefacts/) | Compact identity checkpoint and a manifest of the larger local artefact tree |
+| [`pilot/protocol-2.0/`](pilot/protocol-2.0/) | Compact pilot result and a manifest of the complete local pilot tree |
+| [`scale/protocol-2.0/`](scale/protocol-2.0/) | Validated scale checkpoint, compact results, and a manifest of the complete local scale tree |
+| [`corpus/`](corpus/README.md) | Retrieved full text converted to Markdown for extraction |
+| [`graph/`](graph/) | Neo4j ontology, schema, constraints, and indexes |
+| [`web/`](web/) | Nuxt server, chat, graph tools, migrations, and visual output |
+| [`docs/`](docs/) | Method, provenance, graph design, work plan, decisions, and proposal |
 
-Derived graph artefacts do not belong under `input/` — that tree stays the record of what was collected, not of what was inferred from it.
+See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration boundary between tracked source, compact evidence, and local working data.
 
-## Running it
+## Governing method and provenance
+
+- [`protocol-2.0.md`](protocol-2.0.md) is the canonical Protocol 2.0 method and status record.
+- [`docs/METHOD_SIMPLE.md`](docs/METHOD_SIMPLE.md) is the short governing method.
+- [`docs/PROVENANCE.md`](docs/PROVENANCE.md) identifies the source-to-result evidence trail.
+- [`LOG.md`](LOG.md) is the chronological build log.
+- [`scale/protocol-2.0/SCALE_STATUS.md`](scale/protocol-2.0/SCALE_STATUS.md) records the current scale funnel and work queue.
+- [`docs/COMPETENCY_QUESTIONS.md`](docs/COMPETENCY_QUESTIONS.md) defines graph and application evaluation questions.
+
+`docs/METHOD.md` is a historical design document.
+`FRIEND_REPO_EMPIRICAL_FINDINGS.md` is a historical assessment of the project-first pipeline at commit `68ebeab`.
+
+## Running the project
+
+The project-first pipeline uses Python and `requests`:
 
 ```sh
-python3 scripts/split_projects.py    # CSV -> input/projects/*
-python3 scripts/scrape.py all        # discover -> match -> enrich -> harvest -> mine -> export -> fulltext -> report
-python3 scripts/scrape.py status     # what the ledger currently knows
-python3 scripts/to_markdown.py       # papers/*.xml -> corpus/*.md, for stage-2 extraction
+python3 scripts/split_projects.py
+python3 scripts/scrape.py all
+python3 scripts/scrape.py status
+python3 scripts/to_markdown.py
 ```
 
-Python 3 with `requests` as the only third-party dependency.
-`to_markdown.py` additionally needs `pandoc` on the path (`brew install pandoc`); it is offline and touches no network.
-Europe PMC, Crossref and Unpaywall need no key;
-the CORE harvest stage skips itself unless `CORE_API_KEY` is set (free).
-Every source in use is free — OpenAlex is deliberately *not* used, being metered at a rate a single funders query exhausts.
+The Protocol 2.0 reproduction commands are in [`pilot/protocol-2.0/REPRODUCE.md`](pilot/protocol-2.0/REPRODUCE.md).
+Network steps and large working outputs use ignored local directories.
+Do not run the completed scale-screen preparation or submission commands against `scale/protocol-2.0/screening-v1`.
 
-Interrupting is safe — settled tasks are skipped on the next run.
-Only `discover`, `enrich`, `harvest` and `fulltext` touch the network;
-everything else replays the cache, so refining the matcher costs nothing.
-[`scripts/README.md`](scripts/README.md) explains the three layers, the evidence weights, and the curation table that overrides the matcher permanently.
+The Nuxt application uses pnpm:
 
-Set `SCRAPE_CONTACT_EMAIL` to change the address sent in the User-Agent.
+```sh
+cd web
+pnpm install --frozen-lockfile
+pnpm run build
+```
 
-## Conventions and constraints
+The example environment file is [`web/.env.example`](web/.env.example).
 
-- **This repository is private.**
-  Downloaded full texts are committed on that basis;
-  two of them carry publisher TDM licences that permit mining but not redistribution, so making the repository public means revisiting those first.
-  The open-source deliverable is the code, not the corpus.
-- No paywall circumvention.
-  A publisher refusal is recorded with its reason, never worked around.
-- No personal data is collected.
-  Everything in the graph comes from published papers and the public project listing.
-- [`CLAUDE.md`](CLAUDE.md) collects the gotchas that cost time and are not visible in the source —
-  publisher fetch behaviour, index coverage limits, paging traps, determinism requirements.
-  Read it before touching the pipeline, and add to it when something surprises you.
+## Data and repository rules
 
-## Known discrepancy
+- `input/` is the immutable record of the public project export and collected project-first results.
+- Active runs, caches, dependencies, and generated build output do not enter Git.
+- Compact validated results can enter Git when they include their method and provenance records.
+- `WORKSPACE_MANIFEST.tsv` files preserve file names, byte counts, and SHA-256 digests for larger local evidence trees that do not enter Git.
+- An accepted project-publication link and a Protocol 2.0 relevance decision are separate facts.
+- Full text must confirm funding scope; funding metadata is a discovery signal, not final proof.
 
-The proposal describes a portfolio of 944 projects.
-The CSV exported on 2026-07-28 lists **1024**; the extra rows are later awards.
-Where a number in the proposal and a number in this repository disagree, the repository is current.
+This repository is private because some downloaded full texts cannot be redistributed.
+The open-source deliverable is the code, not the restricted corpus.
+Do not make the repository public until restricted content has a separate release path.
+Do not circumvent paywalls.
+
+OpenAlex is metered.
+Run OpenAlex network stages only with a deliberate budget and the required local credentials.
+No credential belongs in Git.
+
+## Next gates
+
+1. Complete an independent human sample check of retained and excluded screening decisions.
+2. Resolve the held identity queue and create an additive tranche for newly accepted profiles.
+3. Confirm the final retained set without replacing the completed 918-batch screen.
+4. Retrieve lawful scale full text and keep unavailable papers unassessed.
+5. Assess EuroQol connection, funding scope, project links, and graph evidence.
+6. Load accepted evidence into Neo4j and evaluate the graph and application.

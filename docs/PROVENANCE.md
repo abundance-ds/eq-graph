@@ -50,8 +50,9 @@ attempts remain labeled in their original folders.
 
 ## Known limits
 
-- This directory is not a Git repository. It has file-level and run-level provenance,
-  but it has no commit history or signed release tag.
+- The Protocol 2.0 work entered this Git repository after the completed scale-screen
+  checkpoint. Earlier local work has file-level and run-level provenance, but it has
+  no earlier Git commit history or signed release tag.
 - The pilot and first scale checks used operator reference labels. They were not an
   independent human validation.
 - The 100-record scale exclusion audit used a separate AI subagent and primary-agent

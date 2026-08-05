@@ -24,12 +24,13 @@ project and member records
 | `web/` | Nuxt server, graph tools, chat, and visual output |
 | `docs/` | Protocol, method, provenance, architecture, decisions, and status |
 
-The `pipeline/` directory will enter the repository after the active scale run reaches a stable checkpoint.
+The `pipeline/` directory entered the repository after the scale screen reached its validated pause point.
 The existing `input/` and `scripts/` paths stay unchanged during the first integration stage.
-This rule keeps the current pipeline usable while the other parts enter the repository.
+This rule keeps the project-first pipeline usable while the integrated structure settles.
 
 ## Working data
 
 Secrets, caches, dependencies, build output, and active run output do not belong in Git.
 The repository tracks source code, authoritative small inputs, prompts, compact validation evidence, and result summaries.
 Large or mutable working data stays in a separate work directory and uses checksummed manifests for provenance.
+The tracked `WORKSPACE_MANIFEST.tsv` files record the complete local `artefacts/`, pilot, and scale trees at the import checkpoint.

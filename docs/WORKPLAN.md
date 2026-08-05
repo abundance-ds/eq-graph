@@ -81,11 +81,13 @@ Three layers:
 
 | Repository | Role |
 |---|---|
-| `shoulders-ai/eq-graph` (Kazik) | The ontology and the pipeline. Layer A data is on disk. |
+| `shoulders-ai/eq-graph` | The canonical project repository. It contains both pipelines, the ontology, the application, and compact validated evidence. |
 | `shoulders-ai/amnog-graph` | The source of the chat pattern. Take the chat only. |
-| `~/Desktop/eq-graph` (this repo) | The method, the screening pipeline, and the application in `web/`. |
 
 **Decision:** the application lives in `web/` in this repository.
+
+Historical documents use “Paul's pipeline” and “Kazik's pipeline” to identify their independent origins.
+Both pipelines now live in this repository.
 
 **What Kazik has.** `graph/schema.cypher` gives 30 constraints and the indexes.
 `graph/graph-type.cypher` gives the closed relationship model with the property
