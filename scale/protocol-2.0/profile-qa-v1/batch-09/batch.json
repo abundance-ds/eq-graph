@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-09",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Bram Roudijk",
+      "openalex_id": "A5028508726"
+    },
+    {
+      "name": "Brendan Mulhern",
+      "openalex_id": "A5090013218"
+    },
+    {
+      "name": "Brigitte Essers",
+      "openalex_id": "A5056962219"
+    },
+    {
+      "name": "Caitlyn Solem",
+      "openalex_id": "A5090387330"
+    },
+    {
+      "name": "Camilla Falivena",
+      "openalex_id": "A5014952669"
+    }
+  ]
+}

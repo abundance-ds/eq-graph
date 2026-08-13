@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-44",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Rachel Tan",
+      "openalex_id": "A5047279366"
+    },
+    {
+      "name": "Rainer Reile",
+      "openalex_id": "A5036883637"
+    },
+    {
+      "name": "Rebecca Addo",
+      "openalex_id": "A5005424373"
+    },
+    {
+      "name": "Richard Brooks",
+      "openalex_id": "A5112107099"
+    },
+    {
+      "name": "Richard Norman",
+      "openalex_id": "A5101841802"
+    }
+  ]
+}

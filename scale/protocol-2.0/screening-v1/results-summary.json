@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "prompt_sha256": "f08214947079d7ed660fc3ac69aafb3f53d96d1a80acfaf123c216fd695acefd",
+  "expected_batches": 918,
+  "complete_batches": 918,
+  "remaining_batches": 0,
+  "expected_records": 18348,
+  "submitted_records": 18348,
+  "retained": 3148,
+  "excluded": 15200,
+  "code_counts": {
+    "E1": 2286,
+    "E2": 1548,
+    "E3": 621,
+    "E4": 9810,
+    "E5": 935,
+    "R1": 1226,
+    "R2": 1914,
+    "RU": 8
+  },
+  "submission_complete": true,
+  "failures": []
+}

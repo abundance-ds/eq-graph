@@ -252,6 +252,9 @@ CREATE FULLTEXT INDEX project_text_ft IF NOT EXISTS
 CREATE FULLTEXT INDEX person_name_ft IF NOT EXISTS
   FOR (n:Person) ON EACH [n.fullName];
 
+CREATE FULLTEXT INDEX instrument_name_ft IF NOT EXISTS
+  FOR (n:Instrument) ON EACH [n.name, n.family];
+
 CREATE FULLTEXT INDEX concept_label_ft IF NOT EXISTS
   FOR (n:Concept) ON EACH [n.prefLabel, n.definition];
 

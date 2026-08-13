@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-03",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Alex Bató",
+      "openalex_id": "A5009546494"
+    },
+    {
+      "name": "Alexander Arons",
+      "openalex_id": "A5044999875"
+    },
+    {
+      "name": "Alexander Geissler",
+      "openalex_id": "A5089010455"
+    },
+    {
+      "name": "Alexander van Heusden",
+      "openalex_id": "A5070658848"
+    },
+    {
+      "name": "Alice Yu",
+      "openalex_id": "A5055148154"
+    }
+  ]
+}

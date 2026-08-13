@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-35",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Margreet Franken",
+      "openalex_id": "A5089696059"
+    },
+    {
+      "name": "Marisa Da Santos",
+      "openalex_id": "A5070231679"
+    },
+    {
+      "name": "Mark Oppe",
+      "openalex_id": "A5023709885"
+    },
+    {
+      "name": "Mark Sculpher",
+      "openalex_id": "A5060049178"
+    },
+    {
+      "name": "Martijn Doeleman",
+      "openalex_id": "A5038383689"
+    }
+  ]
+}

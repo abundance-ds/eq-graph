@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 /Users/waqr/Desktop/eq-graph/pipeline/submit_profile_qa.py "$@"

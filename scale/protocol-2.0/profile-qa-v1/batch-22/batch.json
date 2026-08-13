@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-22",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Jahangir Khan",
+      "openalex_id": "A5052565475"
+    },
+    {
+      "name": "James Shaw",
+      "openalex_id": "A5055862397"
+    },
+    {
+      "name": "Jan Abel Olsen",
+      "openalex_id": "A5052181611"
+    },
+    {
+      "name": "Jan Busschbach",
+      "openalex_id": "A5020122364"
+    },
+    {
+      "name": "Jan Faller",
+      "openalex_id": "A5043601549"
+    }
+  ]
+}

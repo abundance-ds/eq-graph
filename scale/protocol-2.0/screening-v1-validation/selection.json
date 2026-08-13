@@ -1,0 +1,123 @@
+{
+  "version": "v1",
+  "validation": true,
+  "source_prompt": "pilot/protocol-2.0/screening-v3/SYSTEM.md",
+  "prompt_sha256": "f08214947079d7ed660fc3ac69aafb3f53d96d1a80acfaf123c216fd695acefd",
+  "seed": 20260804,
+  "batch_size": 20,
+  "records": 86,
+  "abstract_rule": "Full stored text; minimum 80 characters; no truncation.",
+  "batches": [
+    {
+      "batch_id": "batch-0001",
+      "record_ids": [
+        "P346af7659df3",
+        "P3c2a48f0eb38",
+        "Pd85947fcb4e8",
+        "P9b77a57aa69d",
+        "P5a10aa051f45",
+        "P46000c7cbbe8",
+        "Pfdcafb278bd0",
+        "P3ddd769fbcb7",
+        "Pd690862e6d04",
+        "Pbf3bbda3b907",
+        "P9a49bb749c53",
+        "P1ebd0d6a1783",
+        "Pafe86f287f9e",
+        "Pbfdb0b0dc9b2",
+        "P7fe7cb86ffa4",
+        "P269beaa55182",
+        "P5659f0d1c6ef",
+        "Pc811e48f0b5c",
+        "Pcba4c36af786",
+        "P9562cbd1e70a"
+      ]
+    },
+    {
+      "batch_id": "batch-0002",
+      "record_ids": [
+        "P28a27cc6411d",
+        "Pd89954f39a01",
+        "Pc18022692a61",
+        "P68ac5e9c9736",
+        "Pc1019d8075e6",
+        "P4c344cefa6d9",
+        "P8f2bc31ce40a",
+        "Pa06ed50f6556",
+        "P87313758ece1",
+        "P33e2c0446f8e",
+        "P448cdf743747",
+        "P68d4e63216b4",
+        "Pf19b6a946d16",
+        "Pae9a1ef61183",
+        "P0640f26e484e",
+        "Pad10a097038a",
+        "P060e13fe92fe",
+        "P142ea3b82df7",
+        "P957118f6e6d6",
+        "P9439f6a84eb1"
+      ]
+    },
+    {
+      "batch_id": "batch-0003",
+      "record_ids": [
+        "Pc0cc1bb04e40",
+        "Pcf05ac2edd07",
+        "P26410cf35508",
+        "P111b14fc8d2b",
+        "Pb8f868bd311b",
+        "P1141bb655825",
+        "P099b4bfedca4",
+        "P75339c6d635f",
+        "P4bbb249162d3",
+        "P4512f87b33d2",
+        "P80d13ed3ef16",
+        "P01a1f791f782",
+        "P3e2170e62c8b",
+        "Pf03eadc4f6ab",
+        "Pa27a1d67c33b",
+        "Pb599996d5562",
+        "Pe58cce429ea9",
+        "P9f850f38893d",
+        "Pe8f86ffb599b",
+        "Pd7fdee484959"
+      ]
+    },
+    {
+      "batch_id": "batch-0004",
+      "record_ids": [
+        "P194d15e1ded5",
+        "P400a9a39db25",
+        "P5adb70ae1f53",
+        "Ped09f2dc0688",
+        "P31ff012c0beb",
+        "P9cab91ca50fd",
+        "Pbe9b7dc732f5",
+        "Pdbef0c2452ff",
+        "P319a919037f5",
+        "P595e0df3a2cf",
+        "Pd40392956b2d",
+        "Pd7ce056308c8",
+        "Pc77ab47251bf",
+        "P13a50c7a151d",
+        "Pa494ae4c9bea",
+        "Pcfb895e0b381",
+        "P5e758f731736",
+        "P197b91cd88a6",
+        "P139d8058a935",
+        "P8ece1bb2377a"
+      ]
+    },
+    {
+      "batch_id": "batch-0005",
+      "record_ids": [
+        "P4516ff9b63f6",
+        "P21f5d5b086b5",
+        "P8113220293c0",
+        "Pb11b3b47ee24",
+        "P5193b8ead600",
+        "P39548ebd9f63"
+      ]
+    }
+  ]
+}
