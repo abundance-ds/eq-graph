@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-32",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Leida Lamers",
+      "openalex_id": "A5091647381"
+    },
+    {
+      "name": "Lidia Engel",
+      "openalex_id": "A5039737173"
+    },
+    {
+      "name": "Lina Maria Serna Higuita",
+      "openalex_id": "A5022647682"
+    },
+    {
+      "name": "Ling Jie Cheng",
+      "openalex_id": "A5082193621"
+    },
+    {
+      "name": "Ling-Hsiang Chuang",
+      "openalex_id": "A5057802030"
+    }
+  ]
+}

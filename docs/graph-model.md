@@ -3,8 +3,14 @@
 The Neo4j model for stages 2 and 3.
 Runnable DDL lives in [`graph/schema.cypher`](../graph/schema.cypher); this document explains *why* it is shaped that way.
 
-Nothing here is loaded yet.
-The numbers quoted are from the stage-1 corpus as of 2026-07-31: 1026 project directories, 5475 work rows (318 accepted, 9 review, 5148 weak), 287 full texts (220 JATS XML, 67 PDF).
+The ontology pilot is loaded in Neo4j Aura. On 2026-08-05 it contains 20
+projects, 174 works, 30 accepted attributions, 30 full texts, 20 extracted
+studies, and 178 findings. It is a small real-data load that will grow.
+
+The larger numbers below are from the stage-1 corpus as of 2026-07-31: 1,026
+project directories, 5,475 work rows (318 accepted, 9 review, 5,148 weak), and
+287 full texts (220 JATS XML and 67 PDF). They describe source data that is not
+all in Aura yet.
 
 ## Questions the model must answer
 

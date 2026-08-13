@@ -1,0 +1,4 @@
+# esbuild needs its install script, because the script places the binary for
+# this platform. Nuxt and Vite both use esbuild.
+allowBuilds:
+  esbuild: true

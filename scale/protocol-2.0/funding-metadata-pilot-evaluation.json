@@ -1,0 +1,28 @@
+{
+  "pilot_retained_articles": 201,
+  "metadata_matched_retained_articles": 67,
+  "metadata_work_matches": 69,
+  "metadata_matched_assessed_articles": 49,
+  "metadata_matched_unavailable_articles": 18,
+  "current_study_funding": {
+    "metadata_true_positives": 33,
+    "metadata_matches_assessed": 49,
+    "positive_predictive_value_percent": 67.3,
+    "fulltext_positive_articles": 45,
+    "metadata_detected_fulltext_positives": 33,
+    "sensitivity_percent": 73.3
+  },
+  "any_explicit_euroqol_support": {
+    "metadata_true_positives": 42,
+    "metadata_matches_assessed": 49,
+    "positive_predictive_value_percent": 85.7,
+    "fulltext_positive_articles": 59,
+    "metadata_detected_fulltext_positives": 42,
+    "sensitivity_percent": 71.2
+  },
+  "interpretation": [
+    "Use the metadata route for discovery, not final funding classification.",
+    "A full-text funding-scope assessment is still required.",
+    "Do not calculate funding accuracy for unavailable full texts."
+  ]
+}

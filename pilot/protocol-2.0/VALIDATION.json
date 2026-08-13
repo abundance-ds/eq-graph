@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "scope": "Current Protocol 2.0 pilot validation suite",
+  "checks": [
+    {
+      "check": "screening_corpus",
+      "ok": true,
+      "validator": "pipeline/validate_screening_corpus.py",
+      "result": "pilot/protocol-2.0/screening-corpus-validation.json",
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "check": "screening_results",
+      "ok": true,
+      "validator": "pipeline/validate_screening_results.py",
+      "result": "pilot/protocol-2.0/screening-final/validation.json",
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "check": "fulltext_assessment",
+      "ok": true,
+      "validator": "pipeline/validate_fulltext_assessment.py",
+      "result": "pilot/protocol-2.0/fulltext-assessment-validation.json",
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "check": "project_candidate_audit",
+      "ok": true,
+      "validator": "pipeline/evaluate_project_candidate_audit.py",
+      "result": "pilot/protocol-2.0/project-assessment-v3/evaluation.json",
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "check": "governing_files_present",
+      "ok": true,
+      "missing": []
+    }
+  ],
+  "environment": {
+    "python": "3.14.5",
+    "codex": "codex-cli 0.146.0"
+  },
+  "sha256": {
+    "protocol-2.0.md": "487a2d9a74329563b398dd16c615a3b7cc587716747c785eac5d5987f2a59a81",
+    "docs/METHOD_SIMPLE.md": "f61038c0901c8dc526d516108cd36c7ad340879ff19632a7caa8206b4438d1a3",
+    "docs/PROVENANCE.md": "99b49d98c53a795cf588930e4d6118151427335ba8d2a32978a9bded49b7df7d",
+    "pipeline/validate_pilot_2_0.py": "5d521fb07b48ff61834f8b9d07c8a4952457d1097686f8e59ab35c514fcc7dd8",
+    "pilot/protocol-2.0/screening-v3/SYSTEM.md": "7a048e9b23ee5ded67941016f281a851a9ba9e6efe51e56e0f1c5e577ab9ebc0",
+    "pilot/protocol-2.0/screening-final/selection.json": "50ab36bcf42b76ec146507b8236a5083ce530d2e636af8bf3ae7fffae9f18325",
+    "pilot/protocol-2.0/fulltext-assessment-v1/SYSTEM.md": "224da0e222a5f12d47a81472eab2ffcfcdaa164644eabcc9efae148a9bbad10a",
+    "pilot/protocol-2.0/project-assessment-v3/SYSTEM.md": "2b09533a30562bb74cc218a1eae426e3e43ebe6608f29eb3b98bfe290fcedd6f"
+  }
+}

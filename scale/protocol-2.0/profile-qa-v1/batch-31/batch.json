@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-31",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Kristina Burström",
+      "openalex_id": "A5005862614"
+    },
+    {
+      "name": "Kristina Ludwig",
+      "openalex_id": "A5035184665"
+    },
+    {
+      "name": "Kristina Secnik Boye",
+      "openalex_id": "A5039006946"
+    },
+    {
+      "name": "Lan Gao",
+      "openalex_id": "A5043687438"
+    },
+    {
+      "name": "Lars Ehlers",
+      "openalex_id": "A5054828864"
+    }
+  ]
+}

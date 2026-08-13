@@ -1,0 +1,57 @@
+{
+  "version": "v1",
+  "prompt_sha256": "f08214947079d7ed660fc3ac69aafb3f53d96d1a80acfaf123c216fd695acefd",
+  "records": 86,
+  "human_retained": 21,
+  "ai_retained": 21,
+  "false_exclusions": 0,
+  "false_inclusions": 0,
+  "agreement": 1.0,
+  "batches": {
+    "batch-0001": {
+      "records": 20,
+      "human_retained": 3,
+      "ai_retained": 3,
+      "false_exclusions": 0,
+      "false_inclusions": 0,
+      "agreement": 1.0
+    },
+    "batch-0002": {
+      "records": 20,
+      "human_retained": 3,
+      "ai_retained": 3,
+      "false_exclusions": 0,
+      "false_inclusions": 0,
+      "agreement": 1.0
+    },
+    "batch-0003": {
+      "records": 20,
+      "human_retained": 9,
+      "ai_retained": 9,
+      "false_exclusions": 0,
+      "false_inclusions": 0,
+      "agreement": 1.0
+    },
+    "batch-0004": {
+      "records": 20,
+      "human_retained": 6,
+      "ai_retained": 6,
+      "false_exclusions": 0,
+      "false_inclusions": 0,
+      "agreement": 1.0
+    },
+    "batch-0005": {
+      "records": 6,
+      "human_retained": 0,
+      "ai_retained": 0,
+      "false_exclusions": 0,
+      "false_inclusions": 0,
+      "agreement": 1.0
+    }
+  },
+  "pilot_gate": {
+    "rule": "At least three batches; zero false exclusions and at most two false inclusions in each batch.",
+    "passed": true
+  },
+  "validation_failures": []
+}

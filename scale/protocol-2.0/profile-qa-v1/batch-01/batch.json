@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-01",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Aaron Winn",
+      "openalex_id": "A5066367734"
+    },
+    {
+      "name": "Abdelghafour MARFAK",
+      "openalex_id": "A5024805890"
+    },
+    {
+      "name": "Abdulmuminu Isah",
+      "openalex_id": "A5024575926"
+    },
+    {
+      "name": "Abdulrasheed Hassan Yusuf",
+      "openalex_id": "A5138651068"
+    },
+    {
+      "name": "Abeer Al Rabayah",
+      "openalex_id": "A5058964513"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "accepted_profiles": 222,
+  "source_records": 44583,
+  "source_record_counts": {
+    "openalex": 27371,
+    "orcid": 14102,
+    "pubmed": 3110
+  },
+  "deduplicated_records": 28600,
+  "records_removed_as_duplicates": 15983,
+  "discovery_route_record_counts_after_deduplication": {
+    "accepted_openalex_profile": 26314,
+    "accepted_orcid_profile": 12301,
+    "euroqol_funding_metadata": 725,
+    "pubmed_exact_orcid": 2660
+  },
+  "candidate_articles_and_reviews": 23175,
+  "candidate_articles_with_abstract": 14853,
+  "candidate_articles_without_abstract": 8322,
+  "document_junk_excluded": 439,
+  "other_formats_excluded": 4986,
+  "records_with_identifier_variants": 664,
+  "title_year_identifier_variant_groups_merged": 667,
+  "rule": "Merge exact DOI, then exact PMID, then exact normalized title and year. Retain alternate DOI and PMID values in the merged record and audit table.",
+  "failures": []
+}

@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-12",
+  "prompt_sha256": "de591c860a707fc88bf9cd869c7e1f9df1cd85835edae37ff360d39ddb6eb7e1",
+  "records": [
+    {
+      "name": "Darshini Govindasamy",
+      "openalex_id": "A5050754442"
+    },
+    {
+      "name": "David Mott",
+      "openalex_id": "A5009132187"
+    },
+    {
+      "name": "David Parkin",
+      "openalex_id": "A5081956728"
+    },
+    {
+      "name": "David Whitehurst",
+      "openalex_id": "A5045933977"
+    },
+    {
+      "name": "Deborah Marshall",
+      "openalex_id": "A5049401142"
+    }
+  ]
+}
