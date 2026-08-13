@@ -1,19 +1,19 @@
 # corpus
 
 The full texts as Markdown, ready for stage-2 extraction.
-Generated from `input/projects/*/papers/*.xml` by [`scripts/to_markdown.py`](../scripts/to_markdown.py); nothing here is edited by hand.
+Generated from `input/projects/*/papers/*.{xml,pdf}` by [`scripts/to_markdown.py`](../scripts/to_markdown.py); nothing here is edited by hand.
 
 ```sh
 python3 scripts/to_markdown.py          # convert what changed
 python3 scripts/to_markdown.py --force  # reconvert everything (~35 s for all 220)
 ```
 
-Rerunning is cheap and safe: a paper is reconverted only when its source bytes, the converter, or the pandoc version changed, and the output is byte-identical across runs.
+Rerunning is cheap and safe: a paper is reconverted only when its source bytes, the converter, or the version of the tool that read it changed, and the output is byte-identical across runs.
 Deleting a `.md` file is enough to have it rebuilt — the provenance stamp lives in the file's own front matter, not in a side ledger.
 
 ## Layout
 
-    corpus/index.json                       every document, and every paper that could not be converted
+    corpus/index.json                       every converted document
     corpus/<project id>/<work id>.md        one paper, front matter + body
 
 The stem matches the source XML exactly, so `corpus/20170600/doi_10.1007_s40273-022-01172-4.md` came from `input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml`.
@@ -29,8 +29,11 @@ The reference list is rendered as numbered entries matching the `[1]`, `[4–7]`
 
 ## Coverage and limits
 
-- **220 of the 287 held full texts.**
-  The other 67 are PDFs; pandoc has no PDF reader, so they are listed in `index.json` under `unconverted` and await a separate decision about how much layout fidelity their text extraction needs.
+- **220 of the 287 held full texts**, all of them JATS XML.
+  The other 67 are PDFs. `to_markdown.py` converts those as well now — through poppler, in [`pdf_markdown.py`](../scripts/pdf_markdown.py), since pandoc has no PDF reader — but only the 7 in the [ontology pilot](../docs/ontology-pilot/README.md) have been run, and their output sits beside the sources rather than here.
+  Rerun `python3 scripts/to_markdown.py` to bring the remaining 60 in.
+  PDF-derived documents are thinner than these: a publisher PDF carries no author list, keywords or affiliations in any recoverable form, and its tables flatten into loose lines.
+  Prefer the XML wherever a paper is held as both.
 - **Tables** are pipe tables where the shape allows and raw HTML where it does not — rowspans and nested tables have no Markdown form.
   This is where the value-set coefficients and sample characteristics live, so it matters that they survive at all; both forms are readable, neither is tidy.
 - **Figures** keep their captions, but the `![](…jpg)` links point at image files that were never downloaded.

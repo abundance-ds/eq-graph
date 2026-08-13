@@ -62,7 +62,8 @@ From the current run over all 1024 projects:
 - **209 projects (20.4%)** have a publication linked at accepted confidence; 243 have no candidate at all; the remaining 572 sit in review or name-only bands.
 - **2603 works** in the pool, 305 linked at accepted confidence.
 - **287 full texts on disk** (114 MB), mostly Europe PMC JATS XML.
-  The 220 XML ones are converted to Markdown in [`corpus/`](corpus/README.md) (16.9 MB); the remaining 67 are PDFs and are not yet extracted.
+  The 220 XML ones are converted to Markdown in [`corpus/`](corpus/README.md) (16.9 MB).
+  The remaining 67 are PDFs; `to_markdown.py` now converts those too, via poppler rather than pandoc, but only the 7 in the [ontology pilot](docs/ontology-pilot/README.md) have been run so far.
 
 Read [`reports/coverage.md`](reports/coverage.md) before drawing conclusions from those numbers,
 and [`reports/no-publications.md`](reports/no-publications.md) for the caveat that matters most:
@@ -81,6 +82,7 @@ That band is a review pool by construction and cannot be promoted by tuning.
 | [`scripts/`](scripts/README.md) | The scraping pipeline, the CSV splitter and the Markdown converter |
 | [`corpus/`](corpus/README.md) | The full texts converted to Markdown, ready for stage-2 extraction |
 | [`graph/`](graph/) | Neo4j schema DDL — constraints, indexes, and the declarative `GRAPH TYPE` equivalent |
+| [`src/`](src/main/kotlin/) | The stage-3 backend — a Kotlin/Ktor service over Neo4j, built with Gradle from the repository root |
 | [`reports/`](reports/) | Generated coverage and gap reports |
 | [`docs/`](docs/) | The submitted proposal and [the graph model](docs/graph-model.md) |
 | `cache/`, `state/` | Gitignored: raw HTTP responses and the SQLite ledger |
@@ -93,11 +95,11 @@ Derived graph artefacts do not belong under `input/` — that tree stays the rec
 python3 scripts/split_projects.py    # CSV -> input/projects/*
 python3 scripts/scrape.py all        # discover -> match -> enrich -> harvest -> mine -> export -> fulltext -> report
 python3 scripts/scrape.py status     # what the ledger currently knows
-python3 scripts/to_markdown.py       # papers/*.xml -> corpus/*.md, for stage-2 extraction
+python3 scripts/to_markdown.py       # papers/*.{xml,pdf} -> corpus/*.md, for stage-2 extraction
 ```
 
 Python 3 with `requests` as the only third-party dependency.
-`to_markdown.py` additionally needs `pandoc` on the path (`brew install pandoc`); it is offline and touches no network.
+`to_markdown.py` additionally needs `pandoc` and `poppler` on the path (`brew install pandoc poppler`) — pandoc reads the JATS XML, poppler the PDFs; it is offline and touches no network.
 Europe PMC, Crossref and Unpaywall need no key;
 the CORE harvest stage skips itself unless `CORE_API_KEY` is set (free).
 Every source in use is free — OpenAlex is deliberately *not* used, being metered at a rate a single funders query exhausts.
@@ -108,6 +110,37 @@ everything else replays the cache, so refining the matcher costs nothing.
 [`scripts/README.md`](scripts/README.md) explains the three layers, the evidence weights, and the curation table that overrides the matcher permanently.
 
 Set `SCRAPE_CONTACT_EMAIL` to change the address sent in the User-Agent.
+
+## The backend
+
+Stage 3's service is a Kotlin/Ktor application over Neo4j, built with Gradle from the repository root.
+It is derived from [xemantic-neo4j-demo](https://github.com/xemantic/xemantic-neo4j-demo) and currently carries only the plumbing —
+driver and dispatcher setup, migrations, JSON streaming helper, `GET /health` — plus the test harness that runs it against a real Neo4j.
+No domain endpoint exists yet.
+
+```sh
+./gradlew build    # compile and run the tests
+./gradlew test     # tests only, against the Neo4j that NEO4J_URI points at
+./gradlew uberjar  # build/libs/eq-graph-<version>-uber.jar
+```
+
+[`DEVELOPMENT.md`](DEVELOPMENT.md) covers maintenance of the build itself — upgrading the Gradle wrapper and the dependencies.
+
+Java 21 or later.
+Tests need a database, and so does running the server — both read the same three variables:
+
+```sh
+export NEO4J_URI="neo4j://localhost:7687"
+export NEO4J_USER="neo4j"
+export NEO4J_PASSWORD="…"
+java -jar build/libs/eq-graph-0.1.0-SNAPSHOT-uber.jar
+```
+
+Port and connection settings come from [`application.yaml`](application.yaml) (development) and [`application-deployment.yaml`](application-deployment.yaml).
+Schema changes belong in [`src/main/resources/neo4j/migrations/`](src/main/resources/neo4j/migrations/README.md), which the server applies on startup;
+that README explains why [`graph/schema.cypher`](graph/schema.cypher) has not simply been moved there.
+
+There is no embedded fallback for the tests: the schema needs Enterprise features, and no embedded Enterprise Neo4j is publicly obtainable any more — see `CLAUDE.md`.
 
 ## Conventions and constraints
 

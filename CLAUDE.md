@@ -64,6 +64,18 @@ Both developers and AI agents are expected to add entries as they encounter surp
   `--citeproc` actively makes it worse — every entry renders as "n.d.-a" *and* the numeric markers in the body are rewritten to match, so `[4]` becomes `[(n.d.-d)]`.
   Read the reference list out of the XML instead, and leave citations as pandoc emits them without citeproc.
   Same class of loss, quieter: the abstract is filed under document metadata, and every Markdown writer drops it unless a `--template` asks for it, so a plain `pandoc -f jats -t gfm` silently loses the abstract *and* the title.
+- Elsevier's *Value in Health* PDFs draw `−`, `<`, `>`, `≥` and `≤` from a Mathematical Pi symbol font whose glyphs carry no usable ToUnicode map, so **every** text extractor reads them as `2`, `,`, `.`, `$` and `#`.
+  "Values ranged from −0.654" comes out as "from 20.654" and `P < .001` as `P , .001` — plausible, silent, and fatal to any number extracted downstream.
+  All 7 PDFs held here are affected.
+  The substitution is fixed per font, so repair it by font identity (`pdftohtml -xml` reports the font of every run) and never by context: a context rule cannot tell the corrupted `2` from the one in "20.5%".
+  [`scripts/pdf_markdown.py`](scripts/pdf_markdown.py) carries the table.
+- `pdftohtml -xml` emits a `<fontspec>` only on the page that first uses a font id, and later pages reuse those ids without redeclaring them.
+  Building the font table per page therefore leaves most of the document with no resolvable font — which looks like "this PDF has no symbol fonts" rather than like a bug.
+  Accumulate the table across pages.
+- `pdftotext`'s de-hyphenation rejoins a word broken across lines by dropping the hyphen, which rewrites the instrument names this corpus is about: "EQ-" + "5D-5L" becomes `EQ5D-5L`.
+  Whether a line-break hyphen was real is not decidable from the fragments ("evi-dence" is one word, "long-term" is two), so use the document as its own dictionary — whichever form occurs elsewhere in the paper wins — and keep the hyphen when neither does.
+- Repository deposits staple a cover sheet in front of the PDF (White Rose and Erasmus both do), restating the citation and licence in the repository's house font.
+  That font is what identifies it: the sheet shares no font family with the article, which a genuine first page always does.
 - A replacement string passed to `re.sub`/`subn` is scanned for escapes, so substituting text harvested from a document explodes on the first `\c` (`re.PatternError`) and would silently expand a `\1`.
   Pass a callable — `subn(lambda _: block, …)` — whenever the replacement is data rather than a literal.
 - Demoting headings by one to nest a document under its own title can push a level-6 heading to `#######`, which is not a heading in Markdown at all and renders as literal text — 27 of 220 papers hit this.
@@ -71,6 +83,24 @@ Both developers and AI agents are expected to add entries as they encounter surp
 - `npx skills add <repo> --skill <name>` installs one skill at a time (the repo README only advertises the install-everything form), but it **skips a skill silently** when its `SKILL.md` frontmatter is invalid YAML — the warning scrolls past among unrelated ones and the exit code stays 0.
   `neo4j-mcp-skill` hits this, and is vendored here with the offending colon patched; see [`.agents/skills/README.md`](.agents/skills/README.md).
   `skills-lock.json` pins no commit SHA and does not list the patched skill, so it is a provenance record, not a restore mechanism — that is why the skills are committed.
+- There is no embedded Neo4j to test against, because [`graph/schema.cypher`](graph/schema.cypher) needs Enterprise (`IS NODE KEY`, existence and property-type constraints) and no embedded Enterprise database is publicly obtainable any more.
+  `org.neo4j.test:neo4j-harness-enterprise` on Maven Central stops at 3.5.0-beta03 (2018);
+  Neo4j's support KB points at `com.neo4j.test:neo4j-harness-enterprise` instead, which is customer-only — and `maven.neo4j.com`, `artifacts.neo4j.com` and `repo.neo4j.com` now all resolve to nothing, so that repository cannot be reached at all.
+  The remaining options are the `neo4j:<version>-enterprise` Docker image (`NEO4J_ACCEPT_LICENSE_AGREEMENT=yes`, which the operations manual pairs with "use ... without a proper commercial license ... is prohibited") or a real instance.
+  `TestNeo4j` therefore connects to whatever `NEO4J_URI` / `NEO4J_USER` / `NEO4J_PASSWORD` point at, exactly as `application.yaml` does — tests do not run without those set.
+- Tests share the developer's live database, so anything destructive in test scaffolding is live ammunition.
+  `TestNeo4j.cleanDatabase()` (`MATCH (n) DETACH DELETE n`) was harmless against the old embedded instance and was removed rather than re-aimed at Aura.
+- The Aura instance reports `5.27-aura` / Cypher 5, not a calendar version.
+  `graph/schema.cypher` applies to it whole — all 48 constraints and 20 indexes, `vector.quantization.type: 'SCALAR'` included — but the 2026.x features its comments hold in reserve (the `SEARCH` clause, filterable vector metadata via `WITH [...]`, and `GRAPH TYPE` in [`graph/graph-type.cypher`](graph/graph-type.cypher)) are not available there yet.
+  Check `dbms.components()` before assuming a Cypher feature exists.
+- `kotlin-test-junit5` still pins `junit-platform-launcher` at 1.10.1, while the rest of JUnit here is 6.x.
+  Nothing else requests the launcher, so there is no version conflict for Gradle to resolve and it silently stays four majors behind, failing the whole test task with `TestEngine with ID 'junit-jupiter' failed to discover tests` — the actual cause, `OutputDirectoryCreator not available … unaligned versions`, is two `Caused by` levels down and invisible without `--stacktrace`.
+  The `junit-bom` platform plus a versionless `testRuntimeOnly` launcher in [`build.gradle.kts`](build.gradle.kts) keeps the two aligned as either side moves.
+- Ktor 3.4.1 stopped sending `Accept-Charset` ([KTOR-5616](https://youtrack.jetbrains.com/issue/KTOR-5616)) and 3.5.0 deprecated the header ([KTOR-9355](https://youtrack.jetbrains.com/issue/KTOR-9355)).
+  ContentNegotiation derived the *response* charset from it, so `call.respond` now emits a bare `application/json` where it used to emit `application/json; charset=UTF-8` — a wire-visible change to our own API that no changelog entry mentions.
+  `respondStreaming` in [`HttpResponses.kt`](src/main/kotlin/HttpResponses.kt) still sets the charset by hand, so the streaming and non-streaming endpoints now disagree on the header.
+- The backend under `src/` is derived from [xemantic-neo4j-demo](https://github.com/xemantic/xemantic-neo4j-demo) (Apache-2.0), so its files keep the upstream copyright headers even though this repository has no root `LICENSE`.
+  The Kotlin sources sit flat under `src/main/kotlin` while declaring `package rs.shoulde.eqgraph` — that mismatch is the upstream convention, not an oversight.
 
 ## Anti-patterns to avoid
 
