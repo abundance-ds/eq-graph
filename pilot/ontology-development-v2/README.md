@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: version-2 purpose, protocol and inputs frozen; round one in progress, 2026-08-16.
+Status: valid round one complete; round two in progress, 2026-08-16.
 
 ## Why version 2 exists
 
@@ -36,6 +36,7 @@ fixed paper-first purpose + focused user questions + frozen papers
 - [`TASK.md`](TASK.md): common agent task.
 - [`PROTOCOL.md`](PROTOCOL.md): experimental controls.
 - [`FREEZE.md`](FREEZE.md): frozen inputs, controls and file hashes.
+- [`RUNS.md`](RUNS.md): valid rounds, branches and commits.
 - [`SELECTION.md`](SELECTION.md): operator paper-selection record.
 - [`PROBES.md`](PROBES.md): frozen operator tests kept from development agents.
 - `batches/`: frozen development, calibration and holdout manifests.
