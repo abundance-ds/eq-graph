@@ -5,6 +5,16 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-16
 
+- Merged the separate designer direction into the current Nuxt 4 application.
+  Added one landing page, a six-view manual narrative, and a chat surface without
+  importing the separate Nuxt 3 application or its animation scripts.
+- Added one raw JSON prototype fixture and two Nitro endpoints. The narrative and
+  chat now use the same mock records. Marked the adapter for replacement when the
+  new ontology and SQLite schema are ready.
+- Retained the Observable Plot gallery at `/widgets`, applied the paper and EuroQol
+  green theme, and expanded the shared chat renderer with a donut mark.
+- Added `DESIGN.md`. The production build, Nuxt type check, desktop and mobile
+  browser checks, mock chat request, and chart gallery check pass.
 - Integrated the useful parts of collaborator PR #2 while preserving its Git history.
   Kept the PDF converter and seven pilot PDF texts in `corpus/`.
   Excluded the separate Kotlin/Neo4j backend, duplicate derived files under `input/`, and the reduced duplicate pilot CSV.
@@ -58,6 +68,8 @@ Stable knowledge lives in README.md; this file is the narrative.
   Started round two with three new agent contexts and no cross-lineage access.
 - Completed version-2 round two with commits `0977ffc` (A), `b920143` (B) and `ec3aeda` (C).
   Started round three with three new agent contexts and the same isolation controls.
+- Completed version-2 round three with commits `145b7c3` (A), `22f9159` (B) and `984d1b2` (C).
+  Started the targeted round-four calibration with three new agent contexts.
 
 ## 2026-08-05
 
