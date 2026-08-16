@@ -81,6 +81,10 @@ Stable knowledge lives in README.md; this file is the narrative.
   All three candidates support the paper-first core and all 27 focused questions.
   The material differences concern family boundaries, role separation, administration, task purpose, assessment classes, product state and application precision.
   The frozen probes found no focal retrieval miss, but they found broad-match risks and incomplete source-conflict capture.
+- Completed independent harmonization and prepared one candidate for freeze.
+  It uses purpose-based families, exact method paths, independent administration and product-state axes, component-scoped evidence lineage, attributed findings and a conflict-specific extraction pass.
+  It fits all 40 development papers and supports all 27 focused questions and 14 probes.
+  No material ontology alternative remains unresolved before holdout.
 
 ## 2026-08-05
 

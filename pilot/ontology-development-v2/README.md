@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: development, lineage consolidation and anonymous comparison complete; independent harmonization is next, 2026-08-16.
+Status: development, consolidation, comparison and harmonization complete; the candidate is ready for unchanged holdout application, 2026-08-16.
 
 ## Why version 2 exists
 
@@ -38,6 +38,7 @@ fixed paper-first purpose + focused user questions + frozen papers
 - [`FREEZE.md`](FREEZE.md): frozen inputs, controls and file hashes.
 - [`RUNS.md`](RUNS.md): valid rounds, branches and commits.
 - `comparison/`: exact anonymous inputs, task, output and run record.
+- `harmonization/`: frozen candidate, decisions, validation record, task and run record.
 - [`SELECTION.md`](SELECTION.md): operator paper-selection record.
 - [`PROBES.md`](PROBES.md): frozen operator tests kept from development agents.
 - `batches/`: frozen development, calibration and holdout manifests.
