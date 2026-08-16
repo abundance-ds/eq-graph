@@ -3,6 +3,21 @@
 Chronological record of what was done, what broke, and how it was fixed.
 Stable knowledge lives in README.md; this file is the narrative.
 
+## 2026-08-16
+
+- Integrated the useful parts of collaborator PR #2 while preserving its Git history.
+  Kept the PDF converter and seven pilot PDF texts in `corpus/`.
+  Excluded the separate Kotlin/Neo4j backend, duplicate derived files under `input/`, and the reduced duplicate pilot CSV.
+- Confirmed that the corpus now has 227 converted documents: all 220 JATS XML files and seven pilot PDFs.
+  The 60 other PDF files remain unconverted.
+- Started a new ontology-development pilot.
+  It uses three isolated lineages, the same frozen paper batches, fresh agents and flexible Markdown output.
+  It does not prescribe ontology classes or a JSON output schema.
+- Audited all 220 JATS files.
+  Core bibliographic metadata is almost complete, and the XML has rich structured funding, affiliation, reference, section and table data that Markdown does not preserve fully.
+  Raw JATS is now the canonical structured source; deterministic parsing precedes semantic AI work.
+- Added the concise protocol, common agent task and XML audit under `pilot/ontology-development/`.
+
 ## 2026-08-05
 
 - Connected the Nuxt application to the real Neo4j Aura ontology pilot. The

@@ -69,6 +69,8 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 - The application agent knows all three graph layers and can resolve projects,
   people, works, instruments, concepts, methods, conditions, properties,
   countries, working groups, journals, and value sets.
+- The existing graph is now a baseline, not the assumed final ontology.
+  [`pilot/ontology-development/`](pilot/ontology-development/README.md) derives a simpler meta-research ontology through three independent iterative lineages before a new database design.
 
 ## Repository map
 
