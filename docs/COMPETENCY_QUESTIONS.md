@@ -2,6 +2,12 @@
 
 Status: draft v1, 2026-07-30. 100 good questions + 20 negative (bad) questions.
 
+> **Scope note, 2026-08-16.** This is the broad system question set.
+> It mixes project, funding, bibliometric, application and article-extraction needs.
+> It is not a field list for the paper ontology.
+> The focused paper-level requirements for the controlled ontology rerun are in
+> [`../pilot/ontology-development-v2/USER_QUESTIONS.md`](../pilot/ontology-development-v2/USER_QUESTIONS.md).
+
 **Purpose.** Dual use:
 1. **Ontology requirements** (competency-question-driven design): the Neo4j schema
    must be able to *express* every good question; a question the schema cannot express

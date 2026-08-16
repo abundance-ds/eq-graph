@@ -1,6 +1,6 @@
 # Decision: how should the ontology be organized?
 
-Status: awaiting one human decision.
+Status: option A approved, 2026-08-16.
 
 ## Context
 
@@ -75,6 +75,11 @@ I will make the remaining detailed harmonization decisions from the paper eviden
 
 ## Human record
 
-Decision: pending.
+Decision: option A, paper-first tags and short descriptions.
 
-Reason or amendment: pending.
+Amendment: paper-first does not mean shallow or generic.
+The ontology is for EuroQol research discovery and synthesis, not for general research.
+It must test useful domain detail for populations, instruments, versions, languages, administration, study-family-specific methods, statistical methods, findings, interpretation, implications and gaps.
+
+Outcome: do not harmonize the version-1 lineages into a final ontology.
+Run a controlled version-2 experiment with option A fixed and the clarified purpose frozen before development.

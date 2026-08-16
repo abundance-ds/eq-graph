@@ -41,6 +41,13 @@ Stable knowledge lives in README.md; this file is the narrative.
   The holdout procedure requires unchanged application to all ten papers before any revision proposal and does not use a numeric score or pass threshold.
 - Reworked the human architecture gate after the first decision note lacked usable context.
   The revised note gives one decision, three options, paper-level examples, trade-offs and an exact response.
+- Human review selected the paper-first architecture and clarified that it must support detailed EuroQol research discovery and synthesis.
+  Paper-first is the outer structure; domain-specific instruments, versions, languages, administration, methods, statistics, findings, interpretation, implications and gaps can require fine granularity.
+- Audited the 100 positive and 20 negative competency questions.
+  The broad list mixes project, funding, bibliometric and article-level needs, so version 2 uses a focused set of 27 paper and corpus questions without treating them as schema fields.
+- Prepared ontology experiment version 2.
+  It reuses the original 30 papers for direct comparison, adds a ten-paper method-granularity calibration round, and reserves a new ten-paper holdout from disjoint project groups.
+  Three lineages will start from the same paper-first purpose but no proposed ontology.
 
 ## 2026-08-05
 

@@ -70,7 +70,9 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   people, works, instruments, concepts, methods, conditions, properties,
   countries, working groups, journals, and value sets.
 - The existing graph is now a baseline, not the assumed final ontology.
-  [`pilot/ontology-development/`](pilot/ontology-development/README.md) derives a simpler meta-research ontology through three independent iterative lineages before a new database design.
+  [`pilot/ontology-development/`](pilot/ontology-development/README.md) records the completed open-architecture experiment.
+  Human review selected a paper-first structure and clarified that the target is a detailed EuroQol research ontology, not a general research ontology.
+  [`pilot/ontology-development-v2/`](pilot/ontology-development-v2/README.md) reruns three independent lineages to discover useful domain granularity before a new database design.
 
 ## Repository map
 
@@ -97,7 +99,8 @@ See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration
 - [`docs/PROVENANCE.md`](docs/PROVENANCE.md) identifies the source-to-result evidence trail.
 - [`LOG.md`](LOG.md) is the chronological build log.
 - [`scale/protocol-2.0/SCALE_STATUS.md`](scale/protocol-2.0/SCALE_STATUS.md) records the current scale funnel and work queue.
-- [`docs/COMPETENCY_QUESTIONS.md`](docs/COMPETENCY_QUESTIONS.md) defines graph and application evaluation questions.
+- [`docs/COMPETENCY_QUESTIONS.md`](docs/COMPETENCY_QUESTIONS.md) defines 100 broad graph and application questions plus 20 negative tests.
+- [`pilot/ontology-development-v2/USER_QUESTIONS.md`](pilot/ontology-development-v2/USER_QUESTIONS.md) defines the focused paper-ontology requirements.
 
 `docs/METHOD.md` is a historical design document.
 `FRIEND_REPO_EMPIRICAL_FINDINGS.md` is a historical assessment of the project-first pipeline at commit `68ebeab`.
@@ -160,3 +163,4 @@ No credential belongs in Git.
 4. Retrieve lawful scale full text and keep unavailable papers unassessed.
 5. Assess EuroQol connection, funding scope, project links, and graph evidence.
 6. Expand the Aura pilot with accepted evidence and evaluate the graph and application.
+7. Complete the paper-first ontology version-2 experiment and held-out-paper review before selecting the final database design.
