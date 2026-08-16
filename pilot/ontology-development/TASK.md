@@ -1,5 +1,7 @@
 # Common ontology agent task
 
+Version 1, frozen 2026-08-16.
+
 Develop or extend a simple, practical ontology that helps researchers describe and compare the assigned papers for meta-research.
 
 Use your judgment.

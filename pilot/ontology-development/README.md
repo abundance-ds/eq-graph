@@ -1,6 +1,6 @@
 # Ontology development pilot
 
-Status: setup in progress, 2026-08-16.
+Status: protocol and inputs frozen; lineage runs not started, 2026-08-16.
 
 ## Purpose
 
@@ -49,7 +49,5 @@ It does not need to reproduce an agent's internal reasoning.
 
 ## Next
 
-1. Complete the JATS metadata audit.
-2. Freeze the papers, order and file hashes.
-3. Create the three lineage branches from one base commit.
-4. Run round one independently.
+1. Create the three lineage branches and isolated worktrees from one base commit.
+2. Run round one independently.

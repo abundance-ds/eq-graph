@@ -1,6 +1,6 @@
 # Ontology development protocol
 
-Status: draft before the first run.
+Status: frozen version 1, 2026-08-16, before the first run.
 
 ## Design
 

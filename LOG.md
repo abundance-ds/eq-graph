@@ -17,6 +17,8 @@ Stable knowledge lives in README.md; this file is the narrative.
   Core bibliographic metadata is almost complete, and the XML has rich structured funding, affiliation, reference, section and table data that Markdown does not preserve fully.
   Raw JATS is now the canonical structured source; deterministic parsing precedes semantic AI work.
 - Added the concise protocol, common agent task and XML audit under `pilot/ontology-development/`.
+- Froze 30 unique development papers in three ordered batches of ten and a separate ten-paper holdout.
+  The agent manifests contain only identity, format, path, hash and byte count; prior ontology labels remain outside the agent context.
 
 ## 2026-08-05
 
