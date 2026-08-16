@@ -1,27 +1,28 @@
-# Harmonization and holdout procedure
+# What happens after the architecture decision
 
-Status: prepared but not started.
+Status: ready to start after the human decision.
 
 ## Harmonization
 
-1. Record the human architecture direction in `comparison/HARMONIZATION_DECISION.md`.
-2. Freeze a short harmonization task.
-3. Give a fresh agent the anonymous lineage records, semantic comparison and human direction.
-4. Keep all holdout papers outside this workspace.
-5. Ask the agent for one practical candidate, a concise decision record and explicit unresolved alternatives.
-6. Do not concatenate all lineage elements. Retain a distinction only when it has repeated paper support or a clear meta-research use.
-7. Use flexible Markdown. Do not require JSON or a detailed claim-evidence model.
-8. Check links and source citations, then freeze the candidate and its SHA-256 value.
+1. A fresh agent receives the three anonymous ontology records, their paper applications, the semantic comparison and the selected architecture.
+2. It produces one concise ontology. It must resolve duplicate terms instead of combining every lineage element.
+3. It explains important choices with examples from the 30 development papers.
+4. I check that the result stays practical, uses clear Markdown and does not introduce a detailed claim-evidence model.
+5. I freeze the candidate and record its exact version.
 
-## Holdout
+## Unseen-paper test
 
-1. Give a new agent only the frozen candidate, the holdout task and the ten held-out papers.
-2. Apply the candidate unchanged to every paper before proposing a revision.
-3. For each paper, record natural fit, ambiguity, forced fit, missing concepts and unnecessary detail.
-4. After all applications, summarize repeated failures and proposed changes in a separate section.
-5. Do not use a combined numerical score or a pass threshold.
-6. Preserve the unchanged applications, revision proposal and source hashes.
-7. Stop for human review if a revision changes the ontology purpose or introduces a material alternative.
+1. A different fresh agent receives the frozen ontology and ten papers that no development agent saw.
+2. It applies the ontology without changing it.
+3. It records what fits, what is unclear, what is missing and what appears unnecessary.
+4. Only after all ten applications can it propose changes.
+5. I bring the frozen candidate, test evidence and proposed changes to the human reviewer.
 
-The final review compares the frozen candidate, holdout evidence and any proposed revision.
-Database design starts only after this review.
+No numerical pass score is used.
+The paper evidence and the nature of any failures determine whether a change is justified.
+Database design starts after this review.
+
+## Input needed now
+
+Select option A, B or C in `comparison/HARMONIZATION_DECISION.md`.
+No other decision is required before harmonization.

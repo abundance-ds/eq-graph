@@ -39,6 +39,8 @@ Stable knowledge lives in README.md; this file is the narrative.
   The papers support each architecture, so harmonization is paused for human direction.
 - Prepared the controlled next stage without starting it.
   The holdout procedure requires unchanged application to all ten papers before any revision proposal and does not use a numeric score or pass threshold.
+- Reworked the human architecture gate after the first decision note lacked usable context.
+  The revised note gives one decision, three options, paper-level examples, trade-offs and an exact response.
 
 ## 2026-08-05
 
