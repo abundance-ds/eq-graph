@@ -85,6 +85,12 @@ Stable knowledge lives in README.md; this file is the narrative.
   It uses purpose-based families, exact method paths, independent administration and product-state axes, component-scoped evidence lineage, attributed findings and a conflict-specific extraction pass.
   It fits all 40 development papers and supports all 27 focused questions and 14 probes.
   No material ontology alternative remains unresolved before holdout.
+- Applied the frozen candidate unchanged to ten new, purpose-stratified holdout papers.
+  All source identities and the candidate hash matched.
+  The candidate fit all ten papers without a missing relation, forced family or required structural revision.
+- Prepared the final human-review candidate.
+  It applies four holdout wording clarifications for valuation-scale mapping, response-process targets, proxy perspectives and documented-effect levels.
+  The clarifications add no controlled term or structural concept and do not change fit across the 50 evaluated papers.
 
 ## 2026-08-05
 

@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: development, consolidation, comparison and harmonization complete; the candidate is ready for unchanged holdout application, 2026-08-16.
+Status: development, consolidation, comparison, harmonization and unchanged holdout validation complete; final candidate ready for human review, 2026-08-16.
 
 ## Why version 2 exists
 
@@ -39,6 +39,9 @@ fixed paper-first purpose + focused user questions + frozen papers
 - [`RUNS.md`](RUNS.md): valid rounds, branches and commits.
 - `comparison/`: exact anonymous inputs, task, output and run record.
 - `harmonization/`: frozen candidate, decisions, validation record, task and run record.
+- `holdout/`: unchanged applications, fit review, revisions, task and run record.
+- [`FINAL_CANDIDATE.md`](FINAL_CANDIDATE.md): final human-review candidate after holdout clarifications.
+- [`FINALIZATION.md`](FINALIZATION.md): candidate identity, applied clarifications and review package.
 - [`SELECTION.md`](SELECTION.md): operator paper-selection record.
 - [`PROBES.md`](PROBES.md): frozen operator tests kept from development agents.
 - `batches/`: frozen development, calibration and holdout manifests.
