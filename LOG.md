@@ -72,6 +72,11 @@ Stable knowledge lives in README.md; this file is the narrative.
   Started the targeted round-four calibration with three new agent contexts.
 - Completed the targeted round-four calibration with commits `9f928ee` (A), `ee9b833` (B) and `0fa020f` (C).
   Each lineage now covers 40 papers; fresh consolidation agents are reviewing late concepts against all earlier applications.
+- Completed the independent 40-paper consolidation pass for all three lineages.
+  The commits are `08f6b12` (A), `babce6f` (B) and `cb56305` (C).
+  Each pass normalized unstable terms, checked late concepts against all earlier applications and retained unresolved evidence limits.
+- Started the frozen-probe anonymous granularity comparison.
+  Seed `2026081602` defines the candidate order; the comparator has all 40 development papers but no holdout paper or candidate mapping.
 
 ## 2026-08-05
 
