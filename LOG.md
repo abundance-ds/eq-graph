@@ -19,6 +19,10 @@ Stable knowledge lives in README.md; this file is the narrative.
 - Added the concise protocol, common agent task and XML audit under `pilot/ontology-development/`.
 - Froze 30 unique development papers in three ordered batches of ten and a separate ten-paper holdout.
   The agent manifests contain only identity, format, path, hash and byte count; prior ontology labels remain outside the agent context.
+- Completed round one in three isolated branches with fresh agent contexts.
+  Each lineage verified the ten source hashes, applied its ontology to all ten papers, and recorded its decisions and open cases.
+  The round-one commits are `92f51c8` (A), `b6b6cd8` (B) and `8fba6e8` (C).
+  No semantic comparison occurred before the next round started.
 
 ## 2026-08-05
 

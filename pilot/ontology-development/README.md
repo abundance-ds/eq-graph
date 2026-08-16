@@ -1,6 +1,6 @@
 # Ontology development pilot
 
-Status: protocol and inputs frozen; lineage runs not started, 2026-08-16.
+Status: protocol and inputs frozen; round one complete and round two in progress, 2026-08-16.
 
 ## Purpose
 
@@ -49,5 +49,5 @@ It does not need to reproduce an agent's internal reasoning.
 
 ## Next
 
-1. Create the three lineage branches and isolated worktrees from one base commit.
-2. Run round one independently.
+1. Complete rounds two and three with a fresh agent for each lineage and round.
+2. Compare anonymous lineage outputs after all development rounds finish.
