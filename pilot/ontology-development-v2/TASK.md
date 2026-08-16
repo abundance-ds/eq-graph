@@ -1,6 +1,6 @@
 # Common paper-first ontology agent task
 
-Version 2, to be frozen before the first run.
+Version 2, frozen 2026-08-16 before the first run.
 
 Develop or extend a paper-first ontology and extraction guide for EuroQol research.
 Use `PURPOSE.md` and `USER_QUESTIONS.md` as the fixed requirements.

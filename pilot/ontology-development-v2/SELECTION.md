@@ -1,6 +1,6 @@
 # Paper-selection record
 
-Status: operator record; not part of development agent context.
+Status: frozen operator record, 2026-08-16; not part of development agent context.
 
 ## Development rounds one to three
 

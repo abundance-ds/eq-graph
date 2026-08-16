@@ -1,6 +1,6 @@
 # Frozen retrieval and comparison probes
 
-Status: operator record; frozen before development and excluded from development agent context.
+Status: frozen operator record, 2026-08-16; excluded from development agent context.
 
 These probes test whether a lineage makes useful distinctions in its paper applications.
 They do not prescribe ontology fields.

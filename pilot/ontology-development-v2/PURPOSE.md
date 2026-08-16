@@ -1,6 +1,6 @@
 # Purpose and scope
 
-Status: version 2, to be frozen before development.
+Status: frozen version 2, 2026-08-16, before development.
 
 ## Purpose
 

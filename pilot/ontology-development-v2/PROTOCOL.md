@@ -1,6 +1,6 @@
 # Paper-first ontology development protocol
 
-Status: version 2, to be frozen before the first run.
+Status: frozen version 2, 2026-08-16, before the first run.
 
 ## Experimental question
 

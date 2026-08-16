@@ -1,6 +1,6 @@
 # Focused user questions
 
-Status: version 2, to be frozen before development.
+Status: frozen version 2, 2026-08-16, before development.
 
 These questions define what the paper ontology and extraction must support.
 They are requirements, not proposed fields or a required output format.
