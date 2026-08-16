@@ -1,6 +1,6 @@
 # Ontology development pilot
 
-Status: all three development rounds complete; anonymous semantic comparison in progress, 2026-08-16.
+Status: development and anonymous comparison complete; harmonization awaits human review, 2026-08-16.
 
 ## Purpose
 
@@ -50,5 +50,5 @@ It does not need to reproduce an agent's internal reasoning.
 
 ## Next
 
-1. Complete the anonymous semantic comparison.
+1. Review the material architecture and boundary alternatives in the semantic comparison.
 2. Run independent harmonization, then apply the frozen candidate to held-out papers.

@@ -33,6 +33,10 @@ Stable knowledge lives in README.md; this file is the narrative.
 - Started a separate anonymous semantic comparison.
   A recorded seed randomized the candidate order, and the comparison workspace does not contain holdout papers.
   The comparison cannot rank candidates, choose a winner or propose a harmonized ontology.
+- Completed the anonymous comparison and retained its exact inputs, task and run record.
+  The lineages converge on a stable semantic core, including contribution, focal object, people and perspective, property-specific evaluation, derivation, output maturity, evidence dependence and scoped uncertainty.
+  They differ materially in the main architecture and in boundaries for study components, comparisons, data quality, transparency and inferential terms.
+  The papers support each architecture, so harmonization is paused for human direction.
 
 ## 2026-08-05
 
