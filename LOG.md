@@ -27,6 +27,12 @@ Stable knowledge lives in README.md; this file is the narrative.
   Each lineage covered all ten new papers and retained its earlier research record.
   The round-two commits are `e3e440c` (A), `e33c618` (B) and `7f50cfd` (C).
   No semantic comparison occurred before round three started.
+- Completed round three and froze all three 30-paper lineage states.
+  The round-three commits are `53a1f79` (A), `cbad9d1` (B) and `d5ef649` (C).
+  All nine runs passed source identity, paper coverage and lineage-scope checks.
+- Started a separate anonymous semantic comparison.
+  A recorded seed randomized the candidate order, and the comparison workspace does not contain holdout papers.
+  The comparison cannot rank candidates, choose a winner or propose a harmonized ontology.
 
 ## 2026-08-05
 
