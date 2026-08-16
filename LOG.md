@@ -70,6 +70,8 @@ Stable knowledge lives in README.md; this file is the narrative.
   Started round three with three new agent contexts and the same isolation controls.
 - Completed version-2 round three with commits `145b7c3` (A), `22f9159` (B) and `984d1b2` (C).
   Started the targeted round-four calibration with three new agent contexts.
+- Completed the targeted round-four calibration with commits `9f928ee` (A), `ee9b833` (B) and `0fa020f` (C).
+  Each lineage now covers 40 papers; fresh consolidation agents are reviewing late concepts against all earlier applications.
 
 ## 2026-08-05
 

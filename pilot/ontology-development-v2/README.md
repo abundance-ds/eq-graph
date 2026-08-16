@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: valid rounds one to three complete; round-four calibration in progress, 2026-08-16.
+Status: all four development rounds complete; lineage consolidation in progress, 2026-08-16.
 
 ## Why version 2 exists
 
