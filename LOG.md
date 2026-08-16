@@ -23,6 +23,10 @@ Stable knowledge lives in README.md; this file is the narrative.
   Each lineage verified the ten source hashes, applied its ontology to all ten papers, and recorded its decisions and open cases.
   The round-one commits are `92f51c8` (A), `b6b6cd8` (B) and `8fba6e8` (C).
   No semantic comparison occurred before the next round started.
+- Completed round two with three new agent contexts and the same isolation controls.
+  Each lineage covered all ten new papers and retained its earlier research record.
+  The round-two commits are `e3e440c` (A), `e33c618` (B) and `7f50cfd` (C).
+  No semantic comparison occurred before round three started.
 
 ## 2026-08-05
 

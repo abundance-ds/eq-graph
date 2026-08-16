@@ -1,6 +1,6 @@
 # Ontology development pilot
 
-Status: protocol and inputs frozen; round one complete and round two in progress, 2026-08-16.
+Status: protocol and inputs frozen; rounds one and two complete and round three in progress, 2026-08-16.
 
 ## Purpose
 
@@ -49,5 +49,5 @@ It does not need to reproduce an agent's internal reasoning.
 
 ## Next
 
-1. Complete rounds two and three with a fresh agent for each lineage and round.
+1. Complete round three with a fresh agent for each lineage.
 2. Compare anonymous lineage outputs after all development rounds finish.
