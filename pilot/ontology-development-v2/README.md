@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: valid round one complete; round two in progress, 2026-08-16.
+Status: valid rounds one and two complete; round three in progress, 2026-08-16.
 
 ## Why version 2 exists
 

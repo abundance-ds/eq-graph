@@ -56,6 +56,8 @@ Stable knowledge lives in README.md; this file is the narrative.
 - Completed the valid version-2 round one with source, scope and context checks.
   The commits are `84f60d9` (A), `d5e75b8` (B) and `5ccc284` (C).
   Started round two with three new agent contexts and no cross-lineage access.
+- Completed version-2 round two with commits `0977ffc` (A), `b920143` (B) and `ec3aeda` (C).
+  Started round three with three new agent contexts and the same isolation controls.
 
 ## 2026-08-05
 

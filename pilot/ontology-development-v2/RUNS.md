@@ -6,6 +6,7 @@ Each round uses a fresh agent context.
 | Round | Batch | Lineage A commit | Lineage B commit | Lineage C commit |
 | ---: | --- | --- | --- | --- |
 | 1 | `batch-01.tsv` | `84f60d9` | `d5e75b8` | `5ccc284` |
+| 2 | `batch-02.tsv` | `0977ffc` | `b920143` | `ec3aeda` |
 
 Branches are `experiment/ontology-v2-a`, `experiment/ontology-v2-b` and `experiment/ontology-v2-c`.
 Each valid round verifies source hashes, byte counts, paper coverage, allowed inputs and Markdown integrity before commit.
