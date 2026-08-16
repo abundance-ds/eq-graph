@@ -48,6 +48,8 @@ Stable knowledge lives in README.md; this file is the narrative.
 - Prepared ontology experiment version 2.
   It reuses the original 30 papers for direct comparison, adds a ten-paper method-granularity calibration round, and reserves a new ten-paper holdout from disjoint project groups.
   Three lineages will start from the same paper-first purpose but no proposed ontology.
+- Froze version 2 at commit `858adec` after source, manifest, overlap and independent prompt checks passed.
+  Created `experiment/ontology-v2-a`, `-b` and `-c` with isolated round-one worktrees and fresh agent contexts.
 
 ## 2026-08-05
 

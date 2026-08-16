@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: version-2 purpose, protocol and inputs frozen; lineage runs not started, 2026-08-16.
+Status: version-2 purpose, protocol and inputs frozen; round one in progress, 2026-08-16.
 
 ## Why version 2 exists
 
