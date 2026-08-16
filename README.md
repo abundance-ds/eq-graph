@@ -33,6 +33,8 @@ Extraction can identify concepts that the schema does not yet represent, and the
 
 - The canonical public export contains **1,024 projects**.
 - The project-first pipeline has **305 distinct works** linked at accepted confidence and **287 full texts** on disk.
+  The corpus contains Markdown for all 220 JATS XML files and the 7 PDF files used in the ontology pilot.
+  The converter supports the remaining PDFs, but they have not been converted in bulk.
 - The author and funding routes produced a deduplicated union of **28,600 records**, including **23,175 articles or reviews**.
 - Binary identity QA accepted **222 profiles** for the current author route.
 - A total of **94 people** and **76 additional profile suggestions** remain in a separate identity queue.
@@ -108,6 +110,9 @@ python3 scripts/scrape.py all
 python3 scripts/scrape.py status
 python3 scripts/to_markdown.py
 ```
+
+`to_markdown.py` needs Pandoc for JATS XML and Poppler for PDF files.
+It is offline and makes no network request.
 
 The Protocol 2.0 reproduction commands are in [`pilot/protocol-2.0/REPRODUCE.md`](pilot/protocol-2.0/REPRODUCE.md).
 Network steps and large working outputs use ignored local directories.

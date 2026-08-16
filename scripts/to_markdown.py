@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
-"""Convert the harvested JATS full texts to Markdown, ready for stage-2 extraction.
+"""Convert the harvested full texts to Markdown, ready for stage-2 extraction.
 
-Offline and deterministic: reads `input/projects/*/papers/*.xml`, writes
+Offline and deterministic: reads `input/projects/*/papers/*.{xml,pdf}`, writes
 `corpus/<project id>/<same stem>.md` plus `corpus/index.json`. Rerunning is cheap --
-a paper is reconverted only when its source bytes, this script, or pandoc changed.
+a paper is reconverted only when its source bytes, this script, or the converting
+tool changed.
 
-Only Europe PMC JATS XML is converted. The 67 PDFs in the same directories are
-listed in the index under `unconverted`; pandoc cannot read them, so extracting
-their text needs a different tool and a separate decision about layout fidelity.
+Two sources, two toolchains. Europe PMC JATS XML goes through pandoc, below.
+Publisher PDFs go through poppler, in `pdf_markdown.py`; they carry no structural
+markup at all, so what comes back is thinner -- no author list, no keywords, and
+tables flattened into loose lines. Prefer the XML wherever a paper is held as both.
+
+    python3 scripts/to_markdown.py              # convert what changed
+    python3 scripts/to_markdown.py --force      # reconvert everything
+    python3 scripts/to_markdown.py 20170600     # just these projects
 
 What pandoc alone does not give us, and this script adds:
 
@@ -28,10 +34,6 @@ What pandoc alone does not give us, and this script adds:
 Headings are shifted down one level so the article title is the only `#`, and the
 abstract's internal sections sit under `## Abstract` rather than colliding with the
 body's own `## Methods`.
-
-    python3 scripts/to_markdown.py              # convert what changed
-    python3 scripts/to_markdown.py --force      # reconvert everything
-    python3 scripts/to_markdown.py 20170600     # just these projects
 """
 
 from __future__ import annotations
@@ -45,6 +47,8 @@ import sys
 import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+import pdf_markdown
 
 REPO = Path(__file__).resolve().parent.parent
 PROJECTS_DIR = REPO / "input" / "projects"
@@ -97,7 +101,7 @@ end
 
 EMPTY_REFS_RE = re.compile(r'<div id="refs">\s*</div>')
 STAMP_RE = re.compile(
-    r'^(source_sha256|converter_version|pandoc): (.+)$', re.MULTILINE
+    r'^(source_sha256|converter_version|pandoc|poppler): (.+)$', re.MULTILINE
 )
 
 
@@ -361,6 +365,36 @@ def front_matter(root, provenance: dict) -> dict:
     }
 
 
+def pdf_front_matter(provenance: dict, stats: dict) -> dict:
+    """Front matter for a paper held only as PDF.
+
+    Thinner than the JATS equivalent by necessity. A publisher PDF carries no author
+    list, keywords or affiliations in any form a converter can trust -- they are
+    drawn on the page like everything else -- so the identifiers come from the
+    manifest the `fulltext` stage wrote, and the fields JATS would have supplied are
+    simply absent rather than guessed at.
+    """
+    return {
+        "project_id": provenance.get("project_id"),
+        "work_id": provenance.get("work_id"),
+        "doi": provenance.get("doi"),
+        "title": provenance.get("title"),
+        "licence": provenance.get("licence"),
+        "source_file": provenance.get("source_file"),
+        "source_url": provenance.get("source_url"),
+        "source_method": provenance.get("method"),
+        "source_sha256": provenance.get("sha256"),
+        "source_format": "pdf",
+        "pages": stats.get("pages"),
+        "cover_sheet_pages_dropped": stats.get("cover_sheet_pages_dropped"),
+        "running_heads_dropped": stats.get("running_heads_dropped"),
+        "symbol_runs_repaired": stats.get("symbol_runs_repaired"),
+        "converter": "scripts/pdf_markdown.py",
+        "converter_version": pdf_markdown.PDF_CONVERTER_VERSION,
+        "poppler": provenance.get("poppler"),
+    }
+
+
 def yaml_block(data: dict, indent: int = 0) -> list[str]:
     """Minimal YAML emitter -- JSON scalars are valid YAML, so quoting is free.
 
@@ -474,8 +508,13 @@ def manifest_provenance(project_dir: Path) -> dict[str, dict]:
     return out
 
 
-def convert(project_dirs: list[Path], force: bool, pandoc: str) -> dict:
-    documents, unconverted, skipped, failures = [], [], 0, []
+def output_path(project_dir: Path, source: Path) -> Path:
+    """Where the Markdown for `source` goes."""
+    return OUT_DIR / project_dir.name / f"{source.stem}.md"
+
+
+def convert(project_dirs: list[Path], force: bool, pandoc: str, poppler: str) -> dict:
+    documents, skipped, failures = [], 0, []
 
     with tempfile.TemporaryDirectory() as tmp:
         template = Path(tmp) / "paper.md"
@@ -489,81 +528,84 @@ def convert(project_dirs: list[Path], force: bool, pandoc: str) -> dict:
                 continue
             recorded = manifest_provenance(project_dir)
 
-            for pdf in sorted(papers.glob("*.pdf")):
-                entry = recorded.get(pdf.name, {})
-                unconverted.append(
-                    {
-                        "project_id": project_dir.name,
-                        "work_id": entry.get("work_id"),
-                        "file": rel(pdf),
-                        "reason": "pdf: pandoc has no PDF reader",
-                    }
+            for source in sorted(papers.glob("*.xml")) + sorted(papers.glob("*.pdf")):
+                is_pdf = source.suffix == ".pdf"
+                out_path = output_path(project_dir, source)
+                digest = hashlib.sha256(source.read_bytes()).hexdigest()
+                version = (
+                    pdf_markdown.PDF_CONVERTER_VERSION if is_pdf else CONVERTER_VERSION
                 )
-
-            for xml_path in sorted(papers.glob("*.xml")):
-                out_path = OUT_DIR / project_dir.name / f"{xml_path.stem}.md"
-                digest = hashlib.sha256(xml_path.read_bytes()).hexdigest()
+                tool_key, tool = ("poppler", poppler) if is_pdf else ("pandoc", pandoc)
                 stamp = existing_stamp(out_path)
                 if (
                     not force
                     and stamp.get("source_sha256") == digest
-                    and stamp.get("converter_version") == str(CONVERTER_VERSION)
-                    and stamp.get("pandoc") == pandoc
+                    and stamp.get("converter_version") == str(version)
+                    and stamp.get(tool_key) == tool
                 ):
                     skipped += 1
-                    documents.append(index_entry(project_dir, xml_path, out_path, digest))
+                    documents.append(index_entry(project_dir, source, out_path, digest))
                     continue
 
-                entry = dict(recorded.get(xml_path.name, {}))
+                entry = dict(recorded.get(source.name, {}))
                 entry.update(
                     {
                         "project_id": project_dir.name,
-                        "source_file": rel(xml_path),
+                        "source_file": rel(source),
                         "sha256": digest,
-                        "pandoc": pandoc,
+                        tool_key: tool,
                     }
                 )
                 try:
-                    root = ET.parse(xml_path).getroot()
-                    body = convert_body(xml_path, template, lua)
-                except (ET.ParseError, subprocess.CalledProcessError) as error:
+                    if is_pdf:
+                        body, stats = pdf_markdown.convert(source, entry.get("title"))
+                        meta = pdf_front_matter(entry, stats)
+                        has_refs = None
+                    else:
+                        root = ET.parse(source).getroot()
+                        body = convert_body(source, template, lua)
+                        body, has_refs = insert_references(
+                            body, references(root), ref_list_titled(root)
+                        )
+                        meta = front_matter(root, entry)
+                except (
+                    ET.ParseError,
+                    subprocess.CalledProcessError,
+                    RuntimeError,
+                ) as error:
                     detail = getattr(error, "stderr", "") or str(error)
                     failures.append(
                         {
-                            "file": rel(xml_path),
+                            "file": rel(source),
                             "error": detail.strip().splitlines()[-1][:200],
                         }
                     )
                     continue
 
-                body, has_refs = insert_references(
-                    body, references(root), ref_list_titled(root)
-                )
-                meta = front_matter(root, entry)
+                if is_pdf:
+                    # The PDF has no title element; the manifest is the only source.
+                    title = entry.get("title")
+                    body = f"# {title}\n\n{body.lstrip()}" if title else body.lstrip()
                 text = "---\n" + "\n".join(yaml_block(meta)) + "\n---\n\n" + body.lstrip()
 
                 out_path.parent.mkdir(parents=True, exist_ok=True)
                 out_path.write_text(text, encoding="utf-8")
                 documents.append(
                     index_entry(
-                        project_dir, xml_path, out_path, digest, references=has_refs
+                        project_dir, source, out_path, digest, references=has_refs
                     )
                 )
 
-    return {
-        "documents": documents,
-        "unconverted": unconverted,
-        "skipped": skipped,
-        "failures": failures,
-    }
+    return {"documents": documents, "skipped": skipped, "failures": failures}
 
 
 def index_entry(
-    project_dir: Path, xml_path: Path, out_path: Path, digest: str, references=None
+    project_dir: Path, source: Path, out_path: Path, digest: str, references=None
 ) -> dict:
     entry = {
         "project_id": project_dir.name,
-        "source": rel(xml_path),
+        "source": rel(source),
+        "source_format": source.suffix.lstrip("."),
         "markdown": rel(out_path),
         "source_sha256": digest,
         "bytes": out_path.stat().st_size,
@@ -596,18 +638,17 @@ def main() -> int:
         project_dirs = sorted(d for d in PROJECTS_DIR.iterdir() if d.is_dir())
 
     pandoc = pandoc_version()
-    result = convert(project_dirs, args.force, pandoc)
+    poppler = pdf_markdown.poppler_version()
+    result = convert(project_dirs, args.force, pandoc, poppler)
 
     documents = sorted(result["documents"], key=lambda d: (d["project_id"], d["source"]))
-    unconverted = sorted(
-        result["unconverted"], key=lambda d: (d["project_id"], d["file"])
-    )
     index = {
         "converter_version": CONVERTER_VERSION,
+        "pdf_converter_version": pdf_markdown.PDF_CONVERTER_VERSION,
         "pandoc": pandoc,
+        "poppler": poppler,
         "format": PANDOC_TO,
         "documents": documents,
-        "unconverted": unconverted,
     }
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "index.json").write_text(
@@ -616,15 +657,14 @@ def main() -> int:
 
     written = len(documents) - result["skipped"]
     total = sum(d["bytes"] for d in documents)
+    pdfs = sum(1 for d in documents if d["source_format"] == "pdf")
     print(
         f"{len(documents)} documents ({written} written, {result['skipped']} unchanged), "
-        f"{total / 1_000_000:.1f} MB"
+        f"{len(documents) - pdfs} from XML, {pdfs} from PDF, {total / 1_000_000:.1f} MB"
     )
     without_refs = [d for d in documents if d.get("references") is False]
     if without_refs:
         print(f"{len(without_refs)} without a reference list")
-    if unconverted:
-        print(f"{len(unconverted)} PDFs not converted (see {OUT_DIR.name}/index.json)")
     for failure in result["failures"]:
         print(f"FAILED {failure['file']}: {failure['error']}", file=sys.stderr)
     return 1 if result["failures"] else 0

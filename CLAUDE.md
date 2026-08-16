@@ -64,6 +64,15 @@ Both developers and AI agents are expected to add entries as they encounter surp
   `--citeproc` actively makes it worse — every entry renders as "n.d.-a" *and* the numeric markers in the body are rewritten to match, so `[4]` becomes `[(n.d.-d)]`.
   Read the reference list out of the XML instead, and leave citations as pandoc emits them without citeproc.
   Same class of loss, quieter: the abstract is filed under document metadata, and every Markdown writer drops it unless a `--template` asks for it, so a plain `pandoc -f jats -t gfm` silently loses the abstract *and* the title.
+- Elsevier's *Value in Health* PDFs draw `−`, `<`, `>`, `≥` and `≤` from a Mathematical Pi symbol font whose glyphs carry no usable ToUnicode map, so **every** text extractor reads them as `2`, `,`, `.`, `$` and `#`.
+  "Values ranged from −0.654" comes out as "from 20.654" and `P < .001` as `P , .001` — plausible, silent, and fatal to any number extracted downstream.
+  The substitution is fixed per font, so repair it by font identity with [`scripts/pdf_markdown.py`](scripts/pdf_markdown.py), not by context.
+- `pdftohtml -xml` emits a `<fontspec>` only on the page that first uses a font id, and later pages reuse those ids without redeclaring them.
+  Accumulate the font table across pages.
+- `pdftotext` can remove a real hyphen when it joins a word across lines, including instrument names such as `EQ-5D-5L`.
+  Use the document as its own dictionary, and keep the hyphen when the evidence is unclear.
+- Repository deposits can add cover sheets before the article.
+  Identify them from fonts that do not occur in the article, and remove only leading pages.
 - A replacement string passed to `re.sub`/`subn` is scanned for escapes, so substituting text harvested from a document explodes on the first `\c` (`re.PatternError`) and would silently expand a `\1`.
   Pass a callable — `subn(lambda _: block, …)` — whenever the replacement is data rather than a literal.
 - Demoting headings by one to nest a document under its own title can push a level-6 heading to `#######`, which is not a heading in Markdown at all and renders as literal text — 27 of 220 papers hit this.

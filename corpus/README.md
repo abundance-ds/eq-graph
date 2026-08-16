@@ -1,19 +1,19 @@
 # corpus
 
 The full texts as Markdown, ready for stage-2 extraction.
-Generated from `input/projects/*/papers/*.xml` by [`scripts/to_markdown.py`](../scripts/to_markdown.py); nothing here is edited by hand.
+Generated from `input/projects/*/papers/*.{xml,pdf}` by [`scripts/to_markdown.py`](../scripts/to_markdown.py); nothing here is edited by hand.
 
 ```sh
 python3 scripts/to_markdown.py          # convert what changed
-python3 scripts/to_markdown.py --force  # reconvert everything (~35 s for all 220)
+python3 scripts/to_markdown.py --force  # reconvert everything
 ```
 
-Rerunning is cheap and safe: a paper is reconverted only when its source bytes, the converter, or the pandoc version changed, and the output is byte-identical across runs.
+Rerunning is cheap and safe: a paper is reconverted only when its source bytes, the converter, or the version of the tool that read it changed, and the output is byte-identical across runs.
 Deleting a `.md` file is enough to have it rebuilt — the provenance stamp lives in the file's own front matter, not in a side ledger.
 
 ## Layout
 
-    corpus/index.json                       every document, and every paper that could not be converted
+    corpus/index.json                       every converted document
     corpus/<project id>/<work id>.md        one paper, front matter + body
 
 The stem matches the source XML exactly, so `corpus/20170600/doi_10.1007_s40273-022-01172-4.md` came from `input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml`.
@@ -21,16 +21,22 @@ A paper funded by two projects appears under both, as it does in `input/`.
 
 ## What a document contains
 
-YAML front matter carries the identifiers, the bibliographic metadata, and the provenance of the file it came from — `project_id`, `doi`, `pmid`, `pmcid`, journal, date, authors, affiliations, keywords, licence, and the SHA-256 of the source XML.
+YAML front matter carries the identifiers, the bibliographic metadata, and the provenance of the source — `project_id`, `doi`, `pmid`, `pmcid`, journal, date, authors, affiliations, keywords, licence, and the source SHA-256 where they are available.
 Extraction can therefore attribute a paper to its grant without a second lookup.
+
+The raw JATS XML remains the canonical source for structured metadata.
+The Markdown is a readable article representation for semantic work; it is not a reason to ask an AI to reconstruct metadata that the XML already supplies.
 
 The body is the article: `#` is the title, `## Abstract` holds the abstract with its own subsections beneath it, and the paper's sections follow at `##`.
 The reference list is rendered as numbered entries matching the `[1]`, `[4–7]` markers in the text.
 
 ## Coverage and limits
 
-- **220 of the 287 held full texts.**
-  The other 67 are PDFs; pandoc has no PDF reader, so they are listed in `index.json` under `unconverted` and await a separate decision about how much layout fidelity their text extraction needs.
+- **227 of the 287 held full texts**: all 220 JATS XML files and the 7 PDF files used in the ontology pilot.
+  `to_markdown.py` converts PDFs through Poppler in [`pdf_markdown.py`](../scripts/pdf_markdown.py), because Pandoc has no PDF reader.
+  The other 60 PDF files remain unconverted until a deliberate corpus run.
+  PDF-derived documents are thinner than these: a publisher PDF carries no author list, keywords or affiliations in any recoverable form, and its tables flatten into loose lines.
+  Prefer the XML wherever a paper is held as both.
 - **Tables** are pipe tables where the shape allows and raw HTML where it does not — rowspans and nested tables have no Markdown form.
   This is where the value-set coefficients and sample characteristics live, so it matters that they survive at all; both forms are readable, neither is tidy.
 - **Figures** keep their captions, but the `![](…jpg)` links point at image files that were never downloaded.

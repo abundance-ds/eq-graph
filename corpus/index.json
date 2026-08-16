@@ -11,6 +11,14 @@
       "bytes": 73318
     },
     {
+      "project_id": "1455-RA",
+      "source": "input/projects/1455-RA/papers/doi_10.1016_j.jval.2024.05.007.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/1455-RA/doi_10.1016_j.jval.2024.05.007.md",
+      "source_sha256": "f173fabb549b4bfa3ec8de2af210b103b1c1b07f200f52173fa81aa25880ee9c",
+      "bytes": 47849
+    },
+    {
       "project_id": "1456-PD",
       "source": "input/projects/1456-PD/papers/doi_10.3390_curroncol32060308.xml",
       "markdown": "corpus/1456-PD/doi_10.3390_curroncol32060308.md",
@@ -30,6 +38,14 @@
       "markdown": "corpus/1462-PHD/doi_10.1007_s10198-025-01823-1.md",
       "source_sha256": "656eac5a600d3e37a992378ab104f8fb15a1de950ada17b0daa03ebbbdc3047f",
       "bytes": 48411
+    },
+    {
+      "project_id": "1465-VS",
+      "source": "input/projects/1465-VS/papers/doi_10.1016_j.jval.2025.01.003.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/1465-VS/doi_10.1016_j.jval.2025.01.003.md",
+      "source_sha256": "647a8362131ba907e7b58e3253cda0086b4c624ae6dd5d632ee93ed48f1ae248",
+      "bytes": 55884
     },
     {
       "project_id": "1475-RA",
@@ -408,6 +424,14 @@
       "markdown": "corpus/2014160/doi_10.1007_s11136-019-02115-x.md",
       "source_sha256": "9c84d2fa7e8ebbb3470837733982f3c1d00dc3ad096c45b40c9c72cedeb3d7db",
       "bytes": 69271
+    },
+    {
+      "project_id": "2014160",
+      "source": "input/projects/2014160/papers/doi_10.1016_j.jval.2018.05.002.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/2014160/doi_10.1016_j.jval.2018.05.002.md",
+      "source_sha256": "b2795f4e5cdb755c8efe0916a0284a9593ce7d45e205419b2ca6fc71703f1e38",
+      "bytes": 42129
     },
     {
       "project_id": "2014170",
@@ -1047,6 +1071,14 @@
       "bytes": 55701
     },
     {
+      "project_id": "20191020",
+      "source": "input/projects/20191020/papers/doi_10.1016_j.jval.2023.03.003.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/20191020/doi_10.1016_j.jval.2023.03.003.md",
+      "source_sha256": "d607e18dbb28be92a9ea87708a6ad73ae26b1008084318cdf6a36b0668eb103c",
+      "bytes": 28961
+    },
+    {
       "project_id": "2021-RA",
       "source": "input/projects/2021-RA/papers/doi_10.1007_s40258-023-00798-5.xml",
       "markdown": "corpus/2021-RA/doi_10.1007_s40258-023-00798-5.md",
@@ -1223,6 +1255,14 @@
     },
     {
       "project_id": "341-RA",
+      "source": "input/projects/341-RA/papers/doi_10.1016_j.jval.2024.05.016.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/341-RA/doi_10.1016_j.jval.2024.05.016.md",
+      "source_sha256": "285fb9f61514267c4d3cca9b961a73782007c86c9f8b40530ebb259c4086dbcf",
+      "bytes": 48268
+    },
+    {
+      "project_id": "341-RA",
       "source": "input/projects/341-RA/papers/doi_10.1038_s41433-023-02860-x.xml",
       "markdown": "corpus/341-RA/doi_10.1038_s41433-023-02860-x.md",
       "source_sha256": "f0cfc7babf470ce52123902331f18766b073f6fb9ef5bf99ff37355be5b08b53",
@@ -1269,6 +1309,14 @@
       "markdown": "corpus/344-VS/doi_10.1186_s12955-025-02397-5.md",
       "source_sha256": "fcc9913210eae61725e4a78d9209882c8dde48cc82ad2ef206d5162ec2980ee3",
       "bytes": 55922
+    },
+    {
+      "project_id": "345-PHD",
+      "source": "input/projects/345-PHD/papers/doi_10.1016_j.jval.2025.02.001.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/345-PHD/doi_10.1016_j.jval.2025.02.001.md",
+      "source_sha256": "aec9b59ddec11b76985476adf782330a802a75ef46409da593abcc960c37b2fc",
+      "bytes": 50386
     },
     {
       "project_id": "348-PHD",
@@ -1495,6 +1543,14 @@
       "bytes": 57114
     },
     {
+      "project_id": "458-RA",
+      "source": "input/projects/458-RA/papers/doi_10.1016_j.jval.2024.03.2195.pdf",
+      "source_format": "pdf",
+      "markdown": "corpus/458-RA/doi_10.1016_j.jval.2024.03.2195.md",
+      "source_sha256": "543cc0993d06b36bbd3c1c84ec198440bce1961af400efbfc11056e7727123c9",
+      "bytes": 61107
+    },
+    {
       "project_id": "460-RA",
       "source": "input/projects/460-RA/papers/doi_10.1007_s11136-026-04285-x.xml",
       "markdown": "corpus/460-RA/doi_10.1007_s11136-026-04285-x.md",
@@ -1549,18 +1605,6 @@
       "project_id": "1404-RA",
       "work_id": "doi:10.1016/j.jval.2025.07.016",
       "file": "input/projects/1404-RA/papers/doi_10.1016_j.jval.2025.07.016.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
-      "project_id": "1455-RA",
-      "work_id": "doi:10.1016/j.jval.2024.05.007",
-      "file": "input/projects/1455-RA/papers/doi_10.1016_j.jval.2024.05.007.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
-      "project_id": "1465-VS",
-      "work_id": "doi:10.1016/j.jval.2025.01.003",
-      "file": "input/projects/1465-VS/papers/doi_10.1016_j.jval.2025.01.003.pdf",
       "reason": "pdf: pandoc has no PDF reader"
     },
     {
@@ -1702,12 +1746,6 @@
       "reason": "pdf: pandoc has no PDF reader"
     },
     {
-      "project_id": "2014160",
-      "work_id": "doi:10.1016/j.jval.2018.05.002",
-      "file": "input/projects/2014160/papers/doi_10.1016_j.jval.2018.05.002.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
       "project_id": "2015150",
       "work_id": "doi:10.1016/j.jval.2019.10.006",
       "file": "input/projects/2015150/papers/doi_10.1016_j.jval.2019.10.006.pdf",
@@ -1834,12 +1872,6 @@
       "reason": "pdf: pandoc has no PDF reader"
     },
     {
-      "project_id": "20191020",
-      "work_id": "doi:10.1016/j.jval.2023.03.003",
-      "file": "input/projects/20191020/papers/doi_10.1016_j.jval.2023.03.003.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
       "project_id": "214-RA",
       "work_id": "doi:10.1016/j.jval.2022.05.013",
       "file": "input/projects/214-RA/papers/doi_10.1016_j.jval.2022.05.013.pdf",
@@ -1888,18 +1920,6 @@
       "reason": "pdf: pandoc has no PDF reader"
     },
     {
-      "project_id": "341-RA",
-      "work_id": "doi:10.1016/j.jval.2024.05.016",
-      "file": "input/projects/341-RA/papers/doi_10.1016_j.jval.2024.05.016.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
-      "project_id": "345-PHD",
-      "work_id": "doi:10.1016/j.jval.2025.02.001",
-      "file": "input/projects/345-PHD/papers/doi_10.1016_j.jval.2025.02.001.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
       "project_id": "361-RA",
       "work_id": "doi:10.1007/s40273-024-01379-7",
       "file": "input/projects/361-RA/papers/doi_10.1007_s40273-024-01379-7.pdf",
@@ -1940,12 +1960,8 @@
       "work_id": "doi:10.21203/rs.3.rs-3693180/v1",
       "file": "input/projects/445-RA/papers/doi_10.21203_rs.3.rs-3693180_v1.pdf",
       "reason": "pdf: pandoc has no PDF reader"
-    },
-    {
-      "project_id": "458-RA",
-      "work_id": "doi:10.1016/j.jval.2024.03.2195",
-      "file": "input/projects/458-RA/papers/doi_10.1016_j.jval.2024.03.2195.pdf",
-      "reason": "pdf: pandoc has no PDF reader"
     }
-  ]
+  ],
+  "pdf_converter_version": 1,
+  "poppler": "26.03.0"
 }
