@@ -77,6 +77,10 @@ Stable knowledge lives in README.md; this file is the narrative.
   Each pass normalized unstable terms, checked late concepts against all earlier applications and retained unresolved evidence limits.
 - Started the frozen-probe anonymous granularity comparison.
   Seed `2026081602` defines the candidate order; the comparator has all 40 development papers but no holdout paper or candidate mapping.
+- Completed and retained the anonymous granularity comparison and its exact inputs.
+  All three candidates support the paper-first core and all 27 focused questions.
+  The material differences concern family boundaries, role separation, administration, task purpose, assessment classes, product state and application precision.
+  The frozen probes found no focal retrieval miss, but they found broad-match risks and incomplete source-conflict capture.
 
 ## 2026-08-05
 

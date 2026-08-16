@@ -1,6 +1,6 @@
 # Paper-first EuroQol ontology experiment
 
-Status: all four development rounds and all three lineage consolidations complete; anonymous comparison in progress, 2026-08-16.
+Status: development, lineage consolidation and anonymous comparison complete; independent harmonization is next, 2026-08-16.
 
 ## Why version 2 exists
 
@@ -37,6 +37,7 @@ fixed paper-first purpose + focused user questions + frozen papers
 - [`PROTOCOL.md`](PROTOCOL.md): experimental controls.
 - [`FREEZE.md`](FREEZE.md): frozen inputs, controls and file hashes.
 - [`RUNS.md`](RUNS.md): valid rounds, branches and commits.
+- `comparison/`: exact anonymous inputs, task, output and run record.
 - [`SELECTION.md`](SELECTION.md): operator paper-selection record.
 - [`PROBES.md`](PROBES.md): frozen operator tests kept from development agents.
 - `batches/`: frozen development, calibration and holdout manifests.
