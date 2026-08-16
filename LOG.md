@@ -37,6 +37,8 @@ Stable knowledge lives in README.md; this file is the narrative.
   The lineages converge on a stable semantic core, including contribution, focal object, people and perspective, property-specific evaluation, derivation, output maturity, evidence dependence and scoped uncertainty.
   They differ materially in the main architecture and in boundaries for study components, comparisons, data quality, transparency and inferential terms.
   The papers support each architecture, so harmonization is paused for human direction.
+- Prepared the controlled next stage without starting it.
+  The holdout procedure requires unchanged application to all ten papers before any revision proposal and does not use a numeric score or pass threshold.
 
 ## 2026-08-05
 

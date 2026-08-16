@@ -43,6 +43,7 @@ Agents do not see other lineages before the comparison.
 - Each lineage: current ontology, paper applications, changes, open questions and run note.
 - [`RUNS.md`](RUNS.md): round, batch, branch and commit record.
 - `comparison/`: semantic crosswalk, disagreements, harmonization and holdout report.
+- [`NEXT_STAGE.md`](NEXT_STAGE.md): controlled harmonization and holdout sequence.
 - Root [`LOG.md`](../../LOG.md): dated milestones and main findings.
 
 The record must let a researcher understand what was done, what changed and why.
