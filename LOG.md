@@ -50,6 +50,9 @@ Stable knowledge lives in README.md; this file is the narrative.
   Three lineages will start from the same paper-first purpose but no proposed ontology.
 - Froze version 2 at commit `858adec` after source, manifest, overlap and independent prompt checks passed.
   Created `experiment/ontology-v2-a`, `-b` and `-c` with isolated round-one worktrees and fresh agent contexts.
+- Invalidated the first version-2 round-one attempt before accepting or comparing its outputs.
+  One of three agents opened and used external Neo4j modeling guidance; the other two did not.
+  Preserved all three outputs under the version-2 invalid-run record and restarted every lineage with equal explicit context controls.
 
 ## 2026-08-05
 
