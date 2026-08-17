@@ -23,9 +23,7 @@ const props = defineProps<{
 
 /** The label for each tool, while it runs and after it stops. */
 const VERBS: Record<string, [string, string]> = {
-  "tool-search_graph": ["Looking for names", "Looked for names"],
-  "tool-run_cypher": ["Querying the graph", "Read the graph"],
-  "tool-render": ["Drawing the chart", "Drew the chart"],
+  "tool-query_sql": ["Querying the reference data", "Read the reference data"],
 };
 
 type Step = {
@@ -33,7 +31,7 @@ type Step = {
   state: "running" | "done" | "failed";
   label: string;
   detail: string;
-  cypher: string;
+  query: string;
 };
 
 const steps = computed<Step[]>(() =>
@@ -48,18 +46,12 @@ const steps = computed<Step[]>(() =>
     if (failed) {
       detail = output?.error ?? part.errorText ?? "The tool failed.";
     } else if (stopped) {
-      if (part.type === "tool-run_cypher") {
+      if (part.type === "tool-query_sql") {
         detail = `${output?.rowCount ?? 0} rows in ${output?.elapsedMs ?? 0} ms`;
         if (output?.truncated) detail += " (cut)";
-      } else if (part.type === "tool-search_graph") {
-        detail = `${output?.hits?.length ?? 0} matches`;
-      } else if (part.type === "tool-render") {
-        detail = output?.widget?.title ?? "";
       }
     } else {
-      if (part.type === "tool-run_cypher") detail = input.purpose ?? "Writing the query…";
-      else if (part.type === "tool-search_graph") detail = input.query ? `“${input.query}”` : "";
-      else if (part.type === "tool-render") detail = input.title ?? "";
+      if (part.type === "tool-query_sql") detail = input.purpose ?? "Writing the query…";
     }
 
     return {
@@ -67,7 +59,7 @@ const steps = computed<Step[]>(() =>
       state: failed ? "failed" : stopped ? "done" : "running",
       label: stopped ? finished : running,
       detail,
-      cypher: part.type === "tool-run_cypher" ? (input.cypher ?? "") : "",
+      query: part.type === "tool-query_sql" ? (input.sql ?? "") : "",
     };
   }),
 );
@@ -124,8 +116,8 @@ function toggle(id: string) {
   opened.value = { ...opened.value, [id]: !opened.value[id] };
 }
 
-function showsCypher(step: Step): boolean {
-  if (!step.cypher) return false;
+function showsQuery(step: Step): boolean {
+  if (!step.query) return false;
   return step.state === "running" || Boolean(opened.value[step.id]);
 }
 </script>
@@ -141,7 +133,7 @@ function showsCypher(step: Step): boolean {
           <span v-if="step.detail" class="detail">{{ step.detail }}</span>
           <span v-if="step.state === 'running' && elapsed" class="clock">{{ elapsed }}</span>
           <button
-            v-if="step.cypher && step.state !== 'running'"
+            v-if="step.query && step.state !== 'running'"
             class="peek"
             type="button"
             @click="toggle(step.id)"
@@ -150,7 +142,7 @@ function showsCypher(step: Step): boolean {
           </button>
         </p>
 
-        <pre v-if="showsCypher(step)" class="code">{{ step.cypher }}</pre>
+        <pre v-if="showsQuery(step)" class="code">{{ step.query }}</pre>
       </div>
     </div>
 
@@ -171,7 +163,7 @@ function showsCypher(step: Step): boolean {
 <style scoped>
 .trail {
   position: relative;
-  margin: 0.35rem 0 0.7rem;
+  margin: 0.2rem 0 0.35rem;
   padding-left: 0.95rem;
 }
 .trail::before {
@@ -181,10 +173,10 @@ function showsCypher(step: Step): boolean {
   top: 0.45rem;
   bottom: 0.45rem;
   width: 1px;
-  background: #e4e1da;
+  background: var(--hairline, #e4e1da);
 }
 .trail--live::before {
-  background: linear-gradient(180deg, #e4e1da 0%, #e0b7a4 55%, #e4e1da 100%);
+  background: linear-gradient(180deg, var(--hairline, #e4e1da) 0%, #9dcfc6 55%, var(--hairline, #e4e1da) 100%);
   background-size: 100% 220%;
   animation: flow 2.2s linear infinite;
 }
@@ -208,21 +200,21 @@ function showsCypher(step: Step): boolean {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #cfc9bf;
-  box-shadow: 0 0 0 3px #faf8f4;
+  background: var(--hairline-strong, #cfc9bf);
+  box-shadow: 0 0 0 3px var(--surface, #fff);
 }
 .step--running .dot {
-  background: #b4552d;
+  background: var(--accent, #007d6c);
   animation: halo 1.5s ease-out infinite;
 }
 .step--failed .dot {
-  background: #faf8f4;
+  background: var(--surface, #fff);
   border: 1.5px solid #b4552d;
 }
 @keyframes halo {
-  0% { box-shadow: 0 0 0 3px #faf8f4, 0 0 0 3px rgba(180, 85, 45, 0.45); }
-  70% { box-shadow: 0 0 0 3px #faf8f4, 0 0 0 9px rgba(180, 85, 45, 0); }
-  100% { box-shadow: 0 0 0 3px #faf8f4, 0 0 0 9px rgba(180, 85, 45, 0); }
+  0% { box-shadow: 0 0 0 3px var(--surface, #fff), 0 0 0 3px rgba(0, 125, 108, 0.35); }
+  70% { box-shadow: 0 0 0 3px var(--surface, #fff), 0 0 0 9px rgba(0, 125, 108, 0); }
+  100% { box-shadow: 0 0 0 3px var(--surface, #fff), 0 0 0 9px rgba(0, 125, 108, 0); }
 }
 
 .line {
@@ -235,7 +227,7 @@ function showsCypher(step: Step): boolean {
   line-height: 1.5;
 }
 .label {
-  color: #6f6a62;
+  color: var(--ink-2, #6f6a62);
   font-weight: 500;
 }
 .step--done .label { color: #a09a90; }
@@ -243,7 +235,7 @@ function showsCypher(step: Step): boolean {
 
 /* The moving label marks the step that runs now. */
 .label--live {
-  background: linear-gradient(90deg, #a09a90 0%, #1c1a17 45%, #a09a90 90%);
+  background: linear-gradient(90deg, var(--ink-3, #a09a90) 0%, var(--ink-1, #1c1a17) 45%, var(--ink-3, #a09a90) 90%);
   background-size: 220% 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -256,7 +248,7 @@ function showsCypher(step: Step): boolean {
 }
 
 .detail {
-  color: #a09a90;
+  color: var(--ink-3, #a09a90);
   font-family: ui-monospace, SFMono-Regular, monospace;
   font-size: 0.7rem;
   overflow-wrap: anywhere;
@@ -264,7 +256,7 @@ function showsCypher(step: Step): boolean {
 .step--failed .detail { color: #c07a58; }
 
 .clock {
-  color: #c3bcb1;
+  color: var(--ink-4, #c3bcb1);
   font-family: ui-monospace, SFMono-Regular, monospace;
   font-size: 0.68rem;
   font-variant-numeric: tabular-nums;
@@ -273,15 +265,20 @@ function showsCypher(step: Step): boolean {
 .peek {
   border: none;
   background: none;
-  padding: 0;
+  min-width: 44px;
+  min-height: 28px;
+  padding: 0 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font: inherit;
   font-size: 0.68rem;
-  color: #c3bcb1;
+  color: var(--ink-3, #c3bcb1);
   text-decoration: underline;
   text-underline-offset: 2px;
   cursor: pointer;
 }
-.peek:hover { color: #b4552d; }
+.peek:hover { color: var(--accent, #007d6c); }
 
 .dots {
   display: inline-flex;
@@ -292,7 +289,7 @@ function showsCypher(step: Step): boolean {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background: #b4552d;
+  background: var(--accent, #007d6c);
   animation: bob 1.1s ease-in-out infinite;
 }
 .dots i:nth-child(2) { animation-delay: 0.15s; }
@@ -305,17 +302,21 @@ function showsCypher(step: Step): boolean {
 .code {
   margin: 0.3rem 0 0.35rem;
   padding: 0.5rem 0.6rem;
-  background: #f4f1ea;
-  border-left: 2px solid #e0d9cc;
+  background: var(--sunk, #f4f1ea);
+  border-left: 2px solid var(--hairline-strong, #e0d9cc);
   border-radius: 0 6px 6px 0;
   font-family: ui-monospace, SFMono-Regular, monospace;
   font-size: 0.68rem;
   line-height: 1.55;
-  color: #6f6a62;
+  color: var(--ink-2, #6f6a62);
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   max-height: 11rem;
   overflow: auto;
+}
+
+@media (max-width: 640px) {
+  .peek { min-height: 44px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

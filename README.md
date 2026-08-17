@@ -64,11 +64,16 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 - This Aura load is a small pilot. It is not the complete 1,024-project
   portfolio or the completed Protocol 2.0 screen. Its record counts will grow.
 - The full closed graph model and Aura DDL are under [`graph/`](graph/).
-- The Nuxt application under [`web/`](web/) reads the Aura graph through Nitro.
-  Its status line reads current counts from Neo4j instead of hard-coding them.
-- The application agent knows all three graph layers and can resolve projects,
-  people, works, instruments, concepts, methods, conditions, properties,
-  countries, working groups, journals, and value sets.
+- The Nuxt 4 application under [`web/`](web/) now has one integrated landing page,
+  six-part research narrative, and chat interface.
+- The interface reads two temporary JSON reference fixtures through Nitro.
+  They drive the narrative while the new ontology and SQLite schema are built.
+- The real streaming AI agent is connected to the same reference records through
+  one read-only SQLite query tool. SQLite rejects write actions. The agent can
+  return stat, bar, line, donut, and table specifications to the shared renderer.
+- The Observable Plot template gallery remains available at `/widgets`. The chat
+  uses the shared stat, bar, line, donut, and table renderer.
+- The former Aura data service does not drive the application.
 - The existing graph is now a baseline, not the assumed final ontology.
   [`pilot/ontology-development/`](pilot/ontology-development/README.md) records the completed open-architecture experiment.
   Human review selected a paper-first structure and clarified that the target is a detailed EuroQol research ontology, not a general research ontology.
@@ -87,7 +92,7 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 | [`scale/protocol-2.0/`](scale/protocol-2.0/) | Validated scale checkpoint, compact results, and a manifest of the complete local scale tree |
 | [`corpus/`](corpus/README.md) | Retrieved full text converted to Markdown for extraction |
 | [`graph/`](graph/) | Neo4j ontology, schema, constraints, and indexes |
-| [`web/`](web/) | Nuxt server, chat, graph tools, migrations, and visual output |
+| [`web/`](web/) | Nuxt server, narrative, AI chat, chart templates, and temporary SQLite adapter |
 | [`docs/`](docs/) | Method, provenance, graph design, work plan, decisions, and proposal |
 
 See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration boundary between tracked source, compact evidence, and local working data.
@@ -128,14 +133,12 @@ The Nuxt application uses pnpm:
 ```sh
 cd web
 pnpm install --frozen-lockfile
-cp .env.example .env
-# Add the Anthropic and Neo4j Aura values to .env.
-pnpm db:check
 pnpm dev
 ```
 
-See [`web/README.md`](web/README.md) for the live Aura setup, checks, and the
-separate local demo database.
+The narrative does not need a database. The AI chat needs the Anthropic key in
+`web/.env`. See [`DESIGN.md`](DESIGN.md) for the interface system and
+[`web/README.md`](web/README.md) for its data seam.
 
 ## Data and repository rules
 

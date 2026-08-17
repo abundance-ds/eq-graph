@@ -23,6 +23,11 @@ import {
   WORKING_GROUPS,
 } from "../viz/fixtures";
 
+useHead({
+  title: "Chart templates — EQ-Graph",
+  meta: [{ name: "description", content: "Review the chart patterns used across the EuroQol research interface." }],
+});
+
 // --- the light and the dark mode -------------------------------------------
 
 const mode = ref<"light" | "dark">("light");
@@ -446,6 +451,47 @@ const valueSetTable = {
   columns: ["Country", "Technique", "Value sets"],
   rows: VALUE_SETS.map((row) => ({ Country: row.country, Technique: row.technique, "Value sets": row.sets })),
 };
+
+// These are the five specifications that query_sql can send to the chat.
+// They sit beside the broader Plot library so a visual change can be checked
+// against both the design source and the live agent renderer.
+const RUNTIME_WIDGETS: any[] = [
+  {
+    mark: "stat", title: "Funded projects", encoding: { value: "projects" },
+    rows: [{ projects: 944 }], rowCount: 1,
+  },
+  {
+    mark: "bar", title: "Top countries by funded projects", encoding: { x: "country", y: "projects" },
+    options: { orientation: "horizontal", color: "#007d6c" },
+    rows: [
+      { country: "United Kingdom", projects: 162 }, { country: "China", projects: 96 },
+      { country: "Netherlands", projects: 87 }, { country: "Australia", projects: 75 },
+      { country: "United States", projects: 72 },
+    ], rowCount: 5,
+  },
+  {
+    mark: "line", title: "Funded projects by year", encoding: { x: "year", y: "projects" },
+    options: { color: "#2a78d6" },
+    rows: [
+      { year: 2019, projects: 24 }, { year: 2020, projects: 29 }, { year: 2021, projects: 41 },
+      { year: 2022, projects: 53 }, { year: 2023, projects: 48 }, { year: 2024, projects: 57 },
+    ], rowCount: 6,
+  },
+  {
+    mark: "donut", title: "Attribution confidence", encoding: { x: "confidence", y: "links" },
+    options: { color: "#007d6c" },
+    rows: [
+      { confidence: "Accepted", links: 30 }, { confidence: "Review", links: 44 }, { confidence: "Weak", links: 126 },
+    ], rowCount: 3,
+  },
+  {
+    mark: "table", title: "Accepted publications", encoding: { columns: ["project", "title", "year"] },
+    rows: [
+      { project: "341-RA", title: "Trinidad and Tobago EQ-5D-5L valuation", year: 2024 },
+      { project: "1455-RA", title: "Comparing EQ-HWB and EQ-5D-5L", year: 2024 },
+    ], rowCount: 2,
+  },
+];
 </script>
 
 <template>
@@ -454,8 +500,8 @@ const valueSetTable = {
       <div>
         <h1>Chart templates</h1>
         <p>
-          Every mark, against fixed data. The colours are validated for the lightness band, the
-          chroma floor, the separation under colour blindness and the contrast against the paper.
+          Every mark, against fixed data. The gallery is the review surface for colour, labels,
+          hard states, and the data table behind each chart.
         </p>
       </div>
       <div class="modes" role="group" aria-label="Mode">
@@ -600,6 +646,17 @@ const valueSetTable = {
         />
       </div>
     </section>
+
+    <section class="block">
+      <h2>Agent runtime</h2>
+      <p class="runtime-intro">
+        The live agent can return these five specifications from the same read-only SQL call.
+        Each renderer keeps an accessible data table behind the visible chart.
+      </p>
+      <div class="runtime-grid">
+        <GraphWidget v-for="widget in RUNTIME_WIDGETS" :key="widget.title" :spec="widget" reference />
+      </div>
+    </section>
   </div>
 </template>
 
@@ -607,14 +664,14 @@ const valueSetTable = {
 /* The tokens. The figures read these, and one change swaps the whole mode. */
 .viz-root {
   color-scheme: light;
-  --surface: #faf8f4;
+  --surface: #f4f3ef;
   --raised: #ffffff;
-  --ink-primary: #1c1a17;
-  --ink-secondary: #57524a;
-  --ink-muted: #8a847a;
-  --grid: #e7e2d8;
-  --ink-axis: #cfc9bf;
-  --accent: #b4552d;
+  --ink-primary: #1a1a17;
+  --ink-secondary: #5c5c56;
+  --ink-muted: #8e8e86;
+  --grid: #e1e0db;
+  --ink-axis: #c4c4bb;
+  --accent: #007d6c;
   --good: #006300;
 
   min-height: 100%;
@@ -622,6 +679,11 @@ const valueSetTable = {
   background: var(--surface);
   color: var(--ink-primary);
 }
+
+.runtime-intro { max-width: 44rem; margin: -.4rem 0 1rem; color: var(--ink-muted); font-size: .8rem; line-height: 1.55; }
+.runtime-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.runtime-grid > :last-child { grid-column: 1 / -1; }
+@media (max-width: 760px) { .runtime-grid { grid-template-columns: 1fr; } .runtime-grid > :last-child { grid-column: auto; } }
 
 :root[data-theme="dark"] .viz-root {
   color-scheme: dark;
@@ -673,6 +735,7 @@ const valueSetTable = {
 }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr)); gap: 2.2rem 2.4rem; }
+@media (max-width: 760px) { .grid { grid-template-columns: minmax(0, 1fr); } }
 
 .hero { margin-bottom: 1.6rem; max-width: 22rem; }
 .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 1.6rem; }

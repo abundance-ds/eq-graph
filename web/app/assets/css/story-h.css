@@ -1,0 +1,306 @@
+/* ═══════════════════════════════════════════════════════════════════
+   THE STORY — horizontal, on paper, Swiss.
+
+   The light theme. Identical to the dark one in every respect except the
+   token block below: the drawing code reads its colour from these, so this
+   file is the whole difference between the two.
+
+   Swiss means the grid is the design: everything sits on a strict 12
+   column field, flush left, ragged right, and the hierarchy comes from
+   scale and weight rather than ornament. Edgy comes from the scale gap
+   and from letting the grid show, not from effects.
+
+   Paper ground — warm off-white, a shade away from the chat below it so the
+   two read as one surface without being flat. Two accents only, both taken
+   down to where they hold contrast on paper: amber in place of the yellow,
+   and the deep teal. The dot field is still the subject.
+   ═══════════════════════════════════════════════════════════════════ */
+
+.sh-root{
+  /* fonts, so this route works on its own as well as inside the landing */
+  --font-body:'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display:'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-num:'IBM Plex Mono', 'SFMono-Regular', Consolas, Menlo, monospace;
+  --ink:#1a1a17; --ink-2:#5c5c56; --ink-3:#8e8e86; --ink-4:#c4c4bb;
+  --rule:rgba(26,26,23,.17); --rule-soft:rgba(26,26,23,.08);
+  /* Straight off the logo artwork. #007d6c is the EuroQol green, used at full
+     strength here because on paper it is the only step of the gradient that
+     holds contrast. The amber is NOT a brand colour — it is here because the
+     story needs a second categorical accent and nothing in the kit can be
+     one: the brand blue #007d9d sits at ΔE 9 from the green under normal
+     vision and ΔE 6 under both deuteranopia and protanopia, so the two would
+     be one colour to a colourblind reader. */
+  --yellow:#a8720d; --teal:#007d6c; --teal-deep:#007d6c;
+  --teal-hover:#0e8474;
+
+  --tip-bg:rgba(255,255,253,.96);
+  --btn-2-ink:#1a1a17;                   /* the outlined button */
+  --btn-2-line:rgba(26,26,23,.30);
+  --btn-2-line-hover:rgba(26,26,23,.62);
+  --ray-soft:rgba(0,125,108,.20);        /* the sweep around a hovered button */
+  --ray-hot:#007d6c;
+
+  /* The canvases cannot read hex tokens, so the same palette is published
+     as plain "r,g,b" triples. This is the ONE place the story's colour is
+     decided — the drawing code reads these and never hard-codes a value,
+     which is what makes this theme a change of tokens and nothing else. */
+  --ground-rgb:244,243,239;              /* the ground the dots sit on */
+  --ink-rgb:26,26,23;                    /* type, furniture, particles   */
+  --dot-grey-rgb:138,138,130;
+  --dot-teal-rgb:0,125,108;              /* #007d6c, the EuroQol green */
+  --dot-yellow-rgb:168,114,13;
+  --globe-lit-rgb:0,125,108;             /* a country with research in it */
+  --globe-land-rgb:122,124,114;          /* every other coastline        */
+  --globe-pin-rgb:26,26,23;
+  --globe-body:255,255,253;              /* the glass ball, near to far  */
+  --globe-body-mid:243,243,238;
+  --globe-body-far:227,228,220;
+  --globe-body-a:.62;
+  --globe-line-boost:1.8;                /* hairlines carry more weight on paper */
+
+  --gut:1.5rem;                          /* the grid gutter */
+  --col:calc((100% - 11 * var(--gut)) / 12);
+
+  position:relative; background:#f4f3ef; color:var(--ink);
+  font-family:var(--font-body);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ── the pinned stage ─────────────────────────────────────────────── */
+/* The runway height is declared here, not left to JavaScript. Setting it in
+   JS meant the section had zero height until the script ran, so the page was
+   blank until then. JS still overrides it if the beat count changes. */
+.sh-scroll{position:relative; height:913vh;}   /* intro + scenes + a separate chat handover */
+.sh-stage{
+  position:sticky; top:0; height:100vh; overflow:hidden;
+  background:#f4f3ef;
+}
+
+/* the drifting ground — two blooms, very slow, very low */
+.sh-glow{position:absolute; inset:-20%; pointer-events:none; z-index:0;}
+.sh-glow i{
+  position:absolute; border-radius:50%; filter:blur(100px); opacity:.30;
+  will-change:transform;
+}
+.sh-glow i.a{width:52vw; height:52vw; background:radial-gradient(circle, rgba(214,163,60,.34), rgba(214,163,60,0) 68%);}
+.sh-glow i.b{width:46vw; height:46vw; background:radial-gradient(circle, rgba(0,125,108,.26), rgba(0,125,108,0) 68%);}
+@media (prefers-reduced-motion: reduce){ .sh-glow i{animation:none !important;} }
+
+/* the grid, made visible — this is the Swiss part */
+.sh-grid{position:absolute; inset:0; z-index:1; pointer-events:none;
+  padding:0 var(--pad); display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);}
+.sh-grid span{border-left:1px solid var(--rule-soft);}
+.sh-grid span:last-child{border-right:1px solid var(--rule-soft);}
+
+/* the frame — two hairlines and nothing else */
+.sh-frame{position:absolute; inset:0; z-index:6; pointer-events:none;}
+.sh-frame > *{position:absolute;}
+.sh-frame .tl{top:1.9rem; left:var(--pad);}
+.sh-frame .tr{top:1.9rem; right:var(--pad); color:var(--ink-2);}
+.sh-frame .bl{bottom:1.9rem; left:var(--pad);}
+.sh-frame .rule-t{top:3.6rem; left:var(--pad); right:var(--pad); height:1px; background:var(--rule);}
+.sh-frame .rule-b{bottom:3.6rem; left:var(--pad); right:var(--pad); height:1px; background:var(--rule);}
+
+/* ── the track ────────────────────────────────────────────────────── */
+/* The track covers the stage at z-index 4, above the globe. Without this it
+   swallows every pointer event on the fold, which is why the globe could not
+   be grabbed — there is nothing to click in a panel. */
+.sh-track{
+  position:absolute; inset:0; z-index:4; display:flex; align-items:center;
+  will-change:transform, opacity; pointer-events:none;
+}
+.sh-panel{
+  flex:0 0 100vw; height:100%; padding:0 var(--pad);
+  display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);
+  align-content:center;
+}
+/* Asymmetric by rule: the words take columns 1–5, never centred. */
+.sh-copy{grid-column:1 / span 5; align-self:center;}
+@media (max-width:900px){ .sh-copy{grid-column:1 / span 10;} }
+
+.sh-num{
+  font-family:var(--font-display); font-weight:500;
+  font-size:clamp(4rem, 11vw, 10.5rem); line-height:.82; letter-spacing:-.05em;
+  color:var(--ink); margin:0 0 .2rem; font-variant-numeric:tabular-nums;
+}
+.sh-head{
+  font-family:var(--font-display); font-weight:500;
+  font-size:clamp(1.6rem, 3.4vw, 2.9rem); line-height:1.02; letter-spacing:-.035em;
+  color:var(--ink); margin:0 0 1.1rem;
+}
+.sh-body{
+  font-size:.95rem; line-height:1.62; color:var(--ink-2); margin:0; max-width:30rem;
+}
+.sh-body b{color:var(--ink); font-weight:500;}
+
+/* The consequence. A number on its own does not say what it bought, so every
+   beat carries one of these — marked with a rule in the brand green so the
+   eye knows it is the point rather than more description. */
+.sh-so{
+  margin:1.15rem 0 0; padding-left:1rem; border-left:2px solid var(--teal);
+  font-size:.92rem; line-height:1.6; color:var(--ink-2); max-width:30rem;
+}
+.sh-so b{color:var(--ink); font-weight:500;}
+
+/* a hairline under the copy, running out to the gutter — Swiss detail */
+.sh-copy::after{
+  content:''; display:block; height:1px; margin-top:2.2rem;
+  background:linear-gradient(90deg, var(--rule) 0%, var(--rule) 22%, transparent 100%);
+}
+
+/* ── the instrument ───────────────────────────────────────────────────
+   The opening object: five extruded forms whose heights are the levels of
+   an EQ-5D health state. Sits in the right half, on the same columns the
+   dot field will take, so one gives way to the other in place. */
+/* The globe fills the fold and sits behind the words, so the type always
+   reads over it and the whole right half is grabbable. */
+.sh-instrument{
+  position:absolute; inset:0; z-index:1;
+  opacity:0; transition:none; pointer-events:none;
+}
+.sh-instrument canvas{width:100%; height:100%; display:block;}
+/* the globe is the one object you can put your hands on */
+.sh-instrument.is-globe{pointer-events:none;}
+.sh-instrument.is-globe canvas{pointer-events:auto; cursor:grab; touch-action:none;}
+.sh-instrument.is-globe canvas.is-dragging{cursor:grabbing;}
+
+/* the key sits in a corner and stays out of the way until asked for */
+.sh-key{position:absolute; right:var(--pad); bottom:5.4rem; z-index:6; max-width:26rem; text-align:right;}
+.sh-key-toggle{
+  font-family:var(--font-body); font-size:.78rem; letter-spacing:-.005em;
+  color:var(--ink-3); background:transparent; border:0; border-bottom:1px solid var(--rule);
+  min-width:44px; min-height:44px; padding:0 0 .2rem; cursor:pointer;
+  display:inline-flex; align-items:center; justify-content:flex-end;
+}
+.sh-key-toggle:hover{color:var(--ink);}
+.sh-key-body{
+  margin:.7rem 0 0; font-size:.76rem; line-height:1.6; color:var(--ink-2); text-align:left;
+}
+.sh-key-body b{color:var(--ink); font-weight:500;}
+.sh-key-body i{
+  display:inline-block; width:.5rem; height:.5rem; border-radius:50%;
+  margin:0 .3rem 0 .1rem; vertical-align:baseline;
+}
+
+/* ── the two ways in ──────────────────────────────────────────────────
+   Sitting under the opening line, in the left columns, from first paint.
+   Primary is filled teal; secondary is an outline. On hover a single bright
+   ray travels the edge — a conic gradient masked to the border ring, so it
+   rides the corner radius instead of cutting across it. */
+.sh-cta{
+  position:absolute; z-index:5; left:var(--pad); top:58%;
+  display:flex; gap:.7rem; flex-wrap:wrap;
+  transition:opacity .25s ease;
+}
+
+/* The two ways in. Teal and solid for the one that matters, outlined for
+   the other. */
+.sh-btn{
+  position:relative; isolation:isolate;
+  font-family:var(--font-body); font-size:.9rem; font-weight:500;
+  padding:.82rem 1.5rem; border-radius:9px; cursor:pointer;
+  border:1px solid transparent; letter-spacing:-.005em;
+  transition:transform .18s cubic-bezier(.16,1,.3,1), background .2s ease, box-shadow .2s ease;
+}
+.sh-btn span{position:relative; z-index:2;}
+.sh-btn:active{transform:translateY(1px);}
+
+.sh-btn.is-primary{
+  background:var(--teal-deep); color:#fff; border-color:var(--teal-deep);
+  box-shadow:0 1px 0 rgba(255,255,255,.10) inset, 0 8px 24px rgba(0,125,108,.30);
+}
+.sh-btn.is-primary:hover{background:var(--teal-hover); border-color:var(--teal-hover);}
+
+.sh-btn.is-secondary{
+  background:transparent; color:var(--btn-2-ink); border-color:var(--btn-2-line);
+}
+.sh-btn.is-secondary:hover{border-color:var(--btn-2-line-hover);}
+
+/* The ray. The first version animated a custom property, which means the
+   browser re-rasterises the conic gradient on the main thread every single
+   frame — that is what was juddering. This rotates a real layer instead, so
+   it runs on the compositor at whatever the screen refreshes at. */
+.sh-ray{
+  position:absolute; inset:-1px; border-radius:inherit; overflow:hidden;
+  opacity:0; transition:opacity .2s ease; pointer-events:none; z-index:1;
+  padding:1.4px;
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+          mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+          mask-composite:exclude;
+}
+.sh-ray b{
+  position:absolute; left:50%; top:50%; width:340%; aspect-ratio:1;
+  transform:translate3d(-50%,-50%,0) rotate(0turn);
+  will-change:transform; backface-visibility:hidden;
+  background:conic-gradient(
+    transparent 0turn .17turn,
+    var(--ray-soft) .21turn,
+    var(--ray-hot) .25turn,
+    var(--ray-soft) .29turn,
+    transparent .33turn 1turn);
+  animation:sh-ray 2s linear infinite;
+  animation-play-state:paused;
+}
+.sh-btn:hover .sh-ray, .sh-btn:focus-visible .sh-ray{opacity:1;}
+.sh-btn:hover .sh-ray b, .sh-btn:focus-visible .sh-ray b{animation-play-state:running;}
+@keyframes sh-ray{ to{ transform:translate3d(-50%,-50%,0) rotate(1turn); } }
+@media (prefers-reduced-motion: reduce){ .sh-ray b{animation:none;} }
+
+/* ── the dot field ────────────────────────────────────────────────── */
+.sh-field{position:absolute; inset:0; z-index:2; pointer-events:none;}
+.sh-field canvas{width:100%; height:100%; display:block;}
+
+/* The logo, top left, above the frame's top hairline — it carries the name
+   now that the opening line does not. */
+.sh-logo{
+  position:absolute; left:var(--pad); top:1.55rem; z-index:7;
+  width:auto; height:27px; pointer-events:none;
+}
+@media (max-width:900px){ .sh-logo{height:22px; top:1.2rem;} }
+
+.sh-skip{
+  position:absolute; right:var(--pad); top:.75rem; z-index:8;
+  min-height:44px; padding:0 .15rem;
+  display:inline-flex; align-items:center; gap:.45rem;
+  border:0; border-bottom:1px solid var(--rule); background:transparent;
+  color:var(--ink-2); font:500 .78rem var(--font-body); cursor:pointer;
+  transition:color .15s ease, border-color .15s ease;
+}
+.sh-skip:hover{color:var(--teal); border-color:var(--teal);}
+.sh-skip:focus-visible{outline:2px solid var(--teal); outline-offset:4px;}
+
+/* ── progress ─────────────────────────────────────────────────────── */
+.sh-dots{
+  position:absolute; bottom:1.75rem; left:50%; transform:translateX(-50%); z-index:6;
+  display:flex; align-items:center; gap:0;
+}
+.sh-dots button{
+  appearance:none; border:0; padding:0; cursor:pointer; position:relative;
+  width:30px; height:44px; background:transparent; display:grid; place-items:center;
+}
+.sh-dots button::before{
+  content:''; width:5px; height:5px; border-radius:3px; background:var(--ink-4); display:block;
+  transition:width .38s cubic-bezier(.16,1,.3,1), background .38s ease;
+}
+.sh-dots button:hover::before{background:var(--ink-3);}
+.sh-dots button:focus-visible{outline:2px solid var(--teal); outline-offset:4px;}
+.sh-dots button.on::before{width:22px; background:var(--ink);}
+
+.sh-root{--pad:3rem; min-height:100vh;}
+@media (max-width:900px){ .sh-root{--pad:1.5rem; --gut:.9rem;} }
+
+/* On a phone, reserve the lower part of the fold for the changing data
+   object. The reference placed the canvas behind the full copy and made the
+   chart labels collide with the text. The story stays the same, but each
+   layer now has a clear reading area. */
+@media (max-width:640px){
+  .sh-scroll{height:1039vh;}
+  .sh-panel{align-content:start; padding-top:6.2rem;}
+  .sh-copy{grid-column:1 / -1;}
+  .sh-num{font-size:clamp(3.7rem,18vw,4.5rem); margin-bottom:.15rem;}
+  .sh-head{font-size:1.45rem; margin-bottom:.7rem; max-width:20rem;}
+  .sh-body{font-size:.82rem; line-height:1.45; max-width:21rem;}
+  .sh-so{font-size:.8rem; line-height:1.45; margin-top:.72rem; max-width:21rem; padding-left:.7rem;}
+  .sh-copy::after{display:none;}
+}

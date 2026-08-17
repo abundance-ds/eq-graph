@@ -5,43 +5,30 @@
  * widgets and the narrative story both read it, so the two look like one
  * product.
  *
- * The categorical colours are validated. The check covers the lightness band,
- * the chroma floor, the separation for colour blindness of each neighbour pair,
- * the separation for normal sight, and the contrast against the surface. Both
- * sets pass. Run the check again after any change of a value:
- *
- *   node scripts/validate_palette.js "<hex,hex,…>" --mode light --surface "#faf8f4"
- *
- * Results on 2026-08-04:
- *   light, neighbour pairs — worst colour blindness ΔE 9.1, worst normal 19.6
- *   dark,  neighbour pairs — worst colour blindness ΔE 8.4, worst normal 19.3
- *   light, first three, all pairs — 11.6 / 24.0 (safe for a scatter plot)
- *   dark,  first three, all pairs — 6.6 (needs a second channel: a symbol)
- *
- * Three light colours stay below a contrast of 3:1 against the cream surface
- * (aqua, yellow, magenta). Every chart that uses them must also carry a direct
- * label or the table behind it.
+ * The categorical colours use the designer palette. Direct labels and the
+ * source table must carry identity when colour is not sufficient. Review the
+ * light and dark variants in the chart gallery after a token changes.
  */
 
 /** The eight series colours, in a fixed order. Never a ninth, never a cycle. */
 export const SERIES_LIGHT = [
-  "#b4552d", // 1 terracotta — the colour of the product
+  "#007d6c", // 1 EuroQol green — the colour of the product
   "#2a78d6", // 2 blue
-  "#1baf7a", // 3 aqua
+  "#eb6834", // 3 orange
   "#eda100", // 4 yellow
   "#e87ba4", // 5 magenta
-  "#008300", // 6 green
+  "#1baf7a", // 6 aqua
   "#4a3aa7", // 7 violet
   "#e34948", // 8 red
 ];
 
 export const SERIES_DARK = [
-  "#d2734a",
+  "#20a894",
   "#3987e5",
-  "#199e70",
+  "#f17d50",
   "#c98500",
   "#d55181",
-  "#008300",
+  "#42bd91",
   "#9085e9",
   "#e66767",
 ];
@@ -53,26 +40,26 @@ export const SERIES_DARK = [
  * paper, and near black on the dark paper. So a small value always recedes and
  * a large value always stands out, in both modes.
  */
-export const RAMP_LIGHT = ["#f9e6da", "#f0c6ac", "#e2a17c", "#cf7a4f", "#b4552d", "#8f4021", "#672d17"];
-export const RAMP_DARK = ["#33241b", "#4d2f1f", "#6b3e23", "#8c4f28", "#ab6031", "#c76f3e", "#dd8a5c"];
+export const RAMP_LIGHT = ["#dff1ed", "#b8ded6", "#7fc6b8", "#42a895", "#007d6c", "#006052", "#003f36"];
+export const RAMP_DARK = ["#12332e", "#164a41", "#196456", "#1b7f6b", "#239b83", "#42b79e", "#75cfbb"];
 
 /** Two hues that read as opposite, with a grey middle for "no change". */
-export const DIVERGING = { low: "#2a78d6", mid: "#eee9e0", high: "#b4552d" };
-export const DIVERGING_DARK = { low: "#3987e5", mid: "#33302a", high: "#d2734a" };
+export const DIVERGING = { low: "#2a78d6", mid: "#e8e7e2", high: "#a8720d" };
+export const DIVERGING_DARK = { low: "#3987e5", mid: "#343633", high: "#d6a33c" };
 
 /** The ink and the paper. */
 export const INK = {
   light: {
-    surface: "#faf8f4",
+    surface: "#f4f3ef",
     raised: "#ffffff",
-    primary: "#1c1a17",
-    secondary: "#57524a",
-    muted: "#8a847a",
-    grid: "#e7e2d8",
-    axis: "#cfc9bf",
-    accent: "#b4552d",
+    primary: "#1a1a17",
+    secondary: "#5c5c56",
+    muted: "#8e8e86",
+    grid: "#e1e0db",
+    axis: "#c4c4bb",
+    accent: "#007d6c",
     /** A mark that carries no story, beside the one that does. */
-    mute: "#e2dbcd",
+    mute: "#dcdcd5",
   },
   dark: {
     surface: "#1c1a17",
@@ -82,7 +69,7 @@ export const INK = {
     muted: "#8a847a",
     grid: "#302c26",
     axis: "#423d35",
-    accent: "#d2734a",
+    accent: "#20a894",
     mute: "#403a31",
   },
 };
@@ -101,8 +88,8 @@ export const MARK = {
 };
 
 export const TYPE = {
-  family: 'system-ui, -apple-system, "Segoe UI", sans-serif',
-  mono: 'ui-monospace, SFMono-Regular, "SF Mono", monospace',
+  family: '"Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+  mono: '"IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", monospace',
   tick: 11,
   label: 12,
   title: 14,

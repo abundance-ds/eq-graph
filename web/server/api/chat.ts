@@ -4,9 +4,8 @@
  * The AI SDK owns the agent loop and the wire format. useChat on the browser
  * reads the same format, so there is no protocol to write by hand.
  *
- * The widgets travel as an ordinary tool result. The browser reads the part
- * `tool-render` when its state is `output-available`, and it draws
- * `part.output.widget`. No custom data part is needed for that.
+ * A widget travels as part of the query_sql result. The browser draws
+ * `part.output.widget`. No custom stream part is needed.
  *
  * The writer exists for the transient status line, which comes later.
  */
@@ -28,8 +27,7 @@ export default defineLazyEventHandler(() => {
     throw new Error("NUXT_ANTHROPIC_API_KEY is not set. Copy .env.example to .env.");
   }
 
-  // The only line that names a provider. To use another model, change this
-  // line and the package. The tools and the prompt do not change.
+  // This is the only line that names the provider.
   const anthropic = createAnthropic({ apiKey: config.anthropicApiKey });
 
   return defineEventHandler(async (event) => {

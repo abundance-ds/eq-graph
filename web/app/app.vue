@@ -3,13 +3,89 @@
 </template>
 
 <style>
-:root { color-scheme: light; }
+:root {
+  color-scheme: light;
+  --font-body: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-num: "IBM Plex Mono", "SFMono-Regular", Consolas, Menlo, monospace;
+}
+
 * { box-sizing: border-box; }
-html, body, #__nuxt { height: 100%; margin: 0; }
+html { margin: 0; background: #f4f3ef; }
+body, #__nuxt { min-height: 100%; margin: 0; }
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  background: #faf8f4;
-  color: #1c1a17;
+  overflow-x: hidden;
+  background: #f4f3ef;
+  color: #1a1a17;
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+button, textarea, input { font: inherit; }
+
+html.is-chat-cockpit,
+body.is-chat-cockpit,
+body.is-chat-cockpit #__nuxt {
+  height: 100%;
+  overflow: hidden;
+}
+
+.landing-v2-root .xp-root {
+  position: relative;
+  z-index: 3;
+  min-height: 100vh;
+  margin-top: -100vh;
+  transition: none;
+}
+
+.landing-v2-root.is-chat-mode {
+  height: 100dvh;
+  overflow: hidden;
+  background: #fff;
+}
+
+.landing-v2-root.is-chat-mode .sh-root {
+  display: none;
+}
+
+.landing-v2-root.is-chat-mode .xp-root {
+  height: 100dvh;
+  min-height: 0;
+  margin-top: 0;
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.load-state {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  text-align: center;
+}
+.load-state p { max-width: 32rem; color: #5c5c56; line-height: 1.6; }
+.xp-error { color: #a23c2a; font-size: 0.8rem; text-align: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-v2-root .xp-root {
+    margin-top: 0;
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
 </style>

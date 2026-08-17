@@ -3,18 +3,74 @@
 Chronological record of what was done, what broke, and how it was fixed.
 Stable knowledge lives in README.md; this file is the narrative.
 
+## 2026-08-17
+
+- Replaced the designer chat landing surface with a full-height research
+  workbench based on the original Nuxt 4 chat architecture. Restored the
+  persistent header, internal transcript scroll, fixed composer, inline tool
+  trail, ordered response parts, and visible follow-up questions.
+- Moved the transcript scroll layer to the full cockpit width. The scroll rail
+  now stays at the window edge while messages stay in the centered reading
+  column.
+- Added a real story-to-chat mode boundary. Completing the handover or using
+  “Skip story” removes the narrative from the scroll range. “Back to story”
+  restores the exact settled story position and keyboard focus.
+- Limited categorical runtime charts to 12 marks and added rich-result scroll
+  anchoring so a streamed answer cannot push a new chart above the viewport.
+- Made categorical charts detect and correct reversed category and value
+  fields from model specifications.
+- Fixed italic Markdown inside answer tables and removed the obsolete designer
+  chat CSS and its unused component rules.
+- Rebuilt the scroll story as a hold-first timeline. Each scene now stays fully
+  settled for about 78% of its range and changes during the remaining 22%.
+  Added direct scene buttons, reduced-motion snapping, explicit scroll state,
+  and a separate final handover range so the sixth scene has full reading time.
+- Connected the redesigned chat surface to the existing Nuxt 4 AI SDK stream.
+  Removed the unused canned chat endpoint.
+- Replaced the unavailable Aura runtime path with the intended interim design:
+  one model-written `query_sql` tool over a small SQLite database built from the
+  temporary reference JSON. Query-only mode and the SQLite authorizer reject
+  writes, schema changes, and PRAGMA actions.
+- Let the same SQL call request a stat, bar, line, donut, or table. The answer
+  uses the shared `GraphWidget` renderer and keeps the 11-template Observable
+  Plot gallery at `/widgets`.
+- Added safe streamed-answer formatting for prose, lists, links, and tables.
+  Added chart-mark follow-up actions and a query disclosure in the activity row.
+- Corrected the narrative and mock adapter so that only the 30 accepted
+  project-publication links appear as confirmed. The 170 weak matches no longer
+  inflate the linked-publication claims.
+- Tested all six settled story states and the transition range on desktop and
+  mobile. Tested the final story hold, chat handover, live model-to-SQL-to-chart
+  path, stat and bar responses, chart selection, write rejection, keyboard
+  targets, overflow, console errors, type checking, and the production build.
+- Completed the version-3 ontology experiment: 100 papers, 100 competency
+  questions, three independent ontology proposals, primary synthesis, and a
+  ten-paper source-checked holdout.
+- Human review approved the exact EuroQol domain direction and added a flexible
+  concepts-and-themes layer. Removed fixed finding counts and made limitations,
+  data-quality caveats, scope limits, gaps, and source conflicts explicit.
+- Confirmed that JATS publication metadata is deterministic table stakes and is
+  not an AI extraction task.
+- Audited no-EQ papers for direct EuroQol support. Kept verified study, data,
+  researcher, travel, and publication support types distinct. Reclassified the
+  H09 project link as unverified because its article lists EuroQol grants only
+  in one author's competing-interest statement.
+- Paused the small relational pilot for final human confirmation.
+
 ## 2026-08-16
 
-- Merged the separate designer direction into the current Nuxt 4 application.
-  Added one landing page, a six-view manual narrative, and a chat surface without
-  importing the separate Nuxt 3 application or its animation scripts.
-- Added one raw JSON prototype fixture and two Nitro endpoints. The narrative and
-  chat now use the same mock records. Marked the adapter for replacement when the
-  new ontology and SQLite schema are ready.
+- Merged the approved designer surface into the current Nuxt 4 application.
+  Ported the official logo, orthographic globe, 760-vh six-step narrative,
+  scroll motion, story copy, and chat visual system. The separate Nuxt 3 shell
+  and Cloudflare target did not enter the application.
+- Added two temporary JSON reference fixtures and three Nitro endpoints. The
+  narrative and chat now use the same reference records. Marked the adapter for
+  replacement when the new ontology and SQLite schema are ready.
 - Retained the Observable Plot gallery at `/widgets`, applied the paper and EuroQol
   green theme, and expanded the shared chat renderer with a donut mark.
-- Added `DESIGN.md`. The production build, Nuxt type check, desktop and mobile
-  browser checks, mock chat request, and chart gallery check pass.
+- Added `DESIGN.md`. The production build, Nuxt type check, eight desktop story
+  comparisons, mobile story review, mock chat flow, globe drag, source disclosure,
+  and chart gallery checks pass.
 - Integrated the useful parts of collaborator PR #2 while preserving its Git history.
   Kept the PDF converter and seven pilot PDF texts in `corpus/`.
   Excluded the separate Kotlin/Neo4j backend, duplicate derived files under `input/`, and the reduced duplicate pilot CSV.

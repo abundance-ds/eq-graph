@@ -2,20 +2,22 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-01-01",
   devtools: { enabled: true },
 
+  css: [
+    "@fontsource/instrument-sans/400.css",
+    "@fontsource/instrument-sans/500.css",
+    "@fontsource/instrument-sans/600.css",
+    "@fontsource/ibm-plex-mono/400.css",
+    "@fontsource/ibm-plex-mono/500.css",
+    "@fontsource/ibm-plex-mono/600.css",
+    "~/assets/css/story-h.css",
+    "~/assets/css/explore.css",
+  ],
+
   runtimeConfig: {
     // Filled from NUXT_-prefixed environment variables. Never hard code a key.
     anthropicApiKey: "",
-    neo4jUri: "",
-    neo4jUser: "",
-    neo4jPassword: "",
-    // Leave this empty to use the account's Neo4j home database.
-    neo4jDatabase: "",
-    // The model that drives the agent. Change the provider in one place:
-    // server/utils/model.ts
+    // The model that drives the agent.
     agentModel: "claude-sonnet-5",
-    // Guards for run_cypher.
-    cypherTimeoutMs: 10_000,
-    cypherRowCap: 2000,
   },
 
   nitro: {
