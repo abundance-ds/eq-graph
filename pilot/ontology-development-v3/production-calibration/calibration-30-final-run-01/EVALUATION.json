@@ -1,0 +1,1184 @@
+{
+  "summary": {
+    "run": "calibration-30-final-run-01",
+    "records_expected": 30,
+    "records_present": 30,
+    "structurally_clean": 30,
+    "disposition_matches": 30,
+    "term_hits": 286,
+    "term_total": 338,
+    "weighted_term_recall": 0.8462,
+    "source_locators": 1207,
+    "substantive_bullets": 1209,
+    "source_locator_rate": 0.9983,
+    "safety_checks_passed": 22,
+    "safety_checks_total": 22,
+    "output_words": 40902,
+    "mean_output_words": 1363.4,
+    "usage": {
+      "input_tokens": 1147730,
+      "cached_input_tokens": 57600,
+      "output_tokens": 78533,
+      "reasoning_output_tokens": 11639
+    },
+    "class_counts": {
+      "disposition": {
+        "include-study": 28,
+        "exclude": 1,
+        "publication-context": 1
+      },
+      "connection": {
+        "direct_eq": 21,
+        "adjacent_measurement": 4,
+        "application_only": 5
+      },
+      "euroqol support": {
+        "explicit": 28,
+        "none-stated": 2
+      },
+      "project link": {
+        "explicit": 28,
+        "none": 1,
+        "probable": 1
+      }
+    }
+  },
+  "records": [
+    {
+      "record_id": "H01",
+      "doi": "10.1007/s40273-018-0615-8",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H01.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 15,
+      "term_hits": 13,
+      "term_recall": 0.8667,
+      "missed_terms": [
+        "censored at \u22121 Tobit model",
+        "continuous quality control"
+      ],
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "source_locator_rate": 1.0,
+      "word_count": 1242,
+      "usage": {
+        "input_tokens": 28249,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2391,
+        "reasoning_output_tokens": 307
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H02",
+      "doi": "10.1007/s40271-025-00735-9",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H02.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 17,
+      "term_hits": 15,
+      "term_recall": 0.8824,
+      "missed_terms": [
+        "SAS macros",
+        "Bayesian D-efficient design"
+      ],
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "source_locator_rate": 1.0,
+      "word_count": 1386,
+      "usage": {
+        "input_tokens": 49987,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2786,
+        "reasoning_output_tokens": 516
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H03",
+      "doi": "10.1007/s10198-025-01769-4",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H03.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 16,
+      "term_hits": 13,
+      "term_recall": 0.8125,
+      "missed_terms": [
+        "two-way mixed-effects ICC",
+        "Spearman\u2019s correlation coefficient",
+        "additive model"
+      ],
+      "located_bullets": 62,
+      "substantive_bullets": 62,
+      "source_locator_rate": 1.0,
+      "word_count": 1780,
+      "usage": {
+        "input_tokens": 37565,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3617,
+        "reasoning_output_tokens": 703
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H04",
+      "doi": "10.1007/s11136-026-04223-x",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H04.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 3,
+      "term_hits": 2,
+      "term_recall": 0.6667,
+      "missed_terms": [
+        "Quality of Life Inventory"
+      ],
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "source_locator_rate": 1.0,
+      "word_count": 1344,
+      "usage": {
+        "input_tokens": 29714,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2474,
+        "reasoning_output_tokens": 322
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H05",
+      "doi": "10.1007/s40271-024-00715-5",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H05.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 13,
+      "term_hits": 12,
+      "term_recall": 0.9231,
+      "missed_terms": [
+        "25-item EQ-HWB proxy version 2"
+      ],
+      "located_bullets": 53,
+      "substantive_bullets": 53,
+      "source_locator_rate": 1.0,
+      "word_count": 1332,
+      "usage": {
+        "input_tokens": 30917,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2544,
+        "reasoning_output_tokens": 383
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H06",
+      "doi": "10.1007/s11136-018-1985-2",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H06.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 18,
+      "term_hits": 16,
+      "term_recall": 0.8889,
+      "missed_terms": [
+        "EQ VAS",
+        "population data"
+      ],
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "source_locator_rate": 1.0,
+      "word_count": 1365,
+      "usage": {
+        "input_tokens": 36696,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2624,
+        "reasoning_output_tokens": 309
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H07",
+      "doi": "10.1007/s40273-019-00854-w",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H07.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 26,
+      "term_hits": 24,
+      "term_recall": 0.9231,
+      "missed_terms": [
+        "area under the curve (AUC)",
+        "population-specific measurement properties"
+      ],
+      "located_bullets": 48,
+      "substantive_bullets": 49,
+      "source_locator_rate": 0.9796,
+      "word_count": 1787,
+      "usage": {
+        "input_tokens": 48839,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3148,
+        "reasoning_output_tokens": 340
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H08",
+      "doi": "10.1186/s41687-023-00560-4",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H08.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 17,
+      "term_hits": 14,
+      "term_recall": 0.8235,
+      "missed_terms": [
+        "PedsQL\u2122 4.0 Generic Core Scales",
+        "composite time trade-off (cTTO)",
+        "IBM SPSS 26.0.0"
+      ],
+      "located_bullets": 52,
+      "substantive_bullets": 52,
+      "source_locator_rate": 1.0,
+      "word_count": 2040,
+      "usage": {
+        "input_tokens": 51157,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3668,
+        "reasoning_output_tokens": 176
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "H09",
+      "doi": "10.1038/s41433-023-02860-x",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H09.md",
+      "exists": true,
+      "classes": {
+        "disposition": "exclude",
+        "connection": "application_only",
+        "euroqol support": "none-stated",
+        "project link": "none"
+      },
+      "expected_disposition": "exclude",
+      "disposition_match": true,
+      "headings_present": 0,
+      "errors": [],
+      "reference_term_count": 0,
+      "term_hits": 0,
+      "term_recall": null,
+      "missed_terms": [],
+      "located_bullets": 0,
+      "substantive_bullets": 0,
+      "source_locator_rate": null,
+      "word_count": 207,
+      "usage": {
+        "input_tokens": 35400,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 486,
+        "reasoning_output_tokens": 149
+      },
+      "safety_checks": [
+        {
+          "name": "no false EuroQol funding",
+          "passed": true
+        },
+        {
+          "name": "no asserted project link",
+          "passed": true
+        },
+        {
+          "name": "no false EQ instrument use",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "H10",
+      "doi": "10.1186/s12891-024-07304-5",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/H10.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 23,
+      "term_hits": 19,
+      "term_recall": 0.8261,
+      "missed_terms": [
+        "individualized patient decision aid",
+        "1-year post-surgery",
+        "waffle chart",
+        "Sankey Diagram"
+      ],
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "source_locator_rate": 1.0,
+      "word_count": 1386,
+      "usage": {
+        "input_tokens": 30948,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2723,
+        "reasoning_output_tokens": 516
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B01",
+      "doi": "10.1213/ANE.0000000000007107",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B01.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 8,
+      "term_hits": 7,
+      "term_recall": 0.875,
+      "missed_terms": [
+        "hospital practice variation"
+      ],
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "source_locator_rate": 1.0,
+      "word_count": 1470,
+      "usage": {
+        "input_tokens": 43272,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2721,
+        "reasoning_output_tokens": 247
+      },
+      "safety_checks": [
+        {
+          "name": "travel-grant scope",
+          "passed": true
+        },
+        {
+          "name": "project 1483-TVG",
+          "passed": true
+        },
+        {
+          "name": "support explicit",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B02",
+      "doi": "10.1186/s41687-024-00761-5",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B02.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 9,
+      "term_hits": 5,
+      "term_recall": 0.5556,
+      "missed_terms": [
+        "PedsQL 4.0 GCS child self-report",
+        "PedsQL 4.0 GCS teen self-report",
+        "forward and back translation",
+        "Cronbach alpha"
+      ],
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "source_locator_rate": 1.0,
+      "word_count": 1359,
+      "usage": {
+        "input_tokens": 36418,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2699,
+        "reasoning_output_tokens": 412
+      },
+      "safety_checks": [
+        {
+          "name": "author-level scope retained",
+          "passed": true
+        },
+        {
+          "name": "does not claim full-study funding",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B03",
+      "doi": "10.1007/s11136-026-04230-y",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B03.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 8,
+      "term_hits": 5,
+      "term_recall": 0.625,
+      "missed_terms": [
+        "EQ-HWB-9 proxy version",
+        "seven-day recall period",
+        "cognitive think-aloud interview"
+      ],
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "source_locator_rate": 1.0,
+      "word_count": 1372,
+      "usage": {
+        "input_tokens": 34585,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2383,
+        "reasoning_output_tokens": 307
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B04",
+      "doi": "10.1186/s12955-025-02421-8",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B04.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 10,
+      "term_hits": 7,
+      "term_recall": 0.7,
+      "missed_terms": [
+        "DerSimonian-Laird random-effects model",
+        "I-squared",
+        "health-state utility"
+      ],
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "source_locator_rate": 1.0,
+      "word_count": 1421,
+      "usage": {
+        "input_tokens": 84708,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2935,
+        "reasoning_output_tokens": 497
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B05",
+      "doi": "10.3390/cancers16111952",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B05.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 9,
+      "term_hits": 9,
+      "term_recall": 1.0,
+      "missed_terms": [],
+      "located_bullets": 52,
+      "substantive_bullets": 52,
+      "source_locator_rate": 1.0,
+      "word_count": 1554,
+      "usage": {
+        "input_tokens": 44670,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3258,
+        "reasoning_output_tokens": 596
+      },
+      "safety_checks": [
+        {
+          "name": "author-level support retained",
+          "passed": true
+        },
+        {
+          "name": "scope is not full-study funding",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B06",
+      "doi": "10.1007/s40271-022-00573-z",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B06.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 9,
+      "term_recall": 0.8182,
+      "missed_terms": [
+        "videoconferencing",
+        "ten-year-old child perspective"
+      ],
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "source_locator_rate": 1.0,
+      "word_count": 1426,
+      "usage": {
+        "input_tokens": 40707,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2826,
+        "reasoning_output_tokens": 385
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B07",
+      "doi": "10.1007/s11136-019-02256-z",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B07.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 10,
+      "term_hits": 9,
+      "term_recall": 0.9,
+      "missed_terms": [
+        "recalled HRQoL"
+      ],
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "source_locator_rate": 1.0,
+      "word_count": 1328,
+      "usage": {
+        "input_tokens": 30108,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2756,
+        "reasoning_output_tokens": 516
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B08",
+      "doi": "10.1007/s11136-025-03990-3",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B08.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 9,
+      "term_hits": 7,
+      "term_recall": 0.7778,
+      "missed_terms": [
+        "paediatric patient-reported outcome measure",
+        "routine outpatient care"
+      ],
+      "located_bullets": 35,
+      "substantive_bullets": 35,
+      "source_locator_rate": 1.0,
+      "word_count": 1262,
+      "usage": {
+        "input_tokens": 36472,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2665,
+        "reasoning_output_tokens": 732
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B09",
+      "doi": "10.1007/s40273-024-01444-1",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-run-01/records/B09.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 10,
+      "term_recall": 0.9091,
+      "missed_terms": [
+        "no-experience anchor"
+      ],
+      "located_bullets": 45,
+      "substantive_bullets": 45,
+      "source_locator_rate": 1.0,
+      "word_count": 1738,
+      "usage": {
+        "input_tokens": 25619,
+        "cached_input_tokens": 3840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2842,
+        "reasoning_output_tokens": 251
+      },
+      "safety_checks": [
+        {
+          "name": "significance-reporting conflict",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B10",
+      "doi": "10.1371/journal.pone.0302886",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B10.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 9,
+      "term_recall": 0.8182,
+      "missed_terms": [
+        "child versus adult health gains",
+        "fair innings"
+      ],
+      "located_bullets": 40,
+      "substantive_bullets": 40,
+      "source_locator_rate": 1.0,
+      "word_count": 1487,
+      "usage": {
+        "input_tokens": 59173,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3269,
+        "reasoning_output_tokens": 755
+      },
+      "safety_checks": [
+        {
+          "name": "JATS funding recovered",
+          "passed": true
+        },
+        {
+          "name": "project 348-PHD",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B11",
+      "doi": "10.1097/mlr.0000000000002315",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B11.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 10,
+      "term_hits": 9,
+      "term_recall": 0.9,
+      "missed_terms": [
+        "EQ VAS"
+      ],
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "source_locator_rate": 1.0,
+      "word_count": 1416,
+      "usage": {
+        "input_tokens": 32107,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2862,
+        "reasoning_output_tokens": 428
+      },
+      "safety_checks": [
+        {
+          "name": "JATS funding recovered",
+          "passed": true
+        },
+        {
+          "name": "project 1787-RA",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B12",
+      "doi": "10.1186/s12955-024-02303-5",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B12.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 9,
+      "term_recall": 0.8182,
+      "missed_terms": [
+        "FACIT-COST version 2",
+        "Gwet AC2"
+      ],
+      "located_bullets": 45,
+      "substantive_bullets": 46,
+      "source_locator_rate": 0.9783,
+      "word_count": 1593,
+      "usage": {
+        "input_tokens": 48091,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3220,
+        "reasoning_output_tokens": 512
+      },
+      "safety_checks": [
+        {
+          "name": "data-collection scope",
+          "passed": true
+        },
+        {
+          "name": "project 1644-RA",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B13",
+      "doi": "10.1177/0272989x251380556",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B13.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 12,
+      "term_hits": 12,
+      "term_recall": 1.0,
+      "missed_terms": [],
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "source_locator_rate": 1.0,
+      "word_count": 1058,
+      "usage": {
+        "input_tokens": 29625,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2033,
+        "reasoning_output_tokens": 273
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B14",
+      "doi": "10.1007/s11136-025-03989-w",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B14.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 9,
+      "term_recall": 0.8182,
+      "missed_terms": [
+        "Online Personal Utility Functions",
+        "response-process validity"
+      ],
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "source_locator_rate": 1.0,
+      "word_count": 1270,
+      "usage": {
+        "input_tokens": 27448,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2237,
+        "reasoning_output_tokens": 270
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B15",
+      "doi": "10.1007/s40273-015-0292-9",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B15.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 8,
+      "term_hits": 8,
+      "term_recall": 1.0,
+      "missed_terms": [],
+      "located_bullets": 27,
+      "substantive_bullets": 27,
+      "source_locator_rate": 1.0,
+      "word_count": 1044,
+      "usage": {
+        "input_tokens": 28464,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1933,
+        "reasoning_output_tokens": 327
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B16",
+      "doi": "10.1007/s40273-021-01002-z",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B16.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 8,
+      "term_recall": 0.7273,
+      "missed_terms": [
+        "retracted article",
+        "Egyptian value set",
+        "heteroskedastic interval regression"
+      ],
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "source_locator_rate": 1.0,
+      "word_count": 1450,
+      "usage": {
+        "input_tokens": 43934,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2547,
+        "reasoning_output_tokens": 149
+      },
+      "safety_checks": [
+        {
+          "name": "retraction status",
+          "passed": true
+        },
+        {
+          "name": "unsafe-use warning",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B17",
+      "doi": "10.1371/journal.pone.0305983",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-run-01/records/B17.md",
+      "exists": true,
+      "classes": {
+        "disposition": "publication-context",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "publication-context",
+      "disposition_match": true,
+      "headings_present": 0,
+      "errors": [],
+      "reference_term_count": 0,
+      "term_hits": 0,
+      "term_recall": null,
+      "missed_terms": [],
+      "located_bullets": 0,
+      "substantive_bullets": 0,
+      "source_locator_rate": null,
+      "word_count": 151,
+      "usage": {
+        "input_tokens": 18032,
+        "cached_input_tokens": 3840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 489,
+        "reasoning_output_tokens": 229
+      },
+      "safety_checks": [
+        {
+          "name": "correction relation",
+          "passed": true
+        },
+        {
+          "name": "project 2016440",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B18",
+      "doi": "10.3961/jpmph.22.151",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B18.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "none-stated",
+        "project link": "probable"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 11,
+      "term_hits": 10,
+      "term_recall": 0.9091,
+      "missed_terms": [
+        "directed content analysis"
+      ],
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "source_locator_rate": 1.0,
+      "word_count": 1247,
+      "usage": {
+        "input_tokens": 29610,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2305,
+        "reasoning_output_tokens": 296
+      },
+      "safety_checks": [
+        {
+          "name": "no false EuroQol funding",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "record_id": "B19",
+      "doi": "10.1186/s12955-023-02115-z",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B19.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 10,
+      "term_hits": 8,
+      "term_recall": 0.8,
+      "missed_terms": [
+        "Spearman correlation",
+        "dead-state anchoring"
+      ],
+      "located_bullets": 53,
+      "substantive_bullets": 53,
+      "source_locator_rate": 1.0,
+      "word_count": 1794,
+      "usage": {
+        "input_tokens": 46897,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3259,
+        "reasoning_output_tokens": 404
+      },
+      "safety_checks": []
+    },
+    {
+      "record_id": "B20",
+      "doi": "10.1016/j.pecinn.2025.100421",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-run-01/records/B20.md",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "expected_disposition": "include-study",
+      "disposition_match": true,
+      "headings_present": 8,
+      "errors": [],
+      "reference_term_count": 10,
+      "term_hits": 8,
+      "term_recall": 0.8,
+      "missed_terms": [
+        "individualized decision aid",
+        "historical PROM data"
+      ],
+      "located_bullets": 55,
+      "substantive_bullets": 55,
+      "source_locator_rate": 1.0,
+      "word_count": 1593,
+      "usage": {
+        "input_tokens": 28318,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2833,
+        "reasoning_output_tokens": 332
+      },
+      "safety_checks": []
+    }
+  ]
+}

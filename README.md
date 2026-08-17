@@ -78,6 +78,13 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   [`pilot/ontology-development/`](pilot/ontology-development/README.md) records the completed open-architecture experiment.
   Human review selected a paper-first structure and clarified that the target is a detailed EuroQol research ontology, not a general research ontology.
   [`pilot/ontology-development-v2/`](pilot/ontology-development-v2/README.md) reruns three independent lineages to discover useful domain granularity before a new database design.
+- The version-3 work tested exact EuroQol domain facts against 100 competency
+  questions, 100 design papers, and source-checked holdouts. A final one-pass
+  pipeline now combines full-text assessment and conditional extraction. It
+  has processed all 209 unique local JATS papers. All 209 records pass the
+  deterministic checks, and the combined SQLite load passes all nine database
+  and search checks. See
+  [`pilot/ontology-development-v3/production-calibration/DECISION.md`](pilot/ontology-development-v3/production-calibration/DECISION.md).
 
 ## Repository map
 
@@ -89,6 +96,7 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 | [`data/`](data/) | Legacy graph inputs, extractions, and a compatibility link to the canonical project export |
 | [`artefacts/`](artefacts/) | Compact identity checkpoint and a manifest of the larger local artefact tree |
 | [`pilot/protocol-2.0/`](pilot/protocol-2.0/) | Compact pilot result and a manifest of the complete local pilot tree |
+| [`pilot/ontology-development-v3/`](pilot/ontology-development-v3/README.md) | Exact-domain ontology experiment, source validation, and JATS production pipeline |
 | [`scale/protocol-2.0/`](scale/protocol-2.0/) | Validated scale checkpoint, compact results, and a manifest of the complete local scale tree |
 | [`corpus/`](corpus/README.md) | Retrieved full text converted to Markdown for extraction |
 | [`graph/`](graph/) | Neo4j ontology, schema, constraints, and indexes |
@@ -172,4 +180,5 @@ No credential belongs in Git.
 4. Retrieve lawful scale full text and keep unavailable papers unassessed.
 5. Assess EuroQol connection, funding scope, project links, and graph evidence.
 6. Expand the Aura pilot with accepted evidence and evaluate the graph and application.
-7. Complete the paper-first ontology version-2 experiment and held-out-paper review before selecting the final database design.
+7. Calibrate PDF text input on the 60 local PDF-only files.
+8. Start lawful scale full-text retrieval after the PDF gate passes.

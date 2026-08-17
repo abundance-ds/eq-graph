@@ -69,6 +69,34 @@ Stable knowledge lives in README.md; this file is the narrative.
   H09 project link as unverified because its article lists EuroQol grants only
   in one author's competing-interest statement.
 - Paused the small relational pilot for final human confirmation.
+- Completed the exact-domain ontology process with 100 design papers and 100
+  competency questions. Replaced the long ontology description in the runtime
+  task with a one-page domain graph and a flat typed search index.
+- Approved one AI pass per paper for full-text assessment and conditional
+  extraction. JATS metadata preparation, validation, normalization, and SQLite
+  loading remain deterministic. A second AI call is only for a failed record.
+- Tested 30 source-checked papers and corrected one corpus-boundary failure with
+  two short rules. A seven-paper hard-case test supports `gpt-5.6-luna` as the
+  first-pass model.
+- Completed an unseen random 50-paper JATS production sample. All 50 calls
+  completed. Three records needed a formatting repair; the final 50/50 records
+  pass decision, structure, heading, and flat-index checks.
+- Loaded 50 publications, 1,156 normalized terms, 1,474 record-term links, and
+  4,174 fact bullets into SQLite. All nine integrity and search tests pass.
+- Kept the production-calibration records local. No new full-text retrieval was
+  started, and the completed Protocol 2.0 screen did not change.
+- Completed the remaining 129 local JATS papers with the final task. Three
+  structural repairs and a focused connection-label audit produced 129/129
+  clean records. No sampled substantive fact needed correction.
+- Reran the final task on the 30 source-checked calibration papers. After two
+  targeted repairs, the result passed 30/30 expected decisions, 30/30 record
+  checks, and 22/22 critical safety checks.
+- Combined all 209 unique local JATS papers in SQLite: 206 included studies,
+  two exclusions, one correction notice, 3,731 normalized terms, 5,786
+  record-term links, and 16,471 fact bullets. All nine database and search
+  checks pass.
+- Recorded the complete local JATS result and moved the next gate to PDF input
+  calibration. The abstract screen and retrieval state did not change.
 
 ## 2026-08-16
 

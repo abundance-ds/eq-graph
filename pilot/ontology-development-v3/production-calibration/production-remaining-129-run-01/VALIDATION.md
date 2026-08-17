@@ -1,0 +1,138 @@
+# Production-run validation
+
+- Records present: 129/129.
+- Clean records: 129/129.
+- Parsed index terms: 3580.
+- Source-locator rate: 99.9%.
+- Mean record length: 1,450 words.
+- Normalization flags: 118.
+
+## Dispositions
+
+- exclude: 1.
+- include-study: 128.
+
+## Records for targeted repair
+
+None.
+
+## Deterministic normalization review
+
+- P003: possible Analysis typed as Method: non-parametric bootstrap.
+- P006: possible Analysis typed as Method: framework analysis.
+- P007: possible Analysis typed as Method: test–retest reliability assessment.
+- P010: possible Analysis typed as Method: test–retest reliability assessment.
+- P010: possible Analysis typed as Model: intraclass correlation coefficient.
+- P011: possible Analysis typed as Method: test-retest reliability.
+- P011: possible Analysis typed as Method: hypothesis testing for construct validity.
+- P013: possible Analysis typed as Method: country-specific linear regression.
+- P014: possible Analysis typed as Method: Thematic content analysis.
+- P019: possible Analysis typed as Method: Mokken scale analysis.
+- P022: possible Analysis typed as Method: framework analysis.
+- P023: possible Analysis typed as Method: secondary analysis.
+- P025: possible Analysis typed as Method: receiver operating characteristic analysis.
+- P025: possible Population typed as Setting: general population.
+- P026: possible Analysis typed as Method: psychometric analysis.
+- P026: possible Analysis typed as Method: convergent validity analysis.
+- P026: possible Analysis typed as Method: known-groups validity analysis.
+- P027: possible Analysis typed as Method: thematic analysis.
+- P027: possible Analysis typed as Method: content analysis.
+- P028: possible Analysis typed as Method: ordinal logistic regression.
+- P028: possible Analysis typed as Method: multivariable ordinary least squares regression.
+- P031: possible Analysis typed as Method: Spearman rank-order correlation.
+- P031: possible Analysis typed as Method: differential item functioning analysis.
+- P031: possible Analysis typed as Method: ordinal logistic regression.
+- P032: possible Analysis typed as Method: psychometric analysis.
+- P032: possible Analysis typed as Method: Spearman correlation.
+- P032: possible Analysis typed as Method: exploratory factor analysis.
+- P034: possible Analysis typed as Method: construct-validity hypothesis testing.
+- P036: possible Analysis typed as Method: thematic analysis.
+- P037: possible Analysis typed as Method: psychometric analysis.
+- P038: possible Analysis typed as Method: psychometric analysis.
+- P038: possible Analysis typed as Method: polychoric correlation.
+- P039: possible Analysis typed as Method: psychometric analysis.
+- P040: possible Analysis typed as Method: cross-country inequality analysis.
+- P040: possible Analysis typed as Method: Kruskal–Wallis test.
+- P040: possible Analysis typed as Method: Mann–Whitney U test.
+- P041: possible Analysis typed as Method: survey-weighted linear regression.
+- P042: possible Analysis typed as Method: exploratory factor analysis.
+- P042: possible Analysis typed as Method: Spearman rank correlation.
+- P043: possible Analysis typed as Method: convergent validity analysis.
+- P043: possible Analysis typed as Method: known-groups validity analysis.
+- P043: possible Analysis typed as Method: test-retest reliability analysis.
+- P043: possible Analysis typed as Method: responsiveness analysis.
+- P045: possible Analysis typed as Method: Descriptive health-state analysis.
+- P052: possible Analysis typed as Method: thematic analysis.
+- P055: possible Analysis typed as Method: distributional analysis.
+- P055: possible Analysis typed as Method: comparative value-set analysis.
+- P064: possible Analysis typed as Method: responsiveness analysis.
+- P064: possible Analysis typed as Method: anchor-based analysis.
+- P071: possible Analysis typed as Method: test–retest reliability.
+- P071: possible Population typed as Setting: Australian pediatric health and general-population samples.
+- P073: possible Analysis typed as Method: test–retest reliability.
+- P073: possible Analysis typed as Method: responsiveness analysis.
+- P080: possible Analysis typed as Method: conversational analysis.
+- P084: possible Analysis typed as Method: patient-reported outcome analysis.
+- P092: possible Population typed as Setting: General population.
+- P094: possible Analysis typed as Method: chi-square test.
+- P094: possible Analysis typed as Method: MANOVA.
+- P096: possible Analysis typed as Method: intertemporal agreement analysis.
+- P097: possible Analysis typed as Method: Spearman rank correlation.
+- P098: possible Analysis typed as Method: test-retest reliability.
+- P099: possible Population typed as Setting: Dutch general population.
+- P101: possible Analysis typed as Method: response redistribution analysis.
+- P102: possible Analysis typed as Method: bootstrap resampling.
+- P102: possible Analysis typed as Method: simulation-based responsiveness analysis.
+- P105: possible Analysis typed as Method: test-retest reliability.
+- P105: possible Analysis typed as Method: responsiveness analysis.
+- P106: possible Concept typed as Condition: orthopaedic surgery.
+- P108: possible Analysis typed as Method: framework analysis.
+- P110: possible Analysis typed as Method: population norms analysis.
+- P111: possible Analysis typed as Method: thematic analysis.
+- P112: possible Analysis typed as Method: descriptive analysis.
+- P112: possible Analysis typed as Method: chi-square test.
+- P113: possible Analysis typed as Method: psychometric testing.
+- P114: possible Analysis typed as Method: Shannon informativity analysis.
+- P114: possible Analysis typed as Method: domain-dependency analysis.
+- P117: possible Analysis typed as Method: test-retest reliability.
+- P119: possible Analysis typed as Method: test-retest reliability.
+- P121: possible Population typed as Setting: population survey.
+- P126: possible Analysis typed as Method: ordinary least squares multivariable regression.
+- P127: possible Analysis typed as Method: Pearson correlation.
+- P127: possible Analysis typed as Method: ANOVA.
+- P128: possible Analysis typed as Method: non-response analysis.
+- P129: possible Analysis typed as Method: concurrent validity testing.
+- P129: possible Analysis typed as Method: test-retest reliability.
+- P001: same term has multiple types (Instrument, Outcome): eq-vas.
+- P003: same term has multiple types (Geography, Setting): singapore.
+- P011: same term has multiple types (Method, Outcome): known-group validity.
+- P013: same term has multiple types (Instrument, Outcome): self-reported health.
+- P018: same term has multiple types (Instrument, Product): eq-hwb.
+- P018: same term has multiple types (Instrument, Product): eq-hwb-s.
+- P019: same term has multiple types (Model, Product): eq-5d-5l level sum score.
+- P023: same term has multiple types (Analysis, Model): multivariate linear regression.
+- P028: same term has multiple types (Outcome, Product): eq-hwb-s index value.
+- P033: same term has multiple types (Analysis, Outcome): responsiveness.
+- P037: same term has multiple types (Method, Outcome): known-groups validity.
+- P039: same term has multiple types (Analysis, Outcome): convergent validity.
+- P039: same term has multiple types (Analysis, Outcome): known-groups validity.
+- P039: same term has multiple types (Concept, Condition): autism spectrum disorder.
+- P044: same term has multiple types (Instrument, Protocol): eq-vt 2.1.
+- P046: same term has multiple types (Geography, Setting): united states.
+- P063: same term has multiple types (Geography, Setting): germany.
+- P068: same term has multiple types (Geography, Setting): united states.
+- P071: same term has multiple types (Method, Outcome): responsiveness.
+- P076: same term has multiple types (Geography, Setting): singapore.
+- P092: same term has multiple types (Model, Product): japanese eq-5d-y value set.
+- P101: same term has multiple types (Concept, Method): proxy reporting.
+- P101: same term has multiple types (Analysis, Outcome): convergent validity.
+- P101: same term has multiple types (Analysis, Outcome): test–retest reliability.
+- P101: same term has multiple types (Analysis, Outcome): responsiveness.
+- P108: same term has multiple types (Administration, Method): cognitive debriefing.
+- P108: same term has multiple types (Geography, Setting): singapore.
+- P118: same term has multiple types (Instrument, Outcome): eq-vas.
+- P118: same term has multiple types (Analysis, Model): multiple linear regression.
+- P120: same term has multiple types (Dataset, Setting): swedish national quality registers.
+- P121: same term has multiple types (Condition, Population): post covid-19 condition.
+- P121: same term has multiple types (Condition, Population): acute covid-19 infection.
+- P127: same term has multiple types (Concept, Outcome): caregiver burden.

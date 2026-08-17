@@ -1,0 +1,76 @@
+{
+  "run": "production-50-repair-run-01",
+  "model": "gpt-5.6-luna",
+  "workers": 3,
+  "manifest": "production-50-repair-01/MANIFEST.tsv",
+  "manifest_sha256": "0ee64f0a1f77ad7d5cae36c6325211ce48667eb2c823f11704620eb983d9428f",
+  "records": 3,
+  "successful": 3,
+  "failed": 0,
+  "elapsed_agent_seconds": 154.471,
+  "usage": {
+    "input_tokens": 99599,
+    "cached_input_tokens": 0,
+    "output_tokens": 7833,
+    "reasoning_output_tokens": 1274
+  },
+  "results": [
+    {
+      "status": "ok",
+      "record_id": "P009",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991557.156929,
+      "finished_unix": 1786991600.777598,
+      "elapsed_seconds": 43.621,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-01/inputs/P009.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-run-01/records/P009.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-run-01/traces/P009.jsonl",
+      "usage": {
+        "input_tokens": 27009,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2139,
+        "reasoning_output_tokens": 255
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P037",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991557.1568441,
+      "finished_unix": 1786991610.792716,
+      "elapsed_seconds": 53.636,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-01/inputs/P037.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-run-01/records/P037.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-run-01/traces/P037.jsonl",
+      "usage": {
+        "input_tokens": 32690,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2747,
+        "reasoning_output_tokens": 510
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P038",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991557.156914,
+      "finished_unix": 1786991614.37117,
+      "elapsed_seconds": 57.214,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-01/inputs/P038.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-run-01/records/P038.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-repair-run-01/traces/P038.jsonl",
+      "usage": {
+        "input_tokens": 39900,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2947,
+        "reasoning_output_tokens": 509
+      }
+    }
+  ]
+}
