@@ -2,7 +2,7 @@
 
 This directory contains the Nuxt 4 frontend and Nitro backend.
 
-Use Node 24.10 or later. The temporary SQLite adapter uses the built-in
+Use Node 24.11 or later. The temporary SQLite adapter uses the built-in
 `node:sqlite` authorizer API.
 
 The default page is an interface prototype with three parts:
@@ -21,13 +21,44 @@ an in-memory SQLite database until the new ontology and database are ready.
 
 ## Start the application
 
+### Designer setup
+
+Shared preview: [eq-graph.shoulde.rs](https://eq-graph.shoulde.rs)
+
+The designer can use the shared preview API without a database file or an API
+key:
+
 ```sh
-cd web
+git clone https://github.com/shoulders-ai/eq-graph.git
+cd eq-graph/web
+git switch -c design/anuja
+nvm use
+corepack enable
 pnpm install --frozen-lockfile
-pnpm dev
+pnpm dev:remote
 ```
 
 Open `http://localhost:3000`.
+
+`pnpm dev:remote` runs the Nuxt frontend locally and proxies `/api/*` to
+`https://eq-graph.shoulde.rs`. The browser still uses one origin, so no CORS
+setup is required. Frontend edits update immediately.
+
+Use `pnpm dev:local` to run the committed fixtures and in-memory SQLite on the
+local computer. The narrative, data APIs and chart gallery need no key. Add
+`NUXT_ANTHROPIC_API_KEY` to `.env` only when the local chat must call Anthropic.
+
+Open `/chat-lab` for fixed empty, working, answer, chart, table and error
+states. Open `/widgets` for the chart template gallery. These routes use the
+real interface components without making an AI request. The main application
+always uses the live AI transport.
+
+Push design work to `design/anuja` and open a pull request. Do not work directly
+on `main`.
+
+The default `pnpm dev` command is the same as `pnpm dev:local`.
+
+### Production build
 
 Use `pnpm build` for a production Node server. The output runs from
 `.output/server/index.mjs` and is suitable for one EC2 instance.
@@ -38,6 +69,7 @@ Use `pnpm build` for a production Node server. The output runs from
 | --- | --- |
 | `/` | Landing page, narrative, and AI chat |
 | `/widgets` | Observable Plot template gallery |
+| `/chat-lab` | Deterministic chat states for interface work |
 | `GET /api/mock/story` | Prototype narrative data |
 | `GET /api/mock/graph` | Prototype globe and dot-layout data |
 | `GET /api/graph/status` | Temporary SQLite dataset totals |

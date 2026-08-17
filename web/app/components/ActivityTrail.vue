@@ -83,6 +83,7 @@ function stopTicker() {
 watch(
   () => [active.value?.id ?? null, props.thinking] as const,
   ([id, thinks]) => {
+    if (!import.meta.client) return;
     if (!id && !thinks) {
       startedAt.value = 0;
       stopTicker();

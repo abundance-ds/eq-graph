@@ -136,6 +136,12 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
+Interface work can use `pnpm dev:remote` to run the frontend locally against
+the shared preview API. Fixed chat states are available at `/chat-lab`. See
+[`web/README.md`](web/README.md) for the designer workflow.
+
+Shared interface preview: [eq-graph.shoulde.rs](https://eq-graph.shoulde.rs)
+
 The narrative does not need a database. The AI chat needs the Anthropic key in
 `web/.env`. See [`DESIGN.md`](DESIGN.md) for the interface system and
 [`web/README.md`](web/README.md) for its data seam.

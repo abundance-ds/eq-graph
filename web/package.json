@@ -3,10 +3,12 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=24.10"
+    "node": ">=24.11"
   },
   "scripts": {
     "dev": "nuxt dev",
+    "dev:local": "nuxt dev",
+    "dev:remote": "EQ_REMOTE_API_ORIGIN=https://eq-graph.shoulde.rs nuxt dev",
     "build": "nuxt build",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"

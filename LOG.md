@@ -5,6 +5,19 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-17
 
+- Added a shared designer preview workflow. `pnpm dev:remote` keeps the Nuxt
+  frontend local and proxies API calls to `eq-graph.shoulde.rs`. `pnpm
+  dev:local` keeps all fixture and SQLite work local.
+- Extracted the production chat surface into one reusable workbench. Added
+  `/chat-lab` with fixed empty, working, answer, chart, table, and error states.
+  The lab and live agent now use the same components.
+- Added the exact Node version, design branch instructions, preview routes, and
+  data replacement seams to the repository documentation.
+- Fixed server rendering for the working activity state and stopped accessible
+  chart tables from changing the mobile page height.
+- Deployed the preview to `eq-graph.shoulde.rs` as an isolated Node 24 service
+  behind Caddy. Verified HTTPS, the live AI path, remote local development, all
+  chat-lab states, the chart gallery, and desktop and mobile layouts.
 - Replaced the designer chat landing surface with a full-height research
   workbench based on the original Nuxt 4 chat architecture. Restored the
   persistent header, internal transcript scroll, fixed composer, inline tool

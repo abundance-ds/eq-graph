@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { ChatWidgetSpec } from "../types/chat";
+
 /**
  * Draws one widget from a resolved specification.
  *
@@ -8,24 +10,7 @@
  */
 const props = defineProps<{
   reference?: boolean;
-  spec: {
-    mark: "stat" | "bar" | "line" | "donut" | "table";
-    title: string;
-    caption?: string;
-    encoding: {
-      x?: string; y?: string; series?: string; value?: string; columns?: string[];
-    };
-    options?: {
-      orientation?: "vertical" | "horizontal";
-      sort?: "asc" | "desc" | "none";
-      limit?: number;
-      unit?: string;
-      color?: string;
-      hint?: string;
-    };
-    rows: Record<string, unknown>[];
-    rowCount: number;
-  };
+  spec: ChatWidgetSpec;
 }>();
 
 const emit = defineEmits<{
@@ -211,16 +196,18 @@ const tableColumns = computed(
     <p v-if="spec.options?.hint" class="widget__hint">{{ spec.options.hint }}</p>
     <p v-if="spec.caption" class="widget__caption">{{ spec.caption }}</p>
 
-    <table v-if="spec.mark !== 'table'" class="sr-only">
-      <caption>{{ spec.title }} data</caption>
-      <thead><tr><th>Label</th><th>Value</th></tr></thead>
-      <tbody>
-        <tr v-for="(row, index) in spec.rows" :key="index">
-          <td>{{ text(row[spec.encoding.x ?? spec.encoding.value ?? '']) }}</td>
-          <td>{{ text(row[spec.encoding.y ?? spec.encoding.value ?? '']) }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div v-if="spec.mark !== 'table'" class="sr-only">
+      <table>
+        <caption>{{ spec.title }} data</caption>
+        <thead><tr><th>Label</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr v-for="(row, index) in spec.rows" :key="index">
+            <td>{{ text(row[spec.encoding.x ?? spec.encoding.value ?? '']) }}</td>
+            <td>{{ text(row[spec.encoding.y ?? spec.encoding.value ?? '']) }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </figure>
 </template>
 

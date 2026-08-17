@@ -138,6 +138,8 @@ The chat uses `GraphWidget.vue`. It supports stat, bar, line, donut, and table s
 
 The gallery and the chat renderer have different jobs. The gallery contains the full design library. The chat renderer contains the mark types that the application can call from a response specification.
 
+`/chat-lab` uses the same chat workbench with fixed test states. It lets a designer review empty, working, answer, chart, table and error layouts without waiting for a model response. It is a design harness, not a second chat implementation.
+
 The gallery also renders one fixed example for each live agent mark. This makes the connection visible: 11 broader Observable Plot patterns and five callable agent specifications share one review route.
 
 ## Application structure
@@ -150,13 +152,16 @@ The gallery also renders one fixed example for each live agent mark. This makes 
 | `web/app/lib/storyHorizontal.js` | Builds the narrative, dot layouts, and scroll state |
 | `web/app/lib/beatArt.js` | Draws the background objects for each narrative step |
 | `web/app/components/EvidenceChat.vue` | Runs the streaming AI chat and displays tool activity, answers, and charts |
+| `web/app/components/ChatWorkbench.vue` | Displays the shared production and test chat surface |
 | `web/app/components/ChatAnswer.vue` | Safely formats streamed prose, lists, links, and tables |
 | `web/app/components/GraphWidget.vue` | Draws charts in chat answers |
+| `web/app/pages/chat-lab.vue` | Provides fixed chat states for interface work |
 | `web/app/pages/widgets.vue` | Shows the full Observable Plot gallery |
 | `web/app/viz/theme.ts` | Holds chart tokens |
 | `web/server/utils/mockResearch.ts` | Maps temporary fixtures to stable interface data |
 | `web/server/utils/referenceSqlite.ts` | Loads reference JSON into SQLite and enforces the read-only query boundary |
 | `web/server/utils/tools.ts` | Defines the one `query_sql` AI tool |
+| `web/server/middleware/remote-api.ts` | Proxies local designer API calls to the shared preview |
 
 The Nuxt 3 shell, Cloudflare target, and direct browser reads from static JSON are not part of the application. Nitro owns the data boundary. The production build uses the Node server output and can run with SQLite on one EC2 instance.
 
