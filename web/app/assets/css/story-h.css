@@ -70,7 +70,7 @@
 /* The runway height is declared here, not left to JavaScript. Setting it in
    JS meant the section had zero height until the script ran, so the page was
    blank until then. JS still overrides it if the beat count changes. */
-.sh-scroll{position:relative; height:913vh;}   /* intro + scenes + a separate chat handover */
+.sh-scroll{position:relative; height:1613vh;}  /* intro + scenes + a separate chat handover */
 .sh-stage{
   position:sticky; top:0; height:100vh; overflow:hidden;
   background:#f4f3ef;
@@ -165,7 +165,7 @@
 .sh-instrument.is-globe canvas.is-dragging{cursor:grabbing;}
 
 /* the key sits in a corner and stays out of the way until asked for */
-.sh-key{position:absolute; right:var(--pad); bottom:5.4rem; z-index:6; max-width:26rem; text-align:right;}
+.sh-key{position:absolute; right:var(--pad); bottom:5.4rem; z-index:6; max-width:26rem; text-align:right; transition:opacity .18s ease;}
 .sh-key-toggle{
   font-family:var(--font-body); font-size:.78rem; letter-spacing:-.005em;
   color:var(--ink-3); background:transparent; border:0; border-bottom:1px solid var(--rule);
@@ -251,6 +251,43 @@
 .sh-field{position:absolute; inset:0; z-index:2; pointer-events:none;}
 .sh-field canvas{width:100%; height:100%; display:block;}
 
+/* Statistical charts use SVG. Text, position, and area stay sharp at every
+   screen size. The canvas remains for the opening motion and the maps. */
+.sh-charts{
+  position:absolute; z-index:3; pointer-events:none;
+  left:46%; right:var(--pad); top:16%; bottom:14%;
+}
+.sh-chart-scene{position:absolute; inset:0; opacity:0; will-change:opacity;}
+.sh-chart-scene svg{width:100%; height:100%; overflow:visible; display:block;}
+.sh-chart-scene text{font-family:var(--font-body); fill:var(--ink-2);}
+.sh-chart-scene .viz-label{font-size:12px; font-weight:520; fill:var(--ink);}
+.sh-chart-scene .viz-value{font:500 12px var(--font-num); fill:var(--ink);}
+.sh-chart-scene .viz-axis{font:500 10px var(--font-num); fill:var(--ink-3);}
+.sh-chart-scene .viz-axis.is-strong{fill:var(--ink-2);}
+.sh-chart-scene .viz-kicker{font:500 10px var(--font-num); letter-spacing:.08em; fill:var(--ink-3);}
+.sh-chart-scene .viz-note{font:500 10px var(--font-num); fill:var(--ink-3);}
+.sh-chart-scene .viz-gridline{stroke:var(--rule); stroke-width:1; vector-effect:non-scaling-stroke;}
+.sh-chart-scene .viz-bar{fill:rgba(26,26,23,.48);}
+.sh-chart-scene .viz-bar.is-amber,
+.sh-chart-scene .viz-segment.is-amber,
+.sh-chart-scene .viz-matrix-cell.is-amber,
+.sh-chart-scene .viz-output-bar.is-amber{fill:var(--yellow);}
+.sh-chart-scene .viz-bar.is-teal,
+.sh-chart-scene .viz-segment.is-teal,
+.sh-chart-scene .viz-matrix-cell.is-teal,
+.sh-chart-scene .viz-output-bar.is-teal{fill:var(--teal);}
+.sh-chart-scene .viz-segment.is-ink{fill:var(--ink);}
+.sh-chart-scene .viz-output-bar.is-muted{fill:var(--ink-4);}
+.sh-chart-scene .viz-minibar{fill:rgba(0,125,108,.60);}
+.sh-chart-scene .viz-cell-value{font:500 11px var(--font-num); fill:var(--ink-2);}
+.sh-chart-scene .is-reverse{fill:#fff !important;}
+.sh-chart-scene .is-amber-text{fill:var(--yellow);}
+.sh-chart-scene .viz-segment-label{font-size:12px; font-weight:550;}
+.sh-chart-scene .viz-segment-value{font:500 11px var(--font-num);}
+.sh-chart-scene .viz-concept-link{fill:none; stroke:var(--teal); opacity:.34; stroke-linecap:round;}
+.sh-chart-scene .viz-concept-anchor{fill:var(--yellow);}
+.sh-chart-scene .viz-family-anchor{fill:var(--teal);}
+
 /* The logo, top left, above the frame's top hairline — it carries the name
    now that the opening line does not. */
 .sh-logo{
@@ -295,7 +332,7 @@
    chart labels collide with the text. The story stays the same, but each
    layer now has a clear reading area. */
 @media (max-width:640px){
-  .sh-scroll{height:1039vh;}
+  .sh-scroll{height:1879vh;}
   .sh-panel{align-content:start; padding-top:6.2rem;}
   .sh-copy{grid-column:1 / -1;}
   .sh-num{font-size:clamp(3.7rem,18vw,4.5rem); margin-bottom:.15rem;}
@@ -303,4 +340,8 @@
   .sh-body{font-size:.82rem; line-height:1.45; max-width:21rem;}
   .sh-so{font-size:.8rem; line-height:1.45; margin-top:.72rem; max-width:21rem; padding-left:.7rem;}
   .sh-copy::after{display:none;}
+  .sh-charts{left:var(--pad); right:var(--pad); top:59%; bottom:9%;}
+  .sh-chart-scene .viz-label{font-size:10px;}
+  .sh-chart-scene .viz-value{font-size:10px;}
+  .sh-chart-scene .viz-note{display:none;}
 }

@@ -131,6 +131,7 @@ onBeforeUnmount(() => {
         </div>
 
         <div class="sh-field" aria-hidden="true"><canvas data-canvas /></div>
+        <div class="sh-charts" data-charts aria-hidden="true" />
 
         <div class="sh-cta" data-cta>
           <button class="sh-btn is-primary" data-go="chat">

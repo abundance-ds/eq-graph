@@ -1,13 +1,14 @@
 /* ═══════════════════════════════════════════════════════════════════
    THE STORY — horizontal, black, Swiss.
 
-   Vertical scrolling drives a horizontal track. One pinned stage, twelve
-   panels, and a field of dots that rearranges between them. The first six
-   views follow funded projects. The next six follow research studies.
+   Vertical scrolling drives a horizontal track. One pinned stage and thirteen
+   panels move from funded projects to corpus-level research views. Dots carry
+   the opening scenes; SVG charts carry the statistical comparisons.
    ═══════════════════════════════════════════════════════════════════ */
 
 import { geoNaturalEarth1, geoPath } from 'd3-geo'
 import { drawBeatArt } from './beatArt.js'
+import { createStoryCharts } from './storyCharts.js'
 import { feature } from 'topojson-client'
 
 const lerp = (a, b, t) => a + (b - a) * t
@@ -104,12 +105,22 @@ export function initStory(DATA, TOPO, root, options = {}){
   const leadingGroups = groups.slice(0, 3)
   const typeCount = label => seriesValue('studyTypes', label)
   const instrumentCount = label => seriesValue('instruments', label)
-  const methodCount = label => seriesValue('methods', label)
   const countryCount = label => seriesValue('countries', label)
   const bothMethods = studies.filter(s => {
     const values = new Set((s.methods || []).map(v => String(v).toLowerCase()))
     return values.has('dce') && values.has('ctto')
   }).length
+  const eitherMethod = studies.filter(s => (s.methods || []).some(value => ['dce', 'ctto'].includes(String(value).toLowerCase()))).length
+  const instrumentPair = studies.filter(s => {
+    const values = new Set(s.instruments || [])
+    return values.has('EQ-5D-5L') && values.has('EQ VAS')
+  }).length
+  const valuationFiveL = studies.filter(s => {
+    const types = new Set((s.studyTypes || []).map(value => String(value).toLowerCase()))
+    const instruments = new Set(s.instruments || [])
+    return types.has('valuation study') && instruments.has('EQ-5D-5L')
+  }).length
+  const conceptCount = label => studies.filter(s => (s.concepts || []).some(value => String(value).toLowerCase() === label)).length
 
   const BEATS = [
     { num:fmt(projects.length), head:'Projects shaping EuroQol research.', art:'stack',
@@ -136,40 +147,45 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`One paper can draw on several projects; one project can support several papers.`,
       layout:'projectPapers' },
 
-    { num:'∞', head:'One connected body of research.', art:'lattice',
-      body:`Follow a project into its studies, instruments, methods, populations, findings, limitations, and research products.`,
-      so:`The next views move from the funded programme to the research itself.`,
-      layout:'projectWeb' },
+    { num:fmt(typeCount('valuation study')), head:'Valuation is the largest research strand.',
+      body:`Valuation accounts for <b>${fmt(typeCount('valuation study'))}</b> studies. Psychometric, comparative, cross-sectional, and longitudinal research form substantial parallel strands.`,
+      so:`Study-family labels can overlap. The ranking shows the shape of the field, not separate boxes.`,
+      layout:'chartBlank', chart:'fieldShape' },
 
-    { num:fmt(studies.length), head:'Studies shaping EuroQol research.', art:'stack',
-      body:`From valuation and psychometrics to comparative, qualitative, and implementation research.`,
-      so:`<b>${fmt(typeCount('valuation study'))}</b> valuation, <b>${fmt(typeCount('psychometric study'))}</b> psychometric, <b>${fmt(typeCount('comparative study'))}</b> comparative, and <b>${fmt(typeCount('qualitative study'))}</b> qualitative studies.`,
-      layout:'studyTypes' },
+    { num:fmt(instrumentPair), head:'EQ-5D-5L and EQ VAS form the central instrument pair.',
+      body:`EQ-5D-5L appears in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies and EQ VAS in <b>${fmt(instrumentCount('EQ VAS'))}</b>. They appear together in <b>${fmt(instrumentPair)}</b>.`,
+      so:`The co-use matrix shows the wider instrument ecosystem, including adult and youth systems.`,
+      layout:'chartBlank', chart:'instrumentMatrix' },
 
-    { num:'EQ-5D-5L', head:'Instruments at the centre.', art:'rings',
-      body:`EQ-5D-5L appears in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies; EQ VAS in <b>${fmt(instrumentCount('EQ VAS'))}</b>.`,
-      so:`Versions, languages, respondents, administration modes, and comparator instruments add the detail.`,
-      layout:'studyInstruments' },
+    { num:fmt(bothMethods), head:'DCE and cTTO are often used together.',
+      body:`Of the <b>${fmt(eitherMethod)}</b> studies that use DCE or cTTO, <b>${fmt(bothMethods)}</b> use both. DCE alone appears more often than cTTO alone.`,
+      so:`The same evidence base also contains psychometric, qualitative, and conventional statistical methods.`,
+      layout:'chartBlank', chart:'methodBundles' },
 
-    { num:'DCE + cTTO', head:'How preferences are elicited.', art:'bars',
-      body:`<b>${fmt(methodCount('DCE'))}</b> studies use DCE, <b>${fmt(methodCount('cTTO'))}</b> use cTTO, and <b>${fmt(bothMethods)}</b> use both.`,
-      so:`TTO, VAS, paired comparison, interviews, psychometric tests, and statistical models show how the evidence was produced.`,
-      layout:'studyMethods' },
+    { num:'6', head:'Six study families have distinct method profiles.',
+      body:`Valuation studies cluster around DCE and cTTO. Psychometric studies favour correlation and reliability analysis. Qualitative studies use interviews and thematic analysis.`,
+      so:`A method label becomes useful when it is read with the study family, instrument, population, and outcome.`,
+      layout:'chartBlank', chart:'methodProfiles' },
 
     { num:fmt(counts.country || 0), head:'Evidence for different people and places.', art:'sphere',
       body:`Studies span children, adults, patients, caregivers, and proxy respondents across ${fmt(counts.country || 0)} countries and territories.`,
       so:`The United Kingdom has <b>${fmt(countryCount('United Kingdom'))}</b> studies; the Netherlands <b>${fmt(countryCount('Netherlands'))}</b>; Australia <b>${fmt(countryCount('Australia'))}</b>; and China <b>${fmt(countryCount('China'))}</b>.`,
       layout:'studyMap' },
 
-    { num:fmt(evidence.studiesWithValueSets || 0), head:'Studies producing value sets.', art:'plates',
-      body:`Value sets and tariffs sit alongside instrument versions, bolt-ons, mappings, population norms, protocols, and implementation guidance.`,
-      so:`In total, <b>${fmt(evidence.studiesWithProducts || 0)}</b> studies name a research product.`,
-      layout:'studyProducts' },
+    { num:fmt(conceptCount('states worse than dead')), head:'Concepts connect work across study families.',
+      body:`Recurring themes include proxy reporting, states worse than dead, ceiling effects, child health valuation, and health inequality.`,
+      so:`These concepts make related studies discoverable even when their instruments and methods differ.`,
+      layout:'chartBlank', chart:'conceptAtlas' },
 
-    { num:fmt(evidence.findings || 0), head:'Findings researchers can use.', art:'lattice',
-      body:`Principal findings sit beside <b>${fmt(evidence.limitations || 0)}</b> limitations and their implications.`,
-      so:`Compare results by instrument, population, country, method, or concept — and find where evidence is still missing.`,
-      layout:'studyWeb' },
+    { num:fmt(evidence.studiesWithProducts || 0), head:'Most studies report a research output.',
+      body:`<b>${fmt(evidence.studiesWithProducts || 0)}</b> studies report a value set, instrument, method, evidence product, guidance, or another output. <b>${fmt(evidence.studiesWithValueSets || 0)}</b> report a value set or tariff.`,
+      so:`The output view separates value sets from other outputs and from studies with no separate output.`,
+      layout:'chartBlank', chart:'productLandscape' },
+
+    { num:fmt(valuationFiveL), head:'Coverage is deep in some instrument–study combinations.',
+      body:`<b>${fmt(valuationFiveL)}</b> valuation studies use EQ-5D-5L. Youth instruments have a stronger psychometric profile and a thinner longitudinal profile.`,
+      so:`The matrix identifies dense and thin combinations. It does not, by itself, decide what should be studied next.`,
+      layout:'chartBlank', chart:'coverageMatrix' },
   ]
 
   /* ── build the DOM ───────────────────────────────────────────────── */
@@ -205,6 +221,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const DPR = Math.min(2, window.devicePixelRatio || 1)
   let W = 0, H = 0
   let sizeRetry = 0, destroyed = false
+  const charts = createStoryCharts(DATA, root)
   const dots = entities.map((p, i) => ({
     i, p, kind:p.type, projectYear:projectYearOf(p), studyYear:studyYearOf(p),
     g:p.type === 'project' ? wgOf(p) : null, x:0, y:0, r:1.6, c:GREY,
@@ -224,6 +241,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     layouts.length = 0; furniture.length = 0
     BEATS.forEach(b => { const r = buildLayout(b.layout)
       layouts.push(r.pos || r); furniture.push(r.furn || null) })
+    charts.resize()
     textMeta = buildText()
     return true
   }
@@ -257,6 +275,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       }
     }
 
+    if (kind === 'chartBlank'){
+      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
+      return { pos:out, furn:null }
+    }
     if (kind === 'projectScatter'){
       scatter('project')
       return { pos:out, furn:null }
@@ -460,6 +482,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   let textSpots = null
   const instEl = root.querySelector('[data-instrument]')
   const ctaEl  = root.querySelector('[data-cta]')
+  const keyEl  = root.querySelector('[data-key]')
 
 
   function buildText(){
@@ -692,8 +715,8 @@ export function initStory(DATA, TOPO, root, options = {}){
     /* The object behind the beat, cross-fading with it. It is drawn first
        and kept faint: it is the room the data stands in, not the data. */
     const box = fieldBox(), now = performance.now() / 1000
-    drawBeatArt(ctx, BEATS[i0].art, box, (1 - t) * 0.9, now, INK.join(','))
-    if (i1 !== i0) drawBeatArt(ctx, BEATS[i1].art, box, t * 0.9, now, INK.join(','))
+    if (BEATS[i0].art) drawBeatArt(ctx, BEATS[i0].art, box, (1 - t) * 0.9, now, INK.join(','))
+    if (i1 !== i0 && BEATS[i1].art) drawBeatArt(ctx, BEATS[i1].art, box, t * 0.9, now, INK.join(','))
 
     for (let i = 0; i < dots.length; i++){
       const a = A[i], b = B[i]
@@ -715,6 +738,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawFurniture(furniture[i0], Math.max(0, 1 - rawT * 3.4))
       drawFurniture(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
+    charts.show(BEATS[i0].chart, BEATS[i1].chart, rawT)
 
     // panels slide; the field stays put and rearranges under them
     track.style.transform = `translate3d(${-(f * 100)}vw,0,0)`
@@ -809,10 +833,12 @@ export function initStory(DATA, TOPO, root, options = {}){
       // Full strength from the very first frame — nothing to scroll for.
       const openA = (t > 0.60 ? 0 : 1 - Math.max(0, (t - 0.34) / 0.26)).toFixed(3)
       if (instEl) instEl.style.opacity = openA
+      if (keyEl){ keyEl.style.opacity = openA; keyEl.style.pointerEvents = +openA > 0.5 ? '' : 'none' }
       // the buttons belong to the sentence, so they leave with it
       const ctaA = (t > 0.26 ? 0 : 1 - Math.max(0, (t - 0.04) / 0.22)).toFixed(3)
       if (ctaEl){ ctaEl.style.opacity = ctaA; ctaEl.style.pointerEvents = +ctaA > 0.5 ? '' : 'none' }
       drawIntro(t)
+      charts.show()
       track.style.transform = 'translate3d(0,0,0)'
       // the first panel's words arrive as the dots settle, not after
       track.style.opacity = (t < 0.7 ? 0 : Math.min(1, (t - 0.7) / 0.25)).toFixed(3)
@@ -826,6 +852,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       publishState({ phase:'intro', beat:0 }, t)
     } else {
       if (instEl) instEl.style.opacity = '0'
+      if (keyEl){ keyEl.style.opacity = '0'; keyEl.style.pointerEvents = 'none' }
       if (ctaEl){ ctaEl.style.opacity = '0'; ctaEl.style.pointerEvents = 'none' }
       track.style.opacity = '1'
       const state = beatState((scrolled - introLen) / vh, timing)
@@ -919,6 +946,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       clearTweenEvents()
       cancelAnimationFrame(sizeRetry)
       clearTimeout(rz)
+      charts.destroy()
       window.removeEventListener('scroll', onScroll)
       window.removeEventListener('resize', onResize)
       delete root.__story

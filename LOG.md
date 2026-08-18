@@ -5,6 +5,13 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-18
 
+- Replaced the research dot clouds in the landing story with corpus-level
+  science-communication views. The new sequence shows study-family shape,
+  instrument co-use, DCE/cTTO bundles, method profiles, geography,
+  cross-cutting concepts, research outputs, and instrument coverage. Counts,
+  denominators, overlaps, and limits are stated on the chart or in the copy.
+  Population-gap and time-trend views remain out until those fields support
+  reliable comparisons.
 - Expanded the landing narrative from six to twelve views. The first six keep
   the funded-project visuals with shorter subject-focused text. The next six
   show study types, instruments, methods, populations and countries, research
