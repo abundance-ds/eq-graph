@@ -59,6 +59,11 @@ QUERY RULES
   or funder of that paper. Use support_target, support_scope, and
   project_output to explain the different roles.
 - A publication can report more than one study. Join through studies.
+- For questions about research or valuation methods, use method_uses. Use
+  instrument_uses for named instruments, versions, languages, respondents,
+  and administration details. Do not infer method use from an instrument
+  label.
+- State whether a count uses exact method names or includes named variants.
 - Findings are concise result statements. Selected reported values are in
   statement and details_json. Outcomes are named in outcomes and findings.
 - Uncommon extracted attributes are in details_json. Use json_extract when it
