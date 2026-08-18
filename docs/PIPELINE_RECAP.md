@@ -52,8 +52,13 @@ review records and do not create support or output relationships.
 ## Current boundary
 
 - The 209-paper graph is the audited project-first JATS corpus.
+- Sixty local PDF-only papers remain outside the audited graph. The tested
+  `pdf-inspector` version is unsafe for them because it corrupted statistical
+  symbols. The retained converter remains the default until another established
+  parser passes the same checks.
 - The 3,148-paper retained set is the next large retrieval and assessment set.
-- The web application is complete enough for data integration, but it still
-  uses temporary reference fixtures.
-- The public application must use a sanitized serving database. Source files,
-  filesystem paths, and unresolved references stay private.
+- Scale retrieval remains behind the independent human-screening check and the
+  held identity queue.
+- The application reads a deterministic, sanitized SQLite database built from
+  the audited graph. Source files, filesystem paths, unresolved references,
+  possible project links, and audit reasoning stay private.

@@ -20,7 +20,7 @@ project-first route                         literature-first route
   -> strong project-work matches             -> 28,600 distinct records
   -> 287 held full texts                      -> 18,348 screened abstracts
   -> 209 unique JATS papers                   -> 3,148 retained records
-  -> assessment and extraction                -> full-text retrieval pending
+  -> 207 audited studies                      -> full-text retrieval pending
                     \                       /
                      -> graph -> application
 ```
@@ -65,7 +65,7 @@ Independent human screening validation and the held identity queue remain as gat
 Do not rerun or replace the completed screen.
 See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-05.md).
 
-### Graph and application
+### Audited research graph
 
 - The current audited SQLite graph covers **209 local JATS publications** and
   **207 included studies**. It contains **17,650 nodes**, **26,143 typed
@@ -79,25 +79,6 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   assessments without trusted support or output edges.
 - The former Aura load is a historical small pilot. It is not the current data
   foundation. The closed Aura model under [`graph/`](graph/) is a baseline.
-- The Nuxt 4 application under [`web/`](web/) now has one integrated landing
-  page, twelve-view research narrative, and chat interface. Six views cover
-  the funded programme; six cover studies, instruments, methods, geography,
-  research products, findings, and gaps.
-- The interface now reads a deterministic, sanitized SQLite serving database
-  built from the audited graph. It exposes 1,024 projects, 209 assessed
-  publications, 207 studies, 242 accepted project links, 871 findings, and 602
-  limitations. Full text, local paths, unresolved citations, possible links,
-  and audit reasoning stay outside the public database.
-- The real streaming AI agent is connected to the same serving records through
-  one read-only SQLite query tool. SQLite rejects write actions. The agent can
-  return stat, bar, line, donut, and table specifications to the shared renderer.
-- The Observable Plot template gallery remains available at `/widgets`. The chat
-  uses the shared stat, bar, line, donut, and table renderer.
-- The former Aura data service does not drive the application.
-- The existing graph is now a baseline, not the assumed final ontology.
-  [`pilot/ontology-development/`](pilot/ontology-development/README.md) records the completed open-architecture experiment.
-  Human review selected a paper-first structure and clarified that the target is a detailed EuroQol research ontology, not a general research ontology.
-  [`pilot/ontology-development-v2/`](pilot/ontology-development-v2/README.md) reruns three independent lineages to discover useful domain granularity before a new database design.
 - The version-3 work tested exact EuroQol domain facts against 100 competency
   questions, 100 design papers, three independent proposals, and a source-checked
   holdout. One paper call combines full-text assessment and conditional draft
@@ -105,6 +86,14 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   facts. The final database passes structure, exact-domain, linkage, integrity,
   and foreign-key checks. See
   [`pilot/ontology-development-v3/production-calibration/DECISION.md`](pilot/ontology-development-v3/production-calibration/DECISION.md).
+
+### Application delivery
+
+Application design is not part of the research method. The Nuxt application
+reads a deterministic, sanitized SQLite derivative of the audited graph through
+a read-only query tool. Full text, local paths, unresolved citations, possible
+links, and audit reasoning stay outside the public database. See
+[`web/README.md`](web/README.md) for implementation status.
 
 ## Repository map
 
@@ -119,7 +108,7 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 | [`pilot/ontology-development-v3/`](pilot/ontology-development-v3/README.md) | Exact-domain ontology experiment, source validation, and JATS production pipeline |
 | [`scale/protocol-2.0/`](scale/protocol-2.0/) | Validated scale checkpoint, compact results, and a manifest of the complete local scale tree |
 | [`corpus/`](corpus/README.md) | Retrieved full text converted to Markdown for extraction |
-| [`graph/`](graph/) | Neo4j ontology, schema, constraints, and indexes |
+| [`graph/`](graph/) | Historical Neo4j pilot ontology, schema, constraints, and indexes |
 | [`web/`](web/) | Nuxt server, narrative, AI chat, chart templates, and read-only SQLite adapter |
 | [`docs/`](docs/) | Method, provenance, graph design, work plan, decisions, and proposal |
 
@@ -131,12 +120,17 @@ See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration
 - [`docs/METHOD_SIMPLE.md`](docs/METHOD_SIMPLE.md) is the short governing method.
 - [`docs/PROVENANCE.md`](docs/PROVENANCE.md) identifies the source-to-result evidence trail.
 - [`docs/PIPELINE_RECAP.md`](docs/PIPELINE_RECAP.md) separates the two discovery routes and records the current model and audit boundary.
+- [`docs/WORKPLAN.md`](docs/WORKPLAN.md) states the current work-package status,
+  ordered next work, and open decision gates.
 - [`LOG.md`](LOG.md) is the chronological build log.
 - [`scale/protocol-2.0/SCALE_STATUS.md`](scale/protocol-2.0/SCALE_STATUS.md) records the current scale funnel and work queue.
 - [`docs/COMPETENCY_QUESTIONS.md`](docs/COMPETENCY_QUESTIONS.md) defines 100 broad graph and application questions plus 20 negative tests.
 - [`pilot/ontology-development-v2/USER_QUESTIONS.md`](pilot/ontology-development-v2/USER_QUESTIONS.md) defines the focused paper-ontology requirements.
 
 `docs/METHOD.md` is a historical design document.
+`docs/graph-model.md` is the historical Neo4j pilot model.
+`pilot/ontology-development-v3/SCALE_UP_DECISION.md` is a completed historical
+gate; the production-calibration decision now governs.
 `FRIEND_REPO_EMPIRICAL_FINDINGS.md` is a historical assessment of the project-first pipeline at commit `68ebeab`.
 
 ## Running the project

@@ -5,6 +5,11 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-18
 
+- Synchronized the research record after the final JATS source and project-link
+  audits. The current method, provenance, pipeline boundary, ontology status,
+  corpus report, and work plan now agree on the 209-paper JATS result, the 60
+  pending local PDFs, and the paused 3,148-record scale route. Marked the
+  completed ontology and Neo4j pilot gates as historical.
 - Replaced the research dot clouds in the landing story with corpus-level
   science-communication views. The new sequence shows study-family shape,
   instrument co-use, DCE/cTTO bundles, method profiles, geography,

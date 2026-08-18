@@ -6,6 +6,12 @@ is in `docs/METHOD_SIMPLE.md`.
 **Paused 2026-08-05:** the complete 18,348-record scale screen is validated. No scale
 full text has been downloaded. Resume from `scale/protocol-2.0/PAUSE_2026-08-05.md`.
 
+**Separate local result, 2026-08-18:** 209 project-first JATS publications have
+completed full-text assessment, source verification, project linkage, and
+typed SQLite graph loading. They produced 207 included studies. This result
+does not change the pause or imply assessment of the 3,148 retained scale
+records. See `docs/PIPELINE_RECAP.md`.
+
 ## Aim
 
 - Identify journal articles plausibly produced by EuroQol-funded research.
@@ -50,7 +56,7 @@ full text has been downloaded. Resume from `scale/protocol-2.0/PAUSE_2026-08-05.
   nonfinancial support are not study funding.
 - Every input, source response, exclusion, prompt, output and count is retained.
 
-## Current state — 10-person pilot complete
+## Completed 10-person pilot result
 
 - Projects: **1,024**.
 - Current members: **125**.

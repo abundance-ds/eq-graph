@@ -216,3 +216,32 @@
   text was retrieved, and the Protocol 2.0 screen did not change.
 - Next gate: calibrate text preparation and extraction on the 60 local PDF-only
   files before scale retrieval.
+
+## 2026-08-18: source-verified graph and project linkage
+
+- Rechecked all 207 included study records against their complete source
+  articles with `gpt-5.6-sol` at `xhigh` reasoning effort.
+- Passed 121 records without a material change. Corrected all 86 records with
+  at least one material issue. No material issue remains unresolved.
+- Set the low-cost pass as a draft stage. Trusted ingestion now requires a
+  strong full-source verification pass or an equivalent strong-model workflow.
+- Compared each paper with all date-eligible projects. Used project year as a
+  hard rule and authorship as review evidence, not as a deterministic rule.
+- Independently audited 260 nominated paper-project pairs. Retained 242
+  accepted links and 14 possible links. Possible links remain assessments and
+  do not create trusted graph edges.
+- Built the final typed SQLite graph: 209 publications, 207 included studies,
+  one excluded paper, one correction notice, 17,650 nodes, 26,143
+  relationships, 7,030 semantic facts, 871 findings, 602 limitations, and 191
+  source conflicts.
+- Kept citations as a secondary provenance layer. Shared cited publications
+  require DOI or PMID identity evidence; unidentified citations remain
+  paper-scoped.
+- Tested `pdf-inspector` 1.15.0 on six papers. Rejected it because it silently
+  corrupted 304 meaningful minus or inequality signs in five papers.
+- Built a deterministic sanitized serving database from the audited graph.
+  Full text, local paths, unresolved citations, possible links, and audit
+  reasoning remain outside the public derivative.
+- The next research input is the 60 local PDF-only papers. Scale retrieval for
+  the 3,148 retained records remains behind the independent human-screening and
+  identity gates.

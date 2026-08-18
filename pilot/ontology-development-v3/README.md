@@ -1,8 +1,11 @@
 # EuroQol ontology development: version 3
 
-Status: ontology design, holdout validation, JATS metadata audit, relational
-pilots, and one-pass extraction of all 209 unique local JATS papers are
-complete. The next gate is PDF input calibration.
+Status: ontology design, holdout validation, JATS metadata audit, extraction,
+strong source verification, project linkage, and graph loading for all 209
+unique local JATS papers are complete. The audited result contains 207 included
+studies, one excluded paper, and one correction notice. The next research input
+is the 60 local PDF-only papers. Scale retrieval for the 3,148 retained records
+remains behind the human-screening and identity gates.
 
 ## Purpose
 

@@ -20,7 +20,8 @@ project and member records
 | `scripts/` | Existing project-to-publication discovery and full-text pipeline |
 | `pipeline/` | Protocol 2.0 discovery, screening, assessment, extraction, and graph-load stages |
 | `corpus/` | Full text that the extraction stages can read |
-| `graph/` | Ontology, schema, migrations, and standard queries |
+| `graph/` | Historical Neo4j pilot schema and queries |
+| `pilot/ontology-development-v3/` | Current ontology, production method, source audit, linkage audit, and graph result |
 | `web/` | Nuxt server, graph tools, chat, and visual output |
 | `docs/` | Protocol, method, provenance, architecture, decisions, and status |
 

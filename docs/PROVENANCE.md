@@ -1,8 +1,9 @@
-# Protocol 2.0 provenance
+# Research provenance
 
-This file identifies the evidence trail from source data to the current results. The
-scripts and `REPRODUCE.md` make each mechanical step repeatable. Validators check the
-counts, identifiers, required fields, and allowed decisions.
+This file identifies the evidence trail for Protocol 2.0 discovery and
+screening and for the separate local JATS ontology and graph result. Scripts and
+run records preserve the mechanical steps. Validators check counts,
+identifiers, required fields, and allowed decisions.
 
 ## Governing records
 
@@ -14,6 +15,8 @@ counts, identifiers, required fields, and allowed decisions.
 | `../pilot/protocol-2.0/REPRODUCE.md` | Commands that reproduce the pilot and scale preparation |
 | `../scale/protocol-2.0/SCALE_STATUS.md` | Current scale funnel and work queue |
 | `../scale/protocol-2.0/PAUSE_2026-08-05.md` | Dated pause state and restart order |
+| `../pilot/ontology-development-v3/production-calibration/DECISION.md` | Current extraction, audit, linkage, and graph decision |
+| `../pilot/ontology-development-v3/production-calibration/GRAPH_CORPUS_REPORT.md` | Final audited 209-paper JATS result |
 
 `../PROTOCOL.md` is a summary. `METHOD.md` and the July pipeline in `../README.md` are
 retained design history. They do not govern Protocol 2.0 screening.
@@ -39,6 +42,24 @@ retained design history. They do not govern Protocol 2.0 screening.
 
 All scale paths in the table are relative to `../scale/protocol-2.0/` unless the path
 starts with `../`.
+
+## Local JATS graph trail
+
+This trail is separate from the paused 3,148-record scale route.
+
+| Stage | Source or input | Evidence retained |
+|---|---|---|
+| Ontology design | 100 papers and 100 competency questions | `../pilot/ontology-development-v3/`: fixed summaries, packets, three proposals, synthesis, holdout, and decision log |
+| JATS metadata | 220 source XML files grouped to 209 publications | Deterministic parser, metadata audit, manifests, file hashes, and parser tests under `../pilot/ontology-development-v3/production-calibration/` |
+| Draft semantic extraction | Full article text and compact domain graph | Per-paper Markdown records, run traces, validation summaries, and workspace manifests under `production-calibration/` |
+| Strong source verification | All 207 included records and their full articles | Semantic audit tasks, correction log, audited record trees, and `GRAPH_CORPUS_REPORT.md` |
+| Project linkage | Each paper and all date-eligible projects | Candidate manifest, linkage decisions, independent pair audit, and retained possible-link assessments |
+| Typed graph | Verified metadata, semantic records, citations, and project links | Deterministic loader, schema, graph tests, database manifest, hash, and corpus report |
+| Public derivative | Audited graph with private fields removed | `../scripts/build_serving_database.py`, `check_serving_database.py`, and the deployment database hash recorded in `../LOG.md` |
+
+The final audited graph database is an ignored local artefact. Its tracked
+manifest and SHA-256 identify it without publishing full text or private audit
+data.
 
 ## AI run provenance
 
@@ -66,3 +87,5 @@ attempts remain labeled in their original folders.
   project links remain unassessed.
 - Scale full-text retrieval has not started. The pause record prevents the pilot
   full-text artifacts from being mistaken for scale retrieval.
+- The audited 209-paper graph covers the local JATS corpus only. Sixty local
+  PDF-only papers and the 3,148 retained scale records remain outside it.

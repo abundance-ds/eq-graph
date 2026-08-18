@@ -1,5 +1,8 @@
 # Production decision
 
+Status update, 2026-08-18: application integration is complete. The research
+method and audit decision below remain current.
+
 ## Decision
 
 The ontology, typed SQLite model, and audited 209-paper JATS graph are approved for application integration and researcher review.

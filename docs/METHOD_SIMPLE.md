@@ -2,9 +2,12 @@
 
 This file states the current method without implementation detail.
 
-**Current state, 2026-08-05:** the scale title-and-abstract screen is complete and the
+**Current state, 2026-08-18:** the scale title-and-abstract screen is complete and the
 project is paused before scale full-text retrieval. The independent human check and
-held identity queue remain. See `../scale/protocol-2.0/PAUSE_2026-08-05.md`.
+held identity queue remain. The separate 209-paper local JATS corpus has completed
+full-text extraction, source verification, project linkage, and graph loading. It does
+not remove the scale-retrieval gates. See
+`../scale/protocol-2.0/PAUSE_2026-08-05.md`.
 
 ## Method
 

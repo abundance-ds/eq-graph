@@ -1,5 +1,11 @@
 # Graph model
 
+> **Historical Neo4j pilot.** This file describes the closed Aura model used
+> before ontology version 3. The current audited research graph uses the typed
+> SQLite model described in
+> [`../pilot/ontology-development-v3/production-calibration/DECISION.md`](../pilot/ontology-development-v3/production-calibration/DECISION.md).
+> Aura does not drive the current application or research database.
+
 The Neo4j model for stages 2 and 3.
 Runnable DDL lives in [`graph/schema.cypher`](../graph/schema.cypher); this document explains *why* it is shaped that way.
 

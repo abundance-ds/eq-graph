@@ -1,5 +1,10 @@
 # Scale-up decision brief
 
+> **Historical gate, completed on 2026-08-17.** The recommended 50-paper
+> calibration was approved and completed, followed by the complete 209-paper
+> local JATS pass and an independent full-source audit. The current decision is
+> [`production-calibration/DECISION.md`](production-calibration/DECISION.md).
+
 ## Recommended decision
 
 Approve `ONTOLOGY_V1.md` as the extraction ontology for a controlled production

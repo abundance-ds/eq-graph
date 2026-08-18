@@ -67,7 +67,10 @@ The AI record remains Markdown. Its final flat index uses simple lines such as
 metadata, authors, funding, Markdown sections, fact bullets, and index terms
 into SQLite. It also creates full-text search. No second AI pass is required.
 
-## Full local JATS production pass
+## First-pass local JATS draft
+
+This section records the deterministic and low-cost draft result before the
+mandatory strong source audit. It is not the final corpus disposition.
 
 - Scope: all 209 unique papers with JATS full text in the repository.
 - First-pass model: `gpt-5.6-luna`.
@@ -93,13 +96,21 @@ record trees and database remain ignored local artefacts. The tracked workspace
 manifests preserve their file names, sizes, and hashes. `FINAL_RESULT.md` is the
 compact result record.
 
-## Next input-format calibration
+The later strong audit produced the governing result: 207 included studies,
+one excluded paper, and one correction notice. See `DECISION.md` and
+`GRAPH_CORPUS_REPORT.md`.
 
-Convert and test the 60 local PDF-only files. Compare their text and extraction
-quality with the JATS baseline. If PDF quality passes, use this same one-pass
-process for later lawful retrieval. If a check fails, rebuild and rerun only
-that record. Use `--overlay-run` when validation and database loading include a
-repair.
+## Current PDF gate
+
+The six-paper `pdf-inspector` 1.15.0 comparison failed. It silently corrupted
+304 meaningful minus or inequality signs in five papers. Do not use it as the
+default.
+
+The 60 local PDF-only files remain to process. Use the retained converter until
+another established parser passes text, symbol, section, and table checks.
+Then apply this same one-pass draft process and the mandatory strong
+full-source verification. If a check fails, rebuild and rerun only that record.
+Use `--overlay-run` when validation and database loading include a repair.
 
 This work uses only full texts already in the repository. It does not start
 new full-text retrieval or change the frozen Protocol 2.0 abstract screen.

@@ -6,6 +6,9 @@
 > [`docs/PROVENANCE.md`](docs/PROVENANCE.md) for the evidence trail.
 > The project is paused after the complete scale screen and before scale full-text
 > retrieval. See [`PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-05.md).
+> A separate project-first corpus of 209 JATS publications has completed
+> assessment, source audit, project linkage, and graph loading. It is not the
+> 3,148-record scale corpus.
 
 ## Aim
 

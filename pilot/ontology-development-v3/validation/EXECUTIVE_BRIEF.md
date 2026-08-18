@@ -1,5 +1,9 @@
 # Executive decision brief: EuroQol research ontology
 
+> **Historical validation gate.** The SQLite pilot requested here was completed
+> and followed by the 209-paper production pass. Current decisions are in
+> [`../production-calibration/DECISION.md`](../production-calibration/DECISION.md).
+
 **Reading time:** four minutes
 
 **Mission status:** the ontology direction is approved. Three policy additions are now fixed. The relational pilot has not started.
