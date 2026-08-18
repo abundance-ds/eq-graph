@@ -18,7 +18,11 @@ const props = withDefaults(defineProps<{
   turns?: ChatTurn[];
 }>(), {
   active: true,
-  backLabel: "Back to story",
+  // Just "Back". The arrow already says the direction, and there is only one
+  // place you can have come from — so naming it adds a word without adding
+  // meaning. "Back to story" also named the route rather than the reader's
+  // journey, which is how developer vocabulary leaks into an interface.
+  backLabel: "Back",
   busy: false,
   dataState: "ready",
   error: "",
