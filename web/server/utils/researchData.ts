@@ -5,12 +5,12 @@ function series(sql: string): DemoSeries[] {
   return queryServingRows(sql).map((row) => ({ label: String(row.label), value: Number(row.value) }));
 }
 
-function listsByPublication(sql: string): Map<string, string[]> {
+function listsByStudy(sql: string): Map<string, string[]> {
   const output = new Map<string, string[]>();
   for (const row of queryServingRows(sql)) {
-    const publicationId = String(row.publication_id);
+    const studyId = String(row.study_id);
     const values = String(row.joined_values ?? "").split("\u001f").filter(Boolean);
-    output.set(publicationId, [...new Set(values)]);
+    output.set(studyId, [...new Set(values)]);
   }
   return output;
 }
@@ -83,8 +83,8 @@ export function getResearchStory(): DemoResearchData {
 
   return {
     meta: {
-      label: "Data-backed preview",
-      note: "The portfolio has 1,024 projects. The current evidence layer contains 209 assessed publications and 207 study records.",
+      label: "EuroQol research",
+      note: "1,024 funded projects and 207 studies shape the EuroQol research evidence base.",
       updated: "2026-08-18",
     },
     portfolio: {
@@ -127,18 +127,23 @@ export function getResearchStory(): DemoResearchData {
     methods,
     sources,
     questions: [
-      "Which study types and valuation methods appear most often?",
-      "Which instruments, versions, and administration modes were used?",
-      "What populations and countries have been studied?",
+      "Which valuation studies used both cTTO and DCE?",
+      "Which EQ-5D-Y studies compare self-report and proxy report?",
+      "What does the research say about states worse than dead?",
+      "Which instruments, versions, and languages were studied?",
       "What are the main findings and limitations?",
-      "Which projects have accepted publication links?",
-      "Where are the main evidence gaps?",
+      "Where are the main gaps by population, country, and method?",
     ],
   };
 }
 
 export function getResearchGraph(): DemoGraphData {
-  const projectRows = queryServingRows("SELECT * FROM projects ORDER BY project_id");
+  const projectRows = queryServingRows(`
+    SELECT project_id, title, principal_investigator, working_group, start_year, status
+    FROM projects ORDER BY project_id
+  `);
+  const projectsWithPublications = new Set(queryServingRows("SELECT DISTINCT project_id FROM project_publications")
+    .map((row) => String(row.project_id)));
   const projectCountries = queryServingRows(`
     SELECT DISTINCT pp.project_id, sc.country
     FROM project_publications pp
@@ -146,74 +151,97 @@ export function getResearchGraph(): DemoGraphData {
     JOIN study_countries sc ON sc.study_id=s.study_id
     ORDER BY pp.project_id, sc.country
   `);
-  const countryNames = [...new Set(projectCountries.map((row) => String(row.country)))];
+  const studyCountryRows = queryServingRows(`
+    SELECT study_id, country FROM study_countries ORDER BY study_id, country
+  `);
+  const countryNames = [...new Set([
+    ...projectCountries.map((row) => String(row.country)),
+    ...studyCountryRows.map((row) => String(row.country)),
+  ])];
+
+  const studyTypes = listsByStudy(`
+    SELECT study_id, group_concat(study_type, char(31)) AS joined_values
+    FROM (SELECT study_id, study_type FROM study_types ORDER BY study_id, study_type)
+    GROUP BY study_id
+  `);
+  const instrumentsByStudy = listsByStudy(`
+    SELECT study_id, group_concat(instrument, char(31)) AS joined_values
+    FROM (SELECT DISTINCT study_id, instrument FROM instrument_uses ORDER BY study_id, instrument)
+    GROUP BY study_id
+  `);
+  const methodsByStudy = listsByStudy(`
+    SELECT study_id, group_concat(method, char(31)) AS joined_values
+    FROM (SELECT DISTINCT study_id, method FROM method_uses ORDER BY study_id, method)
+    GROUP BY study_id
+  `);
+  const conceptsByStudy = listsByStudy(`
+    SELECT study_id, group_concat(concept, char(31)) AS joined_values
+    FROM (SELECT DISTINCT study_id, concept FROM concepts ORDER BY study_id, concept)
+    GROUP BY study_id
+  `);
+  const countriesByStudy = listsByStudy(`
+    SELECT study_id, group_concat(country, char(31)) AS joined_values
+    FROM (SELECT DISTINCT study_id, country FROM study_countries ORDER BY study_id, country)
+    GROUP BY study_id
+  `);
+  const studiesWithProducts = new Set(queryServingRows("SELECT DISTINCT study_id FROM research_products")
+    .map((row) => String(row.study_id)));
+  const studiesWithValueSets = new Set(queryServingRows(`
+    SELECT DISTINCT study_id FROM research_products
+    WHERE lower(COALESCE(product_type,'')) LIKE '%value set%' OR lower(product) LIKE '%value set%'
+  `).map((row) => String(row.study_id)));
+
+  const studyRows = queryServingRows(`
+    SELECT s.study_id, s.publication_id, s.label, p.title AS publication_title,
+           p.publication_year, p.doi,
+           (SELECT COUNT(*) FROM findings f WHERE f.study_id=s.study_id) AS finding_count,
+           (SELECT COUNT(*) FROM limitations l WHERE l.study_id=s.study_id) AS limitation_count
+    FROM studies s JOIN publications p ON p.publication_id=s.publication_id
+    ORDER BY p.publication_year, p.title, s.study_ordinal
+  `);
   const nodes: Record<string, unknown>[] = [
     ...projectRows.map((row) => ({
       id: `project:${row.project_id}`, type: "project", project_id: row.project_id, label: row.title, title: row.title,
       pi: row.principal_investigator, wg: row.working_group, start_year: row.start_year, status: row.status,
+      hasPublication: projectsWithPublications.has(String(row.project_id)),
     })),
+    ...studyRows.map((row) => {
+      const id = String(row.study_id);
+      return {
+        id: `study:${id}`, study_id: id, type: "study", label: row.label,
+        publication_id: row.publication_id, publication_title: row.publication_title,
+        year: row.publication_year, doi: row.doi,
+        studyTypes: studyTypes.get(id) ?? [], instruments: instrumentsByStudy.get(id) ?? [],
+        methods: methodsByStudy.get(id) ?? [], concepts: conceptsByStudy.get(id) ?? [],
+        countries: countriesByStudy.get(id) ?? [], findingCount: Number(row.finding_count),
+        limitationCount: Number(row.limitation_count), hasProduct: studiesWithProducts.has(id),
+        hasValueSet: studiesWithValueSets.has(id),
+      };
+    }),
     ...countryNames.map((country) => ({ id: `country:${slug(country)}`, type: "country", label: country })),
   ];
-  const edges = projectCountries.map((row) => ({
-    source: `project:${row.project_id}`, target: `country:${slug(String(row.country))}`, type: "CONDUCTED_IN",
-  }));
-
-  const authors = listsByPublication(`
-    SELECT publication_id, group_concat(author_name, char(31)) AS joined_values
-    FROM (SELECT publication_id, author_name FROM publication_authors ORDER BY publication_id, author_order)
-    GROUP BY publication_id
-  `);
-  const instruments = listsByPublication(`
-    SELECT s.publication_id, group_concat(i.instrument, char(31)) AS joined_values
-    FROM (SELECT DISTINCT study_id, instrument FROM instrument_uses ORDER BY instrument) i
-    JOIN studies s ON s.study_id=i.study_id GROUP BY s.publication_id
-  `);
-  const methods = listsByPublication(`
-    SELECT s.publication_id, group_concat(m.method, char(31)) AS joined_values
-    FROM (SELECT DISTINCT study_id, method FROM method_uses ORDER BY method) m
-    JOIN studies s ON s.study_id=m.study_id GROUP BY s.publication_id
-  `);
-  const countries = listsByPublication(`
-    SELECT s.publication_id, group_concat(c.country, char(31)) AS joined_values
-    FROM study_countries c JOIN studies s ON s.study_id=c.study_id GROUP BY s.publication_id
-  `);
-  const concepts = listsByPublication(`
-    SELECT s.publication_id, group_concat(c.concept, char(31)) AS joined_values
-    FROM concepts c JOIN studies s ON s.study_id=c.study_id GROUP BY s.publication_id
-  `);
-  const projectIds = listsByPublication(`
-    SELECT publication_id, group_concat(project_id, char(31)) AS joined_values
-    FROM project_publications GROUP BY publication_id
-  `);
-
-  const works = queryServingRows(`
-    SELECT p.publication_id, p.title, p.publication_year, p.journal, p.doi,
-           COUNT(DISTINCT f.finding_id) AS finding_count
-    FROM publications p LEFT JOIN findings f ON f.publication_id=p.publication_id
-    GROUP BY p.publication_id ORDER BY p.publication_year, p.title
-  `).map((row) => {
-    const id = String(row.publication_id);
-    return {
-      id, title: row.title, year: row.publication_year, journal: row.journal, doi: row.doi,
-      findingCount: Number(row.finding_count), authors: authors.get(id) ?? [], instruments: instruments.get(id) ?? [],
-      methods: methods.get(id) ?? [], countries: countries.get(id) ?? [], concepts: concepts.get(id) ?? [],
-      projectIds: projectIds.get(id) ?? [],
-    };
-  });
-  const attributions = queryServingRows("SELECT project_id, publication_id FROM project_publications ORDER BY project_id, publication_id")
-    .map((row, index) => ({ id: `accepted:${index + 1}`, projectId: row.project_id, workId: row.publication_id, confidence: "accepted" }));
-  const valueSets = queryServingRows(`
-    SELECT rp.product_id AS id, rp.product AS label, p.publication_year AS year
-    FROM research_products rp JOIN studies s ON s.study_id=rp.study_id JOIN publications p ON p.publication_id=s.publication_id
-    WHERE lower(COALESCE(rp.product_type,'')) LIKE '%value set%' OR lower(rp.product) LIKE '%value set%'
-    ORDER BY p.publication_year, rp.product
-  `);
+  const edges = [
+    ...projectCountries.map((row) => ({
+      source: `project:${row.project_id}`, target: `country:${slug(String(row.country))}`, type: "SUPPORTED_EVIDENCE_IN",
+    })),
+    ...studyCountryRows.map((row) => ({
+      source: `study:${row.study_id}`, target: `country:${slug(String(row.country))}`, type: "CONDUCTED_IN",
+    })),
+  ];
   const meta = queryServingRows(`
     SELECT
       (SELECT COUNT(DISTINCT concept) FROM concepts) AS concepts,
       (SELECT COUNT(DISTINCT method) FROM method_uses) AS methods,
       (SELECT COUNT(DISTINCT study_type) FROM study_types) AS study_types,
-      (SELECT COUNT(*) FROM findings) AS findings
+      (SELECT COUNT(DISTINCT instrument) FROM instrument_uses) AS instruments,
+      (SELECT COUNT(*) FROM publications) AS publications,
+      (SELECT COUNT(*) FROM findings) AS findings,
+      (SELECT COUNT(*) FROM limitations) AS limitations,
+      (SELECT COUNT(*) FROM research_products) AS products,
+      (SELECT COUNT(*) FROM research_products WHERE lower(COALESCE(product_type,'')) LIKE '%value set%' OR lower(product) LIKE '%value set%') AS value_set_products,
+      (SELECT COUNT(DISTINCT project_id) FROM project_publications) AS projects_with_publications,
+      (SELECT COUNT(DISTINCT publication_id) FROM project_publications) AS publications_with_projects,
+      (SELECT COUNT(*) FROM project_publications) AS project_publication_links
   `)[0]!;
 
   return {
@@ -221,11 +249,29 @@ export function getResearchGraph(): DemoGraphData {
     edges,
     metadata: {
       node_counts: {
-        project: projectRows.length, country: countryNames.length, concept: Number(meta.concepts),
-        method: Number(meta.methods), study_type: Number(meta.study_types),
+        project: projectRows.length, study: studyRows.length, country: countryNames.length,
+        concept: Number(meta.concepts), method: Number(meta.methods),
+        instrument: Number(meta.instruments), study_type: Number(meta.study_types),
       },
-      scope: "Countries shown in the graph come from studies in accepted project-publication links.",
+      evidence: {
+        publications: Number(meta.publications), findings: Number(meta.findings),
+        limitations: Number(meta.limitations), products: Number(meta.products),
+        valueSetProducts: Number(meta.value_set_products), studiesWithProducts: studiesWithProducts.size,
+        studiesWithValueSets: studiesWithValueSets.size,
+      },
+      projectEvidence: {
+        projectsWithPublications: Number(meta.projects_with_publications),
+        publicationsWithProjects: Number(meta.publications_with_projects),
+        links: Number(meta.project_publication_links),
+      },
+      series: {
+        studyTypes: series("SELECT study_type AS label, COUNT(DISTINCT study_id) AS value FROM study_types GROUP BY study_type ORDER BY value DESC, label LIMIT 12"),
+        instruments: series("SELECT instrument AS label, COUNT(DISTINCT study_id) AS value FROM instrument_uses GROUP BY instrument ORDER BY value DESC, label LIMIT 12"),
+        methods: series("SELECT method AS label, COUNT(DISTINCT study_id) AS value FROM method_uses GROUP BY method ORDER BY value DESC, label LIMIT 12"),
+        countries: series("SELECT country AS label, COUNT(DISTINCT study_id) AS value FROM study_countries GROUP BY country ORDER BY value DESC, label LIMIT 12"),
+      },
+      scope: "The story moves from funded projects to the studies, methods, findings, and products that shape EuroQol research.",
     },
-    live: { works, findings: Array(Number(meta.findings)).fill(null), attributions, valueSets, coefficients: [] },
+    live: {},
   };
 }

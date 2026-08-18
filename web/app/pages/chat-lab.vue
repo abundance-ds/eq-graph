@@ -236,7 +236,7 @@ function simulateSend() {
       active
       back-label="Back to app"
       :busy="selected.busy"
-      :counts="{ projects: 944, works: 174, findings: 178 }"
+      :counts="{ projects: 944, studies: 173, works: 174, findings: 178 }"
       data-state="ready"
       :error="selected.error"
       :examples="[

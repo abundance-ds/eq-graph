@@ -36,6 +36,7 @@ export type ChatTurn = {
 
 export type ChatDataCounts = {
   projects: number;
+  studies: number;
   works: number;
   findings: number;
 };

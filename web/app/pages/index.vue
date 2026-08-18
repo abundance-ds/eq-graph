@@ -2,11 +2,11 @@
 import type { DemoResearchData } from "../../shared/types/demo";
 
 useHead({
-  title: "EQ-Graph — EuroQol Research Portfolio",
+  title: "EQ-Graph — EuroQol Research Explorer",
   meta: [
     {
       name: "description",
-      content: "Explore EuroQol-funded research and the evidence connected to it.",
+      content: "Explore EuroQol studies, instruments, methods, populations, findings, and research gaps.",
     },
   ],
 });
@@ -76,6 +76,6 @@ onBeforeUnmount(() => setDocumentMode(false));
   <main v-else class="load-state">
     <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="210" height="34">
     <p v-if="error">The interface reference data did not load. Restart the application and try again.</p>
-    <p v-else>Preparing the research portfolio…</p>
+    <p v-else>Preparing EuroQol research…</p>
   </main>
 </template>

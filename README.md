@@ -79,8 +79,10 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   assessments without trusted support or output edges.
 - The former Aura load is a historical small pilot. It is not the current data
   foundation. The closed Aura model under [`graph/`](graph/) is a baseline.
-- The Nuxt 4 application under [`web/`](web/) now has one integrated landing page,
-  six-part research narrative, and chat interface.
+- The Nuxt 4 application under [`web/`](web/) now has one integrated landing
+  page, twelve-view research narrative, and chat interface. Six views cover
+  the funded programme; six cover studies, instruments, methods, geography,
+  research products, findings, and gaps.
 - The interface now reads a deterministic, sanitized SQLite serving database
   built from the audited graph. It exposes 1,024 projects, 209 assessed
   publications, 207 studies, 242 accepted project links, 871 findings, and 602

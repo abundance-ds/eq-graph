@@ -70,7 +70,7 @@ Use `pnpm build` for a production Node server. The output runs from
 | `/widgets` | Observable Plot template gallery |
 | `/chat-lab` | Deterministic chat states for interface work |
 | `GET /api/story` | Narrative totals, timeline, and topic series |
-| `GET /api/graph` | Globe and project dot-layout data |
+| `GET /api/graph` | Globe, project, and study dot-layout data |
 | `GET /api/graph/status` | Serving-database totals |
 | `POST /api/chat` | Streaming AI answer, SQL activity, and chart data |
 

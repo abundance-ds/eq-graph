@@ -53,10 +53,9 @@ onMounted(async () => {
   const key = root.querySelector<HTMLElement>("[data-key-body]");
   if (key) {
     key.innerHTML =
-      `<b>Countries represented in accepted project-publication links — ${facts.countries} so far.</b>`
-      + ` A country lights in proportion to its linked project count, so `
-      + `${facts.top?.[0]} is brightest with ${facts.top?.[1]} linked projects. The faint `
-      + `outlines have no placeable linked evidence in this preview.`;
+      `<b>Research locations represented — ${facts.countries}.</b>`
+      + ` A country lights in proportion to its study count. `
+      + `${facts.top?.[0]} is brightest with ${facts.top?.[1]} studies.`;
   }
 
   const keyButton = root.querySelector<HTMLButtonElement>("[data-key-toggle]");
@@ -108,7 +107,7 @@ onBeforeUnmount(() => {
     <div class="sh-scroll" data-scroll>
       <div class="sh-stage" data-stage>
         <h1 class="sr-only">Shaping how the world measures health.</h1>
-        <p class="sr-only">An interactive view of the countries where EuroQol-funded research has taken place.</p>
+        <p class="sr-only">Explore EuroQol studies, instruments, methods, populations, findings, and research gaps.</p>
 
         <div class="sh-glow" data-glow aria-hidden="true"><i class="a" /><i class="b" /></div>
 

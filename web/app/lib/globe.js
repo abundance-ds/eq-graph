@@ -2,12 +2,12 @@
    THE GLOBE — where the research actually happened.
 
    The first thing on the page, present from the moment it loads. Every
-   country EuroQol-funded research has run in, lit in proportion to how much
-   of it. The data sets the counts, rank, and labels at run time.
+   country represented in the research, lit in proportion to its study count.
+   The data sets the counts, rank, and labels at run time.
 
    Orthographic projection on a canvas, turning slowly. Land is a faint
    outline; the lit countries are filled and haloed, so the shape you see is
-   the reach of the portfolio rather than a decorative planet.
+   the reach of EuroQol research rather than a decorative planet.
    ═══════════════════════════════════════════════════════════════════ */
 import { geoOrthographic, geoPath, geoGraticule10, geoBounds, geoContains,
          geoCentroid, geoDistance } from 'd3-geo'
@@ -49,7 +49,7 @@ export function initGlobe(canvas, DATA, TOPO){
 
   const land = feature(TOPO, TOPO.objects.countries)
 
-  // Linked projects per country, from the serving graph.
+  // Research studies by country.
   const byName = {}
   const nodeById = Object.fromEntries(DATA.nodes.map(n => [n.id, n]))
   for (const e of DATA.edges){
@@ -164,7 +164,7 @@ export function initGlobe(canvas, DATA, TOPO){
 
     /* ── the pins ────────────────────────────────────────────────────
        Every country facing you carries a small card: its name, and how many
-       studies were funded there. They are placed biggest-first and any card
+       studies took place there. They are placed biggest-first and any card
        that would land on one already placed is dropped — a card sitting on
        another card is worse than a missing one — so the ones you see are
        always the loudest countries in view. Turn the globe and the set

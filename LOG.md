@@ -5,6 +5,15 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-18
 
+- Expanded the landing narrative from six to twelve views. The first six keep
+  the funded-project visuals with shorter subject-focused text. The next six
+  show study types, instruments, methods, populations and countries, research
+  products, findings, limitations, and gaps. The globe now counts studies by
+  country. The chat examples now use researcher questions.
+- Corrected the interpretation of the Asian DCE comparison paper. Its eleven
+  project links comprise ten country-data projects and one comparative-study
+  project; they are not eleven country-project outputs. The AI guidance now
+  distinguishes data support, study support, and project-output status.
 - Replaced the interface fixtures with a deterministic 6.2 MB SQLite serving
   database built from the audited graph. It exposes 1,024 projects, 209
   publications, 207 studies, 242 accepted project links, 871 findings, and 602
@@ -16,9 +25,9 @@ Stable knowledge lives in README.md; this file is the narrative.
 - Connected the landing narrative, project-country layout, graph-status route,
   and AI SQL tool to the serving database. Added `/api/story` and `/api/graph`;
   the old mock routes remain temporary aliases for designer branches.
-- Corrected the narrative boundary: 1,024 records are funded projects, while
-  209 publications and 207 studies form the current assessed evidence layer.
-  Country displays use studies reached through accepted project links.
+- Corrected the narrative boundary: 1,024 items are funded projects, while
+  209 publications contain 207 studies. The project map follows project
+  support; the study map and globe follow all named study countries.
 
 - Added a short pipeline recap after the project-first and literature-first
   routes became easy to confuse. The 305 automated project matches are not the

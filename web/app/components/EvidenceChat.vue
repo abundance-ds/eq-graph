@@ -15,6 +15,7 @@ type DataStatus = {
   checkedAt: string;
   counts: {
     projects: number;
+    studies: number;
     works: number;
     acceptedAttributions: number;
     worksWithFindings: number;
@@ -23,10 +24,10 @@ type DataStatus = {
 };
 
 const EXAMPLES = [
-  "Show the accepted publications for project 2014030.",
-  "Which instruments have the most extracted findings?",
-  "Which countries occur most often in the assessed studies?",
-  "What does the evidence report about ceiling effects?",
+  "Which valuation studies used both cTTO and DCE?",
+  "Which EQ-5D-Y studies compare self-report and proxy report?",
+  "What does the research say about states worse than dead?",
+  "Where are the main evidence gaps by population and country?",
 ];
 
 const OPEN = "<followups>";
@@ -43,6 +44,7 @@ const {
 const busy = computed(() => chat.status === "submitted" || chat.status === "streaming");
 const counts = computed(() => graphStatus.value?.counts ?? {
   projects: props.data.portfolio.projects,
+  studies: props.data.portfolio.studies,
   works: props.data.portfolio.works,
   findings: props.data.portfolio.findings,
 });

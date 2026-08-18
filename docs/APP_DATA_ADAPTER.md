@@ -32,7 +32,7 @@ tool. Query results stop at 200 rows.
 The main data routes are:
 
 - `GET /api/story`: narrative totals and series
-- `GET /api/graph`: project and country layout data
+- `GET /api/graph`: project, study, and country layout data
 - `GET /api/graph/status`: live database totals
 - `POST /api/chat`: AI answers through the same read-only database
 

@@ -1,13 +1,9 @@
 /* ═══════════════════════════════════════════════════════════════════
    THE STORY — horizontal, black, Swiss.
 
-   Vertical scrolling drives a horizontal track. One pinned stage, six
-   panels, and a single field of dots that rearranges between them — the
-   dots never disappear and are never replaced, so the whole thing reads
-   as one material moving, exactly as the vertical story does.
-
-   The temporary reference fixtures supply the 944-project portfolio and the
-   evidence counts. The new ontology will replace this adapter later.
+   Vertical scrolling drives a horizontal track. One pinned stage, twelve
+   panels, and a field of dots that rearranges between them. The first six
+   views follow funded projects. The next six follow research studies.
    ═══════════════════════════════════════════════════════════════════ */
 
 import { geoNaturalEarth1, geoPath } from 'd3-geo'
@@ -43,19 +39,21 @@ export function initStory(DATA, TOPO, root, options = {}){
   const GREY   = rgb(css, '--dot-grey-rgb', '150,150,146')
   const ink = a => `rgba(${INK[0]},${INK[1]},${INK[2]},${a})`
   const projects = DATA.nodes.filter(n => n.type === 'project')
-  const live = DATA.live || null
-  const N = projects.length
+  const studies = DATA.nodes.filter(n => n.type === 'study')
+  const entities = [...projects, ...studies]
 
   /* ── the facts each beat states ──────────────────────────────────── */
   const counts = DATA.metadata?.node_counts || {}
-  const works = live?.works || []
-  const findings = live?.findings || []
-  const authors = new Set(works.flatMap(w => w.authors || [])).size
+  const evidence = DATA.metadata?.evidence || {}
+  const projectEvidence = DATA.metadata?.projectEvidence || {}
+  const series = DATA.metadata?.series || {}
   const wgOf = p => String(p.wg || 'Unassigned').split(',')[0].trim()
-  const yearOf = p => { const y = Number(p.start_year || 0)
+  const projectYearOf = p => { const y = Number(p.start_year || 0)
+    return (y && y >= 1980 && y <= 2030) ? y : null }
+  const studyYearOf = s => { const y = Number(s.year || 0)
     return (y && y >= 1980 && y <= 2030) ? y : null }
 
-  const years = [...new Set(projects.map(yearOf).filter(Boolean))].sort()
+  const projectYears = [...new Set(projects.map(projectYearOf).filter(Boolean))].sort()
 
   /* Where each study was actually run. CONDUCTED_IN edges give the country;
      the topojson gives us where that country is. A study with no country, or
@@ -67,18 +65,19 @@ export function initStory(DATA, TOPO, root, options = {}){
     'Saint Vincent And The Grenadines':'St. Vin. and Gren.', 'Dominican Republic':'Dominican Rep.',
     'South Korea':'South Korea', 'Republic Of Korea':'South Korea', 'Russia':'Russia',
   }
-  const countryOfProject = {}
+  const countryOfProject = {}, countryOfStudy = {}
   for (const e of DATA.edges){
-    if (e.type !== 'CONDUCTED_IN') continue
     const label = (DATA.nodes.find(n => n.id === e.target) || {}).label
-    if (label) (countryOfProject[e.source] ||= []).push(label)
+    if (!label) continue
+    if (e.type === 'SUPPORTED_EVIDENCE_IN') (countryOfProject[e.source] ||= []).push(label)
+    if (e.type === 'CONDUCTED_IN') (countryOfStudy[e.source] ||= []).push(label)
   }
   /* The rows of the group-by-year beat: only groups that actually have
      dated studies, busiest first. A row that would be empty is not a row. */
   const groupYearRows = (() => {
     const m = new Map()
     for (const p of projects){
-      if (!yearOf(p)) continue
+      if (!projectYearOf(p)) continue
       const k = wgOf(p); m.set(k, (m.get(k) || 0) + 1)
     }
     return [...m.entries()].sort((a, b) => b[1] - a[1]).map(g => g[0])
@@ -91,61 +90,86 @@ export function initStory(DATA, TOPO, root, options = {}){
   })()
 
   const fmt = n => n.toLocaleString('en')
+  const seriesValue = (name, label) => Number((series[name] || []).find(row => row.label === label)?.value || 0)
 
-  /* The beats used to state a number and stop. A number on its own does not
-     say what it bought — so each one now carries the consequence with it,
-     and every figure below is counted from the data at run time rather than
-     written in by hand. Where the records are thin the beat says so; a gap
-     that goes unmentioned reads as a claim that there is none. */
-  const dated = projects.filter(yearOf)
-  const since2012 = dated.filter(p => yearOf(p) >= 2012).length
-  const workYears = works.map(w => w.year).filter(Boolean)
-  const firstWork = workYears.length ? Math.min(...workYears) : null
-  const busiestWorkYear = (() => {
-    const by = {}; workYears.forEach(y => by[y] = (by[y] || 0) + 1)
-    return Object.entries(by).sort((a, b) => b[1] - a[1])[0] || null
+  const datedProjects = projects.filter(projectYearOf)
+  const busiestProjectYear = (() => {
+    const byYear = new Map()
+    for (const project of datedProjects){
+      const year = projectYearOf(project)
+      byYear.set(year, (byYear.get(year) || 0) + 1)
+    }
+    return [...byYear.entries()].sort((a, b) => b[1] - a[1])[0] || ['—', 0]
   })()
-  const journals = new Set(works.map(w => w.journal).filter(Boolean)).size
-  const valueSets = (live?.valueSets || []).length
-  const acceptedLinks = (live?.attributions || []).filter(link => link.confidence === 'accepted')
-  const datedByGroup = groups.map(([group]) => [
-    group,
-    dated.filter(project => wgOf(project) === group).length,
-  ]).sort((a, b) => b[1] - a[1])
-  const leadingDatedGroup = datedByGroup[0] || ['No group', 0]
-  const eqHwbDated = datedByGroup.find(([group]) => group === 'EQ-HWB')?.[1] || 0
+  const leadingGroups = groups.slice(0, 3)
+  const typeCount = label => seriesValue('studyTypes', label)
+  const instrumentCount = label => seriesValue('instruments', label)
+  const methodCount = label => seriesValue('methods', label)
+  const countryCount = label => seriesValue('countries', label)
+  const bothMethods = studies.filter(s => {
+    const values = new Set((s.methods || []).map(v => String(v).toLowerCase()))
+    return values.has('dce') && values.has('ctto')
+  }).length
 
   const BEATS = [
-    { num:fmt(N), head:'Research projects.', art:'stack',
-      body:`Every dot is one EuroQol project record. Projects are the funded portfolio; publications and findings form a separate evidence layer.`,
-      so:`The current evidence layer holds <b>${fmt(works.length)}</b> assessed publications and <b>${fmt(findings.length)}</b> extracted findings. It does not yet cover every project.`,
-      layout:'scatter' },
+    { num:fmt(projects.length), head:'Projects shaping EuroQol research.', art:'stack',
+      body:`Funding spans valuation, descriptive systems, youth instruments, methods, EQ-HWB, and health systems.`,
+      so:`Each dot represents one funded project.`, layout:'projectScatter' },
 
-    { num:years.length ? `${years[0]}–${years[years.length - 1]}` : '—',
-      head:'Year by year.', art:'bars',
-      body:`<b>${fmt(dated.length)}</b> of the ${fmt(N)} projects have a recorded start year, and <b>${fmt(since2012)}</b> started from 2012 on.`,
-      so:`Evidence runs behind the money. The first paper we can trace appears in <b>${firstWork || '—'}</b>, years after the funding picks up, and the busiest year for papers is <b>${busiestWorkYear ? busiestWorkYear[0] : '—'}</b> — long after the studies behind them were paid for.`,
-      layout:'years' },
+    { num:projectYears.length ? `${projectYears[0]}–${projectYears[projectYears.length - 1]}` : '—',
+      head:'Research across generations.', art:'bars',
+      body:`Project start years span ${projectYears[0]} to ${projectYears[projectYears.length - 1]}, across ${fmt(datedProjects.length)} projects.`,
+      so:`The largest project cohort began in <b>${busiestProjectYear[0]}</b>, with <b>${fmt(busiestProjectYear[1])}</b> projects.`, layout:'projectYears' },
 
-    { num:fmt(counts.country || 0), head:'Countries in linked evidence.', art:'sphere',
-      body:`A project is placed only when an accepted publication link leads to a study with a named country. Unlinked projects and records without a country stay unplaced.`,
-      so:`The current linked evidence names <b>${fmt(counts.country || 0)}</b> countries. It also contains <b>${valueSets}</b> research products identified as value sets.`,
-      layout:'map' },
+    { num:fmt(counts.country || 0), head:'Research with global reach.', art:'sphere',
+      body:`Funded projects underpin country-specific evidence across ${fmt(counts.country || 0)} countries and territories.`,
+      so:`Country-specific work includes valuation studies, population norms, psychometrics, and implementation research.`,
+      layout:'projectMap' },
 
-    { num:fmt(groups.length), head:'Working groups, year by year.', art:'rings',
-      body:`The same studies, grouped by the community that leads them and set against the year each was funded. One row per group, one column per year.`,
-      so:`The shape of the community shows in the rows. <b>${leadingDatedGroup[0]}</b> is the largest group in the dated records, with <b>${fmt(leadingDatedGroup[1])}</b> studies. <b>EQ-HWB</b> has ${fmt(groups.find(g => g[0] === 'EQ-HWB')?.[1] || 0)} studies but only ${fmt(eqHwbDated)} of them carry a date, so the newest group is almost invisible on this axis — a gap in the records rather than in the work.`,
-      layout:'groupYears' },
+    { num:fmt(groups.length), head:'Research communities over time.', art:'rings',
+      body:`Valuation, descriptive systems, population research, youth research, and EQ-HWB develop in parallel.`,
+      so:`The largest areas are <b>${leadingGroups.map(([name, value]) => `${name} (${fmt(value)})`).join('</b>, <b>')}</b>.`,
+      layout:'projectGroupYears' },
 
-    { num:fmt(acceptedLinks.length), head:'Accepted publication links.', art:'plates',
-      body:`Confirmed project-to-publication links in the assessed corpus of <b>${fmt(works.length)}</b> papers, written by <b>${fmt(authors)}</b> researchers across <b>${fmt(journals)}</b> journals.`,
-      so:`A link is shown only after it passes the project-year rule and the evidence review. Possible links are not included in this public view.`,
-      layout:'arc' },
+    { num:fmt(projectEvidence.projectsWithPublications || 0), head:'Projects represented in publications.', art:'plates',
+      body:`These projects contribute to <b>${fmt(projectEvidence.publicationsWithProjects || 0)}</b> published papers.`,
+      so:`One paper can draw on several projects; one project can support several papers.`,
+      layout:'projectPapers' },
 
-    { num:'∞', head:'It all connects.', art:'lattice',
-      body:`Study records connect publications to instruments, methods, models, populations, concepts, outcomes, findings and limitations — including <b>${fmt(counts.concept || 0)}</b> concepts and <b>${fmt(counts.method || 0)}</b> methods.`,
-      so:`Which means you can ask it a question instead of reading it. Every answer names the papers it came from, and says so when it has nothing.`,
-      layout:'web' },
+    { num:'∞', head:'One connected body of research.', art:'lattice',
+      body:`Follow a project into its studies, instruments, methods, populations, findings, limitations, and research products.`,
+      so:`The next views move from the funded programme to the research itself.`,
+      layout:'projectWeb' },
+
+    { num:fmt(studies.length), head:'Studies shaping EuroQol research.', art:'stack',
+      body:`From valuation and psychometrics to comparative, qualitative, and implementation research.`,
+      so:`<b>${fmt(typeCount('valuation study'))}</b> valuation, <b>${fmt(typeCount('psychometric study'))}</b> psychometric, <b>${fmt(typeCount('comparative study'))}</b> comparative, and <b>${fmt(typeCount('qualitative study'))}</b> qualitative studies.`,
+      layout:'studyTypes' },
+
+    { num:'EQ-5D-5L', head:'Instruments at the centre.', art:'rings',
+      body:`EQ-5D-5L appears in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies; EQ VAS in <b>${fmt(instrumentCount('EQ VAS'))}</b>.`,
+      so:`Versions, languages, respondents, administration modes, and comparator instruments add the detail.`,
+      layout:'studyInstruments' },
+
+    { num:'DCE + cTTO', head:'How preferences are elicited.', art:'bars',
+      body:`<b>${fmt(methodCount('DCE'))}</b> studies use DCE, <b>${fmt(methodCount('cTTO'))}</b> use cTTO, and <b>${fmt(bothMethods)}</b> use both.`,
+      so:`TTO, VAS, paired comparison, interviews, psychometric tests, and statistical models show how the evidence was produced.`,
+      layout:'studyMethods' },
+
+    { num:fmt(counts.country || 0), head:'Evidence for different people and places.', art:'sphere',
+      body:`Studies span children, adults, patients, caregivers, and proxy respondents across ${fmt(counts.country || 0)} countries and territories.`,
+      so:`The United Kingdom has <b>${fmt(countryCount('United Kingdom'))}</b> studies; the Netherlands <b>${fmt(countryCount('Netherlands'))}</b>; Australia <b>${fmt(countryCount('Australia'))}</b>; and China <b>${fmt(countryCount('China'))}</b>.`,
+      layout:'studyMap' },
+
+    { num:fmt(evidence.studiesWithValueSets || 0), head:'Studies producing value sets.', art:'plates',
+      body:`Value sets and tariffs sit alongside instrument versions, bolt-ons, mappings, population norms, protocols, and implementation guidance.`,
+      so:`In total, <b>${fmt(evidence.studiesWithProducts || 0)}</b> studies name a research product.`,
+      layout:'studyProducts' },
+
+    { num:fmt(evidence.findings || 0), head:'Findings researchers can use.', art:'lattice',
+      body:`Principal findings sit beside <b>${fmt(evidence.limitations || 0)}</b> limitations and their implications.`,
+      so:`Compare results by instrument, population, country, method, or concept — and find where evidence is still missing.`,
+      layout:'studyWeb' },
   ]
 
   /* ── build the DOM ───────────────────────────────────────────────── */
@@ -181,7 +205,10 @@ export function initStory(DATA, TOPO, root, options = {}){
   const DPR = Math.min(2, window.devicePixelRatio || 1)
   let W = 0, H = 0
   let sizeRetry = 0, destroyed = false
-  const dots = projects.map((p, i) => ({ i, p, year:yearOf(p), g:wgOf(p), x:0, y:0, r:1.6, c:GREY }))
+  const dots = entities.map((p, i) => ({
+    i, p, kind:p.type, projectYear:projectYearOf(p), studyYear:studyYearOf(p),
+    g:p.type === 'project' ? wgOf(p) : null, x:0, y:0, r:1.6, c:GREY,
+  }))
 
   function size(){
     W = canvas.clientWidth; H = canvas.clientHeight
@@ -218,16 +245,28 @@ export function initStory(DATA, TOPO, root, options = {}){
     const out = new Array(dots.length)
     const rnd = mulberry(1234)
 
-    if (kind === 'scatter'){
-      for (let i = 0; i < dots.length; i++)
-        out[i] = { x:b.x0 + rnd() * bw, y:b.y0 + rnd() * bh, c:GREY, r:1.6 }
-      return { pos: out, furn: null }
+    const hidden = i => ({
+      x:b.x0 + ((i * 17) % Math.max(1, Math.floor(bw))), y:b.y1 + 24,
+      c:GREY, r:.6, a:0,
+    })
+    const scatter = (entityKind, colour = () => GREY, radius = () => 1.6) => {
+      for (let i = 0; i < dots.length; i++){
+        if (dots[i].kind !== entityKind){ out[i] = hidden(i); continue }
+        out[i] = { x:b.x0 + rnd() * bw, y:b.y0 + rnd() * bh,
+                   c:colour(dots[i]), r:radius(dots[i]) }
+      }
     }
-    else if (kind === 'years'){
-      const cols = years.length || 1, colW = bw / cols
+
+    if (kind === 'projectScatter'){
+      scatter('project')
+      return { pos:out, furn:null }
+    }
+    else if (kind === 'projectYears'){
+      const years = projectYears, cols = years.length || 1, colW = bw / cols
       const per = {}
       for (let i = 0; i < dots.length; i++){
-        const y = dots[i].year
+        if (dots[i].kind !== 'project'){ out[i] = hidden(i); continue }
+        const y = dots[i].projectYear
         if (!y){ out[i] = { x:b.x0 + rnd() * bw, y:b.y1 + 40, c:GREY, r:1.2, a:0 }; continue }
         const ci = years.indexOf(y); per[y] = (per[y] || 0) + 1
         const n = per[y], perRow = Math.max(1, Math.floor(colW / 5))
@@ -236,11 +275,12 @@ export function initStory(DATA, TOPO, root, options = {}){
           y: b.y1 - Math.floor((n - 1) / perRow) * 4.6,
           c: mix(TEAL, YELLOW, ci / Math.max(1, cols - 1)), r:1.7 }
       }
-      out.furn = { kind:'years', b, cols, colW }
+      out.furn = { kind:'years', b, cols, colW, years }
       return { pos: out, furn: out.furn }
     }
-    else if (kind === 'map'){
-      // Real geography. Each dot lands on the country its study was run in.
+    else if (kind === 'projectMap' || kind === 'studyMap'){
+      const entityKind = kind === 'projectMap' ? 'project' : 'study'
+      const countryMap = entityKind === 'project' ? countryOfProject : countryOfStudy
       const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 46]], land)
       const topNames = {}
       const centroid = {}
@@ -248,18 +288,17 @@ export function initStory(DATA, TOPO, root, options = {}){
         const c = geoPath(proj).centroid(f)
         if (!isNaN(c[0])) centroid[f.properties.name] = c
       }
-      // how many studies each country holds, so busy places pack tighter
       const per = {}
       let unplaced = 0
       for (let i = 0; i < dots.length; i++){
-        const names = countryOfProject[dots[i].p.id] || []
+        if (dots[i].kind !== entityKind){ out[i] = hidden(i); continue }
+        const names = countryMap[dots[i].p.id] || []
         let pt = null, name = null
         for (const n of names){
           const key = NAME_FIX[n] || n
           if (centroid[key]){ pt = centroid[key]; name = key; break }
         }
         if (!pt){
-          // no country, or a region we cannot place — a quiet row along the base
           const k = unplaced++
           out[i] = { x:b.x0 + (k % 60) * 5.4, y:b.y1 - 6 - Math.floor(k / 60) * 5.4,
                      c:[70,70,68], r:1.2 }
@@ -272,34 +311,14 @@ export function initStory(DATA, TOPO, root, options = {}){
         out[i] = { x:pt[0] + Math.cos(a) * rr, y:pt[1] + Math.sin(a) * rr,
                    c:mix(TEAL, YELLOW, Math.min(1, k / 22)), r:1.7 }
       }
-      out.furn = { kind:'map', b, proj, centroid, topNames, unplaced }
+      out.furn = { kind:'map', b, proj, centroid, topNames, unplaced, entityKind }
       return { pos: out, furn: out.furn }
     }
-    else if (kind === 'columns'){
-      const cols = groups.length, colW = bw / cols, per = {}
-      const idx = Object.fromEntries(groups.map((g, i) => [g[0], i]))
-      for (let i = 0; i < dots.length; i++){
-        const ci = idx[dots[i].g] ?? 0
-        per[ci] = (per[ci] || 0) + 1
-        const n = per[ci], perRow = Math.max(1, Math.floor((colW - 8) / 5))
-        out[i] = {
-          x: b.x0 + ci * colW + ((n - 1) % perRow) * 4.8 + 3,
-          y: b.y1 - Math.floor((n - 1) / perRow) * 4.8,
-          c: mix(YELLOW, TEAL, ci / Math.max(1, cols - 1)), r:1.7 }
-      }
-      out.furn = { kind:'columns', b, cols, colW, names: groups.map(g => g[0]) }
-      return { pos: out, furn: out.furn }
-    }
-    else if (kind === 'groupYears'){
-      /* One row per working group, one column per year: the community's
-         shape over time rather than a single total. Only the 372 studies
-         that carry a date can be placed, so the rest sit as a faint band
-         along the bottom — visible, because a chart that quietly drops
-         three fifths of its subject is a lie by omission. */
+    else if (kind === 'projectGroupYears'){
       const rows = groupYearRows
       const labelW = W <= 640 ? Math.min(126, bw * 0.38) : Math.min(160, bw * 0.24)
       const gx0 = b.x0 + labelW
-      const cols = years.length || 1
+      const years = projectYears, cols = years.length || 1
       const colW = (bw - labelW) / cols
       const bandH = 30
       const rowH = (bh - bandH) / rows.length
@@ -307,10 +326,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       const per = {}, perRow = Math.max(2, Math.floor((colW - 3) / 4.2))
       let loose = 0
       for (let i = 0; i < dots.length; i++){
-        const y = dots[i].year, g = dots[i].g
+        if (dots[i].kind !== 'project'){ out[i] = hidden(i); continue }
+        const y = dots[i].projectYear, g = dots[i].g
         const ri = rowOf[g]
         if (!y || ri === undefined){
-          // no date on the record — shown, not hidden, and never coloured
           const k = loose++
           out[i] = { x:gx0 + (k % 96) * ((bw - labelW) / 96),
                      y:b.y1 - 2 - Math.floor(k / 96) * 4.2,
@@ -327,33 +346,97 @@ export function initStory(DATA, TOPO, root, options = {}){
           y: base - Math.floor(n / perRow) * 4.2,
           c: TEAL, r:1.7 }
       }
-      out.furn = { kind:'groupYears', b, rows, labelW, gx0, colW, rowH, bandH, loose }
+      out.furn = { kind:'groupYears', b, rows, labelW, gx0, colW, rowH, bandH, loose, years }
       return { pos: out, furn: out.furn }
     }
-    else if (kind === 'arc'){
-      // The traced publications lift out of the field as a bright arc.
+    else if (kind === 'projectPapers'){
       const cx = b.x0 + bw / 2, cy = b.y1, R = Math.min(bw, bh) * 0.82
-      const lit = works.length
+      const lit = projects.filter(project => project.hasPublication).length
+      let onArc = 0
       for (let i = 0; i < dots.length; i++){
-        if (i < lit){
-          const t = i / Math.max(1, lit - 1), a = Math.PI + t * Math.PI
+        if (dots[i].kind !== 'project'){ out[i] = hidden(i); continue }
+        if (dots[i].p.hasPublication){
+          const t = onArc++ / Math.max(1, lit - 1), a = Math.PI + t * Math.PI
           out[i] = { x:cx + Math.cos(a) * R * 0.62, y:cy + Math.sin(a) * R * 0.52,
                      c:YELLOW, r:2.1 }
         } else {
           out[i] = { x:b.x0 + rnd() * bw, y:b.y0 + rnd() * bh, c:[60,60,58], r:1.3 }
         }
       }
-      out.furn = { kind:'arc', b, cx, cy, R, lit, total: dots.length }
+      out.furn = { kind:'arc', b, cx, cy, R, lit, total: projects.length }
       return { pos: out, furn: out.furn }
     }
-    else { // web
+    else if (kind === 'projectWeb'){
       const cx = b.x0 + bw / 2, cy = b.y0 + bh / 2
       for (let i = 0; i < dots.length; i++){
         const a = rnd() * Math.PI * 2, rr = Math.pow(rnd(), .55) * Math.min(bw, bh) * .5
         out[i] = { x:cx + Math.cos(a) * rr, y:cy + Math.sin(a) * rr * .86,
-                   c:mix(GREY, TEAL, rnd()), r:1.5 }
+                   c:dots[i].kind === 'study' ? TEAL : GREY,
+                   r:dots[i].kind === 'study' ? 1.9 : 1.35 }
       }
-      return { pos: out, furn: null }
+      return { pos:out, furn:{ kind:'legend', b, entries:[
+        { label:'Funded projects', colour:GREY }, { label:'Research studies', colour:TEAL },
+      ] } }
+    }
+    else if (kind === 'studyTypes'){
+      scatter('study', dot => {
+        const values = new Set((dot.p.studyTypes || []).map(v => String(v).toLowerCase()))
+        const valuation = values.has('valuation study'), psychometric = values.has('psychometric study')
+        if (valuation && psychometric) return INK
+        if (valuation) return YELLOW
+        if (psychometric) return TEAL
+        return GREY
+      }, () => 1.9)
+      return { pos:out, furn:{ kind:'legend', b, entries:[
+        { label:'Valuation', colour:YELLOW }, { label:'Psychometric', colour:TEAL },
+        { label:'Both', colour:INK }, { label:'Other study types', colour:GREY },
+      ] } }
+    }
+    else if (kind === 'studyInstruments'){
+      scatter('study', dot => {
+        const values = new Set(dot.p.instruments || [])
+        const fiveL = values.has('EQ-5D-5L'), vas = values.has('EQ VAS')
+        if (fiveL && vas) return INK
+        if (fiveL) return YELLOW
+        if (vas) return TEAL
+        return GREY
+      }, () => 1.9)
+      return { pos:out, furn:{ kind:'legend', b, entries:[
+        { label:'EQ-5D-5L', colour:YELLOW }, { label:'EQ VAS', colour:TEAL },
+        { label:'Both', colour:INK }, { label:'Other instruments', colour:GREY },
+      ] } }
+    }
+    else if (kind === 'studyMethods'){
+      scatter('study', dot => {
+        const values = new Set((dot.p.methods || []).map(v => String(v).toLowerCase()))
+        const dce = values.has('dce'), ctto = values.has('ctto')
+        if (dce && ctto) return INK
+        if (dce) return YELLOW
+        if (ctto) return TEAL
+        return GREY
+      }, () => 1.9)
+      return { pos:out, furn:{ kind:'legend', b, entries:[
+        { label:'DCE', colour:YELLOW }, { label:'cTTO', colour:TEAL },
+        { label:'Both', colour:INK }, { label:'Other methods', colour:GREY },
+      ] } }
+    }
+    else if (kind === 'studyProducts'){
+      scatter('study', dot => dot.p.hasValueSet ? YELLOW : dot.p.hasProduct ? TEAL : GREY, () => 1.9)
+      return { pos:out, furn:{ kind:'legend', b, entries:[
+        { label:'Value set or tariff', colour:YELLOW }, { label:'Other research product', colour:TEAL },
+        { label:'No named product', colour:GREY },
+      ] } }
+    }
+    else if (kind === 'studyWeb'){
+      const cx = b.x0 + bw / 2, cy = b.y0 + bh / 2
+      for (let i = 0; i < dots.length; i++){
+        if (dots[i].kind !== 'study'){ out[i] = hidden(i); continue }
+        const a = rnd() * Math.PI * 2, rr = Math.pow(rnd(), .55) * Math.min(bw, bh) * .5
+        const weight = Math.min(1, Number(dots[i].p.findingCount || 0) / 8)
+        out[i] = { x:cx + Math.cos(a) * rr, y:cy + Math.sin(a) * rr * .86,
+                   c:mix(TEAL, YELLOW, weight), r:1.5 + weight * 1.3 }
+      }
+      return { pos:out, furn:null }
     }
     return { pos: out, furn: null }
   }
@@ -368,7 +451,7 @@ export function initStory(DATA, TOPO, root, options = {}){
      the sentence is stronger for being about the work rather than the body.
 
      It is drawn to an offscreen canvas and sampled into the
-     SAME 944 dots, so the words literally become the portfolio. Timing was
+     the same data dots, so the words become the research field. Timing was
      the note: the field must be settled and readable BEFORE the text has
      finished leaving, not after. The dissolve starts at 1% — the second you
      move — crosses the words by 31%, and the last dot is home by 87%. What
@@ -476,7 +559,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       const age = t - born
       if (age <= 0) continue
 
-      const a = Math.min(1, age / 0.05)                       // it appears as it leaves
+      const targetA = h.a == null ? 1 : h.a
+      const a = Math.min(1, age / 0.05) * targetA             // it appears as it leaves
       const f = ease(Math.min(1, age / FLY))
 
       // a curve, not a straight line: it is thrown clear, then drawn home
@@ -513,8 +597,8 @@ export function initStory(DATA, TOPO, root, options = {}){
     if (f.kind === 'years'){
       ctx.beginPath(); ctx.moveTo(f.b.x0, f.b.y1 + 8); ctx.lineTo(f.b.x1, f.b.y1 + 8); ctx.stroke()
       ctx.textAlign = 'center'
-      years.forEach((y, i) => {
-        if (years.length > 9 && i % 2) return
+      f.years.forEach((y, i) => {
+        if (f.years.length > 9 && i % 2) return
         const x = f.b.x0 + i * f.colW + f.colW / 2
         ctx.beginPath(); ctx.moveTo(x, f.b.y1 + 8); ctx.lineTo(x, f.b.y1 + 13); ctx.stroke()
         ctx.fillText(String(y), x, f.b.y1 + 24)
@@ -532,12 +616,12 @@ export function initStory(DATA, TOPO, root, options = {}){
       })
       ctx.font = `500 11px 'IBM Plex Mono', ui-monospace, monospace`
       ctx.textAlign = 'center'; ctx.fillStyle = ink(.4)
-      years.forEach((y, i) => {
-        if (years.length > 9 && i % 3) return
+      f.years.forEach((y, i) => {
+        if (f.years.length > 9 && i % 3) return
         ctx.fillText(String(y), f.gx0 + i * f.colW + f.colW / 2, f.b.y1 + 16)
       })
       ctx.textAlign = 'left'; ctx.fillStyle = ink(.34)
-      ctx.fillText(`${f.loose} with no date recorded yet`, f.gx0, f.b.y1 - 26)
+      if (f.loose) ctx.fillText(`${f.loose} projects without a start year`, f.gx0, f.b.y1 - 26)
     }
     else if (f.kind === 'map'){
       // the coastlines are what turn a cluster of dots into a map
@@ -553,7 +637,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       }
       if (f.unplaced){
         ctx.fillStyle = ink(.4)
-        ctx.fillText(`${f.unplaced} not placed at country level`, f.b.x0, f.b.y1 + 16)
+        const label = f.entityKind === 'study'
+          ? `${f.unplaced} studies span regions or have no single country`
+          : `${f.unplaced} other funded projects`
+        ctx.fillText(label, f.b.x0, f.b.y1 + 16)
       }
     }
     else if (f.kind === 'columns'){
@@ -569,9 +656,25 @@ export function initStory(DATA, TOPO, root, options = {}){
       ctx.beginPath(); ctx.moveTo(f.b.x0, f.cy + 8); ctx.lineTo(f.b.x1, f.cy + 8); ctx.stroke()
       ctx.textAlign = 'left'
       ctx.fillStyle = `rgba(${YELLOW[0]},${YELLOW[1]},${YELLOW[2]},.85)`
-      ctx.fillText(`${f.lit} traced`, f.b.x0, f.cy + 24)
+      ctx.fillText(`${f.lit} represented in publications`, f.b.x0, f.cy + 24)
       ctx.fillStyle = ink(.4)
-      ctx.fillText(`${f.total - f.lit} not yet read`, f.b.x0 + 96, f.cy + 24)
+      ctx.fillText(`${f.total - f.lit} other funded projects`, f.b.x0 + 210, f.cy + 24)
+    }
+    else if (f.kind === 'legend'){
+      ctx.textAlign = 'left'
+      ctx.font = `500 11px 'Instrument Sans', sans-serif`
+      let x = f.b.x0
+      let y = f.b.y1 + 18
+      for (const entry of f.entries){
+        const width = Math.max(88, ctx.measureText(entry.label).width + 30)
+        if (x > f.b.x0 && x + width > f.b.x1){ x = f.b.x0; y += 18 }
+        ctx.beginPath(); ctx.arc(x + 3, y, 3, 0, 6.283)
+        ctx.fillStyle = `rgba(${entry.colour[0]},${entry.colour[1]},${entry.colour[2]},.92)`
+        ctx.fill()
+        ctx.fillStyle = ink(.58)
+        ctx.fillText(entry.label, x + 12, y)
+        x += width
+      }
     }
     ctx.restore()
   }

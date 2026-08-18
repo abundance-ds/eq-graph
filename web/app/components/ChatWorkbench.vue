@@ -87,9 +87,9 @@ function autoGrow() {
 
 function chartQuestions(label: string) {
   return [
-    `Which funded projects are associated with ${label}?`,
-    `Which publications are associated with ${label}?`,
-    `Compare ${label} with the other results.`,
+    `Which studies are associated with ${label}?`,
+    `What do the studies about ${label} find?`,
+    `What limitations affect the evidence about ${label}?`,
   ];
 }
 
@@ -205,8 +205,8 @@ onMounted(() => {
         >
           <i aria-hidden="true" />
           <template v-if="dataState === 'ready'">
-            <strong>Reference data</strong>
-            <span>{{ counts.projects.toLocaleString('en') }} projects</span>
+            <strong>EuroQol research</strong>
+            <span>{{ counts.studies.toLocaleString('en') }} studies</span>
             <span>{{ counts.works.toLocaleString('en') }} publications</span>
             <span>{{ counts.findings.toLocaleString('en') }} findings</span>
           </template>
@@ -228,7 +228,7 @@ onMounted(() => {
       >
         <div class="chat-thread-inner">
           <section v-if="!started" class="chat-empty" aria-label="Example questions">
-            <h1>Ask about funded research and its evidence.</h1>
+            <h1>Ask about EuroQol research.</h1>
             <p>Try one of these:</p>
             <div class="chat-examples">
               <button v-for="question in examples" :key="question" type="button" :disabled="busy" @click="send(question)">
