@@ -49,7 +49,7 @@ export function initGlobe(canvas, DATA, TOPO){
 
   const land = feature(TOPO, TOPO.objects.countries)
 
-  // studies per country, from the real CONDUCTED_IN edges
+  // Linked projects per country, from the serving graph.
   const byName = {}
   const nodeById = Object.fromEntries(DATA.nodes.map(n => [n.id, n]))
   for (const e of DATA.edges){

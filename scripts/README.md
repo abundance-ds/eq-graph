@@ -2,6 +2,13 @@
 
 Resolves each EuroQol funded project to the publications it produced, and records where the full text can be obtained.
 
+## Application serving database
+
+`build_serving_database.py` creates the sanitized SQLite file used by the web
+application. `check_serving_database.py` checks its fixed corpus counts,
+relationships, integrity, and path-leak rules. See
+[`docs/APP_DATA_ADAPTER.md`](../docs/APP_DATA_ADAPTER.md).
+
 ```sh
 python3 scripts/scrape.py all        # discover -> match -> enrich -> export -> report
 python3 scripts/scrape.py status     # what the ledger currently knows

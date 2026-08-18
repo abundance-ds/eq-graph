@@ -1,32 +1,46 @@
 export const SQL_SCHEMA = `
-projects(project_id, title, principal_investigator, working_groups,
-         project_type, population_type, sample_size, key_finding, abstract,
-         start_year, status, budget_eur)
-project_topics(project_id, topic_type, topic)
-  topic_type: instrument | country | method | working_group | condition | researcher
-works(work_id, title, year, journal, doi, finding_count)
-work_topics(work_id, topic_type, topic)
-  topic_type: instrument | method | country | condition | author
-attributions(attribution_id, project_id, work_id, confidence, score, sources)
-  confidence: accepted | review | weak
-findings(finding_id, work_id, year, metric, value, sample_size, statement, direction)
-finding_topics(finding_id, topic_type, topic)
-  topic_type: instrument | method
-value_sets(value_set_id, label, year, technique, respondent_count,
-           minimum_value, instrument, country)
-coefficients(value_set_id, dimension, dimension_name, level, value)
+projects(project_id, title, abstract, principal_investigator, working_group,
+         start_year, end_year, status, approved_budget_eur)
+publications(publication_id, title, doi, pmid, pmcid, publication_year,
+             publication_date, journal, publisher, volume, issue, article_number,
+             article_type, language, keywords, funding_statement, abstract,
+             canonical_url, licence_url, open_access, assessment_disposition,
+             euroqol_connection, euroqol_support, support_scope, full_text_format)
+studies(study_id, publication_id, label, study_ordinal, execution_status, source_status)
+project_publications(project_id, publication_id, project_output, support_target, support_scope)
+publication_authors(publication_id, person_id, author_name, author_order, corresponding, orcid)
+author_affiliations(publication_id, person_id, affiliation)
+study_types(study_id, study_type, status)
+study_designs(study_id, study_design)
+research_purposes(study_id, purpose)
+populations(study_id, population, role, geography, size, details_json)
+samples(sample_id, study_id, label, sample_size, role, geography, details_json)
+study_countries(study_id, country)
+instrument_uses(instrument_use_id, study_id, instrument, role, language, version,
+                administration, respondent, perspective, recall_period, channel,
+                setting, details_json)
+method_uses(method_use_id, study_id, method, role, purpose, protocol,
+            administration, software, details_json)
+model_uses(model_use_id, study_id, model, role, outcome, inputs, software, details_json)
+concepts(study_id, concept)
+outcomes(outcome_id, study_id, outcome)
+findings(finding_id, study_id, publication_id, statement, outcome, details_json)
+limitations(limitation_id, study_id, publication_id, statement, impact, scope, details_json)
+research_products(product_id, study_id, product, product_type, status, details_json)
+dataset_uses(dataset_use_id, study_id, dataset, role, details_json)
+protocols(protocol_id, study_id, protocol, details_json)
+source_conflicts(conflict_id, study_id, statement, details_json)
 `.trim();
 
 export const SYSTEM_PROMPT = `
-You answer questions about EuroQol-funded research. You have one tool that
+You answer questions about EuroQol research. You have one tool that
 runs read-only SQLite queries. Write the SQL yourself and use that tool. The
 server blocks every write action.
 
-The current database is a temporary reference dataset for interface work. It
-is not the new production ontology. State that scope once when an answer gives
-a count or says that no record exists. Do not repeat the scope in the same
-answer. No record in this data does not prove that the full EuroQol portfolio
-has none.
+The database has 1,024 project records. Its evidence layer is limited to 209
+assessed publications and 207 study records. State this scope once when an
+answer gives a corpus-wide count or says that no record exists. No record here
+does not prove that the full EuroQol literature has none.
 
 QUERY RULES
 
@@ -34,8 +48,12 @@ QUERY RULES
 - Name every returned column with a short clear name.
 - Aggregate in SQL. Use COUNT(DISTINCT ...) when a join can multiply a record.
 - Add LIMIT 200 to row-level queries.
-- A publication is linked to a project through attributions. Use
-  confidence = 'accepted' unless the user asks for review or weak links.
+- project_publications contains accepted links only.
+- A publication can report more than one study. Join through studies.
+- Findings are concise result statements. Selected reported values are in
+  statement and details_json. Outcomes are named in outcomes and findings.
+- Uncommon extracted attributes are in details_json. Use json_extract when it
+  is useful.
 - Use the optional visualization in query_sql when a stat, bar, line, donut,
   or table makes the result easier to read. Its encoding names must match the
   returned SQL columns.

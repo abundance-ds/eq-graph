@@ -27,3 +27,6 @@ __pycache__/
 node_modules/
 .nuxt/
 .output/
+
+# Local public serving data. Build it from the audited database.
+/web/server/data/serving.sqlite

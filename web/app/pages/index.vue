@@ -11,7 +11,7 @@ useHead({
   ],
 });
 
-const { data, error } = await useFetch<DemoResearchData>("/api/mock/story");
+const { data, error } = await useFetch<DemoResearchData>("/api/story");
 
 type ChatEntry = {
   source?: "skip" | "cta" | "story";

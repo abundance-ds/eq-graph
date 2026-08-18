@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { queryReferenceSql, SqlReadRejected } from "./referenceSqlite";
+import { queryServingSql, SqlReadRejected } from "./servingSqlite";
 
 const encoding = z.object({
   x: z.string().optional().describe("Category, date, or horizontal-axis column. For bar and donut charts, use the label column."),
@@ -26,7 +26,7 @@ const visualization = z.object({
 
 export const querySql = tool({
   description:
-    "Runs one read-only SQLite query against the temporary EuroQol reference dataset. " +
+    "Runs one read-only SQLite query against the EQ-Graph research serving database. " +
     "The database rejects writes. Add a visualization when a chart or table makes the result easier to read.",
   inputSchema: z.object({
     sql: z.string().describe("One SQLite SELECT or WITH query. Name each returned column."),
@@ -35,7 +35,7 @@ export const querySql = tool({
   }),
   execute: async ({ sql, visualization }) => {
     try {
-      const result = queryReferenceSql(sql);
+      const result = queryServingSql(sql);
       let widget: Record<string, unknown> | undefined;
 
       if (visualization) {

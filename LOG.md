@@ -3,6 +3,72 @@
 Chronological record of what was done, what broke, and how it was fixed.
 Stable knowledge lives in README.md; this file is the narrative.
 
+## 2026-08-18
+
+- Replaced the interface fixtures with a deterministic 6.2 MB SQLite serving
+  database built from the audited graph. It exposes 1,024 projects, 209
+  publications, 207 studies, 242 accepted project links, 871 findings, and 602
+  limitations through simple research tables.
+- Kept full text, local paths, unresolved and external citations, possible
+  project links, and project-link audit reasoning out of the serving database.
+  The integrity, fixed-count, foreign-key, path-leak, and repeat-build checks
+  pass. Two builds from the same input have the same SHA-256.
+- Connected the landing narrative, project-country layout, graph-status route,
+  and AI SQL tool to the serving database. Added `/api/story` and `/api/graph`;
+  the old mock routes remain temporary aliases for designer branches.
+- Corrected the narrative boundary: 1,024 records are funded projects, while
+  209 publications and 207 studies form the current assessed evidence layer.
+  Country displays use studies reached through accepted project links.
+
+- Added a short pipeline recap after the project-first and literature-first
+  routes became easy to confuse. The 305 automated project matches are not the
+  3,148 retained abstract-screen records, and neither count is a completed
+  full-text assessment.
+- Confirmed that the Nuxt application type check and production build pass.
+  The landing page, chat lab, chart gallery, story API, graph API, and SQLite
+  status route respond successfully.
+- Added a short PDF-parser handoff that asks for an established library, not a
+  new custom parser, and separates bibliography parsing from semantic extraction.
+- Hardened citation ingestion. DOI and PMID references can resolve to shared
+  publication nodes; unidentified references remain paper-scoped. Added an
+  explicit corpus-publication view so cited works cannot inflate corpus counts.
+- Reframed the ontology around exact EuroQol research hits: study type,
+  instrument and version, valuation and research method, statistical model,
+  population, product, concept, finding, limitation, and source conflict.
+- Completed version-3 ontology development with 100 competency questions, 100
+  design papers, three independent Markdown proposals, synthesis, and an
+  unchanged ten-paper holdout.
+- Implemented a typed SQLite graph. Shared nodes hold exact query values;
+  paper-specific use nodes hold roles, language, administration, perspective,
+  inputs, and qualifiers. Findings contain aggregate results only.
+- Parsed JATS metadata, authors, affiliations, funding, dates, URLs, and
+  references with deterministic code before semantic extraction.
+- Processed all 209 unique local JATS papers. The final set contains 207
+  included studies, one excluded paper, and one correction notice.
+- Completed an independent full-source audit of all 207 included records with
+  a strong high-reasoning model. A total of 121 passed unchanged and 86 needed
+  at least one material correction. Corrected all 86 and left no unresolved
+  issue. The low-cost pass is now a draft stage, not a publication gate.
+- Compared each paper with all date-eligible projects. Independently audited
+  260 candidate pairs, retained 242 accepted links, and kept 14 possible links
+  as non-materialized assessments. Corrected one false person-support link
+  after final source adjudication.
+- Kept support scope separate from project-output status. The trusted graph has
+  185 study-support, 34 dataset-support, 18 person-support, 3
+  publication-support, and 209 project-output edges.
+- Tested `pdf-inspector` 1.15.0 on exactly six papers. Rejected it as the
+  default because it silently corrupted 304 meaningful minus or inequality
+  signs in five papers. Kept the current converter.
+- Built the final local JATS database with 17,650 nodes, 26,143 relationships,
+  7,030 semantic facts, 871 findings, 602 limitations, and 191 source
+  conflicts. Structure, exact-domain, linkage, integrity, and foreign-key
+  checks pass.
+- Verified the Moroccan value-set path through valuation study, EQ-5D-5L, EQ
+  VAS, cTTO, DCE, conditional logit, heteroskedastic Tobit, hybrid model, and
+  Moroccan value-set and scoring-algorithm products.
+- Moved stale development databases to Trash. They remain recoverable. The
+  audited database is local and is not added to Git.
+
 ## 2026-08-17
 
 - Added a shared designer preview workflow. `pnpm dev:remote` keeps the Nuxt

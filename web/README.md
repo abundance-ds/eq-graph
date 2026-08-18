@@ -2,7 +2,7 @@
 
 This directory contains the Nuxt 4 frontend and Nitro backend.
 
-Use Node 24.11 or later. The temporary SQLite adapter uses the built-in
+Use Node 24.11 or later. The SQLite adapter uses the built-in
 `node:sqlite` authorizer API.
 
 The default page is an interface prototype with three parts:
@@ -15,9 +15,8 @@ The narrative and chat are separate interaction modes. “Skip story” enters t
 chat directly. Completing the story also enters chat. In chat mode, only the
 transcript scrolls. “Back to story” restores the prior narrative position.
 
-The narrative does not need a database connection. The chat needs
-`NUXT_ANTHROPIC_API_KEY` in `.env`. It uses the temporary reference JSON through
-an in-memory SQLite database until the new ontology and database are ready.
+The narrative and chat use the same sanitized SQLite serving database. The chat
+also needs `NUXT_ANTHROPIC_API_KEY` in `.env`.
 
 ## Start the application
 
@@ -44,8 +43,8 @@ Open `http://localhost:3000`.
 `https://eq-graph.shoulde.rs`. The browser still uses one origin, so no CORS
 setup is required. Frontend edits update immediately.
 
-Use `pnpm dev:local` to run the committed fixtures and in-memory SQLite on the
-local computer. The narrative, data APIs and chart gallery need no key. Add
+Use `pnpm dev:local` when `server/data/serving.sqlite` exists on the local
+computer. The narrative, data APIs and chart gallery need no key. Add
 `NUXT_ANTHROPIC_API_KEY` to `.env` only when the local chat must call Anthropic.
 
 Open `/chat-lab` for fixed empty, working, answer, chart, table and error
@@ -70,25 +69,29 @@ Use `pnpm build` for a production Node server. The output runs from
 | `/` | Landing page, narrative, and AI chat |
 | `/widgets` | Observable Plot template gallery |
 | `/chat-lab` | Deterministic chat states for interface work |
-| `GET /api/mock/story` | Prototype narrative data |
-| `GET /api/mock/graph` | Prototype globe and dot-layout data |
-| `GET /api/graph/status` | Temporary SQLite dataset totals |
+| `GET /api/story` | Narrative totals, timeline, and topic series |
+| `GET /api/graph` | Globe and project dot-layout data |
+| `GET /api/graph/status` | Serving-database totals |
 | `POST /api/chat` | Streaming AI answer, SQL activity, and chart data |
 
-## Prototype data
+The old `/api/mock/story` and `/api/mock/graph` routes remain as temporary
+aliases for a designer branch that still uses them.
 
-`server/data/reference-graph.json` and `server/data/reference-live.json` are
-temporary interface fixtures. Both main interface parts read them through
-Nitro.
+## Serving data
 
-`server/utils/mockResearch.ts` is the narrative replacement seam.
-`server/utils/referenceSqlite.ts` is the agent replacement seam. It loads the
-fixture into normalized SQLite tables and allows only read actions. Replace that
-loader and the schema prompt when the new ontology is ready. The client and chat
-transport can stay stable.
+`server/data/serving.sqlite` is a generated deployment artifact. It is not in
+Git. Build and check it from the repository root:
 
-The files reproduce the approved reference state. They are not the new
-ontology or the future source of truth.
+```sh
+python3 scripts/build_serving_database.py \
+  --source pilot/ontology-development-v3/production-calibration/graph-neutral-209-run-02/euroqol-research-graph-citation-safe.sqlite \
+  --output web/server/data/serving.sqlite
+python3 scripts/check_serving_database.py web/server/data/serving.sqlite
+```
+
+The public database excludes full text, local paths, unresolved citations,
+possible project links, and audit reasoning. See
+[`docs/APP_DATA_ADAPTER.md`](../docs/APP_DATA_ADAPTER.md).
 
 ## Chart system
 
@@ -113,8 +116,8 @@ before it becomes available to chat.
 `query_sql`. The same call can request a chart from the shared renderer. There
 is no tool for each subject and no unrestricted write connection.
 
-The new database is a clean design. No Neo4j-to-SQLite migration is required.
-The current temporary adapter already uses the intended one-tool boundary.
+The agent receives one concise schema and one read-only SQL tool. The SQLite
+authorizer rejects writes, schema changes, and PRAGMA actions.
 
 ## Checks
 

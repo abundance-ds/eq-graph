@@ -17,7 +17,7 @@ export type DemoTimelineRow = {
   works: number;
 };
 
-export type DemoTopic = "instruments" | "countries" | "journals" | "conditions" | "methods" | "groups" | "overview";
+export type DemoTopic = "instruments" | "countries" | "journals" | "concepts" | "methods" | "groups" | "overview";
 
 export type DemoResearchData = {
   meta: {
@@ -28,6 +28,7 @@ export type DemoResearchData = {
   portfolio: {
     projects: number;
     works: number;
+    studies: number;
     linkedWorks: number;
     linkedWorksDelta: number | null;
     acceptedLinks: number;
@@ -38,7 +39,7 @@ export type DemoResearchData = {
     groups: number;
     authors: number;
     journals: number;
-    conditions: number;
+    concepts: number;
     methods: number;
     valueSets: number;
     valueSetsDelta: number | null;
@@ -48,8 +49,8 @@ export type DemoResearchData = {
     lastYear: number;
     firstWorkYear: number;
     busiestWorkYear: number;
-    participants: number;
-    findingsWithSampleSize: number;
+    participants: number | null;
+    samplesWithSize: number;
   };
   timeline: DemoTimelineRow[];
   coverage: Record<Exclude<DemoTopic, "overview">, number>;
@@ -57,7 +58,7 @@ export type DemoResearchData = {
   groups: DemoSeries[];
   instruments: DemoSeries[];
   journals: DemoSeries[];
-  conditions: DemoSeries[];
+  concepts: DemoSeries[];
   methods: DemoSeries[];
   sources: DemoSource[];
   questions: string[];

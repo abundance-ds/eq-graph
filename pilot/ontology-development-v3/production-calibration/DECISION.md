@@ -2,56 +2,51 @@
 
 ## Decision
 
-The one-pass pipeline is approved and complete for the existing JATS corpus.
+The ontology, typed SQLite model, and audited 209-paper JATS graph are approved for application integration and researcher review.
 
-- Use `gpt-5.6-luna` for the first paper pass.
-- In one pass, decide corpus inclusion and conditionally extract the full
-  research record.
-- Parse publication metadata from JATS before the AI pass.
-- Keep the AI output as readable Markdown with a flat typed search index.
-- Validate, normalize, and load into SQLite with deterministic code.
-- Use a stronger model only for a record that fails a check or a manual audit.
-- Do not use separate routine agents for filtering, extraction, and
-  normalization.
-- Do not use Neo4j for this stage. The tested questions do not justify it.
+- Use one AI call per paper for full-text inclusion and conditional semantic extraction.
+- Treat that output as a draft.
+- Require a separate strong-model, full-source verification before trusted graph loading.
+- Parse JATS publication metadata with deterministic code before semantic extraction.
+- Keep extraction output as readable Markdown with a flat typed fact index.
+- Normalize clear aliases and load the graph with deterministic code.
+- Keep project linkage separate from paper extraction.
+- Keep citations as a secondary provenance layer. Resolve shared cited works
+  only with DOI or PMID evidence. Keep unidentified entries paper-scoped.
+- Do not make the semantic extraction model reproduce PDF bibliographies.
+- Compare each paper with all date-eligible projects.
+- Apply project year as a hard rule. Use author overlap as review evidence only.
+- Materialize only accepted project links. Keep possible links as assessments.
+- Do not use separate routine AI agents for filtering, extraction, and normalization.
+- Use SQLite for this stage. The application does not need Neo4j to answer the tested questions.
 
 ## Evidence
 
 | Test | Result |
 | --- | --- |
-| Source-checked calibration | 29/30 initial decisions; the one failure produced two clear boundary rules |
-| Hard-case lower-cost test | 7/7 decisions and 12/12 critical safety checks |
-| Unseen production sample | 50/50 completed; no run failure |
-| Targeted repair | Three formatting failures repaired; 50/50 final records clean |
-| Remaining JATS set | 129/129 final records clean; stratified source audit found no sampled fact correction |
-| Final calibration rerun | 30/30 expected decisions; 30/30 clean; 22/22 safety checks |
-| Complete local JATS result | 209 unique papers; 206 included studies; two exclusions; one correction notice |
-| Production classifications | 182 direct EQ; 16 application-only; 11 adjacent measurement |
-| SQLite load | 209 publications; 3,731 terms; 5,786 record-term links; 16,471 fact bullets |
-| Database checks | 9/9 pass on the combined database |
+| Ontology development | 100 design papers, 100 competency questions, three independent proposals, synthesis, and ten-paper holdout |
+| Current JATS corpus | 209 publications; 207 included studies; one exclusion; one correction notice |
+| Independent semantic audit | 207/207 included records checked; 121 passed unchanged; 86 corrected; zero unresolved issues |
+| Semantic index | 7,030 facts; 871 findings; 602 limitations; 191 source conflicts |
+| Linkage audit | 260 pairs checked; 242 accepted; 14 possible; zero unresolved graph targets |
+| Typed SQLite graph | 17,650 nodes and 26,143 relationships |
+| Final checks | Structure, exact-domain, linkage, integrity, and foreign-key checks pass |
+| PDF parser comparison | `pdf-inspector` failed: 304 meaningful signs corrupted in five of six papers |
 
-The pilot also retrieved useful flexible concepts and exact domain terms. These
-include states worse than dead, cTTO, DCE, EQ-5D-5L, instrument languages,
-administration modes, statistical models, findings, and limitations.
+## Model decision
 
-## Known limits
+Do not approve `gpt-5.6-luna` or another low-cost model for unattended publication use. The first pass is useful for drafting, but 86 of 207 included records needed at least one material correction during strong source verification.
 
-- The typed index still has small label variations. Deterministic aliases fix
-  clear cases and retain the source form.
-- The first 50 records use several source-locator styles. Combined automatic
-  recognition is 96.7%; later records reach at least 99.8% with one syntax.
-- PDF input has not yet had the same production calibration.
-- The run used local full texts only. It did not start retrieval for the 3,148
-  retained abstract records.
+This is a strict record-level result. It is not a statement that 42% of all facts were wrong. A single material issue fails a record. It does show that selective repair after automatic structure checks is not enough.
 
-## Next actions
+## Input decision
 
-1. Convert and test the 60 local PDF-only files.
-2. Compare PDF text and extraction quality with the JATS baseline.
-3. Use the same one-pass process if PDF quality is adequate.
-4. Start lawful full-text retrieval for the retained abstract set after the PDF
-   gate passes.
+- JATS is the preferred source because it gives structured metadata and clean full text.
+- PDF input must use the retained converter until another engine passes text and symbol checks.
+- The 60 local PDF-only papers need the same semantic audit before graph loading.
 
-No further ontology decision is required before these actions. Stop for human
-review only if the audit finds a repeated semantic failure, if a new study type
-does not fit, or if the inclusion policy needs a change.
+## Scope
+
+This decision applies to the current 209-paper local JATS set. It does not claim that the graph covers all 3,148 retained abstracts or answers all 100 questions completely.
+
+No ontology decision is required before application integration or PDF processing. Stop for user review only if a new paper cannot fit the graph without a structural change, if project-link evidence requires a policy choice, or if a retrieval decision changes legal or cost constraints.

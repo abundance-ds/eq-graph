@@ -23,10 +23,10 @@ type DataStatus = {
 };
 
 const EXAMPLES = [
-  "Show the accepted publications for project 341-RA.",
+  "Show the accepted publications for project 2014030.",
   "Which instruments have the most extracted findings?",
-  "Which countries have the most funded projects?",
-  "What does the reference data report about ceiling effects?",
+  "Which countries occur most often in the assessed studies?",
+  "What does the evidence report about ceiling effects?",
 ];
 
 const OPEN = "<followups>";

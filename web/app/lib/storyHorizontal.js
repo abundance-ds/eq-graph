@@ -52,8 +52,8 @@ export function initStory(DATA, TOPO, root, options = {}){
   const findings = live?.findings || []
   const authors = new Set(works.flatMap(w => w.authors || [])).size
   const wgOf = p => String(p.wg || 'Unassigned').split(',')[0].trim()
-  const yearOf = p => { const m = String(p.project_id || '').match(/^(20\d{2})/); const y = m ? +m[1] : null
-    return (y && y >= 2012 && y <= 2026) ? y : null }
+  const yearOf = p => { const y = Number(p.start_year || 0)
+    return (y && y >= 1980 && y <= 2030) ? y : null }
 
   const years = [...new Set(projects.map(yearOf).filter(Boolean))].sort()
 
@@ -106,8 +106,6 @@ export function initStory(DATA, TOPO, root, options = {}){
     return Object.entries(by).sort((a, b) => b[1] - a[1])[0] || null
   })()
   const journals = new Set(works.map(w => w.journal).filter(Boolean)).size
-  const answered = findings.reduce((a, f) => a + (typeof f.n === 'number' ? f.n : 0), 0)
-  const withN = findings.filter(f => typeof f.n === 'number').length
   const valueSets = (live?.valueSets || []).length
   const acceptedLinks = (live?.attributions || []).filter(link => link.confidence === 'accepted')
   const datedByGroup = groups.map(([group]) => [
@@ -118,20 +116,20 @@ export function initStory(DATA, TOPO, root, options = {}){
   const eqHwbDated = datedByGroup.find(([group]) => group === 'EQ-HWB')?.[1] || 0
 
   const BEATS = [
-    { num:fmt(N), head:'Funded studies.', art:'stack',
-      body:`Four decades of research paid for by the EuroQol Research Foundation. Every dot on this screen is one of them.`,
-      so:`The money is the input. The output is evidence. The reference corpus holds <b>${fmt(works.length)}</b> publications and <b>${fmt(findings.length)}</b> extracted findings.`,
+    { num:fmt(N), head:'Research projects.', art:'stack',
+      body:`Every dot is one EuroQol project record. Projects are the funded portfolio; publications and findings form a separate evidence layer.`,
+      so:`The current evidence layer holds <b>${fmt(works.length)}</b> assessed publications and <b>${fmt(findings.length)}</b> extracted findings. It does not yet cover every project.`,
       layout:'scatter' },
 
     { num:years.length ? `${years[0]}–${years[years.length - 1]}` : '—',
       head:'Year by year.', art:'bars',
-      body:`<b>${fmt(dated.length)}</b> of the ${fmt(N)} carry a date so far, and <b>${fmt(since2012)}</b> of those were awarded from 2012 on. The earlier records are still being added.`,
+      body:`<b>${fmt(dated.length)}</b> of the ${fmt(N)} projects have a recorded start year, and <b>${fmt(since2012)}</b> started from 2012 on.`,
       so:`Evidence runs behind the money. The first paper we can trace appears in <b>${firstWork || '—'}</b>, years after the funding picks up, and the busiest year for papers is <b>${busiestWorkYear ? busiestWorkYear[0] : '—'}</b> — long after the studies behind them were paid for.`,
       layout:'years' },
 
-    { num:fmt(counts.country || 0), head:'Countries.', art:'sphere',
-      body:`Each placeable dot sits where its study was run. Records without a country, or with only a region, wait along the bottom.`,
-      so:`A measure written in Europe is now used to record health in <b>${fmt(counts.country || 0)}</b> countries. Used there is not the same as usable there — a country needs its own value set before its answers can carry weight in its own decisions, and <b>${valueSets}</b> of those have been extracted into this graph so far.`,
+    { num:fmt(counts.country || 0), head:'Countries in linked evidence.', art:'sphere',
+      body:`A project is placed only when an accepted publication link leads to a study with a named country. Unlinked projects and records without a country stay unplaced.`,
+      so:`The current linked evidence names <b>${fmt(counts.country || 0)}</b> countries. It also contains <b>${valueSets}</b> research products identified as value sets.`,
       layout:'map' },
 
     { num:fmt(groups.length), head:'Working groups, year by year.', art:'rings',
@@ -140,12 +138,12 @@ export function initStory(DATA, TOPO, root, options = {}){
       layout:'groupYears' },
 
     { num:fmt(acceptedLinks.length), head:'Accepted publication links.', art:'plates',
-      body:`Confirmed project-to-publication links in a reference corpus of <b>${fmt(works.length)}</b> papers, written by <b>${fmt(authors)}</b> researchers across <b>${fmt(journals)}</b> journals.`,
-      so:`Underneath the papers are people. <b>${fmt(answered)}</b> of them answered a questionnaire in the ${fmt(withN)} findings that record a sample size. That is what all of this rests on.`,
+      body:`Confirmed project-to-publication links in the assessed corpus of <b>${fmt(works.length)}</b> papers, written by <b>${fmt(authors)}</b> researchers across <b>${fmt(journals)}</b> journals.`,
+      so:`A link is shown only after it passes the project-year rule and the evidence review. Possible links are not included in this public view.`,
       layout:'arc' },
 
     { num:'∞', head:'It all connects.', art:'lattice',
-      body:`Every study ties to its researchers, countries, methods and conditions — <b>${fmt(counts.condition || 0)}</b> conditions and <b>${fmt(counts.method || 0)}</b> methods in all.`,
+      body:`Study records connect publications to instruments, methods, models, populations, concepts, outcomes, findings and limitations — including <b>${fmt(counts.concept || 0)}</b> concepts and <b>${fmt(counts.method || 0)}</b> methods.`,
       so:`Which means you can ask it a question instead of reading it. Every answer names the papers it came from, and says so when it has nothing.`,
       layout:'web' },
   ]

@@ -22,7 +22,7 @@ onMounted(async () => {
   const [{ initStory }, { initGlobe }, data, topo] = await Promise.all([
     import("../lib/storyHorizontal.js"),
     import("../lib/globe.js"),
-    $fetch<DemoGraphData>("/api/mock/graph"),
+    $fetch<DemoGraphData>("/api/graph"),
     $fetch<Record<string, any>>("/data/countries-50m.json"),
   ]);
   if (disposed || !root.isConnected) return;
@@ -53,10 +53,10 @@ onMounted(async () => {
   const key = root.querySelector<HTMLElement>("[data-key-body]");
   if (key) {
     key.innerHTML =
-      `<b>Every country EuroQol-funded research has run in — ${facts.countries} of them.</b>`
-      + ` A country lights in proportion to how much research it holds, so `
-      + `${facts.top?.[0]} burns brightest with ${facts.top?.[1]} studies. The faint `
-      + `outlines are everywhere else, still dark.`;
+      `<b>Countries represented in accepted project-publication links — ${facts.countries} so far.</b>`
+      + ` A country lights in proportion to its linked project count, so `
+      + `${facts.top?.[0]} is brightest with ${facts.top?.[1]} linked projects. The faint `
+      + `outlines have no placeable linked evidence in this preview.`;
   }
 
   const keyButton = root.querySelector<HTMLButtonElement>("[data-key-toggle]");

@@ -15,14 +15,21 @@ Executed by [Shoulders](https://shoulde.rs).
 ## Project flow
 
 ```text
-project and member records
-  -> author and paper discovery
-  -> title-and-abstract screening
-  -> full-text retrieval
-  -> full-text assessment and evidence extraction
-  -> graph loading
-  -> Nuxt application
+project-first route                         literature-first route
+1,024 projects                             author and funder searches
+  -> strong project-work matches             -> 28,600 distinct records
+  -> 287 held full texts                      -> 18,348 screened abstracts
+  -> 209 unique JATS papers                   -> 3,148 retained records
+  -> assessment and extraction                -> full-text retrieval pending
+                    \                       /
+                     -> graph -> application
 ```
+
+These routes are separate. The 305 project-first works passed an automated
+link threshold; they did not pass the later full-text assessment. The 3,148
+literature-first records passed title-and-abstract screening, but their full
+texts have not been retrieved. See the concise
+[`pipeline recap`](docs/PIPELINE_RECAP.md).
 
 The ontology and graph schema develop with the extraction stage.
 Extraction can identify concepts that the schema does not yet represent, and the schema controls how accepted evidence enters the graph.
@@ -32,7 +39,9 @@ Extraction can identify concepts that the schema does not yet represent, and the
 ### Portfolio and publication discovery
 
 - The canonical public export contains **1,024 projects**.
-- The project-first pipeline has **305 distinct works** linked at accepted confidence and **287 full texts** on disk.
+- The project-first pipeline has **305 distinct works** above its automated
+  project-link threshold and **287 full texts** on disk. This is discovery
+  evidence, not a completed full-text assessment.
   The corpus contains Markdown for all 220 JATS XML files and the 7 PDF files used in the ontology pilot.
   The converter supports the remaining PDFs, but they have not been converted in bulk.
 - The author and funding routes produced a deduplicated union of **28,600 records**, including **23,175 articles or reviews**.
@@ -58,17 +67,26 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 
 ### Graph and application
 
-- A real ontology pilot is online in Neo4j Aura. On 2026-08-05 it contains
-  **5,137 nodes**, **8,661 relationships**, **20 projects**, **174 works**,
-  **30 accepted project-work attributions**, and **178 extracted findings**.
-- This Aura load is a small pilot. It is not the complete 1,024-project
-  portfolio or the completed Protocol 2.0 screen. Its record counts will grow.
-- The full closed graph model and Aura DDL are under [`graph/`](graph/).
+- The current audited SQLite graph covers **209 local JATS publications** and
+  **207 included studies**. It contains **17,650 nodes**, **26,143 typed
+  relationships**, **871 principal findings**, **602 limitations**, and **191
+  source conflicts**.
+- An independent full-source audit checked all 207 included records. It passed
+  121 unchanged, corrected 86, and left no unresolved material issue. A strong
+  source-verification pass is now mandatory after the low-cost draft pass.
+- The project-link audit checked 260 paper-project pairs. The final graph has
+  **242 accepted links** and keeps **14 possible links** as reviewable
+  assessments without trusted support or output edges.
+- The former Aura load is a historical small pilot. It is not the current data
+  foundation. The closed Aura model under [`graph/`](graph/) is a baseline.
 - The Nuxt 4 application under [`web/`](web/) now has one integrated landing page,
   six-part research narrative, and chat interface.
-- The interface reads two temporary JSON reference fixtures through Nitro.
-  They drive the narrative while the new ontology and SQLite schema are built.
-- The real streaming AI agent is connected to the same reference records through
+- The interface now reads a deterministic, sanitized SQLite serving database
+  built from the audited graph. It exposes 1,024 projects, 209 assessed
+  publications, 207 studies, 242 accepted project links, 871 findings, and 602
+  limitations. Full text, local paths, unresolved citations, possible links,
+  and audit reasoning stay outside the public database.
+- The real streaming AI agent is connected to the same serving records through
   one read-only SQLite query tool. SQLite rejects write actions. The agent can
   return stat, bar, line, donut, and table specifications to the shared renderer.
 - The Observable Plot template gallery remains available at `/widgets`. The chat
@@ -79,11 +97,11 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   Human review selected a paper-first structure and clarified that the target is a detailed EuroQol research ontology, not a general research ontology.
   [`pilot/ontology-development-v2/`](pilot/ontology-development-v2/README.md) reruns three independent lineages to discover useful domain granularity before a new database design.
 - The version-3 work tested exact EuroQol domain facts against 100 competency
-  questions, 100 design papers, and source-checked holdouts. A final one-pass
-  pipeline now combines full-text assessment and conditional extraction. It
-  has processed all 209 unique local JATS papers. All 209 records pass the
-  deterministic checks, and the combined SQLite load passes all nine database
-  and search checks. See
+  questions, 100 design papers, three independent proposals, and a source-checked
+  holdout. One paper call combines full-text assessment and conditional draft
+  extraction; deterministic code then normalizes and loads source-verified
+  facts. The final database passes structure, exact-domain, linkage, integrity,
+  and foreign-key checks. See
   [`pilot/ontology-development-v3/production-calibration/DECISION.md`](pilot/ontology-development-v3/production-calibration/DECISION.md).
 
 ## Repository map
@@ -100,7 +118,7 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 | [`scale/protocol-2.0/`](scale/protocol-2.0/) | Validated scale checkpoint, compact results, and a manifest of the complete local scale tree |
 | [`corpus/`](corpus/README.md) | Retrieved full text converted to Markdown for extraction |
 | [`graph/`](graph/) | Neo4j ontology, schema, constraints, and indexes |
-| [`web/`](web/) | Nuxt server, narrative, AI chat, chart templates, and temporary SQLite adapter |
+| [`web/`](web/) | Nuxt server, narrative, AI chat, chart templates, and read-only SQLite adapter |
 | [`docs/`](docs/) | Method, provenance, graph design, work plan, decisions, and proposal |
 
 See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration boundary between tracked source, compact evidence, and local working data.
@@ -110,6 +128,7 @@ See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration
 - [`protocol-2.0.md`](protocol-2.0.md) is the canonical Protocol 2.0 method and status record.
 - [`docs/METHOD_SIMPLE.md`](docs/METHOD_SIMPLE.md) is the short governing method.
 - [`docs/PROVENANCE.md`](docs/PROVENANCE.md) identifies the source-to-result evidence trail.
+- [`docs/PIPELINE_RECAP.md`](docs/PIPELINE_RECAP.md) separates the two discovery routes and records the current model and audit boundary.
 - [`LOG.md`](LOG.md) is the chronological build log.
 - [`scale/protocol-2.0/SCALE_STATUS.md`](scale/protocol-2.0/SCALE_STATUS.md) records the current scale funnel and work queue.
 - [`docs/COMPETENCY_QUESTIONS.md`](docs/COMPETENCY_QUESTIONS.md) defines 100 broad graph and application questions plus 20 negative tests.
@@ -150,9 +169,10 @@ the shared preview API. Fixed chat states are available at `/chat-lab`. See
 
 Shared interface preview: [eq-graph.shoulde.rs](https://eq-graph.shoulde.rs)
 
-The narrative does not need a database. The AI chat needs the Anthropic key in
-`web/.env`. See [`DESIGN.md`](DESIGN.md) for the interface system and
-[`web/README.md`](web/README.md) for its data seam.
+The narrative and chat use the same generated serving database. The AI chat
+also needs the Anthropic key in `web/.env`. See [`DESIGN.md`](DESIGN.md) for
+the interface system and [`docs/APP_DATA_ADAPTER.md`](docs/APP_DATA_ADAPTER.md)
+for the data boundary.
 
 ## Data and repository rules
 
@@ -174,11 +194,11 @@ No credential belongs in Git.
 
 ## Next gates
 
-1. Complete an independent human sample check of retained and excluded screening decisions.
-2. Resolve the held identity queue and create an additive tranche for newly accepted profiles.
-3. Confirm the final retained set without replacing the completed 918-batch screen.
-4. Retrieve lawful scale full text and keep unavailable papers unassessed.
-5. Assess EuroQol connection, funding scope, project links, and graph evidence.
-6. Expand the Aura pilot with accepted evidence and evaluate the graph and application.
-7. Calibrate PDF text input on the 60 local PDF-only files.
-8. Start lawful scale full-text retrieval after the PDF gate passes.
+1. Process the 60 local PDF-only papers with a validated general paper parser
+   and the same source-verification gate.
+2. Complete an independent human sample check of retained and excluded screening decisions.
+3. Resolve the held identity queue and create an additive tranche for newly accepted profiles.
+4. Confirm the final retained set without replacing the completed 918-batch screen.
+5. Retrieve lawful scale full text and keep unavailable papers unassessed.
+6. Repeat extraction, source audit, serving-database build, and project linkage
+   for each new full-text tranche.

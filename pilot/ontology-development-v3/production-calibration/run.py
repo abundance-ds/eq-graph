@@ -38,11 +38,24 @@ def read_usage(path: Path) -> dict[str, int]:
     return usage
 
 
-def run_one(row: dict[str, str], run_dir: Path, model: str, force: bool) -> dict:
+def run_one(
+    row: dict[str, str],
+    run_dir: Path,
+    model: str,
+    force: bool,
+    reasoning_effort: str | None,
+) -> dict:
     record_id = row["record_id"]
     output_dir = run_dir / "records"
     trace_dir = run_dir / "traces"
-    work_dir = run_dir / "work" / record_id
+    work_dir = (
+        REPO_ROOT / row["work_path"]
+        if row.get("work_path")
+        else run_dir / "work" / record_id
+    )
+    work_dir = work_dir.resolve()
+    if REPO_ROOT not in work_dir.parents:
+        raise ValueError(f"work path must stay in repository: {work_dir}")
     for path in (output_dir, trace_dir, work_dir):
         path.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"{record_id}.md"
@@ -75,6 +88,11 @@ def run_one(row: dict[str, str], run_dir: Path, model: str, force: bool) -> dict
         str(output_path),
         "-",
     ]
+    if reasoning_effort:
+        command[command.index("-m"):command.index("-m")] = [
+            "-c",
+            f'model_reasoning_effort="{reasoning_effort}"',
+        ]
     started = time.time()
     with input_path.open("r", encoding="utf-8") as stdin, trace_path.open(
         "w", encoding="utf-8"
@@ -106,6 +124,10 @@ def main() -> None:
     parser.add_argument("--run", default="run-01")
     parser.add_argument("--model", default="gpt-5.6-terra")
     parser.add_argument("--workers", type=int, default=3)
+    parser.add_argument(
+        "--reasoning-effort",
+        choices=("low", "medium", "high", "xhigh", "max", "ultra"),
+    )
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--ids", help="comma-separated record IDs; default is all")
     parser.add_argument("--manifest", default="MANIFEST.tsv")
@@ -126,7 +148,14 @@ def main() -> None:
     results: list[dict] = []
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         futures = {
-            executor.submit(run_one, row, run_dir, args.model, args.force): row["record_id"]
+            executor.submit(
+                run_one,
+                row,
+                run_dir,
+                args.model,
+                args.force,
+                args.reasoning_effort,
+            ): row["record_id"]
             for row in manifest
         }
         for future in as_completed(futures):
@@ -142,6 +171,7 @@ def main() -> None:
         "run": args.run,
         "model": args.model,
         "workers": args.workers,
+        "reasoning_effort": args.reasoning_effort,
         "manifest": args.manifest,
         "manifest_sha256": hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
         "records": len(results),
