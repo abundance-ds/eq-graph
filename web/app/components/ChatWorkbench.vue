@@ -245,12 +245,16 @@ onMounted(() => {
                once a conversation exists; before that they belong here, in the
                middle, directly above the composer as one centred group. -->
           <section v-if="!started" class="chat-empty">
-            <h1 class="chat-opening-title">Research explorer</h1>
+            <!-- Two tones in one line: the noun carries, the qualifier recedes.
+                 It is the whole typographic idea of the opening — one large
+                 line doing the work that a title, a rule and a box would
+                 otherwise be needed for. -->
+            <h1 class="chat-opening-title">Research <span>explorer</span></h1>
             <p class="chat-opening-counts">
               <template v-if="dataState === 'ready'">
-                {{ counts.projects.toLocaleString('en') }} projects
-                · {{ counts.works.toLocaleString('en') }} publications
-                · {{ counts.findings.toLocaleString('en') }} findings
+                You have <b>{{ counts.projects.toLocaleString('en') }} projects</b>,
+                <b>{{ counts.works.toLocaleString('en') }} publications</b> and
+                <b>{{ counts.findings.toLocaleString('en') }} findings</b> ready to explore.
               </template>
               <template v-else-if="dataState === 'error'">Research data unavailable</template>
               <template v-else>Connecting to the research data</template>
@@ -338,10 +342,17 @@ onMounted(() => {
       <!-- Suggestions sit under the composer in the opening fold, so the eye
            lands on the place you type first and the examples read as help
            rather than as the main event. -->
+      <!-- Suggestions carry a magnifier, so they read as questions you can run
+           rather than as tags. No lead-in sentence: the placeholder above has
+           already said what this box is for, and saying it twice is what makes
+           an opening screen feel padded. -->
       <section v-if="!started" class="chat-opening-examples" aria-label="Example questions">
-        <p>Ask about funded research and its evidence, or try one of these:</p>
         <div class="chat-examples">
           <button v-for="question in examples" :key="question" type="button" :disabled="busy" @click="send(question)">
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8" />
+              <path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
             {{ question }}
           </button>
         </div>

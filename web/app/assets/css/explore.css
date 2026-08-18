@@ -133,14 +133,10 @@
   padding:1.2rem .25rem .8rem;
 }
 
-.chat-empty{max-width:38rem;}
-.chat-empty h1{
-  margin:0 0 .35rem;
-  color:var(--ink-1);
-  font:500 1.05rem/1.35 var(--font-display);
-  letter-spacing:-.015em;
-}
-.chat-empty > p{margin:0 0 .7rem; color:var(--ink-3); font-size:.8rem;}
+/* The opening block's own type is set further down, with the rest of the
+   opening fold. These two rules used to size it here and, being one level more
+   specific than a class on the element itself, silently won — which is exactly
+   the specificity trap that makes a stylesheet feel haunted. */
 .chat-examples{display:flex; flex-direction:column; align-items:flex-start; gap:.4rem;}
 .chat-examples button,
 .chat-followups button,
@@ -234,50 +230,61 @@
 }
 .chat-followups button{min-height:32px; padding:.35rem .65rem; font-size:.72rem;}
 
+/* One filled surface, no border.
+
+   A border draws a box around the box — the fill already says "this is where
+   you type", so the outline only adds a line to look at. The send control sits
+   INSIDE that surface at the bottom right, which is what makes the whole thing
+   read as a single field rather than an input with a button stuck beside it. */
 .chat-composer{
-  display:flex;
-  align-items:flex-end;
-  gap:.5rem;
+  position:relative;
+  display:block;
+  border-radius:14px;
+  background:var(--sunk, #f4f3f0);
+  transition:box-shadow .15s ease;
+}
+.chat-composer:focus-within{
+  box-shadow:0 0 0 2px rgba(0,125,108,.16);
 }
 .chat-composer textarea{
-  min-height:44px;
-  max-height:120px;
-  flex:1;
+  display:block;
+  width:100%;
+  min-height:52px;
+  max-height:160px;
   resize:none;
   overflow-y:auto;
-  padding:.68rem .75rem;
-  border:1px solid var(--hairline-strong);
-  border-radius:8px;
+  padding:1rem 3.6rem 1rem 1.1rem;
+  border:0;
+  border-radius:14px;
   outline:0;
-  background:var(--surface);
+  background:transparent;
   color:var(--ink-1);
-  font:400 .9rem/1.45 var(--font-body);
+  font:400 .95rem/1.5 var(--font-body);
 }
 .chat-composer textarea::placeholder{color:var(--ink-3);}
-.chat-composer textarea:focus{
-  border-color:var(--accent);
-  box-shadow:0 0 0 3px rgba(0,125,108,.1);
-}
-/* A round arrow, sized to the composer's own height and no wider. The word
-   "Ask" made the control as wide as a sentence for something the placeholder
-   has already explained. */
+/* Inside the field, bottom right. A soft rounded square rather than a dark
+   circle: at rest it should sit quietly in the surface it lives on, and only
+   step forward once there is something to send. */
 .chat-composer > button{
-  width:44px;
-  min-width:44px;
-  height:44px;
+  position:absolute;
+  right:.6rem;
+  bottom:.6rem;
+  width:34px;
+  min-width:34px;
+  height:34px;
   padding:0;
-  flex:none;
   display:flex;
   align-items:center;
   justify-content:center;
   border:0;
-  border-radius:50%;
-  background:var(--ink-1);
-  color:#fff;
+  border-radius:9px;
+  background:var(--hairline, #e4e1da);
+  color:var(--ink-2);
   cursor:pointer;
-  transition:background .15s ease, opacity .15s ease;
+  transition:background .15s ease, color .15s ease, opacity .15s ease;
 }
-.chat-composer > button:hover{background:var(--accent);}
+.chat-composer > button:not(:disabled){background:var(--ink-1); color:#fff;}
+.chat-composer > button:not(:disabled):hover{background:var(--accent);}
 .chat-composer > button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
 .chat-composer > button:disabled{opacity:.32; cursor:default;}
 .chat-send-busy{
@@ -327,34 +334,70 @@
 }
 
 .chat-empty{max-width:none; text-align:center;}
+
+/* The opening line is the design. One large, tightly-tracked line carries the
+   whole fold, which is why nothing around it needs a border or a rule to hold
+   it together. Two tones: the noun in ink, the qualifier stepped back. */
 .chat-opening-title{
-  margin:0 0 .4rem;
+  margin:0 0 .55rem;
   color:var(--ink-1);
-  font:500 1.6rem/1.25 var(--font-display);
-  letter-spacing:-.02em;
+  font-family:var(--font-display);
+  font-weight:500;
+  font-size:clamp(2.1rem, 4.4vw, 3.4rem);
+  line-height:1.1;
+  letter-spacing:-.03em;
 }
-/* Smaller than the title and directly under it — the supporting line, not a
-   readout. Same three facts as the header shows once a conversation starts. */
+.chat-opening-title span{color:var(--ink-3);}
+
+/* The counts as a sentence, not a readout. Each number is marked with a hairline
+   underline rather than bold or colour — enough to be picked out while
+   scanning, quiet enough that the line still reads as one thought. */
 .chat-opening-counts{
-  margin:0 0 1.5rem;
-  color:var(--ink-3);
-  font:400 .82rem/1.5 var(--font-body);
+  margin:0 0 2.2rem;
+  color:var(--ink-2);
+  font:400 1rem/1.6 var(--font-body);
 }
+.chat-opening-counts b{
+  font-weight:400;
+  color:var(--ink-1);
+  border-bottom:1px solid var(--hairline-strong);
+  padding-bottom:1px;
+}
+
 .chat-opening-examples{
   width:min(50rem, calc(100% - 2.5rem));
-  margin:1.1rem auto 0;
+  margin:1.6rem auto 0;
   text-align:center;
 }
-.chat-opening-examples > p{
-  margin:0 0 .7rem;
-  color:var(--ink-3);
-  font:400 .82rem var(--font-body);
+/* Centred and wrapping, so the row finds its own shape instead of being ruled
+   into a column. */
+.chat-shell.is-opening .chat-examples{
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  gap:.55rem;
 }
-.chat-shell.is-opening .chat-examples{ align-items:center; }
+.chat-shell.is-opening .chat-examples button{
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  border-radius:10px;
+  padding:.5rem .9rem;
+  font-size:.86rem;
+  color:var(--ink-1);
+}
+.chat-shell.is-opening .chat-examples button svg{color:var(--ink-3); flex:none;}
 
 /* The opening group sits a little above true centre. Dead centre reads as
    floating; slightly high reads as placed. */
-.chat-shell.is-opening .chat-thread{ margin-top:12vh; }
+.chat-shell.is-opening .chat-thread{ margin-top:11vh; }
+
+/* The opening composer is narrower than the thread — a field the width of the
+   page reads as a form. This is closer to the measure of the title above it,
+   so the three parts stack as one column. */
+.chat-shell.is-opening .chat-dock{ width:min(38rem, calc(100% - 2.5rem)); }
+.chat-shell.is-opening .chat-composer textarea{ min-height:74px; }
 
 @media (max-width:640px){
   .chat-opening-title{ font-size:1.35rem; }
