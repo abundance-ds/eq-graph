@@ -11,6 +11,9 @@ import type { ChatWidgetSpec } from "../types/chat";
 const props = defineProps<{
   reference?: boolean;
   spec: ChatWidgetSpec;
+  /** Labels currently picked out on this chart. Selection is the comparison —
+      there is no separate "add" step, so this is the whole interaction state. */
+  selected?: string[];
 }>();
 
 const emit = defineEmits<{
@@ -136,7 +139,8 @@ const tableColumns = computed(
         v-for="(bar, i) in bars"
         :key="i"
         type="button"
-        class="bar"
+        :class="['bar', (selected ?? []).includes(bar.label) && 'is-picked']"
+        :aria-pressed="(selected ?? []).includes(bar.label)"
         :aria-label="`${bar.label}: ${fmt(bar.value)}`"
         @click="emit('select', { label: bar.label, value: bar.value })"
       >
@@ -228,6 +232,11 @@ const tableColumns = computed(
 .bars--h .bar__track { height: 0.75rem; background: #f0f1f1; border-radius: 2px; overflow: hidden; }
 .bar { appearance: none; border: 0; padding: 0; width: 100%; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
 .bar:focus-visible { outline: 2px solid var(--widget-accent); outline-offset: 3px; border-radius: 3px; }
+/* A picked row is outlined, not recoloured. The bar's colour already carries
+   its category, so tinting it to show selection would overwrite meaning with
+   state. An outline sits on top of the encoding instead of replacing it. */
+.bar.is-picked { outline: 1.5px solid var(--ink-1, #1c1a17); outline-offset: 4px; border-radius: 4px; }
+.bar:not(.is-picked):hover .bar__fill { filter: brightness(0.94); }
 .bars--h .bar__fill { display: block; height: 100%; background: var(--widget-accent); border-radius: 2px; }
 .bars--v { display: flex; align-items: flex-end; gap: 0.4rem; height: 190px; }
 .bars--v .bar { display: flex; flex-direction: column-reverse; align-items: center; gap: 0.3rem; flex: 1; height: 100%; }

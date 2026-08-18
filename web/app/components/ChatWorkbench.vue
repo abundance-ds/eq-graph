@@ -43,7 +43,7 @@ const emit = defineEmits<{
 const input = ref("");
 const inputEl = ref<HTMLTextAreaElement | null>(null);
 const threadEl = ref<HTMLElement | null>(null);
-const chartSelections = reactive<Record<string, { label: string; value: number }>>({});
+const chartSelections = reactive<Record<string, { label: string; value: number }[]>>({});
 let autoFollow = true;
 let renderedWidgetCount = 0;
 let widgetAnchor: HTMLElement | null = null;
@@ -100,8 +100,44 @@ function chartQuestions(label: string) {
   ];
 }
 
+/* Comparison: selection IS the comparison.
+
+   The reference cost five actions to compare two countries — click a bar, open
+   a panel, press "Add to compare", click the second bar, press it again, then
+   press "Compare 2". "Add to compare" is a second verb for something clicking
+   the bar already said.
+
+   Here the first click picks a row and offers what you can ask about it. The
+   second click picks another and the comparison runs — no confirm step, which
+   is how cross-filtering works in every analytics tool: clicking a data point
+   drives the view directly. Clicking a picked row again releases it.
+
+   Capped at two. Nielsen Norman put the ceiling at five before a comparison
+   stops working as a decision aid, but the answer here is a side-by-side
+   table, and two columns is what reads on one line without scrolling. */
+const COMPARE_LIMIT = 2;
+
 function chooseChart(key: string, value: { label: string; value: number }) {
-  chartSelections[key] = value;
+  const picked = chartSelections[key] ?? [];
+  const already = picked.findIndex((entry) => entry.label === value.label);
+
+  if (already > -1) {
+    // Clicking a picked row releases it. Selection has to be reversible, or
+    // the only way out of a wrong click is to ask a different question.
+    chartSelections[key] = picked.filter((_, index) => index !== already);
+    return;
+  }
+
+  const next = [...picked, value].slice(-COMPARE_LIMIT);
+  chartSelections[key] = next;
+
+  if (next.length === COMPARE_LIMIT) {
+    send(`Compare ${next[0]!.label} and ${next[1]!.label}, measured the same way.`);
+  }
+}
+
+function clearChart(key: string) {
+  chartSelections[key] = [];
 }
 
 function keepLatestVisible() {
@@ -295,18 +331,37 @@ onMounted(() => {
                 <div v-else class="chat-widget-block">
                   <GraphWidget
                     :spec="segment.widget"
+                    :selected="(chartSelections[segment.key] ?? []).map((entry) => entry.label)"
                     reference
                     @select="chooseChart(segment.key, $event)"
                   />
-                  <div v-if="chartSelections[segment.key]" class="chat-chart-actions">
-                    <span>Ask about <strong>{{ chartSelections[segment.key]!.label }}</strong></span>
+                  <p class="chat-chart-hint">Click a bar to ask about it. Click a second to compare the two.</p>
+
+                  <!-- One picked: what you can ask about it. Two picked: the
+                       comparison has already been sent, so this only reports
+                       what is picked and lets you let go of it. -->
+                  <div v-if="(chartSelections[segment.key] ?? []).length === 1" class="chat-chart-actions">
+                    <span>Ask about <strong>{{ chartSelections[segment.key]![0]!.label }}</strong></span>
                     <button
-                      v-for="question in chartQuestions(chartSelections[segment.key]!.label)"
+                      v-for="question in chartQuestions(chartSelections[segment.key]![0]!.label)"
                       :key="question"
                       type="button"
                       :disabled="busy"
                       @click="send(question)"
                     >{{ question }}</button>
+                  </div>
+
+                  <div v-else-if="(chartSelections[segment.key] ?? []).length > 1" class="chat-chart-compare">
+                    <span>Comparing</span>
+                    <button
+                      v-for="entry in chartSelections[segment.key]"
+                      :key="entry.label"
+                      type="button"
+                      class="chat-chip-picked"
+                      :aria-label="`Remove ${entry.label}`"
+                      @click="chooseChart(segment.key, entry)"
+                    >{{ entry.label }} <span aria-hidden="true">×</span></button>
+                    <button type="button" class="chat-chip-clear" @click="clearChart(segment.key)">Clear</button>
                   </div>
                 </div>
               </template>

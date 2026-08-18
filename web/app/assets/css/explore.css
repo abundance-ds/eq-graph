@@ -382,6 +382,52 @@
   font:400 .9rem/1.6 var(--font-body);
 }
 
+/* The one line of instruction the chart needs. Quiet, under the bars, and it
+   says both moves at once so the second is discoverable before you need it. */
+.chat-chart-hint{
+  margin:.5rem 0 0;
+  color:var(--ink-3);
+  font:400 .78rem var(--font-body);
+}
+.chat-chart-compare{
+  margin-top:.6rem;
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:.4rem;
+}
+.chat-chart-compare > span{
+  color:var(--ink-3);
+  font:400 .8rem var(--font-body);
+}
+.chat-chip-picked{
+  display:inline-flex;
+  align-items:center;
+  gap:.4rem;
+  min-height:32px;
+  padding:.3rem .65rem;
+  border:1px solid var(--hairline-strong);
+  border-radius:999px;
+  background:var(--surface);
+  color:var(--ink-1);
+  font:400 .8rem var(--font-body);
+  cursor:pointer;
+}
+.chat-chip-picked:hover{border-color:var(--ink-3);}
+.chat-chip-picked span{color:var(--ink-3);}
+.chat-chip-clear{
+  min-height:32px;
+  padding:.3rem .4rem;
+  border:0;
+  background:none;
+  color:var(--ink-3);
+  font:400 .8rem var(--font-body);
+  text-decoration:underline;
+  text-underline-offset:2px;
+  cursor:pointer;
+}
+.chat-chip-clear:hover{color:var(--ink-1);}
+
 /* Deals a new set rather than asking a question, so it is text and not a chip —
    it should not look like the things it deals. */
 .chat-reshuffle{
