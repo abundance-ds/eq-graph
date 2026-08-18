@@ -188,7 +188,17 @@ onMounted(() => {
     :aria-hidden="active ? undefined : 'true'"
     :inert="!active"
   >
-    <div class="chat-shell">
+    <!-- Two states, one shell.
+
+         Before the first question the fold is centred: title, the counts under
+         it, then the composer — the arrangement every assistant opens with,
+         because with nothing to read yet the only thing worth putting in front
+         of someone is the place they type.
+
+         From the first question on it becomes an ordinary chat window: the
+         title goes to the top bar, the thread takes the height, and the
+         composer sits at the bottom where it stays. -->
+    <div :class="['chat-shell', started ? 'is-conversation' : 'is-opening']">
       <slot name="toolbar" />
 
       <header class="chat-head">
@@ -231,14 +241,20 @@ onMounted(() => {
         @keydown="releaseWidgetAnchor"
       >
         <div class="chat-thread-inner">
-          <section v-if="!started" class="chat-empty" aria-label="Example questions">
-            <h1>Ask about EuroQol research.</h1>
-            <p>Try one of these:</p>
-            <div class="chat-examples">
-              <button v-for="question in examples" :key="question" type="button" :disabled="busy" @click="send(question)">
-                {{ question }}
-              </button>
-            </div>
+          <!-- The opening fold's own title and counts. The header carries them
+               once a conversation exists; before that they belong here, in the
+               middle, directly above the composer as one centred group. -->
+          <section v-if="!started" class="chat-empty">
+            <h1 class="chat-opening-title">Research explorer</h1>
+            <p class="chat-opening-counts">
+              <template v-if="dataState === 'ready'">
+                {{ counts.projects.toLocaleString('en') }} projects
+                · {{ counts.works.toLocaleString('en') }} publications
+                · {{ counts.findings.toLocaleString('en') }} findings
+              </template>
+              <template v-else-if="dataState === 'error'">Research data unavailable</template>
+              <template v-else>Connecting to the research data</template>
+            </p>
           </section>
 
           <article v-for="entry in turns" :key="entry.id" :class="['chat-turn', `is-${entry.role}`]">
@@ -300,11 +316,36 @@ onMounted(() => {
             @input="autoGrow"
             @keydown="onKeydown"
           />
-          <button type="submit" :disabled="busy || !input.trim()">
-            {{ busy ? "Working…" : "Ask" }}
+          <!-- An arrow, not the word "Ask". The placeholder already says what
+               this does, and every assistant uses the same mark — so the arrow
+               is read instantly and in any language. The accessible name stays
+               a verb, because a screen reader gets no shape. -->
+          <button
+            type="submit"
+            class="chat-send"
+            :disabled="busy || !input.trim()"
+            :aria-label="busy ? 'Working' : 'Send question'"
+          >
+            <span v-if="busy" class="chat-send-busy" aria-hidden="true" />
+            <svg v-else viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path d="M12 19V5M12 5l-6 6M12 5l6 6" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
           </button>
         </form>
       </div>
+
+      <!-- Suggestions sit under the composer in the opening fold, so the eye
+           lands on the place you type first and the examples read as help
+           rather than as the main event. -->
+      <section v-if="!started" class="chat-opening-examples" aria-label="Example questions">
+        <p>Ask about funded research and its evidence, or try one of these:</p>
+        <div class="chat-examples">
+          <button v-for="question in examples" :key="question" type="button" :disabled="busy" @click="send(question)">
+            {{ question }}
+          </button>
+        </div>
+      </section>
     </div>
   </section>
 </template>

@@ -23,4 +23,15 @@ export default defineNuxtConfig({
   nitro: {
     experimental: { asyncContext: true },
   },
+
+  // Let the dev server be reached through a Cloudflare quick tunnel
+  // (….trycloudflare.com), so a branch can be shown to someone who is not on
+  // this machine. Without this, Vite's dev host check rejects the tunnelled
+  // request before it ever reaches the app. Dev only — it has no effect on a
+  // build, and it opens nothing by itself; a tunnel still has to be started.
+  vite: {
+    server: {
+      allowedHosts: [".trycloudflare.com"],
+    },
+  },
 });

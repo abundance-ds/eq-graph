@@ -258,21 +258,108 @@
   border-color:var(--accent);
   box-shadow:0 0 0 3px rgba(0,125,108,.1);
 }
+/* A round arrow, sized to the composer's own height and no wider. The word
+   "Ask" made the control as wide as a sentence for something the placeholder
+   has already explained. */
 .chat-composer > button{
-  min-width:4.4rem;
-  min-height:44px;
-  padding:0 .95rem;
+  width:44px;
+  min-width:44px;
+  height:44px;
+  padding:0;
+  flex:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   border:0;
-  border-radius:8px;
+  border-radius:50%;
   background:var(--ink-1);
   color:#fff;
-  font-size:.82rem;
-  font-weight:500;
   cursor:pointer;
+  transition:background .15s ease, opacity .15s ease;
 }
 .chat-composer > button:hover{background:var(--accent);}
 .chat-composer > button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
 .chat-composer > button:disabled{opacity:.32; cursor:default;}
+.chat-send-busy{
+  width:15px; height:15px;
+  border:2px solid rgba(255,255,255,.32);
+  border-top-color:#fff;
+  border-radius:50%;
+  animation:chat-send-spin .8s linear infinite;
+}
+@keyframes chat-send-spin{ to{ transform:rotate(360deg); } }
+@media (prefers-reduced-motion: reduce){ .chat-send-busy{animation:none;} }
+
+/* ══════════════ The opening fold ══════════════
+   Before the first question there is nothing to read, so the composer is the
+   only thing worth putting in front of someone — centred, with the title and
+   the counts directly above it and the suggestions below.
+
+   The header is hidden here because it would say "Research explorer" twice.
+   The back control is the one thing from it that still has a job, so it is
+   floated on its own.
+
+   Everything is the same DOM in both states; only the box that grows changes.
+   That is what lets the title travel to the top bar on the first question
+   without anything being rebuilt. */
+.chat-shell.is-opening .chat-head{
+  border-bottom:0;
+  padding-bottom:0;
+}
+.chat-shell.is-opening .chat-brand,
+.chat-shell.is-opening .chat-data-state{ display:none; }
+
+.chat-shell.is-opening .chat-head-main{ justify-content:flex-end; }
+
+/* The thread stops being the thing that grows; the dock does, so the composer
+   sits on the optical centre rather than being pushed to the floor. */
+.chat-shell.is-opening .chat-thread{ flex:0 0 auto; overflow:visible; }
+.chat-shell.is-opening .chat-thread-inner{ min-height:0; padding-bottom:0; }
+/* Nothing in the opening fold grows. The title, the counts, the composer and
+   the suggestions stack as one block and the empty space falls below them —
+   if the dock stretches instead, the suggestions get pushed to the floor and
+   read as unrelated to the box they belong to. */
+.chat-shell.is-opening .chat-dock{
+  flex:none;
+  border-top:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.chat-empty{max-width:none; text-align:center;}
+.chat-opening-title{
+  margin:0 0 .4rem;
+  color:var(--ink-1);
+  font:500 1.6rem/1.25 var(--font-display);
+  letter-spacing:-.02em;
+}
+/* Smaller than the title and directly under it — the supporting line, not a
+   readout. Same three facts as the header shows once a conversation starts. */
+.chat-opening-counts{
+  margin:0 0 1.5rem;
+  color:var(--ink-3);
+  font:400 .82rem/1.5 var(--font-body);
+}
+.chat-opening-examples{
+  width:min(50rem, calc(100% - 2.5rem));
+  margin:1.1rem auto 0;
+  text-align:center;
+}
+.chat-opening-examples > p{
+  margin:0 0 .7rem;
+  color:var(--ink-3);
+  font:400 .82rem var(--font-body);
+}
+.chat-shell.is-opening .chat-examples{ align-items:center; }
+
+/* The opening group sits a little above true centre. Dead centre reads as
+   floating; slightly high reads as placed. */
+.chat-shell.is-opening .chat-thread{ margin-top:12vh; }
+
+@media (max-width:640px){
+  .chat-opening-title{ font-size:1.35rem; }
+  .chat-shell.is-opening .chat-thread{ margin-top:6vh; }
+}
 
 @media (max-width:640px){
   .chat-head,
