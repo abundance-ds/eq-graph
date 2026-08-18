@@ -349,20 +349,55 @@
 }
 .chat-opening-title span{color:var(--ink-3);}
 
-/* The counts as a sentence, not a readout. Each number is marked with a hairline
-   underline rather than bold or colour — enough to be picked out while
-   scanning, quiet enough that the line still reads as one thought. */
+/* Three small KPIs under the title. Number over noun, set side by side so the
+   three can be compared at a glance — which is the only reason to show three
+   counts at once rather than write them into a sentence. Small: the title is
+   the voice here, these are the footing under it. No borders, no tiles; the
+   spacing between them is what separates them. */
+.chat-kpis{
+  margin:0 0 2.2rem;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:0 2.6rem;
+}
+.chat-kpis > div{text-align:center;}
+.chat-kpis dt{
+  color:var(--ink-1);
+  font:500 1.25rem/1.2 var(--font-display);
+  letter-spacing:-.01em;
+  font-variant-numeric:tabular-nums;
+}
+.chat-kpis dd{
+  margin:.1rem 0 0;
+  color:var(--ink-3);
+  font:400 .78rem/1.4 var(--font-body);
+}
+
+/* Only the connecting / unavailable states still speak in a sentence — there
+   are no numbers to show yet, and a status is prose. */
 .chat-opening-counts{
   margin:0 0 2.2rem;
-  color:var(--ink-2);
-  font:400 1rem/1.6 var(--font-body);
+  color:var(--ink-3);
+  font:400 .9rem/1.6 var(--font-body);
 }
-.chat-opening-counts b{
-  font-weight:400;
-  color:var(--ink-1);
-  border-bottom:1px solid var(--hairline-strong);
-  padding-bottom:1px;
+
+/* Deals a new set rather than asking a question, so it is text and not a chip —
+   it should not look like the things it deals. */
+.chat-reshuffle{
+  display:inline-flex;
+  align-items:center;
+  gap:.4rem;
+  min-height:36px;
+  padding:.45rem .5rem;
+  border:0 !important;
+  background:none !important;
+  color:var(--ink-3);
+  font:400 .86rem var(--font-body);
+  cursor:pointer;
 }
+.chat-reshuffle:hover{color:var(--ink-1);}
+.chat-reshuffle:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:6px;}
 
 .chat-opening-examples{
   width:min(50rem, calc(100% - 2.5rem));

@@ -16,6 +16,7 @@ const props = withDefaults(defineProps<{
   followups?: string[];
   stateKey?: string;
   turns?: ChatTurn[];
+  canReshuffle?: boolean;
 }>(), {
   active: true,
   // Just "Back". The arrow already says the direction, and there is only one
@@ -28,6 +29,7 @@ const props = withDefaults(defineProps<{
   error: "",
   examples: () => [],
   followups: () => [],
+  canReshuffle: false,
   stateKey: "",
   turns: () => [],
 });
@@ -35,6 +37,7 @@ const props = withDefaults(defineProps<{
 const emit = defineEmits<{
   send: [question: string];
   back: [];
+  reshuffle: [];
 }>();
 
 const input = ref("");
@@ -250,14 +253,27 @@ onMounted(() => {
                  line doing the work that a title, a rule and a box would
                  otherwise be needed for. -->
             <h1 class="chat-opening-title">Research <span>explorer</span></h1>
-            <p class="chat-opening-counts">
-              <template v-if="dataState === 'ready'">
-                You have <b>{{ counts.projects.toLocaleString('en') }} projects</b>,
-                <b>{{ counts.works.toLocaleString('en') }} publications</b> and
-                <b>{{ counts.findings.toLocaleString('en') }} findings</b> ready to explore.
-              </template>
-              <template v-else-if="dataState === 'error'">Research data unavailable</template>
-              <template v-else>Connecting to the research data</template>
+
+            <!-- Three small KPIs, not a sentence. A number and its noun read
+                 faster as a pair than as prose, and set side by side they can
+                 be compared at a glance — which is the only reason to show
+                 three counts at once. -->
+            <dl v-if="dataState === 'ready'" class="chat-kpis">
+              <div>
+                <dt>{{ counts.projects.toLocaleString('en') }}</dt>
+                <dd>projects</dd>
+              </div>
+              <div>
+                <dt>{{ counts.works.toLocaleString('en') }}</dt>
+                <dd>publications</dd>
+              </div>
+              <div>
+                <dt>{{ counts.findings.toLocaleString('en') }}</dt>
+                <dd>findings</dd>
+              </div>
+            </dl>
+            <p v-else class="chat-opening-counts">
+              {{ dataState === 'error' ? 'Research data unavailable' : 'Connecting to the research data' }}
             </p>
           </section>
 
@@ -354,6 +370,23 @@ onMounted(() => {
               <path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
             </svg>
             {{ question }}
+          </button>
+          <!-- Plain text, not another chip. It deals a new hand rather than
+               asking a question, so it should not look like the things it
+               deals. -->
+          <button
+            v-if="canReshuffle"
+            type="button"
+            class="chat-reshuffle"
+            @click="emit('reshuffle')"
+          >
+            Other questions
+            <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true">
+              <path d="M4 12a8 8 0 0 1 13.7-5.6M20 12a8 8 0 0 1-13.7 5.6" fill="none"
+                    stroke="currentColor" stroke-width="1.9" stroke-linecap="round" />
+              <path d="M17.5 3.5v3.2h-3.2M6.5 20.5v-3.2h3.2" fill="none"
+                    stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
           </button>
         </div>
       </section>

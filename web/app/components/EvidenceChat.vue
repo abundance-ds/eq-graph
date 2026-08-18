@@ -23,12 +23,45 @@ type DataStatus = {
   };
 };
 
-const EXAMPLES = [
-  "Which valuation studies used both cTTO and DCE?",
-  "Which EQ-5D-Y studies compare self-report and proxy report?",
-  "What does the research say about states worse than dead?",
-  "Where are the main evidence gaps by population and country?",
-];
+/* Suggested questions, built from the reference data rather than written by
+   hand. A hardcoded list goes stale the moment the data moves, and worse, it
+   can offer a question the data cannot answer — which is the fastest way to
+   lose someone's trust on their first click.
+
+   Every question below names something that is actually in the graph: a real
+   project, a real instrument, a real working group. Three are shown at a time
+   and "Other questions" deals the next three, so the pool is a way to browse
+   what is here rather than a fixed menu. */
+function buildQuestionPool(data: DemoResearchData): string[] {
+  const pool: string[] = [];
+  const pick = <T,>(list: T[] | undefined, n: number): T[] => (list ?? []).slice(0, n);
+
+  // Questions that hold whatever the data contains.
+  pool.push(
+    "Which countries have the most funded projects?",
+    "Which instruments have the most extracted findings?",
+    "Which journals published this work?",
+    "Which conditions have been studied?",
+    "Where were these studies run?",
+  );
+
+  // Questions naming real records, so a click lands on something that exists.
+  for (const project of pick(data.projects, 2)) {
+    if (project?.id) pool.push(`Show the accepted publications for project ${project.id}.`);
+  }
+  for (const instrument of pick(data.instruments?.filter((entry) => entry.isEuroQol), 3)) {
+    if (instrument?.name) pool.push(`Where has ${instrument.name} been used?`);
+  }
+  for (const group of pick(data.workingGroups, 2)) {
+    if (group?.name) pool.push(`What has the ${group.name} working group produced?`);
+  }
+  const metrics = [...new Set((data.findings ?? []).map((finding) => finding.metric).filter(Boolean))];
+  for (const metric of metrics.slice(0, 2)) {
+    pool.push(`What does the evidence say about ${String(metric).replace(/_/g, " ")}?`);
+  }
+
+  return pool;
+}
 
 const OPEN = "<followups>";
 const CLOSE = "</followups>";
@@ -129,6 +162,19 @@ onMounted(() => {
 onBeforeUnmount(() => {
   if (graphRefreshTimer) clearInterval(graphRefreshTimer);
 });
+
+/* Three at a time, dealt from the pool. "Other questions" advances the window
+   and wraps, so it always gives you something and never dead-ends. */
+const questionPool = computed(() => buildQuestionPool(props.data));
+const dealt = ref(0);
+const examples = computed(() => {
+  const pool = questionPool.value;
+  if (!pool.length) return [];
+  return Array.from({ length: Math.min(3, pool.length) }, (_, index) => pool[(dealt.value + index) % pool.length]!);
+});
+function reshuffle() {
+  dealt.value = (dealt.value + 3) % Math.max(1, questionPool.value.length);
+}
 </script>
 
 <template>
@@ -139,10 +185,12 @@ onBeforeUnmount(() => {
     :counts="counts"
     :data-state="dataState"
     :error="chat.error?.message"
-    :examples="EXAMPLES"
+    :examples="examples"
     :followups="followups"
     :turns="turns"
+    :can-reshuffle="questionPool.length > 3"
     @back="emit('return-story')"
+    @reshuffle="reshuffle"
     @send="send"
   />
 </template>
