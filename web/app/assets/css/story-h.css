@@ -466,3 +466,12 @@
   font:500 9.5px var(--font-num);
   fill:var(--ink-3);
 }
+
+/* The name of a whole axis, not one of its ticks — so it sits above the tick
+   labels and reads as the category they belong to. */
+.sh-chart-scene .viz-axis-title{
+  font:500 10px var(--font-num);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  fill:var(--ink-3);
+}

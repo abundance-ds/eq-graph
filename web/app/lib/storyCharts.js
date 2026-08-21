@@ -182,10 +182,10 @@ function coverageMatrix(studies, width, height){
      bottom row now says, in a whole screen of its own. */
   const compact = width < 560
   const left = compact ? 100 : 172
-  const top = compact ? 68 : 74
+  const top = compact ? 74 : 92   // room for the axis title above the names
   const bottom = 70   // room for the margin captions
-  const totalW = compact ? 40 : 54
-  const cellW = (width - left - totalW - 10) / COVERAGE_COLUMNS.length
+  const totalW = compact ? 40 : 50
+  const cellW = (width - left - totalW - 34) / COVERAGE_COLUMNS.length   // 34 leaves the rotated label its lane
   const cellH = (height - top - bottom) / (COVERAGE_ROWS.length + 1)
 
   const columnTotals = COVERAGE_COLUMNS.map(([instrument]) => countWhere(
@@ -209,14 +209,13 @@ function coverageMatrix(studies, width, height){
       `<text class="viz-label" x="${left - 10}" y="${y(index) + cellH * .62}" text-anchor="end">${escapeText(titleCase(row))}</text>`).join('')
     + COVERAGE_COLUMNS.map(([, short], index) =>
       `<text class="viz-axis is-strong" x="${x(index) + cellW / 2}" y="${top - 24}" text-anchor="middle">${escapeText(short)}</text>`).join('')
-    /* Both margins say what they are the total OF. "Total" on its own is the
-       one word that guarantees the reader has to work it out: a total of the
-       row, or of the column, or of the whole table? The row label names the
-       studies being summed, and the caption under each margin names the
-       direction it sums in. */
-    + `<text class="viz-axis is-strong" x="${totalX + totalW / 2}" y="${top - 38}" text-anchor="middle">All</text>`
-    + `<text class="viz-axis" x="${totalX + totalW / 2}" y="${top - 26}" text-anchor="middle">instruments</text>`
-    + `<text class="viz-label" x="${left - 10}" y="${totalY + cellH * .62}" text-anchor="end">All research types</text>`
+    /* Axis titles where a chart puts them: the group name centred over the
+       columns it names, and the margin's meaning rotated alongside the column
+       it belongs to. "All instruments" sitting on top of the totals column was
+       naming the wrong thing — it read as a seventh instrument. */
+    + `<text class="viz-axis-title" x="${left + (COVERAGE_COLUMNS.length * cellW) / 2}" y="${top - 44}" text-anchor="middle">Instruments</text>`
+    + `<text class="viz-axis is-strong" x="${totalX + totalW / 2}" y="${top - 24}" text-anchor="middle">Total</text>`
+    + `<text class="viz-label" x="${left - 10}" y="${totalY + cellH * .62}" text-anchor="end">Total</text>`
 
   const marks = cells.map(item => {
     const opacity = item.value ? .12 + .84 * Math.sqrt(item.share) : .03
@@ -233,9 +232,9 @@ function coverageMatrix(studies, width, height){
       `<text class="viz-cell-total" x="${x(index) + cellW / 2}" y="${totalY + cellH * .62}" text-anchor="middle">${total}</text>`).join('')
     + `<line class="viz-rule" x1="${left - 4}" y1="${totalY - 2}" x2="${totalX + totalW}" y2="${totalY - 2}" />`
     + `<line class="viz-rule" x1="${totalX - 4}" y1="${top - 14}" x2="${totalX - 4}" y2="${totalY + cellH * .8}" />`
-    // Centred under the bottom row, and stacked beside the right column.
-    + `<text class="viz-margin-note" x="${left + (COVERAGE_COLUMNS.length * cellW) / 2}" y="${totalY + cellH + 16}" text-anchor="middle">studies using each instrument</text>`
-    + `<text class="viz-margin-note" x="${totalX + totalW / 2}" y="${totalY + cellH + 16}" text-anchor="middle">studies of<tspan x="${totalX + totalW / 2}" dy="11">each type</tspan></text>`
+    // Centred under the bottom row; rotated up the side of the totals column.
+    + `<text class="viz-margin-note" x="${left + (COVERAGE_COLUMNS.length * cellW) / 2}" y="${totalY + cellH + 18}" text-anchor="middle">studies using each instrument</text>`
+    + `<text class="viz-margin-note" text-anchor="middle" transform="translate(${totalX + totalW + 16} ${top + (totalY - top) / 2}) rotate(-90)">studies of each research type</text>`
 
   return chartFrame(width, height, labels + marks + margins,
     'Number: study count. Colour: share of that instrument\'s studies. Totals count each study once; a study may use several instruments.')
