@@ -34,33 +34,38 @@ type DataStatus = {
    what is here rather than a fixed menu. */
 function buildQuestionPool(data: DemoResearchData): string[] {
   const pool: string[] = [];
-  const pick = <T,>(list: T[] | undefined, n: number): T[] => (list ?? []).slice(0, n);
+  // Every facet now arrives as {label, value}, ranked by the server. Taking the
+  // head of each list means a suggestion always names something with enough
+  // studies behind it to give a real answer — the tail of these lists is mostly
+  // values that appear once.
+  const top = (list: { label?: string }[] | undefined, n: number) =>
+    (list ?? []).map((entry) => entry?.label).filter(Boolean).slice(0, n) as string[];
 
-  // Questions that hold whatever the data contains.
-  pool.push(
-    "Which countries have the most funded projects?",
-    "Which instruments have the most extracted findings?",
-    "Which journals published this work?",
-    "Which conditions have been studied?",
-    "Where were these studies run?",
-  );
-
-  // Questions naming real records, so a click lands on something that exists.
-  for (const project of pick(data.projects, 2)) {
-    if (project?.id) pool.push(`Show the accepted publications for project ${project.id}.`);
-  }
-  for (const instrument of pick(data.instruments?.filter((entry) => entry.isEuroQol), 3)) {
-    if (instrument?.name) pool.push(`Where has ${instrument.name} been used?`);
-  }
-  for (const group of pick(data.workingGroups, 2)) {
-    if (group?.name) pool.push(`What has the ${group.name} working group produced?`);
-  }
-  const metrics = [...new Set((data.findings ?? []).map((finding) => finding.metric).filter(Boolean))];
-  for (const metric of metrics.slice(0, 2)) {
-    pool.push(`What does the evidence say about ${String(metric).replace(/_/g, " ")}?`);
+  // The server ships its own suggestions. They are written against the current
+  // schema, so they lead.
+  for (const question of (data as any).questions ?? []) {
+    if (typeof question === "string" && question.trim()) pool.push(question.trim());
   }
 
-  return pool;
+  for (const instrument of top((data as any).instruments, 3)) {
+    pool.push(`Where has ${instrument} been used?`);
+  }
+  for (const country of top((data as any).countries, 3)) {
+    pool.push(`What research has been run in ${country}?`);
+  }
+  for (const group of top((data as any).groups, 2)) {
+    // Group labels can be a combination, e.g. "Valuation, Youth". Asking about
+    // the combined string returns nothing, so only single groups are used.
+    if (!group.includes(",")) pool.push(`What has the ${group} working group produced?`);
+  }
+  for (const journal of top((data as any).journals, 2)) {
+    pool.push(`What has been published in ${journal}?`);
+  }
+  for (const method of top((data as any).methods, 2)) {
+    pool.push(`Which studies used ${method}?`);
+  }
+
+  return [...new Set(pool)];
 }
 
 const OPEN = "<followups>";

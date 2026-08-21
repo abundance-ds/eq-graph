@@ -25,7 +25,11 @@ const rgb = (css, name, fallback) => {
   return parts.length === 3 && parts.every(n => Number.isFinite(n)) ? parts.join(',') : fallback
 }
 
-export function initGlobe(canvas, DATA, TOPO){
+export function initGlobe(canvas, DATA, TOPO, options = {}){
+  // Called with a country and its three numbers on click, and with null when
+  // a click lands on the ocean. The globe holds no card of its own — it
+  // reports, and the page decides what to show.
+  const onSelect = typeof options.onSelect === 'function' ? options.onSelect : () => {}
   const ctx = canvas.getContext('2d')
 
   /* Colour comes from the CSS token block, never from here — that is what
@@ -56,6 +60,32 @@ export function initGlobe(canvas, DATA, TOPO){
     if (e.type !== 'CONDUCTED_IN') continue
     const n = nodeById[e.target]
     if (n) byName[n.label] = (byName[n.label] || 0) + 1
+  }
+
+  /* Three numbers per country, for the card a click opens.
+
+     Studies and projects are counted from different edges on purpose. A study
+     was CONDUCTED_IN a country; a project SUPPORTED_EVIDENCE_IN one. The gap
+     between them is the honest state of the evidence — money committed against
+     work actually read — so the card shows both rather than picking whichever
+     is larger. Projects are de-duplicated because one project can support
+     several studies in the same place. */
+  const detail = {}
+  const seenProjects = {}
+  for (const e of DATA.edges){
+    const target = nodeById[e.target]
+    if (!target || target.type !== 'country') continue
+    const key = NAME_FIX[target.label] || target.label
+    const row = detail[key] || (detail[key] = { studies: 0, projects: 0, findings: 0 })
+
+    if (e.type === 'CONDUCTED_IN'){
+      row.studies += 1
+      const study = nodeById[e.source]
+      row.findings += (study && study.findingCount) || 0
+    } else if (e.type === 'SUPPORTED_EVIDENCE_IN'){
+      const seen = seenProjects[key] || (seenProjects[key] = new Set())
+      if (!seen.has(e.source)){ seen.add(e.source); row.projects += 1 }
+    }
   }
   const counts = {}
   for (const [k, v] of Object.entries(byName)) counts[NAME_FIX[k] || k] = v
@@ -278,14 +308,35 @@ export function initGlobe(canvas, DATA, TOPO){
   canvas.addEventListener('pointermove', onCanvasPointerMove)
   canvas.addEventListener('pointerleave', onCanvasPointerLeave)
 
+  /* A click and a drag start identically, so the difference has to be measured
+     rather than guessed: press, then release within a few pixels and a short
+     moment, and it was a click. Without this the globe opens a card every time
+     you finish turning it. */
+  let pressAt = 0, pressX = 0, pressY = 0
+
   const onCanvasPointerDown = ev => {
     const r = canvas.getBoundingClientRect()
     drag = { x: ev.clientX - r.left, y: ev.clientY - r.top, r0: rot[0], r1: rot[1] }
+    pressAt = performance.now(); pressX = ev.clientX; pressY = ev.clientY
     canvas.setPointerCapture(ev.pointerId)
     canvas.classList.add('is-dragging')
     pinTo = 1
   }
   canvas.addEventListener('pointerdown', onCanvasPointerDown)
+
+  const onCanvasClick = ev => {
+    const moved = Math.hypot(ev.clientX - pressX, ev.clientY - pressY)
+    if (moved > 5 || performance.now() - pressAt > 500) return   // that was a turn
+    // `hover` is already the country under the cursor, resolved once a frame by
+    // the draw loop. Running a second hit-test here would be the same two
+    // polygon tests for the same answer.
+    if (!hover){ onSelect(null); return }
+    const name = hover.properties.name
+    const row = detail[name] || { studies: counts[name] || 0, projects: 0, findings: 0 }
+    onSelect({ name, ...row })
+  }
+  canvas.addEventListener('click', onCanvasClick)
+
   const release = () => {
     if (!drag) return
     drag = null
@@ -338,6 +389,7 @@ export function initGlobe(canvas, DATA, TOPO){
       canvas.removeEventListener('pointermove', onCanvasPointerMove)
       canvas.removeEventListener('pointerleave', onCanvasPointerLeave)
       canvas.removeEventListener('pointerdown', onCanvasPointerDown)
+      canvas.removeEventListener('click', onCanvasClick)
       canvas.removeEventListener('pointerup', release)
       canvas.removeEventListener('pointercancel', release)
     },

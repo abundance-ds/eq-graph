@@ -8,6 +8,12 @@ const emit = defineEmits<{
 
 const rootEl = ref<HTMLElement | null>(null);
 let globe: { destroy?: () => void; setActive?: (active: boolean) => void } | undefined;
+
+/* The country card. The globe reports what was clicked; this holds it, so the
+   card can be a real element — focusable, closable, and styled with the rest
+   of the page rather than drawn into the canvas. */
+type CountryFacts = { name: string; projects: number; studies: number; findings: number };
+const picked = ref<CountryFacts | null>(null);
 let story: { destroy?: () => void; refresh?: () => void } | undefined;
 let disposed = false;
 
@@ -46,7 +52,9 @@ onMounted(async () => {
   const canvas = root.querySelector<HTMLCanvasElement>("[data-inst-canvas]");
   if (!canvas) return;
   canvas.parentElement?.classList.add("is-globe");
-  globe = initGlobe(canvas, data, topo);
+  globe = initGlobe(canvas, data, topo, {
+    onSelect: (facts: CountryFacts | null) => { picked.value = facts; },
+  });
   globe.setActive?.(props.active);
 
   const facts = (globe as any).facts();
@@ -122,6 +130,21 @@ onBeforeUnmount(() => {
         </div>
 
         <div class="sh-instrument" data-instrument aria-hidden="true">
+
+        <!-- Click a country, and its three numbers arrive here. Projects and
+             studies are deliberately both shown: the distance between them is
+             how much of the funded work has actually been read. -->
+        <transition name="sh-card">
+          <aside v-if="picked" class="sh-country" role="dialog" :aria-label="picked.name">
+            <button type="button" class="sh-country-x" aria-label="Close" @click="picked = null">×</button>
+            <h3>{{ picked.name }}</h3>
+            <dl>
+              <div><dt>{{ picked.projects.toLocaleString('en') }}</dt><dd>projects funded</dd></div>
+              <div><dt>{{ picked.studies.toLocaleString('en') }}</dt><dd>studies read</dd></div>
+              <div><dt>{{ picked.findings.toLocaleString('en') }}</dt><dd>findings extracted</dd></div>
+            </dl>
+          </aside>
+        </transition>
           <canvas data-inst-canvas />
         </div>
 
