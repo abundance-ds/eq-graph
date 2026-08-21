@@ -114,71 +114,52 @@ export function initStory(DATA, TOPO, root, options = {}){
   const largestFamily = primaryFamilies[0] || { label:'—', value:0 }
   const conceptCount = labels => studies.filter(s => (s.concepts || []).some(value => labels.includes(String(value).toLowerCase()))).length
 
+  /* ── Five folds ───────────────────────────────────────────────────────
+     Thirteen beats was an inventory: here is a facet, here is another. Five
+     is a story, and a story needs an argument. This one is: EuroQol funded
+     work, it spread, it produced evidence, that evidence measures health in
+     a common language — and most of it is still unread.
+
+     The order is deliberate. Geography first, because the globe is already
+     on screen from the opening fold and carrying it forward means the reader
+     never loses the object they arrived with. Then time, then what came out
+     of it, then what it measures, then the honest gap.
+
+     Every beat keeps its number tied to a consequence. A number alone —
+     "1,024 projects" — tells you nothing about whether that is a lot, or what
+     it bought. The `so` line is where the number is made to mean something.
+
+     No `art:` on any of them. Those drew decorative rings, plates and stacks
+     over the top of the real chart, so the first thing the eye met was a grey
+     shape carrying no data. */
   const BEATS = [
-    { num:fmt(projects.length), head:'Projects shaping EuroQol research.', art:'stack',
-      body:`Funding spans valuation, descriptive systems, youth instruments, methods, EQ-HWB, and health systems.`,
-      so:`Each dot represents one funded project.`, layout:'projectScatter' },
-
-    { num:projectYears.length ? `${projectYears[0]}–${projectYears[projectYears.length - 1]}` : '—',
-      head:'Research across generations.', art:'bars',
-      body:`Project start years span ${projectYears[0]} to ${projectYears[projectYears.length - 1]}, across ${fmt(datedProjects.length)} projects.`,
-      so:`The largest project cohort began in <b>${busiestProjectYear[0]}</b>, with <b>${fmt(busiestProjectYear[1])}</b> projects.`, layout:'projectYears' },
-
-    { num:fmt(counts.country || 0), head:'Research with global reach.', art:'sphere',
-      body:`Funded projects underpin country-specific evidence across ${fmt(counts.country || 0)} countries and territories.`,
-      so:`Country-specific work includes valuation studies, population norms, psychometrics, and implementation research.`,
+    { num:fmt(counts.country || 0), head:'Health measured the same way, in 35 countries.',
+      body:`EuroQol funds research wherever health needs measuring. <b>${fmt(projects.length)}</b> funded projects underpin evidence in <b>${fmt(counts.country || 0)}</b> countries and territories.`,
+      so:`The <b>${fmt(countryCount('United Kingdom'))}</b> studies run in the United Kingdom, <b>${fmt(countryCount('Netherlands'))}</b> in the Netherlands and <b>${fmt(countryCount('Australia'))}</b> in Australia all report on the same scale, which is what lets a health outcome in one country be compared with another.`,
       layout:'projectMap' },
 
-    { num:fmt(groups.length), head:'Research communities over time.', art:'rings',
-      body:`Valuation, descriptive systems, population research, youth research, and EQ-HWB develop in parallel.`,
-      so:`The largest areas are <b>${leadingGroups.map(([name, value]) => `${name} (${fmt(value)})`).join('</b>, <b>')}</b>.`,
-      layout:'projectGroupYears' },
+    { num:projectYears.length ? `${projectYears[0]}–${projectYears[projectYears.length - 1]}` : '—',
+      head:'Fourteen years of continuous funding.',
+      body:`<b>${fmt(datedProjects.length)}</b> projects with a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}.`,
+      so:`The largest cohort began in <b>${busiestProjectYear[0]}</b>, with <b>${fmt(busiestProjectYear[1])}</b> projects — and the funding has not stopped since, which is why the evidence base compounds rather than dating.`,
+      layout:'projectYears' },
 
-    { num:fmt(projectEvidence.projectsWithPublications || 0), head:'Projects represented in publications.', art:'plates',
-      body:`These projects contribute to <b>${fmt(projectEvidence.publicationsWithProjects || 0)}</b> published papers.`,
-      so:`One paper can draw on several projects; one project can support several papers.`,
+    { num:fmt(evidence.publications || 0), head:'The research reaches the literature.',
+      body:`<b>${fmt(projectEvidence.projectsWithPublications || 0)}</b> funded projects are represented in <b>${fmt(evidence.publications || 0)}</b> published papers.`,
+      so:`Those papers carry <b>${fmt(evidence.findings || 0)}</b> extracted findings — the individual results that make the work usable by someone who did not run it.`,
       layout:'projectPapers' },
 
-    { num:fmt(primaryFamilies.length), head:'A coherent map of research purpose.',
-      body:`Each study has one primary research family. The largest is <b>${String(largestFamily.label).replaceAll('_', ' ').toLowerCase()}</b>, with <b>${fmt(largestFamily.value)}</b> studies.`,
-      so:`The categories are mutually exclusive. Design and time structure remain separate.`,
-      layout:'chartBlank', chart:'fieldShape' },
-
-    { num:fmt(instrumentCount('EQ-5D-5L')), head:'Which instruments anchor the evidence base?',
-      body:`EQ-5D-5L is an object or direct measure in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies. The ranking also shows youth, legacy, wellbeing, and comparator instruments.`,
-      so:`A mention in background text does not count as instrument use.`,
+    { num:fmt(instrumentCount('EQ-5D-5L')), head:'One instrument, doing most of the work.',
+      body:`EQ-5D-5L is directly used in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies, alongside the youth, legacy and wellbeing instruments that surround it.`,
+      so:`A shared instrument is what makes the numbers comparable at all. Without it there is no common scale, and no way to set the result of one study beside another.`,
       layout:'chartBlank', chart:'instrumentMatrix' },
 
-    { num:fmt(counts.method || 0), head:'Methods and analyses reported in the studies.',
-      body:`The evidence base contains <b>${fmt(counts.method || 0)}</b> distinct method labels used in the reported studies. The ranking shows the most common named methods.`,
-      so:`Counts refer to direct current-study use; planned, cited, and source-study activity is excluded.`,
-      layout:'chartBlank', chart:'methodBundles' },
-
-    { num:fmt(primaryFamilies.length), head:'Methodological depth varies by research family.',
-      body:`The comparison shows the mean number of distinct direct methods reported per study in each primary family, with the number of studies shown beside it.`,
-      so:`This measures reported method variety, not study quality.`,
-      layout:'chartBlank', chart:'methodProfiles' },
-
-    { num:fmt(counts.country || 0), head:'Evidence for different people and places.', art:'sphere',
-      body:`Studies span children, adults, patients, caregivers, and proxy respondents across ${fmt(counts.country || 0)} countries and territories.`,
-      so:`The United Kingdom has <b>${fmt(countryCount('United Kingdom'))}</b> studies; the Netherlands <b>${fmt(countryCount('Netherlands'))}</b>; Australia <b>${fmt(countryCount('Australia'))}</b>; and China <b>${fmt(countryCount('China'))}</b>.`,
-      layout:'studyMap' },
-
-    { num:fmt(conceptCount(['states worse than dead', 'worse than dead states', 'worse than dead state'])), head:'Recurring scientific questions become visible.',
-      body:`The ranking shows how often themes such as worse-than-dead states, proxy reporting, ceiling effects, child health valuation, and health inequality occur across studies.`,
-      so:`Concepts are open scientific tags, not study-family labels.`,
-      layout:'chartBlank', chart:'conceptAtlas' },
-
-    { num:fmt(evidence.products || 0), head:'Reusable outputs from the research.',
-      body:`Studies produced <b>${fmt(evidence.products || 0)}</b> reusable resources, including <b>${fmt(evidence.valueSetProducts || 0)}</b> value sets, plus instrument versions, mappings, protocols, guidance, and datasets.`,
-      so:`These are reusable products, not the publications themselves.`,
-      layout:'chartBlank', chart:'productLandscape' },
-
-    { num:fmt(valuationFiveL), head:'Coverage is deep in some instrument–study combinations.',
-      body:`<b>${fmt(valuationFiveL)}</b> value-set studies use EQ-5D-5L. The matrix shows where primary research families and instrument families have dense or sparse coverage.`,
-      so:`Sparse cells are candidates for closer gap review, not automatic research priorities.`,
+    { num:fmt(studies.length), head:'And most of it is still unread.',
+      body:`<b>${fmt(studies.length)}</b> studies have been read in full and structured, out of <b>${fmt(projects.length)}</b> funded projects.`,
+      so:`That is the honest state of the evidence base, and the reason for the work: everything above was built from the fraction that has been read. The rest is still in the papers.`,
       layout:'chartBlank', chart:'coverageMatrix' },
   ]
+
 
   /* ── build the DOM ───────────────────────────────────────────────── */
   const track = root.querySelector('[data-track]')
