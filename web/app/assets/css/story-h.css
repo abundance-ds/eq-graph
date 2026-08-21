@@ -449,3 +449,13 @@
   .sh-card-enter-from,
   .sh-card-leave-to{transform:translateY(10px) scale(.985);}
 }
+
+/* Margin totals on the matrix. Set as plain figures, not shaded cells: a total
+   is a sum rather than a crossing, and shading it on the same ramp would invite
+   the eye to compare it with the cells it is made of. */
+.sh-chart-scene .viz-cell-total{
+  font:500 11px var(--font-num);
+  font-variant-numeric:tabular-nums;
+  fill:var(--ink-1, #1a1a17);
+}
+.sh-chart-scene .viz-rule{ stroke:var(--hairline-strong, #cbc9c1); stroke-width:1; }

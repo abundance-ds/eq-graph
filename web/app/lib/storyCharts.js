@@ -168,29 +168,123 @@ const COVERAGE_ROWS = [
 const COVERAGE_COLUMNS = INSTRUMENTS
 
 function coverageMatrix(studies, width, height){
+  /* The cross-tab, with its margins.
+
+     Rows are research types, columns are instruments, and a cell counts the
+     studies that are both. The two totals lines are what turn a grid of cells
+     into a table you can actually reason from: the bottom row says how much
+     each instrument carries overall, the right column how large each research
+     type is. Without them a reader has to add six numbers in their head to
+     answer "which instrument is used most", which is the first question anyone
+     asks of a matrix like this.
+
+     The instrument fold used to be a separate beat. It said the same thing the
+     bottom row now says, in a whole screen of its own. */
   const compact = width < 560
-  const left = compact ? 100 : 150
+  const left = compact ? 100 : 172
   const top = compact ? 68 : 74
-  const bottom = 36
-  const cellW = (width - left - 8) / COVERAGE_COLUMNS.length
-  const cellH = (height - top - bottom) / COVERAGE_ROWS.length
+  const bottom = 52
+  const totalW = compact ? 40 : 54
+  const cellW = (width - left - totalW - 10) / COVERAGE_COLUMNS.length
+  const cellH = (height - top - bottom) / (COVERAGE_ROWS.length + 1)
+
   const columnTotals = COVERAGE_COLUMNS.map(([instrument]) => countWhere(
     studies, study => hasValue(study, 'instruments', instrument),
   ))
+  const rowTotals = COVERAGE_ROWS.map(row => countWhere(
+    studies, study => hasValue(study, 'studyTypes', row),
+  ))
+
   const cells = COVERAGE_ROWS.flatMap((row, rowIndex) => COVERAGE_COLUMNS.map(([instrument], columnIndex) => {
     const value = matrixCount(studies, 'studyTypes', row, 'instruments', instrument)
     return { rowIndex, columnIndex, value, share:value / Math.max(1, columnTotals[columnIndex]) }
   }))
-  const labels = COVERAGE_ROWS.map((row, index) => `<text class="viz-label" x="${left - 10}" y="${top + index * cellH + cellH * .62}" text-anchor="end">${escapeText(titleCase(row))}</text>`).join('')
-    + COVERAGE_COLUMNS.map(([, short], index) => `<text class="viz-axis is-strong" x="${left + index * cellW + cellW / 2}" y="${top - 35}" text-anchor="middle">${escapeText(short)}</text>
-      <text class="viz-axis" x="${left + index * cellW + cellW / 2}" y="${top - 20}" text-anchor="middle">n=${columnTotals[index]}</text>`).join('')
+
+  const x = i => left + i * cellW
+  const y = r => top + r * cellH
+  const totalX = left + COVERAGE_COLUMNS.length * cellW + 8
+  const totalY = y(COVERAGE_ROWS.length) + 6
+
+  const labels = COVERAGE_ROWS.map((row, index) =>
+      `<text class="viz-label" x="${left - 10}" y="${y(index) + cellH * .62}" text-anchor="end">${escapeText(titleCase(row))}</text>`).join('')
+    + COVERAGE_COLUMNS.map(([, short], index) =>
+      `<text class="viz-axis is-strong" x="${x(index) + cellW / 2}" y="${top - 24}" text-anchor="middle">${escapeText(short)}</text>`).join('')
+    + `<text class="viz-axis is-strong" x="${totalX + totalW / 2}" y="${top - 24}" text-anchor="middle">Total</text>`
+    + `<text class="viz-label" x="${left - 10}" y="${totalY + cellH * .62}" text-anchor="end">Total</text>`
+
   const marks = cells.map(item => {
     const opacity = item.value ? .12 + .84 * Math.sqrt(item.share) : .03
-    return `<rect class="viz-matrix-cell is-teal" style="opacity:${opacity.toFixed(3)}" x="${left + item.columnIndex * cellW + 2}" y="${top + item.rowIndex * cellH + 2}" width="${Math.max(4, cellW - 4)}" height="${Math.max(4, cellH - 4)}" rx="3" />
-      <text class="viz-cell-value ${opacity > .55 ? 'is-reverse' : ''}" x="${left + item.columnIndex * cellW + cellW / 2}" y="${top + item.rowIndex * cellH + cellH * .62}" text-anchor="middle">${item.value || '—'}</text>`
+    return `<rect class="viz-matrix-cell is-teal" style="opacity:${opacity.toFixed(3)}" x="${x(item.columnIndex) + 2}" y="${y(item.rowIndex) + 2}" width="${Math.max(4, cellW - 4)}" height="${Math.max(4, cellH - 4)}" rx="3" />
+      <text class="viz-cell-value ${opacity > .55 ? 'is-reverse' : ''}" x="${x(item.columnIndex) + cellW / 2}" y="${y(item.rowIndex) + cellH * .62}" text-anchor="middle">${item.value || '—'}</text>`
   }).join('')
-  return chartFrame(width, height, labels + marks,
-    'Number: study count. Colour: share of instrument studies. Each study has one primary family.')
+
+  /* The margins are set as figures on the page rather than shaded cells. They
+     are a different kind of number — a sum, not a crossing — and shading them
+     on the same ramp would invite the eye to compare them with the cells. */
+  const margins = rowTotals.map((total, index) =>
+      `<text class="viz-cell-total" x="${totalX + totalW / 2}" y="${y(index) + cellH * .62}" text-anchor="middle">${total}</text>`).join('')
+    + columnTotals.map((total, index) =>
+      `<text class="viz-cell-total" x="${x(index) + cellW / 2}" y="${totalY + cellH * .62}" text-anchor="middle">${total}</text>`).join('')
+    + `<line class="viz-rule" x1="${left - 4}" y1="${totalY - 2}" x2="${totalX + totalW}" y2="${totalY - 2}" />`
+    + `<line class="viz-rule" x1="${totalX - 4}" y1="${top - 14}" x2="${totalX - 4}" y2="${totalY + cellH * .8}" />`
+
+  return chartFrame(width, height, labels + marks + margins,
+    'Number: study count. Colour: share of that instrument\'s studies. Totals count each study once; a study may use several instruments.')
+}
+
+
+
+/* Papers per working group, against the size of the group.
+
+   Two bars on one row, not two charts. The question a reader has here is not
+   "how many papers" — it is "how much of what this group funded has reached
+   the literature", and that is a comparison, so the two quantities have to
+   share a baseline and a scale. Valuation looks large either way; EQ-HWB is
+   large in projects and nearly absent in papers, which is the actual finding
+   and is invisible if you only plot one of them. */
+function groupPapers(studies, width, height, data){
+  const projects = (data?.nodes || []).filter(node => node.type === 'project')
+  const totals = new Map()
+  for (const project of projects){
+    if (!project.wg) continue
+    const key = String(project.wg).includes(',') ? 'Several groups' : String(project.wg)
+    const row = totals.get(key) || { funded:0, published:0 }
+    row.funded += 1
+    if (project.hasPublication) row.published += 1
+    totals.set(key, row)
+  }
+  const rows = [...totals.entries()]
+    .map(([label, row]) => ({ label, ...row }))
+    .sort((a, b) => b.published - a.published)
+    .slice(0, 7)
+
+  const compact = width < 560
+  const left = compact ? 108 : 190
+  const top = 46
+  const bottom = 44
+  const peak = Math.max(1, ...rows.map(r => r.funded))
+  const bandH = (height - top - bottom) / Math.max(1, rows.length)
+  const barH = Math.min(9, bandH * 0.30)
+  const plotW = width - left - 64
+
+  const marks = rows.map((row, index) => {
+    const y = top + index * bandH + bandH / 2
+    const fundedW = (row.funded / peak) * plotW
+    const pubW = (row.published / peak) * plotW
+    const share = row.funded ? Math.round((row.published / row.funded) * 100) : 0
+    return `<text class="viz-label" x="${left - 12}" y="${y + 1}" text-anchor="end">${escapeText(row.label)}</text>
+      <rect class="viz-matrix-cell" style="opacity:.16" x="${left}" y="${y - barH - 1}" width="${Math.max(1, fundedW).toFixed(1)}" height="${barH}" rx="2" />
+      <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left}" y="${y + 1}" width="${Math.max(1, pubW).toFixed(1)}" height="${barH}" rx="2" />
+      <text class="viz-cell-total" x="${left + Math.max(fundedW, pubW) + 10}" y="${y + 1}" text-anchor="start">${row.published} of ${row.funded} · ${share}%</text>`
+  }).join('')
+
+  const key = `<rect class="viz-matrix-cell" style="opacity:.16" x="${left}" y="${top - 30}" width="10" height="7" rx="2" />
+    <text class="viz-axis" x="${left + 16}" y="${top - 24}">projects funded</text>
+    <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left + 118}" y="${top - 30}" width="10" height="7" rx="2" />
+    <text class="viz-axis" x="${left + 134}" y="${top - 24}">with a published paper</text>`
+
+  return chartFrame(width, height, key + marks,
+    'Projects grouped by working group. A project counted once, in the group that funded it.')
 }
 
 const RENDERERS = {
@@ -201,6 +295,7 @@ const RENDERERS = {
   conceptAtlas,
   productLandscape,
   coverageMatrix,
+  groupPapers,
 }
 
 export function createStoryCharts(data, root){
@@ -217,7 +312,9 @@ export function createStoryCharts(data, root){
     const height = Math.round(host.clientHeight)
     if (!width || !height) return
     for (const [id, render] of Object.entries(RENDERERS)){
-      scenes.get(id).innerHTML = render(studies, width, height)
+      // `data` is passed too: most charts only need the studies, but the
+      // working-group one counts projects, which are nodes rather than studies.
+      scenes.get(id).innerHTML = render(studies, width, height, data)
     }
   }
 

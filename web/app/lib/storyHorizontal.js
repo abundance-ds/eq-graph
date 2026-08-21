@@ -155,7 +155,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       // No chart. The globe from the opening fold travels down into this space
       // and IS the visual — the reader keeps the object they arrived with
       // instead of watching it fade and a flat grey map take its place.
-      layout:'chartBlank', globe:true },
+      layout:'projectMap' },
 
     { num:fmt(projects.length), unit:'projects', head:'The foundation has funded research every year since 2012.',
       body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}.`,
@@ -167,15 +167,15 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`A finding is a single result — a value set, a correlation, a ceiling effect — recorded so that someone who did not run the study can use it. That is the difference between research being published and research being usable.`,
       layout:'projectPapers' },
 
-    { num:fmt(eqInstruments.length || 9), unit:'instruments', head:'The EQ family grew to measure health for people the first version could not.',
-      body:`The EQ family in active use runs from EQ-5D-5L and EQ VAS through the youth versions to EQ-HWB — <b>${fmt(eqStudies.length)}</b> of <b>${fmt(studies.length)}</b> studies use at least one of them.`,
-      so:`Each instrument was built for a population the last one did not serve: children, wellbeing, the very old. The family is how one way of measuring health stretched to cover people it was never designed for.`,
-      layout:'chartBlank', chart:'instrumentMatrix' },
-
-    { num:fmt(studies.length), unit:'studies read', head:'Reading the portfolio has only just begun.',
-      body:`<b>${fmt(studies.length)}</b> studies have been read in full and structured so far, from a portfolio of <b>${fmt(projects.length)}</b> funded projects.`,
-      so:`Everything above was built from those <b>${fmt(studies.length)}</b>. The rest of the portfolio is not missing — it is unread, and every paper added to this map makes the whole of it easier to search.`,
+    { num:fmt(studies.length), unit:'studies read', head:'Every study read so far, by what it studied and what it used.',
+      body:`<b>${fmt(studies.length)}</b> studies have been read in full and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
+      so:`<b>${fmt(eqStudies.length)}</b> of them use at least one EuroQol instrument. The family runs from EQ-5D-5L through the youth versions to EQ-HWB, each built for people the version before it did not serve.`,
       layout:'chartBlank', chart:'coverageMatrix' },
+
+    { num:fmt(projectEvidence.projectsWithPublications || 0), unit:'projects published', head:'Some parts of the portfolio have reached the literature; others are just starting.',
+      body:`Every funded project belongs to a working group. The bars compare what each group has funded against how much of it now carries a published paper.`,
+      so:`Valuation is the oldest and largest programme and shows it. EQ-HWB is the newest — a great deal funded, almost nothing published yet — which is what the beginning of a research programme looks like rather than a problem with it.`,
+      layout:'chartBlank', chart:'groupPapers' },
   ]
 
 
@@ -292,39 +292,35 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
+      /* A choropleth, not a dot scatter.
+
+         The old version drew a hairline coastline and then piled little dots
+         on each country's centroid. Two problems: a dot cluster encodes
+         quantity by area, which the eye reads badly, and it left the country
+         itself — the actual shape being measured — as an empty grey outline.
+         Shading the country IS the measurement, and it needs no legend to be
+         understood. Same logic as the heatmap later in the story, laid flat on
+         geography instead of a grid. */
       const entityKind = kind === 'projectMap' ? 'project' : 'study'
       const countryMap = entityKind === 'project' ? countryOfProject : countryOfStudy
-      const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 46]], land)
-      const topNames = {}
-      const centroid = {}
-      for (const f of land.features){
-        const c = geoPath(proj).centroid(f)
-        if (!isNaN(c[0])) centroid[f.properties.name] = c
-      }
+      const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 30]], land)
       const per = {}
       let unplaced = 0
       for (let i = 0; i < dots.length; i++){
         if (dots[i].kind !== entityKind){ out[i] = hidden(i); continue }
         const names = countryMap[dots[i].p.id] || []
-        let pt = null, name = null
-        for (const n of names){
-          const key = NAME_FIX[n] || n
-          if (centroid[key]){ pt = centroid[key]; name = key; break }
-        }
-        if (!pt){
-          const k = unplaced++
-          out[i] = { x:b.x0 + (k % 60) * 5.4, y:b.y1 - 6 - Math.floor(k / 60) * 5.4,
-                     c:[70,70,68], r:1.2 }
-          continue
-        }
-        per[name] = (per[name] || 0) + 1
-        topNames[name] = (topNames[name] || 0) + 1
-        const k = per[name] - 1
-        const a = k * 2.399963, rr = Math.sqrt(k) * 2.6
-        out[i] = { x:pt[0] + Math.cos(a) * rr, y:pt[1] + Math.sin(a) * rr,
-                   c:mix(TEAL, YELLOW, Math.min(1, k / 22)), r:1.7 }
+        const hit = names.map(n => NAME_FIX[n] || n).find(Boolean)
+        if (!hit){ unplaced++ }
+        else per[hit] = (per[hit] || 0) + 1
+        out[i] = hidden(i)          // the map carries the data; the dots do not
       }
-      out.furn = { kind:'map', b, proj, centroid, topNames, unplaced, entityKind }
+      const centroid = {}
+      for (const f of land.features){
+        const c = geoPath(proj).centroid(f)
+        if (!isNaN(c[0])) centroid[f.properties.name] = c
+      }
+      out.furn = { kind:'map', b, proj, centroid, per, unplaced, entityKind,
+                   peak: Math.max(1, ...Object.values(per)) }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectGroupYears'){
@@ -644,22 +640,42 @@ export function initStory(DATA, TOPO, root, options = {}){
       if (f.loose) ctx.fillText(`${f.loose} projects without a start year`, f.gx0, f.b.y1 - 26)
     }
     else if (f.kind === 'map'){
-      // the coastlines are what turn a cluster of dots into a map
       const path = geoPath(f.proj, ctx)
-      ctx.strokeStyle = ink(.16)
-      ctx.beginPath(); path(land); ctx.stroke()
-      // name the places that carry the most work
-      const top = W <= 640 ? [] : Object.entries(f.topNames).sort((a, b) => b[1] - a[1]).slice(0, 5)
-      ctx.textAlign = 'left'; ctx.fillStyle = ink(.7)
+
+      // Every country first, as the quietest possible ground. It is the shape
+      // of the world, not a data mark, so it sits well below the shaded ones.
+      ctx.beginPath(); path(land)
+      ctx.fillStyle = ink(.045); ctx.fill()
+      ctx.strokeStyle = ink(.10); ctx.lineWidth = .6; ctx.stroke()
+
+      /* Then the ones with research in them, filled by how much. The ramp runs
+         from the palest brand green to the full one; a square-root scale,
+         because a linear one leaves everything below the leader nearly blank
+         when one country holds several times the rest. */
+      for (const feat of land.features){
+        const n = f.per[feat.properties.name]
+        if (!n) continue
+        const t = Math.sqrt(n / f.peak)
+        ctx.beginPath(); path(feat)
+        ctx.fillStyle = `rgba(${TEAL[0]},${TEAL[1]},${TEAL[2]},${(0.16 + t * 0.74).toFixed(3)})`
+        ctx.fill()
+        ctx.strokeStyle = ink(.14); ctx.lineWidth = .5; ctx.stroke()
+      }
+
+      // Name only the few that carry the most, and only where there is room.
+      const top = W <= 640 ? [] : Object.entries(f.per).sort((a, b) => b[1] - a[1]).slice(0, 5)
+      ctx.textAlign = 'left'
       for (const [name, n] of top){
         const c = f.centroid[name]; if (!c) continue
-        ctx.fillText(`${name} ${n}`, c[0] + 9, c[1] - 9)
+        ctx.fillStyle = ink(.86)
+        ctx.fillText(`${name} ${n}`, c[0] + 7, c[1] - 7)
       }
+
       if (f.unplaced){
         ctx.fillStyle = ink(.4)
         const label = f.entityKind === 'study'
           ? `${f.unplaced} studies span regions or have no single country`
-          : `${f.unplaced} other funded projects`
+          : `${f.unplaced} projects are not tied to one country`
         ctx.fillText(label, f.b.x0, f.b.y1 + 16)
       }
     }
@@ -828,15 +844,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       const t = Math.max(0, scrolled / introLen)
       // the object is the opening image; it clears as the dots take the space
       // Full strength from the very first frame — nothing to scroll for.
-      /* The globe used to be gone by 60% of the intro. It stays now, because
-         the first beat is the geography beat and the globe is its chart. What
-         changes is where it sits: it eases out of the opening composition and
-         into the right-hand half, which is the move from "here is the object"
-         to "here is what it is showing you". */
-      const openA = '1'
-      if (instEl){
-        instEl.style.opacity = openA
-      }
+      // The globe belongs to the opening screen and leaves with it. Carrying it
+      // into the first beat read as the page failing to let go of something.
+      const openA = (t > 0.60 ? 0 : 1 - Math.max(0, (t - 0.34) / 0.26)).toFixed(3)
+      if (instEl) instEl.style.opacity = openA
       if (keyEl){ keyEl.style.opacity = openA; keyEl.style.pointerEvents = +openA > 0.5 ? '' : 'none' }
       // the buttons belong to the sentence, so they leave with it
       const ctaA = (t > 0.26 ? 0 : 1 - Math.max(0, (t - 0.04) / 0.22)).toFixed(3)
@@ -855,14 +866,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       if (c0) c0.textContent = '01'
       publishState({ phase:'intro', beat:0 }, t)
     } else {
-      // Beat 0 is the geography fold, so the globe stays for it and leaves as
-      // the story moves on to time.
-      const gs = beatState((scrolled - introLen) / vh, timing)
-      const globeA = gs.i0 === 0 ? (gs.i1 === 0 ? 1 : Math.max(0, 1 - gs.t * 1.6)) : 0
-      if (instEl){
-        instEl.style.opacity = globeA.toFixed(3)
-        instEl.style.pointerEvents = globeA > 0.5 ? '' : 'none'
-      }
+      if (instEl){ instEl.style.opacity = '0'; instEl.style.pointerEvents = 'none' }
       if (keyEl){ keyEl.style.opacity = '0'; keyEl.style.pointerEvents = 'none' }
       if (ctaEl){ ctaEl.style.opacity = '0'; ctaEl.style.pointerEvents = 'none' }
       track.style.opacity = '1'
