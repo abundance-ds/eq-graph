@@ -118,10 +118,25 @@
 .sh-copy{grid-column:1 / span 5; align-self:center;}
 @media (max-width:900px){ .sh-copy{grid-column:1 / span 10;} }
 
+/* The figure and its noun are one object, so they share a line and a baseline.
+   The number comes down from 10.5rem — at display size it was loud enough to
+   be read as the whole message, which is exactly the problem: a number with no
+   noun makes the reader hunt the paragraph below to find out what was counted.
+   The unit sits at just under half its size: clearly secondary, clearly part
+   of the same thing. */
 .sh-num{
+  display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .38em;
   font-family:var(--font-display); font-weight:500;
-  font-size:clamp(4rem, 11vw, 10.5rem); line-height:.82; letter-spacing:-.05em;
-  color:var(--ink); margin:0 0 .2rem; font-variant-numeric:tabular-nums;
+  font-size:clamp(3.1rem, 8vw, 7.6rem); line-height:.86; letter-spacing:-.045em;
+  color:var(--ink); margin:0 0 .35rem; font-variant-numeric:tabular-nums;
+}
+.sh-unit{
+  font-size:.46em; letter-spacing:-.02em; font-weight:500;
+  color:var(--ink); opacity:.62;
+}
+@media (max-width:640px){
+  .sh-num{font-size:clamp(2.6rem, 13vw, 4rem);}
+  .sh-unit{font-size:.42em;}
 }
 .sh-head{
   font-family:var(--font-display); font-weight:500;

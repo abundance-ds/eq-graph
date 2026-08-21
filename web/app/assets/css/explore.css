@@ -313,10 +313,20 @@
   border-bottom:0;
   padding-bottom:0;
 }
-.chat-shell.is-opening .chat-brand,
+/* The logo stays. Hiding it here was wrong: it is the one mark that says which
+   organisation's research you are inside, and the reader arrives at this fold
+   straight out of a story that carried it in every frame. Losing it at the
+   handover is losing the context.
+
+   Only the "Research explorer" wordmark beside it is hidden, because the fold's
+   own title says exactly that a few lines below — the divider goes with it. */
+.chat-shell.is-opening .chat-brand strong,
+.chat-shell.is-opening .chat-brand > span,
 .chat-shell.is-opening .chat-data-state{ display:none; }
 
-.chat-shell.is-opening .chat-head-main{ justify-content:flex-end; }
+/* Logo left, Back right — the same two anchors the story fold has, so the
+   handover does not rearrange the furniture. */
+.chat-shell.is-opening .chat-head-main{ justify-content:space-between; }
 
 /* The thread stops being the thing that grows; the dock does, so the composer
    sits on the optical centre rather than being pushed to the floor. */
