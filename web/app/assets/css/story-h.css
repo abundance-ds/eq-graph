@@ -459,3 +459,10 @@
   fill:var(--ink-1, #1a1a17);
 }
 .sh-chart-scene .viz-rule{ stroke:var(--hairline-strong, #cbc9c1); stroke-width:1; }
+
+/* Names the direction each margin sums in. Small and quiet — it is a caption
+   on a number, not a label competing with the axis. */
+.sh-chart-scene .viz-margin-note{
+  font:500 9.5px var(--font-num);
+  fill:var(--ink-3);
+}
