@@ -140,6 +140,36 @@ function clearChart(key: string) {
   chartSelections[key] = [];
 }
 
+/* When an answer can be a graph.
+
+   A chart answers "how much"; a graph answers "what connects to what". So the
+   option only appears when an answer's rows carry TWO entity columns — one
+   relationship per row. With a single entity and a count there is nothing to
+   connect, and a graph of that is a bar chart with extra steps.
+
+   Numeric columns are excluded, because a value is a measurement of a thing,
+   not a thing. Two rows minimum, or there is no pattern to see. */
+function graphable(spec: any): { from: string; to: string } | null {
+  const rows: Record<string, unknown>[] = spec?.rows ?? [];
+  if (rows.length < 2) return null;
+  const first = rows[0] ?? {};
+  const valueKey = spec?.encoding?.value;
+
+  const entityKeys = Object.keys(first).filter((key) => {
+    if (key === valueKey) return false;
+    const sample = rows.slice(0, 8).map((row) => row[key]);
+    const looksNumeric = sample.every((v) => v !== null && v !== "" && !Number.isNaN(Number(v)));
+    if (looksNumeric) return false;
+    // A column where every row is the same value connects nothing.
+    return new Set(sample.map(String)).size > 1;
+  });
+
+  if (entityKeys.length < 2) return null;
+  return { from: entityKeys[0]!, to: entityKeys[1]! };
+}
+
+const graphOpen = reactive<Record<string, boolean>>({});
+
 function keepLatestVisible() {
   const widgetCount = props.turns.reduce(
     (total, entry) => total + entry.list.filter((segment) => segment.kind === "widget").length,
@@ -336,6 +366,33 @@ onMounted(() => {
                     @select="chooseChart(segment.key, $event)"
                   />
                   <p class="chat-chart-hint">Click a bar to ask about it. Click a second to compare the two.</p>
+
+                  <!-- Offered, never forced. The chart is the answer; the graph
+                       is a second reading of it, for when the question was
+                       really about how things connect. -->
+                  <template v-if="graphable(segment.widget)">
+                    <button
+                      type="button"
+                      class="chat-asgraph"
+                      :aria-expanded="Boolean(graphOpen[segment.key])"
+                      @click="graphOpen[segment.key] = !graphOpen[segment.key]"
+                    >
+                      <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                        <circle cx="5" cy="6" r="2.2" fill="none" stroke="currentColor" stroke-width="1.7" />
+                        <circle cx="5" cy="18" r="2.2" fill="none" stroke="currentColor" stroke-width="1.7" />
+                        <circle cx="19" cy="12" r="2.2" fill="none" stroke="currentColor" stroke-width="1.7" />
+                        <path d="M7 7l10 4M7 17l10-4" stroke="currentColor" stroke-width="1.7" fill="none" />
+                      </svg>
+                      {{ graphOpen[segment.key] ? "Hide the graph" : "View as graph" }}
+                    </button>
+                    <ChatGraph
+                      v-if="graphOpen[segment.key]"
+                      :spec="segment.widget"
+                      :from="graphable(segment.widget)!.from"
+                      :to="graphable(segment.widget)!.to"
+                      @ask="send"
+                    />
+                  </template>
 
                   <!-- One picked: what you can ask about it. Two picked: the
                        comparison has already been sent, so this only reports

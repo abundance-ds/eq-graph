@@ -538,3 +538,23 @@
   .chat-root *::before,
   .chat-root *::after{scroll-behavior:auto !important; transition:none !important; animation:none !important;}
 }
+
+/* "View as graph" — an offer, not a control panel. Quiet text with a small
+   node mark, sitting under the chart it re-reads. It only renders when the
+   answer actually holds a relationship, so it never appears as a dead option. */
+.chat-asgraph{
+  margin-top:.5rem;
+  display:inline-flex;
+  align-items:center;
+  gap:.4rem;
+  min-height:32px;
+  padding:.3rem .1rem;
+  border:0;
+  background:none;
+  color:var(--ink-3);
+  font:400 .8rem var(--font-body);
+  cursor:pointer;
+}
+.chat-asgraph:hover{color:var(--accent);}
+.chat-asgraph:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:6px;}
+.chat-asgraph svg{flex:none;}

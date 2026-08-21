@@ -127,14 +127,14 @@
 .sh-num{
   display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .38em;
   font-family:var(--font-display); font-weight:500;
-  font-size:clamp(3.1rem, 8vw, 7.6rem); line-height:.86; letter-spacing:-.045em;
+  font-size:clamp(2.8rem, 6.9vw, 6.5rem); line-height:.86; letter-spacing:-.045em;
   color:var(--ink); margin:0 0 .35rem; font-variant-numeric:tabular-nums;
 }
 /* Same ink as the figure. Greying the noun split one object into two and made
    the eye read "35" and "countries" as separate things — which is the exact
    problem the noun was added to solve. Size alone carries the hierarchy. */
 .sh-unit{
-  font-size:.44em; letter-spacing:-.02em; font-weight:500;
+  font-size:.40em; letter-spacing:-.02em; font-weight:500;
   color:var(--ink);
 }
 @media (max-width:640px){
@@ -143,7 +143,11 @@
 }
 .sh-head{
   font-family:var(--font-display); font-weight:500;
-  font-size:clamp(1.6rem, 3.4vw, 2.9rem); line-height:1.02; letter-spacing:-.035em;
+  /* Clearly below the unit, not level with it. At the old size the noun beside
+     the figure and the sentence under it landed within a few pixels of each
+     other, so the eye could not tell whether "studies read" belonged to the
+     number above or the sentence below. Three sizes, three steps. */
+  font-size:clamp(1.25rem, 2vw, 1.85rem); line-height:1.14; letter-spacing:-.025em;
   color:var(--ink); margin:0 0 1.1rem;
 }
 .sh-body{
