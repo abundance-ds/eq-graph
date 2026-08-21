@@ -59,8 +59,8 @@ review records and do not create support or output relationships.
 
 - The completed 209-paper version-0.13 result is the audited project-first JATS
   corpus. It is separate from the 3,148 screened scale records.
-- The version-2 database and shared preview are in packaging. The preview is
-  not the final analytical release. The full 100-question aggregate-validity
+- The version-2 database and shared preview are live. The preview is not the
+  final analytical release. The full 100-question aggregate-validity
   rerun and focused version-0.14 gap work remain. No 100-question pass is
   claimed.
 - Sixty local PDF-only papers remain outside the audited graph. The validated

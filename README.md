@@ -77,8 +77,9 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 - Each paper used one Opus draft and one fresh Opus full-source review. Draft
   review returned **7 PASS**, **202 MINOR**, **0 MAJOR**, and **846
   corrections**. The corrected record, not the draft, is the load candidate.
-- The version-2 SQLite database and shared preview release are in packaging.
-  The preview is not the final analytical release. The full aggregate-validity
+- The version-2 SQLite database and shared preview are live at
+  [eq-graph.shoulde.rs](https://eq-graph.shoulde.rs). The preview is not the
+  final analytical release. The full aggregate-validity
   rerun against all 100 questions and focused version-0.14 gap work remain. No
   claim is made that the 100 questions pass.
 - The project-link audit checked 260 paper-project pairs. The version-1 graph has
@@ -142,8 +143,8 @@ a read-only query tool. Full text, local paths, unresolved citations, possible
 links, and audit reasoning stay outside the public database. See
 [`web/README.md`](web/README.md) for implementation status.
 
-The shared version-2 preview is in packaging. It is a review release, not the
-final analytical release.
+The shared version-2 preview is live. It is a review release, not the final
+analytical release.
 
 ## Repository map
 

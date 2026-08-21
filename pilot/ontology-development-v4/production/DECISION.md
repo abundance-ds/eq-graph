@@ -1,7 +1,8 @@
 # Production calibration decision
 
-Status: the version-0.13 corrected-record run is complete. Package a separate
-version-2 SQLite database and shared preview. Keep version 1 unchanged.
+Status: the version-0.13 corrected-record run, separate version-2 SQLite
+database, and shared preview are complete. Keep version 1 unchanged as the
+historical baseline.
 
 The first unseen batch contained 20 publications. Independent source review of
 the raw records found 10 PASS, nine MINOR, and one MAJOR. General rules and one

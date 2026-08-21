@@ -5,6 +5,11 @@ Stable knowledge lives in README.md; this file is the narrative.
 
 ## 2026-08-21
 
+- Deployed the version-2 shared preview to `eq-graph.shoulde.rs` as release
+  `20260821091802-006b867`. Live checks pass for the homepage, story, graph, and
+  status routes. The first atomic switch received one startup `502` and restored
+  the prior release. The deploy script now waits up to 30 seconds for service
+  readiness; the second switch passed all checks.
 - Built the separate private version-2 SQLite database. Its checks pass for 209
   publications, 207 studies, 15,430 items, 1,024 projects, 242 accepted links,
   9,363 citation occurrences, and 573 resolved internal citation edges.

@@ -30,7 +30,7 @@ decisions.
 | 1. Paper identification | Final records for full-text retrieval | The frozen screen retained 3,148 of 18,348 records. | Independent human sample check and held identity queue. |
 | 2. Full-text retrieval | Lawfully obtained full texts with source and licence records | The project-first route holds 287 full texts. Scale retrieval is zero. | Process the local PDF set, then approve a scale retrieval plan. |
 | 3. Full-text processing | Source-verified study evidence and project links | Complete for 209 local JATS publications: 207 studies, one exclusion, one correction notice. | Add 60 local PDF-only papers with the same audit gates. |
-| 4. Research data service | Audited graph and safe research-query derivative | The version-0.13 corrected-record run is complete: all 209 records pass deterministic validation. The version-2 database and shared preview are in packaging. | Complete packaging, corpus checks, the full 100-question aggregate-validity rerun, and focused version-0.14 gap work. |
+| 4. Research data service | Audited graph and safe research-query derivative | The version-0.13 corrected-record run, version-2 database, and shared preview are complete for all 209 records. | Run the full 100-question aggregate-validity test and focused version-0.14 gap work. |
 
 ## Completed research foundation
 
@@ -156,8 +156,8 @@ support or output relationships.
 
 ## Decision points
 
-Version-2 packaging, aggregate validity, and focused version-0.14 gap work are
-the active graph gates. Human input is required if:
+Aggregate validity and focused version-0.14 gap work are the active graph gates.
+Human input is required if:
 
 - the six-paper PDF extraction pilot finds a material source error;
 - a repeated paper type cannot fit the current ontology;

@@ -109,8 +109,8 @@ it will not become an invented official value.
   15,430 typed items, 1,951 findings, 939 limitations, 96 products, 188 source
   conflicts, and 210 explicit gaps.
 - Fresh Opus source review returned 7 PASS, 202 MINOR, 0 MAJOR, and 846
-  corrections across the drafts. Version 1 remains unchanged. The version-2
-  database and shared preview are in packaging.
+  corrections across the drafts. Version 1 remains unchanged as the historical
+  baseline. The version-2 database and shared preview are live.
 - The shared preview is not the final analytical release. The full aggregate-
   validity rerun against all 100 questions and focused version-0.14 gap work
   remain. Record validity does not show that the 100 questions pass.
