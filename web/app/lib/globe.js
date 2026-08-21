@@ -130,7 +130,15 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
 
     // lower in the frame, and drifting — the parallax you asked for
     const cx = W * 0.70 + mx * 26
-    const cy = H * 0.58 + my * 16 + park * 74
+    /* The globe RISES as the page scrolls, it does not sink.
+
+       It used to be pushed down 74px at full parallax, which put its centre at
+       0.58H with a radius of 0.40H — the bottom of the sphere landed past the
+       viewport and the globe was cut in half. Settling it upward to 0.50H
+       keeps the same sense of the object having its own weight while leaving
+       the whole sphere on screen, which matters now that it travels into the
+       first beat and has to be readable there. */
+    const cy = H * (0.58 - park * 0.08) + my * 16
     proj.translate([cx, cy])
     const R = proj.scale()
 

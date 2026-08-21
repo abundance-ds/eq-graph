@@ -149,7 +149,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const eqShare = studies.length ? Math.round((eqStudies.length / studies.length) * 100) : 0
 
   const BEATS = [
-    { num:fmt(counts.country || 0), unit:'countries', head:'Where the research runs.',
+    { num:fmt(counts.country || 0), unit:'countries', head:'EuroQol-funded research now runs on every continent.',
       body:`EuroQol has funded <b>${fmt(projects.length)}</b> projects, and that work now underpins evidence in <b>${fmt(counts.country || 0)}</b> countries and territories.`,
       so:`The <b>${fmt(countryCount('United Kingdom'))}</b> studies in the United Kingdom, <b>${fmt(countryCount('Netherlands'))}</b> in the Netherlands and <b>${fmt(countryCount('Australia'))}</b> in Australia all report on the same scale — which is what lets a health outcome in one country be set beside another.`,
       // No chart. The globe from the opening fold travels down into this space
@@ -157,22 +157,22 @@ export function initStory(DATA, TOPO, root, options = {}){
       // instead of watching it fade and a flat grey map take its place.
       layout:'chartBlank', globe:true },
 
-    { num:fmt(projects.length), unit:'projects', head:'Funded, year after year.',
+    { num:fmt(projects.length), unit:'projects', head:'The foundation has funded research every year since 2012.',
       body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}.`,
       so:`The largest cohort began in <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and the funding has not paused since — which is why the evidence base compounds instead of dating.`,
       layout:'projectYears' },
 
-    { num:fmt(evidence.findings || 0), unit:'findings', head:'Evidence others can reuse.',
+    { num:fmt(evidence.findings || 0), unit:'findings', head:'Published papers have been read and turned into results anyone can reuse.',
       body:`<b>${fmt(evidence.publications || 0)}</b> published papers, from <b>${fmt(projectEvidence.projectsWithPublications || 0)}</b> funded projects, carry <b>${fmt(evidence.findings || 0)}</b> extracted findings.`,
       so:`A finding is a single result — a value set, a correlation, a ceiling effect — recorded so that someone who did not run the study can use it. That is the difference between research being published and research being usable.`,
       layout:'projectPapers' },
 
-    { num:fmt(eqInstruments.length || 9), unit:'instruments', head:'A family, not a single tool.',
+    { num:fmt(eqInstruments.length || 9), unit:'instruments', head:'The EQ family grew to measure health for people the first version could not.',
       body:`The EQ family in active use runs from EQ-5D-5L and EQ VAS through the youth versions to EQ-HWB — <b>${fmt(eqStudies.length)}</b> of <b>${fmt(studies.length)}</b> studies use at least one of them.`,
       so:`Each instrument was built for a population the last one did not serve: children, wellbeing, the very old. The family is how one way of measuring health stretched to cover people it was never designed for.`,
       layout:'chartBlank', chart:'instrumentMatrix' },
 
-    { num:fmt(studies.length), unit:'studies read', head:'And there is more still to read.',
+    { num:fmt(studies.length), unit:'studies read', head:'Reading the portfolio has only just begun.',
       body:`<b>${fmt(studies.length)}</b> studies have been read in full and structured so far, from a portfolio of <b>${fmt(projects.length)}</b> funded projects.`,
       so:`Everything above was built from those <b>${fmt(studies.length)}</b>. The rest of the portfolio is not missing — it is unread, and every paper added to this map makes the whole of it easier to search.`,
       layout:'chartBlank', chart:'coverageMatrix' },
@@ -473,23 +473,11 @@ export function initStory(DATA, TOPO, root, options = {}){
   let textSpots = null
   const instEl = root.querySelector('[data-instrument]')
 
-  /* Moves the globe from where it opens to where the first beat wants it.
-     A transform, not a re-layout, so the canvas never redraws for the move and
-     the sphere keeps turning through it. 0 is the opening pose; 1 is parked in
-     the beat's chart half. */
-  let settledAt = -1
-  function settleGlobe(k){
-    if (!instEl) return
-    const q = Math.round(k * 100) / 100
-    if (q === settledAt) return
-    settledAt = q
-    const e = q * q * (3 - 2 * q)                 // ease, so it lands rather than stops
-    const scale = 1 - e * 0.28
-    const dx = e * (W > 900 ? W * 0.055 : 0)
-    const dy = e * (H * 0.02)
-    instEl.style.transform = `translate3d(${dx.toFixed(1)}px, ${dy.toFixed(1)}px, 0) scale(${scale.toFixed(3)})`
-    instEl.style.transformOrigin = '68% 52%'
-  }
+  /* The globe is not transformed by the story any more. It sizes and places
+     itself, and scaling it from here only ever fought that — it came out small
+     and clipped. The story decides when it is on screen; the globe decides
+     where it sits. */
+
   const ctaEl  = root.querySelector('[data-cta]')
   const keyEl  = root.querySelector('[data-key]')
 
@@ -848,7 +836,6 @@ export function initStory(DATA, TOPO, root, options = {}){
       const openA = '1'
       if (instEl){
         instEl.style.opacity = openA
-        settleGlobe(Math.max(0, Math.min(1, (t - 0.30) / 0.55)))
       }
       if (keyEl){ keyEl.style.opacity = openA; keyEl.style.pointerEvents = +openA > 0.5 ? '' : 'none' }
       // the buttons belong to the sentence, so they leave with it
@@ -875,7 +862,6 @@ export function initStory(DATA, TOPO, root, options = {}){
       if (instEl){
         instEl.style.opacity = globeA.toFixed(3)
         instEl.style.pointerEvents = globeA > 0.5 ? '' : 'none'
-        settleGlobe(1)
       }
       if (keyEl){ keyEl.style.opacity = '0'; keyEl.style.pointerEvents = 'none' }
       if (ctaEl){ ctaEl.style.opacity = '0'; ctaEl.style.pointerEvents = 'none' }
