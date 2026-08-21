@@ -1,0 +1,46 @@
+{
+  "run": "rebuild-v2-v011-outcome-smoke-02",
+  "model": "gpt-5.6-sol",
+  "workers": 1,
+  "reasoning_effort": "high",
+  "manifest": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v011/MANIFEST.tsv",
+  "manifest_sha256": "89621bca937a38ea81f6f5448d6ceef2887c0963f104678bfbea928617839732",
+  "schema_sha256": "423f81492e1f240e33c25bf324966e7407d8a53d38440eec8bde5fd92174f85c",
+  "records": 1,
+  "successful": 1,
+  "failed": 0,
+  "elapsed_agent_seconds": 194.963,
+  "usage": {
+    "input_tokens": 45309,
+    "cached_input_tokens": 0,
+    "output_tokens": 10414,
+    "reasoning_output_tokens": 4652
+  },
+  "results": [
+    {
+      "status": "ok",
+      "record_id": "V2-P021",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "started_unix": 1787259504.018881,
+      "finished_unix": 1787259698.98161,
+      "elapsed_seconds": 194.963,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v011/inputs/V2-P021.md",
+      "input_sha256": "ee2ab4072c8430833ecb1fb7a5dff12a406f30c53c091b034a31cc2459b5f0b1",
+      "schema_sha256": "423f81492e1f240e33c25bf324966e7407d8a53d38440eec8bde5fd92174f85c",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-02/records/V2-P021.json",
+      "output_sha256": "8bb63448693a13c21dee167f30896c893f27cada8df99fc411514daca458bc43",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-02/traces/V2-P021.jsonl",
+      "usage": {
+        "input_tokens": 45309,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10414,
+        "reasoning_output_tokens": 4652
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "expected": 1,
+    "present": 1,
+    "valid": 1,
+    "errors": 0,
+    "warnings": 16,
+    "dispositions": {
+      "include-study": 1
+    }
+  },
+  "records": [
+    {
+      "record_id": "CNF-P001",
+      "source_run": "pilot/ontology-development-v4/production/run-software-gap-final-repair-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label EQ-5D-5L questionnaire",
+        "mu1: unmapped Method registry label quota sampling method",
+        "mu2: unmapped Method registry label composite time trade-off (cTTO)",
+        "mu4: unmapped Method registry label cross-validation procedure",
+        "mu6: unmapped Method registry label backward selection method",
+        "pu1: unmapped Protocol registry label ‘lite’ version of the EuroQol’s EQ-5D-5L valuation protocol",
+        "pu2: unmapped Protocol registry label standard quality control process developed by the EuroQol Group",
+        "sw1: unmapped Software registry label EuroQol Valuation Technology (EQ-VT) (version 2.1)",
+        "sw2: unmapped Software registry label xreg package",
+        "mod1: unmapped Model registry label ADD20 Tobit regression specification",
+        "mod2: unmapped Model registry label ADD20-I Tobit regression specification",
+        "mod3: unmapped Model registry label ADD20-P Tobit regression specification",
+        "mod4: unmapped Model registry label CALE Tobit regression specification",
+        "mod5: unmapped Model registry label CALE-I Tobit regression specification",
+        "mod6: unmapped Model registry label CALE-P Tobit regression specification"
+      ]
+    }
+  ]
+}

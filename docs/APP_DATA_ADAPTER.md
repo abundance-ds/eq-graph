@@ -3,25 +3,23 @@
 ## Flow
 
 ```text
-audited private graph database
-  -> deterministic serving-database builder
+audited version-2 records and structured publication metadata
+  -> load_research_v2.py
+  -> private typed SQLite database
+  -> build_serving_database_v2.py
   -> sanitized read-only SQLite database
   -> Nitro story, graph-status, and chat endpoints
   -> browser interface
 ```
 
-The builder is `scripts/build_serving_database.py`. It copies the 1,024 project
-records and the assessed 209-publication evidence layer into simple research
-tables. These tables cover publications, studies, accepted project links,
-authors, study types, designs, populations, samples, countries, instruments,
-methods, models, concepts, outcomes, findings, limitations, products, datasets,
-protocols, and source conflicts.
+`load_research_v2.py` loads the audited records into the private typed database.
+This database keeps source locators, citation occurrences and edges, source
+conflicts, and audit material. `scripts/build_serving_database_v2.py` copies
+only the data that the application can query.
 
-The serving database does not contain full text, source file paths, extraction
-paths, unresolved references, external citations, possible project links, or
-project-link audit reasoning. The full text stays in the private corpus. The
-audited database keeps its own source record and hash. The serving database has
-only a `full_text_format` flag, so it cannot expose a local file.
+The public serving database excludes full text, local paths, citations,
+possible project links, and audit reasoning. It contains accepted project links
+only. The private corpus and typed database remain the evidence and audit layer.
 
 ## Runtime
 
@@ -36,23 +34,35 @@ The main data routes are:
 - `GET /api/graph/status`: live database totals
 - `POST /api/chat`: AI answers through the same read-only database
 
-The current build has 1,024 projects, 209 assessed publications, 207 studies,
-242 accepted project-publication links, 871 findings, and 602 limitations.
-These publication counts describe the assessed local corpus, not all EuroQol
-literature.
+The shared preview has 1,024 projects, 209 publications, 207 studies, 1,951
+findings, 939 limitations, 96 products, and 242 accepted project-publication
+links. These counts describe the completed local corpus, not all EuroQol
+literature. The full 100-question aggregate-validity rerun remains before a
+final research release.
 
 ## Build and check
 
 From the repository root:
 
 ```sh
-python3 scripts/build_serving_database.py \
-  --source pilot/ontology-development-v3/production-calibration/graph-neutral-209-run-02/euroqol-research-graph-citation-safe.sqlite \
+python3 pilot/ontology-development-v4/production/load_research_v2.py \
+  --run pilot/ontology-development-v4/production/rebuild-v2-v013-normalized-02 \
+  --manifest pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/MANIFEST.tsv \
+  --projects "input/Funded projects – Table for Download - EuroQol.csv" \
+  --project-links web/server/data/serving.sqlite \
+  --output pilot/ontology-development-v4/production/research-v2-v013.sqlite \
+  --expect-studies 207 \
+  --expect-items 15430 \
+  --expect-mapped 1022 \
+  --expect-unresolved 3457
+python3 scripts/build_serving_database_v2.py \
+  --source pilot/ontology-development-v4/production/research-v2-v013.sqlite \
   --output web/server/data/serving.sqlite
-python3 scripts/check_serving_database.py web/server/data/serving.sqlite
+python3 scripts/check_serving_database_v2.py \
+  --expect-projects 1024 \
+  --expect-publications 209 \
+  web/server/data/serving.sqlite
 ```
 
-The generated database is not in Git. The checked build has SHA-256
-`f05816073d92288d717af1e16cc0f5bcb152d38fffb2d2a41e23382790c5c473`.
-Its audited input has SHA-256
-`69eb1c76fa71ec4c7a51588cf9cc29a38438c77a5d9d3111d6d97348434dbf32`.
+The generated databases are not in Git. `--project-links` carries the 242
+accepted links from the current serving artifact into a fresh private build.

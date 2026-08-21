@@ -1,0 +1,1244 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P010",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "EuroQol Research Foundation award 1598-RA supports this work.",
+    "publication_form": "PROTOCOL_ARTICLE",
+    "publication_relation": null,
+    "reason": "This protocol makes the measurement properties and content performance of EQ-5D-Y-3L, EQ-5D-Y-5L, EQ-5D-5L and EQ-HWB-9 primary research objects. The EuroQol Research Foundation is the named funder.",
+    "source": [
+      "Structured metadata: title, abstract, categories and funding",
+      "Full article: Abstract—Introduction and Methods and analysis",
+      "Full article: Introduction, final paragraph",
+      "Full article: Methods and analysis—Outcomes and measures"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Prospective mixed-methods validation of EuroQol instruments in Chinese paediatric patients and caregivers",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "DATA_COLLECTION_ACTIVE",
+      "result_state": "NO_RESULTS_YET",
+      "family_rationale": "The principal planned contribution is an evaluation of validity, reliability, responsiveness, feasibility, agreement and score performance for EuroQol instruments. The protocol states that baseline collection started on 1 April 2024 and was due to continue until March 2026; it reports no study results.",
+      "source": [
+        "Full article: Abstract—Introduction and Methods and analysis",
+        "Full article: Methods and analysis—Study design and setting",
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Statistical analysis plan"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "value": "CONTENT_VALIDITY_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 3,
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Quantitative prospective cohort and psychometric evaluation",
+      "source": [
+        "Full article: Methods and analysis—Study design and setting through Statistical analysis plan"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Qualitative substudy of response interpretation and ceiling effects",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs",
+        "Full article: Statistical analysis plan, thematic-analysis paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Methods and analysis—Study design and setting"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article: Methods and analysis—Data collection",
+        "Full article: Statistical analysis plan"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "WITHIN_DYAD",
+      "source": [
+        "Full article: Strengths and limitations of this study",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Statistical analysis plan"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods and analysis—Study design and setting; study described as prospective observational"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods and analysis—Data collection; interviews planned after questionnaire completion"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d11",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d12",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "mixed_method_integration",
+      "value": "EMBEDDED",
+      "source": [
+        "Full article: Methods and analysis—Study design and setting",
+        "Full article: Methods and analysis—Data collection; qualitative insights will contextualise quantitative findings"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Children aged 5–16 years with pneumonia, CNS solid tumours or immune thrombocytopenic purpura",
+      "role": "paediatric patient",
+      "geographies": [
+        "China",
+        "Guizhou Province",
+        "Zhejiang Province"
+      ],
+      "conditions": [
+        "pneumonia",
+        "central nervous system solid tumours",
+        "immune thrombocytopenic purpura"
+      ],
+      "age_description": "5–16 years",
+      "inclusion_description": "Inpatients or outpatients able to understand and complete the applicable self-complete or interviewer-administered questionnaires; severe cognitive impairment and other comorbid conditions that significantly affect HRQoL are exclusion criteria.",
+      "source": [
+        "Full article: Methods and analysis—Participants"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Family caregivers of participating children",
+      "role": "caregiver and proxy respondent",
+      "geographies": [
+        "China",
+        "Guizhou Province",
+        "Zhejiang Province"
+      ],
+      "conditions": [],
+      "age_description": null,
+      "inclusion_description": "Caregivers participate as proxy respondents for the youth instruments and report their own health and well-being.",
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Children invited to discuss interpretation of EQ-5D-Y-5L responses",
+      "role": "qualitative interview participant",
+      "geographies": [
+        "China"
+      ],
+      "conditions": [
+        "pneumonia",
+        "central nervous system solid tumours",
+        "immune thrombocytopenic purpura"
+      ],
+      "age_description": "Children drawn from the study population aged 5–16 years",
+      "inclusion_description": "Invited after questionnaire completion for a semistructured individual interview.",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "PLANNED_TARGET",
+      "size": 360,
+      "size_text": "360 paediatric patients within 360 patient–caregiver dyads",
+      "unit": "children",
+      "description": "The protocol plans 120 dyads in each of three health-condition groups.",
+      "source": [
+        "Full article: Methods and analysis—Sample size"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop2",
+      "stage": "PLANNED_TARGET",
+      "size": 360,
+      "size_text": "360 family caregivers within 360 patient–caregiver dyads",
+      "unit": "caregivers",
+      "description": "One caregiver is planned for each participating child.",
+      "source": [
+        "Full article: Abstract—Methods and analysis",
+        "Full article: Methods and analysis—Sample size"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop3",
+      "stage": "PLANNED_TARGET",
+      "size": 25,
+      "size_text": "25 children",
+      "unit": "children",
+      "description": "Children invited to the qualitative substudy after questionnaire completion.",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Baseline and 2–3-week follow-up questionnaire responses from children and caregivers",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Psychometric evaluation, administration-mode comparisons, HRQoL description and caregiver-spillover analysis",
+      "source": [
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Demographic and clinical data extracted from hospital records",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "DOCUMENT",
+      "purpose": "Clinical grouping, known-groups analyses and regression covariates",
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Semistructured interview transcripts from children",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Explore response interpretation, ceiling effects, content gaps and difficulties with self-reporting",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs",
+        "Full article: Statistical analysis plan, thematic-analysis paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y-3L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "PedsQL generic core 4.0",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods and analysis—Instruments—Paediatric Quality of Life Inventory",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "PedsQL 3.0 Cancer Module",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods and analysis—Instruments—Paediatric Quality of Life Inventory",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-HWB-9",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ VAS",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "overall health assessment (OHA)",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-Y-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs",
+        "Full article: Table 1—Planned topic guide and interviewer script"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu10",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "adult EQ-5D-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Methods and analysis—Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "structured survey administered during baseline and follow-up assessments",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods and analysis—Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "semistructured, face-to-face, one-on-one interviews",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "intraclass correlation coefficients",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Gwet’s AC1",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Cohen’s d effect sizes",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ANOVA comparisons across severity levels",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Glass’ Δ effect sizes and response means",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Spearman’s correlations",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "receiver operating characteristic curves and area under the curve assessments",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, third paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "thematic analysis following Braun and Clarke’s six-phase framework",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Statistical analysis plan, thematic-analysis paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "logistic regression models",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article: Statistical analysis plan, third paragraph"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "regression techniques",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article: Statistical analysis plan, caregiver-burden paragraph"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "mu2",
+        "iu9"
+      ],
+      "label": "Planned topic guide and interviewer script for paediatric patients",
+      "profiles": [
+        "EQ-5D-Y-5L responses",
+        "responses indicating ‘no problems’",
+        "children’s interpretation of EQ-5D-Y dimensions"
+      ],
+      "attributes": [
+        "ease of understanding",
+        "ease of answering",
+        "recall-period relevance",
+        "question relevance",
+        "reasons for selecting ‘no problems’",
+        "mobility",
+        "looking after myself",
+        "usual activities",
+        "pain or discomfort",
+        "worried, sad or unhappy",
+        "social and school issues",
+        "additional thoughts"
+      ],
+      "levels": [],
+      "duration": null,
+      "alternatives": null,
+      "task_count": "One semistructured interview after questionnaire completion",
+      "block": null,
+      "order": "After completion of the questionnaire",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article: Table 1—Planned topic guide and interviewer script for paediatric patients",
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Health condition group",
+      "levels": [
+        "pneumonia",
+        "CNS solid tumours",
+        "immune thrombocytopenic purpura"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article: Methods and analysis—Participants"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Disease severity",
+      "levels": [
+        "pneumonia: severe or non-severe under WHO guidelines",
+        "CNS solid tumours: International Neuroblastoma Staging System categories",
+        "ITP: mild, moderate or severe based on platelet count and bleeding symptoms"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods and analysis—Participants, severity-classification paragraph",
+        "Full article: Statistical analysis plan"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Administration mode",
+      "levels": [
+        "self-complete",
+        "interviewer-administered",
+        "caregiver proxy-reported"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "children aged 8–16 years",
+      "perspective": "child self-report",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—EQ-5D-Y-3L and EQ-5D-Y-5L",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3",
+        "iu4"
+      ],
+      "respondent": "children aged 8–16 years",
+      "perspective": "child self-report",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "1 month",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—Paediatric Quality of Life Inventory",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "children aged 5–7 years",
+      "perspective": "child self-report",
+      "completion": "interviewer-administered",
+      "assistance": "trained interviewer, typically a nurse or medical student",
+      "channel": "interview-administered questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3",
+        "iu4"
+      ],
+      "respondent": "children aged 5–7 years",
+      "perspective": "child self-report",
+      "completion": "interviewer-administered",
+      "assistance": "trained interviewer, typically a nurse or medical student",
+      "channel": "interview-administered questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "1 month",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—Paediatric Quality of Life Inventory",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "family caregiver",
+      "perspective": "proxy report about the child",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3",
+        "iu4"
+      ],
+      "respondent": "family caregiver",
+      "perspective": "proxy report about the child",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "1 month",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—Paediatric Quality of Life Inventory",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu5"
+      ],
+      "respondent": "family caregiver",
+      "perspective": "caregiver self-report",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—EQ-5D-5L and EQ-HWB-9",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu6"
+      ],
+      "respondent": "family caregiver",
+      "perspective": "caregiver self-report",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "7 days",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—EQ-5D-5L and EQ-HWB-9",
+        "Full article: Methods and analysis—Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu10"
+      ],
+      "respondent": "children aged 12 years or older",
+      "perspective": "child self-report",
+      "completion": "self-complete",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "inpatient or outpatient hospital setting",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "baseline and 2–3-week follow-up",
+      "source": [
+        "Full article: Methods and analysis—Instruments—EQ-5D-5L and EQ-HWB-9",
+        "Full article: Methods and analysis—Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "sti1",
+      "study_id": "s1",
+      "part_id": null,
+      "group": "Paediatric patients and caregivers",
+      "activity": "Provided input on the development of interview materials and selection of outcome measures",
+      "stage": "study design",
+      "role": "contributors to study materials and measure selection",
+      "influence": "Their input informed the interview materials and selected outcomes.",
+      "source": [
+        "Full article: Methods and analysis—Patient and public involvement"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "sti2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "group": "Children and caregivers",
+      "activity": "Provide feedback on comprehension and relevance of HRQoL items",
+      "stage": "qualitative substudy",
+      "role": "planned feedback contributors",
+      "influence": "The feedback is intended to assess whether the instruments are appropriate and meaningful in the clinical and cultural context.",
+      "source": [
+        "Full article: Methods and analysis—Patient and public involvement"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Validity, reliability, child–proxy agreement, responsiveness and feasibility of the EuroQol instruments",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu5",
+        "iu6"
+      ],
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Statistical analysis plan"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Relative performance of self-complete, interviewer-administered and proxy-reported modes",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Statistical analysis plan"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "HRQoL and EQ VAS outcomes for children and caregivers across clinical groups",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7",
+        "iu10"
+      ],
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Methods and analysis—Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Ceiling effects, response distributions and correlations between EQ-5D-Y and PedsQL scores",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4"
+      ],
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Comparative performance of EQ-HWB-9 and EQ-5D-5L for caregiver spillover effects",
+      "instrument_use_ids": [
+        "iu5",
+        "iu6"
+      ],
+      "source": [
+        "Full article: Methods and analysis—Outcomes and measures",
+        "Full article: Statistical analysis plan, caregiver-burden paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "CONTENT_VALIDITY",
+      "label": "Children’s comprehension, response processes, perceived relevance, missing content and reasons for ceiling responses",
+      "instrument_use_ids": [
+        "iu9"
+      ],
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs",
+        "Full article: Table 1—Planned topic guide and interviewer script"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Caregiver spillover effects",
+      "description": "Indirect physical, emotional, social and work-related effects of childhood illness on family caregivers.",
+      "about": [
+        "iu5",
+        "iu6",
+        "o5"
+      ],
+      "source": [
+        "Full article: Introduction, caregiver-spillover paragraphs"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Ceiling-effect response interpretation",
+      "description": "Reasons that children select ‘no problems’, including true health status, wording interpretation, response retrieval and content not covered by EQ-5D-Y-5L.",
+      "about": [
+        "iu9",
+        "td1",
+        "o6"
+      ],
+      "source": [
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraphs",
+        "Full article: Table 1—Planned topic guide and interviewer script"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Recruitment is limited to three urban hospitals in eastern and southwestern China, which may limit generalisability to the broader paediatric population, especially rural or less-resourced settings.",
+      "about": [
+        "pop1",
+        "pop2"
+      ],
+      "source": [
+        "Full article: Strengths and limitations of this study",
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Cultural, linguistic and health-system variation across China may affect the interpretation and relevance of the HRQoL instruments.",
+      "about": [
+        "iu1",
+        "iu2",
+        "iu5",
+        "iu6"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Changes in health status over the short test–retest interval could affect reliability and responsiveness assessments.",
+      "about": [
+        "o1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The study does not assess effects of the HRQoL instruments on clinical decision-making or long-term health outcomes.",
+      "about": [],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Planned qualitative-sample allocation",
+      "statements": [
+        {
+          "statement": "The qualitative substudy will include 25 children.",
+          "source": [
+            "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+          ]
+        },
+        {
+          "statement": "The qualitative substudy will include five children per condition group, while the protocol elsewhere defines three distinct health-condition groups.",
+          "source": [
+            "Full article: Methods and analysis—Data collection, qualitative substudy paragraph",
+            "Full article: Methods and analysis—Participants, severity-classification paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+      ]
+    }
+  ]
+}

@@ -103,24 +103,16 @@ export function initStory(DATA, TOPO, root, options = {}){
     return [...byYear.entries()].sort((a, b) => b[1] - a[1])[0] || ['—', 0]
   })()
   const leadingGroups = groups.slice(0, 3)
-  const typeCount = label => seriesValue('studyTypes', label)
   const instrumentCount = label => seriesValue('instruments', label)
   const countryCount = label => seriesValue('countries', label)
-  const bothMethods = studies.filter(s => {
-    const values = new Set((s.methods || []).map(v => String(v).toLowerCase()))
-    return values.has('dce') && values.has('ctto')
-  }).length
-  const eitherMethod = studies.filter(s => (s.methods || []).some(value => ['dce', 'ctto'].includes(String(value).toLowerCase()))).length
-  const instrumentPair = studies.filter(s => {
-    const values = new Set(s.instruments || [])
-    return values.has('EQ-5D-5L') && values.has('EQ VAS')
-  }).length
   const valuationFiveL = studies.filter(s => {
     const types = new Set((s.studyTypes || []).map(value => String(value).toLowerCase()))
     const instruments = new Set(s.instruments || [])
-    return types.has('valuation study') && instruments.has('EQ-5D-5L')
+    return types.has('value_set_development') && instruments.has('EQ-5D-5L')
   }).length
-  const conceptCount = label => studies.filter(s => (s.concepts || []).some(value => String(value).toLowerCase() === label)).length
+  const primaryFamilies = series.studyTypes || []
+  const largestFamily = primaryFamilies[0] || { label:'—', value:0 }
+  const conceptCount = labels => studies.filter(s => (s.concepts || []).some(value => labels.includes(String(value).toLowerCase()))).length
 
   const BEATS = [
     { num:fmt(projects.length), head:'Projects shaping EuroQol research.', art:'stack',
@@ -147,24 +139,24 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`One paper can draw on several projects; one project can support several papers.`,
       layout:'projectPapers' },
 
-    { num:fmt(typeCount('valuation study')), head:'Valuation is the largest research strand.',
-      body:`Valuation accounts for <b>${fmt(typeCount('valuation study'))}</b> studies. Psychometric, comparative, cross-sectional, and longitudinal research form substantial parallel strands.`,
-      so:`Study-family labels can overlap. The ranking shows the shape of the field, not separate boxes.`,
+    { num:fmt(primaryFamilies.length), head:'A coherent map of research purpose.',
+      body:`Each study has one primary research family. The largest is <b>${String(largestFamily.label).replaceAll('_', ' ').toLowerCase()}</b>, with <b>${fmt(largestFamily.value)}</b> studies.`,
+      so:`The categories are mutually exclusive. Design and time structure remain separate.`,
       layout:'chartBlank', chart:'fieldShape' },
 
-    { num:fmt(instrumentPair), head:'EQ-5D-5L and EQ VAS form the central instrument pair.',
-      body:`EQ-5D-5L appears in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies and EQ VAS in <b>${fmt(instrumentCount('EQ VAS'))}</b>. They appear together in <b>${fmt(instrumentPair)}</b>.`,
-      so:`The co-use matrix shows the wider instrument ecosystem, including adult and youth systems.`,
+    { num:fmt(instrumentCount('EQ-5D-5L')), head:'Which instruments anchor the evidence base?',
+      body:`EQ-5D-5L is an object or direct measure in <b>${fmt(instrumentCount('EQ-5D-5L'))}</b> studies. The ranking also shows youth, legacy, wellbeing, and comparator instruments.`,
+      so:`A mention in background text does not count as instrument use.`,
       layout:'chartBlank', chart:'instrumentMatrix' },
 
-    { num:fmt(bothMethods), head:'DCE and cTTO are often used together.',
-      body:`Of the <b>${fmt(eitherMethod)}</b> studies that use DCE or cTTO, <b>${fmt(bothMethods)}</b> use both. DCE alone appears more often than cTTO alone.`,
-      so:`The same evidence base also contains psychometric, qualitative, and conventional statistical methods.`,
+    { num:fmt(counts.method || 0), head:'Methods and analyses reported in the studies.',
+      body:`The evidence base contains <b>${fmt(counts.method || 0)}</b> distinct method labels used in the reported studies. The ranking shows the most common named methods.`,
+      so:`Counts refer to direct current-study use; planned, cited, and source-study activity is excluded.`,
       layout:'chartBlank', chart:'methodBundles' },
 
-    { num:'6', head:'Six study families have distinct method profiles.',
-      body:`Valuation studies cluster around DCE and cTTO. Psychometric studies favour correlation and reliability analysis. Qualitative studies use interviews and thematic analysis.`,
-      so:`A method label becomes useful when it is read with the study family, instrument, population, and outcome.`,
+    { num:fmt(primaryFamilies.length), head:'Methodological depth varies by research family.',
+      body:`The comparison shows the mean number of distinct direct methods reported per study in each primary family, with the number of studies shown beside it.`,
+      so:`This measures reported method variety, not study quality.`,
       layout:'chartBlank', chart:'methodProfiles' },
 
     { num:fmt(counts.country || 0), head:'Evidence for different people and places.', art:'sphere',
@@ -172,19 +164,19 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`The United Kingdom has <b>${fmt(countryCount('United Kingdom'))}</b> studies; the Netherlands <b>${fmt(countryCount('Netherlands'))}</b>; Australia <b>${fmt(countryCount('Australia'))}</b>; and China <b>${fmt(countryCount('China'))}</b>.`,
       layout:'studyMap' },
 
-    { num:fmt(conceptCount('states worse than dead')), head:'Concepts connect work across study families.',
-      body:`Recurring themes include proxy reporting, states worse than dead, ceiling effects, child health valuation, and health inequality.`,
-      so:`These concepts make related studies discoverable even when their instruments and methods differ.`,
+    { num:fmt(conceptCount(['states worse than dead', 'worse than dead states', 'worse than dead state'])), head:'Recurring scientific questions become visible.',
+      body:`The ranking shows how often themes such as worse-than-dead states, proxy reporting, ceiling effects, child health valuation, and health inequality occur across studies.`,
+      so:`Concepts are open scientific tags, not study-family labels.`,
       layout:'chartBlank', chart:'conceptAtlas' },
 
-    { num:fmt(evidence.studiesWithProducts || 0), head:'Most studies report a research output.',
-      body:`<b>${fmt(evidence.studiesWithProducts || 0)}</b> studies report a value set, instrument, method, evidence product, guidance, or another output. <b>${fmt(evidence.studiesWithValueSets || 0)}</b> report a value set or tariff.`,
-      so:`The output view separates value sets from other outputs and from studies with no separate output.`,
+    { num:fmt(evidence.products || 0), head:'Reusable outputs from the research.',
+      body:`Studies produced <b>${fmt(evidence.products || 0)}</b> reusable resources, including <b>${fmt(evidence.valueSetProducts || 0)}</b> value sets, plus instrument versions, mappings, protocols, guidance, and datasets.`,
+      so:`These are reusable products, not the publications themselves.`,
       layout:'chartBlank', chart:'productLandscape' },
 
     { num:fmt(valuationFiveL), head:'Coverage is deep in some instrument–study combinations.',
-      body:`<b>${fmt(valuationFiveL)}</b> valuation studies use EQ-5D-5L. Youth instruments have a stronger psychometric profile and a thinner longitudinal profile.`,
-      so:`The matrix identifies dense and thin combinations. It does not, by itself, decide what should be studied next.`,
+      body:`<b>${fmt(valuationFiveL)}</b> value-set studies use EQ-5D-5L. The matrix shows where primary research families and instrument families have dense or sparse coverage.`,
+      so:`Sparse cells are candidates for closer gap review, not automatic research priorities.`,
       layout:'chartBlank', chart:'coverageMatrix' },
   ]
 
@@ -196,7 +188,6 @@ export function initStory(DATA, TOPO, root, options = {}){
         <div class="sh-num">${b.num}</div>
         <h2 class="sh-head">${b.head}</h2>
         <p class="sh-body">${b.body}</p>
-        <p class="sh-so">${b.so}</p>
       </div>
     </section>`).join('')
 

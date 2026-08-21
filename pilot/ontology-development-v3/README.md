@@ -1,11 +1,16 @@
 # EuroQol ontology development: version 3
 
-Status: ontology design, holdout validation, JATS metadata audit, extraction,
-strong source verification, project linkage, and graph loading for all 209
-unique local JATS papers are complete. The audited result contains 207 included
-studies, one excluded paper, and one correction notice. The next research input
-is the 60 local PDF-only papers. Scale retrieval for the 3,148 retained records
-remains behind the human-screening and identity gates.
+Status: source extraction, verification, project linkage, and graph loading for
+all 209 unique local JATS papers are complete. A later 100-question aggregate
+test found repeated identity, classification, role, missingness, and serving-
+layer defects. The source-linked facts remain useful, but broad aggregate use
+is paused until the analytical layer is repaired and retested. The 60 local
+PDF-only papers and the 3,148-record scale route remain pending.
+
+The version-3 analytical model is superseded by the typed version-4 experiment
+in [`../ontology-development-v4/`](../ontology-development-v4/README.md).
+Version 3 remains the record for source verification, project linkage, and the
+current version-1 graph.
 
 ## Purpose
 
@@ -55,5 +60,7 @@ remains behind the human-screening and identity gates.
   and query tests.
 - `production-calibration/`: compact one-pass task, domain graph, flat index,
   production scripts, complete 209-paper JATS result, and production decision.
+- `aggregate-validity/`: three independent reviews of all 100 competency
+  questions, a 15-paper diagnostic set, and the current synthesis.
 - `ONTOLOGY_V1.md`: current ontology for extraction and implementation.
 - `SCALE_UP_DECISION.md`: evidence, risks, and the next human decision.

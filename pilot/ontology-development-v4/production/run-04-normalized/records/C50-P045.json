@@ -1,0 +1,1076 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "C50-P045",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "“This study was sponsored by the EuroQol Research Foundation (EQ project 2016440) to HWL” during the preparation and implementation stage.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly elicited Taiwanese general-population preferences for EQ-5D-5L health states and developed the first Taiwan EQ-5D-5L value set. The EuroQol Research Foundation explicitly sponsored the study.",
+    "source": [
+      "Structured metadata, publication title and abstract",
+      "Structured metadata, JATS article-meta/funding-group",
+      "Full article, §1 Introduction, final paragraph",
+      "Full article, §5 Conclusions"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Taiwan EQ-5D-5L valuation study",
+      "primary_research_family": "VALUE_SET_DEVELOPMENT",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution was a new country-specific EQ-5D-5L value set based on preferences elicited from the Taiwanese general population.",
+      "source": [
+        "Full article, Abstract, Objectives and Conclusions",
+        "Full article, §1 Introduction, final paragraph",
+        "Full article, §5 Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Main Taiwan valuation and value-set modeling study",
+      "source": [
+        "Full article, §2 Methods",
+        "Full article, §3 Results"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "VALUE_SET_DEVELOPMENT",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract, Objectives",
+        "Full article, §1 Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "HEALTH_STATE_VALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, §2.2.2 Valuation procedures"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §2.4 Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §3.1 Participant characteristics"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "Full article, §2.4 Statistical analysis",
+        "Full article, §3.3 Modelling results"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, §2.1 Participants",
+        "Full article, §2.2.2 Valuation procedures"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adult members of the Taiwanese general population",
+      "role": "valuation respondents",
+      "geographies": [
+        "Taiwan"
+      ],
+      "conditions": [],
+      "age_description": "Aged 20 years or older",
+      "inclusion_description": "Residents of nine selected cities who could understand the valuation tasks, read and communicate in Chinese or Taiwanese, and provide informed consent.",
+      "source": [
+        "Full article, §2.1 Participants, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 1073,
+      "size_text": "1,073 formal-study participants",
+      "unit": "participants",
+      "description": "The formal-study sample comprised 1,073 participants after the separate 50-person pilot is removed from the 1,123 valuation interviews reported in the results.",
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, §3.1 Participant characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 1000,
+      "size_text": "1,000 completed participants",
+      "unit": "participants",
+      "description": "Participants who completed the formal study and were retained for final modeling.",
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, §3.1 Participant characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1000,
+      "size_text": "N = 1,000",
+      "unit": "participants",
+      "description": "Full sample used in the final C-TTO, DCE, and hybrid modeling analyses.",
+      "source": [
+        "Full article, §3.2 Data characteristics, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 970,
+      "size_text": "N = 970",
+      "unit": "participants",
+      "description": "Sensitivity-analysis sample after exclusion of 30 interviews with flagged quality concerns.",
+      "source": [
+        "Full article, §3.1 Participant characteristics, paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 295,
+      "size_text": "n = 295",
+      "unit": "participants",
+      "description": "Subsample matched to the general population by age, gender, living area, and education.",
+      "source": [
+        "Full article, §3.1 Participant characteristics, paragraph 1",
+        "Full article, §3.2 Data characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 73,
+      "size_text": "73 participants",
+      "unit": "participants",
+      "description": "Formal-study participants who discontinued during C-TTO tasks or rushed through the interview.",
+      "source": [
+        "Full article, §3.1 Participant characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "C-TTO and DCE responses collected in the Taiwan EQ-5D-5L valuation interviews",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Estimate and select a Taiwanese EQ-5D-5L value set.",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §3.2 Data characteristics"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "official EQ-5D-5L traditional Chinese character Taiwan version",
+      "registry_id": "instrument:eq-5d-5l-zh-hant-tw",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, §2.2.1 EQ-5D-5L health states",
+        "Full article, §2.2.2 Valuation procedures"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "self-reported EQ-5D-5L descriptive system",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "composite TTO (C-TTO)",
+      "registry_id": "method:ctto",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §2.2.2 C-TTO"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "discrete choice experiment (DCE)",
+      "registry_id": "method:dce",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §2.2.2 DCE"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Multi-stage stratified quota sampling",
+      "registry_id": "method:multistage-stratified-quota-sampling",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, §2.1 Participants, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "time spent on explaining the wheelchair example < 3 minutes",
+      "registry_id": "method:c50-p045-qc-wheelchair-time",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, §2.3 Quality assurance procedures, paragraph 2, quality control 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "no explanation of the lead-time TTO in the wheelchair example",
+      "registry_id": "method:c50-p045-qc-lead-time-explanation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, §2.3 Quality assurance procedures, paragraph 2, quality control 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "total time spent on the formal 10 C-TTO tasks < 5 minutes",
+      "registry_id": "method:c50-p045-qc-formal-task-time",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, §2.3 Quality assurance procedures, paragraph 2, quality control 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "significant logical inconsistency in the derived C-TTO values",
+      "registry_id": "method:c50-p045-qc-logical-inconsistency",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, §2.3 Quality assurance procedures, paragraph 2, quality control 4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "feedback module for C-TTO tasks",
+      "registry_id": "method:feedback-module-for-c-tto-tasks",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures, paragraph 1"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L valuation protocol",
+      "registry_id": "protocol:eq-vt-2-0",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "Full article, §2 Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EuroQol Valuation Technology version 2.0, EQ-VT 2.0",
+      "registry_id": "protocol:eq-vt-2-0",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "Full article, §2 Methods, opening paragraph",
+        "Full article, §2.2.2 Valuation procedures"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ordinary least square (OLS)",
+      "registry_id": "model:ordinary-least-squares-regression",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, §2.4.1 Model construction, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "general least square (GLS)",
+      "registry_id": "model:generalized-least-squares",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, §2.4.1 Model construction, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Tobit",
+      "registry_id": "model:tobit",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, §2.4.1 Model construction, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Tobit-GLS regression",
+      "registry_id": "model:tobit-gls",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, §2.4.1 Model construction, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "conditional logistic regression models",
+      "registry_id": "model:conditional-logit",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, §2.4.1 Model construction, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "standard hybrid model",
+      "registry_id": "model:hybrid-model",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, §2.4.1 Model construction, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "hybrid model assuming left-censoring of the C-TTO at -1 excluding heteroscedasticity and constant",
+      "registry_id": "model:hybrid-ctto-dce-left-censored-minus-1",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, §3.3 Modelling results, final paragraph before Figure 2"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Taiwan EQ-5D-5L value set",
+      "registry_id": "product:eq-5d-5l-tw-2018",
+      "product_id": "prod1",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, §3.3 Modelling results, final paragraph before Figure 2",
+        "Full article, §5 Conclusions"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "mu1",
+        "pu1",
+        "pu2"
+      ],
+      "label": "C-TTO tasks",
+      "profiles": [
+        "86 EQ-5D-5L health states distributed over 10 blocks"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "no problems",
+        "slight problems",
+        "moderate problems",
+        "severe problems",
+        "extreme problems"
+      ],
+      "duration": "Life B: 10 years in the EQ-5D-5L health state; Life A varied, with lead time for worse-than-death states",
+      "alternatives": "Life A versus Life B",
+      "task_count": "10 formal tasks per respondent, after one wheelchair exercise and three practice exercises",
+      "block": "10 blocks; each block contained a very mild state, 55555, and intermediate states",
+      "order": "Health states presented in random order",
+      "randomization_unit": "Respondent randomly assigned to one C-TTO block",
+      "stopping_rule": "Choice sequence identified indifference; values ranged to a lower bound of -1",
+      "source": [
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §2.2.2 C-TTO"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "mu2",
+        "pu1",
+        "pu2"
+      ],
+      "label": "DCE tasks",
+      "profiles": [
+        "196 pairs of EQ-5D-5L health states distributed over 28 blocks"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "no problems",
+        "slight problems",
+        "moderate problems",
+        "severe problems",
+        "extreme problems"
+      ],
+      "duration": null,
+      "alternatives": "Two EQ-5D-5L health states per pair",
+      "task_count": "7 paired-choice tasks per respondent",
+      "block": "28 blocks",
+      "order": "Pairs presented in random order",
+      "randomization_unit": "Respondent assigned to one DCE block",
+      "stopping_rule": null,
+      "source": [
+        "Full article, §2.2.2 DCE"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Analysis sample",
+      "levels": [
+        "full sample",
+        "subgroup sample without flagged QC reports",
+        "subsample matched by age, gender, living area, and education"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, §3.1 Participant characteristics",
+        "Full article, §3.2 Data characteristics"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "mu1",
+        "mu2",
+        "pu1",
+        "pu2"
+      ],
+      "respondent": "Adult member of the Taiwanese general population",
+      "perspective": "General-population valuation of hypothetical EQ-5D-5L health states",
+      "completion": "Computer-based, interviewer-administered valuation interview",
+      "assistance": "Face-to-face interviewer guidance",
+      "channel": "Face-to-face computer-based interview",
+      "setting": "Participant’s home or a safe, undisruptive public location",
+      "instrument_language": "Traditional Chinese character Taiwan version",
+      "interview_language": "Chinese or Taiwanese",
+      "recall_period": null,
+      "time_point": "One valuation interview conducted from January to July 2017",
+      "source": [
+        "Full article, §2.1 Participants, paragraph 2",
+        "Full article, §2.2.1 EQ-5D-5L health states",
+        "Full article, §2.2.2 Valuation procedures",
+        "Full article, §3.1 Participant characteristics"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2",
+        "iu3"
+      ],
+      "respondent": "Adult member of the Taiwanese general population",
+      "perspective": "Own current health",
+      "completion": "Self-report within the computer-based face-to-face interview",
+      "assistance": null,
+      "channel": "Computer-based face-to-face interview",
+      "setting": "Participant’s home or a safe, undisruptive public location",
+      "instrument_language": "Traditional Chinese",
+      "interview_language": "Chinese or Taiwanese",
+      "recall_period": null,
+      "time_point": "Before the background questions and valuation tasks",
+      "source": [
+        "Full article, §2.1 Participants, paragraph 2",
+        "Full article, §2.2.2 Valuation procedures, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Observed and modeled EQ-5D-5L health-state values",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, §3.2 Data characteristics",
+        "Full article, §3.3 Modelling results"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Model performance, logical consistency, prediction patterns, and data quality",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, §2.4.2 Model performance",
+        "Full article, §3.2 Data characteristics",
+        "Full article, §3.3 Modelling results"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The final dataset contained 10,000 C-TTO observations and 7,000 DCE observations from 1,000 respondents.",
+      "about": [
+        "du1",
+        "mu1",
+        "mu2",
+        "o1"
+      ],
+      "values": [
+        {
+          "reported_value": "10,000",
+          "unit": "observations",
+          "denominator": "1,000 respondents",
+          "time": null,
+          "subgroup": "full sample",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "7,000",
+          "unit": "observations",
+          "denominator": "1,000 respondents",
+          "time": null,
+          "subgroup": "full sample",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, §3.2 Data characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "More than half of C-TTO values were positive, while 38.5% were negative and 12.7% were at the lower bound of -1.",
+      "about": [
+        "mu1",
+        "o1"
+      ],
+      "values": [
+        {
+          "reported_value": "55.9",
+          "unit": "%",
+          "denominator": "10,000 C-TTO observations",
+          "time": null,
+          "subgroup": "full sample",
+          "comparator": null,
+          "direction": "positive",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "38.5",
+          "unit": "%",
+          "denominator": "10,000 C-TTO observations",
+          "time": null,
+          "subgroup": "full sample",
+          "comparator": null,
+          "direction": "negative",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "12.7",
+          "unit": "%",
+          "denominator": "10,000 C-TTO observations",
+          "time": null,
+          "subgroup": "full sample",
+          "comparator": null,
+          "direction": "value equal to -1",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, §3.2 Data characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The distributions of categorized C-TTO responses did not differ significantly across the full, quality-screened, and education-matched samples.",
+      "about": [
+        "sf1",
+        "mu1",
+        "o2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.384",
+          "unit": null,
+          "denominator": "comparison of 23 C-TTO value categories across three samples",
+          "time": null,
+          "subgroup": null,
+          "comparator": "full sample versus quality-screened and education-matched samples",
+          "direction": "no significant difference",
+          "uncertainty": "p = 0.384"
+        }
+      ],
+      "source": [
+        "Full article, §3.2 Data characteristics, paragraph 1",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "All main-effect coefficients in the selected C-TTO, DCE, and hybrid models were logically consistent, with positive incremental utility decrements for worse severity levels.",
+      "about": [
+        "mod4",
+        "mod5",
+        "mod7",
+        "o2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, §3.3 Modelling results, paragraph after Tables 2–3",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The preferred model was the hybrid model that used all C-TTO and DCE data, treated C-TTO values as left-censored at -1, and excluded heteroscedasticity and a constant.",
+      "about": [
+        "mod7",
+        "o2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, §3.3 Modelling results, final paragraph before Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The preferred Taiwan value set predicted EQ-5D-5L utilities from -1.0259 to 1.",
+      "about": [
+        "mod7",
+        "su1",
+        "prod1",
+        "o1"
+      ],
+      "values": [
+        {
+          "reported_value": "-1.0259",
+          "unit": "utility",
+          "denominator": "3,125 EQ-5D-5L health states",
+          "time": null,
+          "subgroup": "Taiwan value set",
+          "comparator": null,
+          "direction": "minimum",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1",
+          "unit": "utility",
+          "denominator": "3,125 EQ-5D-5L health states",
+          "time": null,
+          "subgroup": "Taiwan value set",
+          "comparator": null,
+          "direction": "maximum",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Table 2",
+        "Full article, §3.3 Modelling results, final paragraph before Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "In the preferred value set, mobility had the largest total decrement, but pain/discomfort and anxiety/depression had similar influence.",
+      "about": [
+        "mod7",
+        "prod1",
+        "o1"
+      ],
+      "values": [
+        {
+          "reported_value": "0.4767",
+          "unit": "disutility",
+          "denominator": "sum of preferred-model coefficients for the dimension",
+          "time": null,
+          "subgroup": "mobility",
+          "comparator": null,
+          "direction": "decrement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.4534",
+          "unit": "disutility",
+          "denominator": "sum of preferred-model coefficients for the dimension",
+          "time": null,
+          "subgroup": "pain/discomfort",
+          "comparator": null,
+          "direction": "decrement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.4212",
+          "unit": "disutility",
+          "denominator": "sum of preferred-model coefficients for the dimension",
+          "time": null,
+          "subgroup": "anxiety/depression",
+          "comparator": null,
+          "direction": "decrement",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, §4 Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors considered the value set suitable for economic evaluations of healthcare interventions in Taiwan because it reflected preferences from a broadly representative adult sample.",
+      "finding_ids": [
+        "f3",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, §4 Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors recommended the Taiwan EQ-5D-5L value set for cost-utility analysis, health technology assessment, formulary decisions, and insurance-coverage decisions in Taiwan.",
+      "finding_ids": [
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, §5 Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors stated that the lower-than-minus-one utilities could affect future QALY calculations that use the Taiwan value set.",
+      "finding_ids": [
+        "f6"
+      ],
+      "source": [
+        "Full article, §4 Discussion, paragraph 6"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The sample had substantially more respondents with higher education and fewer respondents with primary education than the Taiwanese adult population.",
+      "about": [
+        "pop1",
+        "sam3",
+        "sf1"
+      ],
+      "source": [
+        "Full article, §4 Discussion, limitations paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study highlighted traditional Chinese severity descriptors in red, and the effect of this change on respondents’ willingness to trade all available life-years was unknown.",
+      "about": [
+        "iu1",
+        "td1",
+        "mu1"
+      ],
+      "source": [
+        "Full article, §4 Discussion, limitations paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study observed interviewer effects that could be related to protocol violations, data quality, or EQ-VT data collection.",
+      "about": [
+        "pu2",
+        "mu4",
+        "mu6",
+        "mu7",
+        "mu8",
+        "o2"
+      ],
+      "source": [
+        "Full article, §4 Discussion, final paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Taiwan EQ-5D-5L value set",
+      "product_type": "VALUE_SET",
+      "source": [
+        "Full article, §3.3 Modelling results, final paragraph before Figure 2",
+        "Full article, §5 Conclusions"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "developed",
+      "assertion_date": null,
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Abstract, Conclusions",
+        "Full article, §5 Conclusions"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Country-specific and cultural variation in worse-than-death valuations",
+      "description": "The authors discussed large differences in negative C-TTO values and worst-state utilities between Taiwan and other Asian populations and called for research on social and cultural causes.",
+      "about": [
+        "mu1",
+        "f2",
+        "f6"
+      ],
+      "source": [
+        "Full article, §4 Discussion, paragraphs 2 and 4"
+      ]
+    }
+  ]
+}

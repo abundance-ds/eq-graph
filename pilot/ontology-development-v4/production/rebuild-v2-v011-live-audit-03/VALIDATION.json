@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "batches": 20,
+    "records": 20,
+    "verdicts": {
+      "MINOR": 14,
+      "MAJOR": 5,
+      "PASS": 1
+    },
+    "errors": 0
+  },
+  "batches": [
+    {
+      "batch_id": "A001",
+      "errors": []
+    },
+    {
+      "batch_id": "A002",
+      "errors": []
+    },
+    {
+      "batch_id": "A003",
+      "errors": []
+    },
+    {
+      "batch_id": "A004",
+      "errors": []
+    },
+    {
+      "batch_id": "A005",
+      "errors": []
+    },
+    {
+      "batch_id": "A006",
+      "errors": []
+    },
+    {
+      "batch_id": "A007",
+      "errors": []
+    },
+    {
+      "batch_id": "A008",
+      "errors": []
+    },
+    {
+      "batch_id": "A009",
+      "errors": []
+    },
+    {
+      "batch_id": "A010",
+      "errors": []
+    },
+    {
+      "batch_id": "A011",
+      "errors": []
+    },
+    {
+      "batch_id": "A012",
+      "errors": []
+    },
+    {
+      "batch_id": "A013",
+      "errors": []
+    },
+    {
+      "batch_id": "A014",
+      "errors": []
+    },
+    {
+      "batch_id": "A015",
+      "errors": []
+    },
+    {
+      "batch_id": "A016",
+      "errors": []
+    },
+    {
+      "batch_id": "A017",
+      "errors": []
+    },
+    {
+      "batch_id": "A018",
+      "errors": []
+    },
+    {
+      "batch_id": "A019",
+      "errors": []
+    },
+    {
+      "batch_id": "A020",
+      "errors": []
+    }
+  ]
+}

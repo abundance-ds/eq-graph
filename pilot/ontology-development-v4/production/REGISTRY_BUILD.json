@@ -1,0 +1,76 @@
+{
+  "identities": 179,
+  "aliases": 190,
+  "decisions": {
+    "ADD_GLOBAL": 138,
+    "ADD_SOURCE_SCOPED": 11,
+    "KEEP_EXISTING": 43,
+    "TYPE_REPAIR": 5,
+    "ALIAS_EXISTING": 32,
+    "KEEP_COMPOUND": 8,
+    "AMBIGUOUS": 3,
+    "SPLIT_RECORD": 5
+  },
+  "skipped": [
+    {
+      "entity_type": "Instrument",
+      "source_label": "EQ-5D-5L anxiety/depression dimension",
+      "decision": "TYPE_REPAIR",
+      "note": "Repair to an instrument component. This is not the complete EQ-5D-5L instrument."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "better than dead (BTD)",
+      "decision": "TYPE_REPAIR",
+      "note": "Repair to a valuation concept or task condition."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "direct method",
+      "decision": "AMBIGUOUS",
+      "note": "The source label does not identify a specific direct method."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "four quality controls (QCs)",
+      "decision": "SPLIT_RECORD",
+      "note": "Split into the four source-defined quality controls."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "frequency of dimension scores, ceiling and floor effects, and missing values",
+      "decision": "SPLIT_RECORD",
+      "note": "Split response frequencies, ceiling and floor effects, and missingness analysis."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "non‐parametric method",
+      "decision": "AMBIGUOUS",
+      "note": "The source label does not identify a specific nonparametric method."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "series of univariate and multivariable censored linear regression models adjusted for severity of health states",
+      "decision": "SPLIT_RECORD",
+      "note": "Remove this compound and retain the separate univariate and multivariable model records."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "Welch’s t-test and ANOVA",
+      "decision": "SPLIT_RECORD",
+      "note": "Split Welch t-test and analysis of variance."
+    },
+    {
+      "entity_type": "Model",
+      "source_label": "dimension-, construct-, and instrument-level multivariate models",
+      "decision": "SPLIT_RECORD",
+      "note": "Split the dimension-, construct-, and instrument-level models."
+    },
+    {
+      "entity_type": "Protocol",
+      "source_label": "common standardized protocol",
+      "decision": "AMBIGUOUS",
+      "note": "The source does not name or define the protocol sufficiently."
+    }
+  ]
+}

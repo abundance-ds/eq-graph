@@ -1,0 +1,491 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P018",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "adjacent_measurement",
+    "euroqol_support": "explicit",
+    "support_scope": "EuroQol Research Foundation — EQ Project 2016710; recipient: John Brazier.",
+    "publication_form": "CONCEPTUAL_ARTICLE",
+    "publication_relation": null,
+    "reason": "The article develops a conceptual checklist for item selection in preference-based measures. Measurement and suitability for health-state valuation are primary, but no EQ instrument or EuroQol method is the primary research object. The EuroQol Research Foundation explicitly funded the work.",
+    "source": [
+      "Structured metadata, publication title, abstract, categories, and funding group",
+      "Full article, Abstract",
+      "Full article, Background, final paragraph",
+      "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraphs 1–3",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Development of item-selection criteria for preference-based measures used in economic evaluation",
+      "primary_research_family": "CONCEPTUAL_FRAMEWORK_DEVELOPMENT",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is a structured checklist of 22 criteria for selecting items for preference-based measures, together with an additional consideration concerning translatability and cultural context. The paper develops a conceptual checklist and does not apply it to evaluate a method or protocol.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Background, final paragraph",
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraphs 1–3 and Table 1",
+        "Full article, Other considerations",
+        "Full article, Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Conceptual development of the item-selection criteria",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraphs 1–3"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "CONCEPTUAL_FRAMEWORK_DEVELOPMENT",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract",
+        "Full article, Background, final paragraph",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "CONCEPTUAL",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraphs 1–3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraphs 1–3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article, Background, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraphs 1–3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "synthesis_design",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2; the source reports derivation from existing lists and discussions but does not report a systematic review"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "existing lists of item-selection criteria",
+      "origin": "DOCUMENTARY_SOURCE",
+      "level": "DOCUMENT",
+      "purpose": "To derive and harmonize criteria for selecting items for preference-based measures.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project",
+      "origin": "CONCEPTUAL_MATERIAL",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "To contribute additional considerations for the criteria.",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-HWB",
+      "registry_id": "instrument:eq-hwb",
+      "context": "DISCUSSION_ONLY",
+      "function": "REFERENCE_ONLY",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "review of existing criteria on patient-reported outcome measures (PROMs) development",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_IDENTIFICATION",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PARTICIPATORY_DESIGN",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "time trade-off (TTO)",
+      "registry_id": "method:tto",
+      "context": "DISCUSSION_ONLY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Background, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "discrete choice experiments (DCE)",
+      "registry_id": "method:dce",
+      "context": "DISCUSSION_ONLY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Background, paragraph 1"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "si1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "group": "Researchers and advisors associated with the ‘Extending the QALY’ project",
+      "activity": "Presentations and discussion about item-selection considerations",
+      "stage": "Criteria generation",
+      "role": "Researchers and advisors",
+      "influence": "Their discussions contributed to the derivation of the criteria.",
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "CONCEPTUAL_CLASSIFICATION",
+      "label": "Criteria and considerations for selecting items for preference-based measures",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Table 1",
+        "Full article, Other considerations"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors present criteria covering 22 aspects of item selection for preference-based measures.",
+      "about": [
+        "o1",
+        "p1"
+      ],
+      "values": [
+        {
+          "reported_value": "22",
+          "unit": "criteria",
+          "denominator": "full checklist",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Criteria 1–12 address general questionnaire design, criteria 13–19 have increased importance for preference-based measures, and criteria 20–22 address requirements specific to valuation.",
+      "about": [
+        "o1",
+        "p1"
+      ],
+      "values": [
+        {
+          "reported_value": "12",
+          "unit": "criteria",
+          "denominator": "22 criteria",
+          "time": null,
+          "subgroup": "Universal questionnaire-design criteria",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "7",
+          "unit": "criteria",
+          "denominator": "22 criteria",
+          "time": null,
+          "subgroup": "Criteria with greater importance for preference-based measures",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "3",
+          "unit": "criteria",
+          "denominator": "22 criteria",
+          "time": null,
+          "subgroup": "Criteria specific to valuation requirements",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 3",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The valuation-specific criteria require important and tradable domains, items that do not attribute a problem to a circumstance, and response options that have a consistent direction.",
+      "about": [
+        "o1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Table 1, criteria 20–22",
+        "Full article, Ensure items are suitable for measuring QALYs, final six paragraphs"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Translatability and cultural context are an additional item-selection consideration outside the 22 checklist criteria; the authors state that each criterion also needs consideration in translated versions and different cultural contexts.",
+      "about": [
+        "o1",
+        "p1",
+        "c3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Other considerations"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Applying the criteria during item selection can limit problems at the later valuation stage.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article, Abstract, final sentence",
+        "Full article, Conclusion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Application should be iterative and should use evidence from people who will complete the measure and people whose preferences will be elicited.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article, Item selection criteria for a measure of QoL which will be valued based on public preferences, paragraph 3",
+        "Full article, Conclusion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Qualitative interviews can help establish consistent interpretation of item content in translated versions and different cultural contexts, beyond literal translation accuracy.",
+      "finding_ids": [
+        "f4"
+      ],
+      "source": [
+        "Full article, Other considerations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The criteria can conflict, so development teams must make judgments about their application.",
+      "about": [
+        "o1",
+        "p1"
+      ],
+      "source": [
+        "Full article, Abstract, final sentence",
+        "Full article, Accuracy and completion, discussion of criterion 7",
+        "Full article, Conclusion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Whether valuation respondents will trade improvements in one item against other domains can be difficult to establish before valuation exercises are conducted.",
+      "about": [
+        "o1"
+      ],
+      "source": [
+        "Full article, Ensure items are suitable for measuring QALYs, paragraph beginning ‘Criteria 20–22’"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Criteria for item selection for preference-based measures",
+      "product_type": "CHECKLIST_OR_TOOL",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Table 1",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "product_id": "p1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Criteria covering 22 aspects were developed and presented.",
+      "assertion_date": "2020-12-07",
+      "asserted_by": "Article authors",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Valuation suitability of items",
+      "description": "Items in a preference-based measure must support comprehensible health-state valuation and meaningful trade-offs across domains and against length of life.",
+      "about": [
+        "o1",
+        "p1"
+      ],
+      "source": [
+        "Full article, Background",
+        "Full article, Table 1, criteria 20–22",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Interpersonal and intertemporal comparability",
+      "description": "Items used to calculate QALYs should describe the specified current period without depending on comparisons with other people, expectations, or other periods.",
+      "about": [
+        "o1"
+      ],
+      "source": [
+        "Full article, Ensure items are suitable for measuring QALYs, paragraphs discussing criteria 14–19"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Translatability and cultural context",
+      "description": "Item selection must consider how each checklist criterion applies to translated versions and different cultural contexts. This is an additional consideration and not a twenty-third checklist criterion.",
+      "about": [
+        "o1",
+        "p1"
+      ],
+      "source": [
+        "Full article, Other considerations"
+      ]
+    }
+  ]
+}

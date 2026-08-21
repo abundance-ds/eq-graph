@@ -1,0 +1,1333 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P004",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "Financial support for this project was provided by EuroQol foundation, the Netherlands (project ID: EQ-Project 343-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates the validity, responsiveness, minimal clinically important difference, and minimal detectable change of the Amharic EQ-5D in Ethiopian patients with cervical cancer. EuroQol Foundation funded the project.",
+    "source": [
+      "Full article, Abstract > Objective",
+      "Full article, Introduction, final paragraph",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Psychometric evaluation of the Amharic EQ-5D among Ethiopian patients with cervical cancer",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an evaluation of validity, responsiveness, interpretability, and detectable change. The study does not develop new instrument content or a value set.",
+      "source": [
+        "Full article, Abstract > Objective, Methods, Results, and Conclusion",
+        "Full article, Introduction, final paragraph"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract > Objective",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Convergent validity assessment",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Results > Convergent validity"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Discriminative validity assessment",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Results > Discriminate validity"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Longitudinal responsiveness, MCID, and MDC assessment",
+      "source": [
+        "Full article, Methods > Responsiveness, MCID, and MDC",
+        "Full article, Results > Responsiveness, MCID and MDC estimation, and MDC"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2: pre-treatment data were used"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Study setting and design; Patient recruitment and data collection procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2: pre-treatment data were used"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Study setting and design; Patient recruitment and data collection procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Responsiveness, MCID, and MDC"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Methods > Study setting and design",
+        "Full article, Methods > Patient recruitment and data collection procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Methods > Responsiveness, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Study setting and design; Patient recruitment and data collection procedure"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Adult patients with newly diagnosed cervical cancer receiving oncology services at two Ethiopian tertiary hospitals",
+      "role": "study population",
+      "geographies": [
+        "Ethiopia",
+        "Addis Ababa"
+      ],
+      "conditions": [
+        "Cervical cancer"
+      ],
+      "age_description": "Older than 18 years; analyzed sample mean age 49.72 years (SD 10.80).",
+      "inclusion_description": "Newly confirmed cervical cancer, age older than 18 years, and eligible during data collection. Patients who had started treatment, did not consent, or had mental illness or cognitive impairment were excluded.",
+      "source": [
+        "Full article, Methods > Study setting and design",
+        "Full article, Methods > Patient recruitment and data collection procedure",
+        "Full article, Results > Participant characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 371,
+      "size_text": "371 patients",
+      "unit": "patients",
+      "description": "Patients included in the pre-treatment convergent-validity analysis after restriction to complete follow-up data.",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Results > Participant characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 371,
+      "size_text": "371 patients",
+      "unit": "patients",
+      "description": "Patients included in the pre-treatment discriminative-validity analysis after restriction to complete follow-up data.",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Results > Participant characteristics, first paragraph",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 422,
+      "size_text": "422 patients at baseline",
+      "unit": "patients",
+      "description": "Patients recruited consecutively and assessed at baseline.",
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure, paragraph 1",
+        "Full article, Results > Participant characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 46,
+      "size_text": "46 patients",
+      "unit": "patients",
+      "description": "Patients who died during follow-up and were excluded from the final analysis.",
+      "source": [
+        "Full article, Results > Participant characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 5,
+      "size_text": "5 patients",
+      "unit": "patients",
+      "description": "Patients lost to follow-up and excluded from the final analysis.",
+      "source": [
+        "Full article, Results > Participant characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 371,
+      "size_text": "371 patients completed both time points",
+      "unit": "patients",
+      "description": "Patients with baseline and three-month post-treatment data.",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Participant characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 371,
+      "size_text": "371 patients",
+      "unit": "patients",
+      "description": "Patients included in responsiveness, MCID, and MDC analyses.",
+      "source": [
+        "Full article, Results > Participant characteristics, first paragraph",
+        "Full article, Table 4",
+        "Full article, Table 5"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Longitudinal patient survey responses at baseline and three months post-treatment",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Validity, responsiveness, MCID, MDC, and health-status analyses.",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Patient recruitment and data collection procedure"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Medical record review",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "DOCUMENT",
+      "purpose": "Clinical characteristics, including diagnosis, comorbidity, cancer stage, and treatment.",
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure, paragraph 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Amharic version of EQ-5D-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract > Objective",
+        "Full article, Methods > Instruments > EQ-5D"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EORTC QLQ-C30",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, Methods > Instruments > EORTC-QLQ-C30",
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "EORTC-QLQ-C30 global health subscale",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Responsiveness, paragraph 1",
+        "Full article, Methods > MCID, paragraphs 2-3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Eastern Cooperative Oncology Group (ECOG) performance status",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, Methods > Instruments > ECOG performance status",
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "recruited consecutively",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "face-to-face interview",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Spearman correlation coefficient",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Kruskal Wallis U test",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Wilcoxon signed-rank test",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 1",
+        "Full article, Methods > Responsiveness, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "effect size (ES)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Responsiveness, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "standardized response mean (SRM)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Responsiveness, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "distribution-based method",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > MCID, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "anchor-based method",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > MCID, paragraphs 2-3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "receiver operating characteristic (ROC) curve",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > MCID, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Youden index",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > MCID, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "minimal detectable change (MDC) calculation",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > MDC"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "Ethiopian value sets",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods > Instruments > EQ-5D, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Tumor stage",
+      "levels": [
+        "Stage I",
+        "Stage II",
+        "Stage III",
+        "Stage IV"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Table 2 > Tumor stage"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "ECOG performance status",
+      "levels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Table 2 > ECOG performance"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Age category",
+      "levels": [
+        "Less than 35",
+        "35–60",
+        "Greater than 60"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Table 2 > Age categories"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Treatment modality",
+      "levels": [
+        "Surgery alone",
+        "Chemotherapy",
+        "Radiotherapy",
+        "Chemoradiation",
+        "Surgery + chemotherapy"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Table 2 > Treatment modalities"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Change in EORTC QLQ-C30 global health status",
+      "levels": [
+        "No change",
+        "Improved",
+        "Worsened"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Responsiveness, paragraph 1",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "mu2"
+      ],
+      "respondent": "patients with cervical cancer",
+      "perspective": null,
+      "completion": "face-to-face interview",
+      "assistance": "four trained nurses conducted the interviews",
+      "channel": "in person",
+      "setting": "Tikur Anbessa Specialized Hospital and Saint Paul’s Hospital Millennium Medical College",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "baseline and three months post-treatment",
+      "source": [
+        "Full article, Methods > Study setting and design",
+        "Full article, Methods > Patient recruitment and data collection procedure"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "patients with cervical cancer",
+      "perspective": "patient self-report of present health",
+      "completion": "interviewer administered; the interviewer read the questions aloud and entered the response",
+      "assistance": "trained nurse interviewer",
+      "channel": "in person",
+      "setting": "two Ethiopian tertiary hospitals",
+      "instrument_language": "Amharic",
+      "interview_language": "Amharic",
+      "recall_period": "present health status",
+      "time_point": "baseline and three months post-treatment",
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure, paragraph 2",
+        "Full article, Methods > Instruments > EQ-5D"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Convergent validity of the Amharic EQ-5D against EORTC QLQ-C30 domains",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Results > Convergent validity",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Discriminative validity across patient health-status groups",
+      "instrument_use_ids": [
+        "iu1",
+        "iu4"
+      ],
+      "source": [
+        "Full article, Methods > Statistical analyses, paragraph 2",
+        "Full article, Results > Discriminate validity",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Responsiveness of EQ-5D index and EQ VAS scores",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods > Responsiveness",
+        "Full article, Results > Responsiveness",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Minimal clinically important difference and minimal detectable change",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods > MCID and MDC",
+        "Full article, Results > MCID and MDC estimation and MDC",
+        "Full article, Tables 5-6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "At baseline, corresponding physical and emotional domains of the instruments had moderate-to-strong correlations. EORTC QLQ-C30 physical functioning correlated with the EQ-5D index at 0.70 and EQ VAS at 0.64, and emotional functioning correlated with EQ-5D anxiety/depression at -0.64.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2",
+        "mu3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.70",
+          "unit": "Spearman correlation coefficient",
+          "denominator": "371 analyzed patients",
+          "time": "baseline",
+          "subgroup": "EORTC QLQ-C30 physical functioning versus EQ-5D index",
+          "comparator": null,
+          "direction": "positive",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.64",
+          "unit": "Spearman correlation coefficient",
+          "denominator": "371 analyzed patients",
+          "time": "baseline",
+          "subgroup": "EORTC QLQ-C30 physical functioning versus EQ VAS",
+          "comparator": null,
+          "direction": "positive",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "-0.64",
+          "unit": "Spearman correlation coefficient",
+          "denominator": "371 analyzed patients",
+          "time": "baseline",
+          "subgroup": "EORTC QLQ-C30 emotional functioning versus EQ-5D anxiety/depression",
+          "comparator": null,
+          "direction": "negative",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Table 3 > Physical functioning and Emotional functioning rows"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "EQ-5D index and EQ VAS scores discriminated between tumor stages and ECOG performance groups. Scores were lower for more severe disease and poorer performance.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu4",
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.91",
+          "unit": "EQ-5D index median",
+          "denominator": "110 patients",
+          "time": "baseline",
+          "subgroup": "Tumor stage I",
+          "comparator": "Tumor stage IV: 0.81",
+          "direction": "higher with earlier stage",
+          "uncertainty": "p=0.001 across stages"
+        },
+        {
+          "reported_value": "80",
+          "unit": "EQ VAS median points",
+          "denominator": "110 patients",
+          "time": "baseline",
+          "subgroup": "Tumor stage I",
+          "comparator": "Tumor stage IV: 55",
+          "direction": "higher with earlier stage",
+          "uncertainty": "p=0.001 across stages"
+        },
+        {
+          "reported_value": "0.91",
+          "unit": "EQ-5D index median",
+          "denominator": "298 patients",
+          "time": "baseline",
+          "subgroup": "ECOG performance 1",
+          "comparator": "ECOG performance 3: 0.38",
+          "direction": "higher with better performance",
+          "uncertainty": "p=0.001 across ECOG groups"
+        },
+        {
+          "reported_value": "70",
+          "unit": "EQ VAS median points",
+          "denominator": "298 patients",
+          "time": "baseline",
+          "subgroup": "ECOG performance 1",
+          "comparator": "ECOG performance 3: 42.5",
+          "direction": "higher with better performance",
+          "uncertainty": "p=0.001 across ECOG groups"
+        }
+      ],
+      "source": [
+        "Full article, Results > Discriminate validity",
+        "Full article, Table 2 > Tumor stage and ECOG performance"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Across all analyzed patients, the EQ-5D index increased by 0.04 and EQ VAS increased by 7.00 points after three months of treatment.",
+      "about": [
+        "o3",
+        "iu1",
+        "mu5"
+      ],
+      "values": [
+        {
+          "reported_value": "0.04",
+          "unit": "EQ-5D index points",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "all analyzed patients",
+          "comparator": "baseline",
+          "direction": "improvement",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "7.00",
+          "unit": "EQ VAS points",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "all analyzed patients",
+          "comparator": "baseline",
+          "direction": "improvement",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "Full article, Results > Responsiveness, paragraph 1",
+        "Full article, Table 4 > Change in score"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Responsiveness differed by anchor-defined change group. EQ-5D index responsiveness was strongest in the improvement group and absent in the no-change group; EQ VAS responsiveness was large in the improvement group but weak in the worsened group.",
+      "about": [
+        "o3",
+        "iu1",
+        "iu3",
+        "mu6",
+        "mu7",
+        "sf5"
+      ],
+      "values": [
+        {
+          "reported_value": "0.60",
+          "unit": "effect size",
+          "denominator": "146 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "improvement; EQ-5D index",
+          "comparator": "no-change effect size 0.03",
+          "direction": "greater responsiveness",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.59",
+          "unit": "standardized response mean",
+          "denominator": "146 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "improvement; EQ-5D index",
+          "comparator": "no-change SRM 0.03",
+          "direction": "greater responsiveness",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1.16",
+          "unit": "effect size",
+          "denominator": "146 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "improvement; EQ VAS",
+          "comparator": "worsened group effect size -0.12",
+          "direction": "greater responsiveness",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1.21",
+          "unit": "standardized response mean",
+          "denominator": "146 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "improvement; EQ VAS",
+          "comparator": "worsened group SRM -0.12",
+          "direction": "greater responsiveness",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Responsiveness, paragraph 1",
+        "Full article, Table 4 > ES and SRM"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Distribution-based mean MCID estimates were 0.10 to 0.15 for the EQ-5D index and 4.01 to 7.56 for EQ VAS. Anchor-based average MCIDs were 0.04 and 4.00, respectively. The ROC-based index threshold was 0.20, but discrimination was limited.",
+      "about": [
+        "o4",
+        "iu1",
+        "iu3",
+        "mu8",
+        "mu9",
+        "mu10",
+        "mu11"
+      ],
+      "values": [
+        {
+          "reported_value": "0.10–0.15",
+          "unit": "EQ-5D index points",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "distribution-based estimates from 0.5 SD and SEM",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "4.01–7.56",
+          "unit": "EQ VAS points",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "distribution-based estimates from 0.5 SD and SEM",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.04",
+          "unit": "EQ-5D index points",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "average anchor-based MCID",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "4.00",
+          "unit": "EQ VAS points",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "average anchor-based MCID",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.20",
+          "unit": "EQ-5D index points",
+          "denominator": "patients classified by improved versus no-change anchor status",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "ROC-derived improvement threshold",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "sensitivity 34%; specificity 86%; AUC 0.59 (95% CI 0.50–0.68)"
+        }
+      ],
+      "source": [
+        "Full article, Results > MCID and MDC estimation",
+        "Full article, Table 5 > Average MCID",
+        "Full article, Table 6 > Mean MCID",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "MCID-to-MDC ratios were below one at the individual level and above one at the group level. Thus, the estimated changes exceeded measurement error for groups but not for individuals.",
+      "about": [
+        "o4",
+        "iu1",
+        "mu12"
+      ],
+      "values": [
+        {
+          "reported_value": "0.095",
+          "unit": "MCID/MDC ratio",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "anchor-based EQ-5D index; individual level",
+          "comparator": "group-level ratio 1.81",
+          "direction": "below one",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.191",
+          "unit": "MCID/MDC ratio",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "anchor-based EQ VAS; individual level",
+          "comparator": "group-level ratio 3.70",
+          "direction": "below one",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.24–0.36",
+          "unit": "MCID/MDC ratio",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "distribution-based EQ-5D index; individual level",
+          "comparator": "group-level ratios 4.55–6.82",
+          "direction": "below one",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.19–0.36",
+          "unit": "MCID/MDC ratio",
+          "denominator": "371 patients",
+          "time": "baseline to three months post-treatment",
+          "subgroup": "distribution-based EQ VAS; individual level",
+          "comparator": "group-level ratios 3.71–7.0",
+          "direction": "below one",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Table 5 > MCID/MDC ratio",
+        "Full article, Table 6 > MCID/MDC ratio",
+        "Full article, Discussion, paragraphs 1 and 4"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that the EQ-5D had good psychometric properties and could detect change and discriminate between levels of health among Ethiopian patients with cervical cancer.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The authors concluded that the MCID estimates were clinically meaningful at the group level but did not support individual-level interpretation. They recommended further individual-level studies.",
+      "finding_ids": [
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusion",
+        "Full article, Discussion, paragraphs 1 and 4",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The three-month follow-up ended while some patients were still receiving treatment, which could have affected the MDC assessment.",
+      "about": [
+        "o4",
+        "mu12"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Exclusion of 46 patients who died and five patients who were lost to follow-up could have introduced bias and affected the responsiveness and MCID estimates.",
+      "about": [
+        "sam4",
+        "sam5",
+        "o3",
+        "o4"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Responsiveness and MCID can vary by intervention, patient characteristics, and setting, so the results may not apply to other diseases.",
+      "about": [
+        "o3",
+        "o4",
+        "pop1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "con1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Minimal clinically important difference",
+      "description": "The smallest health-status score change considered clinically meaningful, estimated with distribution-based, anchor-based, and ROC approaches.",
+      "about": [
+        "o4",
+        "mu8",
+        "mu9",
+        "mu10"
+      ],
+      "source": [
+        "Full article, Methods > MCID"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "con2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Minimal detectable change",
+      "description": "The smallest score change not attributed to measurement error or random variation, evaluated at individual and group levels.",
+      "about": [
+        "o4",
+        "mu12"
+      ],
+      "source": [
+        "Full article, Methods > MDC"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "scope": "Reported MDC95 values for the EQ-5D index and EQ VAS",
+      "statements": [
+        {
+          "statement": "The MDC Results text reports individual-level values of 0.064 and 16.44 and group-level values of 0.42 and 20.95 for the EQ-5D index and EQ VAS, respectively.",
+          "source": [
+            "Full article, Results > MDC, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 6 reports individual-level values of 0.42 and 20.95 and group-level values of 0.022 and 1.08 for the EQ-5D index and EQ VAS, respectively.",
+          "source": [
+            "Full article, Table 6 > MDC95 individual and group rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > MDC, paragraph 1",
+        "Full article, Table 6 > MDC95 individual and group rows"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Named EORTC QLQ-C30 domain associated with correlations of 0.70 and 0.64",
+      "statements": [
+        {
+          "statement": "The Convergent validity text assigns correlations of 0.70 with the EQ-5D index and 0.64 with EQ VAS to role functioning.",
+          "source": [
+            "Full article, Results > Convergent validity, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 3 assigns correlations of 0.70 with the EQ-5D index and 0.64 with EQ VAS to physical functioning; its role-functioning row reports 0.64 and 0.58.",
+          "source": [
+            "Full article, Table 3 > Physical functioning and Role functioning rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Convergent validity, paragraph 1",
+        "Full article, Table 3 > Physical functioning and Role functioning rows"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc3",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Whether the current study generated or analyzed data",
+      "statements": [
+        {
+          "statement": "The Methods and Results report collection and analysis of survey and medical-record data from 422 baseline participants and 371 participants with complete follow-up.",
+          "source": [
+            "Full article, Methods > Patient recruitment and data collection procedure",
+            "Full article, Results > Participant characteristics, first paragraph"
+          ]
+        },
+        {
+          "statement": "The Data availability statement says that no datasets were generated or analysed during the current study.",
+          "source": [
+            "Full article, Data availability",
+            "Full article, Associated Data > Data Availability Statement"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure",
+        "Full article, Results > Participant characteristics, first paragraph",
+        "Full article, Data availability"
+      ]
+    }
+  ]
+}

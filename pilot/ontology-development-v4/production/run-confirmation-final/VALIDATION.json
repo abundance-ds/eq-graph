@@ -1,0 +1,158 @@
+{
+  "summary": {
+    "expected": 20,
+    "present": 20,
+    "valid": 20,
+    "errors": 0,
+    "warnings": 2,
+    "dispositions": {
+      "include-study": 20
+    }
+  },
+  "records": [
+    {
+      "record_id": "CNF-P001",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P002",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P003",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P004",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P005",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P006",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P007",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P008",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P009",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P010",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "mo2: unmapped Model registry label regression techniques"
+      ]
+    },
+    {
+      "record_id": "CNF-P011",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P012",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P013",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P014",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P015",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P016",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P017",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P018",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu7: unmapped Instrument registry label EQ-5D proxy versions"
+      ]
+    },
+    {
+      "record_id": "CNF-P019",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P020",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

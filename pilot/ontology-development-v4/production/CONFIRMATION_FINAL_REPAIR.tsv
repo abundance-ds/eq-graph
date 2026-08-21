@@ -1,0 +1,2 @@
+record_id	feedback
+CNF-P013	Correct sam6. The source reports 2,199 adult EOPCN patients with records available for analysis; it does not report enrollment. Set sam6.stage=UNMAPPED_VALUE, sam6.unit="patients", and preserve size=2199 with an exact description of available patient records. Add an UNMAPPED_VALUE Gap for the missing source-record-availability sample stage and link it to sam6. Preserve sam7 as the 25 same-day pre/post records excluded from repeated-measure analysis, and preserve all other supported content and registry mappings as null in the AI draft.

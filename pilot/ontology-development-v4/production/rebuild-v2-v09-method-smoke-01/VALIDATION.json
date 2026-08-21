@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "expected": 4,
+    "present": 4,
+    "valid": 4,
+    "errors": 0,
+    "warnings": 76,
+    "dispositions": {
+      "include-study": 4
+    }
+  },
+  "records": [
+    {
+      "record_id": "V2-P002",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v09-method-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label EQ-5D-5L",
+        "iu3: unmapped Instrument registry label self-reported EQ-5D-5L assessment",
+        "mu1: unmapped Method registry label discrete choice experiment (DCE)",
+        "mu2: unmapped Method registry label generator-developed design",
+        "mu3: unmapped Method registry label modified Fedorov algorithm",
+        "mu4: unmapped Method registry label Bayesian D-efficient design algorithm implemented in R by Oppe and van Hout based on Rose et al.",
+        "mu5: unmapped Method registry label quota allocation by age, gender, and region through Pureprofile",
+        "mu6: unmapped Method registry label five-step approach to include and exclude ANA patterns using a 5% class-membership probability threshold",
+        "mu7: unmapped Method registry label relative attribute importance (RAI) score calculation",
+        "mu8: unmapped Method registry label external validity analysis using straightlining, completion time, and feedback responses",
+        "su1: unmapped Software registry label Ngene",
+        "su2: unmapped Software registry label SAS macros",
+        "su3: unmapped Software registry label R",
+        "su4: unmapped Software registry label Latent GOLD 5.1",
+        "su5: unmapped Software registry label R",
+        "su6: unmapped Software registry label RStudio",
+        "su7: unmapped Software registry label gmnl package",
+        "mo1: unmapped Model registry label equality constrained latent class (ECLC) model",
+        "mo2: unmapped Model registry label multinomial logit (MNL) model with main effects and interactions with full attendance",
+        "mo3: unmapped Model registry label separate multinomial logit main-effects models for all respondents and full attenders"
+      ]
+    },
+    {
+      "record_id": "V2-P019",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v09-method-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-Y-3L",
+        "iu2: unmapped Instrument registry label EQ-5D-Y-3L",
+        "mu1: unmapped Method registry label discrete choice experiment (DCE) with kaizen tasks",
+        "mu2: unmapped Method registry label five paired comparisons asking whether experiencing specific problems was better or worse than “being in a coma”",
+        "mu3: unmapped Method registry label representative sample of US adults",
+        "mu4: unmapped Method registry label experience scaling",
+        "mu5: unmapped Method registry label cluster bootstrap technique (with replacement)",
+        "mu6: unmapped Method registry label percentile method",
+        "pu1: unmapped Protocol registry label Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale",
+        "mo1: unmapped Model registry label conditional logit model"
+      ]
+    },
+    {
+      "record_id": "V2-P062",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v09-method-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-TIPS-5L V.3.0 descriptive system",
+        "iu2: unmapped Instrument registry label EQ-TIPS-5L V.3.0 descriptive system",
+        "iu3: unmapped Instrument registry label EQ-TIPS-5L V.3.0 descriptive system",
+        "iu4: unmapped Instrument registry label EQ-5D-5L",
+        "iu5: unmapped Instrument registry label EQ-5D bolt-ons",
+        "iu6: unmapped Instrument registry label EQ-TIPS-5L",
+        "mu1: unmapped Method registry label kaizen tasks",
+        "mu2: unmapped Method registry label paired comparisons",
+        "mu3: unmapped Method registry label d-efficient block construction for wave 1",
+        "mu4: unmapped Method registry label d-efficient process based on the wave-1 evidence",
+        "mu5: unmapped Method registry label 32 recruitment quotas stratified by gender, age and ancestry",
+        "mu6: unmapped Method registry label child representation task",
+        "mu7: unmapped Method registry label optional open text survey feedback question",
+        "mu8: unmapped Method registry label maximum likelihood estimation",
+        "mu9: unmapped Method registry label cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations",
+        "mu10: unmapped Method registry label Lin’s concordance coefficient",
+        "mu11: unmapped Method registry label beta-testing of the wave-1 survey instrument",
+        "mu12: unmapped Method registry label pilot to confirm technical functionality",
+        "pu1: unmapped Protocol registry label two-wave DCE survey protocol for assessing the EQ-TIPS-5L descriptive system",
+        "su1: unmapped Software registry label R Statistical Software (V.4.1.3)",
+        "su2: unmapped Software registry label LimeSurvey",
+        "mod1: unmapped Model registry label main-effects conditional logit model",
+        "mod2: unmapped Model registry label random utility model"
+      ]
+    },
+    {
+      "record_id": "V2-P138",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v09-method-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label EQ-5D-5L",
+        "iu3: unmapped Instrument registry label EQ-5D-5L",
+        "mu1: unmapped Method registry label standard DCE",
+        "mu2: unmapped Method registry label DCE-death",
+        "mu3: unmapped Method registry label DCE-duration",
+        "mu4: unmapped Method registry label ‘unstratified’ efficient designs",
+        "mu5: unmapped Method registry label ‘severity-stratified’ designs",
+        "mu6: unmapped Method registry label heterogeneous DCE design algorithms",
+        "mu7: unmapped Method registry label Latin hypercube sample optimized for maximum minimum distance between points",
+        "mu8: unmapped Method registry label greedy optimization algorithm",
+        "mu9: unmapped Method registry label Bayesian Markov chain Monte Carlo (MCMC) methods",
+        "mu10: unmapped Method registry label mean errors (MEs)",
+        "mu11: unmapped Method registry label Cross validation of the MEs",
+        "mu12: unmapped Method registry label SSI’s online panel",
+        "mu13: unmapped Method registry label division by the death or duration parameter for QALY rescaling",
+        "su1: unmapped Software registry label SSI’s survey management software",
+        "su2: unmapped Software registry label Julia",
+        "su3: unmapped Software registry label R package bayesm",
+        "su4: unmapped Software registry label R package CODA",
+        "mo1: unmapped Model registry label mixed logit model",
+        "sc1: unmapped Product registry label Dutch tariff for the five-level version of EQ-5D"
+      ]
+    }
+  ]
+}

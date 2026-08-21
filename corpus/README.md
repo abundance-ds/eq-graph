@@ -33,9 +33,12 @@ The reference list is rendered as numbered entries matching the `[1]`, `[4–7]`
 ## Coverage and limits
 
 - **227 of the 287 held full texts**: all 220 JATS XML files and the 7 PDF files used in the ontology pilot.
-  `to_markdown.py` converts PDFs through Poppler in [`pdf_markdown.py`](../scripts/pdf_markdown.py), because Pandoc has no PDF reader.
-  The other 60 PDF files remain unconverted until a deliberate corpus run.
-  PDF-derived documents are thinner than these: a publisher PDF carries no author list, keywords or affiliations in any recoverable form, and its tables flatten into loose lines.
+  `to_markdown.py` converts PDFs with [`pdf_markdown.py`](../scripts/pdf_markdown.py).
+  It repairs verified font maps before one PyMuPDF4LLM structural pass.
+  The converter passed all 67 local PDFs. The other 60 remain outside this
+  audited corpus until their semantic processing run.
+  PDF Markdown includes headings, pipe tables, formula text blocks, and source-page markers.
+  Publisher PDFs can still lack structured authors, keywords, and affiliations.
   Prefer the XML wherever a paper is held as both.
 - **Tables** are pipe tables where the shape allows and raw HTML where it does not — rowspans and nested tables have no Markdown form.
   This is where the value-set coefficients and sample characteristics live, so it matters that they survive at all; both forms are readable, neither is tidy.

@@ -1,0 +1,326 @@
+entity_type	registry_id	canonical_label	parent_registry_id	applies_to_registry_id	variant_kind	language_code	jurisdiction	version	respondent_form	source_identifier	scope
+Instrument	instrument:acceptability-scale	Acceptability Scale									GLOBAL
+Instrument	instrument:ascot	Adult Social Care Outcomes Toolkit									GLOBAL
+Instrument	instrument:asq-parent-report-form	Ages and Stages Questionnaire Parent Report Form			RESPONDENT_VERSION						GLOBAL
+Instrument	instrument:barthel-index-10	Barthel Index, 10-item version			FORM_VERSION			10-item			GLOBAL
+Instrument	instrument:c50-p049-eq-5d-3l-feasibility-questions	EQ-5D-3L feasibility questions			LOCAL_INSTRUMENT					10.3390/curroncol32060308	C50-P049
+Instrument	instrument:chu9d	CHU9D									GLOBAL
+Instrument	instrument:cnf-p002-doctor-agreement-scale	Study doctor-agreement scale			LOCAL_INSTRUMENT					10.1007/s11136-025-04145-0	CNF-P002
+Instrument	instrument:cnf-p002-dutch-word-completion-test	Dutch death-thought-accessibility word-completion test			LOCAL_INSTRUMENT					10.1007/s11136-025-04145-0	CNF-P002
+Instrument	instrument:cnf-p002-emotional-lability-questionnaire	Study emotional-lability questionnaire			LOCAL_INSTRUMENT					10.1007/s11136-025-04145-0	CNF-P002
+Instrument	instrument:cnf-p006-revised-knee-decision-aid	Revised individualized knee decision aid			LOCAL_INSTRUMENT					10.1016/j.pecinn.2025.100421	CNF-P006
+Instrument	instrument:cnf-p008-egypt-valuation-questionnaire	Egypt valuation-study country questionnaire			LOCAL_INSTRUMENT					10.1136/bmjopen-2021-051727	CNF-P008
+Instrument	instrument:cnf-p015-self-rated-health-vas	Study self-rated-health VAS			LOCAL_INSTRUMENT					10.1186/s12955-022-01989-9	CNF-P015
+Instrument	instrument:ecog-performance-status	ECOG Performance Status									GLOBAL
+Instrument	instrument:eortc-qlq-c30	EORTC QLQ-C30									GLOBAL
+Instrument	instrument:eortc-qlq-c30-global-health	EORTC QLQ-C30 global health subscale	instrument:eortc-qlq-c30		SUBSCALE						GLOBAL
+Instrument	instrument:eq-5d	EQ-5D									GLOBAL
+Instrument	instrument:eq-5d-3l	EQ-5D-3L	instrument:eq-5d		LEVEL_VERSION			3L			GLOBAL
+Instrument	instrument:eq-5d-3l-proxy-v1	EQ-5D-3L proxy version 1	instrument:eq-5d-3l		RESPONDENT_VERSION			1	PROXY	10.3390/curroncol32060308	GLOBAL
+Instrument	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d		LEVEL_VERSION			5L			GLOBAL
+Instrument	instrument:eq-5d-5l-am-et	EQ-5D-5L, Amharic, Ethiopia	instrument:eq-5d-5l		LANGUAGE_EDITION	am	ET	5L		10.1186/s12955-024-02305-3	GLOBAL
+Instrument	instrument:eq-5d-5l-ar-eg	EQ-5D-5L, Arabic, Egypt	instrument:eq-5d-5l		LANGUAGE_EDITION	ar	EG			10.1136/bmjopen-2021-051727	GLOBAL
+Instrument	instrument:eq-5d-5l-zh-hant-tw	EQ-5D-5L, Traditional Chinese, Taiwan	instrument:eq-5d-5l		LANGUAGE_EDITION	zh-Hant	TW	5L		10.1371/journal.pone.0209344	GLOBAL
+Instrument	instrument:eq-5d-y	EQ-5D-Y	instrument:eq-5d		RESPONDENT_VERSION				YOUTH		GLOBAL
+Instrument	instrument:eq-5d-y-3l	EQ-5D-Y-3L	instrument:eq-5d-y		LEVEL_VERSION			3L	YOUTH		GLOBAL
+Instrument	instrument:eq-5d-y-3l-zh-hans-cn	EQ-5D-Y-3L, Simplified Chinese, China	instrument:eq-5d-y-3l		LANGUAGE_EDITION	zh-Hans	CN			10.1007/s11136-025-03917-y	GLOBAL
+Instrument	instrument:eq-5d-y-4l	EQ-5D-Y-4L	instrument:eq-5d-y		LEVEL_VERSION			4L		10.1007/s11136-019-02115-x	GLOBAL
+Instrument	instrument:eq-5d-y-5l	EQ-5D-Y-5L	instrument:eq-5d-y		LEVEL_VERSION			5L	YOUTH		GLOBAL
+Instrument	instrument:eq-hwb	EQ-HWB									GLOBAL
+Instrument	instrument:eq-hwb-9-proxy-en-au-v1	Experimental EQ-HWB-9 proxy questionnaire, English for Australia, version 1	instrument:eq-hwb-s		EXPERIMENTAL_VERSION	en	AU	1	PROXY	10.1007/s11136-026-04230-y	GLOBAL
+Instrument	instrument:eq-hwb-s	EQ-HWB-S	instrument:eq-hwb		FORM_VERSION			SHORT			GLOBAL
+Instrument	instrument:eq-tips	EQ-TIPS							PROXY		GLOBAL
+Instrument	instrument:eq-tips-3l	EQ-TIPS-3L	instrument:eq-tips		LEVEL_VERSION			3L	PROXY		GLOBAL
+Instrument	instrument:eq-tips-3l-xh-za	EQ-TIPS-3L, isiXhosa, South Africa	instrument:eq-tips-3l		LANGUAGE_EDITION	xh	ZA	3L		10.4314/ahs.v23i4.63	GLOBAL
+Instrument	instrument:eq-tips-5l	EQ-TIPS-5L	instrument:eq-tips		EXPERIMENTAL_VERSION	en		3.0		10.1136/bmjopen-2025-100897	GLOBAL
+Instrument	instrument:eq-vas	EQ VAS									GLOBAL
+Instrument	instrument:experiences-close-relationships-nl	Experiences in Close Relationships, Dutch edition			LANGUAGE_EDITION	nl	NL				GLOBAL
+Instrument	instrument:facit-cost	FACIT-COST									GLOBAL
+Instrument	instrument:facit-cost-v2-id	Indonesian FACIT-COST v2	instrument:facit-cost		LANGUAGE_EDITION	id	ID	2		10.1186/s12955-024-02303-5	GLOBAL
+Instrument	instrument:fact-g	FACT-G									GLOBAL
+Instrument	instrument:fatigue-severity-scale	Fatigue Severity Scale									GLOBAL
+Instrument	instrument:flacc-pain-scale	FLACC Pain Scale									GLOBAL
+Instrument	instrument:hads-a	Hospital Anxiety and Depression Scale, Anxiety subscale			FORM_VERSION						GLOBAL
+Instrument	instrument:hads-d	Hospital Anxiety and Depression Scale, Depression subscale			FORM_VERSION						GLOBAL
+Instrument	instrument:hint-8	HINT-8			FORM_VERSION			8-item			GLOBAL
+Instrument	instrument:hui	Health Utilities Index									GLOBAL
+Instrument	instrument:hui2	Health Utilities Index Mark 2	instrument:hui		FORM_VERSION			Mark 2			GLOBAL
+Instrument	instrument:hui3	Health Utilities Index Mark 3	instrument:hui		FORM_VERSION			Mark 3			GLOBAL
+Instrument	instrument:modified-rankin-scale	Modified Rankin Scale									GLOBAL
+Instrument	instrument:msis-29-v2	MSIS-29 version 2			FORM_VERSION						GLOBAL
+Instrument	instrument:msis-8d	MSIS-8D									GLOBAL
+Instrument	instrument:msws-12	MS Walking Scale, 12-item version			FORM_VERSION						GLOBAL
+Instrument	instrument:overall-health-assessment	Overall Health Assessment									GLOBAL
+Instrument	instrument:pedsql	PedsQL									GLOBAL
+Instrument	instrument:pedsql-3-cancer-module	PedsQL 3.0 Cancer Module	instrument:pedsql		FORM_VERSION						GLOBAL
+Instrument	instrument:pedsql-4-generic-core	PedsQL 4.0 Generic Core Scales	instrument:pedsql		FORM_VERSION						GLOBAL
+Instrument	instrument:preparation-decision-making-scale	Preparation for Decision Making Scale									GLOBAL
+Instrument	instrument:promis-16	PROMIS-16			FORM_VERSION			16-item			GLOBAL
+Instrument	instrument:qol-acc	Quality of Life-Aged Care Consumers									GLOBAL
+Instrument	instrument:qwb-sa	QWB-SA			RESPONDENT_VERSION						GLOBAL
+Instrument	instrument:r129-p028-objective-financial-toxicity-questions	Objective financial-toxicity questions			LOCAL_INSTRUMENT					10.1007/s11136-025-03925-y	R129-P028
+Instrument	instrument:r129-p127-nhs-satisfaction-scale	National Health System satisfaction 1-to-10 scale			LOCAL_INSTRUMENT					10.3390/ijerph19138208	R129-P127
+Instrument	instrument:r129-p129-dietary-information-questionnaire	Study dietary-information questionnaire			LOCAL_INSTRUMENT					10.4314/ahs.v23i4.63	R129-P129
+Instrument	instrument:sf-36	SF-36									GLOBAL
+Instrument	instrument:sf-36-item-1-five-level	SF-36 item 1, five-level self-rated general health			FORM_VERSION			five-level			GLOBAL
+Instrument	instrument:sf-6d	SF-6D									GLOBAL
+Instrument	instrument:sf-6d-v1	SF-6Dv1			FORM_VERSION			1			GLOBAL
+Instrument	instrument:system-usability-scale	System Usability Scale									GLOBAL
+Instrument	instrument:web-edss	web-EDSS									GLOBAL
+Instrument	instrument:wemwbs	WEMWBS									GLOBAL
+Instrument	instrument:whoqol-bref	WHOQOL-BREF			FORM_VERSION			BREF			GLOBAL
+Instrument	instrument:zarit-burden-interview-22	Zarit Burden Interview, 22-item version			FORM_VERSION			22-item			GLOBAL
+Method	method:analysis-of-variance	Analysis of variance									GLOBAL
+Method	method:anchor-based-method	Anchor-based method									GLOBAL
+Method	method:arithmetic-mean	Arithmetic mean									GLOBAL
+Method	method:attention-checks	Attention checks									GLOBAL
+Method	method:automated-item-selection	Automated item selection procedure									GLOBAL
+Method	method:backward-selection	Backward selection									GLOBAL
+Method	method:bayesian-mcmc	Bayesian Markov chain Monte Carlo									GLOBAL
+Method	method:bland-altman-plots	Bland-Altman plots									GLOBAL
+Method	method:bonferroni-correction	Bonferroni correction									GLOBAL
+Method	method:bootstrap-resampling-1000	Bootstrap resampling, 1,000 samples			METHOD_VARIANT			1000			GLOBAL
+Method	method:bws	BWS									GLOBAL
+Method	method:bws-case-2	Best-worst scaling case 2	method:bws		METHOD_VARIANT						GLOBAL
+Method	method:c50-p028-database-and-citation-search	Database and citation-search workflow			INTEGRATED_WORKFLOW					10.1007/s40273-025-01509-9	C50-P028
+Method	method:c50-p028-independent-dual-screening	Independent dual-screening workflow			INTEGRATED_WORKFLOW					10.1007/s40273-025-01509-9	C50-P028
+Method	method:c50-p032-cluster-bootstrap	Cluster bootstrap with block-specific strata and 1,000 iterations			INTEGRATED_WORKFLOW					10.1136/bmjopen-2025-100897	C50-P032
+Method	method:c50-p032-panel-vendor-32-quota-recruitment	Panel-vendor recruitment with 32 quotas			STUDY_ADAPTATION					10.1136/bmjopen-2025-100897	C50-P032
+Method	method:c50-p045-qc-formal-task-time	Formal cTTO task-time quality control			STUDY_ADAPTATION					10.1371/journal.pone.0209344	C50-P045
+Method	method:c50-p045-qc-lead-time-explanation	Lead-time TTO explanation quality control			STUDY_ADAPTATION					10.1371/journal.pone.0209344	C50-P045
+Method	method:c50-p045-qc-logical-inconsistency	cTTO logical-inconsistency quality control			STUDY_ADAPTATION					10.1371/journal.pone.0209344	C50-P045
+Method	method:c50-p045-qc-wheelchair-time	Wheelchair-example explanation-time quality control			STUDY_ADAPTATION					10.1371/journal.pone.0209344	C50-P045
+Method	method:ceiling-and-floor-percentages	ceiling and floor percentages									GLOBAL
+Method	method:chi-square-test	Chi-square test									GLOBAL
+Method	method:cnf-p002-multiple-switch-qc	Multiple-switch TTO consistency check			STUDY_ADAPTATION						GLOBAL
+Method	method:cnf-p003-adapted-penton-response-framework	Adapted Penton response-issue framework			STUDY_ADAPTATION					10.1007/s11136-025-03917-y	CNF-P003
+Method	method:cnf-p005-ssi-panel-recruitment	SSI online-panel recruitment			STUDY_ADAPTATION					10.1007/s40273-018-0694-6	CNF-P005
+Method	method:cnf-p006-post-screening-clinic-recruitment	Post-screening clinic recruitment			STUDY_ADAPTATION					10.1016/j.pecinn.2025.100421	CNF-P006
+Method	method:cnf-p008-eq-vt-qc-tool	Egypt EQ-VT quality-control tool			STUDY_ADAPTATION					10.1136/bmjopen-2021-051727	CNF-P008
+Method	method:cnf-p008-pictorial-tool-feedback	Pictorial-tool participant-feedback procedure			STUDY_ADAPTATION					10.1136/bmjopen-2021-051727	CNF-P008
+Method	method:cnf-p009-database-search	CNF-P009 database-search workflow			STUDY_ADAPTATION					10.1007/s40273-025-01493-0	CNF-P009
+Method	method:cnf-p009-self-report-scoring-category	Self-report scoring category			STUDY_ADAPTATION					10.1007/s40273-025-01493-0	CNF-P009
+Method	method:cnf-p011-adapted-tourangeau-coding-framework	Adapted Tourangeau response-process coding framework			STUDY_ADAPTATION					10.1007/s40271-023-00647-6	CNF-P011
+Method	method:cnf-p012-dynata-panel-recruitment	Dynata voluntary-panel recruitment			STUDY_ADAPTATION					10.1007/s11136-026-04285-x	CNF-P012
+Method	method:cnf-p013-alberta-norm-matched-comparison	Age- and sex-matched Alberta norms comparison			STUDY_ADAPTATION					10.1002/hsr2.70308	CNF-P013
+Method	method:cnf-p016-qualtrics-panel-recruitment	Qualtrics caregiver-panel recruitment			STUDY_ADAPTATION					10.1007/s11136-025-04003-z	CNF-P016
+Method	method:cognitive-interview	Cognitive interview									GLOBAL
+Method	method:cognitive-think-aloud-interview	Cognitive think-aloud interview	method:think-aloud		METHOD_VARIANT						GLOBAL
+Method	method:cohen-weighted-kappa	Cohen's weighted kappa			METHOD_VARIANT						GLOBAL
+Method	method:cohens-d	Cohen d effect size	method:standardized-effect-size		METHOD_VARIANT						GLOBAL
+Method	method:computer-assisted-personal-interview	Computer-assisted personal interview	method:interview		METHOD_VARIANT						GLOBAL
+Method	method:concurrent-think-aloud	Concurrent think-aloud	method:think-aloud		METHOD_VARIANT						GLOBAL
+Method	method:consecutive-sampling	Consecutive sampling									GLOBAL
+Method	method:content-analysis	content analysis									GLOBAL
+Method	method:convenience-sampling	Convenience sampling									GLOBAL
+Method	method:correction-based-on-constant-alternative-constant-alternative-correction	correction based on constant alternative (constant alternative correction)									GLOBAL
+Method	method:correction-based-on-maximum-btd-time-maximum-btd-correction	correction based on maximum BTD time (maximum BTD correction)									GLOBAL
+Method	method:cronbachs-alpha	Cronbach’s alpha									GLOBAL
+Method	method:cross-validation	Cross-validation									GLOBAL
+Method	method:ctto	cTTO	method:tto		METHOD_VARIANT						GLOBAL
+Method	method:data-saturation-assessment	Data-saturation assessment									GLOBAL
+Method	method:dce	DCE									GLOBAL
+Method	method:dce-death	DCE with death	method:dce		METHOD_VARIANT						GLOBAL
+Method	method:dce-duration	DCE with duration	method:dce		METHOD_VARIANT						GLOBAL
+Method	method:dce-with-duration	DCE with duration	method:dce		METHOD_VARIANT						GLOBAL
+Method	method:descriptive-analysis	descriptive analysis									GLOBAL
+Method	method:descriptive-statistics	Descriptive statistics									GLOBAL
+Method	method:descriptive-statistics-assessing-feasibility	descriptive statistics assessing feasibility									GLOBAL
+Method	method:dif-hybrid-logistic-ordinal-irt	DIF analysis with hybrid ordinal-logistic and IRT approach			INTEGRATED_WORKFLOW						GLOBAL
+Method	method:distribution-based-method	Distribution-based method									GLOBAL
+Method	method:exact-case-control-matching	Exact case-control matching			METHOD_VARIANT						GLOBAL
+Method	method:face-to-face-interview	Face-to-face interview	method:interview		METHOD_VARIANT						GLOBAL
+Method	method:feedback-module-for-c-tto-tasks	feedback module for C-TTO tasks									GLOBAL
+Method	method:focus-group-interviews	focus group interviews									GLOBAL
+Method	method:forest-plot	Forest plot									GLOBAL
+Method	method:forward-and-backward-translation	forward and backward translation									GLOBAL
+Method	method:forward-stepwise-regression-procedure	forward stepwise regression procedure									GLOBAL
+Method	method:framework-analysis	Framework analysis									GLOBAL
+Method	method:glass-delta	Glass’s delta	method:standardized-effect-size		METHOD_VARIANT						GLOBAL
+Method	method:gwet-ac1	Gwet AC1 coefficient	method:gwet-agreement-coefficient		METHOD_VARIANT						GLOBAL
+Method	method:gwet-ac2	Gwet AC2 coefficient	method:gwet-agreement-coefficient		METHOD_VARIANT			AC2			GLOBAL
+Method	method:gwet-agreement-coefficient	Gwet agreement coefficient									GLOBAL
+Method	method:harmonization-exercise	harmonization exercise									GLOBAL
+Method	method:health-state-density-curve	Health-state density curve									GLOBAL
+Method	method:health-state-density-index	Health-state density index									GLOBAL
+Method	method:health-state-frequency	Health-state frequency analysis									GLOBAL
+Method	method:health-utility-mortality-kaplan-meier	Health-utility and mortality Kaplan-Meier reporting								10.5492/wjccm.v11.i4.236	GLOBAL
+Method	method:heterogeneous-dce-design	Heterogeneous DCE design algorithm	method:dce		METHOD_VARIANT						GLOBAL
+Method	method:independent-t-test	Independent t-test	method:t-test		METHOD_VARIANT						GLOBAL
+Method	method:integrated-inductive-deductive-thematic-analysis	Integrated inductive and deductive thematic analysis			INTEGRATED_WORKFLOW					10.1007/s11136-026-04230-y	CAL-B03
+Method	method:interview	interview									GLOBAL
+Method	method:intraclass-correlation-coefficient	Intraclass correlation coefficient									GLOBAL
+Method	method:intraclass-correlation-two-way-random-absolute-agreement	Intraclass correlation coefficient, two-way random effects, absolute agreement	method:intraclass-correlation-coefficient		METHOD_VARIANT						GLOBAL
+Method	method:item-response-theory-analysis	Item response theory analysis									GLOBAL
+Method	method:kruskal-wallis-test	Kruskal-Wallis test									GLOBAL
+Method	method:lag-time-tto	Lag-time TTO	method:tto		METHOD_VARIANT						GLOBAL
+Method	method:levenes-test	Levene’s test									GLOBAL
+Method	method:linear-interpolation	linear interpolation									GLOBAL
+Method	method:lins-concordance-correlation-coefficient	Lin's concordance correlation coefficient									GLOBAL
+Method	method:literature-review	literature review									GLOBAL
+Method	method:location-of-dead	Location-of-dead anchoring									GLOBAL
+Method	method:loevinger-h	Loevinger H coefficient									GLOBAL
+Method	method:longitudinal-structured-survey	Longitudinal structured survey									GLOBAL
+Method	method:manifest-invariant-item-ordering	Manifest invariant item ordering									GLOBAL
+Method	method:manifest-monotonicity	Manifest monotonicity									GLOBAL
+Method	method:mann-whitney-u-test	Mann-Whitney U test									GLOBAL
+Method	method:maximum-likelihood	Maximum-likelihood estimation									GLOBAL
+Method	method:mcdonalds-omega	McDonald’s omega									GLOBAL
+Method	method:mcnemars-test-for-paired-proportions	McNemar’s test for paired proportions									GLOBAL
+Method	method:mean-error	Mean error									GLOBAL
+Method	method:minimal-detectable-change	Minimal detectable change calculation									GLOBAL
+Method	method:minimally-important-difference-mid	minimally important difference (MID)									GLOBAL
+Method	method:minimum-completion-time-thresholds	Minimum completion-time thresholds									GLOBAL
+Method	method:missingness-analysis	Missingness analysis			METHOD_VARIANT						GLOBAL
+Method	method:mixed-online-postal-survey	Mixed online and postal survey			INTEGRATED_WORKFLOW						GLOBAL
+Method	method:modified-kakwani-index	modified Kakwani index									GLOBAL
+Method	method:mokken-scale-analysis	Mokken scale analysis									GLOBAL
+Method	method:multistage-stratified-quota-sampling	Multistage stratified quota sampling									GLOBAL
+Method	method:narrative-synthesis	Narrative synthesis									GLOBAL
+Method	method:non-probability-design	non-probability design									GLOBAL
+Method	method:oblique-rotation-method-oblimin	oblique rotation method (Oblimin)									GLOBAL
+Method	method:one-sample-proportion-z-test	One-sample proportion z-test	method:z-test		METHOD_VARIANT						GLOBAL
+Method	method:online-cross-sectional-survey	online cross-sectional survey									GLOBAL
+Method	method:online-survey	Online survey									GLOBAL
+Method	method:open-ended-survey-questions	Open-ended survey questions									GLOBAL
+Method	method:paired-comparison	Paired comparison									GLOBAL
+Method	method:paired-t-test	Paired t-test	method:t-test		METHOD_VARIANT						GLOBAL
+Method	method:parallel-analysis	Parallel analysis									GLOBAL
+Method	method:paraphrasing-method	paraphrasing method									GLOBAL
+Method	method:paretian-classification-of-health-change	Paretian Classification of Health Change									GLOBAL
+Method	method:pearson-correlation	Pearson correlation coefficient									GLOBAL
+Method	method:percentage-of-agreement	percentage of agreement									GLOBAL
+Method	method:polychoric-correlation-coefficients	polychoric correlation coefficients									GLOBAL
+Method	method:principal-component-analysis	Principal component analysis									GLOBAL
+Method	method:probability-of-superiority	Probability of superiority									GLOBAL
+Method	method:probing	probing									GLOBAL
+Method	method:pto	PTO									GLOBAL
+Method	method:quota-sampling	Quota sampling									GLOBAL
+Method	method:r129-p001-adapted-lipman-validation-task	Adapted Lipman validation task			STUDY_ADAPTATION					10.1002/hec.4529	R129-P001
+Method	method:r129-p014-descriptive-statistics-bundle	Descriptive-statistics summary bundle			INTEGRATED_WORKFLOW					10.1007/s11136-019-02115-x	R129-P014
+Method	method:r129-p018-researcher-advisor-consultation	Researcher and advisor consultation			INTEGRATED_WORKFLOW					10.1007/s11136-020-02718-9	R129-P018
+Method	method:r129-p038-demographic-quota-sampling	Demographic quota sampling with 18 quotas			STUDY_ADAPTATION					10.1007/s11136-026-04242-8	R129-P038
+Method	method:r129-p064-5l-3l-responsiveness-ratio	5L-to-3L responsiveness-statistic ratio			INTEGRATED_WORKFLOW					10.1007/s40273-022-01172-4	R129-P064
+Method	method:r129-p110-household-selection	Street, household, and birthday-selection workflow			INTEGRATED_WORKFLOW					10.1186/s12955-024-02323-1	R129-P110
+Method	method:r129-p110-panel-recruitment-email	Panel recruitment by survey links sent by email			STUDY_ADAPTATION					10.1186/s12955-024-02323-1	R129-P110
+Method	method:r129-p110-panel-recruitment-public-places	Panel recruitment by online links in public places			STUDY_ADAPTATION					10.1186/s12955-024-02323-1	R129-P110
+Method	method:r129-p129-dimension-score-frequency	Dimension-score frequency distribution			STUDY_ADAPTATION					10.4314/ahs.v23i4.63	R129-P129
+Method	method:response-scaling-tasks	response scaling tasks									GLOBAL
+Method	method:retrospective-think-aloud	Retrospective think-aloud	method:think-aloud		METHOD_VARIANT						GLOBAL
+Method	method:review-of-existing-criteria-on-patient-reported-outcome-measures-proms-development	review of existing criteria on patient-reported outcome measures (PROMs) development									GLOBAL
+Method	method:review-of-hrqol-instruments	review of HRQoL instruments									GLOBAL
+Method	method:roc-curve-analysis	Receiver operating characteristic curve analysis									GLOBAL
+Method	method:search-strategy	search strategy									GLOBAL
+Method	method:semi-structured-interview	Semi-structured interview	method:interview		METHOD_VARIANT						GLOBAL
+Method	method:severity-stratified-dce-design	Severity-stratified DCE design	method:dce		METHOD_VARIANT						GLOBAL
+Method	method:sg	SG									GLOBAL
+Method	method:shannons-evenness-index-j	Shannon’s Evenness Index (J’)									GLOBAL
+Method	method:shannons-index-h	Shannon’s Index (H’)									GLOBAL
+Method	method:shapiro-wilk-test	Shapiro-Wilk test									GLOBAL
+Method	method:sorting-tasks	sorting tasks									GLOBAL
+Method	method:spearman-rank-correlation	Spearman's rank correlation									GLOBAL
+Method	method:standardized-effect-size	Standardized effect size									GLOBAL
+Method	method:standardized-response-mean	Standardized response mean									GLOBAL
+Method	method:t-test	t-test									GLOBAL
+Method	method:thematic-analysis	Thematic analysis									GLOBAL
+Method	method:thematic-content-analysis	thematic content analysis									GLOBAL
+Method	method:think-aloud	think aloud									GLOBAL
+Method	method:tto	TTO									GLOBAL
+Method	method:unstratified-efficient-dce-design	Unstratified efficient DCE design	method:dce		METHOD_VARIANT						GLOBAL
+Method	method:vas	VAS									GLOBAL
+Method	method:welch-anova	Welch's ANOVA	method:analysis-of-variance		METHOD_VARIANT						GLOBAL
+Method	method:welch-t-test	Welch t-test	method:t-test		METHOD_VARIANT						GLOBAL
+Method	method:wilcoxon-signed-rank-test	Wilcoxon signed-rank test									GLOBAL
+Method	method:youden-index	Youden index									GLOBAL
+Method	method:z-test	z-test									GLOBAL
+Model	model:add20	ADD20								10.1007/s40273-025-01519-7	GLOBAL
+Model	model:add20-i	ADD20-I	model:add20		MODEL_VARIANT					10.1007/s40273-025-01519-7	GLOBAL
+Model	model:add20-p	ADD20-P	model:add20		MODEL_VARIANT					10.1007/s40273-025-01519-7	GLOBAL
+Model	model:ancova	Analysis of covariance									GLOBAL
+Model	model:cale	CALE								10.1007/s40273-025-01519-7	GLOBAL
+Model	model:cale-i	CALE-I	model:cale		MODEL_VARIANT					10.1007/s40273-025-01519-7	GLOBAL
+Model	model:cale-p	CALE-P	model:cale		MODEL_VARIANT					10.1007/s40273-025-01519-7	GLOBAL
+Model	model:cnf-p015-heteroskedastic-interaction	CNF-P015 heteroskedastic interaction model			MODEL_VARIANT					10.1186/s12955-022-01989-9	CNF-P015
+Model	model:conditional-logit	Conditional logit model									GLOBAL
+Model	model:confirmatory-factor-analysis	Confirmatory factor analysis			FACTOR_MODEL						GLOBAL
+Model	model:double-monotonicity	Double monotonicity model									GLOBAL
+Model	model:exploratory-factor-analysis	Exploratory factor analysis			FACTOR_MODEL						GLOBAL
+Model	model:generalized-least-squares	Generalized least squares									GLOBAL
+Model	model:graded-response	Graded response model									GLOBAL
+Model	model:heteroskedastic-conditional-logit	Heteroskedastic conditional logit model	model:conditional-logit		MODEL_VARIANT						GLOBAL
+Model	model:heteroskedastic-salc	Heteroskedastic scale-adjusted latent class model									GLOBAL
+Model	model:hybrid-ctto-dce-left-censored-minus-1	Hybrid cTTO-DCE model, left-censored at -1 without heteroscedasticity or constant	model:hybrid-model		MODEL_VARIANT						GLOBAL
+Model	model:hybrid-model	Standard hybrid model									GLOBAL
+Model	model:item-level-linear-regression-eq-vas	Item-level linear regression with EQ VAS outcome			MODEL_VARIANT						GLOBAL
+Model	model:logistic-regression	Logistic regression									GLOBAL
+Model	model:mixed-logit	Mixed logit model									GLOBAL
+Model	model:monotone-homogeneity	Monotone homogeneity model									GLOBAL
+Model	model:multilevel-meta-regression-reml	Multilevel meta-regression with REML			MODEL_VARIANT						GLOBAL
+Model	model:multinomial-logistic-regression-by-domain	Multinomial logistic regression by domain			MODEL_VARIANT						GLOBAL
+Model	model:multiple-linear-regression	Multiple linear regression									GLOBAL
+Model	model:multivariable-censored-linear-regression	Multivariable censored linear regression			MODEL_VARIANT						GLOBAL
+Model	model:multivariable-ordered-logit	Multivariable ordered logit model	model:ordinal-logit		MODEL_VARIANT						GLOBAL
+Model	model:ordinal-logit	Ordinal logistic model									GLOBAL
+Model	model:ordinary-least-squares-regression	Ordinary least squares regression									GLOBAL
+Model	model:qaly-model	QALY model									GLOBAL
+Model	model:r129-p038-construct-level-multivariate	Construct-level multivariate models			MODEL_VARIANT					10.1007/s11136-026-04242-8	R129-P038
+Model	model:r129-p038-dimension-level-multivariate	Dimension-level multivariate models			MODEL_VARIANT					10.1007/s11136-026-04242-8	R129-P038
+Model	model:r129-p038-instrument-level-multivariate	Instrument-level multivariate models			MODEL_VARIANT					10.1007/s11136-026-04242-8	R129-P038
+Model	model:tobit	Tobit model									GLOBAL
+Model	model:tobit-gls	Tobit-GLS regression	model:tobit		MODEL_VARIANT						GLOBAL
+Model	model:two-level-random-intercept	Two-level random-intercept model									GLOBAL
+Model	model:univariate-censored-linear-regression	Univariate censored linear regression			MODEL_VARIANT						GLOBAL
+Product	product:eq-5d-3l-ca	Canadian EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		CA	3L		10.1371/journal.pone.0031115	GLOBAL
+Product	product:eq-5d-3l-cn	Chinese EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		CN	3L		10.1016/j.jval.2014.05.007	GLOBAL
+Product	product:eq-5d-3l-de	German EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		DE	3L		10.1007/s10198-004-0264-z	GLOBAL
+Product	product:eq-5d-3l-es	Spanish EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		ES	3L		10.1177/0272989X0102100102	GLOBAL
+Product	product:eq-5d-3l-european-vas	European EQ-5D-3L VAS value set		instrument:eq-5d-3l	PRODUCT_VERSION		EU	2003		10.1007/s10198-003-0182-5	GLOBAL
+Product	product:eq-5d-3l-gb	United Kingdom EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		GB	3L		10.1097/00005650-199711000-00002	GLOBAL
+Product	product:eq-5d-3l-jp	Japanese EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		JP	3L		10.1002/hec.673	GLOBAL
+Product	product:eq-5d-3l-kr	South Korean EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		KR	3L		10.1111/j.1524-4733.2009.00579.x	GLOBAL
+Product	product:eq-5d-3l-nl	Netherlands EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		NL	3L		10.1002/hec.1124	GLOBAL
+Product	product:eq-5d-3l-pl	Polish EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		PL	3L		10.1111/j.1524-4733.2009.00596.x	GLOBAL
+Product	product:eq-5d-3l-se-experience-tto	Swedish experience-based EQ-5D-3L TTO value set		instrument:eq-5d-3l	PRODUCT_VERSION		SE	2014		10.1007/s11136-013-0496-4	GLOBAL
+Product	product:eq-5d-3l-se-experience-vas	Swedish experience-based EQ-5D-3L VAS value set		instrument:eq-5d-3l	PRODUCT_VERSION		SE	2014		10.1007/s11136-013-0496-4	GLOBAL
+Product	product:eq-5d-3l-us	United States EQ-5D-3L value set		instrument:eq-5d-3l	PRODUCT_VERSION		US	3L		10.1177/0272989X18802797	GLOBAL
+Product	product:eq-5d-5l-ca	Canadian EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		CA	5L		10.1097/MLR.0000000000000447	GLOBAL
+Product	product:eq-5d-5l-cn	Chinese EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		CN	5L		10.1016/j.jval.2016.11.016	GLOBAL
+Product	product:eq-5d-5l-de	German EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		DE	5L		10.1007/s40273-018-0615-8	GLOBAL
+Product	product:eq-5d-5l-england	England EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		GB-ENG	5L		10.1002/hec.3564	GLOBAL
+Product	product:eq-5d-5l-es	Spanish EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		ES	5L		10.1016/j.jval.2017.10.023	GLOBAL
+Product	product:eq-5d-5l-et-2020	Ethiopian EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		ET	2020		10.1016/j.vhri.2019.08.475	GLOBAL
+Product	product:eq-5d-5l-id-2017	Indonesian EQ-5D-5L value set (2017)		instrument:eq-5d-5l	PRODUCT_VERSION		ID	2017		10.1007/s40273-017-0538-9	GLOBAL
+Product	product:eq-5d-5l-jp	Japanese EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		JP	5L		10.1016/j.jval.2016.03.1834	GLOBAL
+Product	product:eq-5d-5l-kr	South Korean EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		KR	5L		10.1007/s11136-015-1205-2	GLOBAL
+Product	product:eq-5d-5l-nl-2016	Netherlands EQ-5D-5L value set (2016)		instrument:eq-5d-5l	PRODUCT_VERSION		NL	2016		10.1016/j.jval.2016.01.003	GLOBAL
+Product	product:eq-5d-5l-nl-pits-2022	Netherlands EQ-5D-5L value set on a pits scale		instrument:eq-5d-5l	PRODUCT_VERSION		NL	2022		10.1186/s12955-022-01989-9	GLOBAL
+Product	product:eq-5d-5l-pl	Polish EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		PL	5L		10.1007/s40273-019-00811-7	GLOBAL
+Product	product:eq-5d-5l-sg-2025	Singapore EQ-5D-5L value set (2025)		instrument:eq-5d-5l	PRODUCT_VERSION		SG	2025		10.1007/s40273-025-01519-7	GLOBAL
+Product	product:eq-5d-5l-tt-2024	Trinidad and Tobago EQ-5D-5L value set (2024)		instrument:eq-5d-5l	PRODUCT_VERSION		TT	2024		10.1186/s12955-024-02266-7	GLOBAL
+Product	product:eq-5d-5l-tw-2018	Taiwan EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		TW	5L		10.1371/journal.pone.0209344	GLOBAL
+Product	product:eq-5d-5l-us	United States EQ-5D-5L value set		instrument:eq-5d-5l	PRODUCT_VERSION		US	5L		10.1177/0272989X18802797	GLOBAL
+Product	product:eq-5d-5l-van-hout-crosswalk-2012	van Hout EQ-5D-5L to EQ-5D-3L crosswalk algorithm		instrument:eq-5d-5l	PRODUCT_VERSION			2012		10.1016/j.jval.2012.02.008	GLOBAL
+Product	product:eq-hwb-s-gb-pilot-2023	United Kingdom pilot EQ-HWB-S value set		instrument:eq-hwb-s	PRODUCT_VERSION		GB	pilot		10.1016/j.jval.2023.02.008	GLOBAL
+Product	product:level-sum-score	Level sum score			PRODUCT_VERSION						GLOBAL
+Product	product:msis-8d-gb	United Kingdom MSIS-8D scoring algorithm		instrument:msis-8d	PRODUCT_VERSION		GB	2015		10.1016/j.jval.2015.10.004	GLOBAL
+Protocol	protocol:c50-p032-two-wave-eq-tips-5l-choice-task	Two-wave EQ-TIPS-5L alternative-choice-task protocol			STUDY_ADAPTATION					10.1136/bmjopen-2025-100897	C50-P032
+Protocol	protocol:cnf-p003-interview-topic-guide	CNF-P003 interview protocol and topic guide			STUDY_ADAPTATION					10.1007/s11136-025-03917-y	CNF-P003
+Protocol	protocol:cnf-p009-review-quality-checklist	CNF-P009 review quality checklist			STUDY_ADAPTATION					10.1007/s40273-025-01493-0	CNF-P009
+Protocol	protocol:coreq	COREQ									GLOBAL
+Protocol	protocol:cosmin-guidelines	COSMIN guidelines									GLOBAL
+Protocol	protocol:cosmin-reporting-guideline-revised	Revised COSMIN reporting guideline	protocol:cosmin-guidelines		PROTOCOL_VERSION			2.0		10.1007/s11136-025-03950-x	GLOBAL
+Protocol	protocol:cosmin-risk-of-bias-checklist	COSMIN risk-of-bias checklist	protocol:cosmin-guidelines		PRODUCT_VERSION						GLOBAL
+Protocol	protocol:eq-5d-5l-valuation-lite	EQ-5D-5L lite valuation protocol	protocol:eq-vt		PROTOCOL_VERSION			lite		10.1007/s40273-021-01101-x	GLOBAL
+Protocol	protocol:eq-5d-5l-valuation-qc-2017	EQ-5D-5L valuation quality-control process			PROTOCOL_VERSION			2017		10.1016/j.jval.2016.10.012	GLOBAL
+Protocol	protocol:eq-5d-y-translation	EQ-5D-Y translation protocol									GLOBAL
+Protocol	protocol:eq-vt	EQ-VT									GLOBAL
+Protocol	protocol:eq-vt-2-0	EQ-VT 2.0	protocol:eq-vt		PROTOCOL_VERSION			2.0		10.1371/journal.pone.0209344	GLOBAL
+Protocol	protocol:eq-vt-2-1	EQ-VT 2.1	protocol:eq-vt		PROTOCOL_VERSION			2.1			GLOBAL
+Protocol	protocol:eq-vt-2-6-1	EQ-VT 2.6.1	protocol:eq-vt		PROTOCOL_VERSION			2.6.1			GLOBAL
+Protocol	protocol:mmat	Mixed Methods Appraisal Tool									GLOBAL
+Protocol	protocol:prisma	PRISMA guidelines									GLOBAL
+Protocol	protocol:prospero-crd42023429906	PROSPERO record CRD42023429906								CRD42023429906	GLOBAL
+Protocol	protocol:prospero-crd42023434651	PROSPERO record CRD42023434651								CRD42023434651	GLOBAL
+Protocol	protocol:r129-p049-adapted-translated-eq-vt	Adapted translated EQ-VT	protocol:eq-vt		STUDY_ADAPTATION					10.1007/s40271-022-00572-0	R129-P049
+Protocol	protocol:record-checklist	RECORD checklist								10.1371/journal.pmed.1001885	GLOBAL
+Protocol	protocol:retrieve-checklist	RETRIEVE checklist								10.1007/s40273-023-01333-z	GLOBAL

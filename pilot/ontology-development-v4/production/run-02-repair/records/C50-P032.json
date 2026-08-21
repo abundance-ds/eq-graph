@@ -1,0 +1,925 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "C50-P032",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "EuroQol Research Foundation award 1850-RA: \"http://dx.doi.org/10.13039/501100006419EuroQol Research Foundation 1850-RA\".",
+    "publication_form": "PROTOCOL_ARTICLE",
+    "publication_relation": null,
+    "reason": "This protocol makes the experimental EQ-TIPS-5L descriptive system a primary research object. It plans to test whether its severity levels agree with preferences, whether its attribute levels affect choices, and whether kaizen tasks and paired comparisons give consistent evidence. The structured funding statement identifies direct EuroQol Research Foundation support for the work.",
+    "source": [
+      "Deterministic metadata, title and abstract",
+      "Deterministic metadata, JATS article-meta/funding-group",
+      "Full article, Introduction > Aims",
+      "Full article, Methods and analysis"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Two-wave Australian DCE assessment of the EQ-TIPS-5L descriptive system",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "PLANNED",
+      "result_state": "NO_RESULTS_YET",
+      "family_rationale": "The intended main results concern the performance of the EQ-TIPS-5L descriptive system: severity-preference concordance and whether its attribute levels have non-zero effects on choices. The study also compares valuation tasks, but it does not state that a revised instrument version or value set will be its principal output.",
+      "source": [
+        "Full article, Introduction > Concordance between severity and preference",
+        "Full article, Introduction > The influence of attribute levels on choices",
+        "Full article, Introduction > Aims",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Introduction > Aims, aims 1–2"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, Introduction > Aims, aim 3"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur3",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "HEALTH_STATE_VALUATION",
+      "rank": 3,
+      "source": [
+        "Full article, Methods and analysis > Decision context, descriptive framework and theory",
+        "Full article, Methods and analysis > Preference elicitation and experimental design"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur4",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "INSTRUMENT_DEVELOPMENT",
+      "rank": 4,
+      "source": [
+        "Full article, Introduction > Aims, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Wave 1: exploratory kaizen-task DCE survey",
+      "source": [
+        "Full article, Abstract > Methods and analysis",
+        "Full article, Methods and analysis > Preference elicitation and experimental design"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Wave 2: confirmatory paired-comparison DCE survey",
+      "source": [
+        "Full article, Abstract > Methods and analysis",
+        "Full article, Methods and analysis > Preference elicitation and experimental design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods and analysis > Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-1 description"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods and analysis > Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods and analysis > Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "Full article, Methods and analysis > Analysis, wave-2 primary analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods and analysis > Data collection"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Australian general-population adults recruited for wave 1",
+      "role": "DCE respondents",
+      "geographies": [
+        "Australia"
+      ],
+      "conditions": [],
+      "age_description": "Adults aged 18 years or older",
+      "inclusion_description": "Access to a reliable internet connection and suitable device, ability to read English, and capacity to respond; recruitment uses gender, age, and ancestry quotas aligned with Australian Census demographics.",
+      "source": [
+        "Full article, Methods and analysis > Data collection, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Australian general-population adults recruited for wave 2",
+      "role": "DCE respondents",
+      "geographies": [
+        "Australia"
+      ],
+      "conditions": [],
+      "age_description": "Adults aged 18 years or older",
+      "inclusion_description": "Access to a reliable internet connection and suitable device, ability to read English, and capacity to respond; recruitment uses gender, age, and ancestry quotas aligned with Australian Census demographics.",
+      "source": [
+        "Full article, Methods and analysis > Data collection, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "PLANNED_TARGET",
+      "size": 400,
+      "size_text": "Planned target of 400 survey completers, with 200 respondents in each of two blocks",
+      "unit": "respondents",
+      "description": "Planned wave-1 sample target",
+      "source": [
+        "Full article, Abstract > Methods and analysis",
+        "Full article, Methods and analysis > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "PLANNED_TARGET",
+      "size": 1000,
+      "size_text": "Planned target of 1000 survey completers, with 200 respondents in each of five blocks",
+      "unit": "respondents",
+      "description": "Planned wave-2 sample target",
+      "source": [
+        "Full article, Abstract > Methods and analysis",
+        "Full article, Methods and analysis > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Wave-1 online DCE survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Estimate discordance frequencies and EQ-TIPS-5L attribute-level main effects from kaizen tasks.",
+      "source": [
+        "Full article, Methods and analysis > Data collection",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Wave-2 online DCE survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Estimate attribute-level main effects from paired comparisons and compare them with wave-1 evidence.",
+      "source": [
+        "Full article, Methods and analysis > Data collection",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-TIPS-5L descriptive system",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Introduction > Aims, aims 1–2",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-TIPS-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, Methods and analysis > Decision context, descriptive framework and theory",
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-1 description"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-TIPS-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods and analysis > Survey instrument, second component"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "PLANNED_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods and analysis > Survey instrument, second component"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-TIPS-5L descriptive system",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Introduction > Aims, aims 1–3",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-TIPS-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-2 description"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods and analysis > Survey instrument, second component"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "discrete choice experiment (DCE) with kaizen tasks",
+      "registry_id": "method:dce",
+      "context": "PLANNED_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-1 description"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "discrete choice experiment (DCE) with paired comparisons",
+      "registry_id": "method:dce",
+      "context": "PLANNED_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-2 description"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "panel-vendor recruitment using 32 quotas",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods and analysis > Data collection, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods and analysis > Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Lin’s concordance coefficient",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods and analysis > Analysis, wave-2 primary analysis"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "two-wave protocol for assessing the EQ-TIPS-5L descriptive system using alternative choice tasks",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "GOVERNING_STUDY_PROTOCOL",
+      "source": [
+        "Full article, Introduction > Aims",
+        "Full article, Methods and analysis, opening paragraphs"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "main-effects conditional logit model",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Abstract > Methods and analysis",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "main-effects conditional logit model",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Abstract > Methods and analysis",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1",
+        "iu2"
+      ],
+      "label": "kaizen tasks",
+      "profiles": [
+        "One initial EQ-TIPS-5L origin profile",
+        "Profiles formed by applying one possible attribute-level change to the current profile",
+        "Four good changes and one bad change in each task"
+      ],
+      "attributes": [
+        "Movement",
+        "Eating or drinking",
+        "Sleep",
+        "Pain",
+        "Managing emotions",
+        "Interacting with others",
+        "Play"
+      ],
+      "levels": [
+        "Five EQ-TIPS-5L severity levels: no problems or no pain, a little bit, some, a lot, and extreme"
+      ],
+      "duration": "A 1-month episode starting today for a 1-year-old child, followed by recovery",
+      "alternatives": "Five possible changes at the first choice, followed by four, three, and two remaining changes as the profile is updated",
+      "task_count": "14 kaizen tasks per respondent, plus a warm-up task",
+      "block": "Two d-efficient blocks of 14 origin-destination pairs; planned target of 200 respondents per block",
+      "order": "EQ-TIPS-5L attribute order will be randomized at respondent level, and task sequence will be randomized within each component.",
+      "randomization_unit": "Respondent for attribute order; task sequence within respondent",
+      "stopping_rule": "The process continues until four of five possible changes are incorporated; the unselected change is ranked fifth.",
+      "source": [
+        "Full article, Methods and analysis > Decision context, descriptive framework and theory",
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-1 paragraphs 1–8",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "mu2",
+        "iu6"
+      ],
+      "label": "paired comparisons",
+      "profiles": [
+        "Two EQ-TIPS-5L health profiles that each describe health problems"
+      ],
+      "attributes": [
+        "Movement",
+        "Eating or drinking",
+        "Sleep",
+        "Pain",
+        "Managing emotions",
+        "Interacting with others",
+        "Play"
+      ],
+      "levels": [
+        "Five EQ-TIPS-5L severity levels: no problems or no pain, a little bit, some, a lot, and extreme"
+      ],
+      "duration": "A 1-month episode starting today for a 1-year-old child, followed by recovery",
+      "alternatives": "Two health profiles per comparison",
+      "task_count": "28 paired comparisons per respondent, plus a warm-up task",
+      "block": "Five blocks of 28 paired comparisons; planned target of 200 respondents per block",
+      "order": "EQ-TIPS-5L attribute order will be randomized at respondent level, and task sequence will be randomized within each component.",
+      "randomization_unit": "Respondent for attribute order; task sequence within respondent",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods and analysis > Decision context, descriptive framework and theory",
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-2 paragraph",
+        "Full article, Figure 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "choice-task wave",
+      "levels": [
+        "wave 1: kaizen tasks",
+        "wave 2: paired comparisons"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article, Introduction > Aims, aim 3",
+        "Full article, Methods and analysis > Analysis"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "task sequence",
+      "levels": [
+        "randomized task sequences"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods and analysis > Analysis, sensitivity analyses",
+        "Full article, Table 2, H5.2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "attribute order",
+      "levels": [
+        "randomized attribute orders"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods and analysis > Analysis, sensitivity analyses",
+        "Full article, Table 2, H5.3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "experimental-design block",
+      "levels": [
+        "wave-1 blocks",
+        "wave-2 blocks"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods and analysis > Analysis, sensitivity analyses",
+        "Full article, Table 2, H5.1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "discordant-respondent exclusion",
+      "levels": [
+        "all respondents",
+        "excluding respondents with a high frequency of type-1 and type-2 discordance"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article, Methods and analysis > Analysis, secondary analysis",
+        "Full article, Table 2, H4.1–H4.2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2",
+        "mu1"
+      ],
+      "respondent": "Australian general-population adult",
+      "perspective": "Decision maker for a hypothetical 1-year-old child",
+      "completion": "Self-completed",
+      "assistance": null,
+      "channel": "Online survey",
+      "setting": "General community",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Hypothetical 1-month episode starting today",
+      "source": [
+        "Full article, Methods and analysis > Decision context, descriptive framework and theory",
+        "Full article, Methods and analysis > Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu6",
+        "mu2"
+      ],
+      "respondent": "Australian general-population adult",
+      "perspective": "Decision maker for a hypothetical 1-year-old child",
+      "completion": "Self-completed",
+      "assistance": null,
+      "channel": "Online survey",
+      "setting": "General community",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Hypothetical 1-month episode starting today",
+      "source": [
+        "Full article, Methods and analysis > Decision context, descriptive framework and theory",
+        "Full article, Methods and analysis > Data collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu4",
+        "iu7"
+      ],
+      "respondent": "Australian general-population adult",
+      "perspective": "Self-report",
+      "completion": "Self-completed",
+      "assistance": null,
+      "channel": "Online survey",
+      "setting": "General community",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": null,
+      "source": [
+        "Full article, Methods and analysis > Survey instrument, second component"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3"
+      ],
+      "respondent": "Australian general-population adult",
+      "perspective": "Proxy report for a 1-year-old child known well by the respondent",
+      "completion": "Self-completed",
+      "assistance": null,
+      "channel": "Online survey",
+      "setting": "General community",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": null,
+      "source": [
+        "Full article, Methods and analysis > Survey instrument, second component"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "si1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "group": "Members of the general population",
+      "activity": "Beta-testing of the wave-1 survey instrument",
+      "stage": "Survey-instrument beta-testing before the pilot",
+      "role": "User-testing consultants",
+      "influence": "The survey instrument was required to pass their evaluations before general-population members were recruited for the technical pilot.",
+      "source": [
+        "Full article, Methods and analysis > Survey instrument, final paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Frequency of type-1 and type-2 severity-preference discordances by EQ-TIPS-5L attribute and main effect",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article, Methods and analysis > Analysis, wave-1 primary analysis",
+        "Full article, Table 2, H1.1–H1.2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "EQ-TIPS-5L attribute-level main effects and whether they differ from zero",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu5",
+        "iu6"
+      ],
+      "source": [
+        "Full article, Introduction > Aims, aim 2",
+        "Full article, Methods and analysis > Analysis",
+        "Full article, Table 2, H2.1–H2.2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Agreement between kaizen-task and paired-comparison main effects, and between wave-1 predictions and wave-2 choices",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu5",
+        "iu6"
+      ],
+      "source": [
+        "Full article, Introduction > Aims, aim 3",
+        "Full article, Methods and analysis > Analysis",
+        "Full article, Table 2, H3.1–H3.2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The protocol relies on online surveys using a marketing panel, which may have quality problems and may not be generalizable to the Australian general population, especially people who are less educated or do not participate in such surveys or panels.",
+      "about": [
+        "mu3",
+        "pop1",
+        "pop2"
+      ],
+      "source": [
+        "Full article, Strengths and limitations of this study, bullet 3"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Paired comparisons require choices between profiles of health problems and are more burdensome than kaizen tasks, especially when choices affect the health of a 1-year-old child.",
+      "about": [
+        "mu2",
+        "td2"
+      ],
+      "source": [
+        "Full article, Strengths and limitations of this study, bullet 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The paper provides the survey instrument, experimental design, and analysis plan only for wave 1 because the wave-2 materials will be adapted using wave-1 evidence.",
+      "about": [
+        "part1",
+        "part2",
+        "prod1"
+      ],
+      "source": [
+        "Full article, Strengths and limitations of this study, bullet 4"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Protocol for DCE surveys that assess key properties of HRQoL descriptive systems using kaizen tasks and paired comparisons",
+      "product_type": "PROTOCOL",
+      "source": [
+        "Full article, Abstract > Introduction",
+        "Full article, Introduction > Aims, final paragraph",
+        "Full article, Methods and analysis, opening paragraphs"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Wave-1 survey materials, experimental design, and analysis plan are provided; wave-2 materials will be adapted based on wave-1 evidence.",
+      "assertion_date": "2025-07-08",
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Strengths and limitations of this study, bullet 4",
+        "Full article, Methods and analysis, paragraphs describing online supplemental appendices 1–3"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "severity-preference concordance",
+      "description": "Successive descriptive-system levels should be more detrimental in severity and less desirable in respondent preferences.",
+      "about": [
+        "iu1",
+        "iu5",
+        "o1"
+      ],
+      "source": [
+        "Full article, Introduction > Concordance between severity and preference"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "decision-relevant attribute levels",
+      "description": "An incremental difference between attribute levels is decision-relevant when its main effect on choices is non-zero.",
+      "about": [
+        "iu1",
+        "iu5",
+        "o2"
+      ],
+      "source": [
+        "Full article, Introduction > The influence of attribute levels on choices"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "type-1 and type-2 discordance",
+      "description": "Type-1 discordance occurs when a bad change is selected before the end of a kaizen task; type-2 discordance occurs when an improvement is not selected and is ranked fifth.",
+      "about": [
+        "td1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Methods and analysis > Preference elicitation and experimental design, wave-1 discordance paragraph"
+      ]
+    }
+  ]
+}

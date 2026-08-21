@@ -80,18 +80,39 @@ aliases for a designer branch that still uses them.
 ## Serving data
 
 `server/data/serving.sqlite` is a generated deployment artifact. It is not in
-Git. Build and check it from the repository root:
+Git. Build the private typed database, build the public database, and check the
+public database from the repository root:
 
 ```sh
-python3 scripts/build_serving_database.py \
-  --source pilot/ontology-development-v3/production-calibration/graph-neutral-209-run-02/euroqol-research-graph-citation-safe.sqlite \
+python3 pilot/ontology-development-v4/production/load_research_v2.py \
+  --run pilot/ontology-development-v4/production/rebuild-v2-v013-normalized-02 \
+  --manifest pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/MANIFEST.tsv \
+  --projects "input/Funded projects – Table for Download - EuroQol.csv" \
+  --project-links web/server/data/serving.sqlite \
+  --output pilot/ontology-development-v4/production/research-v2-v013.sqlite \
+  --expect-studies 207 \
+  --expect-items 15430 \
+  --expect-mapped 1022 \
+  --expect-unresolved 3457
+python3 scripts/build_serving_database_v2.py \
+  --source pilot/ontology-development-v4/production/research-v2-v013.sqlite \
   --output web/server/data/serving.sqlite
-python3 scripts/check_serving_database.py web/server/data/serving.sqlite
+python3 scripts/check_serving_database_v2.py \
+  --expect-projects 1024 \
+  --expect-publications 209 \
+  web/server/data/serving.sqlite
 ```
 
-The public database excludes full text, local paths, unresolved citations,
-possible project links, and audit reasoning. See
+The private typed database keeps source locators, citation occurrences and
+edges, source conflicts, and audit material. The public database excludes full
+text, local paths, citations, possible project links, and audit reasoning. It
+contains accepted project links only. See
 [`docs/APP_DATA_ADAPTER.md`](../docs/APP_DATA_ADAPTER.md).
+
+The shared preview contains 209 publications, 207 studies, 1,951 findings, 939
+limitations, 96 products, and 242 accepted project-publication links. It is not
+the final research release. The full 100-question aggregate-validity rerun
+remains.
 
 ## Chart system
 

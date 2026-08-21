@@ -1,0 +1,16 @@
+record_id	study_id	article_path	sha256	bytes	coverage_reason
+G109	study:G109:1	corpus/1411-VS/doi_10.1007_s11136-025-03930-1.md	06cd47ce7b8c4e8d26327e3407a25539e756606d602863d3d907f73fd8c71dc7	73318	national value-set development
+G101	study:G101:1	corpus/20180230/doi_10.1007_s11136-021-03075-x.md	b74d1da3c908098efdcdb1f163991e4cc891ea8737c285ddf5b5ea1c3665186b	57070	secondary cross-country valuation-data analysis
+G125	study:G125:1	corpus/20190460/doi_10.1007_s40258-022-00772-7.md	a7845f657f23302e62c6915868cbcf0c8530bab59d535c2ddd02031a21b3d02f	132749	population norms
+G160	study:G160:1	corpus/351-RA/doi_10.1007_s41669-024-00486-7.md	dd0eab4abc6332fc9965a9e57ff912ee12fa04bd7b6f6e9f6836cb54f1a8094f	62604	qualitative study of valuation interviews
+G195	study:G195:1	corpus/436-RA/doi_10.1186_s41687-025-00928-8.md	544b05d801a8cf385f60d4784e189a2bd1bb54e8148c9072199907de1e38775c	95266	psychometric self-proxy comparison
+G010	study:G010:1	corpus/445-RA/doi_10.1186_s12891-024-07304-5.md	866438ce4bdc844c0cc7a3929828e48acfe2aab09c5d6b7461a5fec9219f4997	57114	clinical decision-support visualization
+G196	study:G196:1	corpus/1492-RA/doi_10.1186_s41687-025-00985-z.md	975b85316c338820d1694979d7df6a5fde53cfa68dc0bfab4a9609330c958d7f	49236	translation and cultural adaptation
+G116	study:G116:1	corpus/365-RA/doi_10.1007_s11136-025-04150-3.md	84b48b2cb480dfcce2baff045168cea58615e2e013c0c9a5d31243c1c6e472be	101717	instrument development
+G131	study:G131:1	corpus/150-RA/doi_10.1007_s40271-025-00729-7.md	fb4d743f9a0e75d57decc78b76c41075602e60ef190ae1c99d2df742b6f455ec	70997	implementation research
+G014	study:G014:1	corpus/1627-RA/doi_10.1186_s12955-025-02421-8.md	4537712ebff158ad24bb9a223e9000698a6355d4538599d3bb44287adc91f7e5	219415	systematic review and meta-analysis
+G083	study:G083:1	corpus/20170450/doi_10.1007_s10198-018-0987-x.md	fc488afa7b1a983ed266cae605368061b0e9fb85c5648b5e2a1ee89cec5aa645	39487	economic evaluation with mapped utilities
+G015	study:G015:1	corpus/285-PHD/doi_10.3390_cancers16111952.md	988ed7c0fbcde3d5739aa46e55f11b691a9cf0cfc7adaa248e24427f931a764a	92054	longitudinal responsiveness
+G168	study:G168:1	corpus/1704-RA/doi_10.1136_bmjopen-2024-097598.md	21f3eb92df6f2e28b4fa4d44f0559ef20deb1192ab09cfe164c764142621f53d	48411	planned mixed-method protocol
+G154	study:G154:1	corpus/1578-RA/doi_10.1007_s40273-025-01476-1.md	5458440de4fda7b5d6a24520f6806e84f8655377b767d63a053525ddced5fe11	43713	conceptual taxonomy
+G146	study:G146:1	corpus/20180490/doi_10.1007_s40273-022-01210-1.md	2d9a0b8e02c0f5c456e661027b22c536aed26c1a76529ec00e1001cb8fd003f2	61466	DCE-to-TTO mapping and value-set development

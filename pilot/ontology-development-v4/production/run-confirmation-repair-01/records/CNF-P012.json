@@ -1,0 +1,945 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P012",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "application_only",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was supported by the EuroQol Research Foundation (grant numbers 77-2020-RA; 238-2020RA and 460-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study uses EQ-5D-5L LSS and EQ VAS as health outcomes to examine socioeconomic inequalities. It does not study the instruments or their measurement properties. Explicit EuroQol Research Foundation support makes the study eligible for inclusion.",
+    "source": [
+      "Deterministic publication metadata, publication title and abstract",
+      "Full article, Abstract > Purpose and Methods",
+      "Full article, Methods > Data collection and outcome measures",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Six-country secondary analysis of socioeconomic inequalities in HRQoL during the early COVID-19 pandemic",
+      "primary_research_family": "HEALTH_OUTCOME_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical description and analysis of HRQoL differences by education, income, work status, and country. EQ-5D outcomes are applied measures rather than measurement research objects.",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods > Study design and study population",
+        "Full article, Results",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract > Purpose",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Main secondary analysis of first-wave POPCORN survey data",
+      "source": [
+        "Full article, Methods > Study design and study population"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Study design and study population"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods > SES indicators",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Abstract > Purpose",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Study design and study population"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adults recruited from general-population online panels in six countries",
+      "role": "study population",
+      "geographies": [
+        "China",
+        "Italy",
+        "the Netherlands",
+        "Sweden",
+        "United Kingdom",
+        "United States"
+      ],
+      "conditions": [],
+      "age_description": "18–75 years",
+      "inclusion_description": "Members of Dynata voluntary panels who completed the first-wave POPCORN web survey and reported income were included in the analysis.",
+      "source": [
+        "Full article, Methods > Study design and study population",
+        "Full article, Results > Study population"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 19432,
+      "size_text": "19,432 individuals completed the survey.",
+      "unit": "respondents",
+      "description": "First-wave survey completers before exclusion for missing income.",
+      "source": [
+        "Full article, Results > Study population, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 1825,
+      "size_text": "1,825 respondents (9.4%) were excluded.",
+      "unit": "respondents",
+      "description": "Respondents who did not report income; they differed from income reporters on several demographic and health characteristics.",
+      "source": [
+        "Full article, Results > Study population, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 17607,
+      "size_text": "17,607 respondents: China 3,146; Italy 2,866; the Netherlands 2,736; Sweden 2,839; UK 2,964; US 3,056.",
+      "unit": "respondents",
+      "description": "Final complete-case analytic sample.",
+      "source": [
+        "Full article, Results > Study population, first paragraph",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "First-wave data from the POPulation health impact of the CORoNavirus disease 2019 (COVID-19) pandemic (POPCORN) study",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of HRQoL inequalities by socioeconomic status and country.",
+      "source": [
+        "Full article, Methods > Study design and study population, first paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, second and third paragraphs"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ VAS",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, final paragraph"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "EQ-5D-5L Level Sum Score (LSS)",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, second and third paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Recruitment from Dynata existing voluntary panels",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods > Study design and study population, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "web-based survey",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods > Study design and study population, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Descriptive statistics",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Kruskal-Wallis tests",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Mann-Whitney U tests",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "multiple linear regression analyses",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, third and fourth paragraphs"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Multiple linear regression model for EQ-5D-5L LSS",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods > Statistical analysis, third paragraph",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Multiple linear regression model for EQ VAS",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods > Statistical analysis, fourth paragraph",
+        "Full article, Table 5"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "mu2"
+      ],
+      "respondent": "Adults aged 18–75 years",
+      "perspective": "Respondents reported their own health",
+      "completion": "Web survey completion",
+      "assistance": null,
+      "channel": "Web-based survey",
+      "setting": "General-population voluntary online panels",
+      "instrument_language": "Official translations were used when available; other translations were checked by bilingual native speakers.",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "April 22 to May 5, 2020, except Sweden from May 26 to June 1, 2020",
+      "source": [
+        "Full article, Methods > Study design and study population",
+        "Full article, Methods > Data collection and outcome measures, first paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "Survey respondent",
+      "perspective": "Overall self-rated health",
+      "completion": "Respondent marked a point on the scale",
+      "assistance": null,
+      "channel": "Web-based survey",
+      "setting": "General-population voluntary online panels",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "health today",
+      "time_point": "First wave of the COVID-19 pandemic",
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Education level",
+      "levels": [
+        "Low: ISCED-97 levels 1–2",
+        "Middle: ISCED-97 levels 3–4",
+        "High: ISCED-97 level 5 and above"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > SES indicators, second paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Annual household income",
+      "levels": [
+        "Low: bottom 20% of the national distribution",
+        "Middle: middle 60% of the national distribution",
+        "High: top 20% of the national distribution"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > SES indicators, third paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Work status",
+      "levels": [
+        "Employed: employee, self-employed, student, or retired",
+        "Unemployed: out of work, looking after others, or unable to work"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > SES indicators, fourth paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Country",
+      "levels": [
+        "China",
+        "Italy",
+        "the Netherlands",
+        "Sweden",
+        "United Kingdom",
+        "United States"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Abstract > Purpose",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Presence of chronic health conditions",
+      "levels": [
+        "One or more listed chronic conditions",
+        "No listed chronic conditions"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Socio-demographic and health characteristics"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ-5D-5L Level Sum Score",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, second paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ VAS",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, final paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The total sample had a median LSS of 6.00 and a median EQ VAS of 80.00.",
+      "about": [
+        "o1",
+        "o2"
+      ],
+      "values": [
+        {
+          "reported_value": "6.00",
+          "unit": "EQ-5D-5L LSS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Total sample",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "IQR 3.00"
+        },
+        {
+          "reported_value": "80.00",
+          "unit": "EQ VAS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Total sample",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "IQR 20.00"
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes, first and second paragraphs",
+        "Full article, Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Lower education was associated with poorer unadjusted HRQoL in most countries, but Italy showed no significant education difference.",
+      "about": [
+        "o1",
+        "sf1",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "7.00",
+          "unit": "EQ-5D-5L LSS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Low education, total sample",
+          "comparator": "High education, median 6.00",
+          "direction": "Higher LSS, indicating poorer HRQoL",
+          "uncertainty": "Low IQR 4.00; high IQR 3.00; p < 0.05"
+        },
+        {
+          "reported_value": "2",
+          "unit": "EQ-5D-5L LSS points",
+          "denominator": "UK analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Low versus high education",
+          "comparator": "High education",
+          "direction": "Largest reported education difference",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes by education level",
+        "Full article, Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Lower income groups had poorer unadjusted HRQoL in the Netherlands, Sweden, the UK, and the US, but not in China or Italy.",
+      "about": [
+        "o1",
+        "o2",
+        "sf2",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "7.00",
+          "unit": "EQ-5D-5L LSS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Low income, total sample",
+          "comparator": "High income, median 6.00",
+          "direction": "Higher LSS, indicating poorer HRQoL",
+          "uncertainty": "Low IQR 4.00; high IQR 3.00; p < 0.05"
+        },
+        {
+          "reported_value": "85.00",
+          "unit": "EQ VAS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "High income, total sample",
+          "comparator": "Low and middle income, both median 80.00",
+          "direction": "Higher EQ VAS, indicating better HRQoL",
+          "uncertainty": "High IQR 15.00; low IQR 30.00; middle IQR 20.00"
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes by income level",
+        "Full article, Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Unemployed respondents reported poorer HRQoL than employed respondents in the pooled sample and each country.",
+      "about": [
+        "o1",
+        "o2",
+        "sf3",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "8.00",
+          "unit": "EQ-5D-5L LSS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Unemployed, total sample",
+          "comparator": "Employed, median 6.00",
+          "direction": "Higher LSS, indicating poorer HRQoL",
+          "uncertainty": "Unemployed IQR 6.00; employed IQR 3.00; p < 0.05"
+        },
+        {
+          "reported_value": "75.00",
+          "unit": "EQ VAS points",
+          "denominator": "17,607 analyzed respondents",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Unemployed, total sample",
+          "comparator": "Employed, median 80.00",
+          "direction": "Lower EQ VAS, indicating poorer HRQoL",
+          "uncertainty": "Unemployed IQR 30.00; employed IQR 20.00; p < 0.05"
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes by work status",
+        "Full article, Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "In adjusted pooled models, chronic conditions and unemployment were strong correlates of poorer LSS and EQ VAS.",
+      "about": [
+        "o1",
+        "o2",
+        "sf3",
+        "sf5",
+        "mod1",
+        "mod2"
+      ],
+      "values": [
+        {
+          "reported_value": "2.693",
+          "unit": "LSS regression coefficient",
+          "denominator": "Pooled analytic sample",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "One or more chronic conditions",
+          "comparator": "No chronic condition",
+          "direction": "Higher LSS",
+          "uncertainty": "SE 0.040; p < 0.001"
+        },
+        {
+          "reported_value": "1.630",
+          "unit": "LSS regression coefficient",
+          "denominator": "Pooled analytic sample",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Unemployed",
+          "comparator": "Employed",
+          "direction": "Higher LSS",
+          "uncertainty": "SE 0.054; p < 0.001"
+        },
+        {
+          "reported_value": "-12.72",
+          "unit": "EQ VAS regression coefficient",
+          "denominator": "Pooled analytic sample",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "One or more chronic conditions",
+          "comparator": "No chronic condition",
+          "direction": "Lower EQ VAS",
+          "uncertainty": "SE 0.25; p < 0.001"
+        },
+        {
+          "reported_value": "-7.01",
+          "unit": "EQ VAS regression coefficient",
+          "denominator": "Pooled analytic sample",
+          "time": "First wave of the COVID-19 pandemic",
+          "subgroup": "Unemployed",
+          "comparator": "Employed",
+          "direction": "Lower EQ VAS",
+          "uncertainty": "SE 0.34; p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article, Tables 4 and 5",
+        "Full article, Results > Association between respondent demographics and SES indicators and the LSS",
+        "Full article, Results > Association between respondent demographics and SES indicators and the EQ VAS"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that substantial socioeconomic inequalities in HRQoL occurred during the pandemic, with the largest disparities in the UK and work status as the strongest and most consistent SES predictor.",
+      "finding_ids": [
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Discussion, first and second paragraphs",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpreted LSS and EQ VAS as identifying similar key determinants, while EQ VAS appeared more responsive to income- and education-related differences.",
+      "finding_ids": [
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article, Discussion, paragraphs beginning “In our study we used both” and “In contrast”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The cross-sectional design does not establish temporal order and does not support causal inference; reverse causality is possible.",
+      "about": [
+        "d2",
+        "sf1",
+        "sf2",
+        "sf3",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, first paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Exclusion of approximately 10% of respondents with missing income can bias income-related estimates because non-response can relate to demographic and health characteristics.",
+      "about": [
+        "sam2",
+        "sf2"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, second paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Online panel recruitment can cause selection bias and underrepresent older adults and people with limited internet access or lower literacy.",
+      "about": [
+        "pop1",
+        "mu1"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, third paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The binary work-status variable combined employment, study, retirement, caregiving, inability to work, and unemployment in ways that can hide important distinctions and reduce cross-country comparability.",
+      "about": [
+        "sf3"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, fourth paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Use of LSS instead of country-specific utility values limits comparison with utility studies and integration into economic evaluation.",
+      "about": [
+        "o1",
+        "su1"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, fifth paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Cultural differences in self-reporting EQ-5D-5L and EQ VAS can influence the outcomes.",
+      "about": [
+        "iu1",
+        "iu2",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, sixth paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Pandemic conditions, absence of pre-pandemic data, and unmodeled national institutional factors limit temporal and cross-country interpretation.",
+      "about": [
+        "sf4",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, first and final paragraphs"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l8",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The large number of tests can increase Type I error, and the study did not apply a formal multiple-testing correction.",
+      "about": [
+        "mu4",
+        "mu5",
+        "mu6"
+      ],
+      "source": [
+        "Full article, Methods > Statistical analysis, penultimate paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Valuation-free cross-country HRQoL comparison",
+      "description": "The authors selected LSS because it uses reported severity levels without country-specific value sets, which differ in elicitation methods and can introduce structural heterogeneity.",
+      "about": [
+        "iu1",
+        "su1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Methods > Data collection and outcome measures, third paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted association between education and EQ-5D-5L LSS",
+      "statements": [
+        {
+          "statement": "The Results text states that lower education was significantly associated with higher LSS in the Netherlands and the total sample.",
+          "source": [
+            "Full article, Results > Association between respondent demographics and SES indicators and the LSS, third paragraph"
+          ]
+        },
+        {
+          "statement": "Table 4 reports pooled low education b=0.110 with p=0.059 and Sweden low education b=-0.002 with p=0.987; these values are not significant at the stated p<0.05 threshold.",
+          "source": [
+            "Full article, Table 4, rows “Low edu level” and pooled and Sweden columns"
+          ]
+        },
+        {
+          "statement": "The Discussion states that lower education was significantly associated with poorer LSS in the Netherlands, Sweden, and the total sample.",
+          "source": [
+            "Full article, Discussion, third paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Association between respondent demographics and SES indicators and the LSS",
+        "Full article, Table 4",
+        "Full article, Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Unadjusted EQ VAS difference by work status in Sweden",
+      "statements": [
+        {
+          "statement": "The narrative states that unemployed respondents had lower EQ VAS in all countries except Sweden.",
+          "source": [
+            "Full article, Results > Health outcomes by work status, second paragraph"
+          ]
+        },
+        {
+          "statement": "Table 3 reports Sweden medians of 80.00 for employed respondents and 70.00 for unemployed respondents, marked as significantly different; the next narrative sentence also lists Sweden among countries with a 10-point difference.",
+          "source": [
+            "Full article, Table 3, Work status rows",
+            "Full article, Results > Health outcomes by work status, second paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes by work status, second paragraph",
+        "Full article, Table 3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1076 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P003",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was funded by EuroQol Foundation, the Netherlands (award 401-RA; recipient Pei Wang). The sponsor had no role in study design, data collection, data management, analysis, interpretation, or publication decisions.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates the content validity of the simplified Chinese EQ-5D-Y-3L and EQ-VAS. EuroQol Foundation explicitly funded the work.",
+    "source": [
+      "Deterministic metadata, title, abstract, and JATS article-meta/funding-group",
+      "Full article, Introduction, final paragraph",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Content-validity evaluation of the simplified Chinese EQ-5D-Y for children and adolescents",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an evaluation of comprehensiveness, relevance, and comprehensibility. The study proposes possible refinements but does not develop a new instrument version.",
+      "source": [
+        "Full article, Abstract—Purpose, Methods, Results, and Conclusion",
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "CONTENT_VALIDITY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract—Purpose",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Healthy children and adolescents",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Children and adolescents with specified diseases",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraphs 1 and 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods—Study design and participants",
+        "Full article, Data collection procedures"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 1",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods—Study design and participants"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Healthy children and adolescents in Shanghai",
+      "role": "healthy comparison group",
+      "geographies": [
+        "Shanghai, China"
+      ],
+      "conditions": [],
+      "age_description": "8–18 years",
+      "inclusion_description": "Healthy participants recruited from local primary and secondary schools to mirror the age and gender distribution of the diseased group.",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Children and adolescents with anemia, dermatopathy, asthma, congenital heart disease, or leukemia",
+      "role": "diseased group",
+      "geographies": [
+        "Shanghai, China"
+      ],
+      "conditions": [
+        "anemia",
+        "dermatopathy",
+        "asthma",
+        "congenital heart disease",
+        "leukemia"
+      ],
+      "age_description": "8–18 years",
+      "inclusion_description": "A confirmed diagnosis of one of the specified diseases, adequate general wellness for questionnaire participation, and consent from the patient and a parent or legal guardian.",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "APPROACHED",
+      "size": 15,
+      "size_text": "15 healthy participants; no participant refused",
+      "unit": "participants",
+      "description": "Healthy children and adolescents approached through local schools.",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 3",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 15,
+      "size_text": "15",
+      "unit": "participants",
+      "description": "Eleven participants took part in group interviews and four took part in individual interviews; no participant dropped out.",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 3",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 15,
+      "size_text": "15 healthy participants",
+      "unit": "participants",
+      "description": "Interview transcripts and instrument-appraisal responses were included in the analysis.",
+      "source": [
+        "Full article, Methods—Data analysis—Understanding of health",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "APPROACHED",
+      "size": 15,
+      "size_text": "15 diseased participants; no participant refused",
+      "unit": "participants",
+      "description": "Participants were recruited from the Children’s Medical Center at Renji Hospital.",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 2",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "COMPLETED",
+      "size": 15,
+      "size_text": "15",
+      "unit": "participants",
+      "description": "All completed individual hospital interviews with guardians present; three participants had each specified condition, and no participant dropped out.",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraphs 2 and 3",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 15,
+      "size_text": "15 diseased participants",
+      "unit": "participants",
+      "description": "Interview transcripts and instrument-appraisal responses were included in the analysis.",
+      "source": [
+        "Full article, Methods—Data analysis—Understanding of health",
+        "Full article, Results—Participants"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Audio recordings and verbatim simplified-Chinese transcripts from healthy participants",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Analysis of health concepts and comments about EQ-5D-Y relevance and comprehensibility.",
+      "source": [
+        "Full article, Data collection procedures, paragraph 4",
+        "Full article, Data analysis—Understanding of health, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y-3L and EQ-VAS responses from healthy participants",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Evaluation of instrument adequacy, response selection, and proposed improvements.",
+      "source": [
+        "Full article, Data collection procedures, paragraph 3",
+        "Full article, Results—Assessment of relevance and comprehensibility"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Audio recordings and verbatim simplified-Chinese transcripts from diseased participants",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Analysis of health concepts and comments about EQ-5D-Y relevance and comprehensibility.",
+      "source": [
+        "Full article, Data collection procedures, paragraph 4",
+        "Full article, Data analysis—Understanding of health, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-Y-3L and EQ-VAS responses from diseased participants",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Evaluation of instrument adequacy, response selection, and proposed improvements.",
+      "source": [
+        "Full article, Data collection procedures, paragraph 3",
+        "Full article, Results—Assessment of relevance and comprehensibility"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "simplified Chinese version of the EQ-5D-Y-3 L instrument",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Data collection procedures, paragraph 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-VAS",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Results—Assessment of relevance and comprehensibility, opening paragraph",
+        "Full article, Results—Relevance/comprehensiveness, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "semi-structured health interviews",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods, opening paragraph",
+        "Full article, Data collection procedures"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "framework analysis method outlined by Ritchie & Spencer",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Data analysis—Understanding of health, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "framework adapted from the existing model of response issues by Penton et al.",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Data analysis—Assessment of relevance and comprehensibility"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "protocol and topic guide outlined in Appendix 2",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "GOVERNING_STUDY_PROTOCOL",
+      "source": [
+        "Full article, Data collection procedures, paragraph 2"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "mu1",
+        "pu1"
+      ],
+      "label": "Two-section health-concept and EQ-5D-Y appraisal interview for healthy participants",
+      "profiles": [
+        "Open-ended perceptions of health",
+        "EQ-5D-Y five dimensions",
+        "EQ-VAS"
+      ],
+      "attributes": [
+        "comprehensiveness",
+        "comprehension and understanding",
+        "interpretation",
+        "response option selection",
+        "relevance"
+      ],
+      "levels": [
+        "EQ-5D-Y-3L response options"
+      ],
+      "duration": null,
+      "alternatives": null,
+      "task_count": "One participation episode per participant; no repeated interviews",
+      "block": "Two sections: open-ended health questions, then instrument completion and appraisal",
+      "order": "Open-ended health questions preceded EQ-5D-Y-3L completion and appraisal",
+      "randomization_unit": null,
+      "stopping_rule": "Data saturation was not pursued.",
+      "source": [
+        "Full article, Data collection procedures, paragraphs 2–4",
+        "Full article, Methods—Study design and participants, paragraph 3"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "mu1",
+        "pu1"
+      ],
+      "label": "Two-section health-concept and EQ-5D-Y appraisal interview for diseased participants",
+      "profiles": [
+        "Open-ended perceptions of health",
+        "EQ-5D-Y five dimensions",
+        "EQ-VAS"
+      ],
+      "attributes": [
+        "comprehensiveness",
+        "comprehension and understanding",
+        "interpretation",
+        "response option selection",
+        "relevance"
+      ],
+      "levels": [
+        "EQ-5D-Y-3L response options"
+      ],
+      "duration": null,
+      "alternatives": null,
+      "task_count": "One individual interview per participant; no repeated interviews",
+      "block": "Two sections: open-ended health questions, then instrument completion and appraisal",
+      "order": "Open-ended health questions preceded EQ-5D-Y-3L completion and appraisal",
+      "randomization_unit": null,
+      "stopping_rule": "Data saturation was not pursued.",
+      "source": [
+        "Full article, Data collection procedures, paragraphs 2–4",
+        "Full article, Methods—Study design and participants, paragraph 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Participant category",
+      "levels": [
+        "Healthy",
+        "Diseased"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1",
+        "pu1"
+      ],
+      "respondent": "healthy child or adolescent",
+      "perspective": "participant’s own health perspective",
+      "completion": "Two group interviews with four participants each, one group interview with three participants, and four individual interviews",
+      "assistance": null,
+      "channel": "face-to-face",
+      "setting": "local primary and secondary schools",
+      "instrument_language": null,
+      "interview_language": "Chinese",
+      "recall_period": null,
+      "time_point": "single interview episode",
+      "source": [
+        "Full article, Research team and reflexivity",
+        "Full article, Methods—Study design and participants, paragraph 3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "mu1",
+        "pu1"
+      ],
+      "respondent": "child or adolescent with a specified disease",
+      "perspective": "participant’s own health perspective",
+      "completion": "individual interview with guardian present",
+      "assistance": "Guardian presence was reported; assistance was not reported.",
+      "channel": "face-to-face",
+      "setting": "hospital",
+      "instrument_language": null,
+      "interview_language": "Chinese",
+      "recall_period": null,
+      "time_point": "single interview episode",
+      "source": [
+        "Full article, Research team and reflexivity",
+        "Full article, Methods—Study design and participants, paragraph 2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "healthy child or adolescent",
+      "perspective": "self-report",
+      "completion": "Participant completed the instrument during the interview session.",
+      "assistance": null,
+      "channel": "face-to-face",
+      "setting": "school",
+      "instrument_language": "simplified Chinese",
+      "interview_language": "Chinese",
+      "recall_period": "today",
+      "time_point": "second section of the interview",
+      "source": [
+        "Full article, Data collection procedures, paragraph 3",
+        "Full article, Results—Comprehension and interpretation, paragraph 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "child or adolescent with a specified disease",
+      "perspective": "self-report",
+      "completion": "Participant completed the instrument during an individual interview with a guardian present.",
+      "assistance": "Guardian presence was reported; assistance was not reported.",
+      "channel": "face-to-face",
+      "setting": "hospital",
+      "instrument_language": "simplified Chinese",
+      "interview_language": "Chinese",
+      "recall_period": "today",
+      "time_point": "second section of the interview",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 2",
+        "Full article, Data collection procedures, paragraph 3",
+        "Full article, Results—Comprehension and interpretation, paragraph 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "healthy child or adolescent",
+      "perspective": "self-report",
+      "completion": "EQ-VAS was appraised during the interview session.",
+      "assistance": null,
+      "channel": "face-to-face",
+      "setting": "school",
+      "instrument_language": "simplified Chinese",
+      "interview_language": "Chinese",
+      "recall_period": null,
+      "time_point": "instrument-appraisal section",
+      "source": [
+        "Full article, Results—Assessment of relevance and comprehensibility, opening paragraph",
+        "Full article, Results—Relevance/comprehensiveness, final paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "child or adolescent with a specified disease",
+      "perspective": "self-report",
+      "completion": "EQ-VAS was appraised during an individual interview with a guardian present.",
+      "assistance": "Guardian presence was reported; assistance was not reported.",
+      "channel": "face-to-face",
+      "setting": "hospital",
+      "instrument_language": "simplified Chinese",
+      "interview_language": "Chinese",
+      "recall_period": null,
+      "time_point": "instrument-appraisal section",
+      "source": [
+        "Full article, Methods—Study design and participants, paragraph 2",
+        "Full article, Results—Assessment of relevance and comprehensibility, opening paragraph",
+        "Full article, Results—Relevance/comprehensiveness, final paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "CONTENT_VALIDITY",
+      "label": "Comprehensiveness of the simplified Chinese EQ-5D-Y-3L",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Methods, opening paragraph",
+        "Full article, Results—Assessment of comprehensiveness"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "CONTENT_VALIDITY",
+      "label": "Relevance and comprehensibility of the simplified Chinese EQ-5D-Y-3L",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Methods, opening paragraph",
+        "Full article, Results—Assessment of relevance and comprehensibility"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "CONTENT_VALIDITY",
+      "label": "Comprehensibility and scoring clarity of EQ-VAS",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article, Results—Relevance/comprehensiveness, final paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The analysis generated 126 codes, removed 39 codes that did not describe health-status outcomes, retained 87 codes, and consolidated them into 50 concepts across physical, mental, and social health.",
+      "about": [
+        "o1",
+        "mu2"
+      ],
+      "values": [
+        {
+          "reported_value": "126",
+          "unit": "codes generated",
+          "denominator": null,
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "39",
+          "unit": "codes removed",
+          "denominator": "126 generated codes",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "87",
+          "unit": "codes retained",
+          "denominator": "126 generated codes",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "50",
+          "unit": "distinct concepts",
+          "denominator": "87 retained codes",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "16",
+          "unit": "concepts",
+          "denominator": "50 distinct concepts",
+          "time": null,
+          "subgroup": "physical health",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "30",
+          "unit": "concepts",
+          "denominator": "50 distinct concepts",
+          "time": null,
+          "subgroup": "mental health",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "4",
+          "unit": "concepts",
+          "denominator": "50 distinct concepts",
+          "time": null,
+          "subgroup": "social health",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Assessment of comprehensiveness, paragraph 1",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "All five EQ-5D-Y dimensions appeared among participants’ health concepts, but social health—communication, social interaction, friendships, and family relationships—was important to participants and was not represented by a specific EQ-5D-Y dimension.",
+      "about": [
+        "o1",
+        "iu1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—Assessment of comprehensiveness, paragraph 1",
+        "Full article, Results—Social health",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Participants identified four overall question-clarity issues, nine interpretation issues for specific EQ-5D-Y dimensions, and two reports of missing intermediate response options.",
+      "about": [
+        "o2",
+        "iu1"
+      ],
+      "values": [
+        {
+          "reported_value": "4",
+          "unit": "issues",
+          "denominator": null,
+          "time": null,
+          "subgroup": "overall question clarity",
+          "comparator": null,
+          "direction": "problem identified",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "9",
+          "unit": "issues",
+          "denominator": null,
+          "time": null,
+          "subgroup": "interpretation of specific dimensions",
+          "comparator": null,
+          "direction": "problem identified",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "2",
+          "unit": "participants",
+          "denominator": "30 participants",
+          "time": null,
+          "subgroup": "response option selection",
+          "comparator": null,
+          "direction": "preferred additional intermediate levels",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Comprehension and interpretation, paragraphs 1–2",
+        "Full article, Results—Response option selection",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "No participant reported odd or difficult wording, and every selected response option matched the participant’s verbal account.",
+      "about": [
+        "o2",
+        "iu1"
+      ],
+      "values": [
+        {
+          "reported_value": "0",
+          "unit": "participants reporting odd or difficult wording",
+          "denominator": "30 participants",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": "no issue",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "30",
+          "unit": "participants with matching verbal and selected responses",
+          "denominator": "30 participants",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": "consistent",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Comprehension and interpretation, paragraph 1",
+        "Full article, Results—Response option selection",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "All healthy participants and most diseased participants proposed missing dimensions. The most frequent proposals concerned disease, social relationships, diet, sleep, and economic conditions; participants also requested broader mental-health coverage and more specific questions.",
+      "about": [
+        "o1",
+        "o2",
+        "iu1"
+      ],
+      "values": [
+        {
+          "reported_value": "15",
+          "unit": "participants",
+          "denominator": "15 healthy participants",
+          "time": null,
+          "subgroup": "healthy group",
+          "comparator": null,
+          "direction": "suggested additional dimensions",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Relevance/comprehensiveness, paragraphs 4–5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Participants often had difficulty separating ‘looking after myself’ from ‘doing usual activities’ and proposed some of the same examples for both dimensions.",
+      "about": [
+        "o2",
+        "iu1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—Comprehension and interpretation, paragraph 3",
+        "Full article, Discussion, paragraph 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "No participant reported an EQ-VAS clarity problem, but three participants were uncertain about the criteria for assigning a score. Participants also reported that the many printed numbers made the scale visually confusing.",
+      "about": [
+        "o3",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "0",
+          "unit": "participants reporting clarity problems",
+          "denominator": "30 participants",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": "no issue",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "3",
+          "unit": "participants",
+          "denominator": "30 participants",
+          "time": null,
+          "subgroup": "all participants",
+          "comparator": null,
+          "direction": "uncertain about scoring criteria",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Relevance/comprehensiveness, final paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The EQ-5D-Y is relevant to Chinese children and adolescents and captures physical and mental health, but adding or otherwise addressing social health could improve comprehensiveness.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f5"
+      ],
+      "source": [
+        "Full article, Abstract—Conclusion",
+        "Full article, Discussion, paragraphs 1–2",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Clearer, more specific questions and broader mental-health content could improve the instrument, although participants generally understood it well.",
+      "finding_ids": [
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 1",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Children, including the youngest participant, could express views about health and the instrument when suitable prompts were used; age alone did not appear to prevent articulation.",
+      "finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 6"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Using the three WHO health dimensions as guiding questions may have introduced leading bias.",
+      "about": [
+        "mu1",
+        "mu2",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, first limitation"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The COVID-19 pandemic may have influenced participants’ health perspectives.",
+      "about": [
+        "du1",
+        "du3",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, second limitation"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The researchers did not conduct a formal analysis of information saturation because the necessary data were unavailable.",
+      "about": [
+        "mu1",
+        "du1",
+        "du3"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, third limitation"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Social health coverage in EQ-5D-Y",
+      "description": "Children described communication, social interactions, peer relationships, and family relationships as health concepts, but EQ-5D-Y has no specific social-health dimension.",
+      "about": [
+        "iu1",
+        "o1",
+        "f2"
+      ],
+      "source": [
+        "Full article, Results—Social health",
+        "Full article, Discussion, paragraphs 1–3"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Overlap between looking after myself and doing usual activities",
+      "description": "Participants often assigned eating, household chores, studying, and sleeping to both dimensions, which made the distinction difficult.",
+      "about": [
+        "iu1",
+        "o2",
+        "f6"
+      ],
+      "source": [
+        "Full article, Results—Comprehension and interpretation, paragraph 3",
+        "Full article, Discussion, paragraph 5"
+      ]
+    }
+  ]
+}

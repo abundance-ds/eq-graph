@@ -1,0 +1,1272 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P117",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "“The research was financed by the EuroQol Group (EQ Project number: 2013240).”",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study makes EQ-5D-5L population norms and test-retest reliability primary research objects. It also reports direct EuroQol funding for the research.",
+    "source": [
+      "Full article, Abstract > Objectives",
+      "Full article, Introduction, final paragraph",
+      "Deterministic metadata, JATS article-meta/funding-group"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Indonesian EQ-5D-5L and WHOQOL-BREF population norms and test-retest reliability study",
+      "primary_research_family": "POPULATION_REFERENCE_DESCRIPTION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The stated aims include both population norms and reliability. Population norms are an explicit principal output, so the ordered family rules place the study in POPULATION_REFERENCE_DESCRIPTION before measurement-property evaluation.",
+      "source": [
+        "Full article, Abstract > Objectives–Conclusions",
+        "Full article, Introduction, final paragraph",
+        "Full article, Discussion, first paragraph"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "POPULATION_NORMS",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract > Objectives",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, Abstract > Objectives",
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Population norms component (main)",
+      "source": [
+        "Full article, Methods, first paragraph",
+        "Full article, Results > EQ-5D-5L population norms",
+        "Full article, Results > WHOQOL-BREF population norm"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Test-retest reliability component",
+      "source": [
+        "Full article, Methods > Sampling and data collection, final paragraph",
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Results > EQ-5D-5L population norms"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods > Statistical analysis, subgroup comparisons"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Sampling and data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Methods > Sampling and data collection, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Sampling and data collection"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Indonesian general adult population",
+      "role": "target population",
+      "geographies": [
+        "Indonesia"
+      ],
+      "conditions": [],
+      "age_description": "17–75 years",
+      "inclusion_description": "General-population respondents recruited with quotas for residence, gender, age, education, religion, and ethnicity from six Indonesian cities and their surroundings.",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Sampling and data collection"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "APPROACHED",
+      "size": 1117,
+      "size_text": "1117 respondents approached",
+      "unit": "persons",
+      "description": "People approached for the main survey.",
+      "source": [
+        "Full article, Results > Characteristics of the respondents, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 1056,
+      "size_text": "1056 completed EQ-5D-5L",
+      "unit": "respondents",
+      "description": "Respondents who completed EQ-5D-5L and formed the EQ-5D-5L norms sample.",
+      "source": [
+        "Full article, Results > Characteristics of the respondents, first paragraph",
+        "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1056,
+      "size_text": "N = 1056",
+      "unit": "respondents",
+      "description": "Sample analyzed for EQ-5D-5L population norms.",
+      "source": [
+        "Full article, Table 1",
+        "Full article, Results > EQ-5D-5L population norms"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1046,
+      "size_text": "1046 respondents",
+      "unit": "respondents",
+      "description": "Sample analyzed for WHOQOL-BREF population norms after 10 respondents did not complete that questionnaire.",
+      "source": [
+        "Full article, Results > WHOQOL-BREF population norm, first paragraph",
+        "Full article, Table 9"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 227,
+      "size_text": "227 participants completed the two questionnaires twice",
+      "unit": "participants",
+      "description": "Participants with two questionnaire administrations before the interval-based exclusion.",
+      "source": [
+        "Full article, Results > Test-retest reliability, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 21,
+      "size_text": "21 participants",
+      "unit": "participants",
+      "description": "Excluded because the interval between test and retest exceeded one month.",
+      "source": [
+        "Full article, Results > Test-retest reliability, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 206,
+      "size_text": "206 respondents",
+      "unit": "respondents",
+      "description": "Test-retest analysis sample; the mean administration interval was 17.45 days (SD 4.71).",
+      "source": [
+        "Full article, Results > Test-retest reliability, first paragraph",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "First-interview EQ-5D-5L, EQ-VAS, WHOQOL-BREF, and demographic responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Derive Indonesian population norms and compare scores across socio-demographic groups.",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Methods > Instruments",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Repeated EQ-5D-5L, EQ-VAS, and WHOQOL-BREF responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Evaluate test-retest reliability and agreement.",
+      "source": [
+        "Full article, Methods > Sampling and data collection, final paragraph",
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Instruments, EQ-5D-5L paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Instruments, EQ-5D-5L paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "WHOQOL-BREF",
+      "registry_id": "instrument:whoqol-bref",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Instruments, WHOQOL-BREF paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article, Methods > Statistical analysis, paragraph beginning “Categorical data”"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract > Objectives",
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Methods > Statistical analysis",
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "WHOQOL-BREF",
+      "registry_id": "instrument:whoqol-bref",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract > Objectives",
+        "Full article, Results > Test-retest reliability"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu4",
+      "source_label": "new Indonesian value set",
+      "registry_id": "product:eq-5d-5l-id-2017",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods > Statistical analysis: “To obtain EQ-5D-5L ‘utility’ index scores, the new Indonesian value set was used”"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "multistage stratified quota method",
+      "registry_id": "method:multistage-stratified-quota-sampling",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods > Sampling and data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Gwet’s agreement coefficient (Gwet’s AC) test",
+      "registry_id": "method:gwet-agreement-coefficient",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "percentage of agreement",
+      "registry_id": "method:percentage-of-agreement",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)",
+      "registry_id": "method:intraclass-correlation-two-way-random-absolute-agreement",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Lin’s concordance correlation coefficient (CCC)",
+      "registry_id": "method:lins-concordance-correlation-coefficient",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Bland-Altman plots",
+      "registry_id": "method:bland-altman-plots",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Chi-square test",
+      "registry_id": "method:chi-square-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Welch's unequal variances t-test",
+      "registry_id": "method:welch-t-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ANOVA",
+      "registry_id": "method:analysis-of-variance",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Statistical analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Residence",
+      "levels": [
+        "urban",
+        "rural"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Gender",
+      "levels": [
+        "male",
+        "female"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age",
+      "levels": [
+        "17–30",
+        "31–50",
+        "above 50"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Level of education",
+      "levels": [
+        "basic/low",
+        "middle",
+        "high"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Religion",
+      "levels": [
+        "Islam",
+        "Christian",
+        "Others"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Ethnicity",
+      "levels": [
+        "Jawa",
+        "Sunda",
+        "Sumatera",
+        "Sulawesi",
+        "Madura–Bali",
+        "Others"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Sampling and data collection",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Monthly income",
+      "levels": [
+        "0–500",
+        "500–2,500",
+        "2,500–5,000",
+        ">5,000 thousand Rupiah"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Table 1",
+        "Full article, Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "general-population respondent",
+      "perspective": "self-report of own health",
+      "completion": "assisted self-report",
+      "assistance": "help from an interviewer",
+      "channel": "online questionnaire within the EuroQol EQ-Valuation Technology (EQ-VT) platform version 2.0",
+      "setting": "face-to-face at the interviewer’s home or office, or at the respondent’s home",
+      "instrument_language": "official EQ-5D-5L Bahasa Indonesia version 1.0",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "first interview",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods, first paragraph",
+        "Full article, Methods > Instruments, EQ-5D-5L paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3"
+      ],
+      "respondent": "general-population respondent",
+      "perspective": "self-report of own quality of life",
+      "completion": "self-administered",
+      "assistance": "interviewer help was reported for questionnaire completion",
+      "channel": "paper-based questionnaire",
+      "setting": "face-to-face at the interviewer’s home or office, or at the respondent’s home",
+      "instrument_language": "revised official Bahasa Indonesia version",
+      "interview_language": null,
+      "recall_period": "four weeks",
+      "time_point": "after EQ-5D-5L during the first interview",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods, first paragraph",
+        "Full article, Methods > Instruments, WHOQOL-BREF paragraph",
+        "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "respondent": "test-retest respondent",
+      "perspective": "self-report of own health and quality of life",
+      "completion": "assisted self-report",
+      "assistance": "same interviewer conducted the retest",
+      "channel": "face-to-face interview using the same questionnaires",
+      "setting": null,
+      "instrument_language": "Bahasa Indonesia versions",
+      "interview_language": null,
+      "recall_period": "WHOQOL-BREF: four weeks",
+      "time_point": "second interview 10 days to one month after the first; analyzed mean interval 17.45 days (SD 4.71)",
+      "source": [
+        "Full article, Methods > Sampling and data collection, final paragraph",
+        "Full article, Results > Test-retest reliability, first paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Indonesian EQ-5D-5L health-profile, EQ-VAS, and index-score population norms",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu4"
+      ],
+      "source": [
+        "Full article, Results > EQ-5D-5L population norms",
+        "Full article, Tables 3–8"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Indonesian WHOQOL-BREF domain and global-score population norms",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Full article, Results > WHOQOL-BREF population norm",
+        "Full article, Table 9"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Test-retest reliability and agreement of EQ-5D-5L, EQ-VAS, EQ-5D-5L index scores, and WHOQOL-BREF",
+      "instrument_use_ids": [
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "source": [
+        "Full article, Results > Test-retest reliability",
+        "Full article, Table 2",
+        "Full article, Figures 1–2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The five EQ-5D-5L dimensions had Gwet’s agreement coefficients of 0.85–0.99 and percentage agreement of about 90–99%.",
+      "about": [
+        "o3",
+        "iu5",
+        "mu2",
+        "mu3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.85–0.99",
+          "unit": "Gwet’s AC",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "high agreement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "89.93–99.15",
+          "unit": "percent agreement",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "high agreement",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Test-retest reliability, second paragraph",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Test-retest agreement was poor for EQ-VAS and EQ-5D-5L index scores.",
+      "about": [
+        "o3",
+        "iu6",
+        "iu5",
+        "mu4"
+      ],
+      "values": [
+        {
+          "reported_value": "0.45",
+          "unit": "ICC",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": "EQ-VAS",
+          "comparator": null,
+          "direction": "poor agreement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.37",
+          "unit": "ICC",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": "EQ-5D-5L index score",
+          "comparator": null,
+          "direction": "poor agreement",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Test-retest reliability, second paragraph",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "WHOQOL-BREF global items had almost perfect agreement, while the four domains had moderate-to-good ICCs.",
+      "about": [
+        "o3",
+        "iu7",
+        "mu2",
+        "mu4"
+      ],
+      "values": [
+        {
+          "reported_value": "0.91",
+          "unit": "Gwet’s AC",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": "overall quality of life item",
+          "comparator": null,
+          "direction": "almost perfect agreement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.86",
+          "unit": "Gwet’s AC",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": "general health item",
+          "comparator": null,
+          "direction": "almost perfect agreement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.70–0.79",
+          "unit": "ICC",
+          "denominator": "206 analyzed respondents",
+          "time": "test versus retest",
+          "subgroup": "four WHOQOL-BREF domains",
+          "comparator": null,
+          "direction": "moderate-to-good agreement",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Figure 1 caption continuation",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "In the EQ-5D-5L norms sample, 44.07% reported health state 11111; pain/discomfort and anxiety/depression were the dimensions with the most reported problems, and self-care had the fewest.",
+      "about": [
+        "o1",
+        "iu1"
+      ],
+      "values": [
+        {
+          "reported_value": "44.07",
+          "unit": "percent",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "health state 11111",
+          "comparator": null,
+          "direction": "no problems on all five dimensions",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "39.7",
+          "unit": "percent",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "pain/discomfort",
+          "comparator": null,
+          "direction": "reported level 2–5 problems",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "34.3",
+          "unit": "percent",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "anxiety/depression",
+          "comparator": null,
+          "direction": "reported level 2–5 problems",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1.9",
+          "unit": "percent",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "self-care",
+          "comparator": null,
+          "direction": "reported level 2–5 problems",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > EQ-5D-5L population norms, second paragraph",
+        "Full article, Figure 3",
+        "Full article, Tables 3–7"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The overall mean EQ-VAS score was 79.39 and the mean EQ-5D-5L index score was approximately 0.91; older respondents had lower EQ-VAS scores, and males had higher index scores than females.",
+      "about": [
+        "o1",
+        "iu2",
+        "iu4",
+        "sf2",
+        "sf3"
+      ],
+      "values": [
+        {
+          "reported_value": "79.39",
+          "unit": "EQ-VAS points",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "all respondents",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 14.01"
+        },
+        {
+          "reported_value": "0.91",
+          "unit": "EQ-5D-5L index score",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "all respondents",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 0.11"
+        },
+        {
+          "reported_value": "76.88 versus 80.54",
+          "unit": "EQ-VAS points",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": ">50 versus 17–30 years",
+          "comparator": "younger respondents",
+          "direction": "lower with older age",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.92 versus 0.90",
+          "unit": "EQ-5D-5L index score",
+          "denominator": "1056 respondents",
+          "time": "first interview",
+          "subgroup": "male versus female",
+          "comparator": "female respondents",
+          "direction": "higher for males",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > EQ-5D-5L population norms, paragraph before Table 8",
+        "Full article, Table 8"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "WHOQOL-BREF mean domain scores ranged from 58.53 to 69.23. Higher education and income generally corresponded to better quality-of-life scores, and older respondents had lower overall quality of life and health satisfaction.",
+      "about": [
+        "o2",
+        "iu3",
+        "sf3",
+        "sf4",
+        "sf7"
+      ],
+      "values": [
+        {
+          "reported_value": "69.23",
+          "unit": "0–100 domain score",
+          "denominator": "1046 analyzed respondents",
+          "time": "first interview",
+          "subgroup": "physical domain",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 11.49"
+        },
+        {
+          "reported_value": "66.74",
+          "unit": "0–100 domain score",
+          "denominator": "1046 analyzed respondents",
+          "time": "first interview",
+          "subgroup": "psychological domain",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 12.89"
+        },
+        {
+          "reported_value": "63.13",
+          "unit": "0–100 domain score",
+          "denominator": "1046 analyzed respondents",
+          "time": "first interview",
+          "subgroup": "social domain",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 14.38"
+        },
+        {
+          "reported_value": "58.53",
+          "unit": "0–100 domain score",
+          "denominator": "1046 analyzed respondents",
+          "time": "first interview",
+          "subgroup": "environmental domain",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 13.43"
+        }
+      ],
+      "source": [
+        "Full article, Results > WHOQOL-BREF population norm",
+        "Full article, Table 9"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The authors concluded that the EQ-5D-5L descriptive system and WHOQOL-BREF had high test-retest reliability, but EQ-VAS and EQ-5D-5L index scores had poor agreement in this general population.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors stated that the norms can provide reference data for clinicians, researchers, public-health experts, epidemiologists, and health-care workers.",
+      "finding_ids": [
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “Estimation of EQ-5D-5L and WHOQOL-BREF norms”"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The authors attributed the low EQ-VAS and index-score ICCs partly to the highly skewed general-population EQ-5D-5L data and low variance, including a large proportion in health state 11111.",
+      "finding_ids": [
+        "f2",
+        "f4"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “Our study found that the Indonesian EQ-5D-5L”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The total sample mainly lived on Java, which raises uncertainty about representativeness for the whole Indonesian archipelago.",
+      "about": [
+        "pop1",
+        "sa3",
+        "sa4"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph beginning “Several limitations”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The retest interval overlapped with the WHOQOL-BREF four-week reference period and might have biased the test-retest results.",
+      "about": [
+        "iu7",
+        "ad3",
+        "o3"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph beginning “Another limitation”"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Indonesian general-population norms for EQ-5D-5L, EQ-VAS, and EQ-5D-5L index scores",
+      "product_type": "POPULATION_REFERENCE_DATA",
+      "source": [
+        "Full article, Results > EQ-5D-5L population norms",
+        "Full article, Supporting information, S1 Table caption"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Indonesian general-population norms for WHOQOL-BREF",
+      "product_type": "POPULATION_REFERENCE_DATA",
+      "source": [
+        "Full article, Results > WHOQOL-BREF population norm",
+        "Full article, Supporting information, S2 Table caption"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "ps1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Derived and reported",
+      "assertion_date": "2018-05-11",
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Results > EQ-5D-5L population norms"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "ps2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "product_id": "prod2",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Derived and reported",
+      "assertion_date": "2018-05-11",
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Results > WHOQOL-BREF population norm"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "General-population ceiling effect and low score variance",
+      "description": "The article reports that 44.07% of respondents had EQ-5D-5L health state 11111 and argues that skewness and low variance reduce ICC performance for EQ-VAS and index scores.",
+      "about": [
+        "f2",
+        "f4",
+        "int3"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “Our study found that the Indonesian EQ-5D-5L”"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Number of respondents who completed both questionnaires in the main survey",
+      "statements": [
+        {
+          "statement": "The abstract states that 1056 respondents completed EQ-5D-5L and WHOQOL-BREF.",
+          "source": [
+            "Full article, Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The results state that 10 of the 1056 EQ-5D-5L respondents did not complete WHOQOL-BREF, leaving 1046 for WHOQOL-BREF norms analysis.",
+          "source": [
+            "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2051 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P002",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "Partial financial support for this study was provided by a grant from the EuroQol Reasearch Foundation, EQ Project 1487-RA.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "Two related experiments directly examined whether TTO and EQ-VAS tasks evoke unconscious death-thought accessibility and whether death-thought accessibility and attachment affect TTO and EQ-VAS scores. The EuroQol Research Foundation provided partial financial support.",
+    "source": [
+      "Full article, Introduction, final paragraph",
+      "Full article, Methods > Design, paragraph 1",
+      "Full article, Funding, paragraph 1"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Study 1: online experiment with an unconscious cultural-worldview-defense measure",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "Study 1 examined psychological influences on TTO and EQ-VAS task behavior and scores and tested an unconscious defense measure. The principal contribution concerns valuation-method behavior and quality, not value-set development.",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Electronic supplementary material > Appendix > Unconscious cultural worldview defense strength"
+      ]
+    },
+    {
+      "id": "s2",
+      "label": "Study 2: online experiment with a conscious emotional-lability defense measure",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "Study 2 examined psychological influences on TTO and EQ-VAS task behavior and scores and tested a conscious defense measure. The principal contribution concerns valuation-method behavior and quality, not value-set development.",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Electronic supplementary material > Appendix > Conscious defense strength"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Study 1 randomized online experiment",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "RANDOMIZED",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Adults from the Blauw Research commercial research panel",
+      "role": "study participants",
+      "geographies": [
+        "The Netherlands"
+      ],
+      "conditions": [],
+      "age_description": "Adults; the pooled report gives age groups of 18–34, 35–44, and 45 years or older.",
+      "inclusion_description": "Panel members who gave informed consent. The survey stopped when an EQ-5D-5L anxiety/depression response was at level 4 or higher.",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": null,
+      "size_text": "The article does not report the total analyzed sample for Study 1 separately from Study 2.",
+      "unit": "respondents",
+      "description": "Study 1 included TTO, VAS, mortality-salient, and television-control conditions.",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Results, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Study 1 online self-administered survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Experimental comparisons and analyses of DTA, attachment, TTO, EQ-VAS, and unconscious cultural-worldview defense.",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-VAS instrument",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > VAS, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Dutch version of a validated word completion test",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "validated Dutch version of the Experiences in Close Relationships",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, Methods > Attachment, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "level of agreement with the medical doctor",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Agreement with the doctor"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Time Trade-off (TTO) method",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, paragraph 1",
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "ANOVAs with planned comparisons",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Pearson’s correlations",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Bonferroni correction for multiple comparisons",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "TTO scores were flagged as inconsistent if more than one preference switch occurred",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1"
+      ],
+      "label": "Wheelchair TTO downward titration task",
+      "profiles": [
+        "Living 10 years with a mobility problem requiring a wheelchair, followed by immediate death",
+        "Full health for a variable number of years"
+      ],
+      "attributes": [
+        "health state",
+        "years in full health",
+        "death"
+      ],
+      "levels": [
+        "10 years in a wheelchair",
+        "10 to 0 years in full health in one-year steps"
+      ],
+      "duration": "10 years for the wheelchair profile; full-health duration decreased from 10 years to immediate death",
+      "alternatives": "Life A or Life B, using forced choice",
+      "task_count": null,
+      "block": "TTO condition",
+      "order": "Before DTA measurement",
+      "randomization_unit": null,
+      "stopping_rule": "The preference switch defined y; more than one switch was flagged as inconsistent.",
+      "source": [
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1",
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1"
+      ],
+      "label": "Self-experienced-health TTO downward titration task",
+      "profiles": [
+        "Living 10 years in your present health",
+        "Full health for a variable number of years"
+      ],
+      "attributes": [
+        "present health",
+        "years in full health",
+        "death"
+      ],
+      "levels": [
+        "10 years in present health",
+        "10 to 0 years in full health in one-year steps"
+      ],
+      "duration": "10 years for present health; full-health duration decreased in one-year steps",
+      "alternatives": "Life A or Life B, using forced choice",
+      "task_count": null,
+      "block": "TTO condition",
+      "order": "After DTA and the Study 1 unconscious defense-strength measure",
+      "randomization_unit": null,
+      "stopping_rule": "The preference switch defined y; more than one switch was flagged as inconsistent.",
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "label": "Wheelchair EQ-VAS rating task",
+      "profiles": [
+        "Living 10 years in a wheelchair"
+      ],
+      "attributes": [
+        "imagined health",
+        "EQ VAS rating"
+      ],
+      "levels": [
+        "worst health you can imagine",
+        "best health you can imagine"
+      ],
+      "duration": "Living 10 years in a wheelchair",
+      "alternatives": "One position on the 100-point rating scale",
+      "task_count": "1 rating",
+      "block": "VAS condition",
+      "order": "Before DTA measurement",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods > Four independent conditions > VAS, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "label": "Self-experienced-health EQ-VAS rating task",
+      "profiles": [
+        "Own health today"
+      ],
+      "attributes": [
+        "current health",
+        "EQ VAS rating"
+      ],
+      "levels": [
+        "worst health you can imagine",
+        "best health you can imagine"
+      ],
+      "duration": null,
+      "alternatives": "One position on the 100-point rating scale",
+      "task_count": "1 rating",
+      "block": "VAS condition",
+      "order": "After DTA and the Study 1 unconscious defense-strength measure",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > VAS, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3"
+      ],
+      "label": "DTA word completion task",
+      "profiles": [
+        "Sixteen Dutch word fragments with one missing letter"
+      ],
+      "attributes": [
+        "word completion",
+        "death-related completion",
+        "neutral completion"
+      ],
+      "levels": [
+        "Eleven fragments permitting death-related or neutral completion",
+        "Five fragments permitting only neutral completion"
+      ],
+      "duration": null,
+      "alternatives": "Complete each fragment with one missing letter",
+      "task_count": "16 word fragments",
+      "block": null,
+      "order": "After PANAS and a word-puzzle filler task; after the wheelchair TTO or EQ-VAS task",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods > Measurement of DTA, paragraph 1",
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Randomized experimental condition",
+      "levels": [
+        "TTO",
+        "VAS",
+        "Mortality Salient (MS)",
+        "television control task"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Methods > Four independent conditions"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Death thought accessibility",
+      "levels": [
+        "DTA score from 0 to 11"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire, paragraph 1",
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Attachment style",
+      "levels": [
+        "Attachment Anxiety",
+        "Attachment Avoidance"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Attachment, paragraph 1",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "mu1"
+      ],
+      "respondent": "Research-panel participant",
+      "perspective": "Self-report, hypothetical wheelchair health, and self-experienced health as applicable",
+      "completion": "Self-administered",
+      "assistance": "No interviewer; TTO practice questions were omitted",
+      "channel": "Online survey",
+      "setting": "Commercial research panel",
+      "instrument_language": "Dutch",
+      "interview_language": null,
+      "recall_period": "Own health today for the self-experienced EQ-VAS task; present health for the corresponding TTO task",
+      "time_point": "Single online survey session",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Death thought accessibility by randomized condition",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Full article, Research questions",
+        "Full article, Results, paragraphs 4-5",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "TTO and EQ-VAS scores and their pooled associations with DTA and attachment",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article, Research questions",
+        "Full article, Results, paragraphs 6-8",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Performance of the unconscious cultural-worldview-defense measure",
+      "instrument_use_ids": [
+        "iu5"
+      ],
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Unconscious cultural worldview defense strength > Results"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "TTO response consistency",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Results, paragraph 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 1: across Study 1 and Study 2 combined, DTA differed across conditions only because the mortality-salient condition was higher; TTO and EQ-VAS did not elevate DTA.",
+      "about": [
+        "o1",
+        "sf1",
+        "iu3",
+        "mu2",
+        "mu4"
+      ],
+      "values": [
+        {
+          "reported_value": "2.86 (SD 1.75)",
+          "unit": "DTA points",
+          "denominator": "2242 respondents pooled across Study 1 and Study 2",
+          "time": "After wheelchair TTO",
+          "subgroup": "TTO condition",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 1.75"
+        },
+        {
+          "reported_value": "2.94 (SD 1.72)",
+          "unit": "DTA points",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": "After wheelchair EQ-VAS",
+          "subgroup": "VAS condition",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 1.72"
+        },
+        {
+          "reported_value": "3.24 (SD 1.89)",
+          "unit": "DTA points",
+          "denominator": "697 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "Mortality Salient condition",
+          "comparator": null,
+          "direction": "higher",
+          "uncertainty": "SD 1.89"
+        },
+        {
+          "reported_value": "2.98 (SD 1.70)",
+          "unit": "DTA points",
+          "denominator": "705 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "Control condition",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 1.70"
+        },
+        {
+          "reported_value": "F(3,4568)=8.62; p<.001",
+          "unit": null,
+          "denominator": "4572 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": null,
+          "comparator": "Four randomized conditions",
+          "direction": "difference across conditions",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "−0.12",
+          "unit": "DTA points",
+          "denominator": "TTO N=2242 and control N=705, pooled across Study 1 and Study 2",
+          "time": "After wheelchair TTO",
+          "subgroup": "TTO condition",
+          "comparator": "Control condition",
+          "direction": "lower",
+          "uncertainty": "95% CI approximately −0.27 to 0.03"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 4-5",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 1: DTA was not associated with wheelchair TTO scores and was weakly and negatively associated with wheelchair EQ-VAS scores.",
+      "about": [
+        "o2",
+        "sf2",
+        "iu2",
+        "mu1",
+        "mu3"
+      ],
+      "values": [
+        {
+          "reported_value": "r=0.00",
+          "unit": "Pearson correlation",
+          "denominator": "1959 consistent observations pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOwheel",
+          "comparator": "DTA",
+          "direction": "null",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "r=−0.13",
+          "unit": "Pearson correlation",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "VASwheel",
+          "comparator": "DTA",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 6-8",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 1: worse attachment was negatively associated with TTO and EQ-VAS scores for self-experienced health.",
+      "about": [
+        "o2",
+        "sf3",
+        "iu2",
+        "mu1",
+        "mu3"
+      ],
+      "values": [
+        {
+          "reported_value": "r=−0.17",
+          "unit": "Pearson correlation",
+          "denominator": "2023 consistent observations pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": "Attachment Anxiety",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "r=−0.13",
+          "unit": "Pearson correlation",
+          "denominator": "2023 consistent observations pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": "Attachment Avoidance",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "r=−0.15",
+          "unit": "Pearson correlation",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "VASown",
+          "comparator": "Attachment Anxiety",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "r=−0.15",
+          "unit": "Pearson correlation",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "VASown",
+          "comparator": "Attachment Avoidance",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 7-8",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "In Study 1, the unconscious cultural-worldview-defense measure did not differ significantly between the mortality-salient and control conditions and was not used in further analyses.",
+      "about": [
+        "o3",
+        "iu5",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "F(1,697)=1.6; p=0.2",
+          "unit": null,
+          "denominator": "Study 1 mortality-salient and control conditions",
+          "time": null,
+          "subgroup": "Unconscious cultural worldview defense measure",
+          "comparator": "Mortality-salient versus control condition",
+          "direction": "not significant",
+          "uncertainty": "p=0.2"
+        }
+      ],
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Unconscious cultural worldview defense strength > Results"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 1: most TTO responses met the study consistency rule.",
+      "about": [
+        "o4",
+        "mu5"
+      ],
+      "values": [
+        {
+          "reported_value": "1959 of 2242 (87%)",
+          "unit": "respondents",
+          "denominator": "2242 TTO respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOwheel",
+          "comparator": null,
+          "direction": "consistent",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "2023 of 2242 (90%)",
+          "unit": "respondents",
+          "denominator": "2242 TTO respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": null,
+          "direction": "consistent",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph 6"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The pooled findings indicate that TTO and EQ-VAS tasks did not evoke elevated unconscious death-thought accessibility in the online experiments.",
+      "finding_ids": [
+        "f1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors propose that the rational, number-oriented character of TTO can suppress DTA.",
+      "finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Full article, Discussion, paragraphs 2-3"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "DTA was measured after the wheelchair TTO or EQ-VAS task but before the self-experienced-health TTO or EQ-VAS task, which can affect associations.",
+      "about": [
+        "o1",
+        "o2",
+        "td1",
+        "td2",
+        "td3",
+        "td4",
+        "td5"
+      ],
+      "source": [
+        "Full article, Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The Study 1 unconscious defense measure was not significant and was excluded from further analyses.",
+      "about": [
+        "o3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Limitations, paragraph 1",
+        "Full article, Electronic supplementary material > Appendix > Unconscious cultural worldview defense strength > Results"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The cultural-worldview-defense measure occurred before the self-experienced-health valuations and could compromise their associations with DTA; the authors therefore used Study 2 for these DTA analyses.",
+      "about": [
+        "o2",
+        "td2",
+        "td4",
+        "iu5"
+      ],
+      "source": [
+        "Full article, Results, paragraph 7"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Death thought accessibility",
+      "description": "The unconscious death-thought component measured by the number of death-related completions of ambiguous word fragments.",
+      "about": [
+        "iu3",
+        "o1",
+        "sf2"
+      ],
+      "source": [
+        "Full article, Methods > Measurement of DTA",
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Terror Management Theory",
+      "description": "The theory used to predict that mortality awareness increases death-thought accessibility and that attachment can buffer the response.",
+      "about": [
+        "c1",
+        "sf3"
+      ],
+      "source": [
+        "Full article, Introduction, paragraphs 2-4"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Rational versus experiential processing of health valuation",
+      "description": "The proposed explanation that the numeric TTO task engages rational processing and can suppress unconscious death thoughts.",
+      "about": [
+        "mu1",
+        "int2"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Study 2 randomized online experiment",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s2",
+      "part_id": null,
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s2",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s2",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s2",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s2",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "RANDOMIZED",
+      "source": [
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Adults from the Blauw Research commercial research panel",
+      "role": "study participants",
+      "geographies": [
+        "The Netherlands"
+      ],
+      "conditions": [],
+      "age_description": "Adults; the pooled report gives age groups of 18–34, 35–44, and 45 years or older.",
+      "inclusion_description": "Panel members who gave informed consent. The survey stopped when an EQ-5D-5L anxiety/depression response was at level 4 or higher.",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s2",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": null,
+      "size_text": "The article does not report the total analyzed sample for Study 2 separately from Study 1.",
+      "unit": "respondents",
+      "description": "Study 2 included TTO, VAS, mortality-salient, and television-control conditions.",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Results, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s2",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 466,
+      "size_text": "Study 2 VASown DTA analysis, N=466",
+      "unit": "respondents",
+      "description": "Study 2 VAS respondents included in the DTA association analysis for self-experienced health.",
+      "source": [
+        "Full article, Table 3, VASown row and section footnote"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "Study 2 online self-administered survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Experimental comparisons and analyses of DTA, attachment, TTO, EQ-VAS, and conscious emotional-lability defense.",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Design, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "EQ-VAS instrument",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > VAS, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "Dutch version of a validated word completion test",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu9",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "validated Dutch version of the Experiences in Close Relationships",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, Methods > Attachment, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu10",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "emotional lability questionnaire",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Emotional lability measure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "Time Trade-off (TTO) method",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, paragraph 1",
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "ANOVAs with planned comparisons",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "Pearson’s correlations",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "Bonferroni correction for multiple comparisons",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s2",
+      "part_id": null,
+      "source_label": "TTO scores were flagged as inconsistent if more than one preference switch occurred",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td6",
+      "study_id": "s2",
+      "part_id": "part2",
+      "applies_to": [
+        "mu6"
+      ],
+      "label": "Wheelchair TTO downward titration task",
+      "profiles": [
+        "Living 10 years with a mobility problem requiring a wheelchair, followed by immediate death",
+        "Full health for a variable number of years"
+      ],
+      "attributes": [
+        "health state",
+        "years in full health",
+        "death"
+      ],
+      "levels": [
+        "10 years in a wheelchair",
+        "10 to 0 years in full health in one-year steps"
+      ],
+      "duration": "10 years for the wheelchair profile; full-health duration decreased from 10 years to immediate death",
+      "alternatives": "Life A or Life B, using forced choice",
+      "task_count": null,
+      "block": "TTO condition",
+      "order": "Before DTA measurement",
+      "randomization_unit": null,
+      "stopping_rule": "The preference switch defined y; more than one switch was flagged as inconsistent.",
+      "source": [
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1",
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td7",
+      "study_id": "s2",
+      "part_id": "part2",
+      "applies_to": [
+        "mu6"
+      ],
+      "label": "Self-experienced-health TTO downward titration task",
+      "profiles": [
+        "Living 10 years in your present health",
+        "Full health for a variable number of years"
+      ],
+      "attributes": [
+        "present health",
+        "years in full health",
+        "death"
+      ],
+      "levels": [
+        "10 years in present health",
+        "10 to 0 years in full health in one-year steps"
+      ],
+      "duration": "10 years for present health; full-health duration decreased in one-year steps",
+      "alternatives": "Life A or Life B, using forced choice",
+      "task_count": null,
+      "block": "TTO condition",
+      "order": "After DTA and the Study 2 conscious defense-strength measure",
+      "randomization_unit": null,
+      "stopping_rule": "The preference switch defined y; more than one switch was flagged as inconsistent.",
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td8",
+      "study_id": "s2",
+      "part_id": "part2",
+      "applies_to": [
+        "iu7"
+      ],
+      "label": "Wheelchair EQ-VAS rating task",
+      "profiles": [
+        "Living 10 years in a wheelchair"
+      ],
+      "attributes": [
+        "imagined health",
+        "EQ VAS rating"
+      ],
+      "levels": [
+        "worst health you can imagine",
+        "best health you can imagine"
+      ],
+      "duration": "Living 10 years in a wheelchair",
+      "alternatives": "One position on the 100-point rating scale",
+      "task_count": "1 rating",
+      "block": "VAS condition",
+      "order": "Before DTA measurement",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods > Four independent conditions > VAS, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td9",
+      "study_id": "s2",
+      "part_id": "part2",
+      "applies_to": [
+        "iu7"
+      ],
+      "label": "Self-experienced-health EQ-VAS rating task",
+      "profiles": [
+        "Own health today"
+      ],
+      "attributes": [
+        "current health",
+        "EQ VAS rating"
+      ],
+      "levels": [
+        "worst health you can imagine",
+        "best health you can imagine"
+      ],
+      "duration": null,
+      "alternatives": "One position on the 100-point rating scale",
+      "task_count": "1 rating",
+      "block": "VAS condition",
+      "order": "After DTA and the Study 2 conscious defense-strength measure",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > VAS, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td10",
+      "study_id": "s2",
+      "part_id": "part2",
+      "applies_to": [
+        "iu8"
+      ],
+      "label": "DTA word completion task",
+      "profiles": [
+        "Sixteen Dutch word fragments with one missing letter"
+      ],
+      "attributes": [
+        "word completion",
+        "death-related completion",
+        "neutral completion"
+      ],
+      "levels": [
+        "Eleven fragments permitting death-related or neutral completion",
+        "Five fragments permitting only neutral completion"
+      ],
+      "duration": null,
+      "alternatives": "Complete each fragment with one missing letter",
+      "task_count": "16 word fragments",
+      "block": null,
+      "order": "After PANAS and a word-puzzle filler task; after the wheelchair TTO or EQ-VAS task",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods > Measurement of DTA, paragraph 1",
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Randomized experimental condition",
+      "levels": [
+        "TTO",
+        "VAS",
+        "Mortality Salient (MS)",
+        "television control task"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Methods > Four independent conditions"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Death thought accessibility",
+      "levels": [
+        "DTA score from 0 to 11"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire, paragraph 1",
+        "Full article, Methods > Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf6",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Attachment style",
+      "levels": [
+        "Attachment Anxiety",
+        "Attachment Avoidance"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Attachment, paragraph 1",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf7",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Medical cover story for the conscious defense measure",
+      "levels": [
+        "High emotional lability predicts early death",
+        "Low emotional lability predicts early death"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Conscious defense strength > Medical cover story"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s2",
+      "part_id": null,
+      "applies_to": [
+        "iu6",
+        "iu7",
+        "iu8",
+        "iu9",
+        "iu10",
+        "mu6"
+      ],
+      "respondent": "Research-panel participant",
+      "perspective": "Self-report, hypothetical wheelchair health, and self-experienced health as applicable",
+      "completion": "Self-administered",
+      "assistance": "No interviewer; TTO practice questions were omitted",
+      "channel": "Online survey",
+      "setting": "Commercial research panel",
+      "instrument_language": "Dutch",
+      "interview_language": null,
+      "recall_period": "Own health today for the self-experienced EQ-VAS task; present health for the corresponding TTO task",
+      "time_point": "Single online survey session",
+      "source": [
+        "Full article, Methods > Respondents, paragraph 1",
+        "Full article, Methods > Procedure, paragraph 1",
+        "Full article, Methods > Four independent conditions > TTO, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s2",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Death thought accessibility by randomized condition",
+      "instrument_use_ids": [
+        "iu8"
+      ],
+      "source": [
+        "Full article, Research questions",
+        "Full article, Results, paragraphs 4-5",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o6",
+      "study_id": "s2",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "TTO and EQ-VAS scores and their associations with DTA and attachment",
+      "instrument_use_ids": [
+        "iu7"
+      ],
+      "source": [
+        "Full article, Research questions",
+        "Full article, Results, paragraphs 6-8",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o7",
+      "study_id": "s2",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Performance of the conscious emotional-lability defense measure",
+      "instrument_use_ids": [
+        "iu10"
+      ],
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Conscious defense strength > Results"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o8",
+      "study_id": "s2",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "TTO response consistency",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Results, paragraph 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 2: across Study 1 and Study 2 combined, DTA differed across conditions only because the mortality-salient condition was higher; TTO and EQ-VAS did not elevate DTA.",
+      "about": [
+        "o5",
+        "sf4",
+        "iu8",
+        "mu7",
+        "mu9"
+      ],
+      "values": [
+        {
+          "reported_value": "2.86 (SD 1.75)",
+          "unit": "DTA points",
+          "denominator": "2242 respondents pooled across Study 1 and Study 2",
+          "time": "After wheelchair TTO",
+          "subgroup": "TTO condition",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 1.75"
+        },
+        {
+          "reported_value": "2.94 (SD 1.72)",
+          "unit": "DTA points",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": "After wheelchair EQ-VAS",
+          "subgroup": "VAS condition",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 1.72"
+        },
+        {
+          "reported_value": "3.24 (SD 1.89)",
+          "unit": "DTA points",
+          "denominator": "697 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "Mortality Salient condition",
+          "comparator": null,
+          "direction": "higher",
+          "uncertainty": "SD 1.89"
+        },
+        {
+          "reported_value": "2.98 (SD 1.70)",
+          "unit": "DTA points",
+          "denominator": "705 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "Control condition",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 1.70"
+        },
+        {
+          "reported_value": "F(3,4568)=8.62; p<.001",
+          "unit": null,
+          "denominator": "4572 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": null,
+          "comparator": "Four randomized conditions",
+          "direction": "difference across conditions",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "−0.12",
+          "unit": "DTA points",
+          "denominator": "TTO N=2242 and control N=705, pooled across Study 1 and Study 2",
+          "time": "After wheelchair TTO",
+          "subgroup": "TTO condition",
+          "comparator": "Control condition",
+          "direction": "lower",
+          "uncertainty": "95% CI approximately −0.27 to 0.03"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 4-5",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 2: DTA was not associated with wheelchair TTO scores and was weakly and negatively associated with wheelchair EQ-VAS scores.",
+      "about": [
+        "o6",
+        "sf5",
+        "iu7",
+        "mu6",
+        "mu8"
+      ],
+      "values": [
+        {
+          "reported_value": "r=0.00",
+          "unit": "Pearson correlation",
+          "denominator": "1959 consistent observations pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOwheel",
+          "comparator": "DTA",
+          "direction": "null",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "r=−0.13",
+          "unit": "Pearson correlation",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "VASwheel",
+          "comparator": "DTA",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 6-8",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 2: worse attachment was negatively associated with TTO and EQ-VAS scores for self-experienced health.",
+      "about": [
+        "o6",
+        "sf6",
+        "iu7",
+        "mu6",
+        "mu8"
+      ],
+      "values": [
+        {
+          "reported_value": "r=−0.17",
+          "unit": "Pearson correlation",
+          "denominator": "2023 consistent observations pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": "Attachment Anxiety",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "r=−0.13",
+          "unit": "Pearson correlation",
+          "denominator": "2023 consistent observations pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": "Attachment Avoidance",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "r=−0.15",
+          "unit": "Pearson correlation",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "VASown",
+          "comparator": "Attachment Anxiety",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        },
+        {
+          "reported_value": "r=−0.15",
+          "unit": "Pearson correlation",
+          "denominator": "928 respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "VASown",
+          "comparator": "Attachment Avoidance",
+          "direction": "negative",
+          "uncertainty": "p<.001"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 7-8",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f9",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "The Study-2-only DTA analyses found no material association with self-experienced-health TTO and a weak negative association with self-experienced-health EQ-VAS.",
+      "about": [
+        "o6",
+        "sf5",
+        "iu7",
+        "mu6",
+        "mu8"
+      ],
+      "values": [
+        {
+          "reported_value": "r=0.03",
+          "unit": "Pearson correlation",
+          "denominator": "Table 3 reports 2023 consistent TTOown observations; the Results text says that Study 2 data were used",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": "DTA",
+          "direction": "null",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "r=−0.13",
+          "unit": "Pearson correlation",
+          "denominator": "466 Study 2 respondents",
+          "time": null,
+          "subgroup": "VASown",
+          "comparator": "DTA",
+          "direction": "negative",
+          "uncertainty": "p<.01"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph 7",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f10",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "In Study 2, attachment anxiety moderated the association between DTA and the wheelchair EQ-VAS score.",
+      "about": [
+        "o6",
+        "sf5",
+        "sf6",
+        "iu7"
+      ],
+      "values": [
+        {
+          "reported_value": "p=.03",
+          "unit": null,
+          "denominator": "Study 2 VAS respondents",
+          "time": null,
+          "subgroup": "Study 2, VASwheel",
+          "comparator": "DTA by Attachment Anxiety interaction",
+          "direction": "moderation detected",
+          "uncertainty": "p=.03"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph 8"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f11",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "In Study 2, the conscious emotional-lability defense measure did not differ significantly between cover-story conditions and was not used in further analyses.",
+      "about": [
+        "o7",
+        "iu10",
+        "sf7"
+      ],
+      "values": [
+        {
+          "reported_value": "F(1,701)=1.9; p=0.17",
+          "unit": null,
+          "denominator": "Study 2 conscious-defense comparison",
+          "time": null,
+          "subgroup": "Conscious emotional-lability measure",
+          "comparator": "High-emotionality versus low-emotionality cover story",
+          "direction": "not significant",
+          "uncertainty": "p=0.17"
+        }
+      ],
+      "source": [
+        "Full article, Electronic supplementary material > Appendix > Conscious defense strength > Results"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f12",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "This is a pooled-both-studies finding repeated under Study 2: most TTO responses met the study consistency rule.",
+      "about": [
+        "o8",
+        "mu10"
+      ],
+      "values": [
+        {
+          "reported_value": "1959 of 2242 (87%)",
+          "unit": "respondents",
+          "denominator": "2242 TTO respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOwheel",
+          "comparator": null,
+          "direction": "consistent",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "2023 of 2242 (90%)",
+          "unit": "respondents",
+          "denominator": "2242 TTO respondents pooled across Study 1 and Study 2",
+          "time": null,
+          "subgroup": "TTOown",
+          "comparator": null,
+          "direction": "consistent",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph 6"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "The pooled findings indicate that TTO and EQ-VAS tasks did not evoke elevated unconscious death-thought accessibility in the online experiments.",
+      "finding_ids": [
+        "f6"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int4",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "The authors interpret EQ-VAS sensitivity to DTA as evidence that EQ-VAS can capture a broader psychological concept than TTO.",
+      "finding_ids": [
+        "f7",
+        "f9"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusion",
+        "Full article, Relevance, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int5",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "The absence of an association between DTA and hypothetical wheelchair TTO scores suggests limited DTA impact on national health valuation studies in this online context.",
+      "finding_ids": [
+        "f7"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusion",
+        "Full article, Relevance, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int6",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "Attachment appears relevant to valuation of self-experienced health but not to the hypothetical wheelchair health state.",
+      "finding_ids": [
+        "f8",
+        "f10"
+      ],
+      "source": [
+        "Full article, Discussion, paragraphs 7-8"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "DTA was measured after the wheelchair TTO or EQ-VAS task but before the self-experienced-health TTO or EQ-VAS task, which can affect associations.",
+      "about": [
+        "o5",
+        "o6",
+        "td6",
+        "td7",
+        "td8",
+        "td9",
+        "td10"
+      ],
+      "source": [
+        "Full article, Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "The Study 2 conscious defense measure was not significant and was excluded from further analyses.",
+      "about": [
+        "o7",
+        "f11"
+      ],
+      "source": [
+        "Full article, Limitations, paragraph 1",
+        "Full article, Electronic supplementary material > Appendix > Conscious defense strength > Results"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim6",
+      "study_id": "s2",
+      "part_id": null,
+      "statement": "The national-valuation interpretation is qualified by online self-administration without interviewers, the absence of severe hypothetical health states, and the absence of direct comparisons with dead.",
+      "about": [
+        "int5",
+        "adm2",
+        "td6"
+      ],
+      "source": [
+        "Full article, Relevance, paragraph 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c4",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Death thought accessibility",
+      "description": "The unconscious death-thought component measured by the number of death-related completions of ambiguous word fragments.",
+      "about": [
+        "iu8",
+        "o5",
+        "sf5"
+      ],
+      "source": [
+        "Full article, Methods > Measurement of DTA",
+        "Full article, Methods > Death thought accessibility (DTA) questionnaire"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c5",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "Terror Management Theory",
+      "description": "The theory used to predict that mortality awareness increases death-thought accessibility and that attachment can buffer the response.",
+      "about": [
+        "c4",
+        "sf6"
+      ],
+      "source": [
+        "Full article, Introduction, paragraphs 2-4"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c6",
+      "study_id": "s2",
+      "part_id": null,
+      "label": "EQ-VAS sensitivity to psychological health concepts",
+      "description": "The proposed interpretation that EQ-VAS reflects psychological influences that were not detected for TTO.",
+      "about": [
+        "iu7",
+        "int4"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusion",
+        "Full article, Relevance, paragraph 1"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": null,
+      "part_id": null,
+      "state": "UNMODELED_ASPECT",
+      "affected_item_id": null,
+      "affected_type": "Finding",
+      "affected_key": "multi-Study finding relation",
+      "evidence": "Findings f1/f6, f2/f7, f3/f8, and f5/f12 use pooled data from Study 1 and Study 2. The schema permits only one study_id for each Finding, so each pooled finding is repeated under both studies.",
+      "importance": "Without a multi-Study relation, a pooled finding can appear to belong to only one study.",
+      "proposed_resolution": "Add a relation that lets one Finding link to multiple Study records while preserving one finding identity.",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Results, paragraphs 1 and 4-8",
+        "Full article, Tables 2-3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s2",
+      "part_id": null,
+      "scope": "Denominator for the Study-2-only TTOown versus DTA analysis",
+      "statements": [
+        {
+          "statement": "The Results text states that only Study 2 data were used because the Study 1 cultural-worldview-defense measure occurred before TTOown and VASown.",
+          "source": [
+            "Full article, Results, paragraph 7"
+          ]
+        },
+        {
+          "statement": "Table 3 reports N=2023 for the TTOown row, which is the pooled count of consistent TTOown observations reported for the two studies combined.",
+          "source": [
+            "Full article, Results, paragraph 6",
+            "Full article, Table 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 6-7",
+        "Full article, Table 3"
+      ]
+    }
+  ]
+}

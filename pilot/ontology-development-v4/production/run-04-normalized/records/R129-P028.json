@@ -1,0 +1,1081 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P028",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "application_only",
+    "euroqol_support": "explicit",
+    "support_scope": "Data collection was funded by the EuroQol Research Foundation (1644-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study uses EQ-5D-5L, EQ VAS, EQ-HWB, and EQ-HWB-S as health and well-being outcomes rather than as measurement research objects. Include the study because the EuroQol Research Foundation explicitly funded data collection.",
+    "source": [
+      "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Abstract, Objectives and Methods",
+      "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Associations between financial toxicity, health-related quality of life, and well-being in Indonesian patients with breast cancer",
+      "primary_research_family": "HEALTH_OUTCOME_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical description of associations between financial toxicity and health, HRQoL, and well-being outcomes. The study does not develop instrument content or evaluate measurement properties.",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Introduction, final paragraph",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Baseline cross-sectional association analysis",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients, paragraph 1"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 1,
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients, paragraph 1: baseline data from a longitudinal study"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Female adult patients receiving treatment for breast cancer at Hasan Sadikin General Hospital",
+      "role": "study population",
+      "geographies": [
+        "Bandung, West Java, Indonesia"
+      ],
+      "conditions": [
+        "breast cancer"
+      ],
+      "age_description": "At least 18 years of age; observed age range 23–84 years",
+      "inclusion_description": "Female patients with breast cancer of any type and stage who were undergoing treatment, could complete the survey, were fluent in Indonesian, and gave written informed consent; patients in the initial round of therapy were excluded.",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients, paragraph 1",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 300,
+      "size_text": "300 female patients",
+      "unit": "patients",
+      "description": "Patients with breast cancer who completed the survey and were included in the reported baseline analyses.",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Patients’ paper-and-pencil questionnaire",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Measure financial toxicity, health-related quality of life, well-being, symptoms, and sociodemographic characteristics.",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Oncology nurses’ questionnaire based on the hospital’s computerized medical records",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "DOCUMENT",
+      "purpose": "Supply clinical characteristics and treatment covariates.",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients, paragraph 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ-5D-5L"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ visual analog scale (EQ VAS)",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ-5D-5L, final paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ Health and Wellbeing (EQ-HWB)",
+      "registry_id": "instrument:eq-hwb",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ Health and Wellbeing (EQ-HWB)"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-HWB-S",
+      "registry_id": "instrument:eq-hwb-s",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ Health and Wellbeing (EQ-HWB), final paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "COST: A FACIT Measure of Financial Toxicity (FACIT-COST)",
+      "registry_id": "instrument:facit-cost",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > COST: A FACIT Measure of Financial Toxicity (FACIT-COST)"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Questions on objective financial toxicity (OFT)",
+      "registry_id": "instrument:r129-p028-objective-financial-toxicity-questions",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Questions on objective financial toxicity (OFT)"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Indonesian EQ-5D-5L value set",
+      "registry_id": "product:eq-5d-5l-id-2017",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ-5D-5L, paragraph 1"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu4",
+      "source_label": "UK pilot value set",
+      "registry_id": "product:eq-hwb-s-gb-pilot-2023",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ Health and Wellbeing (EQ-HWB), final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Mann-Whitney test",
+      "registry_id": "method:mann-whitney-u-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Kruskal-Wallis test",
+      "registry_id": "method:kruskal-wallis-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Spearman’s rho",
+      "registry_id": "method:spearman-rank-correlation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Pearson’s coefficient",
+      "registry_id": "method:pearson-correlation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "forward stepwise regression procedure",
+      "registry_id": "method:forward-stepwise-regression-procedure",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 3"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ordinal logistic models",
+      "registry_id": "model:ordinal-logit",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 3"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "multivariable ordinary least squares (OLS) models",
+      "registry_id": "model:ordinary-least-squares-regression",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraph 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Subjective financial toxicity (SFT)",
+      "levels": [
+        "Continuous recoded FACIT-COST total score, with higher scores indicating increased SFT",
+        "High SFT: FACIT-COST ≤ 17.5",
+        "Low SFT: FACIT-COST > 17.5"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > COST: A FACIT Measure of Financial Toxicity",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Objective financial toxicity (OFT)",
+      "levels": [
+        "Number of financial coping strategies employed",
+        "At least one OFT",
+        "No OFT"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Questions on objective financial toxicity (OFT)",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Statistical analysis, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "iu6"
+      ],
+      "respondent": "patients",
+      "perspective": "patient self-report",
+      "completion": "paper-and-pencil self-completion",
+      "assistance": "Three trained research assistants assisted patients who had difficulties completing the questionnaires.",
+      "channel": "paper-and-pencil questionnaire",
+      "setting": "Waiting area of the hospital oncology department before consultation or treatment",
+      "instrument_language": "official Indonesian language versions for EQ-HWB, EQ-5D-5L, and FACIT-COST",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "baseline, September 2023 to March 2024",
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > Study design and patients, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ-5D-5L dimensions and index value",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ-5D-5L"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ VAS score",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ-5D-5L, final paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ-HWB-S items and index value",
+      "instrument_use_ids": [
+        "iu4"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ Health and Wellbeing (EQ-HWB)"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ-HWB items and level summary score",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Methods > EQ Health and Wellbeing (EQ-HWB), final paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "High subjective financial toxicity affected 21% of patients, and 51% reported at least one objective financial coping strategy.",
+      "about": [
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "21.0%",
+          "unit": "%",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "high SFT",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "51.0%",
+          "unit": "%",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "at least one OFT",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Financial toxicity, health, and well-being, paragraph 1 and Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The sample reported generally good mean health and well-being scores.",
+      "about": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "values": [
+        {
+          "reported_value": "0.85",
+          "unit": "EQ-5D-5L index value",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 0.21"
+        },
+        {
+          "reported_value": "81.18",
+          "unit": "EQ VAS points",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 15.63"
+        },
+        {
+          "reported_value": "0.84",
+          "unit": "EQ-HWB-S index value",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 0.17"
+        },
+        {
+          "reported_value": "16.48",
+          "unit": "EQ-HWB LSS points on 0–100 scale",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 11.76"
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Financial toxicity, health, and well-being, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Patients with high SFT had lower mean EQ-5D-5L, EQ VAS, and EQ-HWB-S values than patients with low SFT.",
+      "about": [
+        "sf1",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.75",
+          "unit": "EQ-5D-5L index value",
+          "denominator": "63 patients",
+          "time": "baseline",
+          "subgroup": "high SFT",
+          "comparator": "low SFT: 0.87",
+          "direction": "lower",
+          "uncertainty": "SD 0.23; p<0.001"
+        },
+        {
+          "reported_value": "72.94",
+          "unit": "EQ VAS points",
+          "denominator": "63 patients",
+          "time": "baseline",
+          "subgroup": "high SFT",
+          "comparator": "low SFT: 83.38",
+          "direction": "lower",
+          "uncertainty": "SD 17.75; p<0.001"
+        },
+        {
+          "reported_value": "0.73",
+          "unit": "EQ-HWB-S index value",
+          "denominator": "63 patients",
+          "time": "baseline",
+          "subgroup": "high SFT",
+          "comparator": "low SFT: 0.87",
+          "direction": "lower",
+          "uncertainty": "SD 0.24; p<0.001"
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Financial toxicity, health, and well-being, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "FACIT-COST total scores correlated more strongly with the EQ-HWB-S index than with the EQ-5D-5L index.",
+      "about": [
+        "sf1",
+        "o1",
+        "o3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.44",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "FACIT-COST with EQ-HWB-S index",
+          "comparator": null,
+          "direction": "positive",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "0.30",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "FACIT-COST with EQ-5D-5L index",
+          "comparator": null,
+          "direction": "positive",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "After covariate adjustment, higher SFT was associated with more problems in EQ-5D-5L pain/discomfort and anxiety/depression and in EQ-HWB exhaustion, anxiety, sadness/depression, pain, frustration, and discomfort.",
+      "about": [
+        "sf1",
+        "o1",
+        "o3",
+        "o4",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "1.07",
+          "unit": "odds ratio per unit of higher SFT",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-5D-5L pain/discomfort",
+          "comparator": null,
+          "direction": "more problems",
+          "uncertainty": "95% CI 1.04–1.10; p<0.001"
+        },
+        {
+          "reported_value": "1.10",
+          "unit": "odds ratio per unit of higher SFT",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-HWB frustration",
+          "comparator": null,
+          "direction": "more problems",
+          "uncertainty": "95% CI 1.05–1.15; p<0.01"
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Associations between financial toxicity and EQ-5D-5L and EQ-HWB items, paragraph 1 and Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Higher OFT was significantly associated only with more problems in the EQ-HWB-S exhaustion item in the adjusted ordinal models.",
+      "about": [
+        "sf2",
+        "o3",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "1.40",
+          "unit": "odds ratio",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-HWB-S exhaustion",
+          "comparator": null,
+          "direction": "more problems",
+          "uncertainty": "95% CI 1.06–1.87; p<0.05"
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Associations between financial toxicity and EQ-5D-5L and EQ-HWB items, paragraph 1 and Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "In fully adjusted OLS models, higher SFT remained associated with lower EQ-5D-5L, EQ VAS, and EQ-HWB-S values and with a higher, worse EQ-HWB LSS.",
+      "about": [
+        "sf1",
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "mod2"
+      ],
+      "values": [
+        {
+          "reported_value": "-0.01",
+          "unit": "unstandardized beta coefficient",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-5D-5L index value",
+          "comparator": null,
+          "direction": "lower",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "-0.56",
+          "unit": "unstandardized beta coefficient",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ VAS",
+          "comparator": null,
+          "direction": "lower",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "-0.01",
+          "unit": "unstandardized beta coefficient",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-HWB-S index value",
+          "comparator": null,
+          "direction": "lower",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "0.54",
+          "unit": "unstandardized beta coefficient",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-HWB LSS",
+          "comparator": null,
+          "direction": "higher, indicating worse health and well-being",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Associations between financial toxicity and EQ-5D-5L and EQ-HWB level sum scores and index values, paragraph 1 and Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The fully adjusted models explained more variance in EQ-HWB outcomes than in EQ-5D-5L and EQ VAS outcomes.",
+      "about": [
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "mod2"
+      ],
+      "values": [
+        {
+          "reported_value": "46.39%",
+          "unit": "R-squared",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-HWB-S index model",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "46.15%",
+          "unit": "R-squared",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-HWB LSS model",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "31.23%",
+          "unit": "R-squared",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ-5D-5L index model",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "25.60%",
+          "unit": "R-squared",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "EQ VAS model",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Associations between financial toxicity and EQ-5D-5L and EQ-HWB level sum scores and index values, paragraph 1 and Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "OFT was not significantly associated with the overall EQ-5D-5L, EQ VAS, EQ-HWB-S, or EQ-HWB LSS outcomes in the fully adjusted OLS models.",
+      "about": [
+        "sf2",
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "mod2"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results, Table 6",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, paragraph 5"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors interpret the results as evidence that financial toxicity is associated with diminished HRQoL and well-being, although the study does not establish causality.",
+      "finding_ids": [
+        "f3",
+        "f5",
+        "f6",
+        "f7",
+        "f9"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, paragraphs 1-2",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors suggest that well-being may capture the dynamics of financial toxicity better than HRQoL because it includes broader domains such as meaningful pursuits, connection, isolation, and frustration.",
+      "finding_ids": [
+        "f4",
+        "f8"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors suggest screening patients and families for financial toxicity and considering financial navigation, expanded non-medical support, and employment reintegration.",
+      "finding_ids": [
+        "f1",
+        "f3",
+        "f5",
+        "f7"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, policy implications paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Data came from one center in one country and included only female patients with breast cancer, which limits generalization to other cancers, male patients, and more resource-poor settings.",
+      "about": [
+        "pop1",
+        "sam1"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, limitations paragraph, first point"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study did not include caregivers or core family members, including household income providers, so it might not have captured financial toxicity comprehensively.",
+      "about": [
+        "pop1",
+        "sf1",
+        "sf2"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, limitations paragraph, second point"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Nearly all patients had insurance coverage, and limited response variability may have affected associations and covariate selection.",
+      "about": [
+        "sam1",
+        "mod1",
+        "mod2"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, limitations paragraph, third point"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "FACIT-COST was developed in the United States and may not be the measure best suited to financial well-being in the Indonesian context.",
+      "about": [
+        "iu5",
+        "sf1"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, limitations paragraph, fourth point"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The pilot UK value set used for EQ-HWB-S index values does not fully reflect Indonesian population preferences.",
+      "about": [
+        "iu4",
+        "su2",
+        "o3"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, limitations paragraph, fifth point"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study design did not permit causal conclusions or examination of possible mediating factors.",
+      "about": [
+        "d2",
+        "f5",
+        "f6",
+        "f7",
+        "f9"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, limitations paragraph, final point"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Financial toxicity",
+      "description": "Impairment of financial well-being due to cancer diagnosis and care, represented by subjective distress and objective financial burdens or coping strategies.",
+      "about": [
+        "sf1",
+        "sf2"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Introduction, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Well-being beyond health-related quality of life",
+      "description": "The article treats well-being as broader than conventional HRQoL and examines whether EQ-HWB captures financial-toxicity associations across wider life domains.",
+      "about": [
+        "iu1",
+        "iu3",
+        "iu4",
+        "o1",
+        "o3",
+        "o4"
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Introduction, paragraph 4",
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Percentage of patients undergoing chemotherapy at the time of the survey",
+      "statements": [
+        {
+          "statement": "The narrative reports 11.33% undergoing chemotherapy.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports 37 patients and 12.3% undergoing chemotherapy.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, Table 1"
+          ]
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Pearson correlation between FACIT-COST total score and EQ VAS",
+      "statements": [
+        {
+          "statement": "The results narrative reports a correlation of 0.44.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 4 reports a correlation of 0.35.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, paragraph 1 and Table 4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+# Production calibration report
+
+- Records: 20/20.
+- Studies: 21.
+- Unmapped registry labels: 283.
+- Ontology gaps: 3.
+- Source conflicts: 17.
+- Deterministically valid records: 20/20.
+
+## Dispositions
+
+- `include-study`: 20.
+
+## Primary research families
+
+- `APPLIED_USE_RESEARCH`: 3.
+- `EVIDENCE_SYNTHESIS`: 1.
+- `HEALTH_OUTCOME_RESEARCH`: 3.
+- `MEASUREMENT_PROPERTY_EVALUATION`: 7.
+- `METHODS_RESEARCH`: 5.
+- `POPULATION_REFERENCE_DESCRIPTION`: 1.
+- `VALUE_SET_DEVELOPMENT`: 1.
+
+## Ontology gaps
+
+- `UNMODELED_ASPECT` `multi-Study finding relation`: Findings f1/f6, f2/f7, f3/f8, and f5/f12 use pooled data from Study 1 and Study 2. The schema permits only one study_id for each Finding, so each pooled finding is repeated under both studies.
+- `UNMAPPED_VALUE` `comparison_structure`: The study compares frequency and severity response-scale formats. The controlled comparison-structure vocabulary has no value for a response-scale-format comparison.
+- `UNMAPPED_VALUE` `function`: The paper proposes graphical reporting of health utility alongside mortality on Kaplan-Meier curves, but the method-function vocabulary has no reporting or visualization value.
+
+## Source conflicts
+
+- Denominator for the Study-2-only TTOown versus DTA analysis
+- Reported MDC95 values for the EQ-5D index and EQ VAS
+- Named EORTC QLQ-C30 domain associated with correlations of 0.70 and 0.64
+- Whether the current study generated or analyzed data
+- Model 2 refugee-versus-control coefficient
+- Planned qualitative-sample allocation
+- Adjusted association between education and EQ-5D-5L LSS
+- Unadjusted EQ VAS difference by work status in Sweden
+- Age distribution in the analyzed sample
+- Designation of the referent and focal response-scale groups in the DIF analysis
+- Meaning of the graded-response-model parameter a
+- Standard deviation of the total-sample mean EQ-5D-5L index value
+- Mean EQ VAS value reported for men
+- Adjusted knee-register EQ VAS estimates at 1-year follow-up in table 4
+- Adjusted spine-register EQ VAS change estimates in table 4
+- Full-scale Hs values for the healthy, hearing-problems, and Norway subgroups
+- Subgroup with the lowest reported full-scale HT value
+
+## Registry review queue
+
+- `CNF-P001` `InstrumentUse`: EQ-5D-5L
+- `CNF-P001` `InstrumentUse`: EQ-5D-5L questionnaire
+- `CNF-P001` `MethodUse`: quota sampling method
+- `CNF-P001` `MethodUse`: composite time trade-off (cTTO)
+- `CNF-P001` `MethodUse`: EuroQol Valuation Technology (EQ-VT) (version 2.1)
+- `CNF-P001` `MethodUse`: cross-validation procedure
+- `CNF-P001` `MethodUse`: tobit modelling
+- `CNF-P001` `MethodUse`: backward selection method
+- `CNF-P001` `ProtocolUse`: ‘lite’ version of the EuroQol’s EQ-5D-5L valuation protocol
+- `CNF-P001` `ProtocolUse`: standard quality control process developed by the EuroQol Group
+- `CNF-P001` `ModelUse`: ADD20
+- `CNF-P001` `ModelUse`: ADD20-I model accounting for heteroskedasticity
+- `CNF-P001` `ModelUse`: ADD20-P
+- `CNF-P001` `ModelUse`: CALE
+- `CNF-P001` `ModelUse`: CALE-I
+- `CNF-P001` `ModelUse`: CALE-P
+- `CNF-P001` `ScoringUse`: Singapore EQ-5D-5L value set estimated using the ADD20-I model
+- `CNF-P002` `InstrumentUse`: EQ-5D-5L
+- `CNF-P002` `InstrumentUse`: EQ-VAS instrument
+- `CNF-P002` `InstrumentUse`: Dutch version of a validated word completion test
+- `CNF-P002` `InstrumentUse`: validated Dutch version of the Experiences in Close Relationships
+- `CNF-P002` `InstrumentUse`: level of agreement with the medical doctor
+- `CNF-P002` `MethodUse`: Time Trade-off (TTO) method
+- `CNF-P002` `MethodUse`: ANOVAs with planned comparisons
+- `CNF-P002` `MethodUse`: Pearson’s correlations
+- `CNF-P002` `MethodUse`: Bonferroni correction for multiple comparisons
+- `CNF-P002` `MethodUse`: TTO scores were flagged as inconsistent if more than one preference switch occurred
+- `CNF-P002` `InstrumentUse`: EQ-5D-5L
+- `CNF-P002` `InstrumentUse`: EQ-VAS instrument
+- `CNF-P002` `InstrumentUse`: Dutch version of a validated word completion test
+- `CNF-P002` `InstrumentUse`: validated Dutch version of the Experiences in Close Relationships
+- `CNF-P002` `InstrumentUse`: emotional lability questionnaire
+- `CNF-P002` `MethodUse`: Time Trade-off (TTO) method
+- `CNF-P002` `MethodUse`: ANOVAs with planned comparisons
+- `CNF-P002` `MethodUse`: Pearson’s correlations
+- `CNF-P002` `MethodUse`: Bonferroni correction for multiple comparisons
+- `CNF-P002` `MethodUse`: TTO scores were flagged as inconsistent if more than one preference switch occurred
+- `CNF-P003` `InstrumentUse`: simplified Chinese version of the EQ-5D-Y-3 L instrument
+- `CNF-P003` `InstrumentUse`: EQ-VAS
+- `CNF-P003` `MethodUse`: semi-structured health interviews
+- `CNF-P003` `MethodUse`: framework analysis method outlined by Ritchie & Spencer
+- `CNF-P003` `MethodUse`: framework adapted from the existing model of response issues by Penton et al.
+- `CNF-P003` `ProtocolUse`: protocol and topic guide outlined in Appendix 2
+- `CNF-P003` `ProtocolUse`: Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist
+- `CNF-P004` `InstrumentUse`: Amharic version of EQ-5D-5L
+- `CNF-P004` `InstrumentUse`: EORTC QLQ-C30
+- `CNF-P004` `InstrumentUse`: EORTC-QLQ-C30 global health subscale
+- `CNF-P004` `InstrumentUse`: Eastern Cooperative Oncology Group (ECOG) performance status
+- `CNF-P004` `MethodUse`: recruited consecutively
+- `CNF-P004` `MethodUse`: face-to-face interview
+- `CNF-P004` `MethodUse`: Spearman correlation coefficient
+- `CNF-P004` `MethodUse`: Kruskal Wallis U test
+- `CNF-P004` `MethodUse`: Wilcoxon signed-rank test
+- `CNF-P004` `MethodUse`: effect size (ES)
+- `CNF-P004` `MethodUse`: standardized response mean (SRM)
+- `CNF-P004` `MethodUse`: distribution-based method
+- `CNF-P004` `MethodUse`: anchor-based method
+- `CNF-P004` `MethodUse`: receiver operating characteristic (ROC) curve
+- `CNF-P004` `MethodUse`: Youden index
+- `CNF-P004` `MethodUse`: minimal detectable change (MDC) calculation
+- `CNF-P004` `ScoringUse`: Ethiopian value sets
+- `CNF-P005` `InstrumentUse`: EQ-5D-5L instrument
+- `CNF-P005` `InstrumentUse`: self-rated EQ-5D-5L health state
+- `CNF-P005` `ScoringUse`: Dutch tariff
+- `CNF-P005` `MethodUse`: standard DCE
+- `CNF-P005` `MethodUse`: DCE-death
+- `CNF-P005` `MethodUse`: DCE-duration
+- `CNF-P005` `MethodUse`: unstratified efficient designs
+- `CNF-P005` `MethodUse`: severity-stratified designs
+- `CNF-P005` `MethodUse`: heterogeneous DCE design algorithms
+- `CNF-P005` `MethodUse`: Bayesian Markov chain Monte Carlo (MCMC) methods
+- `CNF-P005` `MethodUse`: mean errors (MEs)
+- `CNF-P005` `MethodUse`: Cross validation of the MEs
+- `CNF-P005` `MethodUse`: Survey Sampling International (SSI) online panel
+- `CNF-P005` `ModelUse`: mixed logit model
+- `CNF-P006` `InstrumentUse`: revised individualized decision aid
+- `CNF-P006` `InstrumentUse`: EQ-5D-5L
+- `CNF-P006` `InstrumentUse`: Preparation for Decision Making Scale (PDMS)
+- `CNF-P006` `InstrumentUse`: System Usability Scale (SUS)
+- `CNF-P006` `InstrumentUse`: Acceptability Scale
+- `CNF-P006` `MethodUse`: recruitment after the surgical screening appointment at a high-volume urban hip and knee clinic
+- `CNF-P006` `MethodUse`: online evaluation survey
+- `CNF-P006` `MethodUse`: open-ended questions in the online evaluation survey
+- `CNF-P006` `MethodUse`: descriptive statistics
+- `CNF-P006` `MethodUse`: content analysis
+- `CNF-P007` `InstrumentUse`: EuroQol’s EQ-5D-3L
+- `CNF-P007` `InstrumentUse`: EuroQol’s EQ-5D-3L
+- `CNF-P007` `InstrumentUse`: EQ-5D-3L
+- `CNF-P007` `ScoringUse`: European value set
+- `CNF-P007` `MethodUse`: mixed-mode (online and postal questionnaires) method
+- `CNF-P007` `MethodUse`: mixed-mode (online and postal questionnaires) method
+- `CNF-P007` `MethodUse`: case-control matching procedure (1:1 exact matching based on sex and age)
+- `CNF-P007` `MethodUse`: Descriptive statistics including proportions and their 95% confidence intervals (95% CIs)
+- `CNF-P007` `MethodUse`: z-test
+- `CNF-P007` `MethodUse`: Bonferroni correction
+- `CNF-P007` `MethodUse`: stepwise removal of non-significant variables
+- `CNF-P007` `ModelUse`: Tobit regression
+- `CNF-P007` `ModelUse`: OLS regression
+- `CNF-P008` `InstrumentUse`: Arabic version of the EQ-5D-5L
+- `CNF-P008` `InstrumentUse`: EQ-5D-5L health states
+- `CNF-P008` `InstrumentUse`: EQ-5D-5L descriptive system
+- `CNF-P008` `InstrumentUse`: country-specific questionnaire designed for the Egyptian valuation study
+- `CNF-P008` `MethodUse`: composite time trade off (cTTO)
+- `CNF-P008` `MethodUse`: discrete choice experiment (DCE)
+- `CNF-P008` `MethodUse`: multistratified quota sampling
+- `CNF-P008` `MethodUse`: QC tool
+- `CNF-P008` `MethodUse`: descriptive statistics
+- `CNF-P008` `MethodUse`: one sample z-test for a population proportion
+- `CNF-P008` `MethodUse`: χ2 goodness-of-fit test
+- `CNF-P008` `MethodUse`: asking them about their feedback
+- `CNF-P008` `ProtocolUse`: EQ-VT-2.1 protocol
+- `CNF-P008` `ProtocolUse`: QC process for the EQ-5D-5L valuation studies
+- `CNF-P009` `InstrumentUse`: EQ- 5D-Y- 3L
+- `CNF-P009` `InstrumentUse`: EQ- 5D-Y- 5L
+- `CNF-P009` `InstrumentUse`: EQ- 5D- 3L
+- `CNF-P009` `InstrumentUse`: CHU9D
+- `CNF-P009` `InstrumentUse`: PedsQL
+- `CNF-P009` `InstrumentUse`: HUI2
+- `CNF-P009` `InstrumentUse`: HUI3
+- `CNF-P009` `InstrumentUse`: Vignette
+- `CNF-P009` `MethodUse`: Database search in Ovid MEDLINE, Ovid EMBASE, and EconLit
+- `CNF-P009` `MethodUse`: Descriptive summary
+- `CNF-P009` `MethodUse`: Forest plots
+- `CNF-P009` `MethodUse`: Narrative summary
+- `CNF-P009` `MethodUse`: Level sum score (LSS)
+- `CNF-P009` `MethodUse`: time trade-off (TTO)
+- `CNF-P009` `MethodUse`: discrete choice experiment (DCE)
+- `CNF-P009` `MethodUse`: visual analog scale (VAS)
+- `CNF-P009` `MethodUse`: best–worst scaling (BWS)
+- `CNF-P009` `MethodUse`: standard gamble (SG)
+- `CNF-P009` `MethodUse`: Self-reporting scoring system
+- `CNF-P009` `MethodUse`: PTO
+- `CNF-P009` `MethodUse`: cTTO
+- `CNF-P009` `MethodUse`: LT TTO
+- `CNF-P009` `MethodUse`: DCEd
+- `CNF-P009` `MethodUse`: LOD
+- `CNF-P009` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines
+- `CNF-P009` `ProtocolUse`: PROSPERO ID: CRD42023429906
+- `CNF-P009` `ProtocolUse`: RETRIEVE checklist
+- `CNF-P009` `ProtocolUse`: Mixed Methods Appraisal Tool (MMAT)
+- `CNF-P009` `ProtocolUse`: checklist developed for this review
+- `CNF-P009` `ModelUse`: multi-level meta-regression using the restricted maximum likelihood method
+- `CNF-P010` `InstrumentUse`: EQ-5D-Y-3L
+- `CNF-P010` `InstrumentUse`: EQ-5D-Y-5L
+- `CNF-P010` `InstrumentUse`: PedsQL generic core 4.0
+- `CNF-P010` `InstrumentUse`: PedsQL 3.0 Cancer Module
+- `CNF-P010` `InstrumentUse`: EQ-5D-5L
+- `CNF-P010` `InstrumentUse`: EQ-HWB-9
+- `CNF-P010` `InstrumentUse`: EQ VAS
+- `CNF-P010` `InstrumentUse`: overall health assessment (OHA)
+- `CNF-P010` `InstrumentUse`: EQ-5D-Y-5L
+- `CNF-P010` `InstrumentUse`: adult EQ-5D-5L
+- `CNF-P010` `MethodUse`: structured survey administered during baseline and follow-up assessments
+- `CNF-P010` `MethodUse`: semistructured, face-to-face, one-on-one interviews
+- `CNF-P010` `MethodUse`: intraclass correlation coefficients
+- `CNF-P010` `MethodUse`: Gwet’s AC1
+- `CNF-P010` `MethodUse`: Cohen’s d effect sizes
+- `CNF-P010` `MethodUse`: ANOVA comparisons across severity levels
+- `CNF-P010` `MethodUse`: Glass’ Δ effect sizes and response means
+- `CNF-P010` `MethodUse`: Spearman’s correlations
+- `CNF-P010` `MethodUse`: receiver operating characteristic curves and area under the curve assessments
+- `CNF-P010` `MethodUse`: thematic analysis following Braun and Clarke’s six-phase framework
+- `CNF-P010` `ProtocolUse`: Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist
+- `CNF-P010` `ModelUse`: logistic regression models
+- `CNF-P010` `ModelUse`: regression techniques
+- `CNF-P011` `InstrumentUse`: EQ-5D-5L
+- `CNF-P011` `InstrumentUse`: EQ-HWB
+- `CNF-P011` `InstrumentUse`: ASCOT
+- `CNF-P011` `InstrumentUse`: QOL-ACC
+- `CNF-P011` `InstrumentUse`: EQ VAS
+- `CNF-P011` `MethodUse`: cognitive think-aloud interviews
+- `CNF-P011` `MethodUse`: concurrent think-aloud techniques
+- `CNF-P011` `MethodUse`: retrospective think-aloud techniques
+- `CNF-P011` `MethodUse`: framework analysis
+- `CNF-P011` `MethodUse`: adapted coding framework from van Leeuwen et al. based on Tourangeau’s model of survey response
+- `CNF-P011` `MethodUse`: data saturation assessment
+- `CNF-P012` `InstrumentUse`: EQ-5D-5L
+- `CNF-P012` `InstrumentUse`: EQ VAS
+- `CNF-P012` `ScoringUse`: EQ-5D-5L Level Sum Score (LSS)
+- `CNF-P012` `MethodUse`: Recruitment from Dynata existing voluntary panels
+- `CNF-P012` `MethodUse`: web-based survey
+- `CNF-P012` `MethodUse`: Descriptive statistics
+- `CNF-P012` `MethodUse`: Kruskal-Wallis tests
+- `CNF-P012` `MethodUse`: Mann-Whitney U tests
+- `CNF-P012` `MethodUse`: multiple linear regression analyses
+- `CNF-P012` `ModelUse`: Multiple linear regression model for EQ-5D-5L LSS
+- `CNF-P012` `ModelUse`: Multiple linear regression model for EQ VAS
+- `CNF-P013` `InstrumentUse`: EQ‐5D‐5L
+- `CNF-P013` `InstrumentUse`: EQ‐5D‐5L
+- `CNF-P013` `InstrumentUse`: EQ‐5D‐5L Alberta population norms
+- `CNF-P013` `ScoringUse`: Canadian EQ‐5D‐5L value set
+- `CNF-P013` `MethodUse`: descriptive analysis by EQ‐5D‐5L dimension, index, and visual analog scale scores
+- `CNF-P013` `MethodUse`: Pareto Classification of Health Change (PCHC)
+- `CNF-P013` `MethodUse`: previously published minimally important differences (MID): 0.04 for the EQ‐5D‐5L index and 7.0 for the VAS
+- `CNF-P013` `MethodUse`: effect size of change calculated as average change score divided by baseline score standard deviation
+- `CNF-P013` `MethodUse`: comparison with Alberta general population norms matched by age and sex
+- `CNF-P014` `InstrumentUse`: EQ-5D-3L
+- `CNF-P014` `InstrumentUse`: MSIS-8D
+- `CNF-P014` `InstrumentUse`: MSIS-29v2
+- `CNF-P014` `InstrumentUse`: web-EDSS
+- `CNF-P014` `InstrumentUse`: FSS
+- `CNF-P014` `InstrumentUse`: MSWS-12
+- `CNF-P014` `InstrumentUse`: HADS-A
+- `CNF-P014` `InstrumentUse`: HADS-D
+- `CNF-P014` `ScoringUse`: UK value set
+- `CNF-P014` `ScoringUse`: published algorithm based on the preferences of a representative sample of the general UK population
+- `CNF-P014` `ProtocolUse`: revised COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures
+- `CNF-P014` `MethodUse`: rates of missing data
+- `CNF-P014` `MethodUse`: health state frequencies
+- `CNF-P014` `MethodUse`: health state density curves (HSDCs)
+- `CNF-P014` `MethodUse`: health state density indices (HSDIs)
+- `CNF-P014` `MethodUse`: one-way ANOVAs
+- `CNF-P014` `MethodUse`: independent t-tests
+- `CNF-P014` `MethodUse`: Spearman’s correlation coefficients
+- `CNF-P014` `MethodUse`: paired t-tests
+- `CNF-P014` `MethodUse`: standardised effect sizes (SES)
+- `CNF-P014` `MethodUse`: standardised response means (SRM)
+- `CNF-P014` `MethodUse`: Wilcoxon Signed Rank Test for paired samples
+- `CNF-P015` `InstrumentUse`: EQ-5D-5L
+- `CNF-P015` `InstrumentUse`: VAS score Health
+- `CNF-P015` `MethodUse`: paired comparison (PC)
+- `CNF-P015` `MethodUse`: best–worst scaling case 2 (BWS case 2)
+- `CNF-P015` `MethodUse`: Pearson's correlation
+- `CNF-P015` `MethodUse`: Lin's concordance correlation coefficient
+- `CNF-P015` `MethodUse`: descriptive statistics
+- `CNF-P015` `MethodUse`: maximum likelihood
+- `CNF-P015` `ModelUse`: conditional logit model
+- `CNF-P015` `ModelUse`: heteroskedastic conditional logit (HCL) model
+- `CNF-P015` `ModelUse`: interaction model (controlling heteroskedasticity)
+- `CNF-P015` `ModelUse`: heteroskedastic scale-adjusted latent class (SALC) model
+- `CNF-P015` `ScoringUse`: Dutch EQ-5D-5L value set on a pits scale
+- `CNF-P015` `ScoringUse`: original Dutch EQ-5D-5L values
+- `CNF-P016` `InstrumentUse`: EQ-HWB/EQ-HWB-S
+- `CNF-P016` `InstrumentUse`: EQ-5D-5L
+- `CNF-P016` `MethodUse`: Spearman rank-order coefficients
+- `CNF-P016` `MethodUse`: Shannon’s Index (H’) and Shannon’s Evenness Index (J’)
+- `CNF-P016` `MethodUse`: Item Response Theory analysis
+- `CNF-P016` `MethodUse`: Differential item functioning (DIF) analysis using a hybrid logistic ordinal regression/IRT approach
+- `CNF-P016` `MethodUse`: Ordinal logistic regression
+- `CNF-P016` `MethodUse`: Qualtrics caregiver panel recruitment
+- `CNF-P016` `MethodUse`: attention checks
+- `CNF-P016` `MethodUse`: minimum completion time thresholds
+- `CNF-P016` `ModelUse`: graded response model (GRM)
+- `CNF-P016` `ModelUse`: Separate ordinal logistic regression models for each of the four EQ-HWB physical pain and discomfort items
+- `CNF-P017` `InstrumentUse`: EQ-5D-5L
+- `CNF-P017` `InstrumentUse`: EQ VAS
+- `CNF-P017` `InstrumentUse`: EQ-5D-5L health states
+- `CNF-P017` `MethodUse`: quota-based sampling approach
+- `CNF-P017` `MethodUse`: computer-assisted personal interviews
+- `CNF-P017` `MethodUse`: descriptive statistics
+- `CNF-P017` `MethodUse`: Shapiro–Wilk test
+- `CNF-P017` `MethodUse`: Kruskal–Wallis test
+- `CNF-P017` `MethodUse`: Mann–Whitney-U test
+- `CNF-P017` `MethodUse`: Chi square tests
+- `CNF-P017` `ScoringUse`: recommended value set for Germany by Ludwig et al.
+- `CNF-P018` `InstrumentUse`: EQ-5D-5L
+- `CNF-P018` `InstrumentUse`: European quality of life five dimensions (EQ-5D)
+- `CNF-P018` `InstrumentUse`: Short Form-36 (SF-36)
+- `CNF-P018` `InstrumentUse`: SF-6D
+- `CNF-P018` `InstrumentUse`: Health Utility Index mark 3 [HUI3]
+- `CNF-P018` `InstrumentUse`: EQ-5D-5L
+- `CNF-P018` `InstrumentUse`: EQ-5D proxy versions
+- `CNF-P018` `MethodUse`: reporting health-utility alongside mortality on Kaplan-Meier curves
+- `CNF-P018` `ScoringUse`: Canadian scoring algorithm for the EQ-5D index
+- `CNF-P019` `InstrumentUse`: EQ-5D-3L descriptive system
+- `CNF-P019` `InstrumentUse`: EQ VAS
+- `CNF-P019` `InstrumentUse`: EQ-5D-3L
+- `CNF-P019` `MethodUse`: Descriptive analysis
+- `CNF-P019` `MethodUse`: Paretian Classification of Health Change (PCHC)
+- `CNF-P019` `ModelUse`: analysis of covariance (ANCOVA)
+- `CNF-P019` `ModelUse`: two-level random intercept model
+- `CNF-P019` `ProtocolUse`: REporting of studies Conducted using Observational Routinely collected health Data (RECORD) checklist
+- `CNF-P019` `ScoringUse`: Swedish experience-based EQ-5D-3L TTO value set
+- `CNF-P019` `ScoringUse`: Swedish experience-based EQ-5D-3L VAS value set
+- `CNF-P020` `InstrumentUse`: EQ-5D-5L
+- `CNF-P020` `ScoringUse`: level sum score (LSS)
+- `CNF-P020` `MethodUse`: Mokken scale analysis
+- `CNF-P020` `MethodUse`: Loevinger’s homogeneity coefficients H
+- `CNF-P020` `MethodUse`: automated item selection procedure (AISP)
+- `CNF-P020` `MethodUse`: manifest monotonicity
+- `CNF-P020` `MethodUse`: manifest invariant item ordering (MIIO)
+- `CNF-P020` `ModelUse`: monotone homogeneity model (MHM)
+- `CNF-P020` `ModelUse`: double monotonicity model (DMM)

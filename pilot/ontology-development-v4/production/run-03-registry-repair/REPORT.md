@@ -1,0 +1,277 @@
+# Production calibration report
+
+- Records: 20/20.
+- Studies: 19.
+- Unmapped registry labels: 225.
+- Ontology gaps: 0.
+- Source conflicts: 16.
+- Deterministically valid records: 20/20.
+
+## Dispositions
+
+- `include-study`: 19.
+- `publication-context`: 1.
+
+## Primary research families
+
+- `APPLIED_USE_RESEARCH`: 2.
+- `CONCEPTUAL_FRAMEWORK_DEVELOPMENT`: 1.
+- `EVIDENCE_SYNTHESIS`: 1.
+- `HEALTH_OUTCOME_RESEARCH`: 2.
+- `HEALTH_PREFERENCE_RESEARCH`: 1.
+- `INSTRUMENT_VERSION_DEVELOPMENT`: 1.
+- `MEASUREMENT_PROPERTY_EVALUATION`: 6.
+- `METHODS_RESEARCH`: 2.
+- `POPULATION_REFERENCE_DESCRIPTION`: 2.
+- `VALUE_SET_DEVELOPMENT`: 1.
+
+## Ontology gaps
+
+None.
+
+## Source conflicts
+
+- Total number of Phase 1 sorting and response scaling interviews
+- Reported range of country-specific preference for the EQ-5D-Y-5L
+- Number of respondents who completed both questionnaires in the main survey
+- Administration mode of the Indonesian FACIT-COST
+- Number of included studies evaluating EQ-5D-5L
+- Significance of the difference between elicited and confirmed utilities by health state
+- Labels of confirmed-minus-corrected difference rows in Table 4
+- Inclusion of self-rated health as an independent variable in the regression analysis
+- Percentages reported for willingness to answer future EQ-5D questionnaires
+- Standard deviation of mean EQ-5D-5L index change in pulmonary rehabilitation
+- Mean and standard deviation of EQ VAS change in physiotherapy
+- Percentage of patients undergoing chemotherapy at the time of the survey
+- Pearson correlation between FACIT-COST total score and EQ VAS
+- Rates of respondents reporting any problems on the pain/discomfort and anxiety/depression dimensions
+- End date of 2022–2023 data collection
+- Test-retest reliability summary versus the reported results in Table 5
+
+## Registry review queue
+
+- `C50-P032` `InstrumentUse`: EQ-TIPS-5L descriptive system
+- `C50-P032` `InstrumentUse`: EQ-TIPS-5L
+- `C50-P032` `InstrumentUse`: EQ-TIPS-5L
+- `C50-P032` `InstrumentUse`: EQ-TIPS-5L descriptive system
+- `C50-P032` `InstrumentUse`: EQ-TIPS-5L
+- `C50-P032` `InstrumentUse`: 13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)
+- `C50-P032` `MethodUse`: panel-vendor recruitment using 32 quotas
+- `C50-P032` `MethodUse`: cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations
+- `C50-P032` `MethodUse`: Lin’s concordance coefficient
+- `C50-P032` `ProtocolUse`: two-wave protocol for assessing the EQ-TIPS-5L descriptive system using alternative choice tasks
+- `C50-P032` `ModelUse`: main-effects conditional logit model
+- `C50-P032` `ModelUse`: main-effects conditional logit model
+- `R129-P014` `InstrumentUse`: EQ-5D-Y-4L
+- `R129-P014` `InstrumentUse`: EQ-5D-Y-4L
+- `R129-P014` `InstrumentUse`: EQ-5D-Y-4L
+- `R129-P014` `MethodUse`: review of HRQoL instruments
+- `R129-P014` `MethodUse`: focus group interviews
+- `R129-P014` `MethodUse`: thematic content analysis
+- `R129-P014` `MethodUse`: sorting tasks
+- `R129-P014` `MethodUse`: response scaling tasks
+- `R129-P014` `MethodUse`: Mean (standard deviation), median, mode, minimum and maximum
+- `R129-P014` `MethodUse`: cognitive interviews
+- `R129-P014` `MethodUse`: paraphrasing method
+- `R129-P014` `MethodUse`: probing
+- `R129-P014` `MethodUse`: thematic content analysis
+- `R129-P014` `MethodUse`: harmonization exercise
+- `R129-P014` `ProtocolUse`: common standardized protocol
+- `R129-P117` `InstrumentUse`: WHOQOL-BREF
+- `R129-P117` `InstrumentUse`: WHOQOL-BREF
+- `R129-P117` `ScoringUse`: new Indonesian value set
+- `R129-P117` `MethodUse`: multistage stratified quota method
+- `R129-P117` `MethodUse`: Gwet’s agreement coefficient (Gwet’s AC) test
+- `R129-P117` `MethodUse`: percentage of agreement
+- `R129-P117` `MethodUse`: intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)
+- `R129-P117` `MethodUse`: Lin’s concordance correlation coefficient (CCC)
+- `R129-P117` `MethodUse`: Bland-Altman plots
+- `R129-P117` `MethodUse`: Chi-square test
+- `R129-P117` `MethodUse`: Welch's unequal variances t-test
+- `R129-P117` `MethodUse`: ANOVA
+- `CAL-B12` `InstrumentUse`: official Indonesian version of FACIT-COST (v2)
+- `CAL-B12` `InstrumentUse`: Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)
+- `CAL-B12` `InstrumentUse`: Functional Assessment of Cancer Therapy – General (FACT-G)
+- `CAL-B12` `MethodUse`: principal component analysis (PCA)
+- `CAL-B12` `MethodUse`: parallel analysis technique
+- `CAL-B12` `ModelUse`: confirmatory factor analysis (CFA)
+- `CAL-B12` `MethodUse`: Cronbach’s alpha
+- `CAL-B12` `MethodUse`: McDonald’s omega
+- `CAL-B12` `MethodUse`: Mann-Whitney U test
+- `CAL-B12` `MethodUse`: Kruskal-Wallis test
+- `CAL-B12` `MethodUse`: Spearman’s rank correlation
+- `CAL-B12` `MethodUse`: Gwet’s AC2 coefficient
+- `CAL-B12` `MethodUse`: intraclass correlation coefficient
+- `CAL-B12` `MethodUse`: standardized response mean (SRM)
+- `CAL-B12` `MethodUse`: standardized effect size (SES)
+- `C50-P045` `InstrumentUse`: official EQ-5D-5L traditional Chinese character Taiwan version
+- `C50-P045` `InstrumentUse`: self-reported EQ-5D-5L descriptive system
+- `C50-P045` `MethodUse`: Multi-stage stratified quota sampling
+- `C50-P045` `MethodUse`: time spent on explaining the wheelchair example < 3 minutes
+- `C50-P045` `MethodUse`: no explanation of the lead-time TTO in the wheelchair example
+- `C50-P045` `MethodUse`: total time spent on the formal 10 C-TTO tasks < 5 minutes
+- `C50-P045` `MethodUse`: significant logical inconsistency in the derived C-TTO values
+- `C50-P045` `MethodUse`: feedback module for C-TTO tasks
+- `C50-P045` `ProtocolUse`: EQ-5D-5L valuation protocol
+- `C50-P045` `ProtocolUse`: EuroQol Valuation Technology version 2.0, EQ-VT 2.0
+- `C50-P045` `ModelUse`: ordinary least square (OLS)
+- `C50-P045` `ModelUse`: general least square (GLS)
+- `C50-P045` `ModelUse`: Tobit
+- `C50-P045` `ModelUse`: Tobit-GLS regression
+- `C50-P045` `ModelUse`: conditional logistic regression models
+- `C50-P045` `ModelUse`: standard hybrid model
+- `C50-P045` `ModelUse`: hybrid model assuming left-censoring of the C-TTO at -1 excluding heteroscedasticity and constant
+- `C50-P045` `ScoringUse`: Taiwan EQ-5D-5L value set
+- `C50-P028` `InstrumentUse`: EuroQol Health and Wellbeing Short Version (EQ-HWB-9)
+- `C50-P028` `InstrumentUse`: Health-related Quality of Life Instrument with 8 Items (HINT-8)
+- `C50-P028` `InstrumentUse`: Health Utilities Index Mark 2 (HUI2)
+- `C50-P028` `InstrumentUse`: Health Utilities Index Mark 3 (HUI3)
+- `C50-P028` `InstrumentUse`: Short-form 6-Dimension version 1 (SF-6Dv1)
+- `C50-P028` `InstrumentUse`: Quality of Well Being Self-Administered (QWB-SA)
+- `C50-P028` `MethodUse`: Electronic database search in CINAHL, PsycInfo, Embase and MEDLINE, supplemented with forward and backward citation searches in Scopus
+- `C50-P028` `MethodUse`: Narrative synthesis
+- `C50-P028` `MethodUse`: Independent dual screening with disagreement resolution by a senior reviewer
+- `C50-P028` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines
+- `C50-P028` `ProtocolUse`: COSMIN risk of bias checklist
+- `C50-P028` `ProtocolUse`: PROSPERO CRD42023434651
+- `R129-P064` `InstrumentUse`: five-level self-rated general health (SRH) question (item 1 of the SF-36)
+- `R129-P064` `InstrumentUse`: modified Rankin Scale (mRS)
+- `R129-P064` `InstrumentUse`: 10-item version of the Barthel Index (BI)
+- `R129-P064` `MethodUse`: Wilcoxon signed-rank tests
+- `R129-P064` `MethodUse`: Paretian Classification of Health Change (PCHC)
+- `R129-P064` `MethodUse`: probability of superiority (PS)
+- `R129-P064` `MethodUse`: standardized response mean (SRM)
+- `R129-P064` `MethodUse`: standardized effect size (SES)
+- `R129-P064` `MethodUse`: 5L/3L ratio of the SRM and SES statistics
+- `R129-P064` `MethodUse`: 1000 bootstrap samples
+- `R129-P064` `ScoringUse`: Canada — 3L
+- `R129-P064` `ScoringUse`: Canada — 5L
+- `R129-P064` `ScoringUse`: China — 3L
+- `R129-P064` `ScoringUse`: China — 5L
+- `R129-P064` `ScoringUse`: England/UK — 3L
+- `R129-P064` `ScoringUse`: England/UK — 5L
+- `R129-P064` `ScoringUse`: Germany — 3L
+- `R129-P064` `ScoringUse`: Germany — 5L
+- `R129-P064` `ScoringUse`: Japan — 3L
+- `R129-P064` `ScoringUse`: Japan — 5L
+- `R129-P064` `ScoringUse`: The Netherlands — 3L
+- `R129-P064` `ScoringUse`: The Netherlands — 5L
+- `R129-P064` `ScoringUse`: Poland — 3L
+- `R129-P064` `ScoringUse`: Poland — 5L
+- `R129-P064` `ScoringUse`: South Korea — 3L
+- `R129-P064` `ScoringUse`: South Korea — 5L
+- `R129-P064` `ScoringUse`: Spain — 3L
+- `R129-P064` `ScoringUse`: Spain — 5L
+- `R129-P064` `ScoringUse`: US — 3L
+- `R129-P064` `ScoringUse`: US — 5L
+- `R129-P064` `ScoringUse`: level sum scores (LSS)
+- `R129-P064` `ScoringUse`: level sum scores (LSS)
+- `R129-P001` `ScoringUse`: Dutch tariff (Versteegh et al., 2016)
+- `R129-P001` `MethodUse`: non‐parametric method
+- `R129-P001` `MethodUse`: direct method
+- `R129-P001` `MethodUse`: correction based on constant alternative (constant alternative correction)
+- `R129-P001` `MethodUse`: correction based on maximum BTD time (maximum BTD correction)
+- `R129-P001` `MethodUse`: adaptation of the validation task developed by Lipman et al. (2020a)
+- `R129-P001` `MethodUse`: linear interpolation
+- `R129-P001` `MethodUse`: paired t-tests
+- `R129-P001` `MethodUse`: Chi-squared tests
+- `R129-P001` `MethodUse`: Wilcoxon tests
+- `R129-P049` `MethodUse`: multistratified quota sampling
+- `R129-P049` `ProtocolUse`: adapted translated version of the EQ-VT
+- `R129-P049` `ModelUse`: univariate censored linear regression models adjusted for severity of health states
+- `R129-P049` `ModelUse`: multivariable censored linear regression model adjusted for severity of health states
+- `CAL-B03` `InstrumentUse`: proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)
+- `CAL-B03` `MethodUse`: convenience sampling
+- `CAL-B03` `MethodUse`: semi-structured cognitive interviews
+- `CAL-B03` `MethodUse`: think aloud
+- `CAL-B03` `MethodUse`: integrated thematic analysis involving inductive coding and deductive coding
+- `CAL-B03` `ProtocolUse`: COnsolidated criteria for REporting Qualitative research (CORE-Q)
+- `C50-P049` `InstrumentUse`: brief optional questions on the feasibility of completing the EQ-5D-3L
+- `C50-P049` `InstrumentUse`: EQ-5D-3L proxy version 1
+- `C50-P049` `MethodUse`: prospective convenience sample
+- `C50-P049` `MethodUse`: descriptive statistics assessing feasibility
+- `C50-P049` `MethodUse`: interview
+- `C50-P049` `MethodUse`: content analysis
+- `R129-P106` `InstrumentUse`: EQ-5D-5L anxiety/depression dimension
+- `R129-P106` `ScoringUse`: Canadian EQ-5D-5L value set
+- `R129-P106` `MethodUse`: Pareto Classification of Health Change (PCHC)
+- `R129-P106` `MethodUse`: minimally important difference (MID)
+- `R129-P106` `MethodUse`: effect size of the change
+- `R129-P106` `MethodUse`: chi-squared tests
+- `R129-P028` `InstrumentUse`: COST: A FACIT Measure of Financial Toxicity (FACIT-COST)
+- `R129-P028` `InstrumentUse`: Questions on objective financial toxicity (OFT)
+- `R129-P028` `ScoringUse`: Indonesian EQ-5D-5L value set
+- `R129-P028` `ScoringUse`: UK pilot value set
+- `R129-P028` `MethodUse`: Mann-Whitney test
+- `R129-P028` `MethodUse`: Kruskal-Wallis test
+- `R129-P028` `MethodUse`: Spearman’s rho
+- `R129-P028` `MethodUse`: Pearson’s coefficient
+- `R129-P028` `MethodUse`: forward stepwise regression procedure
+- `R129-P028` `ModelUse`: ordinal logistic models
+- `R129-P028` `ModelUse`: multivariable ordinary least squares (OLS) models
+- `R129-P110` `ScoringUse`: 2024 Trinidad and Tobago EQ-5D-5L value set
+- `R129-P110` `ScoringUse`: index values from the 2022–2023 Trinidad and Tobago valuation study
+- `R129-P110` `MethodUse`: Streets were randomly selected from CSO maps and 1 in every 4 houses visited; respondents were selected based on the most recent birthday method
+- `R129-P110` `MethodUse`: Survey company panel recruitment by online links, with recruiters in public places
+- `R129-P110` `MethodUse`: Survey company panel recruitment by survey links via e-mail
+- `R129-P110` `MethodUse`: Welch’s t-test
+- `R129-P110` `MethodUse`: Welch’s ANOVA
+- `R129-P110` `MethodUse`: modified Kakwani index
+- `R129-P110` `MethodUse`: t-tests
+- `R129-P110` `ModelUse`: multivariable ordered logit models
+- `R129-P110` `ModelUse`: ordinary least squares regression model for the modified Kakwani index decomposition
+- `R129-P129` `InstrumentUse`: isiXhosa EQ-TIPS
+- `R129-P129` `InstrumentUse`: EQ-TIPS
+- `R129-P129` `InstrumentUse`: The Ages and Stages Questionnaire (ASQ) Parent Report Form
+- `R129-P129` `InstrumentUse`: Face, Leg, Activity, Cry, Consolability (FLACC) Pain Scale
+- `R129-P129` `InstrumentUse`: Self-designed dietary information questionnaire
+- `R129-P129` `InstrumentUse`: isiXhosa version of the EQ-TIPS for South Africa
+- `R129-P129` `InstrumentUse`: EQ-TIPS
+- `R129-P129` `ScoringUse`: level sum score (LSS)
+- `R129-P129` `ScoringUse`: Level Sum Score
+- `R129-P129` `ProtocolUse`: COSMIN guidelines
+- `R129-P129` `ProtocolUse`: EQ-5D-Y translation protocol
+- `R129-P129` `MethodUse`: non-probability design
+- `R129-P129` `MethodUse`: distribution of frequency of dimension scores across patient care groups
+- `R129-P129` `MethodUse`: ceiling and floor effects
+- `R129-P129` `MethodUse`: missing values
+- `R129-P129` `MethodUse`: chi-square
+- `R129-P129` `MethodUse`: Kruskal-Wallis analysis
+- `R129-P129` `MethodUse`: Spearman's Rho correlation coefficient
+- `R129-P129` `MethodUse`: Cohen's weighted Kappa
+- `R129-P129` `MethodUse`: intraclass correlation coefficient (ICC)
+- `R129-P129` `MethodUse`: forward and backward translation
+- `R129-P129` `MethodUse`: cognitive interviews
+- `R129-P129` `ModelUse`: multiple regression analysis with the VAS as dependent variable and dummy variables representing the different levels of the dimensions
+- `R129-P038` `InstrumentUse`: PROMIS-16
+- `R129-P038` `MethodUse`: 18 demographic quotas based on gender, age, and race/ethnicity
+- `R129-P038` `MethodUse`: online cross-sectional survey
+- `R129-P038` `MethodUse`: ceiling and floor percentages
+- `R129-P038` `MethodUse`: McNemar’s test for paired proportions
+- `R129-P038` `MethodUse`: Shannon’s Index (H’)
+- `R129-P038` `MethodUse`: Shannon’s Evenness Index (J’)
+- `R129-P038` `MethodUse`: polychoric correlation coefficients
+- `R129-P038` `MethodUse`: parallel analysis
+- `R129-P038` `MethodUse`: oblique rotation method (Oblimin)
+- `R129-P038` `ModelUse`: item-level linear regression analyses using EQ VAS as the outcome and incremental decrements in each item as predictors
+- `R129-P038` `ModelUse`: dimension-level multivariate models
+- `R129-P038` `ModelUse`: construct-level multivariate models
+- `R129-P038` `ModelUse`: instrument-level multivariate models
+- `R129-P038` `ModelUse`: exploratory factor analysis (EFA)
+- `R129-P090` `InstrumentUse`: Health Utility Index (HUI)
+- `R129-P090` `MethodUse`: search strategy
+- `R129-P090` `MethodUse`: literature review
+- `R129-P090` `ModelUse`: QALY model
+- `R129-P018` `MethodUse`: review of existing criteria on patient-reported outcome measures (PROMs) development
+- `R129-P018` `MethodUse`: presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project
+- `R129-P127` `InstrumentUse`: 22-item ZBI
+- `R129-P127` `InstrumentUse`: Satisfaction with the National Health System (NHS) 1 to 10 scale
+- `R129-P127` `ScoringUse`: algorithm derived from the crosswalk 3L value sets
+- `R129-P127` `ScoringUse`: algorithm derived from the crosswalk 3L value sets
+- `R129-P127` `ScoringUse`: US Measurement and Valuation of Health
+- `R129-P127` `MethodUse`: descriptive analysis
+- `R129-P127` `MethodUse`: correlation analysis by means of Pearson coefficient
+- `R129-P127` `MethodUse`: Levene’s test
+- `R129-P127` `MethodUse`: ANOVA analysis
+- `R129-P127` `MethodUse`: Bonferroni correction
+- `R129-P127` `ModelUse`: five multinomial logistic regression models, one by each domain

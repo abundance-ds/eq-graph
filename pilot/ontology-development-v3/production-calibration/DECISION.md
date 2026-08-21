@@ -1,11 +1,19 @@
 # Production decision
 
-Status update, 2026-08-18: application integration is complete. The research
-method and audit decision below remain current.
+Status update, 2026-08-20: the source-verification and linkage decisions remain
+current. Approval for broad researcher-facing aggregation is withdrawn until
+the analytical and serving layers pass the 100-question aggregate-validity
+test.
+
+The version-3 analytical classification is superseded by
+`pilot/ontology-development-v4/`. Keep this file for the source, audit,
+linkage, citation, and version-1 database decisions.
 
 ## Decision
 
-The ontology, typed SQLite model, and audited 209-paper JATS graph are approved for application integration and researcher review.
+The audited source facts and project links remain approved. The current
+normalized categories and serving database are not approved for broad
+aggregate claims.
 
 - Use one AI call per paper for full-text inclusion and conditional semantic extraction.
 - Treat that output as a draft.
@@ -34,6 +42,7 @@ The ontology, typed SQLite model, and audited 209-paper JATS graph are approved 
 | Linkage audit | 260 pairs checked; 242 accepted; 14 possible; zero unresolved graph targets |
 | Typed SQLite graph | 17,650 nodes and 26,143 relationships |
 | Final checks | Structure, exact-domain, linkage, integrity, and foreign-key checks pass |
+| Aggregate validity | 150 reviewer-question runs: 37 pass, 36 partial, 26 fail, 51 not testable |
 | PDF parser comparison | `pdf-inspector` failed: 304 meaningful signs corrupted in five of six papers |
 
 ## Model decision
@@ -52,4 +61,6 @@ This is a strict record-level result. It is not a statement that 42% of all fact
 
 This decision applies to the current 209-paper local JATS set. It does not claim that the graph covers all 3,148 retained abstracts or answers all 100 questions completely.
 
-No ontology decision is required before application integration or PDF processing. Stop for user review only if a new paper cannot fit the graph without a structural change, if project-link evidence requires a policy choice, or if a retrieval decision changes legal or cost constraints.
+Repair the analytical classification and serving projection before PDF graph
+loading or broad aggregate release. Keep source extraction and parser work
+separate from this gate.

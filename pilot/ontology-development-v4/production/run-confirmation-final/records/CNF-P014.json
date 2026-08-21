@@ -1,0 +1,1276 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P014",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was supported by the EuroQol Research Foundation (EQ Project 1572-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly compares the measurement properties of the EQ-5D-3L and MSIS-8D. The article explicitly reports EuroQol Research Foundation funding for this work.",
+    "source": [
+      "Full article: Abstract, Purpose and Methods",
+      "Full article: Introduction, final paragraph",
+      "Full article: Acknowledgements",
+      "Full article: Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Comparison of the acceptability, distributional properties, construct validity, and responsiveness of the EQ-5D-3L and MSIS-8D in people with multiple sclerosis",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical comparison of the measurement performance of two preference-based measures. The study evaluates acceptability, score distributions, construct validity, and responsiveness without developing new instrument content or a new scoring system.",
+      "source": [
+        "Full article: Abstract",
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods",
+        "Full article: Results",
+        "Full article: Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article: Abstract, Purpose",
+        "Full article: Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Acceptability analysis",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, first paragraph",
+        "Full article: Results, Acceptability"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Cross-sectional distributional and construct-validity analyses",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses",
+        "Full article: Results, Distributional properties and Construct validity"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Longitudinal responsiveness analyses",
+      "source": [
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)",
+        "Full article: Results, Responsiveness"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Statistical analyses"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, UK MS register and population",
+        "Full article: Methods, Statistical analyses"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, first paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, first paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods, UK MS register and population, final paragraph",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article: Methods, Data and instruments, Table 1",
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article: Methods, Data and instruments, Table 1",
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Adult members of the UK Multiple Sclerosis Register with multiple sclerosis",
+      "role": "study population",
+      "geographies": [
+        "United Kingdom"
+      ],
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "age_description": "Aged 18 years or older",
+      "inclusion_description": "UK MS Register members who consented to research use of their data; analysis-specific eligibility depended on available EQ-5D-3L, MSIS-29v2, event, and repeated-measure data.",
+      "source": [
+        "Full article: Methods, UK MS register and population"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 6141,
+      "size_text": "6141 UKMSR members",
+      "unit": "participants",
+      "description": "Members who responded to at least one regularly administered UKMSR survey instrument during the Spring 2023 collection window and were included in the missing-data analysis.",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, first paragraph",
+        "Full article: Results, Acceptability"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 5948,
+      "size_text": "5948 completed the EQ-5D-3L",
+      "unit": "participants",
+      "description": "Participants with a completed EQ-5D-3L in the acceptability analysis.",
+      "source": [
+        "Full article: Results, Acceptability"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 5615,
+      "size_text": "5615 completed the MSIS-8D",
+      "unit": "participants",
+      "description": "Participants with sufficient MSIS-29v2 responses to obtain an MSIS-8D result in the acceptability analysis.",
+      "source": [
+        "Full article: Results, Acceptability"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 3676,
+      "size_text": "3676 participants and observations",
+      "unit": "participants",
+      "description": "UKMSR members with EQ-5D-3L and MSIS-29 data at the Spring 2023 collection point.",
+      "source": [
+        "Full article: Methods, UK MS register and population, final paragraph",
+        "Full article: Results, Sample characteristics, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 156,
+      "size_text": "156 observations from 142 participants",
+      "unit": "observations",
+      "description": "EQ-5D-3L observations included in the pre-relapse versus current-relapse analysis.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 142,
+      "size_text": "142 participants",
+      "unit": "participants",
+      "description": "Participants contributing EQ-5D-3L observations to the relapse analysis.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 152,
+      "size_text": "152 observations from 138 participants",
+      "unit": "observations",
+      "description": "MSIS-8D observations included in the pre-relapse versus current-relapse analysis.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 138,
+      "size_text": "138 participants",
+      "unit": "participants",
+      "description": "Participants contributing MSIS-8D observations to the relapse analysis.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 97,
+      "size_text": "97 observations from 93 participants",
+      "unit": "observations",
+      "description": "EQ-5D-3L observations included in the analysis of onset of two or more new symptoms.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 93,
+      "size_text": "93 participants",
+      "unit": "participants",
+      "description": "Participants contributing EQ-5D-3L observations to the symptom-onset analysis.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 95,
+      "size_text": "95 observations from 92 participants",
+      "unit": "observations",
+      "description": "MSIS-8D observations included in the analysis of onset of two or more new symptoms.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 92,
+      "size_text": "92 participants",
+      "unit": "participants",
+      "description": "Participants contributing MSIS-8D observations to the symptom-onset analysis.",
+      "source": [
+        "Full article: Results, Responsiveness, Tables 4 and 5"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "UK MS Register (UKMSR) routinely collected data",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To compare acceptability, distributional properties, construct validity, and responsiveness of the EQ-5D-3L and MSIS-8D.",
+      "source": [
+        "Full article: Methods, UK MS register and population",
+        "Full article: Methods, Data and instruments"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Abstract",
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "MSIS-8D",
+      "registry_id": "instrument:msis-8d",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Abstract",
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "MSIS-29v2",
+      "registry_id": "instrument:msis-29-v2",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article: Methods, UK MS register and population",
+        "Full article: Methods, Data and instruments"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "web-EDSS",
+      "registry_id": "instrument:web-edss",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "FSS",
+      "registry_id": "instrument:fatigue-severity-scale",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "MSWS-12",
+      "registry_id": "instrument:msws-12",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "HADS-A",
+      "registry_id": "instrument:hads-a",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "HADS-D",
+      "registry_id": "instrument:hads-d",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article: Methods, Data and instruments",
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "UK value set",
+      "registry_id": "product:eq-5d-3l-gb",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article: Methods, Data and instruments, EQ-5D-3L bullet"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu3",
+      "source_label": "published algorithm based on the preferences of a representative sample of the general UK population",
+      "registry_id": "product:msis-8d-gb",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article: Methods, Data and instruments, MSIS-8D bullet"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "revised COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures",
+      "registry_id": "protocol:cosmin-reporting-guideline-revised",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "Full article: Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "rates of missing data",
+      "registry_id": "method:missingness-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "health state frequencies",
+      "registry_id": "method:health-state-frequency",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "health state density curves (HSDCs)",
+      "registry_id": "method:health-state-density-curve",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "health state density indices (HSDIs)",
+      "registry_id": "method:health-state-density-index",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "one-way ANOVAs",
+      "registry_id": "method:analysis-of-variance",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, third paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "independent t-tests",
+      "registry_id": "method:independent-t-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, third paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Spearman’s correlation coefficients",
+      "registry_id": "method:spearman-rank-correlation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, fourth paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "paired t-tests",
+      "registry_id": "method:paired-t-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "standardised effect sizes (SES)",
+      "registry_id": "method:standardized-effect-size",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "standardised response means (SRM)",
+      "registry_id": "method:standardized-response-mean",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Wilcoxon Signed Rank Test for paired samples",
+      "registry_id": "method:wilcoxon-signed-rank-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "MS subtype",
+      "levels": [
+        "RRMS",
+        "SPMS",
+        "PPMS",
+        "benign MS"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, third paragraph",
+        "Full article: Results, Construct validity, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Disability and symptom severity groups",
+      "levels": [
+        "webEDSS < 5 versus >= 5",
+        "FSS < 4 versus >= 4",
+        "MSWS-12 < 50 versus >= 50",
+        "HADS-D < 11 versus >= 11",
+        "HADS-A < 11 versus >= 11"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, third paragraph",
+        "Full article: Results, Construct validity, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Responsiveness event",
+      "levels": [
+        "current relapse",
+        "onset of two or more new symptoms"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article: Methods, Data and instruments, Table 1",
+        "Full article: Results, Responsiveness, Table 5"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Relapse assessment stage",
+      "levels": [
+        "pre-relapse without current relapse",
+        "current relapse"
+      ],
+      "role": "TARGET_STAGE",
+      "source": [
+        "Full article: Methods, Data and instruments, Table 1, Relapse",
+        "Full article: Results, Responsiveness, Table 5"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Symptom-onset assessment stage",
+      "levels": [
+        "pre-onset",
+        "up to 30 days post-onset"
+      ],
+      "role": "TARGET_STAGE",
+      "source": [
+        "Full article: Methods, Data and instruments, Table 1, Onset of new symptoms",
+        "Full article: Results, Responsiveness, Table 5"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "UK MS Register member",
+      "perspective": "self-reported current health",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "online secure internet portal",
+      "setting": "UK MS Register",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "Regular UKMSR collection points; Spring 2023 for cross-sectional analyses and repeated points for responsiveness analyses",
+      "source": [
+        "Full article: Methods, UK MS register and population",
+        "Full article: Methods, Data and instruments, EQ-5D-3L bullet"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu2",
+        "iu3"
+      ],
+      "respondent": "UK MS Register member",
+      "perspective": "self-reported impact of MS",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "online secure internet portal",
+      "setting": "UK MS Register",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "past two weeks",
+      "time_point": "Regular UKMSR collection points; Spring 2023 for cross-sectional analyses and repeated points for responsiveness analyses",
+      "source": [
+        "Full article: Methods, UK MS register and population",
+        "Full article: Methods, Data and instruments, MSIS-8D bullet"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7",
+        "iu8"
+      ],
+      "respondent": "UK MS Register member",
+      "perspective": "self-report",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "online secure internet portal",
+      "setting": "UK MS Register",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Spring 2023 data collection time-point",
+      "source": [
+        "Full article: Methods, UK MS register and population",
+        "Full article: Methods, Data and instruments"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Acceptability assessed by missing-data rates",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, first paragraph",
+        "Full article: Results, Acceptability"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Distributional properties, including health-state concentration, floor and ceiling effects, and health-state density",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, second paragraph",
+        "Full article: Results, Distributional properties"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Discriminative and convergent construct validity",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article: Methods, Statistical analyses, Cross-sectional analyses, third and fourth paragraphs",
+        "Full article: Results, Construct validity"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Responsiveness to relapse and onset of two or more new symptoms",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article: Methods, Statistical analyses, Longitudinal analysis (responsiveness)",
+        "Full article: Results, Responsiveness"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The EQ-5D-3L had less missing data than the MSIS-8D, and the difference was statistically significant.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "3.14",
+          "unit": "percent missing",
+          "denominator": "6141 UKMSR members",
+          "time": "Spring 2023 collection window",
+          "subgroup": "EQ-5D-3L",
+          "comparator": "MSIS-8D",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "8.57",
+          "unit": "percent missing",
+          "denominator": "6141 UKMSR members",
+          "time": "Spring 2023 collection window",
+          "subgroup": "MSIS-8D",
+          "comparator": "EQ-5D-3L",
+          "direction": "higher",
+          "uncertainty": "p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article: Results, Acceptability"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The MSIS-8D had a lower ceiling effect and a more even distribution of observations across health states than the EQ-5D-3L; floor effects were negligible for both measures.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "11.13",
+          "unit": "percent at ceiling",
+          "denominator": "3676 observations",
+          "time": "Spring 2023",
+          "subgroup": "EQ-5D-3L",
+          "comparator": "MSIS-8D",
+          "direction": "higher",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "3.86",
+          "unit": "percent at ceiling",
+          "denominator": "3676 observations",
+          "time": "Spring 2023",
+          "subgroup": "MSIS-8D",
+          "comparator": "EQ-5D-3L",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "0.215",
+          "unit": "HSDI",
+          "denominator": "3676 observations",
+          "time": "Spring 2023",
+          "subgroup": "EQ-5D-3L",
+          "comparator": "MSIS-8D",
+          "direction": "less even distribution",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.577",
+          "unit": "HSDI",
+          "denominator": "3676 observations",
+          "time": "Spring 2023",
+          "subgroup": "MSIS-8D",
+          "comparator": "EQ-5D-3L",
+          "direction": "more even distribution",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, Distributional properties, paragraphs 1–3 and Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Both measures discriminated between all specified disability, symptom-severity, and MS-subtype groups. Both correlated strongly with disability, fatigue, walking impairment, and depression and moderately with anxiety.",
+      "about": [
+        "o3",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "-0.704",
+          "unit": "Spearman rho",
+          "denominator": "3619 observations",
+          "time": "Spring 2023",
+          "subgroup": "EQ-5D-3L versus web-EDSS",
+          "comparator": null,
+          "direction": "inverse association",
+          "uncertainty": "p < 0.0001"
+        },
+        {
+          "reported_value": "-0.651",
+          "unit": "Spearman rho",
+          "denominator": "3667 observations",
+          "time": "Spring 2023",
+          "subgroup": "MSIS-8D versus FSS",
+          "comparator": null,
+          "direction": "inverse association",
+          "uncertainty": "p < 0.0001"
+        },
+        {
+          "reported_value": "-0.668",
+          "unit": "Spearman rho",
+          "denominator": "3625 observations",
+          "time": "Spring 2023",
+          "subgroup": "MSIS-8D versus HADS-D",
+          "comparator": null,
+          "direction": "inverse association",
+          "uncertainty": "p < 0.0001"
+        }
+      ],
+      "source": [
+        "Full article: Results, Construct validity, paragraph and Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "During relapse, both measures decreased by 0.047, but only the MSIS-8D met the study criteria for a significant and non-negligible change. Its standardised response mean was also significantly greater than that of the EQ-5D-3L.",
+      "about": [
+        "o4",
+        "iu1",
+        "iu2",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "-0.047",
+          "unit": "mean utility change",
+          "denominator": "156 observations",
+          "time": "pre-relapse to current relapse",
+          "subgroup": "EQ-5D-3L",
+          "comparator": "MSIS-8D",
+          "direction": "deterioration",
+          "uncertainty": "p = 0.0054; SES = -0.139; SRM = -0.226, 95% CI -0.259 to -0.193"
+        },
+        {
+          "reported_value": "-0.047",
+          "unit": "mean utility change",
+          "denominator": "152 observations",
+          "time": "pre-relapse to current relapse",
+          "subgroup": "MSIS-8D",
+          "comparator": "EQ-5D-3L",
+          "direction": "deterioration",
+          "uncertainty": "p = 0.0001; SES = -0.228; SRM = -0.330, 95% CI -0.352 to -0.307"
+        }
+      ],
+      "source": [
+        "Full article: Results, Responsiveness, paragraph and Table 5, Current relapse"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Neither measure met the study threshold for a significant and non-negligible response to the onset of two or more new symptoms, although the MSIS-8D standardised response mean was significantly greater than that of the EQ-5D-3L.",
+      "about": [
+        "o4",
+        "iu1",
+        "iu2",
+        "sf5"
+      ],
+      "values": [
+        {
+          "reported_value": "-0.022",
+          "unit": "mean utility change",
+          "denominator": "97 observations",
+          "time": "pre-onset to up to 30 days post-onset",
+          "subgroup": "EQ-5D-3L",
+          "comparator": "MSIS-8D",
+          "direction": "deterioration",
+          "uncertainty": "p = 0.3544; SES = -0.069; SRM = -0.094, 95% CI -0.141 to -0.048"
+        },
+        {
+          "reported_value": "-0.034",
+          "unit": "mean utility change",
+          "denominator": "95 observations",
+          "time": "pre-onset to up to 30 days post-onset",
+          "subgroup": "MSIS-8D",
+          "comparator": "EQ-5D-3L",
+          "direction": "deterioration",
+          "uncertainty": "p = 0.0416; SES = -0.190; SRM = -0.212, 95% CI -0.244 to -0.179"
+        }
+      ],
+      "source": [
+        "Full article: Results, Responsiveness, paragraph and Table 5, Onset of two or more new symptoms"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "No individual dimension of either instrument showed a statistically significant change after the study's multiple-testing criterion for relapse or symptom onset.",
+      "about": [
+        "o4",
+        "iu1",
+        "iu2"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Responsiveness, final sentence and Table 5"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that the MSIS-8D had superior distributional properties, while the EQ-5D-3L had greater acceptability, and both measures had good construct validity.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article: Conclusions, first two sentences"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The authors concluded that responsiveness was limited for both measures. The results support concerns about EQ-5D sensitivity in multiple sclerosis and suggest that similar problems can affect the MSIS-8D to a lesser extent.",
+      "finding_ids": [
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article: Discussion, Responsiveness analysis",
+        "Full article: Conclusions"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The study assessed the EQ-5D-3L rather than the EQ-5D-5L, so its results do not reflect possible sensitivity improvements from the five-level version.",
+      "about": [
+        "iu1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "source": [
+        "Full article: Limitations of the study, first paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The existing UKMSR data were not designed for this research question. Suitable events with known timing were difficult to identify, which limited the responsiveness analyses.",
+      "about": [
+        "du1",
+        "part3",
+        "o4"
+      ],
+      "source": [
+        "Full article: Limitations of the study, second paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Event timing was self-reported and could contain measurement error or temporal misclassification. Fixed three- or six-month collection points prevented assessment of shorter-term effects.",
+      "about": [
+        "du1",
+        "part3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article: Limitations of the study, second paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Requiring complete Spring 2023 EQ-5D-3L data and responses at four additional time points reduced the sample and could have caused under-representation, survivorship bias, and selection bias.",
+      "about": [
+        "du1",
+        "sam4",
+        "sam5",
+        "sam7",
+        "sam9",
+        "sam11"
+      ],
+      "source": [
+        "Full article: Limitations of the study, second paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The responsiveness analyses considered relapse and symptom onset separately and did not control for other events that could have affected health-related quality of life during the same periods.",
+      "about": [
+        "part3",
+        "sf3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article: Limitations of the study, second paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Sensitivity of preference-based measures to treatment effects in multiple sclerosis",
+      "description": "Limited responsiveness can prevent utility measures used in healthcare decision-making from fully capturing treatment effects in multiple sclerosis.",
+      "about": [
+        "iu1",
+        "iu2",
+        "o4"
+      ],
+      "source": [
+        "Full article: Abstract, Conclusion",
+        "Full article: Discussion, Responsiveness analysis",
+        "Full article: Conclusions"
+      ]
+    }
+  ]
+}

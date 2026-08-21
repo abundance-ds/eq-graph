@@ -1,0 +1,1043 @@
+{
+  "run": "rebuild-v2-v013-claude-pilot-02",
+  "kind": "extraction",
+  "engine": "claude-code",
+  "model": "claude-opus-5",
+  "effort": "high",
+  "workers": 12,
+  "manifest": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/MANIFEST.tsv",
+  "manifest_sha256": "4c8032facb23bba9784695aab091fe2b9ff65d3d01c84d369474676d5cba8608",
+  "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+  "items": 20,
+  "successful": 20,
+  "failed": 0,
+  "elapsed_agent_seconds": 3638.786,
+  "usage": {
+    "input_tokens": 40,
+    "cache_creation_input_tokens": 1009804,
+    "cache_read_input_tokens": 428305,
+    "output_tokens": 381431
+  },
+  "results": [
+    {
+      "item_id": "V2-P001",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 224.919,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P001.md",
+      "input_sha256": "2c524050f070b7160c432a8e138100ee8ff5d495a2e357bc84b8e431a4b811a6",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P001.json",
+      "output_sha256": "10ec7aaa2bbda67ad1e52c443f2ce09ebdd1f40275025f77188a4bafdddee3b0",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P001.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 36495,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 23196,
+        "output_tokens_details": {
+          "thinking_tokens": 6175
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 36495
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 23196,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 36495,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 36495,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P002",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 160.371,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P002.md",
+      "input_sha256": "829882b66dc49f68b5559c7f1b7cc26fd58c274b3dbef41fbd69d004d283e2fe",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P002.json",
+      "output_sha256": "d1f1bc5174ab3ae47a252d80478bc81ed9ad8e0ddb49dee929451bd063afad0c",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P002.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 66572,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 16252,
+        "output_tokens_details": {
+          "thinking_tokens": 4443
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 66572
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 16252,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 66572,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 66572,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P003",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 235.361,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P003.md",
+      "input_sha256": "d93c0d7b8799c3572d4222363c180d56069508a942cddad00f9c57fb788b599e",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P003.json",
+      "output_sha256": "2b91c96b196e4f4bf54ab25aa252e45e5ff1aec9fde7cd1454620838740459fb",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P003.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 49815,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 23924,
+        "output_tokens_details": {
+          "thinking_tokens": 7219
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 49815
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 23924,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 49815,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 49815,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P004",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 213.06,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P004.md",
+      "input_sha256": "043cd5e6d6fb215c088342fe9b5bc8ccae2d64d4b42742ce3e2927ec96e064e4",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P004.json",
+      "output_sha256": "017824564fbf802aed729c5513fa54b1bb2aa68b366970d7c951dd79dc178368",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P004.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 38657,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 21854,
+        "output_tokens_details": {
+          "thinking_tokens": 7559
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 38657
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 21854,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 38657,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 38657,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "status": "ok",
+      "item_id": "V2-P005",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 123.572,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P005.md",
+      "input_sha256": "60f32945ba57182fbaff3445d39e82df0936b09ecc0f6219cf70ef01ec91cdfa",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P005.json",
+      "output_sha256": "d359b4d69d53ba6f838c7862138c2ad0e9949fd87ff74f9b2432147c770fe55e",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P005.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 41289,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 12448,
+        "output_tokens_details": {
+          "thinking_tokens": 2449
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 41289
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 12448,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 41289,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 41289,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P006",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 154.506,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P006.md",
+      "input_sha256": "e0cb03476739dfcc31fb3f69559390d9b9b2645145cc706c6e3a51ba3f4cf1df",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P006.json",
+      "output_sha256": "5b0a07e33224e54243cb33481a25ea1d70baf88d0f93d1eb1164693099e14d06",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P006.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 49396,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 16014,
+        "output_tokens_details": {
+          "thinking_tokens": 4182
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 49396
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 16014,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 49396,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 49396,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P007",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 155.84,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P007.md",
+      "input_sha256": "b8d1bfc81d93407c8e321196beebe4e8bd4c837b738d53d59b24d27f3da213d2",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P007.json",
+      "output_sha256": "e5fdebb62e3ee9af7879efb9929103cbdf71567b49c4d2f21d9731b0972ad901",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P007.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 65868,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 16961,
+        "output_tokens_details": {
+          "thinking_tokens": 4618
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 65868
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 16961,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 65868,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 65868,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P008",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 210.002,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P008.md",
+      "input_sha256": "ca970276a5de2ffb16bb5c2bbd7377fb0ba0c2b048e2d309198b818b872fe27d",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P008.json",
+      "output_sha256": "66d8960d60631c4108c0d1a45a08af23785733f30563b0ab131598ecea683f17",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P008.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 68551,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 21902,
+        "output_tokens_details": {
+          "thinking_tokens": 5692
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 68551
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 21902,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 68551,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 68551,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P009",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 244.353,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P009.md",
+      "input_sha256": "74dc2c7b468367058b34ace18ca6209e84058ab7b3a734f63d3d386bd7eb8e7b",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P009.json",
+      "output_sha256": "dd9814a84c192aa85633413f2285129c56baa7c5842ec965d7fcb06e6ed048d8",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P009.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 47235,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 24739,
+        "output_tokens_details": {
+          "thinking_tokens": 6551
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 47235
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 24739,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 47235,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 47235,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P010",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 190.798,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P010.md",
+      "input_sha256": "a4a69485a4482c8ea859c5c4bfeec2f24cf33e3bfe6d8b43751bbf93e38398ba",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P010.json",
+      "output_sha256": "c4454c738f03c72a2270861e927fdb9bbe5acfd4e6eeecd40f694e7ea11c8728",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P010.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 40993,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 19554,
+        "output_tokens_details": {
+          "thinking_tokens": 7883
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 40993
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 19554,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 40993,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 40993,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P011",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 226.181,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P011.md",
+      "input_sha256": "0d4fbf3f258ad955ef69e1a8c29e8fd1ca8d6f50b7c6e567a3f9721323b0e694",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P011.json",
+      "output_sha256": "4f8208db6592adc840beea77b397599e165082e7b3400dd1f1d49b63536fc515",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P011.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 58067,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 24017,
+        "output_tokens_details": {
+          "thinking_tokens": 6662
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 58067
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 24017,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 58067,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 58067,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P012",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 188.61,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P012.md",
+      "input_sha256": "e1fbc4b068491d942324b12cd47b22c73d18b21fd832d28620b6291b98c99480",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P012.json",
+      "output_sha256": "cff345fae5828b2caabee0dc405d0c7886e35be6f8767eaf8733a2e7b328cd9c",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P012.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 47931,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 20018,
+        "output_tokens_details": {
+          "thinking_tokens": 5386
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 47931
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 20018,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 47931,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 47931,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P013",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 108.364,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P013.md",
+      "input_sha256": "211c363fd8cd9abf8794c8bbbda1fd16c173943a43d5393b8677a0444acbd797",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P013.json",
+      "output_sha256": "84573bdf056793fb2333bbdc7b1ac2c896d4e97763ed8d87cdd82aaece379da9",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P013.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 45364,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 11543,
+        "output_tokens_details": {
+          "thinking_tokens": 2312
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 45364
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 11543,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 45364,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 45364,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P014",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 212.665,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P014.md",
+      "input_sha256": "adac1de1ef1855cd9bf502d66d516a6e76d4c755c3192423a66f5a86313a4496",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P014.json",
+      "output_sha256": "acb80c4ac80a82f50371ab79463e039c0c0d0caadb8408c5d680bdb7393376ac",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P014.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 115024,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 22997,
+        "output_tokens_details": {
+          "thinking_tokens": 7203
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 115024
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22997,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 115024,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 115024,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P015",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 115.717,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P015.md",
+      "input_sha256": "19af6dc69d9fab6c88485d6941d97fc3c7249da320c49125a6a0482b524a077b",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P015.json",
+      "output_sha256": "d1f802b65667ad56fd0a4d21016ae220463682f2501333a244591eb937bfadb4",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P015.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 60415,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 12871,
+        "output_tokens_details": {
+          "thinking_tokens": 2356
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 60415
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 12871,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 60415,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 60415,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P016",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 205.464,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P016.md",
+      "input_sha256": "be0abfe1c4a78921c6529f1b42494602683830bd0dadfe938f13461d5834f1b4",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P016.json",
+      "output_sha256": "ede74d9ec47fb6cbe505b6d9d8974e97b3386779cfe0b79b6a976c86ca63239b",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P016.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 54458,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 21989,
+        "output_tokens_details": {
+          "thinking_tokens": 6896
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 54458
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 21989,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 54458,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 54458,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P017",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 136.162,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P017.md",
+      "input_sha256": "4b30ae5f499994334afd4df350161fc5f9a7e7f238ebc1fcd3886a2af1e875d3",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P017.json",
+      "output_sha256": "6c616bd434a53c93445867c1a3a270970750ee54bd4f3480a9af36152839ffa1",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P017.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 38923,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 14918,
+        "output_tokens_details": {
+          "thinking_tokens": 2958
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 38923
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 14918,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 38923,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 38923,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P047",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 140.806,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P047.md",
+      "input_sha256": "54ce3b2064034468b8e363996cccbd8fa97c49063f5838bd96130d3198021c2d",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P047.json",
+      "output_sha256": "6eb21ae8bd280fdd721505d431a72f0683bd72eeeaeb0db692db9d5712d23f6a",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P047.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 37893,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 14771,
+        "output_tokens_details": {
+          "thinking_tokens": 4259
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 37893
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 14771,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 37893,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 37893,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "status": "ok",
+      "item_id": "V2-P092",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 212.155,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P092.md",
+      "input_sha256": "65afd25abefd5e0296f5f95aa4264e05793ead302500139f86356cff2900099c",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P092.json",
+      "output_sha256": "2a32ea8e14e79007b7e9ca74ee38d9f6f6501f6bf7827c4ffac00161ca446332",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P092.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 67666,
+        "output_tokens": 22697,
+        "output_tokens_details": {
+          "thinking_tokens": 6459
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22697,
+            "cache_read_input_tokens": 67666,
+            "cache_creation_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    },
+    {
+      "item_id": "V2-P127",
+      "status": "skipped",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 179.88,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013/inputs/V2-P127.md",
+      "input_sha256": "65f5db0a4d2b122c141f3424625cd52fbe6324a59960ac2acc06a27a9ddbb46e",
+      "schema_sha256": "187c4cae21ea68c905b4cd35ff989f9fec62665f92f71a46089fd68ea723f6b4",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/records/V2-P127.json",
+      "output_sha256": "39ea6e80b0bd5bbc3f27f55477b69041e239dd9c2ec497b1034792b90762397d",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-pilot-02/traces/V2-P127.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 46858,
+        "cache_read_input_tokens": 18981,
+        "output_tokens": 18766,
+        "output_tokens_details": {
+          "thinking_tokens": 6559
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 46858
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 18766,
+            "cache_read_input_tokens": 18981,
+            "cache_creation_input_tokens": 46858,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 46858,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    }
+  ]
+}

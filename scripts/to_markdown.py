@@ -7,9 +7,9 @@ a paper is reconverted only when its source bytes, this script, or the convertin
 tool changed.
 
 Two sources, two toolchains. Europe PMC JATS XML goes through pandoc, below.
-Publisher PDFs go through poppler, in `pdf_markdown.py`; they carry no structural
-markup at all, so what comes back is thinner -- no author list, no keywords, and
-tables flattened into loose lines. Prefer the XML wherever a paper is held as both.
+Publisher PDFs go through `pdf_markdown.py`, which repairs verified font maps and
+then uses PyMuPDF4LLM for reading order, headings, and Markdown tables. Prefer the
+XML wherever a paper is held as both.
 
     python3 scripts/to_markdown.py              # convert what changed
     python3 scripts/to_markdown.py --force      # reconvert everything
@@ -101,7 +101,7 @@ end
 
 EMPTY_REFS_RE = re.compile(r'<div id="refs">\s*</div>')
 STAMP_RE = re.compile(
-    r'^(source_sha256|converter_version|pandoc|poppler): (.+)$', re.MULTILINE
+    r'^(source_sha256|converter_version|pandoc|pdf_parser): (.+)$', re.MULTILINE
 )
 
 
@@ -385,13 +385,19 @@ def pdf_front_matter(provenance: dict, stats: dict) -> dict:
         "source_method": provenance.get("method"),
         "source_sha256": provenance.get("sha256"),
         "source_format": "pdf",
+        "source_pages": stats.get("source_pages"),
         "pages": stats.get("pages"),
         "cover_sheet_pages_dropped": stats.get("cover_sheet_pages_dropped"),
-        "running_heads_dropped": stats.get("running_heads_dropped"),
-        "symbol_runs_repaired": stats.get("symbol_runs_repaired"),
+        "font_objects_repaired": stats.get("font_objects_repaired"),
+        "font_codes_repaired": stats.get("font_codes_repaired"),
+        "tables": stats.get("tables"),
+        "headings": stats.get("headings"),
+        "formulas": stats.get("formulas"),
+        "unread_formulas": stats.get("unread_formulas"),
+        "replacement_characters": stats.get("replacement_characters"),
         "converter": "scripts/pdf_markdown.py",
         "converter_version": pdf_markdown.PDF_CONVERTER_VERSION,
-        "poppler": provenance.get("poppler"),
+        "pdf_parser": provenance.get("pdf_parser"),
     }
 
 
@@ -513,7 +519,9 @@ def output_path(project_dir: Path, source: Path) -> Path:
     return OUT_DIR / project_dir.name / f"{source.stem}.md"
 
 
-def convert(project_dirs: list[Path], force: bool, pandoc: str, poppler: str) -> dict:
+def convert(
+    project_dirs: list[Path], force: bool, pandoc: str, pdf_parser: str
+) -> dict:
     documents, skipped, failures = [], 0, []
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -535,7 +543,9 @@ def convert(project_dirs: list[Path], force: bool, pandoc: str, poppler: str) ->
                 version = (
                     pdf_markdown.PDF_CONVERTER_VERSION if is_pdf else CONVERTER_VERSION
                 )
-                tool_key, tool = ("poppler", poppler) if is_pdf else ("pandoc", pandoc)
+                tool_key, tool = (
+                    ("pdf_parser", pdf_parser) if is_pdf else ("pandoc", pandoc)
+                )
                 stamp = existing_stamp(out_path)
                 if (
                     not force
@@ -638,15 +648,15 @@ def main() -> int:
         project_dirs = sorted(d for d in PROJECTS_DIR.iterdir() if d.is_dir())
 
     pandoc = pandoc_version()
-    poppler = pdf_markdown.poppler_version()
-    result = convert(project_dirs, args.force, pandoc, poppler)
+    pdf_parser = pdf_markdown.parser_version()
+    result = convert(project_dirs, args.force, pandoc, pdf_parser)
 
     documents = sorted(result["documents"], key=lambda d: (d["project_id"], d["source"]))
     index = {
         "converter_version": CONVERTER_VERSION,
         "pdf_converter_version": pdf_markdown.PDF_CONVERTER_VERSION,
         "pandoc": pandoc,
-        "poppler": poppler,
+        "pdf_parser": pdf_parser,
         "format": PANDOC_TO,
         "documents": documents,
     }

@@ -1,0 +1,63 @@
+{
+  "identities": 318,
+  "aliases": 371,
+  "decisions": {
+    "ADD_GLOBAL": 109,
+    "ADD_SOURCE_SCOPED": 19,
+    "ALIAS_EXISTING": 67,
+    "AMBIGUOUS": 2,
+    "SPLIT_RECORD": 3,
+    "TYPE_REPAIR": 8,
+    "KEEP_COMPOUND": 1
+  },
+  "skipped": [
+    {
+      "entity_type": "Instrument",
+      "source_label": "EQ-5D proxy versions",
+      "decision": "AMBIGUOUS",
+      "note": "The plural label does not identify a level, language, respondent form, or exact proxy version."
+    },
+    {
+      "entity_type": "Instrument",
+      "source_label": "EQ-HWB/EQ-HWB-S",
+      "decision": "SPLIT_RECORD",
+      "note": "Split the EQ-HWB and EQ-HWB-S uses. They are distinct instruments."
+    },
+    {
+      "entity_type": "Instrument",
+      "source_label": "EQ‐5D‐5L Alberta population norms",
+      "decision": "TYPE_REPAIR",
+      "note": "Repair to a study-wide comparator dataset, not an instrument."
+    },
+    {
+      "entity_type": "Instrument",
+      "source_label": "Vignette",
+      "decision": "TYPE_REPAIR",
+      "note": "Repair to a task stimulus or study material; a vignette is not an instrument identity."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "EuroQol Valuation Technology (EQ-VT) (version 2.1)",
+      "decision": "TYPE_REPAIR",
+      "note": "Repair from MethodUse to ProtocolUse."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "Glass’ Δ effect sizes and response means",
+      "decision": "SPLIT_RECORD",
+      "note": "Split Glass delta and response-mean summaries."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "Shannon’s Index (H’) and Shannon’s Evenness Index (J’)",
+      "decision": "SPLIT_RECORD",
+      "note": "Split to the existing Shannon H and Shannon J method identities."
+    },
+    {
+      "entity_type": "Model",
+      "source_label": "regression techniques",
+      "decision": "AMBIGUOUS",
+      "note": "The source label does not identify a model family or specification."
+    }
+  ]
+}

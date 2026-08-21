@@ -1,0 +1,779 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P017",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This research was funded by the EuroQol Research Foundation under Grant no. 2015200.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study has the primary aim to produce EQ-5D-5L health-profile, EQ VAS, and utility reference values for the German general population aged 65 years and older. EuroQol Research Foundation funding is explicit.",
+    "source": [
+      "Structured metadata: title, abstract, and JATS article-meta/funding-group",
+      "Full article: Background, final paragraph",
+      "Full article: Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "EQ-5D-5L reference values for the German general elderly population",
+      "primary_research_family": "POPULATION_REFERENCE_DESCRIPTION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The stated main aim and principal output are EQ-5D-5L population reference values for elderly people in Germany.",
+      "source": [
+        "Full article: Abstract, Background",
+        "Full article: Background, final paragraph",
+        "Full article: Results, EQ-5D-5L index population norms and EQ-VAS population norms",
+        "Full article: Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "POPULATION_NORMS",
+      "rank": 1,
+      "source": [
+        "Full article: Abstract, Background",
+        "Full article: Background, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 2,
+      "source": [
+        "Full article: Abstract, Background",
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Secondary analysis of elderly respondents from the German EQ-5D-5L valuation study",
+      "source": [
+        "Full article: Methods, Data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Methods, Data and Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods, Data; data were collected between December 2014 and March 2015 through interviews"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article: Methods, Analysis; results were compared by age group and gender"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, Data and Analysis; the study used an observational subset without assignment"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "German general elderly population",
+      "role": "normative reference population",
+      "geographies": [
+        "Germany"
+      ],
+      "conditions": [],
+      "age_description": "65 years and older",
+      "inclusion_description": "Respondents from the German EQ-5D-5L valuation study who were aged 65 years or older; no further sampling restrictions were applied.",
+      "source": [
+        "Full article: Abstract, Background",
+        "Full article: Methods, Data"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 290,
+      "size_text": "N = 290",
+      "unit": "respondents",
+      "description": "Respondents aged 65–93 years; 132 men and 158 women.",
+      "source": [
+        "Full article: Results, Sample characteristics, paragraph 1",
+        "Full article: Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "sub-set of data from the German EQ-5D-5L valuation study conducted by Ludwig et al.",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To produce EQ-5D-5L health-profile, utility-index, and EQ VAS reference values for respondents aged 65 years and older.",
+      "source": [
+        "Full article: Methods, Data",
+        "Full article: Methods, Variables"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Variables and Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Variables and Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L health states",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article: Methods, Variables; EQ-5D-5L health states were converted to index values"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "quota-based sampling approach",
+      "registry_id": "method:quota-sampling",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article: Methods, Data"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "computer-assisted personal interviews",
+      "registry_id": "method:computer-assisted-personal-interview",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Data"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "descriptive statistics",
+      "registry_id": "method:descriptive-statistics",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Analysis; means, standard deviations, proportions, and 95% confidence intervals were calculated"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Shapiro–Wilk test",
+      "registry_id": "method:shapiro-wilk-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Kruskal–Wallis test",
+      "registry_id": "method:kruskal-wallis-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Mann–Whitney-U test",
+      "registry_id": "method:mann-whitney-u-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Chi square tests",
+      "registry_id": "method:chi-square-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu3",
+      "source_label": "recommended value set for Germany by Ludwig et al.",
+      "registry_id": "product:eq-5d-5l-de",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article: Methods, Variables",
+        "Full article: Table 5 caption"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Age group",
+      "levels": [
+        "65–69 years",
+        "70–74 years",
+        "75–79 years",
+        "> 79 years"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Gender",
+      "levels": [
+        "Men",
+        "Women"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Analysis"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "mu2"
+      ],
+      "respondent": "German general-population respondents",
+      "perspective": "Respondents rated their own health",
+      "completion": "Self-report during an interviewer-based survey",
+      "assistance": "Interviewer-based approach",
+      "channel": "Computer-assisted personal interview",
+      "setting": "Berlin, Leipzig, Hamburg, Bielefeld, Munich, and Frankfurt and their surrounding areas",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Original data collection between December 2014 and March 2015",
+      "source": [
+        "Full article: Methods, Data",
+        "Full article: Methods, Variables"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ-5D-5L descriptive health profile and dimension-level problem prevalence",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article: Methods, Analysis",
+        "Full article: Results, EQ-5D-5L dimensions"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "EQ-5D-5L utility index reference values",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article: Methods, Variables and Analysis",
+        "Full article: Results, EQ-5D-5L index population norms"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ VAS reference values",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article: Methods, Analysis",
+        "Full article: Results, EQ-VAS population norms"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Of 290 respondents, 21.4% reported no problems in all five dimensions. Pain or discomfort was the most common problem and self-care was the least common.",
+      "about": [
+        "o1"
+      ],
+      "values": [
+        {
+          "reported_value": "21.4",
+          "unit": "%",
+          "denominator": "290 respondents",
+          "time": null,
+          "subgroup": "Total sample",
+          "comparator": null,
+          "direction": "No problems in all five dimensions",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "68.3",
+          "unit": "%",
+          "denominator": "290 respondents",
+          "time": null,
+          "subgroup": "Total sample",
+          "comparator": null,
+          "direction": "Any pain or discomfort problem",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "15.5",
+          "unit": "%",
+          "denominator": "290 respondents",
+          "time": null,
+          "subgroup": "Total sample",
+          "comparator": null,
+          "direction": "Any self-care problem",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, EQ-5D-5L dimensions, paragraphs 1–2",
+        "Full article: Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The mean EQ-5D-5L index value for the full elderly sample was 0.84.",
+      "about": [
+        "o2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.84",
+          "unit": "EQ-5D-5L index",
+          "denominator": "290 respondents",
+          "time": null,
+          "subgroup": "Total sample",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 0.22; 95% CI 0.814–0.864"
+        }
+      ],
+      "source": [
+        "Full article: Table 5",
+        "Full article: Abstract, Results"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Mean utility and EQ VAS values decreased as age increased, and both outcomes differed significantly across age groups.",
+      "about": [
+        "o2",
+        "o3",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "0.92",
+          "unit": "EQ-5D-5L index",
+          "denominator": "86 respondents",
+          "time": null,
+          "subgroup": "65–69 years",
+          "comparator": "80+ years: 0.68",
+          "direction": "Higher in the younger group",
+          "uncertainty": "Difference across age groups p < 0.01"
+        },
+        {
+          "reported_value": "0.68",
+          "unit": "EQ-5D-5L index",
+          "denominator": "38 respondents",
+          "time": null,
+          "subgroup": "80+ years",
+          "comparator": "65–69 years: 0.92",
+          "direction": "Lower in the older group",
+          "uncertainty": "Difference across age groups p < 0.01"
+        },
+        {
+          "reported_value": "82.6",
+          "unit": "EQ VAS points",
+          "denominator": "86 respondents",
+          "time": null,
+          "subgroup": "65–69 years",
+          "comparator": "80+ years: 61.9",
+          "direction": "Higher in the younger group",
+          "uncertainty": "SD 12.6; difference across age groups p < 0.01"
+        },
+        {
+          "reported_value": "61.9",
+          "unit": "EQ VAS points",
+          "denominator": "38 respondents",
+          "time": null,
+          "subgroup": "80+ years",
+          "comparator": "65–69 years: 82.6",
+          "direction": "Lower in the older group",
+          "uncertainty": "SD 20.5; difference across age groups p < 0.01"
+        }
+      ],
+      "source": [
+        "Full article: Results, EQ-5D-5L index population norms, paragraph 1",
+        "Full article: Table 5",
+        "Full article: Results, EQ-VAS population norms, final paragraph",
+        "Full article: Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Men had a significantly higher mean EQ-5D-5L index than women, but the two-point difference in mean EQ VAS was not statistically significant.",
+      "about": [
+        "o2",
+        "o3",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.87",
+          "unit": "EQ-5D-5L index",
+          "denominator": "132 men",
+          "time": null,
+          "subgroup": "Men",
+          "comparator": "Women: 0.82",
+          "direction": "Higher",
+          "uncertainty": "p = 0.027"
+        },
+        {
+          "reported_value": "0.82",
+          "unit": "EQ-5D-5L index",
+          "denominator": "158 women",
+          "time": null,
+          "subgroup": "Women",
+          "comparator": "Men: 0.87",
+          "direction": "Lower",
+          "uncertainty": "p = 0.027"
+        },
+        {
+          "reported_value": "74.3",
+          "unit": "EQ VAS points",
+          "denominator": "132 men",
+          "time": null,
+          "subgroup": "Men",
+          "comparator": "Women: 72.3",
+          "direction": "Higher",
+          "uncertainty": "p = 0.27; not statistically significant"
+        },
+        {
+          "reported_value": "72.3",
+          "unit": "EQ VAS points",
+          "denominator": "158 women",
+          "time": null,
+          "subgroup": "Women",
+          "comparator": "Men: 74.3",
+          "direction": "Lower",
+          "uncertainty": "p = 0.27; not statistically significant"
+        }
+      ],
+      "source": [
+        "Full article: Results, EQ-5D-5L index population norms, paragraph 1",
+        "Full article: Table 5",
+        "Full article: Results, EQ-VAS population norms, paragraph 1",
+        "Full article: Table 6"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Health-related quality of life in the oldest old appears less stable and differs from that of the young elderly; conventional broad age categories can mask these differences.",
+      "finding_ids": [
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article: Abstract, Conclusion",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The detailed reference values can support more precise comparisons of EQ-5D-5L health-related quality of life across elderly age groups in Germany.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The data lack detailed information on prevalent long-term conditions or comorbidities.",
+      "about": [
+        "du1",
+        "pop1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Participation in the cognitively demanding source valuation study and possible underrepresentation of people in residential care could have selected a cognitively and physically healthier sample and caused overestimation of elderly population health.",
+      "about": [
+        "du1",
+        "pop1",
+        "sam1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The sample was small for an EQ-5D-5L reference-value study, which reduced precision and caused overlap between confidence intervals for adjacent age groups.",
+      "about": [
+        "sam1",
+        "f3"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Reference values for the oldest age group were based on only 38 observations, which limits their robustness and generalisability.",
+      "about": [
+        "sam1",
+        "sf1",
+        "f3"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "EQ-5D-5L reference values for the German general elderly population",
+      "product_type": "POPULATION_REFERENCE_DATA",
+      "source": [
+        "Full article: Abstract, Background",
+        "Full article: Tables 2–6",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Reference values developed and reported",
+      "assertion_date": "2021-03-06",
+      "asserted_by": "Ole Marten and Wolfgang Greiner",
+      "source": [
+        "Full article: Results, Tables 2–6",
+        "Full article: Conclusion",
+        "Structured metadata: epub date"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Standard deviation of the total-sample mean EQ-5D-5L index value",
+      "statements": [
+        {
+          "statement": "The Results narrative reports a standard deviation of 0.012 for the mean index score of 0.84.",
+          "source": [
+            "Full article: Results, EQ-5D-5L index population norms, paragraph 1"
+          ]
+        },
+        {
+          "statement": "The abstract and Table 5 report a standard deviation of 0.22 for the mean index score of 0.84.",
+          "source": [
+            "Full article: Abstract, Results",
+            "Full article: Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, EQ-5D-5L index population norms, paragraph 1",
+        "Full article: Table 5"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Mean EQ VAS value reported for men",
+      "statements": [
+        {
+          "statement": "The Results narrative and Table 6 report a mean EQ VAS value of 74.3 for men.",
+          "source": [
+            "Full article: Results, EQ-VAS population norms, paragraph 1",
+            "Full article: Table 6"
+          ]
+        },
+        {
+          "statement": "The Discussion reports a mean EQ VAS value of 74.2 for men.",
+          "source": [
+            "Full article: Discussion, paragraph beginning 'Furthermore, men reported similar or higher mean utility than women'"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, EQ-VAS population norms, paragraph 1",
+        "Full article: Table 6",
+        "Full article: Discussion, paragraph beginning 'Furthermore, men reported similar or higher mean utility than women'"
+      ]
+    }
+  ]
+}

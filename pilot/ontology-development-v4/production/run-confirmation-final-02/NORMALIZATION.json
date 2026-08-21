@@ -1,0 +1,1440 @@
+{
+  "summary": {
+    "records": 20,
+    "source_runs": {
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-confirmation-registry-repair-01": 5,
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-confirmation-repair-01": 6,
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-confirmation-01": 8,
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-confirmation-final-repair-01": 1
+    },
+    "mapped": 281,
+    "unresolved": 2,
+    "collisions": 0,
+    "unverified_existing": 0,
+    "registry_sha256": "b39a42fcffdd906e1748363a2156dc5576a914ef3a4af15496e42c56ecd2a86f",
+    "aliases_sha256": "0ba4ca0159883d3b60e1e4f5bf13bd9c28cdb2a61e5f24146ad1a3bf28938be5"
+  },
+  "mapped": [
+    {
+      "record_id": "CNF-P001",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu1",
+      "registry_id": "method:quota-sampling"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu2",
+      "registry_id": "method:ctto"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "pu3",
+      "registry_id": "protocol:eq-vt-2-1"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu4",
+      "registry_id": "method:cross-validation"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod7",
+      "registry_id": "model:tobit"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu6",
+      "registry_id": "method:backward-selection"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "pu1",
+      "registry_id": "protocol:eq-5d-5l-valuation-lite"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "pu2",
+      "registry_id": "protocol:eq-5d-5l-valuation-qc-2017"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod1",
+      "registry_id": "model:add20"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod2",
+      "registry_id": "model:add20-i"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod3",
+      "registry_id": "model:add20-p"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod4",
+      "registry_id": "model:cale"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod5",
+      "registry_id": "model:cale-i"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod6",
+      "registry_id": "model:cale-p"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-sg-2025"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu3",
+      "registry_id": "instrument:cnf-p002-dutch-word-completion-test"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu4",
+      "registry_id": "instrument:experiences-close-relationships-nl"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu5",
+      "registry_id": "instrument:cnf-p002-doctor-agreement-scale"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu1",
+      "registry_id": "method:tto"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu2",
+      "registry_id": "method:analysis-of-variance"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu3",
+      "registry_id": "method:pearson-correlation"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu4",
+      "registry_id": "method:bonferroni-correction"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu5",
+      "registry_id": "method:cnf-p002-multiple-switch-qc"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu6",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu7",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu8",
+      "registry_id": "instrument:cnf-p002-dutch-word-completion-test"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu9",
+      "registry_id": "instrument:experiences-close-relationships-nl"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "iu10",
+      "registry_id": "instrument:cnf-p002-emotional-lability-questionnaire"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu6",
+      "registry_id": "method:tto"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu7",
+      "registry_id": "method:analysis-of-variance"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu8",
+      "registry_id": "method:pearson-correlation"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu9",
+      "registry_id": "method:bonferroni-correction"
+    },
+    {
+      "record_id": "CNF-P002",
+      "item_id": "mu10",
+      "registry_id": "method:cnf-p002-multiple-switch-qc"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-y-3l-zh-hans-cn"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "mu1",
+      "registry_id": "method:semi-structured-interview"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "mu2",
+      "registry_id": "method:framework-analysis"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "mu3",
+      "registry_id": "method:cnf-p003-adapted-penton-response-framework"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "pu1",
+      "registry_id": "protocol:cnf-p003-interview-topic-guide"
+    },
+    {
+      "record_id": "CNF-P003",
+      "item_id": "pu2",
+      "registry_id": "protocol:coreq"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l-am-et"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "iu2",
+      "registry_id": "instrument:eortc-qlq-c30"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "iu3",
+      "registry_id": "instrument:eortc-qlq-c30-global-health"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "iu4",
+      "registry_id": "instrument:ecog-performance-status"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu1",
+      "registry_id": "method:consecutive-sampling"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu2",
+      "registry_id": "method:face-to-face-interview"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu3",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu4",
+      "registry_id": "method:kruskal-wallis-test"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu5",
+      "registry_id": "method:wilcoxon-signed-rank-test"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu6",
+      "registry_id": "method:standardized-effect-size"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu7",
+      "registry_id": "method:standardized-response-mean"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu8",
+      "registry_id": "method:distribution-based-method"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu9",
+      "registry_id": "method:anchor-based-method"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu10",
+      "registry_id": "method:roc-curve-analysis"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu11",
+      "registry_id": "method:youden-index"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "mu12",
+      "registry_id": "method:minimal-detectable-change"
+    },
+    {
+      "record_id": "CNF-P004",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-et-2020"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-nl-2016"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m1",
+      "registry_id": "method:dce"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m2",
+      "registry_id": "method:dce-death"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m3",
+      "registry_id": "method:dce-duration"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m4",
+      "registry_id": "method:unstratified-efficient-dce-design"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m5",
+      "registry_id": "method:severity-stratified-dce-design"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m6",
+      "registry_id": "method:heterogeneous-dce-design"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m7",
+      "registry_id": "method:bayesian-mcmc"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m8",
+      "registry_id": "method:mean-error"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m9",
+      "registry_id": "method:cross-validation"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "m10",
+      "registry_id": "method:cnf-p005-ssi-panel-recruitment"
+    },
+    {
+      "record_id": "CNF-P005",
+      "item_id": "mod1",
+      "registry_id": "model:mixed-logit"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "iu1",
+      "registry_id": "instrument:cnf-p006-revised-knee-decision-aid"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "iu3",
+      "registry_id": "instrument:preparation-decision-making-scale"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "iu4",
+      "registry_id": "instrument:system-usability-scale"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "iu5",
+      "registry_id": "instrument:acceptability-scale"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "mu1",
+      "registry_id": "method:cnf-p006-post-screening-clinic-recruitment"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "mu2",
+      "registry_id": "method:online-survey"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "mu3",
+      "registry_id": "method:open-ended-survey-questions"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "mu4",
+      "registry_id": "method:descriptive-statistics"
+    },
+    {
+      "record_id": "CNF-P006",
+      "item_id": "mu5",
+      "registry_id": "method:content-analysis"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "sc1",
+      "registry_id": "product:eq-5d-3l-european-vas"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu1",
+      "registry_id": "method:mixed-online-postal-survey"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu2",
+      "registry_id": "method:mixed-online-postal-survey"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu3",
+      "registry_id": "method:exact-case-control-matching"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu4",
+      "registry_id": "method:descriptive-statistics"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu5",
+      "registry_id": "method:z-test"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu6",
+      "registry_id": "method:bonferroni-correction"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mu7",
+      "registry_id": "method:backward-selection"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mod1",
+      "registry_id": "model:tobit"
+    },
+    {
+      "record_id": "CNF-P007",
+      "item_id": "mod2",
+      "registry_id": "model:ordinary-least-squares-regression"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l-ar-eg"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "iu4",
+      "registry_id": "instrument:cnf-p008-egypt-valuation-questionnaire"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu1",
+      "registry_id": "method:ctto"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu2",
+      "registry_id": "method:dce"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu3",
+      "registry_id": "method:multistage-stratified-quota-sampling"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu4",
+      "registry_id": "method:cnf-p008-eq-vt-qc-tool"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu5",
+      "registry_id": "method:descriptive-statistics"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu6",
+      "registry_id": "method:one-sample-proportion-z-test"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu7",
+      "registry_id": "method:chi-square-test"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "mu8",
+      "registry_id": "method:cnf-p008-pictorial-tool-feedback"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "pu1",
+      "registry_id": "protocol:eq-vt-2-1"
+    },
+    {
+      "record_id": "CNF-P008",
+      "item_id": "pu2",
+      "registry_id": "protocol:eq-5d-5l-valuation-qc-2017"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-y-3l"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-y-5l"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu4",
+      "registry_id": "instrument:chu9d"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu5",
+      "registry_id": "instrument:pedsql"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu6",
+      "registry_id": "instrument:hui2"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "iu7",
+      "registry_id": "instrument:hui3"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu1",
+      "registry_id": "method:cnf-p009-database-search"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu2",
+      "registry_id": "method:narrative-synthesis"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu3",
+      "registry_id": "method:forest-plot"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu4",
+      "registry_id": "method:narrative-synthesis"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "su1",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "su2",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu6",
+      "registry_id": "method:tto"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu7",
+      "registry_id": "method:dce"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu8",
+      "registry_id": "method:vas"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu9",
+      "registry_id": "method:bws"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu10",
+      "registry_id": "method:sg"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu11",
+      "registry_id": "method:cnf-p009-self-report-scoring-category"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu12",
+      "registry_id": "method:pto"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu13",
+      "registry_id": "method:ctto"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu14",
+      "registry_id": "method:lag-time-tto"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu15",
+      "registry_id": "method:dce-with-duration"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "mu16",
+      "registry_id": "method:location-of-dead"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "pu1",
+      "registry_id": "protocol:prisma"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "pu2",
+      "registry_id": "protocol:prospero-crd42023429906"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "pu3",
+      "registry_id": "protocol:retrieve-checklist"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "pu4",
+      "registry_id": "protocol:mmat"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "pu5",
+      "registry_id": "protocol:cnf-p009-review-quality-checklist"
+    },
+    {
+      "record_id": "CNF-P009",
+      "item_id": "model1",
+      "registry_id": "model:multilevel-meta-regression-reml"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-y-3l"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-y-5l"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu3",
+      "registry_id": "instrument:pedsql-4-generic-core"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu4",
+      "registry_id": "instrument:pedsql-3-cancer-module"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu5",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu6",
+      "registry_id": "instrument:eq-hwb-s"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu7",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu8",
+      "registry_id": "instrument:overall-health-assessment"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu9",
+      "registry_id": "instrument:eq-5d-y-5l"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "iu10",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu1",
+      "registry_id": "method:longitudinal-structured-survey"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu2",
+      "registry_id": "method:semi-structured-interview"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu3",
+      "registry_id": "method:intraclass-correlation-coefficient"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu4",
+      "registry_id": "method:gwet-ac1"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu5",
+      "registry_id": "method:cohens-d"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu6",
+      "registry_id": "method:analysis-of-variance"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu11",
+      "registry_id": "method:glass-delta"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu12",
+      "registry_id": "method:arithmetic-mean"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu8",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu9",
+      "registry_id": "method:roc-curve-analysis"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mu10",
+      "registry_id": "method:thematic-analysis"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "pr1",
+      "registry_id": "protocol:coreq"
+    },
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mo1",
+      "registry_id": "model:logistic-regression"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-hwb"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "iu3",
+      "registry_id": "instrument:ascot"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "iu4",
+      "registry_id": "instrument:qol-acc"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "iu5",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "mu1",
+      "registry_id": "method:cognitive-think-aloud-interview"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "mu2",
+      "registry_id": "method:concurrent-think-aloud"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "mu3",
+      "registry_id": "method:retrospective-think-aloud"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "mu4",
+      "registry_id": "method:framework-analysis"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "mu5",
+      "registry_id": "method:cnf-p011-adapted-tourangeau-coding-framework"
+    },
+    {
+      "record_id": "CNF-P011",
+      "item_id": "mu6",
+      "registry_id": "method:data-saturation-assessment"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "su1",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mu1",
+      "registry_id": "method:cnf-p012-dynata-panel-recruitment"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mu2",
+      "registry_id": "method:online-survey"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mu3",
+      "registry_id": "method:descriptive-statistics"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mu4",
+      "registry_id": "method:kruskal-wallis-test"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mu5",
+      "registry_id": "method:mann-whitney-u-test"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mod1",
+      "registry_id": "model:multiple-linear-regression"
+    },
+    {
+      "record_id": "CNF-P012",
+      "item_id": "mod2",
+      "registry_id": "model:multiple-linear-regression"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-ca"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "mu1",
+      "registry_id": "method:descriptive-analysis"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "mu2",
+      "registry_id": "method:paretian-classification-of-health-change"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "mu3",
+      "registry_id": "method:minimally-important-difference-mid"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "mu4",
+      "registry_id": "method:standardized-effect-size"
+    },
+    {
+      "record_id": "CNF-P013",
+      "item_id": "mu5",
+      "registry_id": "method:cnf-p013-alberta-norm-matched-comparison"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu2",
+      "registry_id": "instrument:msis-8d"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu3",
+      "registry_id": "instrument:msis-29-v2"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu4",
+      "registry_id": "instrument:web-edss"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu5",
+      "registry_id": "instrument:fatigue-severity-scale"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu6",
+      "registry_id": "instrument:msws-12"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu7",
+      "registry_id": "instrument:hads-a"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "iu8",
+      "registry_id": "instrument:hads-d"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-3l-gb"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "su2",
+      "registry_id": "product:msis-8d-gb"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "pu1",
+      "registry_id": "protocol:cosmin-reporting-guideline-revised"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu1",
+      "registry_id": "method:missingness-analysis"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu2",
+      "registry_id": "method:health-state-frequency"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu3",
+      "registry_id": "method:health-state-density-curve"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu4",
+      "registry_id": "method:health-state-density-index"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu5",
+      "registry_id": "method:analysis-of-variance"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu6",
+      "registry_id": "method:independent-t-test"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu7",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu8",
+      "registry_id": "method:paired-t-test"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu9",
+      "registry_id": "method:standardized-effect-size"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu10",
+      "registry_id": "method:standardized-response-mean"
+    },
+    {
+      "record_id": "CNF-P014",
+      "item_id": "mu11",
+      "registry_id": "method:wilcoxon-signed-rank-test"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "iu2",
+      "registry_id": "instrument:cnf-p015-self-rated-health-vas"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mu1",
+      "registry_id": "method:paired-comparison"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mu2",
+      "registry_id": "method:bws-case-2"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mu3",
+      "registry_id": "method:pearson-correlation"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mu4",
+      "registry_id": "method:lins-concordance-correlation-coefficient"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mu5",
+      "registry_id": "method:descriptive-statistics"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mu6",
+      "registry_id": "method:maximum-likelihood"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mo1",
+      "registry_id": "model:conditional-logit"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mo2",
+      "registry_id": "model:heteroskedastic-conditional-logit"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mo3",
+      "registry_id": "model:cnf-p015-heteroskedastic-interaction"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "mo4",
+      "registry_id": "model:heteroskedastic-salc"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-nl-pits-2022"
+    },
+    {
+      "record_id": "CNF-P015",
+      "item_id": "su2",
+      "registry_id": "product:eq-5d-5l-nl-2016"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-hwb"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "iu4",
+      "registry_id": "instrument:eq-hwb-s"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu1",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu9",
+      "registry_id": "method:shannons-index-h"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu10",
+      "registry_id": "method:shannons-evenness-index-j"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu3",
+      "registry_id": "method:item-response-theory-analysis"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu4",
+      "registry_id": "method:dif-hybrid-logistic-ordinal-irt"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu6",
+      "registry_id": "method:cnf-p016-qualtrics-panel-recruitment"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu7",
+      "registry_id": "method:attention-checks"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mu8",
+      "registry_id": "method:minimum-completion-time-thresholds"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mod1",
+      "registry_id": "model:graded-response"
+    },
+    {
+      "record_id": "CNF-P016",
+      "item_id": "mod2",
+      "registry_id": "model:ordinal-logit"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu1",
+      "registry_id": "method:quota-sampling"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu2",
+      "registry_id": "method:computer-assisted-personal-interview"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu3",
+      "registry_id": "method:descriptive-statistics"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu4",
+      "registry_id": "method:shapiro-wilk-test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu5",
+      "registry_id": "method:kruskal-wallis-test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu6",
+      "registry_id": "method:mann-whitney-u-test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "mu7",
+      "registry_id": "method:chi-square-test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-de"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu3",
+      "registry_id": "instrument:sf-36"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu4",
+      "registry_id": "instrument:sf-6d"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu5",
+      "registry_id": "instrument:hui3"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu6",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "mu1",
+      "registry_id": "method:health-utility-mortality-kaplan-meier"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-ca"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-vas"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "mu1",
+      "registry_id": "method:descriptive-analysis"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "mu2",
+      "registry_id": "method:paretian-classification-of-health-change"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "mod1",
+      "registry_id": "model:ancova"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "mod2",
+      "registry_id": "model:two-level-random-intercept"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "pr1",
+      "registry_id": "protocol:record-checklist"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "sc1",
+      "registry_id": "product:eq-5d-3l-se-experience-tto"
+    },
+    {
+      "record_id": "CNF-P019",
+      "item_id": "sc2",
+      "registry_id": "product:eq-5d-3l-se-experience-vas"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "su1",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mu1",
+      "registry_id": "method:mokken-scale-analysis"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mu2",
+      "registry_id": "method:loevinger-h"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mu3",
+      "registry_id": "method:automated-item-selection"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mu4",
+      "registry_id": "method:manifest-monotonicity"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mu5",
+      "registry_id": "method:manifest-invariant-item-ordering"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mod1",
+      "registry_id": "model:monotone-homogeneity"
+    },
+    {
+      "record_id": "CNF-P020",
+      "item_id": "mod2",
+      "registry_id": "model:double-monotonicity"
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mo2",
+      "entity_type": "Model",
+      "source_label": "regression techniques"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu7",
+      "entity_type": "Instrument",
+      "source_label": "EQ-5D proxy versions"
+    }
+  ],
+  "collisions": [],
+  "unverified_existing": []
+}

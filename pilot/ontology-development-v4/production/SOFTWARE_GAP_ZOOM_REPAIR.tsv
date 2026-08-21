@@ -1,0 +1,2 @@
+record_id	feedback
+CNF-P001	Keep the complete current record. Add one SoftwareUse for “Zoom” with DIRECT_CURRENT_ACTIVITY context and DATA_COLLECTION function. Set registry_id to null. Add it to the applies_to lists of Administration adm1 and adm2 because Zoom was used to conduct the valuation interview and the EQ-5D-5L questionnaire section. Delete gap1. Keep the 533 eligible registrants only in Finding f1 as the response-rate denominator; do not assign the count to an unsupported Sample stage. Return the complete record and make no other scientific change.

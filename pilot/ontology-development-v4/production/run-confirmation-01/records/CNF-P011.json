@@ -1,0 +1,832 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P011",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "Funding for this study was obtained from the EuroQol Research Foundation (150-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates the face validity of EQ-5D-5L and EQ-HWB, together with ASCOT and QOL-ACC, in residential aged care. The funding statement explicitly links EuroQol Research Foundation award 150-RA to this study.",
+    "source": [
+      "Full article, Abstract—Objective and Methods",
+      "Full article, Introduction, final paragraph",
+      "Full article, Declarations—Funding",
+      "Deterministic metadata, JATS article-meta/funding-group"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Face validity of four preference-weighted quality-of-life measures in residential aged care",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical evaluation of face validity, a content-validity aspect, for four existing measures. The study does not produce a new instrument version or value set.",
+      "source": [
+        "Full article, Abstract—Objective, Methods, Results, and Conclusions",
+        "Full article, Introduction, final paragraph",
+        "Full article, Discussion, opening paragraph"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "CONTENT_VALIDITY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract—Objective",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Qualitative cognitive think-aloud assessment of four measures",
+      "source": [
+        "Full article, Methods—Procedure and Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods—Procedure and Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods—Sample and Recruitment; Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods—Procedure",
+        "Full article, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "RANDOMIZED",
+      "source": [
+        "Full article, Methods—Procedure",
+        "Full article, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Older people living in residential aged care",
+      "role": "study participants",
+      "geographies": [
+        "Melbourne, Victoria, Australia"
+      ],
+      "conditions": [],
+      "age_description": "Residents aged 68–95 years; mean age 82 years (SD 8.6).",
+      "inclusion_description": "Residents nominated by three residential aged care facilities based on cognitive functioning and ability to speak and understand English; participants had to demonstrate informed consent capacity.",
+      "source": [
+        "Full article, Methods—Sample and Recruitment",
+        "Full article, Results—Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 24,
+      "size_text": "24 residents participated",
+      "unit": "residents",
+      "description": "Residents from three residential aged care facilities.",
+      "source": [
+        "Full article, Results, opening paragraph",
+        "Full article, Results—Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 24,
+      "size_text": "24 interviews",
+      "unit": "interviews",
+      "description": "Completed cognitive think-aloud interviews; each resident completed two measures.",
+      "source": [
+        "Full article, Abstract—Results",
+        "Full article, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 24,
+      "size_text": "24 resident interviews",
+      "unit": "residents",
+      "description": "Interview transcripts included in the qualitative framework analysis.",
+      "source": [
+        "Full article, Methods—Analysis",
+        "Full article, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Audio-recorded cognitive think-aloud interviews transcribed verbatim",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Assess face validity and identify response issues for the four measures.",
+      "source": [
+        "Full article, Methods—Procedure and Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract—Objective",
+        "Full article, Methods—Measures: EQ-5D-5L",
+        "Full article, Results—EQ-5D-5L"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-HWB",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract—Objective",
+        "Full article, Methods—Measures: EQ-HWB",
+        "Full article, Results—EQ-HWB"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "ASCOT",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract—Objective",
+        "Full article, Methods—Measures: ASCOT",
+        "Full article, Results—ASCOT"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "QOL-ACC",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract—Objective",
+        "Full article, Methods—Measures: QOL-ACC",
+        "Full article, Results—QOL-ACC"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ VAS",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article, Methods—Measures: EQ-5D-5L",
+        "Full article, Results—EQ-5D-5L, EQ VAS paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "cognitive think-aloud interviews",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods—Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "concurrent think-aloud techniques",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods—Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "retrospective think-aloud techniques",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods—Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "framework analysis",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods—Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "adapted coding framework from van Leeuwen et al. based on Tourangeau’s model of survey response",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods—Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "data saturation assessment",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, Methods—Analysis"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "mu1",
+        "mu2",
+        "mu3"
+      ],
+      "label": "Randomized two-measure cognitive think-aloud task",
+      "profiles": [
+        "EQ-5D-5L",
+        "EQ-HWB",
+        "ASCOT",
+        "QOL-ACC"
+      ],
+      "attributes": [
+        "questionnaire instructions",
+        "items or dimensions",
+        "response options",
+        "recall period",
+        "layout",
+        "clarity",
+        "ease of completion",
+        "comprehensiveness",
+        "acceptable length",
+        "measure preference"
+      ],
+      "levels": [],
+      "duration": "Interview guide designed to keep the interview under one hour.",
+      "alternatives": "Each resident completed two of four measures.",
+      "task_count": "Two measures per resident; each measure was explored in 12 interviews.",
+      "block": "Four measures were randomized across participants; each appeared equally often first and second.",
+      "order": "Randomized measure order; reflection followed the first measure and preference comparison followed the second.",
+      "randomization_unit": "participant",
+      "stopping_rule": "Data saturation was reached after 18 interviews; six scheduled interviews were also completed.",
+      "source": [
+        "Full article, Methods—Procedure",
+        "Full article, Methods—Analysis",
+        "Full article, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "mu1",
+        "mu2",
+        "mu3"
+      ],
+      "respondent": "resident",
+      "perspective": "self-report",
+      "completion": "self-completion during a cognitive think-aloud interview",
+      "assistance": "Interviewers prompted participants to continue thinking aloud when silent and asked retrospective probes.",
+      "channel": "original paper-based questionnaires with audio-recorded in-person interview",
+      "setting": "resident's room or a common area in one of three residential aged care facilities, with privacy ensured",
+      "instrument_language": "English; Australian English versions were specified for EQ-5D-5L and EQ-HWB",
+      "interview_language": "English",
+      "recall_period": "Instrument-specific: EQ-5D-5L ‘TODAY’; QOL-ACC ‘current situation’; ASCOT SCT4 no specified recall period; EQ-HWB ‘last 7 days’.",
+      "time_point": "One interview in October or November 2022.",
+      "source": [
+        "Full article, Methods—Sample and Recruitment",
+        "Full article, Methods—Measures",
+        "Full article, Methods—Procedure"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "CONTENT_VALIDITY",
+      "label": "Face validity: understandability, appropriateness, and relevance of the four measures",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article, Abstract—Objective",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "CONTENT_VALIDITY",
+      "label": "Response issues classified as comprehension, retrieval, judgement, and response mapping problems",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article, Methods—Analysis",
+        "Full article, Results—Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Clarity, ease of completion, comprehensiveness, acceptable length, and measure preference",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article, Methods—Procedure"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Response issues occurred across all four measures; the most common involved comprehension and response mapping, often because items were double-barrelled or ambiguous in residential aged care.",
+      "about": [
+        "o1",
+        "o2",
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Abstract—Results",
+        "Full article, Discussion, opening paragraph",
+        "Full article, Results—Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Each of the four measures was explored in 12 interviews and appeared equally often as the first and second measure.",
+      "about": [
+        "td1",
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4"
+      ],
+      "values": [
+        {
+          "reported_value": "12",
+          "unit": "interviews per measure",
+          "denominator": "24 resident interviews; each resident completed two measures",
+          "time": null,
+          "subgroup": "each of EQ-5D-5L, EQ-HWB, ASCOT, and QOL-ACC",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "EQ-5D-5L response issues included unclear completion instructions and layout, uncertainty about aids and assistance, inappropriate usual-activities examples, recall-period non-adherence, double-barrelled dimensions, indistinct response levels, positive responding, and problems with the EQ VAS.",
+      "about": [
+        "o1",
+        "o2",
+        "iu1",
+        "iu5"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—EQ-5D-5L",
+        "Full article, Results—Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "QOL-ACC had fewer response issues than the other measures, but its mobility and pain-management questions caused uncertainty when residents did not use mobility aids or did not experience pain.",
+      "about": [
+        "o1",
+        "o2",
+        "iu4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—QOL-ACC",
+        "Full article, Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "ASCOT response issues included questions embedded in response options, double-barrelled items, ambiguity, difficulty with dignity questions, dependence on service provision, and positive responding for quality-of-care-related items.",
+      "about": [
+        "o1",
+        "o2",
+        "iu3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—ASCOT",
+        "Full article, Discussion—ASCOT paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "EQ-HWB had fewer response issues than EQ-5D-5L relative to its length, but the activity domain was most problematic; issues also concerned aids, inside versus outside mobility, inappropriate activity examples, assistance with self-care, recall, and double-barrelled concepts.",
+      "about": [
+        "o1",
+        "o2",
+        "iu2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—EQ-HWB",
+        "Full article, Discussion—EQ-HWB paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Positive responding appeared across all measures, often when residents compared themselves with worse-off peers; psychological quality-of-life items were particularly affected.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Discussion—Positive responding paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Data saturation was reached after 18 interviews, and six interviews that were already scheduled were also conducted.",
+      "about": [
+        "mu6",
+        "td1"
+      ],
+      "values": [
+        {
+          "reported_value": "18",
+          "unit": "interviews",
+          "denominator": "24 completed interviews",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "saturation reached",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "6",
+          "unit": "additional interviews",
+          "denominator": "24 completed interviews",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "conducted after saturation because already scheduled",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Methods—Analysis"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The response issues can affect responses and measure validity and can produce biased scores.",
+      "finding_ids": [
+        "f1",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7"
+      ],
+      "source": [
+        "Full article, Discussion, opening paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Potential adaptations include clearer instructions, clarification of how to consider health aids and assistance, aged-care-relevant activity examples, and avoidance of double-barrelled and ambiguous questions.",
+      "finding_ids": [
+        "f1",
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Key Points for Decision Makers",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Further research should guide measure selection for research and practice and assess modifications or residential- or older-adult-specific versions.",
+      "finding_ids": [
+        "f1",
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Abstract—Conclusions",
+        "Full article, Discussion—EQ-5D-5L and EQ-HWB paragraphs",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The sample mainly comprised residents who reported English as their primary language, so culturally and linguistically diverse samples require study.",
+      "about": [
+        "pop1",
+        "sa3"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "All participants had sufficient cognitive capacity to provide informed consent; the association between cognitive status and response issues was not explored.",
+      "about": [
+        "pop1",
+        "o2"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Only a small sample could state a preferred measure, and participants could not justify their choices when prompted.",
+      "about": [
+        "o3"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Because measures were randomized, the same group of residents did not explore all four measures.",
+      "about": [
+        "td1",
+        "sa3"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The measure set was selected for relevance to Australian aged care and omitted other measures, including ICECAP-O and WOOP.",
+      "about": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The Australian findings may not generalize to other countries, including other English-speaking countries.",
+      "about": [
+        "pop1"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The analysis addressed face validity and did not convert responses to preference-weighted utility scores or assess convergent validity, reliability, or responsiveness to change.",
+      "about": [
+        "p1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion—Limitations"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Positive responding",
+      "description": "Choosing a more positive answer than an outsider would expect, including when residents compare themselves with worse-off peers or may fear repercussions from negative responses.",
+      "about": [
+        "o2",
+        "f7"
+      ],
+      "source": [
+        "Full article, Results—Table 2",
+        "Full article, Discussion—ASCOT and Positive responding paragraphs"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Response shift",
+      "description": "Older respondents can reconceptualize quality of life or change their expectations, which can affect response validity and comparisons with other groups.",
+      "about": [
+        "f7"
+      ],
+      "source": [
+        "Full article, Discussion—Positive responding paragraph"
+      ]
+    }
+  ]
+}

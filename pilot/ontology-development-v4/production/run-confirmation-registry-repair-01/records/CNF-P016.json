@@ -1,0 +1,1069 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P016",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was supported by the EuroQol Research Foundation, grant number ‘EQ Project 1811-RA’.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates the psychometric performance of frequency and severity response scales in the experimental EQ-HWB and EQ-HWB-S, with EQ-5D-5L as a comparator. The Funding section explicitly links EuroQol Research Foundation support to this work.",
+    "source": [
+      "Full article — Background, final paragraph",
+      "Full article — Abstract, Purpose and Methods",
+      "Full article — Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Psychometric comparison of frequency and severity response scales for pain and discomfort",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main contribution is an empirical evaluation of the distinctiveness, informativity, discrimination, and differential item functioning of EQ-HWB pain and discomfort response scales. The study does not develop new instrument content or a value set.",
+      "source": [
+        "Full article — Abstract, Purpose–Conclusion",
+        "Full article — Background, final paragraph",
+        "Full article — Discussion, first paragraph"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article — Abstract, Purpose",
+        "Full article — Background, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Pooled individual-level psychometric analysis",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article — Abstract, Methods",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "UNMAPPED_VALUE",
+      "source": [
+        "Full article — Abstract, Purpose",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article — Methods, Study design and participants; Data collection"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adult caregivers and their corresponding adult care recipients",
+      "role": "pooled analysis population",
+      "geographies": [],
+      "conditions": [
+        "Diverse self-reported chronic health conditions and no reported health condition"
+      ],
+      "age_description": "18 years or older",
+      "inclusion_description": "Caregivers were self-identified people who had provided unpaid care to an adult relative or friend for at least six months; care recipients had to confirm receipt of care from their caregiver.",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Caregivers",
+      "role": "dyad member",
+      "geographies": [],
+      "conditions": [],
+      "age_description": "18 years or older",
+      "inclusion_description": "Self-identified people from the general population who had provided unpaid care to an adult relative or friend for at least six months.",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Care recipients",
+      "role": "dyad member",
+      "geographies": [],
+      "conditions": [],
+      "age_description": "Adult",
+      "inclusion_description": "People who confirmed that they had received care from the corresponding caregiver.",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1008,
+      "size_text": "1,008 participants",
+      "unit": "individual participants",
+      "description": "Pooled individual-level analysis of 504 caregiver–care-recipient dyads.",
+      "source": [
+        "Full article — Abstract, Methods",
+        "Full article — Methods, Study design and participants",
+        "Full article — Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 504,
+      "size_text": "504 caregivers",
+      "unit": "caregivers",
+      "description": "Caregiver members of the 504 dyads.",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop3",
+      "stage": "ANALYZED",
+      "size": 504,
+      "size_text": "504 care recipients",
+      "unit": "care recipients",
+      "description": "Care-recipient members of the 504 dyads.",
+      "source": [
+        "Full article — Methods, Study design and participants"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Cross-sectional survey of 504 caregiver–care-recipient dyads collected between August 2022 and February 2023",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary psychometric analysis of EQ-HWB and EQ-5D-5L pain and discomfort item responses and self-reported health conditions.",
+      "source": [
+        "Full article — Abstract, Methods",
+        "Full article — Methods, Study design and participants; Data collection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-HWB",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article — Measures, EQ-HWB/EQ-HWB-S",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-HWB-S",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article — Measures, EQ-HWB/EQ-HWB-S",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article — Measures, EQ-5D-5L",
+        "Full article — Methods, Analysis, correlational and IRT paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Spearman rank-order coefficients",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods, Analysis, correlational analysis paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Shannon’s Index (H’)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods, Analysis, Shannon’s Indices paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Shannon’s Evenness Index (J’)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods, Analysis, Shannon’s Indices paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Item Response Theory analysis",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods, Analysis, Item Response Theory paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Differential item functioning (DIF) analysis using a hybrid logistic ordinal regression/IRT approach",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods, Analysis, DIF paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Qualtrics caregiver panel recruitment",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article — Methods, Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "attention checks",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article — Methods, Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "minimum completion time thresholds",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article — Methods, Data collection, first paragraph"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "graded response model (GRM)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article — Methods, Analysis, Item Response Theory paragraph"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Separate ordinal logistic regression models for each of the four EQ-HWB physical pain and discomfort items",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article — Methods, Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3",
+        "iu4",
+        "iu2"
+      ],
+      "label": "Comparison of pain and discomfort frequency and severity response scales",
+      "profiles": [
+        "EQ-HWB pain frequency",
+        "EQ-HWB pain severity",
+        "EQ-HWB discomfort frequency",
+        "EQ-HWB discomfort severity",
+        "EQ-5D-5L pain/discomfort composite item"
+      ],
+      "attributes": [
+        "Pain or discomfort construct",
+        "Frequency or severity response-scale format"
+      ],
+      "levels": [
+        "Frequency: none of the time; only occasionally; sometimes; often; most or all of the time",
+        "Severity: no; mild; moderate; severe; very severe",
+        "EQ-5D-5L pain/discomfort: no problems; slight problems; moderate problems; severe problems; extreme problems"
+      ],
+      "duration": null,
+      "alternatives": null,
+      "task_count": "Five analyzed pain/discomfort items",
+      "block": null,
+      "order": "Validated instruments in the source survey were presented in randomized order.",
+      "randomization_unit": "Instrument presentation order within participant",
+      "stopping_rule": null,
+      "source": [
+        "Full article — Methods, Data collection",
+        "Full article — Measures, EQ-5D-5L and EQ-HWB/EQ-HWB-S",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3",
+        "iu4"
+      ],
+      "respondent": "Caregivers and care recipients",
+      "perspective": "Respondent’s own pain and discomfort",
+      "completion": "Online self-completion",
+      "assistance": "Dyad members completed the survey sequentially without discussing their responses.",
+      "channel": "Qualtrics online survey",
+      "setting": null,
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "in the last 7 days",
+      "time_point": "One survey session between August 2022 and February 2023",
+      "source": [
+        "Full article — Methods, Study design and participants; Data collection",
+        "Full article — Measures, EQ-HWB/EQ-HWB-S"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "Caregivers and care recipients",
+      "perspective": "Respondent’s own health",
+      "completion": "Online self-completion",
+      "assistance": "Dyad members completed the survey sequentially without discussing their responses.",
+      "channel": "Qualtrics online survey",
+      "setting": null,
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "One survey session between August 2022 and February 2023",
+      "source": [
+        "Full article — Methods, Study design and participants; Data collection",
+        "Full article — Measures, EQ-5D-5L"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Self-reported chronic health condition",
+      "levels": [
+        "Heart",
+        "Hypertension",
+        "High cholesterol",
+        "Lung",
+        "Diabetes",
+        "Cancer",
+        "Depression",
+        "Anxiety",
+        "Gastrointestinal",
+        "Musculoskeletal",
+        "Eye, Ear, Nose, and Throat",
+        "Immunologic",
+        "Dermatologic",
+        "Neurologic",
+        "Other physical health",
+        "No health conditions"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article — Methods, Data collection and Analysis",
+        "Full article — Results, Table 1 and Table 6"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age category",
+      "levels": [
+        "18–44 years",
+        "45–64 years",
+        "65 years and older"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article — Results, Table 1 and Table 6"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Gender",
+      "levels": [
+        "Male",
+        "Female",
+        "Other"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article — Results, Table 1 and Table 6"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Correlations and construct overlap among pain and discomfort items",
+      "instrument_use_ids": [
+        "iu3",
+        "iu4",
+        "iu2"
+      ],
+      "source": [
+        "Full article — Methods, Analysis, correlational analysis paragraph",
+        "Full article — Results, Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Response-scale informativity",
+      "instrument_use_ids": [
+        "iu3",
+        "iu4"
+      ],
+      "source": [
+        "Full article — Methods, Analysis, Shannon’s Indices paragraph",
+        "Full article — Results, Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Item discrimination, thresholds, and information across latent trait levels",
+      "instrument_use_ids": [
+        "iu3",
+        "iu4",
+        "iu2"
+      ],
+      "source": [
+        "Full article — Methods, Analysis, Item Response Theory paragraph",
+        "Full article — Results, Table 4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Differential item functioning between frequency and severity scales",
+      "instrument_use_ids": [
+        "iu3",
+        "iu4"
+      ],
+      "source": [
+        "Full article — Methods, Analysis, DIF paragraph",
+        "Full article — Results, Table 5"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Response-scale associations with demographic factors and chronic health conditions",
+      "instrument_use_ids": [
+        "iu3",
+        "iu4"
+      ],
+      "source": [
+        "Full article — Methods, Analysis, final paragraph",
+        "Full article — Results, Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "All five pain and discomfort items had strong, statistically significant correlations; EQ-HWB pain severity correlated most strongly with EQ-HWB pain frequency and discomfort severity.",
+      "about": [
+        "o1",
+        "iu3",
+        "iu4",
+        "iu2",
+        "mu1"
+      ],
+      "values": [
+        {
+          "reported_value": "r_s = 0.81",
+          "unit": null,
+          "denominator": "N=1,008",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "EQ-HWB pain severity versus EQ-HWB pain frequency",
+          "direction": "strong positive correlation",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "r_s = 0.81",
+          "unit": null,
+          "denominator": "N=1,008",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "EQ-HWB pain severity versus EQ-HWB discomfort severity",
+          "direction": "strong positive correlation",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "r_s = 0.76",
+          "unit": null,
+          "denominator": "N=1,008",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "EQ-HWB pain severity versus EQ-5D-5L pain/discomfort",
+          "direction": "strong positive correlation",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "r_s = 0.58",
+          "unit": null,
+          "denominator": "N=1,008",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "EQ-HWB discomfort frequency versus EQ-5D-5L pain/discomfort",
+          "direction": "strong positive correlation; weakest reported pair",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "Full article — Results, paragraph before Table 2",
+        "Full article — Results, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Frequency scales had higher relative informativity than severity scales for both pain and discomfort in the entire sample and in most subgroups.",
+      "about": [
+        "o2",
+        "iu3",
+        "iu4",
+        "mu9",
+        "mu10"
+      ],
+      "values": [
+        {
+          "reported_value": "J’ = 0.98",
+          "unit": null,
+          "denominator": "N=1,008",
+          "time": null,
+          "subgroup": "Entire sample; pain frequency",
+          "comparator": "Pain severity J’=0.89",
+          "direction": "higher informativity",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "J’ = 0.94",
+          "unit": null,
+          "denominator": "N=1,008",
+          "time": null,
+          "subgroup": "Entire sample; discomfort frequency",
+          "comparator": "Discomfort severity J’=0.86",
+          "direction": "higher informativity",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "18.91%",
+          "unit": "relative informativity difference",
+          "denominator": "Dermatologic-condition subgroup",
+          "time": null,
+          "subgroup": "Discomfort",
+          "comparator": "Frequency versus severity",
+          "direction": "in favor of frequency",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article — Results, paragraph before Table 3",
+        "Full article — Results, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Severity items had higher IRT discrimination parameters and wider threshold ranges, whereas frequency items were more sensitive at lower trait levels.",
+      "about": [
+        "o3",
+        "iu3",
+        "iu4",
+        "iu2",
+        "mu3",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "a = 6.23",
+          "unit": null,
+          "denominator": "EQ-HWB pain severity item",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "Pain frequency a=3.86",
+          "direction": "higher discrimination",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "a = 4.45",
+          "unit": null,
+          "denominator": "EQ-HWB discomfort severity item",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "Discomfort frequency a=2.24",
+          "direction": "higher discrimination",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article — Results, paragraph before Table 4",
+        "Full article — Results, Table 4",
+        "Full article — Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Pain frequency and severity scales showed large total DIF, while discomfort frequency and severity scales showed negligible DIF.",
+      "about": [
+        "o4",
+        "iu3",
+        "iu4",
+        "mu4"
+      ],
+      "values": [
+        {
+          "reported_value": "ΔR² = 0.243",
+          "unit": "McFadden pseudo-R² change",
+          "denominator": "Pain frequency and severity scale comparison",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "Models 1 and 3",
+          "direction": "large total DIF",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "ΔR² = 0.001",
+          "unit": "McFadden pseudo-R² change",
+          "denominator": "Discomfort frequency and severity scale comparison",
+          "time": null,
+          "subgroup": "Entire sample",
+          "comparator": "Models 1 and 3",
+          "direction": "negligible total DIF",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article — Results, paragraph before Table 5",
+        "Full article — Results, Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Immunologic and musculoskeletal conditions had the strongest reported associations with higher pain-frequency responses.",
+      "about": [
+        "o5",
+        "iu3",
+        "iu4",
+        "mod2",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "OR = 3.21",
+          "unit": "odds ratio",
+          "denominator": "Participants with versus without an immunologic condition",
+          "time": null,
+          "subgroup": "Pain frequency",
+          "comparator": "Absence of the condition",
+          "direction": "higher odds",
+          "uncertainty": "95% CI 1.97–5.24"
+        },
+        {
+          "reported_value": "OR = 2.65",
+          "unit": "odds ratio",
+          "denominator": "Participants with versus without a musculoskeletal condition",
+          "time": null,
+          "subgroup": "Pain frequency",
+          "comparator": "Absence of the condition",
+          "direction": "higher odds",
+          "uncertainty": "95% CI 1.95–3.61"
+        }
+      ],
+      "source": [
+        "Full article — Results, paragraph before Table 6",
+        "Full article — Results, Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Depression was associated with pain and discomfort frequency but not with the corresponding severity responses.",
+      "about": [
+        "o5",
+        "iu3",
+        "iu4",
+        "mod2",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "OR = 1.51",
+          "unit": "odds ratio",
+          "denominator": "Participants with versus without depression",
+          "time": null,
+          "subgroup": "Pain frequency",
+          "comparator": "Absence of depression",
+          "direction": "higher odds",
+          "uncertainty": "95% CI 1.08–2.11"
+        },
+        {
+          "reported_value": "OR = 1.50",
+          "unit": "odds ratio",
+          "denominator": "Participants with versus without depression",
+          "time": null,
+          "subgroup": "Discomfort frequency",
+          "comparator": "Absence of depression",
+          "direction": "higher odds",
+          "uncertainty": "95% CI 1.08–2.09"
+        },
+        {
+          "reported_value": "OR = 1.20",
+          "unit": "odds ratio",
+          "denominator": "Participants with versus without depression",
+          "time": null,
+          "subgroup": "Pain severity",
+          "comparator": "Absence of depression",
+          "direction": "no statistically significant association",
+          "uncertainty": "95% CI 0.86–1.68"
+        },
+        {
+          "reported_value": "OR = 1.19",
+          "unit": "odds ratio",
+          "denominator": "Participants with versus without depression",
+          "time": null,
+          "subgroup": "Discomfort severity",
+          "comparator": "Absence of depression",
+          "direction": "no statistically significant association",
+          "uncertainty": "95% CI 0.85–1.66"
+        }
+      ],
+      "source": [
+        "Full article — Results, paragraph before Table 6",
+        "Full article — Results, Table 6"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Frequency and severity scales capture distinct and complementary aspects of pain and discomfort: frequency scales distribute information more evenly and detect lower trait levels, while severity scales better distinguish higher intensities.",
+      "finding_ids": [
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article — Discussion, third paragraph",
+        "Full article — Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Longer instruments can benefit from both scale types, but a frequency scale may be preferable for a shorter instrument because it has higher informativity across a broader measurement range.",
+      "finding_ids": [
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article — Discussion, fourth paragraph",
+        "Full article — Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The cross-sectional data preclude causal inferences about relationships between health conditions and pain or discomfort experiences.",
+      "about": [
+        "d2",
+        "o5"
+      ],
+      "source": [
+        "Full article — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Self-reported health conditions are subject to error because participants may be unaware of a diagnosis or may unintentionally misreport it.",
+      "about": [
+        "du1",
+        "sf1",
+        "o5"
+      ],
+      "source": [
+        "Full article — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Generalizability to different cultural and linguistic contexts requires validation in replication studies.",
+      "about": [
+        "pop1"
+      ],
+      "source": [
+        "Full article — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Frequency versus severity response-scale selection",
+      "description": "Selection of a response-scale format can depend on the target population, intended measurement range, instrument length, assessment goal, and recall period.",
+      "about": [
+        "iu3",
+        "iu4",
+        "o2",
+        "o3",
+        "int1",
+        "int2"
+      ],
+      "source": [
+        "Full article — Discussion, fourth and fifth paragraphs",
+        "Full article — Conclusion"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": "s1",
+      "part_id": null,
+      "state": "UNMAPPED_VALUE",
+      "affected_item_id": "d3",
+      "affected_type": "Design",
+      "affected_key": "comparison_structure",
+      "evidence": "The study compares frequency and severity response-scale formats. The controlled comparison-structure vocabulary has no value for a response-scale-format comparison.",
+      "importance": "The comparison is central to the study design, but BETWEEN_METHOD would incorrectly classify response-scale formats as methods.",
+      "proposed_resolution": "Review whether the comparison-structure vocabulary needs a controlled value for response-scale-format comparison.",
+      "source": [
+        "Full article — Abstract, Purpose",
+        "Full article — Background, final paragraph",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Designation of the referent and focal response-scale groups in the DIF analysis",
+      "statements": [
+        {
+          "statement": "The frequency scale was designated the referent group and the severity scale as the focal group.",
+          "source": [
+            "Full article — Methods, Analysis, DIF paragraph"
+          ]
+        },
+        {
+          "statement": "EQ-HWB severity scales were the reference group and EQ-HWB frequency scales were the focal group.",
+          "source": [
+            "Full article — Results, Table 5 note"
+          ]
+        }
+      ],
+      "source": [
+        "Full article — Methods, Analysis, DIF paragraph",
+        "Full article — Results, Table 5 note"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Meaning of the graded-response-model parameter a",
+      "statements": [
+        {
+          "statement": "The methods and results narrative define a as the discrimination parameter indicating differentiation ability between trait levels.",
+          "source": [
+            "Full article — Methods, Analysis, Item Response Theory paragraph",
+            "Full article — Results, paragraph before Table 4"
+          ]
+        },
+        {
+          "statement": "The Table 4 note states that a denotes difficulty parameters.",
+          "source": [
+            "Full article — Results, Table 4 note"
+          ]
+        }
+      ],
+      "source": [
+        "Full article — Methods, Analysis, Item Response Theory paragraph",
+        "Full article — Results, paragraph before Table 4 and Table 4 note"
+      ]
+    }
+  ]
+}

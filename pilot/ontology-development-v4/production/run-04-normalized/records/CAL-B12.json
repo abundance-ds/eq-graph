@@ -1,0 +1,1104 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CAL-B12",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "adjacent_measurement",
+    "euroqol_support": "explicit",
+    "support_scope": "Data collection was supported by the EuroQol Research Foundation (Project no. 1644-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The primary research object is the measurement performance of the Indonesian FACIT-COST, not an EQ instrument. EQ-HWB and EQ-5D-5L were administered, but their results are reported elsewhere. The work is adjacent health-measurement research and has explicit EuroQol support for data collection.",
+    "source": [
+      "doi_10.1186_s12955-024-02303-5.xml — Abstract > Background and Methods",
+      "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1",
+      "doi_10.1186_s12955-024-02303-5.xml — Funding, paragraph 1"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Psychometric evaluation of the Indonesian FACIT-COST in patients with breast cancer",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main aim and reported contribution are the assessment of distributional characteristics, structural and known-groups validity, internal consistency, test-retest reliability, and responsiveness of an existing Indonesian instrument version. The study did not develop or revise instrument content.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Introduction, final paragraph",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Study design and patients, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Conclusions, paragraph 1"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Prospective psychometric evaluation cohort",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Study design and patients, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Statistical analyses and subsequent analysis subsections"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Study design and patients, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Evaluation of changes in SFT status",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Test-retest reliability and responsiveness"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Known-groups validity"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Study design and patients, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adult female patients receiving treatment for breast cancer at Hasan Sadikin General Hospital",
+      "role": "study population",
+      "geographies": [
+        "Bandung, West Java, Indonesia"
+      ],
+      "conditions": [
+        "Breast cancer"
+      ],
+      "age_description": "18 years or older; baseline mean age 51 years (SD 10).",
+      "inclusion_description": "Female patients with breast cancer of any type or stage who were undergoing treatment, had capacity to complete the questionnaire, were fluent in Indonesian, and gave written informed consent.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Study design and patients, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 300,
+      "size_text": "300 completed the baseline questionnaire; response rate 96.8%.",
+      "unit": "patients",
+      "description": "Baseline psychometric-analysis sample.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 298,
+      "size_text": "148 completed T1 follow-up and 150 completed T2 follow-up.",
+      "unit": "patients",
+      "description": "Participants with baseline and follow-up observations; two patients died during the study period.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 187,
+      "size_text": "187 patients had unchanged FT12 status.",
+      "unit": "patients",
+      "description": "Stable subgroup used for test-retest reliability analysis.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Changes in SFT status, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 6"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 45,
+      "size_text": "45 patients had improved FT12 status.",
+      "unit": "patients",
+      "description": "Improved subgroup used for responsiveness analysis.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Changes in SFT status, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 6"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 66,
+      "size_text": "66 patients had worsened FT12 status.",
+      "unit": "patients",
+      "description": "Worsened subgroup used for responsiveness analysis.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Changes in SFT status, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 6"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 5,
+      "size_text": "Five patients with breast cancer completed the pilot test.",
+      "unit": "patients",
+      "description": "Pilot sample, aged 35–60 years and receiving diverse types of treatment, used to assess questionnaire feasibility and comprehensibility; no questionnaire modifications followed.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Structured paper patient questionnaires at baseline and follow-up",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Measurement-property analyses of FACIT-COST and collection of sociodemographic, symptom, and financial-coping information.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Computerized hospital records reported through the oncology nurses’ questionnaire",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "DOCUMENT",
+      "purpose": "Provision of disease duration and metastasis status.",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "official Indonesian version of FACIT-COST (v2)",
+      "registry_id": "instrument:facit-cost-v2-id",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Introduction, final paragraph",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > FACIT-COST"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ Health and Wellbeing (EQ-HWB)",
+      "registry_id": "instrument:eq-hwb",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)",
+      "registry_id": "instrument:wemwbs",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Functional Assessment of Cancer Therapy – General (FACT-G)",
+      "registry_id": "instrument:fact-g",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "principal component analysis (PCA)",
+      "registry_id": "method:principal-component-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Structural validity, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "parallel analysis technique",
+      "registry_id": "method:parallel-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Structural validity, paragraph 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "confirmatory factor analysis (CFA)",
+      "registry_id": "model:confirmatory-factor-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Structural validity, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Structural validity, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Cronbach’s alpha",
+      "registry_id": "method:cronbachs-alpha",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Internal consistency reliability"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "McDonald’s omega",
+      "registry_id": "method:mcdonalds-omega",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Internal consistency reliability"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Mann-Whitney U test",
+      "registry_id": "method:mann-whitney-u-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Known-groups validity"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Kruskal-Wallis test",
+      "registry_id": "method:kruskal-wallis-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Known-groups validity"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Spearman’s rank correlation",
+      "registry_id": "method:spearman-rank-correlation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Evaluation of changes in SFT status"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Gwet’s AC2 coefficient",
+      "registry_id": "method:gwet-ac2",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Test-retest reliability and responsiveness, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "intraclass correlation coefficient",
+      "registry_id": "method:intraclass-correlation-coefficient",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Test-retest reliability and responsiveness, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu11",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "standardized response mean (SRM)",
+      "registry_id": "method:standardized-response-mean",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Test-retest reliability and responsiveness, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu12",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "standardized effect size (SES)",
+      "registry_id": "method:standardized-effect-size",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Test-retest reliability and responsiveness, paragraph 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Change in FT12 status",
+      "levels": [
+        "improved",
+        "worsened",
+        "unchanged"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Evaluation of changes in SFT status",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 6"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Follow-up group",
+      "levels": [
+        "T1 follow-up group",
+        "T2 follow-up group"
+      ],
+      "role": "TARGET_STAGE",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Study design and patients, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "patients",
+      "perspective": "self-report of the patient’s financial toxicity",
+      "completion": "interviewer-administered",
+      "assistance": "interviewer administration",
+      "channel": null,
+      "setting": "single-center oncology setting in Indonesia",
+      "instrument_language": "Indonesian",
+      "interview_language": "Indonesian",
+      "recall_period": null,
+      "time_point": "baseline and follow-up",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5"
+      ],
+      "respondent": "patients",
+      "perspective": "self-report",
+      "completion": "self-completed",
+      "assistance": "Research assistants were available to provide explanations when needed.",
+      "channel": "paper-and-pencil questionnaire",
+      "setting": "oncology department of Hasan Sadikin General Hospital",
+      "instrument_language": "Indonesian",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "baseline and follow-up; T1 mean follow-up 5.8 weeks and T2 mean follow-up 11.6 weeks",
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Patient questionnaire, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Distributional characteristics, structural validity, internal consistency, known-groups validity, test-retest reliability, and responsiveness of the Indonesian FACIT-COST",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Introduction, final paragraph",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Statistical analyses and measurement-property subsections"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "No patient reported the best or worst possible FACIT-COST total score; mean total scores were similar at baseline and follow-up.",
+      "about": [
+        "o1",
+        "iu1"
+      ],
+      "values": [
+        {
+          "reported_value": "0%",
+          "unit": "patients",
+          "denominator": "300 baseline patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "ceiling effect",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0%",
+          "unit": "patients",
+          "denominator": "300 baseline patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "floor effect",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "24.29",
+          "unit": "FACIT-COST points",
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 8.66"
+        },
+        {
+          "reported_value": "24.50",
+          "unit": "FACIT-COST points",
+          "denominator": "298 patients",
+          "time": "follow-up",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 8.68"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Distributional characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "PCA supported two components, although two items had subthreshold communalities, and CFA showed good fit for the selected two-factor structure.",
+      "about": [
+        "o1",
+        "iu1",
+        "mu1",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "37.3%",
+          "unit": "variance",
+          "denominator": "11 scored FACIT-COST items",
+          "time": "baseline",
+          "subgroup": "component 1",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "23.3%",
+          "unit": "variance",
+          "denominator": "11 scored FACIT-COST items",
+          "time": "baseline",
+          "subgroup": "component 2",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.436",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "FT1: Have enough money to cover treatment",
+          "comparator": "acceptable communality threshold ≥0.5",
+          "direction": "item communality below threshold",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.380",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "FT8: Feel financially stressed",
+          "comparator": "acceptable communality threshold ≥0.5",
+          "direction": "item communality below threshold",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.042",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "two-factor CFA model",
+          "comparator": null,
+          "direction": "RMSEA",
+          "uncertainty": "95% CI 0.019–0.063"
+        },
+        {
+          "reported_value": "0.049",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "two-factor CFA model",
+          "comparator": null,
+          "direction": "SRMR",
+          "uncertainty": "95% CI 0.048–0.074"
+        },
+        {
+          "reported_value": "0.998",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "two-factor CFA model",
+          "comparator": null,
+          "direction": "CFI",
+          "uncertainty": "95% CI 0.990–0.999"
+        },
+        {
+          "reported_value": "0.997",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "two-factor CFA model",
+          "comparator": null,
+          "direction": "TLI",
+          "uncertainty": "95% CI 0.987–0.997"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Structural validity, paragraphs 1–2",
+        "doi_10.1186_s12955-024-02303-5.xml — Tables 3–4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Both FACIT-COST factors had adequate internal consistency reliability.",
+      "about": [
+        "o1",
+        "iu1",
+        "mu4",
+        "mu5"
+      ],
+      "values": [
+        {
+          "reported_value": "0.882",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "factor 1",
+          "comparator": null,
+          "direction": "Cronbach’s alpha",
+          "uncertainty": "95% CI 0.861–0.901"
+        },
+        {
+          "reported_value": "0.888",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "factor 1",
+          "comparator": null,
+          "direction": "McDonald’s omega",
+          "uncertainty": "95% CI 0.868–0.907"
+        },
+        {
+          "reported_value": "0.774",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "factor 2",
+          "comparator": null,
+          "direction": "Cronbach’s alpha",
+          "uncertainty": "95% CI 0.729–0.813"
+        },
+        {
+          "reported_value": "0.786",
+          "unit": null,
+          "denominator": "300 patients",
+          "time": "baseline",
+          "subgroup": "factor 2",
+          "comparator": null,
+          "direction": "McDonald’s omega",
+          "uncertainty": "95% CI 0.747–0.825"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Internal consistency reliability",
+        "doi_10.1186_s12955-024-02303-5.xml — Appendix 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "FACIT-COST scores significantly discriminated groups defined by age, education, residential setting, income, employment, metastasis, symptom count, several financial coping strategies, and FT12 responses, but not groups defined by number of children, disease duration, or withdrawal of savings or pension.",
+      "about": [
+        "o1",
+        "iu1",
+        "mu6",
+        "mu7"
+      ],
+      "values": [],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Known-groups validity",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "FT12 correlated strongly with the FACIT-COST total score and was used as the change anchor.",
+      "about": [
+        "o1",
+        "iu1",
+        "mu8",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "0.80",
+          "unit": null,
+          "denominator": "300 baseline patients",
+          "time": "baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "Spearman’s rho",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Changes in SFT status, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "FACIT-COST showed excellent instrument-level test-retest reliability in patients with unchanged FT12 status; item agreement was strong.",
+      "about": [
+        "o1",
+        "iu1",
+        "mu9",
+        "mu10",
+        "sam3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.96",
+          "unit": null,
+          "denominator": "187 patients with unchanged FT12 status",
+          "time": "baseline to follow-up",
+          "subgroup": "unchanged FT12",
+          "comparator": null,
+          "direction": "intraclass correlation coefficient",
+          "uncertainty": "95% CI 0.95–0.97"
+        },
+        {
+          "reported_value": "0.64–0.79",
+          "unit": null,
+          "denominator": "187 patients with unchanged FT12 status",
+          "time": "baseline to follow-up",
+          "subgroup": "FACIT-COST items FT1–FT11",
+          "comparator": null,
+          "direction": "Gwet’s AC2 range",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Test-retest reliability and responsiveness, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Responsiveness was large or moderate-to-large in the improved FT12 subgroup and small to borderline moderate in the worsened subgroup.",
+      "about": [
+        "o1",
+        "iu1",
+        "mu11",
+        "mu12",
+        "sam4",
+        "sam5"
+      ],
+      "values": [
+        {
+          "reported_value": "0.92",
+          "unit": null,
+          "denominator": "45 patients",
+          "time": "baseline to follow-up",
+          "subgroup": "improved FT12",
+          "comparator": null,
+          "direction": "SRM",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.75",
+          "unit": null,
+          "denominator": "45 patients",
+          "time": "baseline to follow-up",
+          "subgroup": "improved FT12",
+          "comparator": null,
+          "direction": "SES",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "-0.50",
+          "unit": null,
+          "denominator": "66 patients",
+          "time": "baseline to follow-up",
+          "subgroup": "worsened FT12",
+          "comparator": null,
+          "direction": "SRM",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "-0.39",
+          "unit": null,
+          "denominator": "66 patients",
+          "time": "baseline to follow-up",
+          "subgroup": "worsened FT12",
+          "comparator": null,
+          "direction": "SES",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Test-retest reliability and responsiveness, paragraph 1",
+        "doi_10.1186_s12955-024-02303-5.xml — Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The T1 and T2 groups had different mean follow-up intervals.",
+      "about": [
+        "sam2",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "5.8",
+          "unit": "weeks",
+          "denominator": "148 patients",
+          "time": "baseline to T1 follow-up",
+          "subgroup": "T1 follow-up group",
+          "comparator": null,
+          "direction": "mean follow-up duration",
+          "uncertainty": "SD 3.0 weeks; range 1.9–13.0 weeks"
+        },
+        {
+          "reported_value": "11.6",
+          "unit": "weeks",
+          "denominator": "150 patients",
+          "time": "baseline to T2 follow-up",
+          "subgroup": "T2 follow-up group",
+          "comparator": null,
+          "direction": "mean follow-up duration",
+          "uncertainty": "SD 4.0 weeks; range 4.0–25.9 weeks"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Results > Patient characteristics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The five-patient pilot found no need to modify the questionnaire after feasibility and comprehensibility testing.",
+      "about": [
+        "sam6",
+        "iu1"
+      ],
+      "values": [],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that the Indonesian FACIT-COST (v2) has acceptable psychometric performance and may be used to assess financial toxicity in patients.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f6",
+        "f7"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Conclusions, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors supported the two-factor structure, which represents adverse experiences of financial burden and perceived ability to manage financial burden.",
+      "finding_ids": [
+        "f2"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The sample included only female patients with one cancer type.",
+      "about": [
+        "pop1",
+        "sam1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study took place at a public referral hospital where almost all patients had insurance, which may explain the absence of worst possible scores and limits applicability to other care settings.",
+      "about": [
+        "pop1",
+        "f1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Some analyses may have been underpowered because subgroup sample sizes were limited.",
+      "about": [
+        "sam3",
+        "sam4",
+        "sam5",
+        "f4",
+        "f6",
+        "f7"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Subjective financial toxicity",
+      "description": "Perceived distress related to a patient’s cancer-associated financial burden.",
+      "about": [
+        "iu1",
+        "o1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Introduction, paragraph 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Administration mode of the Indonesian FACIT-COST",
+      "statements": [
+        {
+          "statement": "The abstract reports that the official Indonesian FACIT-COST (v2) was administered to patients by interviewers.",
+          "source": [
+            "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The full Methods report that patients completed the paper-and-pencil questionnaire themselves, with research assistants available to provide explanations when needed.",
+          "source": [
+            "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+          ]
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    }
+  ]
+}

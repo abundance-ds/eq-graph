@@ -1,0 +1,1178 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P013",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This study was funded by the EuroQol Research Foundation (Project 20190690).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study makes integration and use of the EQ‐5D‐5L in two primary-care program evaluations a primary research object. It reports EuroQol Research Foundation funding for this study.",
+    "source": [
+      "Deterministic metadata, title and abstract",
+      "Full article, Introduction, final paragraph",
+      "Full article, Acknowledgments, final paragraph"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "EQ‐5D‐5L integration in two EOPCN primary-care program evaluations",
+      "primary_research_family": "APPLIED_USE_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is the use and integration of EQ‐5D‐5L measurement in routine primary-care program evaluation. Health-status descriptions are reported as evidence for this applied-use aim.",
+      "source": [
+        "Full article, Abstract, Background and Aims",
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "IMPLEMENTATION_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 2,
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Exercise and active living program",
+      "source": [
+        "Full article, Methods > Program Descriptions and Populations, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Nutrition program",
+      "source": [
+        "Full article, Methods > Program Descriptions and Populations, paragraph 2"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Alberta general-population norms comparator",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph",
+        "Full article, Table 2 and table note"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "EOPCN source-record flow and repeated-measure eligibility",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Methods > Data Analysis, paragraphs 1–4"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Methods > Data Analysis, paragraphs 1–4"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "temporal_structure",
+      "value": "VARIABLE_SOURCE_TIME",
+      "source": [
+        "Full article, Table 2 and table note",
+        "Full article, Reference 31"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d13",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d14",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d15",
+      "study_id": "s1",
+      "part_id": "part4",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d16",
+      "study_id": "s1",
+      "part_id": "part4",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d17",
+      "study_id": "s1",
+      "part_id": "part4",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d18",
+      "study_id": "s1",
+      "part_id": "part4",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adult EOPCN patients in the exercise and active living program",
+      "role": "program population",
+      "geographies": [
+        "Edmonton, Alberta, Canada"
+      ],
+      "conditions": [
+        "Mobility or exercise concerns",
+        "Chronic diseases and injuries"
+      ],
+      "age_description": "Adults; mean age 57 years (SD 16) at baseline",
+      "inclusion_description": "Patients in the exercise and active living program with a completed baseline EQ‐5D‐5L; those with baseline and at least one later assessment were included in change analyses.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Methods > Program Descriptions and Populations, paragraph 1",
+        "Full article, Results > Exercise and Active Living Program, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Adult EOPCN patients in the nutrition program",
+      "role": "program population",
+      "geographies": [
+        "Edmonton, Alberta, Canada"
+      ],
+      "conditions": [
+        "Nutritional and dietary concerns",
+        "Weight management and chronic disease prevention"
+      ],
+      "age_description": "Adults; mean age 50 years (SD 17) at baseline",
+      "inclusion_description": "Patients in the nutrition program with a completed baseline EQ‐5D‐5L; those with baseline and at least one later assessment were included in change analyses.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Methods > Program Descriptions and Populations, paragraph 2",
+        "Full article, Results > Nutrition Program, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Alberta general population represented by age- and sex-matched EQ‐5D‐5L norms",
+      "role": "external comparator",
+      "geographies": [
+        "Alberta, Canada"
+      ],
+      "conditions": [],
+      "age_description": "General population norms matched by age and sex",
+      "inclusion_description": null,
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph",
+        "Full article, Table 2 and table note"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop4",
+      "study_id": "s1",
+      "part_id": "part4",
+      "label": "Adult EOPCN patients with electronic medical records available during the study period",
+      "role": "source-record population",
+      "geographies": [
+        "Edmonton, Alberta, Canada"
+      ],
+      "conditions": [],
+      "age_description": "Adults",
+      "inclusion_description": "Adult EOPCN patients with electronic medical record data drawn between January 1, 2021 and March 31, 2022; only the exercise and active living and nutrition programs were examined in the reported analysis.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 301,
+      "size_text": "301 patients completed the baseline EQ‐5D‐5L",
+      "unit": "patients",
+      "description": "Baseline exercise and active living program sample.",
+      "source": [
+        "Full article, Results > Exercise and Active Living Program, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 112,
+      "size_text": "112 repeated the measurement",
+      "unit": "patients",
+      "description": "Exercise and active living participants included in the repeated-measure change analysis after application of repeated-measure eligibility criteria.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Results > Exercise and Active Living Program, paragraph 1",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 573,
+      "size_text": "573 patients completed the EQ‐5D‐5L at baseline",
+      "unit": "patients",
+      "description": "Baseline nutrition program sample.",
+      "source": [
+        "Full article, Results > Nutrition Program, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 212,
+      "size_text": "212 repeated the measurement",
+      "unit": "patients",
+      "description": "Nutrition participants included in the repeated-measure change analysis after application of repeated-measure eligibility criteria.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Results > Nutrition Program, paragraph 1",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part4",
+      "population_id": "pop4",
+      "stage": "ENROLLED",
+      "size": 2199,
+      "size_text": "A total of 2,199 adult EOPCN patients had data drawn from electronic medical records",
+      "unit": "patient records",
+      "description": "Source records available from all EOPCN programs during the study period before restriction to the two programs examined in this paper.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam7",
+      "study_id": "s1",
+      "part_id": "part4",
+      "population_id": "pop4",
+      "stage": "EXCLUDED",
+      "size": 25,
+      "size_text": "Records were excluded if pre and post assessments were completed on the same day (n = 25)",
+      "unit": "patient records",
+      "description": "Same-day pre/post records excluded by the repeated-measure eligibility rule before the program-specific change analyses represented by sam2 and sam4.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EOPCN electronic medical records for the exercise and active living program, January 1, 2021 to March 31, 2022",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of routinely collected EQ‐5D‐5L and patient-characteristic data.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EOPCN electronic medical records for the nutrition program, January 1, 2021 to March 31, 2022",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of routinely collected EQ‐5D‐5L and patient-characteristic data.",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "APERSU (2018), Alberta Population Norms for EQ‐5D‐5L",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "AGGREGATE_ESTIMATE",
+      "purpose": "Age- and sex-matched population comparison.",
+      "source": [
+        "Full article, Table 2 and table note",
+        "Full article, Reference 31"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ‐5D‐5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "IMPLEMENTATION_OBJECT",
+      "source": [
+        "Full article, Abstract, Background and Aims",
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ‐5D‐5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Methods > Measures, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "EQ‐5D‐5L Alberta population norms",
+      "registry_id": null,
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph",
+        "Full article, Table 2 and table note"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu2",
+      "source_label": "Canadian EQ‐5D‐5L value set",
+      "registry_id": "product:eq-5d-5l-ca",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods > Measures, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "descriptive analysis by EQ‐5D‐5L dimension, index, and visual analog scale scores",
+      "registry_id": "method:descriptive-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Abstract, Methods"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Pareto Classification of Health Change (PCHC)",
+      "registry_id": "method:paretian-classification-of-health-change",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Data Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "previously published minimally important differences (MID): 0.04 for the EQ‐5D‐5L index and 7.0 for the VAS",
+      "registry_id": "method:minimally-important-difference-mid",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Data Analysis, paragraphs 2–4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "effect size of change calculated as average change score divided by baseline score standard deviation",
+      "registry_id": "method:standardized-effect-size",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "comparison with Alberta general population norms matched by age and sex",
+      "registry_id": "method:cnf-p013-alberta-norm-matched-comparison",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Data Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "patient",
+      "perspective": "patient self-report of own current health",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "tablet",
+      "setting": "waiting room at EOPCN program entry and follow-up",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today for the EQ VAS",
+      "time_point": "baseline at program entry and individually timed repeated assessments; the last repeat was used when multiple repeats existed",
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Methods > Measures, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Exercise and active living program EQ‐5D‐5L dimensions, index, and EQ VAS at baseline and follow-up",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article, Results > Exercise and Active Living Program",
+        "Full article, Table 2",
+        "Full article, Figure 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Nutrition program EQ‐5D‐5L dimensions, index, and EQ VAS at baseline and follow-up",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article, Results > Nutrition Program",
+        "Full article, Table 2",
+        "Full article, Figure 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "IMPLEMENTATION",
+      "label": "Use of routine EQ‐5D‐5L results to inform primary-care program evaluation and decisions",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "At baseline, pain/discomfort was the most frequently reported EQ‐5D‐5L problem in the exercise and active living program; mean index and VAS scores were 0.74 and 66.5.",
+      "about": [
+        "out1",
+        "sam1"
+      ],
+      "values": [
+        {
+          "reported_value": "90.2",
+          "unit": "% reporting levels 2–5 in pain/discomfort",
+          "denominator": "301 baseline participants",
+          "time": "baseline",
+          "subgroup": "exercise and active living program",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.74",
+          "unit": "EQ‐5D‐5L index score",
+          "denominator": "301 baseline participants",
+          "time": "baseline",
+          "subgroup": "exercise and active living program",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 0.18"
+        },
+        {
+          "reported_value": "66.5",
+          "unit": "EQ VAS points",
+          "denominator": "301 baseline participants",
+          "time": "baseline",
+          "subgroup": "exercise and active living program",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 18.9"
+        }
+      ],
+      "source": [
+        "Full article, Results > Exercise and Active Living Program, paragraphs 1–2",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Among exercise and active living participants with repeated measurements, 36.6% improved and 22.3% deteriorated by PCHC; mean index and VAS changes were small and did not reach the MID thresholds.",
+      "about": [
+        "out1",
+        "sam2",
+        "sam7",
+        "mu2",
+        "mu3",
+        "mu4"
+      ],
+      "values": [
+        {
+          "reported_value": "36.6",
+          "unit": "% improved by PCHC",
+          "denominator": "112 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "exercise and active living program",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "22.3",
+          "unit": "% deteriorated by PCHC",
+          "denominator": "112 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "exercise and active living program",
+          "comparator": null,
+          "direction": "deteriorated",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.01",
+          "unit": "mean EQ‐5D‐5L index change",
+          "denominator": "112 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "exercise and active living program",
+          "comparator": "MID 0.04",
+          "direction": "increase below MID",
+          "uncertainty": "SD 0.11; effect size 0.1"
+        },
+        {
+          "reported_value": "5.0",
+          "unit": "mean EQ VAS point change",
+          "denominator": "112 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "exercise and active living program",
+          "comparator": "MID 7.0",
+          "direction": "increase below MID",
+          "uncertainty": "SD 13.7; effect size 0.3"
+        }
+      ],
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Results > Exercise and Active Living Program, paragraph 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "For exercise and active living participants, the largest dimension improvement was in usual activities and the largest deterioration was in pain/discomfort.",
+      "about": [
+        "out1",
+        "sam2"
+      ],
+      "values": [
+        {
+          "reported_value": "17",
+          "unit": "% improved",
+          "denominator": "112 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "usual activities",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "25",
+          "unit": "% deteriorated",
+          "denominator": "112 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "pain/discomfort",
+          "comparator": null,
+          "direction": "deteriorated",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Exercise and Active Living Program, paragraph 5",
+        "Full article, Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "At baseline, pain/discomfort was the most frequently reported EQ‐5D‐5L problem in the nutrition program; mean index and VAS scores were 0.77 and 70.1.",
+      "about": [
+        "out2",
+        "sam3"
+      ],
+      "values": [
+        {
+          "reported_value": "75.9",
+          "unit": "% reporting levels 2–5 in pain/discomfort",
+          "denominator": "573 baseline participants",
+          "time": "baseline",
+          "subgroup": "nutrition program",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.77",
+          "unit": "EQ‐5D‐5L index score",
+          "denominator": "573 baseline participants",
+          "time": "baseline",
+          "subgroup": "nutrition program",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 0.19"
+        },
+        {
+          "reported_value": "70.1",
+          "unit": "EQ VAS points",
+          "denominator": "573 baseline participants",
+          "time": "baseline",
+          "subgroup": "nutrition program",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 15.6"
+        }
+      ],
+      "source": [
+        "Full article, Results > Nutrition Program, paragraphs 1–2",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Among nutrition participants with repeated measurements, 37.3% improved and 24.5% deteriorated by PCHC; mean index and VAS changes were small and did not reach the MID thresholds.",
+      "about": [
+        "out2",
+        "sam4",
+        "sam7",
+        "mu2",
+        "mu3",
+        "mu4"
+      ],
+      "values": [
+        {
+          "reported_value": "37.3",
+          "unit": "% improved by PCHC",
+          "denominator": "212 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "nutrition program",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "24.5",
+          "unit": "% deteriorated by PCHC",
+          "denominator": "212 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "nutrition program",
+          "comparator": null,
+          "direction": "deteriorated",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.02",
+          "unit": "mean EQ‐5D‐5L index change",
+          "denominator": "212 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "nutrition program",
+          "comparator": "MID 0.04",
+          "direction": "increase below MID",
+          "uncertainty": "SD 0.11; effect size 0.1"
+        },
+        {
+          "reported_value": "1.0",
+          "unit": "mean EQ VAS point change",
+          "denominator": "212 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "nutrition program",
+          "comparator": "MID 7.0",
+          "direction": "increase below MID",
+          "uncertainty": "SD 15.6; effect size 0.1"
+        }
+      ],
+      "source": [
+        "Full article, Methods > Design and Setting, paragraph 1",
+        "Full article, Results > Nutrition Program, paragraph 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "For nutrition participants, the largest dimension improvement was in anxiety/depression and the largest deterioration was in pain/discomfort.",
+      "about": [
+        "out2",
+        "sam4"
+      ],
+      "values": [
+        {
+          "reported_value": "16",
+          "unit": "% improved",
+          "denominator": "212 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "anxiety/depression",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "26",
+          "unit": "% deteriorated",
+          "denominator": "212 repeated-measure participants",
+          "time": "baseline to post",
+          "subgroup": "pain/discomfort",
+          "comparator": null,
+          "direction": "deteriorated",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Nutrition Program, paragraph 5",
+        "Full article, Figure 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Both program populations had lower self-reported health than the Alberta general-population norms at baseline and remained lower after small post-program improvements.",
+      "about": [
+        "out1",
+        "out2",
+        "du3",
+        "iu3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.84",
+          "unit": "mean EQ‐5D‐5L index score",
+          "denominator": "30,576 people in the Alberta norms",
+          "time": "norm reference",
+          "subgroup": "Alberta general population",
+          "comparator": "exercise baseline 0.74 and post 0.75; nutrition baseline 0.77 and post 0.79",
+          "direction": "higher than both program samples",
+          "uncertainty": "SD 0.14"
+        },
+        {
+          "reported_value": "77.4",
+          "unit": "mean EQ VAS points",
+          "denominator": "30,576 people in the Alberta norms",
+          "time": "norm reference",
+          "subgroup": "Alberta general population",
+          "comparator": "exercise baseline 66.5 and post 71.5; nutrition baseline 70.1 and post 71.0",
+          "direction": "higher than both program samples",
+          "uncertainty": "SD 17.1"
+        }
+      ],
+      "source": [
+        "Full article, Table 2",
+        "Full article, Results > Exercise and Active Living Program, paragraph 2",
+        "Full article, Results > Nutrition Program, paragraph 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "No baseline characteristics were statistically significant.",
+      "about": [
+        "out1",
+        "out2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Abstract, Results"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpreted the results as showing modest improvement and maintenance of health status, with EQ‐5D‐5L data adding the patient perspective to primary-care program evaluation.",
+      "finding_ids": [
+        "f2",
+        "f3",
+        "f5",
+        "f6",
+        "f7"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that routine EQ‐5D‐5L implementation can inform decisions about program quality and service delivery and help primary-care programs respond to patient needs.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f4",
+        "f5",
+        "f7"
+      ],
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Differential loss to follow-up could have occurred among patients who completed only the pre-program survey.",
+      "about": [
+        "sam2",
+        "sam4"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Missing data, the absence of a control arm, and the limited repeated-measure sample created methodological challenges.",
+      "about": [
+        "sam2",
+        "sam4",
+        "d5",
+        "d10"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The researchers could not link EQ‐5D‐5L data to other patient data, which limited the analysis.",
+      "about": [
+        "du1",
+        "du2",
+        "iu2"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The findings are not generalizable to other populations, although the authors considered them potentially transferable to similar primary-care programs.",
+      "about": [
+        "pop1",
+        "pop2"
+      ],
+      "source": [
+        "Full article, Strengths and Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Meso-level use of patient-reported outcome measures",
+      "description": "Use of aggregate PROM data to evaluate and plan services for a program or patient group.",
+      "about": [
+        "iu1",
+        "out3"
+      ],
+      "source": [
+        "Full article, Introduction, paragraph 2",
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Maintenance of health status as a positive primary-care program outcome",
+      "description": "In relatively healthy primary-care populations, prevention of deterioration can be a meaningful outcome even without large improvement.",
+      "about": [
+        "out1",
+        "out2",
+        "int1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph 3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "run": "run-software-gap-completion-repair-01",
+  "model": "gpt-5.6-sol",
+  "workers": 1,
+  "reasoning_effort": "high",
+  "manifest": "pilot/ontology-development-v4/production/prepared-software-gap-completion-repair/MANIFEST.tsv",
+  "manifest_sha256": "50c496259ebaee098b252480ebaebd3a48e2dc6f1f2311c5693d7fc8c0ade45e",
+  "schema_sha256": "196cf05f2fed484d8c46207c14bb3b1d2b9749516344cd23e9720df34fc2fb04",
+  "records": 1,
+  "successful": 1,
+  "failed": 0,
+  "elapsed_agent_seconds": 180.617,
+  "usage": {
+    "input_tokens": 68805,
+    "cached_input_tokens": 0,
+    "output_tokens": 9727,
+    "reasoning_output_tokens": 1804
+  },
+  "results": [
+    {
+      "status": "ok",
+      "record_id": "CNF-P001",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "started_unix": 1787250151.1017542,
+      "finished_unix": 1787250331.718505,
+      "elapsed_seconds": 180.617,
+      "input_path": "pilot/ontology-development-v4/production/prepared-software-gap-completion-repair/inputs/CNF-P001.md",
+      "input_sha256": "2d6551c22543713eeb745715c757eeb7f8cc71edf0a31bf802f57aaa9ec6d752",
+      "schema_sha256": "196cf05f2fed484d8c46207c14bb3b1d2b9749516344cd23e9720df34fc2fb04",
+      "output_path": "pilot/ontology-development-v4/production/run-software-gap-completion-repair-01/records/CNF-P001.json",
+      "output_sha256": "ce3ee9c54b0b3830b8354506fffff97149171662cf11b91077f625e2b321ee9f",
+      "trace_path": "pilot/ontology-development-v4/production/run-software-gap-completion-repair-01/traces/CNF-P001.jsonl",
+      "usage": {
+        "input_tokens": 68805,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9727,
+        "reasoning_output_tokens": 1804
+      }
+    }
+  ]
+}

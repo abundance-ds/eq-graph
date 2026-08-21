@@ -1,0 +1,519 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P018",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "none-stated",
+    "support_scope": null,
+    "publication_form": "REVIEW_ARTICLE",
+    "publication_relation": null,
+    "reason": "The narrative review and proposal make EQ-5D-5L selection, validation, implementation, and utility reporting primary research objects. EQ-5D is not only an outcome or model input. The acknowledgement names university groups but does not link EuroQol support to the work.",
+    "source": [
+      "Structured metadata, article_type and funding",
+      "Full article, Abstract",
+      "Full article, Core Tip",
+      "Full article, EQ-5D DESCRIPTION, USES, CONVERSION TO HEALTH-UTILITY AND QALYS",
+      "Full article, ACKNOWLEDGEMENTS"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Conceptual proposal for EQ-5D-5L adoption and health-utility reporting in critical care",
+      "primary_research_family": "APPLIED_USE_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is a completed conceptual proposal for wider EQ-5D-5L use, validation, and visualization in critical care. It proposes a workflow that reports health utility and mortality separately and as QALYs. It does not conduct an empirical validation or a systematic evidence synthesis.",
+      "source": [
+        "Full article, Core Tip",
+        "Full article, INTRODUCTION, final paragraph",
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES",
+        "Full article, CONCLUSION"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Narrative overview and conceptual implementation proposal",
+      "source": [
+        "Full article, INTRODUCTION, final paragraph",
+        "Full article, CONCLUSION"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "CONCEPTUAL_FRAMEWORK_DEVELOPMENT",
+      "rank": 1,
+      "source": [
+        "Full article, Core Tip",
+        "Full article, INTRODUCTION, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "DECISION_SUPPORT_DEVELOPMENT",
+      "rank": 2,
+      "source": [
+        "Full article, Abstract",
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "CONCEPTUAL",
+      "source": [
+        "Full article, INTRODUCTION, final paragraph",
+        "Full article, CONCLUSION"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, article structure and CONCLUSION"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article, HISTORY OF EXISTING HEALTH-RELATED QUALITY-OF-LIFE MEASUREMENT TOOLS IN CRITICAL CARE",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, article structure and CONCLUSION"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Critically ill patients and intensive care unit survivors",
+      "role": "Target population for the proposed HRQoL measurement and reporting approach",
+      "geographies": [],
+      "conditions": [
+        "Critical illness"
+      ],
+      "age_description": null,
+      "inclusion_description": null,
+      "source": [
+        "Full article, INTRODUCTION, paragraphs 1-3",
+        "Full article, CONCLUSION"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Narratively cited literature and conceptual examples",
+      "origin": "CONCEPTUAL_MATERIAL",
+      "level": "DOCUMENT",
+      "purpose": "Support the overview and conceptual recommendations for HRQoL, utility, and QALY reporting in critical care",
+      "source": [
+        "Full article, INTRODUCTION through HRQOL IMPLEMENTATION AND MEASUREMENT",
+        "Full article, References"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "IMPLEMENTATION_OBJECT",
+      "source": [
+        "Full article, Abstract",
+        "Full article, EQ-5D DESCRIPTION, USES, CONVERSION TO HEALTH-UTILITY AND QALYS",
+        "Full article, CONCLUSION"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "European quality of life five dimensions (EQ-5D)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Short Form-36 (SF-36)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, HISTORY OF EXISTING HEALTH-RELATED QUALITY-OF-LIFE MEASUREMENT TOOLS IN CRITICAL CARE, paragraphs 2-4",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "SF-6D",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, HISTORY OF EXISTING HEALTH-RELATED QUALITY-OF-LIFE MEASUREMENT TOOLS IN CRITICAL CARE, paragraphs 2-4",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Health Utility Index mark 3 [HUI3]",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, HISTORY OF EXISTING HEALTH-RELATED QUALITY-OF-LIFE MEASUREMENT TOOLS IN CRITICAL CARE, paragraphs 2 and 5",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, CONCLUSION, paragraph 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D proxy versions",
+      "registry_id": null,
+      "context": "PLANNED_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, HRQOL IMPLEMENTATION AND MEASUREMENT, limitations paragraph",
+        "Full article, CONCLUSION, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "reporting health-utility alongside mortality on Kaplan-Meier curves",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "UNMAPPED_VALUE",
+      "source": [
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES",
+        "Full article, CONCLUSION, paragraph 1"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu2",
+      "source_label": "Canadian scoring algorithm for the EQ-5D index",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DISCUSSION_ONLY",
+      "source": [
+        "Full article, EQ-5D DESCRIPTION, USES, CONVERSION TO HEALTH-UTILITY AND QALYS, paragraph 2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu6"
+      ],
+      "respondent": "Patient",
+      "perspective": "Patient self-report",
+      "completion": "Self-completed patient-reported measure",
+      "assistance": null,
+      "channel": null,
+      "setting": "Critical care",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Pre-hospital baseline; admission; during ICU stay; discharge",
+      "source": [
+        "Full article, CONCLUSION, paragraph 2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu7"
+      ],
+      "respondent": "Proxy, such as a surrogate decision-maker or caregiver",
+      "perspective": "Proxy report of the patient's HRQoL",
+      "completion": "Proxy completion",
+      "assistance": null,
+      "channel": null,
+      "setting": "Critical care",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Pre-hospital baseline; admission; during ICU stay; discharge",
+      "source": [
+        "Full article, HRQOL IMPLEMENTATION AND MEASUREMENT, final paragraph",
+        "Full article, CONCLUSION, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "CONCEPTUAL_CLASSIFICATION",
+      "label": "Suitability and proposed implementation of EQ-5D-5L for standardized HRQoL and utility reporting in critical care",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article, EQ-5D DESCRIPTION, USES, CONVERSION TO HEALTH-UTILITY AND QALYS",
+        "Full article, CONCLUSION"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Critical care studies have not routinely measured HRQoL, in part because some patients cannot complete patient-reported measures and some existing tools are burdensome.",
+      "about": [
+        "o1",
+        "pop1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Abstract",
+        "Full article, HISTORY OF EXISTING HEALTH-RELATED QUALITY-OF-LIFE MEASUREMENT TOOLS IN CRITICAL CARE, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors identify EQ-5D as the most promising current HRQoL tool for critical care because it is brief, covers low utility states, includes a health VAS, has translated versions, and supports country-specific scoring.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu5"
+      ],
+      "values": [],
+      "source": [
+        "Full article, EQ-5D DESCRIPTION, USES, CONVERSION TO HEALTH-UTILITY AND QALYS, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "An aggregate QALY result can conceal different contributions from survival and health utility, while disaggregated graphical reporting can show the outcome drivers.",
+      "about": [
+        "mu1",
+        "o1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES, paragraphs 1-2 and Figures 1-2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "EQ-5D-5L patient and proxy versions should be validated as standardized HRQoL measures for critical care research.",
+      "finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, CONCLUSION, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Critical care studies should report health utility and mortality separately and also report their aggregated QALY result to support interpretation and decision-making.",
+      "finding_ids": [
+        "f3"
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES, paragraph 2",
+        "Full article, CONCLUSION, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Patient incapacity can prevent self-report, patient and proxy ratings can differ, and retrospective baseline ratings can be affected by recall bias.",
+      "about": [
+        "pop1",
+        "iu6",
+        "iu7"
+      ],
+      "source": [
+        "Full article, HRQOL IMPLEMENTATION AND MEASUREMENT, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Different HRQoL tools can assign different utilities to the same health state, and EQ-VAS ratings can differ from EQ-5D-5L algorithm scores.",
+      "about": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "o1"
+      ],
+      "source": [
+        "Full article, EQ-5D DESCRIPTION, USES, CONVERSION TO HEALTH-UTILITY AND QALYS, paragraph 2",
+        "Full article, HRQOL IMPLEMENTATION AND MEASUREMENT, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Critical care QALYs can be skewed by mortality, the correct measurement horizon is uncertain, and longer follow-up increases loss to follow-up and incomplete data.",
+      "about": [
+        "o1",
+        "mu1"
+      ],
+      "source": [
+        "Full article, HRQOL IMPLEMENTATION AND MEASUREMENT, QALY challenges paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Disaggregated QALY reporting",
+      "description": "Report health utility and survival or mortality separately alongside the aggregated QALY result so that the drivers of the result remain visible.",
+      "about": [
+        "mu1",
+        "f3",
+        "int2"
+      ],
+      "source": [
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES",
+        "Full article, CONCLUSION, paragraph 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "EQ-5D-5L as a proposed gold-standard critical care HRQoL tool",
+      "description": "The authors propose focused validation and standardized use of patient and proxy EQ-5D versions in critical care.",
+      "about": [
+        "iu1",
+        "iu6",
+        "iu7",
+        "int1"
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, CONCLUSION"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": "s1",
+      "part_id": null,
+      "state": "UNMAPPED_VALUE",
+      "affected_item_id": "mu1",
+      "affected_type": "MethodUse",
+      "affected_key": "function",
+      "evidence": "The paper proposes graphical reporting of health utility alongside mortality on Kaplan-Meier curves, but the method-function vocabulary has no reporting or visualization value.",
+      "importance": "This proposed reporting method is a principal contribution of the paper.",
+      "proposed_resolution": "Consider a method function for reporting or visualization if this use recurs across studies.",
+      "source": [
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES",
+        "Full article, CONCLUSION, paragraph 1"
+      ]
+    }
+  ]
+}

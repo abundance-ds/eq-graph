@@ -1,0 +1,25 @@
+{
+  "batch_id": "A001",
+  "audits": [
+    {
+      "record_id": "CNF-P001",
+      "verdict": "MAJOR",
+      "source_locations": [
+        "Full article, Methods, first paragraph",
+        "Full article, Methods > The ‘Lite’ EQ-5D-5L Valuation Protocol",
+        "Full article, Methods > Data Collection, first and final paragraphs",
+        "Full article, Methods > Model Construction",
+        "Full article, Methods > Model Evaluation",
+        "Full article, Methods > Value Set Estimation",
+        "Full article, Results, first paragraph",
+        "Full article, Results, paragraphs before Tables 3 and 4",
+        "Full article, Tables 3 and 4",
+        "Full article, Discussion, first and second paragraphs",
+        "Full article, Discussion, limitations paragraph",
+        "Full article, Conclusions"
+      ],
+      "repair": "Keep the inclusion decision, EuroQol support, publication form, single Study, primary family, purposes, and study status. Make these corrections: (1) Delete ProtocolUse pu3. EQ-VT version 2.1 is a computer-assisted interviewing program, not a valuation protocol. Keep pu1 as the ‘lite’ valuation protocol and pu2 as the quality-control protocol. Preserve EQ-VT in Administration and address the software-use ontology gap below. (2) Delete ScoringUse su1. The Singapore value set is an output derived from cTTO data. The study did not apply that value set to participant EQ-5D responses. Keep Product p1, its development assertion, and the selected estimation model. (3) Correct the model representation. The authors tested six Tobit regression specifications, and estimated each with and without accounting for heteroskedasticity. Do not represent ‘tobit modelling’ as a separate candidate model. Make each candidate label identify its Tobit specification. Keep the heteroskedastic ADD20-I specification as PRIMARY_REPORTED. Record accounting versus not accounting for heteroskedasticity as the tested model condition. (4) Add the missing principal finding that only mobility × anxiety/depression and pain/discomfort × anxiety/depression were significant interaction terms in the selected ADD20-I model; each coefficient was −0.007 with SE 0.003. Link int2 to this finding. Do not use the dimension-ranking finding f6 as its evidence. (5) Correct TaskDesign td1. Each final 20-state block contained state 55555 and one of the five specified second-poorest states, not 55555 or a second-poorest state. (6) Do not classify the 533 eligible registrants as APPROACHED. The source only says that they registered. Remove sam1 or preserve the count with an UNMAPPED_VALUE gap for the sample-stage key. (7) Split du1 into cTTO valuation responses used for model estimation and questionnaire or demographic data used to describe participants and current health. Both have CURRENT_STUDY_COLLECTION origin and PARTICIPANT_RESPONSE level. (8) Add StudyFactors for interview mode, ethnicity, and education attainment because the record reports analyses by these factors. Use STRATIFIER and preserve the reported levels. Link f8 and f9 to the applicable factors. Also record the model variance specification, accounting versus not accounting for heteroskedasticity, as a studied model condition. (9) In f4, change ‘759,375 ordered pairs’ to ‘759,375 pairs of EQ-5D-5L health states’; the article does not call them ordered pairs. (10) Remove the redundant whole-study StudyPart part1 and set its item links to the Study, or replace it with genuinely separable collection and model-estimation parts and scope all uses and findings consistently.",
+      "ontology_gap": "The ontology has no use entity for pre-existing software or computational systems. It therefore cannot accurately represent use of EuroQol Valuation Technology version 2.1 for computer-assisted interviews or the xreg package for fitting the models. ProtocolUse would misclassify these programs, while Product describes study outputs rather than software used as an input."
+    }
+  ]
+}

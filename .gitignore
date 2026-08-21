@@ -18,7 +18,10 @@ __pycache__/
 
 # Local pipeline work and active run output
 /artefacts/
-/pilot/
+!/pilot/
+/pilot/*
+!/pilot/ontology-development-v4/
+!/pilot/ontology-development-v4/**
 /scale/
 /runs/
 /work/

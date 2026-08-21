@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "publications": 209,
+    "studies": 207,
+    "items": 15430,
+    "mapped_registry_uses": 1022,
+    "unresolved_registry_uses": 3457,
+    "citation_occurrences": 9363,
+    "resolved_citation_edges": 573,
+    "projects": 1024,
+    "project_publications": 242
+  },
+  "failures": {},
+  "database_sha256": "db09fab8ebc2905b00efb3593975791bc497c544b0f91d86e9caa31c06bbf3e8",
+  "database_bytes": 28332032
+}

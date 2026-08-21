@@ -43,7 +43,8 @@ Extraction can identify concepts that the schema does not yet represent, and the
   project-link threshold and **287 full texts** on disk. This is discovery
   evidence, not a completed full-text assessment.
   The corpus contains Markdown for all 220 JATS XML files and the 7 PDF files used in the ontology pilot.
-  The converter supports the remaining PDFs, but they have not been converted in bulk.
+  The PDF converter passed all 67 local PDFs. The other 60 have not yet entered
+  the audited corpus.
 - The author and funding routes produced a deduplicated union of **28,600 records**, including **23,175 articles or reviews**.
 - Binary identity QA accepted **222 profiles** for the current author route.
 - A total of **94 people** and **76 additional profile suggestions** remain in a separate identity queue.
@@ -67,14 +68,20 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
 
 ### Audited research graph
 
-- The current audited SQLite graph covers **209 local JATS publications** and
-  **207 included studies**. It contains **17,650 nodes**, **26,143 typed
-  relationships**, **871 principal findings**, **602 limitations**, and **191
-  source conflicts**.
-- An independent full-source audit checked all 207 included records. It passed
-  121 unchanged, corrected 86, and left no unresolved material issue. A strong
-  source-verification pass is now mandatory after the low-cost draft pass.
-- The project-link audit checked 260 paper-project pairs. The final graph has
+- The completed version-0.13 run covers the project-first corpus of **209 local
+  JATS publications**. All 209 corrected records pass deterministic validation:
+  **207 studies**, one correction notice, and one excluded paper.
+- The corrected records contain **15,430 typed items**, including **1,951
+  findings**, **939 limitations**, **96 products**, **188 source conflicts**,
+  and **210 explicit gaps**.
+- Each paper used one Opus draft and one fresh Opus full-source review. Draft
+  review returned **7 PASS**, **202 MINOR**, **0 MAJOR**, and **846
+  corrections**. The corrected record, not the draft, is the load candidate.
+- The version-2 SQLite database and shared preview release are in packaging.
+  The preview is not the final analytical release. The full aggregate-validity
+  rerun against all 100 questions and focused version-0.14 gap work remain. No
+  claim is made that the 100 questions pass.
+- The project-link audit checked 260 paper-project pairs. The version-1 graph has
   **242 accepted links** and keeps **14 possible links** as reviewable
   assessments without trusted support or output edges.
 - The former Aura load is a historical small pilot. It is not the current data
@@ -84,8 +91,48 @@ See [`scale/protocol-2.0/PAUSE_2026-08-05.md`](scale/protocol-2.0/PAUSE_2026-08-
   holdout. One paper call combines full-text assessment and conditional draft
   extraction; deterministic code then normalizes and loads source-verified
   facts. The final database passes structure, exact-domain, linkage, integrity,
-  and foreign-key checks. See
+  and foreign-key checks.
+- A later aggregate-validity test asked all 100 competency questions against
+  the serving database. Of 99 testable reviewer-question runs, 37 passed
+  cleanly, 36 were partial, and 26 failed. Broad researcher-facing aggregates
+  are paused while identity, classification, role, missingness, and serving-
+  layer defects are repaired. See the
+  [`aggregate-validity synthesis`](pilot/ontology-development-v3/aggregate-validity/SYNTHESIS.md)
+  and
   [`pilot/ontology-development-v3/production-calibration/DECISION.md`](pilot/ontology-development-v3/production-calibration/DECISION.md).
+
+### Replacement ontology candidate
+
+- Version 4 is a clean analytical reset. It did not edit or relabel the
+  current 209-paper database.
+- Four controlled rounds covered 60 diverse papers. Independent agents applied
+  the model, blind agents reapplied it, and a separate reviewer checked
+  disputed source passages.
+- The compact version-0.13 candidate has 12 exact-one study families, separate
+  scientific axes, typed uses, exact registries, open concepts and findings,
+  and explicit gap states.
+- The final blind family test matched 59 of 60 source-adjudicated studies and
+  found no missing structure. Primary family remains a governed field before
+  aggregate publication.
+- A later cross-audit found that software use was structurally absent. Versions
+  0.6 to 0.8 added exact software uses, optional parts for simple studies, and
+  two review-flow stages. A live audit then found a missing
+  experimental-design method role. Version 0.9 adds that bounded role. These
+  changes do not alter the family partition.
+- The reviewed registry contains 332 identities and 394 exact aliases. The
+  corrected confirmation maps 287 uses; two vague labels remain explicitly
+  unmapped.
+- Three rebuild starts were stopped and invalidated at early source-audit
+  gates. Version 0.10 added three general sample-flow stages after repeated
+  gaps. Version 0.11 then added clinical-event and health-service-use outcome
+  families after corpus-wide evidence and direct source tests. Versions 0.12
+  and 0.13 added translation methods and existing-product research roles. A
+  20-paper Opus test found no MAJOR scientific error; all corrected records
+  pass deterministic checks. The uniform 209-paper run used one Opus draft and
+  one fresh Opus source review and correction per paper. Version 1 remains
+  unchanged until version 2 passes source, integrity, and aggregate-question
+  checks.
+  See [`pilot/ontology-development-v4/`](pilot/ontology-development-v4/README.md).
 
 ### Application delivery
 
@@ -94,6 +141,9 @@ reads a deterministic, sanitized SQLite derivative of the audited graph through
 a read-only query tool. Full text, local paths, unresolved citations, possible
 links, and audit reasoning stay outside the public database. See
 [`web/README.md`](web/README.md) for implementation status.
+
+The shared version-2 preview is in packaging. It is a review release, not the
+final analytical release.
 
 ## Repository map
 
@@ -106,6 +156,7 @@ links, and audit reasoning stay outside the public database. See
 | [`artefacts/`](artefacts/) | Compact identity checkpoint and a manifest of the larger local artefact tree |
 | [`pilot/protocol-2.0/`](pilot/protocol-2.0/) | Compact pilot result and a manifest of the complete local pilot tree |
 | [`pilot/ontology-development-v3/`](pilot/ontology-development-v3/README.md) | Exact-domain ontology experiment, source validation, and JATS production pipeline |
+| [`pilot/ontology-development-v4/`](pilot/ontology-development-v4/README.md) | Typed ontology reset, controlled vocabulary, iterative applications, and blind regressions |
 | [`scale/protocol-2.0/`](scale/protocol-2.0/) | Validated scale checkpoint, compact results, and a manifest of the complete local scale tree |
 | [`corpus/`](corpus/README.md) | Retrieved full text converted to Markdown for extraction |
 | [`graph/`](graph/) | Historical Neo4j pilot ontology, schema, constraints, and indexes |
@@ -126,11 +177,14 @@ See [`docs/repository-layout.md`](docs/repository-layout.md) for the integration
 - [`scale/protocol-2.0/SCALE_STATUS.md`](scale/protocol-2.0/SCALE_STATUS.md) records the current scale funnel and work queue.
 - [`docs/COMPETENCY_QUESTIONS.md`](docs/COMPETENCY_QUESTIONS.md) defines 100 broad graph and application questions plus 20 negative tests.
 - [`pilot/ontology-development-v2/USER_QUESTIONS.md`](pilot/ontology-development-v2/USER_QUESTIONS.md) defines the focused paper-ontology requirements.
+- [`pilot/ontology-development-v4/ONTOLOGY.md`](pilot/ontology-development-v4/ONTOLOGY.md) is the compact current ontology candidate.
+- [`pilot/ontology-development-v4/VOCABULARY.tsv`](pilot/ontology-development-v4/VOCABULARY.tsv) contains its controlled values.
 
 `docs/METHOD.md` is a historical design document.
 `docs/graph-model.md` is the historical Neo4j pilot model.
-`pilot/ontology-development-v3/SCALE_UP_DECISION.md` is a completed historical
-gate; the production-calibration decision now governs.
+`pilot/ontology-development-v3/SCALE_UP_DECISION.md` and the version-3
+production-calibration classification are historical. Version 3 still records
+the source and linkage audits; version 4 now governs analytical model work.
 `FRIEND_REPO_EMPIRICAL_FINDINGS.md` is a historical assessment of the project-first pipeline at commit `68ebeab`.
 
 ## Running the project
@@ -144,8 +198,9 @@ python3 scripts/scrape.py status
 python3 scripts/to_markdown.py
 ```
 
-`to_markdown.py` needs Pandoc for JATS XML and Poppler for PDF files.
-It is offline and makes no network request.
+`to_markdown.py` needs Pandoc for JATS XML. For PDF files, install the pinned
+packages in [`requirements-pdf.txt`](requirements-pdf.txt). The converter is
+offline and makes no network request.
 
 The Protocol 2.0 reproduction commands are in [`pilot/protocol-2.0/REPRODUCE.md`](pilot/protocol-2.0/REPRODUCE.md).
 Network steps and large working outputs use ignored local directories.
@@ -190,11 +245,18 @@ No credential belongs in Git.
 
 ## Next gates
 
-1. Process the 60 local PDF-only papers with a validated general paper parser
-   and the same source-verification gate.
-2. Complete an independent human sample check of retained and excluded screening decisions.
-3. Resolve the held identity queue and create an additive tranche for newly accepted profiles.
-4. Confirm the final retained set without replacing the completed 918-batch screen.
-5. Retrieve lawful scale full text and keep unavailable papers unassessed.
-6. Repeat extraction, source audit, serving-database build, and project linkage
+1. Package the version-2 SQLite database and shared preview from the 209 valid
+   corrected records.
+2. Run corpus integrity checks and the full aggregate-validity test against all
+   100 questions. Do not present the preview as the final analytical release.
+3. Run the focused version-0.14 repair for recurrent explicit gaps.
+4. Process the 60 local PDF-only papers with the validated PDF converter and the
+   same source-page verification gate. The converter repairs PDF font maps, then
+   creates article text, headings, and tables in one structural pass. See the
+   [`PDF parser decision`](docs/PDF_PARSER_DECISION.md).
+5. Complete an independent human sample check of retained and excluded screening decisions.
+6. Resolve the held identity queue and create an additive tranche for newly accepted profiles.
+7. Confirm the final retained set without replacing the completed 918-batch screen.
+8. Retrieve lawful scale full text and keep unavailable papers unassessed.
+9. Repeat extraction, source audit, serving-database build, and project linkage
    for each new full-text tranche.

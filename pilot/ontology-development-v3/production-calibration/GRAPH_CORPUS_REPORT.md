@@ -2,9 +2,11 @@
 
 ## Decision
 
-The typed SQLite graph is complete and audited for the current 209-paper local
-JATS set. Application integration is complete, and the graph is ready for
-researcher review. It is not yet the complete 3,148-paper retained corpus.
+The source-linked SQLite graph is complete and audited for the current
+209-paper local JATS set. It is not approved for broad researcher-facing
+aggregation. A later 100-question test found repeated defects in identity,
+classification, relationship roles, missingness, and the serving projection.
+See [`../aggregate-validity/SYNTHESIS.md`](../aggregate-validity/SYNTHESIS.md).
 
 The low-cost first AI pass is not approved for unattended production. Every included record needs a strong source-verification pass before trusted graph loading.
 
@@ -146,13 +148,15 @@ The database cannot yet answer every question completely. Corpus-wide, portfolio
 
 ## Next actions
 
-Application integration is complete. The public service uses a deterministic,
-sanitized SQLite derivative of this audited graph.
+The public service uses a deterministic, sanitized SQLite derivative of this
+audited graph. Broad aggregate answers remain paused until the analytical and
+serving layers pass the 100-question test.
 
-1. Complete the PDF parser decision and process the 60 local PDF-only papers
-   with the same source-verification and project-linkage gates.
-2. Complete the independent human screening check and resolve the held identity
+1. Repair the repeated aggregate-validity failures and rerun all 100 questions.
+2. Process the 60 local PDF-only papers only after the repaired analytical
+   model is stable.
+3. Complete the independent human screening check and resolve the held identity
    queue before scale retrieval.
-3. Plan lawful full-text retrieval for the final retained set.
-4. Repeat extraction, source audit, project linkage, deterministic loading, and
+4. Plan lawful full-text retrieval for the final retained set.
+5. Repeat extraction, source audit, project linkage, deterministic loading, and
    integrity tests for each new full-text tranche.

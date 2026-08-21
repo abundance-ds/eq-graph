@@ -1,0 +1,802 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P020",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "The EuroQol Group fully funded this project. The EuroQol Research Foundation supported it as EQ Project 20170130. The foundation did not censor or direct the manuscript.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates whether the EQ-5D-5L level sum score is a valid and interpretable summary score. It tests scalability, monotonicity, reliability, and invariant item ordering. The funding statements explicitly link EuroQol funding to this project.",
+    "source": [
+      "Full article: Abstract, Background, aims paragraph",
+      "Full article: Acknowledgements and Funding",
+      "Structured metadata: funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Mokken scaling evaluation of the EQ-5D-5L level sum score",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical evaluation of the EQ-5D-5L level sum score's scalability, reliability, monotonicity, and invariant item ordering. The study does not develop new instrument content or a preference-based value set.",
+      "source": [
+        "Full article: Background, final paragraph",
+        "Full article: Methods, Mokken scale analysis through Assessment of invariant item ordering",
+        "Full article: Results",
+        "Full article: Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article: Background, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Main secondary-data Mokken scale analysis",
+      "source": [
+        "Full article: Methods, Dataset and Mokken scale analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Methods, Dataset and Mokken scale analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods, Dataset, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article: Methods, Dataset, paragraphs 1-2",
+        "Full article: Results, Stratified analysis across subgroups"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, Dataset",
+        "Full article: Declarations, Ethical approval"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adults in the Multi Instrument Comparison project, including healthy respondents and respondents with self-reported chronic illnesses",
+      "role": "analysis population",
+      "geographies": [
+        "Australia",
+        "Canada",
+        "Germany",
+        "Norway",
+        "UK",
+        "USA"
+      ],
+      "conditions": [
+        "No self-reported chronic condition",
+        "Asthma",
+        "Cancer",
+        "Depression",
+        "Diabetes",
+        "Hearing problems",
+        "Arthritis",
+        "Heart conditions"
+      ],
+      "age_description": "Adults aged 18 years or older; reported age groups ranged from 18–24 to 65+ years.",
+      "inclusion_description": "MIC respondents from six countries. The analysis excluded the chronic obstructive pulmonary disease and stroke groups because those groups were sampled only in Australia.",
+      "source": [
+        "Full article: Methods, Dataset, paragraph 1",
+        "Full article: Results, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 7933,
+      "size_text": "7,933 subjects",
+      "unit": "subjects",
+      "description": "MIC respondents included in the EQ-5D-5L Mokken scale analyses.",
+      "source": [
+        "Full article: Results, opening paragraph",
+        "Full article: Results, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": null,
+      "size_text": "Not reported",
+      "unit": "subjects",
+      "description": "Respondents in the chronic obstructive pulmonary disease and stroke groups were excluded because those groups were sampled only in Australia.",
+      "source": [
+        "Full article: Methods, Dataset, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Multi Instrument Comparison (MIC) project dataset",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of EQ-5D-5L responses to assess scalability, reliability, monotonicity, and invariant item ordering.",
+      "source": [
+        "Full article: Methods, Dataset, paragraphs 1-2",
+        "Full article: Declarations, Ethical approval"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article: Abstract, Background and Methods",
+        "Full article: Methods, EQ-5D-5L",
+        "Full article: Methods, Mokken scale analysis"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "level sum score (LSS)",
+      "registry_id": null,
+      "product_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "source": [
+        "Full article: Background, paragraphs 2-4",
+        "Full article: Methods, EQ-5D-5L, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Mokken scale analysis",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Abstract, Methods",
+        "Full article: Methods, Mokken scale analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Loevinger’s homogeneity coefficients H",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Assessment of fit of the monotone homogeneity model, paragraphs 2-3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "automated item selection procedure (AISP)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Assessment of fit of the monotone homogeneity model, paragraph 4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "manifest monotonicity",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Monotonicity"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "manifest invariant item ordering (MIIO)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article: Methods, Assessment of invariant item ordering"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "monotone homogeneity model (MHM)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article: Methods, Mokken scale analysis",
+        "Full article: Methods, Assessment of fit of the monotone homogeneity model"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "double monotonicity model (DMM)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article: Methods, Mokken scale analysis",
+        "Full article: Methods, Assessment of invariant item ordering"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "adult MIC survey respondent",
+      "perspective": "self-report of own health",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "online survey panel",
+      "setting": "Australia, Canada, Germany, Norway, UK, and USA",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "MIC survey in 2012",
+      "source": [
+        "Full article: Methods, EQ-5D-5L",
+        "Full article: Methods, Dataset, paragraph 1",
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Self-reported disease group",
+      "levels": [
+        "Healthy",
+        "Asthma",
+        "Cancer",
+        "Depression",
+        "Diabetes",
+        "Hearing problems",
+        "Arthritis",
+        "Heart disease"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, Dataset, paragraph 1",
+        "Full article: Results, Stratified analysis across subgroups",
+        "Full article: Results, Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Country of survey sample",
+      "levels": [
+        "Australia",
+        "USA",
+        "UK",
+        "Canada",
+        "Norway",
+        "Germany"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, Dataset, paragraph 1",
+        "Full article: Results, Stratified analysis across subgroups",
+        "Full article: Results, Table 4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "EQ-5D-5L scalability, reliability, monotonicity, and invariant item ordering for the level sum score",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article: Methods, Assessment of fit of the monotone homogeneity model through Assessment of invariant item ordering",
+        "Full article: Results"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "All five EQ-5D-5L items formed one scale at the default item-scalability cutoff. The full scale had strong scalability and good reliability. Anxiety/depression had the weakest item scalability.",
+      "about": [
+        "o1",
+        "iu1",
+        "su1",
+        "mu2",
+        "mu3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.559",
+          "unit": "Hs",
+          "denominator": "five-item EQ-5D-5L scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": null,
+          "direction": "strong scalability",
+          "uncertainty": "SE 0.007"
+        },
+        {
+          "reported_value": "0.822",
+          "unit": "rho",
+          "denominator": "five-item EQ-5D-5L scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": null,
+          "direction": "reliable scale",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.819",
+          "unit": "lambda-2",
+          "denominator": "five-item EQ-5D-5L scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": null,
+          "direction": "reliable scale",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.377",
+          "unit": "Hi",
+          "denominator": "anxiety/depression item",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": "other EQ-5D-5L items had Hi values above 0.6",
+          "direction": "weakest item scalability",
+          "uncertainty": "SE 0.011"
+        }
+      ],
+      "source": [
+        "Full article: Results, AISP and scalability, paragraphs 1-2",
+        "Full article: Results, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "All item response functions and item-step response functions increased monotonically. The analysis found no violations of manifest monotonicity, and every item had a critical value of zero.",
+      "about": [
+        "o1",
+        "iu1",
+        "su1",
+        "mu4",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "0",
+          "unit": "manifest monotonicity violations",
+          "denominator": "five EQ-5D-5L items",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": null,
+          "direction": "no violations",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, Fit of the MHM model",
+        "Full article: Results, Table 2",
+        "Full article: Results, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The full five-item scale had moderate invariant item-ordering accuracy. Violations occurred between anxiety/depression and mobility and between anxiety/depression and usual activities.",
+      "about": [
+        "o1",
+        "iu1",
+        "su1",
+        "mu5",
+        "mod2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.463",
+          "unit": "HT",
+          "denominator": "five-item EQ-5D-5L scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": null,
+          "direction": "moderate item-ordering accuracy",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "2",
+          "unit": "MIIO violations",
+          "denominator": "five-item EQ-5D-5L scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": null,
+          "direction": "violations involved anxiety/depression",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, Fit of MIIO, paragraphs 1-2",
+        "Full article: Results, Tables 2 and 4",
+        "Full article: Results, Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Removal of anxiety/depression increased scale scalability and invariant item-ordering accuracy. No MIIO violations remained.",
+      "about": [
+        "o1",
+        "iu1",
+        "su1",
+        "mu2",
+        "mu5"
+      ],
+      "values": [
+        {
+          "reported_value": "0.714",
+          "unit": "Hs",
+          "denominator": "four-item EQ-5D-5L physical-item scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": "Hs 0.559 for the full five-item scale",
+          "direction": "improved scalability",
+          "uncertainty": "SE 0.007"
+        },
+        {
+          "reported_value": "0.743",
+          "unit": "HT",
+          "denominator": "four-item EQ-5D-5L physical-item scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": "HT 0.463 for the full five-item scale",
+          "direction": "improved item-ordering accuracy",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0",
+          "unit": "MIIO violations",
+          "denominator": "four-item EQ-5D-5L physical-item scale",
+          "time": null,
+          "subgroup": "complete MIC sample",
+          "comparator": "two violations for the full five-item scale",
+          "direction": "no violations after exclusion",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, AISP and scalability, paragraph 2",
+        "Full article: Results, Fit of MIIO, paragraph 1",
+        "Full article: Results, Tables 2 and 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Item ordering showed that lower level sum scores were driven mainly by pain/discomfort and anxiety/depression. Mobility and usual activities increased at lower-to-middle scores, and self-care increased at higher scores.",
+      "about": [
+        "o1",
+        "iu1",
+        "su1",
+        "mu5"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Fit of MIIO, paragraph 2",
+        "Full article: Results, Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Scalability and item ordering were largely consistent across disease and country subgroups. The full scale was weak in the healthy subgroup, and anxiety/depression-related ordering differed for some subgroups.",
+      "about": [
+        "o1",
+        "iu1",
+        "su1",
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.373–0.747",
+          "unit": "HT",
+          "denominator": "five-item EQ-5D-5L scale",
+          "time": null,
+          "subgroup": "country and disease subgroups",
+          "comparator": null,
+          "direction": "range across subgroups",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraphs 1-3",
+        "Full article: Results, Table 4"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The five EQ-5D-5L items form a strong Mokken scale. The level sum score can therefore order respondents along a latent health variable, with higher scores indicating poorer health.",
+      "finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 1",
+        "Full article: Conclusion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Item ordering gives an interpretation of the level sum score. Pain and anxiety/depression characterize the lower range, mobility and usual activities add at the middle range, and self-care limitations occur at the middle-to-higher range.",
+      "finding_ids": [
+        "f3",
+        "f5"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 2",
+        "Full article: Conclusion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "For applications that require strong scalability or item ordering, researchers could calculate the level sum score from the four physical items and assess anxiety/depression separately. The choice depends on the population and application.",
+      "finding_ids": [
+        "f3",
+        "f4",
+        "f6"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 4"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The level sum score is a simple scoring approach that is independent of population-specific value sets and can support international comparisons. It can be less informative in healthy populations.",
+      "finding_ids": [
+        "f6"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 3",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The dataset included only adults from Western, developed countries. The findings might not extend to other populations if interpretations of item descriptions and response categories affect person and item ordering.",
+      "about": [
+        "pop1",
+        "f6"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The data came from online survey panels, whose participants can differ from the general population.",
+      "about": [
+        "du1",
+        "pop1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The analysis did not include children. The authors stated that similar research is needed in children and adolescents.",
+      "about": [
+        "pop1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "EQ-5D-5L level sum score as a non-preference-based summary score",
+      "description": "The score ranges from 5 to 25. It assigns values from 1 to 5 to the five EQ-5D-5L response levels and adds the values across dimensions. It does not use population-specific preference weights.",
+      "about": [
+        "iu1",
+        "su1"
+      ],
+      "source": [
+        "Full article: Background, paragraphs 2-4",
+        "Full article: Methods, EQ-5D-5L, paragraph 2"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Tension between multidimensional health and a single latent health construct",
+      "description": "The EQ-5D-5L covers distinct physical and mental health dimensions, while item-response approaches assume that items indicate one latent variable.",
+      "about": [
+        "iu1",
+        "mod1",
+        "mod2"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 6"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Full-scale Hs values for the healthy, hearing-problems, and Norway subgroups",
+      "statements": [
+        {
+          "statement": "The Results text reports Hs values of 0.363 for the healthy subgroup, 0.496 for the hearing-problems subgroup, and 0.476 for Norway.",
+          "source": [
+            "Full article: Results, Stratified analysis across subgroups, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 4 reports full-scale Hs values of 0.356 for the healthy subgroup, 0.492 for the hearing-problems subgroup, and 0.468 for Norway.",
+          "source": [
+            "Full article: Results, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraph 1",
+        "Full article: Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Subgroup with the lowest reported full-scale HT value",
+      "statements": [
+        {
+          "statement": "The Results text states that full-scale HT ranged from 0.373 for Norway to 0.747 for depression.",
+          "source": [
+            "Full article: Results, Stratified analysis across subgroups, paragraph 2"
+          ]
+        },
+        {
+          "statement": "Table 4 reports full-scale HT of 0.373 for the UK, 0.506 for Norway, and 0.747 for depression.",
+          "source": [
+            "Full article: Results, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraph 2",
+        "Full article: Results, Table 4"
+      ]
+    }
+  ]
+}

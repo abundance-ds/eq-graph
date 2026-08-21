@@ -1,0 +1,1152 @@
+{
+  "summary": {
+    "records": 20,
+    "source_runs": {
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-02-repair": 7,
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-01": 4,
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-03-registry-repair": 9
+    },
+    "mapped": 220,
+    "unresolved": 5,
+    "collisions": 0,
+    "unverified_existing": 0,
+    "registry_sha256": "b194f5bd85f5fb0111d8834a70d27f9b0a463cabe1e8044f3e52da6c06ef6326",
+    "aliases_sha256": "f5824519a4704e9baab37344784caaa5bd2ab12d261bbc59e511932ffb9b4bb7"
+  },
+  "mapped": [
+    {
+      "record_id": "C50-P032",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-tips-5l"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-tips-5l"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-tips-5l"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "iu5",
+      "registry_id": "instrument:eq-tips-5l"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "iu6",
+      "registry_id": "instrument:eq-tips-5l"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "mu3",
+      "registry_id": "method:c50-p032-panel-vendor-32-quota-recruitment"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "mu4",
+      "registry_id": "method:c50-p032-cluster-bootstrap"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "mu5",
+      "registry_id": "method:lins-concordance-correlation-coefficient"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "pr1",
+      "registry_id": "protocol:c50-p032-two-wave-eq-tips-5l-choice-task"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "mo1",
+      "registry_id": "model:conditional-logit"
+    },
+    {
+      "record_id": "C50-P032",
+      "item_id": "mo2",
+      "registry_id": "model:conditional-logit"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-y-4l"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "iu4",
+      "registry_id": "instrument:eq-5d-y-4l"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "iu6",
+      "registry_id": "instrument:eq-5d-y-4l"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu1",
+      "registry_id": "method:review-of-hrqol-instruments"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu2",
+      "registry_id": "method:focus-group-interviews"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu3",
+      "registry_id": "method:thematic-content-analysis"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu4",
+      "registry_id": "method:sorting-tasks"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu5",
+      "registry_id": "method:response-scaling-tasks"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu7",
+      "registry_id": "method:r129-p014-descriptive-statistics-bundle"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu8",
+      "registry_id": "method:cognitive-interview"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu9",
+      "registry_id": "method:paraphrasing-method"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu10",
+      "registry_id": "method:probing"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu11",
+      "registry_id": "method:thematic-content-analysis"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "mu12",
+      "registry_id": "method:harmonization-exercise"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "iu3",
+      "registry_id": "instrument:whoqol-bref"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "iu7",
+      "registry_id": "instrument:whoqol-bref"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-id-2017"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu1",
+      "registry_id": "method:multistage-stratified-quota-sampling"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu2",
+      "registry_id": "method:gwet-agreement-coefficient"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu3",
+      "registry_id": "method:percentage-of-agreement"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu4",
+      "registry_id": "method:intraclass-correlation-two-way-random-absolute-agreement"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu5",
+      "registry_id": "method:lins-concordance-correlation-coefficient"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu6",
+      "registry_id": "method:bland-altman-plots"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu7",
+      "registry_id": "method:chi-square-test"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu8",
+      "registry_id": "method:welch-t-test"
+    },
+    {
+      "record_id": "R129-P117",
+      "item_id": "mu9",
+      "registry_id": "method:analysis-of-variance"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "iu1",
+      "registry_id": "instrument:facit-cost-v2-id"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "iu4",
+      "registry_id": "instrument:wemwbs"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "iu5",
+      "registry_id": "instrument:fact-g"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu1",
+      "registry_id": "method:principal-component-analysis"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu2",
+      "registry_id": "method:parallel-analysis"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mod1",
+      "registry_id": "model:confirmatory-factor-analysis"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu4",
+      "registry_id": "method:cronbachs-alpha"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu5",
+      "registry_id": "method:mcdonalds-omega"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu6",
+      "registry_id": "method:mann-whitney-u-test"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu7",
+      "registry_id": "method:kruskal-wallis-test"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu8",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu9",
+      "registry_id": "method:gwet-ac2"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu10",
+      "registry_id": "method:intraclass-correlation-coefficient"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu11",
+      "registry_id": "method:standardized-response-mean"
+    },
+    {
+      "record_id": "CAL-B12",
+      "item_id": "mu12",
+      "registry_id": "method:standardized-effect-size"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l-zh-hant-tw"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mu3",
+      "registry_id": "method:multistage-stratified-quota-sampling"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mu4",
+      "registry_id": "method:c50-p045-qc-wheelchair-time"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mu6",
+      "registry_id": "method:c50-p045-qc-lead-time-explanation"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mu7",
+      "registry_id": "method:c50-p045-qc-formal-task-time"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mu8",
+      "registry_id": "method:c50-p045-qc-logical-inconsistency"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mu5",
+      "registry_id": "method:feedback-module-for-c-tto-tasks"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "pu1",
+      "registry_id": "protocol:eq-vt-2-0"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "pu2",
+      "registry_id": "protocol:eq-vt-2-0"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod1",
+      "registry_id": "model:ordinary-least-squares-regression"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod2",
+      "registry_id": "model:generalized-least-squares"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod3",
+      "registry_id": "model:tobit"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod4",
+      "registry_id": "model:tobit-gls"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod5",
+      "registry_id": "model:conditional-logit"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod6",
+      "registry_id": "model:hybrid-model"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "mod7",
+      "registry_id": "model:hybrid-ctto-dce-left-censored-minus-1"
+    },
+    {
+      "record_id": "C50-P045",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-tw-2018"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-hwb-s"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "iu4",
+      "registry_id": "instrument:hint-8"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "iu5",
+      "registry_id": "instrument:hui2"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "iu6",
+      "registry_id": "instrument:hui3"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "iu7",
+      "registry_id": "instrument:sf-6d-v1"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "iu8",
+      "registry_id": "instrument:qwb-sa"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "mu1",
+      "registry_id": "method:c50-p028-database-and-citation-search"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "mu2",
+      "registry_id": "method:narrative-synthesis"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "mu3",
+      "registry_id": "method:c50-p028-independent-dual-screening"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "pr1",
+      "registry_id": "protocol:prisma"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "pr2",
+      "registry_id": "protocol:cosmin-risk-of-bias-checklist"
+    },
+    {
+      "record_id": "C50-P028",
+      "item_id": "pr3",
+      "registry_id": "protocol:prospero-crd42023434651"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "iu7",
+      "registry_id": "instrument:sf-36-item-1-five-level"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "iu8",
+      "registry_id": "instrument:modified-rankin-scale"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "iu9",
+      "registry_id": "instrument:barthel-index-10"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu2",
+      "registry_id": "method:wilcoxon-signed-rank-test"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu3",
+      "registry_id": "method:paretian-classification-of-health-change"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu4",
+      "registry_id": "method:probability-of-superiority"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu5",
+      "registry_id": "method:standardized-response-mean"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu6",
+      "registry_id": "method:standardized-effect-size"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu7",
+      "registry_id": "method:r129-p064-5l-3l-responsiveness-ratio"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "mu8",
+      "registry_id": "method:bootstrap-resampling-1000"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-3l-ca"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su2",
+      "registry_id": "product:eq-5d-5l-ca"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su3",
+      "registry_id": "product:eq-5d-3l-cn"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su4",
+      "registry_id": "product:eq-5d-5l-cn"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su5",
+      "registry_id": "product:eq-5d-3l-gb"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su6",
+      "registry_id": "product:eq-5d-5l-england"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su7",
+      "registry_id": "product:eq-5d-3l-de"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su8",
+      "registry_id": "product:eq-5d-5l-de"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su9",
+      "registry_id": "product:eq-5d-3l-jp"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su10",
+      "registry_id": "product:eq-5d-5l-jp"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su11",
+      "registry_id": "product:eq-5d-3l-nl"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su12",
+      "registry_id": "product:eq-5d-5l-nl-2016"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su13",
+      "registry_id": "product:eq-5d-3l-pl"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su14",
+      "registry_id": "product:eq-5d-5l-pl"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su15",
+      "registry_id": "product:eq-5d-3l-kr"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su16",
+      "registry_id": "product:eq-5d-5l-kr"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su17",
+      "registry_id": "product:eq-5d-3l-es"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su18",
+      "registry_id": "product:eq-5d-5l-es"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su19",
+      "registry_id": "product:eq-5d-3l-us"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su20",
+      "registry_id": "product:eq-5d-5l-us"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su21",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "R129-P064",
+      "item_id": "su22",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-nl-2016"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu4",
+      "registry_id": "method:correction-based-on-constant-alternative-constant-alternative-correction"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu5",
+      "registry_id": "method:correction-based-on-maximum-btd-time-maximum-btd-correction"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu6",
+      "registry_id": "method:r129-p001-adapted-lipman-validation-task"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu7",
+      "registry_id": "method:linear-interpolation"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu8",
+      "registry_id": "method:paired-t-test"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu9",
+      "registry_id": "method:chi-square-test"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu10",
+      "registry_id": "method:wilcoxon-signed-rank-test"
+    },
+    {
+      "record_id": "R129-P049",
+      "item_id": "mu3",
+      "registry_id": "method:multistage-stratified-quota-sampling"
+    },
+    {
+      "record_id": "R129-P049",
+      "item_id": "pu1",
+      "registry_id": "protocol:r129-p049-adapted-translated-eq-vt"
+    },
+    {
+      "record_id": "R129-P049",
+      "item_id": "mod1",
+      "registry_id": "model:univariate-censored-linear-regression"
+    },
+    {
+      "record_id": "R129-P049",
+      "item_id": "mod2",
+      "registry_id": "model:multivariable-censored-linear-regression"
+    },
+    {
+      "record_id": "CAL-B03",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-hwb-9-proxy-en-au-v1"
+    },
+    {
+      "record_id": "CAL-B03",
+      "item_id": "mu1",
+      "registry_id": "method:convenience-sampling"
+    },
+    {
+      "record_id": "CAL-B03",
+      "item_id": "mu2",
+      "registry_id": "method:cognitive-interview"
+    },
+    {
+      "record_id": "CAL-B03",
+      "item_id": "mu3",
+      "registry_id": "method:think-aloud"
+    },
+    {
+      "record_id": "CAL-B03",
+      "item_id": "mu4",
+      "registry_id": "method:integrated-inductive-deductive-thematic-analysis"
+    },
+    {
+      "record_id": "CAL-B03",
+      "item_id": "pu1",
+      "registry_id": "protocol:coreq"
+    },
+    {
+      "record_id": "C50-P049",
+      "item_id": "iu4",
+      "registry_id": "instrument:c50-p049-eq-5d-3l-feasibility-questions"
+    },
+    {
+      "record_id": "C50-P049",
+      "item_id": "iu5",
+      "registry_id": "instrument:eq-5d-3l-proxy-v1"
+    },
+    {
+      "record_id": "C50-P049",
+      "item_id": "mu1",
+      "registry_id": "method:convenience-sampling"
+    },
+    {
+      "record_id": "C50-P049",
+      "item_id": "mu2",
+      "registry_id": "method:descriptive-statistics-assessing-feasibility"
+    },
+    {
+      "record_id": "C50-P049",
+      "item_id": "mu3",
+      "registry_id": "method:interview"
+    },
+    {
+      "record_id": "C50-P049",
+      "item_id": "mu4",
+      "registry_id": "method:content-analysis"
+    },
+    {
+      "record_id": "R129-P106",
+      "item_id": "sc1",
+      "registry_id": "product:eq-5d-5l-ca"
+    },
+    {
+      "record_id": "R129-P106",
+      "item_id": "mu1",
+      "registry_id": "method:paretian-classification-of-health-change"
+    },
+    {
+      "record_id": "R129-P106",
+      "item_id": "mu2",
+      "registry_id": "method:minimally-important-difference-mid"
+    },
+    {
+      "record_id": "R129-P106",
+      "item_id": "mu3",
+      "registry_id": "method:standardized-effect-size"
+    },
+    {
+      "record_id": "R129-P106",
+      "item_id": "mu4",
+      "registry_id": "method:chi-square-test"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "iu5",
+      "registry_id": "instrument:facit-cost"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "iu6",
+      "registry_id": "instrument:r129-p028-objective-financial-toxicity-questions"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-id-2017"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "su2",
+      "registry_id": "product:eq-hwb-s-gb-pilot-2023"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mu1",
+      "registry_id": "method:mann-whitney-u-test"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mu2",
+      "registry_id": "method:kruskal-wallis-test"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mu3",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mu4",
+      "registry_id": "method:pearson-correlation"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mu5",
+      "registry_id": "method:forward-stepwise-regression-procedure"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mod1",
+      "registry_id": "model:ordinal-logit"
+    },
+    {
+      "record_id": "R129-P028",
+      "item_id": "mod2",
+      "registry_id": "model:ordinary-least-squares-regression"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-tt-2024"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "su2",
+      "registry_id": "product:eq-5d-5l-tt-2024"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu1",
+      "registry_id": "method:r129-p110-household-selection"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu2",
+      "registry_id": "method:r129-p110-panel-recruitment-public-places"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu3",
+      "registry_id": "method:r129-p110-panel-recruitment-email"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu4",
+      "registry_id": "method:welch-t-test"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu7",
+      "registry_id": "method:welch-anova"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu5",
+      "registry_id": "method:modified-kakwani-index"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mu6",
+      "registry_id": "method:t-test"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mo1",
+      "registry_id": "model:multivariable-ordered-logit"
+    },
+    {
+      "record_id": "R129-P110",
+      "item_id": "mo2",
+      "registry_id": "model:ordinary-least-squares-regression"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-tips-3l-xh-za"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-tips"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu5",
+      "registry_id": "instrument:asq-parent-report-form"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu6",
+      "registry_id": "instrument:flacc-pain-scale"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu7",
+      "registry_id": "instrument:r129-p129-dietary-information-questionnaire"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu8",
+      "registry_id": "instrument:eq-tips-3l-xh-za"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "iu9",
+      "registry_id": "instrument:eq-tips"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "su1",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "su2",
+      "registry_id": "product:level-sum-score"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "pr1",
+      "registry_id": "protocol:cosmin-guidelines"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "pr2",
+      "registry_id": "protocol:eq-5d-y-translation"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu1",
+      "registry_id": "method:non-probability-design"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu2",
+      "registry_id": "method:r129-p129-dimension-score-frequency"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu11",
+      "registry_id": "method:ceiling-and-floor-percentages"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu12",
+      "registry_id": "method:missingness-analysis"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu3",
+      "registry_id": "method:chi-square-test"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu4",
+      "registry_id": "method:kruskal-wallis-test"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu5",
+      "registry_id": "method:spearman-rank-correlation"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu7",
+      "registry_id": "method:cohen-weighted-kappa"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu8",
+      "registry_id": "method:intraclass-correlation-coefficient"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu9",
+      "registry_id": "method:forward-and-backward-translation"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mu10",
+      "registry_id": "method:cognitive-interview"
+    },
+    {
+      "record_id": "R129-P129",
+      "item_id": "mod1",
+      "registry_id": "model:multiple-linear-regression"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "iu2",
+      "registry_id": "instrument:promis-16"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu1",
+      "registry_id": "method:r129-p038-demographic-quota-sampling"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu2",
+      "registry_id": "method:online-cross-sectional-survey"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu3",
+      "registry_id": "method:ceiling-and-floor-percentages"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu4",
+      "registry_id": "method:mcnemars-test-for-paired-proportions"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu5",
+      "registry_id": "method:shannons-index-h"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu6",
+      "registry_id": "method:shannons-evenness-index-j"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu7",
+      "registry_id": "method:polychoric-correlation-coefficients"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu8",
+      "registry_id": "method:parallel-analysis"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mu9",
+      "registry_id": "method:oblique-rotation-method-oblimin"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mo1",
+      "registry_id": "model:item-level-linear-regression-eq-vas"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mo2",
+      "registry_id": "model:r129-p038-dimension-level-multivariate"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mo3",
+      "registry_id": "model:r129-p038-construct-level-multivariate"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mo4",
+      "registry_id": "model:r129-p038-instrument-level-multivariate"
+    },
+    {
+      "record_id": "R129-P038",
+      "item_id": "mo5",
+      "registry_id": "model:exploratory-factor-analysis"
+    },
+    {
+      "record_id": "R129-P090",
+      "item_id": "iu2",
+      "registry_id": "instrument:hui"
+    },
+    {
+      "record_id": "R129-P090",
+      "item_id": "mu1",
+      "registry_id": "method:search-strategy"
+    },
+    {
+      "record_id": "R129-P090",
+      "item_id": "mu2",
+      "registry_id": "method:literature-review"
+    },
+    {
+      "record_id": "R129-P090",
+      "item_id": "mo1",
+      "registry_id": "model:qaly-model"
+    },
+    {
+      "record_id": "R129-P018",
+      "item_id": "mu1",
+      "registry_id": "method:review-of-existing-criteria-on-patient-reported-outcome-measures-proms-development"
+    },
+    {
+      "record_id": "R129-P018",
+      "item_id": "mu2",
+      "registry_id": "method:r129-p018-researcher-advisor-consultation"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "iu6",
+      "registry_id": "instrument:zarit-burden-interview-22"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "iu7",
+      "registry_id": "instrument:r129-p127-nhs-satisfaction-scale"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-5l-van-hout-crosswalk-2012"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "su2",
+      "registry_id": "product:eq-5d-5l-van-hout-crosswalk-2012"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "su3",
+      "registry_id": "product:eq-5d-5l-van-hout-crosswalk-2012"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "mu1",
+      "registry_id": "method:descriptive-analysis"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "mu2",
+      "registry_id": "method:pearson-correlation"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "mu3",
+      "registry_id": "method:levenes-test"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "mu4",
+      "registry_id": "method:analysis-of-variance"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "mu5",
+      "registry_id": "method:bonferroni-correction"
+    },
+    {
+      "record_id": "R129-P127",
+      "item_id": "model1",
+      "registry_id": "model:multinomial-logistic-regression-by-domain"
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "C50-P032",
+      "item_id": "iu7",
+      "entity_type": "Instrument",
+      "source_label": "13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)"
+    },
+    {
+      "record_id": "R129-P014",
+      "item_id": "pr1",
+      "entity_type": "Protocol",
+      "source_label": "common standardized protocol"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu2",
+      "entity_type": "Method",
+      "source_label": "non‐parametric method"
+    },
+    {
+      "record_id": "R129-P001",
+      "item_id": "mu3",
+      "entity_type": "Method",
+      "source_label": "direct method"
+    },
+    {
+      "record_id": "R129-P106",
+      "item_id": "iu2",
+      "entity_type": "Instrument",
+      "source_label": "EQ-5D-5L anxiety/depression dimension"
+    }
+  ],
+  "collisions": [],
+  "unverified_existing": []
+}

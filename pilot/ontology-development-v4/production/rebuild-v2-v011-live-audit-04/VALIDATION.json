@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "batches": 32,
+    "records": 32,
+    "verdicts": {
+      "MINOR": 20,
+      "MAJOR": 12
+    },
+    "errors": 0
+  },
+  "batches": [
+    {
+      "batch_id": "A001",
+      "errors": []
+    },
+    {
+      "batch_id": "A002",
+      "errors": []
+    },
+    {
+      "batch_id": "A003",
+      "errors": []
+    },
+    {
+      "batch_id": "A004",
+      "errors": []
+    },
+    {
+      "batch_id": "A005",
+      "errors": []
+    },
+    {
+      "batch_id": "A006",
+      "errors": []
+    },
+    {
+      "batch_id": "A007",
+      "errors": []
+    },
+    {
+      "batch_id": "A008",
+      "errors": []
+    },
+    {
+      "batch_id": "A009",
+      "errors": []
+    },
+    {
+      "batch_id": "A010",
+      "errors": []
+    },
+    {
+      "batch_id": "A011",
+      "errors": []
+    },
+    {
+      "batch_id": "A012",
+      "errors": []
+    },
+    {
+      "batch_id": "A013",
+      "errors": []
+    },
+    {
+      "batch_id": "A014",
+      "errors": []
+    },
+    {
+      "batch_id": "A015",
+      "errors": []
+    },
+    {
+      "batch_id": "A016",
+      "errors": []
+    },
+    {
+      "batch_id": "A017",
+      "errors": []
+    },
+    {
+      "batch_id": "A018",
+      "errors": []
+    },
+    {
+      "batch_id": "A019",
+      "errors": []
+    },
+    {
+      "batch_id": "A020",
+      "errors": []
+    },
+    {
+      "batch_id": "A021",
+      "errors": []
+    },
+    {
+      "batch_id": "A022",
+      "errors": []
+    },
+    {
+      "batch_id": "A023",
+      "errors": []
+    },
+    {
+      "batch_id": "A024",
+      "errors": []
+    },
+    {
+      "batch_id": "A025",
+      "errors": []
+    },
+    {
+      "batch_id": "A026",
+      "errors": []
+    },
+    {
+      "batch_id": "A027",
+      "errors": []
+    },
+    {
+      "batch_id": "A028",
+      "errors": []
+    },
+    {
+      "batch_id": "A029",
+      "errors": []
+    },
+    {
+      "batch_id": "A030",
+      "errors": []
+    },
+    {
+      "batch_id": "A031",
+      "errors": []
+    },
+    {
+      "batch_id": "A032",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch_id": "A001",
+  "audits": [
+    {
+      "record_id": "CNF-P001",
+      "verdict": "MINOR",
+      "source_locations": [
+        "Full article, Methods > Sampling and Recruitment, final inclusion criterion",
+        "Full article, Methods > Data Collection, first paragraph",
+        "Full article, Results, first paragraph",
+        "Extraction record, Administration adm1 and adm2",
+        "Extraction record, Gap gap1"
+      ],
+      "repair": "Add a SoftwareUse for “Zoom” with context DIRECT_CURRENT_ACTIVITY and function DATA_COLLECTION. Link it to Administrations adm1 and adm2 because Zoom was used to conduct the valuation interview and the EQ-5D-5L questionnaire section. Delete gap1. Keep the 533 eligible registrants in Finding f1 as the response-rate denominator. Do not assign that count to APPROACHED or another unsupported Sample stage. The Finding structure already represents the fact, so a new sample-stage value is not necessary.",
+      "ontology_gap": null
+    }
+  ]
+}

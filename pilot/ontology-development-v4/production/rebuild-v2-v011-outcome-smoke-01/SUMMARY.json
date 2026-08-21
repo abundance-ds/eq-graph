@@ -1,0 +1,96 @@
+{
+  "run": "rebuild-v2-v011-outcome-smoke-01",
+  "model": "gpt-5.6-sol",
+  "workers": 3,
+  "reasoning_effort": "high",
+  "manifest": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v011/MANIFEST.tsv",
+  "manifest_sha256": "89621bca937a38ea81f6f5448d6ceef2887c0963f104678bfbea928617839732",
+  "schema_sha256": "423f81492e1f240e33c25bf324966e7407d8a53d38440eec8bde5fd92174f85c",
+  "records": 3,
+  "successful": 3,
+  "failed": 0,
+  "elapsed_agent_seconds": 693.475,
+  "usage": {
+    "input_tokens": 167304,
+    "cached_input_tokens": 0,
+    "output_tokens": 37387,
+    "reasoning_output_tokens": 15217
+  },
+  "results": [
+    {
+      "status": "ok",
+      "record_id": "V2-P011",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "started_unix": 1787259209.2009878,
+      "finished_unix": 1787259436.85662,
+      "elapsed_seconds": 227.656,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v011/inputs/V2-P011.md",
+      "input_sha256": "07a5fad449a8bcf1235465db8fa0fe820ca3060d7e90b835fa324528d846e9d7",
+      "schema_sha256": "423f81492e1f240e33c25bf324966e7407d8a53d38440eec8bde5fd92174f85c",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-01/records/V2-P011.json",
+      "output_sha256": "1acab4dde2e4686be727c6bcbd1fa12861b6dd2f233c1b9e2c8b4bea07f2cd79",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-01/traces/V2-P011.jsonl",
+      "usage": {
+        "input_tokens": 56338,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12270,
+        "reasoning_output_tokens": 3827
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "V2-P035",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "started_unix": 1787259209.201,
+      "finished_unix": 1787259480.445359,
+      "elapsed_seconds": 271.244,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v011/inputs/V2-P035.md",
+      "input_sha256": "a11572684f9c8b921c71a119eea8aaedf512c21c2db2bbca3b484d97f02b9b10",
+      "schema_sha256": "423f81492e1f240e33c25bf324966e7407d8a53d38440eec8bde5fd92174f85c",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-01/records/V2-P035.json",
+      "output_sha256": "7e4e1bbe1177314c51f1c96ea65c632d2e1830d7b815cd867f2f837d0189535e",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-01/traces/V2-P035.jsonl",
+      "usage": {
+        "input_tokens": 65229,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14757,
+        "reasoning_output_tokens": 6489
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "V2-P043",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "started_unix": 1787259209.200976,
+      "finished_unix": 1787259403.775491,
+      "elapsed_seconds": 194.575,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v011/inputs/V2-P043.md",
+      "input_sha256": "2332a21ec562fdfd5969692a54a4c2c4301451db82dde1415d2ea3f2a8d9f59d",
+      "schema_sha256": "423f81492e1f240e33c25bf324966e7407d8a53d38440eec8bde5fd92174f85c",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-01/records/V2-P043.json",
+      "output_sha256": "d37b213cb7d8cec949699c785eb59fa66069d9175a05b42372588780439649cb",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v011-outcome-smoke-01/traces/V2-P043.jsonl",
+      "usage": {
+        "input_tokens": 45737,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10360,
+        "reasoning_output_tokens": 4901
+      }
+    }
+  ]
+}

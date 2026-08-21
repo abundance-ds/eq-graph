@@ -1,0 +1,1511 @@
+{
+  "summary": {
+    "records": 20,
+    "dispositions": {
+      "include-study": 19,
+      "publication-context": 1
+    },
+    "studies": 19,
+    "primary_families": {
+      "MEASUREMENT_PROPERTY_EVALUATION": 7,
+      "INSTRUMENT_VERSION_DEVELOPMENT": 1,
+      "POPULATION_REFERENCE_DESCRIPTION": 2,
+      "VALUE_SET_DEVELOPMENT": 1,
+      "EVIDENCE_SYNTHESIS": 1,
+      "METHODS_RESEARCH": 2,
+      "HEALTH_PREFERENCE_RESEARCH": 1,
+      "APPLIED_USE_RESEARCH": 2,
+      "HEALTH_OUTCOME_RESEARCH": 1,
+      "CONCEPTUAL_FRAMEWORK_DEVELOPMENT": 1
+    },
+    "item_types": {
+      "Purpose": 38,
+      "StudyPart": 32,
+      "Design": 126,
+      "Population": 23,
+      "Sample": 56,
+      "DataUse": 38,
+      "InstrumentUse": 99,
+      "MethodUse": 126,
+      "ProtocolUse": 13,
+      "ModelUse": 21,
+      "TaskDesign": 14,
+      "StudyFactor": 62,
+      "Administration": 32,
+      "StakeholderInvolvement": 6,
+      "Outcome": 57,
+      "Limitation": 67,
+      "Product": 9,
+      "ProductStateAssertion": 10,
+      "Concept": 38,
+      "Finding": 108,
+      "Interpretation": 45,
+      "SourceConflict": 15,
+      "ScoringUse": 33
+    },
+    "unmapped_registry": 209,
+    "gaps": 0,
+    "source_conflicts": 15,
+    "validation": {
+      "expected": 20,
+      "present": 20,
+      "valid": 10,
+      "errors": 63,
+      "warnings": 209,
+      "dispositions": {
+        "include-study": 19,
+        "publication-context": 1
+      }
+    },
+    "run": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "records": 20,
+      "successful": 20,
+      "failed": 0,
+      "elapsed_agent_seconds": 3644.456,
+      "usage": {
+        "input_tokens": 970111,
+        "cached_input_tokens": 84480,
+        "output_tokens": 193823,
+        "reasoning_output_tokens": 76714
+      }
+    }
+  },
+  "unmapped_registry": [
+    {
+      "record_id": "C50-P032",
+      "type": "InstrumentUse",
+      "source_label": "EQ-TIPS-5L descriptive system"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "InstrumentUse",
+      "source_label": "EQ-TIPS-5L"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "InstrumentUse",
+      "source_label": "EQ-TIPS-5L"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "InstrumentUse",
+      "source_label": "EQ-TIPS-5L descriptive system"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "InstrumentUse",
+      "source_label": "EQ-TIPS-5L"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "MethodUse",
+      "source_label": "panel-vendor recruitment using 32 quotas"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "MethodUse",
+      "source_label": "cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "MethodUse",
+      "source_label": "Lin’s concordance coefficient"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "ProtocolUse",
+      "source_label": "two-wave protocol for assessing the EQ-TIPS-5L descriptive system using alternative choice tasks"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "ModelUse",
+      "source_label": "main-effects conditional logit model"
+    },
+    {
+      "record_id": "C50-P032",
+      "type": "ModelUse",
+      "source_label": "main-effects conditional logit model"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-Y-4L"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-Y-4L"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-Y-4L"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "review of HRQoL instruments"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "focus group interviews"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "thematic content analysis"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "sorting tasks"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "response scaling tasks"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "Mean (standard deviation), median, mode, minimum and maximum"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "cognitive interviews"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "paraphrasing method"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "probing"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "thematic content analysis"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "MethodUse",
+      "source_label": "harmonization exercise"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "ProtocolUse",
+      "source_label": "common standardized protocol"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "InstrumentUse",
+      "source_label": "WHOQOL-BREF"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "InstrumentUse",
+      "source_label": "WHOQOL-BREF"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "ScoringUse",
+      "source_label": "new Indonesian value set"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "multistage stratified quota method"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "Gwet’s agreement coefficient (Gwet’s AC) test"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "percentage of agreement"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "Lin’s concordance correlation coefficient (CCC)"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "Bland-Altman plots"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "Chi-square test"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "Welch's unequal variances t-test"
+    },
+    {
+      "record_id": "R129-P117",
+      "type": "MethodUse",
+      "source_label": "ANOVA"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "InstrumentUse",
+      "source_label": "official Indonesian version of FACIT-COST (v2)"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "InstrumentUse",
+      "source_label": "Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "InstrumentUse",
+      "source_label": "Functional Assessment of Cancer Therapy – General (FACT-G)"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "principal component analysis (PCA)"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "parallel analysis technique"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "confirmatory factor analysis (CFA)"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "Cronbach’s alpha"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "McDonald’s omega"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "Mann-Whitney U test"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "Kruskal-Wallis test"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "Spearman’s rank correlation"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "Gwet’s AC2 coefficient"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "intraclass correlation coefficient"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "standardized response mean (SRM)"
+    },
+    {
+      "record_id": "CAL-B12",
+      "type": "MethodUse",
+      "source_label": "standardized effect size (SES)"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "MethodUse",
+      "source_label": "Multi-stage stratified quota sampling"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "MethodUse",
+      "source_label": "four quality controls (QCs)"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "MethodUse",
+      "source_label": "feedback module for C-TTO tasks"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ProtocolUse",
+      "source_label": "EQ-5D-5L valuation protocol"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ProtocolUse",
+      "source_label": "EuroQol Valuation Technology version 2.0, EQ-VT 2.0"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "ordinary least square (OLS)"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "general least square (GLS)"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "Tobit"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "Tobit-GLS regression"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "conditional logistic regression models"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "standard hybrid model"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ModelUse",
+      "source_label": "hybrid model assuming left-censoring of the C-TTO at -1 excluding heteroscedasticity and constant"
+    },
+    {
+      "record_id": "C50-P045",
+      "type": "ScoringUse",
+      "source_label": "Taiwan EQ-5D-5L value set"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "InstrumentUse",
+      "source_label": "EuroQol Health and Wellbeing Short Version (EQ-HWB-9)"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "InstrumentUse",
+      "source_label": "Health-related Quality of Life Instrument with 8 Items (HINT-8)"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "InstrumentUse",
+      "source_label": "Health Utilities Index Mark 2 (HUI2)"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "InstrumentUse",
+      "source_label": "Health Utilities Index Mark 3 (HUI3)"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "InstrumentUse",
+      "source_label": "Short-form 6-Dimension version 1 (SF-6Dv1)"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "InstrumentUse",
+      "source_label": "Quality of Well Being Self-Administered (QWB-SA)"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "MethodUse",
+      "source_label": "Electronic database search in CINAHL, PsycInfo, Embase and MEDLINE, supplemented with forward and backward citation searches in Scopus"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "MethodUse",
+      "source_label": "Narrative synthesis"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "MethodUse",
+      "source_label": "Independent dual screening with disagreement resolution by a senior reviewer"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "ProtocolUse",
+      "source_label": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "ProtocolUse",
+      "source_label": "COSMIN risk of bias checklist"
+    },
+    {
+      "record_id": "C50-P028",
+      "type": "ProtocolUse",
+      "source_label": "PROSPERO CRD42023434651"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "InstrumentUse",
+      "source_label": "five-level self-rated general health (SRH) question (item 1 of the SF-36)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "InstrumentUse",
+      "source_label": "modified Rankin Scale (mRS)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "InstrumentUse",
+      "source_label": "10-item version of the Barthel Index (BI)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "level sum scores (LSS)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "Wilcoxon signed-rank tests"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "Paretian Classification of Health Change (PCHC)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "probability of superiority (PS)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "standardized response mean (SRM)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "standardized effect size (SES)"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "5L/3L ratio of the SRM and SES statistics"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "MethodUse",
+      "source_label": "1000 bootstrap samples"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Canada — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Canada — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "China — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "China — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "England/UK — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "England/UK — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Germany — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Germany — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Japan — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Japan — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "The Netherlands — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "The Netherlands — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Poland — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Poland — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "South Korea — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "South Korea — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Spain — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "Spain — 5L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "US — 3L"
+    },
+    {
+      "record_id": "R129-P064",
+      "type": "ScoringUse",
+      "source_label": "US — 5L"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "ScoringUse",
+      "source_label": "Dutch tariff (Versteegh et al., 2016)"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "non‐parametric method"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "direct method"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "correction based on constant alternative (constant alternative correction)"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "correction based on maximum BTD time (maximum BTD correction)"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "adaptation of the validation task developed by Lipman et al. (2020a)"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "linear interpolation"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "paired t-tests"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "Chi-squared tests"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "Wilcoxon tests"
+    },
+    {
+      "record_id": "R129-P049",
+      "type": "MethodUse",
+      "source_label": "multistratified quota sampling"
+    },
+    {
+      "record_id": "R129-P049",
+      "type": "MethodUse",
+      "source_label": "series of univariate and multivariable censored linear regression models adjusted for severity of health states"
+    },
+    {
+      "record_id": "R129-P049",
+      "type": "ModelUse",
+      "source_label": "univariate censored linear regression models adjusted for severity of health states"
+    },
+    {
+      "record_id": "R129-P049",
+      "type": "ModelUse",
+      "source_label": "multivariable censored linear regression model adjusted for severity of health states"
+    },
+    {
+      "record_id": "CAL-B03",
+      "type": "MethodUse",
+      "source_label": "convenience sampling"
+    },
+    {
+      "record_id": "CAL-B03",
+      "type": "MethodUse",
+      "source_label": "semi-structured cognitive interviews"
+    },
+    {
+      "record_id": "CAL-B03",
+      "type": "MethodUse",
+      "source_label": "think aloud"
+    },
+    {
+      "record_id": "CAL-B03",
+      "type": "MethodUse",
+      "source_label": "integrated thematic analysis involving inductive coding and deductive coding"
+    },
+    {
+      "record_id": "CAL-B03",
+      "type": "ProtocolUse",
+      "source_label": "COnsolidated criteria for REporting Qualitative research (CORE-Q)"
+    },
+    {
+      "record_id": "C50-P049",
+      "type": "InstrumentUse",
+      "source_label": "brief optional questions on the feasibility of completing the EQ-5D-3L"
+    },
+    {
+      "record_id": "C50-P049",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-3L proxy version 1"
+    },
+    {
+      "record_id": "C50-P049",
+      "type": "MethodUse",
+      "source_label": "prospective convenience sample"
+    },
+    {
+      "record_id": "C50-P049",
+      "type": "MethodUse",
+      "source_label": "descriptive statistics assessing feasibility"
+    },
+    {
+      "record_id": "C50-P049",
+      "type": "MethodUse",
+      "source_label": "interview"
+    },
+    {
+      "record_id": "C50-P049",
+      "type": "MethodUse",
+      "source_label": "content analysis"
+    },
+    {
+      "record_id": "R129-P106",
+      "type": "ScoringUse",
+      "source_label": "Canadian EQ-5D-5L value set"
+    },
+    {
+      "record_id": "R129-P106",
+      "type": "MethodUse",
+      "source_label": "Pareto Classification of Health Change (PCHC)"
+    },
+    {
+      "record_id": "R129-P106",
+      "type": "MethodUse",
+      "source_label": "minimally important difference (MID)"
+    },
+    {
+      "record_id": "R129-P106",
+      "type": "MethodUse",
+      "source_label": "effect size of the change"
+    },
+    {
+      "record_id": "R129-P106",
+      "type": "MethodUse",
+      "source_label": "chi-squared tests"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "InstrumentUse",
+      "source_label": "COST: A FACIT Measure of Financial Toxicity (FACIT-COST)"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "InstrumentUse",
+      "source_label": "Questions on objective financial toxicity (OFT)"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "ScoringUse",
+      "source_label": "Indonesian EQ-5D-5L value set"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "ScoringUse",
+      "source_label": "UK pilot value set"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "MethodUse",
+      "source_label": "Mann-Whitney test"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "MethodUse",
+      "source_label": "Kruskal-Wallis test"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "MethodUse",
+      "source_label": "Spearman’s rho"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "MethodUse",
+      "source_label": "Pearson’s coefficient"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "MethodUse",
+      "source_label": "forward stepwise regression procedure"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "ModelUse",
+      "source_label": "ordinal logistic models"
+    },
+    {
+      "record_id": "R129-P028",
+      "type": "ModelUse",
+      "source_label": "multivariable ordinary least squares (OLS) models"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "ScoringUse",
+      "source_label": "2024 Trinidad and Tobago EQ-5D-5L value set"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "ScoringUse",
+      "source_label": "index values from the 2022–2023 Trinidad and Tobago valuation study"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "MethodUse",
+      "source_label": "Streets were randomly selected from CSO maps and 1 in every 4 houses visited; respondents were selected based on the most recent birthday method"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "MethodUse",
+      "source_label": "Survey company panel recruitment by online links, with recruiters in public places"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "MethodUse",
+      "source_label": "Survey company panel recruitment by survey links via e-mail"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "MethodUse",
+      "source_label": "Welch’s t-test and ANOVA"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "MethodUse",
+      "source_label": "modified Kakwani index"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "MethodUse",
+      "source_label": "t-tests"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "ModelUse",
+      "source_label": "multivariable ordered logit models"
+    },
+    {
+      "record_id": "R129-P110",
+      "type": "ModelUse",
+      "source_label": "ordinary least squares regression model for the modified Kakwani index decomposition"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "InstrumentUse",
+      "source_label": "The Ages and Stages Questionnaire (ASQ) Parent Report Form"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "InstrumentUse",
+      "source_label": "Face, Leg, Activity, Cry, Consolability (FLACC) Pain Scale"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "InstrumentUse",
+      "source_label": "Self-designed dietary information questionnaire"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "ScoringUse",
+      "source_label": "level sum score (LSS)"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "ScoringUse",
+      "source_label": "Level Sum Score"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "ProtocolUse",
+      "source_label": "COSMIN guidelines"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "ProtocolUse",
+      "source_label": "EQ-5D-Y translation protocol"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "non-probability design"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "frequency of dimension scores, ceiling and floor effects, and missing values"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "chi-square"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "Kruskal-Wallis analysis"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "Spearman's Rho correlation coefficient"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "Regression Analysis of the VAS score"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "Cohen's weighted Kappa"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "intraclass correlation coefficient (ICC)"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "forward and backward translation"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "MethodUse",
+      "source_label": "cognitive interviews"
+    },
+    {
+      "record_id": "R129-P129",
+      "type": "ModelUse",
+      "source_label": "multiple regression analysis with the VAS as dependent variable and dummy variables representing the different levels of the dimensions"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "InstrumentUse",
+      "source_label": "PROMIS-16"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "18 demographic quotas based on gender, age, and race/ethnicity"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "online cross-sectional survey"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "ceiling and floor percentages"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "McNemar’s test for paired proportions"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "Shannon’s Index (H’)"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "Shannon’s Evenness Index (J’)"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "polychoric correlation coefficients"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "parallel analysis"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "MethodUse",
+      "source_label": "oblique rotation method (Oblimin)"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "ModelUse",
+      "source_label": "item-level linear regression analyses using EQ VAS as the outcome and incremental decrements in each item as predictors"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "ModelUse",
+      "source_label": "dimension-, construct-, and instrument-level multivariate models"
+    },
+    {
+      "record_id": "R129-P038",
+      "type": "ModelUse",
+      "source_label": "exploratory factor analysis (EFA)"
+    },
+    {
+      "record_id": "R129-P090",
+      "type": "InstrumentUse",
+      "source_label": "Health Utility Index (HUI)"
+    },
+    {
+      "record_id": "R129-P090",
+      "type": "MethodUse",
+      "source_label": "search strategy"
+    },
+    {
+      "record_id": "R129-P090",
+      "type": "MethodUse",
+      "source_label": "literature review"
+    },
+    {
+      "record_id": "R129-P090",
+      "type": "MethodUse",
+      "source_label": "better than dead (BTD)"
+    },
+    {
+      "record_id": "R129-P090",
+      "type": "ModelUse",
+      "source_label": "QALY model"
+    },
+    {
+      "record_id": "R129-P018",
+      "type": "MethodUse",
+      "source_label": "review of existing criteria on patient-reported outcome measures (PROMs) development"
+    },
+    {
+      "record_id": "R129-P018",
+      "type": "MethodUse",
+      "source_label": "presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "InstrumentUse",
+      "source_label": "22-item ZBI"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "InstrumentUse",
+      "source_label": "Satisfaction with the National Health System (NHS) 1 to 10 scale"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "ScoringUse",
+      "source_label": "algorithm derived from the crosswalk 3L value sets"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "ScoringUse",
+      "source_label": "algorithm derived from the crosswalk 3L value sets"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "ScoringUse",
+      "source_label": "US Measurement and Valuation of Health"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "MethodUse",
+      "source_label": "descriptive analysis"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "MethodUse",
+      "source_label": "correlation analysis by means of Pearson coefficient"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "MethodUse",
+      "source_label": "Levene’s test"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "MethodUse",
+      "source_label": "ANOVA analysis"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "MethodUse",
+      "source_label": "Bonferroni correction"
+    },
+    {
+      "record_id": "R129-P127",
+      "type": "ModelUse",
+      "source_label": "five multinomial logistic regression models, one by each domain"
+    }
+  ],
+  "gaps": [],
+  "source_conflicts": [
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Total number of Phase 1 sorting and response scaling interviews",
+      "statements": [
+        {
+          "statement": "The text reports a total of 255 sorting and response scaling interviews.",
+          "source": [
+            "Full article: Abstract, Results",
+            "Full article: Results, Phase 1, Sorting and response scaling interviews, first paragraph"
+          ]
+        },
+        {
+          "statement": "Table 3 reports country sample sizes of 64, 72, 60, and 58, which total 254.",
+          "source": [
+            "Full article: Results, Phase 1, Table 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 1, first paragraph and Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Reported range of country-specific preference for the EQ-5D-Y-5L",
+      "statements": [
+        {
+          "statement": "The abstract states that 68–88% of participants per country preferred the 5L version.",
+          "source": [
+            "Full article: Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The detailed results report Germany 88%, Spain 68%, and Sweden 66%, giving a range of 66–88%.",
+          "source": [
+            "Full article: Results, Phase 2, preference paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 2, preference paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Number of respondents who completed both questionnaires in the main survey",
+      "statements": [
+        {
+          "statement": "The abstract states that 1056 respondents completed EQ-5D-5L and WHOQOL-BREF.",
+          "source": [
+            "Full article, Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The results state that 10 of the 1056 EQ-5D-5L respondents did not complete WHOQOL-BREF, leaving 1046 for WHOQOL-BREF norms analysis.",
+          "source": [
+            "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Administration mode of the Indonesian FACIT-COST",
+      "statements": [
+        {
+          "statement": "The abstract reports that the official Indonesian FACIT-COST (v2) was administered to patients by interviewers.",
+          "source": [
+            "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The full Methods report that patients completed the paper-and-pencil questionnaire themselves, with research assistants available to provide explanations when needed.",
+          "source": [
+            "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+          ]
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Number of included studies evaluating EQ-5D-5L",
+      "statements": [
+        {
+          "statement": "The abstract reports that EQ-5D-5L was evaluated in seven studies.",
+          "source": [
+            "Full article, Abstract > Results"
+          ]
+        },
+        {
+          "statement": "The main Results section reports that EQ-5D-5L was tested in eight studies and cites eight included studies.",
+          "source": [
+            "Full article, Results > Study Characteristics, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Significance of the difference between elicited and confirmed utilities by health state",
+      "statements": [
+        {
+          "statement": "The Results prose states that confirmed utilities were significantly lower for all health states except state 24443, for which p = 0.39.",
+          "source": [
+            "Full article, Results, Elicited, confirmed and corrected cTTO utilities, first paragraph"
+          ]
+        },
+        {
+          "statement": "Table 4 shows no significance marker for state 22434 and shows a significance marker for state 24443 in the elicited-versus-confirmed comparison.",
+          "source": [
+            "Full article, Results, Table 4, row 'Sig. (Elicited vs. confirmed)'"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, first paragraph",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Labels of confirmed-minus-corrected difference rows in Table 4",
+      "statements": [
+        {
+          "statement": "For state 55555, Table 4 reports confirmed utility −0.72, constant-alternative corrected utility −0.94, and maximum-BTD corrected utility −3.41.",
+          "source": [
+            "Full article, Results, Table 4, utility rows"
+          ]
+        },
+        {
+          "statement": "For state 55555, the difference row labeled constant alternative reports 2.69, while the row labeled maximum BTD reports 0.22; these labels conflict with the reported utility means.",
+          "source": [
+            "Full article, Results, Table 4, difference rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Inclusion of self-rated health as an independent variable in the regression analysis",
+      "statements": [
+        {
+          "statement": "The abstract states that the independent variables included self-rated health.",
+          "source": [
+            "Full article, Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The reported regression specification and Table 2 do not list self-rated health among the examined independent variables.",
+          "source": [
+            "Full article, Methods > Data Analysis",
+            "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Data Analysis",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Percentages reported for willingness to answer future EQ-5D questionnaires",
+      "statements": [
+        {
+          "statement": "The Abstract reports 115 patients as 67.3% and 35 patients as 20.5%.",
+          "source": [
+            "Full article, Abstract"
+          ]
+        },
+        {
+          "statement": "The Results and Discussion report 115 patients as 71.9% and 35 patients as 21.9%.",
+          "source": [
+            "Full article, Results, Section 3.2 and Figure 2",
+            "Full article, Discussion, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Results, Section 3.2 and Figure 2",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Standard deviation of mean EQ-5D-5L index change in pulmonary rehabilitation",
+      "statements": [
+        {
+          "statement": "The abstract reports a mean index change of 0.02 with SD 0.13.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The program-specific Results section reports an average index increase of 0.02 with SD 0.12.",
+          "source": [
+            "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf2",
+      "study_id": "s1",
+      "part_id": "part4",
+      "scope": "Mean and standard deviation of EQ VAS change in physiotherapy",
+      "statements": [
+        {
+          "statement": "The abstract reports a VAS change of 1.2 with SD 0.9 in physiotherapy.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The program-specific Results section reports a VAS increase of 12.2 points with SD 18.4 in physiotherapy.",
+          "source": [
+            "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3"
+          ]
+        },
+        {
+          "statement": "Table 2 reports mean VAS scores of 68.2 at intake and 80.4 at end of rehabilitation, a difference of 12.2 points.",
+          "source": [
+            "Full article, Table 2"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Percentage of patients undergoing chemotherapy at the time of the survey",
+      "statements": [
+        {
+          "statement": "The narrative reports 11.33% undergoing chemotherapy.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports 37 patients and 12.3% undergoing chemotherapy.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, Table 1"
+          ]
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Pearson correlation between FACIT-COST total score and EQ VAS",
+      "statements": [
+        {
+          "statement": "The results narrative reports a correlation of 0.44.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 4 reports a correlation of 0.35.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, paragraph 1 and Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Rates of respondents reporting any problems on the pain/discomfort and anxiety/depression dimensions",
+      "statements": [
+        {
+          "statement": "The Abstract reports that pain/discomfort and anxiety/depression had problem rates of 43% and 39%, respectively.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "Table 5 reports level-1 rates of 50% for pain/discomfort and 55% for anxiety/depression, which implies approximately 50% and 45%, respectively, at levels 2–5.",
+          "source": [
+            "Full article, Results, Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, Table 5"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "End date of 2022–2023 data collection",
+      "statements": [
+        {
+          "statement": "The Abstract and Discussion state that data collection ran through May 2023.",
+          "source": [
+            "Full article, Abstract, Methods",
+            "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, paragraph 1"
+          ]
+        },
+        {
+          "statement": "The Methods state that survey 3 was conducted from March to August 2023.",
+          "source": [
+            "Full article, Methods, Data collection, paragraph 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Data collection, paragraph 4",
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, paragraph 1"
+      ]
+    }
+  ]
+}

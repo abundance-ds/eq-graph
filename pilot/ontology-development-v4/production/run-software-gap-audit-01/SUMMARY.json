@@ -1,0 +1,41 @@
+{
+  "run": "run-software-gap-audit-01",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "batches": 1,
+  "successful": 1,
+  "failed": 0,
+  "manifest_sha256": "5a0edc3d587d29c9ea77d8e92a1cd4b9523bdebe6858c8f56550dac302164893",
+  "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+  "usage": {
+    "input_tokens": 61509,
+    "cached_input_tokens": 0,
+    "output_tokens": 4759,
+    "reasoning_output_tokens": 4439
+  },
+  "results": [
+    {
+      "status": "ok",
+      "batch_id": "A001",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 98.961,
+      "input_path": "pilot/ontology-development-v4/production/prepared-software-gap-audit/inputs/A001.md",
+      "input_sha256": "464251b69336a30a13567bfdb9c32a2829cf05fb88d2896a37c36ba32566462b",
+      "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+      "output_path": "pilot/ontology-development-v4/production/run-software-gap-audit-01/records/A001.json",
+      "output_sha256": "49f3cac119aff22667e3a73bbbb79d2828a77306eefa3b5c459a85da7414e015",
+      "trace_path": "pilot/ontology-development-v4/production/run-software-gap-audit-01/traces/A001.jsonl",
+      "usage": {
+        "input_tokens": 61509,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4759,
+        "reasoning_output_tokens": 4439
+      }
+    }
+  ]
+}

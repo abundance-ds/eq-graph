@@ -1,0 +1,733 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CAL-B03",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was supported by the EuroQol Foundation (1557-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates how proxy respondents interpret the EQ-HWB-9 recall period and reporting perspective. These questions concern the content validity and use of an EQ instrument. The EuroQol Foundation explicitly supported the work.",
+    "source": [
+      "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Abstract > Purpose and Methods",
+      "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, final two paragraphs",
+      "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Acknowledgements and Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Think-aloud evaluation of EQ-HWB-9 recall and proxy perspective among carers of people with dementia",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main contribution is qualitative evidence about interpretation of the EQ-HWB-9 recall period and proxy-reporting perspective. These are content-validity and response-process questions. The study did not produce new instrument content or a value set.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, final paragraph",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "CONTENT_VALIDITY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, final paragraph",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 2,
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, paragraphs on recall periods and proxy perspectives",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Conclusions"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Main qualitative think-aloud study",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design and Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Participants and Data collection"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Adult informal or paid carers currently caring for a person with dementia and experienced in reporting on that person's health and well-being",
+      "role": "Proxy respondents",
+      "geographies": [
+        "Australia"
+      ],
+      "conditions": [
+        "Dementia in the person receiving care"
+      ],
+      "age_description": "At least 18 years of age",
+      "inclusion_description": "Living in Australia, currently providing paid or unpaid care for someone living with dementia, and previously reporting on that person's health and well-being.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Participants, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "APPROACHED",
+      "size": 39,
+      "size_text": "39 potential participants were contacted",
+      "unit": "potential participants",
+      "description": "Potential participants contacted through recruitment linked to the Understanding Dementia Massive Open Online Course.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Participant recruitment and contextual information, paragraph 1 and Figure 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 19,
+      "size_text": "19 completed interviews",
+      "unit": "carers",
+      "description": "Interview completers; 17 were female and 2 were male.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Participant recruitment and contextual information, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 19,
+      "size_text": "19 interview transcripts contributed to the reported analysis",
+      "unit": "carers",
+      "description": "The analysis reports findings from all 19 completed interviews.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Analysis",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results, opening paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Verbatim transcripts of audio-recorded semi-structured cognitive interviews",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "To analyze carers' interpretation of the recall period, response processes, and proxy perspective when completing the EQ-HWB-9 and three additional EQ-HWB questions.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection, final paragraph",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Analysis"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Participant demographic and caregiving characteristics",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To describe the sample and compare background characteristics with emerging qualitative categories.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection, paragraph 3",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)",
+      "registry_id": "instrument:eq-hwb-s",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, final paragraph, identifies EQ-HWB-9 as previously named EQ-HWB-S",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection, paragraphs 1 and 4–6"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-HWB",
+      "registry_id": "instrument:eq-hwb",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection, paragraph 5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "convenience sampling",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Abstract > Methods",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Participants, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "semi-structured cognitive interviews",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Abstract > Methods",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "think aloud",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection, paragraph 6"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "integrated thematic analysis involving inductive coding and deductive coding",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Analysis, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "COnsolidated criteria for REporting Qualitative research (CORE-Q)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "mu2",
+        "mu3"
+      ],
+      "label": "Think-aloud completion of the proxy EQ-HWB-9 and three additional positively worded EQ-HWB questions",
+      "profiles": [
+        "Health and well-being of the person with dementia during the last 7 days"
+      ],
+      "attributes": [
+        "getting around",
+        "day-to-day activities",
+        "exhausted",
+        "lonely",
+        "concentrating or thinking clearly",
+        "anxious",
+        "sad or depressed",
+        "control over day-to-day life",
+        "physical pain",
+        "feeling accepted by others",
+        "feeling good about themselves",
+        "doing the things they wanted to do"
+      ],
+      "levels": [
+        "Five response options for each EQ-HWB-9 item"
+      ],
+      "duration": "last 7 days",
+      "alternatives": "One response selected for each question; interview prompts examined the basis for the response.",
+      "task_count": "12 questions: nine EQ-HWB-9 items and three additional EQ-HWB items",
+      "block": "EQ-HWB-9 questions plus three positively worded questions from the longer EQ-HWB",
+      "order": "Proxy perspective was explored after completion of the questionnaire items.",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Data collection, paragraphs 4–6"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "Informal carers acting as proxies for people with dementia",
+      "perspective": "Proxy report about the person with dementia; actual response processes included proxy–proxy perspective and, for nearly half, proxy–patient perspective.",
+      "completion": "Carer completed the questionnaire while thinking aloud.",
+      "assistance": "The interviewer prompted participants as needed using the study topic guide.",
+      "channel": "Online video-conference using Zoom; a hard-copy questionnaire was supplied in advance.",
+      "setting": "Remote interviews with carers living in Australia",
+      "instrument_language": "English for Australia, version 1",
+      "interview_language": "English",
+      "recall_period": "last 7 days",
+      "time_point": "One interview conducted between June and September 2024",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Study design and Data collection",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications, opening paragraphs"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "si1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "group": "Study advisor with lived experience of caring for a person living with dementia",
+      "activity": "Reviewed the summary and interpretation of the findings.",
+      "stage": "Analysis and interpretation",
+      "role": "Lived-experience study advisor",
+      "influence": "Reviewed and confirmed the summary and interpretation of the findings.",
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Methods > Analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "CONTENT_VALIDITY",
+      "label": "Interpretation and use of the EQ-HWB-9 7-day recall period",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, final paragraph, Objective 1",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Use and interpretation of the recall period in retrieval"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "CONTENT_VALIDITY",
+      "label": "Perspective adopted by carers during proxy completion",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, final paragraph, Objective 2",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Carers used two main retrieval strategies: extending the recall period to include significant events or self-report, and using earlier behavior and personal history to contextualize recent behavior.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Use and interpretation of the recall period in retrieval, opening paragraph and Strategy 1–2 subsections"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Adherence to the 7-day recall period was more consistent for observable or readily verbalized domains. For less observable feelings, carers more often used earlier events, personality, mannerisms, or indirect behavioral indicators.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Strategy 1: extending the recall period to capture significant events",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Strategy 2: drawing on the past to contextualise recent behaviours"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Carers used different response strategies across item formats. For difficulty items they averaged behavior, emphasized the most difficult moments, or considered frequency. For most frequency items they counted either days or occurrences within the recall period.",
+      "about": [
+        "o1",
+        "iu1"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Application of recall in response strategies"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "All carers used their own observations and judgments, consistent with the proxy–proxy perspective. Nearly half also imagined how the person with dementia would answer, consistent with the proxy–patient perspective. No carer used only the proxy–patient perspective.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "19",
+          "unit": "carers",
+          "denominator": "19 carers",
+          "time": "During questionnaire completion",
+          "subgroup": "All participants",
+          "comparator": null,
+          "direction": "used proxy–proxy perspective",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "nearly half",
+          "unit": "carers",
+          "denominator": "19 carers",
+          "time": "During questionnaire completion",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "also used proxy–patient perspective",
+          "uncertainty": "The article does not report an exact count."
+        },
+        {
+          "reported_value": "0",
+          "unit": "carers",
+          "denominator": "19 carers",
+          "time": "During questionnaire completion",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "used only proxy–patient perspective",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications, paragraphs 1 and 6–7"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "When feelings were difficult to observe, carers used behavior as an indirect indicator. Some carers also disagreed with the person's reported or presumed self-assessment, especially for pain and control.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu2"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications, paragraphs 1–5 and 8"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "No new concepts or themes emerged after the tenth interview.",
+      "about": [
+        "mu4",
+        "du1"
+      ],
+      "values": [
+        {
+          "reported_value": "10",
+          "unit": "interviews",
+          "denominator": "19 completed interviews",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "no new concepts or themes after this interview",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Participant recruitment and contextual information, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Wording changes may be needed to support consistent use of the 7-day recall period, especially for less observable items.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Abstract > Conclusion",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Proxy-perspective instructions and adherence need further consideration. Instructions and item wording may need revision to improve recall consistency and applicability of the proxy EQ-HWB-9 in dementia.",
+      "finding_ids": [
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion, paragraphs on proxy perspective",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Conclusions"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Convenience recruitment through a webpage linked to an online dementia course may have selected people with a personal interest in dementia or higher digital literacy.",
+      "about": [
+        "pop1",
+        "sa1",
+        "mu1"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion > Limitations, sentence 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study included only people living in Australia who spoke English, so the findings may not generalize to other populations or patient groups that require proxy reporting.",
+      "about": [
+        "pop1"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion > Limitations, sentence 3"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Evidence about cognitive processes was limited to what participants verbalized during think-aloud and probing, and emotional factors may have caused omission of sensitive topics.",
+      "about": [
+        "mu2",
+        "mu3",
+        "du1"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion > Limitations, sentences 4–5"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study did not determine how easy carers found it to remember the person's ability to self-report, which may affect the choice of proxy perspective.",
+      "about": [
+        "o2"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion > Limitations, sentence 6"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study did not explore in depth how relationship type, carer role, cultural background, or prior proxy-reporting experience influenced the findings.",
+      "about": [
+        "pop1",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion > Limitations, sentence 7"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Nearly all participating carers were female, although the authors stated that it was unclear whether this was a limitation.",
+      "about": [
+        "sa2"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Discussion > Limitations, final sentences"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Recall-period adherence",
+      "description": "The extent to which a proxy bases an answer on information from the specified 7-day period rather than events or information outside it.",
+      "about": [
+        "o1",
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, paragraphs on recall periods",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Use and interpretation of the recall period in retrieval"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Proxy–proxy perspective",
+      "description": "A proxy reports from the proxy's own observations and opinion of the person's health and well-being.",
+      "about": [
+        "o2",
+        "f4"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, paragraph defining proxy perspectives",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Proxy–patient perspective",
+      "description": "A proxy reports as the proxy imagines the person would report for themselves.",
+      "about": [
+        "o2",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Introduction, paragraph defining proxy perspectives",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Observability of health and well-being domains",
+      "description": "Observable behavior or verbal expression affected carers' ability to answer within the recall period and reduced reliance on indirect indicators or older information.",
+      "about": [
+        "o1",
+        "o2",
+        "f2",
+        "f5"
+      ],
+      "source": [
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Strategy 1: extending the recall period to capture significant events",
+        "input/projects/1557-RA/papers/doi_10.1007_s11136-026-04230-y.xml, Results > Proxy perspective and its implications"
+      ]
+    }
+  ]
+}

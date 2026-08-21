@@ -1,0 +1,736 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P090",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "adjacent_measurement",
+    "euroqol_support": "explicit",
+    "support_scope": "EuroQol Research Foundation, EQ Project 2015150.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The QALY model, health-utility scale properties, and the anchoring of dead are primary research objects. The work concerns health-state valuation without a primary EQ instrument or EQ-specific method focus. Structured funding metadata explicitly links the work to EuroQol Research Foundation project 2015150.",
+    "source": [
+      "Structured metadata, publication title and abstract",
+      "Structured metadata, article_type and categories",
+      "Structured metadata, funding[0], JATS article-meta/funding-group",
+      "Full article, Abstract",
+      "Full article, Scale Properties and Decision Making",
+      "Full article, Conclusion"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Analysis of zero anchoring and scale properties in the QALY model",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main contribution evaluates assumptions and scale properties of the QALY model, derives the required zero anchors, and examines their decision consequences. The literature review supports this primary methodological analysis.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, final paragraph before Literature Review",
+        "Full article, Scale Properties and Decision Making",
+        "Full article, Discussion",
+        "Full article, Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "METHOD_OR_PROTOCOL_QUALITY",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract, Research Question and Methods",
+        "Full article, Scale Properties and Decision Making",
+        "Full article, Discussion"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "EVIDENCE_SYNTHESIS",
+      "rank": 2,
+      "source": [
+        "Full article, Literature Review, opening paragraph",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Literature review of arguments for anchoring dead at zero",
+      "source": [
+        "Full article, Literature Review",
+        "Full article, Tables 1 and 2"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Scale-property and decision-making analysis",
+      "source": [
+        "Full article, Scale Properties and Decision Making",
+        "Full article, Figures 1–3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Literature Review, opening and screening paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Literature Review"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article, Literature Review"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Literature Review"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "synthesis_design",
+      "value": "SYSTEMATIC_REVIEW",
+      "source": [
+        "Full article, Literature Review, database search and screening paragraphs",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "synthesis_design",
+      "value": "NARRATIVE_SYNTHESIS",
+      "source": [
+        "Full article, Literature Review, Table 2",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "CONCEPTUAL",
+      "source": [
+        "Full article, Scale Properties and Decision Making",
+        "Full article, Anchoring Duration at 0",
+        "Full article, Anchoring Dead at 0"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Scale Properties and Decision Making"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "Full article, Scale Transformations, Indifference, and the QALY Model",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Scale Properties and Decision Making"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "English-language papers, books, and theses about the QALY model, health utilities, scale properties, utility elicitation, or health-utility scale anchoring",
+      "role": "evidence sources",
+      "geographies": [],
+      "conditions": [],
+      "age_description": null,
+      "inclusion_description": "Sources had to address a topic related to the QALY model, health utilities, scale properties, or health-utility elicitation and had to touch on anchoring of the health-utility scale or QALY model. Unavailable and non-English sources were excluded.",
+      "source": [
+        "Full article, Literature Review, paragraphs after Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "INCLUDED_EVIDENCE",
+      "size": 7,
+      "size_text": "7 papers included for final review",
+      "unit": "papers",
+      "description": "Electronic literature retained after database searching and screening.",
+      "source": [
+        "Full article, Table 1, final row"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "INCLUDED_EVIDENCE",
+      "size": 11,
+      "size_text": "11 health economic and decision analytical handbooks",
+      "unit": "handbooks",
+      "description": "Additional handbooks selected for the review.",
+      "source": [
+        "Full article, Literature Review, paragraph after Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "INCLUDED_EVIDENCE",
+      "size": 5,
+      "size_text": "5 PhD theses",
+      "unit": "theses",
+      "description": "Additional PhD theses selected for the review.",
+      "source": [
+        "Full article, Literature Review, paragraph after Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Electronic literature from PubMed, Embase, Web of Science, PsycINFO, EconLit, and Cochrane",
+      "origin": "REVIEW_EXTRACTED_EVIDENCE",
+      "level": "DOCUMENT",
+      "purpose": "Identify published arguments about anchoring the QALY model at dead and perfect health.",
+      "source": [
+        "Full article, Literature Review, opening paragraph",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "11 health economic and decision analytical handbooks and 5 PhD theses",
+      "origin": "REVIEW_EXTRACTED_EVIDENCE",
+      "level": "DOCUMENT",
+      "purpose": "Supplement the electronic literature review with relevant sources not found through research-paper databases.",
+      "source": [
+        "Full article, Literature Review, paragraph after Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Scale theory, QALY assumptions, zero conditions, and hypothetical health episodes",
+      "origin": "CONCEPTUAL_MATERIAL",
+      "level": "DOCUMENT",
+      "purpose": "Examine scale transformations, derive zero anchors, and illustrate decision consequences.",
+      "source": [
+        "Full article, Scale Properties and Decision Making",
+        "Full article, Figures 1–3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D",
+      "registry_id": "instrument:eq-5d",
+      "context": "DISCUSSION_ONLY",
+      "function": "REFERENCE_ONLY",
+      "source": [
+        "Full article, introductory paragraph beginning “The quality-adjusted life year”",
+        "Full article, introductory paragraph beginning “In most studies”"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Health Utility Index (HUI)",
+      "registry_id": "instrument:hui",
+      "context": "DISCUSSION_ONLY",
+      "function": "REFERENCE_ONLY",
+      "source": [
+        "Full article, introductory paragraph beginning “The quality-adjusted life year”"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "search strategy",
+      "registry_id": "method:search-strategy",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_IDENTIFICATION",
+      "source": [
+        "Full article, Literature Review, opening paragraph",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "literature review",
+      "registry_id": "method:literature-review",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Literature Review",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "discrete choice experiments (DCEs)",
+      "registry_id": "method:dce",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Abstract, Introduction",
+        "Full article, Implications for Research"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "time trade-off (TTO)",
+      "registry_id": "method:tto",
+      "context": "DISCUSSION_ONLY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, introductory paragraph beginning “The quality-adjusted life year”",
+        "Full article, Anchoring Dead at 0",
+        "Full article, Implications for Research"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "standard gamble (SG)",
+      "registry_id": "method:sg",
+      "context": "DISCUSSION_ONLY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, introductory paragraph beginning “The quality-adjusted life year”",
+        "Full article, Implications for Research"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Visual Analogue Scale (VAS)",
+      "registry_id": "method:vas",
+      "context": "DISCUSSION_ONLY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, introductory paragraph beginning “The quality-adjusted life year”"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "QALY model",
+      "registry_id": "model:qaly-model",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "DECISION_ANALYSIS",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Abstract",
+        "Full article, opening paragraph",
+        "Full article, Scale Properties and Decision Making"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Scale transformation",
+      "levels": [
+        "interval scale transformation",
+        "ratio scale transformation"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article, Scale Transformations, Indifference, and the QALY Model",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Position of dead relative to other health states",
+      "levels": [
+        "dead relatively close to perfect health",
+        "dead relatively far from perfect health"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, The Position of Dead Relative to Other Health States",
+        "Full article, Figure 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "CONCEPTUAL_CLASSIFICATION",
+      "label": "Practical and theoretical arguments for anchoring dead at zero",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Table 2",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Preservation of QALY indifferences under scale transformations and zero anchoring",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Scale Transformations, Indifference, and the QALY Model",
+        "Full article, Anchoring Duration at 0",
+        "Full article, Anchoring Dead at 0"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "CONCEPTUAL_CLASSIFICATION",
+      "label": "Effect of the position of dead on cost-utility decision priorities",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, The Position of Dead Relative to Other Health States",
+        "Full article, Figure 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The review identified practical arguments based on definition, convenience, calculation, and comparability, together with theoretical arguments about scale anchoring and QALY properties.",
+      "about": [
+        "out1",
+        "mu2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Table 2",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "An additive change to the origin of the duration scale did not preserve indifference between the hypothetical health episodes, but a positive multiplicative transformation preserved it.",
+      "about": [
+        "out2",
+        "mo1",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "20.4",
+          "unit": "QALYs",
+          "denominator": null,
+          "time": null,
+          "subgroup": "episode A after the interval transformation w(T)=T+2",
+          "comparator": "19.8 QALYs for episode B",
+          "direction": "higher",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "34 each",
+          "unit": "QALYs",
+          "denominator": "each of episodes A and B",
+          "time": null,
+          "subgroup": "ratio transformation w(T)=2*T",
+          "comparator": null,
+          "direction": "indifference preserved",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Scale Transformations, Indifference, and the QALY Model",
+        "Full article, Figures 1 and 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Under the stated QALY assumptions and zero conditions, a duration of zero years has value zero and dead has health-utility value zero.",
+      "about": [
+        "out2",
+        "mo1"
+      ],
+      "values": [
+        {
+          "reported_value": "w(0)=0",
+          "unit": null,
+          "denominator": null,
+          "time": "0 years",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "v(Dead)=0",
+          "unit": "health-utility value",
+          "denominator": null,
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Anchoring Duration at 0",
+        "Full article, Anchoring Dead at 0",
+        "Full article, Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The position of dead relative to other health states changes the weight given to life-saving and life-improving treatments and determines which health states receive negative values.",
+      "about": [
+        "out3",
+        "sf2",
+        "mo1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, The Position of Dead Relative to Other Health States",
+        "Full article, Figure 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The authors conclude that both the duration scale and the health-utility scale must have ratio-scale properties and that dead must be assigned the value zero.",
+      "finding_ids": [
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article, Discussion, second paragraph",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The authors conclude that the relative position of dead must be established carefully because it affects cost-utility decisions and separates positive from negative health states.",
+      "finding_ids": [
+        "f4"
+      ],
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The authors state that measurement methods which compare health states with dead should receive more attention.",
+      "finding_ids": [
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Conclusion, final sentence"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Potentially relevant information might not have appeared in the titles and abstracts used during electronic-literature screening, so full-text searching could have found more information.",
+      "about": [
+        "part1",
+        "mu1",
+        "mu2"
+      ],
+      "source": [
+        "Full article, Limitations and Strengths, first paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The review of books and PhD theses was limited by practical constraints.",
+      "about": [
+        "part1",
+        "du2"
+      ],
+      "source": [
+        "Full article, Limitations and Strengths, first paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Natural zero of the health-utility scale",
+      "description": "Dead is treated as the natural origin that permits ratio-scale statements and multiplicative use in the QALY model.",
+      "about": [
+        "out2",
+        "mo1",
+        "f3"
+      ],
+      "source": [
+        "Full article, Anchoring Dead at 0",
+        "Full article, Scale Properties of the QALY Model"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Ordinal position of dead",
+      "description": "The position of dead among health states determines which states are worse than dead and changes the relative priority of life-saving and life-improving interventions.",
+      "about": [
+        "out3",
+        "sf2",
+        "f4"
+      ],
+      "source": [
+        "Full article, The Position of Dead Relative to Other Health States",
+        "Full article, Figure 3"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "better than dead (BTD)",
+      "description": "Better than dead is a valuation condition that compares health states directly with dead and thereby fixes the position of dead when positive and negative health states are established.",
+      "about": [
+        "c1",
+        "c2",
+        "out2",
+        "out3"
+      ],
+      "source": [
+        "Full article, introductory paragraph beginning “The quality-adjusted life year”",
+        "Full article, introductory paragraph beginning “The variation in the rank order position”",
+        "Full article, Implications for Research"
+      ]
+    }
+  ]
+}

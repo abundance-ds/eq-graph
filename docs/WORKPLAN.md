@@ -1,6 +1,6 @@
 # Current research work plan
 
-Status date: 2026-08-18.
+Status date: 2026-08-21.
 
 This file states the current work-package status and ordered research tasks.
 It does not specify website design. Application implementation is recorded in
@@ -19,8 +19,9 @@ PROJECT-FIRST LOCAL CORPUS                 LITERATURE-FIRST SCALE CORPUS
   -> 207 audited studies
 ```
 
-The 209-paper graph is not the full 3,148-record corpus. The 305 project-first
-matches were discovery results, not full-text inclusion decisions.
+The 209-paper project-first corpus is not the full 3,148-record scale corpus.
+The 305 project-first matches were discovery results, not full-text inclusion
+decisions.
 
 ## Work-package status
 
@@ -29,38 +30,79 @@ matches were discovery results, not full-text inclusion decisions.
 | 1. Paper identification | Final records for full-text retrieval | The frozen screen retained 3,148 of 18,348 records. | Independent human sample check and held identity queue. |
 | 2. Full-text retrieval | Lawfully obtained full texts with source and licence records | The project-first route holds 287 full texts. Scale retrieval is zero. | Process the local PDF set, then approve a scale retrieval plan. |
 | 3. Full-text processing | Source-verified study evidence and project links | Complete for 209 local JATS publications: 207 studies, one exclusion, one correction notice. | Add 60 local PDF-only papers with the same audit gates. |
-| 4. Research data service | Audited graph and safe research-query derivative | Typed SQLite graph and sanitized serving database are complete for the JATS corpus. | Rebuild after each accepted tranche and test question coverage. |
+| 4. Research data service | Audited graph and safe research-query derivative | The version-0.13 corrected-record run is complete: all 209 records pass deterministic validation. The version-2 database and shared preview are in packaging. | Complete packaging, corpus checks, the full 100-question aggregate-validity rerun, and focused version-0.14 gap work. |
 
 ## Completed research foundation
 
-- Ontology version 3 used 100 design papers, 100 competency questions, three
-  independent proposals, synthesis, and an unseen holdout.
-- One paper call combines full-text assessment and conditional draft
-  extraction. Deterministic code handles structured metadata, validation,
-  normalization, and graph loading.
-- A strong full-source audit checked all 207 included records. It passed 121
+- Ontology version 3 used 100 design papers and 100 questions. Its 209-paper
+  graph remains the source-audited version-1 baseline, not the final analytical
+  model.
+- The typed reset used four rounds and 60 diverse papers. Version 0.5 matched
+  59 of 60 source-adjudicated families in a blind run and found no missing
+  record, key, controlled value, or gap.
+- The first typed production calibration used 20 unseen publications. Final
+  records pass 20/20 deterministic checks, and the source-checked repairs pass
+  16/16. Registry normalization resolves 220 uses and keeps five ambiguous
+  labels unmapped.
+- A second test used 20 different publications and 21 studies. Final records
+  pass 20/20 deterministic checks and all repaired records pass source review.
+  Corrected normalization resolves 287 uses and keeps two vague labels unmapped.
+- A later cross-audit found that software use was absent. The first rebuild was
+  stopped and invalidated. Versions 0.6 to 0.8 add software use, optional parts
+  for simple studies, whole-study relations, exact review-flow stages, and one
+  experimental-design software function.
+- A live audit then found that experimental-design algorithms had no exact
+  method role. The version-0.8 restart was stopped after five records. Version
+  0.9 adds that role. Four difficult DCE-design papers then had zero MAJOR
+  source defects and no new ontology gap.
+- The version-0.9 rebuild stopped after 48 records when independent one-paper
+  audits found repeated sample-flow gaps. Version 0.10 added three general
+  stages. Version 0.11 added general clinical-event and health-service-use
+  outcome families after corpus-wide evidence and direct source tests.
+- Two fresh eight-paper tests checked the correction. The first raw set had
+  three MAJOR errors that focused repair removed. The second raw set had zero
+  MAJOR, two PASS, and six MINOR source verdicts.
+- The completed version-0.13 run has 209 valid corrected records: 207 studies,
+  one correction notice, and one excluded paper. The records contain 15,430
+  typed items, 1,951 findings, 939 limitations, 96 products, 188 source
+  conflicts, and 210 explicit gaps.
+- Each paper used one Opus draft and one fresh Opus source review. Draft review
+  returned 7 PASS, 202 MINOR, 0 MAJOR, and 846 corrections. Deterministic code
+  validates each corrected record before normalization or loading.
+- The version-1 full-source audit checked all 207 included records. It passed 121
   unchanged, corrected 86, and left no unresolved material issue.
 - Project linkage compared each paper with all date-eligible projects. The
   final result has 242 accepted links. Fourteen possible links remain
   non-materialized assessments.
-- The final local graph contains 17,650 nodes, 26,143 relationships, 7,030
+- The version-1 local graph contains 17,650 nodes, 26,143 relationships, 7,030
   semantic facts, 871 findings, 602 limitations, and 191 source conflicts.
 - SQLite integrity, foreign-key, graph-structure, exact-domain, and linkage
   checks pass.
 
 ## Ordered next work
 
-### 1. Local PDF input
+### 1. Package and validate the version-2 preview
 
-1. Select an established PDF parser only after it passes the six-paper text,
-   symbol, section, and table checks.
-2. Do not use `pdf-inspector` 1.15.0 as the default. It corrupted 304 meaningful
-   minus or inequality signs in five of six test papers.
-3. Convert the 60 local PDF-only papers.
+1. Keep the current 209-paper database unchanged as version 1.
+2. Package the 209 valid version-0.13 corrected records in a separate version-2
+   SQLite database and shared preview.
+3. Run integrity, provenance, registry, and corpus checks on the packaged data.
+4. Rerun all 100 aggregate questions. Do not infer a pass from record validity.
+5. Complete focused version-0.14 work on recurrent explicit gaps.
+6. Treat the shared preview as a review release. Approve the final analytical
+   release only after the aggregate-validity and gap gates.
+
+### 2. Local PDF input
+
+1. Use `scripts/pdf_markdown.py` version 3 for canonical PDF Markdown. It repairs
+   verified font maps before one PyMuPDF4LLM structural pass.
+2. Do not run a second table parser. Tables, headings, prose, formula text, and
+   source-page markers are in the same output.
+3. Convert the 60 pending PDF-only papers in small tranches.
 4. Run the same assessment, extraction, source audit, project linkage, graph
    loading, and integrity checks used for the JATS corpus.
 
-### 2. Scale-retrieval readiness
+### 3. Scale-retrieval readiness
 
 1. Complete an independent human sample check of retained and excluded
    screening decisions.
@@ -69,7 +111,7 @@ matches were discovery results, not full-text inclusion decisions.
    not rerun the frozen 18,348-record screen.
 4. Freeze the final retained set.
 
-### 3. Lawful scale retrieval
+### 4. Lawful scale retrieval
 
 Before retrieval, record:
 
@@ -83,13 +125,13 @@ Before retrieval, record:
 Keep unavailable papers unassessed. Do not infer full-text evidence from an
 abstract.
 
-### 4. Processing each new tranche
+### 5. Processing each new tranche
 
 ```text
 source file
   -> deterministic identity, metadata, and text preparation
-  -> one AI full-text assessment and conditional draft extraction
-  -> mandatory strong full-source verification
+  -> one Opus full-text assessment and conditional draft extraction
+  -> one fresh Opus full-source review and correction
   -> separate project-link assessment across all date-eligible projects
   -> deterministic normalization and graph loading
   -> integrity, provenance, and competency-question tests
@@ -114,9 +156,10 @@ support or output relationships.
 
 ## Decision points
 
-No ontology decision is open now. Human input is required if:
+Version-2 packaging, aggregate validity, and focused version-0.14 gap work are
+the active graph gates. Human input is required if:
 
-- an established PDF parser does not pass the calibration;
+- the six-paper PDF extraction pilot finds a material source error;
 - a repeated paper type cannot fit the current ontology;
 - project-link evidence requires a new policy;
 - retrieval changes legal, access, or material cost constraints;
@@ -129,7 +172,11 @@ No ontology decision is open now. Human input is required if:
 - Provenance: [`PROVENANCE.md`](PROVENANCE.md)
 - Scale pause and restart order:
   [`../scale/protocol-2.0/PAUSE_2026-08-05.md`](../scale/protocol-2.0/PAUSE_2026-08-05.md)
-- Current ontology and production decision:
+- Current ontology candidate:
+  [`../pilot/ontology-development-v4/ONTOLOGY.md`](../pilot/ontology-development-v4/ONTOLOGY.md)
+- Current production decision:
+  [`../pilot/ontology-development-v4/production/DECISION.md`](../pilot/ontology-development-v4/production/DECISION.md)
+- Historical version-1 production decision:
   [`../pilot/ontology-development-v3/production-calibration/DECISION.md`](../pilot/ontology-development-v3/production-calibration/DECISION.md)
 - Audited corpus result:
   [`../pilot/ontology-development-v3/production-calibration/GRAPH_CORPUS_REPORT.md`](../pilot/ontology-development-v3/production-calibration/GRAPH_CORPUS_REPORT.md)

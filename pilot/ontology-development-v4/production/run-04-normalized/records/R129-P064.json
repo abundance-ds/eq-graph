@@ -1,0 +1,1505 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P064",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This research was supported by the EuroQol Research Foundation under Grant number 20170600.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly compares the responsiveness of EQ-5D-3L and EQ-5D-5L descriptive systems and country-specific value sets. The funding declaration explicitly links EuroQol Research Foundation support to this research.",
+    "source": [
+      "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Abstract > Objectives",
+      "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Declarations > Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Head-to-head comparison of EQ-5D-3L and EQ-5D-5L responsiveness in rehabilitation and stroke samples",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an evaluation of the responsiveness and relative efficiency of two EQ-5D versions and their value sets. The study does not develop new instrument content or a new value set.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Abstract",
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Introduction, final paragraph",
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Abstract > Objectives"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Overall EQ-5D-3L versus EQ-5D-5L responsiveness analysis",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "German inpatient rehabilitation sample analysis",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Polish stroke sample analysis",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Abstract > Objectives"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Methods > Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Methods > Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "German inpatient rehabilitation patients",
+      "role": "source-data patient sample",
+      "geographies": [
+        "Germany"
+      ],
+      "conditions": [
+        "diseases of the spine and back",
+        "arthropathies",
+        "affective disorders",
+        "neurotic, somatoform and stress-related disorders",
+        "inflammatory arthropathies"
+      ],
+      "age_description": "Mean age 57 years (SD 12.0).",
+      "inclusion_description": "Only patients who fully completed EQ-5D-3L and EQ-5D-5L at baseline and follow-up were included.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Polish stroke patients",
+      "role": "source-data patient sample",
+      "geographies": [
+        "Poland"
+      ],
+      "conditions": [
+        "intracerebral hemorrhage",
+        "cerebral infarction"
+      ],
+      "age_description": "Mean age 70.6 years (SD 11.0).",
+      "inclusion_description": "Only patients who fully completed EQ-5D-3L and EQ-5D-5L at baseline and follow-up were included.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sample1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 219,
+      "size_text": "n = 219",
+      "unit": "patients",
+      "description": "Patients with paired baseline-to-follow-up data in the sensitivity-to-change analysis.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Descriptive Responsiveness; Figure 1 caption"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sample2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 112,
+      "size_text": "n = 112",
+      "unit": "patients",
+      "description": "Patients with paired baseline-to-follow-up data in the sensitivity-to-change analysis.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Descriptive Responsiveness; Figure 1 caption"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "German inpatient rehabilitation dataset",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of paired EQ-5D-3L and EQ-5D-5L responses at the start and end of rehabilitation.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data",
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Declarations > Compliance with ethical standards"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Polish stroke dataset",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of paired EQ-5D-3L and EQ-5D-5L responses one week and four months after stroke.",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data",
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Declarations > Compliance with ethical standards"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-3L (3L)",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Abstract > Objectives"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L (5L)",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Abstract > Objectives"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "five-level self-rated general health (SRH) question (item 1 of the SF-36)",
+      "registry_id": "instrument:sf-36-item-1-five-level",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "modified Rankin Scale (mRS)",
+      "registry_id": "instrument:modified-rankin-scale",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "10-item version of the Barthel Index (BI)",
+      "registry_id": "instrument:barthel-index-10",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Wilcoxon signed-rank tests",
+      "registry_id": "method:wilcoxon-signed-rank-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Cross-Sectional Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Paretian Classification of Health Change (PCHC)",
+      "registry_id": "method:paretian-classification-of-health-change",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Responsiveness"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "probability of superiority (PS)",
+      "registry_id": "method:probability-of-superiority",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Responsiveness"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "standardized response mean (SRM)",
+      "registry_id": "method:standardized-response-mean",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "standardized effect size (SES)",
+      "registry_id": "method:standardized-effect-size",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "5L/3L ratio of the SRM and SES statistics",
+      "registry_id": "method:r129-p064-5l-3l-responsiveness-ratio",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "1000 bootstrap samples",
+      "registry_id": "method:bootstrap-resampling-1000",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EuroQol Valuation Technology Platform (EQ-VT)",
+      "registry_id": "protocol:eq-vt",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Canada — 3L",
+      "registry_id": "product:eq-5d-3l-ca",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "Canada — 5L",
+      "registry_id": "product:eq-5d-5l-ca",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "China — 3L",
+      "registry_id": "product:eq-5d-3l-cn",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "China — 5L",
+      "registry_id": "product:eq-5d-5l-cn",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "England/UK — 3L",
+      "registry_id": "product:eq-5d-3l-gb",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "England/UK — 5L",
+      "registry_id": "product:eq-5d-5l-england",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Germany — 3L",
+      "registry_id": "product:eq-5d-3l-de",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "Germany — 5L",
+      "registry_id": "product:eq-5d-5l-de",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Japan — 3L",
+      "registry_id": "product:eq-5d-3l-jp",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su10",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "Japan — 5L",
+      "registry_id": "product:eq-5d-5l-jp",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su11",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "The Netherlands — 3L",
+      "registry_id": "product:eq-5d-3l-nl",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su12",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "The Netherlands — 5L",
+      "registry_id": "product:eq-5d-5l-nl-2016",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su13",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Poland — 3L",
+      "registry_id": "product:eq-5d-3l-pl",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su14",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "Poland — 5L",
+      "registry_id": "product:eq-5d-5l-pl",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su15",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "South Korea — 3L",
+      "registry_id": "product:eq-5d-3l-kr",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su16",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "South Korea — 5L",
+      "registry_id": "product:eq-5d-5l-kr",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su17",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "Spain — 3L",
+      "registry_id": "product:eq-5d-3l-es",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su18",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "Spain — 5L",
+      "registry_id": "product:eq-5d-5l-es",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su19",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "US — 3L",
+      "registry_id": "product:eq-5d-3l-us",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su20",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "US — 5L",
+      "registry_id": "product:eq-5d-5l-us",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Pairs of 3L–5L Value Sets; Appendix 1, Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su21",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu1",
+      "source_label": "level sum scores (LSS)",
+      "registry_id": "product:level-sum-score",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Cross-Sectional Analysis"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su22",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "level sum scores (LSS)",
+      "registry_id": "product:level-sum-score",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Cross-Sectional Analysis"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu3",
+        "iu4"
+      ],
+      "label": "Order of 3L and 5L administration",
+      "profiles": [],
+      "attributes": [],
+      "levels": [],
+      "duration": null,
+      "alternatives": "EQ-5D-3L and EQ-5D-5L",
+      "task_count": "Both instruments at baseline and follow-up",
+      "block": null,
+      "order": "Instrument order was randomized and the assigned sequence was maintained across time points.",
+      "randomization_unit": "respondent",
+      "stopping_rule": null,
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "applies_to": [
+        "iu5",
+        "iu6"
+      ],
+      "label": "Order of 3L and 5L administration",
+      "profiles": [],
+      "attributes": [],
+      "levels": [],
+      "duration": null,
+      "alternatives": "EQ-5D-3L and EQ-5D-5L",
+      "task_count": "Both instruments at baseline and follow-up",
+      "block": null,
+      "order": "Fixed order, always starting with 5L.",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Self-rated health change category",
+      "levels": [
+        "improved",
+        "stable",
+        "deteriorated"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness; Table 1 footnote"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "modified Rankin Scale change category",
+      "levels": [
+        "improved",
+        "stable",
+        "deteriorated"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness; Table 1 footnote"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Barthel Index change category",
+      "levels": [
+        "improved",
+        "stable",
+        "deteriorated"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness; Table 1 footnote"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu3",
+        "iu4"
+      ],
+      "respondent": "patient",
+      "perspective": "patient self-report",
+      "completion": "paper-and-pencil completion",
+      "assistance": null,
+      "channel": "paper-and-pencil survey",
+      "setting": "German inpatient rehabilitation; baseline at the beginning of rehabilitation and follow-up before discharge",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "baseline and approximately 4–6 weeks later at the end of rehabilitation",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "applies_to": [
+        "iu5",
+        "iu6"
+      ],
+      "respondent": "patient or proxy; proxies supplied 18.7% of baseline responses",
+      "perspective": "patient health reported by the patient or proxy",
+      "completion": "paper-and-pencil completion",
+      "assistance": "proxy completion for some patients",
+      "channel": "paper-and-pencil survey",
+      "setting": "Baseline during index hospitalization before discharge; follow-up in outpatient clinics, a neurological rehabilitation department, or the patient's home",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "approximately 1 week and 4 months after stroke",
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Paired 3L–5L Descriptive Data; Table 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Descriptive-system responsiveness of EQ-5D-3L and EQ-5D-5L",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Responsiveness"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Responsiveness and relative efficiency of 3L and 5L values across country value sets",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Value Responsiveness"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Cross-sectional difference in reported health problems between 3L and 5L",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Methods > Analysis > Descriptive Cross-Sectional Analysis"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "At baseline, 5L distinguished more unique health profiles than 3L in both samples, and 3L generally reported more health problems than 5L.",
+      "about": [
+        "o3",
+        "iu1",
+        "iu2",
+        "su21",
+        "su22"
+      ],
+      "values": [
+        {
+          "reported_value": "37",
+          "unit": "unique health profiles",
+          "denominator": "rehabilitation baseline sample",
+          "time": "baseline",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "99",
+          "unit": "unique health profiles",
+          "denominator": "rehabilitation baseline sample",
+          "time": "baseline",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-5L",
+          "direction": "more profiles than EQ-5D-3L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "37",
+          "unit": "unique health profiles",
+          "denominator": "stroke baseline sample",
+          "time": "baseline",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "84",
+          "unit": "unique health profiles",
+          "denominator": "stroke baseline sample",
+          "time": "baseline",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-5L",
+          "direction": "more profiles than EQ-5D-3L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "14",
+          "unit": "% average increase in reported problems",
+          "denominator": "dimensions across the two patient samples",
+          "time": "baseline and follow-up",
+          "subgroup": null,
+          "comparator": "3L compared with 5L",
+          "direction": "3L overestimation",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Descriptive Cross-Sectional Results; Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "EQ-5D-5L captured more level changes per respondent than EQ-5D-3L in both samples.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.22",
+          "unit": "moves per respondent",
+          "denominator": "rehabilitation sample",
+          "time": "baseline to follow-up",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.46",
+          "unit": "moves per respondent",
+          "denominator": "rehabilitation sample",
+          "time": "baseline to follow-up",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-5L",
+          "direction": "higher than EQ-5D-3L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.34",
+          "unit": "moves per respondent",
+          "denominator": "stroke sample",
+          "time": "baseline to follow-up",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.58",
+          "unit": "moves per respondent",
+          "denominator": "stroke sample",
+          "time": "baseline to follow-up",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-5L",
+          "direction": "higher than EQ-5D-3L",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Descriptive Responsiveness"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "PCHC results differed by sample, while probability of superiority was modestly higher for 5L in both samples.",
+      "about": [
+        "o1",
+        "mu3",
+        "mu4",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "50",
+          "unit": "% improved by PCHC",
+          "denominator": "rehabilitation sample",
+          "time": "baseline to follow-up",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "60",
+          "unit": "% improved by PCHC",
+          "denominator": "rehabilitation sample",
+          "time": "baseline to follow-up",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-5L",
+          "direction": "higher than EQ-5D-3L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "51",
+          "unit": "% improved by PCHC",
+          "denominator": "stroke sample",
+          "time": "baseline to follow-up",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "44",
+          "unit": "% improved by PCHC",
+          "denominator": "stroke sample",
+          "time": "baseline to follow-up",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-5L",
+          "direction": "lower than EQ-5D-3L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.57",
+          "unit": "probability of superiority",
+          "denominator": "rehabilitation sample",
+          "time": "baseline to follow-up",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.59",
+          "unit": "probability of superiority",
+          "denominator": "rehabilitation sample",
+          "time": "baseline to follow-up",
+          "subgroup": "rehabilitation",
+          "comparator": "EQ-5D-5L",
+          "direction": "higher than EQ-5D-3L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.59",
+          "unit": "probability of superiority",
+          "denominator": "stroke sample",
+          "time": "baseline to follow-up",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-3L",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.63",
+          "unit": "probability of superiority",
+          "denominator": "stroke sample",
+          "time": "baseline to follow-up",
+          "subgroup": "stroke",
+          "comparator": "EQ-5D-5L",
+          "direction": "higher than EQ-5D-3L",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Descriptive Responsiveness"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Across the tested value sets, 5L SRM and SES statistics were generally higher in the improved rehabilitation subgroup and lower in the improved stroke subgroups.",
+      "about": [
+        "o2",
+        "mu5",
+        "mu6",
+        "sf1",
+        "sf2",
+        "sf3"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Responsiveness of Values; Figure 2; Appendix 2, Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Relative-efficiency results favored 5L most strongly in rehabilitation. Results favored 3L in the Barthel Index stroke subgroup and generally favored 3L for SES in the modified Rankin Scale subgroup.",
+      "about": [
+        "o2",
+        "mu7",
+        "sf1",
+        "sf2",
+        "sf3"
+      ],
+      "values": [],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Results > Responsiveness of Values; Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Use of the 3L mobility label 'confined to bed' differed sharply between samples and contributed to the observed responsiveness differences.",
+      "about": [
+        "o1",
+        "o2",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "1",
+          "unit": "respondent",
+          "denominator": "rehabilitation sample",
+          "time": null,
+          "subgroup": "rehabilitation",
+          "comparator": "3L mobility 'confined to bed'",
+          "direction": "rare endorsement",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "21",
+          "unit": "% of respondents",
+          "denominator": "stroke sample",
+          "time": "baseline",
+          "subgroup": "stroke",
+          "comparator": "3L mobility 'confined to bed'",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "7",
+          "unit": "% of respondents",
+          "denominator": "stroke sample",
+          "time": "follow-up",
+          "subgroup": "stroke",
+          "comparator": "3L mobility 'confined to bed'",
+          "direction": "lower than baseline",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that descriptive-system results were the main driver of 3L–5L responsiveness differences and that 5L measures health more accurately at individual and group levels.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f6"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion, first and second paragraphs"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that QALY calculations based on 5L data will be more accurate. They expected 3L to underestimate gains when moderate conditions improve toward mild health and potentially to overestimate gains when severe conditions improve toward mild-to-moderate health.",
+      "finding_ids": [
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Conclusion",
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion, final paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "There may have been an order effect in the stroke sample because 5L was always tested first.",
+      "about": [
+        "td2",
+        "iu5",
+        "iu6"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion > limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Only one anchor was used for the rehabilitation sample, while the authors stated that multiple anchors, including a clinical anchor, would be preferable.",
+      "about": [
+        "iu7",
+        "sf1"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion > limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Small stroke improvement subgroups may have limited the number of statistically significant results, especially for SES.",
+      "about": [
+        "sample2",
+        "mu6",
+        "sf2",
+        "sf3"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion > limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Proxy assessments in 18.7% of the stroke sample could have affected responsiveness results.",
+      "about": [
+        "ad2",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion > limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The use of only two patient samples does not permit generalization to other disease areas, and the use of samples from only two countries allows possible country-specific translation or response-behavior effects.",
+      "about": [
+        "pop1",
+        "pop2",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion > limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Bias may also be present in 5L when compared with more refined classifications, although the authors expected these effects to be smaller.",
+      "about": [
+        "iu2",
+        "o3"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion > limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "3L overestimation bias",
+      "description": "The reported tendency of EQ-5D-3L to indicate more health problems than EQ-5D-5L, with effects on utility values and change estimates.",
+      "about": [
+        "iu1",
+        "iu2",
+        "o3",
+        "f1"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Introduction, final paragraph; Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Descriptive and value components of responsiveness",
+      "description": "The study separates differences caused by responses to the descriptive systems from differences caused by the applied value sets.",
+      "about": [
+        "o1",
+        "o2",
+        "int1"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Introduction, final paragraph; Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "'confined to bed' descriptor effect",
+      "description": "The severe EQ-5D-3L mobility label had different relevance across rehabilitation and stroke severity patterns and affected responsiveness.",
+      "about": [
+        "iu1",
+        "f6"
+      ],
+      "source": [
+        "input/projects/20170600/papers/doi_10.1007_s40273-022-01172-4.xml; Discussion, third paragraph"
+      ]
+    }
+  ]
+}

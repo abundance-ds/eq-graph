@@ -1,0 +1,1370 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P001",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This project is supported by the National Research Foundation, Singapore under its National Precision Medicine fund, Precision Health Research (‘PRECISE’) (MOH-000588-01), and the EuroQol Research Foundation (1741-RA), Rotterdam, the Netherlands.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly elicited preferences for EQ-5D-5L health states and developed the Singapore EQ-5D-5L value set. The funding statement explicitly identifies EuroQol Research Foundation support for the project.",
+    "source": [
+      "Deterministic metadata, title, abstract, article type, and funding",
+      "Full article, Introduction, final paragraph",
+      "Full article, Declarations > Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Development of the Singapore EQ-5D-5L value set",
+      "primary_research_family": "VALUE_SET_DEVELOPMENT",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The stated aim and main output were a new EQ-5D-5L value set based on preferences elicited from the Singapore general adult population.",
+      "source": [
+        "Full article, Abstract > Objectives and Conclusions",
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUE_SET_DEVELOPMENT",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract > Objectives",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "HEALTH_STATE_VALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Valuation Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Data Collection and Data Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Data Collection",
+        "Full article, Results, first paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "Full article, Methods > Model Construction and Model Evaluation",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > The ‘Lite’ EQ-5D-5L Valuation Protocol; random assignment applied only to task blocks"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "General adult population of Singapore",
+      "role": "target population",
+      "geographies": [
+        "Singapore"
+      ],
+      "conditions": [],
+      "age_description": "Aged 21 years or older; observed age range 21–86 years",
+      "inclusion_description": "Able to read and communicate in English or Chinese and physically and mentally capable of completing an in-person or Zoom interview; prior EQ-VT study participation was excluded.",
+      "source": [
+        "Full article, Methods > Sampling and Recruitment",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": null,
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 500,
+      "size_text": "500 individuals successfully recruited",
+      "unit": "participants",
+      "description": "Quota-sampled participants recruited for interview.",
+      "source": [
+        "Full article, Results, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": null,
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 500,
+      "size_text": "500 participants interviewed",
+      "unit": "participants",
+      "description": "All recruited participants completed the interview and 20 cTTO tasks.",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Results, first and second paragraphs"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": null,
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 500,
+      "size_text": "Analytic sample N = 500",
+      "unit": "participants",
+      "description": "All interviewed respondents remained in the analysis.",
+      "source": [
+        "Full article, Table 2",
+        "Full article, Results, paragraph after Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": null,
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 0,
+      "size_text": "No respondents were excluded under the predefined cTTO data-selection criteria",
+      "unit": "respondents",
+      "description": "No respondent valued all 20 states as −1 or produced values that increased with health-state severity.",
+      "source": [
+        "Full article, Methods > Data Selection",
+        "Full article, Results, paragraph after Table 2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "cTTO valuation responses collected in the current study",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To estimate and evaluate the candidate Tobit regression specifications and derive the Singapore EQ-5D-5L value set.",
+      "source": [
+        "Full article, Methods > Data Collection, Section 3 description",
+        "Full article, Methods > Data Analysis",
+        "Full article, Declarations > Data Availability"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Questionnaire and demographic responses collected in the current study",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To describe participant characteristics and measure participants’ current health status.",
+      "source": [
+        "Full article, Methods > Data Collection, Section 2 description",
+        "Full article, Table 2",
+        "Full article, Declarations > Data Availability"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Closed-ended responses about participants’ considerations behind their cTTO choices",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To record structured reasons and considerations behind participants’ choices in the cTTO tasks.",
+      "source": [
+        "Full article, Methods > Data Collection, Section 4 description",
+        "Full article, Declarations > Data Availability"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Open-ended responses about participants’ considerations behind their cTTO choices",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "To collect participants’ open-ended explanations of the reasons and considerations behind their choices in the cTTO tasks.",
+      "source": [
+        "Full article, Methods > Data Collection, Section 4 description",
+        "Full article, Declarations > Data Availability"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, Methods > The ‘Lite’ EQ-5D-5L Valuation Protocol",
+        "Full article, Methods > Valuation Procedure"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L questionnaire",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Data Collection, description of interview Section 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING_SOURCE",
+      "source": [
+        "Full article, Results, paragraph after Table 4",
+        "Full article, Figure 3",
+        "Full article, Reference 43"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING_TARGET",
+      "source": [
+        "Full article, Results, paragraph after Table 4",
+        "Full article, Figure 3",
+        "Full article, Reference 43"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "quota sampling method",
+      "registry_id": "method:quota-sampling",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods > Sampling and Recruitment, second paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "composite time trade-off (cTTO)",
+      "registry_id": "method:ctto",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Valuation Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "closed-ended questions about participants’ considerations behind their choices in the cTTO tasks",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods > Data Collection, Section 4 description"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "cross-validation procedure",
+      "registry_id": "method:cross-validation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Model Evaluation"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "open-ended questions about participants’ considerations behind their choices in the cTTO tasks",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods > Data Collection, Section 4 description"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "backward selection method",
+      "registry_id": "method:backward-selection",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Model Evaluation, first paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "‘lite’ version of the EuroQol’s EQ-5D-5L valuation protocol",
+      "registry_id": "protocol:eq-5d-5l-valuation-lite",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods, first paragraph",
+        "Full article, Methods > The ‘Lite’ EQ-5D-5L Valuation Protocol"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "standard quality control process developed by the EuroQol Group",
+      "registry_id": "protocol:eq-5d-5l-valuation-qc-2017",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL_PROTOCOL",
+      "source": [
+        "Full article, Methods > Data Collection, final paragraph"
+      ]
+    },
+    {
+      "type": "SoftwareUse",
+      "id": "sw1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EuroQol Valuation Technology (EQ-VT) (version 2.1)",
+      "registry_id": "software:eq-vt-2-1",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_ADMINISTRATION",
+      "source": [
+        "Full article, Methods, first paragraph",
+        "Full article, Methods > Data Collection"
+      ]
+    },
+    {
+      "type": "SoftwareUse",
+      "id": "sw2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "xreg package",
+      "registry_id": "software:xreg",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods > Value Set Estimation, final paragraph"
+      ]
+    },
+    {
+      "type": "SoftwareUse",
+      "id": "sw3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Zoom",
+      "registry_id": "software:zoom",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "DATA_COLLECTION",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Sampling and Recruitment",
+        "Full article, Methods > Data Collection"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "ADD20 Tobit regression specification",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "ADD20-I Tobit regression specification",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Table 1",
+        "Full article, Results, paragraph before Table 3",
+        "Full article, Tables 3 and 4"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "ADD20-P Tobit regression specification",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "CALE Tobit regression specification",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "CALE-I Tobit regression specification",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "CALE-P Tobit regression specification",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "CANDIDATE",
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "recommended mapping function [43]",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING",
+      "analytic_role": "COMPARATOR",
+      "source": [
+        "Full article, Results, paragraph after Table 4",
+        "Full article, Figure 3",
+        "Full article, Reference 43"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu4",
+      "source_label": "local EQ-5D-3L value set [16]",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Results, paragraph after Table 4",
+        "Full article, Figure 3",
+        "Full article, Reference 16"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Treatment of heteroskedasticity in the candidate Tobit regression specifications",
+      "levels": [
+        "Not accounting for heteroskedasticity",
+        "Accounting for heteroskedasticity"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Methods > Model Evaluation, final sentence",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Interview mode",
+      "levels": [
+        "in-person",
+        "via Zoom"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Data Collection",
+        "Full article, Discussion, limitations paragraph",
+        "Full article, Supplementary File 7 caption"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Ethnicity",
+      "levels": [
+        "Chinese",
+        "Malay",
+        "Indian",
+        "Others"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Table 2, ethnicity rows",
+        "Full article, Discussion, limitations paragraph",
+        "Full article, Supplementary File 6 caption"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Education attainment",
+      "levels": [
+        "Primary or lower",
+        "Secondary and post-secondary",
+        "Tertiary"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Table 2, education rows",
+        "Full article, Discussion, limitations paragraph",
+        "Full article, Supplementary File 6 caption"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "mu2",
+        "sw1",
+        "pu1"
+      ],
+      "label": "‘Lite’ EQ-5D-5L cTTO valuation tasks",
+      "profiles": [
+        "91 EQ-5D-5L health states: 86 states from the standard protocol and five second-poorest states",
+        "Tutorial ‘in wheelchair’ example"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "no problems",
+        "slight problems",
+        "moderate problems",
+        "severe problems",
+        "extreme problems or unable to perform the relevant activities"
+      ],
+      "duration": "Conventional TTO used 10 years in an EQ-5D state; lead-time TTO used 10 years in full health followed by 10 years in the EQ-5D state.",
+      "alternatives": "Life A in full health versus Life B in the specified EQ-5D-5L health state; the lead-time task used full-health years in both lives.",
+      "task_count": "20 cTTO tasks per participant, preceded by one tutorial example and three practice tasks",
+      "block": "Five final blocks of 20 health states; each block contained state 55555 and one of the five second-poorest states: 45555, 54555, 55455, 55545, or 55554.",
+      "order": "Tutorial and three practice tasks preceded the 20 valuation tasks.",
+      "randomization_unit": "Each participant was randomly assigned to one of five health-state blocks.",
+      "stopping_rule": "Time was varied until indifference; for worse-than-dead states, the lead-time procedure continued until indifference or 0 years was reached.",
+      "source": [
+        "Full article, Methods > The ‘Lite’ EQ-5D-5L Valuation Protocol",
+        "Full article, Methods > Data Collection",
+        "Full article, Methods > Valuation Procedure"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "mu2",
+        "mu3",
+        "mu5",
+        "sw1",
+        "pu1",
+        "sw3"
+      ],
+      "respondent": "General adult population participant",
+      "perspective": "Respondent’s own preferences for hypothetical EQ-5D-5L health states and considerations behind their cTTO choices",
+      "completion": "Computer-assisted personal interview administered by a trained interviewer",
+      "assistance": "Interviewer explanation, tutorial, and practice tasks",
+      "channel": "Face-to-face or Zoom video conference",
+      "setting": "In-person or remote interview",
+      "instrument_language": "English or Chinese",
+      "interview_language": "English or Chinese",
+      "recall_period": null,
+      "time_point": "November 2023 to April 2024",
+      "source": [
+        "Full article, Methods > Sampling and Recruitment",
+        "Full article, Methods > Data Collection, Sections 3 and 4 descriptions",
+        "Full article, Results, first paragraph",
+        "Full article, Table 2, survey language"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu2",
+        "sw3"
+      ],
+      "respondent": "General adult population participant",
+      "perspective": "Participant’s own health status",
+      "completion": "Questionnaire completed within a computer-assisted personal interview",
+      "assistance": "Interviewer present",
+      "channel": "Face-to-face or Zoom video conference",
+      "setting": "In-person or remote interview",
+      "instrument_language": "English or Chinese",
+      "interview_language": "English or Chinese",
+      "recall_period": null,
+      "time_point": "November 2023 to April 2024",
+      "source": [
+        "Full article, Methods > Data Collection, description of interview Section 2",
+        "Full article, Results, first paragraph",
+        "Full article, Table 2, survey language"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Observed cTTO values and predicted EQ-5D-5L health-state values",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Results, paragraphs after Tables 2 and 4",
+        "Full article, Figures 1 and 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Candidate model prediction accuracy and logical consistency",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Methods > Model Evaluation and Value Set Estimation",
+        "Full article, Results, Tables 3 and 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Of 533 eligible individuals who registered for participation, 500 were recruited and interviewed, for a response rate of 93.8%. All 500 interviewed participants were analyzed; no cTTO values were missing and no respondents met the predefined exclusion criteria.",
+      "about": [
+        "sam2",
+        "sam3",
+        "sam4",
+        "sam5",
+        "du1"
+      ],
+      "values": [
+        {
+          "reported_value": "533",
+          "unit": "eligible registrants",
+          "denominator": "eligible individuals from the cohort study and online communities who registered for participation",
+          "time": "November 2023 to April 2024",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "500",
+          "unit": "participants",
+          "denominator": "533 eligible registrants",
+          "time": "November 2023 to April 2024",
+          "subgroup": "successfully recruited and interviewed",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "93.8",
+          "unit": "%",
+          "denominator": "500 successfully recruited and interviewed participants / 533 eligible registrants",
+          "time": "November 2023 to April 2024",
+          "subgroup": "response rate",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "500",
+          "unit": "participants",
+          "denominator": "500 interviewed participants",
+          "time": "November 2023 to April 2024",
+          "subgroup": "analyzed",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0",
+          "unit": "excluded respondents",
+          "denominator": "500 interviewed participants",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, first paragraph and paragraph after Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Observed cTTO values covered −1 to 1, with the largest spikes at −1 and 1.",
+      "about": [
+        "out1",
+        "mu2",
+        "du1"
+      ],
+      "values": [
+        {
+          "reported_value": "16.1",
+          "unit": "%",
+          "denominator": "all observed cTTO values",
+          "time": null,
+          "subgroup": "value −1",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "14.3",
+          "unit": "%",
+          "denominator": "all observed cTTO values",
+          "time": null,
+          "subgroup": "value 1",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "5.4",
+          "unit": "%",
+          "denominator": "all observed cTTO values",
+          "time": null,
+          "subgroup": "value 0",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "7.5",
+          "unit": "%",
+          "denominator": "all observed cTTO values",
+          "time": null,
+          "subgroup": "value 0.5",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph after Table 2",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The ADD20-I Tobit regression specification accounting for heteroskedasticity had the best cross-validation performance among the six tested specifications.",
+      "about": [
+        "out2",
+        "mod2",
+        "mu4",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "0.0782",
+          "unit": "RMSE",
+          "denominator": "mean across five cross-validation iterations",
+          "time": null,
+          "subgroup": "accounting for heteroskedasticity",
+          "comparator": "six candidate Tobit regression specifications",
+          "direction": "lowest",
+          "uncertainty": "range 0.0564–0.1295"
+        },
+        {
+          "reported_value": "0.0598",
+          "unit": "MAE",
+          "denominator": "mean across five cross-validation iterations",
+          "time": null,
+          "subgroup": "accounting for heteroskedasticity",
+          "comparator": "six candidate Tobit regression specifications",
+          "direction": "lowest",
+          "uncertainty": "range 0.0375–0.1095"
+        },
+        {
+          "reported_value": "0.9883",
+          "unit": "ICC",
+          "denominator": "mean across five cross-validation iterations",
+          "time": null,
+          "subgroup": "accounting for heteroskedasticity",
+          "comparator": "six candidate Tobit regression specifications",
+          "direction": "highest",
+          "uncertainty": "range 0.9748–0.9946"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph before Table 3",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "No logically inconsistent predictions were found when the models were fitted to the full cTTO dataset.",
+      "about": [
+        "out2",
+        "mod1",
+        "mod2",
+        "mod3",
+        "mod4",
+        "mod5",
+        "mod6"
+      ],
+      "values": [
+        {
+          "reported_value": "0",
+          "unit": "logically inconsistent predictions",
+          "denominator": "759,375 pairs of EQ-5D-5L health states examined for each fitted model",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Methods > Value Set Estimation",
+        "Full article, Results, paragraph before Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The selected value set ranged from −0.851 for state 55555 to 1.000 for state 11111; 1263 of the 3125 states had negative values.",
+      "about": [
+        "out1",
+        "mod2"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.851",
+          "unit": "index value",
+          "denominator": "health state 55555",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "lowest",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1.000",
+          "unit": "index value",
+          "denominator": "health state 11111",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "highest",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1263",
+          "unit": "health states",
+          "denominator": "3125 EQ-5D-5L health states",
+          "time": null,
+          "subgroup": "negative predicted value",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "40.4",
+          "unit": "%",
+          "denominator": "3125 EQ-5D-5L health states",
+          "time": null,
+          "subgroup": "negative predicted value",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Table 4",
+        "Full article, Results, paragraph after Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Pain/discomfort and anxiety/depression were associated with the greatest level-5 disutilities; the dimension ranking was pain/discomfort, anxiety/depression, mobility, self-care, and usual activities.",
+      "about": [
+        "out1",
+        "mod2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Table 4, dimension-rank row"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The final Singapore EQ-5D-5L value set was substantially different from the mapped EQ-5D-5L value set generated by mapping EQ-5D-5L health states to EQ-5D-3L health states with the recommended mapping function from reference 43 and then applying the local Singapore EQ-5D-3L value set from reference 16.",
+      "about": [
+        "out1",
+        "iu3",
+        "iu4",
+        "mod7",
+        "su1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, paragraph after Table 4",
+        "Full article, Figure 3",
+        "Full article, References 16 and 43"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors found no evidence of systematic cTTO differences between in-person and Zoom interviews.",
+      "about": [
+        "out1",
+        "adm1",
+        "sf2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Discussion, limitations paragraph, final sentences",
+        "Full article, Supplementary File 7 caption"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f9",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "There were generally no significant differences in cTTO values between education or ethnic groups.",
+      "about": [
+        "out1",
+        "sf3",
+        "sf4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Discussion, limitations paragraph",
+        "Full article, Supplementary File 6 caption"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f10",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Only mobility × anxiety/depression and pain/discomfort × anxiety/depression were significant interaction terms in the selected ADD20-I model; both coefficients were −0.007 with a standard error of 0.003.",
+      "about": [
+        "out2",
+        "mod2"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.007",
+          "unit": "regression coefficient",
+          "denominator": "mobility × anxiety/depression interaction term in the selected ADD20-I model",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "negative",
+          "uncertainty": "SE 0.003"
+        },
+        {
+          "reported_value": "−0.007",
+          "unit": "regression coefficient",
+          "denominator": "pain/discomfort × anxiety/depression interaction term in the selected ADD20-I model",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "negative",
+          "uncertainty": "SE 0.003"
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph before Table 3",
+        "Full article, Table 4, MOAD and PDAD rows"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Singapore EQ-5D-5L value set",
+      "product_type": "VALUE_SET",
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Results, paragraph after Table 4",
+        "Full article, Supplementary File 1 caption"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "R, STATA, and SPSS codes for generating EQ-5D-5L health-state values",
+      "product_type": "SOFTWARE_OR_DECISION_SUPPORT",
+      "source": [
+        "Full article, Conclusions",
+        "Full article, Supplementary Files 2–4 captions"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "p3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Calculator for generating EQ-5D-5L health-state values and 3L-to-5L crosswalk values",
+      "product_type": "SOFTWARE_OR_DECISION_SUPPORT",
+      "source": [
+        "Full article, Discussion, paragraph comparing EQ-5D-3L and EQ-5D-5L values; the calculator uses the van Hout and Shaw 3L-to-5L algorithm from reference 46, which is distinct from the reference 43 5L-to-3L comparator procedure",
+        "Full article, Supplementary File 5 caption",
+        "Full article, Reference 46"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "p1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "developed",
+      "assertion_date": null,
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa2",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "p2",
+      "axis": "DEVELOPMENT",
+      "exact_state": "developed",
+      "assertion_date": null,
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Conclusions",
+        "Full article, Supplementary Files 2–4 captions"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa3",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "p3",
+      "axis": "DEVELOPMENT",
+      "exact_state": "developed",
+      "assertion_date": null,
+      "asserted_by": "study authors",
+      "source": [
+        "Full article, Discussion, paragraph comparing EQ-5D-3L and EQ-5D-5L values",
+        "Full article, Supplementary File 5 caption"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that the study produced an EQ-5D-5L value set based on the health preferences of Singaporeans and recommended its use for EQ-5D-5L data in Singapore.",
+      "finding_ids": [
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpreted the negative interaction terms as evidence of a concave relationship in which co-occurring health problems had less disutility than the sum of their individual disutilities.",
+      "finding_ids": [
+        "f10"
+      ],
+      "source": [
+        "Full article, Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors recommended more systematic evaluation of interaction effects and other nonlinear specifications in future valuation studies.",
+      "finding_ids": [
+        "f3",
+        "f10"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Discussion, paragraph on implications for future valuation studies",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors recommended that Singapore EQ-5D-3L users map their responses to the EQ-5D-5L descriptive system with the van Hout and Shaw 3L-to-5L algorithm from reference 46 and then apply the Singapore EQ-5D-5L value set, especially for economic evaluation of new health technologies.",
+      "finding_ids": [
+        "f7"
+      ],
+      "source": [
+        "Full article, Key Points for Decision Makers, third point",
+        "Full article, Discussion, paragraph comparing EQ-5D-3L and EQ-5D-5L values",
+        "Full article, Reference 46"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors identified this as the first Singapore EQ-5D-5L value set and, to their knowledge, the first EQ-5D-5L value set estimated with between-dimension interaction terms.",
+      "finding_ids": [
+        "f3",
+        "f5"
+      ],
+      "source": [
+        "Full article, Key Points for Decision Makers, first point",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The ‘lite’ protocol valued only 91 health states, which may have limited the ability to detect all significant interactions; the interaction construction also assumed continuous main effects and may not have captured the effects fully.",
+      "about": [
+        "td1",
+        "mod2"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, first four sentences"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The sample had suboptimal representativeness because recruitment was mainly from active members of a chronic-condition risk-factor cohort, and less educated and ethnic minority groups were slightly underrepresented despite quota sampling.",
+      "about": [
+        "pop1",
+        "sam2",
+        "mu1",
+        "sf3",
+        "sf4"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, middle sentences"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Use of both in-person and Zoom interviews might have introduced systematic differences in cTTO data, although the authors found no evidence of such differences.",
+      "about": [
+        "adm1",
+        "sf2",
+        "f8"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, final sentences"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Between-dimension interaction effects in EQ-5D valuation",
+      "description": "The study examined whether interactions between EQ-5D-5L dimensions and other nonlinear specifications improve value-set prediction beyond main-effects models.",
+      "about": [
+        "iu1",
+        "mod2",
+        "f3",
+        "f10",
+        "int2"
+      ],
+      "source": [
+        "Full article, Methods > Model Construction",
+        "Full article, Discussion, first and second paragraphs"
+      ]
+    }
+  ]
+}

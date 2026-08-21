@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "batches": 2,
+    "records": 4,
+    "verdicts": {
+      "MINOR": 2,
+      "MAJOR": 1,
+      "PASS": 1
+    },
+    "errors": 0
+  },
+  "batches": [
+    {
+      "batch_id": "A001",
+      "errors": []
+    },
+    {
+      "batch_id": "A002",
+      "errors": []
+    }
+  ]
+}

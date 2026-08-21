@@ -1,0 +1,1458 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P014",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "Research was funded by a research grant (Reference Number: 2014160) awarded by the EuroQol Research Foundation.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The primary research object was the development and testing of revised EQ-5D-Y descriptive-system content. The acknowledgement explicitly links EuroQol Research Foundation funding to the study.",
+    "source": [
+      "Structured metadata: publication title and abstract",
+      "Full article: Introduction, final paragraph",
+      "Full article: Acknowledgements"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Development and preliminary content testing of the EQ-5D-Y-5L",
+      "primary_research_family": "INSTRUMENT_VERSION_DEVELOPMENT",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution was new EQ-5D-Y content with five severity levels. Label generation, target-group testing, revision, and cross-language harmonization produced the EQ-5D-Y-5L instrument version.",
+      "source": [
+        "Full article: Abstract, Purpose–Conclusions",
+        "Full article: Introduction, final paragraph",
+        "Full article: Methods",
+        "Full article: Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Phase 1: severity-label identification, sorting, and response scaling",
+      "source": [
+        "Full article: Methods, Phase 1"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Phase 2: cognitive testing of preliminary 4L and 5L versions",
+      "source": [
+        "Full article: Methods, Phase 2"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Cross-language harmonization of the 5L versions",
+      "source": [
+        "Full article: Methods, Harmonization"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "INSTRUMENT_DEVELOPMENT",
+      "rank": 1,
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Abstract, Purpose"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "value": "CONTENT_VALIDITY_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "PARTICIPATORY_DESIGN",
+      "source": [
+        "Full article: Methods, Phase 1",
+        "Full article: Discussion, paragraphs 3–4"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods, Phase 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article: Methods, opening paragraph",
+        "Full article: Results, Phase 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, Phase 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "mixed_method_integration",
+      "value": "SEQUENTIAL",
+      "source": [
+        "Full article: Methods, Phase 1, Criteria for label selection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d11",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "PARTICIPATORY_DESIGN",
+      "source": [
+        "Full article: Results, Phase 2, paragraphs 2–5",
+        "Full article: Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d12",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d13",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d14",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d15",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article: Results, Phase 2, Table 6 and following paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d16",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d17",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "mixed_method_integration",
+      "value": "CONVERGENT_PARALLEL",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure and Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d18",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "component_approach",
+      "value": "PARTICIPATORY_DESIGN",
+      "source": [
+        "Full article: Methods, Harmonization"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d19",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "temporal_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, Harmonization"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d20",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article: Methods, Harmonization",
+        "Full article: Results, Harmonization"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d21",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Methods, Harmonization"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Children and adolescents from the general population and schools",
+      "role": "Target population for label generation and severity rating",
+      "geographies": [
+        "Germany",
+        "Spain",
+        "Sweden",
+        "United Kingdom"
+      ],
+      "conditions": [],
+      "age_description": "8–15 years",
+      "inclusion_description": "For focus groups, children without obvious health problems were recruited through schools and sports clubs, and the relevant local language had to be the main language spoken at home. Sorting and response-scaling participants were convenience samples of schoolchildren.",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels, Procedure",
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Procedure"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Healthy children and adolescents and children receiving treatment for a health condition",
+      "role": "Target population for cognitive testing",
+      "geographies": [
+        "Germany",
+        "Spain",
+        "Sweden",
+        "United Kingdom"
+      ],
+      "conditions": [
+        "Health condition under treatment"
+      ],
+      "age_description": "8–15 years",
+      "inclusion_description": "Germany, Spain, and Sweden included healthy participants and participants receiving treatment for a health condition. Children with health conditions were difficult to recruit. The UK recruited schoolchildren only because recruitment of children with current experience of illness would have required separate NHS ethical approval and caused a substantial delay.",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure",
+        "Full article: Discussion, paragraph on target-group involvement and recruitment"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 255,
+      "size_text": "A total of 255 sorting and response scaling interviews was reported.",
+      "unit": "interviews",
+      "description": "Phase 1 interviews across the four countries; the detailed country counts conflict with the reported total.",
+      "source": [
+        "Full article: Results, Phase 1, Sorting and response scaling interviews, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 120,
+      "size_text": "Germany 33; Spain 35; Sweden 32; UK 20.",
+      "unit": "participants",
+      "description": "Participants in the main Phase 2 cognitive-interview samples.",
+      "source": [
+        "Full article: Results, Phase 2, Table 6"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 4,
+      "size_text": "n = 4",
+      "unit": "children",
+      "description": "Additional UK interviews that examined substitution of “extreme/extremely” for “terrible/terribly.”",
+      "source": [
+        "Full article: Results, Phase 2, final UK paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Existing generic and disease-specific HRQoL instruments, dictionaries and thesauruses",
+      "origin": "DOCUMENTARY_SOURCE",
+      "level": "DOCUMENT",
+      "purpose": "Identify candidate severity labels and synonyms.",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels, Procedure, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Phase 1 focus group discussions",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Identify child-friendly health-problem labels and assess the clarity and acceptability of candidate labels.",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels, Procedure and Data analysis"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Sorting and response scaling interview responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Estimate the relative severity and comprehensibility of candidate labels.",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Recorded and transcribed cognitive interviews and group discussions",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Assess comprehensibility, ease of use, and suggested wording changes.",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Data analysis"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Completed draft versions and stated version preferences",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Assess feasibility and preference between the 4L and 5L versions.",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y-3L",
+      "registry_id": "instrument:eq-5d-y-3l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "DEVELOPMENT_OBJECT",
+      "source": [
+        "Full article: Introduction, paragraphs 1 and 4",
+        "Full article: Methods, Phase 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y-4L",
+      "registry_id": "instrument:eq-5d-y-4l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "DEVELOPMENT_OBJECT",
+      "source": [
+        "Full article: Methods, Phase 1, Criteria for label selection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y-5L",
+      "registry_id": "instrument:eq-5d-y-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "DEVELOPMENT_OBJECT",
+      "source": [
+        "Full article: Methods, Phase 1, Criteria for label selection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-Y-4L",
+      "registry_id": "instrument:eq-5d-y-4l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-Y-5L",
+      "registry_id": "instrument:eq-5d-y-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "CONTENT_TEST_OBJECT",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-Y-4L",
+      "registry_id": "instrument:eq-5d-y-4l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-Y-5L",
+      "registry_id": "instrument:eq-5d-y-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article: Results, Phase 1, Table 3",
+        "Full article: Results, Phase 2, Table 6"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "review of HRQoL instruments",
+      "registry_id": "method:review-of-hrqol-instruments",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_IDENTIFICATION",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "focus group interviews",
+      "registry_id": "method:focus-group-interviews",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "thematic content analysis",
+      "registry_id": "method:thematic-content-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Phase 1, Identifying a pool of labels, Data analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "sorting tasks",
+      "registry_id": "method:sorting-tasks",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "response scaling tasks",
+      "registry_id": "method:response-scaling-tasks",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "visual analog scale (VAS)",
+      "registry_id": "method:vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Mean (standard deviation), median, mode, minimum and maximum",
+      "registry_id": "method:r129-p014-descriptive-statistics-bundle",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Data analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "cognitive interviews",
+      "registry_id": "method:cognitive-interview",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "paraphrasing method",
+      "registry_id": "method:paraphrasing-method",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "probing",
+      "registry_id": "method:probing",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu11",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "thematic content analysis",
+      "registry_id": "method:thematic-content-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Data analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "harmonization exercise",
+      "registry_id": "method:harmonization-exercise",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article: Methods, Harmonization"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "common standardized protocol",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "GOVERNING_STUDY_PROTOCOL",
+      "source": [
+        "Full article: Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu4",
+        "mu5",
+        "mu6",
+        "iu1"
+      ],
+      "label": "Sorting and response scaling of candidate severity labels",
+      "profiles": [
+        "Candidate severity labels for each EQ-5D-Y dimension"
+      ],
+      "attributes": [
+        "Perceived severity",
+        "Comprehensibility",
+        "Use in daily language"
+      ],
+      "levels": [
+        "Five-smiley scale for ages 8–10",
+        "VAS for ages 11–15"
+      ],
+      "duration": null,
+      "alternatives": "Each candidate label was rated separately.",
+      "task_count": "All selected labels for all five dimensions",
+      "block": "Age-specific task format",
+      "order": "Dimensions and labels were presented in randomized order.",
+      "randomization_unit": "Presentation order within participant",
+      "stopping_rule": null,
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Procedure",
+        "Full article: Methods, Phase 1, Table 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "mu8",
+        "mu9",
+        "mu10",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "label": "Cognitive testing and preference comparison of draft EQ-5D-Y-4L and EQ-5D-Y-5L versions",
+      "profiles": [
+        "Draft EQ-5D-Y-4L",
+        "Draft EQ-5D-Y-5L"
+      ],
+      "attributes": [
+        "Comprehensibility",
+        "Ease of completion",
+        "Response-option preference",
+        "Suggested wording changes"
+      ],
+      "levels": [],
+      "duration": null,
+      "alternatives": "4L versus 5L in Germany, Spain, and Sweden; only the provisional 5L was tested in the UK.",
+      "task_count": "Completion and discussion of each applicable draft version, followed by a stated preference where both versions were tested.",
+      "block": "Country-specific procedure",
+      "order": "The order of the 4L and 5L versions was varied.",
+      "randomization_unit": "Version order for participants",
+      "stopping_rule": null,
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age group",
+      "levels": [
+        "8–10 years",
+        "11–15 years"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, Phase 1, Sorting and response scaling interviews, Data analysis",
+        "Full article: Results, Phase 1, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Draft response-level version",
+      "levels": [
+        "EQ-5D-Y-4L",
+        "EQ-5D-Y-5L"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Health status recruitment group",
+      "levels": [
+        "General population or healthy participants",
+        "Participants receiving treatment for a health condition"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure",
+        "Full article: Results, Phase 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Country and language version",
+      "levels": [
+        "Germany—German",
+        "Spain—Spanish",
+        "Sweden—Swedish",
+        "UK—English"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Methods, opening paragraph",
+        "Full article: Results, Table 7"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "respondent": "Children and adolescents aged 8–15 years",
+      "perspective": "Own current health",
+      "completion": "Self-report followed by individual or group discussion",
+      "assistance": "Researchers used paraphrasing and probing during discussion.",
+      "channel": "In-person",
+      "setting": "Separate rooms at schools or hospitals; UK school settings",
+      "instrument_language": "German, Spanish, Swedish, or UK English",
+      "interview_language": "Relevant local language",
+      "recall_period": "Current health status",
+      "time_point": "Phase 2 cognitive interview",
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "si1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "group": "Children and adolescents aged 8–15 years",
+      "activity": "Suggested health-problem wording, reviewed and ranked candidate labels, rated label severity, and identified labels that were unclear or not used in daily language.",
+      "stage": "Candidate-label generation and selection",
+      "role": "Target-group contributors to instrument content",
+      "influence": "Their suggestions, ratings, and verbal comments determined the candidate pool and informed selection of labels for the draft 4L and 5L versions.",
+      "source": [
+        "Full article: Methods, Phase 1",
+        "Full article: Results, Phase 1, final paragraph",
+        "Full article: Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "si2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "group": "Children and adolescents aged 8–15 years, including participants with health conditions",
+      "activity": "Completed and discussed draft versions, explained their understanding, proposed wording changes, and stated version preferences.",
+      "stage": "Cognitive testing and final wording selection",
+      "role": "Target-group contributors to instrument refinement",
+      "influence": "Participant feedback led to changes in Spanish and UK English labels and supported selection of the five-level version.",
+      "source": [
+        "Full article: Methods, Phase 2",
+        "Full article: Results, Phase 2, paragraphs 2–5"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "CONTENT_VALIDITY",
+      "label": "Comprehensibility and severity coverage of candidate labels",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3"
+      ],
+      "source": [
+        "Full article: Methods, Phase 1",
+        "Full article: Results, Phase 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "CONTENT_VALIDITY",
+      "label": "Comprehensibility of the draft 4L and 5L descriptive systems",
+      "instrument_use_ids": [
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article: Methods, Phase 2",
+        "Full article: Results, Phase 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "FEASIBILITY",
+      "label": "Feasibility and ease of completing the draft versions",
+      "instrument_use_ids": [
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article: Results, Phase 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Preference for the 5L or 4L response-level structure",
+      "instrument_use_ids": [
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article: Results, Phase 2, preference paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Ability of children to use sorting and response scaling tasks",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article: Results, Phase 1",
+        "Full article: Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The instrument review and focus groups generated 233 potentially usable severity labels across the four countries.",
+      "about": [
+        "o1",
+        "du1",
+        "du2"
+      ],
+      "values": [
+        {
+          "reported_value": "233",
+          "unit": "labels",
+          "denominator": "Four countries",
+          "time": "Phase 1",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "79",
+          "unit": "labels",
+          "denominator": "Germany",
+          "time": "Phase 1",
+          "subgroup": "Germany",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "67",
+          "unit": "labels",
+          "denominator": "Spain",
+          "time": "Phase 1",
+          "subgroup": "Spain",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "50",
+          "unit": "labels",
+          "denominator": "Sweden",
+          "time": "Phase 1",
+          "subgroup": "Sweden",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "37",
+          "unit": "labels",
+          "denominator": "UK",
+          "time": "Phase 1",
+          "subgroup": "UK",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 1, Identifying a pool of possible labels"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Candidate labels covered an appropriate range of severity in every country, and ratings from participants aged 8–10 years were comparable with ratings from older participants.",
+      "about": [
+        "o1",
+        "o5"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Phase 1, Sorting and response scaling interviews, paragraph after Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Quantitative ratings and participant comments both affected final label selection; labels with suitable ratings were rejected when children reported that they would not use them in everyday language.",
+      "about": [
+        "o1",
+        "si1"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Phase 1, final paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Participants generally found the draft 4L and 5L versions feasible to complete and easy to understand.",
+      "about": [
+        "o2",
+        "o3",
+        "iu4",
+        "iu5"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Phase 2, first paragraph after Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Most participants in Germany, Spain, and Sweden preferred the EQ-5D-Y-5L over the 4L version because it provided more precise response options and a middle category.",
+      "about": [
+        "o4",
+        "iu4",
+        "iu5"
+      ],
+      "values": [
+        {
+          "reported_value": "88%",
+          "unit": "percent of participants",
+          "denominator": "German Phase 2 participants asked for a preference",
+          "time": "Phase 2",
+          "subgroup": "Germany",
+          "comparator": "EQ-5D-Y-4L",
+          "direction": "Preferred EQ-5D-Y-5L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "68%",
+          "unit": "percent of participants",
+          "denominator": "Spanish Phase 2 participants asked for a preference",
+          "time": "Phase 2",
+          "subgroup": "Spain",
+          "comparator": "EQ-5D-Y-4L",
+          "direction": "Preferred EQ-5D-Y-5L",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "66%",
+          "unit": "percent of participants",
+          "denominator": "Swedish Phase 2 participants asked for a preference",
+          "time": "Phase 2",
+          "subgroup": "Sweden",
+          "comparator": "EQ-5D-Y-4L",
+          "direction": "Preferred EQ-5D-Y-5L",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, Phase 2, preference paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "In the UK, no children reported difficulty completing the provisional 5L version, and there were no missing responses.",
+      "about": [
+        "o2",
+        "o3",
+        "iu5"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Phase 2, UK paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Cognitive testing led to changes in Spanish labels and replacement of the problematic UK English labels “terrible/terribly” with “extreme/extremely.”",
+      "about": [
+        "o2",
+        "si2",
+        "iu5"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Phase 2, Spanish and UK paragraphs"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Cross-language comparison found some divergent wording, but the harmonization exercise judged the language-specific severity labels comparable and retained the labels developed by the national teams.",
+      "about": [
+        "mu12",
+        "prod1"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, Harmonization"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f9",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The study produced a self-report EQ-5D-Y-5L with five severity levels in each of five dimensions, defining 3125 possible health states.",
+      "about": [
+        "prod1",
+        "iu3",
+        "iu5"
+      ],
+      "values": [
+        {
+          "reported_value": "5",
+          "unit": "severity levels per dimension",
+          "denominator": "Each of five EQ-5D-Y dimensions",
+          "time": "Final version",
+          "subgroup": null,
+          "comparator": "Three levels in EQ-5D-Y-3L",
+          "direction": "Increased number of response categories",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "3125",
+          "unit": "possible health states",
+          "denominator": "Final EQ-5D-Y-5L descriptive system",
+          "time": "Final version",
+          "subgroup": null,
+          "comparator": "243 possible EQ-5D-Y-3L health states",
+          "direction": "Broader descriptive spectrum",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, Table 7",
+        "Full article: Discussion, paragraphs 1–2",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that the study successfully established a comprehensible and feasible five-level EQ-5D-Y version for children and adolescents aged 8–15 years.",
+      "finding_ids": [
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "f9"
+      ],
+      "source": [
+        "Full article: Discussion, opening paragraph",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors stated that the study was the first, to their knowledge, to demonstrate the feasibility of response scaling tasks in participants as young as eight years.",
+      "finding_ids": [
+        "f2"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors stated that psychometric testing, comparison with EQ-5D-Y-3L, and examination of feasibility in health-state valuation are required before extensive use.",
+      "finding_ids": [
+        "f9"
+      ],
+      "source": [
+        "Full article: Abstract, Conclusions",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Convenience samples were used in all countries and both study phases, so the study populations were not representative of the national populations.",
+      "about": [
+        "pop1",
+        "pop2",
+        "sam1",
+        "sam2"
+      ],
+      "source": [
+        "Full article: Discussion, limitation paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Children and adolescents with a health condition were difficult to recruit. In UK Phase 2, the researchers recruited schoolchildren only because recruitment of children with current experience of illness would have required separate NHS ethical approval and caused a substantial delay.",
+      "about": [
+        "pop2",
+        "sam2"
+      ],
+      "source": [
+        "Full article: Methods, Phase 2, Cognitive interviews, Procedure, UK paragraph",
+        "Full article: Discussion, paragraph on target-group involvement and recruitment"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "EQ-5D-Y-5L self-report version",
+      "product_type": "INSTRUMENT_VERSION",
+      "source": [
+        "Full article: Abstract, Conclusions",
+        "Full article: Results, Table 7",
+        "Full article: Discussion, opening paragraph"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "The study produced a self-report version of the EQ-5D-Y-5L with German, Spanish, Swedish, and UK English language-specific content.",
+      "assertion_date": null,
+      "asserted_by": "Study authors",
+      "source": [
+        "Full article: Results, Table 7",
+        "Full article: Discussion, opening paragraph",
+        "Full article: Discussion, penultimate paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Cross-language comparability of severity labels",
+      "description": "Language-specific labels need not be literal equivalents when target-group evidence supports locally natural wording, but their positions on the severity continuum should remain comparable.",
+      "about": [
+        "prod1",
+        "mu12",
+        "sf4"
+      ],
+      "source": [
+        "Full article: Results, Harmonization"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Continuity of health-status measurement across childhood and adulthood",
+      "description": "The five-level youth format maintains structural comparability with the adult EQ-5D-5L and could support health-status measurement over the life course.",
+      "about": [
+        "prod1"
+      ],
+      "source": [
+        "Full article: Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Total number of Phase 1 sorting and response scaling interviews",
+      "statements": [
+        {
+          "statement": "The text reports a total of 255 sorting and response scaling interviews.",
+          "source": [
+            "Full article: Abstract, Results",
+            "Full article: Results, Phase 1, Sorting and response scaling interviews, first paragraph"
+          ]
+        },
+        {
+          "statement": "Table 3 reports country sample sizes of 64, 72, 60, and 58, which total 254.",
+          "source": [
+            "Full article: Results, Phase 1, Table 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 1, first paragraph and Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Reported range of country-specific preference for the EQ-5D-Y-5L",
+      "statements": [
+        {
+          "statement": "The abstract states that 68–88% of participants per country preferred the 5L version.",
+          "source": [
+            "Full article: Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The detailed results report Germany 88%, Spain 68%, and Sweden 66%, giving a range of 66–88%.",
+          "source": [
+            "Full article: Results, Phase 2, preference paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 2, preference paragraph"
+      ]
+    }
+  ]
+}

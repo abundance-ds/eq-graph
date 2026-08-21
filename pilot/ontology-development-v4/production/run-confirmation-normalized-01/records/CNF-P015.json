@@ -1,0 +1,1416 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P015",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "“EuroQol Group funded this study Grant EQ Project 2016220, EQ Project 138-2020RA.”",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly values EQ-5D-5L health profiles and evaluates preference-elicitation and choice-modeling methods. The article explicitly states that the EuroQol Group funded the study.",
+    "source": [
+      "doi_10.1186_s12955-022-01989-9.xml — Abstract; Introduction, final paragraph; Funding; Acknowledgements"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Dutch EQ-5D-5L heteroskedasticity and heterogeneity valuation study",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an evaluation of how controlling heteroskedasticity, taste heterogeneity, and scale heterogeneity affects EQ-5D-5L valuation. The pits-scale value set is an important output, but it is produced as part of the methodological case analysis.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, Heteroskedasticity and heterogeneity in health valuation, final paragraph; Discussion, paragraphs 1–2; Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Main Dutch EQ-5D-5L valuation and modeling study",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview through Analysis"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 1,
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, Heteroskedasticity and heterogeneity in health valuation, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "PREFERENCE_COMPARISON",
+      "rank": 2,
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, paragraphs 3–4; Introduction, objectives, second objective"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur3",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUE_SET_DEVELOPMENT",
+      "rank": 3,
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, objectives, third objective; Conclusions"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur4",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "HEALTH_STATE_VALUATION",
+      "rank": 4,
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Methods; Introduction, paragraph 3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview and Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, objectives; Results, Differences between the PC and BWS results"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview; no assignment of participants to study conditions is reported"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "General-population marketing-panel respondents sampled from groups with known EQ-5D-5L impairments",
+      "role": "Valuation respondents",
+      "geographies": [
+        "Netherlands"
+      ],
+      "conditions": [
+        "Sampling strata included known EQ-5D-5L impairments",
+        "Chronic illness was reported by 57.1% of analyzed respondents"
+      ],
+      "age_description": "Age groups started at 16 years and included respondents older than 55 years.",
+      "inclusion_description": "Dutch respondents were recruited from the Survey Sampling International marketing panel. The investigators did not seek a fully representative sample and stratified sampling by EQ-5D-5L domain and severity of health problems.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview, paragraph 1; Results, Demographics, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 385,
+      "size_text": "385 respondents completed the questionnaires",
+      "unit": "respondents",
+      "description": "Questionnaire completers before the exclusion of click-through respondents.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 5,
+      "size_text": "five were excluded",
+      "unit": "respondents",
+      "description": "Excluded because their PC responses showed click-through behavior with no response variation.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 380,
+      "size_text": "subsequent analyses are based on the remaining 380 respondents",
+      "unit": "respondents",
+      "description": "Respondents included in the final analyses.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Dutch PC, BWS case 2, respondent-characteristic, health, and task-feasibility responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Estimate EQ-5D-5L values, compare elicitation tasks, model heteroskedasticity and latent classes, and examine class membership.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview and Analysis; Results, Demographics through Taste and scale heterogeneity"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "original Dutch EQ-5D-5L values",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "AGGREGATE_ESTIMATE",
+      "purpose": "Comparator values transformed to a pits scale for comparison with the values estimated in the current study.",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heterogeneity and EQ-5D-5L Values, final paragraph; Results, Differences between the original and new Dutch EQ-5D-5L values"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Methods; Methods, EQ-5D-5L profiles"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "VAS score Health",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1; Results, Table 4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "paired comparison (PC)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Methods; Methods, Experimental design"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "best–worst scaling case 2 (BWS case 2)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Methods; Introduction, paragraph 4; Methods, Experimental design"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Pearson's correlation",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heteroskedasticity and differences by task; Results, Differences between the PC and BWS results"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Lin's concordance correlation coefficient",
+      "registry_id": "method:lins-concordance-correlation-coefficient",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heteroskedasticity and differences by task; Results, Differences between the PC and BWS results"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "descriptive statistics",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "maximum likelihood",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Methods; Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-VT protocol",
+      "registry_id": "protocol:eq-vt",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, paragraphs 2–4; Methods, Heterogeneity and EQ-5D-5L Values, final paragraph"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "conditional logit model",
+      "registry_id": "model:conditional-logit",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "COMPARATOR",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Analysis; Results, Difference between homoskedastic and heteroskedastic results"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "heteroskedastic conditional logit (HCL) model",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "COMPARATOR",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heteroskedasticity and differences by task; Results, Difference between homoskedastic and heteroskedastic results"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "interaction model (controlling heteroskedasticity)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "COMPARATOR",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Table 2 caption and columns"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "heteroskedastic scale-adjusted latent class (SALC) model",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Methods; Methods, Heterogeneity and EQ-5D-5L Values; Results, Taste and scale heterogeneity"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "Dutch EQ-5D-5L value set on a pits scale",
+      "registry_id": null,
+      "product_id": "p1",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity; Discussion, paragraph 2; Conclusions"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "original Dutch EQ-5D-5L values",
+      "registry_id": null,
+      "product_id": null,
+      "context": "INPUT_DATA_PROVENANCE",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heterogeneity and EQ-5D-5L Values; Results, Differences between the original and new Dutch EQ-5D-5L values"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "mu1"
+      ],
+      "label": "Paired-comparison task with constant comparator",
+      "profiles": [
+        "Health profile A from the 25-profile OMEP design",
+        "constant Health profile B (24242)"
+      ],
+      "attributes": [
+        "Mobility",
+        "Self-care",
+        "Usual activities",
+        "Pain/discomfort",
+        "Anxiety/depression"
+      ],
+      "levels": [
+        "No problems",
+        "Slight problems",
+        "Moderate problems",
+        "Severe problems",
+        "Unable to or extreme problems"
+      ],
+      "duration": null,
+      "alternatives": "Two EQ-5D-5L profiles per task",
+      "task_count": "25 administered, including one dominant comparison; 24 analyzed after the dominant task was dropped",
+      "block": "All respondents completed the same task series.",
+      "order": "For each design profile, respondents first completed BWS for profile A and then received profile B for the paired comparison.",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview; Methods, Experimental design, paragraphs 1–2; Methods, Analysis, paragraph 1; Results, Demographics, paragraph 1"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "mu2"
+      ],
+      "label": "Best–worst scaling case 2 task",
+      "profiles": [
+        "25 EQ-5D-5L profiles from a rotated orthogonal main effects plan"
+      ],
+      "attributes": [
+        "Mobility",
+        "Self-care",
+        "Usual activities",
+        "Pain/discomfort",
+        "Anxiety/depression"
+      ],
+      "levels": [
+        "No problems",
+        "Slight problems",
+        "Moderate problems",
+        "Severe problems",
+        "Unable to or extreme problems"
+      ],
+      "duration": null,
+      "alternatives": "Five attribute levels within one EQ-5D-5L profile; the respondent selected the best and worst levels",
+      "task_count": "25",
+      "block": "All respondents completed the same task series.",
+      "order": "BWS for Health profile A preceded the paired comparison for that profile.",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, paragraph 4; Methods, Experimental design, paragraphs 1–2 and Table 5"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Task sequence",
+      "levels": [
+        "Task sequence",
+        "Task sequence squared"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heteroskedasticity and differences by task; Results, Table 6"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Task type",
+      "levels": [
+        "Worst",
+        "Best",
+        "PC"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heteroskedasticity and differences by task; Results, Table 6"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Taste class",
+      "levels": [
+        "Taste class 1: EQ-5D-5L value set",
+        "Taste class 2: garbage class"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity, paragraphs 1–3 and Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Scale class",
+      "levels": [
+        "Scale class 1: less random class",
+        "Scale class 2: more random or uncertain class"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity, final paragraph; Tables 4 and 8"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Failed dominant task in PC",
+      "levels": [
+        "Failed",
+        "Passed"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1; Results, Taste and scale heterogeneity, final paragraph and Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf6",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Gender",
+      "levels": [
+        "Female",
+        "Male"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heterogeneity and EQ-5D-5L Values; Results, Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf7",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Age in years",
+      "levels": [
+        "16–35",
+        "36–54",
+        "above 55"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Heterogeneity and EQ-5D-5L Values; Results, Table 4"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "mu1",
+        "mu2"
+      ],
+      "respondent": "Dutch general-population marketing-panel respondent",
+      "perspective": null,
+      "completion": "Computer-based completion through an online survey instrument",
+      "assistance": null,
+      "channel": "Online survey",
+      "setting": "Survey Sampling International marketing panel",
+      "instrument_language": "Dutch",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "September 2016",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Overview, paragraph 1; Methods, Experimental design, Figure 4 caption"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Effects of heteroskedasticity and heterogeneity control on model fit, uncertainty, latent-class behavior, and EQ-5D-5L value estimates",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, objectives; Results, Difference between homoskedastic and heteroskedastic results; Results, Taste and scale heterogeneity"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Correlation and agreement of EQ-5D-5L pits-scale values between elicitation methods, models, and the original Dutch value set",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Differences between the PC and BWS results; Results, Differences between the original and new Dutch EQ-5D-5L values"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "FEASIBILITY",
+      "label": "Reported difficulty of PC and BWS tasks and performance on the PC dominant task",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Feasibility; Table 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The heteroskedastic conditional logit model had substantially better BIC than the conditional logit model, while their 3125 estimated EQ-5D-5L values remained highly correlated and concordant.",
+      "about": [
+        "o1",
+        "mo1",
+        "mo2"
+      ],
+      "values": [
+        {
+          "reported_value": "64,458.32",
+          "unit": "BIC",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Conditional logit model",
+          "comparator": "Heteroskedastic conditional logit model",
+          "direction": "higher",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "62,792.03",
+          "unit": "BIC",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Heteroskedastic conditional logit model",
+          "comparator": "Conditional logit model",
+          "direction": "lower by 1666.29",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.9953",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": null,
+          "comparator": "Conditional versus heteroskedastic conditional logit",
+          "direction": "high positive correlation",
+          "uncertainty": "95% CI 0.9950–0.9956"
+        },
+        {
+          "reported_value": "0.9927",
+          "unit": "Lin concordance correlation coefficient",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": null,
+          "comparator": "Conditional versus heteroskedastic conditional logit",
+          "direction": "high agreement",
+          "uncertainty": "95% CI 0.9922–0.9932"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Difference between homoskedastic and heteroskedastic results, paragraph 1; Figure 5; Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "After control for heteroskedasticity, PC-based and BWS-based values were highly correlated but had lower concordance, with a median absolute difference of 0.0732.",
+      "about": [
+        "o2",
+        "mu1",
+        "mu2",
+        "mo3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.9167",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": null,
+          "comparator": "PC versus BWS case 2",
+          "direction": "high positive correlation",
+          "uncertainty": "95% CI 0.9109–0.9222"
+        },
+        {
+          "reported_value": "0.7658",
+          "unit": "Lin concordance correlation coefficient",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": null,
+          "comparator": "PC versus BWS case 2",
+          "direction": "agreement",
+          "uncertainty": "95% CI 0.7542–0.7769"
+        },
+        {
+          "reported_value": "0.0732",
+          "unit": "median absolute difference on pits scale",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": null,
+          "comparator": "PC versus BWS case 2",
+          "direction": null,
+          "uncertainty": "IQR 0.0592–0.1565"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Differences between the PC and BWS results, paragraph 1; Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Only four of the 20 incremental coefficients differed significantly between PC and BWS, but fewer BWS coefficients were significant and one BWS estimate was significantly negative.",
+      "about": [
+        "o1",
+        "o2",
+        "mu1",
+        "mu2"
+      ],
+      "values": [
+        {
+          "reported_value": "4",
+          "unit": "coefficients",
+          "denominator": "20 incremental coefficients",
+          "time": null,
+          "subgroup": null,
+          "comparator": "PC versus BWS case 2",
+          "direction": "significantly different by task",
+          "uncertainty": "p < 0.05"
+        },
+        {
+          "reported_value": "17",
+          "unit": "significant coefficients",
+          "denominator": "20 incremental coefficients",
+          "time": null,
+          "subgroup": "PC estimates",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "p < 0.05"
+        },
+        {
+          "reported_value": "13",
+          "unit": "significant coefficients",
+          "denominator": "20 incremental coefficients",
+          "time": null,
+          "subgroup": "BWS estimates",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "p < 0.05"
+        },
+        {
+          "reported_value": "1",
+          "unit": "significant negative coefficient",
+          "denominator": "20 incremental coefficients",
+          "time": null,
+          "subgroup": "BWS estimates",
+          "comparator": null,
+          "direction": "negative",
+          "uncertainty": "p < 0.05"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Differences between the PC and BWS results, paragraph 1; Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The SALC model had the lowest BIC and separated respondents into two taste classes and two scale classes.",
+      "about": [
+        "o1",
+        "mo4",
+        "sf3",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "56,698.35",
+          "unit": "BIC",
+          "denominator": null,
+          "time": null,
+          "subgroup": "SALC model",
+          "comparator": "Homogeneous models",
+          "direction": "lowest",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "71%",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "Taste class 1",
+          "comparator": "Taste class 2",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "29%",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "Taste class 2, garbage class",
+          "comparator": "Taste class 1",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "41%",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "Scale class 1, less random class",
+          "comparator": "Scale class 2",
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "59%",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "Scale class 2, more random class",
+          "comparator": "Scale class 1",
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity, paragraphs 1–4; Tables 3, 4, and 7"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The garbage taste class contained more young and male respondents, while failure of the PC dominant task predicted membership in the lower-scale class.",
+      "about": [
+        "o1",
+        "sf3",
+        "sf4",
+        "sf5",
+        "sf6",
+        "sf7"
+      ],
+      "values": [
+        {
+          "reported_value": "0.5173",
+          "unit": "odds ratio",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Female respondents",
+          "comparator": "Male respondents",
+          "direction": "lower odds of garbage-class membership",
+          "uncertainty": "95% CI 0.3685–0.6661; p=0.022"
+        },
+        {
+          "reported_value": "2.4143",
+          "unit": "odds ratio",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Age 16–35",
+          "comparator": "Age 36–54",
+          "direction": "higher odds of garbage-class membership",
+          "uncertainty": "95% CI 1.6509–3.1777; p=0.005"
+        },
+        {
+          "reported_value": "3.1286",
+          "unit": "odds ratio",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Failed PC dominant task",
+          "comparator": "Passed PC dominant task",
+          "direction": "higher odds of membership in scale class 2",
+          "uncertainty": "p=0.044"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity, paragraphs 3–4; Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "SALC estimates had the highest correlation and agreement with the original Dutch value set among the evaluated models.",
+      "about": [
+        "o2",
+        "mo1",
+        "mo2",
+        "mo4",
+        "su1",
+        "su2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.7295",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "20 main-effect coefficients",
+          "time": null,
+          "subgroup": "SALC estimates",
+          "comparator": "Original Dutch value set",
+          "direction": "highest among evaluated models",
+          "uncertainty": "95% CI 0.4238–0.8860"
+        },
+        {
+          "reported_value": "0.6904",
+          "unit": "Lin concordance correlation coefficient",
+          "denominator": "20 main-effect coefficients",
+          "time": null,
+          "subgroup": "SALC estimates",
+          "comparator": "Original Dutch value set",
+          "direction": "highest among evaluated models",
+          "uncertainty": "95% CI 0.4098–0.8516"
+        },
+        {
+          "reported_value": "0.9293",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": "SALC estimates",
+          "comparator": "Original Dutch value set",
+          "direction": "highest among evaluated models",
+          "uncertainty": "95% CI 0.9244–0.9339"
+        },
+        {
+          "reported_value": "0.8835",
+          "unit": "Lin concordance correlation coefficient",
+          "denominator": "3125 EQ-5D-5L profile values",
+          "time": null,
+          "subgroup": "SALC estimates",
+          "comparator": "Original Dutch value set",
+          "direction": "highest among evaluated models",
+          "uncertainty": "95% CI 0.8763–0.8903"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Differences between the original and new Dutch EQ-5D-5L values; Figure 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "More respondents reported that PC tasks were difficult than reported that BWS tasks were difficult, and 72 respondents failed the PC dominant task.",
+      "about": [
+        "o3",
+        "mu1",
+        "mu2",
+        "sf5"
+      ],
+      "values": [
+        {
+          "reported_value": "117 (30.8%)",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "BWS rated difficult",
+          "comparator": "PC rated difficult",
+          "direction": "lower",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "146 (38.4%)",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "PC rated difficult",
+          "comparator": "BWS rated difficult",
+          "direction": "higher",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "72 (19.0%)",
+          "unit": "respondents",
+          "denominator": "380 analyzed respondents",
+          "time": null,
+          "subgroup": "Failed PC dominant task",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Feasibility; Table 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "In the heteroskedastic model, response scale increased through approximately task 14 and then decreased; PC reduced scale and the BWS best task increased scale.",
+      "about": [
+        "o1",
+        "mo2",
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.8419",
+          "unit": "log-scale coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Task sequence",
+          "comparator": null,
+          "direction": "positive",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "−0.7427",
+          "unit": "log-scale coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "Task sequence squared",
+          "comparator": null,
+          "direction": "negative",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "−0.9930",
+          "unit": "log-scale coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "PC task",
+          "comparator": "Worst task reference",
+          "direction": "lower scale",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "0.2424",
+          "unit": "log-scale coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "BWS best task",
+          "comparator": "Worst task reference",
+          "direction": "higher scale",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Difference between homoskedastic and heteroskedastic results, paragraph 1; Figure 2; Table 6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f9",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The value-set taste class had non-negative coefficients, 19 of 20 coefficients were significant, and the moderate-to-severe transition produced the largest value reduction in every EQ-5D-5L dimension.",
+      "about": [
+        "o1",
+        "o2",
+        "mo4",
+        "p1"
+      ],
+      "values": [
+        {
+          "reported_value": "19",
+          "unit": "significant coefficients",
+          "denominator": "20 main-effect coefficients",
+          "time": null,
+          "subgroup": "Taste class 1, value-set class",
+          "comparator": null,
+          "direction": "non-negative and significant",
+          "uncertainty": "p<0.05"
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity, paragraph 1; Table 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpreted the small number of significant coefficient differences and the value correlations as evidence that PC and BWS case 2 might be used interchangeably.",
+      "finding_ids": [
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that simultaneous control of heteroskedasticity, taste heterogeneity, and scale heterogeneity improved valuation by reducing the influence of the garbage class and respondents who failed the dominance task.",
+      "finding_ids": [
+        "f4",
+        "f5",
+        "f8",
+        "f9"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Conclusions; Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors considered the resulting pits-scale Dutch EQ-5D-5L value set moderately concordant with the original values and recommended testing the method in larger studies with richer behavioral information.",
+      "finding_ids": [
+        "f6",
+        "f9"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, paragraph 2; Conclusions"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The estimated values were on a pits scale rather than a QALY scale because the study did not include lifespan or preferences for dying immediately.",
+      "about": [
+        "o2",
+        "p1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Analysis, paragraph 1; Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The study was exploratory rather than confirmatory, which complicated the interpretation of p-values and statistical inference.",
+      "about": [
+        "o1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Confounding between taste and scale means that scale adjustment might not fully remove the scale factor from preference coefficients.",
+      "about": [
+        "o1",
+        "mo4"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The constant PC comparator design and the relatively small sample limited exploration of higher-dimensional heterogeneity.",
+      "about": [
+        "td1",
+        "mo4",
+        "sam3"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Income and task-completion time were missing, although they could have been useful predictors of class membership.",
+      "about": [
+        "o1",
+        "mo4"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Results depended on the selected SALC parametrization and require a justified theoretical basis.",
+      "about": [
+        "mo4"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Discussion, limitations paragraph, final sentences"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Dutch EQ-5D-5L value set on a pits scale",
+      "product_type": "VALUE_SET",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity; Discussion, paragraph 2; Conclusions"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "p1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Produced using the heteroskedastic scale-adjusted latent class model on a pits scale",
+      "assertion_date": "2022-05-25",
+      "asserted_by": "Study authors",
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Abstract, Results and Conclusions"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Heteroskedasticity",
+      "description": "Observable differences in response variance associated here with task sequence and task type, rather than preference heterogeneity.",
+      "about": [
+        "o1",
+        "mo2",
+        "mo4",
+        "sf1",
+        "sf2"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, Heteroskedasticity and heterogeneity in health valuation, paragraphs 2 and 5"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Taste heterogeneity",
+      "description": "Differences between respondents in the relative importance of EQ-5D-5L attribute levels.",
+      "about": [
+        "o1",
+        "mo4",
+        "sf3"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, Heteroskedasticity and heterogeneity in health valuation, paragraph 3"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Scale heterogeneity",
+      "description": "Differences between respondents in the absolute effects of all attributes and in preference intensity or response uncertainty.",
+      "about": [
+        "o1",
+        "mo4",
+        "sf4"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Introduction, Heteroskedasticity and heterogeneity in health valuation, paragraphs 3–5"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Garbage class",
+      "description": "A latent taste class whose responses showed little relation to the ordinal EQ-5D-5L attributes and a near-chance probability of choosing 11111 over 55555.",
+      "about": [
+        "sf3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Taste and scale heterogeneity, paragraphs 2–3; Table 3"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Pits scale",
+      "description": "A health-profile valuation scale anchored at value(55555)=0 and value(11111)=1, without a dead or lifespan anchor.",
+      "about": [
+        "p1",
+        "su1"
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Methods, Analysis, paragraph 1; Table 2 note"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Age distribution in the analyzed sample",
+      "statements": [
+        {
+          "statement": "The narrative identifies age groups as 16–35, 36–55, and above 55.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 1 labels the middle age group as 16–55 rather than 36–55.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports age counts of 124, 117, and 149, which total 390 although the analyzed sample is 380.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports corresponding age percentages of 32.6%, 30.8%, and 36.6%, which total 100% but are incompatible with the reported count of 149 for the oldest group.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1 and Table 1"
+      ]
+    }
+  ]
+}

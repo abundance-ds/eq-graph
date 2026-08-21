@@ -1,0 +1,893 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "C50-P049",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was supported by the EuroQol Foundation (Grant #1456-PD).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates the feasibility and patient experience of routine EQ-5D-3L collection in oncology. The EuroQol Foundation explicitly supported the work through Grant #1456-PD.",
+    "source": [
+      "Full article, Abstract",
+      "Full article, Introduction, final paragraph",
+      "Full article, Funding Statement"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Pilot implementation and feasibility study of routine EQ-5D-3L collection in oncology",
+      "primary_research_family": "APPLIED_USE_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main contribution is an evaluation of the practical implementation, feasibility, and patient experience of routine EQ-5D-3L collection at an oncology centre.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Methods, Sections 2.1 and 2.4",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "IMPLEMENTATION_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods, Section 2.4"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Longitudinal EQ-5D-3L collection and questionnaire-based feasibility evaluation",
+      "source": [
+        "Full article, Methods, Sections 2.1–2.4.1"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Patient interviews about the pilot implementation process",
+      "source": [
+        "Full article, Methods, Section 2.4.2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Methods, Sections 2.1 and 2.4.1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Methods, Section 2.1",
+        "Full article, Results, Section 3.2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article, Methods, Section 2.4.2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods, Section 2.4.2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article, Methods, Sections 2.1–2.4"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods, Section 2.1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "mixed_method_integration",
+      "value": "EMBEDDED",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Methods, Section 2.4.2",
+        "Full article, Discussion, paragraph beginning “This study has several strengths”"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Adults with a histologically confirmed solid tumour or hematological malignancy who were starting publicly reimbursed systemic therapy at the Sunnybrook Odette Cancer Centre",
+      "role": "study participants",
+      "geographies": [
+        "Toronto, Ontario, Canada"
+      ],
+      "conditions": [
+        "solid tumours",
+        "hematological malignancies"
+      ],
+      "age_description": "18 years and over",
+      "inclusion_description": "Starting any publicly reimbursed systemic therapy, with histologically confirmed malignancy, and providing informed consent.",
+      "source": [
+        "Full article, Methods, Section 2.1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 170,
+      "size_text": "170 enrolled patients who completed an initial EQ-5D-3L questionnaire",
+      "unit": "patients",
+      "description": "Main study cohort and denominator for follow-up feasibility.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Results, Sections 3.1 and 3.2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 103,
+      "size_text": "103 of 170 completed at least one follow-up questionnaire",
+      "unit": "patients",
+      "description": "Participants with at least one follow-up EQ-5D-3L questionnaire.",
+      "source": [
+        "Full article, Results, Section 3.2 and Figure 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 160,
+      "size_text": "160 of 170 completed the optional feasibility and demographic questionnaire",
+      "unit": "patients",
+      "description": "Respondents to the optional questionnaire at the initial visit.",
+      "source": [
+        "Full article, Results, Section 3.2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 9,
+      "size_text": "nine interviews completed from 57 patients willing to be contacted",
+      "unit": "patients",
+      "description": "Interview participants, including seven women and two men.",
+      "source": [
+        "Full article, Results, Section 3.1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-3L and EQ-5D visual analogue scale responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Routine longitudinal health measurement and implementation feasibility assessment.",
+      "source": [
+        "Full article, Methods, Sections 2.2 and 2.3"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "brief optional questions on the feasibility of completing the EQ-5D-3L, participant demographics, and diagnosis",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Assessment of willingness, usability, acceptability, and participant characteristics.",
+      "source": [
+        "Full article, Methods, Sections 2.2 and 2.4.1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "patient interview transcripts",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Patient feedback on experience, presentation, administration frequency, and analysis of EQ-5D-3L data.",
+      "source": [
+        "Full article, Methods, Section 2.4.2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "IMPLEMENTATION_OBJECT",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Methods, Section 2.4.1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods, Sections 2.1–2.3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D visual analogue scale (VAS)",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods, Sections 2.2 and 2.3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "brief optional questions on the feasibility of completing the EQ-5D-3L",
+      "registry_id": "instrument:c50-p049-eq-5d-3l-feasibility-questions",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods, Sections 2.2 and 2.4.1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-3L proxy version 1",
+      "registry_id": "instrument:eq-5d-3l-proxy-v1",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods, Section 2.3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DISCUSSION_ONLY",
+      "function": "IMPLEMENTATION_OBJECT",
+      "source": [
+        "Full article, Discussion, paragraph beginning “The main weakness of this study”",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "prospective convenience sample",
+      "registry_id": "method:convenience-sampling",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods, Section 2.1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "descriptive statistics assessing feasibility",
+      "registry_id": "method:descriptive-statistics-assessing-feasibility",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Section 2.4.1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "interview",
+      "registry_id": "method:interview",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods, Section 2.4.2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "content analysis",
+      "registry_id": "method:content-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Methods, Section 2.4.2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "patient",
+      "perspective": "patient self-assessment of current health-related quality of life",
+      "completion": "self-completed",
+      "assistance": "Research coordinators were present during in-person administration, which allowed clarification questions.",
+      "channel": "REDCap and paper administration",
+      "setting": "chemotherapy appointment at the Sunnybrook Odette Cancer Centre",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "initial chemotherapy appointment and follow-up visits during systemic therapy",
+      "source": [
+        "Full article, Methods, Sections 2.1–2.3",
+        "Full article, Results, Section 3.4"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3"
+      ],
+      "respondent": "patient",
+      "perspective": "self-assessed overall health",
+      "completion": "self-completed",
+      "assistance": null,
+      "channel": "REDCap and paper administration",
+      "setting": "chemotherapy appointment at the Sunnybrook Odette Cancer Centre",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "initial chemotherapy appointment and follow-up visits during systemic therapy",
+      "source": [
+        "Full article, Methods, Sections 2.2 and 2.3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu4"
+      ],
+      "respondent": "patient",
+      "perspective": "patient perspective on feasibility and questionnaire experience",
+      "completion": "self-completed optional questions",
+      "assistance": null,
+      "channel": null,
+      "setting": "chemotherapy appointment at the Sunnybrook Odette Cancer Centre",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "initial visit",
+      "source": [
+        "Full article, Methods, Section 2.2",
+        "Full article, Results, Section 3.2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu5"
+      ],
+      "respondent": "caregiver proxy",
+      "perspective": "proxy’s opinion of the patient’s health-related quality of life",
+      "completion": "proxy-completed for individuals unable to complete their own responses",
+      "assistance": null,
+      "channel": null,
+      "setting": "chemotherapy appointment at the Sunnybrook Odette Cancer Centre",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "during study questionnaire collection",
+      "source": [
+        "Full article, Methods, Section 2.3"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "st1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "group": "patients receiving systemic cancer therapy",
+      "activity": "Provided interview feedback and suggested improvements concerning EQ-5D-3L presentation, timing, frequency, content, analysis, and interpretation.",
+      "stage": "pilot implementation evaluation",
+      "role": "inform future implementation and scale-up",
+      "influence": "The authors reported that the interview themes supplied actionable steps for future province-wide EQ-5D collection.",
+      "source": [
+        "Full article, Methods, Section 2.4.2",
+        "Full article, Results, Sections 3.3–3.4.3",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "FEASIBILITY",
+      "label": "Feasibility of routinely collecting EQ-5D-3L during systemic therapy",
+      "instrument_use_ids": [
+        "iu1",
+        "iu4"
+      ],
+      "source": [
+        "Full article, Methods, Section 2.4.1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Willingness, ease of comprehension and completion, acceptability, and questionnaire length",
+      "instrument_use_ids": [
+        "iu1",
+        "iu4"
+      ],
+      "source": [
+        "Full article, Results, Section 3.2 and Figures 2–3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "CONTENT_VALIDITY",
+      "label": "Patient views on whether EQ-5D-3L captures their cancer and treatment experiences",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Results, Table 2 and Section 3.4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "IMPLEMENTATION",
+      "label": "Patient recommendations for administration format, timing, frequency, analysis, and interpretation",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Results, Table 2 and Sections 3.4.1–3.4.3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Of 170 eligible and consenting participants, 103 completed at least one follow-up questionnaire.",
+      "about": [
+        "out1",
+        "sm1",
+        "sm2"
+      ],
+      "values": [
+        {
+          "reported_value": "103 (60.6%)",
+          "unit": "patients",
+          "denominator": "170 eligible and consenting patients",
+          "time": "follow-up through February 2025",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "completed at least one follow-up",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Section 3.2 and Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Most respondents reported that they were definitely or very likely willing to continue answering EQ-5D questions at clinic visits.",
+      "about": [
+        "out1",
+        "out2",
+        "sm3"
+      ],
+      "values": [
+        {
+          "reported_value": "115 (71.9%)",
+          "unit": "patients",
+          "denominator": "160 respondents to the optional feasibility questionnaire",
+          "time": "initial visit",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "definitely willing",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "35 (21.9%)",
+          "unit": "patients",
+          "denominator": "160 respondents to the optional feasibility questionnaire",
+          "time": "initial visit",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "very likely willing",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Section 3.2 and Figure 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Large majorities strongly agreed that the EQ-5D-3L was understandable, easy to complete, acceptable, and acceptable in length.",
+      "about": [
+        "out2"
+      ],
+      "values": [
+        {
+          "reported_value": "128 (80.0%) strongly agree",
+          "unit": "patients",
+          "denominator": "160 questionnaire respondents",
+          "time": "initial visit",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "instructions and questions easy to understand",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "133 (83.1%) strongly agree",
+          "unit": "patients",
+          "denominator": "160 questionnaire respondents",
+          "time": "initial visit",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "questionnaire easy to complete",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "132 (82.5%) strongly agree",
+          "unit": "patients",
+          "denominator": "160 questionnaire respondents",
+          "time": "initial visit",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "questions acceptable",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "132 (82.5%) strongly agree",
+          "unit": "patients",
+          "denominator": "160 questionnaire respondents",
+          "time": "initial visit",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "questionnaire length acceptable",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Section 3.2 and Figure 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Interview participants generally described the questionnaire as simple, straightforward, quick to complete, and feasible to administer in the chemotherapy unit.",
+      "about": [
+        "out1",
+        "out2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Table 2 and Section 3.4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Some patients considered the EQ-5D-3L too limited to represent the range of quality-of-life effects of cancer and treatment.",
+      "about": [
+        "out3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Table 2 and Section 3.4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Patients differed in their preferred paper or electronic format and suggested administration schedules ranging from every visit or every two to three weeks to the beginning, middle, and end of therapy.",
+      "about": [
+        "out4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Table 2 and Sections 3.4.1–3.4.2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Implementation barriers included cancelled appointments, missed patients, patients being busy or asleep, short treatment durations, limited English fluency, and coordinator burden.",
+      "about": [
+        "out1",
+        "out4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Section 3.1",
+        "Full article, Discussion, paragraph beginning “The main weakness of this study”"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that routine EQ-5D-3L collection at the pilot oncology centre was feasible.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Discussion, first paragraph",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors stated that incorporating patient feedback provides actionable steps that can support larger-scale collection across Ontario cancer centres.",
+      "finding_ids": [
+        "f5",
+        "f6",
+        "f7"
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Discussion, paragraphs on scale-up",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors considered EQ-5D-5L more appropriate than EQ-5D-3L for broader implementation because it can provide more precise HRQoL measurement.",
+      "finding_ids": [
+        "f5"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “The main weakness of this study”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The study was conducted at one oncology site, which limits generalizability to other sites and requires broader provincial confirmation.",
+      "about": [
+        "pop1",
+        "out1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “The main weakness of this study”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The EQ-5D-3L questions were limited in their ability to capture the range of HRQoL experiences of patients undergoing cancer treatment.",
+      "about": [
+        "iu1",
+        "out3",
+        "f5"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “The main weakness of this study”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The in-person study imposed a relatively high coordinator burden, with cumbersome recruitment and difficulty identifying appointment times for follow-up.",
+      "about": [
+        "out1",
+        "f7"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “The main weakness of this study”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Measurement during chemotherapy could provide an inadequate snapshot because responses were sensitive to treatment timing and moment-to-moment changes in the patient’s condition.",
+      "about": [
+        "iu2",
+        "out4"
+      ],
+      "source": [
+        "Full article, Results, Sections 3.4 and 3.4.2",
+        "Full article, Discussion, paragraph beginning “Completing the questionnaire in the chemotherapy unit”"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Real-world routine EQ-5D collection in oncology",
+      "description": "Systematic collection of EQ-5D responses during routine cancer care to support clinical, economic, and health-system uses.",
+      "about": [
+        "iu1",
+        "out1",
+        "out4"
+      ],
+      "source": [
+        "Full article, Introduction",
+        "Full article, Discussion, paragraphs on scale-up"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Percentages reported for willingness to answer future EQ-5D questionnaires",
+      "statements": [
+        {
+          "statement": "The Abstract reports 115 patients as 67.3% and 35 patients as 20.5%.",
+          "source": [
+            "Full article, Abstract"
+          ]
+        },
+        {
+          "statement": "The Results and Discussion report 115 patients as 71.9% and 35 patients as 21.9%.",
+          "source": [
+            "Full article, Results, Section 3.2 and Figure 2",
+            "Full article, Discussion, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Results, Section 3.2 and Figure 2",
+        "Full article, Discussion, first paragraph"
+      ]
+    }
+  ]
+}

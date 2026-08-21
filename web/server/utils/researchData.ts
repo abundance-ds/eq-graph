@@ -34,8 +34,8 @@ export function getResearchStory(): DemoResearchData {
       (SELECT COUNT(DISTINCT person_id) FROM publication_authors) AS authors,
       (SELECT COUNT(DISTINCT journal) FROM publications WHERE journal IS NOT NULL) AS journals,
       (SELECT COUNT(DISTINCT concept) FROM concepts) AS concepts,
-      (SELECT COUNT(DISTINCT method) FROM method_uses) AS methods,
-      (SELECT COUNT(*) FROM research_products WHERE lower(COALESCE(product_type,'')) LIKE '%value set%' OR lower(product) LIKE '%value set%') AS value_sets,
+      (SELECT COUNT(DISTINCT COALESCE(canonical_label,source_label)) FROM scientific_uses WHERE use_type='Method' AND context='DIRECT_CURRENT_ACTIVITY') AS methods,
+      (SELECT COUNT(*) FROM research_products WHERE product_type='VALUE_SET' OR lower(product) LIKE '%value set%') AS value_sets,
       (SELECT COUNT(*) FROM projects WHERE start_year IS NOT NULL) AS dated_projects,
       (SELECT COUNT(*) FROM projects WHERE start_year >= 2012) AS projects_since_2012,
       (SELECT MIN(start_year) FROM projects) AS first_year,
@@ -59,16 +59,16 @@ export function getResearchStory(): DemoResearchData {
 
   const countries = series("SELECT country AS label, COUNT(DISTINCT study_id) AS value FROM study_countries GROUP BY country ORDER BY value DESC, label LIMIT 50");
   const groups = series("SELECT working_group AS label, COUNT(*) AS value FROM projects WHERE working_group IS NOT NULL GROUP BY working_group ORDER BY value DESC, label");
-  const instruments = series("SELECT instrument AS label, COUNT(DISTINCT study_id) AS value FROM instrument_uses GROUP BY instrument ORDER BY value DESC, label LIMIT 50");
+  const instruments = series("SELECT COALESCE(canonical_label,source_label) AS label, COUNT(DISTINCT study_id) AS value FROM scientific_uses WHERE use_type='Instrument' AND context IN ('DIRECT_CURRENT_ACTIVITY','CURRENT_STUDY_OBJECT') GROUP BY label ORDER BY value DESC, label LIMIT 50");
   const journals = series("SELECT journal AS label, COUNT(*) AS value FROM publications WHERE journal IS NOT NULL GROUP BY journal ORDER BY value DESC, label LIMIT 50");
   const concepts = series("SELECT concept AS label, COUNT(DISTINCT study_id) AS value FROM concepts GROUP BY concept ORDER BY value DESC, label LIMIT 50");
-  const methods = series("SELECT method AS label, COUNT(DISTINCT study_id) AS value FROM method_uses GROUP BY method ORDER BY value DESC, label LIMIT 50");
+  const methods = series("SELECT COALESCE(canonical_label,source_label) AS label, COUNT(DISTINCT study_id) AS value FROM scientific_uses WHERE use_type='Method' AND context='DIRECT_CURRENT_ACTIVITY' GROUP BY label ORDER BY value DESC, label LIMIT 50");
   const coverage = queryServingRows(`
     SELECT
       (SELECT COUNT(DISTINCT study_id) FROM study_countries) AS countries,
-      (SELECT COUNT(DISTINCT study_id) FROM instrument_uses) AS instruments,
+      (SELECT COUNT(DISTINCT study_id) FROM scientific_uses WHERE use_type='Instrument' AND context IN ('DIRECT_CURRENT_ACTIVITY','CURRENT_STUDY_OBJECT')) AS instruments,
       (SELECT COUNT(DISTINCT study_id) FROM concepts) AS concepts,
-      (SELECT COUNT(DISTINCT study_id) FROM method_uses) AS methods,
+      (SELECT COUNT(DISTINCT study_id) FROM scientific_uses WHERE use_type='Method' AND context='DIRECT_CURRENT_ACTIVITY') AS methods,
       (SELECT COUNT(DISTINCT publication_id) FROM publications WHERE journal IS NOT NULL) AS journals,
       (SELECT COUNT(DISTINCT pp.publication_id) FROM project_publications pp JOIN projects p ON p.project_id=pp.project_id WHERE p.working_group IS NOT NULL) AS groups
   `)[0]!;
@@ -84,8 +84,8 @@ export function getResearchStory(): DemoResearchData {
   return {
     meta: {
       label: "EuroQol research",
-      note: "1,024 funded projects and 207 studies shape the EuroQol research evidence base.",
-      updated: "2026-08-18",
+      note: `${Number(totals.projects).toLocaleString()} funded projects and ${Number(totals.studies).toLocaleString()} studies shape the EuroQol research evidence base.`,
+      updated: "2026-08-21",
     },
     portfolio: {
       projects: Number(totals.projects),
@@ -166,12 +166,22 @@ export function getResearchGraph(): DemoGraphData {
   `);
   const instrumentsByStudy = listsByStudy(`
     SELECT study_id, group_concat(instrument, char(31)) AS joined_values
-    FROM (SELECT DISTINCT study_id, instrument FROM instrument_uses ORDER BY study_id, instrument)
+    FROM (
+      SELECT DISTINCT study_id, COALESCE(canonical_label,source_label) AS instrument
+      FROM scientific_uses
+      WHERE use_type='Instrument' AND context IN ('DIRECT_CURRENT_ACTIVITY','CURRENT_STUDY_OBJECT')
+      ORDER BY study_id, instrument
+    )
     GROUP BY study_id
   `);
   const methodsByStudy = listsByStudy(`
     SELECT study_id, group_concat(method, char(31)) AS joined_values
-    FROM (SELECT DISTINCT study_id, method FROM method_uses ORDER BY study_id, method)
+    FROM (
+      SELECT DISTINCT study_id, COALESCE(canonical_label,source_label) AS method
+      FROM scientific_uses
+      WHERE use_type='Method' AND context='DIRECT_CURRENT_ACTIVITY'
+      ORDER BY study_id, method
+    )
     GROUP BY study_id
   `);
   const conceptsByStudy = listsByStudy(`
@@ -188,8 +198,13 @@ export function getResearchGraph(): DemoGraphData {
     .map((row) => String(row.study_id)));
   const studiesWithValueSets = new Set(queryServingRows(`
     SELECT DISTINCT study_id FROM research_products
-    WHERE lower(COALESCE(product_type,'')) LIKE '%value set%' OR lower(product) LIKE '%value set%'
+    WHERE product_type='VALUE_SET' OR lower(product) LIKE '%value set%'
   `).map((row) => String(row.study_id)));
+  const productTypesByStudy = listsByStudy(`
+    SELECT study_id, group_concat(product_type, char(31)) AS joined_values
+    FROM (SELECT DISTINCT study_id, product_type FROM research_products ORDER BY study_id, product_type)
+    GROUP BY study_id
+  `);
 
   const studyRows = queryServingRows(`
     SELECT s.study_id, s.publication_id, s.label, p.title AS publication_title,
@@ -215,7 +230,7 @@ export function getResearchGraph(): DemoGraphData {
         methods: methodsByStudy.get(id) ?? [], concepts: conceptsByStudy.get(id) ?? [],
         countries: countriesByStudy.get(id) ?? [], findingCount: Number(row.finding_count),
         limitationCount: Number(row.limitation_count), hasProduct: studiesWithProducts.has(id),
-        hasValueSet: studiesWithValueSets.has(id),
+        hasValueSet: studiesWithValueSets.has(id), productTypes: productTypesByStudy.get(id) ?? [],
       };
     }),
     ...countryNames.map((country) => ({ id: `country:${slug(country)}`, type: "country", label: country })),
@@ -231,14 +246,14 @@ export function getResearchGraph(): DemoGraphData {
   const meta = queryServingRows(`
     SELECT
       (SELECT COUNT(DISTINCT concept) FROM concepts) AS concepts,
-      (SELECT COUNT(DISTINCT method) FROM method_uses) AS methods,
+      (SELECT COUNT(DISTINCT COALESCE(canonical_label,source_label)) FROM scientific_uses WHERE use_type='Method' AND context='DIRECT_CURRENT_ACTIVITY') AS methods,
       (SELECT COUNT(DISTINCT study_type) FROM study_types) AS study_types,
-      (SELECT COUNT(DISTINCT instrument) FROM instrument_uses) AS instruments,
+      (SELECT COUNT(DISTINCT COALESCE(canonical_label,source_label)) FROM scientific_uses WHERE use_type='Instrument' AND context IN ('DIRECT_CURRENT_ACTIVITY','CURRENT_STUDY_OBJECT')) AS instruments,
       (SELECT COUNT(*) FROM publications) AS publications,
       (SELECT COUNT(*) FROM findings) AS findings,
       (SELECT COUNT(*) FROM limitations) AS limitations,
       (SELECT COUNT(*) FROM research_products) AS products,
-      (SELECT COUNT(*) FROM research_products WHERE lower(COALESCE(product_type,'')) LIKE '%value set%' OR lower(product) LIKE '%value set%') AS value_set_products,
+      (SELECT COUNT(*) FROM research_products WHERE product_type='VALUE_SET' OR lower(product) LIKE '%value set%') AS value_set_products,
       (SELECT COUNT(DISTINCT project_id) FROM project_publications) AS projects_with_publications,
       (SELECT COUNT(DISTINCT publication_id) FROM project_publications) AS publications_with_projects,
       (SELECT COUNT(*) FROM project_publications) AS project_publication_links
@@ -266,8 +281,8 @@ export function getResearchGraph(): DemoGraphData {
       },
       series: {
         studyTypes: series("SELECT study_type AS label, COUNT(DISTINCT study_id) AS value FROM study_types GROUP BY study_type ORDER BY value DESC, label LIMIT 12"),
-        instruments: series("SELECT instrument AS label, COUNT(DISTINCT study_id) AS value FROM instrument_uses GROUP BY instrument ORDER BY value DESC, label LIMIT 12"),
-        methods: series("SELECT method AS label, COUNT(DISTINCT study_id) AS value FROM method_uses GROUP BY method ORDER BY value DESC, label LIMIT 12"),
+        instruments: series("SELECT COALESCE(canonical_label,source_label) AS label, COUNT(DISTINCT study_id) AS value FROM scientific_uses WHERE use_type='Instrument' AND context IN ('DIRECT_CURRENT_ACTIVITY','CURRENT_STUDY_OBJECT') GROUP BY label ORDER BY value DESC, label LIMIT 12"),
+        methods: series("SELECT COALESCE(canonical_label,source_label) AS label, COUNT(DISTINCT study_id) AS value FROM scientific_uses WHERE use_type='Method' AND context='DIRECT_CURRENT_ACTIVITY' GROUP BY label ORDER BY value DESC, label LIMIT 12"),
         countries: series("SELECT country AS label, COUNT(DISTINCT study_id) AS value FROM study_countries GROUP BY country ORDER BY value DESC, label LIMIT 12"),
       },
       scope: "The story moves from funded projects to the studies, methods, findings, and products that shape EuroQol research.",

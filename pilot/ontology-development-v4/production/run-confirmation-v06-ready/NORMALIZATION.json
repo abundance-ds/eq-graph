@@ -1,0 +1,148 @@
+{
+  "summary": {
+    "records": 20,
+    "source_runs": {
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-software-gap-zoom-repair-01": 1,
+      "/Users/waqr/Desktop/eq-graph-repo/pilot/ontology-development-v4/production/run-confirmation-final-02": 19
+    },
+    "mapped": 23,
+    "unresolved": 2,
+    "collisions": 0,
+    "unverified_existing": 0,
+    "registry_sha256": "9a5e2dc3e3ef4941ad902a77d17ebb2b4578031e77334c068524231815980fe6",
+    "aliases_sha256": "a50d22be3eebc2a79cf3f62af90ea2364f9f2a7046453995786dcc5c94bcd863"
+  },
+  "mapped": [
+    {
+      "record_id": "CNF-P001",
+      "item_id": "iu1",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "iu2",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "iu3",
+      "registry_id": "instrument:eq-5d-5l"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "iu4",
+      "registry_id": "instrument:eq-5d-3l"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu1",
+      "registry_id": "method:quota-sampling"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu2",
+      "registry_id": "method:ctto"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu3",
+      "registry_id": "method:closed-ended-survey-questions"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu4",
+      "registry_id": "method:cross-validation"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu5",
+      "registry_id": "method:open-ended-survey-questions"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mu6",
+      "registry_id": "method:backward-selection"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "pu1",
+      "registry_id": "protocol:eq-5d-5l-valuation-lite"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "pu2",
+      "registry_id": "protocol:eq-5d-5l-valuation-qc-2017"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "sw1",
+      "registry_id": "software:eq-vt-2-1"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "sw2",
+      "registry_id": "software:xreg"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "sw3",
+      "registry_id": "software:zoom"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod1",
+      "registry_id": "model:add20"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod2",
+      "registry_id": "model:add20-i"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod3",
+      "registry_id": "model:add20-p"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod4",
+      "registry_id": "model:cale"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod5",
+      "registry_id": "model:cale-i"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod6",
+      "registry_id": "model:cale-p"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "mod7",
+      "registry_id": "model:eq-5d-5l-to-3l-crosswalk-2012"
+    },
+    {
+      "record_id": "CNF-P001",
+      "item_id": "su1",
+      "registry_id": "product:eq-5d-3l-sg-2014"
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "CNF-P010",
+      "item_id": "mo2",
+      "entity_type": "Model",
+      "source_label": "regression techniques"
+    },
+    {
+      "record_id": "CNF-P018",
+      "item_id": "iu7",
+      "entity_type": "Instrument",
+      "source_label": "EQ-5D proxy versions"
+    }
+  ],
+  "collisions": [],
+  "unverified_existing": []
+}

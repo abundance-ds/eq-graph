@@ -1,0 +1,843 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P006",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "application_only",
+    "euroqol_support": "explicit",
+    "support_scope": "This work was funded by the EuroQol Research Foundation (Project #445-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The primary research object is the usability and implementation readiness of an individualized decision aid. EQ-5D-5L-derived information is displayed within the aid but is not itself measured, valued, developed, or evaluated as an instrument. The work is included because the funding statement explicitly identifies EuroQol Research Foundation support for this work.",
+    "source": [
+      "Deterministic metadata: title and abstract",
+      "Full article: Introduction, final paragraph",
+      "Full article: Intervention",
+      "Full article: Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Usability evaluation of the revised individualized decision aid for total knee arthroplasty",
+      "primary_research_family": "APPLIED_USE_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an evaluation of the usability, usefulness, acceptability, and implementation readiness of an individualized clinical decision-support aid.",
+      "source": [
+        "Full article: Abstract, Objectives–Results",
+        "Full article: Introduction, final paragraph",
+        "Full article: Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "IMPLEMENTATION_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article: Introduction, final paragraph: objective to evaluate usability before large-scale implementation",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Quantitative survey evaluation",
+      "source": [
+        "Full article: Data collection",
+        "Full article: Data analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Open-ended feedback analysis",
+      "source": [
+        "Full article: Data collection",
+        "Full article: Data analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article: Design",
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article: Design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "mixed_method_integration",
+      "value": "EMBEDDED",
+      "source": [
+        "Full article: Data collection",
+        "Full article: Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article: Data analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article: Data analysis, first paragraph: results stratified by age and sex"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUALITATIVE_INQUIRY",
+      "source": [
+        "Full article: Data analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article: Data analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "English-speaking adults with knee osteoarthritis referred to an urban Alberta hip and knee clinic as possible surgical candidates",
+      "role": "study participants",
+      "geographies": [
+        "Alberta, Canada"
+      ],
+      "conditions": [
+        "knee osteoarthritis"
+      ],
+      "age_description": "Adults aged 18 years or older; analyzed participants had a mean age of 68 years (SD 8).",
+      "inclusion_description": "Participants had knee osteoarthritis, had been referred as possible surgical candidates, could read, speak, and understand English, and could provide informed consent. People with soft-tissue knee injuries, rheumatoid arthritis, or other non-osteoarthritis knee conditions were excluded.",
+      "source": [
+        "Full article: Design",
+        "Full article: Results, first paragraph",
+        "Full article: Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 20,
+      "size_text": "20 participants",
+      "unit": "participants",
+      "description": "All 20 participants contributed to the quantitative evaluation.",
+      "source": [
+        "Full article: Results, first paragraph",
+        "Full article: Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": null,
+      "size_text": "10 to 19 participants per optional open-ended question",
+      "unit": "participants",
+      "description": "The number of respondents varied across optional open-ended questions.",
+      "source": [
+        "Full article: Results, first paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Closed-ended evaluation survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Quantitative evaluation of preparedness, usability, and acceptability.",
+      "source": [
+        "Full article: Data collection",
+        "Full article: Data analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Open-ended evaluation survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Identification of usability feedback and suggested improvements.",
+      "source": [
+        "Full article: Data collection",
+        "Full article: Data analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Historical patient-reported outcome data displayed in the decision aid",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "AGGREGATE_ESTIMATE",
+      "purpose": "Individualized comparisons of pre-surgery and one-year post-surgery outcomes for patients with similar characteristics.",
+      "source": [
+        "Full article: Intervention",
+        "Full article: Innovation"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "revised individualized decision aid",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "IMPLEMENTATION_OBJECT",
+      "source": [
+        "Full article: Introduction, final paragraph",
+        "Full article: Intervention"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "VISUALIZATION_OBJECT",
+      "source": [
+        "Full article: Introduction, paragraph beginning “The original individualized TKA decision aid”",
+        "Full article: Intervention",
+        "Full article: Innovation"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Preparation for Decision Making Scale (PDMS)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "System Usability Scale (SUS)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Acceptability Scale",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "recruitment after the surgical screening appointment at a high-volume urban hip and knee clinic",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article: Design"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "online evaluation survey",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "open-ended questions in the online evaluation survey",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "descriptive statistics",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Data analysis, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "content analysis",
+      "registry_id": "method:content-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_ANALYSIS",
+      "source": [
+        "Full article: Data analysis, second paragraph"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "label": "Individualized treatment-outcome comparison in the decision aid",
+      "profiles": [
+        "individual compared with patients of similar age, sex, and body mass index",
+        "pre-surgery outcomes",
+        "one-year post-surgery outcomes",
+        "surgical treatment",
+        "non-surgical treatments"
+      ],
+      "attributes": [
+        "age",
+        "sex",
+        "body mass index",
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression",
+        "chance of revision surgery",
+        "anticipated recovery period",
+        "treatment risks",
+        "waiting time"
+      ],
+      "levels": [
+        "pre-surgery",
+        "one year post-surgery",
+        "surgical",
+        "non-surgical"
+      ],
+      "duration": null,
+      "alternatives": "Surgical and non-surgical treatment options",
+      "task_count": null,
+      "block": null,
+      "order": null,
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Full article: Introduction, paragraphs 3–4",
+        "Full article: Intervention"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age group",
+      "levels": [
+        "<70 years",
+        "≥70 years"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Data analysis, first paragraph",
+        "Full article: Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Sex",
+      "levels": [
+        "Female",
+        "Male"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article: Data analysis, first paragraph",
+        "Full article: Tables 2 and 3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "patient participant",
+      "perspective": "personal treatment-decision perspective",
+      "completion": "self-completed",
+      "assistance": null,
+      "channel": "online",
+      "setting": "at home after the surgical screening appointment",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "before the evaluation survey",
+      "source": [
+        "Full article: Design",
+        "Full article: Intervention"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu3",
+        "iu4",
+        "iu5",
+        "mu2",
+        "mu3"
+      ],
+      "respondent": "patient participant",
+      "perspective": "personal assessment of the decision aid",
+      "completion": "self-completed",
+      "assistance": null,
+      "channel": "online through Qualtrics",
+      "setting": "at home",
+      "instrument_language": "English",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "after completion of the decision aid",
+      "source": [
+        "Full article: Data collection"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Preparedness for treatment decision-making after using the decision aid",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Full article: Data collection",
+        "Full article: Results, PDMS paragraph and Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "System usability of the decision aid",
+      "instrument_use_ids": [
+        "iu4"
+      ],
+      "source": [
+        "Full article: Data collection",
+        "Full article: Results, SUS paragraph and Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Acceptability of the decision aid's information, length, balance, and usefulness",
+      "instrument_use_ids": [
+        "iu5"
+      ],
+      "source": [
+        "Full article: Results, acceptability paragraphs",
+        "Full article: Figure 1 and Table 4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Open-ended usability feedback concerning simplification, information, personalization, and timing",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article: Results, open-ended data paragraphs"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Participants reported above-average perceived preparedness for treatment decision-making after using the decision aid.",
+      "about": [
+        "out1"
+      ],
+      "values": [
+        {
+          "reported_value": "66.4",
+          "unit": "PDMS points on a 0–100 scale",
+          "denominator": "20 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "overall",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SD 27.0"
+        }
+      ],
+      "source": [
+        "Full article: Results, PDMS paragraph",
+        "Full article: Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The decision aid had high-marginal overall usability, with lower mean SUS scores among participants aged 70 years or older and among males.",
+      "about": [
+        "out2",
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "63.4",
+          "unit": "SUS points on a 0–100 scale",
+          "denominator": "20 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "overall",
+          "comparator": null,
+          "direction": "high-marginal usability",
+          "uncertainty": "SD 15.4"
+        },
+        {
+          "reported_value": "71.0",
+          "unit": "SUS points on a 0–100 scale",
+          "denominator": "10 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "<70 years",
+          "comparator": "≥70 years: 55.8",
+          "direction": "higher",
+          "uncertainty": "SD 9.9; comparator SD 16.6"
+        },
+        {
+          "reported_value": "68.1",
+          "unit": "SUS points on a 0–100 scale",
+          "denominator": "13 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "female",
+          "comparator": "male: 54.6",
+          "direction": "higher",
+          "uncertainty": "SD 13.4; comparator SD 16.2"
+        }
+      ],
+      "source": [
+        "Full article: Results, SUS paragraph",
+        "Full article: Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Most participants considered the decision aid acceptable, balanced, and useful, although a minority reported excessive information or limited usefulness.",
+      "about": [
+        "out3"
+      ],
+      "values": [
+        {
+          "reported_value": "15 (75%)",
+          "unit": "participants",
+          "denominator": "20 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "overall",
+          "comparator": null,
+          "direction": "length rated just right",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "15 (75%)",
+          "unit": "participants",
+          "denominator": "20 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "overall",
+          "comparator": null,
+          "direction": "information rated balanced",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "14 (70%)",
+          "unit": "participants",
+          "denominator": "20 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "overall",
+          "comparator": null,
+          "direction": "decision aid rated useful",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "4 (20%)",
+          "unit": "participants",
+          "denominator": "20 participants",
+          "time": "after decision-aid completion",
+          "subgroup": "overall",
+          "comparator": null,
+          "direction": "reported too much information",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article: Results, acceptability paragraphs",
+        "Full article: Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "At least 70% of participants rated every information-content area as good or excellent, but fewer than 60% of males and participants aged 70 years or older gave those ratings to the summary report.",
+      "about": [
+        "out3",
+        "sf1",
+        "sf2"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, paragraph following Table 2",
+        "Full article: Figure 1",
+        "Full article: Presentation of information table"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Open-ended feedback identified four main topics: simplification, information provided, personalization, and timing. Participants requested clearer and shorter content, valued treatment and peer comparisons, requested more individualized information, and differed on whether the aid was offered at the correct treatment stage.",
+      "about": [
+        "out4"
+      ],
+      "values": [],
+      "source": [
+        "Full article: Results, paragraph beginning “We identified four main topics” and the following four topic paragraphs"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors judged the decision aid to have high perceived usefulness, marginal usability, and high acceptability, and did not recommend further revisions before routine implementation.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that personalization and earlier, flexible administration can improve informed decision-making, particularly for patients considering non-surgical options.",
+      "finding_ids": [
+        "f5"
+      ],
+      "source": [
+        "Full article: Discussion, timing paragraph",
+        "Full article: Practice implications"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The decision aid was administered after the surgical screening appointment instead of before it as intended for routine implementation, which may have influenced participant experience and feedback.",
+      "about": [
+        "adm1",
+        "f5"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Participants were recruited from only one of Alberta's 12 surgical clinics, which raised concerns about generalizability.",
+      "about": [
+        "pop1",
+        "sam1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Restriction to English-speaking, computer-literate participants limits applicability to non-English-speaking and less technologically proficient patients.",
+      "about": [
+        "pop1"
+      ],
+      "source": [
+        "Full article: Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "revised individualized decision aid for total knee arthroplasty",
+      "product_type": "SOFTWARE_OR_DECISION_SUPPORT",
+      "source": [
+        "Full article: Introduction, final two paragraphs",
+        "Full article: Intervention",
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "The revised decision aid was judged to require no further revisions before implementation into routine practice.",
+      "assertion_date": "2025-08-13",
+      "asserted_by": "study authors",
+      "source": [
+        "Full article: Conclusion"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Individualized visualization of historical EQ-5D-5L outcomes in patient decision support",
+      "description": "The decision aid presents pre-surgery and one-year post-surgery EQ-5D information for patients with similar age, sex, and body mass index characteristics.",
+      "about": [
+        "iu1",
+        "iu2",
+        "du3",
+        "td1"
+      ],
+      "source": [
+        "Full article: Introduction, paragraphs 3–4",
+        "Full article: Intervention",
+        "Full article: Innovation"
+      ]
+    }
+  ]
+}

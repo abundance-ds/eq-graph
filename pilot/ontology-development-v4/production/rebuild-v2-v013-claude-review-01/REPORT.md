@@ -1,0 +1,4514 @@
+# Production calibration report
+
+- Records: 209/209.
+- Studies: 207.
+- Unmapped registry labels: 4079.
+- Ontology gaps: 210.
+- Source conflicts: 188.
+- Deterministically valid records: 209/209.
+
+## Dispositions
+
+- `exclude`: 1.
+- `include-study`: 207.
+- `publication-context`: 1.
+
+## Primary research families
+
+- `APPLIED_USE_RESEARCH`: 12.
+- `CONCEPTUAL_FRAMEWORK_DEVELOPMENT`: 6.
+- `ECONOMIC_BURDEN_RESEARCH`: 1.
+- `EVIDENCE_SYNTHESIS`: 11.
+- `HEALTH_OUTCOME_RESEARCH`: 15.
+- `HEALTH_PREFERENCE_RESEARCH`: 13.
+- `INSTRUMENT_VERSION_DEVELOPMENT`: 7.
+- `MEASUREMENT_PROPERTY_EVALUATION`: 62.
+- `METHODS_RESEARCH`: 47.
+- `POPULATION_REFERENCE_DESCRIPTION`: 7.
+- `VALUE_SET_DEVELOPMENT`: 26.
+
+## Ontology gaps
+
+- `UNMAPPED_VALUE` `software_function`: The EQ-VT QC software checks interviewer performance and compliance with the interview script and produces daily QC evaluations and a final QC report; no quality-control software function value exists.
+- `NOT_REPORTED` `results`: The six additional DCE tasks with duration and a death alternative are described as a methodological add-on whose data 'will be reported elsewhere'.
+- `UNCERTAIN_MAPPING` `origin`: The paper reports that a multi-arm DCE with 3365 respondents and 19 designs 'was conducted', but refers to Mulhern [13] (doctoral dissertation, 2020) for design details and analyses only a subset of 8 designs (N = 1432), so the data may be reuse of a prior research collection.
+- `NOT_REPORTED` `instrument_language`: The paper reports a German sample recruited through a German panel but does not state the survey language.
+- `UNCERTAIN_MAPPING` `origin`: Participants were 'recruited from Germany using an online panel ... for participation in a validation study [11]', while the retest was administered for the present reliability assessment; it is unclear whether the initial test data are current-study or prior-research collection.
+- `UNCERTAIN_MAPPING` `method_function`: The Genetic Algorithm was used for item selection and scale reduction (short-form item set derivation), which is neither plainly quantitative analysis nor mapping/derivation in the controlled list.
+- `UNMAPPED_VALUE` `instrument_function`: Participants completed a brief demographic questionnaire used only to describe participant characteristics (Table 1); no controlled instrument function covers background-characteristic collection.
+- `UNMAPPED_VALUE` `research_purpose`: A stated aim was also to explore how feasible it is for proxies to rate residents' QoL using the EQ-HWB (Theme 1: feasibility/ability to proxy report), but no controlled purpose value covers feasibility of instrument completion.
+- `NOT_REPORTED` `sample_stage`: The paper reports the analysed sample and the intended sample of around 30 participants but gives no counts for people approached, screened, or declining participation.
+- `UNCERTAIN_MAPPING` `origin`: Data were obtained from the recurring county public health survey 'Life & Health—young people' 2014, with microdata provided by Region Örebro County; results from the survey are reported elsewhere, so origin could be routine monitoring collection or prior research collection.
+- `UNCERTAIN_MAPPING` `function`: ICD-11 was used to define the disease groups of the study samples; no method function fits a disease classification system used for grouping evidence.
+- `NOT_REPORTED` `handling of utility scores below 0 in the empirical validity analysis`: The Methods section ends mid-sentence: 'There is a possibility that utility scores below 0 ... would be different for the EQ-5D-Y-5L and EQ-5D-Y-3L ... To overcome this,'
+- `UNMODELED_ASPECT` `scoring_product_application`: Disability weights (WHO 2013, GBD 2013, Murray 1994) are applied to prevalent cases of vision impairment to derive DALYs, rather than to instrument responses, so the application of this reusable weight set fits neither ScoringUse (which requires an instrument_use link) nor the available ProductUse functions.
+- `UNMAPPED_VALUE` `method_function`: The study applies data visualization recommendations and techniques (and the Sankey Diagram) to create and modify the presentation of EQ-5D-5L data; no method_function value covers information visualization or presentation design.
+- `NOT_REPORTED` `feedback on EQ-5D-5L descriptive labels`: "Due to the purpose of this study and the trademark of the instrument, feedback on the EQ-5D-5L descriptive labels was not reported."
+- `UNCERTAIN_MAPPING` `primary_research_family`: The principal contribution is explaining variation in the provision/utilization of a clinical intervention (peripheral nerve blocks) plus its association with clinical and service-use outcomes; both APPLIED_USE_RESEARCH (use/provision) and HEALTH_OUTCOME_RESEARCH could describe this study.
+- `UNCERTAIN_MAPPING` `comparison_structure`: Subgroup analyses compared patient/study groups (age, design, timing), contexts (geographic region, income status) and EQ-5D instrument versions (3 L vs 5 L) within one meta-analysis, but only one comparison_structure value can be assigned.
+- `NOT_REPORTED` `interview_language`: The paper reports interviews in Spain and Belgium but does not state the interview or instrument language.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The study compares directly reported versus recalled scores within the same person (WITHIN_PERSON) but also explicitly compares correspondence between the EQ-5D summary score and the EQ-VAS (a hypothesis-driven instrument comparison).
+- `UNCERTAIN_MAPPING` `method identity/function`: The Theoretical Framework of Acceptability is a conceptual framework applied analytically to map themes; it is recorded as a MethodUse with QUALITATIVE_ANALYSIS, but a named conceptual framework could alternatively be typed as a protocol or concept.
+- `NOT_REPORTED` `software used for conditional logit estimation and bootstrap`: Methods report conditional logit estimation and cluster bootstrap with the percentile method but name no software; the discussion notes that no open-source software is available for kaizen-task DCEs.
+- `UNCERTAIN_MAPPING` `data origin and use context of the DCE survey`: Methods, paragraph 1 states 'Between 29 September and 10 October 2023, we conducted a child health valuation survey with a DCE', while Methods, paragraph 3 states 'we conducted a secondary analysis and estimated three conditional logit models'; the survey is governed by a separately published protocol.
+- `UNCERTAIN_MAPPING` `mixed_method_integration`: Some interviews occur before the main online data collection and some after initial analysis, interviews are conducted while respondents complete the survey, and focus groups discuss study findings; this fits both SEQUENTIAL and EMBEDDED.
+- `UNMAPPED_VALUE` `method_function`: Data access and record linkage of survey responses to provincial administrative databases were provided by Population Data BC; no method function covers record linkage or data management.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The planned comparison is between nested prediction models (Base vs EQ-5D-5L-enhanced vs VR-12-enhanced) that differ by which PROM is added, so both BETWEEN_INSTRUMENT and BETWEEN_METHOD remain plausible.
+- `UNMODELED_ASPECT` `function`: The single FACIT-COST item FT12 was excluded from the total score and used as the anchor for test-retest and responsiveness analyses, but no use type or function represents a single item within an instrument acting as an anchor.
+- `UNCERTAIN_MAPPING` `primary_research_family`: The principal output is a reusable reporting checklist that governs how valuation-study methods are reported, which fits METHODS_RESEARCH (method or protocol quality) but could also be read as a conceptual classification of valuation-study components (CONCEPTUAL_FRAMEWORK_DEVELOPMENT).
+- `UNCERTAIN_MAPPING` `function`: The pre-existing checklist from the EQ-5D valuation review supplied the initial 35 items and was used to score published valuation studies for example selection; no listed product function (ANALYSIS_OBJECT, COMPARATOR, EVIDENCE_SYNTHESIS_TARGET) exactly describes this input role.
+- `NOT_REPORTED` `reason`: The article title states 'RETRACTED ARTICLE' but the supplied full text contains no retraction notice, date, or reason.
+- `UNMAPPED_VALUE` `research_purpose`: The stated aim is usability, usefulness and acceptability testing of a decision aid before implementation; no controlled purpose value denotes usability or acceptability evaluation, so IMPLEMENTATION_EVALUATION was used as the closest fit.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The study simultaneously compares instruments (EQ-5D-Y-3L vs EQ-5D-Y-5L), known groups defined by asthma control (between-group), and patient versus parental carer reports within dyads (within-dyad).
+- `UNMAPPED_VALUE` `data_level`: Clinicians assessed asthma control using GINA criteria; this is a clinician-rated observation rather than a participant response, qualitative material, aggregate estimate, model parameter, simulated unit, or document.
+- `UNCERTAIN_MAPPING` `temporal_structure`: 693 individuals responded to both recruitment waves and their data were pooled, so the study is not purely one observation window per unit, but no repeated-measures analysis is reported.
+- `NOT_REPORTED` `size`: 'After elaborate pilot testing with students and university staff, who were not part of the formal study' gives no participant count or procedure detail.
+- `UNCERTAIN_MAPPING` `type`: 'For the 20-year task, an extension of the standard cTTO task in the EQ-VT protocol was developed by MathsinHealth' does not state whether this is a software implementation, a protocol extension, or a reusable product.
+- `UNMAPPED_VALUE` `protocol_function`: The Chinese Diagnosis and Treatment Protocol for COVID-19 (Trial Version 10) defines the disease severity classification and clinical recovery criteria used as external criteria, which is not a governing study, valuation, translation, quality-control, reporting or appraisal function.
+- `UNCERTAIN_MAPPING` `instrument_function`: The Overall Health Assessment question serves as an external anchor for known-group validity and responsiveness; COMPARATOR and PREDICTOR_MEASURE both partly fit an anchor role.
+- `UNCERTAIN_MAPPING` `instrument_function`: The open-ended questionnaire collects qualitative reports of problems and solutions from interviewers; no instrument function describes qualitative data collection, so OUTCOME_MEASURE was used as the closest fit and the collection activity was additionally recorded as MethodUse mu7.
+- `NOT_REPORTED` `instrument_language`: The article quotes the cognition descriptors in English translation and never states the language of the DISS follow-up questionnaire, although the surveys were conducted in the Netherlands.
+- `UNCERTAIN_MAPPING` `origin`: The follow-up questionnaires are described as part of the ongoing LIS injury surveillance data collection ('LIS is an ongoing data collection in fourteen hospitals'; 'A stratified sample of patients received questionnaires 6 months and 12 months after trauma'), so the survey responses could be routine surveillance collection rather than collection designed for this study.
+- `UNCERTAIN_MAPPING` `origin`: Methods state the study used self-reported cross-sectional data from an online survey sent in December 2018 by Q-uestion and Q-support with a citation to a previously published ten-year evaluation study [6], while ethics approval (MEC-2018-1605) and the measures are described as belonging to this study.
+- `UNCERTAIN_MAPPING` `research_purpose`: Abstract/Purpose: "To investigate the contribution of demographic trends in countries' age and gender composition to value set validity and obsolescence." The stated aim evaluates the continued validity of existing value sets (products), not the quality of a method or protocol.
+- `NOT_REPORTED` `population_id`: 'conducted the sessions after completing four pilot interviews' - no participant characteristics, sampling, or results are reported for the pilot stage.
+- `UNMAPPED_VALUE` `research_purpose`: The stated aim is to co-design (create) the implementation of EQ-5D-Y-5L in routine care, producing the P-PROM ROCK Program; the vocabulary offers IMPLEMENTATION_EVALUATION (evaluating implementation) but no value for participatory design or development of an implementation program.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The defining planned comparison is between the newly developed Chinese lay QoL framework and the existing EQ-HWB conceptual framework, which is neither a between-group, between-instrument, nor between-method comparison of study units.
+- `UNCERTAIN_MAPPING` `function`: The 96 EQ-HWB candidate items were used as the initial deductive codebook for qualitative coding; no instrument function describes use of item content as an analytic coding frame.
+- `UNMAPPED_VALUE` `software_function`: Google reCAPTCHA v3 was implemented across four interactions to flag and exclude bot responses; its role is quality control of collected data, but the software_function vocabulary has no quality-control value.
+- `UNCERTAIN_MAPPING` `data_level`: Paradata (link clicks, completion times, reCAPTCHA scores, duplicate identifiers) are machine-generated survey process records rather than participant responses or documents.
+- `UNCERTAIN_MAPPING` `origin`: The source describes data as 'routinely collected by the UK MS Register', which is itself described as a prospective, longitudinal, observational cohort study, and the limitations refer to 'use of pre-existing datasets'.
+- `NOT_REPORTED` `instrument_language`: The paper reports multinational European and US study centres but does not state the languages of the EQ-5D-3L or other questionnaires administered.
+- `NOT_REPORTED` `sample_stage=ANALYZED`: The CVP sample was restricted to exclude respondents preferring a community setting or no vaccination card, but the resulting analysed sample size is not reported.
+- `UNCERTAIN_MAPPING` `protocol_function`: The COSMIN study design checklist is used as the conceptual framework for the components analysed (relevance, comprehension, comprehensiveness) and for deductive coding, rather than clearly governing the whole study or guiding critical appraisal.
+- `NOT_REPORTED` `activity`: The acknowledgements thank the QUOKKA project Caregiver Consumer Advisory Group, but no activity, stage, or influence on the study is reported.
+- `UNMODELED_ASPECT` `publication_relation`: "This study is a revision of a previously published EQ-5D-5L valuation study for Egypt that was retracted by the authors because of an inconsistency in the preferred model [22, 23]."
+- `UNCERTAIN_MAPPING` `function`: The a priori consensus approach among study team members set item-correlation hypotheses; it is a hypothesis-setting consensus procedure rather than a data analysis method, so MEASUREMENT_PROPERTY_ANALYSIS and EXPERIMENTAL_DESIGN both remain plausible.
+- `UNMODELED_ASPECT` `trial_registration`: 'The study was prospectively registered with the Australia New Zealand Clinical Trials Registry (ANZCTR) (ACTRN12621000657820).' No key exists for a study registration identifier, and use-level registry_id fields are reserved for instrument, method, protocol, model, software, or product registry identities.
+- `UNCERTAIN_MAPPING` `synthesis_design`: The study is a scoping review conducted per JBI guidance with thematic and narrative synthesis; the vocabulary offers SYSTEMATIC_REVIEW, META_ANALYSIS or NARRATIVE_SYNTHESIS but no exact 'scoping review' value.
+- `NOT_REPORTED` `size`: The paper states that members of the general population took part in beta-testing and piloting of the survey instrument but reports no number of beta testers or pilot respondents.
+- `UNMAPPED_VALUE` `product_function`: Preference evidence from the existing 2013 US EQ-5D-Y-3L value set was used to select coma comparison profiles and rank improvements for the experimental design, which is neither an analysis object, comparator, nor evidence-synthesis target.
+- `UNCERTAIN_MAPPING` `execution_state`: The protocol mixes past tense for design steps ('A two-stage sampling design was used'; power analysis carried out) with future tense for fieldwork ('The survey will be conducted four times over 2023 and 2024'), published July 2024, so whether data collection is active or not yet started is ambiguous.
+- `UNCERTAIN_MAPPING` `instrument_function`: The study tests whether EQ-TIPS-5L severity concords with preferences and whether attribute levels influence choices; this is preference-based assessment of the descriptive system that could map to CONTENT_TEST_OBJECT (relevance of levels) or MEASUREMENT_PROPERTY_TEST_OBJECT (level-ordering validity).
+- `UNCERTAIN_MAPPING` `primary_research_family`: The stated objective is to assess two key properties of the EQ-TIPS-5L descriptive system (instrument-focused) while the novelty claim and aim 3 concern comparing alternative choice-task approaches and demonstrating a reusable protocol.
+- `NOT_REPORTED` `component_approach`: The source reports that members of the general population beta-tested the wave-1 survey instrument and that a pilot confirmed technical functionality, but it does not describe the approach (qualitative, quantitative or participatory) used in that evaluation.
+- `NOT_REPORTED` `channel`: The focus groups are described only as '2 focus groups' with a topic guide; mode, setting, language, and dates are not reported.
+- `UNCERTAIN_MAPPING` `function`: The sample size formula of Casagrande, Pike, and Smith determines the number of respondents per health state pair; it could map to SAMPLING or to EXPERIMENTAL_DESIGN.
+- `UNMAPPED_VALUE` `product_type`: The reusable output is a DCE experimental design (150 pairs in 10 blocks) later adopted by the international EQ-5D-Y-3L valuation protocol; no product_type value covers an experimental design.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The study compares conventional versus retrospective change within the same person, but also explicitly hypothesizes and compares agreement between the EQ-5D-3 L summary score and the EQ-VAS ('Agreement ... as measured with EQ-VAS, is lower compared to the agreement if HRQL was measured with EQ-5D-3 L') and compares the recall and then-test methods.
+- `UNCERTAIN_MAPPING` `origin`: 'This study utilizes data from a registry-based study on injury patients ... the Brabant Injury Outcome Surveillance (BIOS) study' but 'Response shift items and recall questions were intentionally included in the 3 month follow-up survey'.
+- `NOT_REPORTED` `result`: 'Parents provided clinical data for the patients and filled in the proxy version of EQ-5D-Y. The EQ-5D-Y proxy report is discussed elsewhere.'
+- `UNCERTAIN_MAPPING` `protocol_function`: "They were all trained at Umeå University in January 2020 following the standard training protocol provided by the EuroQol group."
+- `NOT_REPORTED` `interview_language`: The paper describes face-to-face computer-assisted personal interviews following the EQ-VT interviewer script but does not state the interview or instrument language.
+- `NOT_REPORTED` `size`: The source states only that each interviewer completed at least two sets of 5 pilot interviews, without a total pilot interview count, so no pilot-phase Sample count could be recorded.
+- `NOT_REPORTED` `instrument_language / interview_language`: The paper reports interviews with German caregivers in Germany but does not state the language of the EQ-HWB-9 version or of the interviews.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The study simultaneously compares instruments (EQ-5D-5L, EQ-HWB, EQ-HWB-9, BIT), known groups defined by excessive sweating and weather adaptation, and within-person score change across waves, so BETWEEN_INSTRUMENT, BETWEEN_GROUP and WITHIN_PERSON are each defensible for the single comparison axis.
+- `NOT_REPORTED` `channel`: The paper states that patients were administered the HSCL-25 followed by the EQ-5D-3L at the beginning of residential treatment, but does not state the administration channel (paper, electronic, or other).
+- `UNMODELED_ASPECT` `measurement_hardware`: Gazepoint GP3 binocular video-based system, 60Hz, 0.5–1 degrees precision, positioned 65 cm from the respondent and 40 cm below eye level.
+- `NOT_REPORTED` `pilot results`: A pilot study with 50 participants was performed to test the data collection procedures and evaluate the traditional Chinese version of the EQ-VT program, but no quantitative pilot results are reported beyond respondent comments referenced in the discussion.
+- `NOT_REPORTED` `source_label`: Interviews were 'transcribed using automated intelligent verbatim transcription' but the transcription software is not named.
+- `NOT_REPORTED` `instrument_language / interview_language`: Interviews were conducted in the Netherlands with Dutch respondents, but the source does not state the instrument or interview language.
+- `NOT_REPORTED` `sample_stage APPROACHED`: The sample was recruited using a 'door-knock' approach, but the number of households or individuals approached, and the participation rate, are not reported.
+- `UNMODELED_ASPECT` `comparison_structure`: The study compares four valuation methods (between-method) and, within the same respondents, two perspectives (within-person), but the axis permits only one value.
+- `UNMODELED_ASPECT` `comparison_structure`: The study simultaneously compares patient versus caregiver reports (within dyad), the same rater at two time points (within person), and the Y-3L versus the Y-5L instruments (between instrument), but only one comparison value can be recorded on the axis.
+- `UNMAPPED_VALUE` `software_function`: The EQ-VT QC software assessed interviewers' performance and compliance and produced QC reports used for exclusion decisions; no quality-control software function exists in the vocabulary.
+- `UNCERTAIN_MAPPING` `instrument_function`: The interview included 'a country-specific questionnaire' with no description of its content or analytic role.
+- `NOT_REPORTED` `instrument_language`: The paper does not state the language of the instruments or interviews, although interviews were conducted in Romania.
+- `NOT_REPORTED` `size`: Known-group analyses in Table 6 report group counts (e.g., 37 and 75; 39 and 73) that do not add to the 117 completers, without an explanation of the difference.
+- `UNCERTAIN_MAPPING` `instrument_function`: The sociodemographic questionnaire collected age, sex, backpack weight perception, sports participation and family relationship, which were only described in Table 1 and not analysed as predictors or outcomes.
+- `NOT_REPORTED` `randomization_unit`: "The order of administration of the EQ-5D-Y instruments were randomized to avoid ordering effects" without stating the randomisation unit, method or sequence generation.
+- `NOT_REPORTED` `source_label`: The paper states that codes for analysis are available upon reasonable request but does not name any analysis software or package.
+- `UNMAPPED_VALUE` `protocol_function`: The WVS/EVS merging protocol governs data construction, but no controlled protocol function covers data merging or dataset construction.
+- `NOT_REPORTED` `source_label`: The paper reports multilevel mixed models and regressions but names no statistical software.
+- `UNMAPPED_VALUE` `method_function`: Merging the WVS and EVS longitudinal files into the Integrated Values Survey database is a data linkage and dataset-construction activity; no method function covers data merging, linkage, or management, although SoftwareUse has DATA_MANAGEMENT.
+- `UNCERTAIN_MAPPING` `instrument_function`: The modified faces ('smiley') scale from the UK Household Longitudinal Study was used by 8–10-year-olds to rate the severity of candidate labels, which is neither current health measurement nor scoring of an EQ instrument.
+- `UNCERTAIN_MAPPING` `method_function`: The review of existing HRQoL instruments and dictionaries generated candidate labels rather than identifying evidence for synthesis; EVIDENCE_IDENTIFICATION is the closest available function.
+- `UNMAPPED_VALUE` `software_function`: The EuroQol Quality Control tool version 2.5 flags anomalous interviews and generates daily QC reports; no software function value describes quality control.
+- `UNCERTAIN_MAPPING` `protocol_function`: The interviewer training protocol governs interviewer training rather than quality control, valuation or reporting; QUALITY_CONTROL_PROTOCOL is the nearest fit.
+- `UNCERTAIN_MAPPING` `origin`: The paper states it 'harnessed data from the US EQ-5D-5L face-to-face valuation study and the US EQ-5D-5L online valuation experimental study', but only the face-to-face study has a separate citation (ref 19), so the online arm could be current-study collection rather than prior research collection.
+- `UNCERTAIN_MAPPING` `publication_form`: Structured metadata gives article_type 'editorial' and category 'Commentary', while the text presents a derived set of 22 criteria as a conceptual output.
+- `NOT_REPORTED` `protocol_function`: The Methods section describes search, screening and extraction but reports no critical appraisal / risk-of-bias protocol and no reporting guideline (e.g. PRISMA) for the review.
+- `UNMAPPED_VALUE` `protocol_function`: Participants were probed to consider Canadian HTA guidelines on health valuation, which act as normative decision guidance rather than a study, valuation, translation, quality-control, reporting, or appraisal protocol.
+- `UNCERTAIN_MAPPING` `outcome_family`: The reported outcomes are stakeholders' normative and methodological views (who should value child health, from which perspective, and with which method), which fit neither preference/utility nor a conceptual classification family exactly.
+- `NOT_REPORTED` `source_label`: The paper reports descriptive, correlation, effect-size and internal-consistency analyses but names no statistical software or package used for the analyses.
+- `UNMODELED_ASPECT` `comparison_structure`: Participants compared the EQ-5D-5L alone with the EQ-5D-5L plus bolt-ons within the same interview, in addition to the between-group comparison of AD and CU samples.
+- `UNCERTAIN_MAPPING` `origin`: The paper states 'We analyzed baseline data from a single-center longitudinal study conducted in Indonesia' with references to two companion papers, yet describes recruitment, instrument administration and data collection in first person as its own activity.
+- `NOT_REPORTED` `sensitivity analysis result`: Methods > Sensitivity analysis states that flagged or inconsistent cTTO responses were excluded and the impact compared with the full dataset, but no sensitivity-analysis result is reported in Results or Table 2.
+- `UNMAPPED_VALUE` `method_function`: 'The study survey was developed by the EQ-DAPHNIE Project Team using a modified Delphi method for selecting measures and variables' - an expert consensus procedure for selecting survey content that is neither data collection, analysis, nor stakeholder participatory design.
+- `NOT_REPORTED` `quantitative analysis plan`: The paper describes rationale, design and data collection methods only; no statistical analysis plan for population health estimates or instrument comparison is reported beyond a mention of post-stratification weighting.
+- `NOT_REPORTED` `instrument_language`: The paper does not state the language of instrument administration for the US online survey.
+- `UNCERTAIN_MAPPING` `source_label`: The EQ-5D Index is a value-set-derived score rather than an instrument as such; the review synthesises its measurement properties alongside the EQ VAS, and value sets used in included studies are extracted but not named.
+- `UNMAPPED_VALUE` `data_level`: Lung function tests (spirometry, carbon monoxide gas diffusion, 6 min walk distance) are objective physiological measurements rather than participant responses, qualitative material, aggregates, model parameters, simulated units or documents.
+- `NOT_REPORTED` `source_label`: Table 3 reports 'EQ-5D index (crosswalk)' without naming the country value set or crosswalk source used to derive the index.
+- `UNMAPPED_VALUE` `outcome_family`: The primary outcome is unconscious death thought accessibility measured by a word completion test, a psychological construct that is neither a health status, preference, behaviour, clinical event, service use, nor a measurement property.
+- `UNMAPPED_VALUE` `method_function`: The mortality salience essay, the television control essay, the PANAS and the word puzzle are experimental manipulations or delay/filler tasks rather than data collection, analysis, or design construction activities.
+- `NOT_REPORTED` `sample_stage:EXCLUDED`: The survey was aborted for respondents with EQ-5D-5L anxiety/depression level 4 or higher, and the marketing bureau did not provide data on the number of respondents dropping out.
+- `UNCERTAIN_MAPPING` `primary_research_family`: The study evaluates content validity of an experimental instrument (supporting MEASUREMENT_PROPERTY_EVALUATION) while being framed and titled as a stage in developing the EQ-TIPS instrument with recommended content changes for future versions (supporting INSTRUMENT_VERSION_DEVELOPMENT); no revised instrument version is produced in this paper.
+- `UNMAPPED_VALUE` `method_function`: 'Bolt-ons were selected using a symptom-guided, literature-based approach in line with current EQ-5D bolt-on recommendations [11].'
+- `UNCERTAIN_MAPPING` `origin`: The paper states 'we conducted the second wave of the online survey' but also refers to 'the protocol for the original study' (Jumamyradov et al. child health valuation protocol), so the EQ-5D-5L and PROMIS-16 responses may be a secondary use of a parent valuation survey rather than a purpose-designed collection.
+- `NOT_REPORTED` `sample_stage flow (approached/enrolled)`: The paper reports only the analysed sample of 510 autistic children from the P-MIC study; recruitment, invitation and enrolment counts for the ASD cohort are not reported in this publication.
+- `UNMAPPED_VALUE` `comparison_structure`: The study compares SES groups within countries (BETWEEN_GROUP) and simultaneously compares six countries (BETWEEN_CONTEXT); only one value can be recorded on this axis.
+- `NOT_REPORTED` `software`: The Methods describe weighted linear regression, FIML estimation, predictive margins and violin/box plots, but no statistical software or package is named.
+- `UNMODELED_ASPECT` `allocation_structure`: 'The ASCOT and EQ-5D-5L surveys were randomly assigned to participants while the QOL-ACC and EQ-HWB were fixed and QOL-ACC was just presented to participants who were 65 + age.'
+- `NOT_REPORTED` `instrument_language`: Assessments were conducted at 11 European, 3 US and 17 European sites but the source does not report the instrument or interview languages used.
+- `UNCERTAIN_MAPPING` `entity_type`: The "EQ-VT quality control (QC) tool" is described both as a tool generating fortnightly quality reports and as a quality control process focused on protocol compliance and face validity, so it could be modelled as a MethodUse, SoftwareUse, or a quality-control ProtocolUse.
+- `UNMAPPED_VALUE` `software_function`: Methods: Sample Recruitment: 'Scheduling assistant software (TIMIFY) was utilised to facilitate interview scheduling and interaction between the company, the interviewers, and the interviewees.'
+- `UNCERTAIN_MAPPING` `origin`: Methods describe recruitment, interviews and data collection as this study's own activity, while the Discussion states the norms are 'based on a large sample of individuals recruited for the EQ-5D-5L valuation study [9]'.
+- `UNCERTAIN_MAPPING` `origin`: The TTO data come from an ongoing project by the same author that 'was not designed to compare tele-TTO and personal TTO interviews' and 'aimed to replicate and extend the findings reported in Lipman and colleagues [32]', but the data are first reported here by the sole author who conducted all interviews.
+- `NOT_REPORTED` `regression result for self-rated health`: The Abstract > Methods and Methods > Independent Variables list self-rated health (EQ-5D-5L self-reported state and EQ-VAS) among the independent variables entered in the models, but Table 2 and the Results text report no univariate or multivariable coefficient for self-rated health.
+- `UNCERTAIN_MAPPING` `instrument_function`: Participants completed 'a brief demographic questionnaire' whose results describe the sample, but no listed instrument function (predictor, outcome, content test, reference only) clearly fits a background characteristics form.
+- `UNMAPPED_VALUE` `instrument_function`: The PAS-Cog score was used by facilities to determine residents' cognitive functioning and eligibility to participate in interviews, not to measure a study outcome, predictor, or health state.
+- `NOT_REPORTED` `age_description`: Table 1 reports characteristics of staff and relatives only; no age, sex, cognitive status or other demographic characteristics of the 103 consenting residents are reported anywhere in the article.
+- `UNMAPPED_VALUE` `software_function`: The EQ-VT quality control software performs real-time monitoring of protocol compliance and interviewer performance, a quality-control function that no software_function value covers exactly; DATA_MANAGEMENT was used as the closest value.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The study simultaneously compares two instruments (3L vs 5L) and 14 country-specific value sets across seven countries, so both BETWEEN_INSTRUMENT and BETWEEN_CONTEXT plausibly apply on the single comparison axis.
+- `NOT_REPORTED` `review registration / a priori protocol`: The paper reports search strategy, selection criteria and appraisal but names no registered review protocol or reporting guideline (e.g. PRISMA) for the review itself.
+- `UNMAPPED_VALUE` `product_function`: The published Dutch 3L and 5L tariffs were used as rescaling anchors for the discrete-choice values, not strictly as analysis objects or comparators.
+- `NOT_REPORTED` `instrument_language`: The paper reports a Dutch general population online survey but does not state the language of the instrument or survey.
+- `UNCERTAIN_MAPPING` `analytic_role`: The conditional logit model was used to optimize the experimental design rather than to report results, and footnote 2 explains why mixed logit was preferred for estimation; no listed analytic role exactly covers a design-optimization model.
+- `UNMAPPED_VALUE` `comparison_structure`: The study compares three existing/new value sets (EQ-5D-5L directly measured, EQ-5D-5L cross-walk, EQ-5D-3L), which is a comparison between value-set products rather than between groups, methods, instruments or contexts.
+- `UNMAPPED_VALUE` `software_function`: The Excel-based quality-control tool enables monitoring of protocol compliance, interviewer effects and validity of the collected data; no quality-control software function exists, so DATA_MANAGEMENT was used.
+- `NOT_REPORTED` `methods_and_results`: 'Given a planned experimental arm of our research... (the methods and results of the experimental substudy will be reported elsewhere)' and 'After excluding interviews with experimental TTO blocks (the results of the study will be reported elsewhere)'; the number of excluded experimental interviews is not stated.
+- `NOT_REPORTED` `size`: The paper reports a pilot test of 10 interviews per interviewer for the first group of 15 interviewers, but does not state how many pilot interviews were conducted or whether they were included in the 1143 interviews used for the main analysis.
+- `NOT_REPORTED` `size`: The paper reports 1210 DCE respondents as a denominator and 1276 adults obtained from the panel, but does not report the number invited or approached in the online panel.
+- `NOT_REPORTED` `instrument_language`: The article reports translation of the cTTO interview script into Slovenian but never states the language of the online DCE survey instrument.
+- `UNCERTAIN_MAPPING` `component_approach`: The study applies published utility algorithms to exhaustively enumerated theoretical health states rather than collecting empirical observations; MODEL_BASED and QUANTITATIVE_EMPIRICAL both remain plausible.
+- `NOT_REPORTED` `source_label`: Table 2 reports EQ-5D-5L index values (mean 0.8 for cTTO sample, 0.9 for DCE sample) but the paper does not name the value set or scoring algorithm used to derive them.
+- `NOT_REPORTED` `results`: Footnote 3 states that the interviews also contained 15 DCE tasks addressing a research objective outside the scope of this paper, and these data are not considered further.
+- `NOT_REPORTED` `source_label`: The paper reports statistical analyses and bootstrapping and states 'The code however is available upon request', but names no statistical software or package.
+- `UNCERTAIN_MAPPING` `function`: SF-36 item 1, mRS and Barthel Index serve as external anchors classifying change; the vocabulary has no 'anchor' instrument function, so COMPARATOR was used.
+- `NOT_REPORTED` `instrument_language`: The paper reports face-to-face paper-based DCE interviews in Indonesia but does not state the language of the instrument or interview.
+- `NOT_REPORTED` `analysis software`: The paper reports mixed-logit and mapping model estimation but names no statistical software; Code Availability states 'Not applicable'.
+- `UNCERTAIN_MAPPING` `outcome_family`: The reported outcomes are stakeholders' normative views and methodological recommendations on youth valuation; CONCEPTUAL_CLASSIFICATION was applied as the closest value, but the mapping remains uncertain relative to other families.
+- `NOT_REPORTED` `results`: The interview included 'an additional DCE survey trying to determine the value of QALYs in Slovenia', but no design detail, analysis, or result for this component is reported in this paper.
+- `NOT_REPORTED` `source_label`: The main text states only that ‘the value sets used for these analyses are available in Supplementary Table S10’ for the EQ-5D-Y-3L, CHU9D, AQoL-6D and HUI3; exact value-set identities are not given in the article text.
+- `UNMODELED_ASPECT` `registration_identifier`: ‘Trial Registration ANZCTR—ACTRN12621000657820’; the study was prospectively registered with the Australia New Zealand Clinical Trials Registry (ACTRN12621000657820).
+- `UNCERTAIN_MAPPING` `function`: The a priori consensus method by which the study team specified convergent and divergent item-pair hypotheses is a hypothesis-specification procedure that could map to MEASUREMENT_PROPERTY_ANALYSIS or QUALITY_CONTROL.
+- `UNMAPPED_VALUE` `protocol_function`: The Chinese national COVID-19 diagnosis and treatment protocol (Trial Version 10) was used to classify paediatric COVID-19 severity and recovery, but it does not govern the study, valuation, translation, quality control, reporting, or appraisal.
+- `NOT_REPORTED` `size`: The paper reports that all value sets for seven generic instruments were identified and plotted in Fig. 1, but no numeric count of identified value sets is given in the text.
+- `UNCERTAIN_MAPPING` `publication_form`: The article is labelled a 'Current Opinion' by the journal and the authors write 'In this Current Opinion, we develop a taxonomy of value set obsolescence', but its principal output is a developed taxonomy with evidence requirements and solutions, fitting either OPINION_ARTICLE or CONCEPTUAL_ARTICLE.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The data collection had no planned group, instrument, or method comparison, but the study's central analysis compares six competing model specifications with and without heteroskedasticity adjustment via cross-validation.
+- `UNCERTAIN_MAPPING` `analytic_role`: The pooled conditional logit model with ten interaction terms is described as an additional analysis to further explore differences between perspectives, reported in supplementary Table S4; it is neither the main reported model nor clearly a sensitivity, comparator, or subgroup model.
+- `UNMAPPED_VALUE` `software_function`: The quality control tool integrated in the EQ-VT software monitored data quality, interviewer performance and script compliance and generated QC reports; no software function value covers quality control.
+- `UNMODELED_ASPECT` `protocol_deviation`: 'In consultation with EuroQol, health states flagged in the feedback module were not excluded by default, this in deviation from the EQ-VT protocol and recent valuation studies.'
+- `NOT_REPORTED` `interview_language`: The article states that all related documents including the interview guides, survey instructions and the EQ-PVT platform were translated into Urdu, but does not state the spoken language used in the face-to-face interviews; Table 1 shows 37.7% of respondents reported a primary language other than Urdu.
+- `UNCERTAIN_MAPPING` `data_level`: Scores assigned by researchers to individual video-recorded interviews are neither participant responses nor conventional aggregate estimates; standardized per-interview scores were then averaged across scorers, interviewers and batches.
+- `UNMAPPED_VALUE` `outcome_family`: The study reports importance scores for nominated research priorities (e.g., recent tariffs, instruments for children, social care), a stated-research-need outcome that does not fit any existing outcome family.
+- `UNCERTAIN_MAPPING` `instrument_function`: The surveyed utility instruments are examined only as objects of self-reported use frequency and fit-for-purpose views; IMPLEMENTATION_OBJECT and REFERENCE_ONLY both remain plausible.
+- `UNMAPPED_VALUE` `method_function`: Non-English open-ended responses were translated using a forward-backward approach; no method function covers translation of participant free-text data rather than instrument content.
+- `UNMAPPED_VALUE` `research_purpose`: A stated aim was to identify HTA practitioners' research priorities and needs for HRQoL evidence generation; no controlled purpose value covers research-priority identification.
+- `UNMODELED_ASPECT` `registry_id`: Abstract reports 'Trial registration number ClinicalTrials.gov (NCT04359628)', but the AI draft must leave registry_id null, so this study registration identifier has no field.
+- `UNMAPPED_VALUE` `product_function`: Values from the 2016 US EQ-5D-5L valuation study (Craig & Rand) are used as prior values to select the five paired-comparison profiles that maximise value spacing; this is a design input rather than an analysis object, comparator, or synthesis target.
+- `NOT_REPORTED` `allocation_structure`: The protocol describes quota-based recruitment of 200 respondents per block and per dual-DCE survey but does not state how respondents are assigned to surveys or blocks; only task sequence and attribute order are stated as randomised at respondent level.
+- `NOT_REPORTED` `sample_stage ENROLLED/COMPLETED counts`: The protocol states that data collection had been completed between June and September 2024, but no achieved enrolment or completion counts are reported.
+- `UNMAPPED_VALUE` `protocol_function`: Severity classification is governed by the WHO revised classification of childhood pneumonia, the International Neuroblastoma Staging System, and the American Society of Haematology 2019 ITP guidelines (Methods and analysis > Participants), but no protocol_function value covers a clinical classification or staging guideline.
+- `UNCERTAIN_MAPPING` `level`: The theoretical part uses hypothetical utility and duration values in worked QALY examples rather than collected data; MODEL_PARAMETER was selected as the closest data level.
+- `NOT_REPORTED` `source_label`: The paper describes two-level mixed-effects models, ICC computation, jackknife and correlation analyses but names no statistical software or package.
+- `NOT_REPORTED` `source_label`: The Analysis section describes MANOVA, regression and several statistical tests but names no statistical software.
+- `UNMAPPED_VALUE` `software_function`: The QC tool provided by the EuroQol Group is used to review interview data for interviewer performance and protocol compliance; no quality-control software function exists in the vocabulary, so DATA_MANAGEMENT was used.
+- `NOT_REPORTED` `instrument_language`: The article does not explicitly state the language of the EQ-VT instrument or of the interviews, although the study was conducted in Germany with German general public respondents.
+- `UNCERTAIN_MAPPING` `origin`: 'This study is linked to the Brabant Injury Outcome Surveillance (BIOS) study... The BIOS study protocol that was approved included the reported measures and analysis that are presented here', while the Acknowledgements thank 'the BIOS research team for collecting the data that were analysed in this study'.
+- `UNMODELED_ASPECT` `comparison_structure`: The fourth hypothesis states 'Agreement between T1 and T2 pre-injury EQ-VAS is lower compared to T1 and T2 agreement in EQ-5D3L terms', i.e. a planned comparison of two instruments in addition to the within-person T1-T2 comparison.
+- `NOT_REPORTED` `source_label`: The paper reports kappa, ICC, Pearson correlation, ANOVA and partial eta-squared analyses but names no statistical software.
+- `NOT_REPORTED` `completion`: For hospital recruitment the article states only that 'The purpose and procedure of the study were explained to the parents/caregivers by one of the researchers and informed consent was obtained'; it does not state whether the baseline EQ-5D-Y Proxy and PedsQL were self-completed by caregivers or administered by an interviewer, or in what format.
+- `NOT_REPORTED` `source_label`: Methods > Overview states that respondents completed 'computer-based interviews via an online survey instrument', but the survey software or platform is not named.
+- `UNMAPPED_VALUE` `product_type`: The study reports a novel simulation-based analytic method as a reusable output ('The simulation method can facilitate comparisons of sensitivity of different value sets and/or utility measures'), but no product_type value covers an analytic or simulation method.
+- `UNMAPPED_VALUE` `research_purpose`: The paper states that it 'introduces a novel simulation method for empirical responsiveness comparison', an aim not covered by an existing purpose value (METHOD_OR_PROTOCOL_QUALITY concerns evaluating quality, not developing a method).
+- `UNCERTAIN_MAPPING` `context`: The cTTO and DCE valuation tasks were administered in the same omnibus interview as the analysed sections, but their data are analysed and reported in the separate value-set papers; the paper states 'In this paper we only analysed data from section one, four and five of the interview.'
+- `NOT_REPORTED` `size`: The article reports the number of interviews conducted (1,674) and analysed (1,649) but no number of households approached or invited, so no approach or response-rate flow count is available.
+- `UNCERTAIN_MAPPING` `protocol_function`: The COSMIN Study Design checklist was used to justify the sample size and design quality standard rather than to govern conduct, appraise other studies, or guide reporting.
+- `UNCERTAIN_MAPPING` `comparison_structure`: The study compares pre and post scores within persons, also describes three service programs separately, compares change groups by age, gender, region, and anxiety/depression, and compares results with Alberta general population norms.
+- `UNMODELED_ASPECT` `comparison_structure`: The study analyses within-person pre/post change (responsiveness, MCID) and between-group known-groups comparisons by tumor stage, ECOG performance status, age category and treatment modality in the same undivided sample.
+- `UNCERTAIN_MAPPING` `origin`: The paper describes surveys 1 and 2 both as data 'obtained from two studies that were conducted in Trinidad and Tobago' (the valuation study and the DCE with duration study) and as 'survey 1 of the 2022–2023 population norms' / 'survey 2 of the population norms study', leaving prior-research versus current-study collection ambiguous.
+- `NOT_REPORTED` `source_label`: The analysis describes t-tests, ANOVA, ordered logit models and OLS regression, but no statistical software package is named.
+- `UNCERTAIN_MAPPING` `source_label`: The pre-meeting 5-item survey previously used by US investigators is a named data-collection questionnaire that could alternatively be modelled as an InstrumentUse, but no instrument function fits its background/familiarity content.
+- `NOT_REPORTED` `assistance`: "we had no information on how independently respondents answered the EQ-5D, i.e. whether respondents may have received help filling in the questionnaire"
+- `NOT_REPORTED` `recall_period`: Methods > Variables describes only the EQ-5D dimensions and response levels; no recall period is stated for the GPPS EQ-5D items.
+- `UNCERTAIN_MAPPING` `function`: COSMIN is used as a taxonomy for categorizing reported measurement properties of included instruments; it could plausibly be recorded as an appraisal protocol (CRITICAL_APPRAISAL_PROTOCOL) or as an evidence-synthesis method.
+- `NOT_REPORTED` `instrument_language`: The article states only that the web-based survey was distributed to members of the Dutch general population; it does not report the language of the EQ-5D-5L, EQ VAS or RPQ versions administered.
+- `NOT_REPORTED` `data_collection_period`: The article reports six data-collection cities and interviewer numbers but no calendar dates for the fieldwork period.
+- `UNCERTAIN_MAPPING` `instrument_function`: The study evaluates EQ VAS as a valuation method with an experience-based perspective, which is neither purely a measurement-property test nor a valuation target as defined in the vocabulary.
+- `NOT_REPORTED` `statement`: The protocol does not state study limitations.
+- `UNMODELED_ASPECT` `trial_registration`: The article reports ClinicalTrials.gov registration NCT04359628 and International Registered Report Identifier DERR1-10.2196/27669, and ethics approvals (Regional Ethical Review Board Gothenburg 1185-18/2019-00812; Stockholm 2020-03090).
+- `UNMODELED_ASPECT` `comparison_structure`: The study plans an instrument comparison (EQ-5D-5L LSS vs EQ VAS), a between-group comparison of education levels, and a between-country comparison (Italy, Netherlands, UK), but the comparison_structure axis holds one value.
+- `UNCERTAIN_MAPPING` `origin`: The Methods state that the 2017 three-country web survey was administered with a citation to reference (30) (Voormolen et al., a prior publication of the same survey) and that "the present study was part of the CENTER-TBI study (EC grant 602150)", while informed consent is described as obtained "for the present survey".
+- `UNMAPPED_VALUE` `instrument_function`: The instruments are objects of an acceptability and feasibility assessment (self-reported difficulty and completion time), which is not reliability, validity, responsiveness, agreement, invariance or score-distribution performance as defined for MEASUREMENT_PROPERTY_TEST_OBJECT.
+- `UNMAPPED_VALUE` `research_purpose`: Aim 2 is to understand the acceptability and feasibility for children and caregivers of completing paediatric HRQoL instruments; no controlled purpose covers acceptability or feasibility evaluation of an instrument.
+- `NOT_REPORTED` `source_label`: The protocol states that instruments will be scored 'using published scoring algorithms or value sets' without naming the exact value sets or scoring algorithms to be applied.
+- `NOT_REPORTED` `conditions`: Only six of the nine disease groups (and their disease-specific instruments and screening questions) have been confirmed at the time of protocol publication.
+- `NOT_REPORTED` `source_label`: The paper reports statistical tests (Spearman, Pearson, Mann–Whitney U, Kruskal–Wallis H, Chi-square, Fisher exact) but names no statistical software.
+- `UNCERTAIN_MAPPING` `data_origin`: The paper states 'We accrued a prospective convenience sample ... with patient accrual described in greater detail in our earlier manuscript [22]', and the Introduction states 'Our team recently conducted a feasibility study of implementing the EQ-5D-3L questionnaire at a pilot oncology centre'; it is unclear whether these EQ-5D-3L responses are current-study collection or reuse of the earlier feasibility study's collection.
+- `UNMAPPED_VALUE` `outcome_family`: Caregiver perceived burden measured by the Zarit Burden Interview is a principal outcome, but no controlled outcome family covers caregiver burden; HEALTH_STATUS_OR_EQ_VAS was used as the closest fit.
+- `UNCERTAIN_MAPPING` `protocol_function`: COSMIN guidelines were used only to judge sample-size adequacy for each psychometric property, which is not clearly a governing study protocol, a quality control protocol, or a critical appraisal protocol.
+
+## Source conflicts
+
+- Interpretation of the unweighted kappa (0.64) for the individual pairwise comparison task
+- Reported Cronbach's alpha for QID-12
+- Reported p value for the Martin-Loef test of unidimensionality
+- Identity of the second interviewer/data collector
+- Direction of the overall ceiling-effect change from the EQ-5D-Y-3L to the EQ-5D-Y-5L for all participants (8–17 years)
+- Total analysed sample denominator in the ceiling/floor effect table
+- Presence of missing EQ-5D-Y-3L responses among adolescents
+- Proportion of Part 2 participants agreeing that Version 2 helped them understand how they compared to others after surgery
+- Analytic cohort sizes for THA and TKA
+- TKA PNB utilization model c-statistic and ICC
+- Performance of the secondary-outcome models (c-statistics and ICCs)
+- Proportion of healthy participants in the psychometric evaluation sample (n = 289)
+- p-value for the gender difference in the PedsQL™ 4.0 GCS child self-report total scale score
+- Direction of the study-design subgroup difference in pooled EQ-5D utility (cohort vs cross-sectional)
+- Direction of the EQ VAS scale (0–100) and the meaning of negative EQ VAS deltas
+- Number of face-to-face cTTO interviews completed in Belgium before the switch to videoconferencing
+- Directly reported mean T2 EQ-5D summary score
+- Adult comparator ages used in the PTO questions
+- Number of iterative follow-on PTO questions
+- Mode of FACIT-COST administration (interviewer-administered vs self-completed)
+- Identity of one health state in block 2
+- Whether the figure 3021 counts respondents or survey responses
+- Which regression model produced the average treatment effects reported in Table 4 after multinomial propensity score matching
+- Identity of one of the four valued EQ-5D-Y-3L health states
+- Reported proportions of respondents with negative and positive discounting for both perspectives
+- Reported standard deviations for baseline EQ-TIPS LSS and EQ VAS in the total sample
+- Sample size for the responsiveness analysis of improvement in general health
+- Label of one of the seven valued EQ-5D-5L health states
+- Proportion of female respondents in the sample
+- p-value for the overall better-than-dead mean cTTO difference
+- Whether perspective significantly influences cTTO utility values
+- Percentage of flagged interviews in the first quality control report (98 pre-retraining interviews)
+- Identity of the selected final model (TTO-only vs hybrid 8-parameter model)
+- Reported proportion of participants with a generalised anxiety disorder diagnosis
+- Gender distribution of the 30 interviewed participants
+- Number of service provider participants across the co-design workshops
+- Duration of the co-designed clinician training session
+- Ethics approval registration code for the UK MS Register
+- Number of manifest SCA patients included at baseline
+- Spearman correlation between EQ-5D-3L index and SARA at baseline
+- Reported percentage changes of the EQ-5D-3L index and clinical measures from baseline to 3-year follow-up
+- Item number for the third positive-item wording change tested in aim 3
+- Number of children with a special healthcare need used for the ceiling-effect denominator
+- Number of included studies evaluating the EQ-5D-5L
+- Number of records citing recommendation #2 'Involve suitable representatives from target groups'
+- Variables named in the planned sensitivity analyses
+- Relative magnitude of marginal effects at bolt-on level 5 versus level 3
+- Ordering of bolt-on impacts at severity level 3
+- Overall (all-levels) ranking of the sleep and energy bolt-ons in the main effect bolt-on model
+- Survey response counts at T1 and T2 relative to the stated follow-up procedure
+- Labelling of the EQ-VAS multivariate regression models in Tables 6 and 7 (recall bias versus response shift)
+- Mean EQ VAS value reported for male respondents
+- Characteristics used in purposive recruitment of the focus group sample
+- Number of interviews conducted
+- Number and percentage of negative values in the new EQ-5D-5L value set compared with the crosswalk set
+- Reported SRM range for responsiveness to improvements in self-perceived effects of heat
+- Number of SUD patients reporting extreme problems on the usual activities dimension
+- Which dimensions were most commonly impaired in SUD patients
+- Percentage of general population respondents reporting state 11111
+- Mean age of the 178 SUD patients
+- Number of respondents in the eye-tracking experiment
+- Number of respondents who attended mainly to the right-side health state
+- Which EQ-5D-5L dimension was most important in the preferred hybrid model
+- Number of QALY composition tasks in the design
+- Model 2 Tobit coefficient for refugees versus controls
+- Percentages of patients reporting willingness to answer future EQ-5D questionnaires
+- Prevalence of negative discounting (convex utility of life duration) in the sample
+- Denominator of the reported baseline EQ-5D-5L dimension distributions and mean index and VAS scores in each program
+- Number of respondents remaining after dropping one interviewer's data for value-set estimation
+- Proportion of participants living in rural areas
+- Definition of the SF-6Dv2 worst health state
+- Presence of ceiling and floor effects across the three measures
+- Who completed the sociodemographic information and where
+- Which table reports the adapted Olsen et al. preference-pattern criteria and how each value set scores on them
+- Reported percentage of participants preferring the 5L version per country
+- Number of publications identified by the search
+- Test–retest index-level ICC results across the nine reliability papers
+- Range of scale of the online RILR-modeled value set
+- Scale scalability coefficient Hs for the healthy, hearing problems, and Norway subgroups
+- Rest score range at which the anxiety/depression item response function crosses the mobility and usual activities item response functions
+- Number of included studies that used the EQ-5D-3L
+- Which of the six consequences from prior qualitative work was omitted from the health state consequences task
+- Proportion of participants who saw no ethical concern in asking children to complete valuation tasks
+- Data collection period of the analysed survey wave
+- Relative change in ceiling effect for the EQ-5D-5L + R2 (breathing problems) in the full sample
+- Correlation between FACIT-COST total score and EQ VAS
+- Proportion of patients currently undergoing chemotherapy
+- Denominator of the analysed sample described in Table 1 versus the text
+- Provenance of the 2024 survey data: current-study collection versus secondary analysis of a prior study
+- Age-group sample sizes of the analytical sample
+- Responsiveness result for the EQ VAS
+- Reference assignment for disease groups of included studies
+- Smallest reported included-study sample size
+- Citation for the Standards for Reporting Qualitative Research (SRQR)
+- Citation for the Zoom video conferencing platform
+- Citation for the six-phase thematic analysis process
+- Number of known-group comparisons in which the cognition bolt-on improved discrimination
+- Range of incremental adjusted R2 from adding the cognition bolt-on for PCS symptom severity across prevalent health conditions
+- Countries in which lower education level was significantly associated with poorer HRQoL (higher LSS) in the adjusted regression models
+- Proportion of respondents reporting 'coping' income status in the analytic sample
+- Instrument origin of the items loading on pooled factor 4 (cognition and senses)
+- Whether the EQ-HWB item ‘difficulty hearing’ loaded on a factor in the pooled analysis
+- Number of factors from the EFA of the EQ-HWB alone
+- Reported data-collection period of the survey
+- Number of participants in three-person households
+- Postpartum window defining the eligible 'recently pregnant' respondents
+- Number of a priori parent codes used to start coding in the thematic analysis
+- Reported range of missing values for the EQ-5D-5L
+- Number of studies reporting floor effects by dimension
+- Number of articles reporting test–retest reliability
+- Publication year of the Conner-Spady et al. study
+- Mean absolute reduction in floor effects by dimension
+- Direction of the difference in the proportion of severe health states between the EQ-5D-5L and the EQ-5D-3L value distributions
+- Utility values of the new Polish EQ-5D-5L value set for states 22222, 33333 and 44444
+- Proportion of EQ-5D-5L health states worse than dead in the new Polish value set
+- Number of respondents used in the description of geographical distribution
+- Size and composition of the sample of 1276 adults
+- Number of cTTO interviews
+- Significance level of mixed logit coefficients
+- Sex distribution of the cTTO sample
+- Size of the rehabilitation improved subsample based on the self-rated health anchor
+- Cross-reference for the per-interviewer number of pilot and actual interviews
+- Model used to generate the final value set coefficients
+- Proportion of negative cTTO values in the EQ-5D-Y-3L valuation
+- Number of composite time trade-off observations available for analysis
+- Number of regions from which the representative sample was recruited
+- Reported Tobit coefficient rows for usual-activities level 2 in Table 2
+- Baseline proportion of participants from the anxiety/depression sample used in the follow-up attrition comparison
+- Reported range of CHU9D known-group Cohen's d effect sizes across the 15 specific health conditions with sample size ≥ 30
+- Regional distribution of the cTTO sample
+- Total number of participating respondents
+- Health state carrying the highest mean observed cTTO value (0.955)
+- Proportion of parental carers of infected children who themselves had COVID-19
+- Identity of the updated Slovenian value set cited as an example of value set replacement
+- Number of qualitative and quantitative studies among the included evidence
+- Reported value for the worst health state 33333 in the final model
+- Proportion of respondents who were Punjabi and who spoke Urdu as primary language
+- Significance level attached to the third footnote marker for adolescent-adult coefficient differences in Germany (Table 3)
+- Regional range of agreement that the utility instrument used matters
+- Sample size of the original 2013 U.S. EQ-5D-Y-3L valuation study used as the comparator
+- Number of participants in the country-specific questionnaire analysis
+- Number of main effects across the wave 2 nested descriptive systems
+- Age boundary between interviewer-administered and self-complete administration of the youth instruments
+- Number of countries or studies in the final multilevel analysis
+- Demographic comparability of the Ciliwung group and the matched control group
+- Total mean pre-injury EQ-VAS scores at T1 and T2
+- Independent predictors of change in pre-injury EQ-5D profile in multivariable logistic regression
+- Test-retest agreement for the Worried, Sad or Unhappy dimension in the 4-year-old group and identification of the two least reliable dimensions in that group
+- Heteroskedasticity coefficients for task sequence and its square in the heteroskedastic conditional logit
+- Number of health states attributed to each US value set
+- Time periods compared for reporting change
+- Total number of HSUs used as denominator
+- EQ VAS population norms for men aged 25–34 (Table 3): reported mean and 95% confidence interval are mutually inconsistent
+- Mean (SD) change in VAS score for the physiotherapy program
+- Mean intake VAS score in the physiotherapy program
+- Standard deviation of the mean change in EQ-5D-5L index score in pulmonary rehabilitation
+- Reported percentage of content validity participants with a chronic condition
+- Number and proportion of patients with comorbidity
+- MDC values at individual and group level
+- Number of patients with ECOG performance status 3
+- Number of contributing surveys and the data collection period for the 2022–2023 population norms
+- Percentage of respondents reporting any problems on pain/discomfort and anxiety/depression in 2022–2023
+- Proportion of stakeholders supporting a higher willingness to pay per QALY for children
+- Availability of study datasets
+- Proportion of included papers published in the last 10 years
+- Number of papers reporting both self- and proxy-reported HRQoL
+- Reference identity of the cited scoping review protocol
+- Convergent validity correlations reported for the subgroups with and without a chronic health condition
+- Top admission diagnosis categories in Table 1
+- Mode of WHOQOL-BREF completion (interviewer-assisted vs self-administered paper-based)
+- Association of age with QOL and health status in the BC symptoms regression analysis
+- Sample and predictors of the multiple linear regression analysis
+- Significance of residence and education associations reported in text versus Table 4
+- Reported proportions of missing and inadequate EQ VAS responses
+- Size of the general population comparison data
+- Country in which low education remained associated with a worse EQ-5D-5L tLSS after multivariable adjustment
+- Number of Italian respondents reporting one chronic health condition
+- Number of respondents without any chronic health condition
+- Follow-up survey completion percentage among the 5945 initial survey completers
+- Date of Royal Children's Hospital Human Research Ethics Committee approval (HREC/71872/RCHM2021)
+- Group labels attached to the TANDI ceiling-effect counts (111111)
+- Citation for the reported EQ-5D-Y Proxy performance in this sample
+- Baseline characteristic percentages differ between the Results text and Table 1
+- Proportion of employed caregivers in the analytic sample
+- Reported percentage of respondents who decreased alcohol consumption
+- Proportion reporting heavy drinking at least once a week during the pandemic
+- Education level frequencies in Table 1
+- Proportion of caregivers reporting an unknown health condition for their child by care group
+
+## Registry review queue
+
+- `V2-P001` `InstrumentUse`: EQ-5D-5L
+- `V2-P001` `InstrumentUse`: EQ-5D-5L
+- `V2-P001` `InstrumentUse`: EQ-5D-5L
+- `V2-P001` `InstrumentUse`: EQ VAS
+- `V2-P001` `InstrumentUse`: EQ-5D-3L
+- `V2-P001` `ProductUse`: German EQ-5D-3L value set (TTO-based, Greiner et al. 2005)
+- `V2-P001` `ProductUse`: EQ-5D-5L crosswalk value set (van Hout et al. 2012)
+- `V2-P001` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P001` `MethodUse`: Discrete choice experiment (DCE) without duration
+- `V2-P001` `MethodUse`: DCE with duration attribute and death alternative (methodological add-on, six tasks)
+- `V2-P001` `MethodUse`: Computer-assisted personal interviews (CAPI)
+- `V2-P001` `MethodUse`: Quota-based sampling with respect to age, sex, educational level, and employment status
+- `V2-P001` `MethodUse`: EQ-VT experimental design (86 cTTO states in 10 blocks; 196 DCE pairs in 28 blocks)
+- `V2-P001` `MethodUse`: Quality control process with defined flagging criteria, interviewer training, and daily feedback
+- `V2-P001` `MethodUse`: Feedback module (respondent review of implied rank ordering of cTTO valuations)
+- `V2-P001` `MethodUse`: Descriptive analyses of sample characteristics and task responses
+- `V2-P001` `MethodUse`: Test for homoskedasticity in a Tobit regression (Cameron and Trivedi)
+- `V2-P001` `MethodUse`: Pearson product-moment correlation analysis of model predictions
+- `V2-P001` `MethodUse`: Kernel density plots comparing value sets
+- `V2-P001` `MethodUse`: Rescaling of DCE coefficients using the hybrid model rescaling parameter Theta
+- `V2-P001` `ProtocolUse`: EQ-5D-5L valuation protocol 2.0 (EQ-VT Version 2.0)
+- `V2-P001` `ProtocolUse`: EQ-5D-5L valuation protocol 2.0 (EQ-VT Version 2.0)
+- `V2-P001` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies (Ramos-Goñi et al.)
+- `V2-P001` `ModelUse`: Tobit model censored at −1 for cTTO data (Model 1)
+- `V2-P001` `ModelUse`: Conditional logit model for DCE data (Model 2)
+- `V2-P001` `ModelUse`: Hybrid model combining cTTO and DCE likelihoods (Model 3a)
+- `V2-P001` `ModelUse`: Hybrid model censored at −1 accommodating heteroskedasticity (Model 3b)
+- `V2-P001` `ModelUse`: Models re-estimated with excluded respondents (sensitivity analysis)
+- `V2-P002` `InstrumentUse`: EQ-5D-5L
+- `V2-P002` `InstrumentUse`: EQ-5D-5L
+- `V2-P002` `InstrumentUse`: EQ-5D-5L
+- `V2-P002` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P002` `MethodUse`: Generator-developed design
+- `V2-P002` `MethodUse`: Modified Fedorov algorithm
+- `V2-P002` `MethodUse`: Bayesian D-efficient design algorithm implemented in R by Oppe and van Hout based on Rose et al.
+- `V2-P002` `MethodUse`: Quota allocation by age, gender, and region
+- `V2-P002` `MethodUse`: Five-step approach to include and exclude ANA patterns (classes with membership probability below 5% excluded)
+- `V2-P002` `MethodUse`: Anchoring of MNL coefficients on the worst EQ-5D-5L state (55555)
+- `V2-P002` `MethodUse`: Relative attribute importance (RAI) score calculation
+- `V2-P002` `MethodUse`: External validity analysis of attendance classes (straightlining, completion times, feedback questions)
+- `V2-P002` `ModelUse`: Equality constrained latent class (ECLC) model
+- `V2-P002` `ModelUse`: Multinomial logit (MNL) model
+- `V2-P003` `InstrumentUse`: EQ-HWB-S (EQ Health and Wellbeing Short)
+- `V2-P003` `InstrumentUse`: EQ-HWB-S (EQ Health and Wellbeing Short)
+- `V2-P003` `InstrumentUse`: EQ-HWB
+- `V2-P003` `InstrumentUse`: adapted version of the EQ-VAS
+- `V2-P003` `MethodUse`: Online elicitation of Personal Utility Functions (OPUF) approach
+- `V2-P003` `MethodUse`: Online elicitation of Personal Utility Functions (OPUF) approach
+- `V2-P003` `MethodUse`: online panel recruitment via market research company Bilendi
+- `V2-P003` `MethodUse`: two-way mixed effects intraclass correlation coefficient (ICC)
+- `V2-P003` `MethodUse`: Spearman's rank correlation coefficient
+- `V2-P003` `MethodUse`: percentage agreement
+- `V2-P003` `MethodUse`: unweighted kappa statistic
+- `V2-P003` `MethodUse`: paired t-test
+- `V2-P003` `MethodUse`: two-sample Kolmogorov-Smirnov test
+- `V2-P003` `MethodUse`: Q-Q plot comparison of empirical distributions
+- `V2-P003` `MethodUse`: derivation of utility decrements (level rating × dimension weight, normalisation, multiplication by anchoring factor)
+- `V2-P003` `ModelUse`: additive model for deriving health state utility values
+- `V2-P003` `ModelUse`: linear regression, Model 1 (main effects of age, gender, sample group on cumulative difference in utility decrements)
+- `V2-P003` `ModelUse`: linear regression, Model 2 (with age × sample group interaction terms)
+- `V2-P004` `InstrumentUse`: Quality of Life Inventory - Disability (QI-Disability)
+- `V2-P004` `InstrumentUse`: Quality of Life Inventory - Disability (QI-Disability)
+- `V2-P004` `InstrumentUse`: Quality of Life Inventory - Disability (QI-Disability)
+- `V2-P004` `InstrumentUse`: QID-12
+- `V2-P004` `InstrumentUse`: EQ-5D-Y-5L (proxy report version)
+- `V2-P004` `MethodUse`: Genetic Algorithm (GA)
+- `V2-P004` `MethodUse`: Pearson correlation coefficient
+- `V2-P004` `MethodUse`: Cronbach's Alpha
+- `V2-P004` `MethodUse`: Rasch analysis (Infit and Outfit mean square statistics, person separation reliability, Person-Item map)
+- `V2-P004` `MethodUse`: Martin-Loef test
+- `V2-P004` `MethodUse`: Duplicate case checking across datasets
+- `V2-P004` `ModelUse`: partial credit model
+- `V2-P005` `InstrumentUse`: 25-item EQ-HWB proxy version 2 (English version for Australia)
+- `V2-P005` `InstrumentUse`: 25-item EQ-HWB proxy version 2 (English version for Australia)
+- `V2-P005` `InstrumentUse`: brief demographic questionnaire
+- `V2-P005` `InstrumentUse`: EQ-HWB-S (nine-item short version)
+- `V2-P005` `InstrumentUse`: EQ-5D-5L
+- `V2-P005` `MethodUse`: convenience sampling
+- `V2-P005` `MethodUse`: cognitive think-aloud interviews
+- `V2-P005` `MethodUse`: semi-structured interview questions following the topic guide developed for this study
+- `V2-P005` `MethodUse`: thematic analysis (deductive and inductive coding)
+- `V2-P005` `MethodUse`: data saturation assessment through discussions between the two interviewers after each interview
+- `V2-P005` `MethodUse`: multi-coder coding framework development with disagreement resolution by a third person
+- `V2-P006` `InstrumentUse`: EQ-5D-Y-3L (Swedish version)
+- `V2-P006` `InstrumentUse`: Self-rated health (SRH) single question ‘How is your overall health?’
+- `V2-P006` `InstrumentUse`: Multiple-choice question on father’s and mother’s occupational status
+- `V2-P006` `InstrumentUse`: Multiple-choice question on self-reported disease
+- `V2-P006` `InstrumentUse`: Multiple-choice question on self-reported functional impairment
+- `V2-P006` `InstrumentUse`: Two mental distress questions on felt stressed and felt depressed during the past 3 months
+- `V2-P006` `InstrumentUse`: Self-reported height and weight (body mass index)
+- `V2-P006` `MethodUse`: Total survey of all adolescents in grade seven, grade nine and second year of upper secondary school
+- `V2-P006` `MethodUse`: Self-administered paper and pencil survey
+- `V2-P006` `MethodUse`: Chi-square test
+- `V2-P006` `MethodUse`: Fisher’s Exact test
+- `V2-P006` `MethodUse`: Mann–Whitney U test
+- `V2-P006` `MethodUse`: Complete case analysis
+- `V2-P006` `MethodUse`: Extended international (IOTF) body mass index cut-offs
+- `V2-P006` `ModelUse`: Multiple logistic regression analysis
+- `V2-P006` `ModelUse`: Multiple linear regression
+- `V2-P007` `InstrumentUse`: EQ-5D-3L
+- `V2-P007` `InstrumentUse`: EQ-5D-5L
+- `V2-P007` `InstrumentUse`: EQ-VAS (EuroQol-Visual Analog Scale)
+- `V2-P007` `InstrumentUse`: SF-6D (Short Form-6 Dimensions)
+- `V2-P007` `InstrumentUse`: HUI2
+- `V2-P007` `InstrumentUse`: HUI3
+- `V2-P007` `InstrumentUse`: QWB (Quality of Well-Being)
+- `V2-P007` `InstrumentUse`: 15D (15-Dimensional)
+- `V2-P007` `InstrumentUse`: AQOL (Assessment of Quality of Life)
+- `V2-P007` `ProtocolUse`: COnsensus-based Standards for the selection of health Measurement Instruments (COSMIN) guideline for systematic reviews of outcome measurement instruments
+- `V2-P007` `ProtocolUse`: 'Risk of Bias' assessment tool
+- `V2-P007` `ProtocolUse`: COSMIN Grading of Recommendation Assessment, Development, and Evaluation (GRADE)
+- `V2-P007` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
+- `V2-P007` `MethodUse`: Literature search of MEDLINE (OvidSP), EMBASE (OvidSP), PsycINFO (OvidSP) and PubMed up to August 2019
+- `V2-P007` `MethodUse`: Search filter developed by Terwee et al. for identification of reports on measurement properties
+- `V2-P007` `MethodUse`: Review-team formulated hypotheses for known-groups and convergent validity rating
+- `V2-P007` `MethodUse`: Intraclass correlation coefficient (ICC) threshold of 0.70 for rating test-retest reliability results
+- `V2-P007` `MethodUse`: Standardized effect size (SES) threshold of 0.20 for rating responsiveness results
+- `V2-P007` `MethodUse`: International Classification of Diseases, 11th Revision (ICD-11)
+- `V2-P007` `MethodUse`: Independent work of two review team members through all review phases with discrepancies resolved by consensus meetings
+- `V2-P007` `MethodUse`: COSMIN disaggregation of included papers into individual studies (each hypothesis tested, ICC value, or SES value treated as one study)
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-3L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-5L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-3L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-5L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-5L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-3L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ-5D-Y-5L Chichewa version
+- `V2-P008` `InstrumentUse`: EQ VAS
+- `V2-P008` `InstrumentUse`: PedsQL™ 4.0 Generic Core Scales child self-report (8–12 years), Chichewa version
+- `V2-P008` `InstrumentUse`: PedsQL™ 4.0 Generic Core Scales teen self-report (13–18 years), Chichewa version
+- `V2-P008` `InstrumentUse`: Self-rated general health rating (How would you rate your health today? Excellent, very good, good, fair, or poor)
+- `V2-P008` `ScoringUse`: 2005 US EQ-5D-3L value set (Shaw et al., MVH protocol; n = 4048; range −0.109, 1)
+- `V2-P008` `ScoringUse`: 2019 US EQ-5D-5L value set (Pickard et al., composite time trade-off; n = 1134; range −0.573, 1)
+- `V2-P008` `MethodUse`: Convenience sampling of healthy (school) and sick (out-patient) children and adolescents
+- `V2-P008` `MethodUse`: Level sum score (summing responses across the five dimensions)
+- `V2-P008` `MethodUse`: Shannon Index (H′)
+- `V2-P008` `MethodUse`: Shannon Evenness Index (J′)
+- `V2-P008` `MethodUse`: Pearson correlation
+- `V2-P008` `MethodUse`: t-test
+- `V2-P008` `MethodUse`: One-way ANOVA
+- `V2-P008` `MethodUse`: Effect size interpreted according to Cohen's criterion
+- `V2-P008` `MethodUse`: Relative efficiency (RE) statistic
+- `V2-P008` `MethodUse`: Assessment of paired dimension response inconsistency (redistribution properties) using previously established criteria
+- `V2-P008` `MethodUse`: Absolute and relative reduction in ceiling and floor effects
+- `V2-P008` `MethodUse`: Forward and backward translation, and cognitive debriefing (cross-cultural adaptation into Chichewa reported elsewhere)
+- `V2-P009` `InstrumentUse`: socioeconomic questionnaire (adapted for inclusion in this study)
+- `V2-P009` `InstrumentUse`: NESTT medical and ophthalmic questionnaires (eye care service utilisation, medications, laser, surgery, spectacle purchase, sick leave, informal care)
+- `V2-P009` `InstrumentUse`: additional low vision questionnaire (low vision assessment and low vision aid ownership)
+- `V2-P009` `InstrumentUse`: eye care provider questionnaires (public and private sector tariffs for outpatient, inpatient and emergency eye services and treatments)
+- `V2-P009` `MethodUse`: multi-stage, random cluster sampling with probability-proportional-to-size methods
+- `V2-P009` `MethodUse`: standardised measurement protocol for uniocular presenting distance and binocular presenting near visual acuity
+- `V2-P009` `MethodUse`: survey-weighted analysis with post-stratification adjustment and finite population corrections (STATA 'svy' command suite)
+- `V2-P009` `MethodUse`: bottom-up, prevalence-based cost-of-illness estimation from a societal perspective
+- `V2-P009` `MethodUse`: human capital approach (employment gap x median annual income x employment rate)
+- `V2-P009` `MethodUse`: opportunity cost method for valuing informal care
+- `V2-P009` `MethodUse`: WHO/IHME Global Burden of Disease approach to prevalent years lived with disability (DALY estimation, YLL set to zero, no discounting or age weighting)
+- `V2-P009` `MethodUse`: one-way deterministic sensitivity analysis (parameters varied within 95% confidence interval or by +/-50%)
+- `V2-P009` `MethodUse`: World Bank GDP deflator inflation adjustment and conversion at the World Bank Official Exchange Rate (TT$1 = UK£0.0952)
+- `V2-P009` `MethodUse`: outpatient transport cost ascertainment from 450 outpatients attending eye clinics in the five regional hospital ophthalmology departments
+- `V2-P009` `ProtocolUse`: Cost of Vision Loss Consensus Guidelines (2010) (Frick et al.)
+- `V2-P009` `ModelUse`: multi-level mixed effects logistic regression models (STATA 'melogit'), adjusted for age, sex and study design
+- `V2-P009` `ProductUse`: Global Burden of Disease Study (2013) disability weights (Salomon et al.)
+- `V2-P009` `ProductUse`: original Global Burden of Disease Study disability weights (Murray 1994)
+- `V2-P010` `InstrumentUse`: EQ-5D-5L
+- `V2-P010` `InstrumentUse`: EQ-5D-5L
+- `V2-P010` `InstrumentUse`: Researcher-administered checklist (comprehension 9 items, usefulness 5 items, visual appeal 4 items)
+- `V2-P010` `MethodUse`: Data visualization recommendations and techniques for PROMs data
+- `V2-P010` `MethodUse`: Sankey Diagram
+- `V2-P010` `MethodUse`: Descriptive statistics (mean and standard deviation, frequencies and percentages)
+- `V2-P010` `MethodUse`: Wilcoxon signed rank test with continuity correction
+- `V2-P010` `MethodUse`: McNemar's Chi-squared test with continuity correction
+- `V2-P010` `MethodUse`: Directed content analysis
+- `V2-P010` `MethodUse`: Recruitment until a diverse sample by age, sex, and ethnic background was obtained
+- `V2-P010` `MethodUse`: Piloting of data collection process and checklist (internal mock administration and in-clinic pilot with consensus-based improvements)
+- `V2-P010` `ProtocolUse`: International Patient Decision Aid Standards
+- `V2-P010` `ProductUse`: Online individualized patient decision aid for total knee arthroplasty (ABJHI)
+- `V2-P011` `InstrumentUse`: Deyo-Charlson comorbidity index
+- `V2-P011` `InstrumentUse`: Social Deprivation Index (SDI)
+- `V2-P011` `InstrumentUse`: CMS-defined complication measure for hip and knee arthroplasty
+- `V2-P011` `MethodUse`: population-attributable risk (PAR) framework (confounder-adjusted univariable and sequential PARs)
+- `V2-P011` `MethodUse`: χ2 test
+- `V2-P011` `MethodUse`: Spearman rank correlation indices (multicollinearity assessment)
+- `V2-P011` `MethodUse`: complete case analysis
+- `V2-P011` `ProtocolUse`: Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) guidelines
+- `V2-P011` `ModelUse`: mixed-effects logistic regression model with random intercept for the hospital (PNB utilization)
+- `V2-P011` `ModelUse`: mixed-effects logistic regression models of PNBs on secondary outcomes
+- `V2-P011` `ModelUse`: logistic regression null models with and without a random intercept for the hospital
+- `V2-P011` `ModelUse`: 3-level model with random intercept for state-county ID (and for patient)
+- `V2-P012` `InstrumentUse`: PedsQL™ 4.0 Generic Core Scales child self-report, English (USA) version
+- `V2-P012` `InstrumentUse`: PedsQL™ 4.0 Generic Core Scales teen self-report, English (USA) version
+- `V2-P012` `InstrumentUse`: Chichewa (Malawi) PedsQL™ 4.0 GCS child self-report
+- `V2-P012` `InstrumentUse`: Chichewa (Malawi) PedsQL™ 4.0 GCS teen self-report
+- `V2-P012` `InstrumentUse`: Chichewa (Malawi) PedsQL™ 4.0 GCS child self-report
+- `V2-P012` `InstrumentUse`: Chichewa (Malawi) PedsQL™ 4.0 GCS teen self-report
+- `V2-P012` `InstrumentUse`: Chichewa (Malawi) PedsQL™ 4.0 GCS child self-report
+- `V2-P012` `InstrumentUse`: Chichewa (Malawi) PedsQL™ 4.0 GCS teen self-report
+- `V2-P012` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P012` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P012` `MethodUse`: Forward and backward translation by two independent translator pairs with consensus resolution
+- `V2-P012` `MethodUse`: Cognitive interviews
+- `V2-P012` `MethodUse`: Convenience sampling
+- `V2-P012` `MethodUse`: Item analysis (missing data, maximum endorsement frequency, aggregate adjacent endorsement frequency, item redundancy)
+- `V2-P012` `MethodUse`: Cronbach's alpha
+- `V2-P012` `MethodUse`: t-test
+- `V2-P012` `MethodUse`: ANOVA
+- `V2-P012` `MethodUse`: Cohen's criterion for effect sizes
+- `V2-P012` `MethodUse`: Multitrait-multimethod (MTMM) approach developed by Campbell and Fiske but modified by Henseler et al.
+- `V2-P012` `MethodUse`: PedsQL™ 4.0 GCS scoring: mean imputation for ≥50% complete items, item reversal and linear transformation to 0–100
+- `V2-P012` `ProtocolUse`: Standard PedsQL™ 4.0 GCS translation protocol (forward and backward) provided by the Mapi Research Trust
+- `V2-P012` `ProtocolUse`: Cognitive interview protocols provided by the Mapi Research Trust
+- `V2-P013` `InstrumentUse`: proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)
+- `V2-P013` `InstrumentUse`: proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)
+- `V2-P013` `InstrumentUse`: three positively-worded items from the longer EQ-HWB version (feeling accepted by others, feeling good about themselves, doing the things they wanted to do)
+- `V2-P013` `MethodUse`: Convenience sampling
+- `V2-P013` `MethodUse`: Semi-structured cognitive interviews with think-aloud and probing, following a topic guide
+- `V2-P013` `MethodUse`: Questions on prior experience of proxy reporting and caring role
+- `V2-P013` `MethodUse`: Integrated thematic analysis with inductive line-by-line coding and deductive coding guided by the EQ-HWB-9 items
+- `V2-P013` `MethodUse`: Independent double coding of the first five transcripts and iterative refinement of the coding framework
+- `V2-P013` `MethodUse`: Saturation grid and 'information power' recruitment stopping approach
+- `V2-P013` `ProtocolUse`: COnsolidated criteria for REporting Qualitative research (CORE-Q)
+- `V2-P014` `InstrumentUse`: EQ-5D-5 L
+- `V2-P014` `InstrumentUse`: EQ-5D-3 L
+- `V2-P014` `InstrumentUse`: EQ-5D Visual Analogue Scale (EQ-VAS)
+- `V2-P014` `MethodUse`: Systematic search of PubMed, Embase, Web of Science, Scopus and Cochrane Library
+- `V2-P014` `MethodUse`: Hand-searching of reference lists of included studies and relevant reviews
+- `V2-P014` `MethodUse`: Independent screening by two reviewers with third-author consensus (title/abstract and full-text)
+- `V2-P014` `MethodUse`: Data extraction form completed by two independent researchers
+- `V2-P014` `MethodUse`: I2 statistics for heterogeneity
+- `V2-P014` `MethodUse`: Egger's regression test for publication bias
+- `V2-P014` `MethodUse`: Leave-one-out sensitivity analysis
+- `V2-P014` `MethodUse`: Subgroup analyses by age group, study design, timing of measurement, geographical region, income status and EQ-5D version
+- `V2-P014` `MethodUse`: Estimation of means and standard deviations from reported medians with interquartile ranges or ranges
+- `V2-P014` `MethodUse`: Qualitative narration and grouping of reported predictors of poor HRQoL
+- `V2-P014` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines
+- `V2-P014` `ProtocolUse`: Newcastle-Ottawa scale (NOS) for cohort and case-control studies
+- `V2-P014` `ProtocolUse`: Adapted NOS tool for cross-sectional studies
+- `V2-P014` `ModelUse`: Random effect model meta-analysis (DerSimonian–Laird method)
+- `V2-P015` `InstrumentUse`: EuroQoL 5-Dimension 5-Level questionnaire (EQ-5D-5L)
+- `V2-P015` `InstrumentUse`: Dutch EQ-5D-5L (5-level version)
+- `V2-P015` `InstrumentUse`: EQ visual analog scale (EQ VAS)
+- `V2-P015` `InstrumentUse`: European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Core-30 (EORTC QLQ-C30) version 3.0
+- `V2-P015` `InstrumentUse`: European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Core-30 (EORTC QLQ-C30) version 3.0
+- `V2-P015` `InstrumentUse`: BREAST-Q
+- `V2-P015` `InstrumentUse`: EORTC QLQ-BR23
+- `V2-P015` `ScoringUse`: Dutch value set of the EQ-5D-5L
+- `V2-P015` `MethodUse`: Kolmogorov–Smirnov test
+- `V2-P015` `MethodUse`: Shapiro–Wilk test
+- `V2-P015` `MethodUse`: parametric paired t-test
+- `V2-P015` `MethodUse`: non-parametric Wilcoxon signed-rank test
+- `V2-P015` `MethodUse`: effect size (ES)
+- `V2-P015` `MethodUse`: standardized response mean (SRM)
+- `V2-P015` `MethodUse`: comparison of mean deltas with the minimal clinically important difference (MCID)
+- `V2-P015` `MethodUse`: linear transformation and summary-score calculation of the EORTC QLQ-C30 scales
+- `V2-P016` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P016` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P016` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P016` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P016` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P016` `MethodUse`: standard feedback module (FBM)
+- `V2-P016` `MethodUse`: quota sampling and recruitment via market research agencies
+- `V2-P016` `MethodUse`: Z-test for proportions
+- `V2-P016` `MethodUse`: unequal variance unpaired t-test
+- `V2-P016` `MethodUse`: Bonferroni correction
+- `V2-P016` `MethodUse`: strict and weak inconsistency criteria for cTTO face validity
+- `V2-P016` `MethodUse`: interviewer and respondent engagement metrics (task duration, number of moves, specific responses, half-year units, negative values)
+- `V2-P016` `ProtocolUse`: international EQ-5D-Y-3L valuation protocol
+- `V2-P016` `ProtocolUse`: standard quality control procedure of the EuroQol Group
+- `V2-P017` `InstrumentUse`: EQ-5D-3L
+- `V2-P017` `InstrumentUse`: EQ-5D-3L
+- `V2-P017` `InstrumentUse`: EQ-5D-3L
+- `V2-P017` `InstrumentUse`: Visual Analogue Scale (EQ-VAS)
+- `V2-P017` `InstrumentUse`: Visual Analogue Scale (EQ-VAS)
+- `V2-P017` `InstrumentUse`: Abbreviated Injury Scale (AIS)
+- `V2-P017` `InstrumentUse`: Injury Severity Score (ISS)
+- `V2-P017` `ScoringUse`: Dutch value set
+- `V2-P017` `MethodUse`: Postal surveys at 1 week (T1), 3 months (T2), and 12 months (T3) post-trauma
+- `V2-P017` `MethodUse`: Retrospective (recall) assessment of previously reported EQ-5D-3L and EQ-VAS
+- `V2-P017` `MethodUse`: Non-response analysis
+- `V2-P017` `MethodUse`: Chi-square test
+- `V2-P017` `MethodUse`: Mann–Whitney U test
+- `V2-P017` `MethodUse`: Paired t test
+- `V2-P017` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P017` `MethodUse`: Bland–Altman plots
+- `V2-P018` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P018` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P018` `InstrumentUse`: EQ VAS
+- `V2-P018` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P018` `InstrumentUse`: EQ-5D-5L
+- `V2-P018` `InstrumentUse`: PedsQL
+- `V2-P018` `MethodUse`: Individual semi-structured interviews
+- `V2-P018` `MethodUse`: Qualitative framework analysis (seven stages)
+- `V2-P018` `MethodUse`: Purposive sampling
+- `V2-P018` `MethodUse`: Snowball sampling
+- `V2-P018` `MethodUse`: Independent double coding in rounds by two coders
+- `V2-P018` `MethodUse`: Assessment of data and thematic saturation
+- `V2-P018` `MethodUse`: Mapping of themes to the Theoretical Framework of Acceptability (TFA)
+- `V2-P018` `MethodUse`: Brief online demographic survey
+- `V2-P018` `ProtocolUse`: Consolidated Criteria for Reporting Qualitative Research (COREQ)
+- `V2-P018` `ProtocolUse`: Co-design framework for public service design (seven steps)
+- `V2-P019` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P019` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P019` `MethodUse`: discrete choice experiment (DCE) with kaizen tasks
+- `V2-P019` `MethodUse`: paired comparisons
+- `V2-P019` `MethodUse`: cluster bootstrap technique (with replacement) and the percentile method
+- `V2-P019` `MethodUse`: experience scale (value of gains anchored at no experience, i.e., being in a coma)
+- `V2-P019` `ProtocolUse`: Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale (BMJ Open 2023)
+- `V2-P019` `ModelUse`: conditional logit model
+- `V2-P020` `InstrumentUse`: Attitudinal questions drawing upon Nord (1995), Richardson (2017) and Rowen (2016)
+- `V2-P020` `MethodUse`: Person Trade Off (PTO) choice experiment
+- `V2-P020` `MethodUse`: Bisection approach to reaching equivalence
+- `V2-P020` `MethodUse`: Quota sampling (age-gender, education and state/territory quotas)
+- `V2-P020` `MethodUse`: Purposive targeting of parents, non-parents, young people and parents of children with a health problem
+- `V2-P020` `MethodUse`: Chaining test of cardinal transitivity (ratio consistency)
+- `V2-P020` `MethodUse`: Ratio of means (ROM)
+- `V2-P020` `MethodUse`: Median of individual ratios (MOIR)
+- `V2-P020` `MethodUse`: Bootstrapping (1000 replications with replacement, percentile confidence interval)
+- `V2-P020` `MethodUse`: T-tests
+- `V2-P020` `MethodUse`: Wilcoxon's U-test
+- `V2-P020` `MethodUse`: Kruskal-Wallis H tests
+- `V2-P020` `MethodUse`: Randomisation of PTO question order and of screen position (younger age left or right)
+- `V2-P020` `MethodUse`: Pre-set quality criteria for inclusion (speeding check, attention check question, age consistency check, honeypot question)
+- `V2-P020` `MethodUse`: Soft launch of the online data collection
+- `V2-P020` `MethodUse`: One-to-one 'think aloud' semi-structured interviews (extended cognitive debrief)
+- `V2-P020` `MethodUse`: Focus groups with deliberation
+- `V2-P020` `MethodUse`: Thematic analysis drawing upon the steps outlined within framework analysis (Gale et al. 2013)
+- `V2-P020` `MethodUse`: Saturation assessment approach of Guest et al (2020)
+- `V2-P020` `MethodUse`: Pilot testing with respondent discussion and structured feedback prompts
+- `V2-P020` `ProtocolUse`: Interview protocol and risk management strategy (S3 File)
+- `V2-P020` `ModelUse`: Multinomial logistic regression
+- `V2-P020` `ModelUse`: Random effects multinomial logistic models
+- `V2-P020` `ModelUse`: Logit regression
+- `V2-P021` `InstrumentUse`: EQ-5D-5L
+- `V2-P021` `InstrumentUse`: Veterans RAND 12-Item Health Survey (VR-12)
+- `V2-P021` `InstrumentUse`: Veterans RAND 12-Item Health Survey (VR-12)
+- `V2-P021` `InstrumentUse`: EQ-5D-5L
+- `V2-P021` `InstrumentUse`: Elixhauser Comorbidity Index
+- `V2-P021` `InstrumentUse`: Acute Inpatient Survey
+- `V2-P021` `InstrumentUse`: Care Transitions Measure (CTM-3) embedded in HCAHPS
+- `V2-P021` `MethodUse`: Data linkage of survey and administrative databases (Population Data BC)
+- `V2-P021` `MethodUse`: Biweekly random selection of patients from hospital discharge lists with mailed survey invitation
+- `V2-P021` `MethodUse`: Multiple imputation with chained equations (MICE)
+- `V2-P021` `MethodUse`: Last observation carried forward
+- `V2-P021` `MethodUse`: 5-fold cross-validation
+- `V2-P021` `MethodUse`: Bootstrap resampling (1000 replications)
+- `V2-P021` `MethodUse`: Rubin's rules
+- `V2-P021` `MethodUse`: Schoenfeld residuals test of the proportional hazards assumption
+- `V2-P021` `MethodUse`: Log-minus-log survival plots
+- `V2-P021` `MethodUse`: Wald chi-squared variable importance (percentage of total model chi-squared)
+- `V2-P021` `MethodUse`: Absolute standardized mean differences (SMD)
+- `V2-P021` `MethodUse`: Canadian Institute for Health Information (CIHI) definition of Ambulatory Care Sensitive Conditions
+- `V2-P021` `ProtocolUse`: Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (TRIPOD) guidelines
+- `V2-P021` `ModelUse`: Cox Landmark Supermodel
+- `V2-P021` `ModelUse`: Base model (administrative-data predictors only)
+- `V2-P021` `ModelUse`: EQ-5D-5L-enhanced model
+- `V2-P021` `ModelUse`: VR-12-enhanced model
+- `V2-P021` `ModelUse`: Cox model with time-dependent PROM covariates
+- `V2-P021` `ModelUse`: Logistic regression for unplanned readmission or death within 30 and 180 days of PROM completion
+- `V2-P021` `ModelUse`: LACE index
+- `V2-P022` `InstrumentUse`: Official Indonesian version of FACIT-COST (v2)
+- `V2-P022` `InstrumentUse`: EQ-5D-5L
+- `V2-P022` `InstrumentUse`: EQ Health and Wellbeing (EQ-HWB)
+- `V2-P022` `InstrumentUse`: Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)
+- `V2-P022` `InstrumentUse`: Functional Assessment of Cancer Therapy – General (FACT-G)
+- `V2-P022` `MethodUse`: Recruitment in clinic waiting area with soft quotas for cancer stage and treatment cycle
+- `V2-P022` `MethodUse`: Structured paper patient questionnaire administration
+- `V2-P022` `MethodUse`: Oncology nurses' self-completed clinical information questionnaire
+- `V2-P022` `MethodUse`: Pilot test of feasibility and comprehensibility of the questionnaire
+- `V2-P022` `MethodUse`: FACIT-COST total score computation (sum of items 1–11 with items 2, 3, 4, 5, 8, 9, 10 reverse scored)
+- `V2-P022` `MethodUse`: Principal component analysis (PCA)
+- `V2-P022` `MethodUse`: Parallel analysis technique
+- `V2-P022` `MethodUse`: Kaiser-Meyer-Olkin (KMO) test
+- `V2-P022` `MethodUse`: Bartlett's test of sphericity
+- `V2-P022` `MethodUse`: Oblique Promax rotation
+- `V2-P022` `MethodUse`: Confirmatory factor analysis (CFA)
+- `V2-P022` `MethodUse`: Diagonally weighted least squares estimation
+- `V2-P022` `MethodUse`: 1000 bootstrap resampling for 95% confidence intervals around goodness-of-fit values
+- `V2-P022` `MethodUse`: Cronbach's alpha
+- `V2-P022` `MethodUse`: McDonald's omega
+- `V2-P022` `MethodUse`: Mann-Whitney U test
+- `V2-P022` `MethodUse`: Kruskal-Wallis H test
+- `V2-P022` `MethodUse`: Chi-square test
+- `V2-P022` `MethodUse`: Spearman's rank correlation
+- `V2-P022` `MethodUse`: Anchor-based classification of change in SFT status using FACIT-COST item FT12
+- `V2-P022` `MethodUse`: Gwet's AC2 coefficient
+- `V2-P022` `MethodUse`: Intraclass correlation coefficient
+- `V2-P022` `MethodUse`: Standardized response mean (SRM)
+- `V2-P022` `MethodUse`: Standardized effect size (SES)
+- `V2-P022` `ModelUse`: Two-factor CFA measurement model of FACIT-COST
+- `V2-P022` `ModelUse`: One-factor model
+- `V2-P022` `ModelUse`: Bifactor model
+- `V2-P023` `InstrumentUse`: EQ-5D-5L
+- `V2-P023` `InstrumentUse`: EQ-5D-3L
+- `V2-P023` `InstrumentUse`: SF-6D
+- `V2-P023` `InstrumentUse`: HUI
+- `V2-P023` `ProductUse`: EQ-5D-3L value set based on the Measurement and Valuation of Health (MVH) study
+- `V2-P023` `ProductUse`: EQ-5D-5L value sets (Value Sets for EQ-5D-5L: A Compendium, Comparative Review & User Guide)
+- `V2-P024` `InstrumentUse`: EQ-HWB-S (EQ Health and Wellbeing Short version)
+- `V2-P024` `InstrumentUse`: EQ-HWB-S (EQ Health and Wellbeing Short version)
+- `V2-P024` `InstrumentUse`: adapted version of the EQ VAS
+- `V2-P024` `InstrumentUse`: EQ-HWB-S (EQ Health and Wellbeing Short version)
+- `V2-P024` `MethodUse`: Online elicitation of Personal Utility Functions (OPUF)
+- `V2-P024` `MethodUse`: Online elicitation of Personal Utility Functions (OPUF)
+- `V2-P024` `MethodUse`: Cognitive debrief interviews
+- `V2-P024` `MethodUse`: think-aloud
+- `V2-P024` `MethodUse`: probing questions
+- `V2-P024` `MethodUse`: Framework approach
+- `V2-P024` `MethodUse`: independent dual coding and collaborative review of coding
+- `V2-P024` `MethodUse`: recruitment via Prolific with gender balance and age-category quotas
+- `V2-P024` `MethodUse`: swing-weighting (Multi-Criteria Decision Analysis)
+- `V2-P024` `ProtocolUse`: COREQ checklist
+- `V2-P024` `ProtocolUse`: topic guide (S2)
+- `V2-P025` `MethodUse`: modified two-round Delphi panel approach
+- `V2-P025` `MethodUse`: email survey
+- `V2-P025` `MethodUse`: review to identify any published reporting guidelines related to MAUI valuation studies
+- `V2-P025` `MethodUse`: systematic literature review of EQ-5D valuation studies [15]
+- `V2-P025` `MethodUse`: majority rule (item indicated as 'required' by more than 50 % of participants)
+- `V2-P025` `ProtocolUse`: international reporting guideline development framework [16]
+- `V2-P025` `ProductUse`: the original version of CREATE [15] (methodological reporting checklist for EQ-5D valuation studies)
+- `V2-P025` `InstrumentUse`: EQ-5D
+- `V2-P026` `InstrumentUse`: EQ-5D-5L
+- `V2-P026` `InstrumentUse`: EQ-5D-5L
+- `V2-P026` `InstrumentUse`: EQ-5D-5L descriptive system (self-reported own health)
+- `V2-P026` `InstrumentUse`: visual analogue scale (VAS)
+- `V2-P026` `InstrumentUse`: validated country-specific questionnaire pertaining to participants' views about health, life, and death
+- `V2-P026` `MethodUse`: composite time trade-off (cTTO), including conventional TTO and lead-time TTO
+- `V2-P026` `MethodUse`: discrete-choice experiments (DCEs)
+- `V2-P026` `MethodUse`: multi-stratified quota sampling based on age, sex, and geographical distribution
+- `V2-P026` `MethodUse`: feedback module
+- `V2-P026` `MethodUse`: rescaling of DCE coefficients using the rescaling parameter of the TTO model estimations
+- `V2-P026` `MethodUse`: model performance evaluation using logical consistency, significance, value range, AIC/BIC, RMSE and MAE
+- `V2-P026` `MethodUse`: sensitivity analysis by re-inclusion of the participants' flagged health states
+- `V2-P026` `MethodUse`: cultural adaptation of the standard valuation protocol (migraine practice example, graphics and coloured cards for illiterate participants)
+- `V2-P026` `ProtocolUse`: EQ-VT (international EuroQol standardized valuation protocol, version 2.1)
+- `V2-P026` `ProtocolUse`: CREATE checklist for reporting valuation studies of multi-attribute utility-based instruments
+- `V2-P026` `ProtocolUse`: EuroQol quality control (QC) tool for EQ-5D-5L valuation studies
+- `V2-P026` `ModelUse`: Model 1: GLS (random-effect model) for cTTO data
+- `V2-P026` `ModelUse`: Model 2: GLS Tobit (random effect, censored at − 1)
+- `V2-P026` `ModelUse`: Model 3: Heteroskedastic Tobit (random effect, censored at − 1 with heteroskedasticity)
+- `V2-P026` `ModelUse`: Model 4: Heteroskedastic model (heteroskedasticity of the error term)
+- `V2-P026` `ModelUse`: Model 5: Conditional logit model for DCE data
+- `V2-P026` `ModelUse`: Model 6: Hybrid (random-effect, conditional logit model)
+- `V2-P026` `ModelUse`: Model 7: Hybrid Tobit (random-effect, censored at -1, conditional logit model)
+- `V2-P026` `ModelUse`: Model 8: Hybrid heteroskedastic Tobit (random-effect, censored at -1 with heteroskedasticity, conditional logit model)
+- `V2-P026` `ModelUse`: Model 9: Hybrid heteroskedastic model (heteroskedasticity, conditional logit model)
+- `V2-P028` `InstrumentUse`: EuroQoL 5-Dimension 5-Level (EQ-5D-5L)
+- `V2-P028` `InstrumentUse`: EuroQoL visual analogue scale (EQ-VAS)
+- `V2-P028` `InstrumentUse`: EuroQoL 5-Dimension 5-Level (EQ-5D-5L)
+- `V2-P028` `InstrumentUse`: EuroQoL visual analogue scale (EQ-VAS)
+- `V2-P028` `MethodUse`: Purposive sampling
+- `V2-P028` `MethodUse`: Face-to-face, in-depth interviews with a semi-structured interview guide
+- `V2-P028` `MethodUse`: Directive content analysis
+- `V2-P028` `MethodUse`: Four criteria proposed by Guba and Lincoln (truth value, applicability, neutrality, consistency)
+- `V2-P028` `ProtocolUse`: Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist
+- `V2-P029` `InstrumentUse`: EQ-5D-3L
+- `V2-P029` `InstrumentUse`: EQ-5D-3L
+- `V2-P029` `InstrumentUse`: EQ-5D-3L
+- `V2-P029` `InstrumentUse`: EQ-5D-3L
+- `V2-P029` `InstrumentUse`: EQ VAS
+- `V2-P029` `InstrumentUse`: EQ VAS
+- `V2-P029` `InstrumentUse`: EQ-5D-5L
+- `V2-P029` `ScoringUse`: Swedish experience-based EQ-5D-3L VAS value set
+- `V2-P029` `MethodUse`: Spearman's rank correlation
+- `V2-P029` `MethodUse`: Descriptive analyses of frequencies, proportions, means and standard deviations
+- `V2-P029` `ModelUse`: Ordinary least squares (OLS) regression models
+- `V2-P029` `ModelUse`: Multilevel models (two-level random slope and random intercept models)
+- `V2-P029` `ModelUse`: OLS regression models adjusted for sex and age groups
+- `V2-P029` `ProtocolUse`: Study protocol for a longitudinal study in the Swedish national quality registers (Teni et al., JMIR Res Protoc 2021)
+- `V2-P030` `InstrumentUse`: Preparation for Decision Making Scale (PDMS)
+- `V2-P030` `InstrumentUse`: System Usability Scale (SUS)
+- `V2-P030` `InstrumentUse`: Acceptability Scale
+- `V2-P030` `InstrumentUse`: EQ-5D-5L
+- `V2-P030` `MethodUse`: Recruitment from a high-volume, publicly funded, urban hip and knee clinic after surgical screening appointment
+- `V2-P030` `MethodUse`: Online self-completed evaluation survey
+- `V2-P030` `MethodUse`: Open-ended survey questions (including three study-developed questions on the summary report)
+- `V2-P030` `MethodUse`: Descriptive statistics
+- `V2-P030` `MethodUse`: Content analysis
+- `V2-P030` `MethodUse`: Scoring of SUS and PDMS according to the developers' guidelines and categorization of SUS usability levels
+- `V2-P030` `ProtocolUse`: International Patient Decision Aid Standards (IPDAS)
+- `V2-P030` `ProductUse`: Individualized online patient decision aid for total knee arthroplasty (with summary report), previously developed and described elsewhere
+- `V2-P031` `InstrumentUse`: EQ-5D-Y-3L (self-complete)
+- `V2-P031` `InstrumentUse`: EQ-5D-Y-3L (proxy version 1)
+- `V2-P031` `InstrumentUse`: EQ-5D-Y-5L (self-complete)
+- `V2-P031` `InstrumentUse`: EQ-5D-Y-5L (proxy version 1)
+- `V2-P031` `InstrumentUse`: EQ VAS
+- `V2-P031` `InstrumentUse`: EQ-5D-Y-3L (self-complete)
+- `V2-P031` `InstrumentUse`: EQ-5D-Y-5L (self-complete)
+- `V2-P031` `InstrumentUse`: Overall Health Assessment question (OHA)
+- `V2-P031` `InstrumentUse`: Overall Health Assessment question (OHA), proxy version
+- `V2-P031` `InstrumentUse`: Global Initiative for Asthma (GINA) criteria
+- `V2-P031` `ScoringUse`: Chinese EQ-5D-Y-3L value set
+- `V2-P031` `ScoringUse`: Chinese EQ-5D-Y-3L value set
+- `V2-P031` `MethodUse`: Level sum score (LSS)
+- `V2-P031` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P031` `MethodUse`: Two-sample t-test
+- `V2-P031` `MethodUse`: Mann-Whitney U test
+- `V2-P031` `MethodUse`: Cohen's d effect size
+- `V2-P031` `MethodUse`: Glass' Δ effect size
+- `V2-P031` `MethodUse`: Chi-square test
+- `V2-P031` `MethodUse`: Fisher's exact test
+- `V2-P031` `MethodUse`: Paired t-test
+- `V2-P031` `MethodUse`: Odds ratios (ORs) for “no problem” versus “any problems”
+- `V2-P032` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P032` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P032` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P032` `MethodUse`: Visual analogue scale (VAS)
+- `V2-P032` `MethodUse`: Composite time trade-off (composite TTO) procedure
+- `V2-P032` `MethodUse`: Bisection elicitation procedure with five choices
+- `V2-P032` `MethodUse`: A-priori power calculation (paired t-test, Cohen's d = 0.2)
+- `V2-P032` `MethodUse`: Linear QALY model transformation of TTO indifference into utility (X/10 and (X−10)/10)
+- `V2-P032` `MethodUse`: Level-sum-score (LSS) severity coding, rescaled as LSSr
+- `V2-P032` `MethodUse`: Markov Chain Monte Carlo simulation (500 adaptive, 4000 burn-in, 20,000 iterations, two chains)
+- `V2-P032` `MethodUse`: Data-quality categorisation approach used by Alava et al. (dominance violations, non-discrimination, non-attendance)
+- `V2-P032` `MethodUse`: Chi-squared tests
+- `V2-P032` `MethodUse`: Correlation of individual-level difference scores
+- `V2-P032` `MethodUse`: Random presentation order of health states and perspectives with random assignment to health-state blocks
+- `V2-P032` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P032` `ModelUse`: Linear mixed-effects regression with subject random effects (health state dummies)
+- `V2-P032` `ModelUse`: Linear mixed-effects regression with subject random effects (level-sum-score severity)
+- `V2-P032` `ModelUse`: Bayesian random-parameters model with variance scaling factors (based on Golicki et al.)
+- `V2-P033` `InstrumentUse`: EQ-5D-5L
+- `V2-P033` `InstrumentUse`: EQ-5D-5L
+- `V2-P033` `InstrumentUse`: EQ-VAS
+- `V2-P033` `MethodUse`: visual analogue scale (VAS) task (100 = best imaginable health, 0 = worst imaginable health)
+- `V2-P033` `MethodUse`: online survey with COVID-19-related questions (worry, subjective risk, effect on health/quality of life, shopping and exercise frequency, key worker status)
+- `V2-P033` `MethodUse`: Mann–Whitney U tests
+- `V2-P033` `MethodUse`: multinomial propensity score matching (MNPS)
+- `V2-P033` `MethodUse`: rescaling of VAS ratings for 55555 to the full health = 1, dead = 0 scale
+- `V2-P033` `MethodUse`: Pearson's test (correlation)
+- `V2-P033` `MethodUse`: alternative censoring and exclusion criteria for extremely low rescaled 55555 values (censoring at −1, −1.5, −2; exclusion by low rescaled value, influence on the mean, high VAS for dead, high rate of change)
+- `V2-P033` `ModelUse`: Tobit regression
+- `V2-P033` `ModelUse`: gradient boosted models (multinomial propensity score weights, 5,000 iterations)
+- `V2-P033` `ModelUse`: weighted linear regression models (average treatment effects with propensity score weights)
+- `V2-P033` `ProductUse`: Devlin et al.'s English EQ-5D-5L value set
+- `V2-P034` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P034` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P034` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P034` `InstrumentUse`: EQ VAS (own health today, 0–100)
+- `V2-P034` `InstrumentUse`: EQ-5D-3L
+- `V2-P034` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P034` `MethodUse`: lead time trade-off (worse than dead procedure with 10-year lead time)
+- `V2-P034` `MethodUse`: direct method (for measuring discounting)
+- `V2-P034` `MethodUse`: bisection procedure followed by upward/downward titration with 1-year or 6-month increments
+- `V2-P034` `MethodUse`: correction of TTO utilities for discounting using linear interpolation on the elicited discount function
+- `V2-P034` `MethodUse`: area-under-the-curve (AUC) approach
+- `V2-P034` `MethodUse`: paired t-tests
+- `V2-P034` `MethodUse`: binomial proportion test
+- `V2-P034` `MethodUse`: paired Wilcoxon tests
+- `V2-P034` `MethodUse`: data quality check (non-trading, all-in trading, zero-trading and same-value responses)
+- `V2-P034` `MethodUse`: dominance tests (weak and strict dominance violations)
+- `V2-P034` `MethodUse`: recruitment of a representative sample by a survey panel company (age, gender, education quotas)
+- `V2-P034` `MethodUse`: randomization of block order, task order within blocks, and health state order
+- `V2-P034` `MethodUse`: robustness analysis censoring 10-year utilities at −0.5
+- `V2-P034` `ProtocolUse`: EQ-VT protocol
+- `V2-P034` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L
+- `V2-P034` `ModelUse`: mixed effects regression on uncorrected TTO utilities (Model 1)
+- `V2-P034` `ModelUse`: mixed effects regression on corrected TTO utilities (Model 2)
+- `V2-P034` `ModelUse`: general QALY model (with linear QALY model special case)
+- `V2-P035` `InstrumentUse`: EQ-5D-Y-3L (self-complete version, Chinese)
+- `V2-P035` `InstrumentUse`: EQ-5D-Y-3L proxy version 1 (Chinese)
+- `V2-P035` `InstrumentUse`: EQ-TIPS (experimental version, Chinese)
+- `V2-P035` `InstrumentUse`: EQ VAS
+- `V2-P035` `InstrumentUse`: Overall Health Assessment question (OHA)
+- `V2-P035` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P035` `InstrumentUse`: EQ-TIPS
+- `V2-P035` `ScoringUse`: Chinese EQ-5D-Y-3L value set
+- `V2-P035` `ProductUse`: Chinese EQ-5D-Y-3L value set
+- `V2-P035` `MethodUse`: Snowball approach
+- `V2-P035` `MethodUse`: Known-group validity analysis
+- `V2-P035` `MethodUse`: Responsiveness analysis based on clinical recovery and improved OHA
+- `V2-P035` `MethodUse`: Gwet’s AC1
+- `V2-P035` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P035` `MethodUse`: Cohen’s D effect size
+- `V2-P035` `MethodUse`: Glass’ Δ effect size
+- `V2-P035` `MethodUse`: Independent t-tests
+- `V2-P035` `MethodUse`: ANOVA
+- `V2-P035` `MethodUse`: Chi-square test
+- `V2-P035` `MethodUse`: Fisher’s exact test
+- `V2-P035` `MethodUse`: Level sum score (LSS)
+- `V2-P035` `MethodUse`: Modification of the EQ-5D-Y-3L and EQ-TIPS instruction wording for the COVID-19 context
+- `V2-P035` `ProtocolUse`: EuroQol Group guidelines for translation and cultural adaptation
+- `V2-P035` `ProtocolUse`: Diagnosis and Treatment Protocol for COVID-19 Infection (Trial Version 10), Chinese COVID-19 severity criteria
+- `V2-P036` `InstrumentUse`: EQ-5D-5L
+- `V2-P036` `InstrumentUse`: EQ-5D-5L
+- `V2-P036` `InstrumentUse`: EQ VAS
+- `V2-P036` `InstrumentUse`: dining (DI) bolt-on
+- `V2-P036` `InstrumentUse`: gastrointestinal problems (GI) bolt-on
+- `V2-P036` `InstrumentUse`: dining (DI) bolt-on
+- `V2-P036` `InstrumentUse`: gastrointestinal problems (GI) bolt-on
+- `V2-P036` `InstrumentUse`: cognition (CO) bolt-on
+- `V2-P036` `InstrumentUse`: sleep (SL) bolt-on
+- `V2-P036` `InstrumentUse`: tiredness (TI) bolt-on
+- `V2-P036` `InstrumentUse`: Gastrointestinal Symptom Rating Scale (GSRS)
+- `V2-P036` `InstrumentUse`: Satisfaction with Life Scale (SWLS)
+- `V2-P036` `MethodUse`: literature review on HRQoL in CD and review of item content of existing condition-specific measures
+- `V2-P036` `MethodUse`: expert panel discussion with patient input
+- `V2-P036` `MethodUse`: convenience sampling through patient organisations and social media groups
+- `V2-P036` `MethodUse`: online cross-sectional survey
+- `V2-P036` `MethodUse`: level sum score (LSS), unweighted sum of responses on the dimensions, standardized to a 0-100 scale
+- `V2-P036` `MethodUse`: Shannon index (H') and Shannon evenness index (J')
+- `V2-P036` `MethodUse`: Spearman's rank-order correlations
+- `V2-P036` `MethodUse`: relative efficiency based on the ratio of ANOVA F-statistics
+- `V2-P036` `MethodUse`: bootstrap with 3000 replications for 95% confidence intervals
+- `V2-P036` `MethodUse`: principal component analysis (PCA) with promax rotation and Kaiser's criterion
+- `V2-P036` `MethodUse`: confirmatory factor analysis (CFA) with diagonally weighted least squares (DWLS) estimator
+- `V2-P036` `ModelUse`: univariable and multivariable linear regression models (unadjusted and adjusted for age, gender and GSRS score)
+- `V2-P037` `InstrumentUse`: Experimental EuroQol Toddler and Infant Populations version 2.0 (EQ-TIPS)
+- `V2-P037` `InstrumentUse`: Paediatric Quality of Life Inventory™ core generic version 4.0 (PedsQL) toddler version for 2–4 years
+- `V2-P037` `InstrumentUse`: Paediatric Quality of Life Inventory™ core generic version 4.0 (PedsQL)
+- `V2-P037` `InstrumentUse`: EQ VAS (0–100 visual analogue scale within EQ-TIPS)
+- `V2-P037` `InstrumentUse`: Children with Special Health Care Needs (CSHCN) short screening questionnaire (Bethell et al.)
+- `V2-P037` `InstrumentUse`: Caregiver-reported general health status question ('excellent', 'very good', 'good', 'fair', 'poor')
+- `V2-P037` `InstrumentUse`: Caregiver-reported checklist of 43 common doctor-diagnosed child health conditions (from the Longitudinal Study of Australian Children and the literature)
+- `V2-P037` `InstrumentUse`: Caregiver-reported change in general health and in main health condition question (much better to much worse)
+- `V2-P037` `MethodUse`: EQ-TIPS level sum score (LSS, range 6–18)
+- `V2-P037` `MethodUse`: Fisher's exact test
+- `V2-P037` `MethodUse`: Mann–Whitney U test
+- `V2-P037` `MethodUse`: Kruskal-Wallis test
+- `V2-P037` `MethodUse`: Cohen's D effect size
+- `V2-P037` `MethodUse`: Spearman's correlation
+- `V2-P037` `MethodUse`: Cohen's weighted kappa coefficient
+- `V2-P037` `MethodUse`: Intraclass correlation coefficient (ICC), absolute-agreement two-way mixed-effects model
+- `V2-P037` `MethodUse`: Standardised Response Mean (SRM) effect size statistic
+- `V2-P037` `MethodUse`: Paired t-test
+- `V2-P037` `MethodUse`: Recruitment onsite through the Royal Children's Hospital Melbourne and online via market research company Pureprofile
+- `V2-P037` `ProtocolUse`: P-MIC study technical methods paper psychometric analysis plan (Jones et al. 2023)
+- `V2-P037` `ScoringUse`: PedsQL scoring manual (Varni, Scaling and Scoring for the Acute and Standard Versions of the PedsQL, Mapi Research Trust)
+- `V2-P038` `InstrumentUse`: EQ-5D-5L
+- `V2-P038` `InstrumentUse`: EQ-5D-5L
+- `V2-P038` `InstrumentUse`: EQ-5D-5L
+- `V2-P038` `InstrumentUse`: EQ-VAS (Visual Analogue Scale, 0–100)
+- `V2-P038` `InstrumentUse`: EQ-VAS (Visual Analogue Scale, 0–100)
+- `V2-P038` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P038` `MethodUse`: lead-time TTO
+- `V2-P038` `MethodUse`: direct method for measuring time preference
+- `V2-P038` `MethodUse`: Episodic Future Thinking (EFT) protocol
+- `V2-P038` `MethodUse`: Episodic Recent Thinking (ERT) protocol
+- `V2-P038` `MethodUse`: area under the curve (AUC) nonparametric approach
+- `V2-P038` `MethodUse`: interpolation-based ex-post adjustment of cTTO utilities for time preference
+- `V2-P038` `MethodUse`: Two One-Sided Tests (TOST) equivalence testing procedure
+- `V2-P038` `MethodUse`: independent sample t-test
+- `V2-P038` `MethodUse`: paired t-test
+- `V2-P038` `MethodUse`: Chi squared test
+- `V2-P038` `MethodUse`: Binomial proportion test
+- `V2-P038` `MethodUse`: power analysis based on Hedges' g from a meta-analysis of EFT effects
+- `V2-P038` `MethodUse`: random assignment of participants to treatment (EFT) or control (ERT) group
+- `V2-P038` `MethodUse`: data quality assessment using indicators from previous studies (non-trading, all-in trading, zero responses, dominance violations)
+- `V2-P038` `MethodUse`: three pilot tests of the Shiny interviewing software with colleagues
+- `V2-P038` `ProtocolUse`: EQ-VT protocol
+- `V2-P038` `ModelUse`: mixed effects regression (MER) of cTTO utilities on EFT treatment, health states and demographics
+- `V2-P038` `ModelUse`: Model 3: mixed effect regression with adjusted cTTO in ERT group and cTTO in EFT group
+- `V2-P038` `ModelUse`: general QALY model
+- `V2-P039` `MethodUse`: search engines and snowballing
+- `V2-P039` `MethodUse`: extraction and categorization of arguments for public involvement
+- `V2-P039` `MethodUse`: Time Trade-Off (TTO)
+- `V2-P039` `MethodUse`: Discrete Choice Experiments (DCEs)
+- `V2-P039` `InstrumentUse`: EQ-5D-Y (EQ-5D-Y-3L)
+- `V2-P039` `InstrumentUse`: EQ-5D
+- `V2-P039` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P039` `ProtocolUse`: Version 2 of the EQ-5D-5L valuation protocol
+- `V2-P040` `InstrumentUse`: EQ-5D-Y-3L (official Hungarian version)
+- `V2-P040` `InstrumentUse`: EQ-5D-Y-3L (official Hungarian version)
+- `V2-P040` `InstrumentUse`: EQ VAS
+- `V2-P040` `InstrumentUse`: EQ-5D-3L (self-complete version)
+- `V2-P040` `InstrumentUse`: EQ-5D-5L (self-complete version)
+- `V2-P040` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P040` `MethodUse`: lead-time TTO variant for worse-than-dead states
+- `V2-P040` `MethodUse`: representative sampling of the general population in terms of age and sex
+- `V2-P040` `MethodUse`: exclusion of observations flagged in the EQ-VT 'feedback module'
+- `V2-P040` `MethodUse`: McNemar's test
+- `V2-P040` `MethodUse`: Wilcoxon signed-rank test
+- `V2-P040` `MethodUse`: Student's t-test
+- `V2-P040` `MethodUse`: Bland-Altman plot
+- `V2-P040` `ProtocolUse`: EQ-5D-Y-3L International Valuation Protocol
+- `V2-P040` `ModelUse`: multivariate linear regression with random intercepts and robust standard errors
+- `V2-P040` `ModelUse`: sensitivity analyses including the flagged states in the feedback module
+- `V2-P041` `InstrumentUse`: EQ-5D-5L
+- `V2-P041` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P041` `InstrumentUse`: VAS (visual analog scale)
+- `V2-P041` `InstrumentUse`: Open-ended questionnaire (three questions on interviewer problems, respondent problems and solutions)
+- `V2-P041` `ProtocolUse`: EQ-5D-5L valuation protocol (EQ Valuation Technology, EQ-VT)
+- `V2-P041` `ProtocolUse`: Quality control (QC) report tool with seven protocol compliance indicators
+- `V2-P041` `MethodUse`: Quota sampling
+- `V2-P041` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P041` `MethodUse`: Discrete choice experiment (DCE) tasks
+- `V2-P041` `MethodUse`: Thematic analysis (guidelines of Braun and Clarke)
+- `V2-P041` `MethodUse`: Wilcoxon signed-rank test
+- `V2-P041` `MethodUse`: Retraining program and individual feedback based on QC reports
+- `V2-P041` `MethodUse`: Open-ended questionnaire sent by e-mail to each interviewer (three questions on problems and solutions)
+- `V2-P042` `InstrumentUse`: EQ-5D-3L extended with cognition (EQ-5D + C)
+- `V2-P042` `InstrumentUse`: EQ-5D-3L
+- `V2-P042` `InstrumentUse`: EQ-5D-3L
+- `V2-P042` `InstrumentUse`: EQ-VAS
+- `V2-P042` `InstrumentUse`: EQ-5D-3L
+- `V2-P042` `ScoringUse`: Dutch tariff (value set derived from preferences of the general population of the Netherlands)
+- `V2-P042` `MethodUse`: Dominance/subordination analysis of level 1–level 3 dimension contrasts relative to chance frequencies
+- `V2-P042` `MethodUse`: Spearman's rank correlation coefficients
+- `V2-P042` `MethodUse`: Backward deletion variable selection strategy (forced entry start, p < 0.05)
+- `V2-P042` `MethodUse`: Clinical known-group comparison (TBI vs non-TBI patients)
+- `V2-P042` `MethodUse`: Stratified sampling of ED patients registered in DISS for follow-up
+- `V2-P042` `MethodUse`: Postal follow-up survey administered 2.5 months after ED visit
+- `V2-P042` `ModelUse`: Univariate regression analysis of EQ-VAS on EQ-5D + C dimension dummies
+- `V2-P042` `ModelUse`: Multivariate regression model explaining the EQ-VAS score
+- `V2-P043` `InstrumentUse`: EQ-5D-5L
+- `V2-P043` `InstrumentUse`: EQ-5D-5L+C (EQ-5D-5L extended with a cognitive domain)
+- `V2-P043` `InstrumentUse`: EQ-5D-5L
+- `V2-P043` `InstrumentUse`: EQ-5D-5L+C
+- `V2-P043` `InstrumentUse`: EQ-VAS
+- `V2-P043` `InstrumentUse`: EQ-VAS
+- `V2-P043` `InstrumentUse`: Impact of Events Scale-Revised (IES-R)
+- `V2-P043` `MethodUse`: Stratified sampling of LIS patients for follow-up questionnaires
+- `V2-P043` `MethodUse`: Chi-square tests
+- `V2-P043` `MethodUse`: Mann–Whitney U tests
+- `V2-P043` `MethodUse`: Shannon Index (H′)
+- `V2-P043` `MethodUse`: Shannon Evenness Index (J′)
+- `V2-P043` `MethodUse`: Adjustment for underestimation bias according to Pielou ((C − 1)/2N)
+- `V2-P043` `MethodUse`: Spearman’s rank correlation coefficients
+- `V2-P043` `MethodUse`: Paired t-tests
+- `V2-P043` `MethodUse`: One-way ANOVA
+- `V2-P043` `MethodUse`: Paretian Classification of Health Change
+- `V2-P043` `MethodUse`: Probability of superiority
+- `V2-P043` `MethodUse`: Level sum score calculation and recoding of EQ-5D+C scores to the EQ-5D scale by multiplying with 5/6
+- `V2-P043` `MethodUse`: Simple imputation of one or two missing IES-R items
+- `V2-P043` `MethodUse`: Mean difference per domain between 6- and 12-month scores ((D12 − D6)/N)
+- `V2-P043` `ModelUse`: Multivariable linear regression with EQ-VAS as dependent variable and dummy variables for EQ-5D(+C) domain levels
+- `V2-P044` `InstrumentUse`: EQ-5D-5L
+- `V2-P044` `InstrumentUse`: EQ-5D-5L
+- `V2-P044` `InstrumentUse`: EQ VAS
+- `V2-P044` `InstrumentUse`: Checklist Individual Strength (CIS), subscale 'subjective experience of fatigue'
+- `V2-P044` `InstrumentUse`: cognition dimension in EQ-5D-5L format ('Cognition, such as memory, understanding, concentration, thinking')
+- `V2-P044` `MethodUse`: online survey
+- `V2-P044` `MethodUse`: distributional effect (proportion of perfect health profiles '11111'/ceiling effect)
+- `V2-P044` `MethodUse`: head-to-head comparison of fatigue and cognition with EQ-5D-5L dimensions
+- `V2-P044` `MethodUse`: Spearman rank correlation coefficient
+- `V2-P044` `MethodUse`: Chi-square test
+- `V2-P044` `MethodUse`: recoding and categorization of the CIS fatigue score (severe fatigue at score >= 35) and of the cognition dimension
+- `V2-P044` `ModelUse`: multiple linear regression of EQ-5D-5L dimension dummy variables on fatigue and on cognition
+- `V2-P044` `ModelUse`: multiple linear regression of EQ VAS on EQ-5D-5L dimensions with and without fatigue and cognition
+- `V2-P044` `ScoringUse`: Dutch value set for the EQ-5D-5L
+- `V2-P045` `InstrumentUse`: EQ-5D-5L
+- `V2-P045` `InstrumentUse`: EQ-5D-5L
+- `V2-P045` `InstrumentUse`: EQ-5D-5L
+- `V2-P045` `InstrumentUse`: Visual Analog Scale (VAS)
+- `V2-P045` `InstrumentUse`: Official Tagalog, Cebuano, and English language versions of the EQ-VT protocol / EQ-5D-5L
+- `V2-P045` `MethodUse`: Composite Time Trade-Off (C-TTO)
+- `V2-P045` `MethodUse`: Discrete Choice Experiment (DCE)
+- `V2-P045` `MethodUse`: Quota sampling with quota buckets (age, sex, region, residence, education, income, ethnolinguistic group)
+- `V2-P045` `MethodUse`: Feedback Module (rank-order review and flagging of c-TTO health states)
+- `V2-P045` `MethodUse`: Interviewer training, retraining, on-site supervision and bi-weekly quality meetings
+- `V2-P045` `MethodUse`: Bootstrapping (10,000 samples)
+- `V2-P045` `MethodUse`: Out-of-sample log-likelihood comparison and fit statistics (MSQE, ICC) for model selection
+- `V2-P045` `MethodUse`: Linear adjustment of coefficients (dividing coefficients by 1−α) to anchor full health at 1
+- `V2-P045` `ProtocolUse`: EQ-5D-5L valuation protocol version 2 (standard valuation protocol used with EQ-VT 2.0)
+- `V2-P045` `ProtocolUse`: EuroQol standardized translation protocol following international recommendations
+- `V2-P045` `ProtocolUse`: Quality control process recommended by the EuroQol foundation for valuation studies
+- `V2-P045` `ModelUse`: TTO-only 20-parameter Robust ordinary least squares (OLS) model
+- `V2-P045` `ModelUse`: TTO-only 20-parameter random intercept model
+- `V2-P045` `ModelUse`: 20-parameter hybrid heteroscedastic model (DCE and TTO)
+- `V2-P045` `ModelUse`: 8-parameter models in eight specifications (TTO-only vs hybrid; fixed vs random intercept; homoscedastic vs heteroscedastic)
+- `V2-P045` `ModelUse`: 8-parameter homoscedastic TTO-only model with random intercept
+- `V2-P045` `ProductUse`: Thai EQ-5D-5L value set
+- `V2-P046` `InstrumentUse`: Amharic version of the EQ-5D-5L
+- `V2-P046` `InstrumentUse`: Composite EQ-5D-5L anxiety/depression (A/D) dimension
+- `V2-P046` `InstrumentUse`: EQ-5D-5L with amended split version of the anxiety and depression subdimensions
+- `V2-P046` `InstrumentUse`: Split anxiety and depression subdimensions
+- `V2-P046` `InstrumentUse`: Patient Health Questionnaire-9 (PHQ-9)
+- `V2-P046` `InstrumentUse`: Generalised Anxiety Disorder-7 (GAD-7)
+- `V2-P046` `InstrumentUse`: Composite EQ-5D-5L anxiety/depression (A/D) question
+- `V2-P046` `InstrumentUse`: Split anxiety and depression subdimension questions
+- `V2-P046` `MethodUse`: Single proportion formula for sample size determination
+- `V2-P046` `MethodUse`: Consecutive recruitment of proportional numbers of participants with anxiety, depression and both
+- `V2-P046` `MethodUse`: Interviewer-administered survey
+- `V2-P046` `MethodUse`: Open-ended question on reasons for preference
+- `V2-P046` `MethodUse`: Chi-square test
+- `V2-P046` `MethodUse`: Percent agreement
+- `V2-P046` `MethodUse`: Cohen's Kappa (k) statistics
+- `V2-P046` `MethodUse`: Spearman's rank correlation coefficients
+- `V2-P046` `MethodUse`: One-way ANOVA
+- `V2-P046` `MethodUse`: Scheffe's post hoc comparisons
+- `V2-P046` `MethodUse`: Cohen's d effect size
+- `V2-P046` `MethodUse`: Shannon index (H')
+- `V2-P046` `MethodUse`: Shannon Evenness index (J')
+- `V2-P046` `MethodUse`: Content analysis
+- `V2-P046` `MethodUse`: Scoring of PHQ-9 and GAD-7 into severity categories
+- `V2-P046` `ProtocolUse`: Standardized translation approach recommended by the EuroQol group (used to produce the Amharic EQ-5D-5L in the Ethiopian valuation study)
+- `V2-P047` `InstrumentUse`: EQ-5D-3L
+- `V2-P047` `InstrumentUse`: EQ-5D-3L
+- `V2-P047` `ProductUse`: United Kingdom EQ-5D-3L value set (Dolan 1997)
+- `V2-P047` `ProductUse`: Japanese EQ-5D value set (Tsuchiya et al. 2002)
+- `V2-P047` `ProductUse`: US EQ-5D value set, D1 valuation model (Shaw et al. 2005)
+- `V2-P047` `MethodUse`: Time trade-off (TTO)
+- `V2-P047` `MethodUse`: Exclusion of respondents with fewer than 10 observations or a positively sloped TTO/misery-index relationship
+- `V2-P047` `MethodUse`: Bayesian Markov Chain Monte Carlo (MCMC) estimation with a custom-implemented Metropolis-within-Gibbs algorithm with antithetic sampling
+- `V2-P047` `MethodUse`: Custom-implemented slice sampling algorithm for the mean-of-one constrained scale parameters
+- `V2-P047` `MethodUse`: Demographic weighting of the estimated preference structure to obtain original and updated value sets
+- `V2-P047` `ModelUse`: Bayesian heteroskedastic Tobit model with censoring at -1 and sex and age group-specific scale parameters
+- `V2-P047` `ModelUse`: Sensitivity analysis model accounting for respondents' race/ethnicity (US)
+- `V2-P048` `InstrumentUse`: EQ-5D-Y-3L (simplified Chinese version)
+- `V2-P048` `InstrumentUse`: EQ-5D-Y-3L (simplified Chinese version)
+- `V2-P048` `InstrumentUse`: EQ-VAS
+- `V2-P048` `InstrumentUse`: EQ-HWB (Health and Well-being Scale)
+- `V2-P048` `InstrumentUse`: EQ-TIPS
+- `V2-P048` `MethodUse`: Semi-structured health interviews with topic guide (individual and group/focus-group format)
+- `V2-P048` `MethodUse`: Open-ended questions on participants' perceptions of health (interview section 1)
+- `V2-P048` `MethodUse`: Structured evaluation of the EQ-5D-Y descriptive system with suggestions for improvement (interview section 2)
+- `V2-P048` `MethodUse`: Framework analysis method outlined by Ritchie & Spencer (five steps: familiarization, thematic framework, indexing, charting, mapping and interpretation)
+- `V2-P048` `MethodUse`: Inductive coding of initial codes within the three WHO themes
+- `V2-P048` `MethodUse`: Adapted framework of response issues by Penton et al.
+- `V2-P048` `MethodUse`: Independent double coding with face-to-face consensus discussion and mediation by external researchers
+- `V2-P048` `MethodUse`: Recruitment of the diseased group from the Children's Medical Center at Renji Hospital (three patients per condition) and of the healthy group from local primary and secondary schools to mirror the age and gender distribution of the diseased group
+- `V2-P048` `ProtocolUse`: Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist
+- `V2-P048` `ProtocolUse`: COSMIN (Consensus-based Standards for the selection of health Measurement Instruments) guidelines
+- `V2-P049` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P049` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P049` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P049` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P049` `InstrumentUse`: EQ VAS
+- `V2-P049` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P049` `InstrumentUse`: EQ-5D-5L
+- `V2-P049` `InstrumentUse`: PedsQL
+- `V2-P049` `MethodUse`: Co-design methodology
+- `V2-P049` `MethodUse`: Facilitated co-design workshops
+- `V2-P049` `MethodUse`: Snowball sampling
+- `V2-P049` `MethodUse`: Feedback sessions on draft prototypes
+- `V2-P049` `MethodUse`: Optimisation sessions with mock patient-clinician visits
+- `V2-P049` `MethodUse`: Sensitisation tasks (introductory video, EQ-5D-Y-5L completion, in-workshop presentations)
+- `V2-P049` `MethodUse`: Strategies from Ní Shé É et al. (2021) to minimise power imbalances
+- `V2-P049` `MethodUse`: Anonymous voting and ranking of options within workshops
+- `V2-P049` `ProtocolUse`: Co-design framework for public service design (resourcing, planning, recruiting, sensitising, facilitating, reflecting, building for change)
+- `V2-P049` `ProtocolUse`: Double Diamond model (discover, define, develop, deliver)
+- `V2-P050` `InstrumentUse`: EQ-HWB
+- `V2-P050` `InstrumentUse`: 96 candidate items from the EQ-HWB (initial codebook)
+- `V2-P050` `InstrumentUse`: Standard topic guide (developed in English by QoL measurement experts, translated into Chinese)
+- `V2-P050` `MethodUse`: Quota sampling
+- `V2-P050` `MethodUse`: Semi-structured, face-to-face qualitative interviews
+- `V2-P050` `MethodUse`: QoL self-rating on a 1–10 scale with explanation of the score
+- `V2-P050` `MethodUse`: Gale's thematic analysis (framework method) with inductive and deductive coding
+- `V2-P050` `MethodUse`: Five predefined criteria for filtering codes unsuitable for describing personal QoL
+- `V2-P050` `MethodUse`: Independent double coding with consensus meetings and supervisor adjudication
+- `V2-P050` `MethodUse`: Comparison of the analytical framework with the EQ-HWB conceptual framework at sub-theme and theme levels
+- `V2-P050` `MethodUse`: Translation of the topic guide from English into Chinese with review and pilot-based adjustment
+- `V2-P050` `ProtocolUse`: Published protocol from the Italian EQ-HWB content validity study (Masutti et al.)
+- `V2-P050` `ProtocolUse`: COREQ (consolidated criteria for reporting qualitative research), 32-item checklist
+- `V2-P050` `ProtocolUse`: COSMIN methodology for assessing the content validity of PROMs – user manual
+- `V2-P050` `ProtocolUse`: AMEE guidelines (reflexivity)
+- `V2-P051` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P051` `InstrumentUse`: EQ VAS (Visual Analogue Scale)
+- `V2-P051` `InstrumentUse`: EQ-5D-5L response heterogeneity vignettes
+- `V2-P051` `InstrumentUse`: EQ-HWB (short or long versions)
+- `V2-P051` `InstrumentUse`: 2-item version of the PHQ-9
+- `V2-P051` `InstrumentUse`: 2-item version of the GAD-7
+- `V2-P051` `InstrumentUse`: ASCOT
+- `V2-P051` `InstrumentUse`: WHO-5
+- `V2-P051` `InstrumentUse`: 1-item self-rated health question (duplicated for consistency check)
+- `V2-P051` `MethodUse`: Quota sampling by age, sex, income, community setting and first language
+- `V2-P051` `MethodUse`: Recruitment through Dynata online panel
+- `V2-P051` `MethodUse`: Dynata AI-driven QualityScore fraud and inattention detection
+- `V2-P051` `MethodUse`: Speeder identification using a 5-minute completion-time threshold
+- `V2-P051` `MethodUse`: Duplicate response screening using multiple identifiers
+- `V2-P051` `MethodUse`: Missing data analysis by variable and country
+- `V2-P051` `MethodUse`: Percentage agreement on duplicated questions
+- `V2-P051` `MethodUse`: Outlier detection using distribution plots and summary statistics
+- `V2-P051` `MethodUse`: Real-time monitoring dashboards of sample characteristics and quota progress
+- `V2-P051` `MethodUse`: Translation into target languages and adaptation for local context
+- `V2-P051` `MethodUse`: Independent expert review of localized survey versions
+- `V2-P051` `MethodUse`: Soft launch with a preliminary sample of 200 respondents
+- `V2-P051` `MethodUse`: Poststratification adjustments (weights)
+- `V2-P051` `MethodUse`: Random assignment of six survey versions
+- `V2-P051` `MethodUse`: Pilot feedback section on survey length, clarity, and sensitivity
+- `V2-P051` `MethodUse`: Dropout pattern monitoring
+- `V2-P052` `InstrumentUse`: EQ-5D-3L
+- `V2-P052` `InstrumentUse`: EQ-5D-3L
+- `V2-P052` `InstrumentUse`: MSIS-8D (Multiple Sclerosis Impact Scale-Eight Dimensions)
+- `V2-P052` `InstrumentUse`: MSIS-29v2 (Multiple Sclerosis Impact Scale)
+- `V2-P052` `InstrumentUse`: web-EDSS (self-reported Expanded Disability Status Score)
+- `V2-P052` `InstrumentUse`: Fatigue Severity Scale (FSS)
+- `V2-P052` `InstrumentUse`: Multiple Sclerosis Walking Scale (MSWS-12)
+- `V2-P052` `InstrumentUse`: Hospital Anxiety and Depression Scale – Anxiety (HADS-A)
+- `V2-P052` `InstrumentUse`: Hospital Anxiety and Depression Scale – Depression (HADS-D)
+- `V2-P052` `InstrumentUse`: EQ-5D-5L
+- `V2-P052` `ScoringUse`: UK value set for the EQ-5D-3L (Dolan 1997), value range −0.594 to 1.000
+- `V2-P052` `ScoringUse`: Published MSIS-8D algorithm based on UK general population preferences (value range 0.079 to 0.882)
+- `V2-P052` `MethodUse`: one-way ANOVA
+- `V2-P052` `MethodUse`: independent t-tests
+- `V2-P052` `MethodUse`: Spearman's correlation coefficients
+- `V2-P052` `MethodUse`: health state density curves (HSDCs) and health state density indices (HSDIs)
+- `V2-P052` `MethodUse`: paired t-tests
+- `V2-P052` `MethodUse`: standardised effect sizes (SES)
+- `V2-P052` `MethodUse`: standardised response means (SRM) with 95% confidence intervals
+- `V2-P052` `MethodUse`: Wilcoxon Signed Rank Test for paired samples
+- `V2-P052` `MethodUse`: Bonferroni correction
+- `V2-P052` `ProtocolUse`: revised COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures (version 2.0)
+- `V2-P053` `InstrumentUse`: EQ-5D-3L
+- `V2-P053` `InstrumentUse`: EQ-5D-3L
+- `V2-P053` `InstrumentUse`: EQ VAS
+- `V2-P053` `InstrumentUse`: Scale for the Assessment and Rating of Ataxia (SARA)
+- `V2-P053` `InstrumentUse`: Inventory of Non-Ataxia Signs (INAS)
+- `V2-P053` `InstrumentUse`: Patient Health Questionnaire 9 (PHQ-9)
+- `V2-P053` `InstrumentUse`: Montreal Cognitive Assessment (MoCA)
+- `V2-P053` `InstrumentUse`: Friedreich's ataxia rating scale activities of daily-living subscale (FARS-ADL)
+- `V2-P053` `InstrumentUse`: Philadelphia Sleep Quality Index (PSQI)
+- `V2-P053` `ScoringUse`: European value set (single European currency for EQ-5D health states, Greiner et al.)
+- `V2-P053` `ProductUse`: English EQ-5D-3L value set
+- `V2-P053` `ProductUse`: German EQ-5D-3L value set
+- `V2-P053` `MethodUse`: standardized yearly study site consultations with permitted deviation of two months
+- `V2-P053` `MethodUse`: multiple imputations via chained equation (MICE)
+- `V2-P053` `MethodUse`: Spearman rank correlations
+- `V2-P053` `MethodUse`: Paired t-tests
+- `V2-P053` `MethodUse`: signed-rank tests
+- `V2-P053` `ModelUse`: Panel random effects (variable time) regression model
+- `V2-P053` `ModelUse`: Linear regression models
+- `V2-P054` `InstrumentUse`: EQ-5D-Y-3L descriptive system
+- `V2-P054` `InstrumentUse`: EQ-5D-Y-3L descriptive system
+- `V2-P054` `InstrumentUse`: CVP COVID-19 vaccination descriptive system (4 two-level and 1 four-level attributes)
+- `V2-P054` `InstrumentUse`: CSOR children's surgery outcome descriptive system (5 four-level, 1 three-level, 1 five-level attributes)
+- `V2-P054` `InstrumentUse`: EuroQol Health and Wellbeing instrument (EQ-HWB)
+- `V2-P054` `InstrumentUse`: EQ-5D-5L
+- `V2-P054` `InstrumentUse`: PROMIS-29
+- `V2-P054` `MethodUse`: kaizen task
+- `V2-P054` `MethodUse`: paired comparison (pick-one) tasks
+- `V2-P054` `MethodUse`: Mood's median test
+- `V2-P054` `MethodUse`: chi-square tests
+- `V2-P054` `MethodUse`: Student's t test
+- `V2-P054` `MethodUse`: bootstrap techniques (with replacement, clustering at the respondent level, stratification by block, and 1000 iterations)
+- `V2-P054` `MethodUse`: Pearson correlation
+- `V2-P054` `MethodUse`: Lin (agreement) statistic
+- `V2-P054` `MethodUse`: full factorial experimental design
+- `V2-P054` `MethodUse`: D-efficient experimental design
+- `V2-P054` `MethodUse`: D-efficient experimental design
+- `V2-P054` `MethodUse`: general-population recruitment using a marketing panel (i.e., Dynata, Toluna)
+- `V2-P054` `ModelUse`: conditional logit
+- `V2-P054` `ModelUse`: Zermelo–Bradley–Terry (ZBT) model
+- `V2-P055` `InstrumentUse`: EQ Health and Wellbeing instrument (EQ-HWB), 25 items
+- `V2-P055` `InstrumentUse`: Australian English 'experimental' version of the 25 EQ-HWB items
+- `V2-P055` `InstrumentUse`: EQ-HWB-S (nine-item short version)
+- `V2-P055` `InstrumentUse`: CarerQol instrument (items a, b and e)
+- `V2-P055` `InstrumentUse`: EQ-HWB (25 items) administered in the baseline and 2-day follow-up survey
+- `V2-P055` `MethodUse`: Semi-structured interview protocol adapted from previous work (Table S1 in the ESM)
+- `V2-P055` `MethodUse`: Think aloud
+- `V2-P055` `MethodUse`: Interviewer probing
+- `V2-P055` `MethodUse`: Content analysis approach (Hsieh and Shannon)
+- `V2-P055` `MethodUse`: Independent double coding of seven transcripts by both authors with differences resolved by consensus
+- `V2-P055` `MethodUse`: Selection from the QUOKKA P-MIC sample frame by child condition group until the target sample size was met
+- `V2-P055` `MethodUse`: Data adequacy following Vasileiou et al.
+- `V2-P055` `ProtocolUse`: COSMIN (COnsensus-based Standards for the selection of health Measurement INstruments) study design checklist
+- `V2-P056` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P056` `InstrumentUse`: EQ-5D-5L health states
+- `V2-P056` `InstrumentUse`: EQ-5D-5L (Egyptian Arabic, self-reported own health)
+- `V2-P056` `InstrumentUse`: visual analogue scale (VAS)
+- `V2-P056` `InstrumentUse`: validated country-specific questionnaire on participants' demographics and views about health, life, and death
+- `V2-P056` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P056` `MethodUse`: discrete-choice experiments (DCEs)
+- `V2-P056` `MethodUse`: multi-stratified quota sampling based on age, sex, and geographical distribution
+- `V2-P056` `MethodUse`: EQ-VT experimental design (86 cTTO health states in ten blocks; 196 DCE pairs in 28 blocks)
+- `V2-P056` `MethodUse`: EuroQol Group quality control (QC) tool
+- `V2-P056` `MethodUse`: feedback module
+- `V2-P056` `MethodUse`: rescaling of DCE coefficients using the rescaling parameter of the TTO model estimations
+- `V2-P056` `MethodUse`: sensitivity analysis by re-inclusion of participants' flagged health states
+- `V2-P056` `MethodUse`: Arabic translation and cultural adaptation of the EQ-VT (Egyptian Arabic version; migraine practice state, graphics and colored cards for illiterate participants)
+- `V2-P056` `ProtocolUse`: EuroQol standardized valuation protocol EQ-VT-2.1
+- `V2-P056` `ProtocolUse`: CREATE checklist for multi-attribute utility instruments
+- `V2-P056` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies (QC meetings with the EQ-VT support team)
+- `V2-P056` `ModelUse`: Model 1: GLS random-effects model (cTTO)
+- `V2-P056` `ModelUse`: Model 2: GLS Tobit (random effect, censored at − 1)
+- `V2-P056` `ModelUse`: Model 3: Heteroskedastic Tobit (censored at − 1 with correction for heteroskedasticity)
+- `V2-P056` `ModelUse`: Model 4: Heteroskedastic model (constrained, constant suppressed)
+- `V2-P056` `ModelUse`: Model 5: Conditional logit model (DCE)
+- `V2-P056` `ModelUse`: Model 6: Hybrid (conditional logit model)
+- `V2-P056` `ModelUse`: Model 7: Hybrid Tobit (censored at − 1, conditional logit model)
+- `V2-P056` `ModelUse`: Model 8: Hybrid heteroskedastic Tobit (censored at − 1 with heteroskedasticity, conditional logit model)
+- `V2-P056` `ModelUse`: Model 9: Hybrid heteroskedastic model (heteroskedasticity, conditional logit model)
+- `V2-P057` `InstrumentUse`: PedsQL generic core 4.0
+- `V2-P057` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P057` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P057` `InstrumentUse`: Child Health Utility 9D (CHU9D)
+- `V2-P057` `InstrumentUse`: Assessment of Quality of Life 6D (AQoL-6D) adolescent
+- `V2-P057` `InstrumentUse`: Health Utilities Index Mark 3 (HUI3)
+- `V2-P057` `InstrumentUse`: PedsQL generic core 4.0
+- `V2-P057` `InstrumentUse`: EQ VAS
+- `V2-P057` `InstrumentUse`: Children with Special Health Care Needs (CSHCN) screener
+- `V2-P057` `MethodUse`: exploratory level sum score (LSS) approach
+- `V2-P057` `MethodUse`: PedsQL reverse scoring and linear transformation of raw item responses
+- `V2-P057` `MethodUse`: intraclass correlation coefficient (absolute-agreement, two-way mixed-effects model)
+- `V2-P057` `MethodUse`: Koo and Li (2016) ICC interpretation thresholds
+- `V2-P057` `MethodUse`: Cicchetti (1994) ICC interpretation thresholds
+- `V2-P057` `MethodUse`: Cohen's d effect size
+- `V2-P057` `MethodUse`: Spearman's correlation
+- `V2-P057` `MethodUse`: paired t-test
+- `V2-P057` `MethodUse`: standardised response mean (SRM)
+- `V2-P057` `MethodUse`: a priori consensus approach involving members of the study team (item correlation hypotheses)
+- `V2-P057` `MethodUse`: randomisation of instrument order and randomised allocation to additional instruments (blocks)
+- `V2-P057` `MethodUse`: online panel recruitment (Pureprofile Australia) and hospital and patient-organisation recruitment
+- `V2-P057` `ProtocolUse`: Australian Paediatric Multi-Instrument Comparison Study Protocol (P-MIC)
+- `V2-P057` `ProtocolUse`: P-MIC Technical Methods Paper statistical analysis protocol (set a priori)
+- `V2-P057` `ProtocolUse`: 2019 COSMIN Study Design checklist for Patient-reported outcome measurement instruments
+- `V2-P058` `InstrumentUse`: EQ-5D-3L
+- `V2-P058` `InstrumentUse`: EQ-5D-5L
+- `V2-P058` `InstrumentUse`: EuroQol Health and Wellbeing Short Form (EQ-HWB-9)
+- `V2-P058` `InstrumentUse`: Short-form 6-Dimension version 1 (SF-6Dv1)
+- `V2-P058` `InstrumentUse`: Health Utilities Index Mark 2 (HUI2)
+- `V2-P058` `InstrumentUse`: Health Utilities Index Mark 3 (HUI3)
+- `V2-P058` `InstrumentUse`: Health-related Quality of Life Instrument with 8 Items (HINT-8)
+- `V2-P058` `InstrumentUse`: Quality of Well Being Self-Administered (QWB-SA)
+- `V2-P058` `InstrumentUse`: Adult Social Care Outcomes Toolkit for Carers (ASCOT-Carer)
+- `V2-P058` `InstrumentUse`: Care-related Quality of Life instrument 7-Dimension (CarerQoL-7D)
+- `V2-P058` `InstrumentUse`: Carer Experience Scale (CES)
+- `V2-P058` `MethodUse`: Electronic database literature search (CINAHL, PsycInfo, Embase, MEDLINE) using search terms and MeSH headings for GPBMs, psychometric properties and informal carers
+- `V2-P058` `MethodUse`: Forward and backward citation searches in Scopus
+- `V2-P058` `MethodUse`: Dual independent title/abstract and full-text screening with senior-reviewer adjudication
+- `V2-P058` `MethodUse`: Piloted data extraction by a single reviewer with accuracy confirmation by a second reviewer
+- `V2-P058` `MethodUse`: Narrative synthesis
+- `V2-P058` `MethodUse`: Classification of correlation strength (weak ≤0.4; moderate 0.4-0.7; strong >0.7) and ICC/Kappa thresholds for grading psychometric evidence
+- `V2-P058` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines
+- `V2-P058` `ProtocolUse`: COSMIN risk of bias checklist for systematic reviews of patient-reported outcome measures
+- `V2-P058` `ProtocolUse`: PROSPERO registered review protocol CRD42023434651 (amended to broaden scope beyond EQ-5D tools)
+- `V2-P059` `MethodUse`: Systematic database search of eight databases (Ovid MEDLINE, Embase, CINAHL, PsycINFO, Web of Science Core Collection indexes, EconLit, Tufts CEA Registry, MathSciNet)
+- `V2-P059` `MethodUse`: Grey literature searching of professional organisation, HTA body, WHO, EuroQol and preference-based measure websites and Google Scholar
+- `V2-P059` `MethodUse`: Reference list screening of all included articles
+- `V2-P059` `MethodUse`: Independent dual title/abstract and full-text screening with third-reviewer reconciliation
+- `V2-P059` `MethodUse`: Joanna Briggs Institute standardised data extraction form (adapted; piloted on first four records per search)
+- `V2-P059` `MethodUse`: Thematic synthesis of extracted best practice recommendations using iterative descriptive coding
+- `V2-P059` `MethodUse`: Narrative synthesis of extracted data
+- `V2-P059` `MethodUse`: Mapping of data extracted from health state valuation studies against the synthesised framework of recommendations
+- `V2-P059` `MethodUse`: Grading of extracted evidence as sufficient, insufficient or uncertain by two raters using lenient grading criteria
+- `V2-P059` `MethodUse`: Time trade-off (TTO)
+- `V2-P059` `MethodUse`: Composite time trade-off
+- `V2-P059` `MethodUse`: Standard gamble (SG)
+- `V2-P059` `MethodUse`: Visual analogue scale (VAS)
+- `V2-P059` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P059` `MethodUse`: Vignette-based health state valuation
+- `V2-P059` `ProtocolUse`: Study protocol made publicly available prior to study commencement (10.15131/shef.data.25442377.v1)
+- `V2-P059` `ProtocolUse`: Joanna Briggs Institute best practice guidance / updated methodological guidance for the conduct of scoping reviews
+- `V2-P059` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews (PRISMA-ScR) checklist
+- `V2-P059` `InstrumentUse`: EQ-5D-5L
+- `V2-P059` `InstrumentUse`: EQ-5D-Y
+- `V2-P060` `InstrumentUse`: EQ-5D-Y-3L (Y-3L) descriptive system
+- `V2-P060` `InstrumentUse`: EQ-5D-Y-3L (Y-3L) profiles
+- `V2-P060` `InstrumentUse`: US English version of the EQ-5D-5L instrument
+- `V2-P060` `InstrumentUse`: EQ-VAS
+- `V2-P060` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P060` `MethodUse`: kaizen task
+- `V2-P060` `MethodUse`: paired comparison
+- `V2-P060` `MethodUse`: coma comparison (Y-3L vs coma)
+- `V2-P060` `MethodUse`: D-efficient block design (selection of origin–destination pairs by D-efficiency)
+- `V2-P060` `MethodUse`: De Moivre's NP5 rule
+- `V2-P060` `MethodUse`: McFadden's positivity assumption
+- `V2-P060` `MethodUse`: recruitment through an online panel vendor with 18 demographic quotas
+- `V2-P060` `MethodUse`: five-question coma quiz
+- `V2-P060` `MethodUse`: debriefing questions on preference elicitation tasks
+- `V2-P060` `MethodUse`: open-text feedback question on the overall survey experience
+- `V2-P060` `MethodUse`: beta testing of the survey instrument
+- `V2-P060` `MethodUse`: piloting of the survey instrument
+- `V2-P060` `MethodUse`: maximum likelihood estimator
+- `V2-P060` `MethodUse`: maximum simulated likelihood estimation
+- `V2-P060` `ProtocolUse`: Measurement and Valuation of Health protocol
+- `V2-P060` `ProtocolUse`: Paris protocol
+- `V2-P060` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P060` `ModelUse`: main-effects conditional logit model
+- `V2-P060` `ModelUse`: mixed logit model
+- `V2-P061` `InstrumentUse`: EQ-5D-5L (EuroQol health-related quality of life questionnaire)
+- `V2-P061` `InstrumentUse`: EQ-5D-5L (EuroQol health-related quality of life questionnaire)
+- `V2-P061` `InstrumentUse`: EQ-5D-5L (EuroQol health-related quality of life questionnaire), prepandemic recall administration (Diwali 2019)
+- `V2-P061` `InstrumentUse`: Patient Health Questionnaire
+- `V2-P061` `InstrumentUse`: General Anxiety Disorder
+- `V2-P061` `InstrumentUse`: COVID-19 anxiety scale
+- `V2-P061` `InstrumentUse`: COVID-19 stigma (COVID PSS Scale)
+- `V2-P061` `InstrumentUse`: Post-COVID stigma questionnaire
+- `V2-P061` `InstrumentUse`: Fagerstrom test
+- `V2-P061` `InstrumentUse`: Alcohol Use Disorder Identification Test
+- `V2-P061` `InstrumentUse`: WHO disability assessment tool
+- `V2-P061` `InstrumentUse`: Household Questionnaire (IndiQol)
+- `V2-P061` `InstrumentUse`: Post-COVID symptom questions as established by the WHO
+- `V2-P061` `ScoringUse`: Indian EQ-5D-5L value set (value sets recently developed for India)
+- `V2-P061` `MethodUse`: Two-stage sampling design with stratification of primary sampling units
+- `V2-P061` `MethodUse`: Probability proportional to size (PPS) sampling
+- `V2-P061` `MethodUse`: Systematic random sampling of 20 households per PSU
+- `V2-P061` `MethodUse`: Statistical power analysis (F-test ANOVA, fixed effects, main and interaction effects) following Cohen's guidelines
+- `V2-P061` `MethodUse`: Computer-assisted personal interview (CAPI) household survey
+- `V2-P061` `MethodUse`: Test for concordance (test–retest analysis of retrospective versus prospective data)
+- `V2-P061` `MethodUse`: Bland-Altman test
+- `V2-P061` `MethodUse`: Matching approach or regression adjustment for observed characteristics and prepandemic HRQoL
+- `V2-P061` `MethodUse`: Imputation methods for missing values in longitudinal clustered data
+- `V2-P061` `MethodUse`: Algorithm to measure persistence augmented multidimensional deprivation (Nicholas et al; Sinha et al)
+- `V2-P061` `MethodUse`: Shapley decomposition method
+- `V2-P061` `MethodUse`: Independent data quality monitoring after every survey wave (contact, participation and item non-response rates)
+- `V2-P061` `MethodUse`: Attrition and non-response testing following best practices
+- `V2-P061` `MethodUse`: Official EQ-5D-5L local language translations approved by the EQ-5D legal team
+- `V2-P061` `ModelUse`: Ordered logistic regression of individual EQ-5D-5L domain responses
+- `V2-P061` `ModelUse`: Generalised linear models for EQ-5D-5L value scores
+- `V2-P061` `ModelUse`: Fixed effects models for unobserved confounding
+- `V2-P062` `InstrumentUse`: EQ-TIPS-5L (experimental EQ-TIPS five-level V.3.0) descriptive system
+- `V2-P062` `InstrumentUse`: EQ-TIPS-5L (experimental EQ-TIPS five-level V.3.0) descriptive system
+- `V2-P062` `InstrumentUse`: EQ-TIPS-5L (experimental EQ-TIPS five-level V.3.0) descriptive system
+- `V2-P062` `InstrumentUse`: EQ-TIPS-5L completed for a referent 1-year-old child
+- `V2-P062` `InstrumentUse`: EQ-5D-5L
+- `V2-P062` `InstrumentUse`: EQ-5D bolt-ons (13 additional HRQoL questions)
+- `V2-P062` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P062` `InstrumentUse`: EQ-TIPS-3L (three-level version)
+- `V2-P062` `MethodUse`: Discrete choice experiment with kaizen tasks
+- `V2-P062` `MethodUse`: Discrete choice experiment with paired comparisons
+- `V2-P062` `MethodUse`: D-efficient block selection of origin-destination pairs (candidate set definition, block selection by d-efficiency, block evaluation and hold-out/aku assignment)
+- `V2-P062` `MethodUse`: D-efficient experimental design process for wave-2 paired comparisons (five blocks of 28 paired comparisons)
+- `V2-P062` `MethodUse`: Online panel recruitment with 32 demographic quotas (gender, age, ancestry)
+- `V2-P062` `MethodUse`: Cluster bootstrap with replacement, block-specific strata and 1000 iterations
+- `V2-P062` `MethodUse`: Lin's concordance correlation coefficient
+- `V2-P062` `MethodUse`: Exclusion of fraudulent, inattentive and speeding respondents (invalid open-text child description, completion within 10 min, retake attempts)
+- `V2-P062` `MethodUse`: Formative qualitative research
+- `V2-P062` `MethodUse`: Beta-testing and piloting of the wave-1 survey instrument
+- `V2-P062` `ModelUse`: Main-effects conditional logit model estimated by maximum likelihood
+- `V2-P062` `ModelUse`: Random utility model
+- `V2-P062` `ModelUse`: Random-parameter models (eg, mixed logit)
+- `V2-P062` `ModelUse`: Scale-adjusted latent-class models
+- `V2-P063` `InstrumentUse`: EQ-5D-5L
+- `V2-P063` `InstrumentUse`: EQ-5D-5L
+- `V2-P063` `InstrumentUse`: EQ-5D-5L + bolt-ons (self-reported health)
+- `V2-P063` `InstrumentUse`: Bolt-on dimensions for the EQ-5D-5L (hearing, sleep, cognition, energy, relationships) descriptors and labels
+- `V2-P063` `InstrumentUse`: Bolt-on dimensions for the EQ-5D-5L (hearing, sleep, cognition, energy, relationships) descriptors and labels
+- `V2-P063` `InstrumentUse`: EQ-5D-5L health states with bolt-ons of hearing, sleep, cognition, energy, and relationships
+- `V2-P063` `InstrumentUse`: Health Visual Analogue Scale (VAS)
+- `V2-P063` `MethodUse`: Pairwise choices (discrete choice experiment)
+- `V2-P063` `MethodUse`: Online survey
+- `V2-P063` `MethodUse`: Focus groups with topic guide
+- `V2-P063` `MethodUse`: Content analysis
+- `V2-P063` `MethodUse`: Existing UK online panel administered by Research Now with quotas for sex, age, education, children, religion, and marital status
+- `V2-P063` `MethodUse`: Improved approximate formula for calculating sample sizes for comparing two binomial distributions (Casagrande, Pike, and Smith)
+- `V2-P063` `MethodUse`: Block design assigning pairwise questions to 6 blocks with randomization of block allocation and of option side
+- `V2-P063` `MethodUse`: Fisher exact test
+- `V2-P063` `MethodUse`: χ2 test
+- `V2-P063` `MethodUse`: Wald test (pseudo-score test)
+- `V2-P063` `MethodUse`: Time tradeoff (TTO)
+- `V2-P063` `ModelUse`: Logistic regression with clustered sandwich estimators (main effect bolt-on model, bolt-on level model, and health state pair specific models), adjusted for sociodemographics
+- `V2-P064` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P064` `InstrumentUse`: visual analogue scale (EQ-VAS)
+- `V2-P064` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P064` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P064` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P064` `MethodUse`: Bayesian efficient design (with simulations to select the final design)
+- `V2-P064` `MethodUse`: quotas combined with a targeted recruitment strategy via an online panel
+- `V2-P064` `MethodUse`: Swait-Louviere test
+- `V2-P064` `MethodUse`: relative attribute importance (RAI) scores with attribute-based normalization
+- `V2-P064` `MethodUse`: delta method
+- `V2-P064` `MethodUse`: dominance test (fixed pair logic check)
+- `V2-P064` `MethodUse`: level sum score (LSS) check
+- `V2-P064` `MethodUse`: minimum completion time exclusion rule (2.5 min speeder rule based on piloting)
+- `V2-P064` `MethodUse`: comparison of predicted and observed choice probabilities for the 150 DCE pairs
+- `V2-P064` `ProtocolUse`: EuroQol Group's international EQ-5D-5L valuation protocol
+- `V2-P064` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P064` `ModelUse`: mixed logit (MIXL) with correlated parameters
+- `V2-P064` `ModelUse`: multinomial logit (MNL)
+- `V2-P064` `ModelUse`: pooled MIXL model with sample-dummy (Adol) interaction parameters
+- `V2-P065` `InstrumentUse`: EQ-5D-3 L
+- `V2-P065` `InstrumentUse`: EQ-5D-3 L
+- `V2-P065` `InstrumentUse`: EQ-VAS
+- `V2-P065` `InstrumentUse`: EQ-VAS
+- `V2-P065` `InstrumentUse`: impact of event scale (IES)
+- `V2-P065` `InstrumentUse`: Injury Severity Score (ISS)
+- `V2-P065` `InstrumentUse`: Abbreviated Injury Scale (AIS)
+- `V2-P065` `InstrumentUse`: 19 items regarding the presence of one or more chronic diseases (comorbidity)
+- `V2-P065` `ScoringUse`: EQ-5D-3 L summary score (Dolan, Modeling Valuations for EuroQol Health States)
+- `V2-P065` `MethodUse`: recall test
+- `V2-P065` `MethodUse`: then test
+- `V2-P065` `MethodUse`: equations for conventional change, retrospective change, recall bias and response shift
+- `V2-P065` `MethodUse`: Wilcoxon signed rank test
+- `V2-P065` `MethodUse`: intraclass correlation coefficient (ICC)
+- `V2-P065` `MethodUse`: Mann Whitney U test
+- `V2-P065` `MethodUse`: Chi-square test
+- `V2-P065` `MethodUse`: Kruskal Wallis test
+- `V2-P065` `MethodUse`: non-response analysis
+- `V2-P065` `ModelUse`: univariate linear regression analysis
+- `V2-P065` `ModelUse`: multivariate linear regression analysis with backward selection (deselection criterion p < 0.10)
+- `V2-P066` `InstrumentUse`: EQ-5D-5L
+- `V2-P066` `InstrumentUse`: EQ-5D-5L
+- `V2-P066` `InstrumentUse`: EQ VAS
+- `V2-P066` `ScoringUse`: German EQ-5D-5L value set (Ludwig et al. 2018)
+- `V2-P066` `MethodUse`: Quota-based sampling approach
+- `V2-P066` `MethodUse`: Computer-assisted personal interviews
+- `V2-P066` `MethodUse`: Descriptive statistics (means, standard deviations, 95% confidence intervals)
+- `V2-P066` `MethodUse`: Shapiro–Wilk test
+- `V2-P066` `MethodUse`: Kruskal–Wallis test
+- `V2-P066` `MethodUse`: Mann–Whitney-U test
+- `V2-P066` `MethodUse`: Chi square test
+- `V2-P066` `MethodUse`: Calculation of EQ-5D-5L index values using preference weights
+- `V2-P066` `ProtocolUse`: EQ-5D-5L valuation protocol (EQ-VT version 2)
+- `V2-P067` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P067` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P067` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P067` `InstrumentUse`: Background questionnaire on gender, age, and whether they had children under 18 years old
+- `V2-P067` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P067` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P067` `InstrumentUse`: CHU9D
+- `V2-P067` `MethodUse`: Time trade-off (TTO)
+- `V2-P067` `MethodUse`: Choice task formatted to mirror a pairwise discrete choice experiment (DCE) without duration
+- `V2-P067` `MethodUse`: Focus groups with a semi-structured topic guide
+- `V2-P067` `MethodUse`: Framework analysis
+- `V2-P067` `MethodUse`: Recruitment via Accent Market Research with quotas for gender, age and parental status
+- `V2-P067` `MethodUse`: Descriptive summary of TTO and DCE responses (not assessed statistically due to sample size)
+- `V2-P067` `MethodUse`: Independent double coding and consensus framework development, with indexing checks on two randomly selected transcripts
+- `V2-P067` `ProtocolUse`: MVH protocol (visual prop for TTO demonstration)
+- `V2-P067` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P068` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P068` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P068` `InstrumentUse`: EQ Visual Analogue Scale (VAS), health today 0–100
+- `V2-P068` `InstrumentUse`: PedsQL™ 4.0 Generic Core Scales
+- `V2-P068` `InstrumentUse`: PedsQL Cancer Module
+- `V2-P068` `InstrumentUse`: TranQol
+- `V2-P068` `InstrumentUse`: Haemo-Qol (short version)
+- `V2-P068` `InstrumentUse`: General State of Health question (check of change, 7 options)
+- `V2-P068` `InstrumentUse`: proxy version of EQ-5D-Y
+- `V2-P068` `InstrumentUse`: 'in progress' UK English version of EQ-5D-Y-5L
+- `V2-P068` `InstrumentUse`: EQ-5D-Y-5L Bahasa Indonesia version
+- `V2-P068` `InstrumentUse`: Unofficial Bahasa Indonesia translation of TranQol
+- `V2-P068` `MethodUse`: Recruitment of patients from 5 hospitals in Jakarta and Bandung with 4 diagnostic groups
+- `V2-P068` `MethodUse`: Paper-and-pencil questionnaire administration on 3 occasions (baseline, retest, follow-up)
+- `V2-P068` `MethodUse`: Spearman rank correlation
+- `V2-P068` `MethodUse`: McNemar test
+- `V2-P068` `MethodUse`: Gwet's AC1 agreement coefficient
+- `V2-P068` `MethodUse`: Redistribution and inconsistency analysis of EQ-5D-Y-3L responses onto EQ-5D-Y-5L levels
+- `V2-P068` `MethodUse`: Anchor-based responsiveness analysis using the check of change question
+- `V2-P068` `MethodUse`: Feasibility assessment by counting missing values and calculating the data ceiling
+- `V2-P068` `MethodUse`: Translation of the EQ-5D-Y-5L into Bahasa Indonesia in collaboration with the Version Management Committee of the EuroQol Group
+- `V2-P068` `MethodUse`: Cognitive debriefing of 3 children with thalassemia on the Indonesian TranQol
+- `V2-P068` `ProtocolUse`: translation protocol of the [EuroQol] Group
+- `V2-P069` `InstrumentUse`: EQ-5D-5L (official Swedish version provided by the EuroQol Group)
+- `V2-P069` `InstrumentUse`: EQ-5D-5L (official Swedish version provided by the EuroQol Group)
+- `V2-P069` `InstrumentUse`: EQ-5D-5L health states (86 c-TTO states; 196 DCE pairs)
+- `V2-P069` `InstrumentUse`: EQ VAS
+- `V2-P069` `MethodUse`: composite time trade-off (c-TTO)
+- `V2-P069` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P069` `MethodUse`: Quota-based sampling with respect to age, sex and rural/urban area
+- `V2-P069` `MethodUse`: D-error minimized design for DCE pairs
+- `V2-P069` `MethodUse`: interclass correlation coefficient (ICC) analysis of interviewer effect
+- `V2-P069` `MethodUse`: Level sum score (LSS, sum of problem levels across dimensions)
+- `V2-P069` `MethodUse`: Quality control (QC) procedure for interviewer protocol compliance (completion times, inconsistency size, use of interview sections)
+- `V2-P069` `MethodUse`: Sensitivity analyses (exclusion of non-traders, flat-liners, short/long response times, mild-mild pairs)
+- `V2-P069` `ProtocolUse`: EQ-VT (EuroQol Valuation Technology) protocol version 2.1
+- `V2-P069` `ProtocolUse`: EQ-VT QC tools / QC criteria as deemed by the EuroQol Group
+- `V2-P069` `ProtocolUse`: Standard interviewer training protocol provided by the EuroQol Group
+- `V2-P069` `ModelUse`: generalized least square (GLS) model for c-TTO data
+- `V2-P069` `ModelUse`: Tobit model for c-TTO data
+- `V2-P069` `ModelUse`: heteroskedastic model for c-TTO data
+- `V2-P069` `ModelUse`: conditional logit model for DCE data
+- `V2-P069` `ModelUse`: hybrid model combining c-TTO and DCE data
+- `V2-P069` `ModelUse`: Mixed effect model with mode of administration as fixed effect and respondents nested under interviewers as random intercept
+- `V2-P069` `ProductUse`: Swedish experience-based EQ-5D-5L value set (Burström et al.)
+- `V2-P070` `InstrumentUse`: EQ-5D-5L
+- `V2-P070` `InstrumentUse`: EQ-5D-5L
+- `V2-P070` `InstrumentUse`: EQ-5D-5L
+- `V2-P070` `InstrumentUse`: EuroQol Visual Analogue scale (EQ VAS)
+- `V2-P070` `InstrumentUse`: EQ-5D-3L
+- `V2-P070` `MethodUse`: composite Time Trade Off (cTTO), combining TTO and lead-time TTO
+- `V2-P070` `MethodUse`: Discrete Choice Experiment (DCE)
+- `V2-P070` `MethodUse`: Computer-assisted personal interviews
+- `V2-P070` `MethodUse`: Quota sampling based on age, sex and administrative region
+- `V2-P070` `MethodUse`: most recent birthday method
+- `V2-P070` `MethodUse`: standard EQ-VT health state design (86 health states in 10 blocks, including an efficient design of 80 states)
+- `V2-P070` `MethodUse`: Bayesian efficient design using priors from 19 EQ-5D-5L valuation studies
+- `V2-P070` `MethodUse`: feedback module (rank order of cTTO answers)
+- `V2-P070` `MethodUse`: Breusch-Pagan test
+- `V2-P070` `MethodUse`: leave-one-out analysis (leaving out a single state and leaving out a block)
+- `V2-P070` `ProtocolUse`: EQ-VT protocol, version 2.1
+- `V2-P070` `ProtocolUse`: Ramos-Goñi et al. EQ-VT quality control (QC) protocol
+- `V2-P070` `ProtocolUse`: CREATE checklist for reporting Valuation Studies of Multi-Attribute Utility-Based Instruments
+- `V2-P070` `ModelUse`: random intercept model
+- `V2-P070` `ModelUse`: random left-censored intercept Tobit model
+- `V2-P070` `ModelUse`: heteroskedastic model
+- `V2-P070` `ModelUse`: heteroskedastic Tobit model (cTTO only)
+- `V2-P070` `ModelUse`: conditional logit model
+- `V2-P070` `ModelUse`: mixed logit model
+- `V2-P070` `ModelUse`: hybrid model
+- `V2-P070` `ModelUse`: hybrid Tobit model
+- `V2-P070` `ModelUse`: hybrid heteroskedastic model
+- `V2-P070` `ModelUse`: hybrid heteroskedastic Tobit model
+- `V2-P070` `ModelUse`: cTTO and hybrid models estimated leaving out the responses flagged in the feedback module
+- `V2-P070` `ProductUse`: Trinidad and Tobago EQ-5D-5L crosswalk value set
+- `V2-P070` `ProductUse`: 2016 EQ-5D-3L value set for Trinidad and Tobago
+- `V2-P070` `ProductUse`: United States EQ-5D-5L value set (EQ-VT)
+- `V2-P071` `InstrumentUse`: EQ-HWB-9 (experimental EQ-HWB-9 (2022) version)
+- `V2-P071` `InstrumentUse`: EQ-HWB-9 (experimental EQ-HWB-9 (2022) version)
+- `V2-P071` `InstrumentUse`: Mini-Mental State Examination (MMSE)
+- `V2-P071` `InstrumentUse`: 7-item Zarit Burden Interview (ZBI-7)
+- `V2-P071` `InstrumentUse`: DemTect
+- `V2-P071` `InstrumentUse`: EQ-HWB-25 (25-item EQ Health and Wellbeing profile measure)
+- `V2-P071` `MethodUse`: Semi-structured interview guide with four thematic sections (open-ended questions)
+- `V2-P071` `MethodUse`: Closed-ended questions within the interview guide
+- `V2-P071` `MethodUse`: Qualitative content analysis according to Mayring (deductive and inductive coding)
+- `V2-P071` `MethodUse`: Double coding of the first ten interviews and screening of 11 randomly selected interviews by a second researcher with consensus discussion
+- `V2-P071` `MethodUse`: Random division of caregiver-PlwD dyads into two recall period groups (7 days vs. today)
+- `V2-P071` `MethodUse`: Daily health fluctuation diary over 14 days
+- `V2-P071` `MethodUse`: Recruitment through qualified study nurses working with general practitioner practices and memory clinics in ongoing DZNE studies
+- `V2-P072` `InstrumentUse`: EQ-5D-5L
+- `V2-P072` `InstrumentUse`: EQ-5D-5L
+- `V2-P072` `InstrumentUse`: EQ-5D-5L
+- `V2-P072` `InstrumentUse`: EQ VAS
+- `V2-P072` `InstrumentUse`: experimental Simplified Chinese EQ-HWB (v1.1), 25 items
+- `V2-P072` `InstrumentUse`: experimental Simplified Chinese EQ-HWB (v1.1), 25 items
+- `V2-P072` `InstrumentUse`: EQ-HWB-9
+- `V2-P072` `InstrumentUse`: EQ-HWB-9
+- `V2-P072` `InstrumentUse`: Brief Inventory of Thriving (BIT)
+- `V2-P072` `InstrumentUse`: Self-designed questions assessing daily activities and self-perceived effects of high temperature (including excessive sweating and self-perceived adaptation to weather)
+- `V2-P072` `InstrumentUse`: Self-designed questions assessing daily activities and self-perceived effects of high temperature (including excessive sweating and self-perceived adaptation to weather)
+- `V2-P072` `ScoringUse`: Chinese EQ-5D-5L value set
+- `V2-P072` `ScoringUse`: UK crosswalk EQ-5D-5L value set
+- `V2-P072` `ScoringUse`: England EQ-5D-5L value set
+- `V2-P072` `ScoringUse`: UK pilot value set for the EQ-HWB-9
+- `V2-P072` `MethodUse`: One-on-one, face-to-face interviews with responses entered into an online electronic questionnaire
+- `V2-P072` `MethodUse`: Community-based screening and recruitment of eligible residents through community officials in recreation centres
+- `V2-P072` `MethodUse`: Level sum score (LSS) approach
+- `V2-P072` `MethodUse`: Known-groups validity analysis using Cohen's d effect sizes (esize command)
+- `V2-P072` `MethodUse`: Responsiveness analysis using the standardized response mean (SRM)
+- `V2-P072` `MethodUse`: Evaluation of floor and ceiling effects using item-level (>70%) and instrument-level (>15%) criteria
+- `V2-P072` `MethodUse`: Descriptive statistics
+- `V2-P072` `MethodUse`: Chi-squared test
+- `V2-P072` `MethodUse`: Fisher's exact test
+- `V2-P072` `MethodUse`: Two-sample t-test
+- `V2-P072` `MethodUse`: Paired t-test
+- `V2-P072` `MethodUse`: Bootstrapping with 1000 replications and resampling with replacement
+- `V2-P072` `MethodUse`: Pilot testing of questionnaire items for respondent burden, clarity, and comprehensibility with minor revisions based on feedback
+- `V2-P073` `InstrumentUse`: EQ-5D-3L
+- `V2-P073` `InstrumentUse`: EQ-5D-3L
+- `V2-P073` `InstrumentUse`: EQ-5D-3L
+- `V2-P073` `InstrumentUse`: EQ-5D-3L
+- `V2-P073` `InstrumentUse`: EQ VAS
+- `V2-P073` `InstrumentUse`: EQ VAS
+- `V2-P073` `InstrumentUse`: EQ-5D-3L
+- `V2-P073` `InstrumentUse`: HSCL-25
+- `V2-P073` `InstrumentUse`: HSCL-25
+- `V2-P073` `InstrumentUse`: ICD-10
+- `V2-P073` `ScoringUse`: UK EQ-5D-3L tariff (Dolan, Modeling valuations for EuroQol health states)
+- `V2-P073` `ScoringUse`: UK EQ-5D-3L tariff (Dolan, Modeling valuations for EuroQol health states)
+- `V2-P073` `MethodUse`: Enrolment of patients in the Youth Addiction Treatment Evaluation Project residential treatment unit
+- `V2-P073` `MethodUse`: Parallel postal and web-based general population survey designed to be representative by age, sex, and educational level
+- `V2-P073` `MethodUse`: Fisher's exact test for proportions
+- `V2-P073` `MethodUse`: Kernel density plots (bandwidth 0.5 times canonical nrd0 default, 512 slices)
+- `V2-P073` `MethodUse`: Pearson correlation of EQ-5D-3L index values and anxiety/depression scores with HSCL-25 total scores
+- `V2-P073` `MethodUse`: Breush-Pagan test
+- `V2-P073` `MethodUse`: Non-constant variance test
+- `V2-P073` `MethodUse`: Box-Cox transformation of dependent variables
+- `V2-P073` `MethodUse`: Two-stage variable selection with critical p value < 0.05 for entry into the multivariate model
+- `V2-P073` `ModelUse`: Bivariate (univariate) linear regression models predicting EQ-5D-3L index values, EQ VAS scores, and HSCL-25 scores
+- `V2-P073` `ModelUse`: Multivariate (OLS) linear regression models predicting EQ-5D-3L index values, EQ VAS scores, and HSCL-25 scores
+- `V2-P073` `ModelUse`: Regression models rerun with Box-Cox transformed dependent variables
+- `V2-P074` `InstrumentUse`: EQ-5D-5L
+- `V2-P074` `InstrumentUse`: EQ-5D-5L
+- `V2-P074` `MethodUse`: Eye tracking (video-based eye tracker)
+- `V2-P074` `MethodUse`: Discrete choice (DC) response task (paired comparison)
+- `V2-P074` `MethodUse`: Time trade-off (TTO)
+- `V2-P074` `MethodUse`: Areas-of-interest statistics (heat maps, fixation paths, revisit and fixation frequency statistics)
+- `V2-P074` `MethodUse`: 9-point eye-calibration procedure (with recalibration until precision reached)
+- `V2-P074` `ProtocolUse`: EQ-VT (EuroQol Valuation Technology) standard protocol format
+- `V2-P075` `InstrumentUse`: EQ-5D-5L (official traditional Chinese character Taiwan version)
+- `V2-P075` `InstrumentUse`: EQ-5D-5L (official traditional Chinese character Taiwan version)
+- `V2-P075` `InstrumentUse`: EQ-5D-5L descriptive system (self-reported)
+- `V2-P075` `InstrumentUse`: EQ VAS
+- `V2-P075` `InstrumentUse`: EQ-5D-3L (Taiwan version)
+- `V2-P075` `MethodUse`: Multi-stage stratified quota sampling
+- `V2-P075` `MethodUse`: Composite time trade-off (C-TTO)
+- `V2-P075` `MethodUse`: Lead-time TTO
+- `V2-P075` `MethodUse`: Discrete choice experiment (DCE) without duration
+- `V2-P075` `MethodUse`: Monte Carlos simulations for selecting 86 health states over ten blocks
+- `V2-P075` `MethodUse`: Feedback module for C-TTO tasks
+- `V2-P075` `MethodUse`: Quality control flags for C-TTO interviews and unusual DCE response patterns
+- `V2-P075` `MethodUse`: Standardized interviewer training program with cyclic feedback and retraining
+- `V2-P075` `MethodUse`: Iterative translation procedure (English into traditional Chinese characters)
+- `V2-P075` `MethodUse`: Chi-squared test
+- `V2-P075` `MethodUse`: Random selection of a subsample matched by age, gender, living area, and education
+- `V2-P075` `MethodUse`: Akaike information criterion (AIC)
+- `V2-P075` `MethodUse`: Bayesian information criterion (BIC)
+- `V2-P075` `MethodUse`: Rescaling of DCE coefficients using theta derived from the hybrid model
+- `V2-P075` `MethodUse`: Kernel density function of predicted values for 3,125 health states
+- `V2-P075` `ProtocolUse`: International standardized EQ-5D-5L valuation protocol developed by the EuroQol Group
+- `V2-P075` `ProtocolUse`: Interview guide for data collection
+- `V2-P075` `ProtocolUse`: Quality Control Process for EQ-5D-5L Valuation Studies
+- `V2-P075` `ModelUse`: Ordinary least square (OLS) regression
+- `V2-P075` `ModelUse`: General least square (GLS) regression
+- `V2-P075` `ModelUse`: Tobit regression censored at -1
+- `V2-P075` `ModelUse`: Tobit-GLS regression censored at -1
+- `V2-P075` `ModelUse`: Conditional logistic regression model (DCE)
+- `V2-P075` `ModelUse`: Standard hybrid model
+- `V2-P075` `ModelUse`: Hybrid-Tobit model with C-TTO values censored at -1, without heteroscedasticity and constant
+- `V2-P075` `ProductUse`: Indonesian EQ-5D-5L value set
+- `V2-P075` `ProductUse`: Hong Kong EQ-5D-5L value set
+- `V2-P075` `ProductUse`: Taiwan EQ-5D-3L quality weights from Lee's time trade-off valuation study
+- `V2-P076` `MethodUse`: Person Trade-Off (PTO)
+- `V2-P076` `MethodUse`: Person Trade-Off (PTO)
+- `V2-P076` `MethodUse`: Think-aloud protocol (concurrent verbalization)
+- `V2-P076` `MethodUse`: Semi-structured interviewer probing prompts
+- `V2-P076` `MethodUse`: Attitudinal questions on health prioritization
+- `V2-P076` `MethodUse`: Thematic analysis
+- `V2-P076` `MethodUse`: Framework analysis approach adapted from Gale et al. (2013)
+- `V2-P076` `MethodUse`: Independent double coding by three researchers with consensus discussion
+- `V2-P076` `MethodUse`: Purposive recruitment through two mechanisms (commercial panel and P-MIC sample-frame)
+- `V2-P076` `MethodUse`: Random assignment of forced/unforced arm and of the ages presented in PTO questions
+- `V2-P076` `ProtocolUse`: Published protocol for the mixed methods Person Trade Off (PTO) and qualitative study (Peasgood et al. 2024)
+- `V2-P076` `ProtocolUse`: COREQ (COnsolidated criteria for REporting qualitative research) checklist
+- `V2-P077` `InstrumentUse`: EQ-5D-Y
+- `V2-P077` `InstrumentUse`: EQ-5D-Y
+- `V2-P077` `InstrumentUse`: EQ-5D-3L
+- `V2-P077` `InstrumentUse`: VAS scale
+- `V2-P077` `InstrumentUse`: EQ-5D-3L
+- `V2-P077` `MethodUse`: discrete choice experiment (DCE) with a duration attribute
+- `V2-P077` `MethodUse`: QALY composition task
+- `V2-P077` `MethodUse`: Bayesian efficient design algorithm
+- `V2-P077` `MethodUse`: orthogonal array
+- `V2-P077` `MethodUse`: stratified sampling (age, gender, education)
+- `V2-P077` `MethodUse`: quota sampling (age and gender)
+- `V2-P077` `MethodUse`: speeder exclusion using a speeding threshold of 530 s for the entire survey
+- `V2-P077` `MethodUse`: maximum likelihood estimation
+- `V2-P077` `MethodUse`: descriptive statistics
+- `V2-P077` `MethodUse`: translation of the Dutch survey version into a Chinese version
+- `V2-P077` `ProtocolUse`: EQ-5D-Y valuation protocol (international valuation protocol for the EQ-5D-Y-3L)
+- `V2-P077` `ModelUse`: conditional logit model
+- `V2-P077` `ModelUse`: exponential discount function for the net present value of life years
+- `V2-P078` `InstrumentUse`: EQ-5D-3L
+- `V2-P078` `InstrumentUse`: EQ-5D-3L
+- `V2-P078` `InstrumentUse`: Self-rated health (good, average, poor)
+- `V2-P078` `InstrumentUse`: Perceived stress question ("In the past 30 days, have you been stressed, under pressure?")
+- `V2-P078` `InstrumentUse`: Depressiveness question ("In the past 30 days, have you been unhappy, depressed (suffering from depressiveness)?")
+- `V2-P078` `InstrumentUse`: Overtiredness question ("In the past 12 months, how often have you felt overtired?")
+- `V2-P078` `ScoringUse`: European value set (single European currency for EQ-5D health states, VAS valuation data from 11 valuation studies in 6 European countries)
+- `V2-P078` `MethodUse`: Random sampling from the National Population Registry
+- `V2-P078` `MethodUse`: Representative sample of 16–64-year-old Estonian residents (HBEP 18th wave)
+- `V2-P078` `MethodUse`: Case-control matching (1:1 exact matching based on sex and age)
+- `V2-P078` `MethodUse`: Mixed-mode survey (online and postal questionnaires)
+- `V2-P078` `MethodUse`: z-test for group differences in EQ-5D-3L domains and index values
+- `V2-P078` `MethodUse`: Bonferroni correction
+- `V2-P078` `MethodUse`: Sequential exclusion of statistically non-significant variables (stepwise removal starting from the highest p-value)
+- `V2-P078` `ModelUse`: Tobit regression
+- `V2-P078` `ModelUse`: OLS regression
+- `V2-P079` `InstrumentUse`: EQ-5D-3L
+- `V2-P079` `InstrumentUse`: EQ-5D-3L
+- `V2-P079` `InstrumentUse`: EQ-5D visual analogue scale (VAS)
+- `V2-P079` `InstrumentUse`: EQ-5D-3L proxy version 1 in English
+- `V2-P079` `InstrumentUse`: brief optional questions on the feasibility of completing the EQ-5D-3L, participant demographics, and diagnosis (Supplementary File S2)
+- `V2-P079` `InstrumentUse`: EQ-5D-5L
+- `V2-P079` `InstrumentUse`: Edmonton Symptom Assessment System (ESAS)
+- `V2-P079` `MethodUse`: prospective convenience sample surveyed during chemotherapy appointment with eligibility screening via appointment scheduling system
+- `V2-P079` `MethodUse`: Descriptive statistics assessing feasibility
+- `V2-P079` `MethodUse`: semi-structured interviews with two interviewers (two-on-one), recorded and transcribed verbatim
+- `V2-P079` `MethodUse`: content analysis with a code book of themes created as themes emerged
+- `V2-P080` `InstrumentUse`: EQ-5D
+- `V2-P080` `InstrumentUse`: EQ-5D-5L
+- `V2-P080` `InstrumentUse`: EQ-5D proxy versions
+- `V2-P080` `InstrumentUse`: EQ-VAS
+- `V2-P080` `InstrumentUse`: Short Form-36 (SF-36)
+- `V2-P080` `InstrumentUse`: Short Form-6D (SF-6D)
+- `V2-P080` `InstrumentUse`: Health Utility Index Mark 3 (HUI3)
+- `V2-P080` `InstrumentUse`: Short-Form
+- `V2-P080` `MethodUse`: standard gamble
+- `V2-P080` `MethodUse`: time trade-off
+- `V2-P080` `MethodUse`: visual analog scale (VAS)
+- `V2-P080` `MethodUse`: discrete choice experiments
+- `V2-P080` `MethodUse`: quality-adjusted life-year (QALY) calculation
+- `V2-P080` `MethodUse`: Kaplan-Meier curve reporting of health-utility alongside mortality
+- `V2-P081` `InstrumentUse`: EQ-5D-5L
+- `V2-P081` `InstrumentUse`: EQ-VAS
+- `V2-P081` `InstrumentUse`: EQ-5D-5L
+- `V2-P081` `InstrumentUse`: EQ-5D-5L
+- `V2-P081` `InstrumentUse`: demographic questionnaire (adapted from van Nooten et al., 2016)
+- `V2-P081` `ScoringUse`: Dutch tariff (Versteegh et al., 2016)
+- `V2-P081` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P081` `MethodUse`: lead-time TTO
+- `V2-P081` `MethodUse`: top-down titration search procedure (Oppe et al., 2014)
+- `V2-P081` `MethodUse`: non-parametric method (Abdellaoui et al., 2016)
+- `V2-P081` `MethodUse`: direct method (Attema et al., 2012)
+- `V2-P081` `MethodUse`: validation task (adaptation of Lipman et al., 2020a)
+- `V2-P081` `MethodUse`: corrective approach (Lipman et al., 2019c)
+- `V2-P081` `MethodUse`: linear interpolation of L(T)
+- `V2-P081` `MethodUse`: area under the curve (AUC) characterization of L*(x)
+- `V2-P081` `MethodUse`: recruitment of a non-random general public sample through a marketing company
+- `V2-P081` `MethodUse`: problematic responses as defined by Alava et al. (2020)
+- `V2-P081` `MethodUse`: paired t-tests
+- `V2-P081` `MethodUse`: Chi-squared tests
+- `V2-P081` `MethodUse`: Wilcoxon tests
+- `V2-P081` `MethodUse`: ANOVA
+- `V2-P081` `MethodUse`: multivariate linear regression
+- `V2-P081` `MethodUse`: Bonferroni adjustment for multiple comparisons
+- `V2-P081` `MethodUse`: Spearman correlation
+- `V2-P081` `ProtocolUse`: EQ-VT protocol (Stolk et al., 2019)
+- `V2-P081` `ModelUse`: exponential discount function estimated by non-linear least squares
+- `V2-P082` `InstrumentUse`: EQ-5D-5L
+- `V2-P082` `InstrumentUse`: EQ-5D-5L
+- `V2-P082` `InstrumentUse`: EQ-5D-5L
+- `V2-P082` `MethodUse`: Pareto Classification of Health Change (PCHC)
+- `V2-P082` `MethodUse`: Minimally important differences (MID) for EQ-5D-5L index (0.04) and VAS (7.0)
+- `V2-P082` `MethodUse`: Effect size of change (mean change divided by baseline standard deviation)
+- `V2-P082` `ScoringUse`: Canadian EQ-5D-5L value set (Xie et al., time trade-off derived)
+- `V2-P082` `ProductUse`: Alberta Population Norms for EQ-5D-5L (APERSU, 2018)
+- `V2-P083` `InstrumentUse`: EQ-5D-5L
+- `V2-P083` `InstrumentUse`: EQ-5D-5L
+- `V2-P083` `InstrumentUse`: EQ-5D-3L
+- `V2-P083` `InstrumentUse`: SF-12
+- `V2-P083` `InstrumentUse`: SF-12
+- `V2-P083` `InstrumentUse`: SF-6D
+- `V2-P083` `InstrumentUse`: 36-item Kidney Disease Quality of Life questionnaire (KDQOL-36)
+- `V2-P083` `InstrumentUse`: SF-12
+- `V2-P083` `ScoringUse`: EQ-5D-5L value set for England (Devlin et al.)
+- `V2-P083` `ScoringUse`: UK EQ-5D-3L value set
+- `V2-P083` `ScoringUse`: SF-6D (SF-12 based) preference weights algorithm (Brazier and Roberts)
+- `V2-P083` `ModelUse`: Markov model 1 (non-diabetic ESRD patients)
+- `V2-P083` `ModelUse`: Markov model 2 (diabetic ESRD patients)
+- `V2-P083` `ModelUse`: Direct-mapping function a. (Franks et al., low-income minority sample; OLS with centered PCS, MCS and interaction)
+- `V2-P083` `ModelUse`: Direct-mapping function b. (Franks et al.; OLS with PCS, MCS and interaction terms)
+- `V2-P083` `ModelUse`: Direct-mapping function c. (Lawrence and Fleishman; OLS with PCS and MCS only)
+- `V2-P083` `ModelUse`: Response-mapping function d. (Gray et al.; multinomial logit on SF-12 summary scores)
+- `V2-P083` `ModelUse`: Response-mapping function e. (Gray et al.; multinomial logit on individual SF-12 questions)
+- `V2-P083` `ModelUse`: Multivariate linear regression models predicting mean utility values for HD and PD states
+- `V2-P083` `MethodUse`: Non-parametric bootstrap method (percentile method, 1,000 replications)
+- `V2-P083` `MethodUse`: Cost-utility analysis (incremental QALYs and ICERs, societal perspective, 3% discounting)
+- `V2-P083` `MethodUse`: Consecutive sampling of HD and PD patients
+- `V2-P084` `InstrumentUse`: EQ-5D descriptive system
+- `V2-P084` `InstrumentUse`: EQ-VAS (the EuroQol's standardised VAS)
+- `V2-P084` `InstrumentUse`: three-level simplification of the EQ-5D-5L
+- `V2-P084` `InstrumentUse`: three-level simplification of the EQ-5D-5L
+- `V2-P084` `InstrumentUse`: short form individual quality of life measure direct weighting technique (SEIQoL-DW)
+- `V2-P084` `InstrumentUse`: Patient Generated Index
+- `V2-P084` `MethodUse`: swing weighting
+- `V2-P084` `MethodUse`: dimension ranking task (ranking of the five EQ-5D dimensions)
+- `V2-P084` `MethodUse`: allocation of 100 points between two improvements (level rating task)
+- `V2-P084` `MethodUse`: paired comparison tasks
+- `V2-P084` `MethodUse`: TTO-type tasks (10 years in a health state versus dying now)
+- `V2-P084` `MethodUse`: iterative procedure involving a bisection approach
+- `V2-P084` `MethodUse`: algorithm generating paired comparison tasks tailored to each respondent's previous answers
+- `V2-P084` `MethodUse`: 'door-knock' recruitment approach
+- `V2-P084` `MethodUse`: convenience sample of health outcomes professionals/colleagues
+- `V2-P084` `MethodUse`: descriptive methods such as means, medians, standard deviations and frequency distributions
+- `V2-P084` `MethodUse`: pairwise correlation between section B rankings and section C implied rankings (pwcorr)
+- `V2-P084` `MethodUse`: two methods for dealing with tied ranking data (average, AVG; skip next ranking, EQ)
+- `V2-P084` `MethodUse`: construction of PUFs on a 0–1 scale anchored at dead = 0 using section F responses
+- `V2-P084` `MethodUse`: aggregation of PUFs into a social utility function (mean and median of PUFs)
+- `V2-P084` `MethodUse`: debrief questions seeking feedback on the interview
+- `V2-P084` `MethodUse`: 1-day interviewer training course with detailed instruction booklet and periodic follow-up during fieldwork
+- `V2-P084` `ProtocolUse`: EuroQol protocol for the valuation of EQ-5D-5L health states
+- `V2-P084` `ProtocolUse`: EuroQol Group quality control procedures for EQ-5D-5L valuation studies
+- `V2-P084` `ProductUse`: EQ-5D-3L value set for the UK (MVH value set)
+- `V2-P084` `ProductUse`: EQ-5D-5L value set for England
+- `V2-P085` `InstrumentUse`: EQ-5D-3L
+- `V2-P085` `InstrumentUse`: EQ-5D-3L
+- `V2-P085` `InstrumentUse`: EQ-5D-Y
+- `V2-P085` `InstrumentUse`: EQ-5D-Y
+- `V2-P085` `InstrumentUse`: Self-reported EQ-5D profile
+- `V2-P085` `MethodUse`: visual analogue scale (VAS)
+- `V2-P085` `MethodUse`: lag-time time trade-off (TTO)
+- `V2-P085` `MethodUse`: discrete choice experiment with duration (DCEd)
+- `V2-P085` `MethodUse`: location-of-dead (LOD) approach, part of the personal utility function (PUF) approach
+- `V2-P085` `MethodUse`: ranking task of EQ-5D level 1 descriptors
+- `V2-P085` `MethodUse`: D-efficiency measure based design construction (six-step approach with simulated designs and blocking)
+- `V2-P085` `MethodUse`: simple algorithm generating a personalised ranking of the 243 health states
+- `V2-P085` `MethodUse`: iterative bisection procedure
+- `V2-P085` `MethodUse`: VAS rescaling formula ((Rating_h − Rating_dead)/(Rating_11111 − Rating_dead))
+- `V2-P085` `MethodUse`: Rescaling of LOD latent utilities onto the 0 (dead) to 1 (full health) scale
+- `V2-P085` `MethodUse`: 'door knock' recruitment approach in randomly allocated postal areas
+- `V2-P085` `MethodUse`: recruitment questionnaire for age and gender representativeness
+- `V2-P085` `MethodUse`: sample size rules of thumb (Lancsar and Louviere; Hensher et al.)
+- `V2-P085` `MethodUse`: cognitive interviews with probing questions
+- `V2-P085` `MethodUse`: debrief and background questions
+- `V2-P085` `MethodUse`: open-ended text box descriptions of health problems worse than immediate death
+- `V2-P085` `MethodUse`: descriptive analysis using frequencies, percentages and box plots
+- `V2-P085` `ProtocolUse`: adapted version of the quality control process developed for EQ-5D-5L valuation studies
+- `V2-P085` `ProtocolUse`: current EQ-5D-5L valuation protocol (iterative TTO approach)
+- `V2-P085` `ModelUse`: regular conditional logit model
+- `V2-P085` `ModelUse`: conditional logit model assuming non-constant proportionality with fixed ½ power
+- `V2-P085` `ModelUse`: conditional logit model with best-fitted estimated power (power = 0.296)
+- `V2-P085` `ModelUse`: Bansback et al. model (time as an interaction)
+- `V2-P085` `ModelUse`: mixed logit model results from the EQ-5D-Y latent scale DCE study reported by Rivero-Arias et al.
+- `V2-P086` `InstrumentUse`: EQ-HWB (EQ health and wellbeing instrument)
+- `V2-P086` `InstrumentUse`: EQ-5D
+- `V2-P086` `InstrumentUse`: SF-6D
+- `V2-P086` `InstrumentUse`: HUI mark 3
+- `V2-P086` `InstrumentUse`: 15D
+- `V2-P086` `InstrumentUse`: AQoL-8D
+- `V2-P086` `InstrumentUse`: WHOQoL
+- `V2-P086` `InstrumentUse`: ICECAP-O
+- `V2-P086` `InstrumentUse`: ASCOT
+- `V2-P086` `InstrumentUse`: ASCOT-Carer
+- `V2-P086` `InstrumentUse`: Carer experience scale
+- `V2-P086` `InstrumentUse`: CarerQol-7D
+- `V2-P086` `InstrumentUse`: CASP-19
+- `V2-P086` `MethodUse`: Large-scale literature review of qualitative studies
+- `V2-P086` `MethodUse`: 'Framework' method for data extraction and synthesis
+- `V2-P086` `MethodUse`: Consultation with project governance and consultation groups on dropping and merging domains
+- `V2-P086` `MethodUse`: Face validity interviews
+- `V2-P086` `MethodUse`: Psychometric analysis of items
+- `V2-P087` `InstrumentUse`: EQ-5D-Y-3L self-complete version (Y-3Ls), official Chinese (for China) version
+- `V2-P087` `InstrumentUse`: EQ-5D-Y-5L self-complete beta version (Y-5Ls)
+- `V2-P087` `InstrumentUse`: EQ-5D-Y-3L proxy version 1 (Y-3Lp)
+- `V2-P087` `InstrumentUse`: EQ-5D-Y-5L proxy version 1 beta (Y-5Lp)
+- `V2-P087` `InstrumentUse`: EQ VAS
+- `V2-P087` `InstrumentUse`: Self-rated health (SRH) question (self-complete)
+- `V2-P087` `InstrumentUse`: Proxy version of the self-rated health (SRH) question
+- `V2-P087` `InstrumentUse`: Eastern Cooperative Oncology Group (ECOG) performance scale
+- `V2-P087` `InstrumentUse`: EQ-5D-Y-5L English version
+- `V2-P087` `InstrumentUse`: EQ-5D-Y-5L Chinese beta version (self-complete and proxy)
+- `V2-P087` `MethodUse`: Recruitment of all admitted eligible paediatric inpatients and their caregivers from Shanghai Children Medical Centre
+- `V2-P087` `MethodUse`: Face-to-face interviewer-administered questionnaire interviews at baseline and follow-up
+- `V2-P087` `MethodUse`: Gwet’s agreement coefficient (Gwet’s AC1)
+- `V2-P087` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P087` `MethodUse`: Translation of the EQ-5D-Y-5L from English into Chinese by the investigators
+- `V2-P087` `ProtocolUse`: Standard EuroQol Group translation guidelines
+- `V2-P088` `InstrumentUse`: EQ-5D-5L
+- `V2-P088` `InstrumentUse`: EQ-5D-5L
+- `V2-P088` `InstrumentUse`: EQ-5D-5L
+- `V2-P088` `InstrumentUse`: EQ VAS
+- `V2-P088` `InstrumentUse`: EQ-5D-3L
+- `V2-P088` `InstrumentUse`: country-specific questionnaire
+- `V2-P088` `ProductUse`: Romanian EQ-5D-3L value set
+- `V2-P088` `ProductUse`: Polish EQ-5D-5L value set
+- `V2-P088` `ProductUse`: Hungarian EQ-5D-5L value set
+- `V2-P088` `ProtocolUse`: EuroQol Valuation Technique (EQ-VT) version 2.1
+- `V2-P088` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies
+- `V2-P088` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P088` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P088` `MethodUse`: three-stage probability sampling procedure stratified by region and settlement size
+- `V2-P088` `MethodUse`: random-walk technique and next birthday rule
+- `V2-P088` `MethodUse`: feedback module
+- `V2-P088` `MethodUse`: survey weights
+- `V2-P088` `MethodUse`: z test
+- `V2-P088` `MethodUse`: Bland–Altman plots
+- `V2-P088` `MethodUse`: Kernel density plot
+- `V2-P088` `MethodUse`: rescaling of DCE latent-scale values using the theta parameter of the best-fitting hybrid model
+- `V2-P088` `ModelUse`: Tobit models
+- `V2-P088` `ModelUse`: multilevel models with random intercepts for interviewer and respondent effects
+- `V2-P088` `ModelUse`: random coefficient models
+- `V2-P088` `ModelUse`: heteroskedastic models
+- `V2-P088` `ModelUse`: interval regression model (IRM)
+- `V2-P088` `ModelUse`: interval regression model censored at – 1 (IRMC)
+- `V2-P088` `ModelUse`: conditional logit model (CLOGIT)
+- `V2-P088` `ModelUse`: hybrid model heteroskedastic without constant (HMH)
+- `V2-P088` `ModelUse`: hybrid model heteroskedastic without constant censored at – 1 (HMHC)
+- `V2-P088` `ModelUse`: HMHC model corrected with survey weights (weighted V6 dataset)
+- `V2-P088` `ModelUse`: HMHC model run on the full dataset with no exclusions (dataset V1)
+- `V2-P089` `InstrumentUse`: EQ-5D-3L
+- `V2-P089` `InstrumentUse`: EQ-5D-3L
+- `V2-P089` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P089` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P089` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P089` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P089` `MethodUse`: ranking task of the 10 dimension-level descriptors
+- `V2-P089` `MethodUse`: convenience sampling
+- `V2-P089` `MethodUse`: Student's t tests
+- `V2-P089` `MethodUse`: Chi-squared tests for proportions
+- `V2-P089` `MethodUse`: Pearson correlation coefficients
+- `V2-P089` `MethodUse`: Level Sum Score (LSS) and absolute difference in LSS (∆LSS)
+- `V2-P089` `MethodUse`: deterministic approach to predicting responses under heuristic valuation strategies
+- `V2-P089` `MethodUse`: model fit comparison based on AIC and BIC
+- `V2-P089` `ProtocolUse`: quality control process for EQ-5D-5L valuation studies (Ramos-Goñi et al. [31])
+- `V2-P089` `ProtocolUse`: version 2 of the EQ-5D-5L valuation protocol (Stolk et al. [38])
+- `V2-P089` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L (Ramos-Goñi et al. [32])
+- `V2-P089` `ModelUse`: standard six-parameter multinomial logit model
+- `V2-P089` `ModelUse`: Tallying model
+- `V2-P089` `ModelUse`: Dominant decision-making models
+- `V2-P089` `ModelUse`: Attribute non-attendance models
+- `V2-P089` `ModelUse`: 10-parameter multinomial logit model (Eq. 1)
+- `V2-P090` `InstrumentUse`: EQ-5D-3L
+- `V2-P090` `InstrumentUse`: EQ-5D-3L
+- `V2-P090` `InstrumentUse`: EQ-5D-5L
+- `V2-P090` `InstrumentUse`: EQ-5D-5L
+- `V2-P090` `InstrumentUse`: SF-6Dv2
+- `V2-P090` `InstrumentUse`: SF-6Dv2
+- `V2-P090` `InstrumentUse`: EQ VAS
+- `V2-P090` `InstrumentUse`: EQ VAS
+- `V2-P090` `InstrumentUse`: 12-Item World Health Organization Disability Assessment Schedule (WHODAS) 2.0
+- `V2-P090` `ScoringUse`: EuroQol suggested Chinese value set for the 3L (Chinese time trade-off values for EQ-5D health states)
+- `V2-P090` `ScoringUse`: EuroQol suggested Chinese value set for the 5L (EQ-5D-5L value set for China)
+- `V2-P090` `ScoringUse`: Chinese utility value of the SF-6Dv2 (range: −0.535 to 1)
+- `V2-P090` `MethodUse`: Web-based cross-sectional survey
+- `V2-P090` `MethodUse`: Recruitment of registered PDCC members via the patient organization's internal network
+- `V2-P090` `MethodUse`: Data quality checks of completion time and response pattern (flatlining)
+- `V2-P090` `MethodUse`: Ceiling and floor effects
+- `V2-P090` `MethodUse`: Spearman's rank correlation
+- `V2-P090` `MethodUse`: Pearson's Chi-squared test
+- `V2-P090` `MethodUse`: ANOVA F-statistic for relative efficiency
+- `V2-P090` `MethodUse`: Gwet's agreement coefficient (Gwet's AC)
+- `V2-P090` `MethodUse`: Intraclass correlation coefficient (two-way mixed effects, single measurement, absolute agreement)
+- `V2-P090` `MethodUse`: Bland–Altman (B–A) plot
+- `V2-P090` `MethodUse`: WHO simple scoring method for the 12-item WHODAS 2.0
+- `V2-P091` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P091` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P091` `InstrumentUse`: Child Health Utility 9D (CHU9D)
+- `V2-P091` `InstrumentUse`: Child Health Utility 9D (CHU9D)
+- `V2-P091` `InstrumentUse`: Pediatric Quality of Life Inventory version 4.0 Generic Core Scales (PedsQL™)
+- `V2-P091` `InstrumentUse`: Presence and Impact of Pain in Kids (PIP-Kids) questionnaire
+- `V2-P091` `InstrumentUse`: Numerical rating scale pain (NRSP)
+- `V2-P091` `InstrumentUse`: Sociodemographic questionnaire
+- `V2-P091` `InstrumentUse`: Pediatric Quality of Life Inventory version 4.0 Generic Core Scales (PedsQL™)
+- `V2-P091` `ProtocolUse`: COnsensus-based Standards for the selection of health Measurement INstruments (COSMIN) taxonomy and criteria
+- `V2-P091` `ProtocolUse`: Checklist for judging preference-based measures of health used in economic evaluations (Brazier and Deverill)
+- `V2-P091` `MethodUse`: Kappa coefficient
+- `V2-P091` `MethodUse`: Intraclass Correlation Coefficient – ICC (two-way mixed effects, absolute agreement, single rater/measurement)
+- `V2-P091` `MethodUse`: Percentage of agreement between baseline and retest responses
+- `V2-P091` `MethodUse`: Standard Error of Measurement (SEM)
+- `V2-P091` `MethodUse`: Smallest Detectable Change (SDC)
+- `V2-P091` `MethodUse`: A-priori hypothesis testing for construct validity (≥75% of hypotheses confirmed)
+- `V2-P091` `MethodUse`: Spearman correlation coefficient
+- `V2-P091` `MethodUse`: Pearson correlation coefficient
+- `V2-P091` `MethodUse`: Chi-Square test
+- `V2-P091` `MethodUse`: Independent t-test
+- `V2-P091` `MethodUse`: Mann-Whitney test
+- `V2-P091` `MethodUse`: Sample size calculation based on the Chi-Square test for known-group validity
+- `V2-P091` `MethodUse`: Randomisation of the order of administration of the EQ-5D-Y instruments
+- `V2-P091` `MethodUse`: Calculation of missing data and completion rates per instrument dimension
+- `V2-P091` `MethodUse`: Ceiling and floor effect calculation including absolute and percent ceiling reduction (ceiling Y-3L – ceiling Y-5L / ceiling Y-3L)
+- `V2-P092` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P092` `InstrumentUse`: EQ-5D-5L
+- `V2-P092` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P092` `InstrumentUse`: EQ-5D-5L
+- `V2-P092` `InstrumentUse`: EQ-5D-3L
+- `V2-P092` `ProductUse`: An Australian value set for the EQ-5D-Y-3L
+- `V2-P092` `ProductUse`: An EQ-5D-Y-3L Value Set for Belgium
+- `V2-P092` `ProductUse`: EQ-5D-Y-3L value set for Brazil
+- `V2-P092` `ProductUse`: EQ-5D-Y-3L value set for China
+- `V2-P092` `ProductUse`: EQ-5D-Y value set for Germany
+- `V2-P092` `ProductUse`: Value Set for the EQ-5D-Y-3L in Hungary
+- `V2-P092` `ProductUse`: EQ-5D-Y-3L value set for Indonesia
+- `V2-P092` `ProductUse`: EQ-5D-Y value set in Japan
+- `V2-P092` `ProductUse`: A value set for the EQ-5D-Y-3L in the Netherlands
+- `V2-P092` `ProductUse`: EQ-5D-Y value set for Slovenia
+- `V2-P092` `ProductUse`: Spanish EQ-5D-Y-3L value set
+- `V2-P092` `ProductUse`: EQ-5D-5L value set for Australia
+- `V2-P092` `ProductUse`: An EQ-5D-5L value set for Belgium
+- `V2-P092` `ProductUse`: EQ-5D-5L value set for China
+- `V2-P092` `ProductUse`: German value set for the EQ-5D-5L
+- `V2-P092` `ProductUse`: Hungarian EQ-5D-5L value set
+- `V2-P092` `ProductUse`: The Indonesian EQ-5D-5L value set
+- `V2-P092` `ProductUse`: EQ-5D-5L value set for Japan
+- `V2-P092` `ProductUse`: Dutch tariff for the five-level version of EQ-5D
+- `V2-P092` `ProductUse`: EQ-5D-5L value set for Slovenia
+- `V2-P092` `ProductUse`: Spanish EQ-5D-5L value set
+- `V2-P092` `MethodUse`: Extraction of value set algorithms and key study characteristics from published manuscripts
+- `V2-P092` `MethodUse`: Application of value set algorithms to all possible health states (243 EQ-5D-Y-3L and 3125 EQ-5D-5L states)
+- `V2-P092` `MethodUse`: Kernel density plots
+- `V2-P092` `MethodUse`: Adapted criteria of Olsen et al. (2018) and Roudijk, Janssen & Olsen (2022) for identifying common preference patterns
+- `V2-P092` `MethodUse`: Aggregate preference pattern (mean of values for each health state across included country value sets)
+- `V2-P092` `MethodUse`: Mean Absolute Error (MAE)
+- `V2-P092` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P092` `MethodUse`: Composite Time Trade-Off (cTTO)
+- `V2-P092` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L (Ramos-Goñi et al. 2020)
+- `V2-P092` `ProtocolUse`: EQ-VT protocol
+- `V2-P092` `ModelUse`: Mixed logit model
+- `V2-P092` `ModelUse`: Latent class model
+- `V2-P092` `ModelUse`: Garbage class mixed logit model
+- `V2-P092` `ModelUse`: Hybrid model with the A3 term (DCE and cTTO data modelled jointly)
+- `V2-P092` `ModelUse`: OLS mapping (with and without intercept) of DCE data onto cTTO data
+- `V2-P092` `ModelUse`: Non-linear mapping (power without constant)
+- `V2-P093` `InstrumentUse`: Self-reported health (SRH) item, categorical (1) Very good to (5) Very poor, reversed
+- `V2-P093` `InstrumentUse`: World Values Survey cultural dimensions (traditional/rational–secular and survival/self-expression), based on factor analysis of 10 items
+- `V2-P093` `InstrumentUse`: World Values Survey / European Values Study socio-demographic items (gender, education, income scale, self-perceived social class, age)
+- `V2-P093` `MethodUse`: WVS representative sampling scheme in each country
+- `V2-P093` `MethodUse`: Factor analysis of 10 items to form the two composite cultural dimensions
+- `V2-P093` `MethodUse`: Merging of WVS and EVS longitudinal data into the Integrated Values Survey database
+- `V2-P093` `MethodUse`: Reverse coding of the SRH variable and centering of socio-demographic and macroeconomic variables
+- `V2-P093` `MethodUse`: Complete-case analysis (no data estimation for missing data)
+- `V2-P093` `MethodUse`: Additional analyses comparing the final dataset with the excluded data (selection bias check)
+- `V2-P093` `MethodUse`: Multilevel mixed effects modeling with random slopes and country-dependent intercepts, and linear regression analyses within and between countries
+- `V2-P093` `ProtocolUse`: Merging protocol provided by the World Values Survey Association
+- `V2-P093` `ModelUse`: Model 1: within-country linear regression of SRH on the two cultural dimensions
+- `V2-P093` `ModelUse`: Model 2: within-country linear regression including socio-demographic variables
+- `V2-P093` `ModelUse`: Model 3: multilevel mixed effects model with random slopes and country-dependent intercepts
+- `V2-P093` `ModelUse`: Model 4: mixed effects model with socio-demographic control variables
+- `V2-P093` `ModelUse`: Model 5: mixed effects model with socio-demographic and macroeconomic control variables
+- `V2-P093` `ModelUse`: Model 6: between-country regression of country-level SRH on country-level cultural values
+- `V2-P094` `InstrumentUse`: EQ-5D-Y (EQ-5D-Y-3L)
+- `V2-P094` `InstrumentUse`: EQ-5D-Y-4L (preliminary four-level draft version)
+- `V2-P094` `InstrumentUse`: EQ-5D-Y-5L (preliminary five-level draft version)
+- `V2-P094` `InstrumentUse`: EQ-5D-Y-4L (preliminary four-level draft version)
+- `V2-P094` `InstrumentUse`: EQ-5D-Y-5L (preliminary five-level draft version)
+- `V2-P094` `InstrumentUse`: EQ-VAS
+- `V2-P094` `InstrumentUse`: Modified version of the faces ('smiley') scale from the UK Household Longitudinal Study
+- `V2-P094` `InstrumentUse`: EQ-5D-5L (adult five-level version)
+- `V2-P094` `MethodUse`: Review of existing generic and disease-specific HRQoL instruments (with dictionary and thesaurus synonym search)
+- `V2-P094` `MethodUse`: Focus group interviews
+- `V2-P094` `MethodUse`: Thematic content analysis
+- `V2-P094` `MethodUse`: Sorting task
+- `V2-P094` `MethodUse`: Response scaling
+- `V2-P094` `MethodUse`: Convenience sampling in primary and secondary schools
+- `V2-P094` `MethodUse`: Descriptive statistics (mean, standard deviation, median, mode, minimum, maximum) of sorting and response scaling data
+- `V2-P094` `MethodUse`: Pilot test of the sorting and response scaling tasks before application to the full sample
+- `V2-P094` `MethodUse`: Cognitive interviews
+- `V2-P094` `MethodUse`: Paraphrasing method
+- `V2-P094` `MethodUse`: Probing
+- `V2-P094` `MethodUse`: Thematic content analysis
+- `V2-P094` `MethodUse`: Translation of the Swedish, Spanish and German 5L versions into English and harmonization exercise involving researchers from each country
+- `V2-P094` `ProtocolUse`: Common standardized protocol used in both phases in each country
+- `V2-P095` `InstrumentUse`: EQ-5D-5L
+- `V2-P095` `InstrumentUse`: EQ-5D-5L
+- `V2-P095` `InstrumentUse`: EQ-5D-5L health states (descriptive system)
+- `V2-P095` `InstrumentUse`: EQ-VAS
+- `V2-P095` `MethodUse`: Composite time trade-off (C-TTO)
+- `V2-P095` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P095` `MethodUse`: Multi-stage stratified cluster sampling
+- `V2-P095` `MethodUse`: Probabilistic quota-based recruitment method (quota by age group and sex)
+- `V2-P095` `MethodUse`: Design algorithm generating the DCE experimental design (Oppe and van Hout)
+- `V2-P095` `MethodUse`: Rescaling of DCE model coefficients using the rescaling parameter of the TTO model estimations
+- `V2-P095` `MethodUse`: Feedback module (rank ordering of valued states shown to respondents to flag disordered states)
+- `V2-P095` `MethodUse`: Descriptive statistics (means, standard deviations, 95% confidence intervals, frequencies and percentages)
+- `V2-P095` `MethodUse`: Scatter-plot and correlation checking of C-TTO model predictions versus rescaled DCE Logit predictions
+- `V2-P095` `MethodUse`: Exclusion of the ten manually added DCE pairs with extreme observed choice probabilities (> 85%)
+- `V2-P095` `ProtocolUse`: EQ-VT protocol version 2.1 (Vietnamese), standardized protocol developed by the EuroQol Group
+- `V2-P095` `ProtocolUse`: Existing interviewer training protocol (EQ-VT training)
+- `V2-P095` `ModelUse`: Tobit model (C-TTO)
+- `V2-P095` `ModelUse`: Heteroscedastic Tobit model (hetTobit, C-TTO)
+- `V2-P095` `ModelUse`: Panel Tobit model (random intercepts, C-TTO)
+- `V2-P095` `ModelUse`: Logit model (DCE)
+- `V2-P095` `ModelUse`: Regular censored hybrid model (Hybrid model)
+- `V2-P095` `ModelUse`: Censored hybrid heteroscedastic model
+- `V2-P096` `InstrumentUse`: EQ-5D-5L
+- `V2-P096` `InstrumentUse`: EQ-5D-3L
+- `V2-P096` `InstrumentUse`: EQ-VAS
+- `V2-P096` `MethodUse`: Systematic search of four online databases with pre-determined terms ("EQ-5D", "EQ-5D-5L", "5L", "EuroQol", "5 Level")
+- `V2-P096` `MethodUse`: Two-phase independent screening (title/abstract and full text) by two researchers with consensus and senior adjudication
+- `V2-P096` `MethodUse`: Data extraction into pre-determined tables
+- `V2-P096` `MethodUse`: Wan et al. 2014 recommendations for estimating the sample mean and standard deviation
+- `V2-P096` `MethodUse`: Fisher's z transformation of correlation coefficients
+- `V2-P096` `MethodUse`: Logit transformation of proportions
+- `V2-P096` `MethodUse`: Subgroup analysis when at least three studies represented a relevant subgroup
+- `V2-P096` `ProtocolUse`: PRISMA guidance on systematic reviews and meta-analyses
+- `V2-P096` `ProtocolUse`: Cicchetti 1994 guidance for interpreting Kappa and ICC (<0.40 poor, 0.40–0.59 fair, 0.60–0.74 good, 0.75–1.00 excellent)
+- `V2-P096` `ProtocolUse`: Terwee et al. 2007 quality criteria (missing values ≤5% and floor ≤15% considered acceptable)
+- `V2-P096` `ModelUse`: Random-effects models using inverse variance weight for pooling
+- `V2-P096` `ProductUse`: Interim scoring method (crosswalk) mapping the EQ-5D-5L to EQ-5D-3L value sets
+- `V2-P097` `InstrumentUse`: EQ-5D-5L
+- `V2-P097` `InstrumentUse`: EQ-5D-5L
+- `V2-P097` `InstrumentUse`: EQ-VAS (self-reported visual analog scale)
+- `V2-P097` `InstrumentUse`: Brief questions to identify patients with inadequate health literacy (Chew et al.)
+- `V2-P097` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P097` `MethodUse`: lead-time time trade-off (LT-TTO)
+- `V2-P097` `MethodUse`: official EuroQol experimental design for the EQ-5D-5L (86 health states in 10 blocks)
+- `V2-P097` `MethodUse`: quota sampling for age, gender, race, and ethnicity
+- `V2-P097` `MethodUse`: computer-assisted personal interview (CAPI)
+- `V2-P097` `MethodUse`: feedback module
+- `V2-P097` `MethodUse`: misery score (sum of the 5-digit EQ-5D-5L health state string)
+- `V2-P097` `MethodUse`: logical inconsistency analysis (higher TTO value assigned to a dominated health state)
+- `V2-P097` `MethodUse`: trading pattern analysis (better-than-dead-only traders, non-traders, low engagement trading)
+- `V2-P097` `ProtocolUse`: EQ-5D-5L valuation protocol, version 2.0
+- `V2-P097` `ModelUse`: linear regression with a respondent-level random intercept (RILR)
+- `V2-P097` `ModelUse`: logistic regression for the odds of providing at least 1 inconsistent valuation
+- `V2-P098` `InstrumentUse`: EQ-HWB
+- `V2-P098` `InstrumentUse`: OAB-5D
+- `V2-P098` `InstrumentUse`: SF-6D
+- `V2-P098` `InstrumentUse`: EQ-5D
+- `V2-P098` `InstrumentUse`: AQol-8D
+- `V2-P098` `MethodUse`: time trade-off (TTO)
+- `V2-P098` `MethodUse`: discrete choice experiments (DCE)
+- `V2-P098` `MethodUse`: Item response theory (IRT) analysis
+- `V2-P098` `MethodUse`: Rasch analysis
+- `V2-P098` `MethodUse`: Differential item functioning (DIF) analysis
+- `V2-P098` `MethodUse`: Flesch Kincaid Grade Level
+- `V2-P098` `ProtocolUse`: Principles of good practice for the translation and cultural adaptation process for patient-reported outcomes (PRO) measures: ISPOR task force report
+- `V2-P099` `InstrumentUse`: EQ-5D-5L
+- `V2-P099` `InstrumentUse`: EQ-5D-5L
+- `V2-P099` `InstrumentUse`: EQ-5D-5L
+- `V2-P099` `MethodUse`: MIC online survey panel sampling of six countries (2012)
+- `V2-P099` `MethodUse`: Mokken scale analysis
+- `V2-P099` `MethodUse`: Loevinger's homogeneity/scalability coefficients H (Hij, Hi, Hs)
+- `V2-P099` `MethodUse`: Automated item selection procedure (AISP)
+- `V2-P099` `MethodUse`: Manifest monotonicity check (check.monotonicity, minvi = 0.03) with ISRF/IRF inspection
+- `V2-P099` `MethodUse`: Manifest invariant item ordering (MIIO) via check.iio, coefficient HT
+- `V2-P099` `MethodUse`: Molenaar and Sijtsma's rho (ρ)
+- `V2-P099` `MethodUse`: Guttman's lambda-2 (λ-2)
+- `V2-P099` `MethodUse`: Level sum score (LSS) calculation across the five EQ-5D-5L items
+- `V2-P099` `MethodUse`: Descriptive statistics of sample and EQ-5D-5L response distributions
+- `V2-P099` `ModelUse`: Monotone homogeneity model (MHM), polytomous
+- `V2-P099` `ModelUse`: Double monotonicity model (DMM), polytomous
+- `V2-P100` `InstrumentUse`: EQ-5D-3L
+- `V2-P100` `InstrumentUse`: EQ-5D-5L
+- `V2-P100` `InstrumentUse`: EQ VAS
+- `V2-P100` `InstrumentUse`: EQ-5D-3L + C (cognitive bolt-on)
+- `V2-P100` `InstrumentUse`: SF-36
+- `V2-P100` `InstrumentUse`: ICECAP-O
+- `V2-P100` `InstrumentUse`: AQoL
+- `V2-P100` `MethodUse`: Systematic electronic search of PubMed, PsycINFO (EBSCO) and the EuroQol Research Foundation website using MeSH and free-text terms for 'EQ-5D', 'elderly' and 'feasibility'
+- `V2-P100` `MethodUse`: Manual search of the reference lists of included studies
+- `V2-P100` `MethodUse`: Independent title and abstract screening by two reviewers with third-reviewer adjudication of discrepancies
+- `V2-P100` `MethodUse`: Standardised data extraction form guiding a structured review process
+- `V2-P100` `MethodUse`: Extraction by one reviewer verified by a second reviewer to check for missing extractions
+- `V2-P101` `InstrumentUse`: EQ-5D-5L
+- `V2-P101` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P101` `InstrumentUse`: EQ-VAS
+- `V2-P101` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P101` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P101` `MethodUse`: Bayesian efficient design algorithm
+- `V2-P101` `MethodUse`: Quota sampling
+- `V2-P101` `MethodUse`: Stratified sampling
+- `V2-P101` `MethodUse`: pairwise comparison of two studies' coefficients using a study dummy and 20 interaction terms
+- `V2-P101` `MethodUse`: calculation of the relative importance of dimensions and levels
+- `V2-P101` `MethodUse`: Delta method
+- `V2-P101` `ProtocolUse`: EuroQol valuation technology protocol (EQ-VT)
+- `V2-P101` `ModelUse`: 20-parameter main-effects mixed logit model
+- `V2-P101` `ModelUse`: heteroscedastic conditional logit model
+- `V2-P101` `ModelUse`: 20-parameter main-effects model plus 20 interaction terms
+- `V2-P102` `InstrumentUse`: EQ-5D-5L
+- `V2-P102` `InstrumentUse`: EQ-5D-5L
+- `V2-P102` `InstrumentUse`: EQ-5D-5L
+- `V2-P102` `InstrumentUse`: EQ-5D-5L
+- `V2-P102` `MethodUse`: Semi-structured focus groups with a topic guide
+- `V2-P102` `MethodUse`: Framework analysis (six-stage framework approach)
+- `V2-P102` `MethodUse`: Dual coding and interpretation
+- `V2-P102` `MethodUse`: Auditable decision trail and transparency
+- `V2-P102` `MethodUse`: Recruitment by a UK Market Research Agency stratified for a mix of gender and age
+- `V2-P102` `MethodUse`: Self-completed background and health state consequences questionnaire
+- `V2-P102` `MethodUse`: Descriptive summary of questionnaire responses
+- `V2-P102` `MethodUse`: Verbatim transcription checked by the researchers
+- `V2-P103` `InstrumentUse`: EQ-5D-5L
+- `V2-P103` `InstrumentUse`: EQ-5D-5L
+- `V2-P103` `InstrumentUse`: EQ VAS
+- `V2-P103` `InstrumentUse`: 17-item Zimbardo Time Perspective Inventory (ZTPI), validated Hungarian version
+- `V2-P103` `InstrumentUse`: Socio-demographic and health-related questions, including a list of 12 common chronic health conditions diagnosed by a physician
+- `V2-P103` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P103` `ScoringUse`: Hungarian EQ-5D-5L value set developed using composite time trade-off method
+- `V2-P103` `MethodUse`: Quota sampling (gender and seven age groups)
+- `V2-P103` `MethodUse`: Quality control criteria on completion time and dominant pairs in the DCE
+- `V2-P103` `MethodUse`: Brant test of the proportional odds assumption
+- `V2-P103` `MethodUse`: Breusch-Pagan test for heteroscedasticity
+- `V2-P103` `MethodUse`: Collapsing EQ-5D-5L response levels into three categories and summing ZTPI item scores into subscale scores (rescaled 0–4)
+- `V2-P103` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P103` `ModelUse`: Partial proportional odds model (generalized ordered logit)
+- `V2-P103` `ModelUse`: Multivariate linear regression (OLS) with robust standard errors
+- `V2-P104` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P104` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P104` `InstrumentUse`: EQ-5D-Y
+- `V2-P104` `MethodUse`: Semi-structured qualitative interviews using a pre-developed script
+- `V2-P104` `MethodUse`: Framework analysis (six steps)
+- `V2-P104` `MethodUse`: Incidence density method
+- `V2-P104` `MethodUse`: Time trade-off (TTO)
+- `V2-P104` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P104` `MethodUse`: DCE with duration
+- `V2-P104` `MethodUse`: DCE with death (immediate death as an additional option)
+- `V2-P104` `MethodUse`: Verbatim transcription by one author with quality assessment by another author
+- `V2-P104` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L
+- `V2-P104` `ProtocolUse`: Canadian HTA guidelines on health valuation
+- `V2-P105` `InstrumentUse`: EQ-5D-5L Anxiety/Depression (A/D) dimension
+- `V2-P105` `InstrumentUse`: GAD-7
+- `V2-P105` `InstrumentUse`: PHQ-9
+- `V2-P105` `InstrumentUse`: EQ-5D-5L
+- `V2-P105` `InstrumentUse`: GAD-7
+- `V2-P105` `InstrumentUse`: PHQ-9
+- `V2-P105` `MethodUse`: Area Under the Receiver Operating Characteristic curve (AUROC) analysis, parametric method (smoothing)
+- `V2-P105` `MethodUse`: Non-parametric AUROC method
+- `V2-P105` `MethodUse`: 2,000 stratified bootstrap repetitions for 95% confidence intervals
+- `V2-P105` `MethodUse`: Youden index
+- `V2-P105` `MethodUse`: Chi-square test
+- `V2-P105` `MethodUse`: Fisher's exact test
+- `V2-P105` `MethodUse`: One-way ANOVA test
+- `V2-P105` `MethodUse`: International Standard of Classification of Education (ISCED) categorisation of highest achieved education into low, medium and high
+- `V2-P106` `InstrumentUse`: EQ-5D-5L (Australian version)
+- `V2-P106` `InstrumentUse`: Respiratory bolt-ons (EQ-5D-5L + Rs): R1 limitations in physical activities due to shortness of breath; R2 breathing problems
+- `V2-P106` `InstrumentUse`: EQ-VAS (Visual Analogue Scale)
+- `V2-P106` `InstrumentUse`: World Health Organisation Disability Assessment Schedule (WHODAS) 2.0
+- `V2-P106` `InstrumentUse`: modified Medical Research Council (mMRC) breathlessness scale
+- `V2-P106` `InstrumentUse`: EQ-5D-5L + Rs
+- `V2-P106` `InstrumentUse`: Self-reported primary cause of breathlessness (multiple-choice question)
+- `V2-P106` `ScoringUse`: Dutch utility values (Dutch valuation algorithm) for the EQ-5D-5L respiratory bolt-ons, ranging from -0.65 to 1 for R1 and -0.78 to 1 for R2
+- `V2-P106` `MethodUse`: Cross-sectional online survey
+- `V2-P106` `MethodUse`: Quota-based panel recruitment representative of the Australian population by age, sex, state/territory and rurality (Australian 2016 Census)
+- `V2-P106` `MethodUse`: Descriptive statistics (number of participants, missing data, mean, standard deviation, median, range)
+- `V2-P106` `MethodUse`: Floor and ceiling effect analysis (absolute and relative change in ceiling effect)
+- `V2-P106` `MethodUse`: Spearman correlation for convergent validity
+- `V2-P106` `MethodUse`: Known-groups validity analysis by mMRC severity and smoking history
+- `V2-P106` `MethodUse`: Effect size (Cohen's d): mean difference between adjacent severity classes divided by the standard deviation of the milder class
+- `V2-P106` `MethodUse`: Chi square test
+- `V2-P106` `MethodUse`: Cronbach's alpha (internal consistency of WHODAS total and domain scores)
+- `V2-P106` `MethodUse`: WHODAS summed item scoring (responses 0 to 4 summed to a total score)
+- `V2-P106` `MethodUse`: Sensitivity analysis of mean and effect size using a subsample
+- `V2-P107` `InstrumentUse`: EQ-5D-5L
+- `V2-P107` `InstrumentUse`: EQ-5D-5L
+- `V2-P107` `InstrumentUse`: EuroQol visual analogue scale
+- `V2-P107` `InstrumentUse`: skin irritation bolt-on
+- `V2-P107` `InstrumentUse`: self-confidence bolt-on
+- `V2-P107` `InstrumentUse`: sleep bolt-on
+- `V2-P107` `InstrumentUse`: social relationships bolt-on
+- `V2-P107` `InstrumentUse`: Patient-Oriented Eczema Measure (POEM)
+- `V2-P107` `InstrumentUse`: Urticaria Control Test (UCT)
+- `V2-P107` `InstrumentUse`: 10-point (NRS) rating scale of self-perceived condition severity
+- `V2-P107` `MethodUse`: semi-structured interviews following an interview guide
+- `V2-P107` `MethodUse`: concept elicitation
+- `V2-P107` `MethodUse`: 'think-aloud'
+- `V2-P107` `MethodUse`: retrospective probing (cognitive debriefing)
+- `V2-P107` `MethodUse`: ranking of the four bolt-on dimensions by relevance or importance
+- `V2-P107` `MethodUse`: background questionnaire on socio-demographics, co-morbidities and current symptoms
+- `V2-P107` `MethodUse`: thematic analysis
+- `V2-P107` `MethodUse`: content analysis
+- `V2-P107` `MethodUse`: descriptive statistics
+- `V2-P107` `MethodUse`: saturation grid monitoring of data saturation
+- `V2-P107` `MethodUse`: independent coding of transcripts by two interviewers with comparison and reconciliation of codes
+- `V2-P107` `MethodUse`: recruitment by a specialist recruitment agency using social media, a patient database, healthcare professional referrals and patient associations, with soft quotas on severity and ethnicity
+- `V2-P107` `ProtocolUse`: Standards for reporting qualitative research (SRQR)
+- `V2-P108` `InstrumentUse`: EQ-5D-5L
+- `V2-P108` `InstrumentUse`: EQ VAS
+- `V2-P108` `InstrumentUse`: EQ Health and Wellbeing (EQ-HWB), 25-item
+- `V2-P108` `InstrumentUse`: EQ-HWB-S (EQ-HWB short form, 9 items)
+- `V2-P108` `InstrumentUse`: COST: A FACIT Measure of Financial Toxicity (FACIT-COST) v2
+- `V2-P108` `InstrumentUse`: Questions on objective financial toxicity (financial coping strategies)
+- `V2-P108` `InstrumentUse`: Socio-demographic background and past-week symptom questions
+- `V2-P108` `InstrumentUse`: Oncology nurses' clinical data questionnaire
+- `V2-P108` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P108` `InstrumentUse`: EQ-HWB-S (EQ-HWB short form, 9 items)
+- `V2-P108` `ScoringUse`: Indonesian EQ-5D-5L value set (Purba et al., 2017)
+- `V2-P108` `ScoringUse`: EQ-HWB-S pilot UK value set (Mukuria et al., 2023)
+- `V2-P108` `MethodUse`: Recruitment of patients in the oncology department waiting area by trained research assistants
+- `V2-P108` `MethodUse`: Paper-and-pencil questionnaire survey
+- `V2-P108` `MethodUse`: Pilot testing of the survey instrument
+- `V2-P108` `MethodUse`: Mann-Whitney test
+- `V2-P108` `MethodUse`: Kruskal-Wallis test
+- `V2-P108` `MethodUse`: Spearman's rho
+- `V2-P108` `MethodUse`: Pearson's coefficient
+- `V2-P108` `MethodUse`: Forward stepwise regression procedure for covariate selection
+- `V2-P108` `MethodUse`: Breusch-Pagan test
+- `V2-P108` `MethodUse`: Variance inflation factor check for multicollinearity
+- `V2-P108` `MethodUse`: EQ-HWB level summary score (LSS) calculation and transformation to a 0-100 scale
+- `V2-P108` `MethodUse`: FACIT-COST total score computation with reverse scoring of items 2, 3, 4, 5, 8, 9, 10
+- `V2-P108` `MethodUse`: FACIT-COST cut-off score of ≤ 17.5 to indicate high subjective financial toxicity (Ng et al., 2021)
+- `V2-P108` `ModelUse`: Ordinal logistic regression model
+- `V2-P108` `ModelUse`: Multivariable ordinary least squares (OLS) regression with robust standard errors
+- `V2-P109` `InstrumentUse`: EQ-5D-5L
+- `V2-P109` `InstrumentUse`: EQ-5D-5L
+- `V2-P109` `InstrumentUse`: EQ-5D-5L
+- `V2-P109` `InstrumentUse`: EQ VAS (EuroQol Visual Analogue Scale)
+- `V2-P109` `MethodUse`: stratified quota sampling
+- `V2-P109` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P109` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P109` `MethodUse`: Monte Carlo simulation (selection of health states for cTTO blocks)
+- `V2-P109` `MethodUse`: quality control (QC) tool developed by the EuroQol Group
+- `V2-P109` `MethodUse`: feedback module
+- `V2-P109` `MethodUse`: computer-assisted face-to-face interviews
+- `V2-P109` `MethodUse`: descriptive statistics (frequencies, percentages, mean and standard deviation)
+- `V2-P109` `ProtocolUse`: EuroQol valuation protocol EQ-VT version 2.6.1
+- `V2-P109` `ProtocolUse`: Checklist for REporting VAluaTion StudiEs (CREATE)
+- `V2-P109` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies
+- `V2-P109` `ModelUse`: heteroscedastic censored Tobit model (Model 1, cTTO)
+- `V2-P109` `ModelUse`: conditional logistic regression model (Model 2, DCE)
+- `V2-P109` `ModelUse`: hybrid heteroskedastic Tobit model (Model 3, combined cTTO and DCE)
+- `V2-P109` `ProductUse`: Moroccan EQ-5D-3L value set
+- `V2-P110` `InstrumentUse`: EQ-5D-5L
+- `V2-P110` `InstrumentUse`: EQ-5D-5L bolt-ons
+- `V2-P110` `InstrumentUse`: EQ-5D-5L response-scale heterogeneity vignette
+- `V2-P110` `InstrumentUse`: EQ-HWB
+- `V2-P110` `InstrumentUse`: PROMIS-10
+- `V2-P110` `InstrumentUse`: ASCOT four-level self-complete (SCT4)
+- `V2-P110` `InstrumentUse`: ICECAP-A
+- `V2-P110` `InstrumentUse`: WHO-5
+- `V2-P110` `InstrumentUse`: OPQOL-brief
+- `V2-P110` `InstrumentUse`: PHQ-2
+- `V2-P110` `InstrumentUse`: GAD-2
+- `V2-P110` `InstrumentUse`: PHQ 9-item version
+- `V2-P110` `InstrumentUse`: GAD 7-item version
+- `V2-P110` `InstrumentUse`: Hunger Vital Sign 2-item screening tool
+- `V2-P110` `InstrumentUse`: Global Physical Activity Questionnaire single item of sedentary activity
+- `V2-P110` `InstrumentUse`: Summary of Diabetes Self-Care Activities Measure
+- `V2-P110` `InstrumentUse`: PROMIS Short Form v1.0 – Sleep Disturbance 4a
+- `V2-P110` `InstrumentUse`: Single-Question Screening Test for Drug Use
+- `V2-P110` `InstrumentUse`: The Patient Satisfaction Questionnaire Short Form (PSQ-18)
+- `V2-P110` `InstrumentUse`: Single Item Literacy Screener
+- `V2-P110` `MethodUse`: modified Delphi approach (country selection and sample size)
+- `V2-P110` `MethodUse`: modified Delphi method for selecting measures and variables
+- `V2-P110` `MethodUse`: quota sampling design
+- `V2-P110` `MethodUse`: post-stratification weighting
+- `V2-P110` `MethodUse`: recruitment through Dynata international online research panels
+- `V2-P110` `MethodUse`: survey translation by RWS with native-speaker and local researcher review
+- `V2-P110` `MethodUse`: duplicated age and marital status questions to assess consistency and data quality
+- `V2-P110` `MethodUse`: usability and technical functionality tests with soft launch review
+- `V2-P110` `MethodUse`: anchoring vignettes
+- `V2-P110` `MethodUse`: randomization of order of the remaining standardized health measures
+- `V2-P110` `ProtocolUse`: Canadian and international standards of Good Clinical Practice
+- `V2-P110` `ProtocolUse`: Declaration of Helsinki
+- `V2-P111` `InstrumentUse`: EQ-HWB (experimental version, 25-item profile measure)
+- `V2-P111` `InstrumentUse`: EQ-5D-5 L
+- `V2-P111` `InstrumentUse`: EQ-5D-5 L
+- `V2-P111` `InstrumentUse`: EQ-HWB-S (9-item short measure)
+- `V2-P111` `InstrumentUse`: EQ VAS
+- `V2-P111` `InstrumentUse`: CarerQoL
+- `V2-P111` `InstrumentUse`: CARE-2B
+- `V2-P111` `MethodUse`: Spearman rank-order correlation
+- `V2-P111` `MethodUse`: Shannon’s Indices (H’ and Shannon’s evenness index J’)
+- `V2-P111` `MethodUse`: Item Response Theory analysis (item characteristic curves and item information functions)
+- `V2-P111` `MethodUse`: Differential item functioning (DIF) analysis using a hybrid logistic ordinal regression/IRT approach
+- `V2-P111` `MethodUse`: Sequential linking method for dyadic online data collection
+- `V2-P111` `MethodUse`: Qualtrics caregiver panel recruitment
+- `V2-P111` `MethodUse`: Attention checks and minimum completion time thresholds
+- `V2-P111` `MethodUse`: Randomized ordering of survey instruments to minimize sequencing effects
+- `V2-P111` `ModelUse`: Graded response model (GRM)
+- `V2-P111` `ModelUse`: Ordinal logistic regression models
+- `V2-P112` `InstrumentUse`: EQ-5D-5L (U.S. version)
+- `V2-P112` `InstrumentUse`: Six EQ-5D-5L component items (washing self, dressing self, pain, discomfort, anxiety, depression)
+- `V2-P112` `InstrumentUse`: EQ VAS
+- `V2-P112` `InstrumentUse`: EQ-5D-5L (U.S. version)
+- `V2-P112` `MethodUse`: Quota sampling with 18 quotas stratified by gender, age and race/ethnicity
+- `V2-P112` `MethodUse`: Online cross-sectional survey through an online marketing panel (Dynata)
+- `V2-P112` `MethodUse`: Exclusion of respondents completing the survey in less than 13 min
+- `V2-P112` `MethodUse`: Ceiling and floor percentage analysis
+- `V2-P112` `MethodUse`: McNemar's test
+- `V2-P112` `MethodUse`: Cross-tabulation and percent agreement
+- `V2-P112` `MethodUse`: Cohen's weighted kappa
+- `V2-P112` `MethodUse`: Shannon Index (H′)
+- `V2-P112` `MethodUse`: Shannon Evenness Index (J′)
+- `V2-P112` `MethodUse`: Spearman's correlation coefficients
+- `V2-P112` `MethodUse`: Exploratory factor analysis (EFA)
+- `V2-P112` `MethodUse`: Varimax rotation
+- `V2-P112` `MethodUse`: Kaiser's criterion (eigenvalues greater than 1) with scree plot inspection
+- `V2-P112` `ModelUse`: Bivariate linear regression
+- `V2-P112` `ModelUse`: Multivariate linear regression
+- `V2-P112` `ProtocolUse`: Health valuation protocol for dual discrete choice experiment (dual-DCE) surveys to estimate the effects of different scenarios and attributes on main effects
+- `V2-P113` `InstrumentUse`: EQ-5D-3L
+- `V2-P113` `InstrumentUse`: EQ-5D-5L
+- `V2-P113` `InstrumentUse`: EQ VAS
+- `V2-P113` `InstrumentUse`: EQ-5D Index
+- `V2-P113` `InstrumentUse`: EQ-5D (EQ-5D-3L or EQ-5D-5L) administered to patients in the included studies
+- `V2-P113` `MethodUse`: Pre-established systematic search strategy of MEDLINE, EMBASE and the EuroQol Group publication database with reference checking
+- `V2-P113` `MethodUse`: Independent dual selection, data extraction and cross-validation with consensus discussion (A.D. and D.G.)
+- `V2-P113` `MethodUse`: Predefined hypotheses for construct validity with correlation-strength thresholds and SES/AUC and ICC rating criteria
+- `V2-P113` `MethodUse`: Qualitative summarization of results as sufficient (+), inconsistent (±) or insufficient (-) using the percentage of positively rated tests
+- `V2-P113` `MethodUse`: Modified GRADE criteria for certainty of evidence
+- `V2-P113` `ProtocolUse`: COSMIN Risk of Bias checklist
+- `V2-P113` `ProtocolUse`: COSMIN methodology for systematic reviews of patient-reported outcome measures (PROMs) User Manual
+- `V2-P113` `ProtocolUse`: PRISMA-COSMIN for Outcome Measurement Instruments (OMIs) 2024
+- `V2-P113` `ProtocolUse`: PROSPERO registered review protocol CRD42023481369
+- `V2-P114` `InstrumentUse`: EQ-5D-5L
+- `V2-P114` `InstrumentUse`: EQ-5D-5L
+- `V2-P114` `InstrumentUse`: EQ VAS
+- `V2-P114` `InstrumentUse`: EQ-5D-5L breathing problems bolt-on (beta version)
+- `V2-P114` `InstrumentUse`: EQ-5D-5L + Cognition bolt-on
+- `V2-P114` `InstrumentUse`: modified Medical Research Council Questionnaire (mMRC) dyspnea scale
+- `V2-P114` `InstrumentUse`: Dyspnoea-12 (D-12)
+- `V2-P114` `InstrumentUse`: short-form DePaul Symptom Questionnaire (DSQ-SF)
+- `V2-P114` `InstrumentUse`: Chalder Fatigue Questionnaire (CFQ-11)
+- `V2-P114` `InstrumentUse`: Cambridge Neuropsychological Test Automated Battery (CANTAB)
+- `V2-P114` `InstrumentUse`: checklist of 23 self-reported symptoms, largely adopted from the WHO/ISARIC platform
+- `V2-P114` `InstrumentUse`: self-report version of the Charlson comorbidity index
+- `V2-P114` `MethodUse`: Spearman's rank correlation coefficient (ρ)
+- `V2-P114` `MethodUse`: construct validity assessment by hypothesis testing corresponding to recommended criteria
+- `V2-P114` `MethodUse`: assessment of levels of missing data and ceiling effects
+- `V2-P114` `MethodUse`: adaptation for use in Norwegian based on the available English version and harmonization with an existing Swedish translation
+- `V2-P114` `MethodUse`: spirometry
+- `V2-P114` `MethodUse`: carbon monoxide gas diffusion (TLCO)
+- `V2-P114` `MethodUse`: 6 min walk distance
+- `V2-P114` `MethodUse`: postal survey invitation with one postal reminder
+- `V2-P114` `ModelUse`: multiple linear regression analysis with the EQ VAS as the dependent variable
+- `V2-P114` `ScoringUse`: EQ-5D index (crosswalk)
+- `V2-P115` `InstrumentUse`: EQ-5D-5L
+- `V2-P115` `InstrumentUse`: EQ VAS
+- `V2-P115` `InstrumentUse`: EQ VAS
+- `V2-P115` `InstrumentUse`: EQ VAS
+- `V2-P115` `InstrumentUse`: Dutch word completion test for death thought accessibility (DTA)
+- `V2-P115` `InstrumentUse`: Positive and Negative Affect Schedule (PANAS), 20 items
+- `V2-P115` `InstrumentUse`: Experiences in Close Relationships (Dutch version, reduced to 16 items)
+- `V2-P115` `InstrumentUse`: Agreement with the doctor index (five 9-point items, coma vignette)
+- `V2-P115` `InstrumentUse`: Emotional lability inventory (14 emotion questions and 10 affective reaction questions, 11-point scales)
+- `V2-P115` `MethodUse`: Time Trade-off (TTO), simplified downward titration implementation
+- `V2-P115` `MethodUse`: Time Trade-off (TTO)
+- `V2-P115` `MethodUse`: Mortality salience (MS) essay task
+- `V2-P115` `MethodUse`: Television control essay task
+- `V2-P115` `MethodUse`: Word puzzle filler task (four words in a nine by six letter rectangle)
+- `V2-P115` `MethodUse`: Randomisation in consecutive order to one of eight groups without balancing
+- `V2-P115` `MethodUse`: Recruitment from a commercial marketing bureau research panel (Blauw Research)
+- `V2-P115` `MethodUse`: ANOVA with planned comparisons
+- `V2-P115` `MethodUse`: Bonferroni correction for multiple comparisons
+- `V2-P115` `MethodUse`: Pearson's correlations
+- `V2-P115` `MethodUse`: TTO score calculation as y/10 from the preference switch point
+- `V2-P115` `MethodUse`: Attachment scale scoring by item summation with reversal of positively framed items
+- `V2-P115` `MethodUse`: Flagging of inconsistent TTO responses (more than one preference switch)
+- `V2-P115` `MethodUse`: Sensitivity analyses excluding non-traders or respondents outside the 10th–90th survey-time percentiles
+- `V2-P115` `MethodUse`: Cronbach's alpha
+- `V2-P115` `MethodUse`: Power calculation based on an effect size of 0.27 from Many Labs 4 / Chatard et al.
+- `V2-P116` `InstrumentUse`: EQ-TIPS (EuroQol Toddler and Infant Populations) experimental EQ-TIPS-3L Version 2.0
+- `V2-P116` `InstrumentUse`: EQ-5D-5L
+- `V2-P116` `InstrumentUse`: EQ-5D-Y (including EQ-5D-Y-5L)
+- `V2-P116` `InstrumentUse`: Five-level version of the EQ-TIPS
+- `V2-P116` `MethodUse`: Qualitative semi-structured virtual focus group consultation
+- `V2-P116` `MethodUse`: Purposive selection of experts
+- `V2-P116` `MethodUse`: Thematic analysis following the six-phase process outlined by Braun and Clark
+- `V2-P116` `MethodUse`: Checking of the data extraction table by all researchers facilitating the focus group discussions to minimise individual biases
+- `V2-P116` `MethodUse`: Facilitator summary of breakout rooms forwarded to experts by e-mail for further comments and to check for errors or omissions
+- `V2-P116` `MethodUse`: Verbatim transcription and de-identification of recordings with sequential expert numbering and replacement of country-specific information
+- `V2-P116` `ProtocolUse`: Standards for Reporting Qualitative Research (SRQR)
+- `V2-P116` `ProtocolUse`: Declaration of Helsinki
+- `V2-P117` `InstrumentUse`: EQ-5D-5L
+- `V2-P117` `InstrumentUse`: EQ-5D-5L
+- `V2-P117` `InstrumentUse`: Cognition (CO) bolt-on
+- `V2-P117` `InstrumentUse`: Social participation (SP) bolt-on
+- `V2-P117` `InstrumentUse`: EQ VAS
+- `V2-P117` `InstrumentUse`: Brief Resilience Scale (BRS)
+- `V2-P117` `InstrumentUse`: Post-COVID Syndrome PCS-Score
+- `V2-P117` `InstrumentUse`: German version of the Moral Injury Symptom and Support Scale for Health Professionals (G-MISS-HP)
+- `V2-P117` `InstrumentUse`: Patient Health Questionnaire-4 (PHQ-4)
+- `V2-P117` `InstrumentUse`: Somatic Symptom Disorder–B Criteria Scale (SSD-12)
+- `V2-P117` `InstrumentUse`: Short Screening Scale for DSM-IV Posttraumatic Stress Disorder (PTSD)
+- `V2-P117` `InstrumentUse`: WHO Disability Assessment Schedule 2.0 (WHODAS 2.0), 12-item short version
+- `V2-P117` `InstrumentUse`: Work Ability Index (WAI)
+- `V2-P117` `MethodUse`: Spearman's rank correlation coefficients
+- `V2-P117` `MethodUse`: Relative efficiency (RE), ratio of F-statistics or squared t-statistics
+- `V2-P117` `MethodUse`: 95% bootstrap confidence intervals based on 3000 replications
+- `V2-P117` `MethodUse`: Level sum score (LSS) transformed to a 0–100 scale
+- `V2-P117` `MethodUse`: Random selection of 20,000 HCW from BGW insurance records
+- `V2-P117` `MethodUse`: Analytical framework used in previous studies to test distributional properties, convergent and divergent validity, known-groups validity, and explanatory power of bolt-ons [12]
+- `V2-P117` `MethodUse`: Translation of the bolt-on items from English into German, approved by EuroQol Research Foundation
+- `V2-P117` `MethodUse`: Symptom-guided, literature-based bolt-on selection approach in line with current EQ-5D bolt-on recommendations [11]
+- `V2-P117` `MethodUse`: Cross-tabulations of EQ-5D-5L 'no problems' responses against bolt-on responses
+- `V2-P117` `ProtocolUse`: Study protocol of the cohort study 'Post-COVID in healthcare workers and its consequences on quality of life, activities, participation, need for rehabilitation and care experiences' [44, 45]
+- `V2-P117` `ModelUse`: Multivariable linear regression models including all EQ-5D-5L dimensions with and without bolt-on items
+- `V2-P117` `ModelUse`: Univariable linear regression models (descriptive purposes only)
+- `V2-P117` `ModelUse`: Linear regression models in subsamples of the six most prevalent health conditions (n > 200)
+- `V2-P118` `InstrumentUse`: EQ-5D-5L
+- `V2-P118` `InstrumentUse`: PROMIS-16 profile
+- `V2-P118` `InstrumentUse`: EQ-5D-5L
+- `V2-P118` `InstrumentUse`: EQ VAS
+- `V2-P118` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P118` `ProtocolUse`: Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale (Jumamyradov et al.)
+- `V2-P118` `MethodUse`: Demographic quota sampling (18 quotas by gender, age and race/ethnicity) via the Dynata online panel
+- `V2-P118` `MethodUse`: Five-question comprehension quiz (including 'being in a coma' scenarios) and minimum 13-minute completion criterion
+- `V2-P118` `MethodUse`: Ceiling and floor percentages
+- `V2-P118` `MethodUse`: McNemar's test for paired proportions
+- `V2-P118` `MethodUse`: Shannon's Index (H')
+- `V2-P118` `MethodUse`: Shannon's Evenness Index (J')
+- `V2-P118` `MethodUse`: Polychoric correlation coefficients
+- `V2-P118` `MethodUse`: Exploratory factor analysis (EFA) with Oblimin oblique rotation
+- `V2-P118` `MethodUse`: Parallel analysis
+- `V2-P118` `ModelUse`: Linear regression of EQ VAS on binary indicators of incremental item severity decrements (item-level)
+- `V2-P118` `ModelUse`: Multivariate linear regressions of EQ VAS at dimension-, construct- and instrument-level
+- `V2-P119` `InstrumentUse`: Pediatric Quality of Life Inventory 4.0 generic core (PedsQL)
+- `V2-P119` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P119` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P119` `InstrumentUse`: CHU9D
+- `V2-P119` `InstrumentUse`: KIDSCREEN-27
+- `V2-P119` `InstrumentUse`: Pediatric Quality of Life Inventory 4.0 generic core (PedsQL)
+- `V2-P119` `InstrumentUse`: Strengths and Difficulties Questionnaire (SDQ)
+- `V2-P119` `InstrumentUse`: Children with Special Health Care Needs (SHCN) Screener
+- `V2-P119` `ScoringUse`: EQ-5D-Y-3L utility scoring algorithm (Ramos-Goñi et al. 2022) [25]
+- `V2-P119` `ScoringUse`: CHU9D adolescent-specific scoring algorithm (Ratcliffe et al. 2016) [26]
+- `V2-P119` `MethodUse`: intra-class correlation coefficients (two-way mixed-effects model for a single instrument, absolute agreement)
+- `V2-P119` `MethodUse`: Spearman's correlations
+- `V2-P119` `MethodUse`: independent t-tests
+- `V2-P119` `MethodUse`: Cohen's d effect sizes
+- `V2-P119` `MethodUse`: floor and ceiling effect assessment (≥15% at best/worst state on all items)
+- `V2-P119` `MethodUse`: level sum score (LSS) calculation
+- `V2-P119` `MethodUse`: top-coding of completion times greater than 10 min per instrument
+- `V2-P119` `MethodUse`: recruitment via an Australian online panel survey company (Pureprofile Pty Ltd Australia)
+- `V2-P119` `MethodUse`: screening question adapted from the Longitudinal Study of Australian Children (LSAC)
+- `V2-P119` `ProtocolUse`: COSMIN study design checklist
+- `V2-P119` `ProtocolUse`: Australian Paediatric Multi-Instrument Comparison (P-MIC) Study protocol and technical methods paper
+- `V2-P120` `InstrumentUse`: EQ-5D-5L (descriptive system, Level Sum Score)
+- `V2-P120` `InstrumentUse`: EQ VAS
+- `V2-P120` `MethodUse`: web-based survey
+- `V2-P120` `MethodUse`: recruitment from the existing voluntary panels of an international market research agency (Dynata)
+- `V2-P120` `MethodUse`: translation into the official language of each country and back into English using translation software, checked by bilingual native speakers
+- `V2-P120` `MethodUse`: Level Sum Score (LSS) calculated by summing the scores across all five EQ-5D-5L dimensions
+- `V2-P120` `MethodUse`: International Standard Classification of Education (ISCED-97) recoding of education level
+- `V2-P120` `MethodUse`: Kruskal-Wallis tests
+- `V2-P120` `MethodUse`: Mann-Whitney U tests
+- `V2-P120` `ModelUse`: multiple linear regression analyses adjusted for age, sex and chronic disease status
+- `V2-P121` `InstrumentUse`: EQ-5D-5L
+- `V2-P121` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P121` `InstrumentUse`: EQ VAS
+- `V2-P121` `InstrumentUse`: EQ VAS
+- `V2-P121` `MethodUse`: Quota sampling by age, sex, income, region and language via online panel (Dynata)
+- `V2-P121` `MethodUse`: Data quality controls (informed consent confirmation, consistency checks with duplicated or similar questions, minimum completion time thresholds)
+- `V2-P121` `MethodUse`: EQ VAS consistency exclusion thresholds and BMI > 15 kg/m2 data editing
+- `V2-P121` `MethodUse`: Harmonisation of country-specific educational attainment into three levels
+- `V2-P121` `MethodUse`: Descriptive distributional analysis of within-profile EQ VAS scores (mean, SD, median, quartiles, IQR; violin and box plots)
+- `V2-P121` `MethodUse`: Full Information Maximum Likelihood estimation for missing data
+- `V2-P121` `ModelUse`: Linear regression models with survey weights of EQ VAS on educational attainment or income status, adjusted for age, sex and country fixed effects
+- `V2-P121` `ModelUse`: Country-stratified linear regressions of EQ VAS on education or income status, adjusted for age and sex (profiles 11111 and 11121)
+- `V2-P122` `InstrumentUse`: EQ-HWB-25
+- `V2-P122` `InstrumentUse`: EQ-5D-5L
+- `V2-P122` `InstrumentUse`: ASCOT
+- `V2-P122` `InstrumentUse`: QOL-ACC
+- `V2-P122` `InstrumentUse`: EQ-HWB-25
+- `V2-P122` `InstrumentUse`: EQ-5D-5L
+- `V2-P122` `InstrumentUse`: ASCOT
+- `V2-P122` `InstrumentUse`: QOL-ACC
+- `V2-P122` `MethodUse`: Exploratory Factor Analysis (EFA)
+- `V2-P122` `MethodUse`: principal factor (Stata default EFA estimation method)
+- `V2-P122` `MethodUse`: oblique Promax rotation
+- `V2-P122` `MethodUse`: Kaiser–Meyer–Olkin (KMO) measure
+- `V2-P122` `MethodUse`: Bartlett’s test of sphericity
+- `V2-P122` `MethodUse`: Mardia’s test for skewness
+- `V2-P122` `MethodUse`: Spearman’s rank correlations
+- `V2-P122` `MethodUse`: Polychoric factor analysis
+- `V2-P122` `MethodUse`: eigenvalues and scree plots (factor retention)
+- `V2-P122` `MethodUse`: stratified sampling approach (by gender, age group, state/territory, 2021 Australian Census)
+- `V2-P122` `MethodUse`: online panel survey (Pureprofile)
+- `V2-P123` `InstrumentUse`: EQ-5D-3L
+- `V2-P123` `InstrumentUse`: EQ-5D-3L
+- `V2-P123` `InstrumentUse`: EQ-5D-3L
+- `V2-P123` `InstrumentUse`: EQ-VAS
+- `V2-P123` `InstrumentUse`: EQ-VAS
+- `V2-P123` `InstrumentUse`: Patient Health Questionnaire 9 (PHQ-9)
+- `V2-P123` `InstrumentUse`: Scale for Assessment and Rating of Ataxia (SARA)
+- `V2-P123` `InstrumentUse`: Inventory of Non-Ataxia Signs (INAS)
+- `V2-P123` `InstrumentUse`: activities of daily living (ADL) part of the Friedreich Ataxia Rating Scale (FARS)
+- `V2-P123` `ScoringUse`: European value set for use in multinational studies (Greiner et al., a single European currency for EQ-5D health states)
+- `V2-P123` `MethodUse`: Spearman's correlation coefficient
+- `V2-P123` `MethodUse`: Cohens Kappa
+- `V2-P123` `MethodUse`: intraclass correlation coefficients (ICC)
+- `V2-P123` `MethodUse`: standardized effect size (SES)
+- `V2-P123` `MethodUse`: standardized response means (SRM)
+- `V2-P123` `MethodUse`: paired sample t-tests
+- `V2-P123` `MethodUse`: Chi-square tests
+- `V2-P123` `MethodUse`: t-tests
+- `V2-P123` `MethodUse`: complete case analyses (no imputation of missing data)
+- `V2-P123` `MethodUse`: consecutive recruitment and annual follow-up (EUROSCA)
+- `V2-P124` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P124` `InstrumentUse`: EQ VAS
+- `V2-P124` `InstrumentUse`: EQ-5D-5L
+- `V2-P124` `InstrumentUse`: EQ-5D-5L
+- `V2-P124` `InstrumentUse`: EQ-5D-3L
+- `V2-P124` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P124` `MethodUse`: discrete-choice experiment (DCE)
+- `V2-P124` `MethodUse`: computer-assisted personal interview
+- `V2-P124` `MethodUse`: standardized blocked design of the EQ-VT
+- `V2-P124` `MethodUse`: EQ-VT quality control (QC) tool
+- `V2-P124` `MethodUse`: randomly chosen representative sample provided by Statistics Denmark
+- `V2-P124` `MethodUse`: recruitment through a Danish market research company panel
+- `V2-P124` `MethodUse`: descriptive statistics
+- `V2-P124` `MethodUse`: logical consistency assessment of model parameters
+- `V2-P124` `ProtocolUse`: EQ-VT 2.1 (EQ-5D-5L valuation protocol version 2.1)
+- `V2-P124` `ProtocolUse`: CREATE checklist for reporting valuation studies of multi-attribute utility-based instruments
+- `V2-P124` `ModelUse`: generalized least squares (GLS) random intercept model
+- `V2-P124` `ModelUse`: random-effects Tobit model
+- `V2-P124` `ModelUse`: McFadden conditional logit model
+- `V2-P124` `ModelUse`: heteroscedastic conditional logit model
+- `V2-P124` `ModelUse`: hybrid GLS and heteroscedasticity model
+- `V2-P124` `ModelUse`: heteroscedastic censored Tobit hybrid model
+- `V2-P124` `ModelUse`: interval regression
+- `V2-P124` `ProductUse`: Danish EQ-5D-3L value set
+- `V2-P124` `ProductUse`: Danish crosswalk value set (EQ-5D-5L crosswalk)
+- `V2-P125` `InstrumentUse`: EQ-5D-5L (official Italian questionnaire version, descriptive system)
+- `V2-P125` `InstrumentUse`: EQ VAS
+- `V2-P125` `InstrumentUse`: EQ-5D-5L (official Italian questionnaire version, descriptive system)
+- `V2-P125` `InstrumentUse`: International Classification of Diseases 11th revision
+- `V2-P125` `InstrumentUse`: EQ-5D-5L
+- `V2-P125` `MethodUse`: Quota-based sampling criteria (age, sex, geographical macro-area) using an online panel and local recruiters
+- `V2-P125` `MethodUse`: Computer-assisted personal interviews (CAPIs)
+- `V2-P125` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P125` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P125` `MethodUse`: Chi-square test
+- `V2-P125` `MethodUse`: t-test
+- `V2-P125` `MethodUse`: One-way analysis of variance (ANOVA)
+- `V2-P125` `MethodUse`: Backward selection of non-significant variables (p > 0.05)
+- `V2-P125` `ProtocolUse`: EuroQol valuation technology (EQ-VT) protocol
+- `V2-P125` `ProtocolUse`: EQ-VT protocol Quality Control (QC) procedure
+- `V2-P125` `ModelUse`: Ordinary least square (OLS) regression with robust standard errors
+- `V2-P125` `ScoringUse`: Newly developed Italian EQ-5D-5L value set (cTTO and DCE based; range −0.571 to 1)
+- `V2-P126` `InstrumentUse`: EQ-5D-5L
+- `V2-P126` `InstrumentUse`: EQ-5D-5L
+- `V2-P126` `InstrumentUse`: EQ-5D-5L
+- `V2-P126` `InstrumentUse`: EQ visual analog scale (EQ VAS)
+- `V2-P126` `InstrumentUse`: EQ visual analog scale (EQ VAS)
+- `V2-P126` `InstrumentUse`: Patient Health Questionnaire-4 (PHQ-4)
+- `V2-P126` `InstrumentUse`: Generalized Anxiety Disorder-7 questionnaire (GAD-7)
+- `V2-P126` `InstrumentUse`: Survey items on sociodemographic information, diagnosed medical conditions, and obstetric factors (Table S1)
+- `V2-P126` `ScoringUse`: US-based value set for the adult population (United States valuation of EQ-5D-5L health states using an international protocol)
+- `V2-P126` `MethodUse`: Intercept recruitment on social media sites (Facebook, Instagram, Twitter)
+- `V2-P126` `MethodUse`: Cross-sectional national online survey (30-min self-completed questionnaire)
+- `V2-P126` `MethodUse`: Estimation of month of pregnancy or postpartum from self-reported last menstrual period, expected date of delivery, or date of pregnancy end
+- `V2-P126` `MethodUse`: Estimation of ceiling and floor effects (proportion reporting '11111'/'55555' health states, EQ VAS 100/0)
+- `V2-P126` `MethodUse`: Analyses performed separately by wave of data collection and by quarter and year of conception for validation
+- `V2-P126` `ModelUse`: Quantile regression of EQ-5D-5L utility values and EQ VAS scores on month of pregnancy or postpartum (cubic spline), adjusted for calendar month of LMP
+- `V2-P127` `InstrumentUse`: EQ-5D-3L
+- `V2-P127` `InstrumentUse`: EQ-5D-5L
+- `V2-P127` `InstrumentUse`: EQ-5D-5L
+- `V2-P127` `InstrumentUse`: EQ-5D-3L
+- `V2-P127` `InstrumentUse`: EQ-5D-5L
+- `V2-P127` `InstrumentUse`: EQ-5D-5L
+- `V2-P127` `InstrumentUse`: EQ-5D-3L
+- `V2-P127` `ProductUse`: Van Hout et al. crosswalk algorithm
+- `V2-P127` `ProductUse`: TTO- or DCE + TTO-based EQ-5D-3L value sets
+- `V2-P127` `ProductUse`: EQ-VT-based EQ-5D-5L value sets
+- `V2-P127` `ScoringUse`: EQ-VT-based EQ-5D-5L value sets
+- `V2-P127` `ScoringUse`: Crosswalk EQ-5D-5L value sets
+- `V2-P127` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT)
+- `V2-P127` `MethodUse`: Crosswalk (response mapping) derivation of EQ-5D-5L values from EQ-5D-3L value sets
+- `V2-P127` `MethodUse`: Reverse-crosswalk derivation of three-level value sets from five-level value sets
+- `V2-P127` `MethodUse`: Spearman correlation coefficient
+- `V2-P127` `MethodUse`: Pearson correlation coefficient
+- `V2-P127` `MethodUse`: Lin's concordance correlation coefficient
+- `V2-P127` `MethodUse`: Mean absolute difference (MAD)
+- `V2-P127` `MethodUse`: t tests for mean values
+- `V2-P127` `MethodUse`: Bland–Altman plots
+- `V2-P127` `MethodUse`: Scatterplots
+- `V2-P127` `MethodUse`: One-sample t tests
+- `V2-P127` `MethodUse`: Time trade-off (TTO)
+- `V2-P127` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P127` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P128` `InstrumentUse`: EQ-5D-5L (Dutch translation)
+- `V2-P128` `InstrumentUse`: EQ-5D-5L (Dutch translation)
+- `V2-P128` `MethodUse`: composite time trade-off (composite TTO)
+- `V2-P128` `MethodUse`: conventional TTO
+- `V2-P128` `MethodUse`: lead-time TTO
+- `V2-P128` `MethodUse`: quota sampling for age and sex
+- `V2-P128` `MethodUse`: t-tests
+- `V2-P128` `MethodUse`: Wilcoxon tests
+- `V2-P128` `MethodUse`: Levene’s tests for equality of variance
+- `V2-P128` `MethodUse`: Brown–Forsythe tests
+- `V2-P128` `MethodUse`: Chi-squared test
+- `V2-P128` `MethodUse`: quality indicators adapted from Alava et al. [51] quality assurance programme for the EQ-5D-5L data in the UK
+- `V2-P128` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT) protocol (version 2 of the EQ-5D-5L valuation protocol)
+- `V2-P129` `InstrumentUse`: EQ-5D-5L
+- `V2-P129` `InstrumentUse`: EQ-5D-5L
+- `V2-P129` `InstrumentUse`: EQ-5D-5L descriptive system (self-reported own health)
+- `V2-P129` `InstrumentUse`: EQ-VAS (visual analogue scale)
+- `V2-P129` `InstrumentUse`: Country-specific questionnaire (sociodemographic characteristics, current illness, religious beliefs, beliefs about life and death)
+- `V2-P129` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P129` `MethodUse`: Lead time TTO (LT-TTO)
+- `V2-P129` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P129` `MethodUse`: Multistratified quota sampling
+- `V2-P129` `MethodUse`: Descriptive statistics of sample characteristics
+- `V2-P129` `ProtocolUse`: EQ-VT (adapted translated version of the EuroQol standard valuation protocol)
+- `V2-P129` `ModelUse`: Multivariable censored linear regression model adjusted for severity of health states
+- `V2-P129` `ModelUse`: Univariate censored linear regression models adjusted for severity of health states
+- `V2-P130` `InstrumentUse`: EQ-5D-5L (Australian English-language version)
+- `V2-P130` `InstrumentUse`: EQ VAS
+- `V2-P130` `InstrumentUse`: QOL-ACC (Quality-of-Life Aged Care Consumers instrument)
+- `V2-P130` `InstrumentUse`: ASCOT self-report four-level version (SCT4)
+- `V2-P130` `InstrumentUse`: EQ-HWB (25-item English version for Australia)
+- `V2-P130` `InstrumentUse`: EQ-HWB-S (9-item short version)
+- `V2-P130` `InstrumentUse`: ASCOT care homes toolkit (CH4)
+- `V2-P130` `InstrumentUse`: ASCOT interviewer-administered four-level version (INT4)
+- `V2-P130` `InstrumentUse`: Brief demographic questionnaire
+- `V2-P130` `MethodUse`: Concurrent think-aloud technique
+- `V2-P130` `MethodUse`: Retrospective think-aloud technique
+- `V2-P130` `MethodUse`: Cognitive interviewing (interview guide with instructions and prompts)
+- `V2-P130` `MethodUse`: Framework analysis (coding framework adapted from van Leeuwen et al., based on Tourangeau's model of survey response)
+- `V2-P130` `MethodUse`: Random assignment of two of the four measures across participants
+- `V2-P130` `MethodUse`: Facility nomination of eligible residents with staff introduction
+- `V2-P130` `MethodUse`: Independent coding by two researchers with disagreements resolved by discussion and reflection on personal biases
+- `V2-P131` `MethodUse`: convenience sampling
+- `V2-P131` `MethodUse`: workshop group discussions (facilitated, structured around five topics)
+- `V2-P131` `MethodUse`: semi-structured interviews
+- `V2-P131` `MethodUse`: semi-structured interviews
+- `V2-P131` `MethodUse`: thematic analysis (qualitative interpretive approach, blending deductive parent codes and inductive in-vivo child codes)
+- `V2-P131` `MethodUse`: independent coding by two coders with consolidation of a common coding framework through discussion
+- `V2-P131` `MethodUse`: assessment of data saturation through discussion between the two interviewers after each interview
+- `V2-P131` `MethodUse`: piloting of workshop and interview question guides with other members of the research team
+- `V2-P131` `MethodUse`: recruitment via flyers posted in the aged care facilities, direct email invitations sent by the facility manager, and information sessions at the facilities
+- `V2-P131` `MethodUse`: facility nomination of residents for interview based on cognitive functioning (most recent PAS-Cog score) and ability to speak and understand the English language
+- `V2-P131` `ProtocolUse`: ISOQOL (International Society for Quality of Life Research) User Guide for Implementing Patient-Reported Outcomes Assessment in Clinical Practice
+- `V2-P131` `InstrumentUse`: EQ-HWB
+- `V2-P131` `InstrumentUse`: four QoL measures
+- `V2-P131` `InstrumentUse`: Psychogeriatric Assessment Scale—Cognitive (PAS-Cog)
+- `V2-P131` `InstrumentUse`: Quality of Life Aged Care Consumers (QOL-ACC)
+- `V2-P131` `InstrumentUse`: DEMQOL-CH
+- `V2-P132` `InstrumentUse`: EQ-5D-5L (Australian English-language version for interviewer administration)
+- `V2-P132` `InstrumentUse`: EQ-5D-5L proxy version 2 (proxy-person perspective)
+- `V2-P132` `InstrumentUse`: QOL-ACC (Quality of Life-Aged Care Consumers), interviewer-administered version
+- `V2-P132` `InstrumentUse`: QOL-ACC proxy version (proxy perspective)
+- `V2-P132` `InstrumentUse`: ASCOT SCT-4 version (The Adult Social Care Outcomes Toolkit, self-report)
+- `V2-P132` `InstrumentUse`: ASCOT proxy version (proxy-proxy and proxy-person perspectives)
+- `V2-P132` `InstrumentUse`: EQ-HWB (EQ Health and Wellbeing Instrument), experimental 25-item long measure, self-report version
+- `V2-P132` `InstrumentUse`: EQ-HWB proxy version 2 (proxy-person perspective)
+- `V2-P132` `InstrumentUse`: EQ-5D-5L
+- `V2-P132` `InstrumentUse`: QOL-ACC
+- `V2-P132` `InstrumentUse`: ASCOT
+- `V2-P132` `InstrumentUse`: EQ-HWB
+- `V2-P132` `MethodUse`: Convenience selection of two residential aged care facilities nominated by the provider
+- `V2-P132` `MethodUse`: Workshops with aged care staff and relatives to design the routine QoL data collection process
+- `V2-P132` `MethodUse`: Training provided by the research team to all aged care staff involved in data collection
+- `V2-P132` `MethodUse`: Descriptive statistics (percentages for categorical data, means and standard deviations for continuous data)
+- `V2-P132` `MethodUse`: Semi-structured interviews following a topic guide, audio recorded
+- `V2-P132` `MethodUse`: Thematic analysis (Braun and Clarke)
+- `V2-P132` `MethodUse`: Random assignment of a second QoL measure (QOL-ACC, ASCOT or EQ-HWB) to the resident, with proxies assigned the same measure
+- `V2-P132` `ProtocolUse`: International Society for Quality of Life Research User Guide for Implementing Patient-Reported Outcomes Assessment in Clinical Practice
+- `V2-P133` `ProtocolUse`: Measurement and Valuation of Health (MVH) protocol
+- `V2-P133` `ProtocolUse`: Paris protocol
+- `V2-P133` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT) protocol
+- `V2-P133` `InstrumentUse`: EQ-5D-3L
+- `V2-P133` `InstrumentUse`: EQ-5D-5L
+- `V2-P133` `InstrumentUse`: EQ-5D
+- `V2-P133` `InstrumentUse`: EQ-5D-Y
+- `V2-P133` `MethodUse`: time trade-off (TTO)
+- `V2-P133` `MethodUse`: conventional TTO
+- `V2-P133` `MethodUse`: composite TTO
+- `V2-P133` `MethodUse`: lead-time TTO
+- `V2-P133` `MethodUse`: lag-time TTO
+- `V2-P133` `MethodUse`: discrete-choice experiment (DCE)
+- `V2-P133` `MethodUse`: visual analogue scale (VAS)
+- `V2-P133` `MethodUse`: ranking of health states
+- `V2-P133` `MethodUse`: standard gamble (SG)
+- `V2-P133` `ModelUse`: hybrid model (combined TTO and DCE maximum likelihood model)
+- `V2-P134` `InstrumentUse`: official EQ-5D-5L Bahasa Indonesia version
+- `V2-P134` `InstrumentUse`: EQ-5D-5L
+- `V2-P134` `InstrumentUse`: EQ-5D-5L
+- `V2-P134` `InstrumentUse`: EQ VAS (visual analogue scale)
+- `V2-P134` `InstrumentUse`: background questions (age, sex, experience of illness, religion, ethnicity and education)
+- `V2-P134` `InstrumentUse`: debriefing questions regarding the difficulties of the C-TTO and DCE tasks
+- `V2-P134` `MethodUse`: multi-stage stratified quota method
+- `V2-P134` `MethodUse`: composite time trade-off (C-TTO)
+- `V2-P134` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P134` `MethodUse`: computer-assisted face-to-face interviews
+- `V2-P134` `MethodUse`: Monte Carlo simulation (selection of the 80 unique health states for the C-TTO design)
+- `V2-P134` `MethodUse`: general z test
+- `V2-P134` `MethodUse`: Pearson product-moment correlation analysis
+- `V2-P134` `MethodUse`: cyclical feedback and interviewer retraining programme
+- `V2-P134` `ProtocolUse`: EQ-5D-5L valuation protocol (EuroQol Group)
+- `V2-P134` `ProtocolUse`: quality control (QC) process described by Ramos-Goñi et al.
+- `V2-P134` `ProtocolUse`: standardized translation protocol following international recommendations
+- `V2-P134` `ModelUse`: Tobit model censored at −1 with heteroskedastic specification (20-parameter main effects)
+- `V2-P134` `ModelUse`: conditional logistic regression model (DCE, rescaled)
+- `V2-P134` `ModelUse`: hybrid model combining C-TTO and DCE data (Oppe and van Hout)
+- `V2-P135` `InstrumentUse`: EQ-5D-3L
+- `V2-P135` `InstrumentUse`: EQ-5D-5L
+- `V2-P135` `InstrumentUse`: EQ-5D-3L
+- `V2-P135` `InstrumentUse`: EQ-5D-5L
+- `V2-P135` `InstrumentUse`: EQ-5D-3L (standard self-report version for adults)
+- `V2-P135` `InstrumentUse`: EQ-5D-5L (standard self-report version for adults)
+- `V2-P135` `InstrumentUse`: EQ-5D visual analogue scale (EQ VAS)
+- `V2-P135` `ProtocolUse`: EQ-VT (EuroQol Valuation Technology Platform)
+- `V2-P135` `MethodUse`: time trade-off (TTO)
+- `V2-P135` `MethodUse`: composite TTO
+- `V2-P135` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P135` `MethodUse`: Shannon's H′ index (absolute informativity)
+- `V2-P135` `MethodUse`: Shannon's J′ index (relative informativity/evenness)
+- `V2-P135` `MethodUse`: analysis of variance (ANOVA)
+- `V2-P135` `MethodUse`: relative efficiency (F statistic ratio, 5L/3L)
+- `V2-P135` `MethodUse`: area under the receiver-operating characteristics curve (AUROC)
+- `V2-P135` `MethodUse`: bootstrap (3000 bootstrap samples) for 95% confidence intervals
+- `V2-P135` `MethodUse`: Level Sum Score (LSS)
+- `V2-P135` `MethodUse`: transformed Level Sum Score (tLSS, LSS transformed to a 0–1 scale)
+- `V2-P135` `MethodUse`: histograms of observed and all possible utility values (distributional analysis of clusters and gaps)
+- `V2-P135` `ModelUse`: multiple regression analysis with the F statistic and AUROC as dependent variables
+- `V2-P135` `ModelUse`: 3L value set models re-estimated excluding the N3 term (The Netherlands, UK)
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for Canada
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for Canada
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for China
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for China
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for the UK
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for England
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for Japan
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for Japan
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for The Netherlands
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for The Netherlands
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for South Korea
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for South Korea
+- `V2-P135` `ProductUse`: EQ-5D-3L value set for Spain
+- `V2-P135` `ProductUse`: EQ-5D-5L value set for Spain
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for Canada
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for Canada
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for China
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for China
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for the UK
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for England
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for Japan
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for Japan
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for The Netherlands
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for The Netherlands
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for South Korea
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for South Korea
+- `V2-P135` `ScoringUse`: EQ-5D-3L value set for Spain
+- `V2-P135` `ScoringUse`: EQ-5D-5L value set for Spain
+- `V2-P136` `InstrumentUse`: EQ-5D-3L
+- `V2-P136` `InstrumentUse`: EQ-5D-5L
+- `V2-P136` `InstrumentUse`: EQ-VAS
+- `V2-P136` `InstrumentUse`: Barthel Index
+- `V2-P136` `InstrumentUse`: modified Rankin Scale
+- `V2-P136` `MethodUse`: Systematic literature search of PubMed, EMBASE, PsycINFO (EBSCO) and the EuroQol Research Foundation website
+- `V2-P136` `MethodUse`: Independent title and abstract review by two researchers with a third reviewer consulted in case of variance; full-text extraction double-checked by a second reviewer
+- `V2-P136` `MethodUse`: Structured data extraction of study characteristics and measurement-property parameters
+- `V2-P136` `MethodUse`: Shannon's indices H′ and J′
+- `V2-P136` `MethodUse`: Inconsistency assessment as defined by Janssen et al. (transforming 3L levels 1, 2, 3 to 5L levels 1, 3, 5 and comparing paired responses)
+- `V2-P136` `MethodUse`: Random effects logit transformation to calculate pooled proportions from single proportions
+- `V2-P136` `MethodUse`: Standardized effect size (ES)
+- `V2-P136` `MethodUse`: Standardized response mean (SRM)
+- `V2-P136` `MethodUse`: Wilcoxon signed-rank order test
+- `V2-P136` `MethodUse`: Probability of superiority (PS) as defined by Grissom and Kim
+- `V2-P136` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P136` `MethodUse`: Cohen's Kappa (κ)
+- `V2-P136` `MethodUse`: Weighted Kappa (wκ)
+- `V2-P136` `MethodUse`: Percentage of agreement (POA)
+- `V2-P136` `MethodUse`: Area under the receiver operating characteristic curve (AUROC)
+- `V2-P136` `ProtocolUse`: Quality Assessment Tool for Observational Cohort and Cross-Sectional Studies (National Heart, Lung, and Blood Institute)
+- `V2-P136` `ProtocolUse`: Guidelines for Reporting Reliability and Agreement Studies (GRRAS)
+- `V2-P136` `ProtocolUse`: Quality criteria for measurement properties of health status questionnaires as proposed by Terwee et al. (15% ceiling threshold)
+- `V2-P136` `ModelUse`: Random effects model for pooled proportions (logit transformation)
+- `V2-P136` `ProductUse`: Crosswalk (interim EQ-5D-5L scoring mapping 3L preference weights onto 5L responses, developed by the EuroQol Group)
+- `V2-P137` `InstrumentUse`: EQ-5D-3L
+- `V2-P137` `InstrumentUse`: EQ-5D-3L
+- `V2-P137` `InstrumentUse`: EQ-5D-5L
+- `V2-P137` `InstrumentUse`: EQ-5D-5L
+- `V2-P137` `InstrumentUse`: EQ-5D-3L
+- `V2-P137` `InstrumentUse`: EQ-5D-5L
+- `V2-P137` `MethodUse`: Discrete choice modeling (pairwise choice task)
+- `V2-P137` `MethodUse`: Efficient design routine (mnl model, 500 Bayesian draws, Halton sequence, modified Fedorov algorithm)
+- `V2-P137` `MethodUse`: Removal of dominant health-state pairs and two-level overlap
+- `V2-P137` `MethodUse`: Post-hoc contrast estimation of increments between consecutive levels
+- `V2-P137` `MethodUse`: Rescaling of choice-model values to published Dutch valuation study value ranges
+- `V2-P137` `MethodUse`: Coefficient range method for overall attribute weights
+- `V2-P137` `MethodUse`: Chi-square test of differences between the samples
+- `V2-P137` `MethodUse`: Kernel density and frequency distribution graphs of estimated values
+- `V2-P137` `MethodUse`: Online panel sampling representative of age and sex (Survey Sampling International)
+- `V2-P137` `ModelUse`: Conditional logit model (main-effects value function with dummy variables for attribute levels)
+- `V2-P137` `ModelUse`: Choice model with age groups included as a separate predictor
+- `V2-P137` `ProductUse`: The Dutch tariff for the EQ-5D-3L (Lamers et al.)
+- `V2-P137` `ProductUse`: Dutch tariff for the five-level version of EQ-5D (Versteegh et al.)
+- `V2-P138` `InstrumentUse`: EQ-5D-5L
+- `V2-P138` `InstrumentUse`: EQ-5D-5L
+- `V2-P138` `InstrumentUse`: EQ-5D-5L (self-rated health state)
+- `V2-P138` `MethodUse`: standard DCE
+- `V2-P138` `MethodUse`: DCE-death
+- `V2-P138` `MethodUse`: DCE-duration
+- `V2-P138` `MethodUse`: heterogeneous DCE design algorithm optimizing Bayesian D error (unstratified Bayesian efficient design)
+- `V2-P138` `MethodUse`: severity-stratified design restriction (21 severity strata candidate sets)
+- `V2-P138` `MethodUse`: Latin hypercube sample optimized for maximum minimum distance between points
+- `V2-P138` `MethodUse`: greedy optimization algorithm
+- `V2-P138` `MethodUse`: attribute-level overlap (minimum two of five dimensions at the same level), exclusion of implausible health states, and intensity color coding
+- `V2-P138` `MethodUse`: Bayesian Markov chain Monte Carlo (MCMC) methods
+- `V2-P138` `MethodUse`: Gibbs sampling
+- `V2-P138` `MethodUse`: Metropolis–Hastings algorithm
+- `V2-P138` `MethodUse`: mean errors (MEs) of predicted versus observed choice probabilities
+- `V2-P138` `MethodUse`: cross validation of the MEs across study arms of the same DCE format
+- `V2-P138` `MethodUse`: rescaling of DCE-death and DCE-duration parameters onto the QALY scale
+- `V2-P138` `MethodUse`: online panel recruitment with stratification by age, gender, and education
+- `V2-P138` `ModelUse`: mixed logit model (panel mixed logit)
+- `V2-P138` `ModelUse`: conditional logit model
+- `V2-P138` `ScoringUse`: Dutch tariff for the five-level version of EQ-5D [27]
+- `V2-P139` `InstrumentUse`: EQ-5D-5L
+- `V2-P139` `InstrumentUse`: EQ-5D-5L
+- `V2-P139` `InstrumentUse`: EQ-5D-5L
+- `V2-P139` `InstrumentUse`: EQ VAS
+- `V2-P139` `InstrumentUse`: SF-1 question from the SF-36 questionnaire
+- `V2-P139` `InstrumentUse`: EQ-5D-3L
+- `V2-P139` `ProductUse`: Polish EQ-5D-3L value set
+- `V2-P139` `ProductUse`: Polish EQ-5D-5L mapping-based cross-walk value set
+- `V2-P139` `MethodUse`: Quota-based sampling
+- `V2-P139` `MethodUse`: Composite time trade-off (including lead time TTO)
+- `V2-P139` `MethodUse`: Discrete choice experiment
+- `V2-P139` `MethodUse`: Efficient Bayesian design
+- `V2-P139` `MethodUse`: Monte Carlo simulation (selection of health states used in EQ-VT 2.0)
+- `V2-P139` `MethodUse`: Bayesian estimation with Markov-chain Monte Carlo simulation
+- `V2-P139` `MethodUse`: Kernel density function estimation
+- `V2-P139` `MethodUse`: Quality-control procedures for flagging interviews and interviewers
+- `V2-P139` `MethodUse`: TTO feedback module
+- `V2-P139` `MethodUse`: Descriptive statistics
+- `V2-P139` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT 2.0)
+- `V2-P139` `ProtocolUse`: CREATE guidelines for reporting valuation studies of multi-attribute utility-based instruments
+- `V2-P139` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies
+- `V2-P139` `ModelUse`: M1—panel random-effects approach, with heteroscedasticity-robust standard errors
+- `V2-P139` `ModelUse`: M2—fixed parameters Bayesian model, with no constant term
+- `V2-P139` `ModelUse`: M3—random parameters Bayesian model
+- `V2-P139` `ModelUse`: M4—as M3, with error depending on the theoretical disutility via a t-Student distribution
+- `V2-P139` `ModelUse`: M5—as M4, with scaling as a result of religiosity
+- `V2-P139` `ModelUse`: Final model (M5 + DCE, censoring): hybrid Bayesian model with random parameters, error scaling with fat tails, censoring at − 1, religiosity scaling and Cauchy distribution in DCE
+- `V2-P140` `InstrumentUse`: EQ-5D-5L
+- `V2-P140` `InstrumentUse`: EQ-5D-5L
+- `V2-P140` `InstrumentUse`: EQ-5D-5L
+- `V2-P140` `InstrumentUse`: EQ Visual Analog Scale (EQ VAS)
+- `V2-P140` `InstrumentUse`: EQ-5D-3L
+- `V2-P140` `ProductUse`: French EQ-5D-3L value set (Chevalier and de Pouvourville)
+- `V2-P140` `ProductUse`: EQ-5D-5L crosswalk interim scoring value set for France (van Hout et al. 2012)
+- `V2-P140` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P140` `MethodUse`: 'lead time' TTO
+- `V2-P140` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P140` `MethodUse`: feedback module
+- `V2-P140` `MethodUse`: experimental design of the EQ-VT (86 health states in 10 cTTO blocks; 196 pairs in 28 DCE blocks)
+- `V2-P140` `MethodUse`: quota sampling on age, sex and socioeconomic status based on national statistics
+- `V2-P140` `MethodUse`: weighting of respondents to force the sample to be representative of the total French population
+- `V2-P140` `MethodUse`: Kernel distribution comparison of value sets
+- `V2-P140` `MethodUse`: translation of protocol, training material and study documents into French by a professional translation company with validation by the French study team
+- `V2-P140` `ProtocolUse`: standardized EQ-5D-5L valuation protocol developed by EuroQol (version 2.0)
+- `V2-P140` `ProtocolUse`: quality control process for EQ-5D-5L valuation studies (Ramos-Goñi et al.)
+- `V2-P140` `ModelUse`: Tobit model for cTTO values with censoring at −1 and correction for heteroscedasticity
+- `V2-P140` `ModelUse`: conditional logit model for DCE data
+- `V2-P140` `ModelUse`: hybrid model unadjusted for age and sex (20-parameter main effects)
+- `V2-P140` `ModelUse`: main effect hybrid model adjusted (weighted) for age and sex
+- `V2-P140` `ModelUse`: hybrid model adjusted for age only
+- `V2-P140` `ModelUse`: hybrid model adjusted for sex only
+- `V2-P141` `InstrumentUse`: EQ-5D-Y
+- `V2-P141` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P141` `InstrumentUse`: EQ-5D-Y descriptive profile
+- `V2-P141` `InstrumentUse`: VAS (visual analogue scale)
+- `V2-P141` `InstrumentUse`: EQ-5D-5L questionnaire
+- `V2-P141` `MethodUse`: discrete-choice experiment (DCE)
+- `V2-P141` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P141` `MethodUse`: D-efficient design with main effects and all two-way interactions
+- `V2-P141` `MethodUse`: quota sampling by age group, sex and statistical region
+- `V2-P141` `MethodUse`: non-probability purposive sample
+- `V2-P141` `MethodUse`: rescaling of estimated coefficients to the weighted censored average value of the pits state (33333)
+- `V2-P141` `MethodUse`: bootstrapping (simulation of 10 million value sets)
+- `V2-P141` `MethodUse`: age-based sampling weights
+- `V2-P141` `MethodUse`: quality control checks of DCE responses (three fixed dominant pairs and minimum time criterion)
+- `V2-P141` `MethodUse`: cTTO interview discard criteria and QC reports every ten interviews
+- `V2-P141` `MethodUse`: translation of the interview script into the Slovenian language
+- `V2-P141` `MethodUse`: censoring of cTTO values at -1
+- `V2-P141` `ProtocolUse`: EQ-5D-Y-3L international valuation protocol
+- `V2-P141` `ProtocolUse`: EuroQol QC protocol
+- `V2-P141` `ModelUse`: mixed (random coefficients) logit model
+- `V2-P141` `ModelUse`: Tobit model
+- `V2-P141` `ModelUse`: multinomial logit model with 50 parameters
+- `V2-P142` `InstrumentUse`: EQ-5D-5L
+- `V2-P142` `InstrumentUse`: EQ-5D-5L
+- `V2-P142` `InstrumentUse`: PROMIS-29 + 2 Profile v2.1
+- `V2-P142` `InstrumentUse`: PROMIS-29 + 2 Profile v2.1
+- `V2-P142` `InstrumentUse`: PROMIS-29
+- `V2-P142` `ProductUse`: US EQ-5D-5L value set
+- `V2-P142` `ProductUse`: PROPr scoring system
+- `V2-P142` `ProductUse`: English EQ-5D-5L value set
+- `V2-P142` `ProductUse`: Australian EQ-5D-5L value set
+- `V2-P142` `ScoringUse`: US EQ-5D-5L value set
+- `V2-P142` `ScoringUse`: English EQ-5D-5L value set
+- `V2-P142` `ScoringUse`: Australian EQ-5D-5L value set
+- `V2-P142` `ScoringUse`: PROPr scoring system
+- `V2-P142` `ScoringUse`: PROPr scoring system
+- `V2-P142` `MethodUse`: Method described in Mulhern et al. for assessing values of adjacent states
+- `V2-P142` `MethodUse`: Matching of 'comparable' health states across EQ-5D-5L levels and PROMIS-29 + 2 domain sum raw scores (and T-score cut points in sensitivity analysis)
+- `V2-P142` `MethodUse`: Dimension/domain importance ranking by utility of corner states
+- `V2-P142` `MethodUse`: Kernel density histogram of theoretical values
+- `V2-P142` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P142` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P142` `MethodUse`: DCE with duration
+- `V2-P142` `MethodUse`: Standard gamble (SG)
+- `V2-P142` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT)
+- `V2-P143` `InstrumentUse`: EQ-5D-Y
+- `V2-P143` `InstrumentUse`: EQ-5D-Y proxy version 1
+- `V2-P143` `InstrumentUse`: Self-reported EQ-5D-Y
+- `V2-P143` `InstrumentUse`: Self-reported EQ-5D-5L
+- `V2-P143` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P143` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P143` `MethodUse`: lead-time TTO
+- `V2-P143` `MethodUse`: quota-based sampling
+- `V2-P143` `MethodUse`: convenience sample controlled in terms of gender and age groups
+- `V2-P143` `MethodUse`: D-efficient DCE design with two-dimension overlap (EQ-5D-Y valuation protocol design)
+- `V2-P143` `MethodUse`: quality control criteria: three fixed dominant pairs and a 150-second time criterion
+- `V2-P143` `MethodUse`: feedback module
+- `V2-P143` `MethodUse`: linear mapping approach for anchoring DCE latent scale values onto adjusted mean cTTO values
+- `V2-P143` `MethodUse`: relative attribute importance (RAI) scores
+- `V2-P143` `MethodUse`: descriptive analyses of sample characteristics and cTTO responses
+- `V2-P143` `MethodUse`: 15 DCE tasks administered after the cTTO tasks
+- `V2-P143` `ProtocolUse`: EQ-5D-Y valuation protocol (International valuation protocol for the EQ-5D-Y-3L)
+- `V2-P143` `ProtocolUse`: QC process established by the EuroQol Group for EQ-5D-5L valuation studies
+- `V2-P143` `ModelUse`: mixed logit model (all parameters random and normally distributed, 5000 Halton draws)
+- `V2-P143` `ModelUse`: conditional logit model
+- `V2-P143` `ModelUse`: Tobit models for each health state
+- `V2-P143` `ModelUse`: linear mapping function without a constant
+- `V2-P143` `ModelUse`: linear mapping model with a constant
+- `V2-P143` `ModelUse`: mapping model including a quadratic term
+- `V2-P143` `ProductUse`: Slovenian EQ-5D-Y value set
+- `V2-P143` `ProductUse`: Spanish EQ-5D-Y value set
+- `V2-P143` `ProductUse`: Japanese EQ-5D-Y value set
+- `V2-P143` `ProductUse`: German EQ-5D-5L value set
+- `V2-P144` `InstrumentUse`: EQ-5D-3L
+- `V2-P144` `InstrumentUse`: EQ-5D-5L
+- `V2-P144` `InstrumentUse`: EQ-5D-3L
+- `V2-P144` `InstrumentUse`: EQ-5D-5L
+- `V2-P144` `InstrumentUse`: EQ-5D-3L
+- `V2-P144` `InstrumentUse`: EQ-5D-5L
+- `V2-P144` `InstrumentUse`: five-level self-rated general health (SRH) question (item 1 of the SF-36)
+- `V2-P144` `InstrumentUse`: modified Rankin Scale (mRS)
+- `V2-P144` `InstrumentUse`: 10-item version of the Barthel Index (BI)
+- `V2-P144` `MethodUse`: level sum scores (LSS) with recoding to commensurable levels
+- `V2-P144` `MethodUse`: Wilcoxon signed-rank tests
+- `V2-P144` `MethodUse`: Paretian Classification of Health Change (PCHC)
+- `V2-P144` `MethodUse`: probability of superiority (PS)
+- `V2-P144` `MethodUse`: changed level responses ('moves') from baseline to follow-up
+- `V2-P144` `MethodUse`: inconsistencies in change between 3L and 5L
+- `V2-P144` `MethodUse`: anchor-based approaches using external anchors classifying patients into change categories
+- `V2-P144` `MethodUse`: standardized response mean (SRM)
+- `V2-P144` `MethodUse`: standardized effect size (SES) (Glass's Delta)
+- `V2-P144` `MethodUse`: relative efficiency (5L/3L ratio of the SRM and SES statistics)
+- `V2-P144` `MethodUse`: 1000 bootstrap samples for 95% confidence intervals
+- `V2-P144` `ProtocolUse`: EuroQol Valuation Technology Platform (EQ-VT)
+- `V2-P144` `ScoringUse`: Canada EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: Canada EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: China EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: China EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: England/UK EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: England/UK EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: Germany EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: Germany EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: Japan EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: Japan EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: The Netherlands EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: The Netherlands EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: Poland EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: Poland EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: South Korea EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: South Korea EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: Spain EQ-5D-3L value set
+- `V2-P144` `ScoringUse`: Spain EQ-5D-5L value set
+- `V2-P144` `ScoringUse`: US EQ-5D-3L value set derived via EQ-VT from a common same sample (parallel valuation)
+- `V2-P144` `ScoringUse`: US EQ-5D-5L value set derived via EQ-VT from a common same sample (parallel valuation)
+- `V2-P145` `InstrumentUse`: EQ-5D-5L
+- `V2-P145` `InstrumentUse`: EQ-5D-5L
+- `V2-P145` `ScoringUse`: Egyptian value set (EQ-5D-5L)
+- `V2-P145` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P145` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P145` `MethodUse`: multi-stratified quota sampling
+- `V2-P145` `MethodUse`: Intraclass correlation (ICC) coefficients
+- `V2-P145` `MethodUse`: mean absolute error (MAE)
+- `V2-P145` `MethodUse`: random draws repeated 10,000 times
+- `V2-P145` `MethodUse`: Descriptive statistics
+- `V2-P145` `ProtocolUse`: Egyptian translated version of the EQ-VT-2.1 protocol
+- `V2-P145` `ProtocolUse`: quality control (QC) tool
+- `V2-P145` `ProtocolUse`: quality control (QC) tool
+- `V2-P145` `ModelUse`: Three-level mixed models (responses nested in respondents, nested in interviewers)
+- `V2-P145` `ModelUse`: OLS regression model A: MAE over interview sequence (Time) by interviewer
+- `V2-P145` `ModelUse`: OLS regression model B: MAE with Pilot dummy variable
+- `V2-P145` `ModelUse`: OLS regression model C: MAE with Time*Pilot interaction
+- `V2-P146` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P146` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P146` `InstrumentUse`: EQ-5D-5L
+- `V2-P146` `ProductUse`: The Indonesian EQ-5D-5L value set (Purba et al.)
+- `V2-P146` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P146` `MethodUse`: composite time trade-off (cTTO), combining conventional TTO and lead-time TTO
+- `V2-P146` `MethodUse`: multi-stage stratified quota sampling
+- `V2-P146` `MethodUse`: selection based on living area (urban/rural) and sex (male/female)
+- `V2-P146` `MethodUse`: orthogonal array design for health-state selection
+- `V2-P146` `MethodUse`: DCE design of ten blocks of 15 pairs with attribute level overlap and colour coding (Ramos-Goñi et al.)
+- `V2-P146` `MethodUse`: mapping of DCE-derived latent values onto mean observed cTTO values (linear and non-linear anchoring)
+- `V2-P146` `MethodUse`: model selection based on logical consistency and mean absolute error
+- `V2-P146` `MethodUse`: DCE quality checks: two practice tasks, an embedded logically dominant pair and a minimum interview duration of 300 s
+- `V2-P146` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L (Ramos-Goñi et al.)
+- `V2-P146` `ProtocolUse`: EuroQol quality control procedure (quality control process for EQ-5D-5L valuation studies, Ramos-Goñi et al.)
+- `V2-P146` `ModelUse`: mixed-logit model
+- `V2-P146` `ModelUse`: linear mapping
+- `V2-P146` `ModelUse`: linear mapping (no constant)
+- `V2-P146` `ModelUse`: power mapping
+- `V2-P146` `ModelUse`: power mapping (no constant)
+- `V2-P146` `ModelUse`: hybrid modelling
+- `V2-P146` `ModelUse`: TTO model
+- `V2-P147` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P147` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P147` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P147` `InstrumentUse`: EQ-VAS
+- `V2-P147` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P147` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P147` `MethodUse`: quota sampling method
+- `V2-P147` `MethodUse`: snowball sampling
+- `V2-P147` `MethodUse`: purposive sampling
+- `V2-P147` `MethodUse`: Bayesian efficient design with two-dimension overlap, level spread and utility balance
+- `V2-P147` `MethodUse`: orthogonal design of 18 health states
+- `V2-P147` `MethodUse`: computer-assisted personal interview
+- `V2-P147` `MethodUse`: mapping method (regressing DCE latent values onto observed cTTO values to obtain the rescale coefficient)
+- `V2-P147` `MethodUse`: mean absolute error (MAE) between predicted values and observed mean values for the 28 health states
+- `V2-P147` `MethodUse`: quality control (QC) process evaluating interviewer protocol compliance and interviewer effects
+- `V2-P147` `ProtocolUse`: international EQ-5D-Y-3L valuation protocol
+- `V2-P147` `ProtocolUse`: EuroQol QC protocol
+- `V2-P147` `ModelUse`: mixed logit model with random correlated coefficients
+- `V2-P147` `ModelUse`: ordinary least squares (OLS) model for rescaling DCE latent values onto observed cTTO values
+- `V2-P147` `ModelUse`: hybrid main effects model
+- `V2-P147` `ModelUse`: hybrid model with A3 term
+- `V2-P147` `ModelUse`: OLS model with A3 term (for reference)
+- `V2-P147` `ProductUse`: Chinese EQ-5D-3L value set
+- `V2-P147` `ProductUse`: Chinese EQ-5D-5L value set
+- `V2-P148` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P148` `InstrumentUse`: EQ-5D-3L
+- `V2-P148` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L
+- `V2-P148` `MethodUse`: Purposive sampling of key stakeholders from investigators' networks
+- `V2-P148` `MethodUse`: Investigator-designed 5-item pre-meeting survey
+- `V2-P148` `MethodUse`: Descriptive analysis of pre-meeting survey findings
+- `V2-P148` `MethodUse`: Semi-structured roundtable discussion around prespecified questions with investigator moderators
+- `V2-P148` `MethodUse`: Independent investigator review of transcript and written contributions with note categorization and consensus distillation into themes
+- `V2-P148` `MethodUse`: Discrete choice experiments (DCEs)
+- `V2-P148` `MethodUse`: Composite time trade-off (cTTO) tasks
+- `V2-P148` `MethodUse`: Quota-based sampling based on racial/ethnic groups, age and gender for a nationally representative sample
+- `V2-P148` `MethodUse`: Delphi technique
+- `V2-P148` `MethodUse`: Formal content analysis
+- `V2-P149` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P149` `InstrumentUse`: EQ-VAS
+- `V2-P149` `InstrumentUse`: EQ-5D-5L health states
+- `V2-P149` `InstrumentUse`: EQ-5D-5L health states
+- `V2-P149` `MethodUse`: Composite time trade-off (cTTO)
+- `V2-P149` `MethodUse`: Discrete choice experiment (DCE) without duration
+- `V2-P149` `MethodUse`: Fedorov's exchange algorithm
+- `V2-P149` `MethodUse`: Non-probability quota sampling across 12 statistical regions by age group and sex
+- `V2-P149` `MethodUse`: Feedback module flagging and rank-ordering removal of cTTO responses
+- `V2-P149` `ProtocolUse`: EuroQol Group's valuation protocol (EQ-5D-5L international valuation protocol)
+- `V2-P149` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies developed by the EuroQol Group
+- `V2-P149` `ModelUse`: Tobit model with conditional heteroscedasticity, censoring at −2 disutility
+- `V2-P149` `ProductUse`: EQ-5D-3L value set for Slovenia
+- `V2-P149` `ProductUse`: Crosswalk EQ-5D-5L value set for Slovenia
+- `V2-P149` `ProductUse`: Hungarian EQ-5D-5L value set
+- `V2-P149` `ProductUse`: Polish EQ-5D-5L value set
+- `V2-P149` `ProductUse`: Romanian EQ-5D-5L value set
+- `V2-P150` `InstrumentUse`: Pediatric Quality of Life Inventory (PedsQL)
+- `V2-P150` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P150` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P150` `InstrumentUse`: Child Health Utility Instrument (CHU9D)
+- `V2-P150` `InstrumentUse`: Assessment of Quality of Life (AQoL-6D) Adolescent
+- `V2-P150` `InstrumentUse`: Health Utilities Index Mark 2/3 (HUI 2/3), scored with the HUI3 classification system
+- `V2-P150` `InstrumentUse`: Strengths and Difficulties Questionnaire (SDQ)
+- `V2-P150` `InstrumentUse`: Revised Children’s Anxiety and Depression Scale, Short form (RCADS-25)
+- `V2-P150` `InstrumentUse`: Strengths and Weaknesses of Attention-Deficit/Hyperactivity Disorder Symptoms and Normal Behavior Scale (SWAN)
+- `V2-P150` `InstrumentUse`: Special health care needs (SHCN) screening question / published special healthcare needs screener
+- `V2-P150` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P150` `InstrumentUse`: Child Health Utility Instrument (CHU9D)
+- `V2-P150` `InstrumentUse`: Assessment of Quality of Life (AQoL-6D) Adolescent
+- `V2-P150` `InstrumentUse`: Health Utilities Index Mark 2/3 (HUI 2/3), scored with the HUI3 classification system
+- `V2-P150` `ScoringUse`: currently available value set for the EQ-5D-Y-3L (value sets used are listed in ESM Table S10)
+- `V2-P150` `ScoringUse`: currently available value set for the CHU9D (adolescent- and Australian-specific value set)
+- `V2-P150` `ScoringUse`: currently available value set for the AQoL-6D (value sets used are listed in ESM Table S10)
+- `V2-P150` `ScoringUse`: currently available value set for the HUI3 (value sets used are listed in ESM Table S10)
+- `V2-P150` `MethodUse`: recruitment via an online panel survey company (PureProfile)
+- `V2-P150` `MethodUse`: online survey with 4-week follow-up survey
+- `V2-P150` `MethodUse`: instrument randomisation (participants randomised to either the AQoL-6D or the HUI3; 4-year-olds randomised to either the EQ-5D-Y-3L or the EQ-5D-Y-5L)
+- `V2-P150` `MethodUse`: level sum score (LSS)
+- `V2-P150` `MethodUse`: PedsQL reverse scoring and linear transformation to a 0–100 scale
+- `V2-P150` `MethodUse`: RCADS-25 T-score calculation using available syntax based on United States population norms and severity classification (normal/borderline/clinical)
+- `V2-P150` `MethodUse`: SWAN z-score standardisation with published cut point z > 0.74
+- `V2-P150` `MethodUse`: SDQ symptom severity cut points based on Australian norms (low; borderline/query; abnormal/of concern)
+- `V2-P150` `MethodUse`: floor and ceiling effects analysis (>15% in worst/best possible health state)
+- `V2-P150` `MethodUse`: Spearman’s rank correlation coefficient (rho, ρ)
+- `V2-P150` `MethodUse`: Cohen’s D effect size
+- `V2-P150` `MethodUse`: standardised response means (SRM)
+- `V2-P150` `MethodUse`: t-tests
+- `V2-P150` `ModelUse`: two-way mixed-effects model for the intraclass correlation coefficient (ICC), based on absolute agreement
+- `V2-P150` `ProtocolUse`: COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures
+- `V2-P150` `ProtocolUse`: COSMIN guidelines / COSMIN Study Design checklist (sample size adequacy ratings)
+- `V2-P150` `ProtocolUse`: Australian Paediatric Multi-Instrument Comparison Study Protocol (P-MIC)
+- `V2-P150` `ProtocolUse`: QUOKKA Study Technical Methods Guide including the prespecified statistical analysis plan
+- `V2-P151` `InstrumentUse`: Child Health Utility 9D (CHU9D) proxy version with guidance notes for children under 5 years
+- `V2-P151` `InstrumentUse`: Pediatric Quality of Life Inventory™ version 4.0 (PedsQL) toddler (ages 2–4 years) version
+- `V2-P151` `InstrumentUse`: Child Health Utility 9D (CHU9D) proxy version with guidance notes for children under 5 years
+- `V2-P151` `InstrumentUse`: Pediatric Quality of Life Inventory™ version 4.0 (PedsQL) toddler (ages 2–4 years) version
+- `V2-P151` `MethodUse`: Spearman's rank correlation
+- `V2-P151` `MethodUse`: Intraclass correlation coefficients (absolute agreement, two-way mixed effects model)
+- `V2-P151` `MethodUse`: Weighted kappa coefficients
+- `V2-P151` `MethodUse`: Nonparametric Mann–Whitney U test
+- `V2-P151` `MethodUse`: Cohen's d between-subject effect size
+- `V2-P151` `MethodUse`: Paired t-test (one-sided P values)
+- `V2-P151` `MethodUse`: Standard response mean (SRM)
+- `V2-P151` `MethodUse`: A priori consensus method for specifying convergent and divergent item-pair hypotheses
+- `V2-P151` `MethodUse`: Randomization of instrument presentation order
+- `V2-P151` `MethodUse`: Online panel and hospital recruitment with survey screening questions for eligibility
+- `V2-P151` `ProtocolUse`: Australian Paediatric Multi-Instrument Comparison (P-MIC) study protocol and Technical Methods Paper
+- `V2-P151` `ProtocolUse`: COSMIN study design checklist for patient-reported outcome measurement instruments
+- `V2-P151` `ScoringUse`: CHU9D scoring algorithm based on preferences from Australian adolescents
+- `V2-P151` `ScoringUse`: CHU9D UK adult weights
+- `V2-P151` `MethodUse`: Reverse scoring and linear transformation of PedsQL items to a 0–100 scale
+- `V2-P152` `InstrumentUse`: EQ-5D-Y-3L (Brazilian Portuguese version)
+- `V2-P152` `InstrumentUse`: EQ-5D-Y-3L (Brazilian Portuguese version)
+- `V2-P152` `InstrumentUse`: EQ-5D-Y-3L self-reported version
+- `V2-P152` `InstrumentUse`: EQ-VAS (Visual Analog Scale)
+- `V2-P152` `InstrumentUse`: EQ-5D-3L
+- `V2-P152` `ProductUse`: Brazilian EQ-5D-3L value set
+- `V2-P152` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P152` `MethodUse`: composite time trade-off (cTTO), comprising conventional TTO and lead-time TTO
+- `V2-P152` `MethodUse`: orthogonal design for health state selection
+- `V2-P152` `MethodUse`: DCE design of 150 pairs in 10 blocks with two-dimension level overlap
+- `V2-P152` `MethodUse`: quota sampling through a recruitment panel company (age, sex, educational level, socioeconomic level)
+- `V2-P152` `MethodUse`: DCE quality control criteria (three fixed dominant pairs and fast-respondent time threshold)
+- `V2-P152` `MethodUse`: descriptive analysis of respondent characteristics, EQ-5D-Y-3L descriptive system, EQ-VAS and cTTO values
+- `V2-P152` `MethodUse`: rescaling of mixed-logit coefficients using the mapping rescaling parameter
+- `V2-P152` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L
+- `V2-P152` `ProtocolUse`: Checklist for Reporting Valuation Studies of the EQ-5D (CREATE)
+- `V2-P152` `ProtocolUse`: EuroQol quality control process for EQ-5D valuation studies (protocol compliance and interviewer effects)
+- `V2-P152` `ModelUse`: conditional logistic regression model
+- `V2-P152` `ModelUse`: mixed-logit model
+- `V2-P152` `ModelUse`: linear mapping with intercept
+- `V2-P152` `ModelUse`: linear mapping without intercept
+- `V2-P152` `ModelUse`: non-linear mapping with intercept
+- `V2-P152` `ModelUse`: non-linear mapping without intercept
+- `V2-P153` `InstrumentUse`: EQ-5D-5L
+- `V2-P153` `InstrumentUse`: EQ-5D-5L
+- `V2-P153` `InstrumentUse`: EQ Health and Wellbeing Short version (EQ-HWB-S)
+- `V2-P153` `InstrumentUse`: EQ Health and Wellbeing Short version (EQ-HWB-S)
+- `V2-P153` `InstrumentUse`: EQ VAS
+- `V2-P153` `InstrumentUse`: EQ-5D-Y-3L proxy version 1
+- `V2-P153` `InstrumentUse`: EQ-5D-Y-3L (self-completed, children aged over 6 years)
+- `V2-P153` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P153` `InstrumentUse`: EQ Toddler and Infant Populations Questionnaire (EQ-TIPS)
+- `V2-P153` `InstrumentUse`: Overall Health Assessment (OHA)
+- `V2-P153` `InstrumentUse`: Overall Health Assessment (OHA) proxy version
+- `V2-P153` `InstrumentUse`: EQ VAS (proxy complete, for the child)
+- `V2-P153` `ScoringUse`: Chinese value set (EQ-5D-5L, −0.391 to 1)
+- `V2-P153` `ScoringUse`: UK value set for the EQ-HWB-S (−0.384 to 1)
+- `V2-P153` `ScoringUse`: Chinese value set for the EQ-5D-Y-3L (−0.088 to 1)
+- `V2-P153` `MethodUse`: Recruitment by approaching all eligible patients and their carers during hospital visits
+- `V2-P153` `MethodUse`: Snowball sampling
+- `V2-P153` `MethodUse`: Known-groups validity analysis
+- `V2-P153` `MethodUse`: Modified Park test
+- `V2-P153` `MethodUse`: Gwet's agreement coefficient (Gwet's AC1)
+- `V2-P153` `MethodUse`: Intraclass correlation coefficient
+- `V2-P153` `MethodUse`: Glass' Δ effect size
+- `V2-P153` `MethodUse`: Cohen's d effect size
+- `V2-P153` `MethodUse`: Independent t-tests and paired sample t-tests
+- `V2-P153` `MethodUse`: Chi-squared test and Fisher's exact test
+- `V2-P153` `MethodUse`: Odds ratios for reporting 'no problem' versus 'any problems' in each dimension
+- `V2-P153` `MethodUse`: Transformation of index scores to disutility (1 − utility)
+- `V2-P153` `MethodUse`: EQ-TIPS level sum score (6–18)
+- `V2-P153` `MethodUse`: Translation and cultural adaptation of the Chinese EQ-HWB-S per EuroQol Group guidelines
+- `V2-P153` `ProtocolUse`: EuroQol Group guidelines for translation and cultural adaptation
+- `V2-P153` `ProtocolUse`: Chinese COVID-19 guidelines (Diagnosis and treatment protocol for COVID-19 infection, Trial Version 10)
+- `V2-P153` `ModelUse`: Gamma distribution with a log-link generalised linear regression model (gamma-log generalised multivariate linear regression)
+- `V2-P154` `MethodUse`: desktop review methods (instrument websites)
+- `V2-P154` `InstrumentUse`: EQ-5D-3L
+- `V2-P154` `InstrumentUse`: EQ-5D-5L
+- `V2-P154` `InstrumentUse`: EQ-5D-Y
+- `V2-P154` `InstrumentUse`: SF-6D
+- `V2-P154` `InstrumentUse`: Health Utilities Index (HUI)
+- `V2-P154` `InstrumentUse`: 15-D
+- `V2-P154` `InstrumentUse`: Assessment of Quality of Life (AQoL)
+- `V2-P154` `ProductUse`: existing HRQoL value sets (predominantly EQ-5D value sets)
+- `V2-P154` `ProductUse`: first UK value set for the EQ-5D-3L (Measurement and Valuation of Health study, 1997)
+- `V2-P154` `ProductUse`: coexisting EQ-5D-3L value sets for China
+- `V2-P155` `InstrumentUse`: EQ- 5D-Y- 3L
+- `V2-P155` `InstrumentUse`: EQ- 5D-Y- 5L
+- `V2-P155` `InstrumentUse`: EQ- 5D- 3L
+- `V2-P155` `InstrumentUse`: CHU9D
+- `V2-P155` `InstrumentUse`: PedsQL
+- `V2-P155` `InstrumentUse`: HUI2
+- `V2-P155` `InstrumentUse`: HUI3
+- `V2-P155` `InstrumentUse`: Vignette
+- `V2-P155` `MethodUse`: Search of Ovid MEDLINE (Medline & Pubmed), Ovid EMBASE, and EconLit from 1946 to 11 November 2024
+- `V2-P155` `MethodUse`: Independent double title/abstract and full-text screening by multiple reviewers
+- `V2-P155` `MethodUse`: Data extraction using a piloted data extraction template (two studies extracted independently by all three reviewers)
+- `V2-P155` `MethodUse`: Descriptive and narrative summary of study characteristics, dimension rank order, and factors contributing to differences
+- `V2-P155` `MethodUse`: Level sum score (LSS) calculation and rescaling of VAS values from 0-100 to 0-1
+- `V2-P155` `MethodUse`: Restricted maximum likelihood method
+- `V2-P155` `MethodUse`: Multi-level Higgins–Thompson I2 statistic
+- `V2-P155` `MethodUse`: Time trade-off (TTO)
+- `V2-P155` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P155` `MethodUse`: Visual analog scale (VAS)
+- `V2-P155` `MethodUse`: Standard gamble (SG)
+- `V2-P155` `MethodUse`: Best–worst scaling (BWS)
+- `V2-P155` `MethodUse`: Person trade-off (PTO)
+- `V2-P155` `MethodUse`: Quality assessment of included studies using the bespoke checklist (13 RETRIEVE items, 7 MMAT items, 5 author-developed items), conducted by one reviewer
+- `V2-P155` `ModelUse`: Multi-level meta-regression
+- `V2-P155` `ProtocolUse`: Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines
+- `V2-P155` `ProtocolUse`: Review protocol registered with PROSPERO (CRD42023429906)
+- `V2-P155` `ProtocolUse`: RETRIEVE checklist
+- `V2-P155` `ProtocolUse`: Mixed Methods Appraisal Tool (MMAT)
+- `V2-P155` `ProtocolUse`: EQ- 5D-Y- 3L valuation protocol
+- `V2-P156` `InstrumentUse`: EQ-5D-5L
+- `V2-P156` `InstrumentUse`: EQ-5D-5L
+- `V2-P156` `InstrumentUse`: EQ-5D-5L questionnaire
+- `V2-P156` `InstrumentUse`: EQ-5D-5L
+- `V2-P156` `InstrumentUse`: EQ-5D-3L
+- `V2-P156` `ProtocolUse`: 'lite' version of the EuroQol Research Foundation's EQ-5D-5L valuation protocol
+- `V2-P156` `ProtocolUse`: standard EQ-5D-5L valuation protocol (EQ-VT version 2)
+- `V2-P156` `ProtocolUse`: standard quality control process developed by the EuroQol Group
+- `V2-P156` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P156` `MethodUse`: quota sampling method
+- `V2-P156` `MethodUse`: generation of five blocks of 20 health states from the 10 standard-protocol blocks
+- `V2-P156` `MethodUse`: cross-validation procedure (five iterations by health-state block)
+- `V2-P156` `MethodUse`: backward selection method for identifying significant interaction terms
+- `V2-P156` `MethodUse`: censoring adjustment of mean cTTO values
+- `V2-P156` `MethodUse`: logical consistency check of predicted value sets across 759,375 health-state pairs
+- `V2-P156` `ModelUse`: ADD20 (conventional 20-parameter main-effects-only tobit model)
+- `V2-P156` `ModelUse`: ADD20-I (20-parameter model with two-way interaction terms)
+- `V2-P156` `ModelUse`: ADD20-P (20-parameter model with a power function)
+- `V2-P156` `ModelUse`: CALE (eight-parameter cross-attribute level effects model)
+- `V2-P156` `ModelUse`: CALE-I (CALE model with two-way interaction terms)
+- `V2-P156` `ModelUse`: CALE-P (CALE model with a power function)
+- `V2-P156` `ModelUse`: tobit model with only the intercept term
+- `V2-P156` `ModelUse`: recommended mapping function for mapping EQ-5D-5L health states to EQ-5D-3L health states (van Hout et al., interim scoring for the EQ-5D-5L)
+- `V2-P156` `ModelUse`: algorithm developed by van Hout and Shaw (mapping EQ-5D-3L to EQ-5D-5L)
+- `V2-P156` `ProductUse`: local EQ-5D-3L value set for Singapore (Luo et al. 2014)
+- `V2-P156` `ScoringUse`: local EQ-5D-3L value set for Singapore (Luo et al. 2014)
+- `V2-P157` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P157` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P157` `InstrumentUse`: EQ-HWB-9
+- `V2-P157` `InstrumentUse`: EQ-5D-3L
+- `V2-P157` `InstrumentUse`: EQ-5D-5L
+- `V2-P157` `MethodUse`: Online elicitation of Personal Utility Functions (OPUF)
+- `V2-P157` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P157` `MethodUse`: pre-testing interviews
+- `V2-P157` `MethodUse`: Quotas to obtain a representative sample in relation to age, gender, and ethnicity
+- `V2-P157` `MethodUse`: Randomisation to one of five perspective arms and randomisation of task ordering
+- `V2-P157` `MethodUse`: Calculation of dimension- and level-specific disutilities and anchoring factor (Equations 1 and 2)
+- `V2-P157` `MethodUse`: Relative importance (RI) score calculation (Equation 3)
+- `V2-P157` `MethodUse`: bootstrapping
+- `V2-P157` `MethodUse`: Delta method
+- `V2-P157` `MethodUse`: Pearson’s chi-squared tests
+- `V2-P157` `MethodUse`: Censoring of extreme anchoring responses at − 1 and exclusion of participants providing a value of 1 for 33333 or being dead
+- `V2-P157` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P157` `ModelUse`: conditional logit models
+- `V2-P157` `ModelUse`: pooled model containing ten interaction terms for four perspectives (10-year-old child perspective as baseline)
+- `V2-P158` `InstrumentUse`: EQ-5D-5L
+- `V2-P158` `InstrumentUse`: EQ-5D-5L
+- `V2-P158` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P158` `InstrumentUse`: EuroQol visual analogue scale (VAS)
+- `V2-P158` `InstrumentUse`: EQ-5D-3L
+- `V2-P158` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P158` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P158` `MethodUse`: multistage, stratified, cluster sampling with unequal probability design
+- `V2-P158` `MethodUse`: post-stratification weights
+- `V2-P158` `MethodUse`: Monte Carlo simulation (EQ-VT experimental design of health states)
+- `V2-P158` `MethodUse`: computer-assisted personal interview (CAPI) face-to-face interviews
+- `V2-P158` `MethodUse`: maximum likelihood estimation
+- `V2-P158` `MethodUse`: Rao-Wu bootstrap with 1000 replications
+- `V2-P158` `MethodUse`: exclusion criteria for implausible cTTO response patterns
+- `V2-P158` `MethodUse`: translation of interview scripts to Dutch and French by a professional translation agency with research-team review
+- `V2-P158` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT 2.1) protocol for EQ-5D-5L valuation studies
+- `V2-P158` `ProtocolUse`: quality control process for EQ-5D-5L valuation studies
+- `V2-P158` `ProtocolUse`: CREATE guidelines for valuation studies of multi-attribute utility-based instruments
+- `V2-P158` `ModelUse`: hybrid multiplicative eight-coefficient model (MULT8) with intercept, random effects and correction for heteroskedasticity
+- `V2-P158` `ModelUse`: 20-coefficients additive model (ADD20)
+- `V2-P158` `ModelUse`: multiplicative nine-coefficient model (MULT9)
+- `V2-P158` `ModelUse`: multiplicative eleven-coefficient model (MULT11)
+- `V2-P158` `ModelUse`: preferred model re-estimated on three alternative data samples
+- `V2-P158` `ProductUse`: Belgian EQ-5D-3L value set (social preference valuation set for EQ-5D health states in Flanders, Belgium)
+- `V2-P158` `ProductUse`: EQ-5D-5L crosswalk value set (mapping EQ-5D-5L to EQ-5D-3L value sets)
+- `V2-P159` `InstrumentUse`: EQ-5D-3L
+- `V2-P159` `InstrumentUse`: EQ-5D-3L
+- `V2-P159` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P159` `MethodUse`: discrete choice experiments (DCE)
+- `V2-P159` `MethodUse`: lead-time TTO (LT-TTO)
+- `V2-P159` `MethodUse`: multi-stage stratified quota sampling
+- `V2-P159` `MethodUse`: population proportionate to size sampling (PPS)
+- `V2-P159` `MethodUse`: translation of interview guides, survey instructions and the EQ-PVT platform into Urdu by a professional translator with study team review
+- `V2-P159` `MethodUse`: continuous checking of interviewer performance and data quality by EuroQol quality assurance officers
+- `V2-P159` `MethodUse`: maximum likelihood estimation (MLE)
+- `V2-P159` `MethodUse`: descriptive analyses of respondent demographic and general characteristics
+- `V2-P159` `ProtocolUse`: standardized EQ-5D-5L valuation protocol developed by EuroQol (version 2 of the EQ-5D-5L valuation protocol)
+- `V2-P159` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies (Ramos-Goñi et al.)
+- `V2-P159` `ModelUse`: random intercept model (cTTO)
+- `V2-P159` `ModelUse`: random intercept Tobit model (cTTO)
+- `V2-P159` `ModelUse`: heteroskedastic model (cTTO)
+- `V2-P159` `ModelUse`: heteroskedastic Tobit model (cTTO)
+- `V2-P159` `ModelUse`: heteroskedastic, no constant model (cTTO)
+- `V2-P159` `ModelUse`: conditional logit model (DCE)
+- `V2-P159` `ModelUse`: probit model (DCE)
+- `V2-P159` `ModelUse`: hybrid model
+- `V2-P159` `ModelUse`: hybrid, no constant model
+- `V2-P159` `ModelUse`: hybrid Tobit model
+- `V2-P159` `ModelUse`: hybrid, heteroskedastic model (with constant)
+- `V2-P159` `ModelUse`: hybrid heteroskedastic Tobit model
+- `V2-P159` `ModelUse`: hybrid heteroskedastic Tobit, no constant model
+- `V2-P159` `ModelUse`: hybrid model correcting for heteroskedasticity without a constant (final model)
+- `V2-P160` `InstrumentUse`: EQ-5D-5L
+- `V2-P160` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P160` `InstrumentUse`: EQ-VAS
+- `V2-P160` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT) protocol
+- `V2-P160` `ProtocolUse`: Quality control (QC) process of EQ-VT valuation studies
+- `V2-P160` `ProtocolUse`: EQ-VT protocol
+- `V2-P160` `MethodUse`: Conversational Analysis framework
+- `V2-P160` `MethodUse`: Verbatim transcription of video recordings (in Italian)
+- `V2-P160` `MethodUse`: Random selection of video recordings for scoring (three per batch per interviewer)
+- `V2-P160` `MethodUse`: Independent double scoring by two scorers with a third scorer to avoid self-scoring bias
+- `V2-P160` `MethodUse`: Standardization of Likert and Boolean items and weighted average of positive and negative items
+- `V2-P160` `MethodUse`: Blinding of scorers to the QC results until the scoring phase had terminated
+- `V2-P160` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P160` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P161` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P161` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P161` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P161` `InstrumentUse`: EQ VAS
+- `V2-P161` `MethodUse`: Discrete choice experiment (DCE), forced choice between 2 health states
+- `V2-P161` `MethodUse`: Experimental design following the international valuation protocol for the EQ-5D-Y-3L (150 pairs in 10 blocks)
+- `V2-P161` `MethodUse`: Quota sampling through market research companies owning online panels
+- `V2-P161` `MethodUse`: Quality control by minimum completion time (150 seconds) and 3 fixed dominant pairs
+- `V2-P161` `MethodUse`: Descriptive analyses of sample characteristics
+- `V2-P161` `MethodUse`: Profile-based normalization of coefficients (relative attribute importance)
+- `V2-P161` `MethodUse`: Wald test
+- `V2-P161` `MethodUse`: Likelihood ratio test
+- `V2-P161` `MethodUse`: Bootstrapped 90% confidence intervals for relative attribute importance
+- `V2-P161` `MethodUse`: Examination of implied rankings of dimension levels
+- `V2-P161` `MethodUse`: Sensitivity analysis on the cutoff for timing and number of inconsistencies
+- `V2-P161` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P161` `ModelUse`: Mixed logit model with correlated random parameters, individual-specific covariates and panel estimation using 1500 Halton draws
+- `V2-P162` `InstrumentUse`: EQ-5D
+- `V2-P162` `InstrumentUse`: EQ-5D-Y
+- `V2-P162` `InstrumentUse`: EQ-HWB
+- `V2-P162` `InstrumentUse`: Bolt-ons
+- `V2-P162` `InstrumentUse`: SF-6D
+- `V2-P162` `InstrumentUse`: HUI
+- `V2-P162` `InstrumentUse`: AQOL
+- `V2-P162` `InstrumentUse`: PROPR
+- `V2-P162` `InstrumentUse`: QWB
+- `V2-P162` `InstrumentUse`: CHU-9D
+- `V2-P162` `InstrumentUse`: PROMIS 10
+- `V2-P162` `InstrumentUse`: QLQ-C30
+- `V2-P162` `MethodUse`: purposive sampling
+- `V2-P162` `MethodUse`: two-stage recruitment procedure through EuroQol Group member and colleague networks (recruiters and agency contact persons with weekly reminders)
+- `V2-P162` `MethodUse`: search strategy adopted by Kennedy-Martin et al. for identifying countries with HTA agencies
+- `V2-P162` `MethodUse`: cross-sectional online survey with four-point Likert-type response scales
+- `V2-P162` `MethodUse`: open-ended text fields for respondents to explain responses and elaborate on other methods, instruments, concerns, or research topics
+- `V2-P162` `MethodUse`: iterative question drafting procedure with multiple rounds of pilot-testing with HTA agency personnel in Singapore, Indonesia, Canada, England, Norway, Australia, New Zealand, Colombia, and Argentina
+- `V2-P162` `MethodUse`: descriptive analysis using country-level mode (or median) summaries and regional medians
+- `V2-P162` `MethodUse`: country-specific, regional, and global importance score calculation for research topics
+- `V2-P162` `MethodUse`: structured content analysis with iterative coding and categorization
+- `V2-P162` `MethodUse`: forward-backward translation of non-English open-ended responses
+- `V2-P162` `MethodUse`: time trade-off (TTO)
+- `V2-P162` `MethodUse`: visual analogue scale (VAS)
+- `V2-P162` `MethodUse`: standard gamble (SG)
+- `V2-P162` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P162` `MethodUse`: best-worst scaling (BWS)
+- `V2-P162` `MethodUse`: person trade-off (PTO)
+- `V2-P163` `InstrumentUse`: EQ-5D-Y-3L descriptive system
+- `V2-P163` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P163` `MethodUse`: discrete choice experiment (DCE) survey
+- `V2-P163` `MethodUse`: kaizen tasks (preference paths)
+- `V2-P163` `MethodUse`: paired comparisons
+- `V2-P163` `MethodUse`: D-efficient experimental design (4 blocks)
+- `V2-P163` `MethodUse`: 18 demographic quotas (Dynata online panel)
+- `V2-P163` `MethodUse`: 5-question coma quiz
+- `V2-P163` `MethodUse`: confirmatory checklist of scenario equivalence
+- `V2-P163` `MethodUse`: χ2 tests
+- `V2-P163` `MethodUse`: cluster bootstrap (with replacement, 1000 iterations)
+- `V2-P163` `MethodUse`: Pearson correlation
+- `V2-P163` `MethodUse`: Spearman correlation
+- `V2-P163` `MethodUse`: Lin concordance coefficient
+- `V2-P163` `MethodUse`: semi-structured interviews (beta testing)
+- `V2-P163` `ProtocolUse`: Child health valuation protocol for a discrete choice experiment comparing paired comparison and kaizen tasks and estimating US EQ-5D-Y-3L values on an experience scale (BMJ Open 2023)
+- `V2-P163` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L
+- `V2-P163` `ModelUse`: conditional logit model
+- `V2-P163` `ModelUse`: mixed logit
+- `V2-P163` `ProductUse`: original U.S. EQ-5D-Y-3L values on a QALY scale (Craig et al, 2016)
+- `V2-P164` `InstrumentUse`: EQ-5D-3L
+- `V2-P164` `InstrumentUse`: EQ VAS
+- `V2-P164` `InstrumentUse`: EQ-5D-3L
+- `V2-P164` `InstrumentUse`: EQ VAS
+- `V2-P164` `InstrumentUse`: EQ-5D-3L
+- `V2-P164` `ScoringUse`: Swedish experience-based EQ-5D-3L TTO value set
+- `V2-P164` `ScoringUse`: Swedish experience-based EQ-5D-3L VAS value set
+- `V2-P164` `MethodUse`: Paretian Classification of Health Change (PCHC)
+- `V2-P164` `MethodUse`: Random deduplication of patients with records in more than one register
+- `V2-P164` `MethodUse`: Descriptive statistics (mean (SD), median (IQR), prevalence of problems)
+- `V2-P164` `ModelUse`: Analysis of covariance (ANCOVA) of mean EQ VAS score by sex adjusted for age
+- `V2-P164` `ModelUse`: Two-level random intercept model of mean EQ VAS score by diagnosis adjusted for age group and sex (general population as reference)
+- `V2-P164` `ProtocolUse`: RECORD (REporting of studies Conducted using Observational Routinely collected health Data) checklist
+- `V2-P164` `ProtocolUse`: Study protocol: 'Variations in patients' overall assessment of their health across and within disease groups using the EQ-5D questionnaire: protocol for a longitudinal study in the Swedish national quality registers'
+- `V2-P165` `InstrumentUse`: EQ-5D-5L (Arabic version for Egypt)
+- `V2-P165` `InstrumentUse`: EQ-5D-5L (Arabic version for Egypt)
+- `V2-P165` `InstrumentUse`: EQ-5D-5L (Arabic version for Egypt) self-reported health
+- `V2-P165` `InstrumentUse`: EQ-5D-5L (Arabic version for Egypt)
+- `V2-P165` `InstrumentUse`: Country specific questionnaire (Egyptian valuation study)
+- `V2-P165` `ProtocolUse`: EuroQol Group Valuation Technology protocol (EQ-VT-2.1), Arabic version for Egypt
+- `V2-P165` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT) protocol
+- `V2-P165` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies (EuroQol QC tool)
+- `V2-P165` `MethodUse`: composite time trade off (cTTO)
+- `V2-P165` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P165` `MethodUse`: multistratified quota sampling based on Egyptian official statistics
+- `V2-P165` `MethodUse`: interviewer-administered face-to-face survey
+- `V2-P165` `MethodUse`: written interviewer feedback after each interview
+- `V2-P165` `MethodUse`: four-stage interviewer training following the standard EuroQol procedure
+- `V2-P165` `MethodUse`: descriptive statistics (frequencies, percentages, mean and SD)
+- `V2-P165` `MethodUse`: one sample z-test for a population proportion
+- `V2-P165` `MethodUse`: χ2 goodness-of-fit test
+- `V2-P165` `MethodUse`: translation and proofreading of the protocol elements into Arabic and rephrasing of interviewer instructions into spoken Egyptian Arabic
+- `V2-P167` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P167` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P167` `InstrumentUse`: EQ-5D-5L instrument (US English V.1.0, modified version in background section)
+- `V2-P167` `InstrumentUse`: EQ-VAS
+- `V2-P167` `InstrumentUse`: One composite attribute related to cognition (memory/concentration; bolt-on)
+- `V2-P167` `InstrumentUse`: Two component attributes related to cognition (memory, concentration; deep-dive)
+- `V2-P167` `MethodUse`: Dual discrete choice experiment (dual-DCE) survey
+- `V2-P167` `MethodUse`: Kaizen tasks
+- `V2-P167` `MethodUse`: Paired comparisons
+- `V2-P167` `MethodUse`: D-efficient block selection of origin-destination pairs (candidate set definition, block selection by d-efficiency, block evaluation, hold-out assignment)
+- `V2-P167` `MethodUse`: Panel-vendor recruitment with 18 demographic quotas aligned to 2020 US Census demographics
+- `V2-P167` `MethodUse`: Cluster bootstrap with replacement, block-specific strata and 1000 iterations
+- `V2-P167` `MethodUse`: Eight-question quiz on the referent (three attempts to pass)
+- `V2-P167` `MethodUse`: Confirmatory checklist of the decision context (role, setting and scenario)
+- `V2-P167` `MethodUse`: Debriefing questions comparing kaizen tasks and paired comparisons
+- `V2-P167` `MethodUse`: Open-text feedback question on the overall survey experience
+- `V2-P167` `ProtocolUse`: EQ-VT protocol for EQ-5D-5L valuation
+- `V2-P167` `ModelUse`: Conditional logit (CL) model estimated by maximum likelihood
+- `V2-P167` `ModelUse`: Random utility model (RUM)
+- `V2-P167` `ModelUse`: Random-parameter models (eg, mixed logit)
+- `V2-P167` `ModelUse`: Scale-adjusted latent-class models
+- `V2-P167` `ProductUse`: 2016 US EQ-5D-5L value set (Craig & Rand)
+- `V2-P168` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P168` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P168` `InstrumentUse`: EQ-Visual Analogue Scale (EQ VAS)
+- `V2-P168` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P168` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P168` `MethodUse`: DCE with duration
+- `V2-P168` `MethodUse`: Snowball sampling
+- `V2-P168` `MethodUse`: Stratified, purposeful sampling
+- `V2-P168` `MethodUse`: Information power approach to sample size
+- `V2-P168` `MethodUse`: Focus group discussion
+- `V2-P168` `MethodUse`: Semi-structured focus group guide
+- `V2-P168` `MethodUse`: Data collection template developed by Onwuegbuzie and colleagues (field notes)
+- `V2-P168` `MethodUse`: Descriptive statistics
+- `V2-P168` `MethodUse`: Inductive qualitative content analysis according to the process described by Elo and Kyngäs
+- `V2-P168` `MethodUse`: Narrative synthesis integration of quantitative and qualitative findings
+- `V2-P168` `MethodUse`: Strategies to verify credibility, dependability and confirmability
+- `V2-P168` `MethodUse`: Discrete choice experiment (DCE)
+- `V2-P168` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L
+- `V2-P169` `InstrumentUse`: EQ-5D-Y-3L (three-level version of EQ-5D-Y)
+- `V2-P169` `InstrumentUse`: EQ-5D-Y-3L (three-level version of EQ-5D-Y)
+- `V2-P169` `InstrumentUse`: EQ-5D-Y-5L (five-level version of EQ-5D-Y)
+- `V2-P169` `InstrumentUse`: EQ-5D-Y-5L (five-level version of EQ-5D-Y)
+- `V2-P169` `InstrumentUse`: EQ-5D-Y-5L (five-level version of EQ-5D-Y)
+- `V2-P169` `InstrumentUse`: Paediatric Quality of Life Inventory (PedsQL) generic core 4.0
+- `V2-P169` `InstrumentUse`: PedsQL 3.0 Cancer Module
+- `V2-P169` `InstrumentUse`: EQ VAS (general health Visual Analogue Scale)
+- `V2-P169` `InstrumentUse`: EQ-5D-5L (EQ-5D five-level version)
+- `V2-P169` `InstrumentUse`: EQ-5D-5L (EQ-5D five-level version)
+- `V2-P169` `InstrumentUse`: EQ Health and Well-being Short Version (EQ-HWB-9)
+- `V2-P169` `InstrumentUse`: EQ Health and Well-being Short Version (EQ-HWB-9)
+- `V2-P169` `InstrumentUse`: adult EQ-5D-5L for children aged 12 years and older
+- `V2-P169` `InstrumentUse`: overall health assessment (OHA)
+- `V2-P169` `MethodUse`: structured survey administered at baseline and follow-up
+- `V2-P169` `MethodUse`: intraclass correlation coefficients
+- `V2-P169` `MethodUse`: Gwet's AC1
+- `V2-P169` `MethodUse`: ANOVA comparisons across severity levels
+- `V2-P169` `MethodUse`: Cohen's d effect sizes
+- `V2-P169` `MethodUse`: Glass' Δ effect sizes
+- `V2-P169` `MethodUse`: Spearman's correlations
+- `V2-P169` `MethodUse`: Pearson's correlations
+- `V2-P169` `MethodUse`: logistic regression models
+- `V2-P169` `MethodUse`: receiver operating characteristic curves and area under the curve assessments
+- `V2-P169` `MethodUse`: regression techniques for caregiver spillover analysis
+- `V2-P169` `MethodUse`: Level Sum Score
+- `V2-P169` `MethodUse`: interviewer training with at least three practice interviews
+- `V2-P169` `MethodUse`: semistructured, face-to-face, one-on-one interviews
+- `V2-P169` `MethodUse`: thematic analysis following Braun and Clarke's six-phase framework
+- `V2-P169` `ProtocolUse`: Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist
+- `V2-P170` `MethodUse`: literature review (search of six electronic databases with database-specific search strategies)
+- `V2-P170` `MethodUse`: review of arguments identified in papers, books, and PhD theses
+- `V2-P170` `ModelUse`: QALY model, QALY = v(Q)*w(T)
+- `V2-P170` `MethodUse`: time trade-off (TTO)
+- `V2-P170` `MethodUse`: standard gamble (SG)
+- `V2-P170` `MethodUse`: Visual Analogue Scale (VAS)
+- `V2-P170` `MethodUse`: better than dead (BTD)
+- `V2-P170` `MethodUse`: discrete choice experiments (DCEs)
+- `V2-P170` `InstrumentUse`: EQ-5D
+- `V2-P170` `InstrumentUse`: Health Utility Index (HUI)
+- `V2-P171` `InstrumentUse`: EQ-5D-3L
+- `V2-P171` `InstrumentUse`: EQ-5D-3L
+- `V2-P171` `InstrumentUse`: EQ-5D-5L
+- `V2-P171` `InstrumentUse`: EQ-5D-5L
+- `V2-P171` `InstrumentUse`: EQ-5D self-description (respondent's own health)
+- `V2-P171` `InstrumentUse`: World Values Survey
+- `V2-P171` `MethodUse`: Time tradeoff (TTO)
+- `V2-P171` `MethodUse`: Composite time tradeoff (cTTO)
+- `V2-P171` `MethodUse`: Requesting valuation data sets from principal investigators by email and at EuroQol Meetings
+- `V2-P171` `MethodUse`: Classification of mild, moderate, and severe EQ-5D states following the procedure of Luo et al.
+- `V2-P171` `MethodUse`: Construction of Δu (respondent-level average utility for mild states minus average utility for severe states)
+- `V2-P171` `MethodUse`: Severity (misery) index and Δm, rescaled to a common [0,1] index for 3L and 5L states
+- `V2-P171` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P171` `MethodUse`: Jackknife analysis to detect influential countries
+- `V2-P171` `MethodUse`: Correlations between country-average Δu, age, cultural variables, and the 3L/5L dummy with 95% confidence intervals
+- `V2-P171` `ModelUse`: Two-level mixed-effects (multilevel) models with random intercepts for country and random slopes for sociodemographic variables (models 1–6)
+- `V2-P171` `ModelUse`: Model 6 specified with Hofstede's 5 cultural dimensions instead of Inglehart's 2 dimensions
+- `V2-P171` `ModelUse`: Model 6 re-estimated with stricter or less strict definitions of mild and severe states (4 additional analyses)
+- `V2-P172` `InstrumentUse`: EQ-5D-Y
+- `V2-P172` `InstrumentUse`: EQ-5D-Y
+- `V2-P172` `InstrumentUse`: EQ-5D-5L
+- `V2-P172` `InstrumentUse`: EQ-VAS
+- `V2-P172` `MethodUse`: composite time tradeoff (cTTO)
+- `V2-P172` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P172` `MethodUse`: nonrandom quota sampling
+- `V2-P172` `MethodUse`: efficient design approach (experimental design created by the EuroQol Group)
+- `V2-P172` `MethodUse`: mapping approach (2-step anchoring of latent DCE values onto observed cTTO values)
+- `V2-P172` `MethodUse`: computer-assisted personal interviews
+- `V2-P172` `MethodUse`: interviewer training and weekly quality control checks with feedback
+- `V2-P172` `MethodUse`: translation, back translation, and harmonization of the Japanese EQ-5D-Y first draft
+- `V2-P172` `ProtocolUse`: International valuation protocol for the EQ-5D-Y-3L (Ramos-Goñi et al.)
+- `V2-P172` `ProtocolUse`: version 2.1 of the EQ-VT protocol
+- `V2-P172` `ProtocolUse`: Quality control process for EQ-5D-5L valuation studies (Ramos-Goñi et al.)
+- `V2-P172` `ModelUse`: mixed logit model (model 1)
+- `V2-P172` `ModelUse`: conditional logit model (model 2)
+- `V2-P172` `ModelUse`: linear mixed model (model 3, repeated-measures ANOVA)
+- `V2-P172` `ModelUse`: model 4 (model 3 + N3 term)
+- `V2-P172` `ModelUse`: Tobit model (model 5)
+- `V2-P172` `ModelUse`: linear mapping function f(.) relating latent DCE values to observed cTTO values
+- `V2-P172` `ModelUse`: hybrid model
+- `V2-P172` `ProductUse`: Japanese EQ-5D-3L value set (adult)
+- `V2-P173` `InstrumentUse`: EQ-5D-5L
+- `V2-P173` `InstrumentUse`: EQ-5D-5L
+- `V2-P173` `MethodUse`: DCE with duration (split triplets)
+- `V2-P173` `MethodUse`: composite time tradeoff (cTTO)
+- `V2-P173` `MethodUse`: quota sampling
+- `V2-P173` `MethodUse`: near-orthogonal design
+- `V2-P173` `MethodUse`: Bayesian D-efficient discrete choice experiment design with sequential design updates
+- `V2-P173` `MethodUse`: anchoring on immediate death (Option 1)
+- `V2-P173` `MethodUse`: anchoring on duration (Option 2)
+- `V2-P173` `MethodUse`: Geweke convergence diagnostics
+- `V2-P173` `MethodUse`: Bayesian MCMC estimation (3 chains, burn-in of 50,000 and 50,000 posterior draws)
+- `V2-P173` `MethodUse`: exclusion of speeders
+- `V2-P173` `ProtocolUse`: international EQ-5D-5L EQ-VT valuation protocol (EQ-VTv2)
+- `V2-P173` `ProtocolUse`: DCE with duration valuation protocol permitting estimation of nonlinear time preferences
+- `V2-P173` `ModelUse`: mixed logit model with exponential discounting (nonlinear time preferences)
+- `V2-P173` `ModelUse`: mixed logit model without discounting (ρ = 0, linear time preferences)
+- `V2-P173` `ProductUse`: EQ-5D-5L cTTO value set for Trinidad and Tobago
+- `V2-P174` `InstrumentUse`: EQ-5D-5L (official Bahasa Indonesia version provided by the EuroQol Group)
+- `V2-P174` `InstrumentUse`: EQ-5D-5L
+- `V2-P174` `InstrumentUse`: EQ Visual Analogue Scale (EQ-VAS)
+- `V2-P174` `InstrumentUse`: WHOQOL-BREF (Indonesian version)
+- `V2-P174` `InstrumentUse`: Happiness Thermometer
+- `V2-P174` `InstrumentUse`: Cantril's Self-Anchoring Striving Scale
+- `V2-P174` `InstrumentUse`: 10-point horizontal VAS question on the family's perceived financial situation
+- `V2-P174` `InstrumentUse`: Background and demographic characteristics questionnaire
+- `V2-P174` `InstrumentUse`: EQ-5D-5L (official Bahasa Indonesia version provided by the EuroQol Group)
+- `V2-P174` `InstrumentUse`: WHOQOL-BREF (Indonesian version)
+- `V2-P174` `InstrumentUse`: Happiness Thermometer
+- `V2-P174` `InstrumentUse`: Cantril's Self-Anchoring Striving Scale
+- `V2-P174` `InstrumentUse`: 10-point horizontal VAS question on the family's perceived financial situation
+- `V2-P174` `InstrumentUse`: Study questionnaire set (EQ-5D-5L, WHOQOL-BREF, Happiness Thermometer, Cantril's Self-Anchoring Striving Scale)
+- `V2-P174` `ScoringUse`: Indonesian value set (Purba et al., The Indonesian EQ-5D-5L value set)
+- `V2-P174` `MethodUse`: Door-to-door invitation after knocking on each door (no formal street plan)
+- `V2-P174` `MethodUse`: Multi-stage stratified quota sampling procedure
+- `V2-P174` `MethodUse`: Matching on gender, age group, level of education and monthly income with random selection among possible matches
+- `V2-P174` `MethodUse`: Face-to-face interviewer-supported questionnaire administration at respondents' homes
+- `V2-P174` `MethodUse`: Half-day interviewer training workshop
+- `V2-P174` `MethodUse`: Pilot testing of questionnaire feasibility and subsequent revision
+- `V2-P174` `MethodUse`: Forward translation and backward translation of the Happiness Thermometer and Cantril's Self-Anchoring Striving Scale with team equivalence check
+- `V2-P174` `MethodUse`: Chi-square test
+- `V2-P174` `MethodUse`: t-test
+- `V2-P174` `MethodUse`: Wilcoxon rank-sum test
+- `V2-P174` `MethodUse`: Shapiro-Wilk test
+- `V2-P174` `MethodUse`: One-way MANOVA
+- `V2-P174` `MethodUse`: Cohen's d effect size with Cohen's interpretation criteria
+- `V2-P174` `MethodUse`: Transformation of the 20 cm EQ-VAS into a 0-100 scale
+- `V2-P174` `MethodUse`: Collapsing EQ-5D-5L levels 2-5 into 'any problems'
+- `V2-P174` `ProtocolUse`: Guillemin cross-cultural adaptation guidelines (forward translation, backward translation, committee review, pre-testing)
+- `V2-P174` `ProtocolUse`: Standardized EuroQol translation protocol used to produce the Bahasa Indonesia EQ-5D-5L
+- `V2-P174` `ModelUse`: Multiple linear regression with group and socio-demographic covariates
+- `V2-P174` `ModelUse`: Univariate linear regression for the comparison between Ciliwung and matched control
+- `V2-P175` `InstrumentUse`: EQ-5D-5L
+- `V2-P175` `InstrumentUse`: EQ-5D-5L
+- `V2-P175` `InstrumentUse`: EQ-5D-5L
+- `V2-P175` `InstrumentUse`: EQ VAS
+- `V2-P175` `InstrumentUse`: written debriefing questionnaire
+- `V2-P175` `InstrumentUse`: EQ-5D-3L
+- `V2-P175` `ProtocolUse`: internationally standardised EQ-5D-5L valuation protocol (EQ-5D-5L valuation protocol 1.1)
+- `V2-P175` `ProtocolUse`: improved EQ-5D-5L valuation protocol 1.1
+- `V2-P175` `ProtocolUse`: Declaration of Helsinki
+- `V2-P175` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P175` `MethodUse`: ‘lead time’-TTO (LT-TTO)
+- `V2-P175` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P175` `MethodUse`: ranking task (the ranking and sorting approach)
+- `V2-P175` `MethodUse`: BTD/WTD split (separating the TTO tasks for health states better than dead and worse than dead)
+- `V2-P175` `MethodUse`: feedback module
+- `V2-P175` `MethodUse`: efficient experimental design (80 cTTO health states in ten blocks; 196 DCE pairs in 28 blocks)
+- `V2-P175` `MethodUse`: computer assisted personal interview (CAPI) survey
+- `V2-P175` `MethodUse`: mixed recruitment strategy (personal contact, newspaper advertisement, university bulletins; partly convenience sampling)
+- `V2-P175` `MethodUse`: routine quality control (QC) checks of interviewer performance and protocol compliance
+- `V2-P175` `MethodUse`: intensive daylong interviewer training with written feedback on pilot interviews
+- `V2-P175` `MethodUse`: descriptive analyses (proportions, mean and standard deviation)
+- `V2-P175` `MethodUse`: t-test
+- `V2-P175` `MethodUse`: Mann-Whitney test
+- `V2-P175` `MethodUse`: proportion test (z-test applying Bonferroni correction)
+- `V2-P175` `MethodUse`: Chi-squared test for homogeneity
+- `V2-P175` `MethodUse`: McNemar test
+- `V2-P175` `MethodUse`: qualitative content analysis
+- `V2-P175` `MethodUse`: identification of dominance pairs and definition of inconsistent cTTO responses
+- `V2-P176` `InstrumentUse`: EQ-5D3L (pre-injury module)
+- `V2-P176` `InstrumentUse`: EQ-5D3L (pre-injury module)
+- `V2-P176` `InstrumentUse`: EQ-5D VAS (EQ-VAS), pre-injury
+- `V2-P176` `InstrumentUse`: EQ-5D3L (current health module)
+- `V2-P176` `InstrumentUse`: Impact of event scale (IES), Dutch version
+- `V2-P176` `InstrumentUse`: 21-item comorbidity checklist of chronic diseases (CBS Permanent onderzoek leefsituatie)
+- `V2-P176` `InstrumentUse`: Abbreviated Injury Scale (AIS)
+- `V2-P176` `InstrumentUse`: Injury Severity Score (ISS)
+- `V2-P176` `ScoringUse`: Dutch tariff (Dutch EQ-5D tariff, Lamers et al.)
+- `V2-P176` `ProtocolUse`: Brabant Injury Outcome Surveillance (BIOS) study protocol, approved by the Medical Ethics Committee Brabant (NL50258.028.14)
+- `V2-P176` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P176` `MethodUse`: Bland-Altman plots with limits of agreement
+- `V2-P176` `MethodUse`: Paired t-tests
+- `V2-P176` `MethodUse`: Independent t-tests
+- `V2-P176` `MethodUse`: One-way analysis of variance (ANOVA)
+- `V2-P176` `MethodUse`: Chi-square statistics
+- `V2-P176` `MethodUse`: Fisher's exact tests
+- `V2-P176` `MethodUse`: Mann–Whitney U-test
+- `V2-P176` `MethodUse`: Profile sum derivation from the five EQ-5D level indicators used as numerical variables (T1-T2 change coded 1/0/-1)
+- `V2-P176` `ModelUse`: Univariate logistic regression analysis
+- `V2-P176` `ModelUse`: Multivariable logistic regression analysis with backward deletion (deselection criterion p < 0.05)
+- `V2-P177` `InstrumentUse`: EQ-5D-5L (Dutch language version)
+- `V2-P177` `InstrumentUse`: EQ-5D-5L (Dutch language version)
+- `V2-P177` `InstrumentUse`: EQ VAS (visual analogue scale for general health)
+- `V2-P177` `InstrumentUse`: Patient and Observer Scar Assessment Scale (POSAS) 2.0, patient part (Dutch language version)
+- `V2-P177` `ScoringUse`: Dutch EQ-5D-5L value set
+- `V2-P177` `MethodUse`: Spearman rank correlation coefficient
+- `V2-P177` `MethodUse`: Chi-squared test
+- `V2-P177` `MethodUse`: Mann Whitney U test
+- `V2-P177` `MethodUse`: POSAS worst count variable
+- `V2-P177` `MethodUse`: Sample size calculation (alpha 0.05, power 80%)
+- `V2-P177` `MethodUse`: Postal invitation with reminder phone call
+- `V2-P177` `MethodUse`: Cohen's criteria for strength of correlations
+- `V2-P177` `ModelUse`: Multivariable regression analysis predicting EQ-5D-5L PD domain from POSAS pain and itching items with demographic and clinical variables
+- `V2-P177` `ModelUse`: Multivariate regression model for the EQ-VAS
+- `V2-P178` `InstrumentUse`: EQ-5D-Y Proxy version 1
+- `V2-P178` `InstrumentUse`: EQ-5D-Y Proxy version 1
+- `V2-P178` `InstrumentUse`: EQ-5D-Y Proxy version 1
+- `V2-P178` `InstrumentUse`: beta telephone-based EQ-5D-Y Proxy version 1
+- `V2-P178` `InstrumentUse`: Pediatric Quality of Life Inventory (PedsQL)
+- `V2-P178` `InstrumentUse`: background questionnaire (age, gender, diagnosis and relationship of caregiver to child)
+- `V2-P178` `ScoringUse`: adult EQ-5D-3 L United Kingdom (Dolan) tariff
+- `V2-P178` `ScoringUse`: EQ-5D-Y summary latent value (latent scoring system based on a discrete choice experiment)
+- `V2-P178` `MethodUse`: Cohen's kappa statistic
+- `V2-P178` `MethodUse`: Intraclass Correlation Coefficient (ICC)
+- `V2-P178` `MethodUse`: Pearson's correlation (Pearson's r)
+- `V2-P178` `MethodUse`: Analysis of Variance (ANOVA)
+- `V2-P178` `MethodUse`: Partial Eta Squared
+- `V2-P178` `MethodUse`: chi-square statistic
+- `V2-P178` `MethodUse`: Landis and Koch's guidelines for interpreting kappa
+- `V2-P179` `InstrumentUse`: EQ-5D-3L
+- `V2-P179` `InstrumentUse`: EQ-5D-3L
+- `V2-P179` `InstrumentUse`: EQ-5D-5L
+- `V2-P179` `InstrumentUse`: EQ-5D-5L
+- `V2-P179` `InstrumentUse`: Rivermead Post-Concussion Symptoms Questionnaire (RPQ)
+- `V2-P179` `InstrumentUse`: RPQ fatigue item
+- `V2-P179` `InstrumentUse`: EQ-5D-3L
+- `V2-P179` `InstrumentUse`: EQ-5D-5L
+- `V2-P179` `ScoringUse`: Dutch value set for the EQ-5D-3L (the Dutch tariff, Lamers et al.)
+- `V2-P179` `ScoringUse`: Dutch tariff for the five-level version of EQ-5D (Versteegh et al.)
+- `V2-P179` `MethodUse`: Recruitment by Survey Sampling International from an existing large Dutch internet panel
+- `V2-P179` `MethodUse`: Web-based survey administration in an internet panel
+- `V2-P179` `MethodUse`: Spearman rank correlation coefficient
+- `V2-P179` `MethodUse`: Mann Whitney U test
+- `V2-P179` `MethodUse`: chi-square test
+- `V2-P179` `MethodUse`: Cohen’s criteria for strength of association
+- `V2-P179` `MethodUse`: International Standard Classification of Education (ISCED)
+- `V2-P179` `ModelUse`: multivariate regression analysis (EQ-5D-3L and EQ-5D-5L domains predicting the RPQ fatigue item)
+- `V2-P179` `ProtocolUse`: Collaborative European NeuroTrauma Effectiveness Research (CENTER-TBI) study (EC Grant 602150)
+- `V2-P180` `InstrumentUse`: EQ-5D-5L
+- `V2-P180` `InstrumentUse`: EQ-5D-5L
+- `V2-P180` `InstrumentUse`: EQ-5D-5L
+- `V2-P180` `InstrumentUse`: VAS score Health
+- `V2-P180` `ProtocolUse`: EQ-VT protocol
+- `V2-P180` `MethodUse`: paired comparison (PC)
+- `V2-P180` `MethodUse`: best–worst scaling case 2 (BWS)
+- `V2-P180` `MethodUse`: orthogonal main effects plan (OMEP) with rotated OMEP coding
+- `V2-P180` `MethodUse`: stratified sampling by domain and severity of EQ-5D-5L health problems from a marketing panel (Survey Sampling International)
+- `V2-P180` `MethodUse`: maximum likelihood
+- `V2-P180` `MethodUse`: Pearson's correlation
+- `V2-P180` `MethodUse`: Lin's concordance
+- `V2-P180` `MethodUse`: BIC (Bayesian information criterion) model selection
+- `V2-P180` `MethodUse`: PC dominant task (dominance check) and click-through exclusion
+- `V2-P180` `ModelUse`: conditional logit model
+- `V2-P180` `ModelUse`: heteroskedastic conditional logit (HCL) model
+- `V2-P180` `ModelUse`: heteroskedastic logit with task-type interaction (PC and BWS values)
+- `V2-P180` `ModelUse`: heteroskedastic scale-adjusted latent class (SALC) logit model
+- `V2-P180` `ProductUse`: original Dutch EQ-5D-5L value set (Dutch tariff for the five-level version of EQ-5D, Versteegh et al. 2016)
+- `V2-P181` `InstrumentUse`: EQ-5D-Y-3L proxy version
+- `V2-P181` `InstrumentUse`: EQ-5D-Y-5L proxy (experimental version 1, Bahasa Indonesia)
+- `V2-P181` `InstrumentUse`: EQ-5D-Y-3L self-report version
+- `V2-P181` `InstrumentUse`: EQ-5D-Y-5L self-report version (experimental, Bahasa Indonesia)
+- `V2-P181` `InstrumentUse`: PedsQL 4.0 Generic Core Scales proxy version
+- `V2-P181` `InstrumentUse`: PedsQL Cancer Module proxy version
+- `V2-P181` `InstrumentUse`: TranQol proxy version (Bahasa Indonesia local translation)
+- `V2-P181` `InstrumentUse`: Haemo-Qol proxy version (short version, 35 items)
+- `V2-P181` `InstrumentUse`: Change in general state of health question (adjusted for proxy; 7 response options)
+- `V2-P181` `MethodUse`: Gwet's agreement coefficient (AC)
+- `V2-P181` `MethodUse`: Landis & Koch criteria for interpreting agreement coefficients
+- `V2-P181` `MethodUse`: Spearman rank correlation coefficient
+- `V2-P181` `MethodUse`: McNemar test
+- `V2-P181` `MethodUse`: Redistribution analysis of 3L to 5L responses with inconsistency definition of Janssen et al. and average inconsistency weight
+- `V2-P181` `MethodUse`: Norm given by Eiser and Morse for parent-child correlation levels
+- `V2-P181` `MethodUse`: Translation of the 'in progress' UK English EQ-5D-Y-5L self-report and proxy versions into Bahasa Indonesia, in close collaboration with the Version Management Committee of the EuroQol Group
+- `V2-P181` `MethodUse`: Cognitive debriefing of the locally translated self-reported TranQol with three children aged 12-15
+- `V2-P182` `InstrumentUse`: EQ-5D-3L
+- `V2-P182` `InstrumentUse`: EQ-5D-5L
+- `V2-P182` `InstrumentUse`: EQ VAS
+- `V2-P182` `InstrumentUse`: EQ-5D-3L
+- `V2-P182` `InstrumentUse`: EQ-5D-5L
+- `V2-P182` `ProductUse`: US EQ-5D-5L value set (Pickard et al. 2019)
+- `V2-P182` `ProductUse`: US EQ-5D-3L value set (Shaw et al.)
+- `V2-P182` `ProductUse`: EQ-5D-5L to 3L crosswalk value set (van Hout et al.)
+- `V2-P182` `ScoringUse`: US EQ-5D-5L value set (Pickard et al. 2019)
+- `V2-P182` `ScoringUse`: US EQ-5D-3L value set (Shaw et al.)
+- `V2-P182` `ScoringUse`: EQ-5D-5L to 3L crosswalk value set (van Hout et al.)
+- `V2-P182` `MethodUse`: mean single dimension-level utility transition analysis (as described by Law et al.)
+- `V2-P182` `MethodUse`: smoothed kernel density plot of index values
+- `V2-P182` `MethodUse`: ratio of F-statistics (relative statistical efficiency)
+- `V2-P182` `MethodUse`: bootstrapping with replacement (1000 samples) for 95% confidence intervals
+- `V2-P182` `MethodUse`: novel VAS-weighted simulation method using random draws with a triangular distribution
+- `V2-P182` `MethodUse`: quota sampling on age, gender, race and ethnicity to represent the US general population in 2017
+- `V2-P182` `ModelUse`: analysis of variance (ANOVA)
+- `V2-P182` `ProtocolUse`: internationally standardized experimental design and protocol for valuing the EQ-5D-5L
+- `V2-P182` `ProtocolUse`: UK Measurement and Valuation of Health study methods
+- `V2-P183` `MethodUse`: Systematic literature search of PubMed, Web of Science, Medline, and Embase (inception to December 2019)
+- `V2-P183` `MethodUse`: Standardized data extraction form with independent extraction by two authors and disagreement resolved by the corresponding author
+- `V2-P183` `MethodUse`: Coding of HSU characteristics into categorical variables and calculation of percentage of nonreporting with comparison across time periods and countries
+- `V2-P183` `MethodUse`: Time trade-off (TTO)
+- `V2-P183` `MethodUse`: Standard gamble (SG)
+- `V2-P183` `MethodUse`: Visual analogue scale (VAS)
+- `V2-P183` `MethodUse`: Mapping
+- `V2-P183` `InstrumentUse`: EQ-5D
+- `V2-P183` `InstrumentUse`: SF-6D
+- `V2-P183` `InstrumentUse`: HUI
+- `V2-P183` `InstrumentUse`: QWB
+- `V2-P183` `ModelUse`: Markov models
+- `V2-P183` `ModelUse`: Decision tree models
+- `V2-P183` `ProductUse`: Asian value sets (national EQ-5D and other preference-based measure value sets used as source of preference data in the included CUAs)
+- `V2-P183` `ProtocolUse`: Consolidated Health Economic Evaluation Reporting Standards (CHEERS)
+- `V2-P183` `ProtocolUse`: CHEERS 2022
+- `V2-P183` `ProtocolUse`: ISPOR Good Practices for Outcomes Research Task Force report on identification, review, and use of health state utilities
+- `V2-P184` `InstrumentUse`: EQ-5D-5L
+- `V2-P184` `InstrumentUse`: EQ-5D-5L
+- `V2-P184` `InstrumentUse`: EQ-5D-3L
+- `V2-P184` `InstrumentUse`: EQ-5D-3L
+- `V2-P184` `InstrumentUse`: EQ VAS
+- `V2-P184` `InstrumentUse`: EQ-5D-5L
+- `V2-P184` `InstrumentUse`: EQ-5D-3L
+- `V2-P184` `ScoringUse`: recently developed value set for Romania for the EQ-5D-5L (Olariu et al. 2023)
+- `V2-P184` `ScoringUse`: recently developed value set for Romania for the EQ-5D-3L (Paveliu et al. 2021)
+- `V2-P184` `MethodUse`: three-stage probability sampling procedure stratified by region and settlement size
+- `V2-P184` `MethodUse`: random walk procedure
+- `V2-P184` `MethodUse`: next birthday rule
+- `V2-P184` `MethodUse`: computer-assisted face-to-face interviews in respondents' homes
+- `V2-P184` `MethodUse`: telephone back-checking of interviews
+- `V2-P184` `MethodUse`: descriptive statistics (frequencies, percentages, means, standard errors, percentiles)
+- `V2-P184` `MethodUse`: survey weighting (design, non-response and post-stratification raking weights)
+- `V2-P184` `MethodUse`: bootstrapping for estimation of sampling errors
+- `V2-P184` `MethodUse`: composite time trade-off (cTTO)
+- `V2-P184` `MethodUse`: discrete choice experiment (DCE)
+- `V2-P184` `ProtocolUse`: latest interviewer guidelines approved by the EuroQoL Group
+- `V2-P184` `ProtocolUse`: recommendations of the EuroQoL Group for estimating population norms (Janssen, Szende & Ramos-Goñi, Data and Methods)
+- `V2-P184` `ProtocolUse`: study protocol for two cross-sectional studies in Romania (Olariu et al. 2019, BMJ Open)
+- `V2-P185` `InstrumentUse`: EQ-5D-5 L
+- `V2-P185` `InstrumentUse`: EQ-5D-5 L
+- `V2-P185` `InstrumentUse`: EQ-VAS
+- `V2-P185` `InstrumentUse`: ThyPRO-39
+- `V2-P185` `ScoringUse`: Hong Kong-specific value set (EQ-5D-5L)
+- `V2-P185` `MethodUse`: Convenience sampling method
+- `V2-P185` `MethodUse`: Spearman correlation coefficient
+- `V2-P185` `MethodUse`: Gwet's agreement coefficient 2 (AC2)
+- `V2-P185` `MethodUse`: Percentage agreement
+- `V2-P185` `MethodUse`: Intraclass Correlation Coefficient (ICC, two-way random effects, absolute agreement, average measure)
+- `V2-P185` `MethodUse`: Effect size statistics (standardized effect size [SES] and standardized response mean [SRM])
+- `V2-P185` `MethodUse`: Wilcoxon signed-rank test
+- `V2-P185` `MethodUse`: Floor and ceiling effect assessment (proportion reporting highest and lowest response levels, >15% threshold)
+- `V2-P185` `ProtocolUse`: COSMIN Study Design checklist
+- `V2-P186` `InstrumentUse`: EQ-5D-5L
+- `V2-P186` `InstrumentUse`: EQ-5D-5L visual analogue scale (VAS)
+- `V2-P186` `InstrumentUse`: EQ-5D-5L anxiety/depression dimension at intake
+- `V2-P186` `InstrumentUse`: EQ-5D-5L
+- `V2-P186` `InstrumentUse`: Demographic questions (age group, gender, urban vs. rural region)
+- `V2-P186` `ScoringUse`: Canadian EQ-5D-5L value set (Xie et al., time trade-off derived value set for Canada)
+- `V2-P186` `ProductUse`: APERSU (2018) Alberta Population Norms for EQ-5D-5L
+- `V2-P186` `MethodUse`: Pareto Classification of Health Change (PCHC)
+- `V2-P186` `MethodUse`: Chi-squared tests
+- `V2-P186` `MethodUse`: Minimally important difference (MID) thresholds for EQ-5D-5L index (0.04) and VAS (7.0)
+- `V2-P186` `MethodUse`: EQ-5D-5L total sum score (summing the levels on the five dimensions)
+- `V2-P186` `MethodUse`: Effect size of change (average change score divided by baseline standard deviation)
+- `V2-P187` `InstrumentUse`: EQ-5D-5L
+- `V2-P187` `InstrumentUse`: EQ-5D-5L
+- `V2-P187` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT v1.0) protocols
+- `V2-P187` `MethodUse`: paired comparison
+- `V2-P187` `MethodUse`: quota sampling at the pair level (18 demographic quotas)
+- `V2-P187` `MethodUse`: maximum simulated likelihood (MSL)
+- `V2-P187` `MethodUse`: 250 Halton draws
+- `V2-P187` `MethodUse`: complementary log–log (CLL) transformation of the power into a discount rate
+- `V2-P187` `MethodUse`: Pearson correlation coefficient
+- `V2-P187` `MethodUse`: Spearman correlation coefficient
+- `V2-P187` `MethodUse`: Lin’s concordance coefficient
+- `V2-P187` `ModelUse`: conditional logit (CL) model
+- `V2-P187` `ModelUse`: mixed logit model with random scale (univariate)
+- `V2-P187` `ModelUse`: mixed logit model with random rate (univariate)
+- `V2-P187` `ModelUse`: bivariate mixed logit model (correlated random scale and rate)
+- `V2-P188` `InstrumentUse`: UK English EQ-5D-Y-3L
+- `V2-P188` `InstrumentUse`: UK English EQ-5D-Y-5L
+- `V2-P188` `InstrumentUse`: Singapore English EQ-5D-Y-3L
+- `V2-P188` `InstrumentUse`: Singapore English EQ-5D-Y-5L
+- `V2-P188` `InstrumentUse`: EQ VAS
+- `V2-P188` `InstrumentUse`: Draft Singapore English EQ-5D-Y-3L and EQ-5D-Y-5L
+- `V2-P188` `InstrumentUse`: EQ-5D-Y descriptive system (DS)
+- `V2-P188` `InstrumentUse`: Singaporean English EQ-5D-Y-3L
+- `V2-P188` `InstrumentUse`: EQ VAS
+- `V2-P188` `MethodUse`: Cross-cultural adaptation process (EuroQol recommended process with expert panel modification)
+- `V2-P188` `MethodUse`: Expert panel consultation
+- `V2-P188` `MethodUse`: Cognitive debriefing interviews (verbal probes and paraphrasing)
+- `V2-P188` `MethodUse`: Ranking exercise for severity qualifiers [15]
+- `V2-P188` `MethodUse`: Purposive sampling with data saturation
+- `V2-P188` `MethodUse`: Semi-structured one-on-one in-person interviews with an interview guide
+- `V2-P188` `MethodUse`: Cognitive debriefing on comprehensiveness and relevance
+- `V2-P188` `MethodUse`: Framework analysis [16, 17] using the framework and codebook developed by the local study team for the Singapore adult population study [18]
+- `V2-P188` `MethodUse`: Qualitative content analysis [19]
+- `V2-P188` `MethodUse`: Line-by-line coding by two independent coders with codebook and PI adjudication
+- `V2-P188` `ProtocolUse`: EuroQol Group cultural adaptation / translation guidelines [13, 14]
+- `V2-P188` `ProtocolUse`: COSMIN guidelines for content validity [8, 9]
+- `V2-P188` `ProtocolUse`: Standards for reporting qualitative research [12]
+- `V2-P189` `InstrumentUse`: Amharic version of EQ-5D (EuroQoL five-dimensions five level, EQ-5D-5L)
+- `V2-P189` `InstrumentUse`: Amharic version of EQ-5D (descriptive system, five dimensions and five levels)
+- `V2-P189` `InstrumentUse`: EQ VAS
+- `V2-P189` `InstrumentUse`: EORTC QLQ-C30
+- `V2-P189` `InstrumentUse`: EORTC QLQ-C30 global health status subscale (anchor)
+- `V2-P189` `InstrumentUse`: Eastern Cooperative Oncology Group (ECOG) performance status
+- `V2-P189` `ScoringUse`: Ethiopian value sets (EQ-5D-5L value set for Ethiopians)
+- `V2-P189` `MethodUse`: Consecutive recruitment of eligible patients
+- `V2-P189` `MethodUse`: Single population proportion formula for sample size estimation
+- `V2-P189` `MethodUse`: Face-to-face interview
+- `V2-P189` `MethodUse`: Medical record review
+- `V2-P189` `MethodUse`: Training of four nurse data collectors on the study purpose, EQ-5D and interview conduct
+- `V2-P189` `MethodUse`: Shapiro–Wilk test
+- `V2-P189` `MethodUse`: Wilcoxon signed-rank test
+- `V2-P189` `MethodUse`: Spearman correlation coefficient
+- `V2-P189` `MethodUse`: Kruskal Wallis U test
+- `V2-P189` `MethodUse`: Effect size (ES)
+- `V2-P189` `MethodUse`: Standardized response mean (SRM)
+- `V2-P189` `MethodUse`: Distribution-based method (0.5 SD and one-SEM) for MCID
+- `V2-P189` `MethodUse`: Anchor-based method using EORTC QLQ-C30 global health status for MCID
+- `V2-P189` `MethodUse`: Receiver operating characteristic (ROC) curve with area under the curve (AUC)
+- `V2-P189` `MethodUse`: Youden index
+- `V2-P189` `MethodUse`: Minimal detectable change (MDC) computation at individual and group levels
+- `V2-P189` `MethodUse`: Cohen's d criteria for interpreting ES and SRM
+- `V2-P190` `InstrumentUse`: EQ-5D-5L
+- `V2-P190` `InstrumentUse`: EQ VAS
+- `V2-P190` `InstrumentUse`: EQ-5D-5L
+- `V2-P190` `InstrumentUse`: EQ-5D-5L
+- `V2-P190` `InstrumentUse`: EQ VAS
+- `V2-P190` `InstrumentUse`: EQ-5D-3L
+- `V2-P190` `ScoringUse`: EQ-5D-5L value set for Trinidad and Tobago (published 2024)
+- `V2-P190` `ScoringUse`: EQ-5D-5L value set for Trinidad and Tobago (published 2024)
+- `V2-P190` `ScoringUse`: Crosswalk algorithm applied to the Trinidad and Tobago EQ-5D-3L value set (crosswalk values used for the 2012 norms)
+- `V2-P190` `MethodUse`: Random selection of streets from CSO maps with 1 in every 4 houses visited
+- `V2-P190` `MethodUse`: Most recent birthday method
+- `V2-P190` `MethodUse`: Face-to-face computer-assisted interviews by 11 trained interviewers
+- `V2-P190` `MethodUse`: Survey company panel recruitment with online survey links plus recruiters in public places using laptops and tablets
+- `V2-P190` `MethodUse`: Exclusion of respondents based on length of time spent on DCE tasks
+- `V2-P190` `MethodUse`: Recruitment of survey company panel members by e-mailed survey links
+- `V2-P190` `MethodUse`: Online self-complete survey collecting EQ-5D-5L and demographic data
+- `V2-P190` `MethodUse`: Welch's t-test
+- `V2-P190` `MethodUse`: Welch's ANOVA
+- `V2-P190` `MethodUse`: Bartlett's test of equality of variances
+- `V2-P190` `MethodUse`: Kakwani inequality index (modified version used in the 2012 study) with decomposition
+- `V2-P190` `MethodUse`: Check of demographic composition of the three surveys and comparison of sample demographics with CSO data for representativeness
+- `V2-P190` `ModelUse`: Multivariable ordered logit models
+- `V2-P190` `ModelUse`: Ordinary least squares regression model for the modified Kakwani index and its decomposition
+- `V2-P191` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P191` `InstrumentUse`: EQ-5D-3L
+- `V2-P191` `InstrumentUse`: EQ-5D-5L
+- `V2-P191` `MethodUse`: Purposive sampling
+- `V2-P191` `MethodUse`: Semi-structured roundtable discussion with eight predetermined discussion questions
+- `V2-P191` `MethodUse`: Thematic analysis
+- `V2-P191` `MethodUse`: 5-item survey previously designed and utilized by US investigators in the US stakeholder meeting
+- `V2-P191` `MethodUse`: Interview guide previously used for the US stakeholder meeting
+- `V2-P191` `ProtocolUse`: International Valuation Protocol for the EQ-5D-Y-3L
+- `V2-P192` `InstrumentUse`: EQ-5D-3L
+- `V2-P192` `InstrumentUse`: EQ-5D-5L
+- `V2-P192` `InstrumentUse`: EQ-5D-3L
+- `V2-P192` `InstrumentUse`: EQ-5D-5L
+- `V2-P192` `InstrumentUse`: EQ VAS (EQ-5D visual analogue scale)
+- `V2-P192` `InstrumentUse`: GP Patient Survey questionnaire (background items on gender, age group and long-term conditions)
+- `V2-P192` `MethodUse`: Descriptive analysis of response distribution, missing values and completion rates stratified by age group and EQ-5D version
+- `V2-P192` `MethodUse`: chi-square tests
+- `V2-P192` `MethodUse`: Cramer's V standardised effect sizes
+- `V2-P192` `MethodUse`: proportionately stratified samples drawn from each practice using NHS Digital registration data
+- `V2-P192` `ModelUse`: logistic regression models of incomplete EQ-5D response on age group, gender and long-term condition, specified for each of the EQ-5D instruments (3L and 5L)
+- `V2-P193` `InstrumentUse`: PedsQL 4.0 GCS
+- `V2-P193` `InstrumentUse`: PedsQL Short Form (15-items)
+- `V2-P193` `InstrumentUse`: KIDSCREEN-10
+- `V2-P193` `InstrumentUse`: KIDSCREEN-27
+- `V2-P193` `InstrumentUse`: KIDSCREEN-52
+- `V2-P193` `InstrumentUse`: HUI-2
+- `V2-P193` `InstrumentUse`: HUI-3
+- `V2-P193` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P193` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P193` `InstrumentUse`: EQ-5D-3L
+- `V2-P193` `InstrumentUse`: EQ-5D-5L
+- `V2-P193` `InstrumentUse`: PROMIS-25
+- `V2-P193` `InstrumentUse`: SF-36
+- `V2-P193` `ProtocolUse`: Arksey and O’Malley’s framework for scoping reviews
+- `V2-P193` `ProtocolUse`: Levac et al.’s guidelines for conducting scoping reviews
+- `V2-P193` `ProtocolUse`: Preferred Reporting Items for Systematic Review and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR)
+- `V2-P193` `MethodUse`: Systematic database search of Medline (via Ovid), Embase (via Ovid), PubMed, Scopus, CINAHL and Web of Science using MeSH terms, keywords and Boolean operators
+- `V2-P193` `MethodUse`: Independent dual screening of titles/abstracts and full texts by two reviewers with consensus meetings and joint review of the first 100 abstracts
+- `V2-P193` `MethodUse`: Standardized data extraction form completed by a single reviewer
+- `V2-P193` `MethodUse`: COnsensus-based Standards for the selection of health Measurement INstruments (COSMIN) categorization of measurement properties
+- `V2-P193` `MethodUse`: International Classification of Diseases version 11 (ICD-11) categorization of reported disease conditions
+- `V2-P193` `MethodUse`: Narrative synthesis
+- `V2-P193` `MethodUse`: Descriptive statistics (frequencies and percentages)
+- `V2-P194` `InstrumentUse`: EQ-5D-5L
+- `V2-P194` `InstrumentUse`: EQ-5D-5L
+- `V2-P194` `InstrumentUse`: EQ-5D-5L + Fatigue
+- `V2-P194` `InstrumentUse`: EQ VAS
+- `V2-P194` `InstrumentUse`: EQ VAS
+- `V2-P194` `InstrumentUse`: Rivermead Post-Concussion Symptoms Questionnaire (RPQ)
+- `V2-P194` `InstrumentUse`: RPQ fatigue item
+- `V2-P194` `ScoringUse`: Dutch value set (Dutch tariff for the five-level version of EQ-5D)
+- `V2-P194` `MethodUse`: Web-based survey distributed by Survey Sampling International to a sample representative for sex, age and education
+- `V2-P194` `MethodUse`: Web-based survey
+- `V2-P194` `MethodUse`: Recoding of the RPQ fatigue 0–4 score into a 1–5 score to resemble the 5L format
+- `V2-P194` `MethodUse`: Level sum score (equally weighted sum of all domain scores, range 5–25)
+- `V2-P194` `MethodUse`: Mann–Whitney U test
+- `V2-P194` `MethodUse`: Chi-square test
+- `V2-P194` `MethodUse`: Analysis of number of unique profiles and ceiling (full health profiles '11111' vs '111111')
+- `V2-P194` `MethodUse`: Shannon index (Hʹ)
+- `V2-P194` `MethodUse`: Shannon Evenness index (Jʹ)
+- `V2-P194` `MethodUse`: Spearman’s rank correlation
+- `V2-P194` `MethodUse`: Cohen’s criteria for strength of association
+- `V2-P194` `MethodUse`: Domain dependency (redundancy) analysis using domain-to-domain cross tables of chance-adjusted extreme-level frequencies
+- `V2-P194` `ModelUse`: Univariate regression analyses of EQ VAS on EQ-5D-5L domain levels and fatigue levels
+- `V2-P194` `ModelUse`: Multivariable regression analyses with combinations of the five EQ-5D domains and the fatigue item predicting EQ VAS
+- `V2-P195` `InstrumentUse`: Modified Amharic version of the EQ-5D-Y-3L, self-complete version
+- `V2-P195` `InstrumentUse`: Modified Amharic version of the EQ-5D-Y-3L, self-complete version
+- `V2-P195` `InstrumentUse`: Amharic proxy version of the EQ-5D-Y-3L
+- `V2-P195` `InstrumentUse`: Amharic proxy version of the EQ-5D-Y-3L
+- `V2-P195` `InstrumentUse`: EuroQol Visual Analogue Scale (EQ VAS)
+- `V2-P195` `InstrumentUse`: EuroQol Visual Analogue Scale (EQ VAS)
+- `V2-P195` `InstrumentUse`: Socio-demographic questionnaire (patient age, gender, educational background, household residence, income)
+- `V2-P195` `ScoringUse`: Zimbabwe value set (Jelsma et al. 2003 EQ-5D-3L value set)
+- `V2-P195` `ScoringUse`: Zimbabwe value set (Jelsma et al. 2003 EQ-5D-3L value set)
+- `V2-P195` `MethodUse`: Quota sampling strategy with consecutive enrolment within each age category
+- `V2-P195` `MethodUse`: Sample size calculation using a two-sample t-test
+- `V2-P195` `MethodUse`: Weighted Cohen's kappa (κ) with percent exact agreement
+- `V2-P195` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P195` `MethodUse`: Spearman's rank correlation coefficient
+- `V2-P195` `MethodUse`: Paretian Classification of Health Change (PCHC) analysis
+- `V2-P195` `MethodUse`: Paired t-test
+- `V2-P195` `MethodUse`: Chi-square test
+- `V2-P195` `MethodUse`: Welch's t-test
+- `V2-P195` `MethodUse`: Percent reduction of problems at the EQ-5D-Y-3L dimension level
+- `V2-P195` `MethodUse`: Dichotomization of EQ-5D-Y-3L dimension levels into 'no problems' (level 1) and 'problems' (levels 2 and 3)
+- `V2-P195` `MethodUse`: Treating physicians' documentation of clinical progress prior to discharge used as anchor
+- `V2-P196` `InstrumentUse`: EQ-5D-Y-5L English version for the UK
+- `V2-P196` `InstrumentUse`: EQ-5D-Y-5L Arabic (Modern Standard Arabic) version for Egypt, paper and digital
+- `V2-P196` `InstrumentUse`: EQ-5D-Y-3L Arabic version for Egypt
+- `V2-P196` `InstrumentUse`: Second Arabic consensus version of the EQ-5D-Y-5L questionnaire
+- `V2-P196` `InstrumentUse`: EQ VAS (visual analogue scale) instructions of the Arabic EQ-5D-Y-5L
+- `V2-P196` `MethodUse`: Two independent forward translations into Arabic by professional translators
+- `V2-P196` `MethodUse`: Reconciliation of the two forward translations by the research team into a consensus Arabic version
+- `V2-P196` `MethodUse`: Two independent back translations into English by native English translators blinded to the original
+- `V2-P196` `MethodUse`: Card ranking exercise
+- `V2-P196` `MethodUse`: Self-completion of the translated Arabic questionnaire with recording of completion time, difficulties, and assistance
+- `V2-P196` `MethodUse`: Structured detailed cognitive debriefing interviews with children
+- `V2-P196` `MethodUse`: Convenience sampling
+- `V2-P196` `MethodUse`: Proofreading by a native Arabic-speaker linguist for grammatical, spelling, or layout errors
+- `V2-P196` `ProtocolUse`: EuroQol Group translation guidelines and methodology approved by the EuroQol Version Management Committee (VMC)
+- `V2-P196` `ProtocolUse`: EuroQol Group translation guidelines for cognitive debriefing (card ranking exercise, self-completion, structured debriefing)
+- `V2-P196` `ProtocolUse`: ISPOR Principles of Good Practice for the Translation and Cultural Adaptation Process for Patient-Reported Outcomes (PRO) Measures
+- `V2-P197` `InstrumentUse`: official EQ-5D-5L Bahasa Indonesia version 1.0
+- `V2-P197` `InstrumentUse`: EQ-5D-5L
+- `V2-P197` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P197` `InstrumentUse`: WHOQOL-BREF (Indonesian version, revised official Bahasa Indonesia version)
+- `V2-P197` `InstrumentUse`: WHOQOL-BREF
+- `V2-P197` `InstrumentUse`: Demographic data questionnaire
+- `V2-P197` `ScoringUse`: the new Indonesian value set
+- `V2-P197` `MethodUse`: multistage stratified quota sampling method
+- `V2-P197` `MethodUse`: face-to-face interview at the home/office of the interviewers or at the homes of the subjects
+- `V2-P197` `MethodUse`: Gwet's agreement coefficient (Gwet's AC)
+- `V2-P197` `MethodUse`: intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)
+- `V2-P197` `MethodUse`: Lin's concordance correlation coefficient (CCC)
+- `V2-P197` `MethodUse`: Bland-Altman plots
+- `V2-P197` `MethodUse`: log, square and cubic transformation of non-normally distributed data
+- `V2-P197` `MethodUse`: Chi-square test
+- `V2-P197` `MethodUse`: Welch's unequal variances t-test
+- `V2-P197` `MethodUse`: ANOVA
+- `V2-P197` `MethodUse`: transformation of WHOQOL-BREF item scores into a linear scale between 0 and 100
+- `V2-P197` `ProtocolUse`: standardized translation protocol (EuroQol cultural adaptation methods)
+- `V2-P198` `InstrumentUse`: WHOQOL-BREF (Indonesian version)
+- `V2-P198` `InstrumentUse`: EQ-5D-5L
+- `V2-P198` `InstrumentUse`: Standard socio-demographic and medical history questionnaire
+- `V2-P198` `InstrumentUse`: WHOQOL-BREF (Indonesian version)
+- `V2-P198` `InstrumentUse`: EQ-5D-5L
+- `V2-P198` `InstrumentUse`: Socio-demographic form (age, sex, income, education)
+- `V2-P198` `InstrumentUse`: EQ-5D-5L
+- `V2-P198` `ScoringUse`: Indonesian EQ-5D-5L value set (preference of the Indonesian general population)
+- `V2-P198` `MethodUse`: multi-stage stratified quota sampling
+- `V2-P198` `MethodUse`: Chi-square test
+- `V2-P198` `MethodUse`: independent t-test
+- `V2-P198` `MethodUse`: Wilcoxon rank-sum test
+- `V2-P198` `MethodUse`: Shapiro-Wilk test
+- `V2-P198` `MethodUse`: Cohen's d effect size
+- `V2-P198` `MethodUse`: Spearman correlation analysis
+- `V2-P198` `ModelUse`: multivariate analysis of covariance (MANCOVA)
+- `V2-P198` `ModelUse`: multiple linear regression analysis
+- `V2-P199` `InstrumentUse`: EQ-5D-3L
+- `V2-P199` `InstrumentUse`: EQ-5D-5L
+- `V2-P199` `InstrumentUse`: EQ VAS
+- `V2-P199` `InstrumentUse`: WHOQOL-OLD (German version)
+- `V2-P199` `InstrumentUse`: WHOQOL-OLD (German version)
+- `V2-P199` `InstrumentUse`: Sociodemographic questionnaire
+- `V2-P199` `InstrumentUse`: Single-item general health status question (five-point scale)
+- `V2-P199` `InstrumentUse`: EQ-5D-3L
+- `V2-P199` `InstrumentUse`: EQ-5D-5L
+- `V2-P199` `ScoringUse`: European VAS tariff by Greiner et al.
+- `V2-P199` `ScoringUse`: Tariff by Ludwig et al. (German value set for the EQ-5D-5L)
+- `V2-P199` `ScoringUse`: Recommended WHOQOL-OLD scoring procedure by Conrad et al.
+- `V2-P199` `MethodUse`: Convenience sampling with two-staged contacting procedure
+- `V2-P199` `MethodUse`: Paper-based self-complete postal survey with matched test and retest questionnaires
+- `V2-P199` `MethodUse`: Intraclass correlation coefficients (two-way mixed effects models, absolute agreement)
+- `V2-P199` `MethodUse`: Cohen’s weighted kappa
+- `V2-P199` `MethodUse`: Pearson correlation coefficient
+- `V2-P199` `MethodUse`: Spearman correlation coefficient
+- `V2-P199` `MethodUse`: Analysis of variance (ANOVA)
+- `V2-P199` `MethodUse`: t-test
+- `V2-P199` `MethodUse`: Cohen’s d effect size
+- `V2-P199` `MethodUse`: Eta squared effect size
+- `V2-P200` `InstrumentUse`: EQ-5D-3L
+- `V2-P200` `InstrumentUse`: EQ VAS
+- `V2-P200` `InstrumentUse`: EQ VAS
+- `V2-P200` `InstrumentUse`: EQ-5D-5L
+- `V2-P200` `InstrumentUse`: EQ-5D-3L
+- `V2-P200` `InstrumentUse`: EQ-5D-3L descriptive system dimensions
+- `V2-P200` `InstrumentUse`: EQ VAS
+- `V2-P200` `MethodUse`: Paretian Classification of Health Change
+- `V2-P200` `MethodUse`: Analysis of covariance
+- `V2-P200` `MethodUse`: Cluster analysis
+- `V2-P200` `MethodUse`: Lin's concordance correlation coefficients
+- `V2-P200` `MethodUse`: intraclass correlation coefficient
+- `V2-P200` `MethodUse`: mean absolute error
+- `V2-P200` `MethodUse`: root mean square error
+- `V2-P200` `ProtocolUse`: EuroQol Valuation Technology (EQ-VT) protocol
+- `V2-P200` `ModelUse`: Linear mixed effects models
+- `V2-P200` `ModelUse`: ordinary least squares
+- `V2-P200` `ModelUse`: generalized linear models
+- `V2-P200` `ProductUse`: Swedish experience-based VAS value set for EQ-5D-3L (Burström et al, model 4)
+- `V2-P200` `ProductUse`: Swedish experience-based TTO value set for EQ-5D-3L (Burström et al, model 4)
+- `V2-P200` `ScoringUse`: Swedish EQ-5D-3L experience-based VAS value sets
+- `V2-P201` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P201` `InstrumentUse`: EQ-5D-5L descriptive system
+- `V2-P201` `InstrumentUse`: EQ VAS
+- `V2-P201` `InstrumentUse`: World Health Organisation-Five (WHO-5) Well-Being Index
+- `V2-P201` `InstrumentUse`: Patient Health Questionnaire (PHQ)-9
+- `V2-P201` `InstrumentUse`: General Anxiety Disorder (GAD)-7
+- `V2-P201` `ScoringUse`: United States value set (EQ-5D-5L, Pickard et al. 2019)
+- `V2-P201` `MethodUse`: Web-based survey questionnaire
+- `V2-P201` `MethodUse`: Recruitment from an existing market research panel (Dynata), sample designed to be representative by age, sex and educational level
+- `V2-P201` `MethodUse`: Human translation into the country's official language using computer-assisted translation software, back-translation into English and independent verification by bilingual native speakers
+- `V2-P201` `MethodUse`: One-way ANOVA
+- `V2-P201` `MethodUse`: Multiple comparison post-hoc analysis test using the Bonferroni correction method
+- `V2-P201` `MethodUse`: Fisher's exact test
+- `V2-P201` `MethodUse`: Chi-square test
+- `V2-P201` `MethodUse`: Paired samples t-tests
+- `V2-P201` `MethodUse`: Non-response analysis
+- `V2-P201` `MethodUse`: Sum score calculation and dichotomisation using cut-off scores (WHO-5 ≤50, PHQ-9 ≥10, GAD-7 ≥8)
+- `V2-P201` `MethodUse`: International Standard Classification of Education (ISCED) 2011 categorisation
+- `V2-P202` `InstrumentUse`: EQ-5D-5L
+- `V2-P202` `InstrumentUse`: EQ VAS
+- `V2-P202` `InstrumentUse`: EQ-5D-5L
+- `V2-P202` `InstrumentUse`: EQ VAS
+- `V2-P202` `InstrumentUse`: Questionnaire on socio-demographic information, work status, household income, and self-reported chronic health conditions
+- `V2-P202` `MethodUse`: Recruitment from existing large internet panels by Survey Sampling International with samples representative for age, gender, and educational level
+- `V2-P202` `MethodUse`: International Standard Classification of Education (ISCED-97) coding of highest education into low/mid/high
+- `V2-P202` `MethodUse`: Transformed EQ-5D-5L level sum score (tLSS) = 100 − [(EQ-5D-5L level sum score − 5) x 5]
+- `V2-P202` `MethodUse`: ANOVA
+- `V2-P202` `MethodUse`: Kruskal–Wallis H-test
+- `V2-P202` `MethodUse`: Descriptive statistics of respondent characteristics and health outcomes
+- `V2-P202` `ModelUse`: Univariate regression analyses of respondent characteristics with EQ-5D-5L tLSS and EQ VAS
+- `V2-P202` `ModelUse`: Multivariate stepwise regression models using backward elimination (step 1: sex and age; step 2: education, work status, income, number of chronic conditions), per country
+- `V2-P203` `InstrumentUse`: Pediatric Quality of Life Inventory Generic Core 4.0 (PedsQL)
+- `V2-P203` `InstrumentUse`: EQ-5D-Y-3L
+- `V2-P203` `InstrumentUse`: EQ-5D-Y-5L
+- `V2-P203` `InstrumentUse`: EQ visual analogue scale (EQ VAS)
+- `V2-P203` `InstrumentUse`: Child Health Utility 9D (CHU9D)
+- `V2-P203` `InstrumentUse`: Assessment of Quality of Life 6D (AQoL-6D) adolescent
+- `V2-P203` `InstrumentUse`: Health Utilities Index Mark 2 and 3 (HUI2/3)
+- `V2-P203` `InstrumentUse`: Patient-Reported Outcomes Measurement Information System 25 paediatric profile v2 (PROMIS-25)
+- `V2-P203` `InstrumentUse`: Children with Special Health Care Needs (CSHCN) screener
+- `V2-P203` `InstrumentUse`: Strengths and Difficulties Questionnaire (SDQ)
+- `V2-P203` `InstrumentUse`: Condition-specific instruments (Sample 3)
+- `V2-P203` `InstrumentUse`: Pediatric Quality of Life Inventory Generic Core 4.0 (PedsQL)
+- `V2-P203` `InstrumentUse`: EQ-5D-Y-3L (including EQ VAS)
+- `V2-P203` `InstrumentUse`: EQ-5D-Y-5L (not including EQ VAS)
+- `V2-P203` `InstrumentUse`: Child Health Utility 9D (CHU9D)
+- `V2-P203` `InstrumentUse`: Assessment of Quality of Life 6D (AQoL-6D) adolescent
+- `V2-P203` `InstrumentUse`: Health Utilities Index Mark 2 and 3 (HUI2/3)
+- `V2-P203` `InstrumentUse`: Patient-Reported Outcomes Measurement Information System 25 paediatric profile v2 (PROMIS-25)
+- `V2-P203` `MethodUse`: Consecutive hospital recruitment pathway (telehealth links, waiting-room approach, emails/letters, poster advertisements)
+- `V2-P203` `MethodUse`: Hierarchical online panel recruitment with age and condition quotas (Pureprofile Australia)
+- `V2-P203` `MethodUse`: Online self-completed survey administration at two time points
+- `V2-P203` `MethodUse`: Minimum sample quality eligibility criteria and duplicate checking (P-MIC Technical Methods Paper Section 12)
+- `V2-P203` `MethodUse`: Assessment of inconsistent responses (+/− two and three levels) for similar items across EQ-5D-Y-5L and CHU9D
+- `V2-P203` `MethodUse`: Top-coding of completion times (600 s per instrument; 3600 s initial and 2400 s follow-up surveys) and categorisation into short/average/long
+- `V2-P203` `MethodUse`: Pearson's chi-squared test
+- `V2-P203` `MethodUse`: Randomisation of instrument order and of allocation to one of HUI 2/3, PROMIS-25 or AQoL-6D; random allocation of a general population subset to a 2-day follow-up
+- `V2-P203` `MethodUse`: Test–retest reliability assessment using the 2-day follow-up subset
+- `V2-P203` `ProtocolUse`: Australian Paediatric Multi-Instrument Comparison (P-MIC) Study: Technical Methods Paper, Version 3, Data Cut 2
+- `V2-P203` `ProtocolUse`: Psychometric Performance of HRQoL Measures: An Australian Paediatric Multi-Instrument Comparison Study Protocol (P-MIC)
+- `V2-P203` `ProtocolUse`: COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures
+- `V2-P203` `ProductUse`: Longitudinal Study of Australian Children (LSAC) population normative data
+- `V2-P204` `InstrumentUse`: EQ-5D-Y-3L original version
+- `V2-P204` `InstrumentUse`: EQ-5D-Y-5L original version
+- `V2-P204` `InstrumentUse`: EQ-5D-Y-3L adapted version with guidance notes (children aged ≤4 years)
+- `V2-P204` `InstrumentUse`: EQ-5D-Y-5L adapted version with guidance notes (children aged ≤4 years)
+- `V2-P204` `InstrumentUse`: EQ-5D-5L
+- `V2-P204` `InstrumentUse`: EQ-HWB-S v1.2 (EQ Health and Wellbeing Short Version, parent respondent)
+- `V2-P204` `InstrumentUse`: CHU9D (Child Health Utility 9D)
+- `V2-P204` `InstrumentUse`: PedsQL Generic Core 4.0
+- `V2-P204` `InstrumentUse`: TANDI v2 (Toddler and Infant Questionnaire)
+- `V2-P204` `InstrumentUse`: Global Health Measure (single item)
+- `V2-P204` `InstrumentUse`: HUI2/3 (Health Utilities Index Mark 2/3)
+- `V2-P204` `InstrumentUse`: AQoL-6D Adolescent
+- `V2-P204` `InstrumentUse`: PROMIS-25 Paediatric Profile
+- `V2-P204` `InstrumentUse`: SDQ (Strengths and Difficulties Questionnaire)
+- `V2-P204` `InstrumentUse`: PedsQL Asthma Module
+- `V2-P204` `InstrumentUse`: KIDSCREEN-27
+- `V2-P204` `InstrumentUse`: SDSC (Sleep Disturbance Scale for Children)
+- `V2-P204` `InstrumentUse`: CPQ 11-14 (Child Perceptions Questionnaire)
+- `V2-P204` `InstrumentUse`: CPQ 11-14 (Child Perceptions Questionnaire)
+- `V2-P204` `InstrumentUse`: RCADS-25 (Revised Children's Anxiety and Depression Scale Short form)
+- `V2-P204` `InstrumentUse`: SWAN-adapted (Strengths and Weaknesses of ADHD Symptoms and Normal Behavior Scale)
+- `V2-P204` `InstrumentUse`: SWAN-adapted (Strengths and Weaknesses of ADHD Symptoms and Normal Behavior Scale)
+- `V2-P204` `InstrumentUse`: Two item Children with Special Health Care Needs (CSHCN) Screener
+- `V2-P204` `InstrumentUse`: Change in general health and change in main health condition items adapted from SF-36
+- `V2-P204` `InstrumentUse`: Child's common ongoing health conditions list adapted from the Longitudinal Study of Australian Children (LSAC)
+- `V2-P204` `InstrumentUse`: Study-designed single question on how difficult the instrument was to complete
+- `V2-P204` `MethodUse`: Random selection from an existing double opt-in online panel with prespecified age, sex and health status/disease quotas and least-fill invitation
+- `V2-P204` `MethodUse`: In-person research assistant approach in hospital departments plus poster, telehealth, newsletter and social media advertising
+- `V2-P204` `MethodUse`: Outcome-specific sample size (power) calculations for responsiveness and known-group validity based on PedsQL MCID
+- `V2-P204` `MethodUse`: Test–retest reliability (agreement on dimension-level responses between initial and two-day re-test survey)
+- `V2-P204` `MethodUse`: Known group differences analysis (descriptive comparison against a priori expected group differences)
+- `V2-P204` `MethodUse`: Convergent validity analysis (correlation of similar constructs from different instruments)
+- `V2-P204` `MethodUse`: Discriminant validity analysis (whether dimension responses are independent of known groups)
+- `V2-P204` `MethodUse`: Responsiveness analysis using dimension-level responses of children reported to change in general health status versus those not changing
+- `V2-P204` `MethodUse`: Exploratory factor analysis
+- `V2-P204` `MethodUse`: Confirmatory factor analysis
+- `V2-P204` `MethodUse`: Item Response Theory (IRT), including assessment of item and model fit and differential item functioning
+- `V2-P204` `MethodUse`: Item-total correlations
+- `V2-P204` `MethodUse`: Cronbach alpha coefficients
+- `V2-P204` `MethodUse`: Scoring of HRQoL instruments to item, domain and total utility scores using published scoring algorithms or value sets
+- `V2-P204` `MethodUse`: Adaptation of instruments for the study (SWAN readability adaptation with developer approval; generation of a CPQ 11-14 proxy report version)
+- `V2-P204` `MethodUse`: Randomization of HRQoL instrument presentation order and allocation of additional instrument blocks and EQ-5D-Y version sets
+- `V2-P204` `MethodUse`: Missing data minimisation procedures (panel company minimum acceptable data rules, participant follow-up at completion, required-question prompts)
+- `V2-P205` `InstrumentUse`: Toddler and Infant (TANDI) Health-Related Quality of Life measure
+- `V2-P205` `InstrumentUse`: Toddler and Infant (TANDI) Health-Related Quality of Life measure
+- `V2-P205` `InstrumentUse`: EQ-5D-Y Proxy version 1
+- `V2-P205` `InstrumentUse`: EQ-5D-Y Proxy version 1
+- `V2-P205` `InstrumentUse`: Pediatric Quality of Life Inventory (PedsQL) generic core scales, toddler proxy version (2–4 years)
+- `V2-P205` `ScoringUse`: Slovenian EQ-5D-Y value set (range −0.691 to 1.000)
+- `V2-P205` `MethodUse`: Level sum score (LSS)
+- `V2-P205` `MethodUse`: PedsQL scoring (item reversal and transformation to a 0–100 scale, dimension and total score summation)
+- `V2-P205` `MethodUse`: Chi-square (x2) statistic
+- `V2-P205` `MethodUse`: Fisher exact statistic
+- `V2-P205` `MethodUse`: Mann–Whitney U-test
+- `V2-P205` `MethodUse`: Kruskal–Wallis H-Test
+- `V2-P205` `MethodUse`: Spearman's correlation coefficient
+- `V2-P205` `MethodUse`: Pearson's r
+- `V2-P205` `MethodUse`: Cohen's criteria for interpreting correlation coefficients (0.1–0.29 low, 0.3–0.49 moderate, ≥0.5 high)
+- `V2-P205` `MethodUse`: Random selection of pre-schools from schools recommended by the department of education
+- `V2-P205` `MethodUse`: Sample size calculation for a difference in proportions with a small effect size (0.4), 90% power, significance 0.05
+- `V2-P206` `InstrumentUse`: EQ-5D-3L
+- `V2-P206` `InstrumentUse`: EQ-5D-3L
+- `V2-P206` `InstrumentUse`: EQ-VAS
+- `V2-P206` `InstrumentUse`: demographic questionnaire
+- `V2-P206` `ScoringUse`: Canadian EQ-5D-3L time-trade-off (TTO) scoring model (Canadian TTO value set, Bansback et al.)
+- `V2-P206` `MethodUse`: prospective convenience sample
+- `V2-P206` `MethodUse`: Spearman's rank correlation
+- `V2-P206` `MethodUse`: analysis of variance (ANOVA)
+- `V2-P206` `MethodUse`: Bayesian Information Criterion (BIC) nested model comparison
+- `V2-P206` `ModelUse`: ordinary least squares (OLS) multivariable regression, main effects model including birth sex (n = 111)
+- `V2-P206` `ModelUse`: ordinary least squares (OLS) multivariable regression, main effects model excluding birth sex, all cancers (n = 170)
+- `V2-P206` `ModelUse`: OLS regression models with interactions between birth sex and age categories
+- `V2-P207` `InstrumentUse`: EQ-5D-5L
+- `V2-P207` `InstrumentUse`: EQ-5D-5L
+- `V2-P207` `InstrumentUse`: EQ-5D-5L
+- `V2-P207` `InstrumentUse`: EQ-5D-Y
+- `V2-P207` `InstrumentUse`: EQ-5D
+- `V2-P207` `InstrumentUse`: EQ-VAS
+- `V2-P207` `InstrumentUse`: Zarit Burden Interview (ZBI)
+- `V2-P207` `MethodUse`: Recruitment through patient organizations and registries by email, online questionnaire link and postal paper version
+- `V2-P207` `MethodUse`: Translation and adaptation of the questionnaire set to each language
+- `V2-P207` `MethodUse`: Pearson correlation coefficient
+- `V2-P207` `MethodUse`: ANOVA analysis
+- `V2-P207` `MethodUse`: Levene's test
+- `V2-P207` `MethodUse`: Bonferroni correction for multiple comparisons
+- `V2-P207` `MethodUse`: Model selection by adjusted R2 and Akaike information criterion (AIC)
+- `V2-P207` `MethodUse`: ZBI claudication cut-offs (<47 absence, 47-55 mild, >55 high level of claudication)
+- `V2-P207` `ModelUse`: Multinomial logistic regression
+- `V2-P207` `ModelUse`: Ordered logistic regression
+- `V2-P207` `ModelUse`: Truncated multiple regression models
+- `V2-P207` `ScoringUse`: crosswalk 3L value sets (algorithm mapping EQ-5D-5L to EQ-5D-3L value sets)
+- `V2-P207` `ScoringUse`: crosswalk 3L value sets (algorithm mapping EQ-5D-5L to EQ-5D-3L value sets)
+- `V2-P207` `ScoringUse`: US Measurement and Valuation of Health (valuation of child health-related quality of life in the United States)
+- `V2-P208` `InstrumentUse`: Patient Health Questionnaire-9 (PHQ-9)
+- `V2-P208` `InstrumentUse`: Generalized Anxiety Disorder Questionnaire (GAD-7)
+- `V2-P208` `InstrumentUse`: Self-report general health question (very good/good/fair/bad/very bad)
+- `V2-P208` `InstrumentUse`: Chronic disease checklist of up to 11 chronic conditions
+- `V2-P208` `InstrumentUse`: T3 survey question "Have your drinking habits changed since the start of the pandemic?"
+- `V2-P208` `InstrumentUse`: T3 survey questions on average number of alcoholic beverages used per week before (recall) and during the pandemic
+- `V2-P208` `InstrumentUse`: T3 survey question on job loss due to COVID-19
+- `V2-P208` `MethodUse`: Recruitment of a representative sample by an international market research agency from pre-existing voluntary internet panels, invited by age, gender and education to ensure national representativeness
+- `V2-P208` `MethodUse`: Translation of the T1, T2 and T3 surveys into the main official language of each country using translation software, back-translation into English and independent verification by bilingual native speakers
+- `V2-P208` `MethodUse`: One-way ANOVA
+- `V2-P208` `MethodUse`: Fisher's exact test
+- `V2-P208` `MethodUse`: Chi-square test
+- `V2-P208` `MethodUse`: Kruskal–Wallis H test
+- `V2-P208` `MethodUse`: Wilcoxon Signed-Rank Test
+- `V2-P208` `MethodUse`: Sankey plots
+- `V2-P208` `MethodUse`: International Standard Classification of Education (ISCED) 2011 categorization of highest attained education level
+- `V2-P208` `MethodUse`: Criteria for excessive/heavy drinking (8 or more drinks per week for women, 15 or more for men; more than 3 (women) or more than 5 (men) consumptions at least once a week)
+- `V2-P208` `MethodUse`: PHQ-9 and GAD-7 sum score computation and severity categorization (0–9 none-mild; ≥10 moderate-severe)
+- `V2-P208` `MethodUse`: Multicollinearity testing of the variables and Nagelkerke R-square goodness-of-fit test of the model
+- `V2-P208` `MethodUse`: Descriptive statistics of demographic and health characteristics, alcoholic beverages per week, recent life events, change in drinking behavior and excessive drinking
+- `V2-P208` `ModelUse`: Multivariate multinomial logistic regression analysis (reference category: no change in alcohol consumption)
+- `V2-P208` `ModelUse`: Multinomial logistic regression analysis stratified by country
+- `V2-P209` `InstrumentUse`: EQ-TIPS (EuroQol Toddler and Infant Populations) isiXhosa version
+- `V2-P209` `InstrumentUse`: EQ-TIPS (EuroQol Toddler and Infant Populations) isiXhosa version
+- `V2-P209` `InstrumentUse`: EQ-TIPS (English version)
+- `V2-P209` `InstrumentUse`: EQ-TIPS (EuroQol Toddler and Infant Populations) isiXhosa version
+- `V2-P209` `InstrumentUse`: EQ-TIPS (EuroQol Toddler and Infant Populations) isiXhosa version
+- `V2-P209` `InstrumentUse`: EuroQol Visual Analogue Scale (EQ-VAS) on the EQ-TIPS
+- `V2-P209` `InstrumentUse`: Ages and Stages Questionnaire (Third Edition) (ASQ) Parent Report Form
+- `V2-P209` `InstrumentUse`: FLACC (Face, Leg, Activity, Cry, Consolability) Pain Scale
+- `V2-P209` `InstrumentUse`: Self-designed dietary information questionnaire
+- `V2-P209` `InstrumentUse`: Demographic and medical information form
+- `V2-P209` `MethodUse`: Forward and backward translation by two independent translators with consensus
+- `V2-P209` `MethodUse`: Cognitive interviews
+- `V2-P209` `MethodUse`: Non-probability systematic recruitment by ward and cubicle number and from clinic waiting rooms
+- `V2-P209` `MethodUse`: Chi-square test
+- `V2-P209` `MethodUse`: Kruskal-Wallis analysis
+- `V2-P209` `MethodUse`: Spearman's Rho correlation coefficient
+- `V2-P209` `MethodUse`: Cohen's weighted Kappa
+- `V2-P209` `MethodUse`: Intraclass correlation coefficient (ICC)
+- `V2-P209` `MethodUse`: Level sum score (LSS)
+- `V2-P209` `ProtocolUse`: EQ-5D-Y translation protocol
+- `V2-P209` `ProtocolUse`: COSMIN guidelines
+- `V2-P209` `ModelUse`: Multiple regression analysis with the VAS as dependent variable and dummy variables representing dimension levels

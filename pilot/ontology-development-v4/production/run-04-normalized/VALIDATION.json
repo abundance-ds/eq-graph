@@ -1,0 +1,164 @@
+{
+  "summary": {
+    "expected": 20,
+    "present": 20,
+    "valid": 20,
+    "errors": 0,
+    "warnings": 5,
+    "dispositions": {
+      "include-study": 19,
+      "publication-context": 1
+    }
+  },
+  "records": [
+    {
+      "record_id": "C50-P032",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu7: unmapped Instrument registry label 13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)"
+      ]
+    },
+    {
+      "record_id": "R129-P014",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "pr1: unmapped Protocol registry label common standardized protocol"
+      ]
+    },
+    {
+      "record_id": "R129-P117",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CAL-B12",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "C50-P045",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CAL-B17",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "publication-context",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "C50-P028",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P064",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P001",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "mu2: unmapped Method registry label non‐parametric method",
+        "mu3: unmapped Method registry label direct method"
+      ]
+    },
+    {
+      "record_id": "R129-P049",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CAL-B03",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "C50-P049",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P106",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu2: unmapped Instrument registry label EQ-5D-5L anxiety/depression dimension"
+      ]
+    },
+    {
+      "record_id": "R129-P028",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P110",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P129",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P038",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P090",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P018",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "R129-P127",
+      "source_run": "pilot/ontology-development-v4/production/run-04-normalized",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

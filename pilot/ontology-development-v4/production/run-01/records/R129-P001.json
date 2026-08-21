@@ -1,0 +1,1431 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P001",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This study was made possible through funding provided by the EuroQol Research Foundation (project number: 20190080R1).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study develops and tests corrections for composite time trade-off as used in EQ-5D valuation. It directly uses EQ-5D-5L health states and an adapted EQ-VT protocol. The acknowledgement explicitly states that the EuroQol Research Foundation funded this study.",
+    "source": [
+      "Deterministic metadata, publication title and abstract",
+      "Full article, Introduction, final two paragraphs",
+      "Full article, Experiment, Design",
+      "Full article, Acknowledgements"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Development and empirical evaluation of corrections for discounting and loss aversion in composite time trade-off",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an extension and empirical test of a corrective method for cTTO. The method adjusts utilities for individual discounting and loss aversion, including utilities for states worse than dead. The study does not produce an EQ-5D value set.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, final two paragraphs",
+        "Full article, Corrective Approach for cTTO",
+        "Full article, Discussion, first and final paragraphs"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, final two paragraphs",
+        "Full article, Corrective Approach for cTTO"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "HEALTH_STATE_VALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, Experiment, cTTO introduction and main cTTO task"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "PREFERENCE_COMPARISON",
+      "rank": 3,
+      "source": [
+        "Full article, Experiment, Validation task",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Main method-development and validation experiment",
+      "source": [
+        "Full article, Experiment",
+        "Full article, Results"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Experiment, Design",
+        "Full article, Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Experiment, Design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Experiment, Data analysis",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "Full article, Experiment, first paragraph",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Results, Comparing personal and digital interviews and overall data quality"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Experiment, Design; randomization concerned task order, not allocation of people"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Members of the Dutch general public",
+      "role": "study respondents",
+      "geographies": [
+        "Netherlands"
+      ],
+      "conditions": [],
+      "age_description": "Mean age 42.7 years (SD 15.6).",
+      "inclusion_description": "A marketing company recruited a general-public sample intended to reasonably reflect the Dutch population in age, gender, and education, without strict quotas.",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 150,
+      "size_text": "150 respondents completed or started an interview",
+      "unit": "respondents",
+      "description": "The recruited general-public interview sample.",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Results, Interviews completed"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 149,
+      "size_text": "149 respondents with cTTO utilities",
+      "unit": "respondents",
+      "description": "Respondents with cTTO utility data, including two respondents without later discounting and loss-aversion data.",
+      "source": [
+        "Full article, Results, Interviews completed"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sa3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 147,
+      "size_text": "147 respondents with complete data",
+      "unit": "respondents",
+      "description": "Respondents with complete cTTO, loss-aversion, discounting, and validation data.",
+      "source": [
+        "Full article, Results, Interviews completed"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Interview responses collected for the experiment",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Elicit cTTO utilities, current health, loss aversion, discounting, confirmed utilities, demographics, and data-quality indicators.",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Experiment, Design"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ‐5D‐5L instrument",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Experiment, Introduction and Demographics"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ‐5D‐5L health states",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article, Results, EQ‐5D‐5L and demographic questionnaire"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ‐VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Experiment, Introduction and Demographics",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ‐5D‐5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, Experiment, cTTO introduction and main cTTO task"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "Dutch tariff (Versteegh et al., 2016)",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Results, EQ‐5D‐5L and demographic questionnaire"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "composite time trade‐off (cTTO)",
+      "registry_id": "method:ctto",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Experiment, cTTO introduction and main cTTO task"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "non‐parametric method",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting, first three paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "direct method",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting, discounting paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "correction based on constant alternative (constant alternative correction)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING_OR_DERIVATION",
+      "source": [
+        "Full article, Experiment, first paragraph",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "correction based on maximum BTD time (maximum BTD correction)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING_OR_DERIVATION",
+      "source": [
+        "Full article, Experiment, first paragraph",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "adaptation of the validation task developed by Lipman et al. (2020a)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Experiment, Validation task"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "linear interpolation",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING_OR_DERIVATION",
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting, discounting paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "paired t-tests",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Experiment, Data analysis",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Chi-squared tests",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Experiment, Data analysis",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Wilcoxon tests",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, final paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ‐VT protocol",
+      "registry_id": "protocol:eq-vt",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "Full article, Experiment, Design",
+        "Full article, Experiment, cTTO introduction and main cTTO task"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1",
+        "pu1",
+        "iu4"
+      ],
+      "label": "main cTTO task",
+      "profiles": [
+        "11211",
+        "13313",
+        "35332",
+        "22434",
+        "24443",
+        "55555"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression",
+        "life duration"
+      ],
+      "levels": [
+        "EQ-5D-5L severity levels from no problems to extreme problems/unable to",
+        "full health",
+        "impaired health"
+      ],
+      "duration": "A 10-year gauge duration for conventional TTO; a 10-year lead time plus 10 years in impaired health for lead-time TTO.",
+      "alternatives": "Full health for a varied duration versus 10 years in impaired health, or versus 10 years in full health followed by 10 years in impaired health.",
+      "task_count": "6 main tasks after 2 practice tasks",
+      "block": "One main cTTO block",
+      "order": "The six main health states were presented in random order.",
+      "randomization_unit": "Health-state task order within respondent",
+      "stopping_rule": "Top-down titration until indifference.",
+      "source": [
+        "Full article, Experiment, cTTO introduction and main cTTO task"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu2"
+      ],
+      "label": "non-parametric loss-aversion elicitation",
+      "profiles": [
+        "Life duration relative to a 10-year reference point",
+        "Life duration relative to a 20-year reference point"
+      ],
+      "attributes": [
+        "life duration",
+        "gain or loss relative to the reference point",
+        "probability"
+      ],
+      "levels": [
+        "10-year reference point",
+        "20-year reference point",
+        "starting gain of 5 years",
+        "probability 0.5"
+      ],
+      "duration": "Life-duration outcomes relative to reference points of 10 and 20 years.",
+      "alternatives": "A mixed prospect or certainty-equivalent gamble compared with a reference or certain outcome.",
+      "task_count": "Three chained indifferences for each reference point",
+      "block": "Loss-aversion block",
+      "order": "The loss-aversion and discounting blocks were presented in random order.",
+      "randomization_unit": "Order of the loss-aversion and discounting blocks within respondent",
+      "stopping_rule": "Indifference for each chained elicitation.",
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu3"
+      ],
+      "label": "direct-method discounting elicitation",
+      "profiles": [
+        "Full health followed by chronic back pain",
+        "Chronic back pain followed by full health"
+      ],
+      "attributes": [
+        "health state",
+        "timing of health state",
+        "life duration"
+      ],
+      "levels": [
+        "full health",
+        "chronic back pain described as EQ-5D-5L state 21211",
+        "0 to 20 years"
+      ],
+      "duration": "Each profile had a 20-year horizon.",
+      "alternatives": "Two ordered sequences of full health and chronic back pain.",
+      "task_count": "Five indifferences for utility levels 1/8, 1/4, 1/2, 3/4, and 7/8",
+      "block": "Discounting block",
+      "order": "The loss-aversion and discounting blocks were presented in random order.",
+      "randomization_unit": "Order of the loss-aversion and discounting blocks within respondent",
+      "stopping_rule": "Indifference at the time point that divided the specified utility interval.",
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting, discounting paragraphs"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu6",
+        "iu4"
+      ],
+      "label": "validation task",
+      "profiles": [
+        "11211",
+        "13313",
+        "35332",
+        "22434",
+        "24443",
+        "55555"
+      ],
+      "attributes": [
+        "elicited cTTO utility",
+        "direction of adjustment",
+        "confirmed utility"
+      ],
+      "levels": [
+        "exactly right",
+        "should be higher",
+        "should be lower",
+        "utility slider from −1 to 1"
+      ],
+      "duration": null,
+      "alternatives": "Confirm the elicited utility or indicate that it should be higher or lower, then optionally select a replacement utility.",
+      "task_count": "6 health-state assessments",
+      "block": "Final validation block",
+      "order": "Performed after the cTTO, loss-aversion, and discounting tasks.",
+      "randomization_unit": null,
+      "stopping_rule": "Confirmation or selection of a utility to two decimal places.",
+      "source": [
+        "Full article, Experiment, Validation task"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "EQ-5D-5L health state",
+      "levels": [
+        "11211",
+        "13313",
+        "35332",
+        "22434",
+        "24443",
+        "55555"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Experiment, cTTO introduction and main cTTO task",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Utility derivation or confirmation condition",
+      "levels": [
+        "elicited",
+        "confirmed",
+        "constant alternative correction",
+        "maximum BTD correction"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Experiment, Validation task",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Interview mode",
+      "levels": [
+        "personal interview",
+        "digital interview"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Results, Comparing personal and digital interviews and overall data quality"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Reference point used to measure loss aversion",
+      "levels": [
+        "10 years",
+        "20 years"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting",
+        "Full article, Results, Loss aversion and discounting"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3"
+      ],
+      "respondent": "General-public study respondent",
+      "perspective": "Self-reported current health",
+      "completion": "Paper self-completion in personal interviews; verbal responses stored by the interviewer in digital interviews.",
+      "assistance": "The interviewer displayed the questionnaire during digital interviews.",
+      "channel": "Paper questionnaire or videotelephony-assisted questionnaire",
+      "setting": "University campus or digital interview in the Netherlands",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Introduction and demographics section at the start of the interview",
+      "source": [
+        "Full article, Experiment, Introduction and Demographics"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "ad2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1",
+        "mu2",
+        "mu3",
+        "mu4",
+        "mu5",
+        "mu6",
+        "pu1"
+      ],
+      "respondent": "General-public study respondent",
+      "perspective": "The respondent imagined and valued the described health profiles.",
+      "completion": "Interviewer-assisted; respondents stated preferences verbally and the interviewer entered responses into the software.",
+      "assistance": "Interviewer assistance",
+      "channel": "Computer-assisted personal interview, face-to-face or through Zoom",
+      "setting": "University campus or digital interview in the Netherlands",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "One interview lasting approximately one hour",
+      "source": [
+        "Full article, Experiment, Sample and data collection strategy",
+        "Full article, Experiment, Design",
+        "Full article, Experiment, cTTO introduction and main cTTO task"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Elicited, confirmed, and corrected cTTO utilities",
+      "instrument_use_ids": [
+        "iu4"
+      ],
+      "source": [
+        "Full article, Experiment, Validation task",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Loss-aversion coefficient and classification",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting",
+        "Full article, Results, Loss aversion and discounting"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Utility curvature and discounting classification",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Experiment, Elicitation of loss aversion and discounting",
+        "Full article, Results, Loss aversion and discounting"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "cTTO data quality and agreement between personal and digital administration",
+      "instrument_use_ids": [
+        "iu4"
+      ],
+      "source": [
+        "Full article, Results, Comparing personal and digital interviews and overall data quality"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Respondent EQ-5D-5L health and EQ-VAS",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Table 3",
+        "Full article, Results, EQ‐5D‐5L and demographic questionnaire"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study obtained cTTO data from 149 respondents and complete cTTO, loss-aversion, and discounting data from 147 respondents.",
+      "about": [
+        "sa2",
+        "sa3",
+        "o4"
+      ],
+      "values": [
+        {
+          "reported_value": "149",
+          "unit": "respondents with cTTO data",
+          "denominator": "150 interviewed respondents",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "147",
+          "unit": "respondents with complete data",
+          "denominator": "150 interviewed respondents",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Interviews completed"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors found no differences between digital and personal interviews in the included quality indicators or in cTTO utilities, so they combined the samples for later analyses.",
+      "about": [
+        "o4",
+        "sf3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Comparing personal and digital interviews and overall data quality"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Loss aversion was common at both reference points, and the mean loss-aversion estimates did not differ significantly between the 10-year and 20-year reference points.",
+      "about": [
+        "o2",
+        "mu2",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "3.51",
+          "unit": "mean λ",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "10-year reference point",
+          "comparator": "20-year reference point",
+          "direction": null,
+          "uncertainty": "SD 5.49"
+        },
+        {
+          "reported_value": "3.48",
+          "unit": "mean λ",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "20-year reference point",
+          "comparator": "10-year reference point",
+          "direction": null,
+          "uncertainty": "SD 6.02"
+        },
+        {
+          "reported_value": "82%",
+          "unit": "respondents classified as loss averse",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "10-year reference point",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "73%",
+          "unit": "respondents classified as loss averse",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "20-year reference point",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "p = 0.94",
+          "unit": null,
+          "denominator": "147 paired observations",
+          "time": null,
+          "subgroup": null,
+          "comparator": "10-year versus 20-year reference point",
+          "direction": "no significant difference",
+          "uncertainty": "paired t(146) = 0.07"
+        }
+      ],
+      "source": [
+        "Full article, Table 3",
+        "Full article, Results, Loss aversion and discounting"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Aggregate discounting was close to linear, but respondent-level discount functions were heterogeneous and included both positive and negative discounting.",
+      "about": [
+        "o3",
+        "mu3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.49",
+          "unit": "mean AUC",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": null,
+          "comparator": "0.5 denotes linear utility",
+          "direction": null,
+          "uncertainty": "SD 0.08"
+        },
+        {
+          "reported_value": "37%",
+          "unit": "respondents",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "concave utility of life duration",
+          "comparator": null,
+          "direction": "positive discounting",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "13%",
+          "unit": "respondents",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "linear utility of life duration",
+          "comparator": null,
+          "direction": "no discounting",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "49%",
+          "unit": "respondents",
+          "denominator": "147 respondents",
+          "time": null,
+          "subgroup": "convex utility of life duration",
+          "comparator": null,
+          "direction": "negative discounting",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Table 3",
+        "Full article, Results, Loss aversion and discounting"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Correction generally reduced mean cTTO utilities. The reduction was small for the mild state 11211 and much larger for the severe state 55555, especially under maximum BTD correction.",
+      "about": [
+        "o1",
+        "mu4",
+        "mu5",
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.96",
+          "unit": "mean utility",
+          "denominator": "respondents with cTTO data",
+          "time": null,
+          "subgroup": "state 11211",
+          "comparator": "elicited",
+          "direction": null,
+          "uncertainty": "SD 0.07"
+        },
+        {
+          "reported_value": "0.93",
+          "unit": "mean utility",
+          "denominator": "respondents with complete correction data",
+          "time": null,
+          "subgroup": "state 11211",
+          "comparator": "constant alternative correction",
+          "direction": "lower than elicited",
+          "uncertainty": "SD 0.15"
+        },
+        {
+          "reported_value": "0.93",
+          "unit": "mean utility",
+          "denominator": "respondents with complete correction data",
+          "time": null,
+          "subgroup": "state 11211",
+          "comparator": "maximum BTD correction",
+          "direction": "lower than elicited",
+          "uncertainty": "SD 0.15"
+        },
+        {
+          "reported_value": "−0.68",
+          "unit": "mean utility",
+          "denominator": "respondents with cTTO data",
+          "time": null,
+          "subgroup": "state 55555",
+          "comparator": "elicited",
+          "direction": null,
+          "uncertainty": "SD 0.42"
+        },
+        {
+          "reported_value": "−0.94",
+          "unit": "mean utility",
+          "denominator": "respondents with complete correction data",
+          "time": null,
+          "subgroup": "state 55555",
+          "comparator": "constant alternative correction",
+          "direction": "lower than elicited",
+          "uncertainty": "SD 1.28"
+        },
+        {
+          "reported_value": "−3.41",
+          "unit": "mean utility",
+          "denominator": "respondents with complete correction data",
+          "time": null,
+          "subgroup": "state 55555",
+          "comparator": "maximum BTD correction",
+          "direction": "lower than elicited",
+          "uncertainty": "SD 7.79"
+        }
+      ],
+      "source": [
+        "Full article, Results, Table 4",
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Most changes that respondents made in the validation task were in the direction predicted by the corrective approaches. This was a significant majority for four of the six health states.",
+      "about": [
+        "o1",
+        "mu4",
+        "mu5",
+        "mu6"
+      ],
+      "values": [
+        {
+          "reported_value": "4 of 6",
+          "unit": "health states with a significant majority of predicted changes",
+          "denominator": "6 valued health states",
+          "time": null,
+          "subgroup": null,
+          "comparator": "predicted versus unpredicted change direction",
+          "direction": "majority predicted",
+          "uncertainty": "Chi-squared p < 0.004; adjusted p < 0.025"
+        },
+        {
+          "reported_value": "35332 and 55555",
+          "unit": "health-state codes",
+          "denominator": "6 valued health states",
+          "time": null,
+          "subgroup": "exceptions",
+          "comparator": null,
+          "direction": "no significant majority of predicted changes",
+          "uncertainty": "p > 0.06"
+        }
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, final paragraph",
+        "Full article, Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The two corrective approaches gave similar corrected utilities for relatively mild states but differed for severe states in which lead-time TTO was more likely.",
+      "about": [
+        "o1",
+        "mu4",
+        "mu5",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "24443 and 55555",
+          "unit": "health-state codes",
+          "denominator": "6 valued health states",
+          "time": null,
+          "subgroup": "severe health states",
+          "comparator": "constant alternative versus maximum BTD correction",
+          "direction": "significant difference",
+          "uncertainty": "Wilcoxon p < 0.008; adjusted p < 0.05"
+        }
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, final paragraph",
+        "Full article, Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Corrected utilities were generally significantly lower than elicited and confirmed utilities. For state 35332, the constant-alternative correction was not significantly lower than the elicited utility.",
+      "about": [
+        "o1",
+        "mu4",
+        "mu5"
+      ],
+      "values": [
+        {
+          "reported_value": "p = 0.053",
+          "unit": null,
+          "denominator": "paired respondent utilities for state 35332",
+          "time": null,
+          "subgroup": "state 35332",
+          "comparator": "constant alternative corrected versus elicited",
+          "direction": "not significantly lower",
+          "uncertainty": "paired t-test"
+        }
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, paragraph after Figure 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "in1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that the downward effect of correction was largely driven by loss aversion rather than discounting.",
+      "finding_ids": [
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article, Discussion, third paragraph",
+        "Full article, Discussion, final paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "in2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Because corrected utilities were lower than confirmed utilities, the authors stated that the corrective approach might overcorrect, although the appropriate utility benchmark remains unclear.",
+      "finding_ids": [
+        "f5",
+        "f8"
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, paragraph after Figure 1",
+        "Full article, Discussion, fifth paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "in3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors interpreted the severe-state differences as evidence that the assumed reference point has an important effect on corrected lead-time TTO utilities.",
+      "finding_ids": [
+        "f7"
+      ],
+      "source": [
+        "Full article, Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "in4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors stated that heterogeneous discounting prevents the use of one mean discount function for all respondents and increases the task burden of valuation studies.",
+      "finding_ids": [
+        "f4"
+      ],
+      "source": [
+        "Full article, Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "in5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that the study provides a foundation for applying the corrective approach in practical health-state valuation, but whether and how loss aversion should be corrected remain open questions.",
+      "finding_ids": [
+        "f3",
+        "f5",
+        "f7"
+      ],
+      "source": [
+        "Full article, Discussion, final paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Correcting cTTO utilities adds measurement error from the loss-aversion and time-preference measures, especially because the non-parametric and direct methods use chained elicitation.",
+      "about": [
+        "mu2",
+        "mu3",
+        "mu4",
+        "mu5",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, first limitation"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Corrected utilities are not bounded at −1, while the validation scale was bounded at −1. This difference can partly explain why confirmed utilities were higher than corrected utilities and can create practical problems for worse-than-dead states.",
+      "about": [
+        "mu4",
+        "mu5",
+        "mu6",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, second limitation"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The approach models loss aversion only for life duration. This can give counterintuitive classifications of gained or lost years when the added or removed years are lived in a state worse than dead.",
+      "about": [
+        "mu4",
+        "mu5",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph, third limitation"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Corrective approach for composite time trade-off",
+      "product_type": "SCORING_ALGORITHM",
+      "source": [
+        "Full article, Corrective Approach for cTTO",
+        "Full article, Discussion, final paragraph"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Extended to incorporate lead-time TTO in composite TTO and applied under two reference-point specifications.",
+      "assertion_date": "2022-04-26",
+      "asserted_by": "Authors",
+      "source": [
+        "Full article, Corrective Approach for cTTO",
+        "Full article, Discussion, third and final paragraphs"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Loss aversion",
+      "description": "Losses in life duration receive more weight than gains of the same size and can bias cTTO utilities upward under the uncorrected model.",
+      "about": [
+        "mu2",
+        "mu4",
+        "mu5",
+        "o2"
+      ],
+      "source": [
+        "Full article, Introduction, reference-dependence paragraphs",
+        "Full article, Corrective Approach for cTTO"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Discounting of future life years",
+      "description": "Non-linear utility of life duration violates the linear QALY assumption and can affect TTO utilities.",
+      "about": [
+        "mu3",
+        "mu4",
+        "mu5",
+        "o3"
+      ],
+      "source": [
+        "Full article, Introduction, discounting paragraphs",
+        "Full article, Experiment, Elicitation of loss aversion and discounting"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Reference point in lead-time TTO",
+      "description": "The two correction specifications differ in whether the reference point is the constant health profile or 10 years in full health.",
+      "about": [
+        "mu4",
+        "mu5",
+        "f7"
+      ],
+      "source": [
+        "Full article, Corrective Approach for cTTO, Corrective approach for lead-time TTO",
+        "Full article, Experiment, first paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Better than dead and worse than dead",
+      "description": "Composite TTO uses conventional TTO for better-than-dead states and lead-time TTO for worse-than-dead states.",
+      "about": [
+        "mu1",
+        "td1"
+      ],
+      "source": [
+        "Full article, Notation and Preliminaries, final paragraphs"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Corrective approach",
+      "description": "Individual loss-aversion and discount-function measurements are used to derive adjusted cTTO utilities.",
+      "about": [
+        "prod1",
+        "mu2",
+        "mu3",
+        "mu4",
+        "mu5"
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, corrective-approach paragraphs"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Significance of the difference between elicited and confirmed utilities by health state",
+      "statements": [
+        {
+          "statement": "The Results prose states that confirmed utilities were significantly lower for all health states except state 24443, for which p = 0.39.",
+          "source": [
+            "Full article, Results, Elicited, confirmed and corrected cTTO utilities, first paragraph"
+          ]
+        },
+        {
+          "statement": "Table 4 shows no significance marker for state 22434 and shows a significance marker for state 24443 in the elicited-versus-confirmed comparison.",
+          "source": [
+            "Full article, Results, Table 4, row 'Sig. (Elicited vs. confirmed)'"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, first paragraph",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Labels of confirmed-minus-corrected difference rows in Table 4",
+      "statements": [
+        {
+          "statement": "For state 55555, Table 4 reports confirmed utility −0.72, constant-alternative corrected utility −0.94, and maximum-BTD corrected utility −3.41.",
+          "source": [
+            "Full article, Results, Table 4, utility rows"
+          ]
+        },
+        {
+          "statement": "For state 55555, the difference row labeled constant alternative reports 2.69, while the row labeled maximum BTD reports 0.22; these labels conflict with the reported utility means.",
+          "source": [
+            "Full article, Results, Table 4, difference rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, Table 4"
+      ]
+    }
+  ]
+}

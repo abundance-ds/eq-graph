@@ -1,0 +1,25 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CAL-B17",
+  "assessment": {
+    "disposition": "publication-context",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "The EuroQol Research Foundation sponsored the study (EQ project 2016440) during the preparation and implementation stage of the project.",
+    "publication_form": "CORRECTION_NOTICE",
+    "publication_relation": {
+      "type": "CORRECTS",
+      "target_doi": "10.1371/journal.pone.0209344",
+      "source": [
+        "Full article, correction statements and Reference 1"
+      ]
+    },
+    "reason": "This editorial notice corrects the funding, competing-interests, and acknowledgement statements for the directly EQ-focused article “Valuation of the EQ-5D-5L in Taiwan.” It reports no new study.",
+    "source": [
+      "Deterministic publication metadata, article_type and title",
+      "Full article, paragraphs 1–3 and Reference 1"
+    ]
+  },
+  "studies": [],
+  "items": []
+}

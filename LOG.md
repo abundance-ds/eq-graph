@@ -3,6 +3,176 @@
 Chronological record of what was done, what broke, and how it was fixed.
 Stable knowledge lives in README.md; this file is the narrative.
 
+## 2026-08-21
+
+- Built the separate private version-2 SQLite database. Its checks pass for 209
+  publications, 207 studies, 15,430 items, 1,024 projects, 242 accepted links,
+  9,363 citation occurrences, and 573 resolved internal citation edges.
+- Fixed one duplicate registry identity for DCE with duration. Conservative
+  normalization now maps 1,022 uses and leaves 3,457 explicit unresolved uses,
+  with no collision or unverified match.
+- Rejected a 436-row registry expansion candidate for direct use. Mechanical
+  checks passed, but semantic review found unsafe merges between distinct
+  instrument versions, dated value sets, bolt-on products, and software that
+  was only based on EQ-VT. The file remains a review queue. No unsafe mapping
+  entered the database.
+- Started packaging the version-2 SQLite database and shared preview from the
+  209 valid version-0.13 corrected records. This is a review preview, not the
+  final analytical release. The full 100-question aggregate-validity rerun and
+  focused version-0.14 gap work remain; no 100-question pass is claimed.
+- Completed the uniform version-0.13 extraction and independent source review
+  for all 209 JATS papers. Each paper used one isolated Opus draft call and one
+  fresh Opus review call. The review returned seven PASS and 202 MINOR draft
+  verdicts, with 846 local corrections and no MAJOR verdict.
+- All 209 corrected records pass deterministic validation. The corpus has 207
+  included studies, one correction notice, and one excluded paper. The records
+  contain 15,430 typed scientific items, including 1,951 findings, 939
+  limitations, 96 reusable products, 188 source conflicts, and 210 explicit
+  gaps. A gap stays visible instead of forcing a scientific fact into the wrong
+  category.
+- Ran Claude Code through the user's Claude subscription. Every child process
+  removed the inherited `ANTHROPIC_API_KEY`. Subscription limits paused the run
+  twice; the supervised runner resumed after the next usage window. No API-key
+  call entered this production run.
+- Added version 0.12 support for translation and cultural-adaptation methods.
+  Version 0.13 added `ProductUse` for an existing value set or other reusable
+  product that a study analyses, compares, or synthesizes. Current-study
+  outputs remain `Product`; applied scoring remains `ScoringUse`.
+- Stopped the earlier version-0.11 extraction at 142 drafts and its live source
+  audit at 84 records. The files remain as provenance but will not be loaded as
+  the final uniform corpus.
+- Tested `claude-opus-5` on 20 diverse version-0.13 papers with 12 parallel,
+  isolated calls. All 20 returned schema-valid JSON. Deterministic semantic
+  checks passed 16 raw records; four had local relation-ID errors. Independent
+  full-source review found no MAJOR scientific error and local MINOR changes
+  in all 20. The corrected records pass 20/20 deterministic checks.
+- Froze the standard production process at two AI calls per paper: one Opus
+  draft, then one fresh Opus source review that returns the complete corrected
+  record. Deterministic validation and registry normalization are code stages,
+  not AI calls. A failed validation rejects the record before database loading.
+- Added an isolated Claude runner and a combined source-review-and-correction
+  contract. Claude runs in safe mode with tools, hooks, project instructions,
+  and session persistence disabled. This process produced the completed
+  version-0.13 corrected-record run.
+
+## 2026-08-20
+
+- Stopped the version-0.9 rebuild after 48 saved records. One-paper source
+  audits found repeated gaps for general sample identification, screening, and
+  eligibility counts. None of the 48 records will be reused.
+- Corpus checks found eligibility language in 65 of 209 papers and screening
+  language in 61. Version 0.10 added the general `IDENTIFIED`, `SCREENED`, and
+  `ELIGIBLE` stages. A focused test represented all three source flows.
+- The same test exposed forced mappings for clinical endpoints and
+  health-service use. These terms occur in 77 and 24 corpus papers. Version
+  0.11 added two general outcome families. Two direct outcome cases passed
+  full-source audit with only MINOR local corrections and no ontology gap.
+- Froze version 0.11 for a new 209-paper extraction from zero. One strong call
+  creates each draft. A separate strong call audits one paper at a time before
+  repair and database loading.
+- Stopped the version-0.8 rebuild after five saved records. A live source audit
+  found that the ontology could identify experimental-design software but not
+  the experimental-design method itself. None of the five records will be
+  reused.
+- Added `EXPERIMENTAL_DESIGN` as a bounded method function in version 0.9. A
+  fresh test used four difficult DCE-design papers. All four records passed
+  machine validation. Independent full-source review found zero MAJOR and four
+  MINOR local extraction defects, with no new ontology gap.
+- Froze version 0.9 for a clean 209-paper extraction, then stopped it at the
+  repeated sample-stage gap described above.
+- Reopened the typed production gate after a new independent source audit
+  found a repeated omission: software and computational platforms had no exact
+  use entity. The first version-2 run was stopped after 23 saved records and
+  marked invalid. None of its records will be reused.
+- Added `SoftwareUse`, seven bounded software functions, exact software
+  identities, and relations from tasks and administrations. A focused
+  Singapore value-set repair now separates EQ-VT software from the lite
+  valuation protocol and xreg from the fitted models.
+- Removed the forced placeholder `StudyPart`. A simple study now attaches facts
+  directly to the Study; parts remain for pilot, formal, data-source, method,
+  or other separable components. Whole-study findings, limitations, and
+  concepts can now refer to the Study.
+- The corrected 20-paper fixture is deterministic: 21 studies, 1,205 typed
+  items, 287 mapped registry uses, two intentional unresolved labels, 876
+  citation occurrences, and 1,024 projects. All SQLite integrity checks pass.
+- A first fresh eight-paper production test had three MAJOR and five MINOR raw
+  source verdicts. The major errors concerned pilot/formal scope and prior-data
+  provenance. General rules and focused repairs reduced the same set to zero
+  MAJOR, two PASS, and six MINOR.
+- A second fresh eight-paper test used the revised rules. Raw source review
+  found zero MAJOR, two PASS, and six MINOR records. It justified exact review-
+  flow sample stages and an experimental-design software function. Ontology
+  version 0.8 includes these bounded additions; the 12-family partition is
+  unchanged.
+- Started a uniform 209-paper version-2 extraction with version 0.8, then
+  stopped it at the next source-audit gate as described above.
+- Completed the fresh typed confirmation on 20 new JATS publications. The raw
+  records were 16/20 structurally valid. Independent source review found 10
+  PASS, nine MINOR, and one MAJOR record. The MAJOR record merged two studies
+  that the authors reported separately; no filter, primary-family, or main-
+  result error occurred.
+- Added one general Study-unit rule. Focused scientific and registry repairs
+  produced 20/20 valid records. Independent final review found no remaining
+  defect. Three one-paper representation gaps remain explicit; no new research
+  family or paper-specific controlled value was added.
+- Expanded the reviewed identity registry to 332 identities and 394 exact
+  aliases. Corrected confirmation normalization maps 287 uses with no
+  collision or unverified match. Two vague labels remain intentionally
+  unmapped.
+- Provisionally approved a separate version-2 rebuild. Built and verified a
+  209-paper manifest with unique DOI, JATS XML, and Markdown source pairs.
+- Implemented the version-0.5 production record as one shallow JSON object per
+  publication. Added generated schema, deterministic semantic validation,
+  isolated one-call execution, repair overlays, exact registry normalization,
+  reports, and ten unit tests. The current 209-paper database did not change.
+- Ran the first production calibration on 20 unseen publications. The first
+  pass was 14/20 structurally valid; source audit found 10 PASS, nine MINOR,
+  and one MAJOR record. The MAJOR error promoted a secondary measurement-
+  property analysis over the paper's main caregiver health outcomes.
+- Added one governed value, `PLANNED_TARGET`, and paper-independent rules for
+  purpose, flat parts, study-wide data, sample flow, source-study context, and
+  exact identity handling. Two focused repair layers produced 20/20 valid
+  records. Final source review returned 16 PASS and no remaining defect across
+  all affected records.
+- Separated identity governance from ontology structure. An independent audit
+  reviewed 292 registry-eligible uses. The expanded registry has 189 identities
+  and 199 exact aliases with parent, version, language, jurisdiction,
+  respondent-form, and source-scope data. Deterministic normalization resolved
+  220 uses with no collision or unverified link; five ambiguous labels remain
+  intentionally unmapped.
+- Removed the full registry from the AI prompt. The AI now preserves exact
+  source labels and leaves registry IDs empty; deterministic code adds reviewed
+  IDs later. A fresh 20-paper confirmation batch is the final gate before a
+  separate version-2 rebuild.
+- Replaced the failed version-3 analytical classification with a new typed
+  ontology experiment. Four rounds used 60 diverse papers, independent
+  applications, blind reapplication, and source-checked adjudication.
+- Version 0.5 keeps one exact study family, separate purpose/design/time/data/
+  status axes, typed instrument and method uses, exact registries, open
+  findings and concepts, and explicit gap states. It adds no catch-all family.
+- The final blind family test matched 59 of 60 source-adjudicated papers and
+  found no missing record, key, or controlled value. The one remaining close
+  case is governed review work; no paper-specific rule was added.
+- Froze the version-0.5 structure as a production-calibration candidate. The
+  old 209-paper graph remains unchanged and is not approved for broad
+  aggregates. The next gate is a compact machine-readable record, validator,
+  unseen-paper calibration, and a separate version-2 database rebuild.
+- Tested all 100 competency questions against the current serving database.
+  Three strong independent reviewers completed 150 question runs; 25 shared
+  questions were reviewed three times.
+- Results: 37 pass, 36 partial, 26 fail, and 51 not testable. Of 99 testable
+  runs, 37 passed cleanly. Reviewers agreed on only 12 of 25 shared verdicts.
+- Confirmed repeated aggregation defects in person and PI identity, study-type
+  dimensions, method roles, working-group representation, project-topic text,
+  missingness, sample stages, affiliations, status dates, and product meaning.
+- Confirmed serving-layer losses: the source graph has 9,340 citation edges
+  and nine working-group nodes, while the serving database omits citations and
+  stores 28 combined working-group strings.
+- Withdrew the claim that the graph is ready for broad researcher-facing
+  aggregation. Source-linked paper facts remain useful, but the analytical
+  classification and serving layer must be repaired and retested first.
+- Full result: `pilot/ontology-development-v3/aggregate-validity/SYNTHESIS.md`.
+
 ## 2026-08-18
 
 - Synchronized the research record after the final JATS source and project-link

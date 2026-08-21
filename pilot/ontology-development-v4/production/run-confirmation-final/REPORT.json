@@ -1,0 +1,582 @@
+{
+  "summary": {
+    "records": 20,
+    "record_sources": {
+      "pilot/ontology-development-v4/production/run-confirmation-final": 20
+    },
+    "dispositions": {
+      "include-study": 20
+    },
+    "studies": 21,
+    "primary_families": {
+      "VALUE_SET_DEVELOPMENT": 1,
+      "METHODS_RESEARCH": 5,
+      "MEASUREMENT_PROPERTY_EVALUATION": 7,
+      "APPLIED_USE_RESEARCH": 3,
+      "HEALTH_OUTCOME_RESEARCH": 3,
+      "EVIDENCE_SYNTHESIS": 1,
+      "POPULATION_REFERENCE_DESCRIPTION": 1
+    },
+    "item_types": {
+      "Purpose": 36,
+      "StudyPart": 38,
+      "Design": 130,
+      "Population": 31,
+      "Sample": 90,
+      "DataUse": 40,
+      "InstrumentUse": 85,
+      "MethodUse": 141,
+      "ProtocolUse": 15,
+      "ModelUse": 25,
+      "TaskDesign": 28,
+      "Administration": 44,
+      "Outcome": 69,
+      "Finding": 127,
+      "Product": 8,
+      "ScoringUse": 17,
+      "ProductStateAssertion": 7,
+      "Interpretation": 50,
+      "Limitation": 86,
+      "Concept": 36,
+      "StudyFactor": 64,
+      "Gap": 3,
+      "SourceConflict": 17,
+      "StakeholderInvolvement": 3
+    },
+    "unmapped_registry": 2,
+    "gaps": 3,
+    "source_conflicts": 17,
+    "validation": {
+      "expected": 20,
+      "present": 20,
+      "valid": 20,
+      "errors": 0,
+      "warnings": 2,
+      "dispositions": {
+        "include-study": 20
+      }
+    },
+    "run": null
+  },
+  "unmapped_registry": [
+    {
+      "record_id": "CNF-P010",
+      "type": "ModelUse",
+      "source_label": "regression techniques"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D proxy versions"
+    }
+  ],
+  "gaps": [
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": null,
+      "part_id": null,
+      "state": "UNMODELED_ASPECT",
+      "affected_item_id": null,
+      "affected_type": "Finding",
+      "affected_key": "multi-Study finding relation",
+      "evidence": "Findings f1/f6, f2/f7, f3/f8, and f5/f12 use pooled data from Study 1 and Study 2. The schema permits only one study_id for each Finding, so each pooled finding is repeated under both studies.",
+      "importance": "Without a multi-Study relation, a pooled finding can appear to belong to only one study.",
+      "proposed_resolution": "Add a relation that lets one Finding link to multiple Study records while preserving one finding identity.",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Results, paragraphs 1 and 4-8",
+        "Full article, Tables 2-3"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": "s1",
+      "part_id": null,
+      "state": "UNMAPPED_VALUE",
+      "affected_item_id": "d3",
+      "affected_type": "Design",
+      "affected_key": "comparison_structure",
+      "evidence": "The study compares frequency and severity response-scale formats. The controlled comparison-structure vocabulary has no value for a response-scale-format comparison.",
+      "importance": "The comparison is central to the study design, but BETWEEN_METHOD would incorrectly classify response-scale formats as methods.",
+      "proposed_resolution": "Review whether the comparison-structure vocabulary needs a controlled value for response-scale-format comparison.",
+      "source": [
+        "Full article — Abstract, Purpose",
+        "Full article — Background, final paragraph",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": "s1",
+      "part_id": null,
+      "state": "UNMAPPED_VALUE",
+      "affected_item_id": "mu1",
+      "affected_type": "MethodUse",
+      "affected_key": "function",
+      "evidence": "The paper proposes graphical reporting of health utility alongside mortality on Kaplan-Meier curves, but the method-function vocabulary has no reporting or visualization value.",
+      "importance": "This proposed reporting method is a principal contribution of the paper.",
+      "proposed_resolution": "Consider a method function for reporting or visualization if this use recurs across studies.",
+      "source": [
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES",
+        "Full article, CONCLUSION, paragraph 1"
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s2",
+      "part_id": null,
+      "scope": "Denominator for the Study-2-only TTOown versus DTA analysis",
+      "statements": [
+        {
+          "statement": "The Results text states that only Study 2 data were used because the Study 1 cultural-worldview-defense measure occurred before TTOown and VASown.",
+          "source": [
+            "Full article, Results, paragraph 7"
+          ]
+        },
+        {
+          "statement": "Table 3 reports N=2023 for the TTOown row, which is the pooled count of consistent TTOown observations reported for the two studies combined.",
+          "source": [
+            "Full article, Results, paragraph 6",
+            "Full article, Table 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 6-7",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "scope": "Reported MDC95 values for the EQ-5D index and EQ VAS",
+      "statements": [
+        {
+          "statement": "The MDC Results text reports individual-level values of 0.064 and 16.44 and group-level values of 0.42 and 20.95 for the EQ-5D index and EQ VAS, respectively.",
+          "source": [
+            "Full article, Results > MDC, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 6 reports individual-level values of 0.42 and 20.95 and group-level values of 0.022 and 1.08 for the EQ-5D index and EQ VAS, respectively.",
+          "source": [
+            "Full article, Table 6 > MDC95 individual and group rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > MDC, paragraph 1",
+        "Full article, Table 6 > MDC95 individual and group rows"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Named EORTC QLQ-C30 domain associated with correlations of 0.70 and 0.64",
+      "statements": [
+        {
+          "statement": "The Convergent validity text assigns correlations of 0.70 with the EQ-5D index and 0.64 with EQ VAS to role functioning.",
+          "source": [
+            "Full article, Results > Convergent validity, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 3 assigns correlations of 0.70 with the EQ-5D index and 0.64 with EQ VAS to physical functioning; its role-functioning row reports 0.64 and 0.58.",
+          "source": [
+            "Full article, Table 3 > Physical functioning and Role functioning rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Convergent validity, paragraph 1",
+        "Full article, Table 3 > Physical functioning and Role functioning rows"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc3",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Whether the current study generated or analyzed data",
+      "statements": [
+        {
+          "statement": "The Methods and Results report collection and analysis of survey and medical-record data from 422 baseline participants and 371 participants with complete follow-up.",
+          "source": [
+            "Full article, Methods > Patient recruitment and data collection procedure",
+            "Full article, Results > Participant characteristics, first paragraph"
+          ]
+        },
+        {
+          "statement": "The Data availability statement says that no datasets were generated or analysed during the current study.",
+          "source": [
+            "Full article, Data availability",
+            "Full article, Associated Data > Data Availability Statement"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure",
+        "Full article, Results > Participant characteristics, first paragraph",
+        "Full article, Data availability"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "scope": "Model 2 refugee-versus-control coefficient",
+      "statements": [
+        {
+          "statement": "The Results narrative reports a Model 2 estimate of −0.028 with p = 0.018.",
+          "source": [
+            "Results, paragraph preceding Table 2"
+          ]
+        },
+        {
+          "statement": "Table 2 reports a Model 2 estimate of −0.024 with p = 0.018.",
+          "source": [
+            "Table 2, Refugees vs. controls row, Model 2"
+          ]
+        }
+      ],
+      "source": [
+        "Results, paragraph preceding Table 2",
+        "Table 2, Refugees vs. controls row, Model 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Planned qualitative-sample allocation",
+      "statements": [
+        {
+          "statement": "The qualitative substudy will include 25 children.",
+          "source": [
+            "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+          ]
+        },
+        {
+          "statement": "The qualitative substudy will include five children per condition group, while the protocol elsewhere defines three distinct health-condition groups.",
+          "source": [
+            "Full article: Methods and analysis—Data collection, qualitative substudy paragraph",
+            "Full article: Methods and analysis—Participants, severity-classification paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted association between education and EQ-5D-5L LSS",
+      "statements": [
+        {
+          "statement": "The Results text states that lower education was significantly associated with higher LSS in the Netherlands and the total sample.",
+          "source": [
+            "Full article, Results > Association between respondent demographics and SES indicators and the LSS, third paragraph"
+          ]
+        },
+        {
+          "statement": "Table 4 reports pooled low education b=0.110 with p=0.059 and Sweden low education b=-0.002 with p=0.987; these values are not significant at the stated p<0.05 threshold.",
+          "source": [
+            "Full article, Table 4, rows “Low edu level” and pooled and Sweden columns"
+          ]
+        },
+        {
+          "statement": "The Discussion states that lower education was significantly associated with poorer LSS in the Netherlands, Sweden, and the total sample.",
+          "source": [
+            "Full article, Discussion, third paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Association between respondent demographics and SES indicators and the LSS",
+        "Full article, Table 4",
+        "Full article, Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Unadjusted EQ VAS difference by work status in Sweden",
+      "statements": [
+        {
+          "statement": "The narrative states that unemployed respondents had lower EQ VAS in all countries except Sweden.",
+          "source": [
+            "Full article, Results > Health outcomes by work status, second paragraph"
+          ]
+        },
+        {
+          "statement": "Table 3 reports Sweden medians of 80.00 for employed respondents and 70.00 for unemployed respondents, marked as significantly different; the next narrative sentence also lists Sweden among countries with a 10-point difference.",
+          "source": [
+            "Full article, Table 3, Work status rows",
+            "Full article, Results > Health outcomes by work status, second paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes by work status, second paragraph",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Age distribution in the analyzed sample",
+      "statements": [
+        {
+          "statement": "The narrative identifies age groups as 16–35, 36–55, and above 55.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 1 labels the middle age group as 16–55 rather than 36–55.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports age counts of 124, 117, and 149, which total 390 although the analyzed sample is 380.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports corresponding age percentages of 32.6%, 30.8%, and 36.6%, which total 100% but are incompatible with the reported count of 149 for the oldest group.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Designation of the referent and focal response-scale groups in the DIF analysis",
+      "statements": [
+        {
+          "statement": "The frequency scale was designated the referent group and the severity scale as the focal group.",
+          "source": [
+            "Full article — Methods, Analysis, DIF paragraph"
+          ]
+        },
+        {
+          "statement": "EQ-HWB severity scales were the reference group and EQ-HWB frequency scales were the focal group.",
+          "source": [
+            "Full article — Results, Table 5 note"
+          ]
+        }
+      ],
+      "source": [
+        "Full article — Methods, Analysis, DIF paragraph",
+        "Full article — Results, Table 5 note"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Meaning of the graded-response-model parameter a",
+      "statements": [
+        {
+          "statement": "The methods and results narrative define a as the discrimination parameter indicating differentiation ability between trait levels.",
+          "source": [
+            "Full article — Methods, Analysis, Item Response Theory paragraph",
+            "Full article — Results, paragraph before Table 4"
+          ]
+        },
+        {
+          "statement": "The Table 4 note states that a denotes difficulty parameters.",
+          "source": [
+            "Full article — Results, Table 4 note"
+          ]
+        }
+      ],
+      "source": [
+        "Full article — Methods, Analysis, Item Response Theory paragraph",
+        "Full article — Results, paragraph before Table 4 and Table 4 note"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Standard deviation of the total-sample mean EQ-5D-5L index value",
+      "statements": [
+        {
+          "statement": "The Results narrative reports a standard deviation of 0.012 for the mean index score of 0.84.",
+          "source": [
+            "Full article: Results, EQ-5D-5L index population norms, paragraph 1"
+          ]
+        },
+        {
+          "statement": "The abstract and Table 5 report a standard deviation of 0.22 for the mean index score of 0.84.",
+          "source": [
+            "Full article: Abstract, Results",
+            "Full article: Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, EQ-5D-5L index population norms, paragraph 1",
+        "Full article: Table 5"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Mean EQ VAS value reported for men",
+      "statements": [
+        {
+          "statement": "The Results narrative and Table 6 report a mean EQ VAS value of 74.3 for men.",
+          "source": [
+            "Full article: Results, EQ-VAS population norms, paragraph 1",
+            "Full article: Table 6"
+          ]
+        },
+        {
+          "statement": "The Discussion reports a mean EQ VAS value of 74.2 for men.",
+          "source": [
+            "Full article: Discussion, paragraph beginning 'Furthermore, men reported similar or higher mean utility than women'"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, EQ-VAS population norms, paragraph 1",
+        "Full article: Table 6",
+        "Full article: Discussion, paragraph beginning 'Furthermore, men reported similar or higher mean utility than women'"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted knee-register EQ VAS estimates at 1-year follow-up in table 4",
+      "statements": [
+        {
+          "statement": "For men, table 4 reports an adjusted mean of 77.8 with a 95% CI of 74.7 to 75.5, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, 1-year follow-up, Knee, Men"
+          ]
+        },
+        {
+          "statement": "For women, table 4 reports an adjusted mean of 75.1 with a 95% CI of 77.4 to 78.3, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, 1-year follow-up, Knee, Women"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf2",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted spine-register EQ VAS change estimates in table 4",
+      "statements": [
+        {
+          "statement": "For men, table 4 reports an adjusted mean change of 18.7 with a 95% CI of 21.0 to 21.7, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, Change, Spine, Men"
+          ]
+        },
+        {
+          "statement": "For women, table 4 reports an adjusted mean change of 21.3 with a 95% CI of 18.5 to 19.2, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, Change, Spine, Women"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Full-scale Hs values for the healthy, hearing-problems, and Norway subgroups",
+      "statements": [
+        {
+          "statement": "The Results text reports Hs values of 0.363 for the healthy subgroup, 0.496 for the hearing-problems subgroup, and 0.476 for Norway.",
+          "source": [
+            "Full article: Results, Stratified analysis across subgroups, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 4 reports full-scale Hs values of 0.356 for the healthy subgroup, 0.492 for the hearing-problems subgroup, and 0.468 for Norway.",
+          "source": [
+            "Full article: Results, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraph 1",
+        "Full article: Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Subgroup with the lowest reported full-scale HT value",
+      "statements": [
+        {
+          "statement": "The Results text states that full-scale HT ranged from 0.373 for Norway to 0.747 for depression.",
+          "source": [
+            "Full article: Results, Stratified analysis across subgroups, paragraph 2"
+          ]
+        },
+        {
+          "statement": "Table 4 reports full-scale HT of 0.373 for the UK, 0.506 for Norway, and 0.747 for depression.",
+          "source": [
+            "Full article: Results, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraph 2",
+        "Full article: Results, Table 4"
+      ]
+    }
+  ]
+}

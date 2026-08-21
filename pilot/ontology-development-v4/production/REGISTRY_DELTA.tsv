@@ -1,0 +1,18 @@
+entity_type	source_label	source_record_ids	decision	proposed_registry_id	canonical_label	parent_registry_id	variant_kind	language_code	jurisdiction	version	source_identifier	scope	aliases	note
+Instrument	13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)	C50-P032	AMBIGUOUS											The source does not name the 13 bolt-ons, so no safe identity is available.
+Protocol	common standardized protocol	R129-P014	AMBIGUOUS											The source does not name or define the protocol sufficiently.
+Method	non‐parametric method	R129-P001	AMBIGUOUS											The source label does not identify a specific method.
+Method	direct method	R129-P001	AMBIGUOUS											The source label does not identify a specific method.
+Instrument	EQ-5D-5L anxiety/depression dimension	R129-P106	AMBIGUOUS											This is an instrument component, not a complete instrument identity; keep it null until component relations are governed.
+Method	time spent on explaining the wheelchair example < 3 minutes	C50-P045	ADD_SOURCE_SCOPED	method:c50-p045-qc-wheelchair-time	Wheelchair-example explanation-time quality control		STUDY_ADAPTATION				10.1371/journal.pone.0209344	C50-P045		Source-defined cTTO quality control.
+Method	no explanation of the lead-time TTO in the wheelchair example	C50-P045	ADD_SOURCE_SCOPED	method:c50-p045-qc-lead-time-explanation	Lead-time TTO explanation quality control		STUDY_ADAPTATION				10.1371/journal.pone.0209344	C50-P045		Source-defined cTTO quality control.
+Method	total time spent on the formal 10 C-TTO tasks < 5 minutes	C50-P045	ADD_SOURCE_SCOPED	method:c50-p045-qc-formal-task-time	Formal cTTO task-time quality control		STUDY_ADAPTATION				10.1371/journal.pone.0209344	C50-P045		Source-defined cTTO quality control.
+Method	significant logical inconsistency in the derived C-TTO values	C50-P045	ADD_SOURCE_SCOPED	method:c50-p045-qc-logical-inconsistency	cTTO logical-inconsistency quality control		STUDY_ADAPTATION				10.1371/journal.pone.0209344	C50-P045		Source-defined cTTO quality control.
+Method	Welch’s t-test	R129-P110	ALIAS_EXISTING	method:welch-t-test	Welch t-test	method:t-test	METHOD_VARIANT					GLOBAL	Welch’s t-test	
+Method	Welch’s ANOVA	R129-P110	ADD_GLOBAL	method:welch-anova	Welch's ANOVA	method:analysis-of-variance	METHOD_VARIANT					GLOBAL	Welch’s ANOVA	
+Method	distribution of frequency of dimension scores across patient care groups	R129-P129	ADD_SOURCE_SCOPED	method:r129-p129-dimension-score-frequency	Dimension-score frequency distribution		STUDY_ADAPTATION				10.4314/ahs.v23i4.63	R129-P129		Source-specific descriptive analysis.
+Method	ceiling and floor effects	R129-P129	ALIAS_EXISTING	method:ceiling-and-floor-percentages	ceiling and floor percentages							GLOBAL	ceiling and floor effects	
+Method	missing values	R129-P129	ADD_GLOBAL	method:missingness-analysis	Missingness analysis		METHOD_VARIANT					GLOBAL	missing values	
+Model	dimension-level multivariate models	R129-P038	ADD_SOURCE_SCOPED	model:r129-p038-dimension-level-multivariate	Dimension-level multivariate models		MODEL_VARIANT				10.1007/s11136-026-04242-8	R129-P038		Source does not name a more specific model family.
+Model	construct-level multivariate models	R129-P038	ADD_SOURCE_SCOPED	model:r129-p038-construct-level-multivariate	Construct-level multivariate models		MODEL_VARIANT				10.1007/s11136-026-04242-8	R129-P038		Source does not name a more specific model family.
+Model	instrument-level multivariate models	R129-P038	ADD_SOURCE_SCOPED	model:r129-p038-instrument-level-multivariate	Instrument-level multivariate models		MODEL_VARIANT				10.1007/s11136-026-04242-8	R129-P038		Source does not name a more specific model family.

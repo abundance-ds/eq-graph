@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "batches": 12,
+    "records": 12,
+    "verdicts": {
+      "MAJOR": 4,
+      "MINOR": 8
+    },
+    "errors": 0
+  },
+  "batches": [
+    {
+      "batch_id": "A001",
+      "errors": []
+    },
+    {
+      "batch_id": "A002",
+      "errors": []
+    },
+    {
+      "batch_id": "A003",
+      "errors": []
+    },
+    {
+      "batch_id": "A004",
+      "errors": []
+    },
+    {
+      "batch_id": "A005",
+      "errors": []
+    },
+    {
+      "batch_id": "A006",
+      "errors": []
+    },
+    {
+      "batch_id": "A007",
+      "errors": []
+    },
+    {
+      "batch_id": "A008",
+      "errors": []
+    },
+    {
+      "batch_id": "A009",
+      "errors": []
+    },
+    {
+      "batch_id": "A010",
+      "errors": []
+    },
+    {
+      "batch_id": "A011",
+      "errors": []
+    },
+    {
+      "batch_id": "A012",
+      "errors": []
+    }
+  ]
+}

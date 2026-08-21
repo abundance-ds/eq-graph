@@ -1,0 +1,44 @@
+{
+  "run": "rebuild-v2-v013-claude-review-replication-01",
+  "kind": "review",
+  "engine": "claude-code",
+  "model": "claude-opus-5",
+  "effort": "high",
+  "workers": 1,
+  "manifest": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013-claude-review-smoke-01/MANIFEST.tsv",
+  "manifest_sha256": "d0808a3685dffb079617a9c62719d5b5750c73604aa309c2125a258e52324a0f",
+  "schema_sha256": "c6bf53b49e332ccee242f12cd250acc1c7051781499c9f0a0f7496a07d657b53",
+  "items": 1,
+  "successful": 0,
+  "failed": 1,
+  "elapsed_agent_seconds": 55.844,
+  "usage": {
+    "input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 0
+  },
+  "results": [
+    {
+      "status": "failed",
+      "item_id": "V2-P047",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "kind": "review",
+      "returncode": 143,
+      "timed_out": false,
+      "json_valid": false,
+      "json_error": "Expecting value: line 1 column 1 (char 0)",
+      "elapsed_seconds": 55.844,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013-claude-review-smoke-01/inputs/V2-P047.md",
+      "input_sha256": "a03628410195e0c7dea69779ad3b4d84a42a65883b8bd0e67c2eeea027325864",
+      "schema_sha256": "c6bf53b49e332ccee242f12cd250acc1c7051781499c9f0a0f7496a07d657b53",
+      "output_path": null,
+      "output_sha256": null,
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-review-replication-01/traces/V2-P047.json",
+      "review_path": null,
+      "usage": {}
+    }
+  ]
+}

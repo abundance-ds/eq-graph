@@ -1,0 +1,1010 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P019",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "none-stated",
+    "support_scope": null,
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "EQ-5D-3L dimension responses, EQ VAS scores, longitudinal EQ health-state change, comparisons across patient groups, and EQ-5D-3L reference data are principal research objects. The structured metadata and article state no EuroQol funding or acknowledgement.",
+    "source": [
+      "Structured metadata, title, abstract, and funding field",
+      "Full article, Introduction, final paragraph and stated objectives",
+      "Full article, Methods, Data analysis",
+      "Full article, Footnotes and end matter"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Longitudinal comparison of EQ-5D-3L health status in Swedish National Quality Registers and the general population",
+      "primary_research_family": "HEALTH_OUTCOME_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is the description and comparison of health status and longitudinal health change across patient groups. Establishing patient reference data is a stated secondary objective and output, but it is not the dominant aim or conclusion.",
+      "source": [
+        "Full article, Abstract, Objective and Conclusions",
+        "Full article, Introduction, final paragraph and objectives",
+        "Full article, Discussion, Main findings",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract, Objective",
+        "Full article, Introduction, final paragraph and objectives 1–3"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "POPULATION_NORMS",
+      "rank": 2,
+      "source": [
+        "Full article, Introduction, objective 4",
+        "Full article, Results, final paragraph before Discussion"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Longitudinal National Quality Register patient cohorts",
+      "source": [
+        "Full article, Methods, Study design and Swedish NQRs included in the study"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "General-population comparison data",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods, Study design and Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Abstract, Objective",
+        "Full article, Methods, Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods, Study design and Sampling and data"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Methods, Study design",
+        "Full article, Methods, Swedish NQRs included in the study, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Methods, Data analysis, PCHC paragraph",
+        "Full article, Strengths and limitations of this study"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Patients represented in 11 Swedish National Quality Registers",
+      "role": "patient cohorts",
+      "geographies": [
+        "Sweden"
+      ],
+      "conditions": [
+        "musculoskeletal conditions",
+        "heart failure",
+        "respiratory failure",
+        "psoriasis",
+        "rheumatological conditions"
+      ],
+      "age_description": "Mean age varied by register from 29.8 to 73.7 years; adult age groups included <30 through ≥80 years.",
+      "inclusion_description": "Records had complete age, sex, main diagnosis or diagnosis group, intervention, and EQ-5D-3L dimension data; duplicate patients across registers were randomly deduplicated.",
+      "source": [
+        "Full article, Methods, Swedish NQRs included in the study",
+        "Full article, Methods, Sampling and data, paragraphs 1–2",
+        "Full article, Results, Demographic characteristics and table 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "General-population survey participants from Scania and Stockholm",
+      "role": "comparison population",
+      "geographies": [
+        "Scania, Sweden",
+        "Stockholm, Sweden"
+      ],
+      "conditions": [],
+      "age_description": "Adult population with a mean age of 46.2 years.",
+      "inclusion_description": "Participants with complete EQ-5D-3L dimension data from regional population surveys conducted in 2004 and 2006.",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3",
+        "Full article, Results, Demographic characteristics and table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 266241,
+      "size_text": "266,241 patient records",
+      "unit": "patient records",
+      "description": "Main analysis sample with complete EQ-5D-3L dimension, age, sex, diagnosis, and intervention data.",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 2",
+        "Full article, Results, Demographic characteristics, first sentence"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 209247,
+      "size_text": "209,247 records with complete EQ VAS data",
+      "unit": "patient records",
+      "description": "Outcome-specific analysis sample for EQ VAS.",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 49169,
+      "size_text": "49,169 individuals with complete EQ-5D-3L dimension data",
+      "unit": "individuals",
+      "description": "General-population comparison sample for EQ-5D-3L dimensions.",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 41761,
+      "size_text": "41,761 individuals with complete EQ VAS data",
+      "unit": "individuals",
+      "description": "General-population comparison sample for EQ VAS.",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Data from 11 Swedish National Quality Registers",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Analyze EQ-5D-3L responses, EQ VAS, diagnoses, interventions, and patient characteristics at baseline and 1-year follow-up.",
+      "source": [
+        "Full article, Methods, Study design",
+        "Full article, Methods, Swedish NQRs included in the study"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Scania 2004 and Stockholm 2006 population surveys",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Provide general-population EQ-5D-3L and demographic comparison data.",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Swedish experience-based EQ-5D-3L TTO and VAS value sets",
+      "origin": "PUBLISHED_MODEL_INPUT",
+      "level": "MODEL_PARAMETER",
+      "purpose": "Calculate EQ-5D-3L indices in the supplementary analyses.",
+      "source": [
+        "Full article, Methods, Data analysis, final paragraph",
+        "Full article, Results, final paragraph before Discussion"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-3L descriptive system",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Abstract, Objective and outcome measures",
+        "Full article, Introduction, final paragraph and objectives",
+        "Full article, Methods, Data analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Abstract, Objective and outcome measures",
+        "Full article, Methods, Data analysis",
+        "Full article, Results, Mean self-assessed EQ VAS score"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article, Methods, Data analysis, final paragraph",
+        "Full article, Results, final paragraph before Discussion"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Descriptive analysis",
+      "registry_id": "method:descriptive-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Data analysis, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Paretian Classification of Health Change (PCHC)",
+      "registry_id": "method:paretian-classification-of-health-change",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MAPPING_OR_DERIVATION",
+      "source": [
+        "Full article, Methods, Data analysis, PCHC paragraph"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "analysis of covariance (ANCOVA)",
+      "registry_id": "model:ancova",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods, Data analysis, paragraph 2",
+        "Full article, Results, table 4"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "two-level random intercept model",
+      "registry_id": "model:two-level-random-intercept",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods, Data analysis, paragraph 3",
+        "Full article, Results, figure 3"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "REporting of studies Conducted using Observational Routinely collected health Data (RECORD) checklist",
+      "registry_id": "protocol:record-checklist",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "Full article, Methods, Study design, second sentence"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu3",
+      "source_label": "Swedish experience-based EQ-5D-3L TTO value set",
+      "registry_id": "product:eq-5d-3l-se-experience-tto",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods, Data analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu3",
+      "source_label": "Swedish experience-based EQ-5D-3L VAS value set",
+      "registry_id": "product:eq-5d-3l-se-experience-vas",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods, Data analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "National Quality Register patient group and diagnosis",
+      "levels": [
+        "Spine",
+        "Hip",
+        "Knee",
+        "Ankle",
+        "Cruciate ligament",
+        "BOA",
+        "Fracture",
+        "Heart failure",
+        "Respiratory failure",
+        "Psoriasis",
+        "Rheumatology",
+        "specific diagnoses within registers"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Methods, Swedish NQRs included in the study",
+        "Full article, Results, table 1 and online supplemental table S3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "General population",
+      "levels": [
+        "General population"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article, Abstract, Objective",
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Sex",
+      "levels": [
+        "Women",
+        "Men"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data analysis, paragraphs 1–3",
+        "Full article, Results, tables 1, 3, and 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Age group",
+      "levels": [
+        "<30",
+        "30–39",
+        "40–49",
+        "50–59",
+        "60–69",
+        "70–79",
+        "≥80"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Sampling and data, final paragraph",
+        "Full article, Results, tables 1 and 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "BMI category",
+      "levels": [
+        "Underweight",
+        "Normal weight",
+        "Overweight",
+        "Obesity class I",
+        "Obesity class II",
+        "Obesity class III"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Sampling and data, final paragraph",
+        "Full article, Results, tables 1 and 3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "patients",
+      "perspective": "participants’ assessment of their own health",
+      "completion": "self-report",
+      "assistance": null,
+      "channel": "Modes differed across National Quality Registers; exact modes are not reported.",
+      "setting": "Swedish National Quality Registers and routine clinical care",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "Current health, except fracture baseline responses recalled the week before the fracture.",
+      "time_point": "Baseline and 1-year follow-up",
+      "source": [
+        "Full article, Abstract, Primary and secondary outcome measures",
+        "Full article, Methods, Swedish NQRs included in the study, paragraph 2",
+        "Full article, Methods, Data analysis",
+        "Full article, Strengths and limitations of this study"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "general-population survey participants",
+      "perspective": "participants’ assessment of their own health",
+      "completion": "self-administered",
+      "assistance": null,
+      "channel": "questionnaire",
+      "setting": "Regional population surveys in Scania and Stockholm",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "Current health",
+      "time_point": "Scania 2004 or Stockholm 2006 survey",
+      "source": [
+        "Full article, Methods, Sampling and data, paragraph 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Prevalence and severity of problems in the five EQ-5D-3L dimensions",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Abstract, Primary and secondary outcome measures",
+        "Full article, Results, Problems reported on the EQ-5D-3L dimensions and table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ VAS score at baseline, 1-year follow-up, and change",
+      "instrument_use_ids": [
+        "iu2"
+      ],
+      "source": [
+        "Full article, Abstract, Primary and secondary outcome measures",
+        "Full article, Results, Mean self-assessed EQ VAS score and tables 3–4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Paretian Classification of Health Change categories and corresponding EQ VAS change",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article, Methods, Data analysis, PCHC paragraph",
+        "Full article, Results, Paretian Classification of Health Change and figures 1 and 4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "EQ-5D-3L indices calculated with Swedish experience-based TTO and VAS value sets",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods, Data analysis, final paragraph",
+        "Full article, Results, final paragraph before Discussion"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Pain/discomfort was the most frequently reported EQ-5D-3L problem in most registers and in the general population at both assessed time points; mobility was most frequent in respiratory failure.",
+      "about": [
+        "o1",
+        "sf1",
+        "sf2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Problems reported on the EQ-5D-3L dimensions, first paragraph and table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Across specific diagnoses, mean EQ VAS ranged from 45.2 for disc hernia to 88.1 for wrist and hand fracture at baseline, and from 48.9 for pulmonary fibrosis to 83.3 for wrist and hand fracture at follow-up.",
+      "about": [
+        "o2",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "45.2 (22.4)",
+          "unit": "EQ VAS points, mean (SD)",
+          "denominator": null,
+          "time": "baseline",
+          "subgroup": "disc hernia",
+          "comparator": null,
+          "direction": "lowest reported diagnosis mean",
+          "uncertainty": "SD 22.4"
+        },
+        {
+          "reported_value": "88.1 (15.3)",
+          "unit": "EQ VAS points, mean (SD)",
+          "denominator": null,
+          "time": "baseline",
+          "subgroup": "wrist and hand fracture",
+          "comparator": null,
+          "direction": "highest reported diagnosis mean",
+          "uncertainty": "SD 15.3"
+        },
+        {
+          "reported_value": "48.9 (20.9)",
+          "unit": "EQ VAS points, mean (SD)",
+          "denominator": null,
+          "time": "1-year follow-up",
+          "subgroup": "pulmonary fibrosis",
+          "comparator": null,
+          "direction": "lowest reported diagnosis mean",
+          "uncertainty": "SD 20.9"
+        },
+        {
+          "reported_value": "83.3 (17.4)",
+          "unit": "EQ VAS points, mean (SD)",
+          "denominator": null,
+          "time": "1-year follow-up",
+          "subgroup": "wrist and hand fracture",
+          "comparator": null,
+          "direction": "highest reported diagnosis mean",
+          "uncertainty": "SD 17.4"
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Mean EQ VAS increased in all reported register groups except fracture and respiratory failure; the largest mean increases were in hip and spine patients.",
+      "about": [
+        "o2",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "20.5 (25.8)",
+          "unit": "EQ VAS point change, mean (SD)",
+          "denominator": "hip-register analysis sample",
+          "time": "baseline to 1-year follow-up",
+          "subgroup": "Hip",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 25.8"
+        },
+        {
+          "reported_value": "20.1 (27.1)",
+          "unit": "EQ VAS point change, mean (SD)",
+          "denominator": "spine-register analysis sample",
+          "time": "baseline to 1-year follow-up",
+          "subgroup": "Spine",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 27.1"
+        },
+        {
+          "reported_value": "−7.0 (19.4)",
+          "unit": "EQ VAS point change, mean (SD)",
+          "denominator": "fracture-register analysis sample",
+          "time": "baseline to 1-year follow-up",
+          "subgroup": "Fracture",
+          "comparator": null,
+          "direction": "decrease",
+          "uncertainty": "SD 19.4"
+        },
+        {
+          "reported_value": "−2.0 (24.1)",
+          "unit": "EQ VAS point change, mean (SD)",
+          "denominator": "respiratory-failure register analysis sample",
+          "time": "baseline to 1-year follow-up",
+          "subgroup": "Respiratory failure",
+          "comparator": null,
+          "direction": "decrease",
+          "uncertainty": "SD 24.1"
+        }
+      ],
+      "source": [
+        "Full article, Results, Mean self-assessed EQ VAS score, first paragraph and table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The PCHC improved category had the largest proportion for most diagnoses, but worsened was largest for respiratory failure and fracture; heart failure had similar improved and worsened proportions.",
+      "about": [
+        "o3",
+        "mu2",
+        "sf1"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, Paretian Classification of Health Change and figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "At baseline, diagnoses other than fractures had statistically significantly lower adjusted mean EQ VAS scores than the general population. At follow-up, scores generally improved but remained lower than the general population, except for fracture patients.",
+      "about": [
+        "o2",
+        "mod2",
+        "sf1",
+        "sf2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, paragraph following figure 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Women had statistically significantly lower age-adjusted mean EQ VAS scores in most registers. Reported exceptions were fracture and respiratory failure at baseline and BOA, fracture, heart failure, and respiratory failure at follow-up.",
+      "about": [
+        "o2",
+        "mod1",
+        "sf3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, paragraph before table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Supplementary table S6 was reported as usable EQ-5D-3L reference data for the studied diagnoses, except fracture because its baseline data referred to health before the fracture.",
+      "about": [
+        "o1",
+        "o2",
+        "o4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, final paragraph before Discussion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpreted the EQ-5D-3L descriptive system and EQ VAS as a common denominator that permits comparisons across National Quality Registers and diagnoses.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f5"
+      ],
+      "source": [
+        "Full article, Abstract, Conclusions",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors concluded that the corresponding patterns in EQ-5D-3L problems and EQ VAS scores support the use of patient-reported outcomes to monitor health status and progress in routine clinical care.",
+      "finding_ids": [
+        "f1",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Conclusions, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Differences in health-related quality of life could arise from different data-collection modes across the National Quality Registers.",
+      "about": [
+        "du1",
+        "a1",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "Full article, Strengths and limitations of this study",
+        "Full article, Discussion, Strengths and limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Comorbidities among patients and morbidities in the general population could affect comparisons, and the study did not fully address this issue.",
+      "about": [
+        "pop1",
+        "pop2",
+        "o1",
+        "o2"
+      ],
+      "source": [
+        "Full article, Discussion, Strengths and limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Restricting the main analysis to complete baseline and 1-year follow-up records excluded non-respondents and incomplete records and could introduce selection bias.",
+      "about": [
+        "sam1",
+        "sam2",
+        "du1"
+      ],
+      "source": [
+        "Full article, Strengths and limitations of this study",
+        "Full article, Discussion, Strengths and limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Change for fracture patients was not directly comparable with other groups because their baseline EQ-5D-3L data recalled health during the week before the fracture.",
+      "about": [
+        "a1",
+        "o2",
+        "o3",
+        "sf1"
+      ],
+      "source": [
+        "Full article, Methods, Swedish NQRs included in the study, paragraph 2",
+        "Full article, Discussion, Comparisons with other studies, paragraph on longitudinal change"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "PCHC is less useful when many patients have mixed changes and does not show the magnitude of improvement or worsening.",
+      "about": [
+        "mu2",
+        "o3"
+      ],
+      "source": [
+        "Full article, Discussion, Comparisons with other studies, PCHC paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "EQ-5D-3L reference data for patients with the studied diagnoses",
+      "product_type": "POPULATION_REFERENCE_DATA",
+      "source": [
+        "Full article, Introduction, objective 4",
+        "Full article, Results, final paragraph before Discussion"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted knee-register EQ VAS estimates at 1-year follow-up in table 4",
+      "statements": [
+        {
+          "statement": "For men, table 4 reports an adjusted mean of 77.8 with a 95% CI of 74.7 to 75.5, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, 1-year follow-up, Knee, Men"
+          ]
+        },
+        {
+          "statement": "For women, table 4 reports an adjusted mean of 75.1 with a 95% CI of 77.4 to 78.3, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, 1-year follow-up, Knee, Women"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf2",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted spine-register EQ VAS change estimates in table 4",
+      "statements": [
+        {
+          "statement": "For men, table 4 reports an adjusted mean change of 18.7 with a 95% CI of 21.0 to 21.7, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, Change, Spine, Men"
+          ]
+        },
+        {
+          "statement": "For women, table 4 reports an adjusted mean change of 21.3 with a 95% CI of 18.5 to 19.2, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, Change, Spine, Women"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, table 4"
+      ]
+    }
+  ]
+}

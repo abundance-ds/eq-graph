@@ -1,0 +1,875 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P049",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This project received financial support from Bournemouth University and the EuroQol Foundation, The Netherlands (project ID: 20180130). The funding agreement ensured the authors’ independence in designing, writing and publishing the study results.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly examines determinants of cTTO preferences for EQ-5D-5L hypothetical health states. The EuroQol Foundation gave financial support to the reported project.",
+    "source": [
+      "Full article, Abstract > Objective and Methods",
+      "Full article, Introduction, final paragraph",
+      "Full article, Declarations > Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Determinants of TTO-based preferences in the Egyptian EQ-5D-5L valuation study",
+      "primary_research_family": "HEALTH_PREFERENCE_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical analysis of differences in EQ-5D-5L health-state preferences by sociodemographic characteristics and illness experience. The study does not develop a value set or make method performance its main decision.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, final paragraph",
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States",
+        "Full article, Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "PREFERENCE_COMPARISON",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract > Objective",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 2,
+      "source": [
+        "Full article, Abstract > Objective and Results",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Secondary analysis of Egyptian EQ-5D-5L valuation data",
+      "source": [
+        "Full article, Methods > Data Source",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods > Data Source",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Abstract > Objective",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "des4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods > Data Source",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "General-population respondents from the Egyptian EQ-5D-5L valuation study",
+      "role": "valuation respondents",
+      "geographies": [
+        "Egypt"
+      ],
+      "conditions": [
+        "General population, including respondents with self-reported chronic conditions"
+      ],
+      "age_description": "Adults; observed age groups were 18–30, 31–45, 46–60, and older than 60 years, with a mean age of 36.9 years (SD 12.7).",
+      "inclusion_description": "Participants in the Egyptian valuation study were recruited through personal contact or in public places with multistratified quota sampling based on age, sex, and geographical distribution.",
+      "source": [
+        "Full article, Methods > Data Source",
+        "Full article, Results > General Characteristics of Respondents, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 972,
+      "size_text": "N = 972",
+      "unit": "respondents",
+      "description": "Respondents included in the reported descriptive and regression analyses.",
+      "source": [
+        "Full article, Results > General Characteristics of Respondents, paragraph 1 and Table 1",
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Data from the Egyptian valuation study",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "To analyze associations between respondent characteristics and cTTO scores for EQ-5D-5L hypothetical health states.",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Data Source"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L hypothetical health states",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, Methods > Dependent Variable: EQ-5D-5L Health States Valuation",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L descriptive system",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods > Independent Variables, final sentence",
+        "Full article, Results > General Characteristics of Respondents, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Independent Variables, final sentence",
+        "Full article, Results > General Characteristics of Respondents, Table 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "cTTO",
+      "registry_id": "method:ctto",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods > Data Source",
+        "Full article, Methods > Dependent Variable: EQ-5D-5L Health States Valuation"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "DCE",
+      "registry_id": "method:dce",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods > Data Source",
+        "Full article, Methods > Dependent Variable: EQ-5D-5L Health States Valuation"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "multistratified quota sampling",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods > Data Source"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "series of univariate and multivariable censored linear regression models adjusted for severity of health states",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "adapted translated version of the EQ-VT",
+      "registry_id": "protocol:eq-vt",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Data Source"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "univariate censored linear regression models adjusted for severity of health states",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "COMPARATOR",
+      "source": [
+        "Full article, Methods > Data Analysis",
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "multivariable censored linear regression model adjusted for severity of health states",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods > Data Analysis",
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, final paragraph and Table 2"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "task1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "mu1",
+        "pu1"
+      ],
+      "label": "cTTO valuation task",
+      "profiles": [
+        "86 EQ-5D-5L hypothetical health states assigned to 10 blocks",
+        "Each block included 55555, one very mild health state, and eight unique health states"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "no problems",
+        "mild problems",
+        "moderate problems",
+        "severe problems",
+        "unable/extreme problems"
+      ],
+      "duration": "Conventional TTO used 10 years; lead-time TTO used 10 years in full health followed by 10 years in the impaired state.",
+      "alternatives": "Life in full health versus life in the impaired health state; lead-time TTO was used for states considered worse than dead.",
+      "task_count": "10 hypothetical health states per participant",
+      "block": "One of 10 blocks",
+      "order": "Predefined iteration procedure within each cTTO task",
+      "randomization_unit": "One block was randomly assigned to each participant.",
+      "stopping_rule": "The iteration continued until the respondent was indifferent between the two options.",
+      "source": [
+        "Full article, Methods > Dependent Variable: EQ-5D-5L Health States Valuation"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age, years",
+      "levels": [
+        "18–30",
+        "31–45",
+        "46–60",
+        ">60"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Sex",
+      "levels": [
+        "male",
+        "female"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Marital status",
+      "levels": [
+        "single",
+        "married",
+        "divorced/widowed"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Educational level",
+      "levels": [
+        "illiterate",
+        "below intermediate",
+        "intermediate",
+        "completed University degree or more"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Dwelling",
+      "levels": [
+        "rural",
+        "urban"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Geographical region",
+      "levels": [
+        "Greater Cairo",
+        "Alexandria",
+        "Delta",
+        "Suez Canal",
+        "North Upper Egypt",
+        "South Upper Egypt",
+        "Asyut"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Health Insurance",
+      "levels": [
+        "none",
+        "full/partial"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Number of comorbidities",
+      "levels": [
+        "none",
+        "one condition",
+        "two or more"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Preference for quality or quantity of life",
+      "levels": [
+        "preference for quality",
+        "preference for quantity",
+        "undecided"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf10",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Employment status",
+      "levels": [
+        "unemployed",
+        "employed"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf11",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Number of people in a household",
+      "levels": [
+        "1–3",
+        "4–6",
+        "7 or more"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf12",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Religion",
+      "levels": [
+        "Christian",
+        "Muslim"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf13",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Previous illness experience",
+      "levels": [
+        "none",
+        "previous illness experience in self or others"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods > Independent Variables",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1",
+        "mu2",
+        "pu1"
+      ],
+      "respondent": "general-population participant",
+      "perspective": "Respondent preferences for hypothetical EQ-5D-5L health states",
+      "completion": "interviewer-administered",
+      "assistance": "trained interviewer",
+      "channel": null,
+      "setting": null,
+      "instrument_language": "adapted translated version; language not stated",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "single valuation session",
+      "source": [
+        "Full article, Methods > Data Source"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "out1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Associations of respondent characteristics with cTTO scores for EQ-5D-5L health states",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Abstract > Objective and Results",
+        "Full article, Methods > Data Analysis"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "find1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The adjusted model explained 54% of variation, and age, sex, marital status, education, dwelling, region, comorbidity count, health insurance, and preference for quantity of life were significantly associated with health-state valuations.",
+      "about": [
+        "out1",
+        "mod2",
+        "sf1",
+        "sf2",
+        "sf3",
+        "sf4",
+        "sf5",
+        "sf6",
+        "sf7",
+        "sf8",
+        "sf9"
+      ],
+      "values": [
+        {
+          "reported_value": "54",
+          "unit": "%",
+          "denominator": "variation in observed cTTO values represented by the approximate R²",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "model fit",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, final paragraph",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "find2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "In the adjusted model, respondents aged 31–45 years and older than 60 years and female respondents gave lower cTTO scores, while married respondents gave higher scores.",
+      "about": [
+        "out1",
+        "mod2",
+        "sf1",
+        "sf2",
+        "sf3"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.044",
+          "unit": "beta coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "age 31–45 years",
+          "comparator": "age 18–30 years",
+          "direction": "lower cTTO score",
+          "uncertainty": "SE 0.015; p = 0.004"
+        },
+        {
+          "reported_value": "−0.187",
+          "unit": "beta coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "age >60 years",
+          "comparator": "age 18–30 years",
+          "direction": "lower cTTO score",
+          "uncertainty": "SE 0.033; p < 0.001"
+        },
+        {
+          "reported_value": "−0.023",
+          "unit": "beta coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "female",
+          "comparator": "male",
+          "direction": "lower cTTO score",
+          "uncertainty": "SE 0.011; p = 0.029"
+        },
+        {
+          "reported_value": "0.057",
+          "unit": "beta coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "married",
+          "comparator": "single",
+          "direction": "higher cTTO score",
+          "uncertainty": "SE 0.015; p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "find3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Two or more comorbidities were associated with lower adjusted cTTO scores, while a preference for quantity rather than quality of life had the largest positive adjusted association.",
+      "about": [
+        "out1",
+        "mod2",
+        "sf8",
+        "sf9"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.063",
+          "unit": "beta coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "two or more comorbidities",
+          "comparator": "no comorbidities",
+          "direction": "lower cTTO score",
+          "uncertainty": "SE 0.019; p = 0.001"
+        },
+        {
+          "reported_value": "0.215",
+          "unit": "beta coefficient",
+          "denominator": null,
+          "time": null,
+          "subgroup": "preference for quantity",
+          "comparator": "preference for quality",
+          "direction": "higher cTTO score",
+          "uncertainty": "SE 0.016; p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "find4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Employment status, household size, religion, and previous illness experience were not significantly associated with health-state valuations in the adjusted model.",
+      "about": [
+        "out1",
+        "mod2",
+        "sf10",
+        "sf11",
+        "sf12",
+        "sf13"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results > Determinants of Time Trade-Off Scores of Health States, final paragraph",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors identify age, sex, and marital status as the main determinants of health-state valuation in the Egyptian population.",
+      "finding_ids": [
+        "find1",
+        "find2"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusion",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors recommend examining determinants with standardized valuation protocols and modelling techniques to improve future valuation-study design and help decision makers account for population-group differences.",
+      "finding_ids": [
+        "find1",
+        "find2",
+        "find3",
+        "find4"
+      ],
+      "source": [
+        "Full article, Discussion, penultimate paragraph",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study relied on self-reported chronic conditions and did not have information about their severity or duration.",
+      "about": [
+        "du1",
+        "sf8"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The study did not explore parenting or whether participants considered themselves adherent to religious practices in relation to TTO responses.",
+      "about": [
+        "sf3",
+        "sf12",
+        "out1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "con1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Sociodemographic determinants of EQ-5D-5L health-state preferences",
+      "description": "Variation in cTTO valuations associated with respondent demographic, social, geographical, and health characteristics.",
+      "about": [
+        "out1",
+        "sf1",
+        "sf2",
+        "sf3",
+        "sf4",
+        "sf5",
+        "sf6",
+        "sf7",
+        "sf8",
+        "sf9"
+      ],
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Inclusion of self-rated health as an independent variable in the regression analysis",
+      "statements": [
+        {
+          "statement": "The abstract states that the independent variables included self-rated health.",
+          "source": [
+            "Full article, Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The reported regression specification and Table 2 do not list self-rated health among the examined independent variables.",
+          "source": [
+            "Full article, Methods > Data Analysis",
+            "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Data Analysis",
+        "Full article, Table 2"
+      ]
+    }
+  ]
+}

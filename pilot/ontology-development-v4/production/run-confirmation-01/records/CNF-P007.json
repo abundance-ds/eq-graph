@@ -1,0 +1,1166 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P007",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "application_only",
+    "euroqol_support": "explicit",
+    "support_scope": "Study was funded by EuroQol Research Foundation (grant no 1987-SG).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study uses EQ-5D-3L as an outcome measure to compare HRQoL and its correlates, rather than studying the instrument or its measurement properties. It is included because the funding statement explicitly links EuroQol Research Foundation support to the study.",
+    "source": [
+      "Deterministic metadata: title, abstract, article_type, and JATS article-meta/funding-group",
+      "Abstract, Objectives and Methods",
+      "Methods, paragraphs 1–5"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Comparison of HRQoL among Ukrainian refugees and the general population in Estonia",
+      "primary_research_family": "HEALTH_OUTCOME_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an empirical comparison of HRQoL outcomes and their health-related and socio-demographic correlates. The study does not develop or evaluate EQ-5D-3L itself.",
+      "source": [
+        "Abstract, Objectives–Conclusion",
+        "Introduction, final paragraph",
+        "Methods and Results"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 1,
+      "source": [
+        "Abstract, Objectives",
+        "Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "SHURE Ukrainian-refugee survey data",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "HBEP general-population survey data",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Matched comparative analysis",
+      "source": [
+        "Methods, paragraphs 2 and 5"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Abstract, Methods",
+        "Methods, paragraphs 1–5"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Abstract, Methods",
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Abstract, Objectives and Methods",
+        "Methods, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Methods, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Ukrainian refugees residing in Estonia",
+      "role": "refugee cases",
+      "geographies": [
+        "Ukraine",
+        "Estonia"
+      ],
+      "conditions": [],
+      "age_description": "18–64 years",
+      "inclusion_description": "Individuals granted refugee status since 24 February 2022 according to the National Population Registry.",
+      "source": [
+        "Methods, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Estonian general population",
+      "role": "population controls",
+      "geographies": [
+        "Estonia"
+      ],
+      "conditions": [],
+      "age_description": "The HBEP source sample covered ages 16–64; the matched comparative population covered ages 18–64.",
+      "inclusion_description": "Residents sampled for the 18th wave of Health Behaviour among Estonian Adult Population.",
+      "source": [
+        "Methods, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "APPROACHED",
+      "size": 4000,
+      "size_text": "random sample of 4000 individuals",
+      "unit": "individuals",
+      "description": "SHURE sampling frame.",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 1430,
+      "size_text": "1,430 responses; crude response rate 35.8%",
+      "unit": "responses",
+      "description": "SHURE respondents.",
+      "source": [
+        "Methods, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1249,
+      "size_text": "1,249 refugee cases",
+      "unit": "participants",
+      "description": "Refugees retained in the sex- and age-matched dataset.",
+      "source": [
+        "Methods, paragraph 2",
+        "Table 1, Total row"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "APPROACHED",
+      "size": 5000,
+      "size_text": "representative sample of 5,000",
+      "unit": "individuals",
+      "description": "HBEP sampling frame.",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "COMPLETED",
+      "size": 2007,
+      "size_text": "2007 responses; crude response rate 40.1%",
+      "unit": "responses",
+      "description": "HBEP respondents.",
+      "source": [
+        "Methods, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 1249,
+      "size_text": "1,249 population controls",
+      "unit": "participants",
+      "description": "Controls retained in the sex- and age-matched dataset.",
+      "source": [
+        "Methods, paragraph 2",
+        "Table 1, Total row"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": null,
+      "stage": "ANALYZED",
+      "size": 1249,
+      "size_text": "1,249 matched pairs",
+      "unit": "pairs",
+      "description": "Sex- and age-matched comparative dataset.",
+      "source": [
+        "Abstract, Methods",
+        "Methods, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": null,
+      "stage": "ANALYZED",
+      "size": 2180,
+      "size_text": "2,180 observations with complete data",
+      "unit": "observations",
+      "description": "Complete-case subset used in the regression models.",
+      "source": [
+        "Methods, paragraph 5"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Survey on Health and wellbeing of Ukrainian refugees in Estonia (SHURE)",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Supplied refugee HRQoL, socio-demographic, and health responses for the comparison.",
+      "source": [
+        "Methods, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "18th wave of Health Behaviour among Estonian Adult Population (HBEP)",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Supplied general-population HRQoL, socio-demographic, and health responses for matching and comparison.",
+      "source": [
+        "Methods, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EuroQol’s EQ-5D-3L",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Methods, paragraph 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EuroQol’s EQ-5D-3L",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Methods, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "EQ-5D-3L",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Methods, paragraphs 3 and 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "instrument_use_id": "iu3",
+      "source_label": "European value set",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Methods, paragraph 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "mixed-mode (online and postal questionnaires) method",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "mixed-mode (online and postal questionnaires) method",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "case-control matching procedure (1:1 exact matching based on sex and age)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Descriptive statistics including proportions and their 95% confidence intervals (95% CIs)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods, paragraph 5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "z-test",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods, paragraph 5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Bonferroni correction",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods, paragraph 5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "stepwise removal of non-significant variables",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Tobit regression",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Methods, paragraph 5",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "OLS regression",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "SENSITIVITY",
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "mu1",
+        "mu2"
+      ],
+      "respondent": "survey participants",
+      "perspective": "self-report of own health",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "online and postal questionnaires",
+      "setting": null,
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "March–June 2024",
+      "source": [
+        "Methods, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Study group",
+      "levels": [
+        "Ukrainian refugees",
+        "population controls"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Methods, paragraphs 2 and 5",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Sex",
+      "levels": [
+        "male",
+        "female"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Age",
+      "levels": [
+        "continuous age in full years"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Current marital status",
+      "levels": [
+        "single",
+        "married/cohabiting",
+        "divorced/separated"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Educational level",
+      "levels": [
+        "primary or lower",
+        "secondary/vocational",
+        "tertiary/higher education"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Average monthly net income per household member",
+      "levels": [
+        "<900",
+        "900–1,299",
+        "1,300–1,700",
+        ">1,700 Euros"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf7",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Household’s financial wellbeing during the past month",
+      "levels": [
+        "living comfortably",
+        "coping",
+        "finding it difficult",
+        "finding it very difficult"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Self-rated health",
+      "levels": [
+        "good",
+        "average",
+        "poor"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Perceived stress",
+      "levels": [
+        "yes",
+        "no"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Depressiveness",
+      "levels": [
+        "yes",
+        "no"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Overtiredness",
+      "levels": [
+        "yes",
+        "no"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Methods, paragraph 4",
+        "Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Problems reported across the five EQ-5D-3L dimensions",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Methods, paragraph 3",
+        "Results, paragraph following Table 1 and Figure 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "EQ-5D-3L index value",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Methods, paragraphs 3 and 5",
+        "Results, paragraphs following Figure 1 and Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Refugees reported fewer problems than controls with mobility, self-care, and usual activities.",
+      "about": [
+        "o1",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "13.4% vs 16.7%",
+          "unit": "percent reporting any problems",
+          "denominator": "refugees versus population controls",
+          "time": "2024",
+          "subgroup": null,
+          "comparator": "mobility",
+          "direction": "lower among refugees",
+          "uncertainty": "p < 0.05"
+        },
+        {
+          "reported_value": "2.9% vs 4.9%",
+          "unit": "percent reporting any problems",
+          "denominator": "refugees versus population controls",
+          "time": "2024",
+          "subgroup": null,
+          "comparator": "self-care",
+          "direction": "lower among refugees",
+          "uncertainty": "p < 0.05"
+        },
+        {
+          "reported_value": "14.7% vs 18.5%",
+          "unit": "percent reporting any problems",
+          "denominator": "refugees versus population controls",
+          "time": "2024",
+          "subgroup": null,
+          "comparator": "usual activities",
+          "direction": "lower among refugees",
+          "uncertainty": "p < 0.05"
+        }
+      ],
+      "source": [
+        "Results, paragraph following Table 1",
+        "Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Refugees reported more problems than controls with pain/discomfort and anxiety/depression.",
+      "about": [
+        "o1",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "59.6% vs 52.8%",
+          "unit": "percent reporting any problems",
+          "denominator": "refugees versus population controls",
+          "time": "2024",
+          "subgroup": null,
+          "comparator": "pain/discomfort",
+          "direction": "higher among refugees",
+          "uncertainty": "p < 0.05"
+        },
+        {
+          "reported_value": "63.5% vs 54.7%",
+          "unit": "percent reporting any problems",
+          "denominator": "refugees versus population controls",
+          "time": "2024",
+          "subgroup": null,
+          "comparator": "anxiety/depression",
+          "direction": "higher among refugees",
+          "uncertainty": "p < 0.05"
+        }
+      ],
+      "source": [
+        "Results, paragraph following Table 1",
+        "Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Mean EQ-5D index values were lower among refugees than among population controls.",
+      "about": [
+        "o2",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "0.742",
+          "unit": "EQ-5D index units",
+          "denominator": "1,249 refugees",
+          "time": "2024",
+          "subgroup": "Ukrainian refugees",
+          "comparator": "population controls: 0.763",
+          "direction": "lower",
+          "uncertainty": "95% CI 0.732–0.752"
+        },
+        {
+          "reported_value": "0.763",
+          "unit": "EQ-5D index units",
+          "denominator": "1,249 population controls",
+          "time": "2024",
+          "subgroup": "population controls",
+          "comparator": "Ukrainian refugees: 0.742",
+          "direction": "higher",
+          "uncertainty": "95% CI 0.752–0.774; between-group p = 0.005"
+        }
+      ],
+      "source": [
+        "Results, paragraph following Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "In the final Tobit model, refugees had a small but statistically significant lower EQ-5D-3L index score than controls after adjustment for retained socio-demographic and health indicators.",
+      "about": [
+        "o2",
+        "sf1",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.017",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "Ukrainian refugees",
+          "comparator": "population controls",
+          "direction": "lower",
+          "uncertainty": "p = 0.029"
+        }
+      ],
+      "source": [
+        "Results, paragraph preceding Table 2",
+        "Table 2, Model 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The refugee-versus-control difference was not statistically significant after the economic variables were added in Model 3 or after health indicators were added in Model 4.",
+      "about": [
+        "o2",
+        "sf1",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.001",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "Ukrainian refugees",
+          "comparator": "population controls; Model 3",
+          "direction": "lower",
+          "uncertainty": "p = 0.932"
+        },
+        {
+          "reported_value": "−0.009",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "Ukrainian refugees",
+          "comparator": "population controls; Model 4",
+          "direction": "lower",
+          "uncertainty": "p = 0.279"
+        }
+      ],
+      "source": [
+        "Results, paragraph preceding Table 2",
+        "Table 2, Models 3 and 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "In the final model, financial difficulty, poorer self-rated health, stress, depressiveness, and overtiredness were associated with lower EQ-5D-3L index values.",
+      "about": [
+        "o2",
+        "mod1",
+        "sf7",
+        "sf8",
+        "sf9",
+        "sf10",
+        "sf11"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.046",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "finding household finances difficult",
+          "comparator": "living comfortably",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−0.053",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "finding household finances very difficult",
+          "comparator": "living comfortably",
+          "direction": "lower",
+          "uncertainty": "p = 0.002"
+        },
+        {
+          "reported_value": "−0.254",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "poor self-rated health",
+          "comparator": "good self-rated health",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−0.068",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "stress: yes",
+          "comparator": "stress: no",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−0.077",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "depressiveness: yes",
+          "comparator": "depressiveness: no",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−0.098",
+          "unit": "EQ-5D index units",
+          "denominator": "2,180 complete-data observations",
+          "time": "2024",
+          "subgroup": "overtiredness: yes",
+          "comparator": "overtiredness: no",
+          "direction": "lower",
+          "uncertainty": "p < 0.001"
+        }
+      ],
+      "source": [
+        "Results, paragraph preceding Table 2",
+        "Table 2, Model 5"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The authors interpreted the profile as evidence that refugees do not have uniformly worse HRQoL: they had fewer physical-function problems but more pain/discomfort and anxiety/depression problems.",
+      "finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Discussion, paragraphs 1 and 5"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The authors considered the adjusted difference of −0.017 EQ-5D units very minor and potentially not clinically significant because a cited review reported a minimally important deterioration of −0.02.",
+      "finding_ids": [
+        "f4"
+      ],
+      "source": [
+        "Discussion, paragraph 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The authors concluded that the findings support integrated action on refugees’ mental-health needs and socioeconomic stressors, including income security, housing, employment, and healthcare access.",
+      "finding_ids": [
+        "f2",
+        "f6"
+      ],
+      "source": [
+        "Discussion, final two paragraphs"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Declining response rates and the change in the male-to-female ratio between the refugee sample and responses could have caused non-response bias.",
+      "about": [
+        "du1",
+        "du2",
+        "sam1",
+        "sam2",
+        "sam4",
+        "sam5"
+      ],
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Because the refugee-matched control group had a different demographic structure, the results cannot be directly generalized to the Estonian general population.",
+      "about": [
+        "mu3",
+        "sam7"
+      ],
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Direct comparison was limited to variables available in both surveys, and the included variables were unlikely to account for all variance in HRQoL, leaving possible residual bias.",
+      "about": [
+        "du1",
+        "du2",
+        "mod1"
+      ],
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Stepwise removal of non-significant variables could produce biased coefficients and p-values.",
+      "about": [
+        "mu7",
+        "mod1"
+      ],
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "All data were self-reported and could not be validated externally, which could cause underreporting or overreporting, particularly for mental-health symptoms.",
+      "about": [
+        "du1",
+        "du2",
+        "sf9",
+        "sf10"
+      ],
+      "source": [
+        "Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "Potential differential item reporting in EQ-5D-3L assessments",
+      "description": "The authors noted that refugees and controls might use different thresholds when reporting emotional discomfort and that this could affect EQ-5D-3L assessments; they stated that the topic was outside the current study’s scope.",
+      "about": [
+        "iu3",
+        "o1"
+      ],
+      "source": [
+        "Discussion, paragraph 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "scope": "Model 2 refugee-versus-control coefficient",
+      "statements": [
+        {
+          "statement": "The Results narrative reports a Model 2 estimate of −0.028 with p = 0.018.",
+          "source": [
+            "Results, paragraph preceding Table 2"
+          ]
+        },
+        {
+          "statement": "Table 2 reports a Model 2 estimate of −0.024 with p = 0.018.",
+          "source": [
+            "Table 2, Refugees vs. controls row, Model 2"
+          ]
+        }
+      ],
+      "source": [
+        "Results, paragraph preceding Table 2",
+        "Table 2, Refugees vs. controls row, Model 2"
+      ]
+    }
+  ]
+}

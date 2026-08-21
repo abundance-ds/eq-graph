@@ -1,0 +1,786 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P127",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This research was funded by EuroQol Research Foundation (EQ project 2014210).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study primarily examines caregiver HRQOL, caregiver burden, and their determinants. It also directly evaluates the ability of EQ-5D-5L to discriminate HRQOL across caregiver-burden groups. EuroQol Research Foundation funded this research.",
+    "source": [
+      "Deterministic metadata, funding: EuroQol Research Foundation, EQ project 2014210",
+      "Full article, Abstract",
+      "Full article, §1 Introduction, study aim",
+      "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups",
+      "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL",
+      "Full article, §4 Discussion"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Caregiver HRQOL, burden, and associated factors among informal caregivers of people with rare diseases",
+      "primary_research_family": "HEALTH_OUTCOME_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The stated aim, most analyses, and conclusion concern caregiver HRQOL, caregiver burden, and factors associated with caregiver HRQOL. Evaluation of EQ-5D-5L discrimination between caregiver-burden groups is a secondary contribution.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, §1 Introduction, final paragraph",
+        "Full article, §2.3 Statistical Analysis",
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL",
+        "Full article, §3 Results",
+        "Full article, §4 Discussion",
+        "Full article, §5 Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 1,
+      "source": [
+        "Full article, §1 Introduction, final paragraph",
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL",
+        "Full article, §3.2 Factors Related to Caregivers’ HRQOL",
+        "Full article, §5 Conclusions"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups",
+        "Full article, §3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups",
+        "Full article, §4 Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Secondary cross-sectional analysis of BURQOL-RD caregiver data",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, §2.3 Statistical Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection",
+        "Full article, §2.3 Statistical Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection",
+        "Full article, §2.3 Statistical Analysis"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Informal caregivers who provided daily care to a person diagnosed with one of 10 selected rare diseases",
+      "role": "Primary study population",
+      "geographies": [
+        "France",
+        "Germany",
+        "Italy",
+        "Spain",
+        "Sweden",
+        "United Kingdom"
+      ],
+      "conditions": [
+        "Cystic Fibrosis",
+        "Prader-Willi Syndrome",
+        "Fragile X Syndrome",
+        "Hemophilia",
+        "Duchenne Muscular Dystrophy",
+        "Epidermolysis Bullosa",
+        "Scleroderma",
+        "Mucopolysaccharidosis",
+        "Juvenile Idiopathic Arthritis",
+        "Histiocytosis"
+      ],
+      "age_description": null,
+      "inclusion_description": "Caregivers provided care daily and had both a Zarit Burden Interview and caregiver EQ-5D questionnaire available in the BURQOL-RD database.",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection, paragraphs 1 and 3",
+        "Full article, §3 Results, paragraph 1"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Linked adult and child patients with one of 10 selected rare diseases",
+      "role": "Source of patient-level explanatory variables",
+      "geographies": [
+        "France",
+        "Germany",
+        "Italy",
+        "Spain",
+        "Sweden",
+        "United Kingdom"
+      ],
+      "conditions": [
+        "Cystic Fibrosis",
+        "Prader-Willi Syndrome",
+        "Fragile X Syndrome",
+        "Hemophilia",
+        "Duchenne Muscular Dystrophy",
+        "Epidermolysis Bullosa",
+        "Scleroderma",
+        "Mucopolysaccharidosis",
+        "Juvenile Idiopathic Arthritis",
+        "Histiocytosis"
+      ],
+      "age_description": "The mean patient age was 14.93 years; 234 caregivers cared for adult patients and 591 cared for child patients.",
+      "inclusion_description": "Patients were linked to participating informal caregivers in the BURQOL-RD data.",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection",
+        "Full article, §3 Results, paragraphs 1–2",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sample1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 825,
+      "size_text": "825 caregivers with both ZBI and caregiver EQ-5D questionnaires available",
+      "unit": "informal caregivers",
+      "description": "The sample included 147 caregivers from France, 124 from Germany, 229 from Italy, 221 from Spain, 28 from Sweden, and 76 from the UK.",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection, paragraph 3",
+        "Full article, §3 Results, paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "BURQOL-RD database",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of caregiver HRQOL, caregiver burden, and linked patient and caregiver characteristics.",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection, paragraphs 1 and 3",
+        "Full article, §4 Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraphs 3–4",
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups",
+        "Full article, §3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life",
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraphs 1 and 5",
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-Y",
+      "registry_id": "instrument:eq-5d-y",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraphs 1, 4, and 5",
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Table 1",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "22-item ZBI",
+      "registry_id": "instrument:zarit-burden-interview-22",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, §2.2.1 Caregiver Burden and Informal Care",
+        "Full article, §2.3 Statistical Analysis"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Satisfaction with the National Health System (NHS) 1 to 10 scale",
+      "registry_id": "instrument:r129-p127-nhs-satisfaction-scale",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, §2.2.3 Other Information",
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "algorithm derived from the crosswalk 3L value sets",
+      "registry_id": "product:eq-5d-5l-van-hout-crosswalk-2012",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraph 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu3",
+      "source_label": "algorithm derived from the crosswalk 3L value sets",
+      "registry_id": "product:eq-5d-5l-van-hout-crosswalk-2012",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraph 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu4",
+      "source_label": "US Measurement and Valuation of Health",
+      "registry_id": "product:eq-5d-5l-van-hout-crosswalk-2012",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraph 5",
+        "Full article, §4 Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "descriptive analysis",
+      "registry_id": "method:descriptive-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, §2.3 Statistical Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "correlation analysis by means of Pearson coefficient",
+      "registry_id": "method:pearson-correlation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, §2.3 Statistical Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Levene’s test",
+      "registry_id": "method:levenes-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ANOVA analysis",
+      "registry_id": "method:analysis-of-variance",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Bonferroni correction",
+      "registry_id": "method:bonferroni-correction",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "model1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "five multinomial logistic regression models, one by each domain",
+      "registry_id": "model:multinomial-logistic-regression-by-domain",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, §2.3.2 Factors Related to Caregivers’ HRQOL",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Caregiver burden defined by ZBI groups",
+      "levels": [
+        "absence of claudication: ZBI score below 47",
+        "mild claudication: ZBI score from 47 to 55",
+        "high level of claudication: ZBI score above 55"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, §2.2.1 Caregiver Burden and Informal Care",
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "respondent": "informal caregiver",
+      "perspective": "caregiver self-report",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "online questionnaire or paper questionnaire returned by prepaid envelope",
+      "setting": null,
+      "instrument_language": "versions translated and adapted to each participating country language",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "BURQOL-RD fieldwork from September 2011 to April 2013",
+      "source": [
+        "Full article, §2.1 Study Design and Data Collection, paragraph 2",
+        "Full article, §2.2.2 Health-Related Quality of Life, paragraph 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Ability of EQ-5D-5L index values to discriminate between caregiver-burden groups",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, §2.3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups",
+        "Full article, §3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Caregiver HRQOL, EQ-5D dimension responses, EQ-5D index, and EQ-VAS",
+      "instrument_use_ids": [
+        "iu2",
+        "iu5"
+      ],
+      "source": [
+        "Full article, §2.2.2 Health-Related Quality of Life",
+        "Full article, §3 Results",
+        "Full article, Tables 1–4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Caregiver HRQOL had a statistically significant inverse correlation with caregiver burden, but the effect size was small.",
+      "about": [
+        "o1",
+        "o2",
+        "sf1",
+        "mu2"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.180",
+          "unit": "Pearson correlation coefficient",
+          "denominator": "825 caregivers",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "Higher burden was associated with lower HRQOL.",
+          "uncertainty": "p-value < 0.0001"
+        }
+      ],
+      "source": [
+        "Full article, §3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Mean EQ-5D index values differed across caregiver-burden groups. The absence-of-claudication group differed from both higher-burden groups, but the two higher-burden groups did not differ significantly.",
+      "about": [
+        "o1",
+        "sf1",
+        "mu4",
+        "mu5"
+      ],
+      "values": [
+        {
+          "reported_value": "statistically significant",
+          "unit": null,
+          "denominator": "825 caregivers",
+          "time": null,
+          "subgroup": "absence of claudication",
+          "comparator": "mild claudication",
+          "direction": "different mean EQ-5D index",
+          "uncertainty": "Bonferroni-corrected p-value < 0.05"
+        },
+        {
+          "reported_value": "statistically significant",
+          "unit": null,
+          "denominator": "825 caregivers",
+          "time": null,
+          "subgroup": "absence of claudication",
+          "comparator": "high level of claudication",
+          "direction": "different mean EQ-5D index",
+          "uncertainty": "Bonferroni-corrected p-value < 0.05"
+        },
+        {
+          "reported_value": "not statistically significant",
+          "unit": null,
+          "denominator": "825 caregivers",
+          "time": null,
+          "subgroup": "mild claudication",
+          "comparator": "high level of claudication",
+          "direction": "no detected difference in mean EQ-5D index",
+          "uncertainty": "Bonferroni-corrected p-value = 0.254"
+        }
+      ],
+      "source": [
+        "Full article, §3.1 The EQ-5D Capacity to Discriminate HRQOL between Caregivers’ Burden Groups",
+        "Full article, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "More than 20% of caregivers reported moderate, severe, or extreme problems in the EQ-5D pain/discomfort and anxiety/depression dimensions.",
+      "about": [
+        "o2",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "22.2%",
+          "unit": "caregivers",
+          "denominator": "825 caregivers",
+          "time": null,
+          "subgroup": "pain/discomfort",
+          "comparator": null,
+          "direction": "moderate, severe, or extreme problems",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "24.2%",
+          "unit": "caregivers",
+          "denominator": "825 caregivers",
+          "time": null,
+          "subgroup": "anxiety/depression",
+          "comparator": null,
+          "direction": "moderate, severe, or extreme problems",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, §3 Results, paragraph 3",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Patient age, patient utility, caregiver burden, and other caregiver and patient characteristics were associated with specific caregiver EQ-5D dimensions. Main-caregiver care hours and relationship to the patient were not significant predictors.",
+      "about": [
+        "o2",
+        "model1",
+        "iu3",
+        "iu4",
+        "iu6",
+        "iu7"
+      ],
+      "values": [],
+      "source": [
+        "Full article, §3.2 Factors Related to Caregivers’ HRQOL",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Female caregivers were more likely than male caregivers to report slight anxiety/depression problems, while employed caregivers were less likely than unemployed caregivers to report slight pain/discomfort problems.",
+      "about": [
+        "o2",
+        "model1"
+      ],
+      "values": [
+        {
+          "reported_value": "2.107",
+          "unit": "odds ratio",
+          "denominator": "multinomial model analysis sample",
+          "time": null,
+          "subgroup": "female caregivers",
+          "comparator": "male caregivers",
+          "direction": "higher odds of slight anxiety/depression problems",
+          "uncertainty": "p-value < 0.01; standard error 0.560"
+        },
+        {
+          "reported_value": "0.615",
+          "unit": "odds ratio",
+          "denominator": "multinomial model analysis sample",
+          "time": null,
+          "subgroup": "employed caregivers",
+          "comparator": "unemployed caregivers",
+          "direction": "lower odds of slight pain/discomfort problems",
+          "uncertainty": "p-value < 0.05; standard error 0.135"
+        }
+      ],
+      "source": [
+        "Full article, §3.2 Factors Related to Caregivers’ HRQOL",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors conclude that EQ-5D-5L is sensitive to differences in HRQOL between caregivers with different levels of caregiver burden.",
+      "finding_ids": [
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Full article, Abstract, final sentence",
+        "Full article, §4 Discussion, paragraph 2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors state that EQ-5D can capture caregiver HRQOL effects and can support the inclusion of caregiver effects in economic evaluations.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, §4 Discussion, paragraphs 5–6"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The BURQOL-RD database was collected for other objectives, and the high level of missing caregiver-age data prevented analysis of caregiver age in relation to HRQOL.",
+      "about": [
+        "du1",
+        "model1"
+      ],
+      "source": [
+        "Full article, §4 Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Children in France received EQ-5D-5L instead of EQ-5D-Y, which may have influenced the HRQOL ratings.",
+      "about": [
+        "iu3",
+        "iu4"
+      ],
+      "source": [
+        "Full article, §4 Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The child utility values came from a US valuation study that used a method different from usual EQ-5D-3L TTO studies, so the child values were on a different scale. The authors state that this did not affect the analysis because the values were used only as explanatory variables.",
+      "about": [
+        "iu4",
+        "su3",
+        "model1"
+      ],
+      "source": [
+        "Full article, §4 Limitations, paragraph 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Caregiver HRQOL spillover effects",
+      "description": "Health effects of rare diseases that occur in informal caregivers and may be included with patient effects in economic evaluation.",
+      "about": [
+        "iu1",
+        "iu2",
+        "o1",
+        "o2",
+        "int2"
+      ],
+      "source": [
+        "Full article, §4 Discussion, paragraphs 2 and 6"
+      ]
+    }
+  ]
+}

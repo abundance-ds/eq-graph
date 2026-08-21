@@ -1,0 +1,1328 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P129",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "“The authors would like to acknowledge and thank the Harry Crossley Foundation for their support from the research fellowship and the EuroQol Research Foundation (EQ 20190670).”",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates the validity, reliability, feasibility, and cultural adaptation of the isiXhosa EQ-TIPS and its EQ VAS. The funding statement explicitly acknowledges support from the EuroQol Research Foundation for project EQ 20190670.",
+    "source": [
+      "Structured metadata, publication title, abstract, article type, and funding",
+      "Full article, Abstract, Background, Methods, Conclusion, and Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Validity and reliability evaluation of the isiXhosa EQ-TIPS in South African infants and toddlers",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The stated primary aim and principal results concern validity, reliability, feasibility, and score performance. Translation and cultural adaptation occurred in the current study but were secondary to the psychometric evaluation.",
+      "source": [
+        "Full article, Abstract; Background, final paragraph; Methods; Results; and Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract—Background and Background, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "TRANSLATION_AND_CULTURAL_ADAPTATION",
+      "rank": 2,
+      "source": [
+        "Full article, Background, final paragraph; Methods—Measures—EQ-TIPS, translation and cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Baseline cross-sectional validity and feasibility assessment",
+      "source": [
+        "Full article, Methods, opening paragraph; Methods—Data management and analysis"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "One-week test-retest reliability substudy in crèche children",
+      "source": [
+        "Full article, Methods, opening paragraph; Methods—Procedure; Results—Test-retest reliability"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "English-to-isiXhosa translation, cultural adaptation, and cognitive interviewing",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation and cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods, opening paragraph; Methods—Data management and analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods—Data management and analysis, known-group-validity paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article, Methods—Measures; Methods—Data management and analysis, construct-validity paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods—Participants and Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods, opening paragraph; Methods—Data management and analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Methods, opening paragraph; Methods—Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "WITHIN_PERSON",
+      "source": [
+        "Full article, Methods—Procedure; Results—Test-retest reliability"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods—Procedure"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "component_approach",
+      "value": "TRANSLATION_ADAPTATION_WORKFLOW",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation-process paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d11",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d12",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "comparison_structure",
+      "value": "NONCOMPARATIVE",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation and cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d13",
+      "study_id": "s1",
+      "part_id": "part3",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation and cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Caregiver-child dyads involving children aged 0–36 months and isiXhosa-proficient caregivers",
+      "role": "Caregivers were proxy respondents for the target children",
+      "geographies": [
+        "Cape Town, South Africa"
+      ],
+      "conditions": [
+        "Heterogeneous inpatient and outpatient health conditions",
+        "Generally healthy crèche children"
+      ],
+      "age_description": "Children aged 0–36 months",
+      "inclusion_description": "Caregivers of inpatient, outpatient, or crèche children had to be proficient in isiXhosa. Children in intensive care, children who were terminally ill, and premature children who had not reached their corrected age of birth were excluded.",
+      "source": [
+        "Full article, Methods—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 181,
+      "size_text": "55 crèche, 63 inpatient, and 63 outpatient caregiver-child dyads",
+      "unit": "caregiver-child dyads",
+      "description": "Baseline validity and feasibility analysis sample",
+      "source": [
+        "Full article, Results—Descriptive statistics; Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 52,
+      "size_text": "52 caregivers returned a completed second EQ-TIPS",
+      "unit": "caregiver-child dyads",
+      "description": "Completed the second administration",
+      "source": [
+        "Full article, Results—Descriptive statistics; Results—Test-retest reliability"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 46,
+      "size_text": "46 of 52 retest completers were analyzed after exclusion of six children with a reported health change",
+      "unit": "caregiver-child dyads",
+      "description": "Test-retest reliability analysis sample",
+      "source": [
+        "Full article, Results—Test-retest reliability, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 10,
+      "size_text": "10 caregivers of children aged 0–36 months completed cognitive interviews",
+      "unit": "caregivers",
+      "description": "Cognitive-interview pilot sample for the isiXhosa consensus version",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Baseline caregiver research-pack responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Validity, feasibility, known-group, and concurrent-validity analyses",
+      "source": [
+        "Full article, Methods—Procedure and Data management and analysis"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "One-week repeat EQ-TIPS responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Test-retest reliability analysis",
+      "source": [
+        "Full article, Methods—Procedure; Results—Test-retest reliability"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "Cognitive-interview responses about the isiXhosa EQ-TIPS consensus version",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Assessment of comprehensibility and conceptual equivalence during cultural adaptation",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "isiXhosa EQ-TIPS",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Abstract; Background, final paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-TIPS",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods—Procedure; Methods—Measures—EQ-TIPS"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-TIPS visual analogue scale (VAS)",
+      "registry_id": "instrument:eq-vas",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS; Results—Performance of the EQ-TIPS General Health Question measured on the VAS"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-TIPS visual analogue scale (VAS)",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS; Figure 1 caption"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "The Ages and Stages Questionnaire (ASQ) Parent Report Form",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, Methods—Procedure; Methods—Measures—The ages and stages questionnaire (Third Edition) (ASQ)"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Face, Leg, Activity, Cry, Consolability (FLACC) Pain Scale",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, Methods—Procedure; Methods—Measures—FLACC pain scale"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Self-designed dietary information questionnaire",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "COMPARATOR",
+      "source": [
+        "Full article, Methods—Measures—Self-designed dietary information questionnaire"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "isiXhosa version of the EQ-TIPS for South Africa",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "TRANSLATION_TARGET",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation-process paragraphs"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-TIPS",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods—Procedure, repeat-administration paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu10",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Visual Analogue Scale",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Results—Test-retest reliability; Table 5"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "level sum score (LSS)",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, level-sum-score paragraph"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "instrument_use_id": "iu9",
+      "source_label": "Level Sum Score",
+      "registry_id": null,
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Results—Test-retest reliability; Table 5"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "COSMIN guidelines",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL_PROTOCOL",
+      "source": [
+        "Full article, Methods—Participants, sample-size paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "EQ-5D-Y translation protocol",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "TRANSLATION_PROTOCOL",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation-process paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "non-probability design",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "distribution of frequency of dimension scores across patient care groups",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, first analysis paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu11",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ceiling and floor effects",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, first analysis paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu12",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "missing values",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, first analysis paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "chi-square",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, known-group-validity paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Kruskal-Wallis analysis",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, known-group-validity paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Spearman's Rho correlation coefficient",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, construct-validity paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "Cohen's weighted Kappa",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, test-retest paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "intraclass correlation coefficient (ICC)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article, Methods—Data management and analysis, test-retest paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "forward and backward translation",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, translation-process paragraphs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "cognitive interviews",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "multiple regression analysis with the VAS as dependent variable and dummy variables representing the different levels of the dimensions",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Results—Performance of the EQ-TIPS General Health Question measured on the VAS; Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Health group",
+      "levels": [
+        "Inpatient",
+        "Outpatient",
+        "Crèche group"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Methods—Data management and analysis; Table 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age group of the child",
+      "levels": [
+        "0–12 months",
+        "12–24 months",
+        "24–36 months"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods—Data management and analysis; Table 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "respondent": "Caregiver of the child",
+      "perspective": "Proxy report of the child's health, development, pain, or eating",
+      "completion": "Self-complete",
+      "assistance": "No caregiver training was required; a researcher was available for questions or clarification in the hospital groups",
+      "channel": "Paper research pack",
+      "setting": "Crèche take-home completion or children's hospital private room or bedside",
+      "instrument_language": "isiXhosa",
+      "interview_language": null,
+      "recall_period": "EQ-TIPS and dietary information referred to the child's health or eating today; other recall periods were not reported",
+      "time_point": "Baseline",
+      "source": [
+        "Full article, Methods—Procedure and Measures"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu9",
+        "iu10"
+      ],
+      "respondent": "Caregiver of the child",
+      "perspective": "Proxy report of the child's health",
+      "completion": "Self-complete",
+      "assistance": "No caregiver training was required",
+      "channel": "Paper questionnaire returned in a sealed envelope",
+      "setting": "Crèche take-home completion",
+      "instrument_language": "isiXhosa",
+      "interview_language": null,
+      "recall_period": "Current health",
+      "time_point": "One week after baseline",
+      "source": [
+        "Full article, Methods—Procedure, repeat-administration paragraph"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "applies_to": [
+        "iu8",
+        "mu10"
+      ],
+      "respondent": "Caregiver of a child aged 0–36 months",
+      "perspective": "Assessment of the comprehensibility and conceptual equivalence of the isiXhosa questionnaire",
+      "completion": "Cognitive interview using open-ended questions",
+      "assistance": "Interviewer asked about difficult words, understanding of questions and severity levels, examples, and suggested changes",
+      "channel": "Cognitive interview",
+      "setting": null,
+      "instrument_language": "isiXhosa",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Pilot testing after production of the consensus version and before psychometric testing",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "FEASIBILITY",
+      "label": "EQ-TIPS missing responses and score-distribution performance",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods—Data management and analysis; Results—Performance of EQ-TIPS across condition groups; Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Known-group validity of EQ-TIPS dimensions, level sum score, and VAS",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods—Data management and analysis; Results—Performance of EQ-TIPS across condition groups"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Concurrent validity of EQ-TIPS dimensions",
+      "instrument_use_ids": [
+        "iu1",
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "source": [
+        "Full article, Results—Concurrent validity of the EQ-TIPS dimensions; Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Association of EQ-TIPS dimension levels with the general-health VAS score",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Results—Performance of the EQ-TIPS General Health Question measured on the VAS; Table 4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "One-week test-retest reliability of EQ-TIPS dimensions, level sum score, and VAS",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3",
+        "iu9",
+        "iu10"
+      ],
+      "source": [
+        "Full article, Results—Test-retest reliability; Table 5"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "family": "CONTENT_VALIDITY",
+      "label": "Comprehensibility and conceptual equivalence of the isiXhosa EQ-TIPS consensus version",
+      "instrument_use_ids": [
+        "iu8"
+      ],
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The EQ-TIPS descriptive system had little missing data and no floor effects in the hospital groups, but the VAS had more missing responses.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu3"
+      ],
+      "values": [
+        {
+          "reported_value": "1",
+          "unit": "missing descriptive-system response",
+          "denominator": "181 baseline participants",
+          "time": "Baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "13",
+          "unit": "missing VAS responses",
+          "denominator": "181 baseline participants",
+          "time": "Baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Performance of EQ-TIPS across condition groups, first paragraph; Discussion, second paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Pain responses, the EQ-TIPS level sum score, and the 111111 ceiling state discriminated health groups, whereas the VAS did not discriminate general health between groups.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu3",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "37.21",
+          "unit": "chi-square statistic",
+          "denominator": "181 baseline participants",
+          "time": "Baseline",
+          "subgroup": "Health groups",
+          "comparator": "Inpatient, outpatient, and crèche groups",
+          "direction": "Significant difference in pain",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "25.9",
+          "unit": "Kruskal-Wallis statistic",
+          "denominator": "181 baseline participants",
+          "time": "Baseline",
+          "subgroup": "Health groups",
+          "comparator": "Inpatient, outpatient, and crèche groups",
+          "direction": "Significant difference in level sum score",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "3.92",
+          "unit": "Kruskal-Wallis statistic",
+          "denominator": "Participants with VAS data",
+          "time": "Baseline",
+          "subgroup": "Health groups",
+          "comparator": "Inpatient, outpatient, and crèche groups",
+          "direction": "No significant VAS difference",
+          "uncertainty": "p=0.141"
+        },
+        {
+          "reported_value": "24.46",
+          "unit": "chi-square statistic",
+          "denominator": "181 baseline participants",
+          "time": "Baseline",
+          "subgroup": "Health groups",
+          "comparator": "Inpatient, outpatient, and crèche groups",
+          "direction": "Significant difference in reporting 111111",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "Full article, Abstract—Results; Results—Performance of EQ-TIPS across condition groups; Table 2; Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "All hypothesized concurrent-validity relationships were weak to moderate and significant; the strongest highlighted relationship was between EQ-TIPS pain and FLACC pain.",
+      "about": [
+        "o3",
+        "iu1",
+        "iu5",
+        "iu6",
+        "iu7"
+      ],
+      "values": [
+        {
+          "reported_value": "0.43",
+          "unit": "Spearman's rho",
+          "denominator": "181 participants",
+          "time": "Baseline",
+          "subgroup": "EQ-TIPS pain and FLACC",
+          "comparator": null,
+          "direction": "Moderate positive relationship",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "Full article, Results—Concurrent validity of the EQ-TIPS dimensions; Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "EQ-TIPS dimension levels explained little variance in the VAS score, and none of the dimension coefficients was statistically significant.",
+      "about": [
+        "o4",
+        "iu1",
+        "iu3",
+        "mod1"
+      ],
+      "values": [
+        {
+          "reported_value": "4%",
+          "unit": "variance explained",
+          "denominator": "Initial regression sample",
+          "time": "Baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "5%",
+          "unit": "adjusted variance explained",
+          "denominator": "163 participants after nine outliers were excluded",
+          "time": "Baseline",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "Adjusted R²=0.05"
+        }
+      ],
+      "source": [
+        "Full article, Results—Performance of the EQ-TIPS General Health Question measured on the VAS; Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Movement, play, pain, and eating had statistically significant one-week agreement. Relationships, communication, and the level sum score did not. The VAS had an ICC of 0.72.",
+      "about": [
+        "o5",
+        "iu1",
+        "iu3",
+        "mu7",
+        "mu8"
+      ],
+      "values": [
+        {
+          "reported_value": "0.54",
+          "unit": "weighted kappa",
+          "denominator": "46 retest participants",
+          "time": "One week",
+          "subgroup": "Movement",
+          "comparator": "Baseline versus retest",
+          "direction": "Significant agreement",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "0.37",
+          "unit": "weighted kappa",
+          "denominator": "46 retest participants",
+          "time": "One week",
+          "subgroup": "Play",
+          "comparator": "Baseline versus retest",
+          "direction": "Significant agreement",
+          "uncertainty": "p=0.011"
+        },
+        {
+          "reported_value": "0.20",
+          "unit": "weighted kappa",
+          "denominator": "46 retest participants",
+          "time": "One week",
+          "subgroup": "Pain",
+          "comparator": "Baseline versus retest",
+          "direction": "Significant agreement",
+          "uncertainty": "p=0.009"
+        },
+        {
+          "reported_value": "0.29",
+          "unit": "weighted kappa",
+          "denominator": "46 retest participants",
+          "time": "One week",
+          "subgroup": "Eating",
+          "comparator": "Baseline versus retest",
+          "direction": "Significant agreement",
+          "uncertainty": "p=0.034"
+        },
+        {
+          "reported_value": "0.72",
+          "unit": "intraclass correlation coefficient",
+          "denominator": "46 retest participants",
+          "time": "One week",
+          "subgroup": "Visual Analogue Scale",
+          "comparator": "Baseline versus retest",
+          "direction": "Significant reliability",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "Full article, Results—Test-retest reliability; Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Cognitive-interview participants reported no comprehension problems, so the researchers made no changes to the isiXhosa consensus version.",
+      "about": [
+        "o6",
+        "iu8",
+        "mu10"
+      ],
+      "values": [
+        {
+          "reported_value": "10",
+          "unit": "caregivers completing cognitive interviews",
+          "denominator": "Cognitive-interview sample",
+          "time": "Pilot testing",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "No reported comprehension problems and no resulting changes",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS, cognitive-interview paragraphs"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors conclude that the isiXhosa EQ-TIPS is feasible, valid, and reliable for very young children in South Africa, with caveats concerning understanding and performance of general health and the VAS.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article, Discussion, opening paragraph; Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors suggest that the isiXhosa EQ-TIPS be included in assessments of children with health conditions in this context and recommend further research on age effects, responsiveness, and understanding of the VAS.",
+      "finding_ids": [
+        "f2",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article, Abstract—Conclusion; Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The crèche and hospital groups differed in child age and caregiver composition, which made it difficult to separate age effects from health-group effects.",
+      "about": [
+        "pop1",
+        "sf1",
+        "sf2",
+        "o2"
+      ],
+      "source": [
+        "Full article, Discussion, opening paragraph and age-performance paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Independent completion may have been difficult for some crèche caregivers, and researcher availability differed between crèche and hospital settings.",
+      "about": [
+        "a1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, opening paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The VAS or the term health may have been poorly understood; cognitive debriefing involved only ten caregivers, and many caregivers did not know their child's health condition.",
+      "about": [
+        "iu3",
+        "o2",
+        "o4",
+        "sam4"
+      ],
+      "source": [
+        "Full article, Discussion, general-health and VAS paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Age-related performance was difficult to establish because age distributions differed by health group and the inpatient and outpatient diagnoses were heterogeneous.",
+      "about": [
+        "sf1",
+        "sf2",
+        "o2"
+      ],
+      "source": [
+        "Full article, Discussion, age-performance paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "Reasons for changes in dimension responses were not recorded, and the healthy crèche retest sample provided limited variation in reported problems.",
+      "about": [
+        "part2",
+        "o5"
+      ],
+      "source": [
+        "Full article, Discussion, test-retest paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "isiXhosa version of the EQ-TIPS for South Africa",
+      "product_type": "INSTRUMENT_VERSION",
+      "source": [
+        "Full article, Methods—Measures—EQ-TIPS; Discussion, opening paragraph"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Experimental version requiring further development and testing",
+      "assertion_date": "2023-12",
+      "asserted_by": "EuroQol Group",
+      "source": [
+        "Full article, Background, second paragraph"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa2",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "prod1",
+      "axis": "VALIDATION",
+      "exact_state": "Reported by the authors as valid and reliable for very young children in South Africa",
+      "assertion_date": "2023-12",
+      "asserted_by": "Study authors",
+      "source": [
+        "Full article, Abstract—Conclusion; Conclusion"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "con1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Cross-cultural understanding of general health and the VAS",
+      "description": "The authors propose that language, health literacy, and culturally valued HRQoL domains could affect how isiXhosa-speaking caregivers understand and use the VAS for infants and toddlers.",
+      "about": [
+        "iu3",
+        "o2",
+        "o4"
+      ],
+      "source": [
+        "Full article, Discussion, general-health VAS and content-validity paragraphs"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Test-retest reliability summary versus the reported results in Table 5",
+      "statements": [
+        {
+          "statement": "The Results text contains the phrase that agreement occurred “across all EQ-TIPS dimensions and the LSS.”",
+          "source": [
+            "Full article, Results—Test-retest reliability, paragraph before Table 5"
+          ]
+        },
+        {
+          "statement": "Table 5 reports nonsignificant agreement for relationships, communication, and the level sum score, while movement, play, pain, eating, and the VAS are significant.",
+          "source": [
+            "Full article, Results—Test-retest reliability, Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results—Test-retest reliability, paragraph before Table 5 and Table 5"
+      ]
+    }
+  ]
+}

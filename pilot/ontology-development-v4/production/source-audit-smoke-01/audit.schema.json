@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "batch_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audits": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "record_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "PASS",
+              "MINOR",
+              "MAJOR"
+            ]
+          },
+          "source_locations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "repair": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ontology_gap": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "record_id",
+          "verdict",
+          "source_locations",
+          "repair",
+          "ontology_gap"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "batch_id",
+    "audits"
+  ],
+  "additionalProperties": false
+}

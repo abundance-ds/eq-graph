@@ -1,0 +1,399 @@
+{
+  "summary": {
+    "expected": 20,
+    "present": 20,
+    "valid": 20,
+    "errors": 0,
+    "warnings": 225,
+    "dispositions": {
+      "include-study": 19,
+      "publication-context": 1
+    }
+  },
+  "records": [
+    {
+      "record_id": "C50-P032",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-TIPS-5L descriptive system",
+        "iu2: unmapped Instrument registry label EQ-TIPS-5L",
+        "iu3: unmapped Instrument registry label EQ-TIPS-5L",
+        "iu5: unmapped Instrument registry label EQ-TIPS-5L descriptive system",
+        "iu6: unmapped Instrument registry label EQ-TIPS-5L",
+        "iu7: unmapped Instrument registry label 13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)",
+        "mu3: unmapped Method registry label panel-vendor recruitment using 32 quotas",
+        "mu4: unmapped Method registry label cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations",
+        "mu5: unmapped Method registry label Lin’s concordance coefficient",
+        "pr1: unmapped Protocol registry label two-wave protocol for assessing the EQ-TIPS-5L descriptive system using alternative choice tasks",
+        "mo1: unmapped Model registry label main-effects conditional logit model",
+        "mo2: unmapped Model registry label main-effects conditional logit model"
+      ]
+    },
+    {
+      "record_id": "R129-P014",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu2: unmapped Instrument registry label EQ-5D-Y-4L",
+        "iu4: unmapped Instrument registry label EQ-5D-Y-4L",
+        "iu6: unmapped Instrument registry label EQ-5D-Y-4L",
+        "mu1: unmapped Method registry label review of HRQoL instruments",
+        "mu2: unmapped Method registry label focus group interviews",
+        "mu3: unmapped Method registry label thematic content analysis",
+        "mu4: unmapped Method registry label sorting tasks",
+        "mu5: unmapped Method registry label response scaling tasks",
+        "mu7: unmapped Method registry label Mean (standard deviation), median, mode, minimum and maximum",
+        "mu8: unmapped Method registry label cognitive interviews",
+        "mu9: unmapped Method registry label paraphrasing method",
+        "mu10: unmapped Method registry label probing",
+        "mu11: unmapped Method registry label thematic content analysis",
+        "mu12: unmapped Method registry label harmonization exercise",
+        "pr1: unmapped Protocol registry label common standardized protocol"
+      ]
+    },
+    {
+      "record_id": "R129-P117",
+      "source_run": "pilot/ontology-development-v4/production/run-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu3: unmapped Instrument registry label WHOQOL-BREF",
+        "iu7: unmapped Instrument registry label WHOQOL-BREF",
+        "su1: unmapped Product registry label new Indonesian value set",
+        "mu1: unmapped Method registry label multistage stratified quota method",
+        "mu2: unmapped Method registry label Gwet’s agreement coefficient (Gwet’s AC) test",
+        "mu3: unmapped Method registry label percentage of agreement",
+        "mu4: unmapped Method registry label intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)",
+        "mu5: unmapped Method registry label Lin’s concordance correlation coefficient (CCC)",
+        "mu6: unmapped Method registry label Bland-Altman plots",
+        "mu7: unmapped Method registry label Chi-square test",
+        "mu8: unmapped Method registry label Welch's unequal variances t-test",
+        "mu9: unmapped Method registry label ANOVA"
+      ]
+    },
+    {
+      "record_id": "CAL-B12",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label official Indonesian version of FACIT-COST (v2)",
+        "iu4: unmapped Instrument registry label Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)",
+        "iu5: unmapped Instrument registry label Functional Assessment of Cancer Therapy – General (FACT-G)",
+        "mu1: unmapped Method registry label principal component analysis (PCA)",
+        "mu2: unmapped Method registry label parallel analysis technique",
+        "mod1: unmapped Model registry label confirmatory factor analysis (CFA)",
+        "mu4: unmapped Method registry label Cronbach’s alpha",
+        "mu5: unmapped Method registry label McDonald’s omega",
+        "mu6: unmapped Method registry label Mann-Whitney U test",
+        "mu7: unmapped Method registry label Kruskal-Wallis test",
+        "mu8: unmapped Method registry label Spearman’s rank correlation",
+        "mu9: unmapped Method registry label Gwet’s AC2 coefficient",
+        "mu10: unmapped Method registry label intraclass correlation coefficient",
+        "mu11: unmapped Method registry label standardized response mean (SRM)",
+        "mu12: unmapped Method registry label standardized effect size (SES)"
+      ]
+    },
+    {
+      "record_id": "C50-P045",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label official EQ-5D-5L traditional Chinese character Taiwan version",
+        "iu2: unmapped Instrument registry label self-reported EQ-5D-5L descriptive system",
+        "mu3: unmapped Method registry label Multi-stage stratified quota sampling",
+        "mu4: unmapped Method registry label time spent on explaining the wheelchair example < 3 minutes",
+        "mu6: unmapped Method registry label no explanation of the lead-time TTO in the wheelchair example",
+        "mu7: unmapped Method registry label total time spent on the formal 10 C-TTO tasks < 5 minutes",
+        "mu8: unmapped Method registry label significant logical inconsistency in the derived C-TTO values",
+        "mu5: unmapped Method registry label feedback module for C-TTO tasks",
+        "pu1: unmapped Protocol registry label EQ-5D-5L valuation protocol",
+        "pu2: unmapped Protocol registry label EuroQol Valuation Technology version 2.0, EQ-VT 2.0",
+        "mod1: unmapped Model registry label ordinary least square (OLS)",
+        "mod2: unmapped Model registry label general least square (GLS)",
+        "mod3: unmapped Model registry label Tobit",
+        "mod4: unmapped Model registry label Tobit-GLS regression",
+        "mod5: unmapped Model registry label conditional logistic regression models",
+        "mod6: unmapped Model registry label standard hybrid model",
+        "mod7: unmapped Model registry label hybrid model assuming left-censoring of the C-TTO at -1 excluding heteroscedasticity and constant",
+        "su1: unmapped Product registry label Taiwan EQ-5D-5L value set"
+      ]
+    },
+    {
+      "record_id": "CAL-B17",
+      "source_run": "pilot/ontology-development-v4/production/run-01",
+      "disposition": "publication-context",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "C50-P028",
+      "source_run": "pilot/ontology-development-v4/production/run-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu3: unmapped Instrument registry label EuroQol Health and Wellbeing Short Version (EQ-HWB-9)",
+        "iu4: unmapped Instrument registry label Health-related Quality of Life Instrument with 8 Items (HINT-8)",
+        "iu5: unmapped Instrument registry label Health Utilities Index Mark 2 (HUI2)",
+        "iu6: unmapped Instrument registry label Health Utilities Index Mark 3 (HUI3)",
+        "iu7: unmapped Instrument registry label Short-form 6-Dimension version 1 (SF-6Dv1)",
+        "iu8: unmapped Instrument registry label Quality of Well Being Self-Administered (QWB-SA)",
+        "mu1: unmapped Method registry label Electronic database search in CINAHL, PsycInfo, Embase and MEDLINE, supplemented with forward and backward citation searches in Scopus",
+        "mu2: unmapped Method registry label Narrative synthesis",
+        "mu3: unmapped Method registry label Independent dual screening with disagreement resolution by a senior reviewer",
+        "pr1: unmapped Protocol registry label Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines",
+        "pr2: unmapped Protocol registry label COSMIN risk of bias checklist",
+        "pr3: unmapped Protocol registry label PROSPERO CRD42023434651"
+      ]
+    },
+    {
+      "record_id": "R129-P064",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu7: unmapped Instrument registry label five-level self-rated general health (SRH) question (item 1 of the SF-36)",
+        "iu8: unmapped Instrument registry label modified Rankin Scale (mRS)",
+        "iu9: unmapped Instrument registry label 10-item version of the Barthel Index (BI)",
+        "mu2: unmapped Method registry label Wilcoxon signed-rank tests",
+        "mu3: unmapped Method registry label Paretian Classification of Health Change (PCHC)",
+        "mu4: unmapped Method registry label probability of superiority (PS)",
+        "mu5: unmapped Method registry label standardized response mean (SRM)",
+        "mu6: unmapped Method registry label standardized effect size (SES)",
+        "mu7: unmapped Method registry label 5L/3L ratio of the SRM and SES statistics",
+        "mu8: unmapped Method registry label 1000 bootstrap samples",
+        "su1: unmapped Product registry label Canada — 3L",
+        "su2: unmapped Product registry label Canada — 5L",
+        "su3: unmapped Product registry label China — 3L",
+        "su4: unmapped Product registry label China — 5L",
+        "su5: unmapped Product registry label England/UK — 3L",
+        "su6: unmapped Product registry label England/UK — 5L",
+        "su7: unmapped Product registry label Germany — 3L",
+        "su8: unmapped Product registry label Germany — 5L",
+        "su9: unmapped Product registry label Japan — 3L",
+        "su10: unmapped Product registry label Japan — 5L",
+        "su11: unmapped Product registry label The Netherlands — 3L",
+        "su12: unmapped Product registry label The Netherlands — 5L",
+        "su13: unmapped Product registry label Poland — 3L",
+        "su14: unmapped Product registry label Poland — 5L",
+        "su15: unmapped Product registry label South Korea — 3L",
+        "su16: unmapped Product registry label South Korea — 5L",
+        "su17: unmapped Product registry label Spain — 3L",
+        "su18: unmapped Product registry label Spain — 5L",
+        "su19: unmapped Product registry label US — 3L",
+        "su20: unmapped Product registry label US — 5L",
+        "su21: unmapped Product registry label level sum scores (LSS)",
+        "su22: unmapped Product registry label level sum scores (LSS)"
+      ]
+    },
+    {
+      "record_id": "R129-P001",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "su1: unmapped Product registry label Dutch tariff (Versteegh et al., 2016)",
+        "mu2: unmapped Method registry label non‐parametric method",
+        "mu3: unmapped Method registry label direct method",
+        "mu4: unmapped Method registry label correction based on constant alternative (constant alternative correction)",
+        "mu5: unmapped Method registry label correction based on maximum BTD time (maximum BTD correction)",
+        "mu6: unmapped Method registry label adaptation of the validation task developed by Lipman et al. (2020a)",
+        "mu7: unmapped Method registry label linear interpolation",
+        "mu8: unmapped Method registry label paired t-tests",
+        "mu9: unmapped Method registry label Chi-squared tests",
+        "mu10: unmapped Method registry label Wilcoxon tests"
+      ]
+    },
+    {
+      "record_id": "R129-P049",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "mu3: unmapped Method registry label multistratified quota sampling",
+        "pu1: unmapped Protocol registry label adapted translated version of the EQ-VT",
+        "mod1: unmapped Model registry label univariate censored linear regression models adjusted for severity of health states",
+        "mod2: unmapped Model registry label multivariable censored linear regression model adjusted for severity of health states"
+      ]
+    },
+    {
+      "record_id": "CAL-B03",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)",
+        "mu1: unmapped Method registry label convenience sampling",
+        "mu2: unmapped Method registry label semi-structured cognitive interviews",
+        "mu3: unmapped Method registry label think aloud",
+        "mu4: unmapped Method registry label integrated thematic analysis involving inductive coding and deductive coding",
+        "pu1: unmapped Protocol registry label COnsolidated criteria for REporting Qualitative research (CORE-Q)"
+      ]
+    },
+    {
+      "record_id": "C50-P049",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu4: unmapped Instrument registry label brief optional questions on the feasibility of completing the EQ-5D-3L",
+        "iu5: unmapped Instrument registry label EQ-5D-3L proxy version 1",
+        "mu1: unmapped Method registry label prospective convenience sample",
+        "mu2: unmapped Method registry label descriptive statistics assessing feasibility",
+        "mu3: unmapped Method registry label interview",
+        "mu4: unmapped Method registry label content analysis"
+      ]
+    },
+    {
+      "record_id": "R129-P106",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu2: unmapped Instrument registry label EQ-5D-5L anxiety/depression dimension",
+        "sc1: unmapped Product registry label Canadian EQ-5D-5L value set",
+        "mu1: unmapped Method registry label Pareto Classification of Health Change (PCHC)",
+        "mu2: unmapped Method registry label minimally important difference (MID)",
+        "mu3: unmapped Method registry label effect size of the change",
+        "mu4: unmapped Method registry label chi-squared tests"
+      ]
+    },
+    {
+      "record_id": "R129-P028",
+      "source_run": "pilot/ontology-development-v4/production/run-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu5: unmapped Instrument registry label COST: A FACIT Measure of Financial Toxicity (FACIT-COST)",
+        "iu6: unmapped Instrument registry label Questions on objective financial toxicity (OFT)",
+        "su1: unmapped Product registry label Indonesian EQ-5D-5L value set",
+        "su2: unmapped Product registry label UK pilot value set",
+        "mu1: unmapped Method registry label Mann-Whitney test",
+        "mu2: unmapped Method registry label Kruskal-Wallis test",
+        "mu3: unmapped Method registry label Spearman’s rho",
+        "mu4: unmapped Method registry label Pearson’s coefficient",
+        "mu5: unmapped Method registry label forward stepwise regression procedure",
+        "mod1: unmapped Model registry label ordinal logistic models",
+        "mod2: unmapped Model registry label multivariable ordinary least squares (OLS) models"
+      ]
+    },
+    {
+      "record_id": "R129-P110",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "su1: unmapped Product registry label 2024 Trinidad and Tobago EQ-5D-5L value set",
+        "su2: unmapped Product registry label index values from the 2022–2023 Trinidad and Tobago valuation study",
+        "mu1: unmapped Method registry label Streets were randomly selected from CSO maps and 1 in every 4 houses visited; respondents were selected based on the most recent birthday method",
+        "mu2: unmapped Method registry label Survey company panel recruitment by online links, with recruiters in public places",
+        "mu3: unmapped Method registry label Survey company panel recruitment by survey links via e-mail",
+        "mu4: unmapped Method registry label Welch’s t-test",
+        "mu7: unmapped Method registry label Welch’s ANOVA",
+        "mu5: unmapped Method registry label modified Kakwani index",
+        "mu6: unmapped Method registry label t-tests",
+        "mo1: unmapped Model registry label multivariable ordered logit models",
+        "mo2: unmapped Model registry label ordinary least squares regression model for the modified Kakwani index decomposition"
+      ]
+    },
+    {
+      "record_id": "R129-P129",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label isiXhosa EQ-TIPS",
+        "iu2: unmapped Instrument registry label EQ-TIPS",
+        "iu5: unmapped Instrument registry label The Ages and Stages Questionnaire (ASQ) Parent Report Form",
+        "iu6: unmapped Instrument registry label Face, Leg, Activity, Cry, Consolability (FLACC) Pain Scale",
+        "iu7: unmapped Instrument registry label Self-designed dietary information questionnaire",
+        "iu8: unmapped Instrument registry label isiXhosa version of the EQ-TIPS for South Africa",
+        "iu9: unmapped Instrument registry label EQ-TIPS",
+        "su1: unmapped Product registry label level sum score (LSS)",
+        "su2: unmapped Product registry label Level Sum Score",
+        "pr1: unmapped Protocol registry label COSMIN guidelines",
+        "pr2: unmapped Protocol registry label EQ-5D-Y translation protocol",
+        "mu1: unmapped Method registry label non-probability design",
+        "mu2: unmapped Method registry label distribution of frequency of dimension scores across patient care groups",
+        "mu11: unmapped Method registry label ceiling and floor effects",
+        "mu12: unmapped Method registry label missing values",
+        "mu3: unmapped Method registry label chi-square",
+        "mu4: unmapped Method registry label Kruskal-Wallis analysis",
+        "mu5: unmapped Method registry label Spearman's Rho correlation coefficient",
+        "mu7: unmapped Method registry label Cohen's weighted Kappa",
+        "mu8: unmapped Method registry label intraclass correlation coefficient (ICC)",
+        "mu9: unmapped Method registry label forward and backward translation",
+        "mu10: unmapped Method registry label cognitive interviews",
+        "mod1: unmapped Model registry label multiple regression analysis with the VAS as dependent variable and dummy variables representing the different levels of the dimensions"
+      ]
+    },
+    {
+      "record_id": "R129-P038",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu2: unmapped Instrument registry label PROMIS-16",
+        "mu1: unmapped Method registry label 18 demographic quotas based on gender, age, and race/ethnicity",
+        "mu2: unmapped Method registry label online cross-sectional survey",
+        "mu3: unmapped Method registry label ceiling and floor percentages",
+        "mu4: unmapped Method registry label McNemar’s test for paired proportions",
+        "mu5: unmapped Method registry label Shannon’s Index (H’)",
+        "mu6: unmapped Method registry label Shannon’s Evenness Index (J’)",
+        "mu7: unmapped Method registry label polychoric correlation coefficients",
+        "mu8: unmapped Method registry label parallel analysis",
+        "mu9: unmapped Method registry label oblique rotation method (Oblimin)",
+        "mo1: unmapped Model registry label item-level linear regression analyses using EQ VAS as the outcome and incremental decrements in each item as predictors",
+        "mo2: unmapped Model registry label dimension-level multivariate models",
+        "mo3: unmapped Model registry label construct-level multivariate models",
+        "mo4: unmapped Model registry label instrument-level multivariate models",
+        "mo5: unmapped Model registry label exploratory factor analysis (EFA)"
+      ]
+    },
+    {
+      "record_id": "R129-P090",
+      "source_run": "pilot/ontology-development-v4/production/run-03-registry-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu2: unmapped Instrument registry label Health Utility Index (HUI)",
+        "mu1: unmapped Method registry label search strategy",
+        "mu2: unmapped Method registry label literature review",
+        "mo1: unmapped Model registry label QALY model"
+      ]
+    },
+    {
+      "record_id": "R129-P018",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "mu1: unmapped Method registry label review of existing criteria on patient-reported outcome measures (PROMs) development",
+        "mu2: unmapped Method registry label presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project"
+      ]
+    },
+    {
+      "record_id": "R129-P127",
+      "source_run": "pilot/ontology-development-v4/production/run-02-repair",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu6: unmapped Instrument registry label 22-item ZBI",
+        "iu7: unmapped Instrument registry label Satisfaction with the National Health System (NHS) 1 to 10 scale",
+        "su1: unmapped Product registry label algorithm derived from the crosswalk 3L value sets",
+        "su2: unmapped Product registry label algorithm derived from the crosswalk 3L value sets",
+        "su3: unmapped Product registry label US Measurement and Valuation of Health",
+        "mu1: unmapped Method registry label descriptive analysis",
+        "mu2: unmapped Method registry label correlation analysis by means of Pearson coefficient",
+        "mu3: unmapped Method registry label Levene’s test",
+        "mu4: unmapped Method registry label ANOVA analysis",
+        "mu5: unmapped Method registry label Bonferroni correction",
+        "model1: unmapped Model registry label five multinomial logistic regression models, one by each domain"
+      ]
+    }
+  ]
+}

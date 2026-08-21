@@ -1,0 +1,1056 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P038",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "The data collection was funded by the EuroQol Research Foundation (464-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly compares the measurement and psychometric properties of EQ-5D-5L and PROMIS-16. The EuroQol Research Foundation funded the data collection.",
+    "source": [
+      "Structured metadata — publication title and abstract",
+      "Structured metadata — funding",
+      "Full article — Background, final paragraph",
+      "Full article — Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Comparison of PROMIS-16 and EQ-5D-5L measurement properties in U.S. adults",
+      "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main decision concerns comparative distributional performance, informativity, construct validity, convergent and divergent validity, and structural validity. The study does not develop new instrument content.",
+      "source": [
+        "Full article — Abstract, Objectives and Methods",
+        "Full article — Background, final paragraph",
+        "Full article — Methods > Statistical analyses",
+        "Full article — Results"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Cross-sectional comparative psychometric analysis",
+      "source": [
+        "Full article — Abstract, Methods",
+        "Full article — Methods > Statistical analyses"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article — Background, final paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article — Abstract, Methods",
+        "Full article — Methods > Statistical analyses"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article — Abstract, Methods"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article — Background, final paragraph",
+        "Full article — Methods > Statistical analyses"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article — Methods > Data",
+        "Full article — Methods > Survey instrument"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "U.S. general population adults",
+      "role": "survey population",
+      "geographies": [
+        "United States",
+        "50 U.S. states and Washington, D.C."
+      ],
+      "conditions": [],
+      "age_description": "18 years or older",
+      "inclusion_description": "Participants had to reside in a U.S. state or Washington, D.C., and meet one of 18 quotas defined by gender, age, and race or ethnicity.",
+      "source": [
+        "Full article — Methods > Data, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 4989,
+      "size_text": "4,989 adults were recruited during the second survey wave.",
+      "unit": "respondents",
+      "description": "Adults recruited from the U.S. general population through Dynata between March 18 and April 6, 2024.",
+      "source": [
+        "Full article — Methods > Data, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 2577,
+      "size_text": "2,577 of 4,989 recruits entered the psychometric analysis after completing the survey fully.",
+      "unit": "respondents",
+      "description": "The analytical sample represented 52% of recruits and included respondents from all 50 U.S. states and Washington, D.C.",
+      "source": [
+        "Full article — Methods > Data, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 248,
+      "size_text": "248 respondents, 5% of recruits, dropped out before assignment to a study arm.",
+      "unit": "respondents",
+      "description": "Respondents who started the survey but left before study-arm assignment.",
+      "source": [
+        "Full article — Methods > Data, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 1742,
+      "size_text": "1,742 respondents, 35% of recruits, failed the comprehension quiz after three attempts.",
+      "unit": "respondents",
+      "description": "Respondents excluded because they did not pass the quiz about understanding being in a coma.",
+      "source": [
+        "Full article — Methods > Data, paragraph 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 422,
+      "size_text": "422 respondents, 8% of recruits, voluntarily dropped out during the preference-elicitation tasks or follow-up questions.",
+      "unit": "respondents",
+      "description": "Respondents who passed the screening and background components but left before full survey completion.",
+      "source": [
+        "Full article — Methods > Data, paragraph 2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "second wave of the online survey conducted between March 18 and April 6, 2024",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Comparative psychometric analysis of PROMIS-16, EQ-5D-5L, and EQ VAS responses collected within the previously described child-health valuation survey.",
+      "source": [
+        "Full article — Methods > Data, paragraphs 1–2",
+        "Full article — Methods > Survey instrument, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article — Background, final paragraph",
+        "Full article — Methods > Statistical analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "PROMIS-16",
+      "registry_id": "instrument:promis-16",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+      "source": [
+        "Full article — Background, final paragraph",
+        "Full article — Methods > Statistical analyses"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article — Background, paragraphs 4 and 7",
+        "Full article — Methods > Validity assessment, paragraph 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1"
+      ],
+      "respondent": "U.S. adults aged 18 years or older",
+      "perspective": "self-report of own health",
+      "completion": "self-completed",
+      "assistance": null,
+      "channel": "fully electronic online survey; one item per screen",
+      "setting": "Dynata online survey panel",
+      "instrument_language": "official US English version",
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "before the preference-elicitation choice tasks",
+      "source": [
+        "Full article — Methods > Survey instrument, paragraphs 1–2",
+        "Full article — Background, paragraph 4"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "U.S. adults aged 18 years or older",
+      "perspective": "self-report of own health",
+      "completion": "self-completed",
+      "assistance": null,
+      "channel": "fully electronic online survey; one item per screen",
+      "setting": "Dynata online survey panel",
+      "instrument_language": "official US English version",
+      "interview_language": null,
+      "recall_period": "No recall period for the physical-function and social-role items; past 7 days for the other dimensions.",
+      "time_point": "after the preference-elicitation choice tasks",
+      "source": [
+        "Full article — Methods > Survey instrument, paragraphs 1–3",
+        "Full article — Background, paragraph 4"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu3"
+      ],
+      "respondent": "U.S. adults aged 18 years or older",
+      "perspective": "self-rated health",
+      "completion": "self-completed",
+      "assistance": null,
+      "channel": "fully electronic online survey",
+      "setting": "Dynata online survey panel",
+      "instrument_language": "official US English version",
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "immediately after EQ-5D-5L",
+      "source": [
+        "Full article — Background, paragraphs 4 and 7",
+        "Full article — Discussion > Comparing the PROMIS-16 and EQ-5D-5L, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "18 demographic quotas based on gender, age, and race/ethnicity",
+      "registry_id": "method:r129-p038-demographic-quota-sampling",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "SAMPLING",
+      "source": [
+        "Full article — Methods > Data, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "online cross-sectional survey",
+      "registry_id": "method:online-cross-sectional-survey",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article — Abstract, Methods",
+        "Full article — Methods > Data, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ceiling and floor percentages",
+      "registry_id": "method:ceiling-and-floor-percentages",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Ceiling/floor percentages of the HRQoL constructs"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "McNemar’s test for paired proportions",
+      "registry_id": "method:mcnemars-test-for-paired-proportions",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Ceiling/floor percentages of the HRQoL constructs, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Shannon’s Index (H’)",
+      "registry_id": "method:shannons-index-h",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Informativity analysis of items"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Shannon’s Evenness Index (J’)",
+      "registry_id": "method:shannons-evenness-index-j",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Informativity analysis of items"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "polychoric correlation coefficients",
+      "registry_id": "method:polychoric-correlation-coefficients",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Validity assessment, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "parallel analysis",
+      "registry_id": "method:parallel-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Structural validity"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "oblique rotation method (Oblimin)",
+      "registry_id": "method:oblique-rotation-method-oblimin",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "MEASUREMENT_PROPERTY_ANALYSIS",
+      "source": [
+        "Full article — Methods > Structural validity"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "item-level linear regression analyses using EQ VAS as the outcome and incremental decrements in each item as predictors",
+      "registry_id": "model:item-level-linear-regression-eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article — Methods > Validity assessment, paragraph 1",
+        "Full article — Results > Construct validity"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "dimension-level multivariate models",
+      "registry_id": "model:r129-p038-dimension-level-multivariate",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "SENSITIVITY",
+      "source": [
+        "Full article — Methods > Validity assessment, paragraph 1",
+        "Full article — Results > Construct validity, paragraph 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "construct-level multivariate models",
+      "registry_id": "model:r129-p038-construct-level-multivariate",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "SENSITIVITY",
+      "source": [
+        "Full article — Results > Construct validity, paragraph 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "instrument-level multivariate models",
+      "registry_id": "model:r129-p038-instrument-level-multivariate",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "SENSITIVITY",
+      "source": [
+        "Full article — Methods > Validity assessment, paragraph 1",
+        "Full article — Results > Construct validity, paragraph 1"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "exploratory factor analysis (EFA)",
+      "registry_id": "model:exploratory-factor-analysis",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article — Methods > Structural validity",
+        "Full article — Results > Structural validity"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "HRQoL instrument",
+      "levels": [
+        "PROMIS-16",
+        "EQ-5D-5L"
+      ],
+      "role": "COMPARATOR",
+      "source": [
+        "Full article — Background, final paragraph",
+        "Full article — Methods > Statistical analyses"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Ceiling and floor performance",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article — Results > Ceiling/floor percentages of the PROMIS-16 items",
+        "Full article — Results > Ceiling/floor percentages of the EQ-5D-5L items",
+        "Full article — Table 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Item informativity measured with Shannon indices",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article — Results > Informativity analysis",
+        "Full article — Table 2"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Construct, convergent, and divergent validity",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3"
+      ],
+      "source": [
+        "Full article — Results > Construct validity",
+        "Full article — Results > Convergent and divergent validity",
+        "Full article — Tables 3–4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Structural validity and combined latent-factor structure",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article — Results > Structural validity",
+        "Full article — Tables 5–6"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Within matched constructs, PROMIS-16 had significantly lower ceiling percentages than EQ-5D-5L. Its physical-function floor was higher than the EQ-5D-5L mobility floor, but its combined anxiety/depression floor was lower than the corresponding EQ-5D-5L floor.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "64.6",
+          "unit": "% ceiling",
+          "denominator": "analyzed respondents",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 physical function",
+          "comparator": "EQ-5D-5L mobility: 79.9%",
+          "direction": "lower by 15.3 percentage points",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "28.9",
+          "unit": "% ceiling",
+          "denominator": "analyzed respondents",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 anxiety/depression construct",
+          "comparator": "EQ-5D-5L anxiety/depression: 44.7%",
+          "direction": "lower by 15.8 percentage points",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "0.7",
+          "unit": "% floor",
+          "denominator": "analyzed respondents",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 physical function",
+          "comparator": "EQ-5D-5L mobility: 0.4%",
+          "direction": "higher by 0.3 percentage points",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "1.5",
+          "unit": "% floor",
+          "denominator": "analyzed respondents",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 anxiety/depression construct",
+          "comparator": "EQ-5D-5L anxiety/depression: 3.5%",
+          "direction": "lower by 2.0 percentage points",
+          "uncertainty": "p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article — Results > Ceiling/floor percentages of the PROMIS-16 items",
+        "Full article — Results > Ceiling/floor percentages of the EQ-5D-5L items",
+        "Full article — Table 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "PROMIS-16 items generally had higher absolute and relative informativity than EQ-5D-5L items.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "1.30–2.20",
+          "unit": "Shannon’s Index (H’)",
+          "denominator": "PROMIS-16 items",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16",
+          "comparator": "EQ-5D-5L: 0.48–1.92",
+          "direction": "generally higher",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.56–0.95",
+          "unit": "Shannon’s Evenness Index (J’)",
+          "denominator": "PROMIS-16 items",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16",
+          "comparator": "EQ-5D-5L: 0.21–0.83",
+          "direction": "generally higher",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article — Results > Informativity analysis",
+        "Full article — Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Increasing item severity was generally associated with lower EQ VAS scores. In the dimension-level, construct-level, and instrument-level multivariate models, many effects became smaller, changed sign, or lost significance. At the instrument level, EQ-5D-5L retained stronger independent associations with EQ VAS than PROMIS-16.",
+      "about": [
+        "o3",
+        "iu1",
+        "iu2",
+        "iu3",
+        "mo1",
+        "mo2",
+        "mo3",
+        "mo4"
+      ],
+      "values": [
+        {
+          "reported_value": "−10.11",
+          "unit": "EQ VAS points",
+          "denominator": "PF1 level 1-to-2 transition",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 PF1",
+          "comparator": null,
+          "direction": "lower EQ VAS",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−10.58",
+          "unit": "EQ VAS points",
+          "denominator": "PF2 level 1-to-2 transition",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 PF2",
+          "comparator": null,
+          "direction": "lower EQ VAS",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−13.44",
+          "unit": "EQ VAS points",
+          "denominator": "mobility level 1-to-2 transition",
+          "time": "2024 survey",
+          "subgroup": "EQ-5D-5L mobility",
+          "comparator": null,
+          "direction": "lower EQ VAS",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "−20.76",
+          "unit": "EQ VAS points",
+          "denominator": "self-care level 1-to-2 transition",
+          "time": "2024 survey",
+          "subgroup": "EQ-5D-5L self-care",
+          "comparator": null,
+          "direction": "lower EQ VAS",
+          "uncertainty": "p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article — Results > Construct validity, paragraph 1",
+        "Full article — Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Conceptually overlapping items showed strong convergence. PROMIS-16 cognitive-function items had very weak or no correlations with EQ-5D-5L items or other PROMIS-16 items.",
+      "about": [
+        "o3",
+        "iu1",
+        "iu2",
+        "mu7"
+      ],
+      "values": [
+        {
+          "reported_value": "0.85",
+          "unit": "polychoric correlation coefficient",
+          "denominator": "item-pair correlation",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 physical function and EQ-5D-5L mobility",
+          "comparator": null,
+          "direction": "very strong positive convergence",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.76–0.79",
+          "unit": "polychoric correlation coefficient",
+          "denominator": "item-pair correlations",
+          "time": "2024 survey",
+          "subgroup": "PROMIS-16 anxiety and depression items with EQ-5D-5L anxiety/depression",
+          "comparator": null,
+          "direction": "strong positive convergence",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article — Abstract, Results",
+        "Full article — Results > Convergent and divergent validity",
+        "Full article — Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The exploratory factor analysis identified six factors: Physical Function, Social Roles and Activities, Anxiety/Depression, Pain Interference, Cognitive Function, and Sleep/Fatigue. Overlapping PROMIS-16 and EQ-5D-5L items loaded on the same physical-function and anxiety/depression factors.",
+      "about": [
+        "o4",
+        "iu1",
+        "iu2",
+        "mo5"
+      ],
+      "values": [
+        {
+          "reported_value": "6",
+          "unit": "factors",
+          "denominator": "combined PROMIS-16 and EQ-5D-5L item set",
+          "time": "2024 survey",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.98",
+          "unit": "factor loading",
+          "denominator": "physical-function factor",
+          "time": "2024 survey",
+          "subgroup": "EQ-5D-5L mobility",
+          "comparator": "PROMIS-16 PF1: 0.87; PF2: 0.85",
+          "direction": "same factor",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.85",
+          "unit": "factor loading",
+          "denominator": "anxiety/depression factor",
+          "time": "2024 survey",
+          "subgroup": "EQ-5D-5L anxiety/depression",
+          "comparator": "PROMIS-16 anxiety items: 0.88–0.89; depression items: 0.90–0.94",
+          "direction": "same factor",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article — Results > Structural validity",
+        "Full article — Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Compared with the original PROMIS item-testing survey, stand-alone PROMIS-16 administration produced higher ceiling percentages for social-role items and markedly higher floor percentages for cognitive-function items.",
+      "about": [
+        "o1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": ">20 and >10",
+          "unit": "percentage-point increase in ceiling",
+          "denominator": "stand-alone versus original item-testing administration",
+          "time": "2024 survey",
+          "subgroup": "SOC1 and SOC2, respectively",
+          "comparator": "original item-testing survey",
+          "direction": "higher",
+          "uncertainty": "p < 0.001"
+        },
+        {
+          "reported_value": "18 and 17",
+          "unit": "percentage-point increase in floor",
+          "denominator": "stand-alone versus original item-testing administration",
+          "time": "2024 survey",
+          "subgroup": "COG1 and COG2, respectively",
+          "comparator": "original item-testing survey",
+          "direction": "higher",
+          "uncertainty": "p < 0.001"
+        }
+      ],
+      "source": [
+        "Full article — Discussion > Comparing the PROMIS-16 stand-alone instrument and item-testing evidence, paragraphs 1–3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that PROMIS-16 provided broader conceptual coverage and greater informativity, while EQ-5D-5L showed stronger concordance with global self-rated health.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article — Abstract, Conclusions",
+        "Full article — Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors considered inconsistent response ordering and possible inattentive responding to be likely explanations for the unusual cognitive-function results. They also identified recall period, item count, response format, and wording as possible causes of differences between instruments.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article — Discussion > Comparing the PROMIS-16 stand-alone instrument and item-testing evidence, paragraphs 2–3",
+        "Full article — Discussion > Comparing the PROMIS-16 and EQ-5D-5L, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors proposed refinement of PROMIS-16 item framing and further development of EQ-5D-5L bolt-ons for cognition, sleep, and fatigue.",
+      "finding_ids": [
+        "f2",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article — Discussion > Comparing the PROMIS-16 and EQ-5D-5L, final paragraph",
+        "Full article — Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The online general-population panel can cause selection bias through differences in digital literacy and internet access. The findings might not generalize to clinical populations and are sample-dependent.",
+      "about": [
+        "pop1",
+        "sam2",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article — Discussion, limitations paragraph beginning “While our study offers meaningful insights”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Recruitment through the commercial Dynata panel can create data-quality and representativeness limitations despite the quality-control measures.",
+      "about": [
+        "du1",
+        "mu1",
+        "mu2"
+      ],
+      "source": [
+        "Full article — Discussion, limitations paragraph beginning “While our study offers meaningful insights”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The smaller sample than the original PROMIS item-testing survey can amplify fluctuations. The preliminary quiz can influence EQ-5D-5L responses, and the fixed instrument order cannot isolate framing, burden, and response bias.",
+      "about": [
+        "sam2",
+        "a1",
+        "a2",
+        "f6"
+      ],
+      "source": [
+        "Full article — Discussion, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The survey used the original PROMIS-16 sleep items because data collection occurred before the August 2024 erratum. The authors also noted possible unknown differences between the representativeness of the two PROMIS samples.",
+      "about": [
+        "iu2",
+        "f6"
+      ],
+      "source": [
+        "Full article — Methods > Survey instrument, paragraph 3",
+        "Full article — Discussion, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Stand-alone instrument administration",
+      "description": "The response distributions of PROMIS-16 can differ when it is given as a stand-alone instrument instead of being embedded in a larger item-testing set.",
+      "about": [
+        "iu2",
+        "f6"
+      ],
+      "source": [
+        "Full article — Background, paragraph 3",
+        "Full article — Discussion > Comparing the PROMIS-16 stand-alone instrument and item-testing evidence"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Recall-period and response-format differences",
+      "description": "EQ-5D-5L measures health today, while most PROMIS-16 dimensions use a 7-day recall period. Item count, wording, and response format can also affect measured range and informativity.",
+      "about": [
+        "iu1",
+        "iu2",
+        "a1",
+        "a2",
+        "f1",
+        "f2"
+      ],
+      "source": [
+        "Full article — Background, paragraph 4",
+        "Full article — Discussion > Comparing the PROMIS-16 and EQ-5D-5L, paragraph 1"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "EQ-5D-5L bolt-on opportunities",
+      "description": "Cognition, sleep, and fatigue were identified as possible bolt-on dimensions that could extend EQ-5D-5L conceptual coverage for relevant populations.",
+      "about": [
+        "iu1",
+        "f4",
+        "f5",
+        "int3"
+      ],
+      "source": [
+        "Full article — Discussion > Comparing the PROMIS-16 and EQ-5D-5L, paragraphs 3 and 6",
+        "Full article — Conclusion"
+      ]
+    }
+  ]
+}

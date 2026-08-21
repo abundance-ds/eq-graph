@@ -1,5 +1,34 @@
 # Version-3 experiment log
 
+## 2026-08-20: typed analytical reset
+
+- Kept the source audit, project-link audit, and version-1 graph as historical
+  evidence.
+- Moved current analytical ontology work to
+  `pilot/ontology-development-v4/` after the aggregate-validity failures.
+- Version 4 uses controlled values, explicit gap routes, 60 paper tests, blind
+  regression, and source-checked family adjudication.
+- Do not repair the version-3 semantic records in place. Rebuild a separate
+  version-2 graph after typed production calibration.
+
+## 2026-08-20: aggregate-validity test
+
+- Evaluated all 100 competency questions against the current serving database.
+- Three independent Sol reviewers completed 150 runs. Each reviewed 25 unique
+  and 25 shared questions.
+- Verdicts: 37 pass, 36 partial, 26 fail, and 51 not testable. Missing inputs
+  were not counted as failures.
+- The reviewers agreed on 12 of 25 shared verdicts. Different identity,
+  denominator, overlap, and method-role rules caused most disagreements.
+- Fifteen diverse papers served only as diagnostic references for suspicious
+  aggregates.
+- Repeated defects affect person and PI identity, study classification,
+  method roles, working groups, institutions, project topics, samples,
+  missingness, status dates, and the public serving projection.
+- Decision: retain source-linked facts, pause broad aggregate claims, repair the
+  analytical layer, and rerun the same 100-question test.
+- Result: `aggregate-validity/SYNTHESIS.md`.
+
 ## 2026-08-16: reset
 
 - Reason: the version-2 candidate used generic concepts that did not feel natural to EuroQol research.

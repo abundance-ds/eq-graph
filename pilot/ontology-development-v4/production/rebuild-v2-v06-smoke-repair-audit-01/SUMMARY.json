@@ -1,0 +1,110 @@
+{
+  "run": "rebuild-v2-v06-smoke-repair-audit-01",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "batches": 4,
+  "successful": 4,
+  "failed": 0,
+  "manifest_sha256": "20f1a7ed1d8d5e066279fcf9cc32748c8ece7d9f7fc292817701929e1547a376",
+  "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+  "usage": {
+    "input_tokens": 358301,
+    "cached_input_tokens": 0,
+    "output_tokens": 23438,
+    "reasoning_output_tokens": 21254
+  },
+  "results": [
+    {
+      "status": "ok",
+      "batch_id": "A001",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 50.329,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v06-smoke-repair-audit/inputs/A001.md",
+      "input_sha256": "4e3f6d266d4893210bf780ffaf73def2b5cc79eac4f5c245ff923018c527bf5c",
+      "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/records/A001.json",
+      "output_sha256": "ff56f2235e83de8664eb92ae74663d302d1a6c04e637def2452450e08090a561",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/traces/A001.jsonl",
+      "usage": {
+        "input_tokens": 67671,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2542,
+        "reasoning_output_tokens": 2070
+      }
+    },
+    {
+      "status": "ok",
+      "batch_id": "A002",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 198.392,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v06-smoke-repair-audit/inputs/A002.md",
+      "input_sha256": "0d6e1d5e4561d06496467a29408f1fc7b5d12bf963dfda82ac98dffaaff2b702",
+      "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/records/A002.json",
+      "output_sha256": "a69e25b73b587818f32357b79f9e888cf83169671d3447bf5d41f96bd53ba4ca",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/traces/A002.jsonl",
+      "usage": {
+        "input_tokens": 108212,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8305,
+        "reasoning_output_tokens": 7768
+      }
+    },
+    {
+      "status": "ok",
+      "batch_id": "A003",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 210.351,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v06-smoke-repair-audit/inputs/A003.md",
+      "input_sha256": "def7378d8fd3f3af712c82e5dbdfc839ce1f40dd67eca4226610366a37689626",
+      "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/records/A003.json",
+      "output_sha256": "c1d8007c673390091458f563ef0350791a6fae322c058756d90bb676e511ad0b",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/traces/A003.jsonl",
+      "usage": {
+        "input_tokens": 96352,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7609,
+        "reasoning_output_tokens": 6949
+      }
+    },
+    {
+      "status": "ok",
+      "batch_id": "A004",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 120.012,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v06-smoke-repair-audit/inputs/A004.md",
+      "input_sha256": "82a5018ab602a3be7acd332ae8272808741fea83948b64da2849fbde24e09ccc",
+      "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/records/A004.json",
+      "output_sha256": "8933966518a24b88de20b322d37b7300327d4672f29d929a43bbb026d1f1333b",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v06-smoke-repair-audit-01/traces/A004.jsonl",
+      "usage": {
+        "input_tokens": 86066,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4982,
+        "reasoning_output_tokens": 4467
+      }
+    }
+  ]
+}

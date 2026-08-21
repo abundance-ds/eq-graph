@@ -1,0 +1,76 @@
+{
+  "run": "rebuild-v2-v013-claude-review-smoke-01",
+  "kind": "review",
+  "engine": "claude-code",
+  "model": "claude-opus-5",
+  "effort": "high",
+  "workers": 1,
+  "manifest": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013-claude-review-smoke-01/MANIFEST.tsv",
+  "manifest_sha256": "d0808a3685dffb079617a9c62719d5b5750c73604aa309c2125a258e52324a0f",
+  "schema_sha256": "c6bf53b49e332ccee242f12cd250acc1c7051781499c9f0a0f7496a07d657b53",
+  "items": 1,
+  "successful": 1,
+  "failed": 0,
+  "elapsed_agent_seconds": 150.536,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 66621,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 15350
+  },
+  "results": [
+    {
+      "status": "ok",
+      "item_id": "V2-P047",
+      "engine": "claude-code",
+      "model": "claude-opus-5",
+      "effort": "high",
+      "kind": "review",
+      "returncode": 0,
+      "timed_out": false,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 150.536,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v013-claude-review-smoke-01/inputs/V2-P047.md",
+      "input_sha256": "a03628410195e0c7dea69779ad3b4d84a42a65883b8bd0e67c2eeea027325864",
+      "schema_sha256": "c6bf53b49e332ccee242f12cd250acc1c7051781499c9f0a0f7496a07d657b53",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-review-smoke-01/records/V2-P047.json",
+      "output_sha256": "5ce9a6374f8e8b7a994820d6393aa6ebc64d67b1687cd5dea186c056ecd6270d",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-review-smoke-01/traces/V2-P047.json",
+      "review_path": "pilot/ontology-development-v4/production/rebuild-v2-v013-claude-review-smoke-01/reviews/V2-P047.json",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 66621,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 15350,
+        "output_tokens_details": {
+          "thinking_tokens": 4048
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 66621
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 15350,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 66621,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 66621,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1157 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P009",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "adjacent_measurement",
+    "euroqol_support": "explicit",
+    "support_scope": "Ashwini De Silva’s PhD is funded by EuroQol Research Foundation grant number 348-PHD.",
+    "publication_form": "REVIEW_ARTICLE",
+    "publication_relation": null,
+    "reason": "The primary object is comparative child health-state valuation across perspectives, respondents, instruments, and valuation methods. EQ instruments are prominent but the review is not restricted to EuroQol. EuroQol support is explicitly linked to the lead author’s PhD.",
+    "source": [
+      "Full article, Abstract—Objectives and Methods",
+      "Full article, Introduction—stated review aims",
+      "Full article, Results—Study Characteristics and Overall Synthesis",
+      "Deterministic metadata, funding, JATS article-meta/funding-group",
+      "Full article, Declarations—Funding and Conflict of interest"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Systematic review of adult-versus-child perspectives in child health-state valuation",
+      "primary_research_family": "EVIDENCE_SYNTHESIS",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is the systematic identification, appraisal, and synthesis of comparative evidence, including a multi-level meta-regression and narrative synthesis.",
+      "source": [
+        "Full article, Introduction—main aims",
+        "Full article, Methods",
+        "Full article, Results",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "EVIDENCE_SYNTHESIS",
+      "rank": 1,
+      "source": [
+        "Full article, Introduction—final paragraph and main aims"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "PREFERENCE_COMPARISON",
+      "rank": 2,
+      "source": [
+        "Full article, Introduction—main aims 1 and 2"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p3",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 3,
+      "source": [
+        "Full article, Introduction—main aim 3",
+        "Full article, Abstract—Objectives"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Systematic review, quantitative synthesis, and narrative synthesis",
+      "source": [
+        "Full article, Methods—Synthesis Method"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Methods"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "VARIABLE_SOURCE_TIME",
+      "source": [
+        "Full article, Methods—Search Sources and Search Terms",
+        "Full article, Results—Study Characteristics"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Methods—Eligibility Criteria, Table 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "synthesis_design",
+      "value": "SYSTEMATIC_REVIEW",
+      "source": [
+        "Full article, Abstract—Methods",
+        "Full article, Methods"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Empirical studies comparing child and adult health-state valuation perspectives",
+      "role": "included evidence",
+      "geographies": [
+        "Europe",
+        "Australia",
+        "Canada",
+        "China",
+        "United States"
+      ],
+      "conditions": [],
+      "age_description": "Source-study respondents included adults, adolescents, and children; valuation targets included adults and hypothetical or actual children and adolescents.",
+      "inclusion_description": "English-language quantitative or qualitative empirical studies in which respondents completed health-state valuation from different perspectives and the study reported differences between perspectives.",
+      "source": [
+        "Full article, Methods—Eligibility Criteria",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "INCLUDED_EVIDENCE",
+      "size": 24,
+      "size_text": "24 studies represented by 25 papers",
+      "unit": "studies",
+      "description": "The Kreimeier and Lipman sister papers used the same dataset and were treated as one study.",
+      "source": [
+        "Full article, Results—Study Selection, Figure 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 8,
+      "size_text": "8 papers excluded after full-text screening",
+      "unit": "papers",
+      "description": "Full-text exclusions are listed in the supplementary material.",
+      "source": [
+        "Full article, Results—Study Selection, Figure 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 8,
+      "size_text": "8 studies reported differences in mean values",
+      "unit": "studies",
+      "description": "These studies supplied the principal quantitative evidence on mean differences between perspectives.",
+      "source": [
+        "Full article, Results—Overall Synthesis, Differences Reported"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "25 included papers representing 24 empirical studies",
+      "origin": "REVIEW_EXTRACTED_EVIDENCE",
+      "level": "DOCUMENT",
+      "purpose": "Study selection, characterization, quality assessment, and narrative synthesis",
+      "source": [
+        "Full article, Methods—Data Extraction",
+        "Full article, Results—Study Selection"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Extracted mean health-state values and uncertainty estimates by valuation perspective",
+      "origin": "REVIEW_EXTRACTED_EVIDENCE",
+      "level": "AGGREGATE_ESTIMATE",
+      "purpose": "Forest plots and multi-level meta-regression of child-minus-adult perspective differences",
+      "source": [
+        "Full article, Methods—Synthesis Method",
+        "Full article, Results—Overall Synthesis, Figures 2–5 and Table 4"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ- 5D-Y- 3L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ- 5D-Y- 5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ- 5D- 3L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "CHU9D",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "PedsQL",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "HUI2",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "HUI3",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Vignette",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Database search in Ovid MEDLINE, Ovid EMBASE, and EconLit",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_IDENTIFICATION",
+      "source": [
+        "Full article, Methods—Search Sources and Search Terms"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Descriptive summary",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Methods—Synthesis Method, first paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Forest plots",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods—Synthesis Method",
+        "Full article, Results—Figures 2–5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Narrative summary",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Methods—Synthesis Method, final paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Level sum score (LSS)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods—Synthesis Method, LSS description"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "time trade-off (TTO)",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, preference elicitation methods paragraph",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "discrete choice experiment (DCE)",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, preference elicitation methods paragraph",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "visual analog scale (VAS)",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, preference elicitation methods paragraph",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu9",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "best–worst scaling (BWS)",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, preference elicitation methods paragraph",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu10",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "standard gamble (SG)",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Introduction, preference elicitation methods paragraph",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu11",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Self-reporting scoring system",
+      "registry_id": null,
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "QUANTITATIVE_DATA_COLLECTION",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "Full article, Methods, first paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "PROSPERO ID: CRD42023429906",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "GOVERNING_STUDY_PROTOCOL",
+      "source": [
+        "Full article, Methods, first paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "RETRIEVE checklist",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CRITICAL_APPRAISAL_PROTOCOL",
+      "source": [
+        "Full article, Methods—Quality Assessment"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Mixed Methods Appraisal Tool (MMAT)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CRITICAL_APPRAISAL_PROTOCOL",
+      "source": [
+        "Full article, Methods—Quality Assessment"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "checklist developed for this review",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CRITICAL_APPRAISAL_PROTOCOL",
+      "source": [
+        "Full article, Methods—Quality Assessment"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "model1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "multi-level meta-regression using the restricted maximum likelihood method",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "META_ANALYSIS",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods—Synthesis Method",
+        "Full article, Results—Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Valuation perspective comparison",
+      "levels": [
+        "Other child–other adult (OC_A–OA_A)",
+        "Other child–self-adult (OC_A–SA_A)",
+        "Self-child–other adult (SC_A–OA_A)",
+        "Self-child–self-adult (SC_A–SA_A)"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods—Synthesis Method",
+        "Full article, Results—Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Health-state severity measured by level sum score (LSS)",
+      "levels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods—Synthesis Method",
+        "Full article, Results—Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Valuation method in meta-regression",
+      "levels": [
+        "TTO",
+        "VAS"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods—Synthesis Method",
+        "Full article, Results—Table 4"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Parental status",
+      "levels": [
+        "Parent",
+        "Non-parent"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Results—Potential Reasons for Differences, Respondent Characteristics"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Hypothetical age considered",
+      "levels": [
+        "5–7 years",
+        "8–10 years",
+        "10 years",
+        "11–13 years",
+        "14–15 years",
+        "15 years",
+        "Adult"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Results—Study Characteristics, Table 3",
+        "Full article, Results—Potential Reasons for Differences, Hypothetical Age Considered"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Differences in health-state values between child and adult valuation perspectives",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7",
+        "iu8"
+      ],
+      "source": [
+        "Full article, Introduction—main aim 1",
+        "Full article, Results—Overall Synthesis"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Relative importance of health-related quality-of-life dimensions by perspective",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article, Introduction—main aim 2",
+        "Full article, Results—Table 5"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Factors that influence differences between child and adult health-state values",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7",
+        "iu8"
+      ],
+      "source": [
+        "Full article, Introduction—main aim 3",
+        "Full article, Results—Potential Reasons for Differences"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Reporting quality of included studies",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Methods—Quality Assessment",
+        "Full article, Results—Reporting Quality"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The search identified 509 papers; 25 papers representing 24 studies were included after screening.",
+      "about": [
+        "o4",
+        "sam1",
+        "sam2"
+      ],
+      "values": [
+        {
+          "reported_value": "509",
+          "unit": "papers",
+          "denominator": "database search results",
+          "time": "searches through 11 November 2024",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "168",
+          "unit": "papers",
+          "denominator": "509 identified papers",
+          "time": "duplicate removal",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "excluded as duplicates",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "308",
+          "unit": "papers",
+          "denominator": "remaining search results",
+          "time": "title and abstract screening",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "excluded",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "33",
+          "unit": "papers",
+          "denominator": "search results after title and abstract screening",
+          "time": "full-text screening",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "8",
+          "unit": "papers",
+          "denominator": "33 full-text papers",
+          "time": "full-text screening",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "excluded",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "25",
+          "unit": "papers",
+          "denominator": "full review sample",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "included",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "24",
+          "unit": "studies",
+          "denominator": "25 included papers",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "included",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Study Selection, Figure 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The evidence base was predominantly quantitative and EQ-5D-Y-3L was the most frequently used instrument.",
+      "about": [
+        "o4",
+        "iu1"
+      ],
+      "values": [
+        {
+          "reported_value": "20",
+          "unit": "studies",
+          "denominator": "24 included studies",
+          "time": null,
+          "subgroup": "predominantly quantitative",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "3",
+          "unit": "studies",
+          "denominator": "24 included studies",
+          "time": null,
+          "subgroup": "qualitative",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "1",
+          "unit": "study",
+          "denominator": "24 included studies",
+          "time": null,
+          "subgroup": "mixed method",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "17 (71%)",
+          "unit": "studies",
+          "denominator": "24 included studies",
+          "time": null,
+          "subgroup": "used EQ- 5D-Y- 3L",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "9 (38%)",
+          "unit": "studies",
+          "denominator": "24 included studies",
+          "time": null,
+          "subgroup": "used mixed valuation methods",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Study Selection",
+        "Full article, Results—Study Characteristics, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The multi-level meta-regression found larger child-minus-adult mean-value differences for several more severe health states relative to LSS 6, although there was no clear monotonic pattern.",
+      "about": [
+        "o1",
+        "model1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.029",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "LSS 8",
+          "comparator": "LSS 6",
+          "direction": "greater mean difference",
+          "uncertainty": "p=0.034"
+        },
+        {
+          "reported_value": "0.050",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "LSS 9",
+          "comparator": "LSS 6",
+          "direction": "greater mean difference",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "0.057",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "LSS 14",
+          "comparator": "LSS 6",
+          "direction": "greater mean difference",
+          "uncertainty": "p=0.016"
+        },
+        {
+          "reported_value": "0.044",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "LSS 15",
+          "comparator": "LSS 6",
+          "direction": "greater mean difference",
+          "uncertainty": "p=0.025"
+        }
+      ],
+      "source": [
+        "Full article, Results—Overall Synthesis, Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Compared with TTO, VAS reduced the child-minus-adult mean-value difference at the study’s 10% significance threshold; the model found no evidence that the specified perspective comparison affected the difference.",
+      "about": [
+        "o1",
+        "o3",
+        "model1",
+        "sf1",
+        "sf3"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.011",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "VAS",
+          "comparator": "TTO",
+          "direction": "smaller mean difference",
+          "uncertainty": "p=0.074"
+        },
+        {
+          "reported_value": "0.007",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "OC_A–SA_A",
+          "comparator": "OC_A–OA_A",
+          "direction": null,
+          "uncertainty": "p=0.189"
+        },
+        {
+          "reported_value": "−0.003",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "SC_A–OA_A",
+          "comparator": "OC_A–OA_A",
+          "direction": null,
+          "uncertainty": "p=0.696"
+        },
+        {
+          "reported_value": "−0.001",
+          "unit": "regression coefficient (β)",
+          "denominator": null,
+          "time": null,
+          "subgroup": "SC_A–SA_A",
+          "comparator": "OC_A–OA_A",
+          "direction": null,
+          "uncertainty": "p=0.895"
+        }
+      ],
+      "source": [
+        "Full article, Results—Overall Synthesis, Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Across most EQ-5D-Y studies, adults ranked pain or discomfort as the most important dimension and self-care as the least important; adolescent rankings were more mixed, and adolescents sometimes ranked mobility higher than adults valuing for children.",
+      "about": [
+        "o2",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "6",
+          "unit": "studies",
+          "denominator": "24 included studies",
+          "time": null,
+          "subgroup": "reported relative importance of dimensions",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results—Overall Synthesis, Relative Importance of Dimensions, Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Qualitative evidence identified difficulty imagining a child in poor health, uncertainty about whom to imagine, emotional responses, and reluctance to trade a child’s life-years as possible reasons for perspective differences.",
+      "about": [
+        "o3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—Potential Reasons for Differences, Difficulties in Completing Valuation Tasks"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Evidence on parental status was inconsistent: some studies found higher child-state values from parents, some found higher values from non-parents, and others found little or no effect.",
+      "about": [
+        "o3",
+        "sf4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—Potential Reasons for Differences, Respondent Characteristics"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f8",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The main reporting-quality concern was that many studies did not report or justify their target sample size.",
+      "about": [
+        "o4"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results—Reporting Quality"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpret the evidence as showing small perspective-related differences that become larger for severe health states, with adults appearing less willing to trade life-years when valuing health for children.",
+      "finding_ids": [
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Discussion, first paragraph",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors conclude that uncertainty remains about the preferred elicitation and anchoring methods for child health-state valuation and that future valuation methods could be refined.",
+      "finding_ids": [
+        "f4",
+        "f6"
+      ],
+      "source": [
+        "Full article, Abstract—Conclusions",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The review could not determine the effect of a child’s age on mean-value differences because most studies used one hypothetical age, usually 10 years.",
+      "about": [
+        "sf5",
+        "o3"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “Quantitative studies analyzing”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Findings about dimension importance may not generalize to other instruments because most relevant studies used EQ-5D-Y-3L.",
+      "about": [
+        "o2",
+        "iu1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “The review found that whether health is valued”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Geographical generalizability was limited because more than half of the included studies were European and only one reported Asian results.",
+      "about": [
+        "pop1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “Our review has identified a few areas”"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Only four qualitative studies were identified, limiting understanding of why respondents make different choices across perspectives.",
+      "about": [
+        "o3"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “Our review has identified a few areas”"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1232 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P110",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This study was funded by the EuroQol Research Foundation (Project number 341-RA).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study makes updated EQ-5D-5L population norms, health inequality, and within-country change in EQ-5D measures its primary research objects. The article reports explicit EuroQol Research Foundation funding.",
+    "source": [
+      "Full article, Abstract, Background and Conclusions",
+      "Full article, Introduction, final paragraph",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Trinidad and Tobago EQ-5D-5L population norms and health inequality study, 2022–2023, with comparison to 2012",
+      "primary_research_family": "POPULATION_REFERENCE_DESCRIPTION",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The stated main aim and explicit reusable output are updated national EQ-5D-5L population norms. The analyses of inequality and change since 2012 are linked secondary contributions.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, final paragraph",
+        "Full article, Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "POPULATION_NORMS",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract, Background",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 2,
+      "source": [
+        "Full article, Abstract, Background and Conclusions",
+        "Full article, Introduction, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "2022–2023 population norms and health inequality analysis",
+      "source": [
+        "Full article, Methods, Data collection and Analysis"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Comparison with 2012 population norms",
+      "source": [
+        "Full article, Methods, Analysis, paragraphs 2 and 4",
+        "Full article, Results, Comparison of 2022–2023 to 2012"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods, Data collection and Analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods, Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods, Analysis, paragraphs 1 and 3"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods, Data collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "temporal_structure",
+      "value": "VARIABLE_SOURCE_TIME",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2",
+        "Full article, Results, Comparison of 2022–2023 to 2012"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_CONTEXT",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d8",
+      "study_id": "s1",
+      "part_id": "part2",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Nationally representative samples of adults in Trinidad and Tobago in 2022–2023",
+      "role": "population-norm target population",
+      "geographies": [
+        "Trinidad and Tobago"
+      ],
+      "conditions": [],
+      "age_description": "Adults aged 18 years and older; age groups were 18–24, 25–34, 35–44, 45–54, 55–64, and 65+.",
+      "inclusion_description": "Mutually exclusive samples designed to represent the national population by age, sex, and region.",
+      "source": [
+        "Full article, Methods, Data collection, paragraphs 1–5"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Trinidad and Tobago general-population sample from the 2012 EQ-5D-5L population norms study",
+      "role": "historical comparator population",
+      "geographies": [
+        "Trinidad and Tobago"
+      ],
+      "conditions": [],
+      "age_description": "Adults; the present article reports comparison across age groups from 18–24 through 65+.",
+      "inclusion_description": "Representative sample by age, sex, and region from the 2012 population norms study.",
+      "source": [
+        "Full article, Introduction, paragraph 2",
+        "Full article, Results, Table 7"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 2989,
+      "size_text": "The combined sample comprised 2,989 respondents.",
+      "unit": "respondents",
+      "description": "Combined 2022–2023 population-norm sample from three mutually exclusive surveys.",
+      "source": [
+        "Full article, Results, The sample, paragraph 1",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1079,
+      "size_text": "Survey 1: N=1079",
+      "unit": "respondents",
+      "description": "Face-to-face component sample obtained from the Trinidad and Tobago EQ-5D-5L valuation study.",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 2",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 970,
+      "size_text": "Survey 2: N=970",
+      "unit": "respondents",
+      "description": "Component sample obtained from the DCE with Duration study after its quality exclusions.",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 3",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 940,
+      "size_text": "Survey 3: N=940",
+      "unit": "respondents",
+      "description": "Online population-norm survey component.",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 4",
+        "Full article, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop2",
+      "stage": "ANALYZED",
+      "size": 2036,
+      "size_text": "2012: N=2036",
+      "unit": "respondents",
+      "description": "Historical population-norm comparison sample.",
+      "source": [
+        "Full article, Introduction, paragraph 2",
+        "Full article, Results, Table 8"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 611,
+      "size_text": "Data from 611 respondents were excluded.",
+      "unit": "respondents",
+      "description": "Respondents excluded from the DCE study because of quality issues related to DCE task duration; their data were also removed from the population-norm dataset.",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 3"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Survey 1 of the 2022–2023 population norms: Trinidad and Tobago EQ-5D-5L valuation study",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Supply demographic, EQ-5D-5L, and EQ VAS responses for the current population-norm analysis.",
+      "source": [
+        "Full article, Methods, Data collection, paragraphs 1–2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Survey 2 of the population norms study: Discrete Choice Experiment (DCE) with Duration study",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Supply demographic, EQ-5D-5L, and EQ VAS responses for the current population-norm analysis.",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 3"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Survey 3 of the population norms study",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Supply additional demographic, EQ-5D-5L, and EQ VAS responses for the population norms.",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 4"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "2012 Trinidad and Tobago EQ-5D-5L population norms data",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Provide historical EQ-5D-5L states, EQ VAS scores, ceilings, and demographic-group results for comparison with 2022–2023.",
+      "source": [
+        "Full article, Introduction, paragraph 2",
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods, The instrument",
+        "Full article, Methods, Data collection, paragraphs 1 and 5"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article, Methods, The instrument, paragraphs 1–2",
+        "Full article, Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ VAS",
+      "registry_id": "instrument:eq-vas",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Methods, The instrument, paragraph 1",
+        "Full article, Methods, Data collection, paragraphs 1 and 5"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ-5D-5L states from 2012",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "SCORING_INPUT",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "EQ VAS scores in 2012",
+      "registry_id": "instrument:eq-vas",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Results, Table 8",
+        "Full article, Discussion, Population norms, paragraph 1"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "instrument_use_id": "iu2",
+      "source_label": "2024 Trinidad and Tobago EQ-5D-5L value set",
+      "registry_id": "product:eq-5d-5l-tt-2024",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods, The instrument, paragraph 2",
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "instrument_use_id": "iu4",
+      "source_label": "index values from the 2022–2023 Trinidad and Tobago valuation study",
+      "registry_id": "product:eq-5d-5l-tt-2024",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2",
+        "Full article, Results, Table 7 caption"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Streets were randomly selected from CSO maps and 1 in every 4 houses visited; respondents were selected based on the most recent birthday method",
+      "registry_id": "method:r129-p110-household-selection",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Survey company panel recruitment by online links, with recruiters in public places",
+      "registry_id": "method:r129-p110-panel-recruitment-public-places",
+      "context": "SOURCE_STUDY_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 3"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Survey company panel recruitment by survey links via e-mail",
+      "registry_id": "method:r129-p110-panel-recruitment-email",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Welch’s t-test",
+      "registry_id": "method:welch-t-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Welch’s ANOVA",
+      "registry_id": "method:welch-anova",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "modified Kakwani index",
+      "registry_id": "method:modified-kakwani-index",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Analysis, paragraphs 3–4"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "t-tests",
+      "registry_id": "method:t-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "multivariable ordered logit models",
+      "registry_id": "model:multivariable-ordered-logit",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 3",
+        "Full article, Results, Inequality, paragraph 2"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mo2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "ordinary least squares regression model for the modified Kakwani index decomposition",
+      "registry_id": "model:ordinary-least-squares-regression",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "STATISTICAL_ESTIMATION",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 4"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "iu2",
+        "iu3"
+      ],
+      "respondent": "Adult participants reporting their own health",
+      "perspective": "Self-reported current health",
+      "completion": "Self-complete computer/tablet-based questionnaire",
+      "assistance": "Survey 1 used trained interviewers for face-to-face computer-assisted interviews; survey 2 also included completion on laptops and tablets in public places.",
+      "channel": "Computer or tablet; face-to-face and online modes",
+      "setting": "Trinidad and Tobago households, online panel settings, and public places",
+      "instrument_language": "English",
+      "interview_language": "English",
+      "recall_period": null,
+      "time_point": "2022–2023 survey assessment",
+      "source": [
+        "Full article, Methods, Data collection, paragraphs 2–5"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Age group",
+      "levels": [
+        "18–24",
+        "25–34",
+        "35–44",
+        "45–54",
+        "55–64",
+        "65+"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Tables 2 and 5"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Sex",
+      "levels": [
+        "Male",
+        "Female"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Education",
+      "levels": [
+        "Incomplete secondary or less",
+        "Complete secondary",
+        "Vocational",
+        "University"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Income (TT$ per month)",
+      "levels": [
+        "$2,500 or less",
+        "$2,501–5,000",
+        "$5,001–12,000",
+        "$12,001–20,000",
+        "Over $20,000"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Ethnicity",
+      "levels": [
+        "Afro",
+        "Indo",
+        "Mixed / Other"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Marital status",
+      "levels": [
+        "Single",
+        "Married or cohabiting",
+        "Separated or divorced"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Employment status",
+      "levels": [
+        "Employed",
+        "Choose not to work",
+        "Retired",
+        "Disability",
+        "Student",
+        "Unemployed"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Private health insurance",
+      "levels": [
+        "Yes",
+        "No"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data collection, paragraph 5",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf9",
+      "study_id": "s1",
+      "part_id": "part2",
+      "label": "Population-norm period",
+      "levels": [
+        "2012",
+        "2022–2023"
+      ],
+      "role": "TARGET_STAGE",
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2",
+        "Full article, Results, Tables 7 and 8"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "EQ-5D-5L index values",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Full article, Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ VAS scores",
+      "instrument_use_ids": [
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "EQ-5D-5L health states, dimension levels, and ceiling",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Methods, Analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Health inequality in EQ-5D-5L index values and EQ VAS scores",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Methods, Analysis, paragraphs 3–4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o5",
+      "study_id": "s1",
+      "part_id": "part2",
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Change in EQ-5D population norms from 2012 to 2022–2023",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3",
+        "iu4",
+        "iu5"
+      ],
+      "source": [
+        "Full article, Methods, Analysis, paragraph 2",
+        "Full article, Results, Tables 7 and 8"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "For the combined 2022–2023 sample, the mean EQ-5D-5L index value was 0.921, the mean EQ VAS score was 79.6, and 31.5% reported the ceiling state.",
+      "about": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.921",
+          "unit": "mean EQ-5D-5L index value",
+          "denominator": "2,989 respondents",
+          "time": "2022–2023",
+          "subgroup": "All respondents",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SE 0.002"
+        },
+        {
+          "reported_value": "79.6",
+          "unit": "mean EQ VAS score on the 0–100 scale",
+          "denominator": "2,989 respondents",
+          "time": "2022–2023",
+          "subgroup": "All respondents",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SE 0.308"
+        },
+        {
+          "reported_value": "31.5",
+          "unit": "percent reporting state 11111",
+          "denominator": "2,989 respondents",
+          "time": "2022–2023",
+          "subgroup": "All respondents",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": "SE 0.850"
+        }
+      ],
+      "source": [
+        "Full article, Results, EQ-5D measures and demographics, paragraph 1",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The Kakwani index was 0.113 for EQ VAS and 0.058 for EQ-5D-5L index values. Sex had the largest relative demographic share for both measures.",
+      "about": [
+        "o4",
+        "sf2",
+        "sf1",
+        "sf3",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "0.113",
+          "unit": "Kakwani index",
+          "denominator": "2,989 respondents",
+          "time": "2022–2023",
+          "subgroup": "EQ VAS",
+          "comparator": null,
+          "direction": "inequality above zero",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.058",
+          "unit": "Kakwani index",
+          "denominator": "2,989 respondents",
+          "time": "2022–2023",
+          "subgroup": "EQ-5D-5L index values",
+          "comparator": null,
+          "direction": "inequality above zero",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "50.7",
+          "unit": "percent relative demographic share",
+          "denominator": "Demographic contribution to EQ VAS inequality",
+          "time": "2022–2023",
+          "subgroup": "Sex",
+          "comparator": "Age and income",
+          "direction": "largest relative share",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "41.9",
+          "unit": "percent relative demographic share",
+          "denominator": "Demographic contribution to index-value inequality",
+          "time": "2022–2023",
+          "subgroup": "Sex",
+          "comparator": "Age, income, and education",
+          "direction": "largest relative share",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Inequality, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Males reported higher mean EQ-5D-5L index values, EQ VAS scores, and ceilings than females; younger groups generally reported better health than older groups.",
+      "about": [
+        "o1",
+        "o2",
+        "o3",
+        "sf1",
+        "sf2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.933 vs 0.909",
+          "unit": "mean EQ-5D-5L index value",
+          "denominator": "1,479 males and 1,510 females",
+          "time": "2022–2023",
+          "subgroup": "Male versus female",
+          "comparator": "Female",
+          "direction": "higher for males",
+          "uncertainty": "Male 95% CI 0.927–0.940; female 95% CI 0.902–0.916"
+        },
+        {
+          "reported_value": "81.5 vs 77.7",
+          "unit": "mean EQ VAS score",
+          "denominator": "1,479 males and 1,510 females",
+          "time": "2022–2023",
+          "subgroup": "Male versus female",
+          "comparator": "Female",
+          "direction": "higher for males",
+          "uncertainty": "Male 95% CI 80.7–82.3; female 95% CI 76.8–78.6"
+        },
+        {
+          "reported_value": "37.7 vs 25.4",
+          "unit": "percent reporting state 11111",
+          "denominator": "1,479 males and 1,510 females",
+          "time": "2022–2023",
+          "subgroup": "Male versus female",
+          "comparator": "Female",
+          "direction": "higher for males",
+          "uncertainty": "Male 95% CI 35.3–40.2; female 95% CI 23.3–27.8"
+        }
+      ],
+      "source": [
+        "Full article, Results, EQ-5D measures and demographics, paragraph 1",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "EQ-5D-5L index values, EQ VAS scores, and ceilings were lower in 2022–2023 than in 2012. The Kakwani index for EQ VAS increased from 0.103 to 0.113.",
+      "about": [
+        "o5",
+        "o4",
+        "sf9"
+      ],
+      "values": [
+        {
+          "reported_value": "0.921 vs 0.965",
+          "unit": "mean EQ-5D-5L index value",
+          "denominator": "2,989 respondents in 2022–2023 and 2,036 respondents in 2012",
+          "time": "2022–2023 versus 2012",
+          "subgroup": "Overall",
+          "comparator": "2012",
+          "direction": "lower in 2022–2023",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "79.6 vs 83.6",
+          "unit": "mean EQ VAS score",
+          "denominator": "2,989 respondents in 2022–2023 and 2,036 respondents in 2012",
+          "time": "2022–2023 versus 2012",
+          "subgroup": "Overall",
+          "comparator": "2012",
+          "direction": "lower in 2022–2023",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "31.5 vs 71.6",
+          "unit": "percent reporting the ceiling state",
+          "denominator": "2,989 respondents in 2022–2023 and 2,036 respondents in 2012",
+          "time": "2022–2023 versus 2012",
+          "subgroup": "Overall",
+          "comparator": "2012",
+          "direction": "lower in 2022–2023",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.113 vs 0.103",
+          "unit": "Kakwani index for EQ VAS",
+          "denominator": "2022–2023 and 2012 samples",
+          "time": "2022–2023 versus 2012",
+          "subgroup": "Overall",
+          "comparator": "2012",
+          "direction": "higher inequality in 2022–2023",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Tables 7 and 8",
+        "Full article, Discussion, Population norms, paragraph 1",
+        "Full article, Discussion, Inequality, paragraph 1"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors interpret the results as a decline in population health and an increase in health inequality over ten years. They recommend periodic updates of national population norms and use of the reported values in Trinidad and Tobago until new norms are available.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f4"
+      ],
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The population norms combine three surveys that used online and face-to-face computer-assisted modes; two surveys used a survey-company panel, and respondents received participation incentives.",
+      "about": [
+        "du1",
+        "du2",
+        "du3",
+        "adm1"
+      ],
+      "source": [
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Some duplication of respondents may have been possible because the first survey did not use the survey-company panel.",
+      "about": [
+        "du1",
+        "du2",
+        "du3",
+        "sam1"
+      ],
+      "source": [
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The explanatory variables were dichotomized as membership or nonmembership in a reference group to preserve comparability with the 2012 findings.",
+      "about": [
+        "mo1",
+        "sf1",
+        "sf2",
+        "sf3",
+        "sf4"
+      ],
+      "source": [
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Age was collected categorically, with 65+ as the highest group; the authors state that future studies should use more detailed older age groups.",
+      "about": [
+        "sf1"
+      ],
+      "source": [
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The inequality measures are limited to the dimensions in the EQ-5D-5L instrument.",
+      "about": [
+        "o4",
+        "iu1"
+      ],
+      "source": [
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, final limitations paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "prod1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Updated EQ-5D-5L population norms for Trinidad and Tobago, 2022–2023",
+      "product_type": "POPULATION_REFERENCE_DATA",
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "product_id": "prod1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "This study has produced a set of updated EQ-5D-5L population norms for Trinidad and Tobago.",
+      "assertion_date": "2024-11-28",
+      "asserted_by": "Study authors",
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Within-country change in EQ-5D-5L population norms and health inequality over time",
+      "description": "The study examines whether national EQ-5D-5L health measures and inequality changed between 2012 and 2022–2023 and argues that norms require periodic updating.",
+      "about": [
+        "o4",
+        "o5",
+        "prod1"
+      ],
+      "source": [
+        "Full article, Abstract, Conclusions",
+        "Full article, Discussion, final paragraph before Conclusion",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Rates of respondents reporting any problems on the pain/discomfort and anxiety/depression dimensions",
+      "statements": [
+        {
+          "statement": "The Abstract reports that pain/discomfort and anxiety/depression had problem rates of 43% and 39%, respectively.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "Table 5 reports level-1 rates of 50% for pain/discomfort and 55% for anxiety/depression, which implies approximately 50% and 45%, respectively, at levels 2–5.",
+          "source": [
+            "Full article, Results, Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, Table 5"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "End date of 2022–2023 data collection",
+      "statements": [
+        {
+          "statement": "The Abstract and Discussion state that data collection ran through May 2023.",
+          "source": [
+            "Full article, Abstract, Methods",
+            "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, paragraph 1"
+          ]
+        },
+        {
+          "statement": "The Methods state that survey 3 was conducted from March to August 2023.",
+          "source": [
+            "Full article, Methods, Data collection, paragraph 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Data collection, paragraph 4",
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, paragraph 1"
+      ]
+    }
+  ]
+}

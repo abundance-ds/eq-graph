@@ -1,0 +1,42 @@
+{
+  "identities": 189,
+  "aliases": 199,
+  "decisions": {
+    "AMBIGUOUS": 5,
+    "ADD_SOURCE_SCOPED": 8,
+    "ALIAS_EXISTING": 2,
+    "ADD_GLOBAL": 2
+  },
+  "skipped": [
+    {
+      "entity_type": "Instrument",
+      "source_label": "13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)",
+      "decision": "AMBIGUOUS",
+      "note": "The source does not name the 13 bolt-ons, so no safe identity is available."
+    },
+    {
+      "entity_type": "Protocol",
+      "source_label": "common standardized protocol",
+      "decision": "AMBIGUOUS",
+      "note": "The source does not name or define the protocol sufficiently."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "non‐parametric method",
+      "decision": "AMBIGUOUS",
+      "note": "The source label does not identify a specific method."
+    },
+    {
+      "entity_type": "Method",
+      "source_label": "direct method",
+      "decision": "AMBIGUOUS",
+      "note": "The source label does not identify a specific method."
+    },
+    {
+      "entity_type": "Instrument",
+      "source_label": "EQ-5D-5L anxiety/depression dimension",
+      "decision": "AMBIGUOUS",
+      "note": "This is an instrument component, not a complete instrument identity; keep it null until component relations are governed."
+    }
+  ]
+}

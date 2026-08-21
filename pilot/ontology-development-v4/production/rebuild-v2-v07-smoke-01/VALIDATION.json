@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "expected": 8,
+    "present": 8,
+    "valid": 8,
+    "errors": 0,
+    "warnings": 135,
+    "dispositions": {
+      "include-study": 8
+    }
+  },
+  "records": [
+    {
+      "record_id": "V2-P002",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label EQ-5D-5L",
+        "mu1: unmapped Method registry label discrete choice experiment (DCE)",
+        "mu2: unmapped Method registry label Pureprofile online panel recruitment with quota allocation for age, gender, and region",
+        "mu3: unmapped Method registry label Generator-developed design",
+        "mu4: unmapped Method registry label modified Fedorov algorithm",
+        "mu5: unmapped Method registry label Bayesian D-efficient design algorithm implemented in R by Oppe and van Hout based on Rose et al.",
+        "mu6: unmapped Method registry label attribute non-attendance (ANA) analysis",
+        "mu7: unmapped Method registry label relative attribute importance (RAI) score calculation",
+        "mu8: unmapped Method registry label external validity analysis",
+        "mo1: unmapped Model registry label equality constrained latent class (ECLC) model",
+        "mo2: unmapped Model registry label multinomial logit (MNL) model",
+        "sw1: unmapped Software registry label Ngene",
+        "sw2: unmapped Software registry label SAS macros",
+        "sw3: unmapped Software registry label R",
+        "sw4: unmapped Software registry label Latent GOLD 5.1",
+        "sw5: unmapped Software registry label R",
+        "sw6: unmapped Software registry label RStudio",
+        "sw7: unmapped Software registry label gmnl package"
+      ]
+    },
+    {
+      "record_id": "V2-P014",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D",
+        "iu2: unmapped Instrument registry label EQ-5D-3 L",
+        "iu3: unmapped Instrument registry label EQ-5D-5 L",
+        "iu4: unmapped Instrument registry label EQ-VAS",
+        "mu1: unmapped Method registry label Systematic database search and reference-list hand-searching",
+        "mu2: unmapped Method registry label Independent title/abstract and full-text screening by two reviewers with third-author consensus",
+        "mu3: unmapped Method registry label Independent data extraction by two researchers using a data extraction form",
+        "mu4: unmapped Method registry label Random effect model meta-analysis (DerSimonian–Laird method)",
+        "mu5: unmapped Method registry label Qualitative narrative synthesis of predictors of poor HRQoL",
+        "mu6: unmapped Method registry label Established techniques for estimating means and standard deviations from medians, ranges, or interquartile ranges",
+        "mu7: unmapped Method registry label I² statistics",
+        "mu8: unmapped Method registry label Leave-one-out sensitivity analysis and exclusion analyses",
+        "mu9: unmapped Method registry label Egger’s regression test",
+        "pr1: unmapped Protocol registry label Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines",
+        "pr2: unmapped Protocol registry label Newcastle-Ottawa scale (NOS) for cohort and case-control studies",
+        "pr3: unmapped Protocol registry label adapted NOS tool for cross-sectional studies",
+        "sw1: unmapped Software registry label EndNote (version 20.0.1, 2020 Clarivate)",
+        "sw2: unmapped Software registry label Microsoft Excel (Version 2016)",
+        "sw3: unmapped Software registry label Microsoft Excel sheet (version 16)",
+        "sw4: unmapped Software registry label R version 4.3.3 (R Foundation for Statistical Computing, Vienna, Austria)",
+        "mo1: unmapped Model registry label Random effect model meta-analysis (DerSimonian–Laird method)"
+      ]
+    },
+    {
+      "record_id": "V2-P030",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label Preparation for Decision Making Scale (PDMS)",
+        "iu3: unmapped Instrument registry label System Usability Scale (SUS)",
+        "iu4: unmapped Instrument registry label Acceptability Scale",
+        "iu5: unmapped Instrument registry label three open-ended questions specific to the summary report",
+        "iu6: unmapped Instrument registry label revised individualized decision aid",
+        "mu1: unmapped Method registry label Recruitment after the surgical screening appointment at a high-volume urban hip and knee clinic",
+        "mu2: unmapped Method registry label descriptive statistics",
+        "mu3: unmapped Method registry label content analysis",
+        "mu4: unmapped Method registry label PDMS scoring according to the developers' guidelines",
+        "mu5: unmapped Method registry label SUS scoring according to the developers' guidelines",
+        "sw1: unmapped Software registry label individualized online patient decision aid",
+        "sw2: unmapped Software registry label Qualtrics",
+        "sw3: unmapped Software registry label Stata version 16.1",
+        "sw4: unmapped Software registry label Microsoft Excel"
+      ]
+    },
+    {
+      "record_id": "V2-P061",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label Fagerstrom test",
+        "iu3: unmapped Instrument registry label Alcohol Use Disorder Identification Test",
+        "iu4: unmapped Instrument registry label WHO disability assessment tool",
+        "iu5: unmapped Instrument registry label COVID-19 anxiety scale",
+        "iu6: unmapped Instrument registry label Patient Health Questionnaire",
+        "iu7: unmapped Instrument registry label General Anxiety Disorder",
+        "iu8: unmapped Instrument registry label COVID PSS Scale",
+        "iu9: unmapped Instrument registry label post-COVID stigma questionnaire",
+        "sc1: unmapped Product registry label Indian EQ-5D-5L value set",
+        "mu1: unmapped Method registry label F-test analysis of variance (fixed effect, main and interaction effects) power analysis",
+        "mu2: unmapped Method registry label two-stage sampling design strategy",
+        "mu3: unmapped Method registry label probability proportional to size (PPS) sampling method",
+        "mu4: unmapped Method registry label systematic sampling",
+        "mu5: unmapped Method registry label matching approach",
+        "mu6: unmapped Method registry label regression adjustments",
+        "mu7: unmapped Method registry label imputation methods",
+        "mu8: unmapped Method registry label test–retest analysis",
+        "mu9: unmapped Method registry label test for concordance",
+        "mu10: unmapped Method registry label Bland-Altman test",
+        "mu11: unmapped Method registry label Shapley decomposition method",
+        "mu12: unmapped Method registry label algorithm to measure persistence augmented multidimensional deprivation developed by Nicholas et al and Sinha et al",
+        "sw1: unmapped Software registry label SurveyCTO",
+        "sw2: unmapped Software registry label G*Power V.3.1.9.7 software",
+        "mod1: unmapped Model registry label ordered logistic regression",
+        "mod2: unmapped Model registry label fixed effects models",
+        "mod3: unmapped Model registry label generalised linear models"
+      ]
+    },
+    {
+      "record_id": "V2-P067",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-Y-3L",
+        "iu2: unmapped Instrument registry label EQ-5D-Y-3L",
+        "mu1: unmapped Method registry label Recruitment via Accent Market Research with specified mixture of gender, age, and parental status",
+        "mu2: unmapped Method registry label Background questionnaire",
+        "mu3: unmapped Method registry label time trade-off (TTO) exercise",
+        "mu4: unmapped Method registry label pairwise task formatted to mirror a discrete choice experiment without duration",
+        "mu5: unmapped Method registry label Descriptive summary of TTO and DCE responses",
+        "mu6: unmapped Method registry label semi-structured focus-group discussion",
+        "mu7: unmapped Method registry label framework analysis",
+        "sw1: unmapped Software registry label NVivo v12 (QSR International Pty Ltd., 2018)",
+        "sw2: unmapped Software registry label Microsoft Excel"
+      ]
+    },
+    {
+      "record_id": "V2-P128",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label Dutch translation of EQ-5D-5L",
+        "mu1: unmapped Method registry label quota sampling for age and sex",
+        "mu2: unmapped Method registry label composite time trade-off (composite TTO)",
+        "mu3: unmapped Method registry label personal TTO interviews",
+        "mu4: unmapped Method registry label tele-TTO interviews",
+        "mu5: unmapped Method registry label X/10 and (X−10)/10 utility calculations",
+        "mu6: unmapped Method registry label t-tests",
+        "mu7: unmapped Method registry label Wilcoxon tests",
+        "mu8: unmapped Method registry label Levene’s tests for equality of variance",
+        "mu9: unmapped Method registry label Brown–Forsythe tests",
+        "mu10: unmapped Method registry label Chi-squared tests",
+        "mu11: unmapped Method registry label quality indicators adapted from Alava et al.",
+        "pu1: unmapped Protocol registry label EuroQol Valuation Technology (EQ-VT) protocol",
+        "su1: unmapped Software registry label proprietary software based on the EuroQol Valuation Technology (EQ-VT) protocol",
+        "su2: unmapped Software registry label Zoom"
+      ]
+    },
+    {
+      "record_id": "V2-P168",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-Y-5L",
+        "iu2: unmapped Instrument registry label EQ-Visual Analogue Scale (EQ VAS)",
+        "iu3: unmapped Instrument registry label EQ-5D-Y-5L",
+        "iu4: unmapped Instrument registry label EQ-5D-Y-5L",
+        "mu1: unmapped Method registry label snowball sampling strategy",
+        "mu2: unmapped Method registry label online self-administered questionnaire",
+        "mu3: unmapped Method registry label discrete choice experiment (DCE)",
+        "mu4: unmapped Method registry label DCE with duration",
+        "mu5: unmapped Method registry label focus group discussion using a semi-structured guide",
+        "mu6: unmapped Method registry label research team field notes",
+        "mu7: unmapped Method registry label descriptive statistics",
+        "mu8: unmapped Method registry label qualitative content analysis according to Elo and Kyngäs",
+        "mu9: unmapped Method registry label narrative integration of quantitative and qualitative findings",
+        "mu10: unmapped Method registry label discrete choice experiment (DCE)",
+        "sw1: unmapped Software registry label Microsoft Word"
+      ]
+    },
+    {
+      "record_id": "V2-P183",
+      "source_run": "pilot/ontology-development-v4/production/rebuild-v2-v07-smoke-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D",
+        "iu2: unmapped Instrument registry label SF-6D",
+        "iu3: unmapped Instrument registry label HUI",
+        "iu4: unmapped Instrument registry label QWB",
+        "mu1: unmapped Method registry label Systematic literature search of PubMed, Web of Science, Medline, and Embase",
+        "mu2: unmapped Method registry label Independent study selection and standardized data extraction by two authors",
+        "mu3: unmapped Method registry label Categorical coding, nonreporting percentages, and subgroup comparison",
+        "mu4: unmapped Method registry label time trade-off (TTO)",
+        "mu5: unmapped Method registry label standard gamble (SG)",
+        "mu6: unmapped Method registry label visual analogue scale (VAS)",
+        "mu7: unmapped Method registry label Mapping",
+        "sw1: unmapped Software registry label Microsoft Excel"
+      ]
+    }
+  ]
+}

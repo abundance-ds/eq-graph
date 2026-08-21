@@ -1,0 +1,18 @@
+{
+  "batch_id": "A001",
+  "audits": [
+    {
+      "record_id": "CNF-P001",
+      "verdict": "MINOR",
+      "source_locations": [
+        "Full article, Methods > Data Collection and Data Analysis",
+        "Full article, Results, first paragraph",
+        "Full article, Key Points for Decision Makers, first and third rows",
+        "Full article, Discussion, first paragraph",
+        "Full article, Discussion, paragraph beginning “The value set we estimated in this study differs from the EQ-5D-3L value set for Singapore”"
+      ],
+      "repair": "Remove StudyPart part1 because it duplicates the complete Study and does not identify a separable sample, data source, method, or state. Set part_id to null for sam2–sam5, iu2, sf2–sf4, td1, adm1–adm2, and f1–f10. Extend f1 with 533 eligible registrants and the author-reported response rate of 93.8% (500/533). Add an Interpretation linked to f7 that states the authors recommend that Singapore EQ-5D-3L users map their data to the EQ-5D-5L descriptive system and then apply the new Singapore EQ-5D-5L value set, especially for economic evaluation. Add a separate author-qualified novelty Interpretation: this is the first Singapore EQ-5D-5L value set and, to the authors’ knowledge, the first EQ-5D-5L value set estimated with between-dimension interaction terms.",
+      "ontology_gap": null
+    }
+  ]
+}

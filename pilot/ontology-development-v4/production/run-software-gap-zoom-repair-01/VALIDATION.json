@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "expected": 20,
+    "present": 20,
+    "valid": 20,
+    "errors": 0,
+    "warnings": 25,
+    "dispositions": {
+      "include-study": 20
+    }
+  },
+  "records": [
+    {
+      "record_id": "CNF-P001",
+      "source_run": "pilot/ontology-development-v4/production/run-software-gap-zoom-repair-01",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu1: unmapped Instrument registry label EQ-5D-5L",
+        "iu2: unmapped Instrument registry label EQ-5D-5L questionnaire",
+        "iu3: unmapped Instrument registry label EQ-5D-5L",
+        "iu4: unmapped Instrument registry label EQ-5D-3L",
+        "mu1: unmapped Method registry label quota sampling method",
+        "mu2: unmapped Method registry label composite time trade-off (cTTO)",
+        "mu3: unmapped Method registry label closed-ended questions about participants’ considerations behind their choices in the cTTO tasks",
+        "mu4: unmapped Method registry label cross-validation procedure",
+        "mu5: unmapped Method registry label open-ended questions about participants’ considerations behind their choices in the cTTO tasks",
+        "mu6: unmapped Method registry label backward selection method",
+        "pu1: unmapped Protocol registry label ‘lite’ version of the EuroQol’s EQ-5D-5L valuation protocol",
+        "pu2: unmapped Protocol registry label standard quality control process developed by the EuroQol Group",
+        "sw1: unmapped Software registry label EuroQol Valuation Technology (EQ-VT) (version 2.1)",
+        "sw2: unmapped Software registry label xreg package",
+        "sw3: unmapped Software registry label Zoom",
+        "mod1: unmapped Model registry label ADD20 Tobit regression specification",
+        "mod2: unmapped Model registry label ADD20-I Tobit regression specification",
+        "mod3: unmapped Model registry label ADD20-P Tobit regression specification",
+        "mod4: unmapped Model registry label CALE Tobit regression specification",
+        "mod5: unmapped Model registry label CALE-I Tobit regression specification",
+        "mod6: unmapped Model registry label CALE-P Tobit regression specification",
+        "mod7: unmapped Model registry label recommended mapping function [43]",
+        "su1: unmapped Product registry label local EQ-5D-3L value set [16]"
+      ]
+    },
+    {
+      "record_id": "CNF-P002",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P003",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P004",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P005",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P006",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P007",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P008",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P009",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P010",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "mo2: unmapped Model registry label regression techniques"
+      ]
+    },
+    {
+      "record_id": "CNF-P011",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P012",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P013",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P014",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P015",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P016",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P017",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P018",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": [
+        "iu7: unmapped Instrument registry label EQ-5D proxy versions"
+      ]
+    },
+    {
+      "record_id": "CNF-P019",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "record_id": "CNF-P020",
+      "source_run": "pilot/ontology-development-v4/production/run-confirmation-final-02",
+      "disposition": "include-study",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

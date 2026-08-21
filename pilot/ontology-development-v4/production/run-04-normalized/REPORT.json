@@ -1,0 +1,505 @@
+{
+  "summary": {
+    "records": 20,
+    "record_sources": {
+      "pilot/ontology-development-v4/production/run-04-normalized": 20
+    },
+    "dispositions": {
+      "include-study": 19,
+      "publication-context": 1
+    },
+    "studies": 19,
+    "primary_families": {
+      "MEASUREMENT_PROPERTY_EVALUATION": 6,
+      "INSTRUMENT_VERSION_DEVELOPMENT": 1,
+      "POPULATION_REFERENCE_DESCRIPTION": 2,
+      "VALUE_SET_DEVELOPMENT": 1,
+      "EVIDENCE_SYNTHESIS": 1,
+      "METHODS_RESEARCH": 2,
+      "HEALTH_PREFERENCE_RESEARCH": 1,
+      "APPLIED_USE_RESEARCH": 2,
+      "HEALTH_OUTCOME_RESEARCH": 2,
+      "CONCEPTUAL_FRAMEWORK_DEVELOPMENT": 1
+    },
+    "item_types": {
+      "Purpose": 33,
+      "StudyPart": 33,
+      "Design": 137,
+      "Population": 23,
+      "Sample": 64,
+      "DataUse": 40,
+      "InstrumentUse": 99,
+      "MethodUse": 127,
+      "ProtocolUse": 13,
+      "ModelUse": 24,
+      "TaskDesign": 14,
+      "StudyFactor": 60,
+      "Administration": 33,
+      "StakeholderInvolvement": 6,
+      "Outcome": 57,
+      "Limitation": 68,
+      "Product": 9,
+      "ProductStateAssertion": 10,
+      "Concept": 40,
+      "Finding": 113,
+      "Interpretation": 46,
+      "SourceConflict": 16,
+      "ScoringUse": 35
+    },
+    "unmapped_registry": 5,
+    "gaps": 0,
+    "source_conflicts": 16,
+    "validation": {
+      "expected": 20,
+      "present": 20,
+      "valid": 20,
+      "errors": 0,
+      "warnings": 5,
+      "dispositions": {
+        "include-study": 19,
+        "publication-context": 1
+      }
+    },
+    "run": null
+  },
+  "unmapped_registry": [
+    {
+      "record_id": "C50-P032",
+      "type": "InstrumentUse",
+      "source_label": "13 additional questions about their HRQoL (ie, EQ-5D bolt-ons)"
+    },
+    {
+      "record_id": "R129-P014",
+      "type": "ProtocolUse",
+      "source_label": "common standardized protocol"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "non‐parametric method"
+    },
+    {
+      "record_id": "R129-P001",
+      "type": "MethodUse",
+      "source_label": "direct method"
+    },
+    {
+      "record_id": "R129-P106",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L anxiety/depression dimension"
+    }
+  ],
+  "gaps": [],
+  "source_conflicts": [
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Total number of Phase 1 sorting and response scaling interviews",
+      "statements": [
+        {
+          "statement": "The text reports a total of 255 sorting and response scaling interviews.",
+          "source": [
+            "Full article: Abstract, Results",
+            "Full article: Results, Phase 1, Sorting and response scaling interviews, first paragraph"
+          ]
+        },
+        {
+          "statement": "Table 3 reports country sample sizes of 64, 72, 60, and 58, which total 254.",
+          "source": [
+            "Full article: Results, Phase 1, Table 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 1, first paragraph and Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Reported range of country-specific preference for the EQ-5D-Y-5L",
+      "statements": [
+        {
+          "statement": "The abstract states that 68–88% of participants per country preferred the 5L version.",
+          "source": [
+            "Full article: Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The detailed results report Germany 88%, Spain 68%, and Sweden 66%, giving a range of 66–88%.",
+          "source": [
+            "Full article: Results, Phase 2, preference paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, Phase 2, preference paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Number of respondents who completed both questionnaires in the main survey",
+      "statements": [
+        {
+          "statement": "The abstract states that 1056 respondents completed EQ-5D-5L and WHOQOL-BREF.",
+          "source": [
+            "Full article, Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The results state that 10 of the 1056 EQ-5D-5L respondents did not complete WHOQOL-BREF, leaving 1046 for WHOQOL-BREF norms analysis.",
+          "source": [
+            "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Results > WHOQOL-BREF population norm, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Administration mode of the Indonesian FACIT-COST",
+      "statements": [
+        {
+          "statement": "The abstract reports that the official Indonesian FACIT-COST (v2) was administered to patients by interviewers.",
+          "source": [
+            "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The full Methods report that patients completed the paper-and-pencil questionnaire themselves, with research assistants available to provide explanations when needed.",
+          "source": [
+            "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+          ]
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-024-02303-5.xml — Abstract > Methods",
+        "doi_10.1186_s12955-024-02303-5.xml — Methods > Data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Number of included studies evaluating EQ-5D-5L",
+      "statements": [
+        {
+          "statement": "The abstract reports that EQ-5D-5L was evaluated in seven studies.",
+          "source": [
+            "Full article, Abstract > Results"
+          ]
+        },
+        {
+          "statement": "The main Results section reports that EQ-5D-5L was tested in eight studies and cites eight included studies.",
+          "source": [
+            "Full article, Results > Study Characteristics, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Significance of the difference between elicited and confirmed utilities by health state",
+      "statements": [
+        {
+          "statement": "The Results prose states that confirmed utilities were significantly lower for all health states except state 24443, for which p = 0.39.",
+          "source": [
+            "Full article, Results, Elicited, confirmed and corrected cTTO utilities, first paragraph"
+          ]
+        },
+        {
+          "statement": "Table 4 shows no significance marker for state 22434 and shows a significance marker for state 24443 in the elicited-versus-confirmed comparison.",
+          "source": [
+            "Full article, Results, Table 4, row 'Sig. (Elicited vs. confirmed)'"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, Elicited, confirmed and corrected cTTO utilities, first paragraph",
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Labels of confirmed-minus-corrected difference rows in Table 4",
+      "statements": [
+        {
+          "statement": "For state 55555, Table 4 reports confirmed utility −0.72, constant-alternative corrected utility −0.94, and maximum-BTD corrected utility −3.41.",
+          "source": [
+            "Full article, Results, Table 4, utility rows"
+          ]
+        },
+        {
+          "statement": "For state 55555, the difference row labeled constant alternative reports 2.69, while the row labeled maximum BTD reports 0.22; these labels conflict with the reported utility means.",
+          "source": [
+            "Full article, Results, Table 4, difference rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Inclusion of self-rated health as an independent variable in the regression analysis",
+      "statements": [
+        {
+          "statement": "The abstract states that the independent variables included self-rated health.",
+          "source": [
+            "Full article, Abstract > Methods"
+          ]
+        },
+        {
+          "statement": "The reported regression specification and Table 2 do not list self-rated health among the examined independent variables.",
+          "source": [
+            "Full article, Methods > Data Analysis",
+            "Full article, Results > Determinants of Time Trade-Off Scores of Health States, Table 2"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Data Analysis",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Percentages reported for willingness to answer future EQ-5D questionnaires",
+      "statements": [
+        {
+          "statement": "The Abstract reports 115 patients as 67.3% and 35 patients as 20.5%.",
+          "source": [
+            "Full article, Abstract"
+          ]
+        },
+        {
+          "statement": "The Results and Discussion report 115 patients as 71.9% and 35 patients as 21.9%.",
+          "source": [
+            "Full article, Results, Section 3.2 and Figure 2",
+            "Full article, Discussion, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract",
+        "Full article, Results, Section 3.2 and Figure 2",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Standard deviation of mean EQ-5D-5L index change in pulmonary rehabilitation",
+      "statements": [
+        {
+          "statement": "The abstract reports a mean index change of 0.02 with SD 0.13.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The program-specific Results section reports an average index increase of 0.02 with SD 0.12.",
+          "source": [
+            "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf2",
+      "study_id": "s1",
+      "part_id": "part4",
+      "scope": "Mean and standard deviation of EQ VAS change in physiotherapy",
+      "statements": [
+        {
+          "statement": "The abstract reports a VAS change of 1.2 with SD 0.9 in physiotherapy.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The program-specific Results section reports a VAS increase of 12.2 points with SD 18.4 in physiotherapy.",
+          "source": [
+            "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3"
+          ]
+        },
+        {
+          "statement": "Table 2 reports mean VAS scores of 68.2 at intake and 80.4 at end of rehabilitation, a difference of 12.2 points.",
+          "source": [
+            "Full article, Table 2"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Percentage of patients undergoing chemotherapy at the time of the survey",
+      "statements": [
+        {
+          "statement": "The narrative reports 11.33% undergoing chemotherapy.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports 37 patients and 12.3% undergoing chemotherapy.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, Table 1"
+          ]
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Patient characteristics, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Pearson correlation between FACIT-COST total score and EQ VAS",
+      "statements": [
+        {
+          "statement": "The results narrative reports a correlation of 0.44.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 4 reports a correlation of 0.35.",
+          "source": [
+            "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "input/projects/1644-RA/papers/doi_10.1007_s11136-025-03925-y.xml — Results > Correlations between FACIT-COST, EQ-5D-5L, and EQ-HWB, paragraph 1 and Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Rates of respondents reporting any problems on the pain/discomfort and anxiety/depression dimensions",
+      "statements": [
+        {
+          "statement": "The Abstract reports that pain/discomfort and anxiety/depression had problem rates of 43% and 39%, respectively.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "Table 5 reports level-1 rates of 50% for pain/discomfort and 55% for anxiety/depression, which implies approximately 50% and 45%, respectively, at levels 2–5.",
+          "source": [
+            "Full article, Results, Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, Table 5"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "End date of 2022–2023 data collection",
+      "statements": [
+        {
+          "statement": "The Abstract and Discussion state that data collection ran through May 2023.",
+          "source": [
+            "Full article, Abstract, Methods",
+            "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, paragraph 1"
+          ]
+        },
+        {
+          "statement": "The Methods state that survey 3 was conducted from March to August 2023.",
+          "source": [
+            "Full article, Methods, Data collection, paragraph 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Data collection, paragraph 4",
+        "Full article, Discussion, The covid pandemic and the 2022–2023 data collection, paragraph 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Test-retest reliability summary versus the reported results in Table 5",
+      "statements": [
+        {
+          "statement": "The Results text contains the phrase that agreement occurred “across all EQ-TIPS dimensions and the LSS.”",
+          "source": [
+            "Full article, Results—Test-retest reliability, paragraph before Table 5"
+          ]
+        },
+        {
+          "statement": "Table 5 reports nonsignificant agreement for relationships, communication, and the level sum score, while movement, play, pain, eating, and the VAS are significant.",
+          "source": [
+            "Full article, Results—Test-retest reliability, Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results—Test-retest reliability, paragraph before Table 5 and Table 5"
+      ]
+    }
+  ]
+}

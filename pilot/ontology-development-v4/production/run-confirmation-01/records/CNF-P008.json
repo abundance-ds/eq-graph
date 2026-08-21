@@ -1,0 +1,1098 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P008",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "The EuroQol support team provided guidance and support during study preparation, data collection, and the quality-control process.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly examines and adapts the EQ-VT-2.1 valuation protocol and EQ-5D-5L health-state presentation for use in Egypt. The acknowledgments explicitly link EuroQol support to study preparation, data collection, and quality control.",
+    "source": [
+      "Title and Abstract—Objectives, Design, Results, and Conclusion",
+      "Introduction—final paragraph",
+      "Acknowledgments",
+      "Methods—QC process and pilot phase"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Egyptian EQ-VT protocol adaptation and feasibility study",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The main contribution is an evaluation and cultural adaptation of the EQ-VT-2.1 protocol, including its feasibility, acceptability, accessibility, and quality-control procedures. The article does not report a new value set as its principal output.",
+      "source": [
+        "Abstract—Objectives and Conclusion",
+        "Introduction—final paragraph",
+        "Discussion—first two paragraphs",
+        "Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Cross-sectional Egyptian EQ-VT adaptation and feasibility study",
+      "source": [
+        "Methods—Study design",
+        "Methods—QC process and pilot phase"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "METHOD_OR_PROTOCOL_QUALITY",
+      "rank": 1,
+      "source": [
+        "Abstract—Objectives",
+        "Introduction—final paragraph",
+        "Discussion—first paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "IMPLEMENTATION_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Methods—QC process and pilot phase",
+        "Abstract—Conclusion",
+        "Conclusions"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "pur3",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "INSTRUMENT_DEVELOPMENT",
+      "rank": 3,
+      "source": [
+        "Results—Colour coding of the severity levels",
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Abstract—Design",
+        "Methods—Study design",
+        "Methods—Data analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Abstract—Design",
+        "Methods—Study design"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Methods—Data analysis",
+        "Results—Study sample characteristics, Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Methods—Study population and sampling method"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "synthesis_design",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Methods—Study design"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Egyptian general population aged 18 years or older",
+      "role": "study participants",
+      "geographies": [
+        "Egypt"
+      ],
+      "conditions": [],
+      "age_description": "18 years or older; analyzed questionnaire sample had an age range of 18–75 years",
+      "inclusion_description": "Participants gave written informed consent and could understand the valuation tasks during familiarization with the initial example and practice health states.",
+      "source": [
+        "Methods—Study population and sampling method",
+        "Results—Study sample characteristics, Table 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 1378,
+      "size_text": "1378 interviews were conducted",
+      "unit": "participants",
+      "description": "Participants who started an interview from July 2019 through March 2020.",
+      "source": [
+        "Abstract—Participants",
+        "Results—Study sample characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 75,
+      "size_text": "75 incomplete interviews",
+      "unit": "participants",
+      "description": "Participants who did not complete the interview.",
+      "source": [
+        "Abstract—Participants",
+        "Results—Study sample characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 298,
+      "size_text": "298 pilot interviews",
+      "unit": "participants",
+      "description": "Interviews in the extensive pilot phase.",
+      "source": [
+        "Abstract—Participants",
+        "Methods—QC process and pilot phase"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "COMPLETED",
+      "size": 1005,
+      "size_text": "1005 actual data-collection interviews",
+      "unit": "participants",
+      "description": "Interviews conducted after the pilot phase.",
+      "source": [
+        "Abstract—Participants"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 974,
+      "size_text": "974 interviews used for the valuation study",
+      "unit": "participants",
+      "description": "Actual data-collection interviews retained for the valuation study.",
+      "source": [
+        "Abstract—Participants",
+        "Results—Study sample characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 1301,
+      "size_text": "1301 responses analyzed",
+      "unit": "participants",
+      "description": "Participants included in the final analysis of country-specific questionnaire responses.",
+      "source": [
+        "Abstract—Participants",
+        "Results—Study sample characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-VT interview responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Identify valuation-protocol challenges, test adaptations, and monitor valuation data quality.",
+      "source": [
+        "Methods—Study design",
+        "Methods—QC process and pilot phase"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "country-specific questionnaire responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Describe participant characteristics and opinions about health, life, death, illness, and religious compatibility of the valuation tasks.",
+      "source": [
+        "Methods—Study preparation",
+        "Methods—Data analysis",
+        "Results—Country-specific questionnaire"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "written interviewer feedback after each interview",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "QUALITATIVE_MATERIAL",
+      "purpose": "Record and anticipate challenges in the interview process.",
+      "source": [
+        "Methods—Interviewers’ training, final paragraph",
+        "Results—Other challenges reported by the interviewers"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Egyptian official statistics updated in March 2019",
+      "origin": "DOCUMENTARY_SOURCE",
+      "level": "AGGREGATE_ESTIMATE",
+      "purpose": "Set sampling quotas and compare sample characteristics with the Egyptian general population.",
+      "source": [
+        "Methods—Study population and sampling method",
+        "Results—Study sample characteristics, Table 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Arabic version of the EQ-5D-5L",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "DEVELOPMENT_OBJECT",
+      "source": [
+        "Methods—Study preparation",
+        "Results—Colour coding of the severity levels"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L health states",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Introduction—description of cTTO and DCE tasks",
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L descriptive system",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Results—Colour coding of the severity levels",
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "country-specific questionnaire designed for the Egyptian valuation study",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Methods—Study design",
+        "Methods—Study preparation"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "composite time trade off (cTTO)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Introduction—second paragraph",
+        "Methods—QC process and pilot phase",
+        "Results—Wheelchair example"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "discrete choice experiment (DCE)",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Introduction—second paragraph",
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "multistratified quota sampling",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Methods—Study population and sampling method"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "QC tool",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Methods—QC process and pilot phase"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "descriptive statistics",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods—Data analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "one sample z-test for a population proportion",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods—Data analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "χ2 goodness-of-fit test",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Methods—Data analysis",
+        "Results—Country-specific questionnaire, Figure 1 caption"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu8",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "asking them about their feedback",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITATIVE_DATA_COLLECTION",
+      "source": [
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-VT-2.1 protocol",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "VALUATION_PROTOCOL",
+      "source": [
+        "Abstract—Design",
+        "Methods—Study design",
+        "Conclusions"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "QC process for the EQ-5D-5L valuation studies",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL_PROTOCOL",
+      "source": [
+        "Methods—QC process and pilot phase"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu1",
+        "pu1",
+        "iu2"
+      ],
+      "label": "cTTO valuation and familiarization tasks",
+      "profiles": [
+        "initial better-than-dead example changed from wheelchair to migraine",
+        "worse-than-dead familiarization task",
+        "three practice health states",
+        "EQ-5D-5L health states"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "no problems",
+        "mild",
+        "moderate",
+        "severe",
+        "extreme/not able"
+      ],
+      "duration": null,
+      "alternatives": "Full health and time are traded against an EQ-5D-5L health state using better-than-dead and worse-than-dead elements.",
+      "task_count": null,
+      "block": null,
+      "order": "The better-than-dead element was explained before the worse-than-dead element.",
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Introduction—second paragraph",
+        "Results—Wheelchair example",
+        "Figure 2 caption"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "mu2",
+        "pu1",
+        "iu2"
+      ],
+      "label": "DCE paired health-state choice tasks",
+      "profiles": [
+        "pairs of EQ-5D-5L health states"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "no problems",
+        "mild",
+        "moderate",
+        "severe",
+        "extreme/not able"
+      ],
+      "duration": null,
+      "alternatives": "Two health states with different severity levels; the participant selects the preferred state.",
+      "task_count": null,
+      "block": null,
+      "order": null,
+      "randomization_unit": null,
+      "stopping_rule": null,
+      "source": [
+        "Introduction—second paragraph",
+        "Figure 2 caption"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu2",
+        "iu3",
+        "iu4",
+        "mu1",
+        "mu2",
+        "pu1"
+      ],
+      "respondent": "Adult Egyptian participants",
+      "perspective": "Participants imagined the health states for themselves and reported their own views.",
+      "completion": "Interviewer-administered",
+      "assistance": "Interviewers explained tasks and asked participants to read health states aloud.",
+      "channel": "Face-to-face interview",
+      "setting": "Quiet areas at workplaces, university campuses, sporting clubs, shopping malls, and other public recruitment sites in Egyptian governorates",
+      "instrument_language": "Arabic",
+      "interview_language": "Arabic",
+      "recall_period": null,
+      "time_point": "July 2019 to March 2020",
+      "source": [
+        "Abstract—Design and Setting",
+        "Methods—Study design",
+        "Methods—Study population and sampling method",
+        "Methods—Interviewers’ training"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu2",
+        "iu3",
+        "mu1",
+        "mu2",
+        "pu1"
+      ],
+      "respondent": "Illiterate and less educated participants who could not read the tasks properly",
+      "perspective": "Participants imagined the health states for themselves.",
+      "completion": "Interviewer-administered with visual and oral assistance",
+      "assistance": "Interviewers read each health state aloud twice and placed color-coded cards on graphics for the five dimensions.",
+      "channel": "Face-to-face interview with pictorial representations and colored cards",
+      "setting": "Study interview setting",
+      "instrument_language": "Arabic with pictorial and color-coded presentation",
+      "interview_language": "Arabic",
+      "recall_period": null,
+      "time_point": "During the EQ-VT interview",
+      "source": [
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "StakeholderInvolvement",
+      "id": "si1",
+      "study_id": "s1",
+      "part_id": null,
+      "group": "EuroQol support team",
+      "activity": "Periodic review of QC reports, challenges, proposed adaptations, and the pictorial tool",
+      "stage": "Study preparation, pilot phase, and data collection",
+      "role": "Technical guidance and joint review",
+      "influence": "The team helped select the migraine example, evaluated the pictorial and color-coded tool, and supported protocol modification and quality control.",
+      "source": [
+        "Methods—Study preparation",
+        "Methods—QC process and pilot phase",
+        "Results—Wheelchair example",
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants",
+        "Acknowledgments"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "FEASIBILITY",
+      "label": "Feasibility of the adapted EQ-VT protocol for Egyptian participants",
+      "instrument_use_ids": [],
+      "source": [
+        "Methods—QC process and pilot phase",
+        "Abstract—Conclusion",
+        "Conclusions"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "USABILITY_OR_ACCEPTABILITY",
+      "label": "Cultural, religious, linguistic, and literacy-related acceptability of the valuation protocol and tasks",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2"
+      ],
+      "source": [
+        "Methods—QC process and pilot phase",
+        "Results—Challenges in the interview process",
+        "Discussion"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Participant opinions about health, life, death, illness, religion, and the relative importance of EQ-5D dimensions",
+      "instrument_use_ids": [
+        "iu4"
+      ],
+      "source": [
+        "Methods—Study preparation",
+        "Results—Country-specific questionnaire"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o4",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Protocol compliance, interviewer performance, and quality of collected valuation data",
+      "instrument_use_ids": [],
+      "source": [
+        "Methods—Interviewers’ training",
+        "Methods—QC process and pilot phase"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Twelve of the first 18 pilot participants considered being in a wheelchair worse than being dead, so the initial cTTO example was changed from a wheelchair to migraine.",
+      "about": [
+        "o1",
+        "o2",
+        "mu1",
+        "td1"
+      ],
+      "values": [
+        {
+          "reported_value": "12 of 18",
+          "unit": "participants",
+          "denominator": "18 early pilot participants",
+          "time": "early pilot interviews",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "considered the wheelchair state worse than dead",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Results—Wheelchair example"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Arabic wording for levels 4 and 5 caused ambiguity in the pain/discomfort and anxiety/depression dimensions. Color coding was used to distinguish severity, and the EuroQol Version Management Committee decided to change the wording after the researchers' recommendation.",
+      "about": [
+        "o1",
+        "o2",
+        "iu1"
+      ],
+      "values": [],
+      "source": [
+        "Results—Colour coding of the severity levels"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The pictorial and color-coded health-state tool was tested with three illiterate participants and was then used for 116 participants who could not read the tasks properly.",
+      "about": [
+        "o1",
+        "o2",
+        "product1"
+      ],
+      "values": [
+        {
+          "reported_value": "3",
+          "unit": "participants",
+          "denominator": null,
+          "time": "tool testing before actual interviews",
+          "subgroup": "illiterate participants",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "116",
+          "unit": "participants",
+          "denominator": null,
+          "time": "study interviews",
+          "subgroup": "illiterate or poorly educated participants",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Most questionnaire respondents reported no conflict between the valuation tasks and their religious beliefs and reported that religion did not influence their task responses.",
+      "about": [
+        "o2",
+        "o3",
+        "iu4"
+      ],
+      "values": [
+        {
+          "reported_value": "92.4",
+          "unit": "percent",
+          "denominator": "1301 questionnaire respondents",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "reported no conflict with religious beliefs",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "87.2",
+          "unit": "percent",
+          "denominator": "1301 questionnaire respondents",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "reported that religious beliefs did not influence task responses",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Results—Country-specific questionnaire",
+        "Discussion—religious beliefs paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Seventy-five interviews were incomplete. The principal reported reasons were religious beliefs, inability to understand the valuation tasks, and interview length.",
+      "about": [
+        "o1",
+        "o2",
+        "sam2"
+      ],
+      "values": [
+        {
+          "reported_value": "75",
+          "unit": "participants",
+          "denominator": "1378 interviews",
+          "time": "July 2019 to March 2020",
+          "subgroup": null,
+          "comparator": null,
+          "direction": "incomplete interviews",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "30",
+          "unit": "participants",
+          "denominator": "75 incomplete interviews",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "incomplete because of religious beliefs",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "18",
+          "unit": "participants",
+          "denominator": "75 incomplete interviews",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "could not understand the valuation tasks",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "17",
+          "unit": "participants",
+          "denominator": "75 incomplete interviews",
+          "time": null,
+          "subgroup": null,
+          "comparator": null,
+          "direction": "incomplete because of interview length",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Results—Study sample characteristics, first paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "DCE tasks generally appeared more acceptable than TTO tasks because trading between life and death was difficult for some participants with religious concerns.",
+      "about": [
+        "o2",
+        "mu1",
+        "mu2"
+      ],
+      "values": [],
+      "source": [
+        "Results—Cultural and religious beliefs"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Mobility was ranked as the most important EQ-5D dimension by 41.2% of questionnaire respondents.",
+      "about": [
+        "o3",
+        "iu4"
+      ],
+      "values": [
+        {
+          "reported_value": "41.2",
+          "unit": "percent",
+          "denominator": "1301 questionnaire respondents",
+          "time": null,
+          "subgroup": null,
+          "comparator": "other EQ-5D dimensions",
+          "direction": "ranked mobility most important",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Results—Country-specific questionnaire"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors conclude that the EQ-VT modifications made the valuation study feasible and culturally acceptable for Egyptian participants.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f6"
+      ],
+      "source": [
+        "Abstract—Conclusion",
+        "Discussion—first paragraph",
+        "Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors conclude that EQ-VT may not fit every culture or language without change but is flexible enough to be adapted while its structure and quality-control process remain intact.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors recommend adding visual aids to EQ-VT software and consider collective consent and a migraine example potentially useful in culturally similar settings.",
+      "finding_ids": [
+        "f1",
+        "f3"
+      ],
+      "source": [
+        "Discussion—Recommendations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The sample differed from the general population on some background characteristics because the pilot interviews used a convenience sample of educated urban participants in Cairo.",
+      "about": [
+        "pop1",
+        "sam3"
+      ],
+      "source": [
+        "Discussion—limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The pictorial representation and EQ-5D-5L color-coding tools were not fully validated.",
+      "about": [
+        "product1",
+        "f3"
+      ],
+      "source": [
+        "Strengths and limitations of this study—final bullet",
+        "Discussion—limitations paragraph"
+      ]
+    },
+    {
+      "type": "Product",
+      "id": "product1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Pictorial representations and color-coded cards for EQ-5D-5L health states",
+      "product_type": "CHECKLIST_OR_TOOL",
+      "source": [
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants",
+        "Figure 2 caption"
+      ]
+    },
+    {
+      "type": "ProductStateAssertion",
+      "id": "psa1",
+      "study_id": "s1",
+      "part_id": null,
+      "product_id": "product1",
+      "axis": "DEVELOPMENT",
+      "exact_state": "Created by the Egyptian team, evaluated with the EuroQol support team, tested with three illiterate participants, and used in actual interviews.",
+      "assertion_date": null,
+      "asserted_by": "Egyptian research team with evaluation by the EuroQol support team",
+      "source": [
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Cultural adaptation of a standardized valuation protocol",
+      "description": "Standard EQ-VT elements can require changes when concepts such as disability, illness, life, and death have different cultural meanings.",
+      "about": [
+        "pu1",
+        "f1",
+        "f4",
+        "f6"
+      ],
+      "source": [
+        "Discussion—first two paragraphs",
+        "Conclusions"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Accessible valuation tasks for participants with limited literacy",
+      "description": "Pictorial health-state representations, color-coded severity levels, and oral presentation were used to make cTTO and DCE tasks accessible.",
+      "about": [
+        "product1",
+        "td1",
+        "td2",
+        "adm2"
+      ],
+      "source": [
+        "Results—Pictorial representation of EQ-5D-5L health states for illiterate and less educated participants",
+        "Discussion—second substantive paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Religious acceptability of worse-than-dead valuation",
+      "description": "Some participants found life-year trading or worse-than-dead states difficult because of religious beliefs, although most respondents reported no religious conflict.",
+      "about": [
+        "f4",
+        "f6",
+        "mu1"
+      ],
+      "source": [
+        "Results—Cultural and religious beliefs",
+        "Discussion—religious beliefs paragraph"
+      ]
+    }
+  ]
+}

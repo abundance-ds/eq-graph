@@ -1,0 +1,1041 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "R129-P106",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This study was funded by the EuroQol Research Foundation (Project 20190690).",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly examines the use of routinely collected EQ-5D-5L data to describe rehabilitation outcomes and support program-level service decisions. The EuroQol Research Foundation explicitly funded the study.",
+    "source": [
+      "Full article, title and Background, final paragraph",
+      "Full article, Conclusions",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Use of routinely collected EQ-5D-5L data to evaluate community rehabilitation services in Alberta",
+      "primary_research_family": "APPLIED_USE_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is the applied analysis and reporting of routine EQ-5D-5L data for rehabilitation program evaluation and service decisions. The study does not evaluate the implementation process itself.",
+      "source": [
+        "Full article, Abstract, Background and Conclusions",
+        "Full article, Background, final paragraph",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "pur1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "OUTCOME_DESCRIPTION",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract, Background",
+        "Full article, Background, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Overall routine PROM application and comparative analysis",
+      "source": [
+        "Full article, Methods, Data source and Statistical analysis"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Pulmonary rehabilitation program",
+      "source": [
+        "Full article, Methods, Data source, paragraphs 2-3",
+        "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Group-based community exercise program",
+      "source": [
+        "Full article, Methods, Data source, paragraph 4",
+        "Full article, Results, EQ-5D-5L in Group-based Community Exercise"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Physiotherapy for bone and joint care program",
+      "source": [
+        "Full article, Methods, Data source, paragraph 5",
+        "Full article, Results, EQ-5D-5L in Physiotherapy"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Statistical analysis"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "LONGITUDINAL_REPEATED",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Data source, paragraph 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_GROUP",
+      "source": [
+        "Full article, Methods, Statistical analysis, paragraphs 1 and 6"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Data source"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Adult patients receiving community rehabilitation services through the Alberta Health Services Rehabilitation Model of Care",
+      "role": "study population",
+      "geographies": [
+        "Alberta, Canada"
+      ],
+      "conditions": [
+        "Chronic lung conditions",
+        "Conditions affecting mobility and participation",
+        "Bone, joint, musculoskeletal, fracture, and postoperative orthopaedic conditions"
+      ],
+      "age_description": "18 years or older",
+      "inclusion_description": "Patients were eligible if they were willing and able to complete the survey. The analysis required complete intake and end-of-rehabilitation EQ-5D-5L data. Patients with cognitive impairment and records with both surveys completed on the same day were excluded.",
+      "source": [
+        "Full article, Methods, Data source, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam0",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ENROLLED",
+      "size": 2285,
+      "size_text": "2,285 rehabilitation patients",
+      "unit": "patients",
+      "description": "Source cohort with data drawn from electronic medical records between December 1, 2018, and April 30, 2021. The records covered 14 rehabilitation service types.",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "samx1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 107,
+      "size_text": "n = 107",
+      "unit": "records",
+      "description": "Records excluded because the intake and end-of-rehabilitation EQ-5D-5L surveys were completed on the same day.",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "samscope",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": null,
+      "stage": "ANALYZED",
+      "size": 3,
+      "size_text": "3 of 14 rehabilitation service types",
+      "unit": "rehabilitation service types",
+      "description": "The analysis was restricted to pulmonary rehabilitation, group-based community exercise, and physiotherapy for bone and joint care because these three service types had sufficient samples.",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 542,
+      "size_text": "n = 542",
+      "unit": "patients",
+      "description": "Patients who received pulmonary rehabilitation and had eligible paired EQ-5D-5L data.",
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 463,
+      "size_text": "n = 463",
+      "unit": "patients",
+      "description": "Patients who participated in group-based community exercise and had eligible paired EQ-5D-5L data.",
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Group-based Community Exercise, paragraph 1"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam3",
+      "study_id": "s1",
+      "part_id": "part4",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 391,
+      "size_text": "n = 391",
+      "unit": "patients",
+      "description": "Patients who received physiotherapy for bone and joint care and had eligible paired EQ-5D-5L data.",
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 1"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "routinely collected EQ-5D-5L and demographic survey data drawn from electronic medical records",
+      "origin": "ROUTINE_SERVICE_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Secondary analysis of paired intake and end-of-rehabilitation responses for program evaluation.",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1",
+        "Full article, Declarations, Ethics approval and consent to participate"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Alberta Population Norms for EQ-5D-5L",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "AGGREGATE_ESTIMATE",
+      "purpose": "Comparison of rehabilitation patients' EQ-5D-5L results with Alberta general population norms.",
+      "source": [
+        "Full article, Table 2 and footnote a",
+        "Full article, Results, Rehabilitation patients compared to Alberta general population"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1",
+        "Full article, Methods, Measures, paragraph 1"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L anxiety/depression dimension",
+      "registry_id": null,
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "PREDICTOR_MEASURE",
+      "source": [
+        "Full article, Methods, Statistical analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "visual analogue scale (VAS)",
+      "registry_id": "instrument:eq-vas",
+      "context": "INPUT_DATA_PROVENANCE",
+      "function": "OUTCOME_MEASURE",
+      "source": [
+        "Full article, Methods, Measures, paragraph 1",
+        "Full article, Methods, Statistical analysis"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu1",
+      "source_label": "Canadian EQ-5D-5L value set",
+      "registry_id": "product:eq-5d-5l-ca",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Methods, Measures, paragraph 1"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Pareto Classification of Health Change (PCHC)",
+      "registry_id": "method:paretian-classification-of-health-change",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Statistical analysis, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "minimally important difference (MID)",
+      "registry_id": "method:minimally-important-difference-mid",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Statistical analysis, paragraphs 3-5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "effect size of the change",
+      "registry_id": "method:standardized-effect-size",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Statistical analysis, paragraph 5"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "chi-squared tests",
+      "registry_id": "method:chi-square-test",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Statistical analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Rehabilitation service program",
+      "levels": [
+        "Pulmonary rehabilitation",
+        "Group-based community exercise",
+        "Physiotherapy for bone and joint care"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods, Data source, paragraph 2",
+        "Full article, Methods, Statistical analysis, paragraph 1"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Age group",
+      "levels": [
+        "18-24",
+        "25-44",
+        "45-64",
+        "65-74",
+        "≥75"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods, Measures, paragraph 1",
+        "Full article, Table 1",
+        "Full article, Methods, Statistical analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Gender",
+      "levels": [
+        "Male",
+        "Female"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods, Measures, paragraph 1",
+        "Full article, Table 1",
+        "Full article, Methods, Statistical analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Region",
+      "levels": [
+        "Urban",
+        "Rural"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods, Measures, paragraph 1",
+        "Full article, Table 1",
+        "Full article, Methods, Statistical analysis, final paragraph"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf5",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Anxiety/depression at intake",
+      "levels": [
+        "No problems (level 1)",
+        "Problems (levels 2-5)"
+      ],
+      "role": "EXPOSURE_OR_DETERMINANT",
+      "source": [
+        "Full article, Methods, Statistical analysis, final paragraph",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "iu2"
+      ],
+      "respondent": "patient",
+      "perspective": "self-reported health",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "iPad, laptop computer, or paper",
+      "setting": "community and outpatient rehabilitation services",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "intake and end of rehabilitation care",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "adm2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu3"
+      ],
+      "respondent": "patient",
+      "perspective": "self-rated health",
+      "completion": "self-completion",
+      "assistance": null,
+      "channel": "iPad, laptop computer, or paper",
+      "setting": "community and outpatient rehabilitation services",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": "today",
+      "time_point": "intake and end of rehabilitation care",
+      "source": [
+        "Full article, Methods, Data source, paragraph 1",
+        "Full article, Methods, Measures, paragraph 1"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "HEALTH_STATUS_OR_EQ_VAS",
+      "label": "Patient characteristics and change in EQ-5D-5L dimensions, index score, EQ VAS, and total sum score from intake to end of rehabilitation",
+      "instrument_use_ids": [
+        "iu1",
+        "iu3"
+      ],
+      "source": [
+        "Full article, Abstract, Methods and Results",
+        "Full article, Methods, Statistical analysis"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Mean EQ-5D-5L index scores were below the Alberta population norm at intake in all three programs and increased by the end of rehabilitation.",
+      "about": [
+        "o1",
+        "sf1",
+        "du2"
+      ],
+      "values": [
+        {
+          "reported_value": "0.73 to 0.75",
+          "unit": "mean EQ-5D-5L index score",
+          "denominator": "pulmonary rehabilitation, N=542",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Pulmonary rehabilitation",
+          "comparator": "Alberta overall norm: 0.84",
+          "direction": "increase",
+          "uncertainty": "SD 0.17 at both time points"
+        },
+        {
+          "reported_value": "0.70 to 0.76",
+          "unit": "mean EQ-5D-5L index score",
+          "denominator": "group-based community exercise, N=463",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Group-based community exercise",
+          "comparator": "Alberta overall norm: 0.84",
+          "direction": "increase",
+          "uncertainty": "SD 0.18 at intake and 0.16 at end"
+        },
+        {
+          "reported_value": "0.71 to 0.84",
+          "unit": "mean EQ-5D-5L index score",
+          "denominator": "physiotherapy, N=391",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Physiotherapy",
+          "comparator": "Alberta overall norm: 0.84",
+          "direction": "increase",
+          "uncertainty": "SD 0.17 at intake and 0.11 at end"
+        }
+      ],
+      "source": [
+        "Full article, Table 2",
+        "Full article, Results, Rehabilitation patients compared to Alberta general population"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Health-status improvement was largest in physiotherapy, intermediate in community exercise, and smallest in pulmonary rehabilitation.",
+      "about": [
+        "o1",
+        "sf1"
+      ],
+      "values": [
+        {
+          "reported_value": "0.02",
+          "unit": "EQ-5D-5L index-score points",
+          "denominator": "pulmonary rehabilitation patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Pulmonary rehabilitation",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 0.12; effect size 0.1"
+        },
+        {
+          "reported_value": "6.0",
+          "unit": "EQ VAS points",
+          "denominator": "pulmonary rehabilitation patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Pulmonary rehabilitation",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 18.3; effect size 0.31"
+        },
+        {
+          "reported_value": "−0.45",
+          "unit": "EQ-5D-5L total sum-score points",
+          "denominator": "pulmonary rehabilitation patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Pulmonary rehabilitation",
+          "comparator": null,
+          "direction": "improvement",
+          "uncertainty": "SD 2.35; effect size 0.13"
+        },
+        {
+          "reported_value": "0.06",
+          "unit": "EQ-5D-5L index-score points",
+          "denominator": "group-based community exercise patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Group-based community exercise",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 0.13; effect size 0.3"
+        },
+        {
+          "reported_value": "6.6",
+          "unit": "EQ VAS points",
+          "denominator": "group-based community exercise patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Group-based community exercise",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 18.7; effect size 0.4"
+        },
+        {
+          "reported_value": "−1.22",
+          "unit": "EQ-5D-5L total sum-score points",
+          "denominator": "group-based community exercise patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Group-based community exercise",
+          "comparator": null,
+          "direction": "improvement",
+          "uncertainty": "SD 2.39; effect size 0.4"
+        },
+        {
+          "reported_value": "0.13",
+          "unit": "EQ-5D-5L index-score points",
+          "denominator": "physiotherapy patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Physiotherapy",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 0.16; effect size 0.8"
+        },
+        {
+          "reported_value": "12.2",
+          "unit": "EQ VAS points",
+          "denominator": "physiotherapy patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Physiotherapy",
+          "comparator": null,
+          "direction": "increase",
+          "uncertainty": "SD 18.4; effect size 0.7"
+        },
+        {
+          "reported_value": "−2.81",
+          "unit": "EQ-5D-5L total sum-score points",
+          "denominator": "physiotherapy patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Physiotherapy",
+          "comparator": null,
+          "direction": "improvement",
+          "uncertainty": "SD 2.79; effect size 1.0"
+        }
+      ],
+      "source": [
+        "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3",
+        "Full article, Results, EQ-5D-5L in Group-based Community Exercise, paragraph 3",
+        "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The proportion classified as improved by the EQ-5D-5L index was highest in physiotherapy and lowest in pulmonary rehabilitation.",
+      "about": [
+        "o1",
+        "sf1",
+        "mu2"
+      ],
+      "values": [
+        {
+          "reported_value": "38.4",
+          "unit": "percent improved",
+          "denominator": "pulmonary rehabilitation patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Pulmonary rehabilitation",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "51.2",
+          "unit": "percent improved",
+          "denominator": "group-based community exercise patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Group-based community exercise",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "72.4",
+          "unit": "percent improved",
+          "denominator": "physiotherapy patients",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Physiotherapy",
+          "comparator": null,
+          "direction": "improved",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, program-specific sections",
+        "Full article, Figure 1",
+        "Full article, Discussion, paragraph 1"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Patients who reported anxiety/depression problems at intake were more likely to improve than patients who reported no anxiety/depression problems in all three programs.",
+      "about": [
+        "o1",
+        "sf5"
+      ],
+      "values": [
+        {
+          "reported_value": "46.0 versus 26.3",
+          "unit": "percent improved on EQ-5D-5L index",
+          "denominator": "pulmonary rehabilitation index-score analysis",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Problems versus no problems at intake",
+          "comparator": "No problems (level 1)",
+          "direction": "higher with problems at intake",
+          "uncertainty": "p<0.001"
+        },
+        {
+          "reported_value": "58.0 versus 41.3",
+          "unit": "percent improved on EQ-5D-5L index",
+          "denominator": "group-based community exercise index-score analysis",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Problems versus no problems at intake",
+          "comparator": "No problems (level 1)",
+          "direction": "higher with problems at intake",
+          "uncertainty": "p=0.002"
+        },
+        {
+          "reported_value": "83.3 versus 64.6",
+          "unit": "percent improved on EQ-5D-5L index",
+          "denominator": "physiotherapy index-score analysis",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Problems versus no problems at intake",
+          "comparator": "No problems (level 1)",
+          "direction": "higher with problems at intake",
+          "uncertainty": "p<0.001"
+        }
+      ],
+      "source": [
+        "Full article, Table 3",
+        "Full article, Results, Distribution of self-reported health by service program, paragraphs 1-3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Age was associated with EQ VAS change in pulmonary rehabilitation, and urban residence was associated with greater total sum-score improvement in community exercise.",
+      "about": [
+        "o1",
+        "sf2",
+        "sf4"
+      ],
+      "values": [
+        {
+          "reported_value": "0.014",
+          "unit": "p-value",
+          "denominator": "pulmonary rehabilitation VAS analysis, n=523",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Age groups",
+          "comparator": null,
+          "direction": "older groups had larger proportions improved",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "65.2 versus 52.1",
+          "unit": "percent improved on total sum score",
+          "denominator": "group-based community exercise total sum-score analysis, n=457",
+          "time": "intake to end of rehabilitation",
+          "subgroup": "Urban versus rural",
+          "comparator": "Rural",
+          "direction": "higher in urban participants",
+          "uncertainty": "p=0.009"
+        }
+      ],
+      "source": [
+        "Full article, Table 3",
+        "Full article, Results, Distribution of self-reported health by service program, paragraphs 1-2"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Gender was not significantly associated with change categories for the index, EQ VAS, or total sum score in any of the three programs.",
+      "about": [
+        "o1",
+        "sf3"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors conclude that routine EQ-5D-5L data can inform program- and service-level decisions, future program growth, and service changes in community rehabilitation.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "source": [
+        "Full article, Abstract, Conclusions",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors suggest that routine EQ-5D-5L collection and analysis can strengthen a quality-improvement culture, while results should be used with other patient measures.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The observational design does not provide a rigorous assessment of the effectiveness of community rehabilitation, and deterioration without rehabilitation is unknown.",
+      "about": [
+        "d2",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “A multi-level framework”",
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Selection bias, non-response bias, differential loss to follow-up, exclusion of people with cognitive issues, and incomplete implementation across Alberta sites can limit representativeness.",
+      "about": [
+        "pop1",
+        "sam0",
+        "sam1",
+        "sam2",
+        "sam3"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim3",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Regression to the mean and greater room for change among patients with baseline problems can overestimate observed improvement.",
+      "about": [
+        "o1",
+        "sf5"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The generic EQ-5D-5L might not capture condition-specific effects or all rehabilitation effects on health-related quality of life.",
+      "about": [
+        "iu1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “A multi-level framework”",
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The EQ-5D-5L records could not be linked to other patient data, which limited analysis and interpretation.",
+      "about": [
+        "du1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Meso-level use of routinely collected PROMs",
+      "description": "Aggregated patient-reported outcome data are analyzed within an organization to monitor outcomes and evaluate programs or services.",
+      "about": [
+        "iu1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraph beginning “A multi-level framework”",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "EQ-5D-5L as a rehabilitation quality indicator",
+      "description": "Routine EQ-5D-5L data can identify service-level outcomes and issues that require further investigation and quality improvement.",
+      "about": [
+        "iu1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Background, paragraphs 2-4",
+        "Full article, Discussion, paragraphs 1-2",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Standard deviation of mean EQ-5D-5L index change in pulmonary rehabilitation",
+      "statements": [
+        {
+          "statement": "The abstract reports a mean index change of 0.02 with SD 0.13.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The program-specific Results section reports an average index increase of 0.02 with SD 0.12.",
+          "source": [
+            "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Pulmonary Rehabilitation, paragraph 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf2",
+      "study_id": "s1",
+      "part_id": "part4",
+      "scope": "Mean and standard deviation of EQ VAS change in physiotherapy",
+      "statements": [
+        {
+          "statement": "The abstract reports a VAS change of 1.2 with SD 0.9 in physiotherapy.",
+          "source": [
+            "Full article, Abstract, Results"
+          ]
+        },
+        {
+          "statement": "The program-specific Results section reports a VAS increase of 12.2 points with SD 18.4 in physiotherapy.",
+          "source": [
+            "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3"
+          ]
+        },
+        {
+          "statement": "Table 2 reports mean VAS scores of 68.2 at intake and 80.4 at end of rehabilitation, a difference of 12.2 points.",
+          "source": [
+            "Full article, Table 2"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract, Results",
+        "Full article, Results, EQ-5D-5L in Physiotherapy, paragraph 3",
+        "Full article, Table 2"
+      ]
+    }
+  ]
+}

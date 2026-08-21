@@ -1,0 +1,12 @@
+entity_type	source_label	source_record_ids	decision	proposed_registry_id	canonical_label	parent_registry_id	variant_kind	language_code	jurisdiction	version	source_identifier	scope	aliases	note
+Protocol	EuroQol Valuation Technology (EQ-VT) (version 2.1)	CNF-P001	ALIAS_EXISTING	protocol:eq-vt-2-1	EQ-VT 2.1	protocol:eq-vt	PROTOCOL_VERSION			2.1		GLOBAL	EuroQol Valuation Technology (EQ-VT) (version 2.1)	Exact source label for the existing protocol version after the type repair.
+Model	tobit modelling	CNF-P001	ALIAS_EXISTING	model:tobit	Tobit model							GLOBAL	tobit modelling	Exact lexical variant after the type repair.
+Instrument	Amharic version of EQ-5D-5L	CNF-P004	ADD_GLOBAL	instrument:eq-5d-5l-am-et	EQ-5D-5L, Amharic, Ethiopia	instrument:eq-5d-5l	LANGUAGE_EDITION	am	ET	5L	10.1186/s12955-024-02305-3	GLOBAL	Amharic version of EQ-5D-5L	The article evaluates this exact language edition in Ethiopia.
+Method	LT TTO	CNF-P009	ADD_GLOBAL	method:lag-time-tto	Lag-time TTO	method:tto	METHOD_VARIANT					GLOBAL	LT TTO	The article defines LT-TTO as lag-time TTO.
+Method	DCEd	CNF-P009	ADD_GLOBAL	method:dce-with-duration	DCE with duration	method:dce	METHOD_VARIANT					GLOBAL	DCEd	The article defines DCEd as discrete choice experiment with duration.
+Method	LOD	CNF-P009	ADD_GLOBAL	method:location-of-dead	Location-of-dead anchoring							GLOBAL	LOD	The article defines LOD as location of dead and uses it as an anchoring method.
+Instrument	adult EQ-5D-5L	CNF-P010	ALIAS_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	adult EQ-5D-5L	Adult describes the respondent group, not a distinct instrument version.
+Method	Glass’ Δ effect sizes	CNF-P010	ADD_GLOBAL	method:glass-delta	Glass’s delta	method:standardized-effect-size	METHOD_VARIANT					GLOBAL	Glass’ Δ effect sizes	A named standardized effect-size method.
+Method	response means	CNF-P010	ADD_GLOBAL	method:arithmetic-mean	Arithmetic mean							GLOBAL	response means	The source explicitly plans means of responses; this is not standardized response mean.
+Method	attention checks	CNF-P016	ADD_GLOBAL	method:attention-checks	Attention checks							GLOBAL	attention checks	A general survey quality-control method.
+Method	minimum completion time thresholds	CNF-P016	ADD_GLOBAL	method:minimum-completion-time-thresholds	Minimum completion-time thresholds							GLOBAL	minimum completion time thresholds	A general survey quality-control method.

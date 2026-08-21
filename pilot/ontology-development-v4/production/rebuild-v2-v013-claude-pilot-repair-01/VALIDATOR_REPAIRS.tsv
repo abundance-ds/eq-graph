@@ -1,0 +1,3 @@
+record_id	feedback
+V2-P001	Return the complete record with one change only: remove `du3` from `Administration` item `adm1.applies_to`. Keep `iu1` and `iu4`. An Administration cannot point to a DataUse. Preserve all other content exactly.
+V2-P016	Return the complete record with only these internal-link corrections. Replace labels in `applies_to` with stable item IDs: `td1.applies_to=["mu1","iu2","sw1"]`; `ad1.applies_to=["mu1","iu2","sw1","pr1"]`; `ad2.applies_to=["mu1","iu2","sw1","sw2"]`; `ad3.applies_to=["mu1","iu2","sw1","pr1"]`; `ad4.applies_to=["mu1","iu2","sw1","sw3"]`. Preserve all other content exactly.

@@ -1,0 +1,10 @@
+record_id	feedback
+C50-P045	Split the compound four-quality-controls MethodUse into the four source-named quality-control methods. Keep the already corrected purposes and safe null mapping for the Taiwan instrument version.
+R129-P038	Split the dimension-level, construct-level, and instrument-level multivariate models into separate ModelUse records. Preserve the corrected flat StudyPart and participant flow.
+R129-P049	Remove the compound MethodUse that duplicates the separate univariate and multivariable censored models. The adapted translated EQ-VT is a study adaptation, not the exact standard protocol; leave its registry_id null unless an exact reviewed child exists.
+R129-P064	Move level-sum score from MethodUse to ScoringUse. Preserve the source-supported family, data, and 3L/5L comparisons, and preserve the corrected effective design axes.
+R129-P090	Move better-than-dead from MethodUse to a Concept or task condition. It is not a method identity. Preserve the source-supported conceptual and methods content.
+R129-P110	Split the compound Welch's t-test and ANOVA MethodUse into two queryable MethodUse records. Preserve all source-supported survey and inequality content.
+R129-P129	Split response distributions, ceiling/floor effects, and missingness analysis into separate queryable methods. Remove the duplicate VAS regression MethodUse and keep its existing ModelUse. Preserve the corrected translation purpose, current-study contexts, flat parts, and safe null mapping for the isiXhosa instrument version.
+CAL-B12	Move confirmatory factor analysis from MethodUse to ModelUse. Preserve the corrected psychometric findings, pilot, timing, and source conflict.
+R129-P106	Do not map the EQ-5D-5L anxiety/depression dimension as the whole instrument identity. Keep the base EQ-5D-5L use and preserve the exact dimension as a separate null-mapped use or an associated Concept. Preserve the corrected flat parts, study-wide data uses, family, and service-evaluation content.

@@ -1,0 +1,246 @@
+entity_type	source_label	source_record_ids	decision	proposed_registry_id	canonical_label	parent_registry_id	variant_kind	language_code	jurisdiction	version	source_identifier	scope	aliases	note
+Instrument	10-item version of the Barthel Index (BI)	R129-P064	ADD_GLOBAL	instrument:barthel-index-10	Barthel Index, 10-item version		PRODUCT_VERSION			10-item		GLOBAL	10-item version of the Barthel Index (BI)	
+Instrument	22-item ZBI	R129-P127	ADD_GLOBAL	instrument:zarit-burden-interview-22	Zarit Burden Interview, 22-item version		PRODUCT_VERSION			22-item		GLOBAL	22-item ZBI	
+Instrument	brief optional questions on the feasibility of completing the EQ-5D-3L	C50-P049	ADD_SOURCE_SCOPED	instrument:c50-p049-eq-5d-3l-feasibility-questions	EQ-5D-3L feasibility questions		LOCAL_INSTRUMENT				10.3390/curroncol32060308	C50-P049	brief optional questions on the feasibility of completing the EQ-5D-3L	The source defines a study-specific identity.
+Instrument	COST: A FACIT Measure of Financial Toxicity (FACIT-COST)	R129-P028	ADD_GLOBAL	instrument:facit-cost	FACIT-COST							GLOBAL	COST: A FACIT Measure of Financial Toxicity (FACIT-COST)	
+Instrument	EQ Health and Wellbeing (EQ-HWB)	CAL-B12;R129-P028	KEEP_EXISTING	instrument:eq-hwb	EQ-HWB							GLOBAL	EQ Health and Wellbeing (EQ-HWB)	Current mapping is exact.
+Instrument	EQ VAS	C50-P045;R129-P038;R129-P110	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL		Current mapping is exact.
+Instrument	EQ VAS scores in 2012	R129-P110	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	EQ VAS scores in 2012	Current mapping is exact.
+Instrument	EQ visual analog scale (EQ VAS)	R129-P028	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	EQ visual analog scale (EQ VAS)	Current mapping is exact.
+Instrument	EQ-5D	R129-P090	KEEP_EXISTING	instrument:eq-5d	EQ-5D							GLOBAL		Current mapping is exact.
+Instrument	EQ-5D visual analogue scale (VAS)	C50-P049	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	EQ-5D visual analogue scale (VAS)	Current mapping is exact.
+Instrument	EQ-5D-3L	C50-P028;C50-P049;R129-P064	KEEP_EXISTING	instrument:eq-5d-3l	EQ-5D-3L	instrument:eq-5d	LEVEL_VERSION			3L		GLOBAL		Current mapping is exact.
+Instrument	EQ-5D-3L (3L)	R129-P064	KEEP_EXISTING	instrument:eq-5d-3l	EQ-5D-3L	instrument:eq-5d	LEVEL_VERSION			3L		GLOBAL	EQ-5D-3L (3L)	Current mapping is exact.
+Instrument	EQ-5D-3L proxy version 1	C50-P049	ADD_GLOBAL	instrument:eq-5d-3l-proxy-v1	EQ-5D-3L proxy version 1	instrument:eq-5d-3l	RESPONDENT_VERSION			1	10.3390/curroncol32060308	GLOBAL		
+Instrument	EQ-5D-5L	C50-P028;C50-P032;C50-P049;CAL-B12;R129-P028;R129-P038;R129-P064;R129-P106;R129-P110;R129-P117;R129-P127	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL		Current mapping is exact.
+Instrument	EQ-5D-5L (5L)	R129-P064	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ-5D-5L (5L)	Current mapping is exact.
+Instrument	EQ-5D-5L anxiety/depression dimension	R129-P106	TYPE_REPAIR	component:eq-5d-5l-anxiety-depression	EQ-5D-5L anxiety/depression dimension	instrument:eq-5d-5l	INSTRUMENT_COMPONENT			5L		GLOBAL	EQ-5D-5L anxiety/depression dimension	Repair to an instrument component. This is not the complete EQ-5D-5L instrument.
+Instrument	EQ-5D-5L descriptive system	R129-P049	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ-5D-5L descriptive system	Current mapping is exact.
+Instrument	EQ-5D-5L hypothetical health states	R129-P049	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ-5D-5L hypothetical health states	Current mapping is exact.
+Instrument	EQ-5D-5L states from 2012	R129-P110	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ-5D-5L states from 2012	Current mapping is exact.
+Instrument	EQ-5D-Y	R129-P127	KEEP_EXISTING	instrument:eq-5d-y	EQ-5D-Y	instrument:eq-5d	RESPONDENT_VERSION					GLOBAL		Current mapping is exact.
+Instrument	EQ-5D-Y-3L	R129-P014	KEEP_EXISTING	instrument:eq-5d-y-3l	EQ-5D-Y-3L	instrument:eq-5d-y	LEVEL_VERSION			3L		GLOBAL		Current mapping is exact.
+Instrument	EQ-5D-Y-4L	R129-P014	ADD_GLOBAL	instrument:eq-5d-y-4l	EQ-5D-Y-4L	instrument:eq-5d-y	LEVEL_VERSION			4L	10.1007/s11136-019-02115-x	GLOBAL		
+Instrument	EQ-5D-Y-5L	R129-P014	KEEP_EXISTING	instrument:eq-5d-y-5l	EQ-5D-Y-5L	instrument:eq-5d-y	LEVEL_VERSION			5L		GLOBAL		Current mapping is exact.
+Instrument	EQ-HWB	CAL-B03;R129-P018	KEEP_EXISTING	instrument:eq-hwb	EQ-HWB							GLOBAL		Current mapping is exact.
+Instrument	EQ-HWB-S	R129-P028	KEEP_EXISTING	instrument:eq-hwb-s	EQ-HWB-S	instrument:eq-hwb	FORM_VERSION			SHORT		GLOBAL		Current mapping is exact.
+Instrument	EQ-TIPS	R129-P129	KEEP_EXISTING	instrument:eq-tips	EQ-TIPS							GLOBAL		Current mapping is exact.
+Instrument	EQ-TIPS visual analogue scale (VAS)	R129-P129	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	EQ-TIPS visual analogue scale (VAS)	Current mapping is exact.
+Instrument	EQ-TIPS-5L	C50-P032	ADD_GLOBAL	instrument:eq-tips-5l	EQ-TIPS-5L	instrument:eq-tips	EXPERIMENTAL_VERSION	en		3.0	10.1136/bmjopen-2025-100897	GLOBAL		The protocol identifies an experimental five-level descriptive system, version 3.0.
+Instrument	EQ-TIPS-5L descriptive system	C50-P032	ALIAS_EXISTING	instrument:eq-tips-5l	EQ-TIPS-5L	instrument:eq-tips	EXPERIMENTAL_VERSION	en		3.0	10.1136/bmjopen-2025-100897	GLOBAL	EQ-TIPS-5L descriptive system	Alias supported by the same source identity.
+Instrument	EQ-VAS	R129-P014;R129-P049;R129-P117;R129-P127	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	EQ-VAS	Current mapping is exact.
+Instrument	EQ‐5D‐5L	R129-P001	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ‐5D‐5L	Current mapping is exact.
+Instrument	EQ‐5D‐5L health states	R129-P001	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ‐5D‐5L health states	Current mapping is exact.
+Instrument	EQ‐5D‐5L instrument	R129-P001	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	EQ‐5D‐5L instrument	Current mapping is exact.
+Instrument	EQ‐VAS	R129-P001	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	EQ‐VAS	Current mapping is exact.
+Instrument	EuroQol Health and Wellbeing Short Version (EQ-HWB-9)	C50-P028	ALIAS_EXISTING	instrument:eq-hwb-s	EQ-HWB-S	instrument:eq-hwb	FORM_VERSION			SHORT		GLOBAL	EuroQol Health and Wellbeing Short Version (EQ-HWB-9)	EQ-HWB-9 is the nine-item EQ-HWB short form.
+Instrument	Face, Leg, Activity, Cry, Consolability (FLACC) Pain Scale	R129-P129	ADD_GLOBAL	instrument:flacc-pain-scale	FLACC Pain Scale							GLOBAL	Face, Leg, Activity, Cry, Consolability (FLACC) Pain Scale	
+Instrument	five-level self-rated general health (SRH) question (item 1 of the SF-36)	R129-P064	ADD_GLOBAL	instrument:sf-36-item-1-five-level	SF-36 item 1, five-level self-rated general health		PRODUCT_VERSION			five-level		GLOBAL	five-level self-rated general health (SRH) question (item 1 of the SF-36)	
+Instrument	Functional Assessment of Cancer Therapy – General (FACT-G)	CAL-B12	ADD_GLOBAL	instrument:fact-g	FACT-G							GLOBAL	Functional Assessment of Cancer Therapy – General (FACT-G)	
+Instrument	Health Utilities Index Mark 2 (HUI2)	C50-P028	ADD_GLOBAL	instrument:hui2	Health Utilities Index Mark 2	instrument:hui	PRODUCT_VERSION			Mark 2		GLOBAL	Health Utilities Index Mark 2 (HUI2)	
+Instrument	Health Utilities Index Mark 3 (HUI3)	C50-P028	ADD_GLOBAL	instrument:hui3	Health Utilities Index Mark 3	instrument:hui	PRODUCT_VERSION			Mark 3		GLOBAL	Health Utilities Index Mark 3 (HUI3)	
+Instrument	Health Utility Index (HUI)	R129-P090	ADD_GLOBAL	instrument:hui	Health Utilities Index							GLOBAL	Health Utility Index (HUI)	
+Instrument	Health-related Quality of Life Instrument with 8 Items (HINT-8)	C50-P028	ADD_GLOBAL	instrument:hint-8	HINT-8		PRODUCT_VERSION			8-item		GLOBAL	Health-related Quality of Life Instrument with 8 Items (HINT-8)	
+Instrument	isiXhosa EQ-TIPS	R129-P129	ADD_GLOBAL	instrument:eq-tips-3l-xh-za	EQ-TIPS-3L, isiXhosa, South Africa	instrument:eq-tips-3l	LANGUAGE_EDITION	xh	ZA	3L	10.4314/ahs.v23i4.63	GLOBAL	isiXhosa EQ-TIPS	The source states that this isiXhosa descriptive system has three response levels.
+Instrument	isiXhosa version of the EQ-TIPS for South Africa	R129-P129	ALIAS_EXISTING	instrument:eq-tips-3l-xh-za	EQ-TIPS-3L, isiXhosa, South Africa	instrument:eq-tips-3l	LANGUAGE_EDITION	xh	ZA	3L	10.4314/ahs.v23i4.63	GLOBAL	isiXhosa version of the EQ-TIPS for South Africa	Alias of the same isiXhosa South African three-level edition.
+Instrument	modified Rankin Scale (mRS)	R129-P064	ADD_GLOBAL	instrument:modified-rankin-scale	Modified Rankin Scale							GLOBAL	modified Rankin Scale (mRS)	
+Instrument	official EQ-5D-5L traditional Chinese character Taiwan version	C50-P045	ADD_GLOBAL	instrument:eq-5d-5l-zh-hant-tw	EQ-5D-5L, Traditional Chinese, Taiwan	instrument:eq-5d-5l	LANGUAGE_EDITION	zh-Hant	TW	5L	10.1371/journal.pone.0209344	GLOBAL	official EQ-5D-5L traditional Chinese character Taiwan version	Add the exact language and jurisdiction edition.
+Instrument	official Indonesian version of FACIT-COST (v2)	CAL-B12	ADD_GLOBAL	instrument:facit-cost-v2-id	Indonesian FACIT-COST v2	instrument:facit-cost	LANGUAGE_EDITION	id	ID	2	10.1186/s12955-024-02303-5	GLOBAL	official Indonesian version of FACIT-COST (v2)	
+Instrument	PROMIS-16	R129-P038	ADD_GLOBAL	instrument:promis-16	PROMIS-16		PRODUCT_VERSION			16-item		GLOBAL		
+Instrument	proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)	CAL-B03	ADD_GLOBAL	instrument:eq-hwb-9-proxy-en-au-v1	Experimental EQ-HWB-9 proxy questionnaire, English for Australia, version 1	instrument:eq-hwb-s	EXPERIMENTAL_VERSION	en	AU	1	10.1007/s11136-026-04230-y	GLOBAL	proxy version of the experimental EQ-HWB-9 (2022) questionnaire (English for Australia; version 1)	Add the exact experimental proxy, language, jurisdiction, and version identity.
+Instrument	Quality of Well Being Self-Administered (QWB-SA)	C50-P028	ADD_GLOBAL	instrument:qwb-sa	QWB-SA		RESPONDENT_VERSION					GLOBAL	Quality of Well Being Self-Administered (QWB-SA)	
+Instrument	Questions on objective financial toxicity (OFT)	R129-P028	ADD_SOURCE_SCOPED	instrument:r129-p028-objective-financial-toxicity-questions	Objective financial-toxicity questions		LOCAL_INSTRUMENT				10.1007/s11136-025-03925-y	R129-P028	Questions on objective financial toxicity (OFT)	The source defines a study-specific identity.
+Instrument	Satisfaction with the National Health System (NHS) 1 to 10 scale	R129-P127	ADD_SOURCE_SCOPED	instrument:r129-p127-nhs-satisfaction-scale	National Health System satisfaction 1-to-10 scale		LOCAL_INSTRUMENT				10.3390/ijerph19138208	R129-P127	Satisfaction with the National Health System (NHS) 1 to 10 scale	The source defines a study-specific identity.
+Instrument	Self-designed dietary information questionnaire	R129-P129	ADD_SOURCE_SCOPED	instrument:r129-p129-dietary-information-questionnaire	Study dietary-information questionnaire		LOCAL_INSTRUMENT				10.4314/ahs.v23i4.63	R129-P129	Self-designed dietary information questionnaire	The source defines a study-specific identity.
+Instrument	self-reported EQ-5D-5L descriptive system	C50-P045	KEEP_EXISTING	instrument:eq-5d-5l	EQ-5D-5L	instrument:eq-5d	LEVEL_VERSION			5L		GLOBAL	self-reported EQ-5D-5L descriptive system	Current mapping is exact.
+Instrument	Short-form 6-Dimension version 1 (SF-6Dv1)	C50-P028	ADD_GLOBAL	instrument:sf-6d-v1	SF-6Dv1		PRODUCT_VERSION			1		GLOBAL	Short-form 6-Dimension version 1 (SF-6Dv1)	
+Instrument	The Ages and Stages Questionnaire (ASQ) Parent Report Form	R129-P129	ADD_GLOBAL	instrument:asq-parent-report-form	Ages and Stages Questionnaire Parent Report Form		RESPONDENT_VERSION					GLOBAL	The Ages and Stages Questionnaire (ASQ) Parent Report Form	
+Instrument	Visual Analogue Scale	R129-P129	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	Visual Analogue Scale	Current mapping is exact.
+Instrument	visual analogue scale (VAS)	R129-P106	KEEP_EXISTING	instrument:eq-vas	EQ VAS							GLOBAL	visual analogue scale (VAS)	Current mapping is exact.
+Instrument	Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)	CAL-B12	ADD_GLOBAL	instrument:wemwbs	WEMWBS							GLOBAL	Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)	
+Instrument	WHOQOL-BREF	R129-P117	ADD_GLOBAL	instrument:whoqol-bref	WHOQOL-BREF		PRODUCT_VERSION			BREF		GLOBAL		
+Method	1000 bootstrap samples	R129-P064	ADD_GLOBAL	method:bootstrap-resampling-1000	Bootstrap resampling, 1,000 samples		METHOD_VARIANT			1000		GLOBAL	1000 bootstrap samples	
+Method	18 demographic quotas based on gender, age, and race/ethnicity	R129-P038	ADD_SOURCE_SCOPED	method:r129-p038-demographic-quota-sampling	Demographic quota sampling with 18 quotas		STUDY_ADAPTATION				10.1007/s11136-026-04242-8	R129-P038	18 demographic quotas based on gender, age, and race/ethnicity	The source defines a study-specific identity.
+Method	5L/3L ratio of the SRM and SES statistics	R129-P064	KEEP_COMPOUND	method:r129-p064-5l-3l-responsiveness-ratio	5L-to-3L responsiveness-statistic ratio		INTEGRATED_WORKFLOW				10.1007/s40273-022-01172-4	R129-P064	5L/3L ratio of the SRM and SES statistics	Keep as one integrated procedure from the source.
+Method	adaptation of the validation task developed by Lipman et al. (2020a)	R129-P001	ADD_SOURCE_SCOPED	method:r129-p001-adapted-lipman-validation-task	Adapted Lipman validation task		STUDY_ADAPTATION				10.1002/hec.4529	R129-P001	adaptation of the validation task developed by Lipman et al. (2020a)	The source defines a study-specific identity.
+Method	ANOVA	R129-P117	ADD_GLOBAL	method:analysis-of-variance	Analysis of variance							GLOBAL	ANOVA	
+Method	ANOVA analysis	R129-P127	ALIAS_EXISTING	method:analysis-of-variance	Analysis of variance							GLOBAL	ANOVA analysis	Alias supported by the same source identity.
+Method	better than dead (BTD)	R129-P090	TYPE_REPAIR	concept:better-than-dead	Better than dead							GLOBAL	better than dead (BTD)	Repair to a valuation concept or task condition.
+Method	Bland-Altman plots	R129-P117	ADD_GLOBAL	method:bland-altman-plots	Bland-Altman plots							GLOBAL		
+Method	Bonferroni correction	R129-P127	ADD_GLOBAL	method:bonferroni-correction	Bonferroni correction							GLOBAL		
+Method	ceiling and floor percentages	R129-P038	ADD_GLOBAL	method:ceiling-and-floor-percentages	ceiling and floor percentages							GLOBAL		
+Method	chi-square	R129-P129	ALIAS_EXISTING	method:chi-square-test	Chi-square test							GLOBAL	chi-square	Alias supported by the same source identity.
+Method	Chi-square test	R129-P117	ADD_GLOBAL	method:chi-square-test	Chi-square test							GLOBAL		
+Method	Chi-squared tests	R129-P001	ALIAS_EXISTING	method:chi-square-test	Chi-square test							GLOBAL	Chi-squared tests	Alias supported by the same source identity.
+Method	chi-squared tests	R129-P106	ALIAS_EXISTING	method:chi-square-test	Chi-square test							GLOBAL	chi-squared tests	Alias supported by the same source identity.
+Method	cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations	C50-P032	KEEP_COMPOUND	method:c50-p032-cluster-bootstrap	Cluster bootstrap with block-specific strata and 1,000 iterations		INTEGRATED_WORKFLOW				10.1136/bmjopen-2025-100897	C50-P032	cluster bootstrap techniques with replacement, block-specific strata and 1000 iterations	Keep as one integrated procedure from the source.
+Method	cognitive interviews	R129-P014;R129-P129	ADD_GLOBAL	method:cognitive-interview	Cognitive interview							GLOBAL	cognitive interviews	
+Method	Cohen's weighted Kappa	R129-P129	ADD_GLOBAL	method:cohen-weighted-kappa	Cohen's weighted kappa		METHOD_VARIANT					GLOBAL	Cohen's weighted Kappa	
+Method	composite time trade‐off (cTTO)	R129-P001	KEEP_EXISTING	method:ctto	cTTO	method:tto	METHOD_VARIANT					GLOBAL	composite time trade‐off (cTTO)	Current mapping is exact.
+Method	composite TTO (C-TTO)	C50-P045	KEEP_EXISTING	method:ctto	cTTO	method:tto	METHOD_VARIANT					GLOBAL	composite TTO (C-TTO)	Current mapping is exact.
+Method	confirmatory factor analysis (CFA)	CAL-B12	TYPE_REPAIR	model:confirmatory-factor-analysis	Confirmatory factor analysis		FACTOR_MODEL					GLOBAL	confirmatory factor analysis (CFA)	Repair from MethodUse to ModelUse.
+Method	content analysis	C50-P049	ADD_GLOBAL	method:content-analysis	content analysis							GLOBAL		
+Method	convenience sampling	CAL-B03	ADD_GLOBAL	method:convenience-sampling	Convenience sampling							GLOBAL	convenience sampling	
+Method	correction based on constant alternative (constant alternative correction)	R129-P001	ADD_GLOBAL	method:correction-based-on-constant-alternative-constant-alternative-correction	correction based on constant alternative (constant alternative correction)							GLOBAL		
+Method	correction based on maximum BTD time (maximum BTD correction)	R129-P001	ADD_GLOBAL	method:correction-based-on-maximum-btd-time-maximum-btd-correction	correction based on maximum BTD time (maximum BTD correction)							GLOBAL		
+Method	correlation analysis by means of Pearson coefficient	R129-P127	ALIAS_EXISTING	method:pearson-correlation	Pearson correlation coefficient							GLOBAL	correlation analysis by means of Pearson coefficient	Alias supported by the same source identity.
+Method	Cronbach’s alpha	CAL-B12	ADD_GLOBAL	method:cronbachs-alpha	Cronbach’s alpha							GLOBAL		
+Method	cTTO	R129-P049	KEEP_EXISTING	method:ctto	cTTO	method:tto	METHOD_VARIANT					GLOBAL		Current mapping is exact.
+Method	DCE	R129-P049	KEEP_EXISTING	method:dce	DCE							GLOBAL		Current mapping is exact.
+Method	descriptive analysis	R129-P127	ADD_GLOBAL	method:descriptive-analysis	descriptive analysis							GLOBAL		
+Method	descriptive statistics assessing feasibility	C50-P049	ADD_GLOBAL	method:descriptive-statistics-assessing-feasibility	descriptive statistics assessing feasibility							GLOBAL		
+Method	direct method	R129-P001	AMBIGUOUS											The source label does not identify a specific direct method.
+Method	discrete choice experiment (DCE)	C50-P045	KEEP_EXISTING	method:dce	DCE							GLOBAL	discrete choice experiment (DCE)	Current mapping is exact.
+Method	discrete choice experiment (DCE) with kaizen tasks	C50-P032	KEEP_EXISTING	method:dce	DCE							GLOBAL	discrete choice experiment (DCE) with kaizen tasks	Current mapping is exact.
+Method	discrete choice experiment (DCE) with paired comparisons	C50-P032	KEEP_EXISTING	method:dce	DCE							GLOBAL	discrete choice experiment (DCE) with paired comparisons	Current mapping is exact.
+Method	discrete choice experiments (DCE)	R129-P018	KEEP_EXISTING	method:dce	DCE							GLOBAL	discrete choice experiments (DCE)	Current mapping is exact.
+Method	discrete choice experiments (DCEs)	R129-P090	KEEP_EXISTING	method:dce	DCE							GLOBAL	discrete choice experiments (DCEs)	Current mapping is exact.
+Method	effect size of the change	R129-P106	ALIAS_EXISTING	method:standardized-effect-size	Standardized effect size							GLOBAL	effect size of the change	Alias supported by the same source identity.
+Method	Electronic database search in CINAHL, PsycInfo, Embase and MEDLINE, supplemented with forward and backward citation searches in Scopus	C50-P028	KEEP_COMPOUND	method:c50-p028-database-and-citation-search	Database and citation-search workflow		INTEGRATED_WORKFLOW				10.1007/s40273-025-01509-9	C50-P028	Electronic database search in CINAHL, PsycInfo, Embase and MEDLINE, supplemented with forward and backward citation searches in Scopus	Keep as one integrated procedure from the source.
+Method	feedback module for C-TTO tasks	C50-P045	ADD_GLOBAL	method:feedback-module-for-c-tto-tasks	feedback module for C-TTO tasks							GLOBAL		
+Method	focus group interviews	R129-P014	ADD_GLOBAL	method:focus-group-interviews	focus group interviews							GLOBAL		
+Method	forward and backward translation	R129-P129	ADD_GLOBAL	method:forward-and-backward-translation	forward and backward translation							GLOBAL		
+Method	forward stepwise regression procedure	R129-P028	ADD_GLOBAL	method:forward-stepwise-regression-procedure	forward stepwise regression procedure							GLOBAL		
+Method	four quality controls (QCs)	C50-P045	SPLIT_RECORD											Split into the four source-defined quality controls.
+Method	frequency of dimension scores, ceiling and floor effects, and missing values	R129-P129	SPLIT_RECORD											Split response frequencies, ceiling and floor effects, and missingness analysis.
+Method	Gwet’s AC2 coefficient	CAL-B12	ADD_GLOBAL	method:gwet-ac2	Gwet AC2 coefficient	method:gwet-agreement-coefficient	METHOD_VARIANT			AC2		GLOBAL	Gwet’s AC2 coefficient	
+Method	Gwet’s agreement coefficient (Gwet’s AC) test	R129-P117	ADD_GLOBAL	method:gwet-agreement-coefficient	Gwet agreement coefficient							GLOBAL	Gwet’s agreement coefficient (Gwet’s AC) test	
+Method	harmonization exercise	R129-P014	ADD_GLOBAL	method:harmonization-exercise	harmonization exercise							GLOBAL		
+Method	Independent dual screening with disagreement resolution by a senior reviewer	C50-P028	KEEP_COMPOUND	method:c50-p028-independent-dual-screening	Independent dual-screening workflow		INTEGRATED_WORKFLOW				10.1007/s40273-025-01509-9	C50-P028	Independent dual screening with disagreement resolution by a senior reviewer	Keep as one integrated procedure from the source.
+Method	integrated thematic analysis involving inductive coding and deductive coding	CAL-B03	KEEP_COMPOUND	method:integrated-inductive-deductive-thematic-analysis	Integrated inductive and deductive thematic analysis		INTEGRATED_WORKFLOW				10.1007/s11136-026-04230-y	CAL-B03	integrated thematic analysis involving inductive coding and deductive coding	Keep as one integrated procedure from the source.
+Method	interview	C50-P049	ADD_GLOBAL	method:interview	interview							GLOBAL		
+Method	intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)	R129-P117	ADD_GLOBAL	method:intraclass-correlation-two-way-random-absolute-agreement	Intraclass correlation coefficient, two-way random effects, absolute agreement	method:intraclass-correlation-coefficient	METHOD_VARIANT					GLOBAL	intra-class correlation coefficient (ICC, two-way random effects, absolute agreement)	
+Method	intraclass correlation coefficient	CAL-B12	ADD_GLOBAL	method:intraclass-correlation-coefficient	Intraclass correlation coefficient							GLOBAL	intraclass correlation coefficient	
+Method	intraclass correlation coefficient (ICC)	R129-P129	ALIAS_EXISTING	method:intraclass-correlation-coefficient	Intraclass correlation coefficient							GLOBAL	intraclass correlation coefficient (ICC)	Alias supported by the same source identity.
+Method	Kruskal-Wallis analysis	R129-P129	ALIAS_EXISTING	method:kruskal-wallis-test	Kruskal-Wallis test							GLOBAL	Kruskal-Wallis analysis	Alias supported by the same source identity.
+Method	Kruskal-Wallis test	CAL-B12;R129-P028	ADD_GLOBAL	method:kruskal-wallis-test	Kruskal-Wallis test							GLOBAL		
+Method	level sum scores (LSS)	R129-P064	TYPE_REPAIR	scoring:level-sum-score	Level sum score							GLOBAL	level sum scores (LSS)	Repair from MethodUse to ScoringUse.
+Method	Levene’s test	R129-P127	ADD_GLOBAL	method:levenes-test	Levene’s test							GLOBAL		
+Method	linear interpolation	R129-P001	ADD_GLOBAL	method:linear-interpolation	linear interpolation							GLOBAL		
+Method	Lin’s concordance coefficient	C50-P032	ALIAS_EXISTING	method:lins-concordance-correlation-coefficient	Lin's concordance correlation coefficient							GLOBAL	Lin’s concordance coefficient	Alias supported by the same source identity.
+Method	Lin’s concordance correlation coefficient (CCC)	R129-P117	ADD_GLOBAL	method:lins-concordance-correlation-coefficient	Lin's concordance correlation coefficient							GLOBAL	Lin’s concordance correlation coefficient (CCC)	
+Method	literature review	R129-P090	ADD_GLOBAL	method:literature-review	literature review							GLOBAL		
+Method	Mann-Whitney test	R129-P028	ALIAS_EXISTING	method:mann-whitney-u-test	Mann-Whitney U test							GLOBAL	Mann-Whitney test	Alias supported by the same source identity.
+Method	Mann-Whitney U test	CAL-B12	ADD_GLOBAL	method:mann-whitney-u-test	Mann-Whitney U test							GLOBAL		
+Method	McDonald’s omega	CAL-B12	ADD_GLOBAL	method:mcdonalds-omega	McDonald’s omega							GLOBAL		
+Method	McNemar’s test for paired proportions	R129-P038	ADD_GLOBAL	method:mcnemars-test-for-paired-proportions	McNemar’s test for paired proportions							GLOBAL		
+Method	Mean (standard deviation), median, mode, minimum and maximum	R129-P014	KEEP_COMPOUND	method:r129-p014-descriptive-statistics-bundle	Descriptive-statistics summary bundle		INTEGRATED_WORKFLOW				10.1007/s11136-019-02115-x	R129-P014	Mean (standard deviation), median, mode, minimum and maximum	Keep as one integrated procedure from the source.
+Method	minimally important difference (MID)	R129-P106	ADD_GLOBAL	method:minimally-important-difference-mid	minimally important difference (MID)							GLOBAL		
+Method	modified Kakwani index	R129-P110	ADD_GLOBAL	method:modified-kakwani-index	modified Kakwani index							GLOBAL		
+Method	Multi-stage stratified quota sampling	C50-P045	ADD_GLOBAL	method:multistage-stratified-quota-sampling	Multistage stratified quota sampling							GLOBAL	Multi-stage stratified quota sampling	
+Method	multistage stratified quota method	R129-P117	ALIAS_EXISTING	method:multistage-stratified-quota-sampling	Multistage stratified quota sampling							GLOBAL	multistage stratified quota method	Alias supported by the same source identity.
+Method	multistratified quota sampling	R129-P049	ALIAS_EXISTING	method:multistage-stratified-quota-sampling	Multistage stratified quota sampling							GLOBAL	multistratified quota sampling	Alias supported by the same source identity.
+Method	Narrative synthesis	C50-P028	ADD_GLOBAL	method:narrative-synthesis	Narrative synthesis							GLOBAL		
+Method	non-probability design	R129-P129	ADD_GLOBAL	method:non-probability-design	non-probability design							GLOBAL		
+Method	non‐parametric method	R129-P001	AMBIGUOUS											The source label does not identify a specific nonparametric method.
+Method	oblique rotation method (Oblimin)	R129-P038	ADD_GLOBAL	method:oblique-rotation-method-oblimin	oblique rotation method (Oblimin)							GLOBAL		
+Method	online cross-sectional survey	R129-P038	ADD_GLOBAL	method:online-cross-sectional-survey	online cross-sectional survey							GLOBAL		
+Method	paired t-tests	R129-P001	ADD_GLOBAL	method:paired-t-test	Paired t-test	method:t-test	METHOD_VARIANT					GLOBAL	paired t-tests	
+Method	panel-vendor recruitment using 32 quotas	C50-P032	ADD_SOURCE_SCOPED	method:c50-p032-panel-vendor-32-quota-recruitment	Panel-vendor recruitment with 32 quotas		STUDY_ADAPTATION				10.1136/bmjopen-2025-100897	C50-P032	panel-vendor recruitment using 32 quotas	The source defines a study-specific identity.
+Method	parallel analysis	R129-P038	ADD_GLOBAL	method:parallel-analysis	Parallel analysis							GLOBAL	parallel analysis	
+Method	parallel analysis technique	CAL-B12	ALIAS_EXISTING	method:parallel-analysis	Parallel analysis							GLOBAL	parallel analysis technique	Alias supported by the same source identity.
+Method	paraphrasing method	R129-P014	ADD_GLOBAL	method:paraphrasing-method	paraphrasing method							GLOBAL		
+Method	Paretian Classification of Health Change (PCHC)	R129-P064	ADD_GLOBAL	method:paretian-classification-of-health-change	Paretian Classification of Health Change							GLOBAL	Paretian Classification of Health Change (PCHC)	
+Method	Pareto Classification of Health Change (PCHC)	R129-P106	ALIAS_EXISTING	method:paretian-classification-of-health-change	Paretian Classification of Health Change							GLOBAL	Pareto Classification of Health Change (PCHC)	Alias supported by the same source identity.
+Method	Pearson’s coefficient	R129-P028	ADD_GLOBAL	method:pearson-correlation	Pearson correlation coefficient							GLOBAL	Pearson’s coefficient	
+Method	percentage of agreement	R129-P117	ADD_GLOBAL	method:percentage-of-agreement	percentage of agreement							GLOBAL		
+Method	polychoric correlation coefficients	R129-P038	ADD_GLOBAL	method:polychoric-correlation-coefficients	polychoric correlation coefficients							GLOBAL		
+Method	presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project	R129-P018	KEEP_COMPOUND	method:r129-p018-researcher-advisor-consultation	Researcher and advisor consultation		INTEGRATED_WORKFLOW				10.1007/s11136-020-02718-9	R129-P018	presentations and discussion with researchers and advisors associated with the ‘Extending the QALY’ project	Keep as one integrated procedure from the source.
+Method	principal component analysis (PCA)	CAL-B12	ADD_GLOBAL	method:principal-component-analysis	Principal component analysis							GLOBAL	principal component analysis (PCA)	
+Method	probability of superiority (PS)	R129-P064	ADD_GLOBAL	method:probability-of-superiority	Probability of superiority							GLOBAL	probability of superiority (PS)	
+Method	probing	R129-P014	ADD_GLOBAL	method:probing	probing							GLOBAL		
+Method	prospective convenience sample	C50-P049	ALIAS_EXISTING	method:convenience-sampling	Convenience sampling							GLOBAL	prospective convenience sample	Alias supported by the same source identity.
+Method	Regression Analysis of the VAS score	R129-P129	TYPE_REPAIR	model:multiple-linear-regression	Multiple linear regression							GLOBAL	Regression Analysis of the VAS score	Repair from MethodUse and merge with the VAS regression ModelUse.
+Method	response scaling tasks	R129-P014	ADD_GLOBAL	method:response-scaling-tasks	response scaling tasks							GLOBAL		
+Method	review of existing criteria on patient-reported outcome measures (PROMs) development	R129-P018	ADD_GLOBAL	method:review-of-existing-criteria-on-patient-reported-outcome-measures-proms-development	review of existing criteria on patient-reported outcome measures (PROMs) development							GLOBAL		
+Method	review of HRQoL instruments	R129-P014	ADD_GLOBAL	method:review-of-hrqol-instruments	review of HRQoL instruments							GLOBAL		
+Method	search strategy	R129-P090	ADD_GLOBAL	method:search-strategy	search strategy							GLOBAL		
+Method	semi-structured cognitive interviews	CAL-B03	ALIAS_EXISTING	method:cognitive-interview	Cognitive interview							GLOBAL	semi-structured cognitive interviews	Alias supported by the same source identity.
+Method	series of univariate and multivariable censored linear regression models adjusted for severity of health states	R129-P049	SPLIT_RECORD											Remove this compound and retain the separate univariate and multivariable model records.
+Method	Shannon’s Evenness Index (J’)	R129-P038	ADD_GLOBAL	method:shannons-evenness-index-j	Shannon’s Evenness Index (J’)							GLOBAL		
+Method	Shannon’s Index (H’)	R129-P038	ADD_GLOBAL	method:shannons-index-h	Shannon’s Index (H’)							GLOBAL		
+Method	sorting tasks	R129-P014	ADD_GLOBAL	method:sorting-tasks	sorting tasks							GLOBAL		
+Method	Spearman's Rho correlation coefficient	R129-P129	ALIAS_EXISTING	method:spearman-rank-correlation	Spearman's rank correlation							GLOBAL	Spearman's Rho correlation coefficient	Alias supported by the same source identity.
+Method	Spearman’s rank correlation	CAL-B12	ADD_GLOBAL	method:spearman-rank-correlation	Spearman's rank correlation							GLOBAL	Spearman’s rank correlation	
+Method	Spearman’s rho	R129-P028	ALIAS_EXISTING	method:spearman-rank-correlation	Spearman's rank correlation							GLOBAL	Spearman’s rho	Alias supported by the same source identity.
+Method	standard gamble (SG)	R129-P090	KEEP_EXISTING	method:sg	SG							GLOBAL	standard gamble (SG)	Current mapping is exact.
+Method	standardized effect size (SES)	CAL-B12;R129-P064	ADD_GLOBAL	method:standardized-effect-size	Standardized effect size							GLOBAL	standardized effect size (SES)	
+Method	standardized response mean (SRM)	CAL-B12;R129-P064	ADD_GLOBAL	method:standardized-response-mean	Standardized response mean							GLOBAL	standardized response mean (SRM)	
+Method	Streets were randomly selected from CSO maps and 1 in every 4 houses visited; respondents were selected based on the most recent birthday method	R129-P110	KEEP_COMPOUND	method:r129-p110-household-selection	Street, household, and birthday-selection workflow		INTEGRATED_WORKFLOW				10.1186/s12955-024-02323-1	R129-P110	Streets were randomly selected from CSO maps and 1 in every 4 houses visited; respondents were selected based on the most recent birthday method	Keep as one integrated procedure from the source.
+Method	Survey company panel recruitment by online links, with recruiters in public places	R129-P110	ADD_SOURCE_SCOPED	method:r129-p110-panel-recruitment-public-places	Panel recruitment by online links in public places		STUDY_ADAPTATION				10.1186/s12955-024-02323-1	R129-P110	Survey company panel recruitment by online links, with recruiters in public places	The source defines a study-specific identity.
+Method	Survey company panel recruitment by survey links via e-mail	R129-P110	ADD_SOURCE_SCOPED	method:r129-p110-panel-recruitment-email	Panel recruitment by survey links sent by email		STUDY_ADAPTATION				10.1186/s12955-024-02323-1	R129-P110	Survey company panel recruitment by survey links via e-mail	The source defines a study-specific identity.
+Method	t-tests	R129-P110	ADD_GLOBAL	method:t-test	t-test							GLOBAL	t-tests	
+Method	thematic content analysis	R129-P014	ADD_GLOBAL	method:thematic-content-analysis	thematic content analysis							GLOBAL		
+Method	think aloud	CAL-B03	ADD_GLOBAL	method:think-aloud	think aloud							GLOBAL		
+Method	time trade-off (TTO)	R129-P018;R129-P090	KEEP_EXISTING	method:tto	TTO							GLOBAL	time trade-off (TTO)	Current mapping is exact.
+Method	visual analog scale (VAS)	R129-P014	KEEP_EXISTING	method:vas	VAS							GLOBAL	visual analog scale (VAS)	Current mapping is exact.
+Method	Visual Analogue Scale (VAS)	R129-P090	KEEP_EXISTING	method:vas	VAS							GLOBAL	Visual Analogue Scale (VAS)	Current mapping is exact.
+Method	Welch's unequal variances t-test	R129-P117	ADD_GLOBAL	method:welch-t-test	Welch t-test	method:t-test	METHOD_VARIANT					GLOBAL	Welch's unequal variances t-test	
+Method	Welch’s t-test and ANOVA	R129-P110	SPLIT_RECORD											Split Welch t-test and analysis of variance.
+Method	Wilcoxon signed-rank tests	R129-P064	ADD_GLOBAL	method:wilcoxon-signed-rank-test	Wilcoxon signed-rank test							GLOBAL	Wilcoxon signed-rank tests	
+Method	Wilcoxon tests	R129-P001	ALIAS_EXISTING	method:wilcoxon-signed-rank-test	Wilcoxon signed-rank test							GLOBAL	Wilcoxon tests	Alias supported by the same source identity.
+Model	conditional logistic regression models	C50-P045	ADD_GLOBAL	model:conditional-logit	Conditional logit model							GLOBAL	conditional logistic regression models	
+Model	dimension-, construct-, and instrument-level multivariate models	R129-P038	SPLIT_RECORD											Split the dimension-, construct-, and instrument-level models.
+Model	exploratory factor analysis (EFA)	R129-P038	ADD_GLOBAL	model:exploratory-factor-analysis	Exploratory factor analysis		FACTOR_MODEL					GLOBAL	exploratory factor analysis (EFA)	
+Model	five multinomial logistic regression models, one by each domain	R129-P127	ADD_GLOBAL	model:multinomial-logistic-regression-by-domain	Multinomial logistic regression by domain		MODEL_VARIANT					GLOBAL	five multinomial logistic regression models, one by each domain	
+Model	general least square (GLS)	C50-P045	ADD_GLOBAL	model:generalized-least-squares	Generalized least squares							GLOBAL	general least square (GLS)	
+Model	hybrid model assuming left-censoring of the C-TTO at -1 excluding heteroscedasticity and constant	C50-P045	ADD_GLOBAL	model:hybrid-ctto-dce-left-censored-minus-1	Hybrid cTTO-DCE model, left-censored at -1 without heteroscedasticity or constant	model:hybrid-model	MODEL_VARIANT					GLOBAL	hybrid model assuming left-censoring of the C-TTO at -1 excluding heteroscedasticity and constant	
+Model	item-level linear regression analyses using EQ VAS as the outcome and incremental decrements in each item as predictors	R129-P038	ADD_GLOBAL	model:item-level-linear-regression-eq-vas	Item-level linear regression with EQ VAS outcome		MODEL_VARIANT					GLOBAL	item-level linear regression analyses using EQ VAS as the outcome and incremental decrements in each item as predictors	
+Model	main-effects conditional logit model	C50-P032	ALIAS_EXISTING	model:conditional-logit	Conditional logit model							GLOBAL	main-effects conditional logit model	Alias supported by the same source identity.
+Model	multiple regression analysis with the VAS as dependent variable and dummy variables representing the different levels of the dimensions	R129-P129	ADD_GLOBAL	model:multiple-linear-regression	Multiple linear regression							GLOBAL	multiple regression analysis with the VAS as dependent variable and dummy variables representing the different levels of the dimensions	
+Model	multivariable censored linear regression model adjusted for severity of health states	R129-P049	ADD_GLOBAL	model:multivariable-censored-linear-regression	Multivariable censored linear regression		MODEL_VARIANT					GLOBAL	multivariable censored linear regression model adjusted for severity of health states	
+Model	multivariable ordered logit models	R129-P110	ADD_GLOBAL	model:multivariable-ordered-logit	Multivariable ordered logit model	model:ordinal-logit	MODEL_VARIANT					GLOBAL	multivariable ordered logit models	
+Model	multivariable ordinary least squares (OLS) models	R129-P028	ALIAS_EXISTING	model:ordinary-least-squares-regression	Ordinary least squares regression							GLOBAL	multivariable ordinary least squares (OLS) models	Alias supported by the same source identity.
+Model	ordinal logistic models	R129-P028	ADD_GLOBAL	model:ordinal-logit	Ordinal logistic model							GLOBAL	ordinal logistic models	
+Model	ordinary least square (OLS)	C50-P045	ADD_GLOBAL	model:ordinary-least-squares-regression	Ordinary least squares regression							GLOBAL	ordinary least square (OLS)	
+Model	ordinary least squares regression model for the modified Kakwani index decomposition	R129-P110	ALIAS_EXISTING	model:ordinary-least-squares-regression	Ordinary least squares regression							GLOBAL	ordinary least squares regression model for the modified Kakwani index decomposition	Alias supported by the same source identity.
+Model	QALY model	R129-P090	ADD_GLOBAL	model:qaly-model	QALY model							GLOBAL		
+Model	standard hybrid model	C50-P045	ADD_GLOBAL	model:hybrid-model	Standard hybrid model							GLOBAL	standard hybrid model	
+Model	Tobit	C50-P045	ADD_GLOBAL	model:tobit	Tobit model							GLOBAL	Tobit	
+Model	Tobit-GLS regression	C50-P045	ADD_GLOBAL	model:tobit-gls	Tobit-GLS regression	model:tobit	MODEL_VARIANT					GLOBAL		
+Model	univariate censored linear regression models adjusted for severity of health states	R129-P049	ADD_GLOBAL	model:univariate-censored-linear-regression	Univariate censored linear regression		MODEL_VARIANT					GLOBAL	univariate censored linear regression models adjusted for severity of health states	
+Protocol	adapted translated version of the EQ-VT	R129-P049	ADD_SOURCE_SCOPED	protocol:r129-p049-adapted-translated-eq-vt	Adapted translated EQ-VT	protocol:eq-vt	STUDY_ADAPTATION				10.1007/s40271-022-00572-0	R129-P049	adapted translated version of the EQ-VT	Add the exact study adaptation. Do not alias it to standard EQ-VT.
+Protocol	common standardized protocol	R129-P014	AMBIGUOUS											The source does not name or define the protocol sufficiently.
+Protocol	COnsolidated criteria for REporting Qualitative research (CORE-Q)	CAL-B03	ADD_GLOBAL	protocol:coreq	COREQ							GLOBAL	COnsolidated criteria for REporting Qualitative research (CORE-Q)	
+Protocol	COSMIN guidelines	R129-P129	ADD_GLOBAL	protocol:cosmin-guidelines	COSMIN guidelines							GLOBAL		
+Protocol	COSMIN risk of bias checklist	C50-P028	ADD_GLOBAL	protocol:cosmin-risk-of-bias-checklist	COSMIN risk-of-bias checklist	protocol:cosmin-guidelines	PRODUCT_VERSION					GLOBAL	COSMIN risk of bias checklist	
+Protocol	EQ-5D-5L valuation protocol	C50-P045	ALIAS_EXISTING	protocol:eq-vt-2-0	EQ-VT 2.0	protocol:eq-vt	PROTOCOL_VERSION			2.0	10.1371/journal.pone.0209344	GLOBAL	EQ-5D-5L valuation protocol	Alias supported by the same source identity.
+Protocol	EQ-5D-Y translation protocol	R129-P129	ADD_GLOBAL	protocol:eq-5d-y-translation	EQ-5D-Y translation protocol							GLOBAL		
+Protocol	EQ‐VT protocol	R129-P001	KEEP_EXISTING	protocol:eq-vt	EQ-VT							GLOBAL	EQ‐VT protocol	Current mapping is exact.
+Protocol	EuroQol Valuation Technology Platform (EQ-VT)	R129-P064	KEEP_EXISTING	protocol:eq-vt	EQ-VT							GLOBAL	EuroQol Valuation Technology Platform (EQ-VT)	Current mapping is exact.
+Protocol	EuroQol Valuation Technology version 2.0, EQ-VT 2.0	C50-P045	ADD_GLOBAL	protocol:eq-vt-2-0	EQ-VT 2.0	protocol:eq-vt	PROTOCOL_VERSION			2.0	10.1371/journal.pone.0209344	GLOBAL	EuroQol Valuation Technology version 2.0, EQ-VT 2.0	
+Protocol	Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines	C50-P028	ADD_GLOBAL	protocol:prisma	PRISMA guidelines							GLOBAL	Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines	
+Protocol	PROSPERO CRD42023434651	C50-P028	ADD_GLOBAL	protocol:prospero-crd42023434651	PROSPERO record CRD42023434651						CRD42023434651	GLOBAL	PROSPERO CRD42023434651	
+Protocol	two-wave protocol for assessing the EQ-TIPS-5L descriptive system using alternative choice tasks	C50-P032	ADD_SOURCE_SCOPED	protocol:c50-p032-two-wave-eq-tips-5l-choice-task	Two-wave EQ-TIPS-5L alternative-choice-task protocol		STUDY_ADAPTATION				10.1136/bmjopen-2025-100897	C50-P032	two-wave protocol for assessing the EQ-TIPS-5L descriptive system using alternative choice tasks	The source defines a study-specific identity.
+Scoring	2024 Trinidad and Tobago EQ-5D-5L value set	R129-P110	ADD_GLOBAL	scoring:eq-5d-5l-tt-2024	Trinidad and Tobago EQ-5D-5L value set (2024)	instrument:eq-5d-5l	PRODUCT_VERSION		TT	2024	10.1186/s12955-024-02266-7	GLOBAL	2024 Trinidad and Tobago EQ-5D-5L value set	Both labels are applications of one 2024 value set.
+Scoring	algorithm derived from the crosswalk 3L value sets	R129-P127	ALIAS_EXISTING	scoring:eq-5d-5l-van-hout-crosswalk-2012	van Hout EQ-5D-5L to EQ-5D-3L crosswalk algorithm	instrument:eq-5d-5l	PRODUCT_VERSION			2012	10.1016/j.jval.2012.02.008	GLOBAL	algorithm derived from the crosswalk 3L value sets	Alias supported by the same source identity.
+Scoring	Canada — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-ca	Canadian EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		CA	3L	10.1371/journal.pone.0031115	GLOBAL	Canada — 3L	
+Scoring	Canada — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-ca	Canadian EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		CA	5L	10.1097/MLR.0000000000000447	GLOBAL	Canada — 5L	
+Scoring	Canadian EQ-5D-5L value set	R129-P106	ALIAS_EXISTING	scoring:eq-5d-5l-ca	Canadian EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		CA	5L	10.1097/MLR.0000000000000447	GLOBAL		Alias supported by the same source identity.
+Scoring	China — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-cn	Chinese EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		CN	3L	10.1016/j.jval.2014.05.007	GLOBAL	China — 3L	
+Scoring	China — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-cn	Chinese EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		CN	5L	10.1016/j.jval.2016.11.016	GLOBAL	China — 5L	
+Scoring	Dutch tariff (Versteegh et al., 2016)	R129-P001	ALIAS_EXISTING	scoring:eq-5d-5l-nl-2016	Netherlands EQ-5D-5L value set (2016)	instrument:eq-5d-5l	PRODUCT_VERSION		NL	2016	10.1016/j.jval.2016.01.003	GLOBAL	Dutch tariff (Versteegh et al., 2016)	Alias supported by the same source identity.
+Scoring	England/UK — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-gb	United Kingdom EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		GB	3L	10.1097/00005650-199711000-00002	GLOBAL	England/UK — 3L	
+Scoring	England/UK — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-england	England EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		GB-ENG	5L	10.1002/hec.3564	GLOBAL	England/UK — 5L	
+Scoring	Germany — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-de	German EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		DE	3L	10.1007/s10198-004-0264-z	GLOBAL	Germany — 3L	
+Scoring	Germany — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-de	German EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		DE	5L	10.1007/s40273-018-0615-8	GLOBAL	Germany — 5L	
+Scoring	index values from the 2022–2023 Trinidad and Tobago valuation study	R129-P110	ALIAS_EXISTING	scoring:eq-5d-5l-tt-2024	Trinidad and Tobago EQ-5D-5L value set (2024)	instrument:eq-5d-5l	PRODUCT_VERSION		TT	2024	10.1186/s12955-024-02266-7	GLOBAL	index values from the 2022–2023 Trinidad and Tobago valuation study	Alias supported by the same source identity.
+Scoring	Indonesian EQ-5D-5L value set	R129-P028	ADD_GLOBAL	scoring:eq-5d-5l-id-2017	Indonesian EQ-5D-5L value set (2017)	instrument:eq-5d-5l	PRODUCT_VERSION		ID	2017	10.1007/s40273-017-0538-9	GLOBAL	Indonesian EQ-5D-5L value set	Both labels identify the Purba et al. Indonesian value set.
+Scoring	Japan — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-jp	Japanese EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		JP	3L	10.1002/hec.673	GLOBAL	Japan — 3L	
+Scoring	Japan — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-jp	Japanese EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		JP	5L	10.1016/j.jval.2016.03.1834	GLOBAL	Japan — 5L	
+Scoring	Level Sum Score	R129-P129	ADD_GLOBAL	scoring:level-sum-score	Level sum score		PRODUCT_VERSION					GLOBAL	Level Sum Score	
+Scoring	level sum score (LSS)	R129-P129	ALIAS_EXISTING	scoring:level-sum-score	Level sum score		PRODUCT_VERSION					GLOBAL	level sum score (LSS)	Alias supported by the same source identity.
+Scoring	new Indonesian value set	R129-P117	ALIAS_EXISTING	scoring:eq-5d-5l-id-2017	Indonesian EQ-5D-5L value set (2017)	instrument:eq-5d-5l	PRODUCT_VERSION		ID	2017	10.1007/s40273-017-0538-9	GLOBAL	new Indonesian value set	Alias supported by the same source identity.
+Scoring	Poland — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-pl	Polish EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		PL	3L	10.1111/j.1524-4733.2009.00596.x	GLOBAL	Poland — 3L	
+Scoring	Poland — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-pl	Polish EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		PL	5L	10.1007/s40273-019-00811-7	GLOBAL	Poland — 5L	
+Scoring	South Korea — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-kr	South Korean EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		KR	3L	10.1111/j.1524-4733.2009.00579.x	GLOBAL	South Korea — 3L	
+Scoring	South Korea — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-kr	South Korean EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		KR	5L	10.1007/s11136-015-1205-2	GLOBAL	South Korea — 5L	
+Scoring	Spain — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-es	Spanish EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		ES	3L	10.1177/0272989X0102100102	GLOBAL	Spain — 3L	
+Scoring	Spain — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-es	Spanish EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		ES	5L	10.1016/j.jval.2017.10.023	GLOBAL	Spain — 5L	
+Scoring	Taiwan EQ-5D-5L value set	C50-P045	ADD_GLOBAL	scoring:eq-5d-5l-tw-2018	Taiwan EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		TW	5L	10.1371/journal.pone.0209344	GLOBAL		
+Scoring	The Netherlands — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-nl	Netherlands EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		NL	3L	10.1002/hec.1124	GLOBAL	The Netherlands — 3L	
+Scoring	The Netherlands — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-nl-2016	Netherlands EQ-5D-5L value set (2016)	instrument:eq-5d-5l	PRODUCT_VERSION		NL	2016	10.1016/j.jval.2016.01.003	GLOBAL	The Netherlands — 5L	
+Scoring	UK pilot value set	R129-P028	ADD_GLOBAL	scoring:eq-hwb-s-gb-pilot-2023	United Kingdom pilot EQ-HWB-S value set	instrument:eq-hwb-s	PRODUCT_VERSION		GB	pilot	10.1016/j.jval.2023.02.008	GLOBAL	UK pilot value set	
+Scoring	US Measurement and Valuation of Health	R129-P127	ADD_GLOBAL	scoring:eq-5d-5l-van-hout-crosswalk-2012	van Hout EQ-5D-5L to EQ-5D-3L crosswalk algorithm	instrument:eq-5d-5l	PRODUCT_VERSION			2012	10.1016/j.jval.2012.02.008	GLOBAL	US Measurement and Valuation of Health	Both labels are applications of the van Hout crosswalk.
+Scoring	US — 3L	R129-P064	ADD_GLOBAL	scoring:eq-5d-3l-us	United States EQ-5D-3L value set	instrument:eq-5d-3l	PRODUCT_VERSION		US	3L	10.1177/0272989X18802797	GLOBAL	US — 3L	
+Scoring	US — 5L	R129-P064	ADD_GLOBAL	scoring:eq-5d-5l-us	United States EQ-5D-5L value set	instrument:eq-5d-5l	PRODUCT_VERSION		US	5L	10.1177/0272989X18802797	GLOBAL	US — 5L

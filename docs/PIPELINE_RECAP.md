@@ -25,9 +25,15 @@ retrieved or assessed. They are not part of the 209-paper graph.
 ## What happened to the 209 papers
 
 Eleven papers had two XML copies because each copy was filed under a different
-project. DOI grouping reduced 220 JATS files to 209 publications. One AI call
-per paper then made the full-text inclusion decision and drafted the semantic
-record. The result was 207 studies, one exclusion, and one correction notice.
+project. DOI grouping reduced 220 JATS files to 209 publications. One Opus call
+per paper made the full-text inclusion decision and drafted the semantic
+record. A fresh second Opus call checked the full source and returned the
+complete corrected record. All 209 corrected records pass deterministic
+validation. The result is 207 studies, one excluded paper, and one correction
+notice.
+
+The corrected records contain 15,430 typed items, including 1,951 findings,
+939 limitations, 96 products, 188 source conflicts, and 210 explicit gaps.
 
 The earlier project-folder match was not trusted as the final project link. A
 separate strong-model linkage pass received each paper and every project that
@@ -40,22 +46,27 @@ review records and do not create support or output relationships.
 
 - Deterministic code parses JATS metadata and loads the graph. No AI model is
   used for these steps.
-- The low-cost model produced the first semantic draft.
-- A strong full-source audit passed 121 study records unchanged and corrected
-  86. A low-cost result is therefore not trusted final evidence.
-- Current safe policy: use a strong model for final semantic ingestion or keep
-  a mandatory strong-model verification pass. A direct comparison of these two
-  strong-model workflows has not yet been run.
+- One isolated Opus call produced each version-0.13 draft.
+- A fresh isolated Opus call reviewed the full source and returned each complete
+  corrected record. Review returned 7 PASS, 202 MINOR, 0 MAJOR, and 846
+  corrections.
+- Deterministic validation rejects an invalid corrected record before
+  normalization or loading.
 - PDF bibliography extraction is separate from semantic paper extraction. The
   evidence agent must not reconstruct a long reference list.
 
 ## Current boundary
 
-- The 209-paper graph is the audited project-first JATS corpus.
-- Sixty local PDF-only papers remain outside the audited graph. The tested
-  `pdf-inspector` version is unsafe for them because it corrupted statistical
-  symbols. The retained converter remains the default until another established
-  parser passes the same checks.
+- The completed 209-paper version-0.13 result is the audited project-first JATS
+  corpus. It is separate from the 3,148 screened scale records.
+- The version-2 database and shared preview are in packaging. The preview is
+  not the final analytical release. The full 100-question aggregate-validity
+  rerun and focused version-0.14 gap work remain. No 100-question pass is
+  claimed.
+- Sixty local PDF-only papers remain outside the audited graph. The validated
+  converter repairs their PDF font maps, then creates prose, headings, tables,
+  and formula text in one structural pass. PDF-derived facts keep the same
+  source-page verification gate as other extracted facts.
 - The 3,148-paper retained set is the next large retrieval and assessment set.
 - Scale retrieval remains behind the independent human-screening check and the
   held identity queue.

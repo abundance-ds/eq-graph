@@ -1,0 +1,16 @@
+prepared*/
+__pycache__/
+run-smoke*/
+run-*/traces/
+run-*/work/
+**/traces/
+**/work/
+run-*/record.schema.json
+rebuild-v2-*/records/
+rebuild-v2-*/reviews/
+rebuild-v2-*/traces/
+rebuild-v2-*/work/
+rebuild-v2-*/record.schema.json
+rebuild-v2-*/review.schema.json
+rebuild-v2-*/audit.schema.json
+research-v2-*.sqlite

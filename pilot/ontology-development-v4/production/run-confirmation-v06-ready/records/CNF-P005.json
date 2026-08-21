@@ -1,0 +1,1185 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "CNF-P005",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "This work has received financial support from the EuroQol Research Foundation grant number 2015300.",
+    "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+    "publication_relation": null,
+    "reason": "The study directly evaluates experimental-design methods for valuing EQ-5D-5L health states. It compares unstratified and severity-stratified designs across three DCE formats. EuroQol Research Foundation support is explicit.",
+    "source": [
+      "Deterministic metadata, title, abstract, category, and funding group",
+      "Full article, Introduction, final paragraph",
+      "Full article, Methods",
+      "Full article, Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Severity-stratified DCE design experiment for EQ-5D-5L health-state valuation",
+      "primary_research_family": "METHODS_RESEARCH",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is an evaluation of how severity coverage in experimental designs affects DCE health-state values, prediction bias, and the validity of three valuation formats. The study does not present a value set as its main output.",
+      "source": [
+        "Full article, Abstract",
+        "Full article, Introduction, study aims",
+        "Full article, Methods",
+        "Full article, Discussion and Conclusion"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "VALUATION_METHOD_EVALUATION",
+      "rank": 1,
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": null,
+      "value": "HEALTH_STATE_VALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Standard DCE arms",
+      "source": [
+        "Full article, Methods, Table 1",
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part2",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "DCE-death arms",
+      "source": [
+        "Full article, Methods, Table 1",
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part3",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "DCE-duration arms",
+      "source": [
+        "Full article, Methods, Table 1",
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part4",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Recruitment and completion flow",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "component_approach",
+      "value": "QUANTITATIVE_EMPIRICAL",
+      "source": [
+        "Full article, Methods"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "temporal_structure",
+      "value": "CROSS_SECTIONAL",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "comparison_structure",
+      "value": "BETWEEN_METHOD",
+      "source": [
+        "Full article, Methods, opening paragraph and Table 1"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": null,
+      "axis": "allocation_structure",
+      "value": "RANDOMIZED",
+      "source": [
+        "Full article, Abstract, Methods",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Dutch general-population online-panel respondents",
+      "role": "health-state valuation respondents",
+      "geographies": [
+        "Netherlands"
+      ],
+      "conditions": [],
+      "age_description": "Aged 15 years and older; the panel contained people aged 15–65 years and additional older panelists.",
+      "inclusion_description": "SSI online-panel members who consented to participate, with recruitment intended to represent the Dutch population by age, gender, and education.",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm1",
+      "study_id": "s1",
+      "part_id": "part4",
+      "population_id": "pop1",
+      "stage": "PLANNED_TARGET",
+      "size": 3000,
+      "size_text": "3000 respondents; 500 per study arm",
+      "unit": "respondents",
+      "description": "Target sample for all six randomized study arms.",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm2",
+      "study_id": "s1",
+      "part_id": "part4",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 3122,
+      "size_text": "Overall sample N = 3122",
+      "unit": "respondents",
+      "description": "Overall sample reported in the respondent characteristics table.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm3",
+      "study_id": "s1",
+      "part_id": "part4",
+      "population_id": "pop1",
+      "stage": "EXCLUDED",
+      "size": 693,
+      "size_text": "693 respondents",
+      "unit": "respondents",
+      "description": "Respondents who did not complete the choice tasks and were excluded from analysis.",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 526,
+      "size_text": "N = 526",
+      "unit": "respondents",
+      "description": "Standard DCE, unstratified-design arm.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 520,
+      "size_text": "N = 520",
+      "unit": "respondents",
+      "description": "Standard DCE, severity-stratified-design arm.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm6",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 520,
+      "size_text": "N = 520",
+      "unit": "respondents",
+      "description": "DCE-death, unstratified-design arm.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm7",
+      "study_id": "s1",
+      "part_id": "part2",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 518,
+      "size_text": "N = 518",
+      "unit": "respondents",
+      "description": "DCE-death, severity-stratified-design arm.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm8",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 521,
+      "size_text": "N = 521",
+      "unit": "respondents",
+      "description": "DCE-duration, unstratified-design arm.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sm9",
+      "study_id": "s1",
+      "part_id": "part3",
+      "population_id": "pop1",
+      "stage": "ANALYZED",
+      "size": 517,
+      "size_text": "N = 517",
+      "unit": "respondents",
+      "description": "DCE-duration, severity-stratified-design arm.",
+      "source": [
+        "Full article, Results, Table 2"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "SSI online valuation survey responses",
+      "origin": "CURRENT_STUDY_COLLECTION",
+      "level": "PARTICIPANT_RESPONSE",
+      "purpose": "Compare health-state values and predictive performance across six randomized DCE arms.",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Prior values from previous unpublished research with 350 Dutch respondents for each DCE format",
+      "origin": "PRIOR_RESEARCH_COLLECTION",
+      "level": "MODEL_PARAMETER",
+      "purpose": "Supply informative priors for DCE design optimization and division of health states into severity strata.",
+      "source": [
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "EQ-5D-5L instrument",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "VALUATION_TARGET",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "self-rated EQ-5D-5L health state",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CURRENT_HEALTH_MEASUREMENT",
+      "source": [
+        "Full article, Results, Table 2 note"
+      ]
+    },
+    {
+      "type": "ScoringUse",
+      "id": "su1",
+      "study_id": "s1",
+      "part_id": null,
+      "instrument_use_id": "iu2",
+      "source_label": "Dutch tariff",
+      "registry_id": "product:eq-5d-5l-nl-2016",
+      "product_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "source": [
+        "Full article, Results, Table 2 note"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "standard DCE",
+      "registry_id": "method:dce",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m2",
+      "study_id": "s1",
+      "part_id": "part2",
+      "source_label": "DCE-death",
+      "registry_id": "method:dce-death",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "source_label": "DCE-duration",
+      "registry_id": "method:dce-duration",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "PREFERENCE_ELICITATION",
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m4",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "unstratified efficient designs",
+      "registry_id": "method:unstratified-efficient-dce-design",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m5",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "severity-stratified designs",
+      "registry_id": "method:severity-stratified-dce-design",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m6",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "heterogeneous DCE design algorithms",
+      "registry_id": "method:heterogeneous-dce-design",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m7",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Bayesian Markov chain Monte Carlo (MCMC) methods",
+      "registry_id": "method:bayesian-mcmc",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Statistical Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m8",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "mean errors (MEs)",
+      "registry_id": "method:mean-error",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Statistical Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m9",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Cross validation of the MEs",
+      "registry_id": "method:cross-validation",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUANTITATIVE_ANALYSIS",
+      "source": [
+        "Full article, Methods, Statistical Analysis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "m10",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "Survey Sampling International (SSI) online panel",
+      "registry_id": "method:cnf-p005-ssi-panel-recruitment",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "SAMPLING",
+      "source": [
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "ModelUse",
+      "id": "mod1",
+      "study_id": "s1",
+      "part_id": null,
+      "source_label": "mixed logit model",
+      "registry_id": "model:mixed-logit",
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CHOICE_MODELING",
+      "analytic_role": "PRIMARY_REPORTED",
+      "source": [
+        "Full article, Methods, Statistical Analysis"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "m1",
+        "m4"
+      ],
+      "label": "Standard DCE, unstratified efficient design",
+      "profiles": [
+        "10 years in EQ-5D-5L health state A",
+        "10 years in EQ-5D-5L health state B"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "five ordered levels per EQ-5D-5L dimension, from no problems to extreme problems or unable"
+      ],
+      "duration": "10 years for both alternatives",
+      "alternatives": "Two forced-choice alternatives",
+      "task_count": "21 tasks per respondent; 168 tasks across eight sub-designs",
+      "block": "Eight sub-designs",
+      "order": "The 21 tasks were presented in random order; left-right presentation was controlled by randomization.",
+      "randomization_unit": "Choice-task order and left-right presentation",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks",
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "applies_to": [
+        "iu1",
+        "m1",
+        "m5"
+      ],
+      "label": "Standard DCE, severity-stratified design",
+      "profiles": [
+        "10 years in EQ-5D-5L health state A",
+        "10 years in EQ-5D-5L health state B",
+        "one choice task selected from each severity-stratum candidate set"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression"
+      ],
+      "levels": [
+        "five ordered levels per EQ-5D-5L dimension, from no problems to extreme problems or unable",
+        "21 severity strata used for health-state selection"
+      ],
+      "duration": "10 years for both alternatives",
+      "alternatives": "Two forced-choice alternatives",
+      "task_count": "21 tasks per respondent; 168 tasks across eight sub-designs",
+      "block": "Eight sub-designs",
+      "order": "The 21 tasks were presented in random order; left-right presentation was controlled by randomization.",
+      "randomization_unit": "Choice-task order and left-right presentation",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks",
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu1",
+        "m2",
+        "m4"
+      ],
+      "label": "DCE-death, unstratified efficient design",
+      "profiles": [
+        "10 years in EQ-5D-5L health state A",
+        "10 years in EQ-5D-5L health state B",
+        "immediate death as fixed option C",
+        "matched A-B and B-C pairwise comparisons"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression",
+        "death reference point"
+      ],
+      "levels": [
+        "five ordered levels per EQ-5D-5L dimension, from no problems to extreme problems or unable"
+      ],
+      "duration": "10 years for health states A and B; immediate death for C",
+      "alternatives": "Three alternatives presented through two matched pairwise comparisons",
+      "task_count": "21 tasks per respondent; each task supplied two choice observations; 168 tasks across eight sub-designs",
+      "block": "Eight sub-designs",
+      "order": "The 21 tasks were presented in random order; the presented health-state option was randomized.",
+      "randomization_unit": "Choice-task order and presentation of health-state options",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks",
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td4",
+      "study_id": "s1",
+      "part_id": "part2",
+      "applies_to": [
+        "iu1",
+        "m2",
+        "m5"
+      ],
+      "label": "DCE-death, severity-stratified design",
+      "profiles": [
+        "10 years in EQ-5D-5L health state A",
+        "10 years in EQ-5D-5L health state B",
+        "immediate death as fixed option C",
+        "matched A-B and B-C pairwise comparisons",
+        "one choice task selected from each severity-stratum candidate set"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression",
+        "death reference point"
+      ],
+      "levels": [
+        "five ordered levels per EQ-5D-5L dimension, from no problems to extreme problems or unable",
+        "21 severity strata used for health-state selection"
+      ],
+      "duration": "10 years for health states A and B; immediate death for C",
+      "alternatives": "Three alternatives presented through two matched pairwise comparisons",
+      "task_count": "21 tasks per respondent; each task supplied two choice observations; 168 tasks across eight sub-designs",
+      "block": "Eight sub-designs",
+      "order": "The 21 tasks were presented in random order; the presented health-state option was randomized.",
+      "randomization_unit": "Choice-task order and presentation of health-state options",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks",
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "applies_to": [
+        "iu1",
+        "m3",
+        "m4"
+      ],
+      "label": "DCE-duration, unstratified efficient design",
+      "profiles": [
+        "10 years in EQ-5D-5L health state A",
+        "10 years in EQ-5D-5L health state B",
+        "EQ-5D-5L state 11111 with shorter duration as fixed option C",
+        "matched A-B and B-C pairwise comparisons"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression",
+        "duration"
+      ],
+      "levels": [
+        "five ordered levels per EQ-5D-5L dimension, from no problems to extreme problems or unable",
+        "option C durations of 2, 4, or 6 months and 1 through 9 years"
+      ],
+      "duration": "10 years for impaired health states; 12 shorter-duration levels for perfect health",
+      "alternatives": "Three alternatives presented through two matched pairwise comparisons",
+      "task_count": "21 tasks per respondent; each task supplied two choice observations; 168 tasks across eight sub-designs",
+      "block": "Eight sub-designs",
+      "order": "The 21 tasks were presented in random order; the presented health-state option was randomized.",
+      "randomization_unit": "Choice-task order and presentation of health-state options",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks",
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "TaskDesign",
+      "id": "td6",
+      "study_id": "s1",
+      "part_id": "part3",
+      "applies_to": [
+        "iu1",
+        "m3",
+        "m5"
+      ],
+      "label": "DCE-duration, severity-stratified design",
+      "profiles": [
+        "10 years in EQ-5D-5L health state A",
+        "10 years in EQ-5D-5L health state B",
+        "EQ-5D-5L state 11111 with shorter duration as fixed option C",
+        "matched A-B and B-C pairwise comparisons",
+        "one choice task selected from each severity-stratum candidate set"
+      ],
+      "attributes": [
+        "mobility",
+        "self-care",
+        "usual activities",
+        "pain/discomfort",
+        "anxiety/depression",
+        "duration"
+      ],
+      "levels": [
+        "five ordered levels per EQ-5D-5L dimension, from no problems to extreme problems or unable",
+        "option C durations of 2, 4, or 6 months and 1 through 9 years",
+        "21 severity strata used for health-state selection"
+      ],
+      "duration": "10 years for impaired health states; 12 shorter-duration levels for perfect health",
+      "alternatives": "Three alternatives presented through two matched pairwise comparisons",
+      "task_count": "21 tasks per respondent; each task supplied two choice observations; 168 tasks across eight sub-designs",
+      "block": "Eight sub-designs",
+      "order": "The 21 tasks were presented in random order; the presented health-state option was randomized.",
+      "randomization_unit": "Choice-task order and presentation of health-state options",
+      "stopping_rule": null,
+      "source": [
+        "Full article, Methods, The Discrete Choice Experiment (DCE) Choice Tasks",
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Experimental-design severity restriction",
+      "levels": [
+        "Unstratified",
+        "Severity-stratified"
+      ],
+      "role": "STUDIED_CONDITION",
+      "source": [
+        "Full article, Methods, Table 1"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a1",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu1",
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "respondent": "Dutch general-population online-panel respondents",
+      "perspective": "General-public valuation of hypothetical health states",
+      "completion": "Self-administered",
+      "assistance": null,
+      "channel": "Online platform",
+      "setting": "SSI online panel",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Two weeks in December 2015",
+      "source": [
+        "Full article, Introduction, first paragraph",
+        "Full article, Methods, Data Collection"
+      ]
+    },
+    {
+      "type": "Administration",
+      "id": "a2",
+      "study_id": "s1",
+      "part_id": null,
+      "applies_to": [
+        "iu2"
+      ],
+      "respondent": "Dutch general-population online-panel respondents",
+      "perspective": "Self-report of own health",
+      "completion": "Self-administered",
+      "assistance": null,
+      "channel": "Online platform",
+      "setting": "SSI online panel",
+      "instrument_language": null,
+      "interview_language": null,
+      "recall_period": null,
+      "time_point": "Before random assignment to the choice-task arms in December 2015",
+      "source": [
+        "Full article, Methods, Data Collection",
+        "Full article, Results, Table 2 note"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Coverage of the EQ-5D-5L severity range by selected health states",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Results, Figure 2 and Table 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "PREFERENCE_OR_UTILITY",
+      "label": "Sensitivity of DCE-derived EQ-5D-5L health-state values to severity stratification",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Introduction, final paragraph",
+        "Full article, Results, Table 4 and Figure 3"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o3",
+      "study_id": "s1",
+      "part_id": null,
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Predictive choice-probability error and valuation bias",
+      "instrument_use_ids": [
+        "iu1"
+      ],
+      "source": [
+        "Full article, Methods, Statistical Analysis",
+        "Full article, Results, Table 5"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Severity stratification substantially changed health-state coverage in DCE-duration designs. It increased representation of bad states and reduced representation of better states.",
+      "about": [
+        "o1",
+        "sf1",
+        "td5",
+        "td6"
+      ],
+      "values": [
+        {
+          "reported_value": "256 versus 310",
+          "unit": "unique health states",
+          "denominator": "unstratified versus severity-stratified DCE-duration designs",
+          "time": null,
+          "subgroup": "DCE-duration",
+          "comparator": "Unstratified versus severity-stratified",
+          "direction": "more unique states with severity stratification",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "16.8% versus 39.0%",
+          "unit": "percent of selected unique health states",
+          "denominator": "256 unstratified and 310 severity-stratified unique states",
+          "time": null,
+          "subgroup": "bad health states, QALY ≤ 0",
+          "comparator": "Unstratified versus severity-stratified",
+          "direction": "higher representation with severity stratification",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "34.4% versus 14.2%",
+          "unit": "percent of selected unique health states",
+          "denominator": "256 unstratified and 310 severity-stratified unique states",
+          "time": null,
+          "subgroup": "better health states, QALY > 0.5",
+          "comparator": "Unstratified versus severity-stratified",
+          "direction": "lower representation with severity stratification",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Figure 2 and Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The DCE-duration unstratified design selected a milder and more dispersed distribution of health states than the severity-stratified design.",
+      "about": [
+        "o1",
+        "sf1",
+        "td5",
+        "td6"
+      ],
+      "values": [
+        {
+          "reported_value": "0.31 versus 0.09",
+          "unit": "mean QALY-scale health-state value",
+          "denominator": "health states included in each DCE-duration design",
+          "time": null,
+          "subgroup": "DCE-duration",
+          "comparator": "Unstratified versus severity-stratified",
+          "direction": "higher mean severity value in the unstratified design",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "0.44 versus 0.35",
+          "unit": "standard deviation",
+          "denominator": "health states included in each DCE-duration design",
+          "time": null,
+          "subgroup": "DCE-duration",
+          "comparator": "Unstratified versus severity-stratified",
+          "direction": "greater dispersion in the unstratified design",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraph after Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "For DCE-duration, severity-stratified estimates gave higher values than unstratified estimates, especially for states worse than death.",
+      "about": [
+        "o2",
+        "sf1",
+        "td5",
+        "td6"
+      ],
+      "values": [
+        {
+          "reported_value": "−1.64 versus −1.11",
+          "unit": "QALY-scale value",
+          "denominator": "EQ-5D-5L state 55555",
+          "time": null,
+          "subgroup": "DCE-duration",
+          "comparator": "Unstratified versus severity-stratified",
+          "direction": "higher value with severity stratification",
+          "uncertainty": "95% credible intervals −1.93 to −1.38 versus −1.37 to −0.89"
+        },
+        {
+          "reported_value": "56.0% versus 42.8%",
+          "unit": "percent of health states",
+          "denominator": "all 3125 EQ-5D-5L health states",
+          "time": null,
+          "subgroup": "states classified as worse than death",
+          "comparator": "Unstratified versus severity-stratified DCE-duration estimates",
+          "direction": "lower proportion with severity stratification",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results, Table 4 and paragraph for Figure 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "For bad states in DCE-duration B-C tasks, the severity-stratified model had better out-of-sample prediction and avoided the significant negative error seen with the unstratified model.",
+      "about": [
+        "o3",
+        "sf1",
+        "m8",
+        "m9"
+      ],
+      "values": [
+        {
+          "reported_value": "−0.0559 versus 0.0028",
+          "unit": "mean signed error",
+          "denominator": "bad health states in DCE-duration B-C tasks",
+          "time": null,
+          "subgroup": "out-of-sample predictions",
+          "comparator": "Unstratified versus severity-stratified parameter estimates",
+          "direction": "error closer to zero with severity stratification",
+          "uncertainty": "The unstratified value was significant at the 5% level; the severity-stratified value was not."
+        }
+      ],
+      "source": [
+        "Full article, Results, Table 5 and following paragraph"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "Severity stratification had limited effects on values from the standard DCE and DCE-death formats.",
+      "about": [
+        "o2",
+        "sf1",
+        "part1",
+        "part2"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results, paragraphs for Table 4 and Figure 3",
+        "Full article, Discussion, first paragraph"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "The authors interpret severity stratification as a validity requirement for DCE-duration designs because it reduces extrapolation from a misspecified model and prevents downward bias in poor-state values.",
+      "finding_ids": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Abstract, Conclusion",
+        "Full article, Discussion, first and second paragraphs",
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "i2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The authors conclude that differences in severity-range coverage can explain part of the variation between DCE-derived health-state values and advise caution when using such values until the prevalence of extrapolation problems is known.",
+      "finding_ids": [
+        "f1",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "source": [
+        "Full article, Conclusion"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l1",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The study did not examine how specific the results were to the matched pairwise choice format; the fixed full-health alternative and the 10-year impaired-state duration might have amplified the skew.",
+      "about": [
+        "m2",
+        "m3",
+        "td3",
+        "td4",
+        "td5",
+        "td6"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l2",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The study did not compare the merits of efficient designs with other design-generation approaches that might not require severity-spread controls.",
+      "about": [
+        "m4",
+        "m5",
+        "m6"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l3",
+      "study_id": "s1",
+      "part_id": "part2",
+      "statement": "The absence of evidence for health-state selection effects in DCE-death might not apply to states from other descriptive systems, including disease-specific systems with different severity distributions.",
+      "about": [
+        "m2",
+        "td3",
+        "td4"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l4",
+      "study_id": "s1",
+      "part_id": null,
+      "statement": "The normal distribution assumed for parameters might be unsuitable for monotonic attribute-level effects because it is unbounded.",
+      "about": [
+        "mod1"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "l5",
+      "study_id": "s1",
+      "part_id": "part3",
+      "statement": "Respondents might not treat equivalent durations expressed in months and years in the same way.",
+      "about": [
+        "m3",
+        "td5",
+        "td6"
+      ],
+      "source": [
+        "Full article, Discussion, limitations paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "severity stratification",
+      "description": "A design restriction that divides EQ-5D-5L states into 21 predicted-utility strata and requires each sub-design to include one task from every stratum.",
+      "about": [
+        "m5",
+        "sf1",
+        "td2",
+        "td4",
+        "td6"
+      ],
+      "source": [
+        "Full article, Methods, Experimental Designs With/Without Severity-Stratified Restriction"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part3",
+      "label": "extrapolation from a misspecified DCE-duration model",
+      "description": "Bias can occur when an efficient design favors relatively mild states and the multiplicative duration model extrapolates values for poorly represented severe states.",
+      "about": [
+        "mod1",
+        "f3",
+        "f4"
+      ],
+      "source": [
+        "Full article, Discussion, second paragraph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,891 @@
+{
+  "schema_version": "eq-record-0.1",
+  "record_id": "C50-P028",
+  "assessment": {
+    "disposition": "include-study",
+    "connection": "direct_eq",
+    "euroqol_support": "explicit",
+    "support_scope": "“Jan Faller and this work is supported by an Australian Government Research Training Program (RTP) Scholarship and the EuroQol Foundation (1481-PHD) through a grant awarded to Lidia Engel.”",
+    "publication_form": "REVIEW_ARTICLE",
+    "publication_relation": null,
+    "reason": "This systematic review evaluates and synthesizes the measurement properties of generic preference-based measures in informal carers. EQ-5D-3L, EQ-5D-5L, and EQ-HWB-9 are principal research objects. The funding statement explicitly links EuroQol Foundation grant 1481-PHD to Jan Faller and this work.",
+    "source": [
+      "Full article, Abstract > Background and Objective",
+      "Full article, Background, final paragraph",
+      "Full article, Declarations > Funding"
+    ]
+  },
+  "studies": [
+    {
+      "id": "s1",
+      "label": "Systematic review of the psychometric performance of generic preference-based measures in informal carers",
+      "primary_research_family": "EVIDENCE_SYNTHESIS",
+      "execution_state": "COMPLETED",
+      "result_state": "RESULTS_REPORTED",
+      "family_rationale": "The principal contribution is the systematic identification, appraisal, and narrative synthesis of validation evidence for generic preference-based measures. Measurement-property evaluation is the subject of the synthesis, but the study does not collect new participant-level validation data.",
+      "source": [
+        "Full article, Abstract > Background and Objective and Methods",
+        "Full article, Methods > Literature Search",
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis",
+        "Full article, Conclusions"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Purpose",
+      "id": "p1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "EVIDENCE_SYNTHESIS",
+      "rank": 1,
+      "source": [
+        "Full article, Abstract > Background and Objective",
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "MEASUREMENT_PROPERTY_EVALUATION",
+      "rank": 2,
+      "source": [
+        "Full article, Background, final paragraph",
+        "Full article, Methods > Psychometric Properties"
+      ]
+    },
+    {
+      "type": "Purpose",
+      "id": "p3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "value": "METHOD_OR_PROTOCOL_QUALITY",
+      "rank": 3,
+      "source": [
+        "Full article, Methods > Quality Assessment/Risk of Bias",
+        "Full article, Results > Risk of Bias"
+      ]
+    },
+    {
+      "type": "StudyPart",
+      "id": "part1",
+      "study_id": "s1",
+      "part_id": null,
+      "label": "Systematic review and narrative synthesis",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "component_approach",
+      "value": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Literature Search"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "temporal_structure",
+      "value": "VARIABLE_SOURCE_TIME",
+      "source": [
+        "Full article, Abstract > Results: included studies were published between 2001 and 2024"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "comparison_structure",
+      "value": "BETWEEN_INSTRUMENT",
+      "source": [
+        "Full article, Results > Study Characteristics",
+        "Full article, Discussion, paragraph beginning “Addressing the inconsistencies”"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "allocation_structure",
+      "value": "NOT_APPLICABLE",
+      "source": [
+        "Full article, Methods: systematic review with no assignment of people or study units"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "synthesis_design",
+      "value": "SYSTEMATIC_REVIEW",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "Design",
+      "id": "d6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "axis": "synthesis_design",
+      "value": "NARRATIVE_SYNTHESIS",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis"
+      ]
+    },
+    {
+      "type": "Population",
+      "id": "pop1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Validation studies of generic preference-based measures completed by informal carers",
+      "role": "population represented in included evidence",
+      "geographies": [
+        "United States of America",
+        "United Kingdom",
+        "China",
+        "Australia",
+        "Italy",
+        "Iran",
+        "South Korea",
+        "Germany",
+        "France"
+      ],
+      "conditions": [
+        "Unspecified care-recipient conditions",
+        "Long-term or social care use",
+        "Alzheimer’s disease or dementia",
+        "Autism spectrum disorder",
+        "Cancer",
+        "Leukaemia",
+        "Craniofacial malformations",
+        "Meningitis",
+        "Multiple sclerosis",
+        "Stroke",
+        "Mental illness",
+        "Rheumatoid arthritis",
+        "Parkinson’s-related dementia"
+      ],
+      "age_description": "Informal carers of child, adult, and older-adult care recipients, plus carers identified in a general-population study.",
+      "inclusion_description": "Studies were eligible if they examined psychometric properties of generic preference-based measures among informal carers and reported extractable carer-specific results; any care-recipient condition was permitted.",
+      "source": [
+        "Full article, Methods > Inclusion and Exclusion Criteria",
+        "Full article, Results > Study Characteristics",
+        "Full article, Results > Population Characteristics"
+      ]
+    },
+    {
+      "type": "Sample",
+      "id": "sam1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "population_id": "pop1",
+      "stage": "INCLUDED_EVIDENCE",
+      "size": 21,
+      "size_text": "21 articles representing 21 included studies",
+      "unit": "studies",
+      "description": "Validation studies published from 2001 through 2024; nine evaluated two or more generic preference-based measures.",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Selection and Inclusion",
+        "Full article, Results > Study Characteristics"
+      ]
+    },
+    {
+      "type": "DataUse",
+      "id": "du1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Psychometric results and study characteristics extracted from included validation studies",
+      "origin": "REVIEW_EXTRACTED_EVIDENCE",
+      "level": "DOCUMENT",
+      "purpose": "Narrative synthesis of measurement-property evidence and study quality",
+      "source": [
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis",
+        "Full article, Methods > Quality Assessment/Risk of Bias"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-3L",
+      "registry_id": "instrument:eq-5d-3l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EQ-5D-5L",
+      "registry_id": "instrument:eq-5d-5l",
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "EuroQol Health and Wellbeing Short Version (EQ-HWB-9)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Health-related Quality of Life Instrument with 8 Items (HINT-8)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Health Utilities Index Mark 2 (HUI2)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Health Utilities Index Mark 3 (HUI3)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Short-form 6-Dimension version 1 (SF-6Dv1)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "InstrumentUse",
+      "id": "iu8",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Quality of Well Being Self-Administered (QWB-SA)",
+      "registry_id": null,
+      "context": "CURRENT_STUDY_OBJECT",
+      "function": "EVIDENCE_SYNTHESIS_TARGET",
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics",
+        "Full article, Table 2"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Electronic database search in CINAHL, PsycInfo, Embase and MEDLINE, supplemented with forward and backward citation searches in Scopus",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_IDENTIFICATION",
+      "source": [
+        "Full article, Methods > Literature Search"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Narrative synthesis",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "EVIDENCE_SYNTHESIS",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis"
+      ]
+    },
+    {
+      "type": "MethodUse",
+      "id": "mu3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Independent dual screening with disagreement resolution by a senior reviewer",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "QUALITY_CONTROL",
+      "source": [
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "REPORTING_GUIDELINE",
+      "source": [
+        "Full article, Abstract > Methods",
+        "Full article, Methods, opening paragraph"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "COSMIN risk of bias checklist",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "CRITICAL_APPRAISAL_PROTOCOL",
+      "source": [
+        "Full article, Methods > Quality Assessment/Risk of Bias",
+        "Full article, Results > Risk of Bias"
+      ]
+    },
+    {
+      "type": "ProtocolUse",
+      "id": "pr3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "source_label": "PROSPERO CRD42023434651",
+      "registry_id": null,
+      "context": "DIRECT_CURRENT_ACTIVITY",
+      "function": "GOVERNING_STUDY_PROTOCOL",
+      "source": [
+        "Full article, Methods, opening paragraph",
+        "Full article, Declarations > Review Registration"
+      ]
+    },
+    {
+      "type": "StudyFactor",
+      "id": "sf1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Care-recipient population group",
+      "levels": [
+        "Children",
+        "Adults",
+        "Older adults",
+        "General population"
+      ],
+      "role": "STRATIFIER",
+      "source": [
+        "Full article, Methods > Study Selection, Data Extraction and Synthesis",
+        "Full article, Tables 1–4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "MEASUREMENT_PROPERTY",
+      "label": "Synthesized psychometric performance of generic preference-based measures in informal carers",
+      "instrument_use_ids": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7",
+        "iu8"
+      ],
+      "source": [
+        "Full article, Methods > Psychometric Properties",
+        "Full article, Results > Psychometric Criteria Overview",
+        "Full article, Tables 2–4"
+      ]
+    },
+    {
+      "type": "Outcome",
+      "id": "o2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+      "label": "Risk of bias of included psychometric analyses",
+      "instrument_use_ids": [],
+      "source": [
+        "Full article, Methods > Quality Assessment/Risk of Bias",
+        "Full article, Results > Risk of Bias"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Twenty-one studies were included, and nine evaluated two or more generic preference-based measures in head-to-head comparisons.",
+      "about": [
+        "o1",
+        "sam1"
+      ],
+      "values": [
+        {
+          "reported_value": "21",
+          "unit": "studies",
+          "denominator": "all included evidence",
+          "time": "published 2001–2024",
+          "subgroup": null,
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "9",
+          "unit": "studies",
+          "denominator": "21 included studies",
+          "time": null,
+          "subgroup": "studies evaluating two or more GPBMs",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The EQ-5D-3L had the largest evidence base, followed by the EQ-5D-5L; both EQ-5D versions showed index-level ceiling effects.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2"
+      ],
+      "values": [
+        {
+          "reported_value": "9",
+          "unit": "studies",
+          "denominator": "21 included studies",
+          "time": null,
+          "subgroup": "EQ-5D-3L",
+          "comparator": null,
+          "direction": "most frequently evaluated",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "5/5",
+          "unit": "studies",
+          "denominator": "studies assessing EQ-5D-3L ceiling effects",
+          "time": null,
+          "subgroup": "EQ-5D-3L",
+          "comparator": null,
+          "direction": "ceiling effect observed",
+          "uncertainty": "21–33% of respondents reported full health"
+        },
+        {
+          "reported_value": "1/2",
+          "unit": "studies",
+          "denominator": "studies assessing EQ-5D-5L ceiling effects",
+          "time": null,
+          "subgroup": "EQ-5D-5L",
+          "comparator": null,
+          "direction": "ceiling effect observed",
+          "uncertainty": "17% reported full health in the study with a ceiling effect"
+        }
+      ],
+      "source": [
+        "Full article, Results > Study Characteristics",
+        "Full article, Results > Ceiling Effect"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f3",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "More than 60% of reported known-group analyses supported discrimination for EQ-5D-3L, EQ-5D-5L, EQ-HWB-9, HUI3, and SF-6Dv1.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu6",
+        "iu7"
+      ],
+      "values": [
+        {
+          "reported_value": "65%",
+          "unit": "known-group analyses",
+          "denominator": "46 EQ-5D-3L group analyses",
+          "time": null,
+          "subgroup": "EQ-5D-3L",
+          "comparator": null,
+          "direction": "significant discrimination",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "84%",
+          "unit": "known-group analyses",
+          "denominator": "55 EQ-5D-5L group analyses",
+          "time": null,
+          "subgroup": "EQ-5D-5L",
+          "comparator": null,
+          "direction": "significant discrimination",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "77%",
+          "unit": "known-group analyses",
+          "denominator": "22 EQ-HWB-9 group analyses",
+          "time": null,
+          "subgroup": "EQ-HWB-9",
+          "comparator": null,
+          "direction": "significant discrimination",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "73%",
+          "unit": "known-group analyses",
+          "denominator": "15 HUI3 group analyses",
+          "time": null,
+          "subgroup": "HUI3",
+          "comparator": null,
+          "direction": "significant discrimination",
+          "uncertainty": null
+        },
+        {
+          "reported_value": "62%",
+          "unit": "known-group analyses",
+          "denominator": "34 SF-6D group analyses",
+          "time": null,
+          "subgroup": "SF-6Dv1",
+          "comparator": null,
+          "direction": "significant discrimination",
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Validity > Known-Group Validity",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f4",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Convergent-validity findings were mixed, but most evidence showed at least moderate correlations with other GPBMs, carer-specific preference-based measures, and measures of carer health and well-being.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2",
+        "iu3",
+        "iu4",
+        "iu5",
+        "iu6",
+        "iu7",
+        "iu8"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Results > Validity > Convergent Validity",
+        "Full article, Table 4"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f5",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Test–retest results supported reliability for EQ-5D-3L, EQ-5D-5L, and EQ-HWB-9, although agreement varied across domains.",
+      "about": [
+        "o1",
+        "iu1",
+        "iu2",
+        "iu3"
+      ],
+      "values": [
+        {
+          "reported_value": "0.87",
+          "unit": "ICC",
+          "denominator": null,
+          "time": "2-day response period",
+          "subgroup": "EQ-HWB-9",
+          "comparator": null,
+          "direction": "test–retest reliability",
+          "uncertainty": "Domain weighted Kappa scores ranged from 0.38 to 0.61"
+        },
+        {
+          "reported_value": "0.987",
+          "unit": "ICC",
+          "denominator": null,
+          "time": "24-hour response period",
+          "subgroup": "EQ-5D-5L",
+          "comparator": null,
+          "direction": "test–retest reliability",
+          "uncertainty": "Kappa scores ranged from 0.79 to 0.85"
+        },
+        {
+          "reported_value": "0.725",
+          "unit": "ICC",
+          "denominator": null,
+          "time": "2-day response period",
+          "subgroup": "EQ-5D-5L",
+          "comparator": "EQ-5D-3L ICC 0.657",
+          "direction": "greater reliability for EQ-5D-5L",
+          "uncertainty": "Weighted Kappa 0.62–0.72 for EQ-5D-5L and 0.54–0.74 for EQ-5D-3L"
+        }
+      ],
+      "source": [
+        "Full article, Results > Reliability"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f6",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Responsiveness evidence was limited and mixed for EQ-5D-5L and EQ-HWB-9, while the reviewed SF-6Dv1 study did not show responsiveness.",
+      "about": [
+        "o1",
+        "iu2",
+        "iu3",
+        "iu7"
+      ],
+      "values": [],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Responsiveness"
+      ]
+    },
+    {
+      "type": "Finding",
+      "id": "f7",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Most assessed psychometric analyses had a very-good or adequate COSMIN risk-of-bias rating.",
+      "about": [
+        "o2",
+        "pr2"
+      ],
+      "values": [
+        {
+          "reported_value": "36 (72%)",
+          "unit": "psychometric analyses",
+          "denominator": "50 assessed sets of psychometric properties",
+          "time": null,
+          "subgroup": "very good",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "12 (24%)",
+          "unit": "psychometric analyses",
+          "denominator": "50 assessed sets of psychometric properties",
+          "time": null,
+          "subgroup": "adequate",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        },
+        {
+          "reported_value": "2 (4%)",
+          "unit": "psychometric analyses",
+          "denominator": "50 assessed sets of psychometric properties",
+          "time": null,
+          "subgroup": "doubtful",
+          "comparator": null,
+          "direction": null,
+          "uncertainty": null
+        }
+      ],
+      "source": [
+        "Full article, Results > Risk of Bias"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors concluded that current evidence supports use of generic preference-based measures in informal carers, but evidence for individual psychometric properties remains limited.",
+      "finding_ids": [
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7"
+      ],
+      "source": [
+        "Full article, Abstract > Conclusions",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Interpretation",
+      "id": "int2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The authors stated that generic preference-based measures can capture some caring effects but might provide only a limited view of broader caregiver spillovers; they recommended further head-to-head, longitudinal, face-validity, and content-validity research.",
+      "finding_ids": [
+        "f3",
+        "f4",
+        "f6"
+      ],
+      "source": [
+        "Full article, Discussion, paragraphs beginning “Addressing the inconsistencies” and “Overall, the findings”",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "Relevant articles may have been missed because the review used a limited set of databases and excluded non-English-language studies.",
+      "about": [
+        "mu1",
+        "sam1"
+      ],
+      "source": [
+        "Full article, Study Strengths and Limitations"
+      ]
+    },
+    {
+      "type": "Limitation",
+      "id": "lim2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "statement": "The limited number of head-to-head studies and heterogeneity in convergent-validity measures, known-group definitions, test–retest intervals, and responsiveness criteria prevented selection of the most appropriate GPBM.",
+      "about": [
+        "o1",
+        "d3"
+      ],
+      "source": [
+        "Full article, Study Strengths and Limitations"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Informal-carer health spillover effects",
+      "description": "Positive or negative effects of a care recipient’s condition or intervention on family members’ or caregivers’ health-related quality of life.",
+      "about": [
+        "pop1",
+        "o1"
+      ],
+      "source": [
+        "Full article, Background, first paragraph"
+      ]
+    },
+    {
+      "type": "Concept",
+      "id": "c2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "label": "Coverage of caring-specific spillover effects by generic preference-based measures",
+      "description": "The review considers whether GPBMs capture the broader effects of caring and whether carer-specific measures are needed as supplementary outcomes.",
+      "about": [
+        "iu1",
+        "iu2",
+        "iu3",
+        "o1"
+      ],
+      "source": [
+        "Full article, Discussion, paragraphs beginning “Addressing the inconsistencies” and “Overall, the findings”",
+        "Full article, Conclusions"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Number of included studies evaluating EQ-5D-5L",
+      "statements": [
+        {
+          "statement": "The abstract reports that EQ-5D-5L was evaluated in seven studies.",
+          "source": [
+            "Full article, Abstract > Results"
+          ]
+        },
+        {
+          "statement": "The main Results section reports that EQ-5D-5L was tested in eight studies and cites eight included studies.",
+          "source": [
+            "Full article, Results > Study Characteristics, first paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Abstract > Results",
+        "Full article, Results > Study Characteristics, first paragraph"
+      ]
+    }
+  ]
+}

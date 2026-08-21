@@ -1,0 +1,41 @@
+{
+  "run": "rebuild-v2-v09-live-audit-01",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "batches": 1,
+  "successful": 1,
+  "failed": 0,
+  "manifest_sha256": "3f2f624dde8eada0e07390e2cedb60cc2d3446e8705291e110ab71bcc8387267",
+  "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+  "usage": {
+    "input_tokens": 100751,
+    "cached_input_tokens": 11008,
+    "output_tokens": 7638,
+    "reasoning_output_tokens": 7115
+  },
+  "results": [
+    {
+      "status": "ok",
+      "batch_id": "A001",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "returncode": 0,
+      "json_valid": true,
+      "json_error": null,
+      "elapsed_seconds": 164.036,
+      "input_path": "pilot/ontology-development-v4/production/prepared-rebuild-v2-v09-live-audit-01/inputs/A001.md",
+      "input_sha256": "79835c11374af50a6e4e5728417690a64b5580f6214ffd6240eac2ab1d52aa21",
+      "schema_sha256": "0df0636886859ec0668f33656fbb2dc04aa0d4cb9935c62111b11418132750da",
+      "output_path": "pilot/ontology-development-v4/production/rebuild-v2-v09-live-audit-01/records/A001.json",
+      "output_sha256": "1e3ccb4f8419919a45a61378c3480bec3da5cffade2fdcb253bfedf4f808b6df",
+      "trace_path": "pilot/ontology-development-v4/production/rebuild-v2-v09-live-audit-01/traces/A001.jsonl",
+      "usage": {
+        "input_tokens": 100751,
+        "cached_input_tokens": 11008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7638,
+        "reasoning_output_tokens": 7115
+      }
+    }
+  ]
+}

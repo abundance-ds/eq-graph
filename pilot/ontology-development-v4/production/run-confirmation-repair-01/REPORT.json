@@ -1,0 +1,2001 @@
+{
+  "summary": {
+    "records": 20,
+    "record_sources": {
+      "pilot/ontology-development-v4/production/run-confirmation-01": 9,
+      "pilot/ontology-development-v4/production/run-confirmation-repair-01": 11
+    },
+    "dispositions": {
+      "include-study": 20
+    },
+    "studies": 21,
+    "primary_families": {
+      "VALUE_SET_DEVELOPMENT": 1,
+      "METHODS_RESEARCH": 5,
+      "MEASUREMENT_PROPERTY_EVALUATION": 7,
+      "APPLIED_USE_RESEARCH": 3,
+      "HEALTH_OUTCOME_RESEARCH": 3,
+      "EVIDENCE_SYNTHESIS": 1,
+      "POPULATION_REFERENCE_DESCRIPTION": 1
+    },
+    "item_types": {
+      "Purpose": 36,
+      "StudyPart": 38,
+      "Design": 130,
+      "Population": 31,
+      "Sample": 90,
+      "DataUse": 40,
+      "InstrumentUse": 86,
+      "MethodUse": 144,
+      "ProtocolUse": 14,
+      "ModelUse": 24,
+      "TaskDesign": 27,
+      "Administration": 44,
+      "Outcome": 69,
+      "Finding": 127,
+      "Product": 8,
+      "ScoringUse": 15,
+      "ProductStateAssertion": 7,
+      "Interpretation": 50,
+      "Limitation": 86,
+      "Concept": 36,
+      "StudyFactor": 64,
+      "Gap": 3,
+      "SourceConflict": 17,
+      "StakeholderInvolvement": 3
+    },
+    "unmapped_registry": 283,
+    "gaps": 3,
+    "source_conflicts": 17,
+    "validation": {
+      "expected": 20,
+      "present": 20,
+      "valid": 20,
+      "errors": 0,
+      "warnings": 283,
+      "dispositions": {
+        "include-study": 20
+      }
+    },
+    "run": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "records": 11,
+      "successful": 11,
+      "failed": 0,
+      "elapsed_agent_seconds": 1644.747,
+      "usage": {
+        "input_tokens": 636449,
+        "cached_input_tokens": 45312,
+        "output_tokens": 85001,
+        "reasoning_output_tokens": 8833
+      }
+    }
+  },
+  "unmapped_registry": [
+    {
+      "record_id": "CNF-P001",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L questionnaire"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "MethodUse",
+      "source_label": "quota sampling method"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "MethodUse",
+      "source_label": "composite time trade-off (cTTO)"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "MethodUse",
+      "source_label": "EuroQol Valuation Technology (EQ-VT) (version 2.1)"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "MethodUse",
+      "source_label": "cross-validation procedure"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "MethodUse",
+      "source_label": "tobit modelling"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "MethodUse",
+      "source_label": "backward selection method"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ProtocolUse",
+      "source_label": "‘lite’ version of the EuroQol’s EQ-5D-5L valuation protocol"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ProtocolUse",
+      "source_label": "standard quality control process developed by the EuroQol Group"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ModelUse",
+      "source_label": "ADD20"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ModelUse",
+      "source_label": "ADD20-I model accounting for heteroskedasticity"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ModelUse",
+      "source_label": "ADD20-P"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ModelUse",
+      "source_label": "CALE"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ModelUse",
+      "source_label": "CALE-I"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ModelUse",
+      "source_label": "CALE-P"
+    },
+    {
+      "record_id": "CNF-P001",
+      "type": "ScoringUse",
+      "source_label": "Singapore EQ-5D-5L value set estimated using the ADD20-I model"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "EQ-VAS instrument"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "Dutch version of a validated word completion test"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "validated Dutch version of the Experiences in Close Relationships"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "level of agreement with the medical doctor"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "Time Trade-off (TTO) method"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "ANOVAs with planned comparisons"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "Pearson’s correlations"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "Bonferroni correction for multiple comparisons"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "TTO scores were flagged as inconsistent if more than one preference switch occurred"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "EQ-VAS instrument"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "Dutch version of a validated word completion test"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "validated Dutch version of the Experiences in Close Relationships"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "InstrumentUse",
+      "source_label": "emotional lability questionnaire"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "Time Trade-off (TTO) method"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "ANOVAs with planned comparisons"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "Pearson’s correlations"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "Bonferroni correction for multiple comparisons"
+    },
+    {
+      "record_id": "CNF-P002",
+      "type": "MethodUse",
+      "source_label": "TTO scores were flagged as inconsistent if more than one preference switch occurred"
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "InstrumentUse",
+      "source_label": "simplified Chinese version of the EQ-5D-Y-3 L instrument"
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "InstrumentUse",
+      "source_label": "EQ-VAS"
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "MethodUse",
+      "source_label": "semi-structured health interviews"
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "MethodUse",
+      "source_label": "framework analysis method outlined by Ritchie & Spencer"
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "MethodUse",
+      "source_label": "framework adapted from the existing model of response issues by Penton et al."
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "ProtocolUse",
+      "source_label": "protocol and topic guide outlined in Appendix 2"
+    },
+    {
+      "record_id": "CNF-P003",
+      "type": "ProtocolUse",
+      "source_label": "Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "InstrumentUse",
+      "source_label": "Amharic version of EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "InstrumentUse",
+      "source_label": "EORTC QLQ-C30"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "InstrumentUse",
+      "source_label": "EORTC-QLQ-C30 global health subscale"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "InstrumentUse",
+      "source_label": "Eastern Cooperative Oncology Group (ECOG) performance status"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "recruited consecutively"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "face-to-face interview"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "Spearman correlation coefficient"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "Kruskal Wallis U test"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "Wilcoxon signed-rank test"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "effect size (ES)"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "standardized response mean (SRM)"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "distribution-based method"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "anchor-based method"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "receiver operating characteristic (ROC) curve"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "Youden index"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "MethodUse",
+      "source_label": "minimal detectable change (MDC) calculation"
+    },
+    {
+      "record_id": "CNF-P004",
+      "type": "ScoringUse",
+      "source_label": "Ethiopian value sets"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L instrument"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "InstrumentUse",
+      "source_label": "self-rated EQ-5D-5L health state"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "ScoringUse",
+      "source_label": "Dutch tariff"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "standard DCE"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "DCE-death"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "DCE-duration"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "unstratified efficient designs"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "severity-stratified designs"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "heterogeneous DCE design algorithms"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "Bayesian Markov chain Monte Carlo (MCMC) methods"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "mean errors (MEs)"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "Cross validation of the MEs"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "MethodUse",
+      "source_label": "Survey Sampling International (SSI) online panel"
+    },
+    {
+      "record_id": "CNF-P005",
+      "type": "ModelUse",
+      "source_label": "mixed logit model"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "InstrumentUse",
+      "source_label": "revised individualized decision aid"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "InstrumentUse",
+      "source_label": "Preparation for Decision Making Scale (PDMS)"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "InstrumentUse",
+      "source_label": "System Usability Scale (SUS)"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "InstrumentUse",
+      "source_label": "Acceptability Scale"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "MethodUse",
+      "source_label": "recruitment after the surgical screening appointment at a high-volume urban hip and knee clinic"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "MethodUse",
+      "source_label": "online evaluation survey"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "MethodUse",
+      "source_label": "open-ended questions in the online evaluation survey"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "MethodUse",
+      "source_label": "descriptive statistics"
+    },
+    {
+      "record_id": "CNF-P006",
+      "type": "MethodUse",
+      "source_label": "content analysis"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "InstrumentUse",
+      "source_label": "EuroQol’s EQ-5D-3L"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "InstrumentUse",
+      "source_label": "EuroQol’s EQ-5D-3L"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-3L"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "ScoringUse",
+      "source_label": "European value set"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "mixed-mode (online and postal questionnaires) method"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "mixed-mode (online and postal questionnaires) method"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "case-control matching procedure (1:1 exact matching based on sex and age)"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "Descriptive statistics including proportions and their 95% confidence intervals (95% CIs)"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "z-test"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "Bonferroni correction"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "MethodUse",
+      "source_label": "stepwise removal of non-significant variables"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "ModelUse",
+      "source_label": "Tobit regression"
+    },
+    {
+      "record_id": "CNF-P007",
+      "type": "ModelUse",
+      "source_label": "OLS regression"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "InstrumentUse",
+      "source_label": "Arabic version of the EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L health states"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L descriptive system"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "InstrumentUse",
+      "source_label": "country-specific questionnaire designed for the Egyptian valuation study"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "composite time trade off (cTTO)"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "discrete choice experiment (DCE)"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "multistratified quota sampling"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "QC tool"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "descriptive statistics"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "one sample z-test for a population proportion"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "χ2 goodness-of-fit test"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "MethodUse",
+      "source_label": "asking them about their feedback"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "ProtocolUse",
+      "source_label": "EQ-VT-2.1 protocol"
+    },
+    {
+      "record_id": "CNF-P008",
+      "type": "ProtocolUse",
+      "source_label": "QC process for the EQ-5D-5L valuation studies"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "EQ- 5D-Y- 3L"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "EQ- 5D-Y- 5L"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "EQ- 5D- 3L"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "CHU9D"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "PedsQL"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "HUI2"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "HUI3"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "InstrumentUse",
+      "source_label": "Vignette"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "Database search in Ovid MEDLINE, Ovid EMBASE, and EconLit"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "Descriptive summary"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "Forest plots"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "Narrative summary"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "Level sum score (LSS)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "time trade-off (TTO)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "discrete choice experiment (DCE)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "visual analog scale (VAS)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "best–worst scaling (BWS)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "standard gamble (SG)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "Self-reporting scoring system"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "PTO"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "cTTO"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "LT TTO"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "DCEd"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "MethodUse",
+      "source_label": "LOD"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "ProtocolUse",
+      "source_label": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "ProtocolUse",
+      "source_label": "PROSPERO ID: CRD42023429906"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "ProtocolUse",
+      "source_label": "RETRIEVE checklist"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "ProtocolUse",
+      "source_label": "Mixed Methods Appraisal Tool (MMAT)"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "ProtocolUse",
+      "source_label": "checklist developed for this review"
+    },
+    {
+      "record_id": "CNF-P009",
+      "type": "ModelUse",
+      "source_label": "multi-level meta-regression using the restricted maximum likelihood method"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-Y-3L"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-Y-5L"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "PedsQL generic core 4.0"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "PedsQL 3.0 Cancer Module"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "EQ-HWB-9"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "EQ VAS"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "overall health assessment (OHA)"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-Y-5L"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "InstrumentUse",
+      "source_label": "adult EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "structured survey administered during baseline and follow-up assessments"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "semistructured, face-to-face, one-on-one interviews"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "intraclass correlation coefficients"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "Gwet’s AC1"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "Cohen’s d effect sizes"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "ANOVA comparisons across severity levels"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "Glass’ Δ effect sizes and response means"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "Spearman’s correlations"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "receiver operating characteristic curves and area under the curve assessments"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "MethodUse",
+      "source_label": "thematic analysis following Braun and Clarke’s six-phase framework"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "ProtocolUse",
+      "source_label": "Consolidated Criteria for Reporting Qualitative Research (COREQ) checklist"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "ModelUse",
+      "source_label": "logistic regression models"
+    },
+    {
+      "record_id": "CNF-P010",
+      "type": "ModelUse",
+      "source_label": "regression techniques"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "InstrumentUse",
+      "source_label": "EQ-HWB"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "InstrumentUse",
+      "source_label": "ASCOT"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "InstrumentUse",
+      "source_label": "QOL-ACC"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "InstrumentUse",
+      "source_label": "EQ VAS"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "MethodUse",
+      "source_label": "cognitive think-aloud interviews"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "MethodUse",
+      "source_label": "concurrent think-aloud techniques"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "MethodUse",
+      "source_label": "retrospective think-aloud techniques"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "MethodUse",
+      "source_label": "framework analysis"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "MethodUse",
+      "source_label": "adapted coding framework from van Leeuwen et al. based on Tourangeau’s model of survey response"
+    },
+    {
+      "record_id": "CNF-P011",
+      "type": "MethodUse",
+      "source_label": "data saturation assessment"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "InstrumentUse",
+      "source_label": "EQ VAS"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "ScoringUse",
+      "source_label": "EQ-5D-5L Level Sum Score (LSS)"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "MethodUse",
+      "source_label": "Recruitment from Dynata existing voluntary panels"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "MethodUse",
+      "source_label": "web-based survey"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "MethodUse",
+      "source_label": "Descriptive statistics"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "MethodUse",
+      "source_label": "Kruskal-Wallis tests"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "MethodUse",
+      "source_label": "Mann-Whitney U tests"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "MethodUse",
+      "source_label": "multiple linear regression analyses"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "ModelUse",
+      "source_label": "Multiple linear regression model for EQ-5D-5L LSS"
+    },
+    {
+      "record_id": "CNF-P012",
+      "type": "ModelUse",
+      "source_label": "Multiple linear regression model for EQ VAS"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "InstrumentUse",
+      "source_label": "EQ‐5D‐5L"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "InstrumentUse",
+      "source_label": "EQ‐5D‐5L"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "InstrumentUse",
+      "source_label": "EQ‐5D‐5L Alberta population norms"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "ScoringUse",
+      "source_label": "Canadian EQ‐5D‐5L value set"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "MethodUse",
+      "source_label": "descriptive analysis by EQ‐5D‐5L dimension, index, and visual analog scale scores"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "MethodUse",
+      "source_label": "Pareto Classification of Health Change (PCHC)"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "MethodUse",
+      "source_label": "previously published minimally important differences (MID): 0.04 for the EQ‐5D‐5L index and 7.0 for the VAS"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "MethodUse",
+      "source_label": "effect size of change calculated as average change score divided by baseline score standard deviation"
+    },
+    {
+      "record_id": "CNF-P013",
+      "type": "MethodUse",
+      "source_label": "comparison with Alberta general population norms matched by age and sex"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-3L"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "MSIS-8D"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "MSIS-29v2"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "web-EDSS"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "FSS"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "MSWS-12"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "HADS-A"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "InstrumentUse",
+      "source_label": "HADS-D"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "ScoringUse",
+      "source_label": "UK value set"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "ScoringUse",
+      "source_label": "published algorithm based on the preferences of a representative sample of the general UK population"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "ProtocolUse",
+      "source_label": "revised COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "rates of missing data"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "health state frequencies"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "health state density curves (HSDCs)"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "health state density indices (HSDIs)"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "one-way ANOVAs"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "independent t-tests"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "Spearman’s correlation coefficients"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "paired t-tests"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "standardised effect sizes (SES)"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "standardised response means (SRM)"
+    },
+    {
+      "record_id": "CNF-P014",
+      "type": "MethodUse",
+      "source_label": "Wilcoxon Signed Rank Test for paired samples"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "InstrumentUse",
+      "source_label": "VAS score Health"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "MethodUse",
+      "source_label": "paired comparison (PC)"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "MethodUse",
+      "source_label": "best–worst scaling case 2 (BWS case 2)"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "MethodUse",
+      "source_label": "Pearson's correlation"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "MethodUse",
+      "source_label": "Lin's concordance correlation coefficient"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "MethodUse",
+      "source_label": "descriptive statistics"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "MethodUse",
+      "source_label": "maximum likelihood"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "ModelUse",
+      "source_label": "conditional logit model"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "ModelUse",
+      "source_label": "heteroskedastic conditional logit (HCL) model"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "ModelUse",
+      "source_label": "interaction model (controlling heteroskedasticity)"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "ModelUse",
+      "source_label": "heteroskedastic scale-adjusted latent class (SALC) model"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "ScoringUse",
+      "source_label": "Dutch EQ-5D-5L value set on a pits scale"
+    },
+    {
+      "record_id": "CNF-P015",
+      "type": "ScoringUse",
+      "source_label": "original Dutch EQ-5D-5L values"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "InstrumentUse",
+      "source_label": "EQ-HWB/EQ-HWB-S"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "Spearman rank-order coefficients"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "Shannon’s Index (H’) and Shannon’s Evenness Index (J’)"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "Item Response Theory analysis"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "Differential item functioning (DIF) analysis using a hybrid logistic ordinal regression/IRT approach"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "Ordinal logistic regression"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "Qualtrics caregiver panel recruitment"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "attention checks"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "MethodUse",
+      "source_label": "minimum completion time thresholds"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "ModelUse",
+      "source_label": "graded response model (GRM)"
+    },
+    {
+      "record_id": "CNF-P016",
+      "type": "ModelUse",
+      "source_label": "Separate ordinal logistic regression models for each of the four EQ-HWB physical pain and discomfort items"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "InstrumentUse",
+      "source_label": "EQ VAS"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L health states"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "quota-based sampling approach"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "computer-assisted personal interviews"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "descriptive statistics"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "Shapiro–Wilk test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "Kruskal–Wallis test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "Mann–Whitney-U test"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "MethodUse",
+      "source_label": "Chi square tests"
+    },
+    {
+      "record_id": "CNF-P017",
+      "type": "ScoringUse",
+      "source_label": "recommended value set for Germany by Ludwig et al."
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "European quality of life five dimensions (EQ-5D)"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "Short Form-36 (SF-36)"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "SF-6D"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "Health Utility Index mark 3 [HUI3]"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D proxy versions"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "MethodUse",
+      "source_label": "reporting health-utility alongside mortality on Kaplan-Meier curves"
+    },
+    {
+      "record_id": "CNF-P018",
+      "type": "ScoringUse",
+      "source_label": "Canadian scoring algorithm for the EQ-5D index"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-3L descriptive system"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "InstrumentUse",
+      "source_label": "EQ VAS"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-3L"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "MethodUse",
+      "source_label": "Descriptive analysis"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "MethodUse",
+      "source_label": "Paretian Classification of Health Change (PCHC)"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "ModelUse",
+      "source_label": "analysis of covariance (ANCOVA)"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "ModelUse",
+      "source_label": "two-level random intercept model"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "ProtocolUse",
+      "source_label": "REporting of studies Conducted using Observational Routinely collected health Data (RECORD) checklist"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "ScoringUse",
+      "source_label": "Swedish experience-based EQ-5D-3L TTO value set"
+    },
+    {
+      "record_id": "CNF-P019",
+      "type": "ScoringUse",
+      "source_label": "Swedish experience-based EQ-5D-3L VAS value set"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "InstrumentUse",
+      "source_label": "EQ-5D-5L"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "ScoringUse",
+      "source_label": "level sum score (LSS)"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "MethodUse",
+      "source_label": "Mokken scale analysis"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "MethodUse",
+      "source_label": "Loevinger’s homogeneity coefficients H"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "MethodUse",
+      "source_label": "automated item selection procedure (AISP)"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "MethodUse",
+      "source_label": "manifest monotonicity"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "MethodUse",
+      "source_label": "manifest invariant item ordering (MIIO)"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "ModelUse",
+      "source_label": "monotone homogeneity model (MHM)"
+    },
+    {
+      "record_id": "CNF-P020",
+      "type": "ModelUse",
+      "source_label": "double monotonicity model (DMM)"
+    }
+  ],
+  "gaps": [
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": null,
+      "part_id": null,
+      "state": "UNMODELED_ASPECT",
+      "affected_item_id": null,
+      "affected_type": "Finding",
+      "affected_key": "multi-Study finding relation",
+      "evidence": "Findings f1/f6, f2/f7, f3/f8, and f5/f12 use pooled data from Study 1 and Study 2. The schema permits only one study_id for each Finding, so each pooled finding is repeated under both studies.",
+      "importance": "Without a multi-Study relation, a pooled finding can appear to belong to only one study.",
+      "proposed_resolution": "Add a relation that lets one Finding link to multiple Study records while preserving one finding identity.",
+      "source": [
+        "Full article, Methods > Design, paragraph 1",
+        "Full article, Results, paragraphs 1 and 4-8",
+        "Full article, Tables 2-3"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": "s1",
+      "part_id": null,
+      "state": "UNMAPPED_VALUE",
+      "affected_item_id": "d3",
+      "affected_type": "Design",
+      "affected_key": "comparison_structure",
+      "evidence": "The study compares frequency and severity response-scale formats. The controlled comparison-structure vocabulary has no value for a response-scale-format comparison.",
+      "importance": "The comparison is central to the study design, but BETWEEN_METHOD would incorrectly classify response-scale formats as methods.",
+      "proposed_resolution": "Review whether the comparison-structure vocabulary needs a controlled value for response-scale-format comparison.",
+      "source": [
+        "Full article — Abstract, Purpose",
+        "Full article — Background, final paragraph",
+        "Full article — Methods, Analysis"
+      ]
+    },
+    {
+      "type": "Gap",
+      "id": "g1",
+      "study_id": "s1",
+      "part_id": null,
+      "state": "UNMAPPED_VALUE",
+      "affected_item_id": "mu1",
+      "affected_type": "MethodUse",
+      "affected_key": "function",
+      "evidence": "The paper proposes graphical reporting of health utility alongside mortality on Kaplan-Meier curves, but the method-function vocabulary has no reporting or visualization value.",
+      "importance": "This proposed reporting method is a principal contribution of the paper.",
+      "proposed_resolution": "Consider a method function for reporting or visualization if this use recurs across studies.",
+      "source": [
+        "Full article, HEALTH-UTILITY REPORTING ON SAME GRAPHS AS ESTABLISHED MORTALITY KAPLAN-MEIER CURVES",
+        "Full article, CONCLUSION, paragraph 1"
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s2",
+      "part_id": null,
+      "scope": "Denominator for the Study-2-only TTOown versus DTA analysis",
+      "statements": [
+        {
+          "statement": "The Results text states that only Study 2 data were used because the Study 1 cultural-worldview-defense measure occurred before TTOown and VASown.",
+          "source": [
+            "Full article, Results, paragraph 7"
+          ]
+        },
+        {
+          "statement": "Table 3 reports N=2023 for the TTOown row, which is the pooled count of consistent TTOown observations reported for the two studies combined.",
+          "source": [
+            "Full article, Results, paragraph 6",
+            "Full article, Table 3"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, paragraphs 6-7",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "scope": "Reported MDC95 values for the EQ-5D index and EQ VAS",
+      "statements": [
+        {
+          "statement": "The MDC Results text reports individual-level values of 0.064 and 16.44 and group-level values of 0.42 and 20.95 for the EQ-5D index and EQ VAS, respectively.",
+          "source": [
+            "Full article, Results > MDC, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 6 reports individual-level values of 0.42 and 20.95 and group-level values of 0.022 and 1.08 for the EQ-5D index and EQ VAS, respectively.",
+          "source": [
+            "Full article, Table 6 > MDC95 individual and group rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > MDC, paragraph 1",
+        "Full article, Table 6 > MDC95 individual and group rows"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Named EORTC QLQ-C30 domain associated with correlations of 0.70 and 0.64",
+      "statements": [
+        {
+          "statement": "The Convergent validity text assigns correlations of 0.70 with the EQ-5D index and 0.64 with EQ VAS to role functioning.",
+          "source": [
+            "Full article, Results > Convergent validity, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 3 assigns correlations of 0.70 with the EQ-5D index and 0.64 with EQ VAS to physical functioning; its role-functioning row reports 0.64 and 0.58.",
+          "source": [
+            "Full article, Table 3 > Physical functioning and Role functioning rows"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Convergent validity, paragraph 1",
+        "Full article, Table 3 > Physical functioning and Role functioning rows"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc3",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Whether the current study generated or analyzed data",
+      "statements": [
+        {
+          "statement": "The Methods and Results report collection and analysis of survey and medical-record data from 422 baseline participants and 371 participants with complete follow-up.",
+          "source": [
+            "Full article, Methods > Patient recruitment and data collection procedure",
+            "Full article, Results > Participant characteristics, first paragraph"
+          ]
+        },
+        {
+          "statement": "The Data availability statement says that no datasets were generated or analysed during the current study.",
+          "source": [
+            "Full article, Data availability",
+            "Full article, Associated Data > Data Availability Statement"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Methods > Patient recruitment and data collection procedure",
+        "Full article, Results > Participant characteristics, first paragraph",
+        "Full article, Data availability"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": "part3",
+      "scope": "Model 2 refugee-versus-control coefficient",
+      "statements": [
+        {
+          "statement": "The Results narrative reports a Model 2 estimate of −0.028 with p = 0.018.",
+          "source": [
+            "Results, paragraph preceding Table 2"
+          ]
+        },
+        {
+          "statement": "Table 2 reports a Model 2 estimate of −0.024 with p = 0.018.",
+          "source": [
+            "Table 2, Refugees vs. controls row, Model 2"
+          ]
+        }
+      ],
+      "source": [
+        "Results, paragraph preceding Table 2",
+        "Table 2, Refugees vs. controls row, Model 2"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part2",
+      "scope": "Planned qualitative-sample allocation",
+      "statements": [
+        {
+          "statement": "The qualitative substudy will include 25 children.",
+          "source": [
+            "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+          ]
+        },
+        {
+          "statement": "The qualitative substudy will include five children per condition group, while the protocol elsewhere defines three distinct health-condition groups.",
+          "source": [
+            "Full article: Methods and analysis—Data collection, qualitative substudy paragraph",
+            "Full article: Methods and analysis—Participants, severity-classification paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Methods and analysis—Participants",
+        "Full article: Methods and analysis—Data collection, qualitative substudy paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted association between education and EQ-5D-5L LSS",
+      "statements": [
+        {
+          "statement": "The Results text states that lower education was significantly associated with higher LSS in the Netherlands and the total sample.",
+          "source": [
+            "Full article, Results > Association between respondent demographics and SES indicators and the LSS, third paragraph"
+          ]
+        },
+        {
+          "statement": "Table 4 reports pooled low education b=0.110 with p=0.059 and Sweden low education b=-0.002 with p=0.987; these values are not significant at the stated p<0.05 threshold.",
+          "source": [
+            "Full article, Table 4, rows “Low edu level” and pooled and Sweden columns"
+          ]
+        },
+        {
+          "statement": "The Discussion states that lower education was significantly associated with poorer LSS in the Netherlands, Sweden, and the total sample.",
+          "source": [
+            "Full article, Discussion, third paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Association between respondent demographics and SES indicators and the LSS",
+        "Full article, Table 4",
+        "Full article, Discussion, third paragraph"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Unadjusted EQ VAS difference by work status in Sweden",
+      "statements": [
+        {
+          "statement": "The narrative states that unemployed respondents had lower EQ VAS in all countries except Sweden.",
+          "source": [
+            "Full article, Results > Health outcomes by work status, second paragraph"
+          ]
+        },
+        {
+          "statement": "Table 3 reports Sweden medians of 80.00 for employed respondents and 70.00 for unemployed respondents, marked as significantly different; the next narrative sentence also lists Sweden among countries with a 10-point difference.",
+          "source": [
+            "Full article, Table 3, Work status rows",
+            "Full article, Results > Health outcomes by work status, second paragraph"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results > Health outcomes by work status, second paragraph",
+        "Full article, Table 3"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Age distribution in the analyzed sample",
+      "statements": [
+        {
+          "statement": "The narrative identifies age groups as 16–35, 36–55, and above 55.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 1 labels the middle age group as 16–55 rather than 36–55.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports age counts of 124, 117, and 149, which total 390 although the analyzed sample is 380.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        },
+        {
+          "statement": "Table 1 reports corresponding age percentages of 32.6%, 30.8%, and 36.6%, which total 100% but are incompatible with the reported count of 149 for the oldest group.",
+          "source": [
+            "doi_10.1186_s12955-022-01989-9.xml — Results, Table 1"
+          ]
+        }
+      ],
+      "source": [
+        "doi_10.1186_s12955-022-01989-9.xml — Results, Demographics, paragraph 1 and Table 1"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Designation of the referent and focal response-scale groups in the DIF analysis",
+      "statements": [
+        {
+          "statement": "The frequency scale was designated the referent group and the severity scale as the focal group.",
+          "source": [
+            "Full article — Methods, Analysis, DIF paragraph"
+          ]
+        },
+        {
+          "statement": "EQ-HWB severity scales were the reference group and EQ-HWB frequency scales were the focal group.",
+          "source": [
+            "Full article — Results, Table 5 note"
+          ]
+        }
+      ],
+      "source": [
+        "Full article — Methods, Analysis, DIF paragraph",
+        "Full article — Results, Table 5 note"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Meaning of the graded-response-model parameter a",
+      "statements": [
+        {
+          "statement": "The methods and results narrative define a as the discrimination parameter indicating differentiation ability between trait levels.",
+          "source": [
+            "Full article — Methods, Analysis, Item Response Theory paragraph",
+            "Full article — Results, paragraph before Table 4"
+          ]
+        },
+        {
+          "statement": "The Table 4 note states that a denotes difficulty parameters.",
+          "source": [
+            "Full article — Results, Table 4 note"
+          ]
+        }
+      ],
+      "source": [
+        "Full article — Methods, Analysis, Item Response Theory paragraph",
+        "Full article — Results, paragraph before Table 4 and Table 4 note"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Standard deviation of the total-sample mean EQ-5D-5L index value",
+      "statements": [
+        {
+          "statement": "The Results narrative reports a standard deviation of 0.012 for the mean index score of 0.84.",
+          "source": [
+            "Full article: Results, EQ-5D-5L index population norms, paragraph 1"
+          ]
+        },
+        {
+          "statement": "The abstract and Table 5 report a standard deviation of 0.22 for the mean index score of 0.84.",
+          "source": [
+            "Full article: Abstract, Results",
+            "Full article: Table 5"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Abstract, Results",
+        "Full article: Results, EQ-5D-5L index population norms, paragraph 1",
+        "Full article: Table 5"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Mean EQ VAS value reported for men",
+      "statements": [
+        {
+          "statement": "The Results narrative and Table 6 report a mean EQ VAS value of 74.3 for men.",
+          "source": [
+            "Full article: Results, EQ-VAS population norms, paragraph 1",
+            "Full article: Table 6"
+          ]
+        },
+        {
+          "statement": "The Discussion reports a mean EQ VAS value of 74.2 for men.",
+          "source": [
+            "Full article: Discussion, paragraph beginning 'Furthermore, men reported similar or higher mean utility than women'"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, EQ-VAS population norms, paragraph 1",
+        "Full article: Table 6",
+        "Full article: Discussion, paragraph beginning 'Furthermore, men reported similar or higher mean utility than women'"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf1",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted knee-register EQ VAS estimates at 1-year follow-up in table 4",
+      "statements": [
+        {
+          "statement": "For men, table 4 reports an adjusted mean of 77.8 with a 95% CI of 74.7 to 75.5, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, 1-year follow-up, Knee, Men"
+          ]
+        },
+        {
+          "statement": "For women, table 4 reports an adjusted mean of 75.1 with a 95% CI of 77.4 to 78.3, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, 1-year follow-up, Knee, Women"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "conf2",
+      "study_id": "s1",
+      "part_id": null,
+      "scope": "Adjusted spine-register EQ VAS change estimates in table 4",
+      "statements": [
+        {
+          "statement": "For men, table 4 reports an adjusted mean change of 18.7 with a 95% CI of 21.0 to 21.7, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, Change, Spine, Men"
+          ]
+        },
+        {
+          "statement": "For women, table 4 reports an adjusted mean change of 21.3 with a 95% CI of 18.5 to 19.2, so the reported mean is outside its interval.",
+          "source": [
+            "Full article, Results, table 4, Change, Spine, Women"
+          ]
+        }
+      ],
+      "source": [
+        "Full article, Results, table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc1",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Full-scale Hs values for the healthy, hearing-problems, and Norway subgroups",
+      "statements": [
+        {
+          "statement": "The Results text reports Hs values of 0.363 for the healthy subgroup, 0.496 for the hearing-problems subgroup, and 0.476 for Norway.",
+          "source": [
+            "Full article: Results, Stratified analysis across subgroups, paragraph 1"
+          ]
+        },
+        {
+          "statement": "Table 4 reports full-scale Hs values of 0.356 for the healthy subgroup, 0.492 for the hearing-problems subgroup, and 0.468 for Norway.",
+          "source": [
+            "Full article: Results, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraph 1",
+        "Full article: Results, Table 4"
+      ]
+    },
+    {
+      "type": "SourceConflict",
+      "id": "sc2",
+      "study_id": "s1",
+      "part_id": "part1",
+      "scope": "Subgroup with the lowest reported full-scale HT value",
+      "statements": [
+        {
+          "statement": "The Results text states that full-scale HT ranged from 0.373 for Norway to 0.747 for depression.",
+          "source": [
+            "Full article: Results, Stratified analysis across subgroups, paragraph 2"
+          ]
+        },
+        {
+          "statement": "Table 4 reports full-scale HT of 0.373 for the UK, 0.506 for Norway, and 0.747 for depression.",
+          "source": [
+            "Full article: Results, Table 4"
+          ]
+        }
+      ],
+      "source": [
+        "Full article: Results, Stratified analysis across subgroups, paragraph 2",
+        "Full article: Results, Table 4"
+      ]
+    }
+  ]
+}
