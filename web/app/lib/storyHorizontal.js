@@ -181,10 +181,11 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`The largest cohort began in <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and the funding has not paused since — which is why the evidence base compounds instead of dating.`,
       layout:'projectYears' },
 
-    { num:fmt(evidence.findings || 0), unit:'findings', head:'Published papers have been read and turned into results anyone can reuse.',
-      body:`<b>${fmt(evidence.publications || 0)}</b> published papers, from <b>${fmt(projectEvidence.projectsWithPublications || 0)}</b> funded projects, carry <b>${fmt(evidence.findings || 0)}</b> extracted findings.`,
-      so:`A finding is a single result — a value set, a correlation, a ceiling effect — recorded so that someone who did not run the study can use it. That is the difference between research being published and research being usable.`,
-      layout:'projectPapers' },
+    { num:fmt((options.coauthors && options.coauthors.nodes && options.coauthors.nodes.length) || 0), unit:'researchers',
+      head:'The research is done by a community, not by one group.',
+      body:`<b>${fmt(evidence.publications || 0)}</b> published papers carry <b>${fmt(evidence.findings || 0)}</b> extracted findings, written by researchers who keep working with each other.`,
+      so:`The circles are the busiest authors and their size is how many papers they have. A line means two people wrote together, and it thickens the more often they did. What it shows is a field with a dense middle, which is what a funded community looks like after two decades.`,
+      layout:'chartBlank', chart:'coauthorNetwork' },
 
     { num:fmt(studies.length), unit:'studies read', head:'Every study read so far, by what it studied and what it used.',
       body:`<b>${fmt(studies.length)}</b> studies have been read in full and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
@@ -254,7 +255,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const DPR = Math.min(2, window.devicePixelRatio || 1)
   let W = 0, H = 0
   let sizeRetry = 0, destroyed = false
-  const charts = createStoryCharts(DATA, root)
+  const charts = createStoryCharts(DATA, root, options.coauthors || null)
   const dots = entities.map((p, i) => ({
     i, p, kind:p.type, projectYear:projectYearOf(p), studyYear:studyYearOf(p),
     g:p.type === 'project' ? wgOf(p) : null, x:0, y:0, r:1.6, c:GREY,

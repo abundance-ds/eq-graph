@@ -519,3 +519,34 @@
   text-transform:uppercase;
   fill:var(--ink-3);
 }
+
+/* ── The co-authorship network ──────────────────────────────────────────
+   Pale filled circles on the light ground, the count readable inside each
+   one. Structurally Paul's graph; visually the earlier knowledge-graph
+   screen, because a story fold is scrolled past rather than explored, and a
+   circle with its number written in it can be read without a legend. */
+.sh-chart-scene .viz-net-link{
+  fill:none;
+  stroke:rgba(26,26,23,.20);
+  stroke-linecap:round;
+}
+.sh-chart-scene .viz-net-node{ stroke:#fff; stroke-width:1.5; }
+.sh-chart-scene .viz-net-node.is-member{ fill:#b9cef0; }
+.sh-chart-scene .viz-net-node.is-other{ fill:#dcdcd6; }
+/* The leader ring sits outside the circle rather than recolouring it, so
+   membership and leadership can both be read on the same node. */
+.sh-chart-scene .viz-net-ring{
+  fill:none;
+  stroke:#c98a3c;
+  stroke-width:1.4;
+}
+.sh-chart-scene .viz-net-count{
+  font-family:var(--font-display);
+  font-weight:500;
+  fill:#1a1a17;
+  font-variant-numeric:tabular-nums;
+}
+.sh-chart-scene .viz-net-name{
+  font:500 11px var(--font-body);
+  fill:var(--ink-2);
+}

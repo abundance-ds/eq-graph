@@ -295,6 +295,125 @@ function groupPapers(studies, width, height, data){
     'Projects grouped by working group. A project counted once, in the group that funded it.')
 }
 
+
+/* The co-authorship network.
+
+   Structurally this is Paul's: authors are nodes, sized by how many papers they
+   have; two authors are joined when they have published together, and the line
+   thickens with the number of shared papers.
+
+   Visually it follows the earlier knowledge-graph screen instead of his dark
+   force-directed cloud. Pale filled circles with the count inside and the name
+   beneath, on a light ground. The reason is legibility at a glance: a circle
+   with its number written in it can be read without a legend and without
+   hovering, which is what a story fold needs. A reader is scrolling past, not
+   exploring.
+
+   Only the strongest authors are drawn. All 628 people and 3,603 links is a
+   hairball at any size that fits on a page, and a hairball says "there is a lot
+   of this" and nothing else. Showing the busiest few with their real links says
+   who the field is built around, which is the actual finding.
+
+   Positions come from a small spring simulation run here: repulsion between
+   every pair, and a spring on each shared-paper link whose rest length is the
+   layout distance Paul precomputed. Seeded and deterministic, so the same data
+   always draws the same picture. */
+function coauthorNetwork(studies, width, height, data, coauthors){
+  if (!coauthors || !coauthors.nodes) return chartFrame(width, height, '', 'Co-authorship data not loaded.')
+
+  const TOP = width < 720 ? 18 : 28
+  const people = [...coauthors.nodes].sort((a, b) => b.paper_count - a.paper_count).slice(0, TOP)
+  const keep = new Set(people.map(p => p.person_id))
+  const links = coauthors.edges
+    .filter(e => keep.has(e.source) && keep.has(e.target))
+    .sort((a, b) => b.coauthored_paper_count - a.coauthored_paper_count)
+    .slice(0, 90)
+
+  const pad = 74
+  const box = { x0: pad, y0: 54, x1: width - pad, y1: height - 46 }
+  const cx = (box.x0 + box.x1) / 2, cy = (box.y0 + box.y1) / 2
+  const maxPapers = Math.max(1, ...people.map(p => p.paper_count))
+  const rOf = p => 12 + Math.sqrt(p.paper_count / maxPapers) * 21
+
+  // deterministic start: a ring, biggest first, so the layout never jitters
+  const at = new Map()
+  people.forEach((p, i) => {
+    const a = (i / people.length) * Math.PI * 2
+    at.set(p.person_id, { x: cx + Math.cos(a) * 150, y: cy + Math.sin(a) * 110, vx: 0, vy: 0, p })
+  })
+
+  for (let step = 0; step < 260; step++){
+    const cool = 1 - step / 300
+    for (const a of at.values()){
+      for (const b of at.values()){
+        if (a === b) continue
+        const dx = a.x - b.x, dy = a.y - b.y
+        const d2 = Math.max(120, dx * dx + dy * dy)
+        const push = 5200 / d2
+        a.vx += dx * push * cool; a.vy += dy * push * cool
+      }
+      // gently held to the middle, or the whole thing drifts off the frame
+      a.vx += (cx - a.x) * 0.006; a.vy += (cy - a.y) * 0.006
+    }
+    for (const e of links){
+      const A = at.get(e.source), B = at.get(e.target)
+      const dx = B.x - A.x, dy = B.y - A.y
+      const d = Math.max(1, Math.hypot(dx, dy))
+      const rest = 62 + (e.layout_distance || 0.5) * 150
+      const pull = (d - rest) * 0.012 * cool
+      const ux = dx / d, uy = dy / d
+      A.vx += ux * pull; A.vy += uy * pull
+      B.vx -= ux * pull; B.vy -= uy * pull
+    }
+    for (const a of at.values()){
+      a.x += a.vx * 0.5; a.y += a.vy * 0.5
+      a.vx *= 0.82; a.vy *= 0.82
+      const r = rOf(a.p)
+      a.x = Math.max(box.x0 + r, Math.min(box.x1 - r, a.x))
+      a.y = Math.max(box.y0 + r, Math.min(box.y1 - r - 16, a.y))
+    }
+  }
+
+  const heaviest = Math.max(1, ...links.map(l => l.coauthored_paper_count))
+  const wire = links.map(e => {
+    const A = at.get(e.source), B = at.get(e.target)
+    const w = (0.5 + (e.coauthored_paper_count / heaviest) * 2.2).toFixed(2)
+    const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2 - Math.hypot(B.x - A.x, B.y - A.y) * 0.09
+    return `<path class="viz-net-link" d="M ${A.x.toFixed(1)} ${A.y.toFixed(1)} Q ${mx.toFixed(1)} ${my.toFixed(1)} ${B.x.toFixed(1)} ${B.y.toFixed(1)}" style="stroke-width:${w}" />`
+  }).join('')
+
+  // Names only where they will not collide, biggest circles first.
+  const placed = []
+  const marks = [...at.values()].sort((a, b) => b.p.paper_count - a.p.paper_count).map(n => {
+    const r = rOf(n.p)
+    const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
+    const ring = n.p.project_leader ? `<circle class="viz-net-ring" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(r + 3.5).toFixed(1)}" />` : ''
+    const nameY = n.y + r + 13
+    const short = n.p.name.length > 20 ? n.p.name.slice(0, 19) + '…' : n.p.name
+    const halfW = short.length * 3.4
+    const clash = placed.some(q => Math.abs(q.x - n.x) < halfW + q.w && Math.abs(q.y - nameY) < 12)
+    if (!clash) placed.push({ x: n.x, y: nameY, w: halfW })
+    const label = clash ? '' :
+      `<text class="viz-net-name" x="${n.x.toFixed(1)}" y="${nameY.toFixed(1)}" text-anchor="middle">${escapeText(short)}</text>`
+    return `${ring}
+      <circle class="viz-net-node ${cls}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${r.toFixed(1)}" />
+      <text class="viz-net-count" x="${n.x.toFixed(1)}" y="${(n.y + r * 0.30).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, r * 0.86).toFixed(1)}px">${n.p.paper_count}</text>
+      ${label}`
+  }).join('')
+
+  const members = people.filter(p => p.euroqol_member).length
+  const key = `<circle class="viz-net-node is-member" cx="${box.x0 + 6}" cy="26" r="5" />
+    <text class="viz-axis" x="${box.x0 + 17}" y="30">EuroQol member</text>
+    <circle class="viz-net-node is-other" cx="${box.x0 + 128}" cy="26" r="5" />
+    <text class="viz-axis" x="${box.x0 + 139}" y="30">other author</text>
+    <circle class="viz-net-ring" cx="${box.x0 + 232}" cy="26" r="6.5" fill="none" />
+    <text class="viz-axis" x="${box.x0 + 245}" y="30">project leader</text>
+    <text class="viz-axis" x="${box.x1}" y="30" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors · ${members} are members</text>`
+
+  return chartFrame(width, height, key + wire + marks,
+    'Circle size is papers. Line thickness is papers written together. The busiest ' + people.length + ' authors of ' + coauthors.nodes.length + ' are shown.')
+}
+
 const RENDERERS = {
   fieldShape,
   instrumentMatrix,
@@ -304,9 +423,10 @@ const RENDERERS = {
   productLandscape,
   coverageMatrix,
   groupPapers,
+  coauthorNetwork,
 }
 
-export function createStoryCharts(data, root){
+export function createStoryCharts(data, root, coauthors = null){
   const host = root.querySelector('[data-charts]')
   const studies = data.nodes.filter(node => node.type === 'study')
   if (!host) return { resize(){}, show(){}, destroy(){} }
@@ -322,7 +442,7 @@ export function createStoryCharts(data, root){
     for (const [id, render] of Object.entries(RENDERERS)){
       // `data` is passed too: most charts only need the studies, but the
       // working-group one counts projects, which are nodes rather than studies.
-      scenes.get(id).innerHTML = render(studies, width, height, data)
+      scenes.get(id).innerHTML = render(studies, width, height, data, coauthors)
     }
   }
 

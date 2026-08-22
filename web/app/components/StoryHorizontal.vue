@@ -25,15 +25,19 @@ onMounted(async () => {
   const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
   if (!root) return;
 
-  const [{ initStory }, { initGlobe }, data, topo] = await Promise.all([
+  const [{ initStory }, { initGlobe }, data, topo, coauthors] = await Promise.all([
     import("../lib/storyHorizontal.js"),
     import("../lib/globe.js"),
     $fetch<DemoGraphData>("/api/graph"),
     $fetch<Record<string, any>>("/data/countries-50m.json"),
+    // The co-authorship network is a separate artefact from Paul's pipeline,
+    // not part of the research graph, so it loads on its own.
+    $fetch<Record<string, any>>("/data/coauthorship.json").catch(() => null),
   ]);
   if (disposed || !root.isConnected) return;
 
   story = initStory(data, topo, root, {
+    coauthors,
     onEnterChat: (entry: { returnY: number }) => {
       emit("enter-chat", { source: "story", returnY: entry.returnY });
     },
