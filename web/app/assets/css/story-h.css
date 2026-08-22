@@ -23,6 +23,43 @@
   --font-num:'IBM Plex Mono', 'SFMono-Regular', Consolas, Menlo, monospace;
   --ink:#1a1a17; --ink-2:#5c5c56; --ink-3:#8e8e86; --ink-4:#c4c4bb;
   --rule:rgba(26,26,23,.17); --rule-soft:rgba(26,26,23,.08);
+
+  /* ── The type scale ──────────────────────────────────────────────────
+     Every size in this file used to be picked on the spot: 12px here,
+     .95rem there, 11px, .92rem, .76rem, 9.5px. Eleven sizes doing five
+     jobs, none of them related to each other — which is precisely what
+     makes a page feel assembled rather than designed.
+
+     One scale now, on a minor third (1.2). Each role names a job, not a
+     measurement, so a change to the ratio moves the whole page together
+     and nothing drifts.
+
+     The display sizes stay fluid, because the fold is a full viewport and
+     a fixed headline either swims on a large screen or breaks on a small
+     one. Everything below the headline is fixed: body text should be the
+     same size on every screen, since reading distance does not change with
+     the window. */
+  --t-micro:  .72rem;   /* captions under a chart, axis notes            */
+  --t-fine:   .82rem;   /* asides, chart tick labels, the key            */
+  --t-body:   .95rem;   /* the paragraph                                 */
+  --t-lead:  1.14rem;   /* larger UI text, the country card's label      */
+  --t-head:  clamp(1.3rem, 2.05vw, 1.9rem);   /* the beat's sentence     */
+  --t-display: clamp(2.8rem, 6.9vw, 6.5rem);  /* the number             */
+
+  /* Leading is a property of the role, not of the size. Display type is set
+     tight because it is read as a shape; body text is set open because it is
+     read as a line. */
+  --lh-display: .86;
+  --lh-head:   1.14;
+  --lh-body:   1.62;
+  --lh-fine:   1.5;
+
+  /* Tracking tightens as size grows — the classic correction. Large type
+     needs it closed up; small type needs it opened out to stay legible. */
+  --tr-display: -.045em;
+  --tr-head:    -.025em;
+  --tr-body:    -.004em;
+  --tr-micro:    .02em;
   /* Straight off the logo artwork. #007d6c is the EuroQol green, used at full
      strength here because on paper it is the only step of the gradient that
      holds contrast. The amber is NOT a brand colour — it is here because the
@@ -127,7 +164,7 @@
 .sh-num{
   display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .38em;
   font-family:var(--font-display); font-weight:500;
-  font-size:clamp(2.8rem, 6.9vw, 6.5rem); line-height:.86; letter-spacing:-.045em;
+  font-size:var(--t-display); line-height:var(--lh-display); letter-spacing:var(--tr-display);
   color:var(--ink); margin:0 0 .35rem; font-variant-numeric:tabular-nums;
 }
 /* Same ink as the figure. Greying the noun split one object into two and made
@@ -147,11 +184,12 @@
      the figure and the sentence under it landed within a few pixels of each
      other, so the eye could not tell whether "studies read" belonged to the
      number above or the sentence below. Three sizes, three steps. */
-  font-size:clamp(1.25rem, 2vw, 1.85rem); line-height:1.14; letter-spacing:-.025em;
+  font-size:var(--t-head); line-height:var(--lh-head); letter-spacing:var(--tr-head);
   color:var(--ink); margin:0 0 1.1rem;
 }
 .sh-body{
-  font-size:.95rem; line-height:1.62; color:var(--ink-2); margin:0; max-width:30rem;
+  font-size:var(--t-body); line-height:var(--lh-body); letter-spacing:var(--tr-body);
+  color:var(--ink-2); margin:0; max-width:34ch;
 }
 .sh-body b{color:var(--ink); font-weight:500;}
 
@@ -160,7 +198,8 @@
    eye knows it is the point rather than more description. */
 .sh-so{
   margin:1.15rem 0 0; padding-left:1rem; border-left:2px solid var(--teal);
-  font-size:.92rem; line-height:1.6; color:var(--ink-2); max-width:30rem;
+  font-size:var(--t-body); line-height:var(--lh-body); letter-spacing:var(--tr-body);
+  color:var(--ink-2); max-width:34ch;
 }
 .sh-so b{color:var(--ink); font-weight:500;}
 
@@ -189,14 +228,14 @@
 /* the key sits in a corner and stays out of the way until asked for */
 .sh-key{position:absolute; right:var(--pad); bottom:5.4rem; z-index:6; max-width:26rem; text-align:right; transition:opacity .18s ease;}
 .sh-key-toggle{
-  font-family:var(--font-body); font-size:.78rem; letter-spacing:-.005em;
+  font-family:var(--font-body); font-size:var(--t-fine); letter-spacing:var(--tr-body);
   color:var(--ink-3); background:transparent; border:0; border-bottom:1px solid var(--rule);
   min-width:44px; min-height:44px; padding:0 0 .2rem; cursor:pointer;
   display:inline-flex; align-items:center; justify-content:flex-end;
 }
 .sh-key-toggle:hover{color:var(--ink);}
 .sh-key-body{
-  margin:.7rem 0 0; font-size:.76rem; line-height:1.6; color:var(--ink-2); text-align:left;
+  margin:.7rem 0 0; font-size:var(--t-fine); line-height:var(--lh-fine); color:var(--ink-2); text-align:left;
 }
 .sh-key-body b{color:var(--ink); font-weight:500;}
 .sh-key-body i{
@@ -219,7 +258,7 @@
    the other. */
 .sh-btn{
   position:relative; isolation:isolate;
-  font-family:var(--font-body); font-size:.9rem; font-weight:500;
+  font-family:var(--font-body); font-size:var(--t-body); font-weight:500;
   padding:.82rem 1.5rem; border-radius:9px; cursor:pointer;
   border:1px solid transparent; letter-spacing:-.005em;
   transition:transform .18s cubic-bezier(.16,1,.3,1), background .2s ease, box-shadow .2s ease;
@@ -282,8 +321,8 @@
 .sh-chart-scene{position:absolute; inset:0; opacity:0; will-change:opacity;}
 .sh-chart-scene svg{width:100%; height:100%; overflow:visible; display:block;}
 .sh-chart-scene text{font-family:var(--font-body); fill:var(--ink-2);}
-.sh-chart-scene .viz-label{font-size:12px; font-weight:520; fill:var(--ink);}
-.sh-chart-scene .viz-value{font:500 12px var(--font-num); fill:var(--ink);}
+.sh-chart-scene .viz-label{font:500 11.5px var(--font-body); fill:var(--ink);}
+.sh-chart-scene .viz-value{font:500 11.5px var(--font-num); fill:var(--ink);}
 .sh-chart-scene .viz-axis{font:500 10px var(--font-num); fill:var(--ink-3);}
 .sh-chart-scene .viz-axis.is-strong{fill:var(--ink-2);}
 .sh-chart-scene .viz-kicker{font:500 10px var(--font-num); letter-spacing:.08em; fill:var(--ink-3);}
@@ -301,11 +340,11 @@
 .sh-chart-scene .viz-segment.is-ink{fill:var(--ink);}
 .sh-chart-scene .viz-output-bar.is-muted{fill:var(--ink-4);}
 .sh-chart-scene .viz-minibar{fill:rgba(0,125,108,.60);}
-.sh-chart-scene .viz-cell-value{font:500 11px var(--font-num); fill:var(--ink-2);}
+.sh-chart-scene .viz-cell-value{font:500 11.5px var(--font-num); fill:var(--ink-2);}
 .sh-chart-scene .is-reverse{fill:#fff !important;}
 .sh-chart-scene .is-amber-text{fill:var(--yellow);}
-.sh-chart-scene .viz-segment-label{font-size:12px; font-weight:550;}
-.sh-chart-scene .viz-segment-value{font:500 11px var(--font-num);}
+.sh-chart-scene .viz-segment-label{font:500 11.5px var(--font-body);}
+.sh-chart-scene .viz-segment-value{font:500 11.5px var(--font-num);}
 .sh-chart-scene .viz-concept-link{fill:none; stroke:var(--teal); opacity:.34; stroke-linecap:round;}
 .sh-chart-scene .viz-concept-anchor{fill:var(--yellow);}
 .sh-chart-scene .viz-family-anchor{fill:var(--teal);}
@@ -323,7 +362,7 @@
   min-height:44px; padding:0 .15rem;
   display:inline-flex; align-items:center; gap:.45rem;
   border:0; border-bottom:1px solid var(--rule); background:transparent;
-  color:var(--ink-2); font:500 .78rem var(--font-body); cursor:pointer;
+  color:var(--ink-2); font:500 var(--t-fine) var(--font-body); cursor:pointer;
   transition:color .15s ease, border-color .15s ease;
 }
 .sh-skip:hover{color:var(--teal); border-color:var(--teal);}
@@ -358,9 +397,9 @@
   .sh-panel{align-content:start; padding-top:6.2rem;}
   .sh-copy{grid-column:1 / -1;}
   .sh-num{font-size:clamp(3.7rem,18vw,4.5rem); margin-bottom:.15rem;}
-  .sh-head{font-size:1.45rem; margin-bottom:.7rem; max-width:20rem;}
-  .sh-body{font-size:.82rem; line-height:1.45; max-width:21rem;}
-  .sh-so{font-size:.8rem; line-height:1.45; margin-top:.72rem; max-width:21rem; padding-left:.7rem;}
+  .sh-head{margin-bottom:.7rem; max-width:24ch;}
+  .sh-body{font-size:var(--t-fine); line-height:var(--lh-fine); max-width:30ch;}
+  .sh-so{font-size:var(--t-fine); line-height:var(--lh-fine); margin-top:.72rem; max-width:30ch; padding-left:.7rem;}
   .sh-copy::after{display:none;}
   .sh-charts{left:var(--pad); right:var(--pad); top:59%; bottom:9%;}
   .sh-chart-scene .viz-label{font-size:10px;}
@@ -394,7 +433,7 @@
   padding-right:1.5rem;
   font-family:var(--font-display);
   font-weight:500;
-  font-size:1.35rem;
+  font-size:var(--t-lead);
   line-height:1.2;
   letter-spacing:-.02em;
   color:#1a1a17;
@@ -403,13 +442,13 @@
 .sh-country dt{
   font-family:var(--font-display);
   font-weight:500;
-  font-size:1.5rem;
+  font-size:var(--t-lead);
   line-height:1;
   letter-spacing:-.01em;
   color:#1a1a17;
   font-variant-numeric:tabular-nums;
 }
-.sh-country dd{margin:.15rem 0 0; color:#8e8e86; font-size:.8rem;}
+.sh-country dd{margin:.15rem 0 0; color:var(--ink-3); font-size:var(--t-fine);}
 
 /* Inside the card, top right — the close belongs to the thing it closes. */
 .sh-country-x{
@@ -425,7 +464,7 @@
   border-radius:8px;
   background:transparent;
   color:#8e8e86;
-  font-size:1.25rem;
+  font-size:var(--t-lead);
   line-height:1;
   cursor:pointer;
   transition:background .15s ease, color .15s ease;
@@ -454,7 +493,7 @@
    is a sum rather than a crossing, and shading it on the same ramp would invite
    the eye to compare it with the cells it is made of. */
 .sh-chart-scene .viz-cell-total{
-  font:500 11px var(--font-num);
+  font:500 11.5px var(--font-num);
   font-variant-numeric:tabular-nums;
   fill:var(--ink-1, #1a1a17);
 }
@@ -463,7 +502,7 @@
 /* Names the direction each margin sums in. Small and quiet — it is a caption
    on a number, not a label competing with the axis. */
 .sh-chart-scene .viz-margin-note{
-  font:500 9.5px var(--font-num);
+  font:500 10px var(--font-num);
   fill:var(--ink-3);
 }
 
