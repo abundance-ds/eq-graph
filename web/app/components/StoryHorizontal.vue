@@ -37,6 +37,9 @@ onMounted(async () => {
     onEnterChat: (entry: { returnY: number }) => {
       emit("enter-chat", { source: "story", returnY: entry.returnY });
     },
+    // The map beat reports the country under a click; the card is the same one
+    // the globe used, so a reader meets one object however they got to it.
+    onSelectCountry: (facts: CountryFacts | null) => { picked.value = facts; },
   });
 
   root.querySelectorAll<HTMLButtonElement>("[data-go]").forEach((button) => {

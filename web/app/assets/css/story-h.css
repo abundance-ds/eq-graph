@@ -43,8 +43,8 @@
   --t-fine:   .82rem;   /* asides, chart tick labels, the key            */
   --t-body:   .95rem;   /* the paragraph                                 */
   --t-lead:  1.14rem;   /* larger UI text, the country card's label      */
-  --t-head:  clamp(1.3rem, 2.05vw, 1.9rem);   /* the beat's sentence     */
-  --t-display: clamp(2.8rem, 6.9vw, 6.5rem);  /* the number             */
+  --t-head:  clamp(1.05rem, 1.62vw, 1.5rem);  /* the beat's sentence     */
+  --t-display: clamp(2.2rem, 4.1vw, 3.7rem);  /* the number AND its noun */
 
   /* Leading is a property of the role, not of the size. Display type is set
      tight because it is read as a shape; body text is set open because it is
@@ -162,7 +162,7 @@
    The unit sits at just under half its size: clearly secondary, clearly part
    of the same thing. */
 .sh-num{
-  display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .38em;
+  display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .28em;
   font-family:var(--font-display); font-weight:500;
   font-size:var(--t-display); line-height:var(--lh-display); letter-spacing:var(--tr-display);
   color:var(--ink); margin:0 0 .35rem; font-variant-numeric:tabular-nums;
@@ -170,13 +170,18 @@
 /* Same ink as the figure. Greying the noun split one object into two and made
    the eye read "35" and "countries" as separate things — which is the exact
    problem the noun was added to solve. Size alone carries the hierarchy. */
+/* The noun is set at the SAME size as the figure. They are one phrase — "35
+   countries" — and any difference in size makes the eye read them as two
+   things, which is the whole reason the noun was put there. The display line
+   comes down to a size where the pair fits on one line and the sentence below
+   can still step clearly under it. */
 .sh-unit{
-  font-size:.40em; letter-spacing:-.02em; font-weight:500;
+  font-size:1em; letter-spacing:var(--tr-display); font-weight:500;
   color:var(--ink);
 }
 @media (max-width:640px){
-  .sh-num{font-size:clamp(2.6rem, 13vw, 4rem);}
-  .sh-unit{font-size:.42em;}
+  .sh-num{font-size:clamp(1.9rem, 8.4vw, 2.6rem);}
+  .sh-unit{font-size:1em;}
 }
 .sh-head{
   font-family:var(--font-display); font-weight:500;
@@ -396,7 +401,7 @@
   .sh-scroll{height:1879vh;}
   .sh-panel{align-content:start; padding-top:6.2rem;}
   .sh-copy{grid-column:1 / -1;}
-  .sh-num{font-size:clamp(3.7rem,18vw,4.5rem); margin-bottom:.15rem;}
+  .sh-num{margin-bottom:.15rem;}
   .sh-head{margin-bottom:.7rem; max-width:24ch;}
   .sh-body{font-size:var(--t-fine); line-height:var(--lh-fine); max-width:30ch;}
   .sh-so{font-size:var(--t-fine); line-height:var(--lh-fine); margin-top:.72rem; max-width:30ch; padding-left:.7rem;}

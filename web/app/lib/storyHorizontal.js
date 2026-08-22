@@ -6,7 +6,7 @@
    the opening scenes; SVG charts carry the statistical comparisons.
    ═══════════════════════════════════════════════════════════════════ */
 
-import { geoNaturalEarth1, geoPath } from 'd3-geo'
+import { geoNaturalEarth1, geoPath, geoContains } from 'd3-geo'
 import { drawBeatArt } from './beatArt.js'
 import { createStoryCharts } from './storyCharts.js'
 import { feature } from 'topojson-client'
@@ -38,6 +38,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const YELLOW = rgb(css, '--dot-yellow-rgb', '232,179,58')
   const TEAL   = rgb(css, '--dot-teal-rgb', '47,158,132')
   const GREY   = rgb(css, '--dot-grey-rgb', '150,150,146')
+  const GROUND = rgb(css, '--ground-rgb', '244,243,239')   // the page, for label plates
   const ink = a => `rgba(${INK[0]},${INK[1]},${INK[2]},${a})`
   const projects = DATA.nodes.filter(n => n.type === 'project')
   const studies = DATA.nodes.filter(n => n.type === 'study')
@@ -67,11 +68,29 @@ export function initStory(DATA, TOPO, root, options = {}){
     'South Korea':'South Korea', 'Republic Of Korea':'South Korea', 'Russia':'Russia',
   }
   const countryOfProject = {}, countryOfStudy = {}
+  /* The three numbers a country card shows. Projects and studies come from
+     different edges on purpose: a project SUPPORTED_EVIDENCE_IN a country,
+     a study was CONDUCTED_IN one, and the gap between them is how much of the
+     funded work has actually been read there. */
+  const countryDetail = {}
+  const nodeById = Object.fromEntries(DATA.nodes.map(n => [n.id, n]))
+  const seenProject = {}
   for (const e of DATA.edges){
-    const label = (DATA.nodes.find(n => n.id === e.target) || {}).label
+    const target = nodeById[e.target]
+    const label = target && target.label
     if (!label) continue
-    if (e.type === 'SUPPORTED_EVIDENCE_IN') (countryOfProject[e.source] ||= []).push(label)
-    if (e.type === 'CONDUCTED_IN') (countryOfStudy[e.source] ||= []).push(label)
+    const key = NAME_FIX[label] || label
+    const row = countryDetail[key] || (countryDetail[key] = { projects:0, studies:0, findings:0 })
+    if (e.type === 'SUPPORTED_EVIDENCE_IN'){
+      (countryOfProject[e.source] ||= []).push(label)
+      const seen = seenProject[key] || (seenProject[key] = new Set())
+      if (!seen.has(e.source)){ seen.add(e.source); row.projects += 1 }
+    }
+    if (e.type === 'CONDUCTED_IN'){
+      (countryOfStudy[e.source] ||= []).push(label)
+      row.studies += 1
+      row.findings += (nodeById[e.source] || {}).findingCount || 0
+    }
   }
   /* The rows of the group-by-year beat: only groups that actually have
      dated studies, busiest first. A row that would be empty is not a row. */
@@ -208,6 +227,29 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   /* ── the field ───────────────────────────────────────────────────── */
   const canvas = root.querySelector('[data-canvas]')
+
+  /* The map is drawn on this canvas, so a click has to be hit-tested against
+     the same projection that drew it. `liveMap` holds the furniture of the
+     currently drawn map beat — projection, counts, bounds — and is null on
+     every other beat, which is also what stops clicks doing anything on folds
+     that have no map. */
+  let liveMap = null
+  const onSelectCountry = typeof options.onSelectCountry === 'function' ? options.onSelectCountry : () => {}
+
+  function mapClick(ev){
+    if (!liveMap) return
+    const r = canvas.getBoundingClientRect()
+    const x = ev.clientX - r.left, y = ev.clientY - r.top
+    const { b } = liveMap
+    if (x < b.x0 || x > b.x1 || y < b.y0 || y > b.y1){ onSelectCountry(null); return }
+    const ll = liveMap.proj.invert([x, y])
+    if (!ll){ onSelectCountry(null); return }
+    const hit = land.features.find(feat => geoContains(feat, ll))
+    if (!hit){ onSelectCountry(null); return }
+    const name = hit.properties.name
+    onSelectCountry({ name, ...(liveMap.detail[name] || { projects:0, studies:0, findings:0 }) })
+  }
+  canvas.addEventListener('click', mapClick)
   const ctx = canvas.getContext('2d')
   const DPR = Math.min(2, window.devicePixelRatio || 1)
   let W = 0, H = 0
@@ -320,7 +362,7 @@ export function initStory(DATA, TOPO, root, options = {}){
         if (!isNaN(c[0])) centroid[f.properties.name] = c
       }
       out.furn = { kind:'map', b, proj, centroid, per, unplaced, entityKind,
-                   peak: Math.max(1, ...Object.values(per)) }
+                   peak: Math.max(1, ...Object.values(per)), detail: countryDetail }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectGroupYears'){
@@ -640,6 +682,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       if (f.loose) ctx.fillText(`${f.loose} projects without a start year`, f.gx0, f.b.y1 - 26)
     }
     else if (f.kind === 'map'){
+      liveMap = f            // this beat can be clicked
       const path = geoPath(f.proj, ctx)
 
       // Every country first, as the quietest possible ground. It is the shape
@@ -662,14 +705,43 @@ export function initStory(DATA, TOPO, root, options = {}){
         ctx.strokeStyle = ink(.14); ctx.lineWidth = .5; ctx.stroke()
       }
 
-      // Name only the few that carry the most, and only where there is room.
-      const top = W <= 640 ? [] : Object.entries(f.per).sort((a, b) => b[1] - a[1]).slice(0, 5)
-      ctx.textAlign = 'left'
+      /* Labels, placed so they never collide.
+
+         The old version wrote the top five at their centroids and hoped. In
+         Europe the centroids are a few pixels apart, so "United Kingdom 17"
+         landed on top of "Netherlands 16" and both became unreadable — the
+         densest part of the map, which is exactly where the reader looks.
+
+         Each label is measured before it is drawn, tested against every box
+         already placed, and dropped if it overlaps. A label that cannot be
+         read is worse than an absent one: the country is still shaded, so the
+         quantity is on the page either way. Four candidate positions are tried
+         first, so a label usually finds room on another side rather than being
+         lost. */
+      const top = W <= 640 ? [] : Object.entries(f.per).sort((a, b) => b[1] - a[1]).slice(0, 9)
+      ctx.textAlign = 'left'; ctx.textBaseline = 'middle'
+      const placed = []
+      const clashes = (x, y, w, h) => placed.some(r =>
+        x < r.x + r.w + 4 && x + w + 4 > r.x && y < r.y + r.h + 3 && y + h + 3 > r.y)
+
       for (const [name, n] of top){
         const c = f.centroid[name]; if (!c) continue
-        ctx.fillStyle = ink(.86)
-        ctx.fillText(`${name} ${n}`, c[0] + 7, c[1] - 7)
+        const text = `${name} ${n}`
+        const tw = ctx.measureText(text).width, th = 12
+        // right of the centroid, then left, then above, then below
+        const tries = [[c[0] + 8, c[1]], [c[0] - 8 - tw, c[1]], [c[0] - tw / 2, c[1] - 13], [c[0] - tw / 2, c[1] + 13]]
+        const spot = tries.find(([x, y]) =>
+          x > f.b.x0 && x + tw < f.b.x1 && y - th / 2 > f.b.y0 && y + th / 2 < f.b.y1 && !clashes(x, y - th / 2, tw, th))
+        if (!spot) continue
+        const [x, y] = spot
+        placed.push({ x, y: y - th / 2, w: tw, h: th })
+        // a soft plate under the words, so they read over a filled country
+        ctx.fillStyle = `rgba(${GROUND[0]},${GROUND[1]},${GROUND[2]},.74)`
+        ctx.fillRect(x - 3, y - th / 2 - 1, tw + 6, th + 2)
+        ctx.fillStyle = ink(.9)
+        ctx.fillText(text, x, y)
       }
+      ctx.textBaseline = 'alphabetic'
 
       if (f.unplaced){
         ctx.fillStyle = ink(.4)
