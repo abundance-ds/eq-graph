@@ -428,6 +428,15 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   }
   hz.r = Math.max(...nodes.map(n => Math.hypot(n.x - hz.x, n.y - hz.y))) * 1.18 + 40
   const haze = `<defs>
+      <linearGradient id="viz-net-sheen" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%"   stop-color="rgb(255,238,170)" stop-opacity="0" />
+        <stop offset="38%"  stop-color="rgb(255,245,205)" stop-opacity=".30" />
+        <stop offset="50%"  stop-color="rgb(255,250,225)" stop-opacity=".72" />
+        <stop offset="62%"  stop-color="rgb(255,245,205)" stop-opacity=".30" />
+        <stop offset="100%" stop-color="rgb(255,238,170)" stop-opacity="0" />
+        <animateTransform attributeName="gradientTransform" type="translate"
+          from="-1 0" to="1 0" dur="1.6s" repeatCount="indefinite" />
+      </linearGradient>
       <radialGradient id="viz-net-haze">
         <stop offset="0%"   stop-color="#ffffff" stop-opacity=".72" />
         <stop offset="42%"  stop-color="#ffffff" stop-opacity=".58" />
@@ -677,6 +686,34 @@ export function createStoryCharts(data, root, coauthors = null){
       ? (id ? { x:cx, y:cy, r:idx.homeGlow.r * 0.92 } : { ...idx.homeGlow }) : null
 
     const from = new Map([...idx.byId.values()].map(r => [r.id, { ...r.at }]))
+
+    /* Each mark that has far to go comes apart into motes for the journey and
+       puts itself back together on arrival, which is the move the opening fold
+       makes with the headline. Grey on purpose: the motes are the same mark in
+       transit, not a new quantity, and giving them the node's own colour would
+       read as more circles appearing. */
+    const NS = 'http://www.w3.org/2000/svg'
+    idx.svg.querySelectorAll('.viz-net-mote').forEach(el => el.remove())
+    const motes = []
+    for (const row of idx.byId.values()){
+      const a = from.get(row.id), b = targets.get(row.id)
+      const trip = Math.hypot(b.x - a.x, b.y - a.y)
+      if (trip < 34) continue
+      const count = Math.min(7, 2 + Math.round(trip / 90))
+      for (let j = 0; j < count; j++){
+        const el = document.createElementNS(NS, 'circle')
+        el.setAttribute('class', 'viz-net-mote')
+        el.setAttribute('r', (0.9 + (j % 3) * 0.35).toFixed(2))
+        idx.svg.appendChild(el)
+        // Each mote takes its own arc and its own pace, so the group scatters
+        // and gathers instead of sliding across as one rigid shape.
+        motes.push({ el, a, b,
+          off:(j / count) * 0.34,
+          arc:((j % 2 ? 1 : -1) * (10 + (j * 7) % 26)),
+          spread:(j % 4) * 5 })
+      }
+    }
+
     const t0 = performance.now()
     cancelAnimationFrame(idx.frame)
     const step = now => {
@@ -692,13 +729,37 @@ export function createStoryCharts(data, root, coauthors = null){
         glow.setAttribute('cy', (glowFrom.y + (glowTo.y - glowFrom.y) * e).toFixed(1))
         glow.setAttribute('r',  (glowFrom.r + (glowTo.r - glowFrom.r) * e).toFixed(1))
       }
+      // While its motes are out, the mark itself is thin. It is in pieces.
+      if (motes.length){
+        const apart = Math.sin(Math.min(1, t) * Math.PI)
+        for (const row of idx.byId.values()){
+          const node = row.els.find(m => m.el.classList.contains('viz-net-node'))
+          if (node) node.el.style.opacity = (1 - apart * 0.55).toFixed(3)
+        }
+      }
+      for (const m of motes){
+        const mt = Math.max(0, Math.min(1, (t - m.off) / (1 - m.off)))
+        const me = 1 - Math.pow(1 - mt, 3)
+        const nx = m.a.x + (m.b.x - m.a.x) * me
+        const ny = m.a.y + (m.b.y - m.a.y) * me
+        const bow = Math.sin(mt * Math.PI)          // widest at half way
+        m.el.setAttribute('cx', (nx + m.arc * bow).toFixed(1))
+        m.el.setAttribute('cy', (ny + m.spread * bow).toFixed(1))
+        m.el.setAttribute('opacity', (bow * 0.5).toFixed(3))
+      }
       paint(idx)
       if (t < 1) idx.frame = requestAnimationFrame(step)
+      else {
+        motes.forEach(m => m.el.remove())
+        for (const row of idx.byId.values())
+          for (const m of row.els) m.el.style.opacity = ''
+      }
     }
     idx.frame = requestAnimationFrame(step)
   }
 
   function clearPick(scene){
+    sheenOff(scene)
     reform(scene, null)
     scene.classList.remove('is-focused')
     scene.querySelectorAll('.is-picked, .is-faded, .is-lit').forEach(el => el.classList.remove('is-picked', 'is-faded', 'is-lit'))
@@ -734,12 +795,37 @@ export function createStoryCharts(data, root, coauthors = null){
       <button type="button" aria-label="Close">×</button>`
     panel.querySelector('button').onclick = () => clearPick(scene)
     scene.appendChild(panel)
+    sheenOff(scene)
     reform(scene, id)
   }
 
       /* Hover is temporary and leaves nothing behind. A kept selection is not
          disturbed by the pointer wandering over other nodes. */
   let held = null
+
+  /* The sheen is one element moved onto whichever circle is under the pointer,
+     rather than one per node. Only ever one is lit, and the gradient inside it
+     sweeps on its own clock, so it costs a single element for the whole chart. */
+  function sheenOn(scene, node){
+    const svg = scene.querySelector('svg')
+    if (!svg) return
+    let sheen = svg.querySelector('.viz-net-sheen')
+    if (!sheen){
+      sheen = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+      sheen.setAttribute('class', 'viz-net-sheen')
+      svg.appendChild(sheen)
+    }
+    // Above the circle it lights but below that circle's number.
+    const count = svg.querySelector(`text.viz-net-count[data-id="${node.dataset.id}"]`)
+    if (count) svg.insertBefore(sheen, count)
+    else svg.appendChild(sheen)
+    sheen.setAttribute('cx', node.getAttribute('cx'))
+    sheen.setAttribute('cy', node.getAttribute('cy'))
+    sheen.setAttribute('r', node.getAttribute('r'))
+  }
+  function sheenOff(scene){
+    scene.querySelector('.viz-net-sheen')?.remove()
+  }
 
   function lightUp(scene, id){
     scene.classList.add('is-focused')
@@ -754,6 +840,7 @@ export function createStoryCharts(data, root, coauthors = null){
     })
   }
   function lightsUp(scene){
+    sheenOff(scene)
     scene.classList.remove('is-focused')
     scene.querySelectorAll('.is-faded, .is-lit').forEach(el => el.classList.remove('is-faded', 'is-lit'))
   }
@@ -762,12 +849,12 @@ export function createStoryCharts(data, root, coauthors = null){
     const scene = ev.target.closest('.sh-chart-scene')
     if (!scene || held) return
     const hit = ev.target.closest('circle.viz-net-node[data-id]')
-    if (hit) lightUp(scene, hit.dataset.id)
+    if (hit){ lightUp(scene, hit.dataset.id); sheenOn(scene, hit) }
   })
   host.addEventListener('pointerout', ev => {
     const scene = ev.target.closest('.sh-chart-scene')
     if (!scene || held) return
-    if (!ev.relatedTarget || !ev.relatedTarget.closest?.('circle.viz-net-node')) lightsUp(scene)
+    if (!ev.relatedTarget || !ev.relatedTarget.closest?.('circle.viz-net-node')){ lightsUp(scene); sheenOff(scene) }
   })
 
   host.addEventListener('click', ev => {

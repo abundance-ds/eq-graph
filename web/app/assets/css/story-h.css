@@ -664,6 +664,21 @@
   .sh-chart-scene.is-live .viz-net-node{ animation:none; }
 }
 
+/* The number and the name sit over their circle, so without this the pointer
+   lands on a digit and the hover never reaches the node underneath. That is why
+   hovering did nothing over exactly the marks worth hovering. */
+.viz-net-count, .viz-net-name, .viz-net-plate{ pointer-events:none; }
+
+/* A light passing across the circle under the pointer. */
+.viz-net-sheen{ fill:url(#viz-net-sheen); pointer-events:none; }
+
+/* The mark in transit, not a new quantity, so it stays grey. */
+.viz-net-mote{ fill:var(--ink-3); pointer-events:none; }
+
+@media (prefers-reduced-motion: reduce){
+  .viz-net-sheen, .viz-net-mote{ display:none; }
+}
+
 /* Blurred as well as gradiented: the gradient gives the falloff, the blur
    takes the banding off it on a light ground. */
 .viz-net-haze{ fill:url(#viz-net-haze); filter:blur(16px); pointer-events:none; }
