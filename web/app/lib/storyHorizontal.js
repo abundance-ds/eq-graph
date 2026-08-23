@@ -249,6 +249,9 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const layouts = []
   let furniture = []
+  /* Which series fold 2 is showing. Not a filter over one dataset: projects are
+     counted by the year they were funded, papers by the year they appeared. */
+  let yearSeries = 'projects'
   function buildLayout(kind){
     const b = fieldBox(), bw = b.x1 - b.x0, bh = b.y1 - b.y0
     const out = new Array(dots.length)
@@ -275,17 +278,29 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos:out, furn:null }
     }
     else if (kind === 'projectYears'){
-      /* Cumulative, so the height at any year is everything funded up to then.
+      /* Cumulative, so the height at any year is everything counted up to then.
          Keep the dots hidden: a block of them on the baseline reads as a bar.
          Scale y to the final total, not a round number above it, or the curve
-         never reaches the top of the frame. */
+         never reaches the top of the frame.
+
+         One series at a time, chosen by the toggle. The two are NOT drawn
+         together on purpose. Papers here are the papers read so far, not the
+         papers produced, so a paper line beside a funding line would read as a
+         portfolio that publishes very little. Side by side that comparison is
+         unavoidable; one at a time it cannot be made. */
       for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
 
+      const paperMode = yearSeries === 'papers'
       const countOf = {}
-      for (const project of datedProjects){
-        const y = projectYearOf(project)
-        countOf[y] = (countOf[y] || 0) + 1
+      if (paperMode) for (const s of studies){
+        const y = studyYearOf(s); if (y) countOf[y] = (countOf[y] || 0) + 1
       }
+      else for (const project of datedProjects){
+        const y = projectYearOf(project); countOf[y] = (countOf[y] || 0) + 1
+      }
+
+      // Both series share the project year axis, so switching moves the curve
+      // and not the years under it.
       const years = projectYears, cols = years.length || 1, colW = bw / cols
 
       let run = 0
@@ -303,7 +318,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       const ticks = []
       for (let v = tickEvery; v < total * 0.93; v += tickEvery) ticks.push({ v, y:yOf(v) })
 
-      out.furn = { kind:'years', b, cols, colW, years, steps, total, ticks }
+      out.furn = { kind:'years', b, cols, colW, years, steps, total, ticks,
+                   noun: paperMode ? 'papers read to date' : 'projects funded to date' }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
@@ -672,7 +688,7 @@ export function initStory(DATA, TOPO, root, options = {}){
         // The final total, sat on the top gridline at the left where there is
         // always room. Against the right edge it was cut off by the frame.
         ctx.fillStyle = ink(.62)
-        ctx.fillText(`${f.total.toLocaleString('en')} projects funded to date`,
+        ctx.fillText(`${f.total.toLocaleString('en')} ${f.noun || 'to date'}`,
                      f.b.x0 + 4, f.b.y0 + 9)
       }
     }
@@ -842,6 +858,10 @@ export function initStory(DATA, TOPO, root, options = {}){
     canvas.style.pointerEvents = liveMap ? 'auto' : 'none'
     canvas.style.cursor = liveMap ? 'pointer' : ''
 
+    // The switch belongs to fold 2, so it is only there, and only at rest.
+    seriesEl.classList.toggle('is-on',
+      i0 === i1 && BEATS[i0]?.layout === 'projectYears')
+
     charts.show(BEATS[i0].chart, BEATS[i1].chart, rawT)
 
     // panels slide; the field stays put and rearranges under them
@@ -982,6 +1002,57 @@ export function initStory(DATA, TOPO, root, options = {}){
     const before = beat * (timing.hold + timing.transition)
     return top + (timing.intro + before + timing.hold * .38) * vh
   }
+  /* The series switch for fold 2. Built here rather than in the template so it
+     lives with the layout it drives, and shown only while that fold is the one
+     on screen. */
+  const seriesEl = document.createElement('div')
+  seriesEl.className = 'sh-series'
+  seriesEl.setAttribute('role', 'group')
+  seriesEl.setAttribute('aria-label', 'What to count over time')
+  seriesEl.innerHTML = ['projects', 'papers'].map(key => `
+    <button type="button" data-series="${key}" ${key === yearSeries ? 'aria-pressed="true"' : 'aria-pressed="false"'}>${key[0].toUpperCase()}${key.slice(1)}</button>`).join('')
+  root.querySelector('[data-stage]')?.appendChild(seriesEl)
+
+  seriesEl.addEventListener('click', ev => {
+    const key = ev.target.closest('button')?.dataset.series
+    if (!key || key === yearSeries) return
+    yearSeries = key
+    seriesEl.querySelectorAll('button').forEach(btn =>
+      btn.setAttribute('aria-pressed', String(btn.dataset.series === key)))
+    const i = BEATS.findIndex(b => b.layout === 'projectYears')
+    if (i >= 0){
+      const r = buildLayout('projectYears')     // only fold 2 depends on this
+      layouts[i] = r.pos || r
+      furniture[i] = r.furn || null
+      writeYearPanel(i)
+    }
+    update()
+  })
+
+  const YEAR_COPY = {
+    projects: {
+      num:fmt(projects.length), unit:'projects',
+      head:'Every year is built on the one before it.',
+      body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each year stacks on top of the last, so the height is the running total, not that year alone.`,
+    },
+    papers: {
+      num:fmt(studies.length), unit:'papers',
+      head:'Reading the portfolio is the slower half of the work.',
+      body:`<b>${fmt(studies.length)}</b> papers have been read in full and structured so far. The height is the running total of what has been <i>read</i>, not what EuroQol has published, so this line grows as the reading does.`,
+    },
+  }
+  function writeYearPanel(i){
+    const panel = root.querySelectorAll('.sh-panel')[i]
+    const copy = YEAR_COPY[yearSeries]
+    if (!panel || !copy) return
+    const num = panel.querySelector('.sh-num')
+    if (num) num.innerHTML = `${copy.num}<span class="sh-unit">${copy.unit}</span>`
+    const head = panel.querySelector('.sh-head')
+    if (head) head.textContent = copy.head
+    const body = panel.querySelector('.sh-body')
+    if (body) body.innerHTML = copy.body
+  }
+
   function goToBeat(i){
     // Land inside the hold, with the chart and copy fully settled.
     scrollTo(storyYForBeat(i))
