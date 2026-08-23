@@ -521,32 +521,61 @@
 }
 
 /* ── The co-authorship network ──────────────────────────────────────────
-   Pale filled circles on the light ground, the count readable inside each
-   one. Structurally Paul's graph; visually the earlier knowledge-graph
-   screen, because a story fold is scrolled past rather than explored, and a
-   circle with its number written in it can be read without a legend. */
+   Structurally Paul's graph, in the earlier light knowledge-graph style. */
 .sh-chart-scene .viz-net-link{
-  fill:none;
-  stroke:rgba(26,26,23,.20);
+  stroke:rgba(26,26,23,.22);
   stroke-linecap:round;
+  transition:stroke-opacity .18s ease, stroke .18s ease;
 }
-.sh-chart-scene .viz-net-node{ stroke:#fff; stroke-width:1.5; }
-.sh-chart-scene .viz-net-node.is-member{ fill:#b9cef0; }
-.sh-chart-scene .viz-net-node.is-other{ fill:#dcdcd6; }
+.sh-chart-scene .viz-net-node{
+  stroke:#fff; stroke-width:1.4; cursor:pointer;
+  transition:opacity .18s ease, stroke .18s ease, r .18s ease;
+}
+.sh-chart-scene .viz-net-node.is-member{ fill:#a9c3ee; }
+.sh-chart-scene .viz-net-node.is-other{ fill:#d6d6cf; }
 /* The leader ring sits outside the circle rather than recolouring it, so
-   membership and leadership can both be read on the same node. */
+   membership and leadership can both be read on one node. */
 .sh-chart-scene .viz-net-ring{
-  fill:none;
-  stroke:#c98a3c;
-  stroke-width:1.4;
-}
-.sh-chart-scene .viz-net-count{
-  font-family:var(--font-display);
-  font-weight:500;
-  fill:#1a1a17;
-  font-variant-numeric:tabular-nums;
+  fill:none; stroke:#c98a3c; stroke-width:1.3;
+  transition:opacity .18s ease;
 }
 .sh-chart-scene .viz-net-name{
-  font:500 11px var(--font-body);
-  fill:var(--ink-2);
+  font:500 11px var(--font-body); fill:var(--ink-2);
+  pointer-events:none;
+  transition:opacity .18s ease;
 }
+
+/* Selected: the person and their collaborators stay lit, everything else
+   steps back. Dimming rather than hiding keeps the shape of the whole network
+   visible, so you can see where in it this person sits. */
+.sh-chart-scene .is-faded{ opacity:.10; }
+.sh-chart-scene .viz-net-link.is-faded{ stroke-opacity:.06; }
+.sh-chart-scene .viz-net-node.is-picked{ stroke:#1a1a17; stroke-width:2.4; }
+.sh-chart-scene .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.42); }
+
+/* The panel names what a thick line cannot: who the strong bonds are with. */
+.sh-chart-scene{ position:relative; }
+.viz-net-panel{
+  position:absolute; left:0; top:0; z-index:4;
+  max-width:min(30rem, calc(100% - 2rem));
+  padding:.85rem 2.2rem .9rem 1rem;
+  border-radius:12px;
+  background:#fff;
+  box-shadow:0 14px 40px rgba(20,28,26,.14), 0 1px 4px rgba(20,28,26,.06);
+  display:flex; flex-direction:column; gap:.25rem;
+}
+.viz-net-panel strong{
+  font:500 var(--t-lead)/1.2 var(--font-display);
+  letter-spacing:-.02em; color:var(--ink);
+}
+.viz-net-panel span{ font-size:var(--t-fine); line-height:1.5; color:var(--ink-2); }
+.viz-net-panel button{
+  position:absolute; top:.45rem; right:.45rem;
+  width:28px; height:28px; border:0; border-radius:7px;
+  background:none; color:var(--ink-3); font-size:1.15rem; line-height:1; cursor:pointer;
+}
+.viz-net-panel button:hover{ background:#f2f2ef; color:var(--ink); }
+
+/* The fold has to accept clicks for any of this to work. Charts are otherwise
+   decoration on a scrolling page, so pointer events are off by default. */
+.sh-chart-scene{ pointer-events:auto; }

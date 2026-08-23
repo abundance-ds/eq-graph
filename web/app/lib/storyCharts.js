@@ -298,120 +298,117 @@ function groupPapers(studies, width, height, data){
 
 /* The co-authorship network.
 
-   Structurally this is Paul's: authors are nodes, sized by how many papers they
-   have; two authors are joined when they have published together, and the line
-   thickens with the number of shared papers.
+   Structurally Paul's, including his force parameters: link distance falls as
+   the square root of shared papers, charge scales with paper count, and a
+   collision radius keeps circles off each other. The first version of this
+   chart clamped every node inside a box, which is why they all ended up
+   pinned around the edge with the links crossing the middle — a boundary that
+   hard is a wall the simulation presses against rather than a frame it settles
+   inside. There is no clamp now; the centring force does that job.
 
-   Visually it follows the earlier knowledge-graph screen instead of his dark
-   force-directed cloud. Pale filled circles with the count inside and the name
-   beneath, on a light ground. The reason is legibility at a glance: a circle
-   with its number written in it can be read without a legend and without
-   hovering, which is what a story fold needs. A reader is scrolling past, not
-   exploring.
+   Visually it follows the earlier light knowledge-graph screen rather than his
+   dark cloud.
 
-   Only the strongest authors are drawn. All 628 people and 3,603 links is a
-   hairball at any size that fits on a page, and a hairball says "there is a lot
-   of this" and nothing else. Showing the busiest few with their real links says
-   who the field is built around, which is the actual finding.
-
-   Positions come from a small spring simulation run here: repulsion between
-   every pair, and a spring on each shared-paper link whose rest length is the
-   layout distance Paul precomputed. Seeded and deterministic, so the same data
-   always draws the same picture. */
+   Roughly ninety authors are drawn but only the largest are named. A network
+   should look like a network — a dense middle with a periphery — and labelling
+   every node turns it into a diagram of labels. The ones worth naming are the
+   ones a reader can already see are large. */
 function coauthorNetwork(studies, width, height, data, coauthors){
   if (!coauthors || !coauthors.nodes) return chartFrame(width, height, '', 'Co-authorship data not loaded.')
 
-  const TOP = width < 720 ? 18 : 28
+  const TOP = width < 720 ? 45 : 90
   const people = [...coauthors.nodes].sort((a, b) => b.paper_count - a.paper_count).slice(0, TOP)
   const keep = new Set(people.map(p => p.person_id))
-  const links = coauthors.edges
-    .filter(e => keep.has(e.source) && keep.has(e.target))
-    .sort((a, b) => b.coauthored_paper_count - a.coauthored_paper_count)
-    .slice(0, 90)
+  const links = coauthors.edges.filter(e => keep.has(e.source) && keep.has(e.target))
 
-  const pad = 74
-  const box = { x0: pad, y0: 54, x1: width - pad, y1: height - 46 }
-  const cx = (box.x0 + box.x1) / 2, cy = (box.y0 + box.y1) / 2
+  const top = 44, bottom = 34
+  const w = width, h = height - top - bottom
+  const cx = w / 2, cy = top + h / 2
   const maxPapers = Math.max(1, ...people.map(p => p.paper_count))
-  const rOf = p => 12 + Math.sqrt(p.paper_count / maxPapers) * 21
+  const rOf = n => 4.5 + Math.sqrt(n / maxPapers) * 17
 
-  // deterministic start: a ring, biggest first, so the layout never jitters
   const at = new Map()
   people.forEach((p, i) => {
-    const a = (i / people.length) * Math.PI * 2
-    at.set(p.person_id, { x: cx + Math.cos(a) * 150, y: cy + Math.sin(a) * 110, vx: 0, vy: 0, p })
+    // a phyllotaxis spiral, so the start is spread rather than a ring, and
+    // deterministic so the same data always settles the same way
+    const a = i * 2.399963, rr = Math.sqrt(i) * 13
+    at.set(p.person_id, { id:p.person_id, p, x: cx + Math.cos(a) * rr, y: cy + Math.sin(a) * rr, vx:0, vy:0, r: rOf(p.paper_count) })
   })
+  const nodes = [...at.values()]
 
-  for (let step = 0; step < 260; step++){
-    const cool = 1 - step / 300
-    for (const a of at.values()){
-      for (const b of at.values()){
-        if (a === b) continue
-        const dx = a.x - b.x, dy = a.y - b.y
-        const d2 = Math.max(120, dx * dx + dy * dy)
-        const push = 5200 / d2
-        a.vx += dx * push * cool; a.vy += dy * push * cool
+  for (let step = 0; step < 320; step++){
+    const cool = 1 - step / 360
+    for (let i = 0; i < nodes.length; i++){
+      const A = nodes[i]
+      for (let j = i + 1; j < nodes.length; j++){
+        const B = nodes[j]
+        let dx = B.x - A.x, dy = B.y - A.y
+        let d = Math.hypot(dx, dy) || 0.01
+        // charge: bigger authors push harder, as in his setup
+        const q = (34 + A.p.paper_count * 1.7) * 0.9 / (d * d)
+        const ux = dx / d, uy = dy / d
+        A.vx -= ux * q * cool; A.vy -= uy * q * cool
+        B.vx += ux * q * cool; B.vy += uy * q * cool
+        // collide: circles must not sit on top of each other
+        const min = A.r + B.r + 2.5
+        if (d < min){
+          const push = (min - d) * 0.5
+          A.x -= ux * push; A.y -= uy * push
+          B.x += ux * push; B.y += uy * push
+        }
       }
-      // gently held to the middle, or the whole thing drifts off the frame
-      a.vx += (cx - a.x) * 0.006; a.vy += (cy - a.y) * 0.006
+      A.vx += (cx - A.x) * 0.035 * cool
+      A.vy += (cy - A.y) * 0.035 * cool
     }
     for (const e of links){
       const A = at.get(e.source), B = at.get(e.target)
       const dx = B.x - A.x, dy = B.y - A.y
-      const d = Math.max(1, Math.hypot(dx, dy))
-      const rest = 62 + (e.layout_distance || 0.5) * 150
-      const pull = (d - rest) * 0.012 * cool
+      const d = Math.max(0.01, Math.hypot(dx, dy))
+      const rest = 92 / Math.sqrt(e.coauthored_paper_count)
+      const k = Math.min(0.9, 0.22 + e.coauthored_paper_count * 0.075)
+      const f = (d - rest) * k * 0.045 * cool
       const ux = dx / d, uy = dy / d
-      A.vx += ux * pull; A.vy += uy * pull
-      B.vx -= ux * pull; B.vy -= uy * pull
+      A.vx += ux * f; A.vy += uy * f
+      B.vx -= ux * f; B.vy -= uy * f
     }
-    for (const a of at.values()){
-      a.x += a.vx * 0.5; a.y += a.vy * 0.5
-      a.vx *= 0.82; a.vy *= 0.82
-      const r = rOf(a.p)
-      a.x = Math.max(box.x0 + r, Math.min(box.x1 - r, a.x))
-      a.y = Math.max(box.y0 + r, Math.min(box.y1 - r - 16, a.y))
-    }
+    for (const A of nodes){ A.x += A.vx; A.y += A.vy; A.vx *= 0.62; A.vy *= 0.62 }
   }
 
+  // keep the drawing inside the frame by scaling what settled, not by clamping
+  const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y)
+  const sx = Math.max(...xs) - Math.min(...xs), sy = Math.max(...ys) - Math.min(...ys)
+  const k = Math.min((w - 130) / (sx || 1), (h - 40) / (sy || 1), 1.5)
+  const ox = cx - ((Math.min(...xs) + Math.max(...xs)) / 2) * k
+  const oy = cy - ((Math.min(...ys) + Math.max(...ys)) / 2) * k
+  for (const n of nodes){ n.x = n.x * k + ox; n.y = n.y * k + oy }
+
   const heaviest = Math.max(1, ...links.map(l => l.coauthored_paper_count))
-  const wire = links.map(e => {
+  const wire = links.map((e, i) => {
     const A = at.get(e.source), B = at.get(e.target)
-    const w = (0.5 + (e.coauthored_paper_count / heaviest) * 2.2).toFixed(2)
-    const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2 - Math.hypot(B.x - A.x, B.y - A.y) * 0.09
-    return `<path class="viz-net-link" d="M ${A.x.toFixed(1)} ${A.y.toFixed(1)} Q ${mx.toFixed(1)} ${my.toFixed(1)} ${B.x.toFixed(1)} ${B.y.toFixed(1)}" style="stroke-width:${w}" />`
+    return `<line class="viz-net-link" data-a="${e.source}" data-b="${e.target}" x1="${A.x.toFixed(1)}" y1="${A.y.toFixed(1)}" x2="${B.x.toFixed(1)}" y2="${B.y.toFixed(1)}" style="stroke-width:${(0.4 + (e.coauthored_paper_count / heaviest) * 2.6).toFixed(2)}" />`
   }).join('')
 
-  // Names only where they will not collide, biggest circles first.
-  const placed = []
-  const marks = [...at.values()].sort((a, b) => b.p.paper_count - a.p.paper_count).map(n => {
-    const r = rOf(n.p)
+  const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 9).map(n => n.id))
+  const marks = nodes.map(n => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
-    const ring = n.p.project_leader ? `<circle class="viz-net-ring" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(r + 3.5).toFixed(1)}" />` : ''
-    const nameY = n.y + r + 13
-    const short = n.p.name.length > 20 ? n.p.name.slice(0, 19) + '…' : n.p.name
-    const halfW = short.length * 3.4
-    const clash = placed.some(q => Math.abs(q.x - n.x) < halfW + q.w && Math.abs(q.y - nameY) < 12)
-    if (!clash) placed.push({ x: n.x, y: nameY, w: halfW })
-    const label = clash ? '' :
-      `<text class="viz-net-name" x="${n.x.toFixed(1)}" y="${nameY.toFixed(1)}" text-anchor="middle">${escapeText(short)}</text>`
-    return `${ring}
-      <circle class="viz-net-node ${cls}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${r.toFixed(1)}" />
-      <text class="viz-net-count" x="${n.x.toFixed(1)}" y="${(n.y + r * 0.30).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, r * 0.86).toFixed(1)}px">${n.p.paper_count}</text>
-      ${label}`
+    const ring = n.p.project_leader
+      ? `<circle class="viz-net-ring" data-id="${n.id}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(n.r + 2.6).toFixed(1)}" />` : ''
+    const name = named.has(n.id)
+      ? `<text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${(n.y + n.r + 12).toFixed(1)}" text-anchor="middle">${escapeText(n.p.name)}</text>` : ''
+    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" />${name}`
   }).join('')
 
   const members = people.filter(p => p.euroqol_member).length
-  const key = `<circle class="viz-net-node is-member" cx="${box.x0 + 6}" cy="26" r="5" />
-    <text class="viz-axis" x="${box.x0 + 17}" y="30">EuroQol member</text>
-    <circle class="viz-net-node is-other" cx="${box.x0 + 128}" cy="26" r="5" />
-    <text class="viz-axis" x="${box.x0 + 139}" y="30">other author</text>
-    <circle class="viz-net-ring" cx="${box.x0 + 232}" cy="26" r="6.5" fill="none" />
-    <text class="viz-axis" x="${box.x0 + 245}" y="30">project leader</text>
-    <text class="viz-axis" x="${box.x1}" y="30" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors · ${members} are members</text>`
+  const key = `<circle class="viz-net-node is-member" cx="14" cy="22" r="5" />
+    <text class="viz-axis" x="25" y="26">EuroQol member</text>
+    <circle class="viz-net-node is-other" cx="146" cy="22" r="5" />
+    <text class="viz-axis" x="157" y="26">other author</text>
+    <circle class="viz-net-ring" cx="256" cy="22" r="6.5" />
+    <text class="viz-axis" x="269" y="26">project leader</text>
+    <text class="viz-axis" x="${width - 6}" y="26" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors · ${members} are members</text>`
 
   return chartFrame(width, height, key + wire + marks,
-    'Circle size is papers. Line thickness is papers written together. The busiest ' + people.length + ' authors of ' + coauthors.nodes.length + ' are shown.')
+    'Circle size is papers. Line thickness is papers written together. Click anyone to see who they work with.')
 }
 
 const RENDERERS = {
@@ -434,6 +431,63 @@ export function createStoryCharts(data, root, coauthors = null){
   host.innerHTML = Object.keys(RENDERERS).map(id => `
     <div class="sh-chart-scene" data-chart="${id}"><svg /></div>`).join('')
   const scenes = new Map([...host.querySelectorAll('[data-chart]')].map(scene => [scene.dataset.chart, scene]))
+
+  /* Selecting an author.
+
+     One click lights that person and everyone they have written with, and
+     dims the rest. That is the whole interaction, and it answers the only
+     question this picture provokes: who does this person work with? A panel
+     names the strongest links, because a thick line tells you a bond is strong
+     without telling you whose. Clicking the background lets go. */
+  const adjacency = new Map()
+  if (coauthors && coauthors.edges){
+    for (const e of coauthors.edges){
+      if (!adjacency.has(e.source)) adjacency.set(e.source, [])
+      if (!adjacency.has(e.target)) adjacency.set(e.target, [])
+      adjacency.get(e.source).push({ id:e.target, w:e.coauthored_paper_count })
+      adjacency.get(e.target).push({ id:e.source, w:e.coauthored_paper_count })
+    }
+  }
+  const nameOf = new Map((coauthors?.nodes || []).map(n => [n.person_id, n.name]))
+  let panel = null
+
+  function clearPick(scene){
+    scene.querySelectorAll('.is-picked, .is-faded').forEach(el => el.classList.remove('is-picked', 'is-faded'))
+    if (panel) { panel.remove(); panel = null }
+  }
+
+  function pick(scene, id){
+    const near = new Set((adjacency.get(id) || []).map(x => x.id))
+    near.add(id)
+    scene.querySelectorAll('[data-id]').forEach(el => {
+      const mine = el.dataset.id
+      el.classList.toggle('is-faded', !near.has(mine))
+      el.classList.toggle('is-picked', mine === id)
+    })
+    scene.querySelectorAll('.viz-net-link').forEach(el => {
+      el.classList.toggle('is-faded', el.dataset.a !== id && el.dataset.b !== id)
+    })
+    const partners = (adjacency.get(id) || []).slice().sort((a, b) => b.w - a.w)
+    const strongest = partners.slice(0, 4).map(x => `${nameOf.get(x.id) || 'unknown'} (${x.w})`).join(', ')
+    const node = scene.querySelector(`circle[data-id="${id}"]`)
+    if (panel) panel.remove()
+    panel = document.createElement('div')
+    panel.className = 'viz-net-panel'
+    panel.innerHTML = `<strong>${nameOf.get(id) || ''}</strong>
+      <span>${node?.dataset.papers || 0} papers · ${partners.length} co-authors</span>
+      ${strongest ? `<span>Most often with ${strongest}</span>` : ''}
+      <button type="button" aria-label="Close">×</button>`
+    panel.querySelector('button').onclick = () => clearPick(scene)
+    scene.appendChild(panel)
+  }
+
+  host.addEventListener('click', ev => {
+    const scene = ev.target.closest('.sh-chart-scene')
+    if (!scene) return
+    const hit = ev.target.closest('circle[data-id]')
+    if (hit) pick(scene, hit.dataset.id)
+    else clearPick(scene)
+  })
 
   function resize(){
     const width = Math.round(host.clientWidth)
