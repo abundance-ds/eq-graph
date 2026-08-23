@@ -369,13 +369,32 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     for (const A of nodes){ A.x += A.vx; A.y += A.vy; A.vx *= 0.62; A.vy *= 0.62 }
   }
 
-  // keep the drawing inside the frame by scaling what settled, not by clamping
+  /* Fit by scaling what settled, not by clamping.
+
+     The budget is the room a MARK needs, not the room a centre needs. Fitting
+     the centres alone let the largest circles and their name plates hang past
+     the frame, so the network ran off the right of the screen. Every inset
+     below therefore carries the biggest radius: the legend along the top and
+     the names hanging under their circles get their own allowance on top. */
   const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y)
   const sx = Math.max(...xs) - Math.min(...xs), sy = Math.max(...ys) - Math.min(...ys)
-  const k = Math.min((w - 90) / (sx || 1), (h - 30) / (sy || 1), 2.4)
-  const ox = cx - ((Math.min(...xs) + Math.max(...xs)) / 2) * k
-  const oy = cy - ((Math.min(...ys) + Math.max(...ys)) / 2) * k
-  for (const n of nodes){ n.x = n.x * k + ox; n.y = n.y * k + oy }
+  const maxR = Math.max(...nodes.map(n => n.r))
+  const padX = maxR + 12
+  const padTop = maxR + 38                    // the key sits along the top
+  const padBottom = maxR + 24                 // names hang below their circle
+  const availW = Math.max(40, w - padX * 2)
+  const availH = Math.max(40, h - padTop - padBottom)
+  const k = Math.min(availW / (sx || 1), availH / (sy || 1), 2.4)
+  /* The blob settles roughly square, so height binds first and the field left a
+     third of its width empty. Stretched across a little, capped at a third more
+     than the uniform fit: the layout is a force result rather than a metric
+     space, so widening it costs nothing real, but past this the clusters start
+     to read as ellipses. */
+  const kWide = Math.min(availW / (sx || 1), k * 1.34)
+  const ox = (padX + availW / 2) - ((Math.min(...xs) + Math.max(...xs)) / 2) * kWide
+  const oy = (padTop + availH / 2) - ((Math.min(...ys) + Math.max(...ys)) / 2) * k
+  for (const n of nodes){ n.x = n.x * kWide + ox; n.y = n.y * k + oy }
+  const fitBox = { padX, padTop, padBottom }
 
   const heaviest = Math.max(1, ...links.map(l => l.coauthored_paper_count))
   const wire = links.map((e, i) => {
@@ -395,12 +414,34 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       : `rgb(${Math.round(226 - t * 46)},${Math.round(226 - t * 46)},${Math.round(219 - t * 44)})`
   }
 
+  /* One soft field behind the whole cluster, lighting it from underneath.
+
+     A halo on each node was the wrong reading of this: seventy small rings ate
+     the space between the marks and said nothing. A single wide haze says the
+     same thing the reference does, that these dots are one specimen under a
+     light, and it leaves the space between them alone. The core is near-white
+     so the middle stays clean and the dots keep their contrast; the warmth only
+     appears at the edge, where there is nothing to read. */
+  const hz = {
+    x:(Math.min(...nodes.map(n => n.x)) + Math.max(...nodes.map(n => n.x))) / 2,
+    y:(Math.min(...nodes.map(n => n.y)) + Math.max(...nodes.map(n => n.y))) / 2,
+  }
+  hz.r = Math.max(...nodes.map(n => Math.hypot(n.x - hz.x, n.y - hz.y))) * 1.18 + 40
+  const haze = `<defs>
+      <radialGradient id="viz-net-haze">
+        <stop offset="0%"   stop-color="#ffffff" stop-opacity=".72" />
+        <stop offset="42%"  stop-color="#ffffff" stop-opacity=".58" />
+        <stop offset="63%"  stop-color="rgb(214,163,60)" stop-opacity=".22" />
+        <stop offset="82%"  stop-color="rgb(0,125,108)" stop-opacity=".10" />
+        <stop offset="100%" stop-color="rgb(0,125,108)" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+    <circle class="viz-net-haze" cx="${hz.x.toFixed(1)}" cy="${hz.y.toFixed(1)}" r="${hz.r.toFixed(1)}" />`
+
   const marks = nodes.map((n, i) => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
     const ring = n.p.project_leader
       ? `<circle class="viz-net-ring" data-id="${n.id}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(n.r + 2.6).toFixed(1)}" />` : ''
-    const name = named.has(n.id)
-      ? `<text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${(n.y + n.r + 12).toFixed(1)}" text-anchor="middle">${escapeText(n.p.name)}</text>` : ''
     // The count goes inside wherever the circle can hold it legibly. Below
     // about eleven pixels the digits would be smaller than the label beneath,
     // and a number too small to read is just texture.
@@ -411,7 +452,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     // detail fills in. Capped, or the tail of the network is still landing long
     // after the reader has moved on.
     const delay = Math.min(0.44, i * 0.006).toFixed(3)
-    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" style="fill:${shade(n.p)};animation-delay:${delay}s" />${count}${name}`
+    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" style="fill:${shade(n.p)};animation-delay:${delay}s" />${count}`
   }).join('')
 
       /* Show the encoding, do not describe it. A small circle beside a large
@@ -420,24 +461,30 @@ function coauthorNetwork(studies, width, height, data, coauthors){
          ends up under a later circle. Each carries a plate of the page colour. */
       /* A name is drawn only if it lands clear of every name already placed,
          biggest first. That is why some circles have no label. */
+  /* Names are placed once, here, after every circle and line so a label is
+     never buried. Four positions are tried per name and the first clear one
+     wins; if none is clear the name is dropped, because the circle is still
+     shaded and sized, so the quantity is on the page either way. Biggest first,
+     so when two compete the more significant author keeps their label. */
   const taken = []
   const plates = nodes.filter(n => named.has(n.id))
     .sort((a, b) => b.p.paper_count - a.p.paper_count)
-    .filter(n => {
-      const w = n.p.name.length * 6.6, y = n.y + n.r + 13
-      // clear of other names AND of any circle it would be written across
-      const overName = taken.some(q => Math.abs(q.x - n.x) < (q.w + w) / 2 + 10 && Math.abs(q.y - y) < 16)
-      const overNode = nodes.some(m => m !== n && Math.abs(m.x - n.x) < w / 2 + m.r && Math.abs(m.y - y) < m.r + 6)
-      const hit = overName || overNode
-      if (!hit) taken.push({ x:n.x, y, w })
-      return !hit
-    })
     .map(n => {
-    const t = n.p.name
-    const w = t.length * 6.6, y = n.y + n.r + 13
-    return `<rect class="viz-net-plate" data-id="${n.id}" x="${(n.x - w / 2 - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" width="${(w + 8).toFixed(1)}" height="14" rx="4" />
-      <text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${escapeText(t)}</text>`
-  }).join('')
+      const t = n.p.name, w = t.length * 6.6
+      const spots = [
+        { x:n.x, y:n.y + n.r + 13 },            // below
+        { x:n.x, y:n.y - n.r - 7 },             // above
+        { x:n.x + n.r + 6 + w / 2, y:n.y + 4 }, // right
+        { x:n.x - n.r - 6 - w / 2, y:n.y + 4 }, // left
+      ]
+      const spot = spots.find(c =>
+        !taken.some(q => Math.abs(q.x - c.x) < (q.w + w) / 2 + 8 && Math.abs(q.y - c.y) < 15) &&
+        !nodes.some(m => m !== n && Math.abs(m.x - c.x) < w / 2 + m.r - 2 && Math.abs(m.y - c.y) < m.r + 4))
+      if (!spot) return ''
+      taken.push({ x:spot.x, y:spot.y, w })
+      return `<rect class="viz-net-plate" data-id="${n.id}" x="${(spot.x - w / 2 - 4).toFixed(1)}" y="${(spot.y - 10).toFixed(1)}" width="${(w + 8).toFixed(1)}" height="14" rx="4" />
+        <text class="viz-net-name" data-id="${n.id}" x="${spot.x.toFixed(1)}" y="${spot.y.toFixed(1)}" text-anchor="middle">${escapeText(t)}</text>`
+    }).join('')
 
   const members = people.filter(p => p.euroqol_member).length
   const smallest = Math.min(...people.map(p => p.paper_count))
@@ -468,7 +515,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   const key = bits.join('')
 
 
-  return chartFrame(width, height, key + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
+  return chartFrame(width, height, haze + key + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
 }
 
 const RENDERERS = {
@@ -549,7 +596,11 @@ export function createStoryCharts(data, root, coauthors = null){
       row.at = { ...row.home }
     }
     const links = [...svg.querySelectorAll('.viz-net-link')].filter(l => l.dataset.a && l.dataset.b)
-    idx = { svg, byId, links, frame:0 }
+    const g = svg.querySelector('.viz-net-haze')
+    const homeGlow = g
+      ? { x:+g.getAttribute('cx'), y:+g.getAttribute('cy'), r:+g.getAttribute('r') }
+      : { x:0, y:0, r:0 }
+    idx = { svg, byId, links, frame:0, homeGlow }
     reformState.set(scene, idx)
     return idx
   }
@@ -617,6 +668,14 @@ export function createStoryCharts(data, root, coauthors = null){
       for (const row of idx.byId.values()) targets.set(row.id, { ...row.home })
     }
 
+    // The light follows the specimen. Left where it was, the haze would sit off
+    // to one side of a reformed cluster and read as a stain on the page.
+    const glow = idx.svg.querySelector('.viz-net-haze')
+    const glowFrom = glow
+      ? { x:+glow.getAttribute('cx'), y:+glow.getAttribute('cy'), r:+glow.getAttribute('r') } : null
+    const glowTo = glow
+      ? (id ? { x:cx, y:cy, r:idx.homeGlow.r * 0.92 } : { ...idx.homeGlow }) : null
+
     const from = new Map([...idx.byId.values()].map(r => [r.id, { ...r.at }]))
     const t0 = performance.now()
     cancelAnimationFrame(idx.frame)
@@ -627,6 +686,11 @@ export function createStoryCharts(data, root, coauthors = null){
         const a = from.get(row.id), b = targets.get(row.id)
         row.at.x = a.x + (b.x - a.x) * e
         row.at.y = a.y + (b.y - a.y) * e
+      }
+      if (glow && glowFrom && glowTo){
+        glow.setAttribute('cx', (glowFrom.x + (glowTo.x - glowFrom.x) * e).toFixed(1))
+        glow.setAttribute('cy', (glowFrom.y + (glowTo.y - glowFrom.y) * e).toFixed(1))
+        glow.setAttribute('r',  (glowFrom.r + (glowTo.r - glowFrom.r) * e).toFixed(1))
       }
       paint(idx)
       if (t < 1) idx.frame = requestAnimationFrame(step)

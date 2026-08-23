@@ -664,6 +664,10 @@
   .sh-chart-scene.is-live .viz-net-node{ animation:none; }
 }
 
+/* Blurred as well as gradiented: the gradient gives the falloff, the blur
+   takes the banding off it on a light ground. */
+.viz-net-haze{ fill:url(#viz-net-haze); filter:blur(16px); pointer-events:none; }
+
 /* While a person is held, the field around them is nearly gone. The reform
    moves the marks; this is what makes the ones that left read as gone. */
 .sh-chart-scene.is-focused .viz-net-node.is-faded,
