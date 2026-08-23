@@ -404,6 +404,21 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   }).join('')
 
   const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 12).map(n => n.id))
+  /* EuroQol green rather than a borrowed blue, and the shade carries meaning:
+     the more a person has published, the deeper their circle. Size says the
+     same thing, and that is deliberate — a small pale dot and a large deep one
+     are told apart at a glance and across the room, which a size difference
+     alone does not manage at these radii.
+
+     Non-members stay grey on the same ramp. Using a second hue for them would
+     make membership look like a third quantity rather than a yes or no. */
+  const shade = n => {
+    const t = Math.sqrt(n.paper_count / maxPapers)
+    return n.euroqol_member
+      ? `rgb(${Math.round(196 - t * 176)},${Math.round(226 - t * 108)},${Math.round(218 - t * 110)})`
+      : `rgb(${Math.round(226 - t * 46)},${Math.round(226 - t * 46)},${Math.round(219 - t * 44)})`
+  }
+
   const marks = nodes.map(n => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
     const ring = n.p.project_leader
@@ -416,7 +431,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     const count = n.r >= 11
       ? `<text class="viz-net-count" x="${n.x.toFixed(1)}" y="${(n.y + n.r * 0.32).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, n.r * 0.82).toFixed(1)}px">${n.p.paper_count}</text>`
       : ''
-    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" />${count}${name}`
+    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" style="fill:${shade(n.p)}" />${count}${name}`
   }).join('')
 
   /* A legend that shows the encoding instead of describing it.
@@ -473,11 +488,13 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     bits.push(`<text class="viz-net-key" x="${kx + 16 + extra}" y="${ky + 4}">${text}</text>`)
     kx += w + 14
   }
-  put(x => `<circle class="viz-net-node is-member" cx="${x + 6}" cy="${ky}" r="6" />`, 'EuroQol member')
-  put(x => `<circle class="viz-net-node is-other" cx="${x + 6}" cy="${ky}" r="6" />`, 'other author')
+  const deep = shade({ paper_count: maxPapers, euroqol_member: true })
+  const pale = shade({ paper_count: smallest, euroqol_member: true })
+  put(x => `<circle class="viz-net-node" cx="${x + 6}" cy="${ky}" r="6" style="fill:${deep}" />`, 'EuroQol member')
+  put(x => `<circle class="viz-net-node" cx="${x + 6}" cy="${ky}" r="6" style="fill:${shade({ paper_count: maxPapers, euroqol_member: false })}" />`, 'other author')
   put(x => `<circle class="viz-net-ring" cx="${x + 7}" cy="${ky}" r="7.5" />`, 'project leader')
-  put(x => `<circle class="viz-net-node is-member" cx="${x + 4}" cy="${ky}" r="3.5" />
-            <circle class="viz-net-node is-member" cx="${x + 20}" cy="${ky}" r="9" />`,
+  put(x => `<circle class="viz-net-node" cx="${x + 4}" cy="${ky}" r="3.5" style="fill:${pale}" />
+            <circle class="viz-net-node" cx="${x + 20}" cy="${ky}" r="9" style="fill:${deep}" />`,
       `${smallest}-${maxPapers} papers`, 16)
   put(x => `<line class="viz-net-link" x1="${x}" y1="${ky - 3}" x2="${x + 22}" y2="${ky - 3}" style="stroke-width:.6" />
             <line class="viz-net-link" x1="${x}" y1="${ky + 4}" x2="${x + 22}" y2="${ky + 4}" style="stroke-width:3" />`,
@@ -555,7 +572,7 @@ export function createStoryCharts(data, root, coauthors = null){
     panel = document.createElement('div')
     panel.className = 'viz-net-panel'
     panel.innerHTML = `<strong>${nameOf.get(id) || ''}</strong>
-      <span>${node?.dataset.papers || 0} papers · ${partners.length} co-authors</span>
+      <span><b>${node?.dataset.papers || 0}</b> papers · <b>${partners.length}</b> co-authors</span>
       ${strongest ? `<span>Most often with ${strongest}</span>` : ''}
       <button type="button" aria-label="Close">×</button>`
     panel.querySelector('button').onclick = () => clearPick(scene)

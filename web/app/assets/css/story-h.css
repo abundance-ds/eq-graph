@@ -535,7 +535,9 @@
   stroke:#fff; stroke-width:1.4; cursor:pointer;
   transition:opacity .18s ease, stroke .18s ease, r .18s ease;
 }
-.sh-chart-scene .viz-net-node.is-member{ fill:#a9c3ee; }
+/* Fallbacks only. The live fill comes from the green ramp, set inline per
+   node, because the shade carries the paper count. */
+.sh-chart-scene .viz-net-node.is-member{ fill:#7fb3a6; }
 .sh-chart-scene .viz-net-node.is-other{ fill:#d6d6cf; }
 /* The leader ring sits outside the circle rather than recolouring it, so
    membership and leadership can both be read on one node. */
@@ -599,6 +601,9 @@
   letter-spacing:-.02em; color:var(--ink);
 }
 .viz-net-panel span{ font-size:var(--t-fine); line-height:1.5; color:var(--ink-2); }
+/* The counts are what the panel exists to say, so they are the one thing set
+   in ink against the sentence around them. */
+.viz-net-panel b{ font-weight:600; color:var(--ink); }
 .viz-net-panel button{
   position:absolute; top:.45rem; right:.45rem;
   width:28px; height:28px; border:0; border-radius:7px;
