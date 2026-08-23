@@ -524,8 +524,10 @@
 
 /* ── The co-authorship network ──────────────────────────────────────────
    Structurally Paul's graph, in the earlier light knowledge-graph style. */
+/* Quieter. At full strength a hundred crossing lines read as a mesh laid over
+   the people rather than as relationships between them, and the mesh wins. */
 .sh-chart-scene .viz-net-link{
-  stroke:rgba(26,26,23,.22);
+  stroke:rgba(26,26,23,.11);
   stroke-linecap:round;
   transition:stroke-opacity .18s ease, stroke .18s ease;
 }
@@ -562,10 +564,16 @@
 /* Selected: the person and their collaborators stay lit, everything else
    steps back. Dimming rather than hiding keeps the shape of the whole network
    visible, so you can see where in it this person sits. */
-.sh-chart-scene .is-faded{ opacity:.10; }
+.sh-chart-scene .is-faded{ opacity:.13; }
+/* The spotlight: the person under the pointer is ringed in ink so they read as
+   chosen rather than merely un-dimmed. */
+.sh-chart-scene .viz-net-node.is-lit{ stroke:#1a1a17; stroke-width:2.2; }
+/* A plate of the page colour behind each name. A name laid over crossing lines
+   is unreadable however dark it is set. */
+.sh-chart-scene .viz-net-plate{ fill:rgba(244,243,239,.82); }
 .sh-chart-scene .viz-net-link.is-faded{ stroke-opacity:.06; }
 .sh-chart-scene .viz-net-node.is-picked{ stroke:#1a1a17; stroke-width:2.4; }
-.sh-chart-scene .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.42); }
+.sh-chart-scene .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.34); }
 
 /* The panel names what a thick line cannot: who the strong bonds are with.
    It positions against the scene, which is already absolutely placed by the

@@ -368,8 +368,13 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       const A = at.get(e.source), B = at.get(e.target)
       const dx = B.x - A.x, dy = B.y - A.y
       const d = Math.max(0.01, Math.hypot(dx, dy))
-      const rest = 150 / Math.sqrt(e.coauthored_paper_count)
-      const k = Math.min(0.9, 0.22 + e.coauthored_paper_count * 0.075)
+      /* Paul's rule: the more two people publish together, the shorter the
+         spring between them. The range matters as much as the rule — at a
+         narrow spread every pair sits at roughly the same distance and the
+         encoding is invisible. A close pair now rests at about a third of the
+         distance of a one-paper pair. */
+      const rest = 260 / Math.pow(e.coauthored_paper_count, 0.85)
+      const k = Math.min(0.95, 0.18 + e.coauthored_paper_count * 0.10)
       const f = (d - rest) * k * 0.045 * cool
       const ux = dx / d, uy = dy / d
       A.vx += ux * f; A.vy += uy * f
@@ -415,6 +420,18 @@ function coauthorNetwork(studies, width, height, data, coauthors){
      them to a picture. Drawing a small circle beside a large one, and a thin
      line beside a thick one, states the same thing in the form the reader is
      about to meet. It is also the only version that survives being skimmed. */
+  /* Names are drawn in a pass of their own, after every circle and every line.
+     Emitted inside the node loop they were painted before the nodes that came
+     after them, so a name could end up underneath a later circle or buried in
+     the mesh. They also carry a plate of the page colour, because a name laid
+     over a hundred crossing lines is unreadable however dark it is set. */
+  const plates = nodes.filter(n => named.has(n.id)).map(n => {
+    const t = n.p.name
+    const w = t.length * 6.4, y = n.y + n.r + 13
+    return `<rect class="viz-net-plate" x="${(n.x - w / 2 - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" width="${(w + 8).toFixed(1)}" height="14" rx="4" />
+      <text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${escapeText(t)}</text>`
+  }).join('')
+
   const members = people.filter(p => p.euroqol_member).length
   const smallest = Math.min(...people.map(p => p.paper_count))
   const kx = 8, ky = 20
@@ -436,7 +453,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
 
     <text class="viz-net-key is-quiet" x="${width - 6}" y="${ky + 4}" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors</text>`
 
-  return chartFrame(width, height, key + wire + marks, 'Click anyone to see who they work with.')
+  return chartFrame(width, height, key + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
 }
 
 const RENDERERS = {
@@ -480,7 +497,7 @@ export function createStoryCharts(data, root, coauthors = null){
   let panel = null
 
   function clearPick(scene){
-    scene.querySelectorAll('.is-picked, .is-faded').forEach(el => el.classList.remove('is-picked', 'is-faded'))
+    scene.querySelectorAll('.is-picked, .is-faded, .is-lit').forEach(el => el.classList.remove('is-picked', 'is-faded', 'is-lit'))
     if (panel) { panel.remove(); panel = null }
   }
 
@@ -512,12 +529,46 @@ export function createStoryCharts(data, root, coauthors = null){
     scene.appendChild(panel)
   }
 
+  /* Hover is a spotlight: this person and the people they have written with
+     stay lit, everyone else steps back. It is temporary and leaves nothing
+     behind, so the reader can sweep the whole network reading one life at a
+     time without committing to anything. Clicking keeps it, and a kept
+     selection is not disturbed by the pointer wandering over other nodes. */
+  let held = null
+
+  function lightUp(scene, id){
+    const near = new Set((adjacency.get(id) || []).map(x => x.id))
+    near.add(id)
+    scene.querySelectorAll('[data-id]').forEach(el => {
+      el.classList.toggle('is-faded', !near.has(el.dataset.id))
+      el.classList.toggle('is-lit', el.dataset.id === id)
+    })
+    scene.querySelectorAll('.viz-net-link').forEach(el => {
+      el.classList.toggle('is-faded', el.dataset.a !== id && el.dataset.b !== id)
+    })
+  }
+  function lightsUp(scene){
+    scene.querySelectorAll('.is-faded, .is-lit').forEach(el => el.classList.remove('is-faded', 'is-lit'))
+  }
+
+  host.addEventListener('pointerover', ev => {
+    const scene = ev.target.closest('.sh-chart-scene')
+    if (!scene || held) return
+    const hit = ev.target.closest('circle.viz-net-node[data-id]')
+    if (hit) lightUp(scene, hit.dataset.id)
+  })
+  host.addEventListener('pointerout', ev => {
+    const scene = ev.target.closest('.sh-chart-scene')
+    if (!scene || held) return
+    if (!ev.relatedTarget || !ev.relatedTarget.closest?.('circle.viz-net-node')) lightsUp(scene)
+  })
+
   host.addEventListener('click', ev => {
     const scene = ev.target.closest('.sh-chart-scene')
     if (!scene) return
-    const hit = ev.target.closest('circle[data-id]')
-    if (hit) pick(scene, hit.dataset.id)
-    else clearPick(scene)
+    const hit = ev.target.closest('circle.viz-net-node[data-id]')
+    if (hit){ held = hit.dataset.id; lightUp(scene, held); pick(scene, held) }
+    else { held = null; lightsUp(scene); clearPick(scene) }
   })
 
   function resize(){
