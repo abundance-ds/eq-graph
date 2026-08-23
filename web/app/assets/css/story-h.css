@@ -328,10 +328,12 @@
 .sh-chart-scene text{font-family:var(--font-body); fill:var(--ink-2);}
 .sh-chart-scene .viz-label{font:500 11.5px var(--font-body); fill:var(--ink);}
 .sh-chart-scene .viz-value{font:500 11.5px var(--font-num); fill:var(--ink);}
-.sh-chart-scene .viz-axis{font:500 10px var(--font-num); fill:var(--ink-3);}
+.sh-chart-scene .viz-axis{font:500 11.5px var(--font-num); fill:var(--ink-3);}
 .sh-chart-scene .viz-axis.is-strong{fill:var(--ink-2);}
 .sh-chart-scene .viz-kicker{font:500 10px var(--font-num); letter-spacing:.08em; fill:var(--ink-3);}
-.sh-chart-scene .viz-note{font:500 10px var(--font-num); fill:var(--ink-3);}
+/* Chart captions were 10px mono, which is a size for an axis tick, not for
+   a line of prose someone has to read. */
+.sh-chart-scene .viz-note{font:400 12.5px var(--font-body); fill:var(--ink-3);}
 .sh-chart-scene .viz-gridline{stroke:var(--rule); stroke-width:1; vector-effect:non-scaling-stroke;}
 .sh-chart-scene .viz-bar{fill:rgba(26,26,23,.48);}
 .sh-chart-scene .viz-bar.is-amber,
@@ -535,12 +537,24 @@
 .sh-chart-scene .viz-net-node.is-other{ fill:#d6d6cf; }
 /* The leader ring sits outside the circle rather than recolouring it, so
    membership and leadership can both be read on one node. */
+/* The count sits in the circle it belongs to. */
+.sh-chart-scene .viz-net-count{
+  font-family:var(--font-display); font-weight:500;
+  fill:#26262a; font-variant-numeric:tabular-nums;
+  pointer-events:none;
+}
+/* Legend text is read once, standing still, so it is set at reading size
+   rather than the size of an axis tick. */
+.sh-chart-scene .viz-net-key{
+  font:500 12.5px var(--font-body); fill:var(--ink-2);
+}
+.sh-chart-scene .viz-net-key.is-quiet{ fill:var(--ink-3); }
 .sh-chart-scene .viz-net-ring{
   fill:none; stroke:#c98a3c; stroke-width:1.3;
   transition:opacity .18s ease;
 }
 .sh-chart-scene .viz-net-name{
-  font:500 11px var(--font-body); fill:var(--ink-2);
+  font:500 12.5px var(--font-body); fill:var(--ink-2);
   pointer-events:none;
   transition:opacity .18s ease;
 }

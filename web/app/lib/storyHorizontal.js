@@ -192,9 +192,9 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`<b>${fmt(eqStudies.length)}</b> of them use at least one EuroQol instrument. The family runs from EQ-5D-5L through the youth versions to EQ-HWB, each built for people the version before it did not serve.`,
       layout:'chartBlank', chart:'coverageMatrix' },
 
-    { num:fmt(projectEvidence.projectsWithPublications || 0), unit:'projects published', head:'Some parts of the portfolio have reached the literature; others are just starting.',
-      body:`Every funded project belongs to a working group. The bars compare what each group has funded against how much of it now carries a published paper.`,
-      so:`Valuation is the oldest and largest programme and shows it. EQ-HWB is the newest — a great deal funded, almost nothing published yet — which is what the beginning of a research programme looks like rather than a problem with it.`,
+    { num:'7', unit:'working groups', head:'Each group is at a different stage of its life.',
+      body:`Every funded project sits with a working group. The bars compare what each group has funded against how much of it now carries a published paper.`,
+      so:`Valuation is the oldest programme and has published the most. EQ-HWB is the newest, with a great deal funded and almost nothing out yet, which is what the beginning of a programme looks like rather than a failure in one.`,
       layout:'chartBlank', chart:'groupPapers' },
   ]
 

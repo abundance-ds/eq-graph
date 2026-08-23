@@ -273,7 +273,9 @@ function groupPapers(studies, width, height, data){
   const peak = Math.max(1, ...rows.map(r => r.funded))
   const bandH = (height - top - bottom) / Math.max(1, rows.length)
   const barH = Math.min(9, bandH * 0.30)
-  const plotW = width - left - 64
+  // The row label reads like "74 of 266 · 28%", so the plot has to stop
+  // well short of the frame or it writes itself off the edge.
+  const plotW = width - left - 150
 
   const marks = rows.map((row, index) => {
     const y = top + index * bandH + bandH / 2
@@ -292,7 +294,7 @@ function groupPapers(studies, width, height, data){
     <text class="viz-axis" x="${left + 134}" y="${top - 24}">with a published paper</text>`
 
   return chartFrame(width, height, key + marks,
-    'Projects grouped by working group. A project counted once, in the group that funded it.')
+    'A project is counted once, in the group that funded it. Projects shared between groups are grouped together.')
 }
 
 
@@ -316,7 +318,7 @@ function groupPapers(studies, width, height, data){
 function coauthorNetwork(studies, width, height, data, coauthors){
   if (!coauthors || !coauthors.nodes) return chartFrame(width, height, '', 'Co-authorship data not loaded.')
 
-  const TOP = width < 720 ? 45 : 90
+  const TOP = width < 720 ? 40 : 72
   const people = [...coauthors.nodes].sort((a, b) => b.paper_count - a.paper_count).slice(0, TOP)
   const keep = new Set(people.map(p => p.person_id))
   const links = coauthors.edges.filter(e => keep.has(e.source) && keep.has(e.target))
@@ -325,7 +327,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   const w = width, h = height - top - bottom
   const cx = w / 2, cy = top + h / 2
   const maxPapers = Math.max(1, ...people.map(p => p.paper_count))
-  const rOf = n => 4.5 + Math.sqrt(n / maxPapers) * 17
+  const rOf = n => 7 + Math.sqrt(n / maxPapers) * 20
 
   const at = new Map()
   people.forEach((p, i) => {
@@ -345,12 +347,14 @@ function coauthorNetwork(studies, width, height, data, coauthors){
         let dx = B.x - A.x, dy = B.y - A.y
         let d = Math.hypot(dx, dy) || 0.01
         // charge: bigger authors push harder, as in his setup
-        const q = (34 + A.p.paper_count * 1.7) * 0.9 / (d * d)
+        // stronger than Paul's, because his canvas is a full dark screen and
+        // this one is half a fold: the same charge packs into a ball here
+        const q = (34 + A.p.paper_count * 1.7) * 2.4 / (d * d)
         const ux = dx / d, uy = dy / d
         A.vx -= ux * q * cool; A.vy -= uy * q * cool
         B.vx += ux * q * cool; B.vy += uy * q * cool
         // collide: circles must not sit on top of each other
-        const min = A.r + B.r + 2.5
+        const min = A.r + B.r + 7
         if (d < min){
           const push = (min - d) * 0.5
           A.x -= ux * push; A.y -= uy * push
@@ -364,7 +368,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       const A = at.get(e.source), B = at.get(e.target)
       const dx = B.x - A.x, dy = B.y - A.y
       const d = Math.max(0.01, Math.hypot(dx, dy))
-      const rest = 92 / Math.sqrt(e.coauthored_paper_count)
+      const rest = 150 / Math.sqrt(e.coauthored_paper_count)
       const k = Math.min(0.9, 0.22 + e.coauthored_paper_count * 0.075)
       const f = (d - rest) * k * 0.045 * cool
       const ux = dx / d, uy = dy / d
@@ -377,7 +381,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   // keep the drawing inside the frame by scaling what settled, not by clamping
   const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y)
   const sx = Math.max(...xs) - Math.min(...xs), sy = Math.max(...ys) - Math.min(...ys)
-  const k = Math.min((w - 130) / (sx || 1), (h - 40) / (sy || 1), 1.5)
+  const k = Math.min((w - 90) / (sx || 1), (h - 30) / (sy || 1), 2.4)
   const ox = cx - ((Math.min(...xs) + Math.max(...xs)) / 2) * k
   const oy = cy - ((Math.min(...ys) + Math.max(...ys)) / 2) * k
   for (const n of nodes){ n.x = n.x * k + ox; n.y = n.y * k + oy }
@@ -395,20 +399,44 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       ? `<circle class="viz-net-ring" data-id="${n.id}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(n.r + 2.6).toFixed(1)}" />` : ''
     const name = named.has(n.id)
       ? `<text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${(n.y + n.r + 12).toFixed(1)}" text-anchor="middle">${escapeText(n.p.name)}</text>` : ''
-    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" />${name}`
+    // The count goes inside wherever the circle can hold it legibly. Below
+    // about eleven pixels the digits would be smaller than the label beneath,
+    // and a number too small to read is just texture.
+    const count = n.r >= 11
+      ? `<text class="viz-net-count" x="${n.x.toFixed(1)}" y="${(n.y + n.r * 0.32).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, n.r * 0.82).toFixed(1)}px">${n.p.paper_count}</text>`
+      : ''
+    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" />${count}${name}`
   }).join('')
 
-  const members = people.filter(p => p.euroqol_member).length
-  const key = `<circle class="viz-net-node is-member" cx="14" cy="22" r="5" />
-    <text class="viz-axis" x="25" y="26">EuroQol member</text>
-    <circle class="viz-net-node is-other" cx="146" cy="22" r="5" />
-    <text class="viz-axis" x="157" y="26">other author</text>
-    <circle class="viz-net-ring" cx="256" cy="22" r="6.5" />
-    <text class="viz-axis" x="269" y="26">project leader</text>
-    <text class="viz-axis" x="${width - 6}" y="26" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors · ${members} are members</text>`
+  /* A legend that shows the encoding instead of describing it.
 
-  return chartFrame(width, height, key + wire + marks,
-    'Circle size is papers. Line thickness is papers written together. Click anyone to see who they work with.')
+     "Circle size is papers, line thickness is papers written together" is a
+     sentence asking the reader to hold two mappings in their head and apply
+     them to a picture. Drawing a small circle beside a large one, and a thin
+     line beside a thick one, states the same thing in the form the reader is
+     about to meet. It is also the only version that survives being skimmed. */
+  const members = people.filter(p => p.euroqol_member).length
+  const smallest = Math.min(...people.map(p => p.paper_count))
+  const kx = 8, ky = 20
+  const key = `
+    <circle class="viz-net-node is-member" cx="${kx + 6}" cy="${ky}" r="6" />
+    <text class="viz-net-key" x="${kx + 18}" y="${ky + 4}">EuroQol member</text>
+    <circle class="viz-net-node is-other" cx="${kx + 140}" cy="${ky}" r="6" />
+    <text class="viz-net-key" x="${kx + 152}" y="${ky + 4}">other author</text>
+    <circle class="viz-net-ring" cx="${kx + 258}" cy="${ky}" r="7.5" />
+    <text class="viz-net-key" x="${kx + 271}" y="${ky + 4}">project leader</text>
+
+    <circle class="viz-net-node is-member" cx="${kx + 392}" cy="${ky}" r="4" />
+    <circle class="viz-net-node is-member" cx="${kx + 412}" cy="${ky}" r="10" />
+    <text class="viz-net-key" x="${kx + 428}" y="${ky + 4}">${smallest} to ${maxPapers} papers</text>
+
+    <line class="viz-net-link" x1="${kx + 552}" y1="${ky - 4}" x2="${kx + 580}" y2="${ky - 4}" style="stroke-width:.6" />
+    <line class="viz-net-link" x1="${kx + 552}" y1="${ky + 4}" x2="${kx + 580}" y2="${ky + 4}" style="stroke-width:3" />
+    <text class="viz-net-key" x="${kx + 590}" y="${ky + 4}">written together, more often</text>
+
+    <text class="viz-net-key is-quiet" x="${width - 6}" y="${ky + 4}" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors</text>`
+
+  return chartFrame(width, height, key + wire + marks, 'Click anyone to see who they work with.')
 }
 
 const RENDERERS = {
@@ -469,7 +497,10 @@ export function createStoryCharts(data, root, coauthors = null){
     })
     const partners = (adjacency.get(id) || []).slice().sort((a, b) => b.w - a.w)
     const strongest = partners.slice(0, 4).map(x => `${nameOf.get(x.id) || 'unknown'} (${x.w})`).join(', ')
-    const node = scene.querySelector(`circle[data-id="${id}"]`)
+    // The leader ring carries the same data-id and sits before the node in the
+    // markup, so a bare circle[data-id] lookup found the ring, which has no
+    // paper count on it. Hence every panel said "0 papers".
+    const node = scene.querySelector(`circle.viz-net-node[data-id="${id}"]`)
     if (panel) panel.remove()
     panel = document.createElement('div')
     panel.className = 'viz-net-panel'
