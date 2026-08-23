@@ -304,6 +304,19 @@ function groupPapers(studies, width, height, data){
 }
 
 
+/* Phosphor regular, inlined from @phosphor-icons/core rather than loaded, so
+   the page stays self-contained. `article` is a page of text, which is what a
+   paper is; `users` is more than one person, which is what a co-author is.
+   They mark the two figures apart so the counts can be read without the
+   sentence, and they replace the middot that used to separate them. */
+const ICON = {
+  paper: 'M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,128Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,160Z',
+  people: 'M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z',
+}
+const icon = name =>
+  `<svg class="viz-ico" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="${ICON[name]}"/></svg>`
+
+
 /* The co-authorship network.
 
    Structurally Paul's, including his force parameters: link distance falls as
@@ -572,7 +585,10 @@ export function createStoryCharts(data, root, coauthors = null){
     panel = document.createElement('div')
     panel.className = 'viz-net-panel'
     panel.innerHTML = `<strong>${nameOf.get(id) || ''}</strong>
-      <span><b>${node?.dataset.papers || 0}</b> papers · <b>${partners.length}</b> co-authors</span>
+      <span class="viz-net-figs">
+        <span class="viz-fig">${icon('paper')}<b>${node?.dataset.papers || 0}</b> papers</span>
+        <span class="viz-fig">${icon('people')}<b>${partners.length}</b> co-authors</span>
+      </span>
       ${strongest ? `<span>Most often with ${strongest}</span>` : ''}
       <button type="button" aria-label="Close">×</button>`
     panel.querySelector('button').onclick = () => clearPick(scene)

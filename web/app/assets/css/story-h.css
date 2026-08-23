@@ -604,6 +604,13 @@
 /* The counts are what the panel exists to say, so they are the one thing set
    in ink against the sentence around them. */
 .viz-net-panel b{ font-weight:600; color:var(--ink); }
+
+/* The two figures, each with its own mark. They sit on one line while there is
+   room and wrap to two when there is not, rather than being squeezed. */
+.viz-net-figs{ display:flex; flex-wrap:wrap; gap:0.15rem 1.1rem; }
+.viz-fig{ display:inline-flex; align-items:center; gap:0.36rem; white-space:nowrap; }
+/* Sized against the text it labels, so it stays matched at any type scale. */
+.viz-ico{ width:1.05em; height:1.05em; flex:none; color:var(--ink-3); }
 .viz-net-panel button{
   position:absolute; top:.45rem; right:.45rem;
   width:28px; height:28px; border:0; border-radius:7px;

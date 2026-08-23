@@ -689,6 +689,35 @@ export function initStory(DATA, TOPO, root, options = {}){
      year ticks, a map with real coastlines, groups with labels under them.
      Furniture fades in only when a beat is at rest, so it never smears
      across a transition. */
+  /* The area under the running total, painted BEFORE the dots so they sit on
+     top of it rather than under a wash.
+
+     Without this the year stacks float as separate blocks with a dead field
+     underneath, which reads as scattered squares rather than one quantity
+     growing. Filling everything below the staircase is what makes it a total:
+     the shape is the portfolio, and each year's dots are the fresh edge on top
+     of it. */
+  function drawAreaFill(f, alpha){
+    if (!f || f.kind !== 'years' || !f.steps || alpha <= 0.01) return
+    ctx.save()
+    ctx.globalAlpha = alpha
+    const grad = ctx.createLinearGradient(f.b.x0, 0, f.b.x1, 0)
+    grad.addColorStop(0, `rgba(${TEAL.join(',')},0.16)`)
+    grad.addColorStop(1, `rgba(${YELLOW.join(',')},0.26)`)
+    ctx.fillStyle = grad
+    ctx.beginPath()
+    ctx.moveTo(f.b.x0, f.b.y1)
+    f.steps.forEach(s => {
+      const x0 = f.b.x0 + s.ci * f.colW
+      ctx.lineTo(x0, s.y)
+      ctx.lineTo(x0 + f.colW, s.y)
+    })
+    ctx.lineTo(f.b.x0 + f.steps.length * f.colW, f.b.y1)
+    ctx.closePath()
+    ctx.fill()
+    ctx.restore()
+  }
+
   function drawFurniture(f, alpha){
     if (!f || alpha <= 0.01) return
     ctx.save()
@@ -872,6 +901,14 @@ export function initStory(DATA, TOPO, root, options = {}){
     const box = fieldBox(), now = performance.now() / 1000
     if (BEATS[i0].art) drawBeatArt(ctx, BEATS[i0].art, box, (1 - t) * 0.9, now, INK.join(','))
     if (i1 !== i0 && BEATS[i1].art) drawBeatArt(ctx, BEATS[i1].art, box, t * 0.9, now, INK.join(','))
+
+    // Same timing as the labels below, but painted underneath the dots.
+    if (i0 === i1){
+      drawAreaFill(furniture[i0], 1)
+    } else {
+      drawAreaFill(furniture[i0], Math.max(0, 1 - rawT * 3.4))
+      drawAreaFill(furniture[i1], Math.max(0, (rawT - .7) / .3))
+    }
 
     for (let i = 0; i < dots.length; i++){
       const a = A[i], b = B[i]
