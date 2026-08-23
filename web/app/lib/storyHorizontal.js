@@ -618,9 +618,15 @@ export function initStory(DATA, TOPO, root, options = {}){
       const age = t - born
       if (age <= 0) continue
 
+      /* When the first beat has no dots of its own — the map draws countries,
+         not a scatter — the particle's home alpha is zero, and multiplying by
+         it made the whole flight invisible: the sentence dissolved into
+         nothing. A particle flying to a beat that will not show it now stays
+         visible for the flight and fades as it lands, so the words still come
+         apart and the map still arrives clean. */
       const targetA = h.a == null ? 1 : h.a
-      const a = Math.min(1, age / 0.05) * targetA             // it appears as it leaves
       const f = ease(Math.min(1, age / FLY))
+      const a = Math.min(1, age / 0.05) * (targetA === 0 ? (1 - f) : targetA)
 
       // a curve, not a straight line: it is thrown clear, then drawn home
       const dx = h.x - sp[0], dy = h.y - sp[1]

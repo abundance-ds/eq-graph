@@ -93,6 +93,24 @@ const failed = computed(() => steps.value.some((step) => step.state === "failed"
    Note the denominator can grow while the agent runs: it decides how many
    queries to make as it goes, so there is no plan to count against. Showing a
    fixed total would be a nicer number and a false one. */
+/* While it works, the card says what a health economist would say it is doing,
+   not what a program is doing. "Querying the reference data" is true and tells a
+   researcher nothing; "Pooling the utilities" tells them the shape of the work.
+   These are field words on purpose: someone who works in HEOR reads them as
+   competence, and someone who does not still reads them as effort. The verb
+   changes as the steps advance so the card looks alive without a spinner
+   claiming progress it cannot measure. */
+const WORKING_VERBS = [
+  "Pooling the evidence",
+  "Tracing the value sets",
+  "Reconciling the instruments",
+  "Weighting the health states",
+  "Cross-walking the measures",
+  "Sifting the utilities",
+  "Auditing the coverage",
+];
+const verb = computed(() => WORKING_VERBS[done.value % WORKING_VERBS.length]);
+
 const openedByHand = ref(false);
 const open = computed(() => live.value || openedByHand.value);
 
@@ -123,9 +141,11 @@ function toggleQuery(id: string) {
           <span class="bars" aria-hidden="true"><i /><i /><i /></span>
           Reading the graph
         </span>
+        <!-- No dot. A coloured dot beside a word that already says the state
+             is the state told twice, and it is the single most recognisable
+             mark of a generated interface. The word carries it. -->
         <span :class="['status', live && 'status--live']">
-          <i aria-hidden="true" />
-          {{ live ? "Working" : failed ? "Finished with a problem" : "Done" }}
+          {{ live ? verb : failed ? "Finished with a problem" : "Done" }}
         </span>
         <button
           v-if="!live"
@@ -241,15 +261,20 @@ function toggleQuery(id: string) {
 }
 /* The one dot that earns its place: it reports live state, which nothing
    else on the card says. */
-.status i {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--hairline-strong, #cfc9bf);
+/* The live state is carried by the word itself, which sweeps while the work
+   runs. No dot: a colour swatch next to a word that already says the state is
+   the state said twice. */
+.status--live {
+  background: linear-gradient(90deg, var(--ink-3, #8b857c) 0%, var(--ink-1, #1c1a17) 45%, var(--ink-3, #8b857c) 90%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: sweep 1.9s linear infinite;
 }
-.status--live i {
-  background: var(--accent, #007d6c);
-  animation: pulse 1.5s ease-out infinite;
+@keyframes sweep {
+  from { background-position: 120% 0; }
+  to { background-position: -120% 0; }
 }
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(0, 125, 108, 0.35); }
