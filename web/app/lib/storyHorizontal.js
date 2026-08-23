@@ -238,6 +238,7 @@ export function initStory(DATA, TOPO, root, options = {}){
        the width of the word and of the stage, and a wrong guess would leave it
        short of the corner or past it. */
     const about = root.querySelector('.sh-about')
+    const skipEl = root.querySelector('.sh-skip')
     if (about && about.offsetParent){
       /* offsetLeft IS the padding, in pixels, because the element is placed at
          left:var(--pad) and offsetLeft ignores the transform. Reading --pad
@@ -248,6 +249,13 @@ export function initStory(DATA, TOPO, root, options = {}){
       // window's.
       const shift = about.offsetParent.clientWidth - about.offsetLeft * 2 - about.offsetWidth
       about.style.setProperty('--about-x', `${Math.max(0, shift)}px`)
+      // And where it parks once Skip owns the corner: immediately to its left,
+      // one gutter clear of it, on the same line.
+      if (skipEl){
+        const gap = 28
+        const beside = skipEl.offsetLeft - gap - about.offsetWidth - about.offsetLeft
+        about.style.setProperty('--about-x-story', `${Math.max(0, beside)}px`)
+      }
     }
     textMeta = buildText()
     return true
