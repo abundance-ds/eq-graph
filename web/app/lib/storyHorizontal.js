@@ -1,10 +1,5 @@
-/* ═══════════════════════════════════════════════════════════════════
-   THE STORY — horizontal, black, Swiss.
-
-   Vertical scrolling drives a horizontal track. One pinned stage and thirteen
-   panels move from funded projects to corpus-level research views. Dots carry
-   the opening scenes; SVG charts carry the statistical comparisons.
-   ═══════════════════════════════════════════════════════════════════ */
+/* Vertical scroll drives a horizontal track: one pinned stage, five beats.
+   Dots carry the opening; SVG charts carry the comparisons. */
 
 import { geoNaturalEarth1, geoPath, geoContains } from 'd3-geo'
 import { drawBeatArt } from './beatArt.js'
@@ -14,18 +9,13 @@ import { feature } from 'topojson-client'
 const lerp = (a, b, t) => a + (b - a) * t
 const ease = t => t * t * (3 - 2 * t)
 
-/* A scrollytelling scene needs time in which nothing moves. The old timeline
-   used every pixel between two beats for interpolation. A completed visual
-   therefore existed at one exact scroll position. These values make the
-   settled scene the main state and keep the change short. Mobile gets more
-   room because the copy wraps to more lines. */
+/* Most of the runway is hold, not transition. Give the change more room and a
+   settled scene exists at one scroll position only, which reads as broken. */
 const storyTiming = () => window.innerWidth <= 640
   ? { intro:1.45, hold:0.94, transition:0.26, handover:1 }
   : { intro:1.35, hold:0.78, transition:0.22, handover:1 }
 
-/* The palette lives in CSS — see the token block in story-h.css. Canvas
-   cannot read a custom property, so we read them once here. Nothing in the
-   drawing code below states a colour of its own. */
+// Read once from the CSS tokens. Never state a colour below this line.
 const rgb = (css, name, fallback) => {
   const v = css.getPropertyValue(name).trim()
   const parts = (v || fallback).split(',').map(Number)
@@ -57,10 +47,8 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const projectYears = [...new Set(projects.map(projectYearOf).filter(Boolean))].sort()
 
-  /* Where each study was actually run. CONDUCTED_IN edges give the country;
-     the topojson gives us where that country is. A study with no country, or
-     one recorded as a region ("East Asia"), cannot be placed and is shown
-     separately rather than dropped or faked. */
+  /* A study recorded against a region ("East Asia") cannot be placed. Count it
+     as unplaced rather than dropping it. */
   const NAME_FIX = {
     'United States':'United States of America', 'Czech Republic':'Czechia',
     'Trinidad And Tobago':'Trinidad and Tobago', 'Bosnia And Herzegovina':'Bosnia and Herz.',
@@ -68,10 +56,8 @@ export function initStory(DATA, TOPO, root, options = {}){
     'South Korea':'South Korea', 'Republic Of Korea':'South Korea', 'Russia':'Russia',
   }
   const countryOfProject = {}, countryOfStudy = {}
-  /* The three numbers a country card shows. Projects and studies come from
-     different edges on purpose: a project SUPPORTED_EVIDENCE_IN a country,
-     a study was CONDUCTED_IN one, and the gap between them is how much of the
-     funded work has actually been read there. */
+  /* Two different edges on purpose: projects SUPPORTED_EVIDENCE_IN, studies
+     CONDUCTED_IN. The gap between them is how much has been read. */
   const countryDetail = {}
   const nodeById = Object.fromEntries(DATA.nodes.map(n => [n.id, n]))
   const seenProject = {}
@@ -133,40 +119,14 @@ export function initStory(DATA, TOPO, root, options = {}){
   const largestFamily = primaryFamilies[0] || { label:'—', value:0 }
   const conceptCount = labels => studies.filter(s => (s.concepts || []).some(value => labels.includes(String(value).toLowerCase()))).length
 
-  /* ── Five folds ───────────────────────────────────────────────────────
-     Thirteen beats was an inventory: here is a facet, here is another. Five
-     is a story, and a story needs an argument. This one is: EuroQol funded
-     work, it spread, it produced evidence, that evidence measures health in
-     a common language — and most of it is still unread.
-
-     The order is deliberate. Geography first, because the globe is already
-     on screen from the opening fold and carrying it forward means the reader
-     never loses the object they arrived with. Then time, then what came out
-     of it, then what it measures, then the honest gap.
-
-     Every beat keeps its number tied to a consequence. A number alone —
-     "1,024 projects" — tells you nothing about whether that is a lot, or what
-     it bought. The `so` line is where the number is made to mean something.
-
-     No `art:` on any of them. Those drew decorative rings, plates and stacks
-     over the top of the real chart, so the first thing the eye met was a grey
-     shape carrying no data. */
-  /* ── Five folds ───────────────────────────────────────────────────────
-     The argument: EuroQol funds work, that work spreads, it produces evidence
-     other people can use, it rests on a family of instruments built over
-     decades, and there is more of it still to read.
-
-     Every fold carries its number WITH its noun. A number alone is a riddle —
-     "35" makes the reader hunt the sentence below for what was counted, and a
-     display number that has to be decoded is not doing its job. The unit sits
-     beside the figure, slightly smaller, so the pair reads as one object.
-
-     The closing line is where the number is made to matter. "1,024 projects"
-     says nothing about whether that is many or what it bought. */
   const eqInstruments = (series.instruments || []).filter(row => /^EQ[- ]/i.test(row.label || ''))
   const eqStudies = studies.filter(s => (s.instruments || []).some(i => /^EQ[- ]/i.test(String(i))))
   const eqShare = studies.length ? Math.round((eqStudies.length / studies.length) * 100) : 0
 
+  /* Five folds, in order: where, when, who, what it measures, what is left.
+     Each carries `num` with its `unit` at the same size, and a `so` line that
+     says why the number matters. Do not add `art:` — it draws decoration over
+     the chart. */
   const BEATS = [
     { num:fmt(counts.country || 0), unit:'countries', head:'EuroQol-funded research now runs on every continent.',
       body:`EuroQol has funded <b>${fmt(projects.length)}</b> projects, and that work now underpins evidence in <b>${fmt(counts.country || 0)}</b> countries and territories.`,
@@ -229,11 +189,8 @@ export function initStory(DATA, TOPO, root, options = {}){
   /* ── the field ───────────────────────────────────────────────────── */
   const canvas = root.querySelector('[data-canvas]')
 
-  /* The map is drawn on this canvas, so a click has to be hit-tested against
-     the same projection that drew it. `liveMap` holds the furniture of the
-     currently drawn map beat — projection, counts, bounds — and is null on
-     every other beat, which is also what stops clicks doing anything on folds
-     that have no map. */
+  /* Hit-test against the same projection that drew the map. `liveMap` is set
+     only while a map is on screen, so clicks do nothing on other folds. */
   let liveMap = null
   const onSelectCountry = typeof options.onSelectCountry === 'function' ? options.onSelectCountry : () => {}
 
@@ -318,22 +275,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos:out, furn:null }
     }
     else if (kind === 'projectYears'){
-      /* One filled area, cumulative.
-
-         Counted year by year this read as short stacks with gaps, and a quiet
-         year looked like a failure. That is wrong: a project funded in 2014 did
-         not stop counting in 2015. So the height at any year is everything
-         funded up to that point, climbing to the full portfolio.
-
-         The dots are hidden here, the same as on the map fold, because the area
-         IS the measurement. Drawing each project as a dot on top of the fill put
-         a block of texture at every step, and a block sitting on a baseline
-         reads as a bar however it was built — which fought the one thing this
-         chart is for.
-
-         The y axis is scaled to the final total rather than to a rounded number
-         above it, so the curve reaches the top of the frame and the growth is
-         read at full height instead of in the bottom two thirds. */
+      /* Cumulative, so the height at any year is everything funded up to then.
+         Keep the dots hidden: a block of them on the baseline reads as a bar.
+         Scale y to the final total, not a round number above it, or the curve
+         never reaches the top of the frame. */
       for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
 
       const countOf = {}
@@ -362,15 +307,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
-      /* A choropleth, not a dot scatter.
-
-         The old version drew a hairline coastline and then piled little dots
-         on each country's centroid. Two problems: a dot cluster encodes
-         quantity by area, which the eye reads badly, and it left the country
-         itself — the actual shape being measured — as an empty grey outline.
-         Shading the country IS the measurement, and it needs no legend to be
-         understood. Same logic as the heatmap later in the story, laid flat on
-         geography instead of a grid. */
+      /* Shading the country is the measurement. Do not go back to dots on
+         centroids: a cluster encodes quantity by area, which reads badly. */
       const entityKind = kind === 'projectMap' ? 'project' : 'study'
       const countryMap = entityKind === 'project' ? countryOfProject : countryOfStudy
       const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 30]], land)
@@ -526,15 +464,10 @@ export function initStory(DATA, TOPO, root, options = {}){
   function mix(a, b, t){ return [lerp(a[0],b[0],t), lerp(a[1],b[1],t), lerp(a[2],b[2],t)] }
 
   /* ── the intro ───────────────────────────────────────────────────────
-     The line no longer names EuroQol — the mark in the corner does that, and
-     the sentence is stronger for being about the work rather than the body.
-
-     It is drawn to an offscreen canvas and sampled into the
-     the same data dots, so the words become the research field. Timing was
-     the note: the field must be settled and readable BEFORE the text has
-     finished leaving, not after. The dissolve starts at 1% — the second you
-     move — crosses the words by 31%, and the last dot is home by 87%. What
-     is left is a hold, so beat 01 is still before it starts to move. */
+     Drawn to an offscreen canvas and sampled into the same data dots, so the
+     words become the research field. The field has to be settled and readable
+     BEFORE the text finishes leaving, not after: dissolve from 1%, across the
+     words by 31%, last dot home by 87%. The rest is hold. */
   const INTRO_TEXT = 'Shaping how the world measures health.'
   let textSpots = null
   const instEl = root.querySelector('[data-instrument]')
@@ -645,12 +578,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       const age = t - born
       if (age <= 0) continue
 
-      /* When the first beat has no dots of its own — the map draws countries,
-         not a scatter — the particle's home alpha is zero, and multiplying by
-         it made the whole flight invisible: the sentence dissolved into
-         nothing. A particle flying to a beat that will not show it now stays
-         visible for the flight and fades as it lands, so the words still come
-         apart and the map still arrives clean. */
+            /* Do not multiply by the home alpha. On a beat that hides its dots that
+             is zero and the whole flight goes invisible. Fade on landing. */
       const targetA = h.a == null ? 1 : h.a
       const f = ease(Math.min(1, age / FLY))
       const a = Math.min(1, age / 0.05) * (targetA === 0 ? (1 - f) : targetA)
@@ -671,19 +600,8 @@ export function initStory(DATA, TOPO, root, options = {}){
     }
   }
 
-  /* The chart itself. Dots may be dots while they travel, but the moment
-     they arrive they must BE something — a column chart with a baseline and
-     year ticks, a map with real coastlines, groups with labels under them.
-     Furniture fades in only when a beat is at rest, so it never smears
-     across a transition. */
-  /* The area under the running total, painted BEFORE the dots so they sit on
-     top of it rather than under a wash.
-
-     Without this the year stacks float as separate blocks with a dead field
-     underneath, which reads as scattered squares rather than one quantity
-     growing. Filling everything below the staircase is what makes it a total:
-     the shape is the portfolio, and each year's dots are the fresh edge on top
-     of it. */
+  // Axes, ticks, coastlines. Only drawn at rest, so it never smears mid-move.
+  /* Painted before the dots so they sit on it rather than under a wash. */
   function drawAreaFill(f, alpha){
     if (!f || f.kind !== 'years' || !f.steps || alpha <= 0.01) return
     ctx.save()
@@ -787,10 +705,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       ctx.fillStyle = ink(.045); ctx.fill()
       ctx.strokeStyle = ink(.10); ctx.lineWidth = .6; ctx.stroke()
 
-      /* Then the ones with research in them, filled by how much. The ramp runs
-         from the palest brand green to the full one; a square-root scale,
-         because a linear one leaves everything below the leader nearly blank
-         when one country holds several times the rest. */
+          /* Square-root ramp. Linear leaves everything below the leader blank. */
       for (const feat of land.features){
         const n = f.per[feat.properties.name]
         if (!n) continue
@@ -801,19 +716,9 @@ export function initStory(DATA, TOPO, root, options = {}){
         ctx.strokeStyle = ink(.14); ctx.lineWidth = .5; ctx.stroke()
       }
 
-      /* Labels, placed so they never collide.
-
-         The old version wrote the top five at their centroids and hoped. In
-         Europe the centroids are a few pixels apart, so "United Kingdom 17"
-         landed on top of "Netherlands 16" and both became unreadable — the
-         densest part of the map, which is exactly where the reader looks.
-
-         Each label is measured before it is drawn, tested against every box
-         already placed, and dropped if it overlaps. A label that cannot be
-         read is worse than an absent one: the country is still shaded, so the
-         quantity is on the page either way. Four candidate positions are tried
-         first, so a label usually finds room on another side rather than being
-         lost. */
+          /* Measured, tested against every box already placed, and dropped if it
+             still overlaps after four candidate positions. Centroids alone put
+             the UK on top of the Netherlands. */
       const top = W <= 640 ? [] : Object.entries(f.per).sort((a, b) => b[1] - a[1]).slice(0, 9)
       ctx.textAlign = 'left'; ctx.textBaseline = 'middle'
       const placed = []
@@ -919,10 +824,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       ctx.fill()
     }
 
-    /* Cleared every frame and re-set by whichever furniture is actually a map.
-       It used to be set once and never unset, so after the map fold had been
-       seen, a click anywhere on any later fold still hit-tested the map and
-       opened a country card on top of a chart. */
+    /* Must be cleared each frame. If it persists, clicks on later folds still
+       hit-test the map and open a country card over a chart. */
     liveMap = null
 
     // Chart labels stay at full strength for the hold. During the short
@@ -934,11 +837,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawFurniture(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
 
-    /* `.sh-field` is pointer-events:none so the layers under it stay reachable,
-       and this canvas never re-enabled itself, so the map beat's click handler
-       was never once called. It takes the pointer only while a map is actually
-       drawn, which is also what keeps it out of the globe's way everywhere
-       else. */
+    /* `.sh-field` is pointer-events:none, so this canvas has to claim the
+       pointer itself — and only while a map is drawn, or it covers the globe. */
     canvas.style.pointerEvents = liveMap ? 'auto' : 'none'
     canvas.style.cursor = liveMap ? 'pointer' : ''
 
@@ -1069,11 +969,8 @@ export function initStory(DATA, TOPO, root, options = {}){
   }
   function onScroll(){ if (!ticking){ ticking = true; requestAnimationFrame(update) } }
 
-  /* Jumping to a beat has to LAND on one. Arriving mid-transition — text
-     already gone, the next chart still flying in — is the thing that reads
-     as broken. Beat i is settled at exactly i/(beats-1) of the runway, so
-     that is the number we scroll to, on our own eased tween rather than the
-     browser's, and any touch of the wheel cancels it. */
+      /* Beat i is settled at exactly i/(beats-1) of the runway. Land on that,
+         or you arrive mid-transition and it reads as broken. */
   let tween = 0
   let clearTweenEvents = () => {}
   function storyYForBeat(i){

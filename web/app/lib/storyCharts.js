@@ -168,18 +168,9 @@ const COVERAGE_ROWS = [
 const COVERAGE_COLUMNS = INSTRUMENTS
 
 function coverageMatrix(studies, width, height){
-  /* The cross-tab, with its margins.
-
-     Rows are research types, columns are instruments, and a cell counts the
-     studies that are both. The two totals lines are what turn a grid of cells
-     into a table you can actually reason from: the bottom row says how much
-     each instrument carries overall, the right column how large each research
-     type is. Without them a reader has to add six numbers in their head to
-     answer "which instrument is used most", which is the first question anyone
-     asks of a matrix like this.
-
-     The instrument fold used to be a separate beat. It said the same thing the
-     bottom row now says, in a whole screen of its own. */
+      /* Rows are research types, columns are instruments, cells are the studies
+         that are both. Keep the two totals lines: without them a reader has to
+         add six numbers to answer "which instrument is used most". */
   const compact = width < 560
   const left = compact ? 100 : 172
   const top = compact ? 74 : 92   // room for the axis title above the names
@@ -209,10 +200,8 @@ function coverageMatrix(studies, width, height){
       `<text class="viz-label" x="${left - 10}" y="${y(index) + cellH * .62}" text-anchor="end">${escapeText(titleCase(row))}</text>`).join('')
     + COVERAGE_COLUMNS.map(([, short], index) =>
       `<text class="viz-axis is-strong" x="${x(index) + cellW / 2}" y="${top - 24}" text-anchor="middle">${escapeText(short)}</text>`).join('')
-    /* Axis titles where a chart puts them: the group name centred over the
-       columns it names, and the margin's meaning rotated alongside the column
-       it belongs to. "All instruments" sitting on top of the totals column was
-       naming the wrong thing — it read as a seventh instrument. */
+        /* The margin's label is rotated beside its own column. Set flat on top of
+           the totals it read as a seventh instrument. */
     + `<text class="viz-axis-title" x="${left + (COVERAGE_COLUMNS.length * cellW) / 2}" y="${top - 44}" text-anchor="middle">Instruments</text>`
     + `<text class="viz-axis is-strong" x="${totalX + totalW / 2}" y="${top - 24}" text-anchor="middle">Total</text>`
     + `<text class="viz-label" x="${left - 10}" y="${totalY + cellH * .62}" text-anchor="end">Total</text>`
@@ -242,14 +231,10 @@ function coverageMatrix(studies, width, height){
 
 
 
-/* Papers per working group, against the size of the group.
-
-   Two bars on one row, not two charts. The question a reader has here is not
-   "how many papers" — it is "how much of what this group funded has reached
-   the literature", and that is a comparison, so the two quantities have to
-   share a baseline and a scale. Valuation looks large either way; EQ-HWB is
-   large in projects and nearly absent in papers, which is the actual finding
-   and is invisible if you only plot one of them. */
+    /* Two bars on one row, sharing a baseline and scale. The question is what
+       share of a group's funding has reached the literature, which is a
+       comparison. EQ-HWB is large in projects and near absent in papers; plot
+       one bar and that disappears. */
 function groupPapers(studies, width, height, data){
   const projects = (data?.nodes || []).filter(node => node.type === 'project')
   const totals = new Map()
@@ -304,11 +289,8 @@ function groupPapers(studies, width, height, data){
 }
 
 
-/* Phosphor regular, inlined from @phosphor-icons/core rather than loaded, so
-   the page stays self-contained. `article` is a page of text, which is what a
-   paper is; `users` is more than one person, which is what a co-author is.
-   They mark the two figures apart so the counts can be read without the
-   sentence, and they replace the middot that used to separate them. */
+    /* Phosphor regular, inlined rather than loaded so the page stays
+       self-contained. */
 const ICON = {
   paper: 'M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,128Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,160Z',
   people: 'M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z',
@@ -317,23 +299,10 @@ const icon = name =>
   `<svg class="viz-ico" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="${ICON[name]}"/></svg>`
 
 
-/* The co-authorship network.
-
-   Structurally Paul's, including his force parameters: link distance falls as
-   the square root of shared papers, charge scales with paper count, and a
-   collision radius keeps circles off each other. The first version of this
-   chart clamped every node inside a box, which is why they all ended up
-   pinned around the edge with the links crossing the middle — a boundary that
-   hard is a wall the simulation presses against rather than a frame it settles
-   inside. There is no clamp now; the centring force does that job.
-
-   Visually it follows the earlier light knowledge-graph screen rather than his
-   dark cloud.
-
-   Roughly ninety authors are drawn but only the largest are named. A network
-   should look like a network — a dense middle with a periphery — and labelling
-   every node turns it into a diagram of labels. The ones worth naming are the
-   ones a reader can already see are large. */
+    /* Structurally Paul's, including his force parameters. Do not clamp nodes
+       inside a box: they pin to the edge and the links cross the middle. The
+       centring force does that job. Only the largest are named — labelling
+       every node turns a network into a diagram of labels. */
 function coauthorNetwork(studies, width, height, data, coauthors){
   if (!coauthors || !coauthors.nodes) return chartFrame(width, height, '', 'Co-authorship data not loaded.')
 
@@ -387,11 +356,9 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       const A = at.get(e.source), B = at.get(e.target)
       const dx = B.x - A.x, dy = B.y - A.y
       const d = Math.max(0.01, Math.hypot(dx, dy))
-      /* Paul's rule: the more two people publish together, the shorter the
-         spring between them. The range matters as much as the rule — at a
-         narrow spread every pair sits at roughly the same distance and the
-         encoding is invisible. A close pair now rests at about a third of the
-         distance of a one-paper pair. */
+          /* The more two people publish together, the shorter the spring. The range
+             matters as much as the rule: at a narrow spread every pair sits at
+             the same distance and the encoding is invisible. */
       const rest = 260 / Math.pow(e.coauthored_paper_count, 0.85)
       const k = Math.min(0.95, 0.18 + e.coauthored_paper_count * 0.10)
       const f = (d - rest) * k * 0.045 * cool
@@ -417,14 +384,10 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   }).join('')
 
   const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 12).map(n => n.id))
-  /* EuroQol green rather than a borrowed blue, and the shade carries meaning:
-     the more a person has published, the deeper their circle. Size says the
-     same thing, and that is deliberate — a small pale dot and a large deep one
-     are told apart at a glance and across the room, which a size difference
-     alone does not manage at these radii.
-
-     Non-members stay grey on the same ramp. Using a second hue for them would
-     make membership look like a third quantity rather than a yes or no. */
+      /* Shade carries paper count, and so does size. Doubling up is deliberate:
+         a size difference alone is hard to judge at these radii. Non-members
+         stay grey on the same ramp — a second hue would make membership look
+         like a third quantity. */
   const shade = n => {
     const t = Math.sqrt(n.paper_count / maxPapers)
     return n.euroqol_member
@@ -447,22 +410,12 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" style="fill:${shade(n.p)}" />${count}${name}`
   }).join('')
 
-  /* A legend that shows the encoding instead of describing it.
-
-     "Circle size is papers, line thickness is papers written together" is a
-     sentence asking the reader to hold two mappings in their head and apply
-     them to a picture. Drawing a small circle beside a large one, and a thin
-     line beside a thick one, states the same thing in the form the reader is
-     about to meet. It is also the only version that survives being skimmed. */
-  /* Names are drawn in a pass of their own, after every circle and every line.
-     Emitted inside the node loop they were painted before the nodes that came
-     after them, so a name could end up underneath a later circle or buried in
-     the mesh. They also carry a plate of the page colour, because a name laid
-     over a hundred crossing lines is unreadable however dark it is set. */
-  /* More names are offered than before, but a name is only drawn if it lands
-     clear of every name already placed. Biggest first, so when two compete the
-     more significant author keeps their label. That is why some circles show a
-     name and others do not: the ones without it had nowhere legible to put it. */
+      /* Show the encoding, do not describe it. A small circle beside a large
+         one states the mapping in the form the reader is about to meet. */
+      /* Names go in a pass of their own, after every circle and line, or a name
+         ends up under a later circle. Each carries a plate of the page colour. */
+      /* A name is drawn only if it lands clear of every name already placed,
+         biggest first. That is why some circles have no label. */
   const taken = []
   const plates = nodes.filter(n => named.has(n.id))
     .sort((a, b) => b.p.paper_count - a.p.paper_count)
@@ -484,12 +437,8 @@ function coauthorNetwork(studies, width, height, data, coauthors){
 
   const members = people.filter(p => p.euroqol_member).length
   const smallest = Math.min(...people.map(p => p.paper_count))
-  /* Laid out by flowing, not by hand-placed offsets.
-
-     Every legend in this file used to carry literal x positions, which is why
-     items collided the moment a label changed length or the fold got narrower.
-     Each item now declares its width and the row advances by it, so nothing can
-     land on top of anything else at any size. */
+      /* Each item declares its width and the row advances by it. Literal x
+         offsets collide the moment a label changes length. */
   const ky = 20
   const CHAR = 6.6
   let kx = 6
@@ -539,13 +488,9 @@ export function createStoryCharts(data, root, coauthors = null){
     <div class="sh-chart-scene" data-chart="${id}"><svg /></div>`).join('')
   const scenes = new Map([...host.querySelectorAll('[data-chart]')].map(scene => [scene.dataset.chart, scene]))
 
-  /* Selecting an author.
-
-     One click lights that person and everyone they have written with, and
-     dims the rest. That is the whole interaction, and it answers the only
-     question this picture provokes: who does this person work with? A panel
-     names the strongest links, because a thick line tells you a bond is strong
-     without telling you whose. Clicking the background lets go. */
+      /* One click lights that person and everyone they have written with. The
+         panel names the strongest links, because a thick line says a bond is
+         strong without saying whose. Background click lets go. */
   const adjacency = new Map()
   if (coauthors && coauthors.edges){
     for (const e of coauthors.edges){
@@ -595,11 +540,8 @@ export function createStoryCharts(data, root, coauthors = null){
     scene.appendChild(panel)
   }
 
-  /* Hover is a spotlight: this person and the people they have written with
-     stay lit, everyone else steps back. It is temporary and leaves nothing
-     behind, so the reader can sweep the whole network reading one life at a
-     time without committing to anything. Clicking keeps it, and a kept
-     selection is not disturbed by the pointer wandering over other nodes. */
+      /* Hover is temporary and leaves nothing behind. A kept selection is not
+         disturbed by the pointer wandering over other nodes. */
   let held = null
 
   function lightUp(scene, id){
@@ -652,11 +594,8 @@ export function createStoryCharts(data, root, coauthors = null){
 
   function show(from, to = from, progress = 0){
     for (const [id, scene] of scenes){
-      /* The old curve left a hole. The outgoing chart was gone by 42% of the
-         transition and the incoming one did not start until 58%, so a reader
-         who stopped scrolling in between was left looking at nothing and had
-         to scroll further to get anything back. The two now cross over: one is
-         always carrying the fold, and the pair always sums to one. */
+          /* The two must cross over and sum to one. Leave a gap and a reader who
+             stops mid-transition sees nothing at all. */
       let opacity = 0
       const e = Math.max(0, Math.min(1, (progress - .12) / .56))
       const eased = e * e * (3 - 2 * e)

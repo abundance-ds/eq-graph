@@ -1,20 +1,12 @@
 <script setup lang="ts">
 /**
- * The working card.
+ * The working card: how the answer was reached, while it is being reached.
+ * Steps are named in the reader's language, not the program's, and each carries
+ * the count it produced. Once the answer lands the card folds to one line. The
+ * query stays reachable, one click per step.
  *
- * It shows how the answer was reached, while it is being reached — steps named
- * in the reader's language, each carrying the real count it produced. A step
- * that is finished is struck through and goes quiet. Once the answer has
- * landed the whole card folds to a single line, and one click opens it again.
- *
- * This replaces a trail that printed the raw SQL and a stopwatch. Those answer
- * "what did the program do?". A researcher is asking "how do you know?", and
- * that is a different question with a different vocabulary. The query is still
- * reachable — one click, per step — because hiding it entirely would trade one
- * kind of opacity for another. It just no longer opens itself uninvited.
- *
- * The component reads the tool parts of one message and holds no chat state,
- * so it also works when the page draws an old answer again.
+ * Reads the tool parts of one message and holds no chat state, so it also works
+ * when the page redraws an old answer.
  */
 import { computed, ref } from "vue";
 
@@ -88,18 +80,12 @@ const total = computed(() => steps.value.length);
 const live = computed(() => steps.value.some((step) => step.state === "running") || Boolean(props.thinking));
 const failed = computed(() => steps.value.some((step) => step.state === "failed"));
 
-/* The card folds itself once the work is over.
-
-   Note the denominator can grow while the agent runs: it decides how many
-   queries to make as it goes, so there is no plan to count against. Showing a
-   fixed total would be a nicer number and a false one. */
-/* While it works, the card says what a health economist would say it is doing,
-   not what a program is doing. "Querying the reference data" is true and tells a
+/* The denominator can grow while the agent runs: it decides how many queries
+   to make as it goes. A fixed total would be a nicer number and a false one. */
+/* Field words on purpose. "Querying the reference data" is true and tells a
    researcher nothing; "Pooling the utilities" tells them the shape of the work.
-   These are field words on purpose: someone who works in HEOR reads them as
-   competence, and someone who does not still reads them as effort. The verb
-   changes as the steps advance so the card looks alive without a spinner
-   claiming progress it cannot measure. */
+   The verb advances with the steps, so the card looks alive without claiming
+   progress it cannot measure. */
 const WORKING_VERBS = [
   "Pooling the evidence",
   "Tracing the value sets",
