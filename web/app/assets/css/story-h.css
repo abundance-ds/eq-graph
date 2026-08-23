@@ -623,8 +623,10 @@
    It positions against the scene, which is already absolutely placed by the
    base rule above — restating position here collapsed every chart to nothing,
    because `relative` dropped the inset that gives the scene its size. */
+/* Bottom left. At the top it covered the legend, which is the one thing a
+   reader needs in order to make sense of what the panel is describing. */
 .viz-net-panel{
-  position:absolute; left:0; top:0; z-index:4;
+  position:absolute; left:0; bottom:1.6rem; top:auto; z-index:4;
   max-width:min(30rem, calc(100% - 2rem));
   padding:.85rem 2.2rem .9rem 1rem;
   border-radius:12px;
@@ -649,6 +651,29 @@
    Scoped to the scene on purpose: `.sh-chart-scene svg` above sets every SVG
    to 100% for the chart itself, and it outranks a bare `.viz-ico`, which
    stretched this icon to the full width of the panel. */
+/* The halo. Blur is done with a filter rather than a gradient so the falloff is
+   even at every radius. */
+.viz-net-halo{ fill:var(--teal); filter:blur(5px); pointer-events:none; }
+.sh-chart-scene.is-live .viz-net-halo{ animation:viz-breathe 7s ease-in-out infinite; }
+@keyframes viz-breathe{ 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.07); } }
+
+/* Nodes assemble rather than appear. transform-box keeps the scale about the
+   circle's own centre instead of the whole SVG's origin. */
+.sh-chart-scene.is-live .viz-net-node{
+  transform-box:fill-box; transform-origin:center;
+  animation:viz-arrive .5s cubic-bezier(.2,.9,.3,1) backwards;
+}
+@keyframes viz-arrive{ from{ opacity:0; transform:scale(.4); } to{ opacity:1; transform:scale(1); } }
+
+.viz-net-spark{ fill:var(--teal); opacity:.85; pointer-events:none; }
+
+/* One switch for everything that moves here. */
+@media (prefers-reduced-motion: reduce){
+  .sh-chart-scene.is-live .viz-net-halo,
+  .sh-chart-scene.is-live .viz-net-node{ animation:none; }
+  .viz-net-spark{ display:none; }
+}
+
 .sh-chart-scene .viz-ico{
   width:1em; height:1em; flex:none; color:var(--ink-3);
 }

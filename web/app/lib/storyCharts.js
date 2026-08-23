@@ -395,7 +395,18 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       : `rgb(${Math.round(226 - t * 46)},${Math.round(226 - t * 46)},${Math.round(219 - t * 44)})`
   }
 
-  const marks = nodes.map(n => {
+  /* A halo on the heaviest publishers only, drawn in one pass under every
+     circle so it never sits on a neighbour's mark. Given to all seventy-odd
+     nodes the halos overlapped into a green fog and the structure vanished, so
+     it is a mark of significance here rather than an ambient wash. */
+  const halos = nodes
+    .filter(n => n.p.paper_count >= 12)      // only the ones worth finding
+    .map(n => {
+      const t = Math.sqrt(n.p.paper_count / maxPapers)
+      return `<circle class="viz-net-halo" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(n.r * 1.55).toFixed(1)}" style="opacity:${(0.10 + t * 0.16).toFixed(3)}" />`
+    }).join('')
+
+  const marks = nodes.map((n, i) => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
     const ring = n.p.project_leader
       ? `<circle class="viz-net-ring" data-id="${n.id}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(n.r + 2.6).toFixed(1)}" />` : ''
@@ -407,7 +418,11 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     const count = n.r >= 11
       ? `<text class="viz-net-count" x="${n.x.toFixed(1)}" y="${(n.y + n.r * 0.32).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, n.r * 0.82).toFixed(1)}px">${n.p.paper_count}</text>`
       : ''
-    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" style="fill:${shade(n.p)}" />${count}${name}`
+    // Biggest arrive first, so the shape of the field is established before the
+    // detail fills in. Capped, or the tail of the network is still landing long
+    // after the reader has moved on.
+    const delay = Math.min(0.44, i * 0.006).toFixed(3)
+    return `${ring}<circle class="viz-net-node ${cls}" data-id="${n.id}" data-name="${escapeText(n.p.name)}" data-papers="${n.p.paper_count}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}" style="fill:${shade(n.p)};animation-delay:${delay}s" />${count}${name}`
   }).join('')
 
       /* Show the encoding, do not describe it. A small circle beside a large
@@ -464,7 +479,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   const key = bits.join('')
 
 
-  return chartFrame(width, height, key + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
+  return chartFrame(width, height, key + halos + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
 }
 
 const RENDERERS = {
@@ -503,9 +518,43 @@ export function createStoryCharts(data, root, coauthors = null){
   const nameOf = new Map((coauthors?.nodes || []).map(n => [n.person_id, n.name]))
   let panel = null
 
+  /* Particles run along the links of whoever is selected, in the direction of
+     the collaboration, so the motion carries the reading instead of decorating
+     it. Nothing moves until someone is chosen: a network that animates on its
+     own is noise, and the reader has no way to make it stop. */
+  const SPARK_NS = 'http://www.w3.org/2000/svg'
+  function clearSparks(scene){
+    scene.querySelectorAll('.viz-net-spark').forEach(el => el.remove())
+  }
+  function sparkAlong(scene, id){
+    clearSparks(scene)
+    const svg = scene.querySelector('svg')
+    if (!svg) return
+    const lit = [...scene.querySelectorAll('.viz-net-link')]
+      .filter(el => el.dataset.a === id || el.dataset.b === id)
+      .slice(0, 26)                       // past this it is a firework, not a reading
+    for (const [i, line] of lit.entries()){
+      // Always outward from the selected person, whichever end they sit on.
+      const flip = line.dataset.b === id
+      const x1 = line.getAttribute(flip ? 'x2' : 'x1'), y1 = line.getAttribute(flip ? 'y2' : 'y1')
+      const x2 = line.getAttribute(flip ? 'x1' : 'x2'), y2 = line.getAttribute(flip ? 'y1' : 'y2')
+      const dot = document.createElementNS(SPARK_NS, 'circle')
+      dot.setAttribute('class', 'viz-net-spark')
+      dot.setAttribute('r', '1.9')
+      const move = document.createElementNS(SPARK_NS, 'animateMotion')
+      move.setAttribute('path', `M ${x1} ${y1} L ${x2} ${y2}`)
+      move.setAttribute('dur', (1.5 + (i % 5) * 0.22).toFixed(2) + 's')
+      move.setAttribute('begin', (i * 0.05).toFixed(2) + 's')
+      move.setAttribute('repeatCount', 'indefinite')
+      dot.appendChild(move)
+      svg.appendChild(dot)
+    }
+  }
+
   function clearPick(scene){
     scene.classList.remove('is-focused')
     scene.querySelectorAll('.is-picked, .is-faded, .is-lit').forEach(el => el.classList.remove('is-picked', 'is-faded', 'is-lit'))
+    clearSparks(scene)
     if (panel) { panel.remove(); panel = null }
   }
 
@@ -538,6 +587,7 @@ export function createStoryCharts(data, root, coauthors = null){
       <button type="button" aria-label="Close">×</button>`
     panel.querySelector('button').onclick = () => clearPick(scene)
     scene.appendChild(panel)
+    sparkAlong(scene, id)
   }
 
       /* Hover is temporary and leaves nothing behind. A kept selection is not
