@@ -553,8 +553,10 @@
 .sh-chart-scene .viz-net-node.is-picked{ stroke:#1a1a17; stroke-width:2.4; }
 .sh-chart-scene .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.42); }
 
-/* The panel names what a thick line cannot: who the strong bonds are with. */
-.sh-chart-scene{ position:relative; }
+/* The panel names what a thick line cannot: who the strong bonds are with.
+   It positions against the scene, which is already absolutely placed by the
+   base rule above — restating position here collapsed every chart to nothing,
+   because `relative` dropped the inset that gives the scene its size. */
 .viz-net-panel{
   position:absolute; left:0; top:0; z-index:4;
   max-width:min(30rem, calc(100% - 2rem));
@@ -576,6 +578,18 @@
 }
 .viz-net-panel button:hover{ background:#f2f2ef; color:var(--ink); }
 
-/* The fold has to accept clicks for any of this to work. Charts are otherwise
-   decoration on a scrolling page, so pointer events are off by default. */
-.sh-chart-scene{ pointer-events:auto; }
+/* Only the network fold takes clicks. Charts are otherwise decoration on a
+   scrolling page and should not intercept the pointer. */
+.sh-chart-scene[data-chart="coauthorNetwork"]{ pointer-events:auto; }
+
+/* Skip story belongs to the story, not to the landing screen.
+
+   On the opening fold there are already two ways forward, "Explore research"
+   and "View impact", and a third control in the corner offering to skip
+   something the reader has not started yet reads as an apology for the page.
+   It arrives once the story does. */
+.sh-root[data-story-phase="intro"] .sh-skip{
+  opacity:0;
+  pointer-events:none;
+}
+.sh-skip{ transition:opacity .3s ease; }

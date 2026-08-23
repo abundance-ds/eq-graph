@@ -502,10 +502,17 @@ export function createStoryCharts(data, root, coauthors = null){
 
   function show(from, to = from, progress = 0){
     for (const [id, scene] of scenes){
+      /* The old curve left a hole. The outgoing chart was gone by 42% of the
+         transition and the incoming one did not start until 58%, so a reader
+         who stopped scrolling in between was left looking at nothing and had
+         to scroll further to get anything back. The two now cross over: one is
+         always carrying the fold, and the pair always sums to one. */
       let opacity = 0
+      const e = Math.max(0, Math.min(1, (progress - .12) / .56))
+      const eased = e * e * (3 - 2 * e)
       if (from === to && id === from) opacity = 1
-      else if (id === from) opacity = Math.max(0, 1 - progress * 2.4)
-      else if (id === to) opacity = Math.max(0, (progress - .58) / .42)
+      else if (id === from) opacity = 1 - eased
+      else if (id === to) opacity = eased
       scene.style.opacity = opacity.toFixed(3)
     }
   }

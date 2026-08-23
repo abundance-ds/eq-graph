@@ -166,7 +166,7 @@ onBeforeUnmount(() => {
         <div class="sh-cta" data-cta>
           <button class="sh-btn is-primary" data-go="chat">
             <i class="sh-ray" aria-hidden="true"><b /></i>
-            <span>Explore studies</span>
+            <span>Explore research</span>
           </button>
           <button class="sh-btn is-secondary" data-go="impact">
             <i class="sh-ray" aria-hidden="true"><b /></i>
