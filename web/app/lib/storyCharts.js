@@ -664,6 +664,9 @@ export function createStoryCharts(data, root, coauthors = null){
       else if (id === from) opacity = 1 - eased
       else if (id === to) opacity = eased
       scene.style.opacity = opacity.toFixed(3)
+      // Hit-testing follows what you can see. Without this a faded scene still
+      // catches clicks aimed at whatever is behind it.
+      scene.classList.toggle('is-live', opacity > 0.5)
     }
   }
 

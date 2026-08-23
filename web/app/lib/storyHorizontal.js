@@ -933,6 +933,15 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawFurniture(furniture[i0], Math.max(0, 1 - rawT * 3.4))
       drawFurniture(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
+
+    /* `.sh-field` is pointer-events:none so the layers under it stay reachable,
+       and this canvas never re-enabled itself, so the map beat's click handler
+       was never once called. It takes the pointer only while a map is actually
+       drawn, which is also what keeps it out of the globe's way everywhere
+       else. */
+    canvas.style.pointerEvents = liveMap ? 'auto' : 'none'
+    canvas.style.cursor = liveMap ? 'pointer' : ''
+
     charts.show(BEATS[i0].chart, BEATS[i1].chart, rawT)
 
     // panels slide; the field stays put and rearranges under them

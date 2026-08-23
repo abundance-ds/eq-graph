@@ -625,7 +625,11 @@
 
 /* Only the network fold takes clicks. Charts are otherwise decoration on a
    scrolling page and should not intercept the pointer. */
-.sh-chart-scene[data-chart="coauthorNetwork"]{ pointer-events:auto; }
+/* Only while it is actually the scene on screen. A scene at zero opacity is
+   still laid out and still hit-tests, so leaving this on always put an
+   invisible sheet of network nodes across the right half of every fold,
+   including the landing, where it swallowed every click meant for the globe. */
+.sh-chart-scene[data-chart="coauthorNetwork"].is-live{ pointer-events:auto; }
 
 /* Skip story belongs to the story, not to the landing screen.
 
