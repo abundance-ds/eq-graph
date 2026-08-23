@@ -128,6 +128,8 @@ onBeforeUnmount(() => {
 
         <img class="sh-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
 
+        <NuxtLink to="/about" class="sh-about">About</NuxtLink>
+
         <button type="button" class="sh-skip" @click="enterDirect('skip')">
           Skip story <span aria-hidden="true">→</span>
         </button>
