@@ -318,60 +318,47 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos:out, furn:null }
     }
     else if (kind === 'projectYears'){
-      /* Cumulative, not per year.
+      /* One filled area, cumulative.
 
-         Counted year by year, this reads as a row of short stacks with visible
-         gaps, and a quiet year looks like a failure. That is the wrong
-         impression: a project funded in 2014 did not stop counting in 2015. So
-         each year's dots start where the previous year's ended, and the top
-         edge is the running total climbing to the full portfolio. The height at
-         any year is everything funded up to that point, which is the honest
-         shape of continuous funding — and it fills the frame instead of
-         hugging the floor.
+         Counted year by year this read as short stacks with gaps, and a quiet
+         year looked like a failure. That is wrong: a project funded in 2014 did
+         not stop counting in 2015. So the height at any year is everything
+         funded up to that point, climbing to the full portfolio.
 
-         Every project is still exactly one dot, placed once. Nothing is
-         duplicated to make the curve rise; the rise IS the dots. */
-      const years = projectYears, cols = years.length || 1, colW = bw / cols
-      const STEP = 4.6                              // dot pitch across a column
-      const perRow = Math.max(1, Math.floor((colW - 3) / STEP))
+         The dots are hidden here, the same as on the map fold, because the area
+         IS the measurement. Drawing each project as a dot on top of the fill put
+         a block of texture at every step, and a block sitting on a baseline
+         reads as a bar however it was built — which fought the one thing this
+         chart is for.
+
+         The y axis is scaled to the final total rather than to a rounded number
+         above it, so the curve reaches the top of the frame and the growth is
+         read at full height instead of in the bottom two thirds. */
+      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
 
       const countOf = {}
       for (const project of datedProjects){
         const y = projectYearOf(project)
         countOf[y] = (countOf[y] || 0) + 1
       }
-      // The row each year begins on, so the stacks sit on top of one another.
-      const startRow = {}
-      let rowsUsed = 0
-      for (const y of years){
-        startRow[y] = rowsUsed
-        rowsUsed += Math.ceil((countOf[y] || 0) / perRow)
-      }
-      // Squeeze the pitch only if the full stack would overflow the frame.
-      const rowH = Math.min(STEP, bh / Math.max(1, rowsUsed))
-      const r = Math.max(1.05, Math.min(1.7, rowH / 2.7))
+      const years = projectYears, cols = years.length || 1, colW = bw / cols
 
-      const per = {}
-      for (let i = 0; i < dots.length; i++){
-        if (dots[i].kind !== 'project'){ out[i] = hidden(i); continue }
-        const y = dots[i].projectYear
-        if (!y){ out[i] = { x:b.x0 + rnd() * bw, y:b.y1 + 40, c:GREY, r:1.2, a:0 }; continue }
-        const ci = years.indexOf(y)
-        const n = (per[y] = (per[y] || 0) + 1) - 1
-        out[i] = {
-          x: b.x0 + ci * colW + (n % perRow) * STEP + 2,
-          y: b.y1 - (startRow[y] + Math.floor(n / perRow)) * rowH,
-          c: mix(TEAL, YELLOW, ci / Math.max(1, cols - 1)), r }
-      }
-
-      // The top of each year's stack, for the line that traces the total.
       let run = 0
       const steps = years.map((y, i) => {
         run += countOf[y] || 0
-        return { year:y, ci:i, total:run,
-                 y: b.y1 - (startRow[y] + Math.ceil((countOf[y] || 0) / perRow)) * rowH }
+        return { year:y, ci:i, count:countOf[y] || 0, total:run }
       })
-      out.furn = { kind:'years', b, cols, colW, years, steps, total:run }
+      const total = run || 1
+      const yOf = v => b.y1 - (v / total) * bh
+      steps.forEach(s => { s.y = yOf(s.total) })
+
+      // Gridlines at round numbers, so the height can be read off rather than
+      // guessed. The last one is dropped if it would collide with the total.
+      const tickEvery = total > 800 ? 250 : total > 400 ? 100 : 50
+      const ticks = []
+      for (let v = tickEvery; v < total * 0.93; v += tickEvery) ticks.push({ v, y:yOf(v) })
+
+      out.furn = { kind:'years', b, cols, colW, years, steps, total, ticks }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
@@ -702,8 +689,11 @@ export function initStory(DATA, TOPO, root, options = {}){
     ctx.save()
     ctx.globalAlpha = alpha
     const grad = ctx.createLinearGradient(f.b.x0, 0, f.b.x1, 0)
-    grad.addColorStop(0, `rgba(${TEAL.join(',')},0.16)`)
-    grad.addColorStop(1, `rgba(${YELLOW.join(',')},0.26)`)
+    // Carries the whole fold now that the dots are hidden, so it is stronger
+    // than a wash. Teal at the start and yellow at the end is the same year
+    // ramp the rest of the story uses.
+    grad.addColorStop(0, `rgba(${TEAL.join(',')},0.30)`)
+    grad.addColorStop(1, `rgba(${YELLOW.join(',')},0.46)`)
     ctx.fillStyle = grad
     ctx.beginPath()
     ctx.moveTo(f.b.x0, f.b.y1)
@@ -739,10 +729,20 @@ export function initStory(DATA, TOPO, root, options = {}){
       })
 
       if (f.steps){
-        // The running total, traced along the top of the stacks. It is a
-        // staircase rather than a smooth curve because funding arrives in
-        // yearly rounds, and smoothing would invent months that do not exist.
-        ctx.strokeStyle = ink(.3); ctx.lineWidth = 1.25
+        // Gridlines first, underneath the curve. They are the quietest thing
+        // here: they let a height be read, they are not the reading.
+        ctx.textAlign = 'left'
+        f.ticks?.forEach(t => {
+          ctx.strokeStyle = ink(.09)
+          ctx.beginPath(); ctx.moveTo(f.b.x0, t.y); ctx.lineTo(f.b.x1, t.y); ctx.stroke()
+          ctx.fillStyle = ink(.34)
+          ctx.fillText(t.v.toLocaleString('en'), f.b.x0 + 4, t.y - 8)
+        })
+
+        // The running total. A staircase rather than a smooth curve, because
+        // funding arrives in yearly rounds and smoothing would invent months
+        // that do not exist.
+        ctx.strokeStyle = ink(.34); ctx.lineWidth = 1.4
         ctx.beginPath()
         f.steps.forEach((s, i) => {
           const x0 = f.b.x0 + s.ci * f.colW
@@ -751,14 +751,11 @@ export function initStory(DATA, TOPO, root, options = {}){
         })
         ctx.stroke()
 
-        // Only the last total is written. The staircase already shows every
-        // step; the number worth reading is where it ends up.
-        const last = f.steps[f.steps.length - 1]
-        if (last){
-          const y = Math.max(f.b.y0 + 9, last.y - 13)
-          ctx.textAlign = 'right'; ctx.fillStyle = ink(.62)
-          ctx.fillText(`${last.total.toLocaleString('en')} funded to date`, f.b.x1, y)
-        }
+        // The final total, sat on the top gridline at the left where there is
+        // always room. Against the right edge it was cut off by the frame.
+        ctx.fillStyle = ink(.62)
+        ctx.fillText(`${f.total.toLocaleString('en')} projects funded to date`,
+                     f.b.x0 + 4, f.b.y0 + 9)
       }
     }
     else if (f.kind === 'groupYears'){
