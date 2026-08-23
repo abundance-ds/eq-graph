@@ -527,7 +527,7 @@
 /* Quieter. At full strength a hundred crossing lines read as a mesh laid over
    the people rather than as relationships between them, and the mesh wins. */
 .sh-chart-scene .viz-net-link{
-  stroke:rgba(26,26,23,.07);
+  stroke:rgba(26,26,23,.055);
   stroke-linecap:round;
   transition:stroke-opacity .18s ease, stroke .18s ease;
 }
@@ -573,9 +573,13 @@
 .sh-chart-scene .viz-net-plate{ fill:rgba(244,243,239,.82); }
 .sh-chart-scene .viz-net-link.is-faded{ stroke-opacity:.06; }
 .sh-chart-scene .viz-net-node.is-picked{ stroke:#1a1a17; stroke-width:2.4; }
-/* Lines rest very light and only come forward for whoever is being
-   followed. At rest they are texture; on hover they are the answer. */
-.sh-chart-scene .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.46); }
+/* Only darken lines once someone is actually being followed.
+
+   This rule used to be a bare `:not(.is-faded)`, and at rest nothing carries
+   that class — so every line matched and took the dark stroke. The light
+   colour above was never once applied. The scene now says when it has a focus,
+   and only then does the surviving line come forward. */
+.sh-chart-scene.is-focused .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.50); }
 
 /* The panel names what a thick line cannot: who the strong bonds are with.
    It positions against the scene, which is already absolutely placed by the

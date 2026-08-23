@@ -403,7 +403,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     return `<line class="viz-net-link" data-a="${e.source}" data-b="${e.target}" x1="${A.x.toFixed(1)}" y1="${A.y.toFixed(1)}" x2="${B.x.toFixed(1)}" y2="${B.y.toFixed(1)}" style="stroke-width:${(0.4 + (e.coauthored_paper_count / heaviest) * 2.6).toFixed(2)}" />`
   }).join('')
 
-  const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 22).map(n => n.id))
+  const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 12).map(n => n.id))
   const marks = nodes.map(n => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
     const ring = n.p.project_leader
@@ -440,7 +440,10 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     .sort((a, b) => b.p.paper_count - a.p.paper_count)
     .filter(n => {
       const w = n.p.name.length * 6.6, y = n.y + n.r + 13
-      const hit = taken.some(q => Math.abs(q.x - n.x) < (q.w + w) / 2 + 8 && Math.abs(q.y - y) < 15)
+      // clear of other names AND of any circle it would be written across
+      const overName = taken.some(q => Math.abs(q.x - n.x) < (q.w + w) / 2 + 10 && Math.abs(q.y - y) < 16)
+      const overNode = nodes.some(m => m !== n && Math.abs(m.x - n.x) < w / 2 + m.r && Math.abs(m.y - y) < m.r + 6)
+      const hit = overName || overNode
       if (!hit) taken.push({ x:n.x, y, w })
       return !hit
     })
@@ -526,6 +529,7 @@ export function createStoryCharts(data, root, coauthors = null){
   let panel = null
 
   function clearPick(scene){
+    scene.classList.remove('is-focused')
     scene.querySelectorAll('.is-picked, .is-faded, .is-lit').forEach(el => el.classList.remove('is-picked', 'is-faded', 'is-lit'))
     if (panel) { panel.remove(); panel = null }
   }
@@ -566,6 +570,7 @@ export function createStoryCharts(data, root, coauthors = null){
   let held = null
 
   function lightUp(scene, id){
+    scene.classList.add('is-focused')
     const near = new Set((adjacency.get(id) || []).map(x => x.id))
     near.add(id)
     scene.querySelectorAll('[data-id]').forEach(el => {
@@ -577,6 +582,7 @@ export function createStoryCharts(data, root, coauthors = null){
     })
   }
   function lightsUp(scene){
+    scene.classList.remove('is-focused')
     scene.querySelectorAll('.is-faded, .is-lit').forEach(el => el.classList.remove('is-faded', 'is-lit'))
   }
 
