@@ -856,12 +856,45 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawAreaFill(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
 
+    /* Between folds the field comes apart and puts itself back together.
+
+       Three of the five folds hide every dot, because their chart is an SVG
+       drawn over the top, so a straight interpolation from hidden to hidden had
+       nothing moving in it at all: the fold simply cross-faded. This lifts the
+       particles out for the crossing and settles them again.
+
+       It is a departure from the resting layout, not a change to it. `burst` is
+       zero at both ends by construction, so every settled fold is exactly what
+       it was, and nothing here can spoil an arrangement that already works. */
+    const burst = i0 === i1 ? 0 : Math.sin(rawT * Math.PI)
+    const scatter = burst * Math.min(W, H) * 0.09
+
     for (let i = 0; i < dots.length; i++){
       const a = A[i], b = B[i]
-      const x = lerp(a.x, b.x, t), y = lerp(a.y, b.y, t)
+      let x = lerp(a.x, b.x, t), y = lerp(a.y, b.y, t)
       const r = lerp(a.r, b.r, t)
       const c = [lerp(a.c[0],b.c[0],t), lerp(a.c[1],b.c[1],t), lerp(a.c[2],b.c[2],t)]
-      const alpha = lerp(a.a == null ? .85 : a.a, b.a == null ? .85 : b.a, t)
+      let alpha = lerp(a.a == null ? .85 : a.a, b.a == null ? .85 : b.a, t)
+      if (burst > 0.004){
+        // Stable per dot, so the cloud is the same shape every time rather than
+        // boiling, and each one leaves on its own heading.
+        const ang = (i % 97) * 0.0647 + i * 0.011
+        const reach = 0.35 + ((i * 37) % 100) / 154
+        /* A dot both folds hide is parked on the baseline at each end, so
+           scattering from where it sits produced a smear along the floor rather
+           than a field coming apart. Those cross through the frame instead. */
+        if (a.a === 0 && b.a === 0){
+          const hx = box.x0 + (((i * 61) % 233) / 233) * (box.x1 - box.x0)
+          const hy = box.y0 + (((i * 97) % 179) / 179) * (box.y1 - box.y0)
+          x = lerp(x, hx, burst)
+          y = lerp(y, hy, burst)
+        }
+        x += Math.cos(ang) * scatter * reach
+        y += Math.sin(ang) * scatter * reach * 0.72
+        // A dot the next fold will not show still has to be visible while it
+        // travels, or the crossing is empty again.
+        alpha = Math.max(alpha, burst * 0.34)
+      }
       ctx.beginPath()
       ctx.arc(x, y, r, 0, 6.283)
       ctx.fillStyle = `rgba(${c[0]|0},${c[1]|0},${c[2]|0},${alpha})`
