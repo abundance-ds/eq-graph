@@ -136,9 +136,9 @@ export function initStory(DATA, TOPO, root, options = {}){
       // instead of watching it fade and a flat grey map take its place.
       layout:'projectMap' },
 
-    { num:fmt(projects.length), unit:'projects', head:'Every year is built on the one before it.',
-      body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each year stacks on top of the last, so the height is the running total, not that year alone.`,
-      so:`The busiest single year was <b>${busiestProjectYear[0]}</b>, with <b>${fmt(busiestProjectYear[1])}</b> projects. But no year stands on its own: a project funded in ${projectYears[0]} still counts today, which is why a quiet year is a slower climb rather than a gap, and why the evidence base compounds instead of dating.`,
+    { num:fmt(projects.length), unit:'projects', head:'Funding every year, and reading still catching up.',
+      body:`<b>${fmt(datedProjects.length)}</b> projects carry a start year, from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each dot is one project, and beside it each year's papers, one dot each.`,
+      so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects. The papers column is shorter everywhere, and that is a gap in <i>our reading</i>, not in the research: <b>${fmt(studies.length)}</b> papers have been read of a portfolio of <b>${fmt(projects.length)}</b>, so this column grows as the corpus does.`,
       layout:'projectYears' },
 
     { num:fmt((options.coauthors && options.coauthors.nodes && options.coauthors.nodes.length) || 0), unit:'researchers',
@@ -255,7 +255,6 @@ export function initStory(DATA, TOPO, root, options = {}){
   let furniture = []
   /* Which series fold 2 is showing. Not a filter over one dataset: projects are
      counted by the year they were funded, papers by the year they appeared. */
-  let yearSeries = 'projects'
   function buildLayout(kind){
     const b = fieldBox(), bw = b.x1 - b.x0, bh = b.y1 - b.y0
     const out = new Array(dots.length)
@@ -282,48 +281,80 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos:out, furn:null }
     }
     else if (kind === 'projectYears'){
-      /* Cumulative, so the height at any year is everything counted up to then.
-         Keep the dots hidden: a block of them on the baseline reads as a bar.
-         Scale y to the final total, not a round number above it, or the curve
-         never reaches the top of the frame.
+      /* Both series, per year, as dots.
 
-         One series at a time, chosen by the toggle. The two are NOT drawn
-         together on purpose. Papers here are the papers read so far, not the
-         papers produced, so a paper line beside a funding line would read as a
-         portfolio that publishes very little. Side by side that comparison is
-         unavoidable; one at a time it cannot be made. */
-      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
+         Projects on the left of each year, papers on the right, on ONE shared
+         count axis. No second axis: rescaling the shorter series until it
+         matched the taller would invent a parity that is not there.
 
-      const paperMode = yearSeries === 'papers'
-      const countOf = {}
-      if (paperMode) for (const s of studies){
-        const y = studyYearOf(s); if (y) countOf[y] = (countOf[y] || 0) + 1
+         The papers column IS much shorter, and that is the honest picture. It
+         is not output lagging funding, it is our reading lagging both, because
+         only a fifth of the portfolio has been read. The copy says so, because
+         a chart cannot.
+
+         Dots rather than bars, and one dot is one project or one paper, so the
+         columns are counts you could check by eye rather than lengths you have
+         to trust. */
+      const perYearProjects = {}, perYearPapers = {}
+      for (const project of datedProjects){
+        const y = projectYearOf(project)
+        perYearProjects[y] = (perYearProjects[y] || 0) + 1
       }
-      else for (const project of datedProjects){
-        const y = projectYearOf(project); countOf[y] = (countOf[y] || 0) + 1
+      for (const study of studies){
+        const y = studyYearOf(study)
+        if (y) perYearPapers[y] = (perYearPapers[y] || 0) + 1
       }
 
-      // Both series share the project year axis, so switching moves the curve
-      // and not the years under it.
       const years = projectYears, cols = years.length || 1, colW = bw / cols
+      const subW = colW * 0.38                    // two columns per year, with air
+      const peak = Math.max(1, ...years.map(y =>
+        Math.max(perYearProjects[y] || 0, perYearPapers[y] || 0)))
 
-      let run = 0
-      const steps = years.map((y, i) => {
-        run += countOf[y] || 0
-        return { year:y, ci:i, count:countOf[y] || 0, total:run }
+      /* Pack so the tallest column nearly fills the frame. Left to a fixed
+         number per row the whole thing sat in the bottom third, which is what
+         made the per-year version look sparse in the first place. */
+      const perRow = Math.max(1, Math.min(
+        Math.floor(subW / 4.2),
+        Math.max(2, Math.ceil(peak * 3.4 / (bh * 0.92)))))
+      const rows = Math.ceil(peak / perRow)
+      const rowH = Math.min(8, (bh * 0.92) / Math.max(1, rows))
+      const dotR = Math.max(1.1, Math.min(2.1, rowH * 0.34))
+      const stepX = subW / perRow
+
+      const place = (n, ci, side) => ({
+        x: b.x0 + ci * colW + (side === 'papers' ? colW * 0.54 : colW * 0.06)
+           + (n % perRow) * stepX + stepX / 2,
+        y: b.y1 - Math.floor(n / perRow) * rowH - dotR,
       })
-      const total = run || 1
-      const yOf = v => b.y1 - (v / total) * bh
-      steps.forEach(s => { s.y = yOf(s.total) })
 
-      // Gridlines at round numbers, so the height can be read off rather than
-      // guessed. The last one is dropped if it would collide with the total.
-      const tickEvery = total > 800 ? 250 : total > 400 ? 100 : 50
+      const seenP = {}, seenS = {}
+      for (let i = 0; i < dots.length; i++){
+        const d = dots[i]
+        if (d.kind === 'project'){
+          const y = d.projectYear
+          if (!y){ out[i] = hidden(i); continue }
+          const ci = years.indexOf(y)
+          const n = (seenP[y] = (seenP[y] || 0) + 1) - 1
+          const at = place(n, ci, 'projects')
+          out[i] = { ...at, c:TEAL, r:dotR }
+        } else if (d.kind === 'study'){
+          const y = d.studyYear
+          const ci = y ? years.indexOf(y) : -1
+          if (ci < 0){ out[i] = hidden(i); continue }
+          const n = (seenS[y] = (seenS[y] || 0) + 1) - 1
+          const at = place(n, ci, 'papers')
+          out[i] = { ...at, c:YELLOW, r:dotR, a:0.9 }
+        } else out[i] = hidden(i)
+      }
+
+      const yOf = v => b.y1 - (v / perRow) * rowH
+      const tickEvery = peak > 120 ? 50 : peak > 60 ? 25 : 10
       const ticks = []
-      for (let v = tickEvery; v < total * 0.93; v += tickEvery) ticks.push({ v, y:yOf(v) })
+      for (let v = tickEvery; v <= peak; v += tickEvery) ticks.push({ v, y:yOf(v) })
 
-      out.furn = { kind:'years', b, cols, colW, years, steps, total, ticks,
-                   noun: paperMode ? 'papers read to date' : 'projects funded to date' }
+      out.furn = { kind:'years', b, cols, colW, years, ticks, peak,
+                   pairs:years.map((y, i) => ({ year:y, ci:i,
+                     projects:perYearProjects[y] || 0, papers:perYearPapers[y] || 0 })) }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
@@ -666,34 +697,27 @@ export function initStory(DATA, TOPO, root, options = {}){
         ctx.fillText(String(y), x, f.b.y1 + 24)
       })
 
-      if (f.steps){
-        // Gridlines first, underneath the curve. They are the quietest thing
-        // here: they let a height be read, they are not the reading.
+      if (f.ticks){
         ctx.textAlign = 'left'
-        f.ticks?.forEach(t => {
-          ctx.strokeStyle = ink(.09)
+        f.ticks.forEach(t => {
+          ctx.strokeStyle = ink(.08)
           ctx.beginPath(); ctx.moveTo(f.b.x0, t.y); ctx.lineTo(f.b.x1, t.y); ctx.stroke()
-          ctx.fillStyle = ink(.34)
-          ctx.fillText(t.v.toLocaleString('en'), f.b.x0 + 4, t.y - 8)
+          ctx.fillStyle = ink(.32)
+          ctx.fillText(String(t.v), f.b.x0 + 3, t.y - 7)
         })
 
-        // The running total. A staircase rather than a smooth curve, because
-        // funding arrives in yearly rounds and smoothing would invent months
-        // that do not exist.
-        ctx.strokeStyle = ink(.34); ctx.lineWidth = 1.4
-        ctx.beginPath()
-        f.steps.forEach((s, i) => {
-          const x0 = f.b.x0 + s.ci * f.colW
-          if (i === 0) ctx.moveTo(x0, s.y); else ctx.lineTo(x0, s.y)
-          ctx.lineTo(x0 + f.colW, s.y)
-        })
-        ctx.stroke()
-
-        // The final total, sat on the top gridline at the left where there is
-        // always room. Against the right edge it was cut off by the frame.
+        /* The key draws the two marks rather than naming their colours, so it
+           is read in the same form as the chart it explains. */
+        const ky = f.b.y0 + 8
+        ctx.fillStyle = `rgba(${TEAL[0]},${TEAL[1]},${TEAL[2]},.95)`
+        ctx.beginPath(); ctx.arc(f.b.x0 + 4, ky, 2.6, 0, 6.283); ctx.fill()
+        ctx.fillStyle = ink(.62); ctx.textAlign = 'left'
+        ctx.fillText('projects funded', f.b.x0 + 13, ky)
+        const w = ctx.measureText('projects funded').width + 34
+        ctx.fillStyle = `rgba(${YELLOW[0]},${YELLOW[1]},${YELLOW[2]},.95)`
+        ctx.beginPath(); ctx.arc(f.b.x0 + w, ky, 2.6, 0, 6.283); ctx.fill()
         ctx.fillStyle = ink(.62)
-        ctx.fillText(`${f.total.toLocaleString('en')} ${f.noun || 'to date'}`,
-                     f.b.x0 + 4, f.b.y0 + 9)
+        ctx.fillText('papers read', f.b.x0 + w + 9, ky)
       }
     }
     else if (f.kind === 'groupYears'){
@@ -862,10 +886,6 @@ export function initStory(DATA, TOPO, root, options = {}){
     canvas.style.pointerEvents = liveMap ? 'auto' : 'none'
     canvas.style.cursor = liveMap ? 'pointer' : ''
 
-    // The switch belongs to fold 2, so it is only there, and only at rest.
-    seriesEl.classList.toggle('is-on',
-      i0 === i1 && BEATS[i0]?.layout === 'projectYears')
-
     charts.show(BEATS[i0].chart, BEATS[i1].chart, rawT)
 
     // panels slide; the field stays put and rearranges under them
@@ -1006,56 +1026,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     const before = beat * (timing.hold + timing.transition)
     return top + (timing.intro + before + timing.hold * .38) * vh
   }
-  /* The series switch for fold 2. Built here rather than in the template so it
-     lives with the layout it drives, and shown only while that fold is the one
-     on screen. */
-  const seriesEl = document.createElement('div')
-  seriesEl.className = 'sh-series'
-  seriesEl.setAttribute('role', 'group')
-  seriesEl.setAttribute('aria-label', 'What to count over time')
-  seriesEl.innerHTML = ['projects', 'papers'].map(key => `
-    <button type="button" data-series="${key}" ${key === yearSeries ? 'aria-pressed="true"' : 'aria-pressed="false"'}>${key[0].toUpperCase()}${key.slice(1)}</button>`).join('')
-  root.querySelector('[data-stage]')?.appendChild(seriesEl)
 
-  seriesEl.addEventListener('click', ev => {
-    const key = ev.target.closest('button')?.dataset.series
-    if (!key || key === yearSeries) return
-    yearSeries = key
-    seriesEl.querySelectorAll('button').forEach(btn =>
-      btn.setAttribute('aria-pressed', String(btn.dataset.series === key)))
-    const i = BEATS.findIndex(b => b.layout === 'projectYears')
-    if (i >= 0){
-      const r = buildLayout('projectYears')     // only fold 2 depends on this
-      layouts[i] = r.pos || r
-      furniture[i] = r.furn || null
-      writeYearPanel(i)
-    }
-    update()
-  })
-
-  const YEAR_COPY = {
-    projects: {
-      num:fmt(projects.length), unit:'projects',
-      head:'Every year is built on the one before it.',
-      body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each year stacks on top of the last, so the height is the running total, not that year alone.`,
-    },
-    papers: {
-      num:fmt(studies.length), unit:'papers',
-      head:'Reading the portfolio is the slower half of the work.',
-      body:`<b>${fmt(studies.length)}</b> papers have been read in full and structured so far. The height is the running total of what has been <i>read</i>, not what EuroQol has published, so this line grows as the reading does.`,
-    },
-  }
-  function writeYearPanel(i){
-    const panel = root.querySelectorAll('.sh-panel')[i]
-    const copy = YEAR_COPY[yearSeries]
-    if (!panel || !copy) return
-    const num = panel.querySelector('.sh-num')
-    if (num) num.innerHTML = `${copy.num}<span class="sh-unit">${copy.unit}</span>`
-    const head = panel.querySelector('.sh-head')
-    if (head) head.textContent = copy.head
-    const body = panel.querySelector('.sh-body')
-    if (body) body.innerHTML = copy.body
-  }
 
   function goToBeat(i){
     // Land inside the hold, with the chart and copy fully settled.
