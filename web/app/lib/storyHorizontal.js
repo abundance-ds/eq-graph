@@ -176,9 +176,9 @@ export function initStory(DATA, TOPO, root, options = {}){
       // instead of watching it fade and a flat grey map take its place.
       layout:'projectMap' },
 
-    { num:fmt(projects.length), unit:'projects', head:'The foundation has funded research every year since 2012.',
-      body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}.`,
-      so:`The largest cohort began in <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and the funding has not paused since — which is why the evidence base compounds instead of dating.`,
+    { num:fmt(projects.length), unit:'projects', head:'Every year is built on the one before it.',
+      body:`<b>${fmt(datedProjects.length)}</b> projects carry a recorded start year, running from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each year stacks on top of the last, so the height is the running total, not that year alone.`,
+      so:`The busiest single year was <b>${busiestProjectYear[0]}</b>, with <b>${fmt(busiestProjectYear[1])}</b> projects. But no year stands on its own: a project funded in ${projectYears[0]} still counts today, which is why a quiet year is a slower climb rather than a gap, and why the evidence base compounds instead of dating.`,
       layout:'projectYears' },
 
     { num:fmt((options.coauthors && options.coauthors.nodes && options.coauthors.nodes.length) || 0), unit:'researchers',
@@ -318,20 +318,60 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos:out, furn:null }
     }
     else if (kind === 'projectYears'){
+      /* Cumulative, not per year.
+
+         Counted year by year, this reads as a row of short stacks with visible
+         gaps, and a quiet year looks like a failure. That is the wrong
+         impression: a project funded in 2014 did not stop counting in 2015. So
+         each year's dots start where the previous year's ended, and the top
+         edge is the running total climbing to the full portfolio. The height at
+         any year is everything funded up to that point, which is the honest
+         shape of continuous funding — and it fills the frame instead of
+         hugging the floor.
+
+         Every project is still exactly one dot, placed once. Nothing is
+         duplicated to make the curve rise; the rise IS the dots. */
       const years = projectYears, cols = years.length || 1, colW = bw / cols
+      const STEP = 4.6                              // dot pitch across a column
+      const perRow = Math.max(1, Math.floor((colW - 3) / STEP))
+
+      const countOf = {}
+      for (const project of datedProjects){
+        const y = projectYearOf(project)
+        countOf[y] = (countOf[y] || 0) + 1
+      }
+      // The row each year begins on, so the stacks sit on top of one another.
+      const startRow = {}
+      let rowsUsed = 0
+      for (const y of years){
+        startRow[y] = rowsUsed
+        rowsUsed += Math.ceil((countOf[y] || 0) / perRow)
+      }
+      // Squeeze the pitch only if the full stack would overflow the frame.
+      const rowH = Math.min(STEP, bh / Math.max(1, rowsUsed))
+      const r = Math.max(1.05, Math.min(1.7, rowH / 2.7))
+
       const per = {}
       for (let i = 0; i < dots.length; i++){
         if (dots[i].kind !== 'project'){ out[i] = hidden(i); continue }
         const y = dots[i].projectYear
         if (!y){ out[i] = { x:b.x0 + rnd() * bw, y:b.y1 + 40, c:GREY, r:1.2, a:0 }; continue }
-        const ci = years.indexOf(y); per[y] = (per[y] || 0) + 1
-        const n = per[y], perRow = Math.max(1, Math.floor(colW / 5))
+        const ci = years.indexOf(y)
+        const n = (per[y] = (per[y] || 0) + 1) - 1
         out[i] = {
-          x: b.x0 + ci * colW + ((n - 1) % perRow) * 4.6 + 2,
-          y: b.y1 - Math.floor((n - 1) / perRow) * 4.6,
-          c: mix(TEAL, YELLOW, ci / Math.max(1, cols - 1)), r:1.7 }
+          x: b.x0 + ci * colW + (n % perRow) * STEP + 2,
+          y: b.y1 - (startRow[y] + Math.floor(n / perRow)) * rowH,
+          c: mix(TEAL, YELLOW, ci / Math.max(1, cols - 1)), r }
       }
-      out.furn = { kind:'years', b, cols, colW, years }
+
+      // The top of each year's stack, for the line that traces the total.
+      let run = 0
+      const steps = years.map((y, i) => {
+        run += countOf[y] || 0
+        return { year:y, ci:i, total:run,
+                 y: b.y1 - (startRow[y] + Math.ceil((countOf[y] || 0) / perRow)) * rowH }
+      })
+      out.furn = { kind:'years', b, cols, colW, years, steps, total:run }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
@@ -668,6 +708,29 @@ export function initStory(DATA, TOPO, root, options = {}){
         ctx.beginPath(); ctx.moveTo(x, f.b.y1 + 8); ctx.lineTo(x, f.b.y1 + 13); ctx.stroke()
         ctx.fillText(String(y), x, f.b.y1 + 24)
       })
+
+      if (f.steps){
+        // The running total, traced along the top of the stacks. It is a
+        // staircase rather than a smooth curve because funding arrives in
+        // yearly rounds, and smoothing would invent months that do not exist.
+        ctx.strokeStyle = ink(.3); ctx.lineWidth = 1.25
+        ctx.beginPath()
+        f.steps.forEach((s, i) => {
+          const x0 = f.b.x0 + s.ci * f.colW
+          if (i === 0) ctx.moveTo(x0, s.y); else ctx.lineTo(x0, s.y)
+          ctx.lineTo(x0 + f.colW, s.y)
+        })
+        ctx.stroke()
+
+        // Only the last total is written. The staircase already shows every
+        // step; the number worth reading is where it ends up.
+        const last = f.steps[f.steps.length - 1]
+        if (last){
+          const y = Math.max(f.b.y0 + 9, last.y - 13)
+          ctx.textAlign = 'right'; ctx.fillStyle = ink(.62)
+          ctx.fillText(`${last.total.toLocaleString('en')} funded to date`, f.b.x1, y)
+        }
+      }
     }
     else if (f.kind === 'groupYears'){
       ctx.textAlign = 'right'
