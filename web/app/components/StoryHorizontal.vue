@@ -137,10 +137,18 @@ onBeforeUnmount(() => {
         </div>
 
         <div class="sh-instrument" data-instrument aria-hidden="true">
+          <canvas data-inst-canvas />
+        </div>
 
         <!-- Click a country, and its three numbers arrive here. Projects and
              studies are deliberately both shown: the distance between them is
-             how much of the funded work has actually been read. -->
+             how much of the funded work has actually been read.
+
+             A sibling of the globe, not a child of it. Inside, it inherited the
+             container's opacity, which the story drives to 0 as soon as it
+             starts, so a click on the map fold set the country but the card was
+             invisible. It also inherited pointer-events:none, which killed its
+             own close button. -->
         <transition name="sh-card">
           <aside v-if="picked" class="sh-country" role="dialog" :aria-label="picked.name">
             <button type="button" class="sh-country-x" aria-label="Close" @click="picked = null">×</button>
@@ -152,8 +160,6 @@ onBeforeUnmount(() => {
             </dl>
           </aside>
         </transition>
-          <canvas data-inst-canvas />
-        </div>
 
         <div class="sh-key" data-key>
           <button class="sh-key-toggle" data-key-toggle aria-expanded="false">Key</button>

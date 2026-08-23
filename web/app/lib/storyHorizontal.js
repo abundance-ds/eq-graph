@@ -919,6 +919,12 @@ export function initStory(DATA, TOPO, root, options = {}){
       ctx.fill()
     }
 
+    /* Cleared every frame and re-set by whichever furniture is actually a map.
+       It used to be set once and never unset, so after the map fold had been
+       seen, a click anywhere on any later fold still hit-tested the map and
+       opened a country card on top of a chart. */
+    liveMap = null
+
     // Chart labels stay at full strength for the hold. During the short
     // change, the old labels leave early and the new labels arrive late.
     if (i0 === i1){

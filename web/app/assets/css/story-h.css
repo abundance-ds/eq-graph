@@ -609,8 +609,13 @@
    room and wrap to two when there is not, rather than being squeezed. */
 .viz-net-figs{ display:flex; flex-wrap:wrap; gap:0.15rem 1.1rem; }
 .viz-fig{ display:inline-flex; align-items:center; gap:0.36rem; white-space:nowrap; }
-/* Sized against the text it labels, so it stays matched at any type scale. */
-.viz-ico{ width:1.05em; height:1.05em; flex:none; color:var(--ink-3); }
+/* Sized against the text it labels, so it stays matched at any type scale.
+   Scoped to the scene on purpose: `.sh-chart-scene svg` above sets every SVG
+   to 100% for the chart itself, and it outranks a bare `.viz-ico`, which
+   stretched this icon to the full width of the panel. */
+.sh-chart-scene .viz-ico{
+  width:1em; height:1em; flex:none; color:var(--ink-3);
+}
 .viz-net-panel button{
   position:absolute; top:.45rem; right:.45rem;
   width:28px; height:28px; border:0; border-radius:7px;
