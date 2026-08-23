@@ -395,17 +395,6 @@ function coauthorNetwork(studies, width, height, data, coauthors){
       : `rgb(${Math.round(226 - t * 46)},${Math.round(226 - t * 46)},${Math.round(219 - t * 44)})`
   }
 
-  /* A halo on the heaviest publishers only, drawn in one pass under every
-     circle so it never sits on a neighbour's mark. Given to all seventy-odd
-     nodes the halos overlapped into a green fog and the structure vanished, so
-     it is a mark of significance here rather than an ambient wash. */
-  const halos = nodes
-    .filter(n => n.p.paper_count >= 12)      // only the ones worth finding
-    .map(n => {
-      const t = Math.sqrt(n.p.paper_count / maxPapers)
-      return `<circle class="viz-net-halo" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(n.r * 1.55).toFixed(1)}" style="opacity:${(0.10 + t * 0.16).toFixed(3)}" />`
-    }).join('')
-
   const marks = nodes.map((n, i) => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
     const ring = n.p.project_leader
@@ -416,7 +405,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     // about eleven pixels the digits would be smaller than the label beneath,
     // and a number too small to read is just texture.
     const count = n.r >= 11
-      ? `<text class="viz-net-count" x="${n.x.toFixed(1)}" y="${(n.y + n.r * 0.32).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, n.r * 0.82).toFixed(1)}px">${n.p.paper_count}</text>`
+      ? `<text class="viz-net-count" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${(n.y + n.r * 0.32).toFixed(1)}" text-anchor="middle" style="font-size:${Math.max(10, n.r * 0.82).toFixed(1)}px">${n.p.paper_count}</text>`
       : ''
     // Biggest arrive first, so the shape of the field is established before the
     // detail fills in. Capped, or the tail of the network is still landing long
@@ -446,7 +435,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     .map(n => {
     const t = n.p.name
     const w = t.length * 6.6, y = n.y + n.r + 13
-    return `<rect class="viz-net-plate" x="${(n.x - w / 2 - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" width="${(w + 8).toFixed(1)}" height="14" rx="4" />
+    return `<rect class="viz-net-plate" data-id="${n.id}" x="${(n.x - w / 2 - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" width="${(w + 8).toFixed(1)}" height="14" rx="4" />
       <text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${escapeText(t)}</text>`
   }).join('')
 
@@ -479,7 +468,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
   const key = bits.join('')
 
 
-  return chartFrame(width, height, key + halos + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
+  return chartFrame(width, height, key + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
 }
 
 const RENDERERS = {
@@ -518,43 +507,137 @@ export function createStoryCharts(data, root, coauthors = null){
   const nameOf = new Map((coauthors?.nodes || []).map(n => [n.person_id, n.name]))
   let panel = null
 
-  /* Particles run along the links of whoever is selected, in the direction of
-     the collaboration, so the motion carries the reading instead of decorating
-     it. Nothing moves until someone is chosen: a network that animates on its
-     own is noise, and the reader has no way to make it stop. */
-  const SPARK_NS = 'http://www.w3.org/2000/svg'
-  function clearSparks(scene){
-    scene.querySelectorAll('.viz-net-spark').forEach(el => el.remove())
-  }
-  function sparkAlong(scene, id){
-    clearSparks(scene)
+  /* Clicking someone reforms the network around them.
+
+     The whole story moves by flying its marks from one arrangement to the next,
+     and this is that same move. The chosen author settles in the middle, the
+     people they have written with pull into an orbit ordered by how often, and
+     everyone else drifts outward and thins away. Reading the answer means
+     watching the field become the answer, which is the thing a static highlight
+     cannot do.
+
+     Positions are tweened and written as attributes each frame, links included,
+     rather than handed to CSS. The endpoints have to stay attached to the
+     circles while they travel, and a transform on the marks alone would leave
+     every line behind. */
+  const REFORM_MS = 900
+  const reformState = new WeakMap()
+
+  function indexScene(scene){
+    let idx = reformState.get(scene)
+    if (idx) return idx
     const svg = scene.querySelector('svg')
-    if (!svg) return
-    const lit = [...scene.querySelectorAll('.viz-net-link')]
-      .filter(el => el.dataset.a === id || el.dataset.b === id)
-      .slice(0, 26)                       // past this it is a firework, not a reading
-    for (const [i, line] of lit.entries()){
-      // Always outward from the selected person, whichever end they sit on.
-      const flip = line.dataset.b === id
-      const x1 = line.getAttribute(flip ? 'x2' : 'x1'), y1 = line.getAttribute(flip ? 'y2' : 'y1')
-      const x2 = line.getAttribute(flip ? 'x1' : 'x2'), y2 = line.getAttribute(flip ? 'y1' : 'y2')
-      const dot = document.createElementNS(SPARK_NS, 'circle')
-      dot.setAttribute('class', 'viz-net-spark')
-      dot.setAttribute('r', '1.9')
-      const move = document.createElementNS(SPARK_NS, 'animateMotion')
-      move.setAttribute('path', `M ${x1} ${y1} L ${x2} ${y2}`)
-      move.setAttribute('dur', (1.5 + (i % 5) * 0.22).toFixed(2) + 's')
-      move.setAttribute('begin', (i * 0.05).toFixed(2) + 's')
-      move.setAttribute('repeatCount', 'indefinite')
-      dot.appendChild(move)
-      svg.appendChild(dot)
+    if (!svg) return null
+    const byId = new Map()
+    // Every mark that belongs to a node, with its offset from that node's home,
+    // so the group keeps its shape as it moves.
+    for (const el of svg.querySelectorAll('[data-id]')){
+      const id = el.dataset.id
+      const isCircle = el.tagName === 'circle'
+      const ax = isCircle ? 'cx' : 'x', ay = isCircle ? 'cy' : 'y'
+      const x = parseFloat(el.getAttribute(ax)), y = parseFloat(el.getAttribute(ay))
+      if (!Number.isFinite(x) || !Number.isFinite(y)) continue
+      const row = byId.get(id) || { id, home:null, els:[] }
+      if (el.classList.contains('viz-net-node')) row.home = { x, y }
+      row.els.push({ el, ax, ay, x, y })
+      byId.set(id, row)
+    }
+    // Offsets are only meaningful once the node's own centre is known.
+    for (const row of byId.values()){
+      if (!row.home){ byId.delete(row.id); continue }
+      for (const m of row.els){ m.dx = m.x - row.home.x; m.dy = m.y - row.home.y }
+      row.at = { ...row.home }
+    }
+    const links = [...svg.querySelectorAll('.viz-net-link')].filter(l => l.dataset.a && l.dataset.b)
+    idx = { svg, byId, links, frame:0 }
+    reformState.set(scene, idx)
+    return idx
+  }
+
+  function paint(idx){
+    for (const row of idx.byId.values())
+      for (const m of row.els){
+        m.el.setAttribute(m.ax, (row.at.x + m.dx).toFixed(1))
+        m.el.setAttribute(m.ay, (row.at.y + m.dy).toFixed(1))
+      }
+    for (const line of idx.links){
+      const A = idx.byId.get(line.dataset.a), B = idx.byId.get(line.dataset.b)
+      if (!A || !B) continue
+      line.setAttribute('x1', A.at.x.toFixed(1)); line.setAttribute('y1', A.at.y.toFixed(1))
+      line.setAttribute('x2', B.at.x.toFixed(1)); line.setAttribute('y2', B.at.y.toFixed(1))
     }
   }
 
+  function reform(scene, id){
+    const idx = indexScene(scene)
+    if (!idx) return
+    const box = idx.svg.viewBox.baseVal
+    // Leaning up and right of centre keeps the orbit clear of the panel, which
+    // sits bottom left and would otherwise cover the closest collaborators.
+    const cx = box.width * 0.54, cy = box.height * 0.44
+
+    const targets = new Map()
+    if (id){
+      const partners = (adjacency.get(id) || []).filter(x => idx.byId.has(x.id))
+        .sort((a, b) => b.w - a.w)
+      targets.set(id, { x:cx, y:cy })
+      /* Rings widen as they go out, and each holds more than the last, because
+         a ring's circumference grows with its radius. Fixed seats per ring
+         packed the inner one until the circles overlapped. Closest ring is the
+         strongest collaborators, so distance reads as how often. */
+      const SEATS = [7, 12, 17, 22]
+      const rings = []
+      for (let i = 0, k = 0; i < partners.length; k++){
+        const take = SEATS[Math.min(k, SEATS.length - 1)]
+        rings.push(partners.slice(i, i + take)); i += take
+      }
+      /* Bounded by the room that actually exists on each side, not by the box.
+         Taken from the box alone the widest ring ran up into the legend. The
+         top allowance is larger because that is where the key sits. */
+      const span = Math.max(70, Math.min(
+        (cy - 46) / 0.82,                       // clear of the legend
+        (box.height - cy - 20) / 0.82,
+        cx - 18, box.width - cx - 18))
+      rings.forEach((ring, k) => {
+        const rad = span * ((k + 1) / rings.length) * 0.92
+        ring.forEach((x, seat) => {
+          const a = (seat / ring.length) * Math.PI * 2 - Math.PI / 2 + k * 0.42
+          targets.set(x.id, { x:cx + Math.cos(a) * rad, y:cy + Math.sin(a) * rad * 0.82 })
+        })
+      })
+      // Everyone else is pushed straight out from where they already are, so
+      // the field opens rather than shuffling.
+      for (const row of idx.byId.values()){
+        if (targets.has(row.id)) continue
+        const vx = row.home.x - cx, vy = row.home.y - cy
+        const d = Math.hypot(vx, vy) || 1
+        targets.set(row.id, { x:cx + (vx / d) * (d + 190), y:cy + (vy / d) * (d + 190) })
+      }
+    } else {
+      for (const row of idx.byId.values()) targets.set(row.id, { ...row.home })
+    }
+
+    const from = new Map([...idx.byId.values()].map(r => [r.id, { ...r.at }]))
+    const t0 = performance.now()
+    cancelAnimationFrame(idx.frame)
+    const step = now => {
+      const t = Math.min(1, (now - t0) / REFORM_MS)
+      const e = 1 - Math.pow(1 - t, 3)          // out-cubic, so it settles
+      for (const row of idx.byId.values()){
+        const a = from.get(row.id), b = targets.get(row.id)
+        row.at.x = a.x + (b.x - a.x) * e
+        row.at.y = a.y + (b.y - a.y) * e
+      }
+      paint(idx)
+      if (t < 1) idx.frame = requestAnimationFrame(step)
+    }
+    idx.frame = requestAnimationFrame(step)
+  }
+
   function clearPick(scene){
+    reform(scene, null)
     scene.classList.remove('is-focused')
     scene.querySelectorAll('.is-picked, .is-faded, .is-lit').forEach(el => el.classList.remove('is-picked', 'is-faded', 'is-lit'))
-    clearSparks(scene)
     if (panel) { panel.remove(); panel = null }
   }
 
@@ -587,7 +670,7 @@ export function createStoryCharts(data, root, coauthors = null){
       <button type="button" aria-label="Close">×</button>`
     panel.querySelector('button').onclick = () => clearPick(scene)
     scene.appendChild(panel)
-    sparkAlong(scene, id)
+    reform(scene, id)
   }
 
       /* Hover is temporary and leaves nothing behind. A kept selection is not

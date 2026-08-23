@@ -651,12 +651,6 @@
    Scoped to the scene on purpose: `.sh-chart-scene svg` above sets every SVG
    to 100% for the chart itself, and it outranks a bare `.viz-ico`, which
    stretched this icon to the full width of the panel. */
-/* The halo. Blur is done with a filter rather than a gradient so the falloff is
-   even at every radius. */
-.viz-net-halo{ fill:var(--teal); filter:blur(5px); pointer-events:none; }
-.sh-chart-scene.is-live .viz-net-halo{ animation:viz-breathe 7s ease-in-out infinite; }
-@keyframes viz-breathe{ 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.07); } }
-
 /* Nodes assemble rather than appear. transform-box keeps the scale about the
    circle's own centre instead of the whole SVG's origin. */
 .sh-chart-scene.is-live .viz-net-node{
@@ -665,14 +659,17 @@
 }
 @keyframes viz-arrive{ from{ opacity:0; transform:scale(.4); } to{ opacity:1; transform:scale(1); } }
 
-.viz-net-spark{ fill:var(--teal); opacity:.85; pointer-events:none; }
-
 /* One switch for everything that moves here. */
 @media (prefers-reduced-motion: reduce){
-  .sh-chart-scene.is-live .viz-net-halo,
   .sh-chart-scene.is-live .viz-net-node{ animation:none; }
-  .viz-net-spark{ display:none; }
 }
+
+/* While a person is held, the field around them is nearly gone. The reform
+   moves the marks; this is what makes the ones that left read as gone. */
+.sh-chart-scene.is-focused .viz-net-node.is-faded,
+.sh-chart-scene.is-focused .viz-net-ring.is-faded{ opacity:.14; }
+.sh-chart-scene.is-focused .viz-net-name.is-faded,
+.sh-chart-scene.is-focused .viz-net-count.is-faded{ opacity:.10; }
 
 .sh-chart-scene .viz-ico{
   width:1em; height:1em; flex:none; color:var(--ink-3);
