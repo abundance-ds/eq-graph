@@ -27,7 +27,21 @@ const visualization = z.object({
 export const querySql = tool({
   description:
     "Runs one read-only SQLite query against the EQ-Graph research serving database. " +
-    "The database rejects writes. Add a visualization when a chart or table makes the result easier to read.",
+    "The database rejects writes.\n\n" +
+    // The previous instruction was "add a visualization when a chart makes the
+    // result easier to read", which leaves the model to judge that fresh every
+    // time and, next to a schema block this size, it mostly did not. Naming the
+    // shape of the data instead of the feeling removes the judgement call.
+    "CHOOSE THE ANSWER'S SHAPE FROM ITS DATA, not from preference:\n" +
+    "- One number: no visualization. Say it in a sentence.\n" +
+    "- Two values: no visualization. Put both numbers in the sentence.\n" +
+    "- Three or more ranked values: mark 'bar'. Length is read faster than any list.\n" +
+    "- Parts of one whole, two to six of them: mark 'donut'.\n" +
+    "- A measure over time: mark 'line'.\n" +
+    "- Two to five entities compared on shared attributes: mark 'table'.\n" +
+    "- A single headline figure the answer turns on: mark 'stat'.\n\n" +
+    "A ranked result returned as prose is a list the reader has to rank " +
+    "themselves. When the shape calls for a chart, return one.",
   inputSchema: z.object({
     sql: z.string().describe("One SQLite SELECT or WITH query. Name each returned column."),
     purpose: z.string().describe("One short sentence that states what the query answers."),

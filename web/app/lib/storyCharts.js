@@ -282,16 +282,22 @@ function groupPapers(studies, width, height, data){
     const fundedW = (row.funded / peak) * plotW
     const pubW = (row.published / peak) * plotW
     const share = row.funded ? Math.round((row.published / row.funded) * 100) : 0
+    // Both labels sit after the longer bar, and both are clamped so the pair
+    // can never be written off the right edge on a narrow fold.
+    const countText = `${row.published} of ${row.funded}`
+    const need = countText.length * 7.2 + 14 + String(share).length * 8 + 18
+    const labelX = Math.min(left + Math.max(fundedW, pubW) + 12, width - need)
     return `<text class="viz-label" x="${left - 12}" y="${y + 1}" text-anchor="end">${escapeText(row.label)}</text>
       <rect class="viz-matrix-cell" style="opacity:.16" x="${left}" y="${y - barH - 1}" width="${Math.max(1, fundedW).toFixed(1)}" height="${barH}" rx="2" />
       <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left}" y="${y + 1}" width="${Math.max(1, pubW).toFixed(1)}" height="${barH}" rx="2" />
-      <text class="viz-cell-total" x="${left + Math.max(fundedW, pubW) + 10}" y="${y + 1}" text-anchor="start">${row.published} of ${row.funded} · ${share}%</text>`
+      <text class="viz-cell-total" x="${labelX.toFixed(1)}" y="${y + 1}" text-anchor="start">${countText}</text>
+      <text class="viz-share" x="${(labelX + countText.length * 7.2 + 14).toFixed(1)}" y="${y + 1}" text-anchor="start">${share}%</text>`
   }).join('')
 
   const key = `<rect class="viz-matrix-cell" style="opacity:.16" x="${left}" y="${top - 30}" width="10" height="7" rx="2" />
     <text class="viz-axis" x="${left + 16}" y="${top - 24}">projects funded</text>
-    <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left + 118}" y="${top - 30}" width="10" height="7" rx="2" />
-    <text class="viz-axis" x="${left + 134}" y="${top - 24}">with a published paper</text>`
+    <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left + 148}" y="${top - 30}" width="10" height="7" rx="2" />
+    <text class="viz-axis" x="${left + 164}" y="${top - 24}">with a published paper</text>`
 
   return chartFrame(width, height, key + marks,
     'A project is counted once, in the group that funded it. Projects shared between groups are grouped together.')
@@ -397,7 +403,7 @@ function coauthorNetwork(studies, width, height, data, coauthors){
     return `<line class="viz-net-link" data-a="${e.source}" data-b="${e.target}" x1="${A.x.toFixed(1)}" y1="${A.y.toFixed(1)}" x2="${B.x.toFixed(1)}" y2="${B.y.toFixed(1)}" style="stroke-width:${(0.4 + (e.coauthored_paper_count / heaviest) * 2.6).toFixed(2)}" />`
   }).join('')
 
-  const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 9).map(n => n.id))
+  const named = new Set([...nodes].sort((a, b) => b.p.paper_count - a.p.paper_count).slice(0, 22).map(n => n.id))
   const marks = nodes.map(n => {
     const cls = n.p.euroqol_member ? 'is-member' : 'is-other'
     const ring = n.p.project_leader
@@ -425,33 +431,56 @@ function coauthorNetwork(studies, width, height, data, coauthors){
      after them, so a name could end up underneath a later circle or buried in
      the mesh. They also carry a plate of the page colour, because a name laid
      over a hundred crossing lines is unreadable however dark it is set. */
-  const plates = nodes.filter(n => named.has(n.id)).map(n => {
+  /* More names are offered than before, but a name is only drawn if it lands
+     clear of every name already placed. Biggest first, so when two compete the
+     more significant author keeps their label. That is why some circles show a
+     name and others do not: the ones without it had nowhere legible to put it. */
+  const taken = []
+  const plates = nodes.filter(n => named.has(n.id))
+    .sort((a, b) => b.p.paper_count - a.p.paper_count)
+    .filter(n => {
+      const w = n.p.name.length * 6.6, y = n.y + n.r + 13
+      const hit = taken.some(q => Math.abs(q.x - n.x) < (q.w + w) / 2 + 8 && Math.abs(q.y - y) < 15)
+      if (!hit) taken.push({ x:n.x, y, w })
+      return !hit
+    })
+    .map(n => {
     const t = n.p.name
-    const w = t.length * 6.4, y = n.y + n.r + 13
+    const w = t.length * 6.6, y = n.y + n.r + 13
     return `<rect class="viz-net-plate" x="${(n.x - w / 2 - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" width="${(w + 8).toFixed(1)}" height="14" rx="4" />
       <text class="viz-net-name" data-id="${n.id}" x="${n.x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${escapeText(t)}</text>`
   }).join('')
 
   const members = people.filter(p => p.euroqol_member).length
   const smallest = Math.min(...people.map(p => p.paper_count))
-  const kx = 8, ky = 20
-  const key = `
-    <circle class="viz-net-node is-member" cx="${kx + 6}" cy="${ky}" r="6" />
-    <text class="viz-net-key" x="${kx + 18}" y="${ky + 4}">EuroQol member</text>
-    <circle class="viz-net-node is-other" cx="${kx + 140}" cy="${ky}" r="6" />
-    <text class="viz-net-key" x="${kx + 152}" y="${ky + 4}">other author</text>
-    <circle class="viz-net-ring" cx="${kx + 258}" cy="${ky}" r="7.5" />
-    <text class="viz-net-key" x="${kx + 271}" y="${ky + 4}">project leader</text>
+  /* Laid out by flowing, not by hand-placed offsets.
 
-    <circle class="viz-net-node is-member" cx="${kx + 392}" cy="${ky}" r="4" />
-    <circle class="viz-net-node is-member" cx="${kx + 412}" cy="${ky}" r="10" />
-    <text class="viz-net-key" x="${kx + 428}" y="${ky + 4}">${smallest} to ${maxPapers} papers</text>
+     Every legend in this file used to carry literal x positions, which is why
+     items collided the moment a label changed length or the fold got narrower.
+     Each item now declares its width and the row advances by it, so nothing can
+     land on top of anything else at any size. */
+  const ky = 20
+  const CHAR = 6.6
+  let kx = 6
+  const bits = []
+  const put = (mark, text, extra = 0) => {
+    const w = text.length * CHAR + 22 + extra
+    if (kx + w > width - 8) return          // no room: leave it out rather than overlap
+    bits.push(mark(kx))
+    bits.push(`<text class="viz-net-key" x="${kx + 16 + extra}" y="${ky + 4}">${text}</text>`)
+    kx += w + 14
+  }
+  put(x => `<circle class="viz-net-node is-member" cx="${x + 6}" cy="${ky}" r="6" />`, 'EuroQol member')
+  put(x => `<circle class="viz-net-node is-other" cx="${x + 6}" cy="${ky}" r="6" />`, 'other author')
+  put(x => `<circle class="viz-net-ring" cx="${x + 7}" cy="${ky}" r="7.5" />`, 'project leader')
+  put(x => `<circle class="viz-net-node is-member" cx="${x + 4}" cy="${ky}" r="3.5" />
+            <circle class="viz-net-node is-member" cx="${x + 20}" cy="${ky}" r="9" />`,
+      `${smallest}-${maxPapers} papers`, 16)
+  put(x => `<line class="viz-net-link" x1="${x}" y1="${ky - 3}" x2="${x + 22}" y2="${ky - 3}" style="stroke-width:.6" />
+            <line class="viz-net-link" x1="${x}" y1="${ky + 4}" x2="${x + 22}" y2="${ky + 4}" style="stroke-width:3" />`,
+      'more shared papers', 10)
+  const key = bits.join('')
 
-    <line class="viz-net-link" x1="${kx + 552}" y1="${ky - 4}" x2="${kx + 580}" y2="${ky - 4}" style="stroke-width:.6" />
-    <line class="viz-net-link" x1="${kx + 552}" y1="${ky + 4}" x2="${kx + 580}" y2="${ky + 4}" style="stroke-width:3" />
-    <text class="viz-net-key" x="${kx + 590}" y="${ky + 4}">written together, more often</text>
-
-    <text class="viz-net-key is-quiet" x="${width - 6}" y="${ky + 4}" text-anchor="end">${people.length} of ${coauthors.nodes.length} authors</text>`
 
   return chartFrame(width, height, key + wire + marks + plates, 'Hover to follow one person. Click to keep them.')
 }
