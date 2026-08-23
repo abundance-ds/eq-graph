@@ -401,14 +401,13 @@
 .sh-about{
   position:absolute; left:var(--pad); top:1.66rem; z-index:8;
   min-height:36px; display:inline-flex; align-items:center;
-  color:var(--ink-2); font:600 var(--t-fine) var(--font-body);
+  color:var(--ink); font:600 var(--t-body) var(--font-body);
   text-decoration:none; border-bottom:1px solid transparent;
   transform:translate3d(var(--about-x, 0px), 0, 0);
   transition:transform .62s cubic-bezier(.4,0,.15,1), color .15s ease, border-color .15s ease;
 }
 .sh-root:not([data-story-phase="intro"]) .sh-about{
   transform:translate3d(0, 2.5rem, 0);
-  font-weight:500; color:var(--ink-3);
 }
 .sh-about:hover{ color:var(--ink); border-bottom-color:var(--rule); }
 .sh-about:focus-visible{ outline:2px solid var(--accent, #007d6c); outline-offset:3px; border-radius:2px; }
@@ -418,7 +417,7 @@
   min-height:44px; padding:0 .15rem;
   display:inline-flex; align-items:center; gap:.45rem;
   border:0; border-bottom:1px solid var(--rule); background:transparent;
-  color:var(--ink-2); font:500 var(--t-fine) var(--font-body); cursor:pointer;
+  color:var(--ink); font:600 var(--t-body) var(--font-body); cursor:pointer;
   transition:color .15s ease, border-color .15s ease;
 }
 .sh-skip:hover{color:var(--teal); border-color:var(--teal);}

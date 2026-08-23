@@ -62,13 +62,15 @@ const limits = [
 
 <template>
   <main class="ab">
+    <!-- The mark sits top left, where it sits on every other screen. Back goes
+         under it, because a way out belongs below the thing it returns to. -->
     <header class="ab-top">
+      <img class="ab-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
       <NuxtLink to="/" class="ab-back">← Back</NuxtLink>
-      <img class="ab-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="150" height="25">
     </header>
 
     <section class="ab-hero">
-      <p class="ab-eyebrow">EQ-Graph · a EuroQol seed grant</p>
+      <p class="ab-eyebrow">EQ-Graph, a EuroQol seed grant</p>
       <!-- No span of years in the headline: the records we hold start in 2012,
            and the page says so lower down. -->
       <h1>
@@ -150,21 +152,22 @@ const limits = [
   font:15px/1.6 var(--font-body,'Instrument Sans',sans-serif);
 }
 .ab-top{
-  display:flex; align-items:center; justify-content:space-between;
-  padding:1.4rem 0 3.5rem;
+  display:flex; flex-direction:column; align-items:flex-start; gap:1.15rem;
+  padding:1.55rem 0 3.5rem;
 }
+.ab-logo{height:27px; width:auto;}
 .ab-back{
-  color:var(--ink-2,#5c5c56); text-decoration:none; font-size:.85rem;
+  color:var(--ink-1,#1a1a17); text-decoration:none;
+  font-size:.95rem; font-weight:600;
   padding:.35rem .1rem;
 }
 .ab-back:hover{color:var(--accent,#007d6c);}
 .ab-back:focus-visible{outline:2px solid var(--accent,#007d6c); outline-offset:3px; border-radius:3px;}
-.ab-logo{height:22px; width:auto; opacity:.85;}
 
 .ab-eyebrow{
   margin:0 0 1.4rem; color:var(--ink-3,#8e8e86);
-  font:500 .74rem/1 var(--font-num,monospace);
-  letter-spacing:.08em; text-transform:uppercase;
+  font:500 .82rem/1 var(--font-num,monospace);
+  letter-spacing:.02em;
 }
 .ab-hero h1{
   margin:0 0 1.6rem; max-width:22ch;
@@ -213,8 +216,8 @@ const limits = [
   font:500 1rem/1.5 var(--font-body,sans-serif);
 }
 .ab-stages h3 em{
-  font:500 .68rem/1 var(--font-num,monospace);
-  letter-spacing:.06em; text-transform:uppercase; font-style:normal;
+  font:500 .72rem/1 var(--font-num,monospace);
+  letter-spacing:.01em; font-style:normal;
   padding:.24rem .45rem; border-radius:3px;
   color:var(--ink-3,#8e8e86); background:var(--sunk-2,#efefec);
 }
