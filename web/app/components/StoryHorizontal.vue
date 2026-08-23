@@ -131,7 +131,7 @@ onBeforeUnmount(() => {
         <NuxtLink to="/about" class="sh-about">About</NuxtLink>
 
         <button type="button" class="sh-skip" @click="enterDirect('skip')">
-          Skip story <span aria-hidden="true">→</span>
+          Skip impact <span aria-hidden="true">→</span>
         </button>
 
         <div class="sh-grid" aria-hidden="true">

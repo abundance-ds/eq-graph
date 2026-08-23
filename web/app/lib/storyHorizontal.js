@@ -233,6 +233,22 @@ export function initStory(DATA, TOPO, root, options = {}){
     BEATS.forEach(b => { const r = buildLayout(b.layout)
       layouts.push(r.pos || r); furniture.push(r.furn || null) })
     charts.resize()
+    /* How far About has to travel to sit against the right edge, where Skip
+       will later replace it. Measured rather than written down: it depends on
+       the width of the word and of the stage, and a wrong guess would leave it
+       short of the corner or past it. */
+    const about = root.querySelector('.sh-about')
+    if (about && about.offsetParent){
+      /* offsetLeft IS the padding, in pixels, because the element is placed at
+         left:var(--pad) and offsetLeft ignores the transform. Reading --pad
+         itself gave "3rem", which parseFloat turns into 3, and the link
+         overshot the right edge of the screen. */
+      // Twice the padding: once for the left inset it starts at, once for the
+      // right margin it has to keep, so it lands on Skip's edge and not the
+      // window's.
+      const shift = about.offsetParent.clientWidth - about.offsetLeft * 2 - about.offsetWidth
+      about.style.setProperty('--about-x', `${Math.max(0, shift)}px`)
+    }
     textMeta = buildText()
     return true
   }

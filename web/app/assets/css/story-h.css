@@ -366,21 +366,10 @@
 
 /* Sits under the mark, quiet. Skip owns the top right and this must not
    compete with it. */
-.sh-about{
-  position:absolute; left:var(--pad); top:4.1rem; z-index:8;
-  min-height:36px; display:inline-flex; align-items:center;
-  color:var(--ink-3); font:500 var(--t-fine) var(--font-body);
-  text-decoration:none; border-bottom:1px solid transparent;
-  transition:color .15s ease, border-color .15s ease;
-}
-.sh-about:hover{ color:var(--ink); border-bottom-color:var(--rule); }
-.sh-about:focus-visible{ outline:2px solid var(--accent,#007d6c); outline-offset:3px; border-radius:2px; }
-
-/* The series switch on fold 2. Sits under the chart, on the field's left edge,
-   so it reads as belonging to the chart rather than to the page. */
+/* The series switch on fold 2. Top right of the field: along the bottom it
+   covered the year axis and hid 2012 and 2014. Hidden, not just transparent,
+   or it sits over the landing fold as two loose buttons. */
 .sh-series{
-  /* Top right of the field, not the foot of it. Along the bottom it sat on the
-     year labels and hid 2012 and 2014. */
   position:absolute; right:var(--pad); top:12%; z-index:7;
   display:flex; gap:2px; padding:2px;
   border:1px solid var(--rule); border-radius:999px;
@@ -399,6 +388,30 @@
 .sh-series button[aria-pressed="true"]{ color:#fff; background:var(--teal); }
 .sh-series button:focus-visible{ outline:2px solid var(--accent,#007d6c); outline-offset:2px; }
 @media (max-width:640px){ .sh-series{ right:var(--pad); top:auto; bottom:calc(14% + 2.2rem); } }
+
+/* About and Skip trade the top right corner.
+
+   On the opening fold About holds it, because it is the only other thing to do
+   there. Once the story starts Skip takes the corner and About slides down and
+   across, under the mark, where it stays available without competing.
+
+   The travel is a transform rather than a change of `left`, so it is one
+   composited move; the distance is measured in JS because it depends on the
+   width of the word and of the stage. */
+.sh-about{
+  position:absolute; left:var(--pad); top:1.66rem; z-index:8;
+  min-height:36px; display:inline-flex; align-items:center;
+  color:var(--ink-2); font:600 var(--t-fine) var(--font-body);
+  text-decoration:none; border-bottom:1px solid transparent;
+  transform:translate3d(var(--about-x, 0px), 0, 0);
+  transition:transform .62s cubic-bezier(.4,0,.15,1), color .15s ease, border-color .15s ease;
+}
+.sh-root:not([data-story-phase="intro"]) .sh-about{
+  transform:translate3d(0, 2.5rem, 0);
+  font-weight:500; color:var(--ink-3);
+}
+.sh-about:hover{ color:var(--ink); border-bottom-color:var(--rule); }
+.sh-about:focus-visible{ outline:2px solid var(--accent, #007d6c); outline-offset:3px; border-radius:2px; }
 
 .sh-skip{
   position:absolute; right:var(--pad); top:.75rem; z-index:8;
