@@ -106,17 +106,19 @@ const limits = [
       corpus, not a finished index.
     </p>
 
-    <section class="ab-block">
-      <h2>How it is built</h2>
-      <ol class="ab-stages">
-        <li v-for="s in stages" :key="s.n">
-          <span class="ab-num">{{ s.n }}</span>
-          <div>
+    <!-- A grid on its own ground, so the method reads as one block of work
+         rather than five entries in a list. Each step is opened by a rule, the
+         way a printed table of contents opens a chapter. -->
+    <section class="ab-block ab-process">
+      <div class="ab-process-in">
+        <h2>How it is built</h2>
+        <ol class="ab-stages">
+          <li v-for="s in stages" :key="s.n">
             <h3>{{ s.name }}</h3>
             <p>{{ s.body }}</p>
-          </div>
-        </li>
-      </ol>
+          </li>
+        </ol>
+      </div>
     </section>
 
     <!-- Given the same weight as the method, on purpose. -->
@@ -210,19 +212,35 @@ const limits = [
   letter-spacing:-.025em;
 }
 
-/* Numbered because they really are a sequence: a paper cannot be read before
-   it has been found. The number is quiet — it orders, it does not announce. */
-.ab-stages{ list-style:none; margin:0; padding:0; display:grid; gap:3.2rem; }
-.ab-stages li{ display:grid; grid-template-columns:3.5rem 1fr; align-items:baseline; }
-.ab-num{
-  color:var(--ink-4,#b9b9b1);
-  font:400 .9rem/1.6 var(--font-body,sans-serif); font-variant-numeric:tabular-nums;
+/* The process sits on its own ground, edge to edge, so it reads as one body of
+   work. Cool grey and black rather than the page's near-white: it is a change
+   of surface, not a box drawn around a list. */
+.ab-process{
+  background:#ececeb;
+  /* Edge to edge, out of the reading column. Pulling back by the gutter alone
+     left a grey panel floating inside the page, which is a box; going to the
+     viewport makes it a change of ground. */
+  margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
+  padding:5.5rem calc(50vw - 570px) 6rem;   /* lines the steps up with the column */
 }
+.ab-process-in{ max-width:1140px; }
+@media (max-width:1260px){ .ab-process{ padding-left:var(--gut); padding-right:var(--gut); } }
+.ab-process h2{ margin-bottom:3.5rem; }
+
+/* Three across, wrapping to one on a phone. The rule above each step is what
+   the numbers used to do: it opens the entry and orders the page. */
+.ab-stages{
+  list-style:none; margin:0; padding:0;
+  display:grid; gap:3rem 3.5rem;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+}
+.ab-stages li{ padding-top:1.15rem; border-top:1px solid var(--ink-1,#1a1a17); }
 .ab-stages h3{
-  margin:0 0 .5rem;
-  font:500 1.1rem/1.4 var(--font-body,sans-serif); letter-spacing:-.01em;
+  margin:0 0 .9rem; max-width:24ch;
+  font:500 1.12rem/1.34 var(--font-body,sans-serif); letter-spacing:-.01em;
+  color:var(--ink-1,#1a1a17);
 }
-.ab-stages p{ margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56); }
+.ab-stages p{ margin:0; color:#43433e; font-size:.98rem; line-height:1.62; }
 
 /* No boxes. Each limitation is a small headline and a paragraph, set like the
    stages above, because it carries the same weight as the method. */
@@ -237,7 +255,7 @@ const limits = [
 
 @media (max-width:640px){
   .ab-hero{ padding-top:9rem; }
-  .ab-stages li{ grid-template-columns:2.6rem 1fr; }
   .ab-block{ margin-top:5rem; }
+  .ab-process{ padding:3.5rem var(--gut) 4rem; }
 }
 </style>

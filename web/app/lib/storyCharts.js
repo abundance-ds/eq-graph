@@ -93,7 +93,13 @@ function fieldShape(studies, width, height){
   return chartFrame(width, height, grid + bars, 'Each study has one primary research family.')
 }
 
-/* Instruments are matched on a pattern, not on an exact string.
+/* The EQ measures a study can use, matched on a pattern rather than an exact
+   string.
+
+   Five of these are instruments; the EQ VAS is not. It is the rating scale that
+   ships inside the EQ-5D questionnaire, and EuroQol does not list it among its
+   instruments. It has a column because studies use it and report it on its own,
+   but the axis is titled measures for that reason.
 
    The pipeline records the instrument as the paper wrote it, so one instrument
    arrives under many names: "EQ VAS", "EQ-VAS (Visual Analogue Scale)",
@@ -232,7 +238,7 @@ function coverageMatrix(studies, width, height){
       `<text class="viz-axis is-strong" x="${x(index) + cellW / 2}" y="${top - 24}" text-anchor="middle">${escapeText(short)}</text>`).join('')
         /* The margin's label is rotated beside its own column. Set flat on top of
            the totals it read as a seventh instrument. */
-    + `<text class="viz-axis-title" x="${left + (COVERAGE_COLUMNS.length * cellW) / 2}" y="${top - 44}" text-anchor="middle">Instruments</text>`
+    + `<text class="viz-axis-title" x="${left + (COVERAGE_COLUMNS.length * cellW) / 2}" y="${top - 44}" text-anchor="middle">EQ measures</text>`
     + `<text class="viz-axis is-strong" x="${totalX + totalW / 2}" y="${top - 24}" text-anchor="middle">Total</text>`
     + `<text class="viz-label" x="${left - 10}" y="${totalY + cellH * .62}" text-anchor="end">Total</text>`
 

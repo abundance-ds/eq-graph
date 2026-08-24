@@ -90,13 +90,22 @@ export function initStory(DATA, TOPO, root, options = {}){
      the pipeline stores the name as the paper wrote it, so one instrument
      arrives under a dozen spellings. A label naming no level matches nothing,
      because assigning it would be a guess. */
+  /* Four instruments, plus one still in development.
+
+     EuroQol names four on its own instruments page: EQ-5D-3L, EQ-5D-5L,
+     EQ-5D-Y-3L and EQ-5D-Y-5L. The EQ VAS is not among them, because it is a
+     component of the EQ-5D questionnaire rather than a separate instrument, and
+     EQ-HWB sits under instruments in development. So HWB is shown, because it
+     is genuinely in use, but it is marked rather than counted alongside the
+     four. Anything else would state a number EuroQol does not. */
   const FAMILY = [
     ['EQ-5D-3L',   '3L',   /\bEQ[\s-]*5[\s-]*D[\s-]*3[\s-]*L\b/i],
     ['EQ-5D-5L',   '5L',   /\bEQ[\s-]*5[\s-]*D[\s-]*5[\s-]*L\b/i],
     ['EQ-5D-Y-3L', 'Y-3L', /\bEQ[\s-]*5[\s-]*D[\s-]*Y[\s-]*3[\s-]*L\b/i],
     ['EQ-5D-Y-5L', 'Y-5L', /\bEQ[\s-]*5[\s-]*D[\s-]*Y[\s-]*5[\s-]*L\b/i],
-    ['EQ-HWB',     'HWB',  /\bEQ[\s-]*HWB\b/i],
+    ['EQ-HWB',     'HWB',  /\bEQ[\s-]*HWB\b/i, 'in development'],
   ]
+  const ESTABLISHED = FAMILY.filter(f => !f[3])
   const isReview = study => (study.studyTypes || []).includes('EVIDENCE_SYNTHESIS')
   const familyIn = {}          // country -> Set of short names
   const familyReach = {}       // short name -> Set of countries
@@ -175,9 +184,9 @@ export function initStory(DATA, TOPO, root, options = {}){
   const BEATS = [
     /* Fold 1 counts instruments, so its number is an instrument number. The
        countries are the reach, not the subject. */
-    { num:'5', unit:'instruments', head:'One family, measuring health the same way in 35 countries.',
-      body:`EuroQol maintains five instruments. A country is shaded by how many of them are in use there, and the strip below counts the countries each one has reached.`,
-      so:`<b>EQ-5D-5L</b> is at work in <b>${familyReach['5L'].size}</b> countries and <b>EQ-5D-3L</b> in <b>${familyReach['3L'].size}</b>, which is what lets a health outcome in Japan be set beside one in Brazil. The youth versions are already in <b>${familyReach['Y-3L'].size}</b> and <b>${familyReach['Y-5L'].size}</b>, and <b>EQ-HWB</b>, the newest, has reached <b>${familyReach['HWB'].size}</b> in its first years.`,
+    { num:String(ESTABLISHED.length), unit:'instruments', head:'One scale, in use in 35 countries.',
+      body:`EuroQol maintains four instruments. A country is shaded by how many of them are in use there, and the strip below counts the countries each measure has reached.`,
+      so:`<b>EQ-5D-5L</b> is at work in <b>${familyReach['5L'].size}</b> countries and <b>EQ-5D-3L</b> in <b>${familyReach['3L'].size}</b>, which is what lets a health outcome in Japan be set beside one in Brazil. The youth versions carry that into paediatrics in <b>${familyReach['Y-3L'].size}</b> and <b>${familyReach['Y-5L'].size}</b> countries, and <b>EQ-HWB</b> has reached <b>${familyReach['HWB'].size}</b> while still in development.`,
       layout:'projectMap' },
 
     { num:fmt(projects.length), unit:'projects', head:'Funded every single year since 2012.',
@@ -451,7 +460,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       const mapBox = geoPath(proj).bounds(inhabited)
       for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
       const per = {}
-      for (const [c, set] of Object.entries(familyIn)) per[c] = set.size
+      for (const [c, set] of Object.entries(familyIn))
+        per[c] = ESTABLISHED.filter(([, short]) => set.has(short)).length
       const centroid = {}
       for (const f of inhabited.features){
         const c = geoPath(proj).centroid(f)
@@ -460,9 +470,9 @@ export function initStory(DATA, TOPO, root, options = {}){
       // The strip under the map: how many countries each version has reached.
       // It is the finding the map alone cannot state, that the newest members
       // of the family are in half as many places as the flagship.
-      const reach = FAMILY.map(([, short]) => ({ short, n:familyReach[short].size }))
+      const reach = FAMILY.map(([, short, , note]) => ({ short, note, n:familyReach[short].size }))
       out.furn = { kind:'map', b, proj, centroid, per, unplaced:0, entityKind:'instrument',
-                   peak: FAMILY.length, detail: countryDetail, familyIn, reach,
+                   peak: ESTABLISHED.length, detail: countryDetail, familyIn, reach,
                    mapBottom: mapBox[1][1],
                    totalCountries: Object.keys(countryDetail).length }
       return { pos: out, furn: out.furn }
@@ -896,12 +906,13 @@ export function initStory(DATA, TOPO, root, options = {}){
             ctx.fill()
           }
           ctx.fillStyle = ink(.42); ctx.textAlign = 'left'
-          ctx.fillText(`${r.n}`, f.b.x0 + labelW + r.n * step + 7, y)
+          ctx.fillText(`${r.n}${r.note ? `  ${r.note}` : ''}`,
+                       f.b.x0 + labelW + r.n * step + 7, y)
           ctx.textAlign = 'right'
         })
         ctx.textAlign = 'left'; ctx.fillStyle = ink(.34)
         ctx.font = `500 11px 'IBM Plex Mono', ui-monospace, monospace`
-        ctx.fillText(`countries where each version has been used, of ${f.totalCountries}`,
+        ctx.fillText(`countries where each measure has been used, of ${f.totalCountries}`,
                      f.b.x0, y0 + 5 * 12 + 6)
         ctx.textBaseline = 'alphabetic'
       }
