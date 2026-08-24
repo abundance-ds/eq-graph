@@ -73,14 +73,6 @@ const limits = [
     </header>
     <SiteNav current="about" />
 
-    <!-- EXPERIMENT. A dune field, drawn rather than photographed, running the
-         full width under the opening. It is the corpus as a picture: a surface
-         made of thousands of separate grains that reads as one form from a
-         distance. Nothing is read over it — it stops above the first line. -->
-    <div class="ab-art" aria-hidden="true">
-      <img src="/img/dunes.svg" alt="" loading="eager">
-    </div>
-
     <section class="ab-hero">
       <p class="ab-eyebrow">EQ-Graph, a EuroQol seed grant</p>
       <!-- No span of years in the headline: the records we hold start in 2012,
@@ -165,7 +157,9 @@ const limits = [
    of a template being filled in. Here the only horizontal rule is under the
    headline; everything else is separated by how far apart it sits. */
 .ab{
-  position:relative;
+  /* Deliberately NOT position:relative. .ab-top is absolute, so making this a
+     containing block measures the mark from the reading column instead of the
+     page, and it drifts inward by whatever the column's offset is. */
   --measure:62ch;
   --gut:clamp(1.5rem, 4vw, 3rem);
   max-width:min(1140px, 100% - var(--gut) * 2);
@@ -174,32 +168,26 @@ const limits = [
   font:16px/1.68 var(--font-body,'Instrument Sans',sans-serif);
 }
 
-/* Pinned to the page, so it lands where the home page puts it. */
-.ab-top{ position:absolute; left:var(--gut); top:1.55rem; z-index:5; }
+/* Pinned to the page, and to the home page's own numbers rather than to this
+   page's gutter. The gutter is fluid (4vw between breakpoints) while the story
+   uses a fixed 3rem, so on a mid-width screen the mark sat in a different place
+   on each page. It is the same mark; it does not get to move. */
+.ab-top{ position:absolute; left:3rem; top:1.55rem; z-index:5; }
 .ab-top a{ display:block; }
+@media (max-width:900px){
+  .ab-top{ left:1.5rem; top:1.2rem; }
+}
 /* The nav is positioned against --pad on the story, so this page has to hand it
    the same value or the two would not line up between screens. */
 .ab{ --pad:var(--gut); }
 .ab-logo{ height:27px; width:auto; display:block; }
-@media (max-width:900px){ .ab-top{ left:var(--gut); } .ab-logo{ height:22px; } }
+@media (max-width:900px){ .ab-logo{ height:22px; } }
 
-.ab-hero{ padding-top:min(46vh, 380px); position:relative; z-index:1; }
+.ab-hero{ padding-top:10rem; }
 
 /* Held to the right half and faded out towards the text, so the headline sits
    on plain ground and the image is the room it sits in. Nothing is read over
    it, which is the difference between a background and a decoration. */
-.ab-art{
-  /* Full bleed, out of the reading column, sat at the top of the page. The
-     header sits over it, which is why it fades out at the top as well as the
-     bottom. */
-  position:absolute; top:0; left:calc(50% - 50vw); z-index:0;
-  width:100vw; height:min(56vh, 460px);
-  pointer-events:none; overflow:hidden;
-  -webkit-mask-image:linear-gradient(#000 0%, #000 52%, transparent 100%);
-  mask-image:linear-gradient(#000 0%, #000 52%, transparent 100%);
-}
-.ab-art img{ width:100%; height:100%; display:block; object-fit:cover; opacity:1; }
-@media (max-width:900px){ .ab-art{ height:min(40vh, 300px); } }
 .ab-eyebrow{
   margin:0 0 1.5rem; color:var(--ink-3,#8e8e86);
   font:400 .95rem/1 var(--font-body,sans-serif);
