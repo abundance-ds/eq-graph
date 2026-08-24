@@ -203,8 +203,10 @@ onBeforeUnmount(() => {
 
         <div class="sh-track" data-track />
 
+        <!-- The top rule ran the full width under the mark and the menu and
+             underlined nothing: the header is already separated by space. The
+             bottom one still closes the fold, so it stays. -->
         <div class="sh-frame" aria-hidden="true">
-          <span class="rule-t" />
           <span class="rule-b" />
         </div>
 

@@ -73,6 +73,14 @@ const limits = [
     </header>
     <SiteNav current="about" />
 
+    <!-- EXPERIMENT. One image, behind the opening only, held to the right so
+         the sentence never crosses it. It is the instrument's own subject:
+         a surface made of thousands of separate points that reads as one form
+         from a distance, which is what a corpus of studies is. -->
+    <div class="ab-art" aria-hidden="true">
+      <img src="/img/ridge.png" alt="" width="849" height="1200" loading="eager">
+    </div>
+
     <section class="ab-hero">
       <p class="ab-eyebrow">EQ-Graph, a EuroQol seed grant</p>
       <!-- No span of years in the headline: the records we hold start in 2012,
@@ -157,6 +165,7 @@ const limits = [
    of a template being filled in. Here the only horizontal rule is under the
    headline; everything else is separated by how far apart it sits. */
 .ab{
+  position:relative;
   --measure:62ch;
   --gut:clamp(1.5rem, 4vw, 3rem);
   max-width:min(1140px, 100% - var(--gut) * 2);
@@ -174,7 +183,34 @@ const limits = [
 .ab-logo{ height:27px; width:auto; display:block; }
 @media (max-width:900px){ .ab-top{ left:var(--gut); } .ab-logo{ height:22px; } }
 
-.ab-hero{ padding-top:10rem; }
+.ab-hero{ padding-top:10rem; position:relative; z-index:1; }
+
+/* Held to the right half and faded out towards the text, so the headline sits
+   on plain ground and the image is the room it sits in. Nothing is read over
+   it, which is the difference between a background and a decoration. */
+.ab-art{
+  position:absolute; top:0; right:0; z-index:0;
+  /* Narrow enough to clear the reading column, and it stops above the counts:
+     at full height it washed over "35 countries" and "47 value sets", which is
+     the one thing a background must never do. */
+  width:min(34vw, 470px); height:min(72vh, 640px);
+  pointer-events:none; overflow:hidden;
+  /* The vertical fade lives here and the horizontal one on the image, so each
+     element carries a single mask. Stacking both on one element needs
+     mask-composite, which Safari spells differently and applies unevenly, and
+     the bottom edge was cutting straight across. */
+  -webkit-mask-image:linear-gradient(#000 58%, transparent 100%);
+  mask-image:linear-gradient(#000 58%, transparent 100%);
+}
+.ab-art img{
+  width:100%; height:100%; object-fit:cover; object-position:60% 34%;
+  /* Gone entirely by the time it reaches the text, and softened at every other
+     edge so it sits in the page rather than being pasted onto it. */
+  -webkit-mask-image:linear-gradient(95deg, transparent 0%, rgba(0,0,0,.5) 36%, #000 66%);
+  mask-image:linear-gradient(95deg, transparent 0%, rgba(0,0,0,.5) 36%, #000 66%);
+  opacity:.5;
+}
+@media (max-width:900px){ .ab-art{ display:none; } }
 .ab-eyebrow{
   margin:0 0 1.5rem; color:var(--ink-3,#8e8e86);
   font:400 .95rem/1 var(--font-body,sans-serif);

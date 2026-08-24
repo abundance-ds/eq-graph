@@ -12,8 +12,8 @@ const ease = t => t * t * (3 - 2 * t)
 /* Most of the runway is hold, not transition. Give the change more room and a
    settled scene exists at one scroll position only, which reads as broken. */
 const storyTiming = () => window.innerWidth <= 640
-  ? { intro:1.45, hold:0.94, transition:0.26, handover:1 }
-  : { intro:1.35, hold:0.78, transition:0.22, handover:1 }
+  ? { intro:1.45, hold:0.86, transition:0.34, handover:1 }
+  : { intro:1.35, hold:0.68, transition:0.32, handover:1 }
 
 // Read once from the CSS tokens. Never state a colour below this line.
 const rgb = (css, name, fallback) => {
@@ -1125,13 +1125,36 @@ export function initStory(DATA, TOPO, root, options = {}){
     root.dataset.storyTransition = progress.toFixed(3)
   }
 
+  /* The story is rendered from a position that chases the scroll rather than
+     from the scroll itself.
+
+     A trackpad delivers scroll in uneven lumps, and a transition here is about
+     a fifth of a screen, so one flick could cross a whole change in a couple of
+     frames: the chart appeared to jump and the sentence with it. The rendered
+     position now eases toward the real one, so the same flick becomes a glide
+     and nothing crosses faster than the eye can follow.
+
+     The page itself never moves differently — the stage is pinned. Only the
+     story inside it is damped, so this costs nothing in scroll feel. */
+  let shownAt = null
   function update(){
     ticking = false
     const vh = window.innerHeight
     const r = scroller.getBoundingClientRect()
     const timing = storyTiming()
     const introLen = timing.intro * vh
-    const scrolled = -r.top
+    const target = -r.top
+
+    if (shownAt === null) shownAt = target
+    const gap = target - shownAt
+    // Snap when close, or it creeps for ever and never settles.
+    if (Math.abs(gap) < 0.6) shownAt = target
+    else shownAt += gap * 0.16
+    // Never fall more than a screen behind, so a long fling still lands.
+    if (Math.abs(target - shownAt) > vh) shownAt = target - Math.sign(gap) * vh
+    const scrolled = shownAt
+    // Keep drawing until it has caught up.
+    if (shownAt !== target && !ticking){ ticking = true; requestAnimationFrame(update) }
 
     if (scrolled < introLen){
       const t = Math.max(0, scrolled / introLen)
