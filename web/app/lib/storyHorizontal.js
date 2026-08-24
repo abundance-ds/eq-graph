@@ -177,38 +177,45 @@ export function initStory(DATA, TOPO, root, options = {}){
   const eqStudies = studies.filter(s => (s.instruments || []).some(i => /^EQ[- ]/i.test(String(i))))
   const eqShare = studies.length ? Math.round((eqStudies.length / studies.length) * 100) : 0
 
-  /* Five folds, in order: where, when, who, what it measures, what is left.
-     Each carries `num` with its `unit` at the same size, and a `so` line that
-     says why the number matters. Do not add `art:` — it draws decoration over
-     the chart. */
+  /* Order: who does the work, how it is organised, how it grew, where it
+     reaches, what is in it. The network opens because it is the only fold that
+     moves under the reader's hand, and an opening should be the thing worth
+     staying for. The matrix closes because it is the detail you arrive at once
+     you care.
+
+     REVIEW PENDING on the instrument map. It is the fold most likely to change:
+     its counts exclude evidence syntheses, which is a judgement about what
+     CONDUCTED_IN means, and that is still an open question for Paul.
+
+     Each beat carries `num` with its `unit` at the same size, and a `so` line
+     that says why the number matters. Do not add `art:` — it draws decoration
+     over the chart. */
   const BEATS = [
-    /* Fold 1 counts instruments, so its number is an instrument number. The
-       countries are the reach, not the subject. */
-    { num:String(ESTABLISHED.length), unit:'instruments', head:'One scale, in use in 35 countries.',
-      body:`EuroQol maintains four instruments. A country is shaded by how many of them are in use there, and the strip below counts the countries each measure has reached.`,
-      so:`<b>EQ-5D-5L</b> is at work in <b>${familyReach['5L'].size}</b> countries and <b>EQ-5D-3L</b> in <b>${familyReach['3L'].size}</b>, which is what lets a health outcome in Japan be set beside one in Brazil. The youth versions carry that into paediatrics in <b>${familyReach['Y-3L'].size}</b> and <b>${familyReach['Y-5L'].size}</b> countries, and <b>EQ-HWB</b> has reached <b>${familyReach['HWB'].size}</b> while still in development.`,
-      layout:'projectMap' },
-
-    { num:fmt(projects.length), unit:'projects', head:'Funded every single year since 2012.',
-      body:`<b>${fmt(datedProjects.length)}</b> projects carry a start year, from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each dot is one project, and beside it each year's papers, one dot each.`,
-      so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and <b>${projectYears[projectYears.length - 1]}</b> is already funded. <b>${fmt(studies.length)}</b> of those projects have had their papers read in full and turned into structured evidence, and that number grows with every pass through the corpus.`,
-      layout:'projectYears' },
-
     { num:fmt((options.coauthors && options.coauthors.nodes && options.coauthors.nodes.length) || 0), unit:'researchers',
       head:'A field that keeps working with itself.',
       body:`<b>${fmt(evidence.publications || 0)}</b> published papers carry <b>${fmt(evidence.findings || 0)}</b> extracted findings, written by researchers who return to each other again and again.`,
       so:`Each circle is an author and its size is their published work. A line means two people wrote a paper together, and it thickens the more often they did. What it shows is a dense middle, which is what two decades of funding builds: not a list of grant holders, but a field that collaborates.`,
       layout:'chartBlank', chart:'coauthorNetwork' },
 
-    { num:fmt(studies.length), unit:'studies read', head:'Read in full, and turned into evidence you can query.',
-      body:`<b>${fmt(studies.length)}</b> studies have been read end to end and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
-      so:`<b>${fmt(eqStudies.length)}</b> of them put a EuroQol instrument to work. Measurement property evaluation is the largest body at <b>${fmt((series.studyTypes || []).find(r => /measurement/i.test(r.label))?.value || 0)}</b> studies, which is the work that earns an instrument its place in a trial or a national survey.`,
-      layout:'chartBlank', chart:'coverageMatrix' },
-
     { num:String(groups.length), unit:'working groups', head:'Seven programmes, each with its own line of work.',
       body:`Every funded project sits with a working group. Each dot is one project, so the length of a row is what that group has funded.`,
       so:`<b>${leadingGroups[0]?.[0] || '—'}</b> leads with <b>${fmt(leadingGroups[0]?.[1] || 0)}</b> projects, followed by <b>${leadingGroups[1]?.[0] || '—'}</b> at <b>${fmt(leadingGroups[1]?.[1] || 0)}</b>. Roughly a fifth of the portfolio is funded by two groups together, which is where valuation methods meet youth measurement and new instruments get built.`,
       layout:'chartBlank', chart:'groupPapers' },
+
+    { num:fmt(projects.length), unit:'projects', head:'Funded every single year since 2012.',
+      body:`<b>${fmt(datedProjects.length)}</b> projects carry a start year, from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each dot is one project, and beside it each year's papers, one dot each.`,
+      so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and <b>${projectYears[projectYears.length - 1]}</b> is already funded. <b>${fmt(studies.length)}</b> of those projects have had their papers read in full and turned into structured evidence, and that number grows with every pass through the corpus.`,
+      layout:'projectYears' },
+
+    { num:String(ESTABLISHED.length), unit:'instruments', head:'One scale, in use in 35 countries.',
+      body:`EuroQol maintains four instruments. A country is shaded by how many of them are in use there, and the strip below counts the countries each measure has reached.`,
+      so:`<b>EQ-5D-5L</b> is at work in <b>${familyReach['5L'].size}</b> countries and <b>EQ-5D-3L</b> in <b>${familyReach['3L'].size}</b>, which is what lets a health outcome in Japan be set beside one in Brazil. The youth versions carry that into paediatrics in <b>${familyReach['Y-3L'].size}</b> and <b>${familyReach['Y-5L'].size}</b> countries, and <b>EQ-HWB</b> has reached <b>${familyReach['HWB'].size}</b> while still in development.`,
+      layout:'projectMap' },
+
+    { num:fmt(studies.length), unit:'studies read', head:'Read in full, and turned into evidence you can query.',
+      body:`<b>${fmt(studies.length)}</b> studies have been read end to end and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
+      so:`<b>${fmt(eqStudies.length)}</b> of them put a EuroQol instrument to work. Measurement property evaluation is the largest body at <b>${fmt((series.studyTypes || []).find(r => /measurement/i.test(r.label))?.value || 0)}</b> studies, which is the work that earns an instrument its place in a trial or a national survey.`,
+      layout:'chartBlank', chart:'coverageMatrix' },
   ]
 
 
