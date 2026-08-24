@@ -173,30 +173,32 @@ export function initStory(DATA, TOPO, root, options = {}){
      says why the number matters. Do not add `art:` — it draws decoration over
      the chart. */
   const BEATS = [
-    { num:fmt(counts.country || 0), unit:'countries', head:'The family has not travelled evenly.',
-      body:`EuroQol has funded <b>${fmt(projects.length)}</b> projects across <b>${fmt(counts.country || 0)}</b> countries. A country is shaded by how many of the five EQ instruments have actually been used there, and the strip below counts the countries each version has reached.`,
-      so:`<b>EQ-5D-5L</b> is in <b>${familyReach['5L'].size}</b> countries, but <b>EQ-5D-Y-5L</b> and <b>EQ-HWB</b> are in <b>${familyReach['Y-5L'].size}</b> and <b>${familyReach['HWB'].size}</b>. The newest members of the family are in half as many places as the flagship, which is where the next decade of adoption has to happen. Reviews are not counted: a paper that surveys a country is not research carried out in it.`,
+    /* Fold 1 counts instruments, so its number is an instrument number. The
+       countries are the reach, not the subject. */
+    { num:'5', unit:'instruments', head:'One family, measuring health the same way in 35 countries.',
+      body:`EuroQol maintains five instruments. A country is shaded by how many of them are in use there, and the strip below counts the countries each one has reached.`,
+      so:`<b>EQ-5D-5L</b> is at work in <b>${familyReach['5L'].size}</b> countries and <b>EQ-5D-3L</b> in <b>${familyReach['3L'].size}</b>, which is what lets a health outcome in Japan be set beside one in Brazil. The youth versions are already in <b>${familyReach['Y-3L'].size}</b> and <b>${familyReach['Y-5L'].size}</b>, and <b>EQ-HWB</b>, the newest, has reached <b>${familyReach['HWB'].size}</b> in its first years.`,
       layout:'projectMap' },
 
-    { num:fmt(projects.length), unit:'projects', head:'Funding every year, and reading still catching up.',
+    { num:fmt(projects.length), unit:'projects', head:'Funded every single year since 2012.',
       body:`<b>${fmt(datedProjects.length)}</b> projects carry a start year, from ${projectYears[0]} to ${projectYears[projectYears.length - 1]}. Each dot is one project, and beside it each year's papers, one dot each.`,
-      so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects. The papers column is shorter everywhere, and that is a gap in <i>our reading</i>, not in the research: <b>${fmt(studies.length)}</b> papers have been read of a portfolio of <b>${fmt(projects.length)}</b>, so this column grows as the corpus does.`,
+      so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and <b>${projectYears[projectYears.length - 1]}</b> is already funded. <b>${fmt(studies.length)}</b> of those projects have had their papers read in full and turned into structured evidence, and that number grows with every pass through the corpus.`,
       layout:'projectYears' },
 
     { num:fmt((options.coauthors && options.coauthors.nodes && options.coauthors.nodes.length) || 0), unit:'researchers',
-      head:'The research is done by a community, not by one group.',
-      body:`<b>${fmt(evidence.publications || 0)}</b> published papers carry <b>${fmt(evidence.findings || 0)}</b> extracted findings, written by researchers who keep working with each other.`,
-      so:`The circles are the busiest authors and their size is how many papers they have. A line means two people wrote together, and it thickens the more often they did. What it shows is a field with a dense middle, which is what a funded community looks like after two decades.`,
+      head:'A field that keeps working with itself.',
+      body:`<b>${fmt(evidence.publications || 0)}</b> published papers carry <b>${fmt(evidence.findings || 0)}</b> extracted findings, written by researchers who return to each other again and again.`,
+      so:`Each circle is an author and its size is their published work. A line means two people wrote a paper together, and it thickens the more often they did. What it shows is a dense middle, which is what two decades of funding builds: not a list of grant holders, but a field that collaborates.`,
       layout:'chartBlank', chart:'coauthorNetwork' },
 
-    { num:fmt(studies.length), unit:'studies read', head:'Every study read so far, by what it studied and what it used.',
-      body:`<b>${fmt(studies.length)}</b> studies have been read in full and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
-      so:`<b>${fmt(eqStudies.length)}</b> of them use at least one EuroQol instrument. The family runs from EQ-5D-5L through the youth versions to EQ-HWB, each built for people the version before it did not serve.`,
+    { num:fmt(studies.length), unit:'studies read', head:'Read in full, and turned into evidence you can query.',
+      body:`<b>${fmt(studies.length)}</b> studies have been read end to end and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
+      so:`<b>${fmt(eqStudies.length)}</b> of them put a EuroQol instrument to work. Measurement property evaluation is the largest body at <b>${fmt((series.studyTypes || []).find(r => /measurement/i.test(r.label))?.value || 0)}</b> studies, which is the work that earns an instrument its place in a trial or a national survey.`,
       layout:'chartBlank', chart:'coverageMatrix' },
 
-    { num:String(groups.length), unit:'working groups', head:'The portfolio is not one programme but several.',
+    { num:String(groups.length), unit:'working groups', head:'Seven programmes, each with its own line of work.',
       body:`Every funded project sits with a working group. Each dot is one project, so the length of a row is what that group has funded.`,
-      so:`<b>${leadingGroups[0]?.[0] || '—'}</b> is the largest with <b>${fmt(leadingGroups[0]?.[1] || 0)}</b> projects, and the newest groups are the shortest rows because they have had less time, not less success. Papers are deliberately not shown beside this: the groups are different ages, so a published-share compared across them would mislead.`,
+      so:`<b>${leadingGroups[0]?.[0] || '—'}</b> leads with <b>${fmt(leadingGroups[0]?.[1] || 0)}</b> projects, followed by <b>${leadingGroups[1]?.[0] || '—'}</b> at <b>${fmt(leadingGroups[1]?.[1] || 0)}</b>. Roughly a fifth of the portfolio is funded by two groups together, which is where valuation methods meet youth measurement and new instruments get built.`,
       layout:'chartBlank', chart:'groupPapers' },
   ]
 
@@ -299,6 +301,13 @@ export function initStory(DATA, TOPO, root, options = {}){
   }
 
   const land = feature(TOPO, TOPO.objects.countries)
+  /* Antarctica is a third of the world's height and holds no research. Fitting
+     the map to it shrank everything else and pushed the inhabited world up into
+     the top half of the frame, which is what made the map look small and badly
+     placed. The projection is fitted to, and the map drawn from, the land people
+     actually live on. */
+  const inhabited = { type:'FeatureCollection',
+    features: land.features.filter(f => f.properties.name !== 'Antarctica') }
 
   const layouts = []
   let furniture = []
@@ -420,17 +429,31 @@ export function initStory(DATA, TOPO, root, options = {}){
          so shading by that again here says the same thing twice. This asks a
          different question of the same geography: not how much, but how many
          of the five instruments have actually been used. */
-      const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 74]], land)
+      /* The world is about twice as wide as it is tall, and the field is not,
+         so width always binds and the map is left floating in the middle of the
+         box with dead air above and below. Fit to the width, then lift it to
+         the top so the space it does not need is all in one place, under the
+         map, where the strip goes. */
+      const proj = geoNaturalEarth1().fitWidth(b.x1 - b.x0, inhabited)
+      const fitted = geoPath(proj).bounds(inhabited)
+      const mapH = fitted[1][1] - fitted[0][1]
+      const STRIP_H = 5 * 12 + 30              // five rows and the caption
+      // Map and strip travel together as one block, centred in the field, so
+      // the space the map cannot use is shared above and below rather than all
+      // dumped underneath it.
+      const top = b.y0 + Math.max(0, (bh - mapH - STRIP_H) / 2)
+      const tr = proj.translate()
+      proj.translate([tr[0] + (b.x0 - fitted[0][0]), tr[1] + (top - fitted[0][1])])
       /* The projection preserves the world's aspect ratio, so it never fills
          the box: it leaves a band above and below. Measure where the drawing
          actually ends and hang the strip off that, or the strip floats a long
          way under the map with nothing between them. */
-      const mapBox = geoPath(proj).bounds(land)
+      const mapBox = geoPath(proj).bounds(inhabited)
       for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
       const per = {}
       for (const [c, set] of Object.entries(familyIn)) per[c] = set.size
       const centroid = {}
-      for (const f of land.features){
+      for (const f of inhabited.features){
         const c = geoPath(proj).centroid(f)
         if (!isNaN(c[0])) centroid[f.properties.name] = c
       }
@@ -807,12 +830,12 @@ export function initStory(DATA, TOPO, root, options = {}){
 
       // Every country first, as the quietest possible ground. It is the shape
       // of the world, not a data mark, so it sits well below the shaded ones.
-      ctx.beginPath(); path(land)
+      ctx.beginPath(); path(inhabited)
       ctx.fillStyle = ink(.045); ctx.fill()
       ctx.strokeStyle = ink(.10); ctx.lineWidth = .6; ctx.stroke()
 
           /* Square-root ramp. Linear leaves everything below the leader blank. */
-      for (const feat of land.features){
+      for (const feat of inhabited.features){
         const n = f.per[feat.properties.name]
         if (!n) continue
         const t = Math.sqrt(n / f.peak)
@@ -854,7 +877,7 @@ export function initStory(DATA, TOPO, root, options = {}){
          here"; this answers "how far has each member got", which the shading
          cannot say. One dot is one country, the same mark the other folds use. */
       if (f.reach){
-        const y0 = Math.min(f.b.y1 - 58, (f.mapBottom || f.b.y1 - 74) + 30)
+        const y0 = (f.mapBottom || f.b.y1 - 90) + 30
         const labelW = 46
         const maxN = Math.max(1, ...f.reach.map(r => r.n))
         const room = f.b.x1 - f.b.x0 - labelW - 44

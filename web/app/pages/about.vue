@@ -65,9 +65,13 @@ const limits = [
          same pixel as the home page. Inside the centred column it drifted to
          wherever that column began, which is why it looked like it had moved. -->
     <header class="ab-top">
-      <img class="ab-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
-      <NuxtLink to="/" class="ab-back">← Back</NuxtLink>
+      <!-- The mark is the way home, which is where a reader already looks for
+           it. A separate Back button said the same thing twice. -->
+      <NuxtLink to="/" aria-label="EuroQol home">
+        <img class="ab-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
+      </NuxtLink>
     </header>
+    <SiteNav current="about" />
 
     <section class="ab-hero">
       <p class="ab-eyebrow">EQ-Graph, a EuroQol seed grant</p>
@@ -161,17 +165,14 @@ const limits = [
 
 /* Pinned to the page, so it lands where the home page puts it. */
 .ab-top{ position:absolute; left:var(--gut); top:1.55rem; z-index:5; }
+.ab-top a{ display:block; }
+/* The nav is positioned against --pad on the story, so this page has to hand it
+   the same value or the two would not line up between screens. */
+.ab{ --pad:var(--gut); }
 .ab-logo{ height:27px; width:auto; display:block; }
-.ab-back{
-  display:inline-block; margin-top:1.1rem;
-  color:var(--ink-1,#1a1a17); text-decoration:none;
-  font-size:.95rem; font-weight:600;
-}
-.ab-back:hover{ color:var(--accent,#007d6c); }
-.ab-back:focus-visible{ outline:2px solid var(--accent,#007d6c); outline-offset:3px; border-radius:3px; }
 @media (max-width:900px){ .ab-top{ left:var(--gut); } .ab-logo{ height:22px; } }
 
-.ab-hero{ padding-top:12rem; }
+.ab-hero{ padding-top:10rem; }
 .ab-eyebrow{
   margin:0 0 1.5rem; color:var(--ink-3,#8e8e86);
   font:400 .95rem/1 var(--font-body,sans-serif);

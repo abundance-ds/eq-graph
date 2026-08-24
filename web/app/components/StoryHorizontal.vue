@@ -24,6 +24,14 @@ function enterDirect(source: "skip" | "cta") {
   emit("enter-chat", { source, returnY: window.scrollY });
 }
 
+/* Impact and Research explorer are views of this page, not other pages, so the
+   nav asks us to switch rather than navigating away and losing the scroll. */
+function goSection(to: "impact" | "explore") {
+  if (to === "explore") { enterDirect("cta"); return; }
+  const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
+  root?.__story?.goToBeat(0);
+}
+
 onMounted(async () => {
   const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
   if (!root) return;
@@ -131,7 +139,7 @@ onBeforeUnmount(() => {
 
         <img class="sh-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
 
-        <NuxtLink to="/about" class="sh-about">About</NuxtLink>
+        <SiteNav current="impact" :on-go="goSection" />
 
         <button type="button" class="sh-skip" @click="enterDirect('skip')">
           Skip impact <span aria-hidden="true">→</span>

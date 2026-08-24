@@ -375,17 +375,6 @@
    The travel is a transform rather than a change of `left`, so it is one
    composited move; the distance is measured in JS because it depends on the
    width of the word and of the stage. */
-/* Top right, always. It is navigation, so it does not move: a control that
-   travels is a different control as far as the reader is concerned. */
-.sh-about{
-  position:absolute; right:var(--pad); top:.75rem; z-index:8;
-  min-height:44px; display:inline-flex; align-items:center;
-  color:var(--ink); font:600 var(--t-body) var(--font-body);
-  text-decoration:none; border-bottom:1px solid transparent;
-  transition:color .15s ease, border-color .15s ease;
-}
-.sh-about:hover{ color:var(--ink); border-bottom-color:var(--rule); }
-.sh-about:focus-visible{ outline:2px solid var(--accent, #007d6c); outline-offset:3px; border-radius:2px; }
 
 /* Bottom right of the visual, not the top bar. Sitting beside About it read as
    a peer of the site navigation, which it is not: it acts on the story you are
