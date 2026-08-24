@@ -908,6 +908,18 @@ export function createStoryCharts(data, root, coauthors = null){
     if (!ev.relatedTarget || !ev.relatedTarget.closest?.('circle.viz-net-node')){ lightsUp(scene); sheenOff(scene) }
   })
 
+  /* Same rule as the country card: a kept selection is a temporary state, and
+     the chart it belongs to slides away as soon as the reader scrolls. */
+  function dropSelection(){
+    if (!held) return
+    held = null
+    for (const scene of scenes.values()){
+      if (!scene.querySelector('.viz-net-panel') && !scene.classList.contains('is-focused')) continue
+      lightsUp(scene); clearPick(scene)
+    }
+  }
+  window.addEventListener('scroll', dropSelection, { passive:true })
+
   host.addEventListener('click', ev => {
     const scene = ev.target.closest('.sh-chart-scene')
     if (!scene) return
@@ -984,5 +996,8 @@ export function createStoryCharts(data, root, coauthors = null){
     }
   }
 
-  return { resize, show, destroy(){ host.innerHTML = '' } }
+  return { resize, show, destroy(){
+    window.removeEventListener('scroll', dropSelection)
+    host.innerHTML = ''
+  } }
 }

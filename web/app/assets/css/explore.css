@@ -23,7 +23,18 @@
   -webkit-font-smoothing:antialiased;
 }
 
+/* Same numbers as the story and the About page, so the mark never moves
+   between screens. Hidden below 900px, where the header itself starts at the
+   page edge and the two would overlap. */
+.chat-logo{
+  position:absolute; left:3rem; top:1.55rem; z-index:20;
+  display:block; line-height:0;
+}
+.chat-logo img{ height:27px; width:auto; display:block; }
+@media (max-width:1180px){ .chat-logo{ display:none; } }
+
 .chat-shell{
+  position:relative;
   width:100%;
   height:100dvh;
   margin:0 auto;
@@ -56,8 +67,8 @@
   gap:.65rem;
 }
 
-.chat-brand img{width:auto; height:19px; flex:none;}
-.chat-brand > span{width:1px; height:17px; background:var(--hairline-strong); flex:none;}
+
+
 .chat-brand strong{
   overflow:hidden;
   color:var(--ink-1);
@@ -68,22 +79,18 @@
   white-space:nowrap;
 }
 
-.chat-back{
-  min-height:44px;
-  padding:0 .55rem;
-  display:inline-flex;
-  align-items:center;
-  gap:.45rem;
-  flex:none;
-  border:0;
-  border-radius:6px;
-  background:transparent;
-  color:var(--ink-2);
-  font-size:.8rem;
-  cursor:pointer;
+.chat-close{
+  position:absolute; right:3rem; top:1.35rem; z-index:20;
+  width:40px; height:40px;
+  display:inline-flex; align-items:center; justify-content:center;
+  border:1px solid var(--hairline); border-radius:999px;
+  background:var(--surface); color:var(--ink-2);
+  font-size:1.15rem; line-height:1; cursor:pointer;
+  transition:border-color .15s ease, color .15s ease;
 }
-.chat-back:hover{background:var(--sunk); color:var(--ink-1);}
-.chat-back:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.chat-close:hover{ border-color:var(--accent); color:var(--accent); }
+.chat-close:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
+@media (max-width:1180px){ .chat-close{ right:1.5rem; top:1rem; } }
 
 /* These are three plain facts about the portfolio, so they are set like
    facts: Instrument Sans at a size you can actually read. They were mono at
@@ -502,7 +509,6 @@
   .chat-head{padding:.65rem 0 .55rem;}
   .chat-brand img{height:17px;}
   .chat-brand strong{font-size:.78rem;}
-  .chat-back{padding:0 .25rem;}
   .chat-data-state{font-size:.61rem; gap:.18rem .45rem;}
   .chat-data-state span::before{margin-right:.45rem;}
   .chat-thread{scrollbar-gutter:auto;}

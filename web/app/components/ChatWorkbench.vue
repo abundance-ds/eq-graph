@@ -270,16 +270,26 @@ onMounted(() => {
     <div :class="['chat-shell', started ? 'is-conversation' : 'is-opening']">
       <slot name="toolbar" />
 
+      <!-- The mark is pinned to the page, not carried inside the centred
+           header, so it lands on the same pixel here as on the story and the
+           About page. In the header it sat wherever that column began. -->
+      <a class="chat-logo" href="/" aria-label="EuroQol home">
+        <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
+      </a>
+
+      <!-- Close, not Back. This is a view over the story rather than a page
+           after it, so the reader is dismissing something, not retreating. It
+           sits top right where a close always sits, opposite the mark. -->
+      <button type="button" class="chat-close" @click="emit('back')" aria-label="Close the research explorer">
+        <span aria-hidden="true">×</span>
+      </button>
+
       <header class="chat-head">
         <div class="chat-head-main">
           <div class="chat-brand">
-            <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="116" height="19">
-            <span aria-hidden="true" />
             <strong :id="titleId">Research explorer</strong>
           </div>
-          <button type="button" class="chat-back" @click="emit('back')">
-            <span aria-hidden="true">←</span> {{ backLabel }}
-          </button>
+
         </div>
 
         <div

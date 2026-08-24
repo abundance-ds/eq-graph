@@ -116,7 +116,16 @@ async function restoreAt(top: number) {
 
 defineExpose({ restoreAt });
 
+/* Anything opened by a click is temporary and closes when the reader moves on.
+   The card is pinned to a country on a map that scrolls away underneath it, so
+   left open it ends up floating over a different fold entirely. */
+function dismissOnScroll() {
+  if (picked.value) picked.value = null;
+}
+onMounted(() => window.addEventListener("scroll", dismissOnScroll, { passive: true }));
+
 onBeforeUnmount(() => {
+  window.removeEventListener("scroll", dismissOnScroll);
   disposed = true;
   story?.destroy?.();
   globe?.destroy?.();

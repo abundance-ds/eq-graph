@@ -258,12 +258,18 @@ export function initStory(DATA, TOPO, root, options = {}){
     const hit = land.features.find(feat => geoContains(feat, ll))
     if (!hit){ onSelectCountry(null); return }
     const name = hit.properties.name
+    /* A country with nothing in it opens nothing. Clicking unshaded ground was
+       returning a card of three zeros, which tells the reader the click worked
+       and nothing else. The shading already says where the research is. */
+    const row = liveMap.detail[name]
+    if (!row || !(row.projects || row.studies || row.findings)){ onSelectCountry(null); return }
+
     // The card carries which versions have been used, in family order, so a
     // reader can answer "is the one I need in use here" without leaving the map.
     const have = liveMap.familyIn?.[name]
     onSelectCountry({
       name,
-      ...(liveMap.detail[name] || { projects:0, studies:0, findings:0 }),
+      ...row,
       family: liveMap.reach ? liveMap.reach.map(r => ({ short:r.short, has:!!have?.has(r.short) })) : null,
     })
   }
