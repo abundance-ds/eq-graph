@@ -688,24 +688,6 @@
 .sh-chart-scene.is-focused .viz-net-name.is-faded,
 .sh-chart-scene.is-focused .viz-net-count.is-faded{ opacity:.10; }
 
-/* The chart comes apart between folds, the same way the canvas field does.
-   `--burst` is 0 on a settled fold and rises to 1 halfway through a crossing,
-   so nothing here moves while a chart is being read. transform-box keeps an
-   SVG element's transform in its own space rather than the viewport's. */
-.sh-chart-scene{ --burst:0; --bx:0px; --by:0px; }
-.sh-chart-scene svg :is(circle, rect, line, path){
-  transform:translate(calc(var(--bx) * var(--burst)), calc(var(--by) * var(--burst)));
-  transform-box:view-box;
-}
-/* The names travel with their marks but leave sooner: type smears when it
-   moves, so it is gone before the motion is at its widest. */
-.sh-chart-scene svg text{ opacity:calc(1 - var(--burst) * 1.6); }
-
-@media (prefers-reduced-motion: reduce){
-  .sh-chart-scene svg :is(circle, rect, line, path){ transform:none; }
-  .sh-chart-scene svg text{ opacity:1; }
-}
-
 /* One dot is one thing counted. Same mark in every chart that counts.*/
 .sh-chart-scene .viz-dot{ fill:var(--teal); }
 
