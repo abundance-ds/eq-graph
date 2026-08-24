@@ -81,7 +81,7 @@
      as plain "r,g,b" triples. This is the ONE place the story's colour is
      decided — the drawing code reads these and never hard-codes a value,
      which is what makes this theme a change of tokens and nothing else. */
-  --ground-rgb:244,243,239;              /* the ground the dots sit on */
+  --ground-rgb:252,252,251;              /* the ground the dots sit on */
   --ink-rgb:26,26,23;                    /* type, furniture, particles   */
   --dot-grey-rgb:138,138,130;
   --dot-teal-rgb:0,125,108;              /* #007d6c, the EuroQol green */
@@ -98,7 +98,7 @@
   --gut:1.5rem;                          /* the grid gutter */
   --col:calc((100% - 11 * var(--gut)) / 12);
 
-  position:relative; background:#f4f3ef; color:var(--ink);
+  position:relative; background:#fcfcfb; color:var(--ink);
   font-family:var(--font-body);
   -webkit-font-smoothing:antialiased;
 }
@@ -110,7 +110,7 @@
 .sh-scroll{position:relative; height:1613vh;}  /* intro + scenes + a separate chat handover */
 .sh-stage{
   position:sticky; top:0; height:100vh; overflow:hidden;
-  background:#f4f3ef;
+  background:#fcfcfb;
 }
 
 /* the drifting ground — two blooms, very slow, very low */
@@ -119,8 +119,8 @@
   position:absolute; border-radius:50%; filter:blur(100px); opacity:.30;
   will-change:transform;
 }
-.sh-glow i.a{width:52vw; height:52vw; background:radial-gradient(circle, rgba(214,163,60,.34), rgba(214,163,60,0) 68%);}
-.sh-glow i.b{width:46vw; height:46vw; background:radial-gradient(circle, rgba(0,125,108,.26), rgba(0,125,108,0) 68%);}
+.sh-glow i.a{width:52vw; height:52vw; background:radial-gradient(circle, rgba(214,163,60,.16), rgba(214,163,60,0) 70%);}
+.sh-glow i.b{width:46vw; height:46vw; background:radial-gradient(circle, rgba(0,125,108,.14), rgba(0,125,108,0) 70%);}
 @media (prefers-reduced-motion: reduce){ .sh-glow i{animation:none !important;} }
 
 /* the grid, made visible — this is the Swiss part */
@@ -521,7 +521,7 @@
   cursor:pointer;
   transition:background .15s ease, color .15s ease;
 }
-.sh-country-x:hover{background:#f2f2ef; color:#1a1a17;}
+.sh-country-x:hover{background:#f2f2f0; color:#1a1a17;}
 .sh-country-x:focus-visible{outline:2px solid var(--accent, #007d6c); outline-offset:2px;}
 
 /* It arrives, rather than appearing. A short rise with a soft landing reads as
@@ -617,7 +617,7 @@
 .sh-chart-scene .viz-net-node.is-lit{ stroke:#1a1a17; stroke-width:2.2; }
 /* A plate of the page colour behind each name. A name laid over crossing lines
    is unreadable however dark it is set. */
-.sh-chart-scene .viz-net-plate{ fill:rgba(244,243,239,.82); }
+.sh-chart-scene .viz-net-plate{ fill:rgba(252,252,251,.86); }
 .sh-chart-scene .viz-net-link.is-faded{ stroke-opacity:.06; }
 .sh-chart-scene .viz-net-node.is-picked{ stroke:#1a1a17; stroke-width:2.4; }
 /* Only darken lines once someone is actually being followed.
@@ -699,6 +699,24 @@
 .sh-chart-scene.is-focused .viz-net-name.is-faded,
 .sh-chart-scene.is-focused .viz-net-count.is-faded{ opacity:.10; }
 
+/* The chart comes apart between folds, the same way the canvas field does.
+   `--burst` is 0 on a settled fold and rises to 1 halfway through a crossing,
+   so nothing here moves while a chart is being read. transform-box keeps an
+   SVG element's transform in its own space rather than the viewport's. */
+.sh-chart-scene{ --burst:0; --bx:0px; --by:0px; }
+.sh-chart-scene svg :is(circle, rect, line, path){
+  transform:translate(calc(var(--bx) * var(--burst)), calc(var(--by) * var(--burst)));
+  transform-box:view-box;
+}
+/* The names travel with their marks but leave sooner: type smears when it
+   moves, so it is gone before the motion is at its widest. */
+.sh-chart-scene svg text{ opacity:calc(1 - var(--burst) * 1.6); }
+
+@media (prefers-reduced-motion: reduce){
+  .sh-chart-scene svg :is(circle, rect, line, path){ transform:none; }
+  .sh-chart-scene svg text{ opacity:1; }
+}
+
 /* One dot is one thing counted. Same mark in every chart that counts.*/
 .sh-chart-scene .viz-dot{ fill:var(--teal); }
 
@@ -710,7 +728,7 @@
   width:28px; height:28px; border:0; border-radius:7px;
   background:none; color:var(--ink-3); font-size:1.15rem; line-height:1; cursor:pointer;
 }
-.viz-net-panel button:hover{ background:#f2f2ef; color:var(--ink); }
+.viz-net-panel button:hover{ background:#f2f2f0; color:var(--ink); }
 
 /* Only the network fold takes clicks. Charts are otherwise decoration on a
    scrolling page and should not intercept the pointer. */

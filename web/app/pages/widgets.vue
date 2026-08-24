@@ -664,7 +664,7 @@ const RUNTIME_WIDGETS: any[] = [
 /* The tokens. The figures read these, and one change swaps the whole mode. */
 .viz-root {
   color-scheme: light;
-  --surface: #f4f3ef;
+  --surface: #fcfcfb;
   --raised: #ffffff;
   --ink-primary: #1a1a17;
   --ink-secondary: #5c5c56;

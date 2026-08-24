@@ -50,7 +50,7 @@ export const DIVERGING_DARK = { low: "#3987e5", mid: "#343633", high: "#d6a33c" 
 /** The ink and the paper. */
 export const INK = {
   light: {
-    surface: "#f4f3ef",
+    surface: "#fcfcfb",
     raised: "#ffffff",
     primary: "#1a1a17",
     secondary: "#5c5c56",

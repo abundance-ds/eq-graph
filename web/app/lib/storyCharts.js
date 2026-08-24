@@ -917,8 +917,44 @@ export function createStoryCharts(data, root, coauthors = null){
     for (const [id, render] of Object.entries(RENDERERS)){
       // `data` is passed too: most charts only need the studies, but the
       // working-group one counts projects, which are nodes rather than studies.
-      scenes.get(id).innerHTML = render(studies, width, height, data, coauthors)
+      const scene = scenes.get(id)
+      scene.innerHTML = render(studies, width, height, data, coauthors)
+      seedBurst(scene, width, height)
     }
+  }
+
+  /* Every mark gets a heading, once, at build time.
+
+     The canvas folds already come apart between beats because their marks are
+     particles to begin with. The SVG folds only cross-faded, so the story spoke
+     two different languages depending on which chart was leaving. Each mark here
+     is given a fixed direction away from the middle of the scene, and the
+     scene's `--burst` drives all of them at once. Set once per build, so a
+     transition costs one custom property and no per-element work.
+
+     The heading is derived from the mark's own index, not from chance, so a
+     chart comes apart the same way every time rather than boiling. */
+  function seedBurst(scene, width, height){
+    const marks = scene.querySelectorAll('circle, rect, line, path')
+    const cx = width / 2, cy = height / 2
+    marks.forEach((el, i) => {
+      // Outward from the centre where the mark has a position, otherwise on a
+      // stable pseudo-angle, so text and paths still travel.
+      const x = Number(el.getAttribute('cx') ?? el.getAttribute('x') ?? NaN)
+      const y = Number(el.getAttribute('cy') ?? el.getAttribute('y') ?? NaN)
+      let ux, uy
+      if (Number.isFinite(x) && Number.isFinite(y)){
+        const dx = x - cx, dy = y - cy
+        const d = Math.hypot(dx, dy) || 1
+        ux = dx / d; uy = dy / d
+      } else {
+        const a = (i % 89) * 0.0706
+        ux = Math.cos(a); uy = Math.sin(a)
+      }
+      const reach = 34 + ((i * 41) % 60)
+      el.style.setProperty('--bx', `${(ux * reach).toFixed(1)}px`)
+      el.style.setProperty('--by', `${(uy * reach * 0.8).toFixed(1)}px`)
+    })
   }
 
   function show(from, to = from, progress = 0){
@@ -932,6 +968,10 @@ export function createStoryCharts(data, root, coauthors = null){
       else if (id === from) opacity = 1 - eased
       else if (id === to) opacity = eased
       scene.style.opacity = opacity.toFixed(3)
+      // Zero at both ends of the crossing, so a settled chart is never moved.
+      const burst = (from === to || (id !== from && id !== to))
+        ? 0 : Math.sin(Math.max(0, Math.min(1, progress)) * Math.PI)
+      scene.style.setProperty('--burst', burst.toFixed(3))
       // Hit-testing follows what you can see. Without this a faded scene still
       // catches clicks aimed at whatever is behind it.
       scene.classList.toggle('is-live', opacity > 0.5)

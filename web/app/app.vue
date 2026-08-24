@@ -11,11 +11,11 @@
 }
 
 * { box-sizing: border-box; }
-html { margin: 0; background: #f4f3ef; }
+html { margin: 0; background: #fcfcfb; }
 body, #__nuxt { min-height: 100%; margin: 0; }
 body {
   overflow-x: hidden;
-  background: #f4f3ef;
+  background: #fcfcfb;
   color: #1a1a17;
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;

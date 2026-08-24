@@ -29,19 +29,18 @@ const readShare = computed(() => {
 const stages = [
   { n: "01", name: "Assemble the corpus",
     body: "EuroQol's public project database lists the funded projects. Publications are matched to them from the funding acknowledgement in the paper itself.",
-    state: "running" },
+    },
   { n: "02", name: "Agree what to extract",
     body: "A schema of entities and relationships: study, instrument, population, method, country, value set. It is expanded when a paper carries something the categories do not hold.",
-    state: "moving" },
+    },
   { n: "03", name: "Read the full text",
     body: "A model reads each paper and returns structured fields against that schema, each one carrying the sentence it came from.",
-    state: "running" },
+    },
   { n: "04", name: "Check it by hand",
     body: "A person reads a sample and codes it independently, then the two are compared field by field. A pilot of 40 papers has been through this.",
-    state: "pilot" },
+    },
   { n: "05", name: "Make it answerable",
-    body: "The graph behind a page you can read and a question you can ask in plain English, with the source paper attached to every answer.",
-    state: "running" },
+    body: "The graph behind a page you can read and a question you can ask in plain English, with the source paper attached to every answer." },
 ];
 
 // Stated plainly, because a method that hides its edges is harder to trust than
@@ -62,8 +61,9 @@ const limits = [
 
 <template>
   <main class="ab">
-    <!-- The mark sits top left, where it sits on every other screen. Back goes
-         under it, because a way out belongs below the thing it returns to. -->
+    <!-- Pinned to the viewport, not to the reading column, so it lands on the
+         same pixel as the home page. Inside the centred column it drifted to
+         wherever that column began, which is why it looked like it had moved. -->
     <header class="ab-top">
       <img class="ab-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
       <NuxtLink to="/" class="ab-back">← Back</NuxtLink>
@@ -108,7 +108,7 @@ const limits = [
         <li v-for="s in stages" :key="s.n">
           <span class="ab-num">{{ s.n }}</span>
           <div>
-            <h3>{{ s.name }} <em :data-state="s.state">{{ s.state }}</em></h3>
+            <h3>{{ s.name }}</h3>
             <p>{{ s.body }}</p>
           </div>
         </li>
@@ -144,104 +144,99 @@ const limits = [
 </template>
 
 <style scoped>
+/* Hierarchy comes from space and size, not from rules and chips.
+
+   The earlier version fenced every section with a hairline, put each limitation
+   in a bordered box and tagged each stage with a coloured pill. That is the look
+   of a template being filled in. Here the only horizontal rule is under the
+   headline; everything else is separated by how far apart it sits. */
 .ab{
-  --measure:64ch;
-  max-width:min(1080px, 100% - 3rem);
-  margin:0 auto; padding:0 0 6rem;
+  --measure:62ch;
+  --gut:clamp(1.5rem, 4vw, 3rem);
+  max-width:min(1140px, 100% - var(--gut) * 2);
+  margin:0 auto; padding:0 0 9rem;
   color:var(--ink-1,#1a1a17);
-  font:15px/1.6 var(--font-body,'Instrument Sans',sans-serif);
+  font:16px/1.68 var(--font-body,'Instrument Sans',sans-serif);
 }
-.ab-top{
-  display:flex; flex-direction:column; align-items:flex-start; gap:1.15rem;
-  padding:1.55rem 0 3.5rem;
-}
-.ab-logo{height:27px; width:auto;}
+
+/* Pinned to the page, so it lands where the home page puts it. */
+.ab-top{ position:absolute; left:var(--gut); top:1.55rem; z-index:5; }
+.ab-logo{ height:27px; width:auto; display:block; }
 .ab-back{
+  display:inline-block; margin-top:1.1rem;
   color:var(--ink-1,#1a1a17); text-decoration:none;
   font-size:.95rem; font-weight:600;
-  padding:.35rem .1rem;
 }
-.ab-back:hover{color:var(--accent,#007d6c);}
-.ab-back:focus-visible{outline:2px solid var(--accent,#007d6c); outline-offset:3px; border-radius:3px;}
+.ab-back:hover{ color:var(--accent,#007d6c); }
+.ab-back:focus-visible{ outline:2px solid var(--accent,#007d6c); outline-offset:3px; border-radius:3px; }
+@media (max-width:900px){ .ab-top{ left:var(--gut); } .ab-logo{ height:22px; } }
 
+.ab-hero{ padding-top:12rem; }
 .ab-eyebrow{
-  margin:0 0 1.4rem; color:var(--ink-3,#8e8e86);
-  font:500 .82rem/1 var(--font-num,monospace);
-  letter-spacing:.02em;
+  margin:0 0 1.5rem; color:var(--ink-3,#8e8e86);
+  font:400 .95rem/1 var(--font-body,sans-serif);
 }
 .ab-hero h1{
-  margin:0 0 1.6rem; max-width:22ch;
-  font:500 clamp(2.1rem, 5.2vw, 3.4rem)/1.08 var(--font-display,sans-serif);
-  letter-spacing:-.03em;
+  margin:0 0 2rem; max-width:19ch;
+  font:500 clamp(2.4rem, 6vw, 4.1rem)/1.04 var(--font-display,sans-serif);
+  letter-spacing:-.035em;
 }
-.ab-lede{margin:0; max-width:var(--measure); font-size:1.05rem; color:var(--ink-2,#5c5c56);}
-
-/* One rule under the headline figures. They are the page's evidence, so they
-   sit above the prose rather than inside it. */
-.ab-counts{
-  display:grid; gap:1.6rem 1.2rem; margin:4rem 0 1rem;
-  grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));
-  padding-top:1.6rem; border-top:1px solid var(--hairline,#e5e4df);
-}
-.ab-counts div{display:flex; flex-direction:column; gap:.2rem;}
-.ab-counts b{
-  font:500 1.9rem/1 var(--font-num,monospace);
-  letter-spacing:-.02em; font-variant-numeric:tabular-nums;
-}
-.ab-counts span{color:var(--ink-3,#8e8e86); font-size:.84rem;}
-.ab-caveat{
+.ab-lede{
   margin:0; max-width:var(--measure);
-  color:var(--ink-2,#5c5c56); font-size:.9rem;
+  font-size:1.18rem; line-height:1.62; color:var(--ink-2,#5c5c56);
 }
-.ab-caveat b{font-family:var(--font-num,monospace); font-weight:500;}
 
-.ab-block{margin-top:4.5rem;}
+/* The one rule on the page, because these numbers are the evidence and the
+   line is what makes them a set rather than a sentence. */
+.ab-counts{
+  display:grid; gap:2.2rem 1.5rem; margin:6rem 0 1.4rem;
+  grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+  padding-top:2rem; border-top:1px solid var(--hairline,#e8e8e4);
+}
+.ab-counts div{ display:flex; flex-direction:column; gap:.3rem; }
+.ab-counts b{
+  font:400 2.3rem/1 var(--font-body,sans-serif);
+  letter-spacing:-.03em; font-variant-numeric:tabular-nums;
+}
+.ab-counts span{ color:var(--ink-3,#8e8e86); font-size:.9rem; }
+.ab-caveat{ margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56); }
+.ab-caveat b{ font-weight:500; color:var(--ink-1,#1a1a17); }
+
+.ab-block{ margin-top:7rem; }
 .ab-block h2{
-  margin:0 0 1.8rem; padding-bottom:.9rem;
-  border-bottom:1px solid var(--hairline,#e5e4df);
-  font:500 1.28rem/1.2 var(--font-display,sans-serif); letter-spacing:-.02em;
+  margin:0 0 3rem; max-width:var(--measure);
+  font:500 clamp(1.5rem, 2.6vw, 2rem)/1.18 var(--font-display,sans-serif);
+  letter-spacing:-.025em;
 }
 
-/* Numbered because these really are ordered: a paper cannot be read before it
-   has been found. */
-.ab-stages{list-style:none; margin:0; padding:0; display:grid; gap:1.9rem;}
-.ab-stages li{display:grid; grid-template-columns:3.2rem 1fr; align-items:start;}
+/* Numbered because they really are a sequence: a paper cannot be read before
+   it has been found. The number is quiet — it orders, it does not announce. */
+.ab-stages{ list-style:none; margin:0; padding:0; display:grid; gap:3.2rem; }
+.ab-stages li{ display:grid; grid-template-columns:3.5rem 1fr; align-items:baseline; }
 .ab-num{
   color:var(--ink-4,#b9b9b1);
-  font:500 .82rem/1.7 var(--font-num,monospace); font-variant-numeric:tabular-nums;
+  font:400 .9rem/1.6 var(--font-body,sans-serif); font-variant-numeric:tabular-nums;
 }
 .ab-stages h3{
-  margin:0 0 .3rem;
-  display:flex; align-items:baseline; flex-wrap:wrap; gap:.6rem;
-  font:500 1rem/1.5 var(--font-body,sans-serif);
+  margin:0 0 .5rem;
+  font:500 1.1rem/1.4 var(--font-body,sans-serif); letter-spacing:-.01em;
 }
-.ab-stages h3 em{
-  font:500 .72rem/1 var(--font-num,monospace);
-  letter-spacing:.01em; font-style:normal;
-  padding:.24rem .45rem; border-radius:3px;
-  color:var(--ink-3,#8e8e86); background:var(--sunk-2,#efefec);
-}
-.ab-stages h3 em[data-state="pilot"],
-.ab-stages h3 em[data-state="moving"]{color:#8a6d1f; background:#f6efdc;}
-.ab-stages p{margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56);}
+.ab-stages p{ margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56); }
 
-.ab-limits dl{margin:0; display:grid; gap:1.5rem;}
-.ab-limits div{
-  padding-left:1rem;
-  border-left:2px solid var(--hairline-strong,#cbc9c1);
-}
-.ab-limits dt{margin-bottom:.25rem; font-weight:500;}
-.ab-limits dd{margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56);}
+/* No boxes. Each limitation is a small headline and a paragraph, set like the
+   stages above, because it carries the same weight as the method. */
+.ab-limits dl{ margin:0; display:grid; gap:2.6rem; }
+.ab-limits dt{ margin-bottom:.5rem; font-weight:500; font-size:1.1rem; letter-spacing:-.01em; }
+.ab-limits dd{ margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56); }
 
-.ab-who{margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56);}
-.ab-who a{color:var(--accent,#007d6c);}
-.ab-draft{
-  margin:1.6rem 0 0; max-width:var(--measure);
-  color:var(--ink-3,#8e8e86); font-size:.88rem;
-}
+.ab-who{ margin:0; max-width:var(--measure); font-size:1.06rem; color:var(--ink-2,#5c5c56); }
+.ab-who a{ color:var(--ink-1,#1a1a17); text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
+.ab-who a:hover{ color:var(--accent,#007d6c); }
+.ab-draft{ margin:2.4rem 0 0; max-width:var(--measure); color:var(--ink-4,#b9b9b1); font-size:.95rem; }
 
 @media (max-width:640px){
-  .ab-stages li{grid-template-columns:2.4rem 1fr;}
-  .ab-counts{gap:1.3rem 1rem;}
+  .ab-hero{ padding-top:9rem; }
+  .ab-stages li{ grid-template-columns:2.6rem 1fr; }
+  .ab-block{ margin-top:5rem; }
 }
 </style>
