@@ -81,6 +81,23 @@ const noGroup = projects.filter(pr => String(pr.wg || '').split(',')
   .every(x => !x.trim() || NOT_A_GROUP.has(x.trim().toLowerCase()))).length
 if (noGroup) warn('fold 5', `${noGroup} projects sit in no working group and are not on the chart`)
 
+console.log('\nfold 1 — country links')
+/* CONDUCTED_IN carries two different relationships. A trial run in Thailand is
+   linked to Thailand, and so is a systematic review that merely covers Thai
+   value sets. The second is not somewhere research was conducted, so every
+   count by country is inflated by it. The headline survives — every country has
+   at least one primary study — but the per-country numbers do not. */
+const reviews = new Set(studies.filter(s => (s.studyTypes || []).includes('EVIDENCE_SYNTHESIS')).map(s => s.id))
+const byId = new Map(nodes.map(n => [n.id, n]))
+const cLinks = (graph.edges || []).filter(e => e.type === 'CONDUCTED_IN' && byId.get(e.target))
+  .map(e => [e.source, byId.get(e.target).label])
+const withAll = new Set(cLinks.map(([, c]) => c))
+const withPrimary = new Set(cLinks.filter(([s]) => !reviews.has(s)).map(([, c]) => c))
+eq('countries reachable by a primary study', withPrimary.size, withAll.size,
+   '(if these ever differ, a country is on the map on review evidence alone)')
+const fromReview = cLinks.filter(([s]) => reviews.has(s)).length
+warn('fold 1', `${fromReview} of ${cLinks.length} country links (${Math.round(fromReview / cLinks.length * 100)}%) come from evidence syntheses, which review a country rather than run research in it`)
+
 console.log('\n' + '─'.repeat(60))
 for (const w of warns) console.log(`  note  ${w}`)
 if (fails.length){
