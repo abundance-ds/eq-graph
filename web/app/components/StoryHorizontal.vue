@@ -12,7 +12,10 @@ let globe: { destroy?: () => void; setActive?: (active: boolean) => void } | und
 /* The country card. The globe reports what was clicked; this holds it, so the
    card can be a real element — focusable, closable, and styled with the rest
    of the page rather than drawn into the canvas. */
-type CountryFacts = { name: string; projects: number; studies: number; findings: number };
+type CountryFacts = {
+  name: string; projects: number; studies: number; findings: number;
+  family?: { short: string; has: boolean }[] | null;
+};
 const picked = ref<CountryFacts | null>(null);
 let story: { destroy?: () => void; refresh?: () => void } | undefined;
 let disposed = false;
@@ -160,6 +163,14 @@ onBeforeUnmount(() => {
               <div><dt>{{ picked.studies.toLocaleString('en') }}</dt><dd>studies read</dd></div>
               <div><dt>{{ picked.findings.toLocaleString('en') }}</dt><dd>findings extracted</dd></div>
             </dl>
+            <!-- Which of the five have actually been used here. A version with
+                 no study is shown greyed rather than dropped: the absence is
+                 the useful half of the answer. -->
+            <ul v-if="picked.family" class="sh-family">
+              <li v-for="f in picked.family" :key="f.short" :class="f.has && 'is-on'">
+                <i aria-hidden="true" />{{ f.short }}
+              </li>
+            </ul>
           </aside>
         </transition>
 

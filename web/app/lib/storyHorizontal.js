@@ -78,6 +78,42 @@ export function initStory(DATA, TOPO, root, options = {}){
       row.findings += (nodeById[e.source] || {}).findingCount || 0
     }
   }
+  /* How far the EQ family has travelled, country by country.
+
+     Reviews are excluded on purpose. A systematic review of value sets is
+     linked to every country it covers — one compendium alone is linked to
+     twenty-one — and counting that as "the instrument was used there" would
+     credit a country for a paper that collected nothing in it. Only studies
+     that were actually run somewhere count here.
+
+     Instruments are matched on a pattern for the same reason the matrix is:
+     the pipeline stores the name as the paper wrote it, so one instrument
+     arrives under a dozen spellings. A label naming no level matches nothing,
+     because assigning it would be a guess. */
+  const FAMILY = [
+    ['EQ-5D-3L',   '3L',   /\bEQ[\s-]*5[\s-]*D[\s-]*3[\s-]*L\b/i],
+    ['EQ-5D-5L',   '5L',   /\bEQ[\s-]*5[\s-]*D[\s-]*5[\s-]*L\b/i],
+    ['EQ-5D-Y-3L', 'Y-3L', /\bEQ[\s-]*5[\s-]*D[\s-]*Y[\s-]*3[\s-]*L\b/i],
+    ['EQ-5D-Y-5L', 'Y-5L', /\bEQ[\s-]*5[\s-]*D[\s-]*Y[\s-]*5[\s-]*L\b/i],
+    ['EQ-HWB',     'HWB',  /\bEQ[\s-]*HWB\b/i],
+  ]
+  const isReview = study => (study.studyTypes || []).includes('EVIDENCE_SYNTHESIS')
+  const familyIn = {}          // country -> Set of short names
+  const familyReach = {}       // short name -> Set of countries
+  for (const [, short] of FAMILY) familyReach[short] = new Set()
+  for (const study of studies){
+    if (isReview(study)) continue
+    const here = (countryOfStudy[study.id] || []).map(n => NAME_FIX[n] || n)
+    if (!here.length) continue
+    for (const [, short, re] of FAMILY){
+      if (!(study.instruments || []).some(i => re.test(String(i)))) continue
+      for (const c of here){
+        (familyIn[c] || (familyIn[c] = new Set())).add(short)
+        familyReach[short].add(c)
+      }
+    }
+  }
+
   /* The rows of the group-by-year beat: only groups that actually have
      dated studies, busiest first. A row that would be empty is not a row. */
   const groupYearRows = (() => {
@@ -137,12 +173,9 @@ export function initStory(DATA, TOPO, root, options = {}){
      says why the number matters. Do not add `art:` — it draws decoration over
      the chart. */
   const BEATS = [
-    { num:fmt(counts.country || 0), unit:'countries', head:'EuroQol-funded research now runs on every continent.',
-      body:`EuroQol has funded <b>${fmt(projects.length)}</b> projects, and that work now underpins evidence in <b>${fmt(counts.country || 0)}</b> countries and territories.`,
-      so:`The <b>${fmt(countryCount('United Kingdom'))}</b> studies in the United Kingdom, <b>${fmt(countryCount('Netherlands'))}</b> in the Netherlands and <b>${fmt(countryCount('Australia'))}</b> in Australia all report on the same scale — which is what lets a health outcome in one country be set beside another.`,
-      // No chart. The globe from the opening fold travels down into this space
-      // and IS the visual — the reader keeps the object they arrived with
-      // instead of watching it fade and a flat grey map take its place.
+    { num:fmt(counts.country || 0), unit:'countries', head:'The family has not travelled evenly.',
+      body:`EuroQol has funded <b>${fmt(projects.length)}</b> projects across <b>${fmt(counts.country || 0)}</b> countries. A country is shaded by how many of the five EQ instruments have actually been used there, and the strip below counts the countries each version has reached.`,
+      so:`<b>EQ-5D-5L</b> is in <b>${familyReach['5L'].size}</b> countries, but <b>EQ-5D-Y-5L</b> and <b>EQ-HWB</b> are in <b>${familyReach['Y-5L'].size}</b> and <b>${familyReach['HWB'].size}</b>. The newest members of the family are in half as many places as the flagship, which is where the next decade of adoption has to happen. Reviews are not counted: a paper that surveys a country is not research carried out in it.`,
       layout:'projectMap' },
 
     { num:fmt(projects.length), unit:'projects', head:'Funding every year, and reading still catching up.',
@@ -214,7 +247,14 @@ export function initStory(DATA, TOPO, root, options = {}){
     const hit = land.features.find(feat => geoContains(feat, ll))
     if (!hit){ onSelectCountry(null); return }
     const name = hit.properties.name
-    onSelectCountry({ name, ...(liveMap.detail[name] || { projects:0, studies:0, findings:0 }) })
+    // The card carries which versions have been used, in family order, so a
+    // reader can answer "is the one I need in use here" without leaving the map.
+    const have = liveMap.familyIn?.[name]
+    onSelectCountry({
+      name,
+      ...(liveMap.detail[name] || { projects:0, studies:0, findings:0 }),
+      family: liveMap.reach ? liveMap.reach.map(r => ({ short:r.short, has:!!have?.has(r.short) })) : null,
+    })
   }
   canvas.addEventListener('click', mapClick)
   const ctx = canvas.getContext('2d')
@@ -374,28 +414,34 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
-      /* Shading the country is the measurement. Do not go back to dots on
-         centroids: a cluster encodes quantity by area, which reads badly. */
-      const entityKind = kind === 'projectMap' ? 'project' : 'study'
-      const countryMap = entityKind === 'project' ? countryOfProject : countryOfStudy
-      const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 30]], land)
+      /* How much of the EQ family has reached each country.
+
+         The landing globe already shades by how much research a country has,
+         so shading by that again here says the same thing twice. This asks a
+         different question of the same geography: not how much, but how many
+         of the five instruments have actually been used. */
+      const proj = geoNaturalEarth1().fitExtent([[b.x0, b.y0], [b.x1, b.y1 - 74]], land)
+      /* The projection preserves the world's aspect ratio, so it never fills
+         the box: it leaves a band above and below. Measure where the drawing
+         actually ends and hang the strip off that, or the strip floats a long
+         way under the map with nothing between them. */
+      const mapBox = geoPath(proj).bounds(land)
+      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
       const per = {}
-      let unplaced = 0
-      for (let i = 0; i < dots.length; i++){
-        if (dots[i].kind !== entityKind){ out[i] = hidden(i); continue }
-        const names = countryMap[dots[i].p.id] || []
-        const hit = names.map(n => NAME_FIX[n] || n).find(Boolean)
-        if (!hit){ unplaced++ }
-        else per[hit] = (per[hit] || 0) + 1
-        out[i] = hidden(i)          // the map carries the data; the dots do not
-      }
+      for (const [c, set] of Object.entries(familyIn)) per[c] = set.size
       const centroid = {}
       for (const f of land.features){
         const c = geoPath(proj).centroid(f)
         if (!isNaN(c[0])) centroid[f.properties.name] = c
       }
-      out.furn = { kind:'map', b, proj, centroid, per, unplaced, entityKind,
-                   peak: Math.max(1, ...Object.values(per)), detail: countryDetail }
+      // The strip under the map: how many countries each version has reached.
+      // It is the finding the map alone cannot state, that the newest members
+      // of the family are in half as many places as the flagship.
+      const reach = FAMILY.map(([, short]) => ({ short, n:familyReach[short].size }))
+      out.furn = { kind:'map', b, proj, centroid, per, unplaced:0, entityKind:'instrument',
+                   peak: FAMILY.length, detail: countryDetail, familyIn, reach,
+                   mapBottom: mapBox[1][1],
+                   totalCountries: Object.keys(countryDetail).length }
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectGroupYears'){
@@ -787,7 +833,7 @@ export function initStory(DATA, TOPO, root, options = {}){
 
       for (const [name, n] of top){
         const c = f.centroid[name]; if (!c) continue
-        const text = `${name} ${n}`
+        const text = f.reach ? `${name} ${n}/${f.peak}` : `${name} ${n}`
         const tw = ctx.measureText(text).width, th = 12
         // right of the centroid, then left, then above, then below
         const tries = [[c[0] + 8, c[1]], [c[0] - 8 - tw, c[1]], [c[0] - tw / 2, c[1] - 13], [c[0] - tw / 2, c[1] + 13]]
@@ -804,12 +850,41 @@ export function initStory(DATA, TOPO, root, options = {}){
       }
       ctx.textBaseline = 'alphabetic'
 
-      if (f.unplaced){
+      /* The strip under the map. The map answers "how far has the family got
+         here"; this answers "how far has each member got", which the shading
+         cannot say. One dot is one country, the same mark the other folds use. */
+      if (f.reach){
+        const y0 = Math.min(f.b.y1 - 58, (f.mapBottom || f.b.y1 - 74) + 30)
+        const labelW = 46
+        const maxN = Math.max(1, ...f.reach.map(r => r.n))
+        const room = f.b.x1 - f.b.x0 - labelW - 44
+        const step = Math.min(7, room / maxN)
+        const dr = Math.max(1.4, step * 0.40)
+        ctx.textAlign = 'right'; ctx.textBaseline = 'middle'
+        ctx.font = `500 10px 'IBM Plex Mono', ui-monospace, monospace`
+        f.reach.forEach((r, i) => {
+          const y = y0 + i * 12
+          ctx.fillStyle = ink(.55)
+          ctx.fillText(r.short, f.b.x0 + labelW - 8, y)
+          ctx.fillStyle = `rgba(${TEAL[0]},${TEAL[1]},${TEAL[2]},.85)`
+          for (let k = 0; k < r.n; k++){
+            ctx.beginPath()
+            ctx.arc(f.b.x0 + labelW + k * step + step / 2, y, dr, 0, 6.283)
+            ctx.fill()
+          }
+          ctx.fillStyle = ink(.42); ctx.textAlign = 'left'
+          ctx.fillText(`${r.n}`, f.b.x0 + labelW + r.n * step + 7, y)
+          ctx.textAlign = 'right'
+        })
+        ctx.textAlign = 'left'; ctx.fillStyle = ink(.34)
+        ctx.font = `500 11px 'IBM Plex Mono', ui-monospace, monospace`
+        ctx.fillText(`countries where each version has been used, of ${f.totalCountries}`,
+                     f.b.x0, y0 + 5 * 12 + 6)
+        ctx.textBaseline = 'alphabetic'
+      }
+      else if (f.unplaced){
         ctx.fillStyle = ink(.4)
-        const label = f.entityKind === 'study'
-          ? `${f.unplaced} studies span regions or have no single country`
-          : `${f.unplaced} projects are not tied to one country`
-        ctx.fillText(label, f.b.x0, f.b.y1 + 16)
+        ctx.fillText(`${f.unplaced} are not tied to one country`, f.b.x0, f.b.y1 + 16)
       }
     }
     else if (f.kind === 'columns'){

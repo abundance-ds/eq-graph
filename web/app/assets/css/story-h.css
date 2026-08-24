@@ -486,6 +486,23 @@
 .sh-country dd{margin:.15rem 0 0; color:var(--ink-3); font-size:var(--t-fine);}
 
 /* Inside the card, top right — the close belongs to the thing it closes. */
+/* The five versions, present or not. Same dot as every chart that counts. */
+.sh-family{
+  list-style:none; margin:1.1rem 0 0; padding:.9rem 0 0;
+  border-top:1px solid var(--rule-soft);
+  display:flex; flex-wrap:wrap; gap:.3rem .9rem;
+}
+.sh-family li{
+  display:inline-flex; align-items:center; gap:.36rem;
+  color:var(--ink-4); font:500 var(--t-micro) var(--font-num);
+}
+.sh-family li i{
+  width:6px; height:6px; border-radius:50%;
+  background:currentColor; opacity:.45;
+}
+.sh-family li.is-on{ color:var(--teal); }
+.sh-family li.is-on i{ opacity:1; }
+
 .sh-country-x{
   position:absolute;
   top:.55rem;
