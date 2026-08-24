@@ -73,12 +73,12 @@ const limits = [
     </header>
     <SiteNav current="about" />
 
-    <!-- EXPERIMENT. One image, behind the opening only, held to the right so
-         the sentence never crosses it. It is the instrument's own subject:
-         a surface made of thousands of separate points that reads as one form
-         from a distance, which is what a corpus of studies is. -->
+    <!-- EXPERIMENT. A dune field, drawn rather than photographed, running the
+         full width under the opening. It is the corpus as a picture: a surface
+         made of thousands of separate grains that reads as one form from a
+         distance. Nothing is read over it — it stops above the first line. -->
     <div class="ab-art" aria-hidden="true">
-      <img src="/img/ridge.png" alt="" width="849" height="1200" loading="eager">
+      <img src="/img/dunes.svg" alt="" loading="eager">
     </div>
 
     <section class="ab-hero">
@@ -183,34 +183,23 @@ const limits = [
 .ab-logo{ height:27px; width:auto; display:block; }
 @media (max-width:900px){ .ab-top{ left:var(--gut); } .ab-logo{ height:22px; } }
 
-.ab-hero{ padding-top:10rem; position:relative; z-index:1; }
+.ab-hero{ padding-top:min(46vh, 380px); position:relative; z-index:1; }
 
 /* Held to the right half and faded out towards the text, so the headline sits
    on plain ground and the image is the room it sits in. Nothing is read over
    it, which is the difference between a background and a decoration. */
 .ab-art{
-  position:absolute; top:0; right:0; z-index:0;
-  /* Narrow enough to clear the reading column, and it stops above the counts:
-     at full height it washed over "35 countries" and "47 value sets", which is
-     the one thing a background must never do. */
-  width:min(34vw, 470px); height:min(72vh, 640px);
+  /* Full bleed, out of the reading column, sat at the top of the page. The
+     header sits over it, which is why it fades out at the top as well as the
+     bottom. */
+  position:absolute; top:0; left:calc(50% - 50vw); z-index:0;
+  width:100vw; height:min(56vh, 460px);
   pointer-events:none; overflow:hidden;
-  /* The vertical fade lives here and the horizontal one on the image, so each
-     element carries a single mask. Stacking both on one element needs
-     mask-composite, which Safari spells differently and applies unevenly, and
-     the bottom edge was cutting straight across. */
-  -webkit-mask-image:linear-gradient(#000 58%, transparent 100%);
-  mask-image:linear-gradient(#000 58%, transparent 100%);
+  -webkit-mask-image:linear-gradient(#000 0%, #000 52%, transparent 100%);
+  mask-image:linear-gradient(#000 0%, #000 52%, transparent 100%);
 }
-.ab-art img{
-  width:100%; height:100%; object-fit:cover; object-position:60% 34%;
-  /* Gone entirely by the time it reaches the text, and softened at every other
-     edge so it sits in the page rather than being pasted onto it. */
-  -webkit-mask-image:linear-gradient(95deg, transparent 0%, rgba(0,0,0,.5) 36%, #000 66%);
-  mask-image:linear-gradient(95deg, transparent 0%, rgba(0,0,0,.5) 36%, #000 66%);
-  opacity:.5;
-}
-@media (max-width:900px){ .ab-art{ display:none; } }
+.ab-art img{ width:100%; height:100%; display:block; object-fit:cover; opacity:1; }
+@media (max-width:900px){ .ab-art{ height:min(40vh, 300px); } }
 .ab-eyebrow{
   margin:0 0 1.5rem; color:var(--ink-3,#8e8e86);
   font:400 .95rem/1 var(--font-body,sans-serif);
