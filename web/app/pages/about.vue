@@ -64,6 +64,7 @@ const limits = [
     <!-- Pinned to the viewport, not to the reading column, so it lands on the
          same pixel as the home page. Inside the centred column it drifted to
          wherever that column began, which is why it looked like it had moved. -->
+    <div class="ab-bar" aria-hidden="true" />
     <header class="ab-top">
       <!-- The mark is the way home, which is where a reader already looks for
            it. A separate Back button said the same thing twice. -->
@@ -168,18 +169,34 @@ const limits = [
   font:16px/1.68 var(--font-body,'Instrument Sans',sans-serif);
 }
 
-/* Pinned to the page, and to the home page's own numbers rather than to this
-   page's gutter. The gutter is fluid (4vw between breakpoints) while the story
-   uses a fixed 3rem, so on a mid-width screen the mark sat in a different place
-   on each page. It is the same mark; it does not get to move. */
-.ab-top{ position:absolute; left:3rem; top:1.55rem; z-index:5; }
+/* Fixed, not absolute. This page scrolls, unlike the story, whose stage is
+   pinned — so absolute meant the mark and the menu slid away with the first
+   paragraph. They stay.
+
+   The numbers are the story's own, a fixed 3rem, not this page's gutter. The
+   gutter is fluid between breakpoints while the story's padding is not, so on a
+   mid-width screen the mark sat in a different place on each page. It is the
+   same mark; it does not get to move. */
+.ab-top{ position:fixed; left:3rem; top:1.55rem; z-index:12; }
 .ab-top a{ display:block; }
+.ab{ --pad:3rem; }
+:deep(.nav){ position:fixed; z-index:12; }
+
+/* A band behind them, so the type underneath scrolls out of sight rather than
+   through the menu. It is the page's own colour, so at the top of the page it
+   is invisible and only does anything once there is something to cover. */
+.ab-bar{
+  position:fixed; left:0; right:0; top:0; height:5rem; z-index:11;
+  background:#fcfcfb; pointer-events:none;
+  -webkit-mask-image:linear-gradient(#000 68%, transparent 100%);
+  mask-image:linear-gradient(#000 68%, transparent 100%);
+}
+
 @media (max-width:900px){
   .ab-top{ left:1.5rem; top:1.2rem; }
+  .ab{ --pad:1.5rem; }
+  .ab-bar{ height:4rem; }
 }
-/* The nav is positioned against --pad on the story, so this page has to hand it
-   the same value or the two would not line up between screens. */
-.ab{ --pad:var(--gut); }
 .ab-logo{ height:27px; width:auto; display:block; }
 @media (max-width:900px){ .ab-logo{ height:22px; } }
 
