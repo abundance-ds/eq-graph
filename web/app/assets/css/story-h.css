@@ -682,6 +682,9 @@
 .sh-chart-scene.is-focused .viz-net-name.is-faded,
 .sh-chart-scene.is-focused .viz-net-count.is-faded{ opacity:.10; }
 
+/* One dot is one thing counted. Same mark in every chart that counts.*/
+.sh-chart-scene .viz-dot{ fill:var(--teal); }
+
 .sh-chart-scene .viz-ico{
   width:1em; height:1em; flex:none; color:var(--ink-3);
 }

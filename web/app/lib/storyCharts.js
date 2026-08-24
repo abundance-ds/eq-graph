@@ -20,8 +20,14 @@ const valuesFor = (studies, field) => {
     .sort((a, b) => b.value - a.value || a.label.localeCompare(b.label))
 }
 
-const hasValue = (study, field, value) => (study[field] || [])
-  .some(item => String(item).toLowerCase() === value.toLowerCase())
+const hasValue = (study, field, value) => {
+  // Instruments are free text from the papers, so they match on a pattern.
+  // Every other field is a controlled value and still compares exactly.
+  const re = field === 'instruments' ? INSTRUMENT_RE.get(value) : null
+  return (study[field] || []).some(item => re
+    ? re.test(String(item))
+    : String(item).toLowerCase() === value.toLowerCase())
+}
 
 const countWhere = (studies, test) => studies.reduce((sum, study) => sum + Number(test(study)), 0)
 
@@ -87,10 +93,34 @@ function fieldShape(studies, width, height){
   return chartFrame(width, height, grid + bars, 'Each study has one primary research family.')
 }
 
+/* Instruments are matched on a pattern, not on an exact string.
+
+   The pipeline records the instrument as the paper wrote it, so one instrument
+   arrives under many names: "EQ VAS", "EQ-VAS (Visual Analogue Scale)",
+   "EQ VAS (EuroQol visual analog scale)" and nine more. Comparing strings
+   exactly dropped every one of those, which put badly wrong numbers on the
+   fold — EQ-HWB was showing 9 studies against a real 36.
+
+   Separators are optional everywhere because the same instrument appears as
+   EQ-5D-5L, EQ 5D 5L and EQ-5D-5 L. The youth patterns carry their Y, and the
+   adult ones cannot match across one, so Y-5L is never counted as 5L.
+
+   A label that names no level — plain "EQ-5D" or "EQ-5D-Y" — is deliberately
+   matched by nothing. Assigning it to a level would be a guess, and a guess
+   here is indistinguishable from data. */
 const INSTRUMENTS = [
-  ['EQ-5D-5L', '5L'], ['EQ VAS', 'VAS'], ['EQ-5D-3L', '3L'],
-  ['EQ-5D-Y-3L', 'Y-3L'], ['EQ-5D-Y-5L', 'Y-5L'], ['EQ-HWB', 'HWB'],
+  ['EQ-5D-5L',   '5L',   /\bEQ[\s-]*5[\s-]*D[\s-]*5[\s-]*L\b/i],
+  ['EQ VAS',     'VAS',  /\bEQ[\s-]*VAS\b|\bEQ[\s-]*visual[\s-]*analog|\bEuroQ[Oo]?[Ll]?[\s-]*visual[\s-]*analog/i],
+  ['EQ-5D-3L',   '3L',   /\bEQ[\s-]*5[\s-]*D[\s-]*3[\s-]*L\b/i],
+  ['EQ-5D-Y-3L', 'Y-3L', /\bEQ[\s-]*5[\s-]*D[\s-]*Y[\s-]*3[\s-]*L\b/i],
+  ['EQ-5D-Y-5L', 'Y-5L', /\bEQ[\s-]*5[\s-]*D[\s-]*Y[\s-]*5[\s-]*L\b/i],
+  // The column is the family, so the short form counts under it.
+  ['EQ-HWB',     'HWB',  /\bEQ[\s-]*HWB\b/i],
 ]
+const INSTRUMENT_RE = new Map(INSTRUMENTS.map(([label, , re]) => [label, re]))
+
+// Values that appear in a project's working-group field but are not groups.
+const NOT_A_GROUP = new Set(['others', 'oa fee', 'unassigned'])
 
 function instrumentMatrix(studies, width, height){
   return rankedBars(
@@ -236,56 +266,71 @@ function coverageMatrix(studies, width, height){
        comparison. EQ-HWB is large in projects and near absent in papers; plot
        one bar and that disappears. */
 function groupPapers(studies, width, height, data){
+  /* Projects per working group, one dot each.
+
+     Papers used to sit beside them as a second bar. Two quantities on one row
+     invites a ratio across rows, and that ratio is not readable: the groups are
+     different ages, so EQ-HWB looks like it is failing when it is simply new.
+     One quantity cannot be misread that way.
+
+     Dots rather than a bar, matching the year fold. A length asks to be
+     trusted; a dot can be counted.
+
+     A project shared between groups is counted in each of them, so the rows sum
+     to more than the portfolio. The alternative, bucketing every shared project
+     into one "Several groups" row, made the second largest row on the chart a
+     row that is not a group at all and hid a fifth of the portfolio inside it.
+     Rows are no longer capped either: the cap silently dropped the smallest
+     group off the bottom. */
   const projects = (data?.nodes || []).filter(node => node.type === 'project')
   const totals = new Map()
   for (const project of projects){
-    if (!project.wg) continue
-    const key = String(project.wg).includes(',') ? 'Several groups' : String(project.wg)
-    const row = totals.get(key) || { funded:0, published:0 }
-    row.funded += 1
-    if (project.hasPublication) row.published += 1
-    totals.set(key, row)
+    for (const part of String(project.wg || '').split(',')){
+      const name = part.trim()
+      if (!name || NOT_A_GROUP.has(name.toLowerCase())) continue
+      totals.set(name, (totals.get(name) || 0) + 1)
+    }
   }
   const rows = [...totals.entries()]
-    .map(([label, row]) => ({ label, ...row }))
-    .sort((a, b) => b.published - a.published)
-    .slice(0, 7)
+    .map(([label, funded]) => ({ label, funded }))
+    .sort((a, b) => b.funded - a.funded)
 
   const compact = width < 560
   const left = compact ? 108 : 190
-  const top = 46
-  const bottom = 44
+  const top = 40, bottom = 40
   const peak = Math.max(1, ...rows.map(r => r.funded))
   const bandH = (height - top - bottom) / Math.max(1, rows.length)
-  const barH = Math.min(9, bandH * 0.30)
-  // The row label reads like "74 of 266 · 28%", so the plot has to stop
-  // well short of the frame or it writes itself off the edge.
-  const plotW = width - left - 150
+  const plotW = width - left - 74           // room for the count after the row
+
+  /* Square packing, same rule as the year fold: the pitch follows from how many
+     dots have to fit the longest row in the width available, so the dots very
+     nearly touch instead of floating in a grid of air. */
+  const bandUse = bandH * 0.72
+  const perCol = Math.max(1, Math.round(Math.sqrt(peak * bandUse / plotW)))
+  const pitch = Math.min(bandUse / perCol, plotW / Math.ceil(peak / perCol))
+  const r = Math.max(0.8, pitch * 0.42)
 
   const marks = rows.map((row, index) => {
-    const y = top + index * bandH + bandH / 2
-    const fundedW = (row.funded / peak) * plotW
-    const pubW = (row.published / peak) * plotW
-    const share = row.funded ? Math.round((row.published / row.funded) * 100) : 0
-    // Both labels sit after the longer bar, and both are clamped so the pair
-    // can never be written off the right edge on a narrow fold.
-    const countText = `${row.published} of ${row.funded}`
-    const need = countText.length * 7.2 + 14 + String(share).length * 8 + 18
-    const labelX = Math.min(left + Math.max(fundedW, pubW) + 12, width - need)
-    return `<text class="viz-label" x="${left - 12}" y="${y + 1}" text-anchor="end">${escapeText(row.label)}</text>
-      <rect class="viz-matrix-cell" style="opacity:.16" x="${left}" y="${y - barH - 1}" width="${Math.max(1, fundedW).toFixed(1)}" height="${barH}" rx="2" />
-      <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left}" y="${y + 1}" width="${Math.max(1, pubW).toFixed(1)}" height="${barH}" rx="2" />
-      <text class="viz-cell-total" x="${labelX.toFixed(1)}" y="${y + 1}" text-anchor="start">${countText}</text>
-      <text class="viz-share" x="${(labelX + countText.length * 7.2 + 14).toFixed(1)}" y="${y + 1}" text-anchor="start">${share}%</text>`
+    const mid = top + index * bandH + bandH / 2
+    const y0 = mid - (perCol - 1) * pitch / 2
+    let dots = ''
+    for (let i = 0; i < row.funded; i++){
+      const cx = left + Math.floor(i / perCol) * pitch + pitch / 2
+      const cy = y0 + (i % perCol) * pitch
+      dots += `<circle class="viz-dot" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r.toFixed(2)}" />`
+    }
+    const cols = Math.ceil(row.funded / perCol)
+    const endX = left + cols * pitch + 10
+    return `<text class="viz-label" x="${left - 12}" y="${mid + 1}" text-anchor="end">${escapeText(row.label)}</text>
+      ${dots}
+      <text class="viz-cell-total" x="${endX.toFixed(1)}" y="${mid + 1}" text-anchor="start">${row.funded}</text>`
   }).join('')
 
-  const key = `<rect class="viz-matrix-cell" style="opacity:.16" x="${left}" y="${top - 30}" width="10" height="7" rx="2" />
-    <text class="viz-axis" x="${left + 16}" y="${top - 24}">projects funded</text>
-    <rect class="viz-matrix-cell is-teal" style="opacity:.92" x="${left + 148}" y="${top - 30}" width="10" height="7" rx="2" />
-    <text class="viz-axis" x="${left + 164}" y="${top - 24}">with a published paper</text>`
+  const key = `<circle class="viz-dot" cx="${left + 4}" cy="${top - 24}" r="${Math.min(3, r).toFixed(2)}" />
+    <text class="viz-axis" x="${left + 14}" y="${top - 20}">one dot is one funded project</text>`
 
   return chartFrame(width, height, key + marks,
-    'A project is counted once, in the group that funded it. Projects shared between groups are grouped together.')
+    'A shared project counts in each of its groups, so the rows total more than the portfolio.')
 }
 
 

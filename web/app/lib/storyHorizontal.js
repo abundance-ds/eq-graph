@@ -89,9 +89,18 @@ export function initStory(DATA, TOPO, root, options = {}){
     return [...m.entries()].sort((a, b) => b[1] - a[1]).map(g => g[0])
   })()
 
+  /* The same rule the working-group chart uses, so the headline number and the
+     rows under it cannot disagree. A project counts in every group it names,
+     and the administrative categories in that field are not groups. */
+  const NOT_A_GROUP = new Set(['others', 'oa fee', 'unassigned'])
   const groups = (() => {
     const m = new Map()
-    projects.forEach(p => m.set(wgOf(p), (m.get(wgOf(p)) || 0) + 1))
+    for (const p of projects)
+      for (const part of String(p.wg || '').split(',')){
+        const name = part.trim()
+        if (!name || NOT_A_GROUP.has(name.toLowerCase())) continue
+        m.set(name, (m.get(name) || 0) + 1)
+      }
     return [...m.entries()].sort((a, b) => b[1] - a[1])
   })()
 
@@ -152,9 +161,9 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`<b>${fmt(eqStudies.length)}</b> of them use at least one EuroQol instrument. The family runs from EQ-5D-5L through the youth versions to EQ-HWB, each built for people the version before it did not serve.`,
       layout:'chartBlank', chart:'coverageMatrix' },
 
-    { num:'7', unit:'working groups', head:'Each group is at a different stage of its life.',
-      body:`Every funded project sits with a working group. The bars compare what each group has funded against how much of it now carries a published paper.`,
-      so:`Valuation is the oldest programme and has published the most. EQ-HWB is the newest, with a great deal funded and almost nothing out yet, which is what the beginning of a programme looks like rather than a failure in one.`,
+    { num:String(groups.length), unit:'working groups', head:'The portfolio is not one programme but several.',
+      body:`Every funded project sits with a working group. Each dot is one project, so the length of a row is what that group has funded.`,
+      so:`<b>${leadingGroups[0]?.[0] || '—'}</b> is the largest with <b>${fmt(leadingGroups[0]?.[1] || 0)}</b> projects, and the newest groups are the shortest rows because they have had less time, not less success. Papers are deliberately not shown beside this: the groups are different ages, so a published-share compared across them would mislead.`,
       layout:'chartBlank', chart:'groupPapers' },
   ]
 
@@ -310,16 +319,23 @@ export function initStory(DATA, TOPO, root, options = {}){
       const peak = Math.max(1, ...years.map(y =>
         Math.max(perYearProjects[y] || 0, perYearPapers[y] || 0)))
 
-      /* Pack so the tallest column nearly fills the frame. Left to a fixed
-         number per row the whole thing sat in the bottom third, which is what
-         made the per-year version look sparse in the first place. */
-      const perRow = Math.max(1, Math.min(
-        Math.floor(subW / 4.2),
-        Math.max(2, Math.ceil(peak * 3.4 / (bh * 0.92)))))
+      /* A square grid, sized so the tallest column fills the height and the
+         dots very nearly touch.
+
+         The width of a column and the height of the stack are not independent:
+         n dots across a column of width subW, packed square, hold n²·h/subW in
+         total. So the number per row follows from the count, and picking it any
+         other way leaves the dots either overflowing or floating in air. Before
+         this the pitch was set from the height alone and the radius was capped
+         at 2.1px, which left a 4px dot in a 9px cell — half air, so a column
+         read as a dotted line rather than a filled bar. */
+      const availH = bh * 0.92
+      const perRow = Math.max(2, Math.round(Math.sqrt(peak * subW / availH)))
       const rows = Math.ceil(peak / perRow)
-      const rowH = Math.min(8, (bh * 0.92) / Math.max(1, rows))
-      const dotR = Math.max(1.1, Math.min(2.1, rowH * 0.34))
-      const stepX = subW / perRow
+      // One pitch for both axes, tightened if the stack would overflow.
+      const pitch = Math.min(subW / perRow, availH / Math.max(1, rows))
+      const rowH = pitch, stepX = pitch
+      const dotR = Math.max(0.9, pitch * 0.42)   // ~16% of the pitch as air
 
       const place = (n, ci, side) => ({
         x: b.x0 + ci * colW + (side === 'papers' ? colW * 0.54 : colW * 0.06)
