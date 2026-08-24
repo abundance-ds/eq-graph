@@ -972,7 +972,71 @@ export function createStoryCharts(data, root, coauthors = null){
     }
   }
 
-  return { resize, show, destroy(){
+  /* Turn a rendered chart into particles.
+
+     Every mark in the scene is walked and filled with points on ONE grid, the
+     same pitch for every chart, so a matrix cell and a network node and a bar
+     all come apart into the same size of dot at the same spacing. That is the
+     whole point: the reader should not be able to tell which fold they are
+     leaving from the way it dissolves.
+
+     Geometry, not pixels. Rasterising the SVG would have meant inlining every
+     computed style first, because the classes live in a stylesheet the image
+     would not carry, and the result would still be at the mercy of the filters.
+     Reading the shapes is exact and costs nothing.
+
+     Coordinates come back in the scene's own space; the caller places them. */
+  function sample(id, pitch = 5.4){
+    const scene = scenes.get(id)
+    const svg = scene && scene.querySelector('svg')
+    if (!svg) return []
+    const pts = []
+    const rgb = value => {
+      const m = /rgba?\(([^)]+)\)/.exec(value || '')
+      if (!m) return null
+      const n = m[1].split(',').map(parseFloat)
+      return (n[3] !== undefined && n[3] < 0.06) ? null : [n[0], n[1], n[2]]
+    }
+    const num = (el, a) => parseFloat(el.getAttribute(a) || '0')
+
+    for (const el of svg.querySelectorAll('circle, rect, line')){
+      const css = getComputedStyle(el)
+      if (css.display === 'none' || css.visibility === 'hidden') continue
+      const alpha = parseFloat(el.style.opacity || css.opacity || '1')
+      if (alpha < 0.08) continue
+      const c = rgb(css.fill) || rgb(css.stroke)
+      if (!c) continue
+
+      if (el.tagName === 'circle'){
+        const cx = num(el, 'cx'), cy = num(el, 'cy'), r = num(el, 'r')
+        if (r < 0.4) continue
+        // A small mark still owes at least one particle, or the fine detail of
+        // a chart vanishes and only its big shapes travel.
+        if (r <= pitch * 0.6){ pts.push([cx, cy, c]); continue }
+        for (let y = cy - r; y <= cy + r; y += pitch)
+          for (let x = cx - r; x <= cx + r; x += pitch)
+            if ((x - cx) ** 2 + (y - cy) ** 2 <= r * r) pts.push([x, y, c])
+      }
+      else if (el.tagName === 'rect'){
+        const x0 = num(el, 'x'), y0 = num(el, 'y')
+        const w = num(el, 'width'), h = num(el, 'height')
+        if (w < 0.4 || h < 0.4) continue
+        for (let y = y0; y <= y0 + h; y += pitch)
+          for (let x = x0; x <= x0 + w; x += pitch) pts.push([x, y, c])
+      }
+      else {
+        const x1 = num(el, 'x1'), y1 = num(el, 'y1')
+        const x2 = num(el, 'x2'), y2 = num(el, 'y2')
+        const len = Math.hypot(x2 - x1, y2 - y1)
+        const steps = Math.max(1, Math.round(len / pitch))
+        for (let k = 0; k <= steps; k++)
+          pts.push([x1 + (x2 - x1) * k / steps, y1 + (y2 - y1) * k / steps, c])
+      }
+    }
+    return pts
+  }
+
+  return { resize, show, sample, destroy(){
     window.removeEventListener('scroll', dropSelection)
     host.innerHTML = ''
   } }

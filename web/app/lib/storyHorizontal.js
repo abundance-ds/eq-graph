@@ -302,16 +302,33 @@ export function initStory(DATA, TOPO, root, options = {}){
     }
     canvas.width = W * DPR; canvas.height = H * DPR
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0)
-    layouts.length = 0; furniture.length = 0
-    BEATS.forEach(b => { const r = buildLayout(b.layout)
-      layouts.push(r.pos || r); furniture.push(r.furn || null) })
+    // The charts are drawn first, because the layouts are now sampled from them.
     charts.resize()
+    layouts.length = 0; furniture.length = 0
+    BEATS.forEach(b => { const r = buildLayout(b.layout, b.chart)
+      layouts.push(r.pos || r); furniture.push(r.furn || null) })
     /* How far About has to travel to sit against the right edge, where Skip
        will later replace it. Measured rather than written down: it depends on
        the width of the word and of the stage, and a wrong guess would leave it
        short of the corner or past it. */
     textMeta = buildText()
     return true
+  }
+
+  /* Where the SVG charts actually sit, in canvas pixels, and the coordinate
+     space they draw in. The sampled points come back in the chart's own space,
+     so both are needed to place them on the field. */
+  const chartHost = root.querySelector('[data-charts]')
+  function chartBox(){
+    const a = chartHost?.getBoundingClientRect()
+    const b = canvas.getBoundingClientRect()
+    if (!a || !b) return { x:0, y:0, w:W, h:H }
+    return { x:a.left - b.left, y:a.top - b.top, w:a.width, h:a.height }
+  }
+  function chartViewBox(id){
+    const svg = chartHost?.querySelector(`[data-chart="${id}"] svg`)
+    const vb = svg && svg.viewBox && svg.viewBox.baseVal
+    return vb && vb.width ? { w:vb.width, h:vb.height } : null
   }
 
   // The field always sits in columns 6–12, so the words keep the left.
@@ -335,7 +352,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   let furniture = []
   /* Which series fold 2 is showing. Not a filter over one dataset: projects are
      counted by the year they were funded, papers by the year they appeared. */
-  function buildLayout(kind){
+  function buildLayout(kind, chartId){
     const b = fieldBox(), bw = b.x1 - b.x0, bh = b.y1 - b.y0
     const out = new Array(dots.length)
     const rnd = mulberry(1234)
@@ -353,7 +370,32 @@ export function initStory(DATA, TOPO, root, options = {}){
     }
 
     if (kind === 'chartBlank'){
-      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
+      /* The fold's own picture, as particles.
+
+         Every mark in the chart is filled with points on one shared grid, so a
+         matrix cell, a network node and a bar all come apart into the same dot
+         at the same spacing. The dots then simply fly from one fold's cloud to
+         the next, which is the machinery that was already here — the charts
+         just had nothing to hand it before, so they faded instead.
+
+         At rest these sit exactly under the SVG, which is why nothing looks
+         different until the fold starts to move. */
+      const pts = chartId ? charts.sample(chartId) : []
+      if (!pts.length){
+        for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
+        return { pos:out, furn:null }
+      }
+      const box = chartBox()
+      const svg = chartViewBox(chartId)
+      const kx = svg ? box.w / svg.w : 1
+      const ky = svg ? box.h / svg.h : 1
+      // Evenly spread across the cloud rather than taking the first N, or one
+      // corner of the chart gets every dot and the rest of it never travels.
+      const step = pts.length / dots.length
+      for (let i = 0; i < dots.length; i++){
+        const q = pts[Math.min(pts.length - 1, Math.floor(i * step))]
+        out[i] = { x:box.x + q[0] * kx, y:box.y + q[1] * ky, c:q[2], r:1.5, a:0 }
+      }
       return { pos:out, furn:null }
     }
     if (kind === 'projectScatter'){
