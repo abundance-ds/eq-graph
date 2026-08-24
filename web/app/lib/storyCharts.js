@@ -947,25 +947,19 @@ export function createStoryCharts(data, root, coauthors = null){
      the outgoing chart think it was also the incoming one, so it sat at full
      strength through the whole crossing and then snapped to nothing at the end.
      That snap was the thing that read as broken. */
-  function show(from = null, to = null, progress = 0){
+  function show(from = null, to = null, progress = 0, cross = 0){
     for (const [id, scene] of scenes){
-          /* The two must cross over and sum to one. Leave a gap and a reader who
-             stops mid-transition sees nothing at all. */
-      let opacity = 0
-      const e = Math.max(0, Math.min(1, (progress - .06) / .34))
-      const eased = e * e * (3 - 2 * e)
-      if (from === to && id === from) opacity = 1
-      else if (id === from) opacity = 1 - eased
-      else if (id === to) opacity = eased
-      scene.style.opacity = opacity.toFixed(3)
-      /* The chart leaves early and arrives late, so the middle of every
-         crossing belongs to the particle field on the canvas underneath.
+      /* The chart is on screen only when its particles are not.
 
-         That field is the story's one dissolve: about thirteen hundred dots,
-         each on its own heading. Scattering the chart's own marks instead gave
-         a different motion on every fold, because a fold made of forty large
-         cells cannot come apart like a cloud — it came apart like scattered
-         tiles. Getting out of the way is what makes all five identical. */
+         `cross` is handed in from the field and rises to 1 within the first few
+         per cent of a crossing. A chart's opacity is 1 minus that, so the
+         instant the particles reach full strength the chart is gone — and they
+         are sampled from it, so they are standing exactly where it was. The
+         swap is meant to be invisible; only the travelling should be seen. */
+      let opacity = 0
+      if (from === to && id === from) opacity = 1
+      else if (id === from || id === to) opacity = Math.max(0, 1 - cross)
+      scene.style.opacity = opacity.toFixed(3)
       // Hit-testing follows what you can see. Without this a faded scene still
       // catches clicks aimed at whatever is behind it.
       scene.classList.toggle('is-live', opacity > 0.5)
@@ -1004,25 +998,26 @@ export function createStoryCharts(data, root, coauthors = null){
       if (css.display === 'none' || css.visibility === 'hidden') continue
       const alpha = parseFloat(el.style.opacity || css.opacity || '1')
       if (alpha < 0.08) continue
-      const c = rgb(css.fill) || rgb(css.stroke)
-      if (!c) continue
+      // Only whether it is drawn at all. The colour is the field's, not the
+      // chart's, so it is never read.
+      if (!rgb(css.fill) && !rgb(css.stroke)) continue
 
       if (el.tagName === 'circle'){
         const cx = num(el, 'cx'), cy = num(el, 'cy'), r = num(el, 'r')
         if (r < 0.4) continue
         // A small mark still owes at least one particle, or the fine detail of
         // a chart vanishes and only its big shapes travel.
-        if (r <= pitch * 0.6){ pts.push([cx, cy, c]); continue }
+        if (r <= pitch * 0.6){ pts.push([cx, cy]); continue }
         for (let y = cy - r; y <= cy + r; y += pitch)
           for (let x = cx - r; x <= cx + r; x += pitch)
-            if ((x - cx) ** 2 + (y - cy) ** 2 <= r * r) pts.push([x, y, c])
+            if ((x - cx) ** 2 + (y - cy) ** 2 <= r * r) pts.push([x, y])
       }
       else if (el.tagName === 'rect'){
         const x0 = num(el, 'x'), y0 = num(el, 'y')
         const w = num(el, 'width'), h = num(el, 'height')
         if (w < 0.4 || h < 0.4) continue
         for (let y = y0; y <= y0 + h; y += pitch)
-          for (let x = x0; x <= x0 + w; x += pitch) pts.push([x, y, c])
+          for (let x = x0; x <= x0 + w; x += pitch) pts.push([x, y])
       }
       else {
         const x1 = num(el, 'x1'), y1 = num(el, 'y1')
@@ -1030,7 +1025,7 @@ export function createStoryCharts(data, root, coauthors = null){
         const len = Math.hypot(x2 - x1, y2 - y1)
         const steps = Math.max(1, Math.round(len / pitch))
         for (let k = 0; k <= steps; k++)
-          pts.push([x1 + (x2 - x1) * k / steps, y1 + (y2 - y1) * k / steps, c])
+          pts.push([x1 + (x2 - x1) * k / steps, y1 + (y2 - y1) * k / steps])
       }
     }
     return pts

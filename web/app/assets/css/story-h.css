@@ -151,6 +151,24 @@
   display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);
   align-content:center;
 }
+/* The words disperse with the chart. `--copy-out` is the same number that
+   swaps the chart for its particles, so the sentence loosens and lifts on the
+   same beat rather than sliding intact past a field of dots.
+
+   Tracking widens as it goes, which is what letters coming apart looks like at
+   type sizes: the word stops being a word before it stops being visible. */
+.sh-panel{ --copy-out:0; }
+.sh-panel .sh-copy{
+  opacity:calc(1 - var(--copy-out));
+  transform:translateY(calc(var(--copy-out) * -14px));
+  letter-spacing:calc(var(--copy-out) * 0.055em);
+  filter:blur(calc(var(--copy-out) * 2.5px));
+  will-change:opacity, transform, filter;
+}
+@media (prefers-reduced-motion: reduce){
+  .sh-panel .sh-copy{ transform:none; letter-spacing:normal; filter:none; }
+}
+
 /* Asymmetric by rule: the words take columns 1–5, never centred. */
 .sh-copy{grid-column:1 / span 5; align-self:center;}
 @media (max-width:900px){ .sh-copy{grid-column:1 / span 10;} }

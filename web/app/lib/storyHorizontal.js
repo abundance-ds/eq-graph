@@ -394,7 +394,16 @@ export function initStory(DATA, TOPO, root, options = {}){
       const step = pts.length / dots.length
       for (let i = 0; i < dots.length; i++){
         const q = pts[Math.min(pts.length - 1, Math.floor(i * step))]
-        out[i] = { x:box.x + q[0] * kx, y:box.y + q[1] * ky, c:q[2], r:1.5, a:0 }
+        /* Position from the chart, colour from the story.
+
+           Sampling the chart's own colour meant every fold dissolved into a
+           different palette: the network went dark because its plates and links
+           are, the matrix went green, the map went grey. A particle is a project
+           or a paper wherever it happens to be standing, so it keeps the two
+           colours the field has always used and the dissolve looks the same
+           leaving any fold. */
+        out[i] = { x:box.x + q[0] * kx, y:box.y + q[1] * ky,
+                   c:dots[i].kind === 'project' ? TEAL : YELLOW, r:1.5, a:0 }
       }
       return { pos:out, furn:null }
     }
@@ -513,7 +522,6 @@ export function initStory(DATA, TOPO, root, options = {}){
          actually ends and hang the strip off that, or the strip floats a long
          way under the map with nothing between them. */
       const mapBox = geoPath(proj).bounds(inhabited)
-      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
       const per = {}
       for (const [c, set] of Object.entries(familyIn))
         per[c] = ESTABLISHED.filter(([, short]) => set.has(short)).length
@@ -526,6 +534,34 @@ export function initStory(DATA, TOPO, root, options = {}){
       // It is the finding the map alone cannot state, that the newest members
       // of the family are in half as many places as the flagship.
       const reach = FAMILY.map(([, short, , note]) => ({ short, note, n:familyReach[short].size }))
+      /* The map has to come apart like every other fold, and it is drawn on the
+         canvas rather than in SVG, so there is no chart to read. Its particles
+         are generated from the geography instead: a grid over each shaded
+         country, kept where the country actually is.
+
+         Tested country by country rather than point by point over the whole
+         frame — each one only grids its own bounding box, so this is thirty-odd
+         small sweeps instead of one large one against every border. */
+      const shaded = inhabited.features.filter(f => per[f.properties.name])
+      const mapPts = []
+      const PITCH = 5.4
+      for (const feat of shaded){
+        const bb = geoPath(proj).bounds(feat)
+        for (let y = bb[0][1]; y <= bb[1][1]; y += PITCH)
+          for (let x = bb[0][0]; x <= bb[1][0]; x += PITCH){
+            const ll = proj.invert([x, y])
+            if (ll && geoContains(feat, ll)) mapPts.push([x, y])
+          }
+      }
+      if (mapPts.length){
+        const step = mapPts.length / dots.length
+        for (let i = 0; i < dots.length; i++){
+          const q = mapPts[Math.min(mapPts.length - 1, Math.floor(i * step))]
+          out[i] = { x:q[0], y:q[1],
+                     c:dots[i].kind === 'project' ? TEAL : YELLOW, r:1.5, a:0 }
+        }
+      } else for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
+
       out.furn = { kind:'map', b, proj, centroid, per, unplaced:0, entityKind:'instrument',
                    peak: ESTABLISHED.length, detail: countryDetail, familyIn, reach,
                    mapBottom: mapBox[1][1],
@@ -1046,6 +1082,19 @@ export function initStory(DATA, TOPO, root, options = {}){
        It is a departure from the resting layout, not a change to it. `burst` is
        zero at both ends by construction, so every settled fold is exactly what
        it was, and nothing here can spoil an arrangement that already works. */
+    /* The handover between a chart and its particles.
+
+       `cross` goes from 0 to 1 within the first few per cent of a crossing and
+       back to 0 in the last few. The chart's opacity is exactly its inverse, so
+       at the moment one appears the other is gone — and because the particles
+       are sampled from the chart, they are standing precisely where its marks
+       were. Nothing fades into anything; the picture is replaced by itself.
+
+       A slow ramp is what made it look like a cross-fade before: the chart was
+       still half there while the dots were still half faint, so the eye saw two
+       weak images rather than one solid one turning to grain. */
+    const cross = i0 === i1 ? 0
+      : Math.max(0, Math.min(1, Math.min(rawT, 1 - rawT) / 0.06))
     const burst = i0 === i1 ? 0 : Math.sin(rawT * Math.PI)
     const scatter = burst * Math.min(W, H) * 0.09
 
@@ -1055,7 +1104,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       const r = lerp(a.r, b.r, t)
       const c = [lerp(a.c[0],b.c[0],t), lerp(a.c[1],b.c[1],t), lerp(a.c[2],b.c[2],t)]
       let alpha = lerp(a.a == null ? .85 : a.a, b.a == null ? .85 : b.a, t)
-      if (burst > 0.004){
+      if (cross > 0.004){
         // Stable per dot, so the cloud is the same shape every time rather than
         // boiling, and each one leaves on its own heading.
         const ang = (i % 97) * 0.0647 + i * 0.011
@@ -1073,7 +1122,9 @@ export function initStory(DATA, TOPO, root, options = {}){
         y += Math.sin(ang) * scatter * reach * 0.72
         // A dot the next fold will not show still has to be visible while it
         // travels, or the crossing is empty again.
-        alpha = Math.max(alpha, burst * 0.34)
+        // Full strength for the whole crossing, not a bump in the middle: the
+        // particles ARE the picture while it travels.
+        alpha = Math.max(alpha, cross)
       }
       ctx.beginPath()
       ctx.arc(x, y, r, 0, 6.283)
@@ -1099,10 +1150,25 @@ export function initStory(DATA, TOPO, root, options = {}){
     canvas.style.pointerEvents = liveMap ? 'auto' : 'none'
     canvas.style.cursor = liveMap ? 'pointer' : ''
 
-    charts.show(BEATS[i0].chart, BEATS[i1].chart, rawT)
+    charts.show(BEATS[i0].chart, BEATS[i1].chart, rawT, cross)
 
     // panels slide; the field stays put and rearranges under them
     track.style.transform = `translate3d(${-(f * 100)}vw,0,0)`
+    /* The words go with the picture.
+
+       They cannot be sampled into the same field: they are real text, selectable
+       and readable by a screen reader, and drawing them to the canvas would cost
+       both. So they come apart the way type does — the letters loosen, the line
+       thins and lifts — timed to the same `cross`, so the sentence and the chart
+       leave together and arrive together instead of one sliding while the other
+       dissolves. */
+    if (track.style.opacity !== '0'){
+      const panel = track.children[Math.round(f)]
+      for (const el of track.children){
+        const leaving = el !== panel ? 1 : cross
+        el.style.setProperty('--copy-out', leaving.toFixed(3))
+      }
+    }
 
     const active = i0 === i1 || rawT < .5 ? i0 : i1
     root.querySelectorAll('[data-dots] button').forEach((d, i) => {
