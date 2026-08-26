@@ -266,7 +266,7 @@
 .sh-btn{
   position:relative; isolation:isolate;
   font-family:var(--font-body); font-size:var(--t-body); font-weight:500;
-  padding:.82rem 1.5rem; border-radius:9px; cursor:pointer;
+  padding:.82rem 1.75rem; border-radius:999px; cursor:pointer;
   border:1px solid transparent; letter-spacing:-.005em;
   transition:transform .18s cubic-bezier(.16,1,.3,1), background .2s ease, box-shadow .2s ease;
 }
@@ -314,6 +314,16 @@
 .sh-btn:hover .sh-ray b, .sh-btn:focus-visible .sh-ray b{animation-play-state:running;}
 @keyframes sh-ray{ to{ transform:translate3d(-50%,-50%,0) rotate(1turn); } }
 @media (prefers-reduced-motion: reduce){ .sh-ray b{animation:none;} }
+
+/* The beat dots, the fold arrows and Skip all belong to the story. On the
+   opening screen there is no fold to be on, nothing to step between and
+   nothing yet to skip, so a reader meeting three controls for a thing they
+   have not started reads them as clutter. They arrive when the story does. */
+.sh-root[data-story-phase="intro"] .sh-dots,
+.sh-root[data-story-phase="intro"] .sh-controls{
+  opacity:0; pointer-events:none;
+}
+.sh-dots, .sh-controls{ transition:opacity .3s ease; }
 
 /* ── the dot field ────────────────────────────────────────────────── */
 .sh-field{position:absolute; inset:0; z-index:2; pointer-events:none;}

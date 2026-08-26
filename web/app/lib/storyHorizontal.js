@@ -807,7 +807,19 @@ export function initStory(DATA, TOPO, root, options = {}){
     const o = off.getContext('2d')
     o.clearRect(0, 0, W, H)
     const pad = W > 900 ? 48 : 24
-    const fs = Math.max(32, Math.min(104, W * 0.062))
+    /* The headline, sized by the room it actually has.
+
+       Width alone was not enough. A short wide window — a laptop with the dock
+       and a browser bar taking a third of it — has plenty of width and no
+       height, and the sentence came out enormous and pushed the buttons off the
+       fold. It is now the smaller of what the width allows and what the height
+       allows, so whichever dimension is tight is the one that decides.
+
+       Two points smaller than before at every size, which is the ask, and the
+       ceiling comes down with it. */
+    const byWidth  = W * 0.0585
+    const byHeight = H * 0.105
+    const fs = Math.max(30, Math.min(96, byWidth, byHeight))
     o.font = `500 ${fs}px 'Instrument Sans', 'Helvetica Neue', sans-serif`
     o.fillStyle = ink(1); o.textAlign = 'left'; o.textBaseline = 'middle'
     const words = INTRO_TEXT.split(' '); const lines = []; let line = ''

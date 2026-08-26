@@ -109,6 +109,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
   let park = 0                       // scroll parallax
   let hover = null                   // the country under the cursor
   let drag = null, autoResume = 0    // drag-to-spin
+  let parked = false                 // drawing suspended while off screen
   let live = true                    // is the globe on screen and grabbable
   let active = true                  // false while the chat cockpit owns the page
   let rot = [-10, -16]               // the live rotation
@@ -142,10 +143,27 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
     proj.translate([cx, cy])
     const R = proj.scale()
 
-    // once the globe has faded out it must stop swallowing the pointer
+    /* Once the globe has faded out it stops swallowing the pointer — and, far
+       more importantly, stops drawing.
+
+       Every frame this rotates and clips the whole world outline: eighty
+       thousand coordinates across two hundred and forty-one countries. It was
+       doing that sixty times a second whether or not anything was on screen,
+       which is why the story ran at about eight frames a second on a fold where
+       the globe is at zero opacity. The visibility was already being computed
+       here for the pointer; it just was not being used for the one thing that
+       costs anything. */
     const vis = +(canvas.parentNode.style.opacity || 1) > 0.12
     if (vis !== live){ live = vis; canvas.style.pointerEvents = vis ? 'auto' : 'none'
                        if (!vis){ px = py = null; setHover(null) } }
+    if (!vis || document.hidden){
+      // Keep the loop alive so it picks straight back up, but draw nothing.
+      // The clear is needed once, or the last frame stays burnt into the canvas.
+      if (!parked){ parked = true; ctx.clearRect(0, 0, W, H) }
+      raf = requestAnimationFrame(frame)
+      return
+    }
+    parked = false
 
     // the sphere: a dark glass ball with a teal rim
     ctx.beginPath(); path({ type:'Sphere' })
@@ -182,7 +200,11 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
     if (px !== null){
       const dxp = px - cx, dyp = py - cy
       const near = dxp * dxp + dyp * dyp <= (R + 30) * (R + 30)
-      if (!drag) pinTo = near ? 0.85 : 0.5
+      /* Cards sit at full strength once a country has come round. They used
+         to rest at half, so every label was permanently washed out whether or
+         not the pointer was anywhere near. The fade as a country crosses the
+         limb is `edge`, below, and that is the only fade wanted. */
+      if (!drag) pinTo = near ? 1 : 0.92
       let found = null
       if (dxp * dxp + dyp * dyp <= R * R){
         const ll = proj.invert([px, py])
@@ -257,14 +279,16 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
         ctx.beginPath()
         if (ctx.roundRect) ctx.roundRect(bx0, by0, cw, ch, 4)
         else ctx.rect(bx0, by0, cw, ch)
-        ctx.fillStyle = `rgba(${GROUND},${(a * .88).toFixed(3)})`
+        // Solid white, not the page tint at 88%. A label has to be read over
+        // whatever piece of ocean or landmass happens to be behind it.
+        ctx.fillStyle = `rgba(255,255,255,${a.toFixed(3)})`
         ctx.fill()
         ctx.strokeStyle = `rgba(${LIT},${(a * (on ? .95 : .45)).toFixed(3)})`
         ctx.lineWidth = 1; ctx.stroke()
 
         ctx.textBaseline = 'middle'; ctx.textAlign = 'left'
         ctx.font = `500 ${fs}px 'Instrument Sans', 'Helvetica Neue', sans-serif`
-        ctx.fillStyle = `rgba(${INK},${a.toFixed(3)})`
+        ctx.fillStyle = `rgba(92,92,86,${a.toFixed(3)})`   // grey on white
         ctx.fillText(name, bx0 + 9, by0 + ch / 2 + .5)
         ctx.font = `500 ${fs}px 'IBM Plex Mono', ui-monospace, monospace`
         ctx.fillStyle = `rgba(${LIT},${a.toFixed(3)})`
