@@ -67,7 +67,8 @@
      one: the brand blue #007d9d sits at ΔE 9 from the green under normal
      vision and ΔE 6 under both deuteranopia and protanopia, so the two would
      be one colour to a colourblind reader. */
-  --yellow:#a8720d; --teal:#007d6c; --teal-deep:#007d6c;
+  --yellow:#b88016; --teal:#007d6c; --teal-deep:#007d6c;
+  --blue:#2f6f9f;   /* analogous to the teal, for the second category */
   --teal-hover:#0e8474;
 
   --tip-bg:rgba(255,255,253,.96);
@@ -85,7 +86,7 @@
   --ink-rgb:26,26,23;                    /* type, furniture, particles   */
   --dot-grey-rgb:138,138,130;
   --dot-teal-rgb:0,125,108;              /* #007d6c, the EuroQol green */
-  --dot-yellow-rgb:168,114,13;
+  --dot-yellow-rgb:184,128,22;
   --globe-lit-rgb:0,125,108;             /* a country with research in it */
   --globe-land-rgb:122,124,114;          /* every other coastline        */
   --globe-pin-rgb:26,26,23;

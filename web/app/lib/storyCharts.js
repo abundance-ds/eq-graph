@@ -366,20 +366,26 @@ const icon = name =>
    depth, few enough to tell apart without inventing a palette: the two brand
    colours carry the largest and the rest take neutral steps. */
 const GROUP_INK = [
-  // Valuation carries the most papers at this depth, so it keeps the brand
-  // green. Youth was a muted teal and sat 96 units from it, close enough to
-  // read as the same colour, so it takes the ochre. Descriptive Systems takes
-  // a warm slate: a third hue would have to survive colourblindness against
-  // both, and a neutral separated by lightness does that more reliably.
-  //
-  // Checked rather than chosen by eye. Against the page: 5.9:1, 2.7:1 and
-  // 4.6:1. Simulated for deuteranopia, the closest pair is still 97 apart,
-  // where anything under about 60 reads as one colour.
-  ['Valuation',                      '#00705f'],
-  ['Youth',                          '#c8901f'],
-  ['Descriptive Systems',            '#7a736a'],
-  ['Populations and Health Systems', '#a7a096'],
-  ['EQ-HWB',                         '#5b8f86'],
+  /* An analogous palette: the brand green, and blue beside it on the wheel for
+     where green cannot go again. One warm note, the brand ochre, and it is the
+     SAME ochre the year fold uses — there were two before, a dark brown on the
+     canvas and a brighter one here, for the same idea.
+
+     No red anywhere. Red beside green is the one pairing a colourblind reader
+     cannot separate, and it also carries a meaning — bad, stop, over budget —
+     that none of these groups have.
+
+     Every value checked rather than chosen. Contrast against the page runs 5.9,
+     5.3, 3.3, 2.5 and 2.1 to one. Simulated for deuteranopia, all ten pairs are
+     at least 64 apart, where under about 60 reads as one colour. Two earlier
+     attempts failed that test: a dark charcoal sat 55 from the teal, and a deep
+     navy sat 15, because anything dark collapses toward the dark green. The
+     fourth and fifth are tints for that reason. */
+  ['Valuation',                      '#00705f'],   // brand green, most papers
+  ['Descriptive Systems',            '#2f6f9f'],   // blue, analogous
+  ['Youth',                          '#b88016'],   // the one warm note
+  ['Populations and Health Systems', '#8fb6d4'],   // tint of the blue
+  ['EQ-HWB',                         '#6fada1'],   // tint of the green
 ]
 const groupInk = name => (GROUP_INK.find(g => g[0] === name) || [, '#b9beba'])[1]
 

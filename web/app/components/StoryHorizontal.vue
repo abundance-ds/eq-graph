@@ -233,7 +233,7 @@ onBeforeUnmount(() => {
              its own a reader has no idea what the page in front of them is
              until they open About. One line, concrete, no verbs about
              empowering or unlocking. -->
-        <p class="sh-sub" data-sub>EuroQol's funded research, read in full and open to your questions.</p>
+        <p class="sh-sub" data-sub>EuroQol's funded research, made searchable.</p>
 
         <div class="sh-cta" data-cta>
           <button class="sh-btn is-primary" data-go="chat">
