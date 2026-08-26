@@ -293,12 +293,22 @@ export function initStory(DATA, TOPO, root, options = {}){
     g:p.type === 'project' ? wgOf(p) : null, x:0, y:0, r:1.6, c:GREY,
   }))
 
-  function size(){
+  /* Rebuilding costs about two and a half seconds: nine charts re-rendered,
+     the co-author network re-settled under its physics, and five folds
+     re-sampled into particles. That is the right price when the window has
+     actually changed shape, and no price at all otherwise.
+
+     Closing the explorer calls refresh(), and the viewport has not moved, so it
+     was paying it for nothing — which is the delay before the landing page
+     appeared. */
+  let builtW = 0, builtH = 0
+  function size(force = false){
     W = canvas.clientWidth; H = canvas.clientHeight
+    if (W && H && !force && W === builtW && H === builtH && layouts.length) return true
     if (!W || !H){
       if (!destroyed){
         cancelAnimationFrame(sizeRetry)
-        sizeRetry = requestAnimationFrame(() => { if (size()) update() })
+        sizeRetry = requestAnimationFrame(() => { if (size(true)) update() })
       }
       return false
     }
@@ -306,6 +316,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0)
     // The charts are drawn first, because the layouts are now sampled from them.
     charts.resize()
+    builtW = W; builtH = H
     layouts.length = 0; furniture.length = 0
     BEATS.forEach((b, bi) => { const r = buildLayout(b.layout, b.chart, bi)
       layouts.push(r.pos || r); furniture.push(r.furn || null) })
