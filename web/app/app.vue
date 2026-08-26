@@ -78,9 +78,7 @@ body.is-chat-cockpit #__nuxt {
   padding: 2rem;
   text-align: center;
 }
-/* The same two values the story and the About page pin the mark to. Not the
-   page gutter, which is fluid, and so would put it somewhere else at every
-   width. */
+/* The same two values the story and the About page pin the mark to.  */
 .load-logo { position: absolute; left: 3rem; top: 1.55rem; display: block; line-height: 0; }
 .load-logo img { height: 27px; width: auto; display: block; }
 @media (max-width: 900px) { .load-logo { left: 1.5rem; top: 1.2rem; } .load-logo img { height: 22px; } }

@@ -1,11 +1,5 @@
 <script setup lang="ts">
-/**
- * What this is, how it was built, and what it cannot do yet.
- *
- * Skeleton. The method is still moving, so the page states the counts it can
- * verify from the live API and marks everything provisional as provisional
- * rather than writing a finished-sounding claim we would have to walk back.
- */
+/* What this is, how it was built, and what it cannot do yet.  */
 import type { DemoResearchData } from "../../shared/types/demo";
 
 useHead({
@@ -18,8 +12,7 @@ const { data } = await useFetch<DemoResearchData>("/api/story");
 const p = computed(() => (data.value as any)?.portfolio ?? {});
 const n = (v: unknown) => Number(v ?? 0).toLocaleString("en");
 
-// The share of the portfolio that has actually been read. This is the number
-// the page is organised around, so it is derived here rather than written down.
+// The share of the portfolio that has actually been read. 
 const readShare = computed(() => {
   const done = Number(p.value.linkedProjects ?? 0);
   const all = Number(p.value.projects ?? 0);
@@ -43,8 +36,7 @@ const stages = [
     body: "The graph behind a page you can read and a question you can ask in plain English, with the source paper attached to every answer." },
 ];
 
-// Stated plainly, because a method that hides its edges is harder to trust than
-// one that names them.
+// Stated plainly, because a method that hides its edges is harder to trust than one that names them.
 const limits = [
   { head: "Most of the portfolio is unread",
     body: "Papers have been matched and read for a minority of funded projects. Everything counted on this site describes that subset, not the whole portfolio." },
@@ -61,13 +53,10 @@ const limits = [
 
 <template>
   <main class="ab">
-    <!-- Pinned to the viewport, not to the reading column, so it lands on the
-         same pixel as the home page. Inside the centred column it drifted to
-         wherever that column began, which is why it looked like it had moved. -->
+    <!-- Pinned to the viewport, not to the reading column, so it lands on the same pixel as the home page.  -->
     <div class="ab-bar" aria-hidden="true" />
     <header class="ab-top">
-      <!-- The mark is the way home, which is where a reader already looks for
-           it. A separate Back button said the same thing twice. -->
+      <!-- The mark is the way home, which is where a reader already looks for it.  -->
       <NuxtLink to="/" aria-label="EuroQol home">
         <img class="ab-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
       </NuxtLink>
@@ -76,8 +65,7 @@ const limits = [
 
     <section class="ab-hero">
       <p class="ab-eyebrow">EQ-Graph, a EuroQol seed grant</p>
-      <!-- No span of years in the headline: the records we hold start in 2012,
-           and the page says so lower down. -->
+      <!-- No span of years in the headline: the records we hold start in 2012, and the page says so lower down. -->
       <h1>
         A thousand funded projects, written down in a form
         you can ask questions of.
@@ -91,8 +79,7 @@ const limits = [
       </p>
     </section>
 
-    <!-- The counts are live, not written into the page, so this section cannot
-         drift away from what the database actually holds. -->
+    <!-- The counts are live, not written into the page, so this section cannot drift away from what the database actually holds. -->
     <section class="ab-counts" aria-label="What is in the graph today">
       <div><b>{{ n(p.projects) }}</b><span>projects funded</span></div>
       <div><b>{{ n(p.studies) }}</b><span>studies read in full</span></div>
@@ -107,9 +94,7 @@ const limits = [
       corpus, not a finished index.
     </p>
 
-    <!-- A grid on its own ground, so the method reads as one block of work
-         rather than five entries in a list. Each step is opened by a rule, the
-         way a printed table of contents opens a chapter. -->
+    <!-- A grid on its own ground, so the method reads as one block of work rather than five entries in a list.  -->
     <section class="ab-block ab-process">
       <div class="ab-process-in">
         <h2>How it is built</h2>
@@ -151,16 +136,9 @@ const limits = [
 </template>
 
 <style scoped>
-/* Hierarchy comes from space and size, not from rules and chips.
-
-   The earlier version fenced every section with a hairline, put each limitation
-   in a bordered box and tagged each stage with a coloured pill. That is the look
-   of a template being filled in. Here the only horizontal rule is under the
-   headline; everything else is separated by how far apart it sits. */
+/* Hierarchy comes from space and size, not from rules and chips.  */
 .ab{
-  /* Deliberately NOT position:relative. .ab-top is absolute, so making this a
-     containing block measures the mark from the reading column instead of the
-     page, and it drifts inward by whatever the column's offset is. */
+  /* Deliberately NOT position:relative.  */
   --measure:62ch;
   --gut:clamp(1.5rem, 4vw, 3rem);
   max-width:min(1140px, 100% - var(--gut) * 2);
@@ -169,22 +147,13 @@ const limits = [
   font:16px/1.68 var(--font-body,'Instrument Sans',sans-serif);
 }
 
-/* Fixed, not absolute. This page scrolls, unlike the story, whose stage is
-   pinned — so absolute meant the mark and the menu slid away with the first
-   paragraph. They stay.
-
-   The numbers are the story's own, a fixed 3rem, not this page's gutter. The
-   gutter is fluid between breakpoints while the story's padding is not, so on a
-   mid-width screen the mark sat in a different place on each page. It is the
-   same mark; it does not get to move. */
+/* Fixed, not absolute.  */
 .ab-top{ position:fixed; left:3rem; top:1.55rem; z-index:12; }
 .ab-top a{ display:block; }
 .ab{ --pad:3rem; }
 :deep(.nav){ position:fixed; z-index:12; }
 
-/* A band behind them, so the type underneath scrolls out of sight rather than
-   through the menu. It is the page's own colour, so at the top of the page it
-   is invisible and only does anything once there is something to cover. */
+/* A band behind them, so the type underneath scrolls out of sight rather than through the menu.  */
 .ab-bar{
   position:fixed; left:0; right:0; top:0; height:5rem; z-index:11;
   background:#fcfcfb; pointer-events:none;
@@ -202,9 +171,7 @@ const limits = [
 
 .ab-hero{ padding-top:10rem; }
 
-/* Held to the right half and faded out towards the text, so the headline sits
-   on plain ground and the image is the room it sits in. Nothing is read over
-   it, which is the difference between a background and a decoration. */
+/* Held to the right half and faded out towards the text, so the headline sits on plain ground and the image is the room it sits in.  */
 .ab-eyebrow{
   margin:0 0 1.5rem; color:var(--ink-3,#8e8e86);
   font:400 .95rem/1 var(--font-body,sans-serif);
@@ -219,8 +186,7 @@ const limits = [
   font-size:1.18rem; line-height:1.62; color:var(--ink-2,#5c5c56);
 }
 
-/* The one rule on the page, because these numbers are the evidence and the
-   line is what makes them a set rather than a sentence. */
+/* The one rule on the page, because these numbers are the evidence and the line is what makes them a set rather than a sentence. */
 .ab-counts{
   display:grid; gap:2.2rem 1.5rem; margin:6rem 0 1.4rem;
   grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
@@ -242,14 +208,10 @@ const limits = [
   letter-spacing:-.025em;
 }
 
-/* The process sits on its own ground, edge to edge, so it reads as one body of
-   work. Cool grey and black rather than the page's near-white: it is a change
-   of surface, not a box drawn around a list. */
+/* The process sits on its own ground, edge to edge, so it reads as one body of work.  */
 .ab-process{
   background:#ececeb;
-  /* Edge to edge, out of the reading column. Pulling back by the gutter alone
-     left a grey panel floating inside the page, which is a box; going to the
-     viewport makes it a change of ground. */
+  /* Edge to edge, out of the reading column.  */
   margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
   padding:5.5rem calc(50vw - 570px) 6rem;   /* lines the steps up with the column */
 }
@@ -257,8 +219,7 @@ const limits = [
 @media (max-width:1260px){ .ab-process{ padding-left:var(--gut); padding-right:var(--gut); } }
 .ab-process h2{ margin-bottom:3.5rem; }
 
-/* Three across, wrapping to one on a phone. The rule above each step is what
-   the numbers used to do: it opens the entry and orders the page. */
+/* Three across, wrapping to one on a phone.  */
 .ab-stages{
   list-style:none; margin:0; padding:0;
   display:grid; gap:3rem 3.5rem;
@@ -272,8 +233,7 @@ const limits = [
 }
 .ab-stages p{ margin:0; color:#43433e; font-size:.98rem; line-height:1.62; }
 
-/* No boxes. Each limitation is a small headline and a paragraph, set like the
-   stages above, because it carries the same weight as the method. */
+/* No boxes.  */
 .ab-limits dl{ margin:0; display:grid; gap:2.6rem; }
 .ab-limits dt{ margin-bottom:.5rem; font-weight:500; font-size:1.1rem; letter-spacing:-.01em; }
 .ab-limits dd{ margin:0; max-width:var(--measure); color:var(--ink-2,#5c5c56); }

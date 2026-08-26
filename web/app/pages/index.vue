@@ -49,13 +49,7 @@ async function returnToStory() {
   setDocumentMode(false);
   history.replaceState(history.state, "", `${location.pathname}${location.search}`);
   await nextTick();
-  /* Closing goes home, not back to where you came in.
-
-     It used to restore the scroll position captured on entry, so arriving from
-     the end of the story dropped the reader straight back into the last fold —
-     and if that landed inside the handover zone, the chat opened again. Close
-     is a way out of the explorer, so it goes to the top, which is the one place
-     that is the same wherever you entered from. */
+  /* Closing goes home, not back to where you came in.  */
   storyComponent.value?.restoreAt(0);
 }
 
@@ -80,10 +74,7 @@ onBeforeUnmount(() => setDocumentMode(false));
     />
   </main>
 
-  <!-- The mark stays in the corner it occupies on every other screen rather
-       than sitting in the middle of this one. Centred, it jumped to the corner
-       the moment the data arrived, which read as the page lurching — the exact
-       thing a loading screen is there to prevent. -->
+  <!-- The mark stays in the corner it occupies on every other screen rather than sitting in the middle of this one.  -->
   <main v-else class="load-state">
     <NuxtLink to="/" class="load-logo" aria-label="EuroQol home">
       <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">

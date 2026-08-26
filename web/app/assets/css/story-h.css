@@ -1,20 +1,4 @@
-/* ═══════════════════════════════════════════════════════════════════
-   THE STORY — horizontal, on paper, Swiss.
-
-   The light theme. Identical to the dark one in every respect except the
-   token block below: the drawing code reads its colour from these, so this
-   file is the whole difference between the two.
-
-   Swiss means the grid is the design: everything sits on a strict 12
-   column field, flush left, ragged right, and the hierarchy comes from
-   scale and weight rather than ornament. Edgy comes from the scale gap
-   and from letting the grid show, not from effects.
-
-   Paper ground — warm off-white, a shade away from the chat below it so the
-   two read as one surface without being flat. Two accents only, both taken
-   down to where they hold contrast on paper: amber in place of the yellow,
-   and the deep teal. The dot field is still the subject.
-   ═══════════════════════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════════════════════ THE STORY — horizontal, on paper, Swiss.  */
 
 .sh-root{
   /* fonts, so this route works on its own as well as inside the landing */
@@ -24,21 +8,8 @@
   --ink:#1a1a17; --ink-2:#5c5c56; --ink-3:#8e8e86; --ink-4:#c4c4bb;
   --rule:rgba(26,26,23,.17); --rule-soft:rgba(26,26,23,.08);
 
-  /* ── The type scale ──────────────────────────────────────────────────
-     Every size in this file used to be picked on the spot: 12px here,
-     .95rem there, 11px, .92rem, .76rem, 9.5px. Eleven sizes doing five
-     jobs, none of them related to each other — which is precisely what
-     makes a page feel assembled rather than designed.
-
-     One scale now, on a minor third (1.2). Each role names a job, not a
-     measurement, so a change to the ratio moves the whole page together
-     and nothing drifts.
-
-     The display sizes stay fluid, because the fold is a full viewport and
-     a fixed headline either swims on a large screen or breaks on a small
-     one. Everything below the headline is fixed: body text should be the
-     same size on every screen, since reading distance does not change with
-     the window. */
+  /* ── The type scale ────────────────────────────────────────────────── */
+  /* Every size in this file used to be picked on the spot: 12px here, .95rem there, 11px, .92rem, .76rem, 9.5px. */
   --t-micro:  .72rem;   /* captions under a chart, axis notes            */
   --t-fine:   .82rem;   /* asides, chart tick labels, the key            */
   --t-body:   .95rem;   /* the paragraph                                 */
@@ -46,27 +17,18 @@
   --t-head:  clamp(1.05rem, 1.62vw, 1.5rem);  /* the beat's sentence     */
   --t-display: clamp(2.2rem, 4.1vw, 3.7rem);  /* the number AND its noun */
 
-  /* Leading is a property of the role, not of the size. Display type is set
-     tight because it is read as a shape; body text is set open because it is
-     read as a line. */
+  /* Leading is a property of the role, not of the size.  */
   --lh-display: .86;
   --lh-head:   1.14;
   --lh-body:   1.62;
   --lh-fine:   1.5;
 
-  /* Tracking tightens as size grows — the classic correction. Large type
-     needs it closed up; small type needs it opened out to stay legible. */
+  /* Tracking tightens as size grows — the classic correction.  */
   --tr-display: -.045em;
   --tr-head:    -.025em;
   --tr-body:    -.004em;
   --tr-micro:    .02em;
-  /* Straight off the logo artwork. #007d6c is the EuroQol green, used at full
-     strength here because on paper it is the only step of the gradient that
-     holds contrast. The amber is NOT a brand colour — it is here because the
-     story needs a second categorical accent and nothing in the kit can be
-     one: the brand blue #007d9d sits at ΔE 9 from the green under normal
-     vision and ΔE 6 under both deuteranopia and protanopia, so the two would
-     be one colour to a colourblind reader. */
+  /* Straight off the logo artwork.  */
   --yellow:#b88016; --teal:#007d6c; --teal-deep:#007d6c;
   --blue:#2f6f9f;   /* analogous to the teal, for the second category */
   --teal-hover:#0e8474;
@@ -78,10 +40,7 @@
   --ray-soft:rgba(0,125,108,.20);        /* the sweep around a hovered button */
   --ray-hot:#007d6c;
 
-  /* The canvases cannot read hex tokens, so the same palette is published
-     as plain "r,g,b" triples. This is the ONE place the story's colour is
-     decided — the drawing code reads these and never hard-codes a value,
-     which is what makes this theme a change of tokens and nothing else. */
+  /* The canvases cannot read hex tokens, so the same palette is published as plain "r,g,b" triples.  */
   --ground-rgb:252,252,251;              /* the ground the dots sit on */
   --ink-rgb:26,26,23;                    /* type, furniture, particles   */
   --dot-grey-rgb:138,138,130;
@@ -105,9 +64,7 @@
 }
 
 /* ── the pinned stage ─────────────────────────────────────────────── */
-/* The runway height is declared here, not left to JavaScript. Setting it in
-   JS meant the section had zero height until the script ran, so the page was
-   blank until then. JS still overrides it if the beat count changes. */
+/* The runway height is declared here, not left to JavaScript.  */
 .sh-scroll{position:relative; height:1613vh;}  /* intro + scenes + a separate chat handover */
 .sh-stage{
   position:sticky; top:0; height:100vh; overflow:hidden;
@@ -130,11 +87,8 @@
 .sh-grid span{border-left:1px solid var(--rule-soft);}
 .sh-grid span:last-child{border-right:1px solid var(--rule-soft);}
 
-
 /* ── the track ────────────────────────────────────────────────────── */
-/* The track covers the stage at z-index 4, above the globe. Without this it
-   swallows every pointer event on the fold, which is why the globe could not
-   be grabbed — there is nothing to click in a panel. */
+/* The track covers the stage at z-index 4, above the globe.  */
 .sh-track{
   position:absolute; inset:0; z-index:4; display:flex; align-items:center;
   will-change:transform, opacity; pointer-events:none;
@@ -144,13 +98,7 @@
   display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);
   align-content:center;
 }
-/* The words hand over to their own particles.
-
-   `--copy-out` is the same number that swaps the chart, and the sentence is
-   sampled into the field exactly where it sits, so this is a straight swap and
-   not a fade: at the moment the type goes the dots are already standing in its
-   letterforms. Blurring and drifting it was the old way, from when there were
-   no particles to hand it to, and it read as two things happening at once. */
+/* The words hand over to their own particles.  */
 .sh-panel{ --copy-out:0; }
 .sh-panel .sh-copy{ opacity:calc(1 - var(--copy-out)); }
 
@@ -158,26 +106,15 @@
 .sh-copy{grid-column:1 / span 5; align-self:center;}
 @media (max-width:900px){ .sh-copy{grid-column:1 / span 10;} }
 
-/* The figure and its noun are one object, so they share a line and a baseline.
-   The number comes down from 10.5rem — at display size it was loud enough to
-   be read as the whole message, which is exactly the problem: a number with no
-   noun makes the reader hunt the paragraph below to find out what was counted.
-   The unit sits at just under half its size: clearly secondary, clearly part
-   of the same thing. */
+/* The figure and its noun are one object, so they share a line and a baseline.  */
 .sh-num{
   display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .28em;
   font-family:var(--font-display); font-weight:500;
   font-size:var(--t-display); line-height:var(--lh-display); letter-spacing:var(--tr-display);
   color:var(--ink); margin:0 0 .35rem; font-variant-numeric:tabular-nums;
 }
-/* Same ink as the figure. Greying the noun split one object into two and made
-   the eye read "35" and "countries" as separate things — which is the exact
-   problem the noun was added to solve. Size alone carries the hierarchy. */
-/* The noun is set at the SAME size as the figure. They are one phrase — "35
-   countries" — and any difference in size makes the eye read them as two
-   things, which is the whole reason the noun was put there. The display line
-   comes down to a size where the pair fits on one line and the sentence below
-   can still step clearly under it. */
+/* Same ink as the figure.  */
+/* The noun is set at the SAME size as the figure.  */
 .sh-unit{
   font-size:1em; letter-spacing:var(--tr-display); font-weight:500;
   color:var(--ink);
@@ -188,10 +125,7 @@
 }
 .sh-head{
   font-family:var(--font-display); font-weight:500;
-  /* Clearly below the unit, not level with it. At the old size the noun beside
-     the figure and the sentence under it landed within a few pixels of each
-     other, so the eye could not tell whether "studies read" belonged to the
-     number above or the sentence below. Three sizes, three steps. */
+  /* Clearly below the unit, not level with it.  */
   font-size:var(--t-head); line-height:var(--lh-head); letter-spacing:var(--tr-head);
   color:var(--ink); margin:0 0 1.1rem;
 }
@@ -201,9 +135,7 @@
 }
 .sh-body b{color:var(--ink); font-weight:500;}
 
-/* The consequence. A number on its own does not say what it bought, so every
-   beat carries one of these — marked with a rule in the brand green so the
-   eye knows it is the point rather than more description. */
+/* The consequence.  */
 .sh-so{
   margin:1.15rem 0 0; padding-left:1rem; border-left:2px solid var(--teal);
   font-size:var(--t-body); line-height:var(--lh-body); letter-spacing:var(--tr-body);
@@ -217,12 +149,9 @@
   background:linear-gradient(90deg, var(--rule) 0%, var(--rule) 22%, transparent 100%);
 }
 
-/* ── the instrument ───────────────────────────────────────────────────
-   The opening object: five extruded forms whose heights are the levels of
-   an EQ-5D health state. Sits in the right half, on the same columns the
-   dot field will take, so one gives way to the other in place. */
-/* The globe fills the fold and sits behind the words, so the type always
-   reads over it and the whole right half is grabbable. */
+/* ── the instrument ─────────────────────────────────────────────────── */
+/* The opening object: five extruded forms whose heights are the levels of an EQ-5D health state. */
+/* The globe fills the fold and sits behind the words, so the type always reads over it and the whole right half is grabbable. */
 .sh-instrument{
   position:absolute; inset:0; z-index:1;
   opacity:0; transition:none; pointer-events:none;
@@ -251,15 +180,9 @@
   margin:0 .3rem 0 .1rem; vertical-align:baseline;
 }
 
-/* ── the two ways in ──────────────────────────────────────────────────
-   Sitting under the opening line, in the left columns, from first paint.
-   Primary is filled teal; secondary is an outline. On hover a single bright
-   ray travels the edge — a conic gradient masked to the border ring, so it
-   rides the corner radius instead of cutting across it. */
-/* Sits between the headline and the buttons, on the same left edge, at a
-   measure short enough to read in one go. Placed from JS like the buttons,
-   because the headline is drawn to canvas and its height is only known once
-   the type has been laid out. */
+/* ── the two ways in ────────────────────────────────────────────────── */
+/* Sitting under the opening line, in the left columns, from first paint. */
+/* Sits between the headline and the buttons, on the same left edge, at a measure short enough to read in one go.  */
 .sh-sub{
   position:absolute; z-index:5; left:var(--pad); top:50%;
   margin:0; max-width:min(34rem, 42vw);
@@ -276,8 +199,7 @@
   transition:opacity .25s ease;
 }
 
-/* The two ways in. Teal and solid for the one that matters, outlined for
-   the other. */
+/* The two ways in.  */
 .sh-btn{
   position:relative; isolation:isolate;
   font-family:var(--font-body); font-size:var(--t-body); font-weight:500;
@@ -299,10 +221,7 @@
 }
 .sh-btn.is-secondary:hover{border-color:var(--btn-2-line-hover);}
 
-/* The ray. The first version animated a custom property, which means the
-   browser re-rasterises the conic gradient on the main thread every single
-   frame — that is what was juddering. This rotates a real layer instead, so
-   it runs on the compositor at whatever the screen refreshes at. */
+/* The ray.  */
 .sh-ray{
   position:absolute; inset:-1px; border-radius:inherit; overflow:hidden;
   opacity:0; transition:opacity .2s ease; pointer-events:none; z-index:1;
@@ -325,12 +244,7 @@
   animation:sh-ray 2s linear infinite;
   animation-play-state:paused;
 }
-/* The light has to contrast with what it is running around.
-
-   Both buttons used the same teal sweep, and the primary button IS that teal —
-   so on the one that matters most the streak was drawn in its own colour and
-   could not be seen at all. On the filled button the light is white; on the
-   outlined one it stays teal, which is what shows against paper. */
+/* The light has to contrast with what it is running around.  */
 .sh-btn.is-primary{
   --ray-soft:rgba(255,255,255,.28);
   --ray-hot:#ffffff;
@@ -342,10 +256,7 @@
 @keyframes sh-ray{ to{ transform:translate3d(-50%,-50%,0) rotate(1turn); } }
 @media (prefers-reduced-motion: reduce){ .sh-ray b{animation:none;} }
 
-/* The beat dots, the fold arrows and Skip all belong to the story. On the
-   opening screen there is no fold to be on, nothing to step between and
-   nothing yet to skip, so a reader meeting three controls for a thing they
-   have not started reads them as clutter. They arrive when the story does. */
+/* The beat dots, the fold arrows and Skip all belong to the story.  */
 .sh-root[data-story-phase="intro"] .sh-dots,
 .sh-root[data-story-phase="intro"] .sh-controls{
   opacity:0; pointer-events:none;
@@ -356,8 +267,7 @@
 .sh-field{position:absolute; inset:0; z-index:2; pointer-events:none;}
 .sh-field canvas{width:100%; height:100%; display:block;}
 
-/* Statistical charts use SVG. Text, position, and area stay sharp at every
-   screen size. The canvas remains for the opening motion and the maps. */
+/* Statistical charts use SVG.  */
 .sh-charts{
   position:absolute; z-index:3; pointer-events:none;
   left:46%; right:var(--pad); top:16%; bottom:14%;
@@ -370,8 +280,7 @@
 .sh-chart-scene .viz-axis{font:500 11.5px var(--font-num); fill:var(--ink-3);}
 .sh-chart-scene .viz-axis.is-strong{fill:var(--ink-2);}
 .sh-chart-scene .viz-kicker{font:500 10px var(--font-num); letter-spacing:.08em; fill:var(--ink-3);}
-/* Chart captions were 10px mono, which is a size for an axis tick, not for
-   a line of prose someone has to read. */
+/* Chart captions were 10px mono, which is a size for an axis tick, not for a line of prose someone has to read. */
 .sh-chart-scene .viz-note{font:400 12.5px var(--font-body); fill:var(--ink-3);}
 .sh-chart-scene .viz-gridline{stroke:var(--rule); stroke-width:1; vector-effect:non-scaling-stroke;}
 .sh-chart-scene .viz-bar{fill:rgba(26,26,23,.48);}
@@ -395,15 +304,10 @@
 .sh-chart-scene .viz-concept-anchor{fill:var(--yellow);}
 .sh-chart-scene .viz-family-anchor{fill:var(--teal);}
 
-/* The logo, top left, above the frame's top hairline — it carries the name
-   now that the opening line does not. */
-/* The mark is the way home from every screen, so here it has to be clickable.
-   The positioning moves onto the link and the image inside it is left plain,
-   which keeps the mark on the same pixel it was on before. */
+/* The logo, top left, above the frame's top hairline — it carries the name now that the opening line does not. */
+/* The mark is the way home from every screen, so here it has to be clickable.  */
 .sh-logo{
-  /* Above the loading cover, with the menu. The mark and the menu are the
-     frame of the page and are true before the data arrives, so they stay put
-     through the wait rather than appearing once it ends. */
+  /* Above the loading cover, with the menu.  */
   position:absolute; left:var(--pad); top:1.55rem; z-index:9;
   display:block; line-height:0; pointer-events:auto;
   border-radius:3px;
@@ -412,10 +316,7 @@
 .sh-logo:focus-visible{ outline:2px solid var(--teal,#007d6c); outline-offset:4px; }
 @media (max-width:900px){ .sh-logo{top:1.2rem;} .sh-logo img{height:22px;} }
 
-/* Covers the stage until the story has something on it. Without this the
-   reader met a bare frame with a mark and a menu on it while thirty thousand
-   lines of co-authorship data came down, which looks like a broken page
-   rather than a loading one. */
+/* Covers the stage until the story has something on it.  */
 .sh-loading{
   position:fixed; inset:0; z-index:8;
   display:grid; place-content:center;
@@ -424,20 +325,10 @@
 }
 .sh-loading.is-done{ opacity:0; pointer-events:none; }
 
-/* Sits under the mark, quiet. Skip owns the top right and this must not
-   compete with it. */
-/* About and Skip trade the top right corner.
+/* Sits under the mark, quiet.  */
+/* About and Skip trade the top right corner.  */
 
-   On the opening fold About holds it, because it is the only other thing to do
-   there. Once the story starts Skip takes the corner and About slides down and
-   across, under the mark, where it stays available without competing.
-
-   The travel is a transform rather than a change of `left`, so it is one
-   composited move; the distance is measured in JS because it depends on the
-   width of the word and of the stage. */
-
-/* Bottom right of the visual, not the top bar. These act on the story you are
-   looking at, unlike the menu, which goes somewhere else. */
+/* Bottom right of the visual, not the top bar.  */
 .sh-controls{
   position:absolute; right:var(--pad); bottom:1.35rem; z-index:8;
   display:flex; align-items:center; gap:1.4rem;
@@ -486,10 +377,7 @@
 .sh-root{--pad:3rem; min-height:100vh;}
 @media (max-width:900px){ .sh-root{--pad:1.5rem; --gut:.9rem;} }
 
-/* On a phone, reserve the lower part of the fold for the changing data
-   object. The reference placed the canvas behind the full copy and made the
-   chart labels collide with the text. The story stays the same, but each
-   layer now has a clear reading area. */
+/* On a phone, reserve the lower part of the fold for the changing data object.  */
 @media (max-width:640px){
   .sh-scroll{height:1879vh;}
   .sh-panel{align-content:start; padding-top:6.2rem;}
@@ -505,15 +393,7 @@
   .sh-chart-scene .viz-note{display:none;}
 }
 
-/* ══════════════ The country card ══════════════
-   Click a country on the globe and this eases in beside it. A real element
-   rather than something drawn into the canvas, so it can be read by a screen
-   reader, closed with a key, and styled with the rest of the page.
-
-   White on the story's paper ground, one soft shadow and no border — the
-   elevation is what separates it, which is the only job a border would have
-   done. Three numbers, each with its noun under it, in the same
-   number-over-label pattern the chat's KPIs use. */
+/* ══════════════ The country card ══════════════ Click a country on the globe and this eases in beside it.  */
 .sh-country{
   position:absolute;
   right:clamp(1.5rem, 6vw, 5rem);
@@ -587,8 +467,7 @@
 .sh-country-x:hover{background:#f2f2f0; color:#1a1a17;}
 .sh-country-x:focus-visible{outline:2px solid var(--accent, #007d6c); outline-offset:2px;}
 
-/* It arrives, rather than appearing. A short rise with a soft landing reads as
-   the card answering the click; a fade alone reads as a layer switching on. */
+/* It arrives, rather than appearing.  */
 .sh-card-enter-active{transition:opacity .26s ease, transform .34s cubic-bezier(.16,1,.3,1);}
 .sh-card-leave-active{transition:opacity .18s ease, transform .18s ease;}
 .sh-card-enter-from,
@@ -604,9 +483,7 @@
   .sh-card-leave-to{transform:translateY(10px) scale(.985);}
 }
 
-/* Margin totals on the matrix. Set as plain figures, not shaded cells: a total
-   is a sum rather than a crossing, and shading it on the same ramp would invite
-   the eye to compare it with the cells it is made of. */
+/* Margin totals on the matrix.  */
 .sh-chart-scene .viz-cell-total{
   font:500 11.5px var(--font-num);
   font-variant-numeric:tabular-nums;
@@ -614,15 +491,13 @@
 }
 .sh-chart-scene .viz-rule{ stroke:var(--hairline-strong, #cbc9c1); stroke-width:1; }
 
-/* Names the direction each margin sums in. Small and quiet — it is a caption
-   on a number, not a label competing with the axis. */
+/* Names the direction each margin sums in.  */
 .sh-chart-scene .viz-margin-note{
   font:500 10px var(--font-num);
   fill:var(--ink-3);
 }
 
-/* The name of a whole axis, not one of its ticks — so it sits above the tick
-   labels and reads as the category they belong to. */
+/* The name of a whole axis, not one of its ticks — so it sits above the tick labels and reads as the category they belong to. */
 .sh-chart-scene .viz-axis-title{
   font:500 10px var(--font-num);
   letter-spacing:.14em;
@@ -630,10 +505,9 @@
   fill:var(--ink-3);
 }
 
-/* ── The co-authorship network ──────────────────────────────────────────
-   Structurally Paul's graph, in the earlier light knowledge-graph style. */
-/* Quieter. At full strength a hundred crossing lines read as a mesh laid over
-   the people rather than as relationships between them, and the mesh wins. */
+/* ── The co-authorship network ────────────────────────────────────────── */
+/* Structurally Paul's graph, in the earlier light knowledge-graph style. */
+/* Quieter.  */
 .sh-chart-scene .viz-net-link{
   stroke:rgba(26,26,23,.055);
   stroke-linecap:round;
@@ -643,20 +517,17 @@
   stroke:#fff; stroke-width:1.4; cursor:pointer;
   transition:opacity .18s ease, stroke .18s ease, r .18s ease;
 }
-/* Fallbacks only. The live fill comes from the green ramp, set inline per
-   node, because the shade carries the paper count. */
+/* Fallbacks only.  */
 .sh-chart-scene .viz-net-node.is-member{ fill:#7fb3a6; }
 .sh-chart-scene .viz-net-node.is-other{ fill:#d6d6cf; }
-/* The leader ring sits outside the circle rather than recolouring it, so
-   membership and leadership can both be read on one node. */
+/* The leader ring sits outside the circle rather than recolouring it, so membership and leadership can both be read on one node. */
 /* The count sits in the circle it belongs to. */
 .sh-chart-scene .viz-net-count{
   font-family:var(--font-display); font-weight:500;
   fill:#26262a; font-variant-numeric:tabular-nums;
   pointer-events:none;
 }
-/* Legend text is read once, standing still, so it is set at reading size
-   rather than the size of an axis tick. */
+/* Legend text is read once, standing still, so it is set at reading size rather than the size of an axis tick. */
 .sh-chart-scene .viz-net-key{
   font:500 12.5px var(--font-body); fill:var(--ink-2);
 }
@@ -671,32 +542,19 @@
   transition:opacity .18s ease;
 }
 
-/* Selected: the person and their collaborators stay lit, everything else
-   steps back. Dimming rather than hiding keeps the shape of the whole network
-   visible, so you can see where in it this person sits. */
+/* Selected: the person and their collaborators stay lit, everything else steps back.  */
 .sh-chart-scene .is-faded{ opacity:.13; }
-/* The spotlight: the person under the pointer is ringed in ink so they read as
-   chosen rather than merely un-dimmed. */
+/* The spotlight: the person under the pointer is ringed in ink so they read as chosen rather than merely un-dimmed. */
 .sh-chart-scene .viz-net-node.is-lit{ stroke:#1a1a17; stroke-width:2.2; }
-/* A plate of the page colour behind each name. A name laid over crossing lines
-   is unreadable however dark it is set. */
+/* A plate of the page colour behind each name.  */
 .sh-chart-scene .viz-net-plate{ fill:rgba(252,252,251,.86); }
 .sh-chart-scene .viz-net-link.is-faded{ stroke-opacity:.06; }
 .sh-chart-scene .viz-net-node.is-picked{ stroke:#1a1a17; stroke-width:2.4; }
-/* Only darken lines once someone is actually being followed.
-
-   This rule used to be a bare `:not(.is-faded)`, and at rest nothing carries
-   that class — so every line matched and took the dark stroke. The light
-   colour above was never once applied. The scene now says when it has a focus,
-   and only then does the surviving line come forward. */
+/* Only darken lines once someone is actually being followed.  */
 .sh-chart-scene.is-focused .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.50); }
 
-/* The panel names what a thick line cannot: who the strong bonds are with.
-   It positions against the scene, which is already absolutely placed by the
-   base rule above — restating position here collapsed every chart to nothing,
-   because `relative` dropped the inset that gives the scene its size. */
-/* Bottom left. At the top it covered the legend, which is the one thing a
-   reader needs in order to make sense of what the panel is describing. */
+/* The panel names what a thick line cannot: who the strong bonds are with.  */
+/* Bottom left.  */
 .viz-net-panel{
   position:absolute; left:0; bottom:1.6rem; top:auto; z-index:4;
   max-width:min(30rem, calc(100% - 2rem));
@@ -711,20 +569,14 @@
   letter-spacing:-.02em; color:var(--ink);
 }
 .viz-net-panel span{ font-size:var(--t-fine); line-height:1.5; color:var(--ink-2); }
-/* The counts are what the panel exists to say, so they are the one thing set
-   in ink against the sentence around them. */
+/* The counts are what the panel exists to say, so they are the one thing set in ink against the sentence around them. */
 .viz-net-panel b{ font-weight:600; color:var(--ink); }
 
-/* The two figures, each with its own mark. They sit on one line while there is
-   room and wrap to two when there is not, rather than being squeezed. */
+/* The two figures, each with its own mark.  */
 .viz-net-figs{ display:flex; flex-wrap:wrap; gap:0.15rem 1.1rem; }
 .viz-fig{ display:inline-flex; align-items:center; gap:0.36rem; white-space:nowrap; }
-/* Sized against the text it labels, so it stays matched at any type scale.
-   Scoped to the scene on purpose: `.sh-chart-scene svg` above sets every SVG
-   to 100% for the chart itself, and it outranks a bare `.viz-ico`, which
-   stretched this icon to the full width of the panel. */
-/* Nodes assemble rather than appear. transform-box keeps the scale about the
-   circle's own centre instead of the whole SVG's origin. */
+/* Sized against the text it labels, so it stays matched at any type scale.  */
+/* Nodes assemble rather than appear.  */
 .sh-chart-scene.is-live .viz-net-node{
   transform-box:fill-box; transform-origin:center;
   animation:viz-arrive .5s cubic-bezier(.2,.9,.3,1) backwards;
@@ -736,9 +588,7 @@
   .sh-chart-scene.is-live .viz-net-node{ animation:none; }
 }
 
-/* The number and the name sit over their circle, so without this the pointer
-   lands on a digit and the hover never reaches the node underneath. That is why
-   hovering did nothing over exactly the marks worth hovering. */
+/* The number and the name sit over their circle, so without this the pointer lands on a digit and the hover never reaches the node underneath.  */
 .viz-net-count, .viz-net-name, .viz-net-plate{ pointer-events:none; }
 
 /* A light passing across the circle under the pointer. */
@@ -751,12 +601,10 @@
   .viz-net-sheen, .viz-net-mote{ display:none; }
 }
 
-/* Blurred as well as gradiented: the gradient gives the falloff, the blur
-   takes the banding off it on a light ground. */
+/* Blurred as well as gradiented: the gradient gives the falloff, the blur takes the banding off it on a light ground. */
 .viz-net-haze{ fill:url(#viz-net-haze); filter:blur(16px); pointer-events:none; }
 
-/* While a person is held, the field around them is nearly gone. The reform
-   moves the marks; this is what makes the ones that left read as gone. */
+/* While a person is held, the field around them is nearly gone.  */
 .sh-chart-scene.is-focused .viz-net-node.is-faded,
 .sh-chart-scene.is-focused .viz-net-ring.is-faded{ opacity:.14; }
 .sh-chart-scene.is-focused .viz-net-name.is-faded,
@@ -775,29 +623,18 @@
 }
 .viz-net-panel button:hover{ background:#f2f2f0; color:var(--ink); }
 
-/* Only the network fold takes clicks. Charts are otherwise decoration on a
-   scrolling page and should not intercept the pointer. */
-/* Only while it is actually the scene on screen. A scene at zero opacity is
-   still laid out and still hit-tests, so leaving this on always put an
-   invisible sheet of network nodes across the right half of every fold,
-   including the landing, where it swallowed every click meant for the globe. */
+/* Only the network fold takes clicks.  */
+/* Only while it is actually the scene on screen.  */
 .sh-chart-scene[data-chart="coauthorNetwork"].is-live{ pointer-events:auto; }
 
-/* Skip story belongs to the story, not to the landing screen.
-
-   On the opening fold there are already two ways forward, "Explore research"
-   and "View impact", and a third control in the corner offering to skip
-   something the reader has not started yet reads as an apology for the page.
-   It arrives once the story does. */
+/* Skip story belongs to the story, not to the landing screen.  */
 .sh-root[data-story-phase="intro"] .sh-skip{
   opacity:0;
   pointer-events:none;
 }
 .sh-skip{ transition:opacity .3s ease; }
 
-/* The share is the point of each row: how much of what a group funded has
-   reached the literature. It was set at the same weight as the raw counts
-   beside it, so the one number worth comparing across rows read as a footnote. */
+/* The share is the point of each row: how much of what a group funded has reached the literature.  */
 .sh-chart-scene .viz-share{
   font:500 13px var(--font-num);
   font-variant-numeric:tabular-nums;

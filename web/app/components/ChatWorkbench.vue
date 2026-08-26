@@ -19,10 +19,7 @@ const props = withDefaults(defineProps<{
   canReshuffle?: boolean;
 }>(), {
   active: true,
-  // Just "Back". The arrow already says the direction, and there is only one
-  // place you can have come from — so naming it adds a word without adding
-  // meaning. "Back to story" also named the route rather than the reader's
-  // journey, which is how developer vocabulary leaks into an interface.
+  // Just "Back". 
   backLabel: "Back",
   busy: false,
   dataState: "ready",
@@ -106,21 +103,7 @@ function chartQuestions(label: string) {
   ];
 }
 
-/* Comparison: selection IS the comparison.
-
-   The reference cost five actions to compare two countries — click a bar, open
-   a panel, press "Add to compare", click the second bar, press it again, then
-   press "Compare 2". "Add to compare" is a second verb for something clicking
-   the bar already said.
-
-   Here the first click picks a row and offers what you can ask about it. The
-   second click picks another and the comparison runs — no confirm step, which
-   is how cross-filtering works in every analytics tool: clicking a data point
-   drives the view directly. Clicking a picked row again releases it.
-
-   Capped at two. Nielsen Norman put the ceiling at five before a comparison
-   stops working as a decision aid, but the answer here is a side-by-side
-   table, and two columns is what reads on one line without scrolling. */
+/* Comparison: selection IS the comparison.  */
 const COMPARE_LIMIT = 2;
 
 function chooseChart(key: string, value: { label: string; value: number }) {
@@ -128,8 +111,7 @@ function chooseChart(key: string, value: { label: string; value: number }) {
   const already = picked.findIndex((entry) => entry.label === value.label);
 
   if (already > -1) {
-    // Clicking a picked row releases it. Selection has to be reversible, or
-    // the only way out of a wrong click is to ask a different question.
+    // Clicking a picked row releases it. 
     chartSelections[key] = picked.filter((_, index) => index !== already);
     return;
   }
@@ -146,15 +128,7 @@ function clearChart(key: string) {
   chartSelections[key] = [];
 }
 
-/* When an answer can be a graph.
-
-   A chart answers "how much"; a graph answers "what connects to what". So the
-   option only appears when an answer's rows carry TWO entity columns — one
-   relationship per row. With a single entity and a count there is nothing to
-   connect, and a graph of that is a bar chart with extra steps.
-
-   Numeric columns are excluded, because a value is a measurement of a thing,
-   not a thing. Two rows minimum, or there is no pattern to see. */
+/* When an answer can be a graph.  */
 function graphable(spec: any): { from: string; to: string } | null {
   const rows: Record<string, unknown>[] = spec?.rows ?? [];
   if (rows.length < 2) return null;
@@ -263,33 +237,18 @@ onMounted(() => {
     :aria-hidden="active ? undefined : 'true'"
     :inert="!active"
   >
-    <!-- Two states, one shell.
-
-         Before the first question the fold is centred: title, the counts under
-         it, then the composer — the arrangement every assistant opens with,
-         because with nothing to read yet the only thing worth putting in front
-         of someone is the place they type.
-
-         From the first question on it becomes an ordinary chat window: the
-         title goes to the top bar, the thread takes the height, and the
-         composer sits at the bottom where it stays. -->
+    <!-- Two states, one shell.  -->
     <div :class="['chat-shell', started ? 'is-conversation' : 'is-opening']">
       <slot name="toolbar" />
 
-      <!-- The mark is pinned to the page, not carried inside the centred
-           header, so it lands on the same pixel here as on the story and the
-           About page. In the header it sat wherever that column began. -->
-      <!-- `href="/"` reloaded the whole application to reach a screen that is
-           already mounted behind this one. Closing the view is the same
-           destination without the wait, and closing already goes to the top. -->
+      <!-- The mark is pinned to the page, not carried inside the centred header, so it lands on the same pixel here as on the story and the About page.  -->
+      <!-- `href="/"` reloaded the whole application to reach a screen that is already mounted behind this one.  -->
       <a class="chat-logo" href="/" aria-label="EuroQol home"
          @click="goLanding">
         <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
       </a>
 
-      <!-- Close, not Back. This is a view over the story rather than a page
-           after it, so the reader is dismissing something, not retreating. It
-           sits top right where a close always sits, opposite the mark. -->
+      <!-- Close, not Back.  -->
       <button type="button" class="chat-close" @click="emit('back')" aria-label="Close the research explorer">
         <span aria-hidden="true">×</span>
       </button>
@@ -330,20 +289,12 @@ onMounted(() => {
         @keydown="releaseWidgetAnchor"
       >
         <div class="chat-thread-inner">
-          <!-- The opening fold's own title and counts. The header carries them
-               once a conversation exists; before that they belong here, in the
-               middle, directly above the composer as one centred group. -->
+          <!-- The opening fold's own title and counts.  -->
           <section v-if="!started" class="chat-empty">
-            <!-- Two tones in one line: the noun carries, the qualifier recedes.
-                 It is the whole typographic idea of the opening — one large
-                 line doing the work that a title, a rule and a box would
-                 otherwise be needed for. -->
+            <!-- Two tones in one line: the noun carries, the qualifier recedes.  -->
             <h1 class="chat-opening-title">Research <span>explorer</span></h1>
 
-            <!-- Three small KPIs, not a sentence. A number and its noun read
-                 faster as a pair than as prose, and set side by side they can
-                 be compared at a glance — which is the only reason to show
-                 three counts at once. -->
+            <!-- Three small KPIs, not a sentence.  -->
             <dl v-if="dataState === 'ready'" class="chat-kpis">
               <div>
                 <dt>{{ counts.projects.toLocaleString('en') }}</dt>
@@ -387,9 +338,7 @@ onMounted(() => {
                   />
                   <p class="chat-chart-hint">Click a bar to ask about it. Click a second to compare the two.</p>
 
-                  <!-- Offered, never forced. The chart is the answer; the graph
-                       is a second reading of it, for when the question was
-                       really about how things connect. -->
+                  <!-- Offered, never forced.  -->
                   <template v-if="graphable(segment.widget)">
                     <button
                       type="button"
@@ -414,9 +363,7 @@ onMounted(() => {
                     />
                   </template>
 
-                  <!-- One picked: what you can ask about it. Two picked: the
-                       comparison has already been sent, so this only reports
-                       what is picked and lets you let go of it. -->
+                  <!-- One picked: what you can ask about it.  -->
                   <div v-if="(chartSelections[segment.key] ?? []).length === 1" class="chat-chart-actions">
                     <span>Ask about <strong>{{ chartSelections[segment.key]![0]!.label }}</strong></span>
                     <button
@@ -468,10 +415,7 @@ onMounted(() => {
             @input="autoGrow"
             @keydown="onKeydown"
           />
-          <!-- An arrow, not the word "Ask". The placeholder already says what
-               this does, and every assistant uses the same mark — so the arrow
-               is read instantly and in any language. The accessible name stays
-               a verb, because a screen reader gets no shape. -->
+          <!-- An arrow, not the word "Ask".  -->
           <button
             type="submit"
             class="chat-send"
@@ -487,13 +431,8 @@ onMounted(() => {
         </form>
       </div>
 
-      <!-- Suggestions sit under the composer in the opening fold, so the eye
-           lands on the place you type first and the examples read as help
-           rather than as the main event. -->
-      <!-- Suggestions carry a magnifier, so they read as questions you can run
-           rather than as tags. No lead-in sentence: the placeholder above has
-           already said what this box is for, and saying it twice is what makes
-           an opening screen feel padded. -->
+      <!-- Suggestions sit under the composer in the opening fold, so the eye lands on the place you type first and the examples read as help rather than as the main event. -->
+      <!-- Suggestions carry a magnifier, so they read as questions you can run rather than as tags.  -->
       <section v-if="!started" class="chat-opening-examples" aria-label="Example questions">
         <div class="chat-examples">
           <button v-for="question in examples" :key="question" type="button" :disabled="busy" @click="send(question)">
@@ -503,9 +442,7 @@ onMounted(() => {
             </svg>
             {{ question }}
           </button>
-          <!-- Plain text, not another chip. It deals a new hand rather than
-               asking a question, so it should not look like the things it
-               deals. -->
+          <!-- Plain text, not another chip.  -->
           <button
             v-if="canReshuffle"
             type="button"

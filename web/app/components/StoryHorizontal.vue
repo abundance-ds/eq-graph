@@ -9,17 +9,13 @@ const emit = defineEmits<{
 const rootEl = ref<HTMLElement | null>(null);
 let globe: { destroy?: () => void; setActive?: (active: boolean) => void } | undefined;
 
-/* The country card. The globe reports what was clicked; this holds it, so the
-   card can be a real element — focusable, closable, and styled with the rest
-   of the page rather than drawn into the canvas. */
+/* The country card.  */
 type CountryFacts = {
   name: string; projects: number; studies: number; findings: number;
   family?: { short: string; has: boolean }[] | null;
 };
 const picked = ref<CountryFacts | null>(null);
-/* Two flags, not one. `ready` says the story exists; `settled` starts the fade
-   a frame later, so the cover is still opaque on the frame the canvas first
-   paints and the reader never sees a half-built stage through it. */
+/* Two flags, not one.  */
 const ready = ref(false);
 const settled = ref(false);
 let story: { destroy?: () => void; refresh?: () => void } | undefined;
@@ -29,9 +25,7 @@ function enterDirect(source: "skip" | "cta") {
   emit("enter-chat", { source, returnY: window.scrollY });
 }
 
-/* One fold forward or back. It reads the beat the story is actually on rather
-   than counting clicks, so the arrows stay right however the reader got here —
-   by scrolling, by a dot, or by an arrow. */
+/* One fold forward or back.  */
 function step(delta: number) {
   const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
   const story = root?.__story;
@@ -40,11 +34,8 @@ function step(delta: number) {
   story.goToBeat(at + delta);
 }
 
-/* Impact and Research explorer are views of this page, not other pages, so the
-   nav asks us to switch rather than navigating away and losing the scroll. */
-/* The mark goes to the opening screen from wherever the reader is. It stays a
-   real link, so it opens in a new tab and reads as a link to a screen reader;
-   the handler only takes over when we can do it without a page load. */
+/* Impact and Research explorer are views of this page, not other pages, so the nav asks us to switch rather than navigating away and losing the scroll. */
+/* The mark goes to the opening screen from wherever the reader is.  */
 function goLanding(event: MouseEvent) {
   if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
   event.preventDefault();
@@ -67,12 +58,9 @@ onMounted(async () => {
     import("../lib/globe.js"),
     $fetch<DemoGraphData>("/api/graph"),
     $fetch<Record<string, any>>("/data/countries-50m.json"),
-    // The co-authorship network is a separate artefact from Paul's pipeline,
-    // not part of the research graph, so it loads on its own.
+    // The co-authorship network is a separate artefact from Paul's pipeline, not part of the research graph, so it loads on its own.
     $fetch<Record<string, any>>("/data/coauthorship.json").catch(() => null),
-    /* Citations live in the serving database but the API does not expose them
-       yet, so they are extracted to a file the same way the co-authorship
-       network is. Swap this for an endpoint when Paul adds one. */
+    /* Citations live in the serving database but the API does not expose them yet, so they are extracted to a file the same way the co-authorship network is.  */
     $fetch<Record<string, any>>("/data/citations.json").catch(() => null),
   ]);
   if (disposed || !root.isConnected) return;
@@ -83,8 +71,7 @@ onMounted(async () => {
     onEnterChat: (entry: { returnY: number }) => {
       emit("enter-chat", { source: "story", returnY: entry.returnY });
     },
-    // The map beat reports the country under a click; the card is the same one
-    // the globe used, so a reader meets one object however they got to it.
+    // The map beat reports the country under a click; the card is the same one the globe used, so a reader meets one object however they got to it.
     onSelectCountry: (facts: CountryFacts | null) => { picked.value = facts; },
   });
 
@@ -125,14 +112,11 @@ onMounted(async () => {
   }
 
   settled.value = true;
-  // One frame for the fade to take, then the cover leaves the tree entirely so
-  // it can never sit over the story swallowing clicks.
+  // One frame for the fade to take, then the cover leaves the tree entirely so it can never sit over the story swallowing clicks.
   setTimeout(() => { ready.value = true; }, 500);
 });
 
-/* If the globe never gets as far as mounting — no canvas, a failed fetch — the
-   cover would sit there for ever with a ring turning on it. Whatever happens,
-   it goes. */
+/* If the globe never gets as far as mounting — no canvas, a failed fetch — the cover would sit there for ever with a ring turning on it.  */
 onMounted(() => {
   setTimeout(() => { settled.value = true; }, 12000);
   setTimeout(() => { ready.value = true; }, 12500);
@@ -160,9 +144,7 @@ async function restoreAt(top: number) {
 
 defineExpose({ restoreAt });
 
-/* Anything opened by a click is temporary and closes when the reader moves on.
-   The card is pinned to a country on a map that scrolls away underneath it, so
-   left open it ends up floating over a different fold entirely. */
+/* Anything opened by a click is temporary and closes when the reader moves on.  */
 function dismissOnScroll() {
   if (picked.value) picked.value = null;
 }
@@ -184,8 +166,7 @@ onBeforeUnmount(() => {
     :inert="!active"
   >
     <div class="sh-scroll" data-scroll>
-      <!-- Sits inside the pinned stage so it covers the story and nothing else,
-           and fades rather than cutting, so the arrival is not its own jolt. -->
+      <!-- Sits inside the pinned stage so it covers the story and nothing else, and fades rather than cutting, so the arrival is not its own jolt. -->
       <div v-if="!ready" :class="['sh-loading', settled && 'is-done']">
         <BrandLoader label="Gathering the research" />
       </div>
@@ -202,10 +183,7 @@ onBeforeUnmount(() => {
 
         <SiteNav current="impact" :on-go="goSection" />
 
-        <!-- Step, then skip. The arrows move one fold at a time and Skip leaves
-             the story altogether, so the smaller action sits first and the one
-             that ends things sits last. No labels on the arrows: a left and a
-             right chevron beside a row of fold dots need no explaining. -->
+        <!-- Step, then skip.  -->
         <div class="sh-controls">
           <div class="sh-step">
             <button type="button" @click="step(-1)" aria-label="Previous fold">
@@ -228,15 +206,7 @@ onBeforeUnmount(() => {
           <canvas data-inst-canvas />
         </div>
 
-        <!-- Click a country, and its three numbers arrive here. Projects and
-             studies are deliberately both shown: the distance between them is
-             how much of the funded work has actually been read.
-
-             A sibling of the globe, not a child of it. Inside, it inherited the
-             container's opacity, which the story drives to 0 as soon as it
-             starts, so a click on the map fold set the country but the card was
-             invisible. It also inherited pointer-events:none, which killed its
-             own close button. -->
+        <!-- Click a country, and its three numbers arrive here.  -->
         <transition name="sh-card">
           <aside v-if="picked" class="sh-country" role="dialog" :aria-label="picked.name">
             <button type="button" class="sh-country-x" aria-label="Close" @click="picked = null">×</button>
@@ -246,9 +216,7 @@ onBeforeUnmount(() => {
               <div><dt>{{ picked.studies.toLocaleString('en') }}</dt><dd>studies read</dd></div>
               <div><dt>{{ picked.findings.toLocaleString('en') }}</dt><dd>findings extracted</dd></div>
             </dl>
-            <!-- Which of the five have actually been used here. A version with
-                 no study is shown greyed rather than dropped: the absence is
-                 the useful half of the answer. -->
+            <!-- Which of the five have actually been used here.  -->
             <ul v-if="picked.family" class="sh-family">
               <li v-for="f in picked.family" :key="f.short" :class="f.has && 'is-on'">
                 <i aria-hidden="true" />{{ f.short }}
@@ -265,10 +233,7 @@ onBeforeUnmount(() => {
         <div class="sh-field" aria-hidden="true"><canvas data-canvas /></div>
         <div class="sh-charts" data-charts aria-hidden="true" />
 
-        <!-- What this actually is. The headline is a claim about EuroQol; on
-             its own a reader has no idea what the page in front of them is
-             until they open About. One line, concrete, no verbs about
-             empowering or unlocking. -->
+        <!-- What this actually is.  -->
         <p class="sh-sub" data-sub>Globally funded research, made searchable.</p>
 
         <div class="sh-cta" data-cta>
@@ -284,8 +249,7 @@ onBeforeUnmount(() => {
 
         <div class="sh-track" data-track />
 
-        <!-- Both frame rules are gone. They ran the full width and underlined
-             nothing: the fold is already bounded by its own edges. -->
+        <!-- Both frame rules are gone.  -->
 
         <div class="sh-dots" data-dots />
       </div>

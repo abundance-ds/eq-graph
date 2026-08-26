@@ -1,5 +1,4 @@
-/* Vertical scroll drives a horizontal track: one pinned stage, five beats.
-   Dots carry the opening; SVG charts carry the comparisons. */
+/* Vertical scroll drives a horizontal track: one pinned stage, five beats.  */
 
 import { geoNaturalEarth1, geoPath, geoContains } from 'd3-geo'
 import { drawBeatArt } from './beatArt.js'
@@ -11,19 +10,7 @@ const ease = t => t * t * (3 - 2 * t)
 // Every fold comes apart into this, whatever size its own marks are drawn at.
 const PARTICLE_R = 1.5
 
-/* How much scroll each fold is given.
-
-   A beat used to occupy one screen height, of which the crossing was under a
-   third — about 290px on a laptop. A single trackpad flick is 300 to 800px, so
-   one gesture could cross nearly three whole folds, and the dissolve it did
-   show was over before the eye caught it. That is the whole reason it read as
-   sped up: it was not the animation being quick, it was the reader covering
-   three folds in one push.
-
-   A beat is nearly twice a screen now and the crossing is most of the increase,
-   so a flick moves you about half a fold and the particles have room to travel.
-   The runway is longer for it, which is the trade: more scrolling, but each
-   fold is actually arrived at. */
+/* How much scroll each fold is given.  */
 const storyTiming = () => window.innerWidth <= 640
   ? { intro:1.45, hold:1.05, transition:0.75, handover:1 }
   : { intro:1.35, hold:1.00, transition:0.70, handover:1 }
@@ -60,8 +47,7 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const projectYears = [...new Set(projects.map(projectYearOf).filter(Boolean))].sort()
 
-  /* A study recorded against a region ("East Asia") cannot be placed. Count it
-     as unplaced rather than dropping it. */
+  /* A study recorded against a region ("East Asia") cannot be placed.  */
   const NAME_FIX = {
     'United States':'United States of America', 'Czech Republic':'Czechia',
     'Trinidad And Tobago':'Trinidad and Tobago', 'Bosnia And Herzegovina':'Bosnia and Herz.',
@@ -69,8 +55,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     'South Korea':'South Korea', 'Republic Of Korea':'South Korea', 'Russia':'Russia',
   }
   const countryOfProject = {}, countryOfStudy = {}
-  /* Two different edges on purpose: projects SUPPORTED_EVIDENCE_IN, studies
-     CONDUCTED_IN. The gap between them is how much has been read. */
+  /* Two different edges on purpose: projects SUPPORTED_EVIDENCE_IN, studies CONDUCTED_IN.  */
   const countryDetail = {}
   const nodeById = Object.fromEntries(DATA.nodes.map(n => [n.id, n]))
   const seenProject = {}
@@ -91,26 +76,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       row.findings += (nodeById[e.source] || {}).findingCount || 0
     }
   }
-  /* How far the EQ family has travelled, country by country.
-
-     Reviews are excluded on purpose. A systematic review of value sets is
-     linked to every country it covers — one compendium alone is linked to
-     twenty-one — and counting that as "the instrument was used there" would
-     credit a country for a paper that collected nothing in it. Only studies
-     that were actually run somewhere count here.
-
-     Instruments are matched on a pattern for the same reason the matrix is:
-     the pipeline stores the name as the paper wrote it, so one instrument
-     arrives under a dozen spellings. A label naming no level matches nothing,
-     because assigning it would be a guess. */
-  /* Four instruments, plus one still in development.
-
-     EuroQol names four on its own instruments page: EQ-5D-3L, EQ-5D-5L,
-     EQ-5D-Y-3L and EQ-5D-Y-5L. The EQ VAS is not among them, because it is a
-     component of the EQ-5D questionnaire rather than a separate instrument, and
-     EQ-HWB sits under instruments in development. So HWB is shown, because it
-     is genuinely in use, but it is marked rather than counted alongside the
-     four. Anything else would state a number EuroQol does not. */
+  /* How far the EQ family has travelled, country by country.  */
+  /* Four instruments, plus one still in development.  */
   const FAMILY = [
     ['EQ-5D-3L',   '3L',   /\bEQ[\s-]*5[\s-]*D[\s-]*3[\s-]*L\b/i],
     ['EQ-5D-5L',   '5L',   /\bEQ[\s-]*5[\s-]*D[\s-]*5[\s-]*L\b/i],
@@ -136,8 +103,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     }
   }
 
-  /* The rows of the group-by-year beat: only groups that actually have
-     dated studies, busiest first. A row that would be empty is not a row. */
+  /* The rows of the group-by-year beat: only groups that actually have dated studies, busiest first.  */
   const groupYearRows = (() => {
     const m = new Map()
     for (const p of projects){
@@ -147,9 +113,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     return [...m.entries()].sort((a, b) => b[1] - a[1]).map(g => g[0])
   })()
 
-  /* The same rule the working-group chart uses, so the headline number and the
-     rows under it cannot disagree. A project counts in every group it names,
-     and the administrative categories in that field are not groups. */
+  /* The same rule the working-group chart uses, so the headline number and the rows under it cannot disagree.  */
   const NOT_A_GROUP = new Set(['others', 'oa fee', 'unassigned'])
   const groups = (() => {
     const m = new Map()
@@ -190,19 +154,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const eqStudies = studies.filter(s => (s.instruments || []).some(i => /^EQ[- ]/i.test(String(i))))
   const eqShare = studies.length ? Math.round((eqStudies.length / studies.length) * 100) : 0
 
-  /* Order: who does the work, how it is organised, how it grew, where it
-     reaches, what is in it. The network opens because it is the only fold that
-     moves under the reader's hand, and an opening should be the thing worth
-     staying for. The matrix closes because it is the detail you arrive at once
-     you care.
-
-     REVIEW PENDING on the instrument map. It is the fold most likely to change:
-     its counts exclude evidence syntheses, which is a judgement about what
-     CONDUCTED_IN means, and that is still an open question for Paul.
-
-     Each beat carries `num` with its `unit` at the same size, and a `so` line
-     that says why the number matters. Do not add `art:` — it draws decoration
-     over the chart. */
+  /* Order: who does the work, how it is organised, how it grew, where it reaches, what is in it.  */
   const BEATS = [
     { num:fmt((options.coauthors && options.coauthors.nodes && options.coauthors.nodes.length) || 0), unit:'researchers',
       head:'A field that keeps working with itself.',
@@ -220,10 +172,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and <b>${projectYears[projectYears.length - 1]}</b> is already funded. <b>${fmt(studies.length)}</b> of those projects have had their papers read in full and turned into structured evidence, and that number grows with every pass through the corpus.`,
       layout:'projectYears' },
 
-    /* The map fold is gone. It shaded countries a second time, right after a
-       globe that had already done geography, and the reader learned nothing new
-       from the repeat. This asks the one question the rest of the story cannot:
-       what did anyone else do with the work. */
+    /* The map fold is gone.  */
     { num:fmt((options.cites && options.cites.totalCitations) || 0), unit:'citations',
       head:'The work other people build on.',
       body:`The <b>${fmt((options.cites && options.cites.totalPublications) || 0)}</b> papers read so far have been cited <b>${fmt((options.cites && options.cites.totalCitations) || 0)}</b> times. Each dot below is one citation, and the colour is the working group that funded the paper.`,
@@ -235,8 +184,6 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`<b>${fmt(eqStudies.length)}</b> of them put a EuroQol instrument to work. Measurement property evaluation is the largest body at <b>${fmt((series.studyTypes || []).find(r => /measurement/i.test(r.label))?.value || 0)}</b> studies, which is the work that earns an instrument its place in a trial or a national survey.`,
       layout:'chartBlank', chart:'coverageMatrix' },
   ]
-
-
 
   /* ── build the DOM ───────────────────────────────────────────────── */
   const track = root.querySelector('[data-track]')
@@ -255,8 +202,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const totalEl = root.querySelector('[data-total]')
   if (totalEl) totalEl.textContent = String(BEATS.length).padStart(2, '0')
 
-  // The CSS value prevents a layout jump before JavaScript starts. This value
-  // is the exact runway for the current viewport and beat count.
+  // The CSS value prevents a layout jump before JavaScript starts. 
   const setRunway = () => {
     const timing = storyTiming()
     const travel = timing.intro + BEATS.length * timing.hold + (BEATS.length - 1) * timing.transition + timing.handover
@@ -267,8 +213,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   /* ── the field ───────────────────────────────────────────────────── */
   const canvas = root.querySelector('[data-canvas]')
 
-  /* Hit-test against the same projection that drew the map. `liveMap` is set
-     only while a map is on screen, so clicks do nothing on other folds. */
+  /* Hit-test against the same projection that drew the map.  */
   let liveMap = null
   const onSelectCountry = typeof options.onSelectCountry === 'function' ? options.onSelectCountry : () => {}
 
@@ -283,14 +228,11 @@ export function initStory(DATA, TOPO, root, options = {}){
     const hit = land.features.find(feat => geoContains(feat, ll))
     if (!hit){ onSelectCountry(null); return }
     const name = hit.properties.name
-    /* A country with nothing in it opens nothing. Clicking unshaded ground was
-       returning a card of three zeros, which tells the reader the click worked
-       and nothing else. The shading already says where the research is. */
+    /* A country with nothing in it opens nothing.  */
     const row = liveMap.detail[name]
     if (!row || !(row.projects || row.studies || row.findings)){ onSelectCountry(null); return }
 
-    // The card carries which versions have been used, in family order, so a
-    // reader can answer "is the one I need in use here" without leaving the map.
+    // The card carries which versions have been used, in family order, so a reader can answer "is the one I need in use here" without leaving the map.
     const have = liveMap.familyIn?.[name]
     onSelectCountry({
       name,
@@ -309,14 +251,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     g:p.type === 'project' ? wgOf(p) : null, x:0, y:0, r:1.6, c:GREY,
   }))
 
-  /* Rebuilding costs about two and a half seconds: nine charts re-rendered,
-     the co-author network re-settled under its physics, and five folds
-     re-sampled into particles. That is the right price when the window has
-     actually changed shape, and no price at all otherwise.
-
-     Closing the explorer calls refresh(), and the viewport has not moved, so it
-     was paying it for nothing — which is the delay before the landing page
-     appeared. */
+  /* Rebuilding costs about two and a half seconds: nine charts re-rendered, the co-author network re-settled under its physics, and five folds re-sampled into particles.  */
   let builtW = 0, builtH = 0
   function size(force = false){
     W = canvas.clientWidth; H = canvas.clientHeight
@@ -336,17 +271,12 @@ export function initStory(DATA, TOPO, root, options = {}){
     layouts.length = 0; furniture.length = 0
     BEATS.forEach((b, bi) => { const r = buildLayout(b.layout, b.chart, bi)
       layouts.push(r.pos || r); furniture.push(r.furn || null) })
-    /* How far About has to travel to sit against the right edge, where Skip
-       will later replace it. Measured rather than written down: it depends on
-       the width of the word and of the stage, and a wrong guess would leave it
-       short of the corner or past it. */
+    /* How far About has to travel to sit against the right edge, where Skip will later replace it.  */
     textMeta = buildText()
     return true
   }
 
-  /* Where the SVG charts actually sit, in canvas pixels, and the coordinate
-     space they draw in. The sampled points come back in the chart's own space,
-     so both are needed to place them on the field. */
+  /* Where the SVG charts actually sit, in canvas pixels, and the coordinate space they draw in.  */
   const chartHost = root.querySelector('[data-charts]')
   function chartBox(){
     const a = chartHost?.getBoundingClientRect()
@@ -360,19 +290,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     return vb && vb.width ? { w:vb.width, h:vb.height } : null
   }
 
-  /* The fold's words, sampled into the same particles as its picture.
-
-     They are drawn to an offscreen canvas at the panel's own fonts and
-     positions and read back as pixels, which is exactly what the opening
-     headline does. Filling their line boxes with dots instead would give solid
-     bars; this gives letterforms, so what comes apart still looks like writing.
-
-     A panel sits at its own index inside a track that slides, so its children
-     are measured relative to the panel rather than the viewport. That makes the
-     sample independent of where the story happens to be scrolled when it runs.
-
-     The DOM text stays: it is real, selectable, and readable aloud. It is only
-     swapped for these while it travels. */
+  /* The fold's words, sampled into the same particles as its picture.  */
   function sampleCopy(index){
     const panel = track.children[index]
     if (!panel || !W || !H) return []
@@ -428,24 +346,14 @@ export function initStory(DATA, TOPO, root, options = {}){
   }
 
   const land = feature(TOPO, TOPO.objects.countries)
-  /* Antarctica is a third of the world's height and holds no research. Fitting
-     the map to it shrank everything else and pushed the inhabited world up into
-     the top half of the frame, which is what made the map look small and badly
-     placed. The projection is fitted to, and the map drawn from, the land people
-     actually live on. */
+  /* Antarctica is a third of the world's height and holds no research.  */
   const inhabited = { type:'FeatureCollection',
     features: land.features.filter(f => f.properties.name !== 'Antarctica') }
 
   const layouts = []
   let furniture = []
 
-  /* Words and picture become one field.
-
-     Each fold hands over two clouds — its copy and its chart — and they are
-     shared out across the dots in proportion, so a sentence does not swallow
-     the whole field and a dense chart does not leave the words with three dots.
-     After this a fold is simply a list of places, and the crossing is the dots
-     walking from one list to the next. */
+  /* Words and picture become one field.  */
   function placeCloud(out, copyPts, artPts, artBox){
     const total = copyPts.length + artPts.length
     if (!total) return false
@@ -469,19 +377,13 @@ export function initStory(DATA, TOPO, root, options = {}){
     }
     return true
   }
-  /* Which series fold 2 is showing. Not a filter over one dataset: projects are
-     counted by the year they were funded, papers by the year they appeared. */
+  /* Which series fold 2 is showing.  */
   function buildLayout(kind, chartId, beatIndex = 0){
     const b = fieldBox(), bw = b.x1 - b.x0, bh = b.y1 - b.y0
     const out = new Array(dots.length)
     const rnd = mulberry(1234)
 
-    /* `park` marks a dot this fold has no use for at all.
-       It is not the same as a dot resting at alpha 0. Every dot on a chart fold
-       rests invisible, because an SVG is drawn over the top — but it is standing
-       somewhere real, on a glyph or a chart mark, and it must travel. A parked
-       dot is standing off the bottom of the frame and must not. Telling the two
-       apart is what stops a crossing dragging a row of dots across the floor. */
+    /* `park` marks a dot this fold has no use for at all.  */
     const hidden = i => ({
       x:b.x0 + ((i * 17) % Math.max(1, Math.floor(bw))), y:b.y1 + 24,
       c:GREY, r:.6, a:0, park:true,
@@ -495,16 +397,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     }
 
     if (kind === 'chartBlank'){
-      /* The fold's own picture, as particles.
-
-         Every mark in the chart is filled with points on one shared grid, so a
-         matrix cell, a network node and a bar all come apart into the same dot
-         at the same spacing. The dots then simply fly from one fold's cloud to
-         the next, which is the machinery that was already here — the charts
-         just had nothing to hand it before, so they faded instead.
-
-         At rest these sit exactly under the SVG, which is why nothing looks
-         different until the fold starts to move. */
+      /* The fold's own picture, as particles.  */
       const pts = chartId ? charts.sample(chartId) : []
       const box = chartBox()
       const svg = chartViewBox(chartId)
@@ -518,20 +411,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos:out, furn:null }
     }
     else if (kind === 'projectYears'){
-      /* Both series, per year, as dots.
-
-         Projects on the left of each year, papers on the right, on ONE shared
-         count axis. No second axis: rescaling the shorter series until it
-         matched the taller would invent a parity that is not there.
-
-         The papers column IS much shorter, and that is the honest picture. It
-         is not output lagging funding, it is our reading lagging both, because
-         only a fifth of the portfolio has been read. The copy says so, because
-         a chart cannot.
-
-         Dots rather than bars, and one dot is one project or one paper, so the
-         columns are counts you could check by eye rather than lengths you have
-         to trust. */
+      /* Both series, per year, as dots.  */
       const perYearProjects = {}, perYearPapers = {}
       for (const project of datedProjects){
         const y = projectYearOf(project)
@@ -547,16 +427,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       const peak = Math.max(1, ...years.map(y =>
         Math.max(perYearProjects[y] || 0, perYearPapers[y] || 0)))
 
-      /* A square grid, sized so the tallest column fills the height and the
-         dots very nearly touch.
-
-         The width of a column and the height of the stack are not independent:
-         n dots across a column of width subW, packed square, hold n²·h/subW in
-         total. So the number per row follows from the count, and picking it any
-         other way leaves the dots either overflowing or floating in air. Before
-         this the pitch was set from the height alone and the radius was capped
-         at 2.1px, which left a 4px dot in a 9px cell — half air, so a column
-         read as a dotted line rather than a filled bar. */
+      /* A square grid, sized so the tallest column fills the height and the dots very nearly touch.  */
       const availH = bh * 0.92
       const perRow = Math.max(2, Math.round(Math.sqrt(peak * subW / availH)))
       const rows = Math.ceil(peak / perRow)
@@ -602,31 +473,17 @@ export function initStory(DATA, TOPO, root, options = {}){
       return { pos: out, furn: out.furn }
     }
     else if (kind === 'projectMap' || kind === 'studyMap'){
-      /* How much of the EQ family has reached each country.
-
-         The landing globe already shades by how much research a country has,
-         so shading by that again here says the same thing twice. This asks a
-         different question of the same geography: not how much, but how many
-         of the five instruments have actually been used. */
-      /* The world is about twice as wide as it is tall, and the field is not,
-         so width always binds and the map is left floating in the middle of the
-         box with dead air above and below. Fit to the width, then lift it to
-         the top so the space it does not need is all in one place, under the
-         map, where the strip goes. */
+      /* How much of the EQ family has reached each country.  */
+      /* The world is about twice as wide as it is tall, and the field is not, so width always binds and the map is left floating in the middle of the box with dead air above and below.  */
       const proj = geoNaturalEarth1().fitWidth(b.x1 - b.x0, inhabited)
       const fitted = geoPath(proj).bounds(inhabited)
       const mapH = fitted[1][1] - fitted[0][1]
       const STRIP_H = 5 * 12 + 30              // five rows and the caption
-      // Map and strip travel together as one block, centred in the field, so
-      // the space the map cannot use is shared above and below rather than all
-      // dumped underneath it.
+      // Map and strip travel together as one block, centred in the field, so the space the map cannot use is shared above and below rather than all dumped underneath it.
       const top = b.y0 + Math.max(0, (bh - mapH - STRIP_H) / 2)
       const tr = proj.translate()
       proj.translate([tr[0] + (b.x0 - fitted[0][0]), tr[1] + (top - fitted[0][1])])
-      /* The projection preserves the world's aspect ratio, so it never fills
-         the box: it leaves a band above and below. Measure where the drawing
-         actually ends and hang the strip off that, or the strip floats a long
-         way under the map with nothing between them. */
+      /* The projection preserves the world's aspect ratio, so it never fills the box: it leaves a band above and below.  */
       const mapBox = geoPath(proj).bounds(inhabited)
       const per = {}
       for (const [c, set] of Object.entries(familyIn))
@@ -636,18 +493,9 @@ export function initStory(DATA, TOPO, root, options = {}){
         const c = geoPath(proj).centroid(f)
         if (!isNaN(c[0])) centroid[f.properties.name] = c
       }
-      // The strip under the map: how many countries each version has reached.
-      // It is the finding the map alone cannot state, that the newest members
-      // of the family are in half as many places as the flagship.
+      // The strip under the map: how many countries each version has reached. 
       const reach = FAMILY.map(([, short, , note]) => ({ short, note, n:familyReach[short].size }))
-      /* The map has to come apart like every other fold, and it is drawn on the
-         canvas rather than in SVG, so there is no chart to read. Its particles
-         are generated from the geography instead: a grid over each shaded
-         country, kept where the country actually is.
-
-         Tested country by country rather than point by point over the whole
-         frame — each one only grids its own bounding box, so this is thirty-odd
-         small sweeps instead of one large one against every border. */
+      /* The map has to come apart like every other fold, and it is drawn on the canvas rather than in SVG, so there is no chart to read.  */
       const shaded = inhabited.features.filter(f => per[f.properties.name])
       const mapPts = []
       const PITCH = 5.4
@@ -800,24 +648,17 @@ export function initStory(DATA, TOPO, root, options = {}){
       t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296 } }
   function mix(a, b, t){ return [lerp(a[0],b[0],t), lerp(a[1],b[1],t), lerp(a[2],b[2],t)] }
 
-  /* ── the intro ───────────────────────────────────────────────────────
-     Drawn to an offscreen canvas and sampled into the same data dots, so the
-     words become the research field. The field has to be settled and readable
-     BEFORE the text finishes leaving, not after: dissolve from 1%, across the
-     words by 31%, last dot home by 87%. The rest is hold. */
+  /* ── the intro ─────────────────────────────────────────────────────── */
+  /* Drawn to an offscreen canvas and sampled into the same data dots, so the words become the research field. */
   const INTRO_TEXT = 'Shaping how the world measures health.'
   let textSpots = null
   const instEl = root.querySelector('[data-instrument]')
 
-  /* The globe is not transformed by the story any more. It sizes and places
-     itself, and scaling it from here only ever fought that — it came out small
-     and clipped. The story decides when it is on screen; the globe decides
-     where it sits. */
+  /* The globe is not transformed by the story any more.  */
 
   const ctaEl  = root.querySelector('[data-cta]')
   const subEl  = root.querySelector('[data-sub]')
   const keyEl  = root.querySelector('[data-key]')
-
 
   function buildText(){
     const off = document.createElement('canvas')
@@ -825,16 +666,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     const o = off.getContext('2d')
     o.clearRect(0, 0, W, H)
     const pad = W > 900 ? 48 : 24
-    /* The headline, sized by the room it actually has.
-
-       Width alone was not enough. A short wide window — a laptop with the dock
-       and a browser bar taking a third of it — has plenty of width and no
-       height, and the sentence came out enormous and pushed the buttons off the
-       fold. It is now the smaller of what the width allows and what the height
-       allows, so whichever dimension is tight is the one that decides.
-
-       Two points smaller than before at every size, which is the ask, and the
-       ceiling comes down with it. */
+    /* The headline, sized by the room it actually has.  */
     const byWidth  = W * 0.0585
     const byHeight = H * 0.105
     const fs = Math.max(30, Math.min(96, byWidth, byHeight))
@@ -859,8 +691,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     textSpots = dots.map((_, i) => cand[Math.min(cand.length - 1, (i * step) | 0)] || [W / 2, H / 2])
     // where the words actually finish, so the buttons can sit under them
     const bottom = H * 0.16 + lines.length * lh
-    // The line under the headline, then the buttons under that. Both hang off
-    // where the type actually finished rather than a guessed percentage.
+    // The line under the headline, then the buttons under that. 
     if (subEl) subEl.style.top = Math.round(bottom + fs * 0.30) + 'px'
     const subH = subEl ? subEl.offsetHeight : 0
     if (ctaEl) ctaEl.style.top = Math.round(bottom + fs * 0.30 + subH + fs * 0.34) + 'px'
@@ -868,12 +699,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   }
   let textMeta = null
 
-  /* The words do not fade while a layer of dots sits on top of them — that
-     reads as dust on the type. They are eaten from the left by a soft edge,
-     and each dot lets go exactly as the edge reaches the letter it was cut
-     from. So at any moment a letter is either solid, or gone and travelling;
-     never both. It starts the instant you move, and every dot leaves on its
-     own curve rather than the whole field sliding in lockstep. */
+  /* The words do not fade while a layer of dots sits on top of them — that reads as dust on the type.  */
   let scratch = null, sctx = null
   function scratchCtx(){
     if (!scratch || scratch.width !== W || scratch.height !== H){
@@ -932,8 +758,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       const age = t - born
       if (age <= 0) continue
 
-            /* Do not multiply by the home alpha. On a beat that hides its dots that
-             is zero and the whole flight goes invisible. Fade on landing. */
+            /* Do not multiply by the home alpha.  */
       const targetA = h.a == null ? 1 : h.a
       const f = ease(Math.min(1, age / FLY))
       const a = Math.min(1, age / 0.05) * (targetA === 0 ? (1 - f) : targetA)
@@ -961,9 +786,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     ctx.save()
     ctx.globalAlpha = alpha
     const grad = ctx.createLinearGradient(f.b.x0, 0, f.b.x1, 0)
-    // Carries the whole fold now that the dots are hidden, so it is stronger
-    // than a wash. Teal at the start and yellow at the end is the same year
-    // ramp the rest of the story uses.
+    // Carries the whole fold now that the dots are hidden, so it is stronger than a wash. 
     grad.addColorStop(0, `rgba(${TEAL.join(',')},0.30)`)
     grad.addColorStop(1, `rgba(${YELLOW.join(',')},0.46)`)
     ctx.fillStyle = grad
@@ -1009,8 +832,7 @@ export function initStory(DATA, TOPO, root, options = {}){
           ctx.fillText(String(t.v), f.b.x0 + 3, t.y - 7)
         })
 
-        /* The key draws the two marks rather than naming their colours, so it
-           is read in the same form as the chart it explains. */
+        /* The key draws the two marks rather than naming their colours, so it is read in the same form as the chart it explains. */
         const ky = f.b.y0 + 8
         ctx.fillStyle = `rgba(${TEAL[0]},${TEAL[1]},${TEAL[2]},.95)`
         ctx.beginPath(); ctx.arc(f.b.x0 + 4, ky, 2.6, 0, 6.283); ctx.fill()
@@ -1046,8 +868,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       liveMap = f            // this beat can be clicked
       const path = geoPath(f.proj, ctx)
 
-      // Every country first, as the quietest possible ground. It is the shape
-      // of the world, not a data mark, so it sits well below the shaded ones.
+      // Every country first, as the quietest possible ground. 
       ctx.beginPath(); path(inhabited)
       ctx.fillStyle = ink(.045); ctx.fill()
       ctx.strokeStyle = ink(.10); ctx.lineWidth = .6; ctx.stroke()
@@ -1063,9 +884,7 @@ export function initStory(DATA, TOPO, root, options = {}){
         ctx.strokeStyle = ink(.14); ctx.lineWidth = .5; ctx.stroke()
       }
 
-          /* Measured, tested against every box already placed, and dropped if it
-             still overlaps after four candidate positions. Centroids alone put
-             the UK on top of the Netherlands. */
+          /* Measured, tested against every box already placed, and dropped if it still overlaps after four candidate positions.  */
       const top = W <= 640 ? [] : Object.entries(f.per).sort((a, b) => b[1] - a[1]).slice(0, 9)
       ctx.textAlign = 'left'; ctx.textBaseline = 'middle'
       const placed = []
@@ -1091,9 +910,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       }
       ctx.textBaseline = 'alphabetic'
 
-      /* The strip under the map. The map answers "how far has the family got
-         here"; this answers "how far has each member got", which the shading
-         cannot say. One dot is one country, the same mark the other folds use. */
+      /* The strip under the map.  */
       if (f.reach){
         const y0 = (f.mapBottom || f.b.y1 - 90) + 30
         const labelW = 46
@@ -1175,8 +992,7 @@ export function initStory(DATA, TOPO, root, options = {}){
 
     ctx.clearRect(0, 0, W, H)
 
-    /* The object behind the beat, cross-fading with it. It is drawn first
-       and kept faint: it is the room the data stands in, not the data. */
+    /* The object behind the beat, cross-fading with it.  */
     const box = fieldBox(), now = performance.now() / 1000
     if (BEATS[i0].art) drawBeatArt(ctx, BEATS[i0].art, box, (1 - t) * 0.9, now, INK.join(','))
     if (i1 !== i0 && BEATS[i1].art) drawBeatArt(ctx, BEATS[i1].art, box, t * 0.9, now, INK.join(','))
@@ -1189,37 +1005,11 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawAreaFill(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
 
-    /* The handover between a chart and its particles.
-
-       `cross` goes from 0 to 1 within the first few per cent of a crossing and
-       back to 0 in the last few. The chart's opacity is exactly its inverse, so
-       at the moment one appears the other is gone — and because the particles
-       are sampled from the chart, they are standing precisely where its marks
-       were. Nothing fades into anything; the picture is replaced by itself.
-
-       A slow ramp is what made it look like a cross-fade before: the chart was
-       still half there while the dots were still half faint, so the eye saw two
-       weak images rather than one solid one turning to grain. */
+    /* The handover between a chart and its particles.  */
     const cross = i0 === i1 ? 0
       : Math.max(0, Math.min(1, Math.min(rawT, 1 - rawT) / 0.06))
 
-    /* Between folds the field comes apart and puts itself back together.
-
-       Every dot walks the straight line from where it stands to where it is
-       going, and the only thing that varies is when it sets off. Early leavers
-       have arrived while late ones have not moved, so at the middle of a
-       crossing the field is spread along its own paths — which is the coming
-       apart. Nothing is pushed outward and nothing is pulled anywhere: a dot is
-       always somewhere between its own two places, so no arrangement exists
-       during a crossing that is not on the way from one fold to the next.
-
-       What was here before did the opposite. It shoved every dot outward along
-       a heading that cycled with its index, and dragged any dot resting at
-       alpha 0 toward a scattered point in the frame. On four of the five folds
-       the chart is an SVG and so every dot rests at alpha 0 — meaning the whole
-       field was hauled into a random rectangle at the midpoint of most
-       crossings, and arrived there in index order, which is fold order, which
-       is why it banded. That rectangle was the shape appearing in the middle. */
+    /* Between folds the field comes apart and puts itself back together.  */
     const STAGGER = 0.45      // share of the crossing spent spreading start times
     const RUN = 1 - STAGGER
 
@@ -1229,31 +1019,22 @@ export function initStory(DATA, TOPO, root, options = {}){
       // Neither fold has anything for it. Drawing it would only smear the floor.
       if (aPark && bPark) continue
 
-      /* A dot only one fold uses stays where that fold puts it and fades there,
-         rather than flying in from off-frame to reach it. */
+      /* A dot only one fold uses stays where that fold puts it and fades there, rather than flying in from off-frame to reach it. */
       const p = aPark ? b : a
       const q = bPark ? a : b
 
-      // Its own slice of the crossing. Stable per dot, so the field breaks up
-      // the same way every time instead of boiling.
+      // Its own slice of the crossing. 
       const off = (((i * 61) % 233) / 233) * STAGGER
       const dt = i0 === i1 ? 0
         : ease(Math.max(0, Math.min(1, (rawT - off) / RUN)))
 
       const x = lerp(p.x, q.x, dt), y = lerp(p.y, q.y, dt)
-      /* One particle size for every crossing.
-
-         A fold may draw its dots at whatever size its chart needs — the year
-         columns use 3.3px so a column reads as filled — but the moment it comes
-         apart everything becomes the same grain. Without this, leaving the year
-         fold threw particles twice the size of every other fold's. */
+      /* One particle size for every crossing.  */
       const r = lerp(lerp(p.r, q.r, dt), PARTICLE_R, cross)
       const c = [lerp(p.c[0],q.c[0],dt), lerp(p.c[1],q.c[1],dt), lerp(p.c[2],q.c[2],dt)]
       let alpha = lerp(p.a == null ? .85 : p.a, q.a == null ? .85 : q.a, dt)
       if (cross > 0.004){
-        // A dot neither fold shows at rest still has to be visible while it
-        // travels, or the crossing is empty. One that only one fold uses fades
-        // over its own run rather than snapping on with the rest.
+        // A dot neither fold shows at rest still has to be visible while it travels, or the crossing is empty. 
         const fade = aPark ? dt : bPark ? 1 - dt : 1
         alpha = Math.max(alpha, cross * fade)
       }
@@ -1263,12 +1044,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       ctx.fill()
     }
 
-    /* Must be cleared each frame. If it persists, clicks on later folds still
-       hit-test the map and open a country card over a chart. */
+    /* Must be cleared each frame.  */
     liveMap = null
 
-    // Chart labels stay at full strength for the hold. During the short
-    // change, the old labels leave early and the new labels arrive late.
+    // Chart labels stay at full strength for the hold. 
     if (i0 === i1){
       drawFurniture(furniture[i0], 1)
     } else {
@@ -1276,8 +1055,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawFurniture(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
 
-    /* `.sh-field` is pointer-events:none, so this canvas has to claim the
-       pointer itself — and only while a map is drawn, or it covers the globe. */
+    /* `.sh-field` is pointer-events:none, so this canvas has to claim the pointer itself — and only while a map is drawn, or it covers the globe. */
     canvas.style.pointerEvents = liveMap ? 'auto' : 'none'
     canvas.style.cursor = liveMap ? 'pointer' : ''
 
@@ -1285,14 +1063,7 @@ export function initStory(DATA, TOPO, root, options = {}){
 
     // panels slide; the field stays put and rearranges under them
     track.style.transform = `translate3d(${-(f * 100)}vw,0,0)`
-    /* The words go with the picture.
-
-       They cannot be sampled into the same field: they are real text, selectable
-       and readable by a screen reader, and drawing them to the canvas would cost
-       both. So they come apart the way type does — the letters loosen, the line
-       thins and lifts — timed to the same `cross`, so the sentence and the chart
-       leave together and arrive together instead of one sliding while the other
-       dissolves. */
+    /* The words go with the picture.  */
     if (track.style.opacity !== '0'){
       const panel = track.children[Math.round(f)]
       for (const el of track.children){
@@ -1317,10 +1088,8 @@ export function initStory(DATA, TOPO, root, options = {}){
     g.children[1].style.transform = `translate3d(${(58 - p * 26)}vw, ${(44 - p * 18)}vh, 0)`
   }
 
-  /* ── the hand-over ───────────────────────────────────────────────
-     The chat below sits at margin-top:-100vh, so its first screen overlaps
-     the story's last. Same lesson as before: one fold, not two sections. The
-     stage fades as the chat rises through it. */
+  /* ── the hand-over ─────────────────────────────────────────────── */
+  /* The chat below sits at margin-top:-100vh, so its first screen overlaps the story's last. */
   const stageEl = root.querySelector('[data-stage]')
   const chatEl  = document.querySelector('.landing-v2-root .xp-root')
   let chatEntered = false
@@ -1329,24 +1098,13 @@ export function initStory(DATA, TOPO, root, options = {}){
     if (!chatEl) return
     const vh = window.innerHeight
     const r = scroller.getBoundingClientRect()
-    /* Measured against what the reader is being shown, not where the scroll bar
-       is. The two differ on purpose — the render trails the scroll, and a push
-       is held to one fold — and this used to read the scroll bar. So a hard
-       fling from the middle of the story ran the page to the end of the runway
-       and opened the chat, having drawn one fold on the way. The story hands
-       over when the story has actually finished, which is this. */
+    /* Measured against what the reader is being shown, not where the scroll bar is.  */
     const shown = shownAt == null ? -r.top : shownAt
     const bottom = r.bottom + (-r.top) - shown
     let t = (2 * vh - bottom) / vh
     t = t < 0 ? 0 : t > 1 ? 1 : t
     const e = ease(t)
-    /* The chat arrives solid, not as a ghost over the story.
-
-       Cross-fading two full screens meant that for most of the handover the
-       reader saw both at once, each half there: the matrix showing through the
-       composer, the logo through the headline. The chat sits above the story
-       and has its own ground, so it only has to reach full strength quickly and
-       the story is simply behind it. */
+    /* The chat arrives solid, not as a ghost over the story.  */
     stageEl.style.opacity = (1 - e).toFixed(3)
     chatEl.style.opacity = Math.min(1, e * 5).toFixed(3)
     chatEl.style.transform = `translateY(${((1 - e) * 24).toFixed(1)}px)`
@@ -1392,25 +1150,11 @@ export function initStory(DATA, TOPO, root, options = {}){
     root.dataset.storyTransition = progress.toFixed(3)
   }
 
-  /* The story is rendered from a position that chases the scroll rather than
-     from the scroll itself.
-
-     A trackpad delivers scroll in uneven lumps, and a transition here is about
-     a fifth of a screen, so one flick could cross a whole change in a couple of
-     frames: the chart appeared to jump and the sentence with it. The rendered
-     position now eases toward the real one, so the same flick becomes a glide
-     and nothing crosses faster than the eye can follow.
-
-     The page itself never moves differently — the stage is pinned. Only the
-     story inside it is damped, so this costs nothing in scroll feel. */
+  /* The story is rendered from a position that chases the scroll rather than from the scroll itself.  */
   let shownAt = null
   let shownTs = 0
   let gestureFrom = null      // the fold on screen when the current push began
-  /* The story never advances faster than this, however hard the page is thrown.
-
-     One screen height per second and a bit. A crossing is `transition` of a
-     screen, so it always takes the same time to play — about a second and a
-     tenth — no matter what the scroll did. */
+  /* The story never advances faster than this, however hard the page is thrown.  */
   const STORY_PX_PER_SEC = vh => vh * 0.62
   function update(){
     ticking = false
@@ -1420,35 +1164,14 @@ export function initStory(DATA, TOPO, root, options = {}){
     const introLen = timing.intro * vh
     let target = -r.top
 
-    /* Hold a push to one fold while it is still happening, not just when it
-       ends. The settle already limits where a gesture lands, but it waits for
-       the wheel to go quiet, and in that quarter second a very large delta —
-       a coarse mouse wheel, a fling — could already have run the render past a
-       whole crossing and hit the backstop, which teleports. Clamping here means
-       there is nothing to catch up on when the settle arrives.
-
-       Left alone on the last fold, where scrolling on is how the reader hands
-       over to the chat, and on a dragged scrollbar, which sends no wheel events
-       and is a reader asking to go somewhere specific. */
+    /* Hold a push to one fold while it is still happening, not just when it ends.  */
     if (userDriving && gestureFrom !== null && gestureFrom < BEATS.length - 1){
       const beatSpan = (timing.hold + timing.transition) * vh
       const here = introLen + gestureFrom * beatSpan
       target = Math.max(here - beatSpan, Math.min(here + beatSpan + timing.hold * vh, target))
     }
 
-    /* The rendered position moves at a fixed speed toward the scroll, not at a
-       speed proportional to how far behind it is.
-
-       Proportional chasing is why the same gesture never looked the same twice.
-       Moving a fixed share of the gap each frame means the speed IS the gap: a
-       hard flick opened a large one and the story tore through the crossing,
-       a gentle scroll opened a small one and it crawled. Same fold, same
-       distance, two different animations — that is the whole unpredictability.
-       It was also frame-rate bound, so it ran at a different pace on a 120Hz
-       screen than a 60Hz one.
-
-       A fixed pixels-per-second, measured against the clock, makes every
-       crossing take exactly as long as every other crossing. */
+    /* The rendered position moves at a fixed speed toward the scroll, not at a speed proportional to how far behind it is.  */
     const now = performance.now()
     if (shownAt === null){ shownAt = target; shownTs = now }
     const dtSec = Math.min(0.05, Math.max(0, (now - shownTs) / 1000))
@@ -1458,15 +1181,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     // Snap when close, or it creeps for ever and never settles.
     if (Math.abs(gap) <= Math.max(0.6, stepPx)) shownAt = target
     else shownAt += Math.sign(gap) * stepPx
-    /* A backstop for a jump no gesture could make — a dragged scrollbar, End,
-       a restored position. One beat, so a single crossing is never skipped.
-
-       This used to be half a screen, which a hard flick cleared easily, and
-       clearing it means teleporting: the rendered position was moved forward
-       without drawing anything in between. A 1,800px flick jumped clean over a
-       crossing, which is why a big push played in a fifth of the time a small
-       one did. Ordinary gestures no longer reach this at all, because a gesture
-       is now held to one fold. */
+    /* A backstop for a jump no gesture could make — a dragged scrollbar, End, a restored position.  */
     const LAG = (timing.hold + timing.transition) * vh
     if (Math.abs(target - shownAt) > LAG) shownAt = target - Math.sign(gap) * LAG
     const scrolled = shownAt
@@ -1475,10 +1190,7 @@ export function initStory(DATA, TOPO, root, options = {}){
 
     if (scrolled < introLen){
       const t = Math.max(0, scrolled / introLen)
-      // the object is the opening image; it clears as the dots take the space
-      // Full strength from the very first frame — nothing to scroll for.
-      // The globe belongs to the opening screen and leaves with it. Carrying it
-      // into the first beat read as the page failing to let go of something.
+      // the object is the opening image; it clears as the dots take the space Full strength from the very first frame — nothing to scroll for. 
       const openA = (t > 0.60 ? 0 : 1 - Math.max(0, (t - 0.34) / 0.26)).toFixed(3)
       if (instEl) instEl.style.opacity = openA
       if (keyEl){ keyEl.style.opacity = openA; keyEl.style.pointerEvents = +openA > 0.5 ? '' : 'none' }
@@ -1513,8 +1225,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   }
   function onScroll(){ if (!ticking){ ticking = true; requestAnimationFrame(update) } }
 
-      /* Beat i is settled at exactly i/(beats-1) of the runway. Land on that,
-         or you arrive mid-transition and it reads as broken. */
+      /* Beat i is settled at exactly i/(beats-1) of the runway.  */
   let tween = 0
   let clearTweenEvents = () => {}
   function storyYForBeat(i){
@@ -1527,34 +1238,17 @@ export function initStory(DATA, TOPO, root, options = {}){
     return top + (timing.intro + before + timing.hold * .38) * vh
   }
 
-
   function goToBeat(i){
     // Land inside the hold, with the chart and copy fully settled.
     scrollTo(storyYForBeat(i))
   }
 
-  /* Settle on a fold, never between two.
-
-     A transition is about a third of a screen, so a slow scroll can stop
-     halfway through one and leave the reader looking at a cloud with no
-     sentence attached, and a hard flick can cross a whole fold without ever
-     resting on it. Both are the same fault: the story was letting the scroll
-     position be final when it is really a request.
-
-     So when the wheel stops, the nearest fold pulls the page onto itself. From
-     inside a transition it goes to whichever side is closer, which means a
-     small push forward advances and a small push back returns. From a fling it
-     lands on wherever it ended up, settled, rather than mid-air.
-
-     It only ever moves within the story. Above the first fold the opening is
-     still running, and past the last one the chat is taking over, and neither
-     wants a hand on the wheel. */
+  /* Settle on a fold, never between two.  */
   let settleTimer = 0
   let userDriving = false
   function cancelSettle(){ clearTimeout(settleTimer); settleTimer = 0 }
 
-  /* The fold the reader is actually looking at, which during a crossing is not
-     the fold the scroll bar is over: the render trails the scroll on purpose. */
+  /* The fold the reader is actually looking at, which during a crossing is not the fold the scroll bar is over: the render trails the scroll on purpose. */
   function shownBeat(){
     const vh = window.innerHeight, timing = storyTiming()
     const past = (shownAt ?? 0) - timing.intro * vh
@@ -1567,13 +1261,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     cancelSettle()
     settleTimer = setTimeout(() => {
       if (!userDriving) return
-      /* The gesture is over the moment this runs, on every path out of here.
-
-         Both of these have to be cleared before any early return. `gestureFrom`
-         also clamps the render while a push is in flight, so a path that left
-         it set — the reader flinging far enough to reach the chat, say — pinned
-         the story to a fold it had already left, and every later scroll was
-         measured against a gesture that had finished. */
+      /* The gesture is over the moment this runs, on every path out of here.  */
       userDriving = false
       const from = gestureFrom
       gestureFrom = null
@@ -1587,36 +1275,23 @@ export function initStory(DATA, TOPO, root, options = {}){
       const at = past / span
       const last = BEATS.length - 1
 
-      /* One push moves one fold, however hard it was.
-
-         Scroll distance is not something a reader meters. The same flick of the
-         same thumb lands anywhere between 300 and 1,800 pixels, and at 1,800 it
-         cleared a whole beat and the crossing after it — so the story answered
-         two identical gestures with one fold and then three. Holding a gesture
-         to a single step is what makes it predictable; the constant render
-         speed then makes every step take the same time. */
+      /* One push moves one fold, however hard it was.  */
       let beat = Math.max(0, Math.min(last, Math.round(at)))
       if (from !== null) beat = Math.max(from - 1, Math.min(from + 1, beat))
 
-      /* Scrolling on from the last fold hands over to the chat. Doing it from
-         anywhere else does not: a hard push in the middle of the story used to
-         clear the runway outright and skip everything after it. */
+      /* Scrolling on from the last fold hands over to the chat.  */
       if (at > last + 0.6 && (from === null || from >= last)) return
       const target = storyYForBeat(beat)
       // Already settled: leave it alone rather than nudging by a few pixels.
       if (Math.abs(target - window.scrollY) < vh * 0.06) return
       scrollTo(target)
-      /* Long enough to sit out the gaps inside one gesture. A trackpad sends
-         wheel events in bursts, and at 180ms the settle fired between two
-         bursts of the same swipe and grabbed the page mid-scroll. */
+      /* Long enough to sit out the gaps inside one gesture.  */
     }, 280)
   }
 
-  // A pointer or a key means the reader is steering; a scroll on its own may
-  // just be our own tween finishing, which must not re-trigger a settle.
+  // A pointer or a key means the reader is steering; a scroll on its own may just be our own tween finishing, which must not re-trigger a settle.
   const markDriving = () => {
-    // Remember where the reader was when the push started, not where the page
-    // has already flown to — the clamp above is measured from there.
+    // Remember where the reader was when the push started, not where the page has already flown to — the clamp above is measured from there.
     if (!userDriving) gestureFrom = shownBeat()
     userDriving = true
     scheduleSettle()
@@ -1636,11 +1311,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       update()
       return
     }
-    /* The same pace as a scroll, for the same distance.
-
-       A settle used to run on its own curve while the render chased it on
-       another, so the fold you were pulled onto arrived at a different speed
-       from the one you scrolled to yourself. Both are one speed now. */
+    /* The same pace as a scroll, for the same distance.  */
     const dur = Math.min(2600, Math.max(420,
       Math.abs(dist) / STORY_PX_PER_SEC(window.innerHeight) * 1000))
     let t0 = 0
@@ -1678,13 +1349,7 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const api = {
     goToBeat,
-    /* Back to the opening screen, at once.
-
-       Not a tween. From the last fold the runway home is most of ten thousand
-       pixels, and at the story's reading speed that is a seventeen second
-       journey the reader did not ask for — they asked to be somewhere else.
-       Clearing `shownAt` is what makes it instant: the render adopts the new
-       position on the next frame instead of travelling to it. */
+    /* Back to the opening screen, at once.  */
     goHome(){
       cancelSettle()
       userDriving = false
@@ -1696,8 +1361,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       chatEntered = false
       update()
     },
-    // Which fold is on screen, so the arrows can step from where the reader is
-    // rather than from a count of their own clicks.
+    // Which fold is on screen, so the arrows can step from where the reader is rather than from a count of their own clicks.
     currentBeat(){
       const vh = window.innerHeight
       const timing = storyTiming()

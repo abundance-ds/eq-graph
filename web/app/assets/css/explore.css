@@ -1,5 +1,4 @@
-/* The chat is a full-height workbench. The document scroll belongs to the
-   story. After the handover, only the transcript scrolls. */
+/* The chat is a full-height workbench.  */
 .chat-root{
   --font-body:'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-display:'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -23,9 +22,7 @@
   -webkit-font-smoothing:antialiased;
 }
 
-/* Same numbers as the story and the About page, so the mark never moves
-   between screens. Hidden below 900px, where the header itself starts at the
-   page edge and the two would overlap. */
+/* Same numbers as the story and the About page, so the mark never moves between screens.  */
 .chat-logo{
   position:absolute; left:3rem; top:1.55rem; z-index:20;
   display:block; line-height:0;
@@ -33,8 +30,7 @@
 .chat-logo img{ height:27px; width:auto; display:block; }
 @media (max-width:1180px){ .chat-logo{ display:none; } }
 
-/* Its own ground, so nothing behind it ever shows through. Without this the
-   story was visible under the chat for the whole handover. */
+/* Its own ground, so nothing behind it ever shows through.  */
 .xp-root{ background:var(--surface); }
 
 .chat-shell{
@@ -71,8 +67,6 @@
   gap:.65rem;
 }
 
-
-
 .chat-brand strong{
   overflow:hidden;
   color:var(--ink-1);
@@ -96,12 +90,7 @@
 .chat-close:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
 @media (max-width:1180px){ .chat-close{ right:1.5rem; top:1rem; } }
 
-/* These are three plain facts about the portfolio, so they are set like
-   facts: Instrument Sans at a size you can actually read. They were mono at
-   10.5px, which is the register for an axis label or a table of readings —
-   machine output. Reading a summary line as telemetry is most of what makes
-   an interface feel like it was generated rather than written. Mono stays
-   where it belongs: data, labels and axes. */
+/* These are three plain facts about the portfolio, so they are set like facts: Instrument Sans at a size you can actually read.  */
 .chat-data-state{
   min-height:18px;
   display:flex;
@@ -111,16 +100,7 @@
   color:var(--ink-3);
   font:400 .82rem/1.5 var(--font-body);
 }
-/* The status light is gone.
-
-   It only turned green once the data had loaded — but the counts sitting
-   next to it already prove that, so it carried no information the line did
-   not. A dot plus a halo plus a label plus three counts is the most
-   recognisable AI-dashboard cliché there is, and this one was decorative.
-
-   Failure still needs saying, so the error state keeps a mark and the words
-   change to "Research data unavailable". A problem earns an indicator; a
-   success does not. */
+/* The status light is gone.  */
 .chat-data-state i{display:none;}
 .chat-data-state.is-error i{
   display:block; width:6px; height:6px; border-radius:50%;
@@ -144,10 +124,7 @@
   padding:1.2rem .25rem .8rem;
 }
 
-/* The opening block's own type is set further down, with the rest of the
-   opening fold. These two rules used to size it here and, being one level more
-   specific than a class on the element itself, silently won — which is exactly
-   the specificity trap that makes a stylesheet feel haunted. */
+/* The opening block's own type is set further down, with the rest of the opening fold.  */
 .chat-examples{display:flex; flex-direction:column; align-items:flex-start; gap:.4rem;}
 .chat-examples button,
 .chat-followups button,
@@ -241,12 +218,7 @@
 }
 .chat-followups button{min-height:32px; padding:.35rem .65rem; font-size:.72rem;}
 
-/* One filled surface, no border.
-
-   A border draws a box around the box — the fill already says "this is where
-   you type", so the outline only adds a line to look at. The send control sits
-   INSIDE that surface at the bottom right, which is what makes the whole thing
-   read as a single field rather than an input with a button stuck beside it. */
+/* One filled surface, no border.  */
 .chat-composer{
   position:relative;
   display:block;
@@ -273,9 +245,7 @@
   font:400 .95rem/1.5 var(--font-body);
 }
 .chat-composer textarea::placeholder{color:var(--ink-3);}
-/* Inside the field, bottom right. A soft rounded square rather than a dark
-   circle: at rest it should sit quietly in the surface it lives on, and only
-   step forward once there is something to send. */
+/* Inside the field, bottom right.  */
 .chat-composer > button{
   position:absolute;
   right:.6rem;
@@ -308,45 +278,23 @@
 @keyframes chat-send-spin{ to{ transform:rotate(360deg); } }
 @media (prefers-reduced-motion: reduce){ .chat-send-busy{animation:none;} }
 
-/* ══════════════ The opening fold ══════════════
-   Before the first question there is nothing to read, so the composer is the
-   only thing worth putting in front of someone — centred, with the title and
-   the counts directly above it and the suggestions below.
-
-   The header is hidden here because it would say "Research explorer" twice.
-   The back control is the one thing from it that still has a job, so it is
-   floated on its own.
-
-   Everything is the same DOM in both states; only the box that grows changes.
-   That is what lets the title travel to the top bar on the first question
-   without anything being rebuilt. */
+/* ══════════════ The opening fold ══════════════ Before the first question there is nothing to read, so the composer is the only thing worth putting in front of someone — centred, with the title and the counts directly above it and the suggestions below.  */
 .chat-shell.is-opening .chat-head{
   border-bottom:0;
   padding-bottom:0;
 }
-/* The logo stays. Hiding it here was wrong: it is the one mark that says which
-   organisation's research you are inside, and the reader arrives at this fold
-   straight out of a story that carried it in every frame. Losing it at the
-   handover is losing the context.
-
-   Only the "Research explorer" wordmark beside it is hidden, because the fold's
-   own title says exactly that a few lines below — the divider goes with it. */
+/* The logo stays.  */
 .chat-shell.is-opening .chat-brand strong,
 .chat-shell.is-opening .chat-brand > span,
 .chat-shell.is-opening .chat-data-state{ display:none; }
 
-/* Logo left, Back right — the same two anchors the story fold has, so the
-   handover does not rearrange the furniture. */
+/* Logo left, Back right — the same two anchors the story fold has, so the handover does not rearrange the furniture. */
 .chat-shell.is-opening .chat-head-main{ justify-content:space-between; }
 
-/* The thread stops being the thing that grows; the dock does, so the composer
-   sits on the optical centre rather than being pushed to the floor. */
+/* The thread stops being the thing that grows; the dock does, so the composer sits on the optical centre rather than being pushed to the floor. */
 .chat-shell.is-opening .chat-thread{ flex:0 0 auto; overflow:visible; }
 .chat-shell.is-opening .chat-thread-inner{ min-height:0; padding-bottom:0; }
-/* Nothing in the opening fold grows. The title, the counts, the composer and
-   the suggestions stack as one block and the empty space falls below them —
-   if the dock stretches instead, the suggestions get pushed to the floor and
-   read as unrelated to the box they belong to. */
+/* Nothing in the opening fold grows.  */
 .chat-shell.is-opening .chat-dock{
   flex:none;
   border-top:0;
@@ -356,9 +304,7 @@
 
 .chat-empty{max-width:none; text-align:center;}
 
-/* The opening line is the design. One large, tightly-tracked line carries the
-   whole fold, which is why nothing around it needs a border or a rule to hold
-   it together. Two tones: the noun in ink, the qualifier stepped back. */
+/* The opening line is the design.  */
 .chat-opening-title{
   margin:0 0 .55rem;
   color:var(--ink-1);
@@ -370,11 +316,7 @@
 }
 .chat-opening-title span{color:var(--ink-3);}
 
-/* Three small KPIs under the title. Number over noun, set side by side so the
-   three can be compared at a glance — which is the only reason to show three
-   counts at once rather than write them into a sentence. Small: the title is
-   the voice here, these are the footing under it. No borders, no tiles; the
-   spacing between them is what separates them. */
+/* Three small KPIs under the title.  */
 .chat-kpis{
   margin:0 0 2.2rem;
   display:flex;
@@ -395,16 +337,14 @@
   font:400 .78rem/1.4 var(--font-body);
 }
 
-/* Only the connecting / unavailable states still speak in a sentence — there
-   are no numbers to show yet, and a status is prose. */
+/* Only the connecting / unavailable states still speak in a sentence — there are no numbers to show yet, and a status is prose. */
 .chat-opening-counts{
   margin:0 0 2.2rem;
   color:var(--ink-3);
   font:400 .9rem/1.6 var(--font-body);
 }
 
-/* The one line of instruction the chart needs. Quiet, under the bars, and it
-   says both moves at once so the second is discoverable before you need it. */
+/* The one line of instruction the chart needs.  */
 .chat-chart-hint{
   margin:.5rem 0 0;
   color:var(--ink-3);
@@ -449,8 +389,7 @@
 }
 .chat-chip-clear:hover{color:var(--ink-1);}
 
-/* Deals a new set rather than asking a question, so it is text and not a chip —
-   it should not look like the things it deals. */
+/* Deals a new set rather than asking a question, so it is text and not a chip — it should not look like the things it deals. */
 .chat-reshuffle{
   display:inline-flex;
   align-items:center;
@@ -471,8 +410,7 @@
   margin:1.6rem auto 0;
   text-align:center;
 }
-/* Centred and wrapping, so the row finds its own shape instead of being ruled
-   into a column. */
+/* Centred and wrapping, so the row finds its own shape instead of being ruled into a column. */
 .chat-shell.is-opening .chat-examples{
   flex-direction:row;
   flex-wrap:wrap;
@@ -491,13 +429,10 @@
 }
 .chat-shell.is-opening .chat-examples button svg{color:var(--ink-3); flex:none;}
 
-/* The opening group sits a little above true centre. Dead centre reads as
-   floating; slightly high reads as placed. */
+/* The opening group sits a little above true centre.  */
 .chat-shell.is-opening .chat-thread{ margin-top:11vh; }
 
-/* The opening composer is narrower than the thread — a field the width of the
-   page reads as a form. This is closer to the measure of the title above it,
-   so the three parts stack as one column. */
+/* The opening composer is narrower than the thread — a field the width of the page reads as a form.  */
 .chat-shell.is-opening .chat-dock{ width:min(38rem, calc(100% - 2.5rem)); }
 .chat-shell.is-opening .chat-composer textarea{ min-height:74px; }
 
@@ -549,9 +484,7 @@
   .chat-root *::after{scroll-behavior:auto !important; transition:none !important; animation:none !important;}
 }
 
-/* "View as graph" — an offer, not a control panel. Quiet text with a small
-   node mark, sitting under the chart it re-reads. It only renders when the
-   answer actually holds a relationship, so it never appears as a dead option. */
+/* "View as graph" — an offer, not a control panel.  */
 .chat-asgraph{
   margin-top:.5rem;
   display:inline-flex;

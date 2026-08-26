@@ -1,12 +1,5 @@
 <script setup lang="ts">
-/**
- * The three places this site goes, in the same corner on every screen.
- *
- * Impact and Research explorer are two views of one page rather than two
- * routes, so from the story they are handled in place and from anywhere else
- * they are ordinary links that the page reads on arrival. Either way the reader
- * meets the same three words in the same position, which is the point.
- */
+/* The three places this site goes, in the same corner on every screen.  */
 const props = defineProps<{
   /** 'impact' | 'explore' | 'about' — the one you are already on. */
   current?: string;

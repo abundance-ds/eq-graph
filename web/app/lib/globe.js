@@ -1,14 +1,4 @@
-/* ═══════════════════════════════════════════════════════════════════
-   THE GLOBE — where the research actually happened.
-
-   The first thing on the page, present from the moment it loads. Every
-   country represented in the research, lit in proportion to its study count.
-   The data sets the counts, rank, and labels at run time.
-
-   Orthographic projection on a canvas, turning slowly. Land is a faint
-   outline; the lit countries are filled and haloed, so the shape you see is
-   the reach of EuroQol research rather than a decorative planet.
-   ═══════════════════════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════════════════════ THE GLOBE — where the research actually happened.  */
 import { geoOrthographic, geoPath, geoGraticule10, geoBounds, geoContains,
          geoCentroid, geoDistance } from 'd3-geo'
 import { feature } from 'topojson-client'
@@ -26,14 +16,11 @@ const rgb = (css, name, fallback) => {
 }
 
 export function initGlobe(canvas, DATA, TOPO, options = {}){
-  // Called with a country and its three numbers on click, and with null when
-  // a click lands on the ocean. The globe holds no card of its own — it
-  // reports, and the page decides what to show.
+  // Called with a country and its three numbers on click, and with null when a click lands on the ocean. 
   const onSelect = typeof options.onSelect === 'function' ? options.onSelect : () => {}
   const ctx = canvas.getContext('2d')
 
-  /* Colour comes from the CSS token block, never from here — that is what
-     makes a light theme a change of tokens rather than a second globe. */
+  /* Colour comes from the CSS token block, never from here — that is what makes a light theme a change of tokens rather than a second globe. */
   const css = window.getComputedStyle(canvas)
   const LIT  = rgb(css, '--globe-lit-rgb', '124,246,222')
   const LAND = rgb(css, '--globe-land-rgb', '150,214,200')
@@ -44,8 +31,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
                 rgb(css, '--globe-body-mid', '6,20,19'),
                 rgb(css, '--globe-body-far', '3,10,10')]
   const BODY_A = (css.getPropertyValue('--globe-body-a').trim() || '.72')
-  // A hairline that reads on black is nearly invisible on paper. One number,
-  // set per theme, scales the outlines rather than forking the drawing.
+  // A hairline that reads on black is nearly invisible on paper. 
   const LB = Number(css.getPropertyValue('--globe-line-boost').trim()) || 1
   const la = a => Math.min(1, a * LB).toFixed(3)
   const DPR = Math.min(2, window.devicePixelRatio || 1)
@@ -62,14 +48,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
     if (n) byName[n.label] = (byName[n.label] || 0) + 1
   }
 
-  /* Three numbers per country, for the card a click opens.
-
-     Studies and projects are counted from different edges on purpose. A study
-     was CONDUCTED_IN a country; a project SUPPORTED_EVIDENCE_IN one. The gap
-     between them is the honest state of the evidence — money committed against
-     work actually read — so the card shows both rather than picking whichever
-     is larger. Projects are de-duplicated because one project can support
-     several studies in the same place. */
+  /* Three numbers per country, for the card a click opens.  */
   const detail = {}
   const seenProjects = {}
   for (const e of DATA.edges){
@@ -98,8 +77,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
   const path = geoPath(proj, ctx)
   const grat = geoGraticule10()
 
-  // a lon/lat box per lit country, so hit-testing is two polygon tests a
-  // frame instead of a hundred and seventeen
+  // a lon/lat box per lit country, so hit-testing is two polygon tests a frame instead of a hundred and seventeen
   const boxes = lit.map(f => ({ f, b: geoBounds(f), c: geoCentroid(f),
                                 n: counts[f.properties.name] }))
   // biggest first, so when pins compete for room the loudest country wins
@@ -120,9 +98,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
     if (!active){ raf = 0; return }
     const now = performance.now()
     const dt = Math.min(0.05, last ? (now - last) / 1000 : 0.016); last = now
-    // A gentle, constant turn — five and a half degrees a second, a full
-    // rotation in about a minute. Timed in seconds, not frames, so it turns
-    // at the same rate on a 120Hz screen as on a 60Hz one.
+    // A gentle, constant turn — five and a half degrees a second, a full rotation in about a minute. 
     if (!drag && now > autoResume) rot[0] -= dt * SPIN
     pin += (pinTo - pin) * Math.min(1, dt * 7)
     mx += (tmx - mx) * 0.05; my += (tmy - my) * 0.05
@@ -131,34 +107,17 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
 
     // lower in the frame, and drifting — the parallax you asked for
     const cx = W * 0.70 + mx * 26
-    /* The globe RISES as the page scrolls, it does not sink.
-
-       It used to be pushed down 74px at full parallax, which put its centre at
-       0.58H with a radius of 0.40H — the bottom of the sphere landed past the
-       viewport and the globe was cut in half. Settling it upward to 0.50H
-       keeps the same sense of the object having its own weight while leaving
-       the whole sphere on screen, which matters now that it travels into the
-       first beat and has to be readable there. */
+    /* The globe RISES as the page scrolls, it does not sink.  */
     const cy = H * (0.58 - park * 0.08) + my * 16
     proj.translate([cx, cy])
     const R = proj.scale()
 
-    /* Once the globe has faded out it stops swallowing the pointer — and, far
-       more importantly, stops drawing.
-
-       Every frame this rotates and clips the whole world outline: eighty
-       thousand coordinates across two hundred and forty-one countries. It was
-       doing that sixty times a second whether or not anything was on screen,
-       which is why the story ran at about eight frames a second on a fold where
-       the globe is at zero opacity. The visibility was already being computed
-       here for the pointer; it just was not being used for the one thing that
-       costs anything. */
+    /* Once the globe has faded out it stops swallowing the pointer — and, far more importantly, stops drawing.  */
     const vis = +(canvas.parentNode.style.opacity || 1) > 0.12
     if (vis !== live){ live = vis; canvas.style.pointerEvents = vis ? 'auto' : 'none'
                        if (!vis){ px = py = null; setHover(null) } }
     if (!vis || document.hidden){
-      // Keep the loop alive so it picks straight back up, but draw nothing.
-      // The clear is needed once, or the last frame stays burnt into the canvas.
+      // Keep the loop alive so it picks straight back up, but draw nothing. 
       if (!parked){ parked = true; ctx.clearRect(0, 0, W, H) }
       raf = requestAnimationFrame(frame)
       return
@@ -195,15 +154,11 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
       ctx.stroke()
     }
 
-    // ── what is under the cursor, recomputed every frame so it keeps up
-    //    with the rotation rather than only updating when you move
+    // ── what is under the cursor, recomputed every frame so it keeps up with the rotation rather than only updating when you move
     if (px !== null){
       const dxp = px - cx, dyp = py - cy
       const near = dxp * dxp + dyp * dyp <= (R + 30) * (R + 30)
-      /* Cards sit at full strength once a country has come round. They used
-         to rest at half, so every label was permanently washed out whether or
-         not the pointer was anywhere near. The fade as a country crosses the
-         limb is `edge`, below, and that is the only fade wanted. */
+      /* Cards sit at full strength once a country has come round.  */
       if (!drag) pinTo = near ? 1 : 0.92
       let found = null
       if (dxp * dxp + dyp * dyp <= R * R){
@@ -222,13 +177,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
       setHover(found)
     }
 
-    /* ── the pins ────────────────────────────────────────────────────
-       Every country facing you carries a small card: its name, and how many
-       studies took place there. They are placed biggest-first and any card
-       that would land on one already placed is dropped — a card sitting on
-       another card is worse than a missing one — so the ones you see are
-       always the loudest countries in view. Turn the globe and the set
-       changes with it. */
+    /* ── the pins ──────────────────────────────────────────────────── Every country facing you carries a small card: its name, and how many studies took place there.  */
     if (pin > 0.01){
       const centre = [-rot[0], -rot[1]]
       const placed = []
@@ -262,9 +211,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
         const flip = p[0] + 12 + cw > W - 8
         const bx0 = flip ? p[0] - 12 - cw : p[0] + 12
         const by0 = p[1] - 12 - ch
-        // Mobile labels need more air than their exact bounds. Without this
-        // reserved gap, two cards can be mathematically separate but read as
-        // one crowded label on the small globe.
+        // Mobile labels need more air than their exact bounds. 
         const cardGap = W <= 640 ? 10 : 3
         const r = [bx0 - cardGap, by0 - cardGap, cw + cardGap * 2, ch + cardGap * 2]
         if (!on && placed.some(q => r[0] < q[0] + q[2] && r[0] + r[2] > q[0] &&
@@ -279,8 +226,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
         ctx.beginPath()
         if (ctx.roundRect) ctx.roundRect(bx0, by0, cw, ch, 4)
         else ctx.rect(bx0, by0, cw, ch)
-        // Solid white, not the page tint at 88%. A label has to be read over
-        // whatever piece of ocean or landmass happens to be behind it.
+        // Solid white, not the page tint at 88%. 
         ctx.fillStyle = `rgba(255,255,255,${a.toFixed(3)})`
         ctx.fill()
         ctx.strokeStyle = `rgba(${LIT},${(a * (on ? .95 : .45)).toFixed(3)})`
@@ -321,9 +267,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
   }
   window.addEventListener('pointermove', onWindowPointerMove, { passive: true })
 
-  /* Hover is what brightens a country and its card; there is no separate
-     DOM tooltip any more, because two things saying the same number is one
-     thing too many. */
+  /* Hover is what brightens a country and its card; there is no separate DOM tooltip any more, because two things saying the same number is one thing too many. */
   let px = null, py = null          // cursor, in canvas pixels
   function setHover(bx){ hover = bx ? bx.f : null }
 
@@ -340,10 +284,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
   canvas.addEventListener('pointermove', onCanvasPointerMove)
   canvas.addEventListener('pointerleave', onCanvasPointerLeave)
 
-  /* A click and a drag start identically, so the difference has to be measured
-     rather than guessed: press, then release within a few pixels and a short
-     moment, and it was a click. Without this the globe opens a card every time
-     you finish turning it. */
+  /* A click and a drag start identically, so the difference has to be measured rather than guessed: press, then release within a few pixels and a short moment, and it was a click.  */
   let pressAt = 0, pressX = 0, pressY = 0
 
   const onCanvasPointerDown = ev => {
@@ -359,9 +300,7 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
   const onCanvasClick = ev => {
     const moved = Math.hypot(ev.clientX - pressX, ev.clientY - pressY)
     if (moved > 5 || performance.now() - pressAt > 500) return   // that was a turn
-    // `hover` is already the country under the cursor, resolved once a frame by
-    // the draw loop. Running a second hit-test here would be the same two
-    // polygon tests for the same answer.
+    // `hover` is already the country under the cursor, resolved once a frame by the draw loop. 
     if (!hover){ onSelect(null); return }
     const name = hover.properties.name
     const row = detail[name] || { studies: counts[name] || 0, projects: 0, findings: 0 }
@@ -378,13 +317,10 @@ export function initGlobe(canvas, DATA, TOPO, options = {}){
   canvas.addEventListener('pointerup', release)
   canvas.addEventListener('pointercancel', release)
 
-  /* Keep the render loop for pointer interaction. Stop only the automatic
-     turn when the operating system requests reduced motion. */
+  /* Keep the render loop for pointer interaction.  */
   const SPIN = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 5.5
 
-  /* The stage is pinned, so nothing on it moves as you scroll. Sinking the
-     globe a little while the words leave gives the fold its depth — it lags
-     behind the type instead of being stapled to it. */
+  /* The stage is pinned, so nothing on it moves as you scroll.  */
   const onScroll = () => {
     park = Math.max(0, Math.min(1, window.scrollY / (window.innerHeight * 1.6)))
   }
