@@ -151,23 +151,15 @@
   display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);
   align-content:center;
 }
-/* The words disperse with the chart. `--copy-out` is the same number that
-   swaps the chart for its particles, so the sentence loosens and lifts on the
-   same beat rather than sliding intact past a field of dots.
+/* The words hand over to their own particles.
 
-   Tracking widens as it goes, which is what letters coming apart looks like at
-   type sizes: the word stops being a word before it stops being visible. */
+   `--copy-out` is the same number that swaps the chart, and the sentence is
+   sampled into the field exactly where it sits, so this is a straight swap and
+   not a fade: at the moment the type goes the dots are already standing in its
+   letterforms. Blurring and drifting it was the old way, from when there were
+   no particles to hand it to, and it read as two things happening at once. */
 .sh-panel{ --copy-out:0; }
-.sh-panel .sh-copy{
-  opacity:calc(1 - var(--copy-out));
-  transform:translateY(calc(var(--copy-out) * -14px));
-  letter-spacing:calc(var(--copy-out) * 0.055em);
-  filter:blur(calc(var(--copy-out) * 2.5px));
-  will-change:opacity, transform, filter;
-}
-@media (prefers-reduced-motion: reduce){
-  .sh-panel .sh-copy{ transform:none; letter-spacing:normal; filter:none; }
-}
+.sh-panel .sh-copy{ opacity:calc(1 - var(--copy-out)); }
 
 /* Asymmetric by rule: the words take columns 1–5, never centred. */
 .sh-copy{grid-column:1 / span 5; align-self:center;}

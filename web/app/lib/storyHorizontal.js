@@ -305,7 +305,7 @@ export function initStory(DATA, TOPO, root, options = {}){
     // The charts are drawn first, because the layouts are now sampled from them.
     charts.resize()
     layouts.length = 0; furniture.length = 0
-    BEATS.forEach(b => { const r = buildLayout(b.layout, b.chart)
+    BEATS.forEach((b, bi) => { const r = buildLayout(b.layout, b.chart, bi)
       layouts.push(r.pos || r); furniture.push(r.furn || null) })
     /* How far About has to travel to sit against the right edge, where Skip
        will later replace it. Measured rather than written down: it depends on
@@ -331,6 +331,65 @@ export function initStory(DATA, TOPO, root, options = {}){
     return vb && vb.width ? { w:vb.width, h:vb.height } : null
   }
 
+  /* The fold's words, sampled into the same particles as its picture.
+
+     They are drawn to an offscreen canvas at the panel's own fonts and
+     positions and read back as pixels, which is exactly what the opening
+     headline does. Filling their line boxes with dots instead would give solid
+     bars; this gives letterforms, so what comes apart still looks like writing.
+
+     A panel sits at its own index inside a track that slides, so its children
+     are measured relative to the panel rather than the viewport. That makes the
+     sample independent of where the story happens to be scrolled when it runs.
+
+     The DOM text stays: it is real, selectable, and readable aloud. It is only
+     swapped for these while it travels. */
+  function sampleCopy(index){
+    const panel = track.children[index]
+    if (!panel || !W || !H) return []
+    const pRect = panel.getBoundingClientRect()
+    if (!pRect.width) return []
+    const off = document.createElement('canvas')
+    off.width = W; off.height = H
+    const o = off.getContext('2d')
+    o.fillStyle = '#000'; o.textAlign = 'left'; o.textBaseline = 'top'
+
+    for (const el of panel.querySelectorAll('.sh-num, .sh-unit, .sh-head, .sh-body')){
+      const text = (el.textContent || '').trim()
+      if (!text) continue
+      const cs = getComputedStyle(el)
+      const r = el.getBoundingClientRect()
+      const size = parseFloat(cs.fontSize) || 16
+      const lh = parseFloat(cs.lineHeight) || size * 1.4
+      o.font = `${cs.fontWeight} ${size}px ${cs.fontFamily}`
+      // The unit is inline inside the number, so it would be drawn twice.
+      if (el.classList.contains('sh-num')){
+        const unit = el.querySelector('.sh-unit')
+        if (unit) o.fillText(text.replace((unit.textContent || '').trim(), '').trim(),
+                             r.left - pRect.left, r.top - pRect.top)
+        else o.fillText(text, r.left - pRect.left, r.top - pRect.top)
+        continue
+      }
+      // Everything else wraps inside its own box, at its own measure.
+      const words = text.split(/\s+/)
+      let line = '', y = r.top - pRect.top
+      const x = r.left - pRect.left
+      for (const w of words){
+        const t = line ? line + ' ' + w : w
+        if (o.measureText(t).width > r.width && line){
+          o.fillText(line, x, y); y += lh; line = w
+        } else line = t
+      }
+      if (line) o.fillText(line, x, y)
+    }
+
+    const d = o.getImageData(0, 0, W, H).data, pts = []
+    for (let py = 0; py < H; py += 3)
+      for (let px = 0; px < W; px += 3)
+        if (d[(py * W + px) * 4 + 3] > 120) pts.push([px, py])
+    return pts
+  }
+
   // The field always sits in columns 6–12, so the words keep the left.
   const fieldBox = () => {
     const pad = W > 900 ? 48 : 24
@@ -350,9 +409,40 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const layouts = []
   let furniture = []
+
+  /* Words and picture become one field.
+
+     Each fold hands over two clouds — its copy and its chart — and they are
+     shared out across the dots in proportion, so a sentence does not swallow
+     the whole field and a dense chart does not leave the words with three dots.
+     After this a fold is simply a list of places, and the crossing is the dots
+     walking from one list to the next. */
+  function placeCloud(out, copyPts, artPts, artBox){
+    const total = copyPts.length + artPts.length
+    if (!total) return false
+    const forCopy = Math.round(dots.length * (copyPts.length / total))
+    const takeAt = (arr, k, count) => arr[Math.min(arr.length - 1,
+      Math.floor(k * (arr.length / Math.max(1, count))))]
+    for (let i = 0; i < dots.length; i++){
+      const c = dots[i].kind === 'project' ? TEAL : YELLOW
+      if (i < forCopy && copyPts.length){
+        const q = takeAt(copyPts, i, forCopy)
+        out[i] = { x:q[0], y:q[1], c, r:1.5, a:0 }
+      } else if (artPts.length){
+        const q = takeAt(artPts, i - forCopy, dots.length - forCopy)
+        out[i] = artBox
+          ? { x:artBox.x + q[0] * artBox.kx, y:artBox.y + q[1] * artBox.ky, c, r:1.5, a:0 }
+          : { x:q[0], y:q[1], c, r:1.5, a:0 }
+      } else {
+        const q = takeAt(copyPts, i, dots.length)
+        out[i] = { x:q[0], y:q[1], c, r:1.5, a:0 }
+      }
+    }
+    return true
+  }
   /* Which series fold 2 is showing. Not a filter over one dataset: projects are
      counted by the year they were funded, papers by the year they appeared. */
-  function buildLayout(kind, chartId){
+  function buildLayout(kind, chartId, beatIndex = 0){
     const b = fieldBox(), bw = b.x1 - b.x0, bh = b.y1 - b.y0
     const out = new Array(dots.length)
     const rnd = mulberry(1234)
@@ -381,30 +471,11 @@ export function initStory(DATA, TOPO, root, options = {}){
          At rest these sit exactly under the SVG, which is why nothing looks
          different until the fold starts to move. */
       const pts = chartId ? charts.sample(chartId) : []
-      if (!pts.length){
-        for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
-        return { pos:out, furn:null }
-      }
       const box = chartBox()
       const svg = chartViewBox(chartId)
-      const kx = svg ? box.w / svg.w : 1
-      const ky = svg ? box.h / svg.h : 1
-      // Evenly spread across the cloud rather than taking the first N, or one
-      // corner of the chart gets every dot and the rest of it never travels.
-      const step = pts.length / dots.length
-      for (let i = 0; i < dots.length; i++){
-        const q = pts[Math.min(pts.length - 1, Math.floor(i * step))]
-        /* Position from the chart, colour from the story.
-
-           Sampling the chart's own colour meant every fold dissolved into a
-           different palette: the network went dark because its plates and links
-           are, the matrix went green, the map went grey. A particle is a project
-           or a paper wherever it happens to be standing, so it keeps the two
-           colours the field has always used and the dissolve looks the same
-           leaving any fold. */
-        out[i] = { x:box.x + q[0] * kx, y:box.y + q[1] * ky,
-                   c:dots[i].kind === 'project' ? TEAL : YELLOW, r:1.5, a:0 }
-      }
+      const fitted = { x:box.x, y:box.y, kx:svg ? box.w / svg.w : 1, ky:svg ? box.h / svg.h : 1 }
+      if (placeCloud(out, sampleCopy(beatIndex), pts, fitted)) return { pos:out, furn:null }
+      for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
       return { pos:out, furn:null }
     }
     if (kind === 'projectScatter'){
@@ -553,14 +624,8 @@ export function initStory(DATA, TOPO, root, options = {}){
             if (ll && geoContains(feat, ll)) mapPts.push([x, y])
           }
       }
-      if (mapPts.length){
-        const step = mapPts.length / dots.length
-        for (let i = 0; i < dots.length; i++){
-          const q = mapPts[Math.min(mapPts.length - 1, Math.floor(i * step))]
-          out[i] = { x:q[0], y:q[1],
-                     c:dots[i].kind === 'project' ? TEAL : YELLOW, r:1.5, a:0 }
-        }
-      } else for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
+      if (!placeCloud(out, sampleCopy(beatIndex), mapPts, null))
+        for (let i = 0; i < dots.length; i++) out[i] = hidden(i)
 
       out.furn = { kind:'map', b, proj, centroid, per, unplaced:0, entityKind:'instrument',
                    peak: ESTABLISHED.length, detail: countryDetail, familyIn, reach,
