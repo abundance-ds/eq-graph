@@ -354,6 +354,76 @@ const icon = name =>
        inside a box: they pin to the edge and the links cross the middle. The
        centring force does that job. Only the largest are named — labelling
        every node turns a network into a diagram of labels. */
+/* The most cited work, one dot per citation.
+
+   Every other fold counts what EuroQol did. This counts what the rest of the
+   field did with it: a citation is somebody else, unprompted, building on the
+   work. One dot is one citation, the same rule as everywhere else, so the top
+   paper's block is visibly larger than the bottom several put together — which
+   is the honest shape of citation, not a flaw in the chart.
+
+   Colour is the working group that funded it. Only three or four appear at this
+   depth, few enough to tell apart without inventing a palette: the two brand
+   colours carry the largest and the rest take neutral steps. */
+const GROUP_INK = [
+  ['Valuation',                      'var(--teal)'],
+  ['Descriptive Systems',            'var(--yellow)'],
+  ['Youth',                          '#5b8f86'],
+  ['Populations and Health Systems', '#9aa3a1'],
+  ['EQ-HWB',                         '#c2b48a'],
+]
+const groupInk = name => (GROUP_INK.find(g => g[0] === name) || [, '#b9beba'])[1]
+
+function citedWork(studies, width, height, data, coauthors, cites){
+  const papers = (cites && cites.papers) || []
+  if (!papers.length) return chartFrame(width, height, '', 'Citation data not loaded.')
+
+  const compact = width < 620
+  const rows = papers.slice(0, compact ? 8 : 12)
+  const left = compact ? 8 : 14
+  const top = 58, bottom = 34
+  const bandH = (height - top - bottom) / rows.length
+  const peak = Math.max(...rows.map(r => r.citations))
+  const plotW = width - left - 64
+
+  /* One pitch for the whole chart, set by the longest row, so a dot means the
+     same thing on every line. */
+  const bandUse = bandH * 0.52
+  const perCol = Math.max(2, Math.round(Math.sqrt(peak * bandUse / plotW)))
+  const pitch = Math.min(bandUse / perCol, plotW / Math.ceil(peak / perCol))
+  const r = Math.max(0.7, pitch * 0.42)
+
+  const marks = rows.map((row, index) => {
+    const mid = top + index * bandH + bandH * 0.62
+    const y0 = mid - (perCol - 1) * pitch / 2
+    const ink = groupInk(row.group)
+    let dots = ''
+    for (let i = 0; i < row.citations; i++){
+      const cx = left + Math.floor(i / perCol) * pitch + pitch / 2
+      const cy = y0 + (i % perCol) * pitch
+      dots += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r.toFixed(2)}" fill="${ink}" />`
+    }
+    const endX = left + Math.ceil(row.citations / perCol) * pitch + 9
+    const title = row.title.length > 76 ? row.title.slice(0, 75) + '…' : row.title
+    return `${dots}
+      <text class="viz-cell-total" x="${endX.toFixed(1)}" y="${(mid + 1).toFixed(1)}" text-anchor="start">${row.citations}</text>
+      <text class="viz-label" x="${left}" y="${(top + index * bandH + bandH * 0.22).toFixed(1)}" text-anchor="start">${escapeText(title)}</text>`
+  }).join('')
+
+  // The key names only the groups actually on the chart.
+  const shown = [...new Set(rows.map(x => x.group).filter(Boolean))]
+  let kx = left
+  const key = shown.map(name => {
+    const bit = `<circle cx="${kx + 4}" cy="${top - 34}" r="3.4" fill="${groupInk(name)}" />
+      <text class="viz-axis" x="${kx + 13}" y="${top - 30}">${escapeText(name)}</text>`
+    kx += name.length * 6.4 + 30
+    return bit
+  }).join('')
+
+  return chartFrame(width, height, key + marks,
+    `One dot is one citation. OpenAlex, ${cites.retrieved}. ${cites.totalPublications} papers have earned ${cites.totalCitations.toLocaleString('en')} between them.`)
+}
+
 function coauthorNetwork(studies, width, height, data, coauthors){
   if (!coauthors || !coauthors.nodes) return chartFrame(width, height, '', 'Co-authorship data not loaded.')
 
@@ -586,11 +656,12 @@ const RENDERERS = {
   conceptAtlas,
   productLandscape,
   coverageMatrix,
+  citedWork,
   groupPapers,
   coauthorNetwork,
 }
 
-export function createStoryCharts(data, root, coauthors = null){
+export function createStoryCharts(data, root, coauthors = null, cites = null){
   const host = root.querySelector('[data-charts]')
   const studies = data.nodes.filter(node => node.type === 'study')
   if (!host) return { resize(){}, show(){}, destroy(){} }
@@ -935,7 +1006,7 @@ export function createStoryCharts(data, root, coauthors = null){
     for (const [id, render] of Object.entries(RENDERERS)){
       // `data` is passed too: most charts only need the studies, but the
       // working-group one counts projects, which are nodes rather than studies.
-      scenes.get(id).innerHTML = render(studies, width, height, data, coauthors)
+      scenes.get(id).innerHTML = render(studies, width, height, data, coauthors, cites)
     }
   }
 

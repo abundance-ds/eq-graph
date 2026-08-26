@@ -209,10 +209,15 @@ export function initStory(DATA, TOPO, root, options = {}){
       so:`The busiest year was <b>${busiestProjectYear[0]}</b> with <b>${fmt(busiestProjectYear[1])}</b> projects, and <b>${projectYears[projectYears.length - 1]}</b> is already funded. <b>${fmt(studies.length)}</b> of those projects have had their papers read in full and turned into structured evidence, and that number grows with every pass through the corpus.`,
       layout:'projectYears' },
 
-    { num:String(ESTABLISHED.length), unit:'instruments', head:'One scale, in use in 35 countries.',
-      body:`EuroQol maintains four instruments. A country is shaded by how many of them are in use there, and the strip below counts the countries each measure has reached.`,
-      so:`<b>EQ-5D-5L</b> is at work in <b>${familyReach['5L'].size}</b> countries and <b>EQ-5D-3L</b> in <b>${familyReach['3L'].size}</b>, which is what lets a health outcome in Japan be set beside one in Brazil. The youth versions carry that into paediatrics in <b>${familyReach['Y-3L'].size}</b> and <b>${familyReach['Y-5L'].size}</b> countries, and <b>EQ-HWB</b> has reached <b>${familyReach['HWB'].size}</b> while still in development.`,
-      layout:'projectMap' },
+    /* The map fold is gone. It shaded countries a second time, right after a
+       globe that had already done geography, and the reader learned nothing new
+       from the repeat. This asks the one question the rest of the story cannot:
+       what did anyone else do with the work. */
+    { num:fmt((options.cites && options.cites.totalCitations) || 0), unit:'citations',
+      head:'The work other people build on.',
+      body:`The <b>${fmt((options.cites && options.cites.totalPublications) || 0)}</b> papers read so far have been cited <b>${fmt((options.cites && options.cites.totalCitations) || 0)}</b> times. Each dot below is one citation, and the colour is the working group that funded the paper.`,
+      so:`Every other number here is EuroQol counting its own work. This one is the rest of the field: someone reaching for an instrument, a value set or a protocol because it was the right tool. The most cited single paper carries <b>${fmt((options.cites && options.cites.papers && options.cites.papers[0] && options.cites.papers[0].citations) || 0)}</b> of them on its own.`,
+      layout:'chartBlank', chart:'citedWork' },
 
     { num:fmt(studies.length), unit:'studies read', head:'Read in full, and turned into evidence you can query.',
       body:`<b>${fmt(studies.length)}</b> studies have been read end to end and structured, from a portfolio of <b>${fmt(projects.length)}</b> funded projects. The totals show how much each instrument carries, and how large each kind of research is.`,
@@ -287,7 +292,7 @@ export function initStory(DATA, TOPO, root, options = {}){
   const DPR = Math.min(2, window.devicePixelRatio || 1)
   let W = 0, H = 0
   let sizeRetry = 0, destroyed = false
-  const charts = createStoryCharts(DATA, root, options.coauthors || null)
+  const charts = createStoryCharts(DATA, root, options.coauthors || null, options.cites || null)
   const dots = entities.map((p, i) => ({
     i, p, kind:p.type, projectYear:projectYearOf(p), studyYear:studyYearOf(p),
     g:p.type === 'project' ? wgOf(p) : null, x:0, y:0, r:1.6, c:GREY,

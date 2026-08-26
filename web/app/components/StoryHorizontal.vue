@@ -47,7 +47,7 @@ onMounted(async () => {
   const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
   if (!root) return;
 
-  const [{ initStory }, { initGlobe }, data, topo, coauthors] = await Promise.all([
+  const [{ initStory }, { initGlobe }, data, topo, coauthors, cites] = await Promise.all([
     import("../lib/storyHorizontal.js"),
     import("../lib/globe.js"),
     $fetch<DemoGraphData>("/api/graph"),
@@ -55,11 +55,16 @@ onMounted(async () => {
     // The co-authorship network is a separate artefact from Paul's pipeline,
     // not part of the research graph, so it loads on its own.
     $fetch<Record<string, any>>("/data/coauthorship.json").catch(() => null),
+    /* Citations live in the serving database but the API does not expose them
+       yet, so they are extracted to a file the same way the co-authorship
+       network is. Swap this for an endpoint when Paul adds one. */
+    $fetch<Record<string, any>>("/data/citations.json").catch(() => null),
   ]);
   if (disposed || !root.isConnected) return;
 
   story = initStory(data, topo, root, {
     coauthors,
+    cites,
     onEnterChat: (entry: { returnY: number }) => {
       emit("enter-chat", { source: "story", returnY: entry.returnY });
     },

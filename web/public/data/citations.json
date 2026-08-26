@@ -1,0 +1,81 @@
+{
+ "note": "Top cited EuroQol-funded publications. Citation counts are an OpenAlex snapshot held in the serving database (publication_citations), retrieved 2026-08-21. Extracted to a file because the API does not expose citations yet; swap to a live endpoint when it does.",
+ "source": "OpenAlex via eq-graph serving database",
+ "retrieved": "2026-08-21",
+ "totalCitations": 7745,
+ "totalPublications": 271,
+ "papers": [
+  {
+   "title": "Psychometric properties of the EQ-5D-5L: a systematic review of the literature",
+   "year": 2021,
+   "citations": 950,
+   "group": "Descriptive Systems"
+  },
+  {
+   "title": "German Value Set for the EQ-5D-5L",
+   "year": 2018,
+   "citations": 619,
+   "group": "Valuation"
+  },
+  {
+   "title": "Is EQ-5D-5L Better Than EQ-5D-3L? A Head-to-Head Comparison of Descriptive Systems and Value Sets from Seven Countries",
+   "year": 2018,
+   "citations": 401,
+   "group": "Descriptive Systems"
+  },
+  {
+   "title": "A Systematic Review of Studies Comparing the Measurement Properties of the Three-Level and Five-Level Versions of the EQ-5D",
+   "year": 2018,
+   "citations": 379,
+   "group": "Descriptive Systems"
+  },
+  {
+   "title": "EuroQol Protocols for Time Trade-Off Valuation of Health Outcomes",
+   "year": 2016,
+   "citations": 249,
+   "group": "Valuation"
+  },
+  {
+   "title": "The Indonesian EQ-5D-5L Value Set",
+   "year": 2017,
+   "citations": 206,
+   "group": "Valuation"
+  },
+  {
+   "title": "The Danish EQ-5D-5L Value Set: A Hybrid Model Using cTTO and DCE Data",
+   "year": 2021,
+   "citations": 198,
+   "group": "Valuation"
+  },
+  {
+   "title": "Quality of life of the Indonesian general population: Test-retest reliability and population norms of the EQ-5D-5L and WHOQOL-BREF",
+   "year": 2018,
+   "citations": 179,
+   "group": "Valuation"
+  },
+  {
+   "title": "A French Value Set for the EQ-5D-5L",
+   "year": 2020,
+   "citations": 169,
+   "group": "Valuation"
+  },
+  {
+   "title": "EQ-5D-Y-5L: developing a revised EQ-5D-Y with increased response categories",
+   "year": 2019,
+   "citations": 128,
+   "group": "Youth"
+  },
+  {
+   "title": "Parallel Valuation of the EQ-5D-3L and EQ-5D-5L by Time Trade-Off in Hungary",
+   "year": 2020,
+   "citations": 119,
+   "group": "Valuation"
+  },
+  {
+   "title": "Valuation of EuroQol Five-Dimensional Questionnaire, Youth Version (EQ-5D-Y) and EuroQol Five-Dimensional Questionnaire, Three-Level Version (EQ-5D-3L) Health States: The Impact of Wording and Perspective",
+   "year": 2018,
+   "citations": 115,
+   "group": "Youth"
+  }
+ ]
+}
