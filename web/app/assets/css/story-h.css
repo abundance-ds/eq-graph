@@ -325,6 +325,18 @@
   animation:sh-ray 2s linear infinite;
   animation-play-state:paused;
 }
+/* The light has to contrast with what it is running around.
+
+   Both buttons used the same teal sweep, and the primary button IS that teal —
+   so on the one that matters most the streak was drawn in its own colour and
+   could not be seen at all. On the filled button the light is white; on the
+   outlined one it stays teal, which is what shows against paper. */
+.sh-btn.is-primary{
+  --ray-soft:rgba(255,255,255,.28);
+  --ray-hot:#ffffff;
+}
+.sh-btn.is-primary .sh-ray{ padding:1.7px; }
+
 .sh-btn:hover .sh-ray, .sh-btn:focus-visible .sh-ray{opacity:1;}
 .sh-btn:hover .sh-ray b, .sh-btn:focus-visible .sh-ray b{animation-play-state:running;}
 @keyframes sh-ray{ to{ transform:translate3d(-50%,-50%,0) rotate(1turn); } }

@@ -476,9 +476,15 @@ export function initStory(DATA, TOPO, root, options = {}){
     const out = new Array(dots.length)
     const rnd = mulberry(1234)
 
+    /* `park` marks a dot this fold has no use for at all.
+       It is not the same as a dot resting at alpha 0. Every dot on a chart fold
+       rests invisible, because an SVG is drawn over the top — but it is standing
+       somewhere real, on a glyph or a chart mark, and it must travel. A parked
+       dot is standing off the bottom of the frame and must not. Telling the two
+       apart is what stops a crossing dragging a row of dots across the floor. */
     const hidden = i => ({
       x:b.x0 + ((i * 17) % Math.max(1, Math.floor(bw))), y:b.y1 + 24,
-      c:GREY, r:.6, a:0,
+      c:GREY, r:.6, a:0, park:true,
     })
     const scatter = (entityKind, colour = () => GREY, radius = () => 1.6) => {
       for (let i = 0; i < dots.length; i++){
@@ -1183,16 +1189,6 @@ export function initStory(DATA, TOPO, root, options = {}){
       drawAreaFill(furniture[i1], Math.max(0, (rawT - .7) / .3))
     }
 
-    /* Between folds the field comes apart and puts itself back together.
-
-       Three of the five folds hide every dot, because their chart is an SVG
-       drawn over the top, so a straight interpolation from hidden to hidden had
-       nothing moving in it at all: the fold simply cross-faded. This lifts the
-       particles out for the crossing and settles them again.
-
-       It is a departure from the resting layout, not a change to it. `burst` is
-       zero at both ends by construction, so every settled fold is exactly what
-       it was, and nothing here can spoil an arrangement that already works. */
     /* The handover between a chart and its particles.
 
        `cross` goes from 0 to 1 within the first few per cent of a crossing and
@@ -1206,42 +1202,60 @@ export function initStory(DATA, TOPO, root, options = {}){
        weak images rather than one solid one turning to grain. */
     const cross = i0 === i1 ? 0
       : Math.max(0, Math.min(1, Math.min(rawT, 1 - rawT) / 0.06))
-    const burst = i0 === i1 ? 0 : Math.sin(rawT * Math.PI)
-    const scatter = burst * Math.min(W, H) * 0.09
+
+    /* Between folds the field comes apart and puts itself back together.
+
+       Every dot walks the straight line from where it stands to where it is
+       going, and the only thing that varies is when it sets off. Early leavers
+       have arrived while late ones have not moved, so at the middle of a
+       crossing the field is spread along its own paths — which is the coming
+       apart. Nothing is pushed outward and nothing is pulled anywhere: a dot is
+       always somewhere between its own two places, so no arrangement exists
+       during a crossing that is not on the way from one fold to the next.
+
+       What was here before did the opposite. It shoved every dot outward along
+       a heading that cycled with its index, and dragged any dot resting at
+       alpha 0 toward a scattered point in the frame. On four of the five folds
+       the chart is an SVG and so every dot rests at alpha 0 — meaning the whole
+       field was hauled into a random rectangle at the midpoint of most
+       crossings, and arrived there in index order, which is fold order, which
+       is why it banded. That rectangle was the shape appearing in the middle. */
+    const STAGGER = 0.45      // share of the crossing spent spreading start times
+    const RUN = 1 - STAGGER
 
     for (let i = 0; i < dots.length; i++){
       const a = A[i], b = B[i]
-      let x = lerp(a.x, b.x, t), y = lerp(a.y, b.y, t)
+      const aPark = a.park === true, bPark = b.park === true
+      // Neither fold has anything for it. Drawing it would only smear the floor.
+      if (aPark && bPark) continue
+
+      /* A dot only one fold uses stays where that fold puts it and fades there,
+         rather than flying in from off-frame to reach it. */
+      const p = aPark ? b : a
+      const q = bPark ? a : b
+
+      // Its own slice of the crossing. Stable per dot, so the field breaks up
+      // the same way every time instead of boiling.
+      const off = (((i * 61) % 233) / 233) * STAGGER
+      const dt = i0 === i1 ? 0
+        : ease(Math.max(0, Math.min(1, (rawT - off) / RUN)))
+
+      const x = lerp(p.x, q.x, dt), y = lerp(p.y, q.y, dt)
       /* One particle size for every crossing.
 
          A fold may draw its dots at whatever size its chart needs — the year
          columns use 3.3px so a column reads as filled — but the moment it comes
          apart everything becomes the same grain. Without this, leaving the year
          fold threw particles twice the size of every other fold's. */
-      const r = lerp(lerp(a.r, b.r, t), PARTICLE_R, cross)
-      const c = [lerp(a.c[0],b.c[0],t), lerp(a.c[1],b.c[1],t), lerp(a.c[2],b.c[2],t)]
-      let alpha = lerp(a.a == null ? .85 : a.a, b.a == null ? .85 : b.a, t)
+      const r = lerp(lerp(p.r, q.r, dt), PARTICLE_R, cross)
+      const c = [lerp(p.c[0],q.c[0],dt), lerp(p.c[1],q.c[1],dt), lerp(p.c[2],q.c[2],dt)]
+      let alpha = lerp(p.a == null ? .85 : p.a, q.a == null ? .85 : q.a, dt)
       if (cross > 0.004){
-        // Stable per dot, so the cloud is the same shape every time rather than
-        // boiling, and each one leaves on its own heading.
-        const ang = (i % 97) * 0.0647 + i * 0.011
-        const reach = 0.35 + ((i * 37) % 100) / 154
-        /* A dot both folds hide is parked on the baseline at each end, so
-           scattering from where it sits produced a smear along the floor rather
-           than a field coming apart. Those cross through the frame instead. */
-        if (a.a === 0 && b.a === 0){
-          const hx = box.x0 + (((i * 61) % 233) / 233) * (box.x1 - box.x0)
-          const hy = box.y0 + (((i * 97) % 179) / 179) * (box.y1 - box.y0)
-          x = lerp(x, hx, burst)
-          y = lerp(y, hy, burst)
-        }
-        x += Math.cos(ang) * scatter * reach
-        y += Math.sin(ang) * scatter * reach * 0.72
-        // A dot the next fold will not show still has to be visible while it
-        // travels, or the crossing is empty again.
-        // Full strength for the whole crossing, not a bump in the middle: the
-        // particles ARE the picture while it travels.
-        alpha = Math.max(alpha, cross)
+        // A dot neither fold shows at rest still has to be visible while it
+        // travels, or the crossing is empty. One that only one fold uses fades
+        // over its own run rather than snapping on with the rest.
+        const fade = aPark ? dt : bPark ? 1 - dt : 1
+        alpha = Math.max(alpha, cross * fade)
       }
       ctx.beginPath()
       ctx.arc(x, y, r, 0, 6.283)
@@ -1314,7 +1328,15 @@ export function initStory(DATA, TOPO, root, options = {}){
   function handOver(){
     if (!chatEl) return
     const vh = window.innerHeight
-    const bottom = scroller.getBoundingClientRect().bottom
+    const r = scroller.getBoundingClientRect()
+    /* Measured against what the reader is being shown, not where the scroll bar
+       is. The two differ on purpose — the render trails the scroll, and a push
+       is held to one fold — and this used to read the scroll bar. So a hard
+       fling from the middle of the story ran the page to the end of the runway
+       and opened the chat, having drawn one fold on the way. The story hands
+       over when the story has actually finished, which is this. */
+    const shown = shownAt == null ? -r.top : shownAt
+    const bottom = r.bottom + (-r.top) - shown
     let t = (2 * vh - bottom) / vh
     t = t < 0 ? 0 : t > 1 ? 1 : t
     const e = ease(t)
@@ -1382,26 +1404,71 @@ export function initStory(DATA, TOPO, root, options = {}){
      The page itself never moves differently — the stage is pinned. Only the
      story inside it is damped, so this costs nothing in scroll feel. */
   let shownAt = null
+  let shownTs = 0
+  let gestureFrom = null      // the fold on screen when the current push began
+  /* The story never advances faster than this, however hard the page is thrown.
+
+     One screen height per second and a bit. A crossing is `transition` of a
+     screen, so it always takes the same time to play — about a second and a
+     tenth — no matter what the scroll did. */
+  const STORY_PX_PER_SEC = vh => vh * 0.62
   function update(){
     ticking = false
     const vh = window.innerHeight
     const r = scroller.getBoundingClientRect()
     const timing = storyTiming()
     const introLen = timing.intro * vh
-    const target = -r.top
+    let target = -r.top
 
-    if (shownAt === null) shownAt = target
+    /* Hold a push to one fold while it is still happening, not just when it
+       ends. The settle already limits where a gesture lands, but it waits for
+       the wheel to go quiet, and in that quarter second a very large delta —
+       a coarse mouse wheel, a fling — could already have run the render past a
+       whole crossing and hit the backstop, which teleports. Clamping here means
+       there is nothing to catch up on when the settle arrives.
+
+       Left alone on the last fold, where scrolling on is how the reader hands
+       over to the chat, and on a dragged scrollbar, which sends no wheel events
+       and is a reader asking to go somewhere specific. */
+    if (userDriving && gestureFrom !== null && gestureFrom < BEATS.length - 1){
+      const beatSpan = (timing.hold + timing.transition) * vh
+      const here = introLen + gestureFrom * beatSpan
+      target = Math.max(here - beatSpan, Math.min(here + beatSpan + timing.hold * vh, target))
+    }
+
+    /* The rendered position moves at a fixed speed toward the scroll, not at a
+       speed proportional to how far behind it is.
+
+       Proportional chasing is why the same gesture never looked the same twice.
+       Moving a fixed share of the gap each frame means the speed IS the gap: a
+       hard flick opened a large one and the story tore through the crossing,
+       a gentle scroll opened a small one and it crawled. Same fold, same
+       distance, two different animations — that is the whole unpredictability.
+       It was also frame-rate bound, so it ran at a different pace on a 120Hz
+       screen than a 60Hz one.
+
+       A fixed pixels-per-second, measured against the clock, makes every
+       crossing take exactly as long as every other crossing. */
+    const now = performance.now()
+    if (shownAt === null){ shownAt = target; shownTs = now }
+    const dtSec = Math.min(0.05, Math.max(0, (now - shownTs) / 1000))
+    shownTs = now
     const gap = target - shownAt
+    const stepPx = STORY_PX_PER_SEC(vh) * dtSec
     // Snap when close, or it creeps for ever and never settles.
-    if (Math.abs(gap) < 0.6) shownAt = target
-    /* A gentler chase. At 0.16 the render caught up in about a fifth of a
-       second, so however slowly the reader scrolled, the dissolve itself was
-       always over in a blink — it looked sped up because it was. At 0.075 the
-       particles take roughly half a second to travel, which is the pace the
-       opening headline moves at. */
-    else shownAt += gap * 0.075
-    // Never fall more than a screen behind, so a long fling still lands.
-    if (Math.abs(target - shownAt) > vh) shownAt = target - Math.sign(gap) * vh
+    if (Math.abs(gap) <= Math.max(0.6, stepPx)) shownAt = target
+    else shownAt += Math.sign(gap) * stepPx
+    /* A backstop for a jump no gesture could make — a dragged scrollbar, End,
+       a restored position. One beat, so a single crossing is never skipped.
+
+       This used to be half a screen, which a hard flick cleared easily, and
+       clearing it means teleporting: the rendered position was moved forward
+       without drawing anything in between. A 1,800px flick jumped clean over a
+       crossing, which is why a big push played in a fifth of the time a small
+       one did. Ordinary gestures no longer reach this at all, because a gesture
+       is now held to one fold. */
+    const LAG = (timing.hold + timing.transition) * vh
+    if (Math.abs(target - shownAt) > LAG) shownAt = target - Math.sign(gap) * LAG
     const scrolled = shownAt
     // Keep drawing until it has caught up.
     if (shownAt !== target && !ticking){ ticking = true; requestAnimationFrame(update) }
@@ -1486,11 +1553,31 @@ export function initStory(DATA, TOPO, root, options = {}){
   let userDriving = false
   function cancelSettle(){ clearTimeout(settleTimer); settleTimer = 0 }
 
+  /* The fold the reader is actually looking at, which during a crossing is not
+     the fold the scroll bar is over: the render trails the scroll on purpose. */
+  function shownBeat(){
+    const vh = window.innerHeight, timing = storyTiming()
+    const past = (shownAt ?? 0) - timing.intro * vh
+    if (past < 0) return 0
+    const span = (timing.hold + timing.transition) * vh
+    return Math.max(0, Math.min(BEATS.length - 1, Math.round(past / span)))
+  }
+
   function scheduleSettle(){
     cancelSettle()
     settleTimer = setTimeout(() => {
       if (!userDriving) return
+      /* The gesture is over the moment this runs, on every path out of here.
+
+         Both of these have to be cleared before any early return. `gestureFrom`
+         also clamps the render while a push is in flight, so a path that left
+         it set — the reader flinging far enough to reach the chat, say — pinned
+         the story to a fold it had already left, and every later scroll was
+         measured against a gesture that had finished. */
       userDriving = false
+      const from = gestureFrom
+      gestureFrom = null
+
       const vh = window.innerHeight
       const r = scroller.getBoundingClientRect()
       const timing = storyTiming()
@@ -1499,18 +1586,41 @@ export function initStory(DATA, TOPO, root, options = {}){
       if (past < 0) return                       // still in the opening
       const at = past / span
       const last = BEATS.length - 1
-      if (at > last + 0.6) return                // handing over to the chat
-      const beat = Math.max(0, Math.min(last, Math.round(at)))
+
+      /* One push moves one fold, however hard it was.
+
+         Scroll distance is not something a reader meters. The same flick of the
+         same thumb lands anywhere between 300 and 1,800 pixels, and at 1,800 it
+         cleared a whole beat and the crossing after it — so the story answered
+         two identical gestures with one fold and then three. Holding a gesture
+         to a single step is what makes it predictable; the constant render
+         speed then makes every step take the same time. */
+      let beat = Math.max(0, Math.min(last, Math.round(at)))
+      if (from !== null) beat = Math.max(from - 1, Math.min(from + 1, beat))
+
+      /* Scrolling on from the last fold hands over to the chat. Doing it from
+         anywhere else does not: a hard push in the middle of the story used to
+         clear the runway outright and skip everything after it. */
+      if (at > last + 0.6 && (from === null || from >= last)) return
       const target = storyYForBeat(beat)
       // Already settled: leave it alone rather than nudging by a few pixels.
       if (Math.abs(target - window.scrollY) < vh * 0.06) return
       scrollTo(target)
-    }, 180)
+      /* Long enough to sit out the gaps inside one gesture. A trackpad sends
+         wheel events in bursts, and at 180ms the settle fired between two
+         bursts of the same swipe and grabbed the page mid-scroll. */
+    }, 280)
   }
 
   // A pointer or a key means the reader is steering; a scroll on its own may
   // just be our own tween finishing, which must not re-trigger a settle.
-  const markDriving = () => { userDriving = true; scheduleSettle() }
+  const markDriving = () => {
+    // Remember where the reader was when the push started, not where the page
+    // has already flown to — the clamp above is measured from there.
+    if (!userDriving) gestureFrom = shownBeat()
+    userDriving = true
+    scheduleSettle()
+  }
   window.addEventListener('wheel', markDriving, { passive:true })
   window.addEventListener('touchmove', markDriving, { passive:true })
   const onSteerKey = ev => { if (/^(Arrow|Page|Home|End| )/.test(ev.key)) markDriving() }
@@ -1526,10 +1636,13 @@ export function initStory(DATA, TOPO, root, options = {}){
       update()
       return
     }
-    // Long enough that a settle plays the dissolve rather than skipping it.
-    // Slow enough that the crossing it carries the reader through is watched
-    // rather than skipped past.
-    const dur = Math.min(2400, 900 + Math.abs(dist) * 0.45)
+    /* The same pace as a scroll, for the same distance.
+
+       A settle used to run on its own curve while the render chased it on
+       another, so the fold you were pulled onto arrived at a different speed
+       from the one you scrolled to yourself. Both are one speed now. */
+    const dur = Math.min(2600, Math.max(420,
+      Math.abs(dist) / STORY_PX_PER_SEC(window.innerHeight) * 1000))
     let t0 = 0
     const stop = () => { cancelAnimationFrame(tween); off() }
     const off = () => {
