@@ -993,18 +993,29 @@ export function createStoryCharts(data, root, coauthors = null){
     }
     const num = (el, a) => parseFloat(el.getAttribute(a) || '0')
 
+    /* Only data marks. A chart also contains scenery — the network's haze is a
+       single circle 379px across, the name plates are rectangles the colour of
+       the page, the legend has swatches. Filling those gave a solid disc or a
+       block that had nothing to do with the chart, which is the shape that kept
+       appearing before the next fold arrived. Anything bigger than a mark is
+       scenery by definition. */
+    const box = svg.viewBox.baseVal
+    const AREA_CAP = (box.width * box.height) * 0.06
+    const R_CAP = Math.min(box.width, box.height) * 0.09
+
     for (const el of svg.querySelectorAll('circle, rect, line')){
       const css = getComputedStyle(el)
       if (css.display === 'none' || css.visibility === 'hidden') continue
       const alpha = parseFloat(el.style.opacity || css.opacity || '1')
       if (alpha < 0.08) continue
+      if (el.classList.contains('viz-net-haze') || el.classList.contains('viz-net-plate')) continue
       // Only whether it is drawn at all. The colour is the field's, not the
       // chart's, so it is never read.
       if (!rgb(css.fill) && !rgb(css.stroke)) continue
 
       if (el.tagName === 'circle'){
         const cx = num(el, 'cx'), cy = num(el, 'cy'), r = num(el, 'r')
-        if (r < 0.4) continue
+        if (r < 0.4 || r > R_CAP) continue
         // A small mark still owes at least one particle, or the fine detail of
         // a chart vanishes and only its big shapes travel.
         if (r <= pitch * 0.6){ pts.push([cx, cy]); continue }
@@ -1015,9 +1026,18 @@ export function createStoryCharts(data, root, coauthors = null){
       else if (el.tagName === 'rect'){
         const x0 = num(el, 'x'), y0 = num(el, 'y')
         const w = num(el, 'width'), h = num(el, 'height')
-        if (w < 0.4 || h < 0.4) continue
-        for (let y = y0; y <= y0 + h; y += pitch)
-          for (let x = x0; x <= x0 + w; x += pitch) pts.push([x, y])
+        if (w < 0.4 || h < 0.4 || w * h > AREA_CAP) continue
+        /* A matrix cell is large. Filled solid, thirty-six of them make one
+           block and the grid that carries the meaning disappears. The edges are
+           drawn and the inside is left sparse, so what travels still reads as a
+           table. */
+        const big = w > pitch * 4 && h > pitch * 4
+        const inner = big ? pitch * 3 : pitch
+        for (let x = x0; x <= x0 + w; x += pitch){ pts.push([x, y0]); pts.push([x, y0 + h]) }
+        for (let y = y0 + pitch; y < y0 + h; y += pitch){ pts.push([x0, y]); pts.push([x0 + w, y]) }
+        if (inner > 0)
+          for (let y = y0 + inner; y < y0 + h; y += inner)
+            for (let x = x0 + inner; x < x0 + w; x += inner) pts.push([x, y])
       }
       else {
         const x1 = num(el, 'x1'), y1 = num(el, 'y1')

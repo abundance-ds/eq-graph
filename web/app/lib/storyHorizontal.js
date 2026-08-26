@@ -8,6 +8,8 @@ import { feature } from 'topojson-client'
 
 const lerp = (a, b, t) => a + (b - a) * t
 const ease = t => t * t * (3 - 2 * t)
+// Every fold comes apart into this, whatever size its own marks are drawn at.
+const PARTICLE_R = 1.5
 
 /* Most of the runway is hold, not transition. Give the change more room and a
    settled scene exists at one scroll position only, which reads as broken. */
@@ -1166,7 +1168,13 @@ export function initStory(DATA, TOPO, root, options = {}){
     for (let i = 0; i < dots.length; i++){
       const a = A[i], b = B[i]
       let x = lerp(a.x, b.x, t), y = lerp(a.y, b.y, t)
-      const r = lerp(a.r, b.r, t)
+      /* One particle size for every crossing.
+
+         A fold may draw its dots at whatever size its chart needs — the year
+         columns use 3.3px so a column reads as filled — but the moment it comes
+         apart everything becomes the same grain. Without this, leaving the year
+         fold threw particles twice the size of every other fold's. */
+      const r = lerp(lerp(a.r, b.r, t), PARTICLE_R, cross)
       const c = [lerp(a.c[0],b.c[0],t), lerp(a.c[1],b.c[1],t), lerp(a.c[2],b.c[2],t)]
       let alpha = lerp(a.a == null ? .85 : a.a, b.a == null ? .85 : b.a, t)
       if (cross > 0.004){
@@ -1266,8 +1274,15 @@ export function initStory(DATA, TOPO, root, options = {}){
     let t = (2 * vh - bottom) / vh
     t = t < 0 ? 0 : t > 1 ? 1 : t
     const e = ease(t)
+    /* The chat arrives solid, not as a ghost over the story.
+
+       Cross-fading two full screens meant that for most of the handover the
+       reader saw both at once, each half there: the matrix showing through the
+       composer, the logo through the headline. The chat sits above the story
+       and has its own ground, so it only has to reach full strength quickly and
+       the story is simply behind it. */
     stageEl.style.opacity = (1 - e).toFixed(3)
-    chatEl.style.opacity = e.toFixed(3)
+    chatEl.style.opacity = Math.min(1, e * 5).toFixed(3)
     chatEl.style.transform = `translateY(${((1 - e) * 24).toFixed(1)}px)`
     chatEl.style.pointerEvents = e > 0.92 ? '' : 'none'
     stageEl.style.visibility = e >= 0.999 ? 'hidden' : ''
@@ -1496,6 +1511,16 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const api = {
     goToBeat,
+    // Which fold is on screen, so the arrows can step from where the reader is
+    // rather than from a count of their own clicks.
+    currentBeat(){
+      const vh = window.innerHeight
+      const timing = storyTiming()
+      const past = -scroller.getBoundingClientRect().top - timing.intro * vh
+      if (past < 0) return 0
+      const at = past / ((timing.hold + timing.transition) * vh)
+      return Math.max(0, Math.min(BEATS.length - 1, Math.round(at)))
+    },
     scrollTo,
     state:() => ({
       phase:root.dataset.storyPhase,

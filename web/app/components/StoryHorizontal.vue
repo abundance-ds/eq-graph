@@ -24,6 +24,17 @@ function enterDirect(source: "skip" | "cta") {
   emit("enter-chat", { source, returnY: window.scrollY });
 }
 
+/* One fold forward or back. It reads the beat the story is actually on rather
+   than counting clicks, so the arrows stay right however the reader got here —
+   by scrolling, by a dot, or by an arrow. */
+function step(delta: number) {
+  const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
+  const story = root?.__story;
+  if (!story) return;
+  const at = story.currentBeat?.() ?? 0;
+  story.goToBeat(at + delta);
+}
+
 /* Impact and Research explorer are views of this page, not other pages, so the
    nav asks us to switch rather than navigating away and losing the scroll. */
 function goSection(to: "impact" | "explore") {
@@ -150,9 +161,23 @@ onBeforeUnmount(() => {
 
         <SiteNav current="impact" :on-go="goSection" />
 
-        <button type="button" class="sh-skip" @click="enterDirect('skip')">
-          Skip impact <span aria-hidden="true">→</span>
-        </button>
+        <!-- Step, then skip. The arrows move one fold at a time and Skip leaves
+             the story altogether, so the smaller action sits first and the one
+             that ends things sits last. No labels on the arrows: a left and a
+             right chevron beside a row of fold dots need no explaining. -->
+        <div class="sh-controls">
+          <div class="sh-step">
+            <button type="button" @click="step(-1)" aria-label="Previous fold">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+            </button>
+            <button type="button" @click="step(1)" aria-label="Next fold">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+            </button>
+          </div>
+          <button type="button" class="sh-skip" @click="enterDirect('skip')">
+            Skip impact <span aria-hidden="true">→</span>
+          </button>
+        </div>
 
         <div class="sh-grid" aria-hidden="true">
           <span v-for="n in 12" :key="n" />

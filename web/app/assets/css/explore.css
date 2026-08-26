@@ -33,6 +33,10 @@
 .chat-logo img{ height:27px; width:auto; display:block; }
 @media (max-width:1180px){ .chat-logo{ display:none; } }
 
+/* Its own ground, so nothing behind it ever shows through. Without this the
+   story was visible under the chat for the whole handover. */
+.xp-root{ background:var(--surface); }
+
 .chat-shell{
   position:relative;
   width:100%;

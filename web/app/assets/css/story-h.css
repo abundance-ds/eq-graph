@@ -378,18 +378,32 @@
    composited move; the distance is measured in JS because it depends on the
    width of the word and of the stage. */
 
-/* Bottom right of the visual, not the top bar. Sitting beside About it read as
-   a peer of the site navigation, which it is not: it acts on the story you are
-   looking at, so it belongs to the story. */
-.sh-skip{
-  /* Below the chart, not inside it. At 4.6rem it sat on the year axis and
-     covered 2026. */
+/* Bottom right of the visual, not the top bar. These act on the story you are
+   looking at, unlike the menu, which goes somewhere else. */
+.sh-controls{
   position:absolute; right:var(--pad); bottom:1.35rem; z-index:8;
+  display:flex; align-items:center; gap:1.4rem;
+}
+.sh-step{ display:flex; align-items:center; gap:.4rem; }
+.sh-step button{
+  width:40px; height:40px; padding:0;
+  display:inline-flex; align-items:center; justify-content:center;
+  border:1px solid var(--rule); border-radius:999px;
+  background:transparent; color:var(--ink); cursor:pointer;
+  transition:border-color .15s ease, color .15s ease;
+}
+.sh-step svg{ width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.7;
+              stroke-linecap:round; stroke-linejoin:round; }
+.sh-step button:hover{ border-color:var(--teal); color:var(--teal); }
+.sh-step button:focus-visible{ outline:2px solid var(--accent,#007d6c); outline-offset:3px; }
+
+.sh-skip{
+  position:static;
   min-height:44px; padding:0 .15rem;
   display:inline-flex; align-items:center; gap:.45rem;
   border:0; background:transparent;
   color:var(--ink); font:600 var(--t-body) var(--font-body); cursor:pointer;
-  transition:color .15s ease, border-color .15s ease;
+  transition:color .15s ease;
 }
 .sh-skip:hover{color:var(--teal);}
 .sh-skip:focus-visible{outline:2px solid var(--teal); outline-offset:4px;}
