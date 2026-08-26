@@ -366,26 +366,34 @@ const icon = name =>
    depth, few enough to tell apart without inventing a palette: the two brand
    colours carry the largest and the rest take neutral steps. */
 const GROUP_INK = [
-  /* An analogous palette: the brand green, and blue beside it on the wheel for
-     where green cannot go again. One warm note, the brand ochre, and it is the
-     SAME ochre the year fold uses — there were two before, a dark brown on the
-     canvas and a brighter one here, for the same idea.
+  /* Green, grey, ochre. No red, and no second saturated colour.
 
-     No red anywhere. Red beside green is the one pairing a colourblind reader
-     cannot separate, and it also carries a meaning — bad, stop, over budget —
-     that none of these groups have.
+     Blue was tried here and read as too close to the green, for a reason worth
+     writing down: both were dark AND both saturated, so the only thing telling
+     them apart was hue, which is the weakest of the three cues. A grey differs
+     in saturation as well, so it separates two ways at once and holds up at the
+     size of one dot.
 
-     Every value checked rather than chosen. Contrast against the page runs 5.9,
-     5.3, 3.3, 2.5 and 2.1 to one. Simulated for deuteranopia, all ten pairs are
-     at least 64 apart, where under about 60 reads as one colour. Two earlier
-     attempts failed that test: a dark charcoal sat 55 from the teal, and a deep
-     navy sat 15, because anything dark collapses toward the dark green. The
-     fourth and fifth are tints for that reason. */
+     Red was ruled out on purpose. Beside green it is the one pairing a
+     colourblind reader cannot resolve, and it carries a meaning — bad, stop,
+     over budget — that no working group has.
+
+     The first three are the ones that appear: at the depth this chart draws,
+     only three groups reach it. They are checked. Against the page: 5.9, 4.6
+     and 3.3 to one, and simulated for deuteranopia the closest pair is 97,
+     where under about sixty reads as one colour.
+
+     The last two are a known limit rather than a solution. Five categories that
+     all separate is not possible from three hue families without dropping one
+     of them below readable contrast — the best fifth I found passed the
+     separation test at 1.8:1, which is too faint to see. If a chart ever needs
+     all five at once, colour cannot be the only thing carrying it. Here it is
+     not: every row is labelled and the key names each group. */
   ['Valuation',                      '#00705f'],   // brand green, most papers
-  ['Descriptive Systems',            '#2f6f9f'],   // blue, analogous
+  ['Descriptive Systems',            '#7a736a'],   // warm grey, unsaturated
   ['Youth',                          '#b88016'],   // the one warm note
-  ['Populations and Health Systems', '#8fb6d4'],   // tint of the blue
-  ['EQ-HWB',                         '#6fada1'],   // tint of the green
+  ['Populations and Health Systems', '#a7a096'],   // a lighter step of the grey
+  ['EQ-HWB',                         '#4f8f83'],   // a muted step of the green
 ]
 const groupInk = name => (GROUP_INK.find(g => g[0] === name) || [, '#b9beba'])[1]
 
@@ -1041,10 +1049,18 @@ export function createStoryCharts(data, root, coauthors = null, cites = null){
          per cent of a crossing. A chart's opacity is 1 minus that, so the
          instant the particles reach full strength the chart is gone — and they
          are sampled from it, so they are standing exactly where it was. The
-         swap is meant to be invisible; only the travelling should be seen. */
+         swap is meant to be invisible; only the travelling should be seen.
+
+         Only ONE of the two is ever eligible. The outgoing chart owns the first
+         half of the crossing and the incoming one owns the second. Before this
+         both were given the same opacity, so at the very start of a crossing
+         the fold you were leaving and the fold you were going to were drawn on
+         top of each other at full strength — which is why a reader could see
+         part of the next fold while still on the current one. */
       let opacity = 0
       if (from === to && id === from) opacity = 1
-      else if (id === from || id === to) opacity = Math.max(0, 1 - cross)
+      else if (id === from && progress < 0.5) opacity = Math.max(0, 1 - cross)
+      else if (id === to && progress >= 0.5) opacity = Math.max(0, 1 - cross)
       scene.style.opacity = opacity.toFixed(3)
       // Hit-testing follows what you can see. Without this a faded scene still
       // catches clicks aimed at whatever is behind it.

@@ -11,11 +11,22 @@ const ease = t => t * t * (3 - 2 * t)
 // Every fold comes apart into this, whatever size its own marks are drawn at.
 const PARTICLE_R = 1.5
 
-/* Most of the runway is hold, not transition. Give the change more room and a
-   settled scene exists at one scroll position only, which reads as broken. */
+/* How much scroll each fold is given.
+
+   A beat used to occupy one screen height, of which the crossing was under a
+   third — about 290px on a laptop. A single trackpad flick is 300 to 800px, so
+   one gesture could cross nearly three whole folds, and the dissolve it did
+   show was over before the eye caught it. That is the whole reason it read as
+   sped up: it was not the animation being quick, it was the reader covering
+   three folds in one push.
+
+   A beat is nearly twice a screen now and the crossing is most of the increase,
+   so a flick moves you about half a fold and the particles have room to travel.
+   The runway is longer for it, which is the trade: more scrolling, but each
+   fold is actually arrived at. */
 const storyTiming = () => window.innerWidth <= 640
-  ? { intro:1.45, hold:0.86, transition:0.34, handover:1 }
-  : { intro:1.35, hold:0.68, transition:0.32, handover:1 }
+  ? { intro:1.45, hold:1.05, transition:0.75, handover:1 }
+  : { intro:1.35, hold:1.00, transition:0.70, handover:1 }
 
 // Read once from the CSS tokens. Never state a colour below this line.
 const rgb = (css, name, fallback) => {
@@ -1516,7 +1527,9 @@ export function initStory(DATA, TOPO, root, options = {}){
       return
     }
     // Long enough that a settle plays the dissolve rather than skipping it.
-    const dur = Math.min(1800, 760 + Math.abs(dist) * 0.34)
+    // Slow enough that the crossing it carries the reader through is watched
+    // rather than skipped past.
+    const dur = Math.min(2400, 900 + Math.abs(dist) * 0.45)
     let t0 = 0
     const stop = () => { cancelAnimationFrame(tween); off() }
     const off = () => {
