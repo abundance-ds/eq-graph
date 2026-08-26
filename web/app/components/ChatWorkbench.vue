@@ -34,6 +34,12 @@ const props = withDefaults(defineProps<{
   turns: () => [],
 });
 
+function goLanding(event: MouseEvent) {
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+  event.preventDefault();
+  emit("back");
+}
+
 const emit = defineEmits<{
   send: [question: string];
   back: [];
@@ -273,7 +279,11 @@ onMounted(() => {
       <!-- The mark is pinned to the page, not carried inside the centred
            header, so it lands on the same pixel here as on the story and the
            About page. In the header it sat wherever that column began. -->
-      <a class="chat-logo" href="/" aria-label="EuroQol home">
+      <!-- `href="/"` reloaded the whole application to reach a screen that is
+           already mounted behind this one. Closing the view is the same
+           destination without the wait, and closing already goes to the top. -->
+      <a class="chat-logo" href="/" aria-label="EuroQol home"
+         @click="goLanding">
         <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
       </a>
 

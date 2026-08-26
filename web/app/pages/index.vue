@@ -80,9 +80,15 @@ onBeforeUnmount(() => setDocumentMode(false));
     />
   </main>
 
+  <!-- The mark stays in the corner it occupies on every other screen rather
+       than sitting in the middle of this one. Centred, it jumped to the corner
+       the moment the data arrived, which read as the page lurching — the exact
+       thing a loading screen is there to prevent. -->
   <main v-else class="load-state">
-    <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="210" height="34">
-    <p v-if="error">The interface reference data did not load. Restart the application and try again.</p>
-    <p v-else>Preparing EuroQol research…</p>
+    <NuxtLink to="/" class="load-logo" aria-label="EuroQol home">
+      <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
+    </NuxtLink>
+    <p v-if="error" class="load-error">The interface reference data did not load. Restart the application and try again.</p>
+    <BrandLoader v-else label="Gathering the research" />
   </main>
 </template>

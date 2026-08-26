@@ -70,15 +70,21 @@ body.is-chat-cockpit #__nuxt {
 }
 
 .load-state {
+  position: relative;
   min-height: 100vh;
   display: grid;
   place-content: center;
   justify-items: center;
-  gap: 1.25rem;
   padding: 2rem;
   text-align: center;
 }
-.load-state p { max-width: 32rem; color: #5c5c56; line-height: 1.6; }
+/* The same two values the story and the About page pin the mark to. Not the
+   page gutter, which is fluid, and so would put it somewhere else at every
+   width. */
+.load-logo { position: absolute; left: 3rem; top: 1.55rem; display: block; line-height: 0; }
+.load-logo img { height: 27px; width: auto; display: block; }
+@media (max-width: 900px) { .load-logo { left: 1.5rem; top: 1.2rem; } .load-logo img { height: 22px; } }
+.load-error { max-width: 32rem; color: #a23c2a; line-height: 1.6; }
 .xp-error { color: #a23c2a; font-size: 0.8rem; text-align: center; }
 
 @media (prefers-reduced-motion: reduce) {

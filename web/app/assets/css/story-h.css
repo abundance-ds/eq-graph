@@ -397,11 +397,32 @@
 
 /* The logo, top left, above the frame's top hairline — it carries the name
    now that the opening line does not. */
+/* The mark is the way home from every screen, so here it has to be clickable.
+   The positioning moves onto the link and the image inside it is left plain,
+   which keeps the mark on the same pixel it was on before. */
 .sh-logo{
-  position:absolute; left:var(--pad); top:1.55rem; z-index:7;
-  width:auto; height:27px; pointer-events:none;
+  /* Above the loading cover, with the menu. The mark and the menu are the
+     frame of the page and are true before the data arrives, so they stay put
+     through the wait rather than appearing once it ends. */
+  position:absolute; left:var(--pad); top:1.55rem; z-index:9;
+  display:block; line-height:0; pointer-events:auto;
+  border-radius:3px;
 }
-@media (max-width:900px){ .sh-logo{height:22px; top:1.2rem;} }
+.sh-logo img{ width:auto; height:27px; display:block; }
+.sh-logo:focus-visible{ outline:2px solid var(--teal,#007d6c); outline-offset:4px; }
+@media (max-width:900px){ .sh-logo{top:1.2rem;} .sh-logo img{height:22px;} }
+
+/* Covers the stage until the story has something on it. Without this the
+   reader met a bare frame with a mark and a menu on it while thirty thousand
+   lines of co-authorship data came down, which looks like a broken page
+   rather than a loading one. */
+.sh-loading{
+  position:fixed; inset:0; z-index:8;
+  display:grid; place-content:center;
+  background:var(--ground,#fcfcfb);
+  transition:opacity .45s ease;
+}
+.sh-loading.is-done{ opacity:0; pointer-events:none; }
 
 /* Sits under the mark, quiet. Skip owns the top right and this must not
    compete with it. */

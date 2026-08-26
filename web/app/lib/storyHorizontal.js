@@ -1678,6 +1678,24 @@ export function initStory(DATA, TOPO, root, options = {}){
 
   const api = {
     goToBeat,
+    /* Back to the opening screen, at once.
+
+       Not a tween. From the last fold the runway home is most of ten thousand
+       pixels, and at the story's reading speed that is a seventeen second
+       journey the reader did not ask for — they asked to be somewhere else.
+       Clearing `shownAt` is what makes it instant: the render adopts the new
+       position on the next frame instead of travelling to it. */
+    goHome(){
+      cancelSettle()
+      userDriving = false
+      gestureFrom = null
+      cancelAnimationFrame(tween)
+      clearTweenEvents()
+      window.scrollTo(0, 0)
+      shownAt = null
+      chatEntered = false
+      update()
+    },
     // Which fold is on screen, so the arrows can step from where the reader is
     // rather than from a count of their own clicks.
     currentBeat(){

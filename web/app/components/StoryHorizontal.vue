@@ -17,6 +17,11 @@ type CountryFacts = {
   family?: { short: string; has: boolean }[] | null;
 };
 const picked = ref<CountryFacts | null>(null);
+/* Two flags, not one. `ready` says the story exists; `settled` starts the fade
+   a frame later, so the cover is still opaque on the frame the canvas first
+   paints and the reader never sees a half-built stage through it. */
+const ready = ref(false);
+const settled = ref(false);
 let story: { destroy?: () => void; refresh?: () => void } | undefined;
 let disposed = false;
 
@@ -37,6 +42,16 @@ function step(delta: number) {
 
 /* Impact and Research explorer are views of this page, not other pages, so the
    nav asks us to switch rather than navigating away and losing the scroll. */
+/* The mark goes to the opening screen from wherever the reader is. It stays a
+   real link, so it opens in a new tab and reads as a link to a screen reader;
+   the handler only takes over when we can do it without a page load. */
+function goLanding(event: MouseEvent) {
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+  event.preventDefault();
+  const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
+  root?.__story?.goHome();
+}
+
 function goSection(to: "impact" | "explore") {
   if (to === "explore") { enterDirect("cta"); return; }
   const root = rootEl.value as (HTMLElement & { __story?: any }) | null;
@@ -108,6 +123,19 @@ onMounted(async () => {
       keyButton.setAttribute("aria-expanded", String(open));
     };
   }
+
+  settled.value = true;
+  // One frame for the fade to take, then the cover leaves the tree entirely so
+  // it can never sit over the story swallowing clicks.
+  setTimeout(() => { ready.value = true; }, 500);
+});
+
+/* If the globe never gets as far as mounting — no canvas, a failed fetch — the
+   cover would sit there for ever with a ring turning on it. Whatever happens,
+   it goes. */
+onMounted(() => {
+  setTimeout(() => { settled.value = true; }, 12000);
+  setTimeout(() => { ready.value = true; }, 12500);
 });
 
 watch(
@@ -156,13 +184,21 @@ onBeforeUnmount(() => {
     :inert="!active"
   >
     <div class="sh-scroll" data-scroll>
+      <!-- Sits inside the pinned stage so it covers the story and nothing else,
+           and fades rather than cutting, so the arrival is not its own jolt. -->
+      <div v-if="!ready" :class="['sh-loading', settled && 'is-done']">
+        <BrandLoader label="Gathering the research" />
+      </div>
+
       <div class="sh-stage" data-stage>
         <h1 class="sr-only">Shaping how the world measures health.</h1>
         <p class="sr-only">Explore EuroQol studies, instruments, methods, populations, findings, and research gaps.</p>
 
         <div class="sh-glow" data-glow aria-hidden="true"><i class="a" /><i class="b" /></div>
 
-        <img class="sh-logo" src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
+        <a class="sh-logo" href="/" aria-label="EuroQol home" @click="goLanding">
+          <img src="/brand/euroqol-logo.svg" alt="EuroQol" width="300" height="49">
+        </a>
 
         <SiteNav current="impact" :on-go="goSection" />
 
