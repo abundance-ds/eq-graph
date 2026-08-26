@@ -798,6 +798,7 @@ export function initStory(DATA, TOPO, root, options = {}){
      where it sits. */
 
   const ctaEl  = root.querySelector('[data-cta]')
+  const subEl  = root.querySelector('[data-sub]')
   const keyEl  = root.querySelector('[data-key]')
 
 
@@ -841,7 +842,11 @@ export function initStory(DATA, TOPO, root, options = {}){
     textSpots = dots.map((_, i) => cand[Math.min(cand.length - 1, (i * step) | 0)] || [W / 2, H / 2])
     // where the words actually finish, so the buttons can sit under them
     const bottom = H * 0.16 + lines.length * lh
-    if (ctaEl) ctaEl.style.top = Math.round(bottom + fs * 0.42) + 'px'
+    // The line under the headline, then the buttons under that. Both hang off
+    // where the type actually finished rather than a guessed percentage.
+    if (subEl) subEl.style.top = Math.round(bottom + fs * 0.30) + 'px'
+    const subH = subEl ? subEl.offsetHeight : 0
+    if (ctaEl) ctaEl.style.top = Math.round(bottom + fs * 0.30 + subH + fs * 0.34) + 'px'
     return { lines, lh, fs, pad, bottom, textW, img:off, font:o.font }
   }
   let textMeta = null
@@ -1378,7 +1383,12 @@ export function initStory(DATA, TOPO, root, options = {}){
     const gap = target - shownAt
     // Snap when close, or it creeps for ever and never settles.
     if (Math.abs(gap) < 0.6) shownAt = target
-    else shownAt += gap * 0.16
+    /* A gentler chase. At 0.16 the render caught up in about a fifth of a
+       second, so however slowly the reader scrolled, the dissolve itself was
+       always over in a blink — it looked sped up because it was. At 0.075 the
+       particles take roughly half a second to travel, which is the pace the
+       opening headline moves at. */
+    else shownAt += gap * 0.075
     // Never fall more than a screen behind, so a long fling still lands.
     if (Math.abs(target - shownAt) > vh) shownAt = target - Math.sign(gap) * vh
     const scrolled = shownAt
@@ -1397,6 +1407,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       // the buttons belong to the sentence, so they leave with it
       const ctaA = (t > 0.26 ? 0 : 1 - Math.max(0, (t - 0.04) / 0.22)).toFixed(3)
       if (ctaEl){ ctaEl.style.opacity = ctaA; ctaEl.style.pointerEvents = +ctaA > 0.5 ? '' : 'none' }
+      if (subEl) subEl.style.opacity = ctaA
       drawIntro(t)
       charts.show()
       track.style.transform = 'translate3d(0,0,0)'
@@ -1414,6 +1425,7 @@ export function initStory(DATA, TOPO, root, options = {}){
       if (instEl){ instEl.style.opacity = '0'; instEl.style.pointerEvents = 'none' }
       if (keyEl){ keyEl.style.opacity = '0'; keyEl.style.pointerEvents = 'none' }
       if (ctaEl){ ctaEl.style.opacity = '0'; ctaEl.style.pointerEvents = 'none' }
+      if (subEl) subEl.style.opacity = '0'
       track.style.opacity = '1'
       const state = beatState((scrolled - introLen) / vh, timing)
       draw(state.i0, state.i1, state.t)
@@ -1503,7 +1515,8 @@ export function initStory(DATA, TOPO, root, options = {}){
       update()
       return
     }
-    const dur = Math.min(1500, 480 + Math.abs(dist) * 0.28)
+    // Long enough that a settle plays the dissolve rather than skipping it.
+    const dur = Math.min(1800, 760 + Math.abs(dist) * 0.34)
     let t0 = 0
     const stop = () => { cancelAnimationFrame(tween); off() }
     const off = () => {

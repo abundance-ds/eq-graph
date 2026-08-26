@@ -229,6 +229,12 @@ onBeforeUnmount(() => {
         <div class="sh-field" aria-hidden="true"><canvas data-canvas /></div>
         <div class="sh-charts" data-charts aria-hidden="true" />
 
+        <!-- What this actually is. The headline is a claim about EuroQol; on
+             its own a reader has no idea what the page in front of them is
+             until they open About. One line, concrete, no verbs about
+             empowering or unlocking. -->
+        <p class="sh-sub" data-sub>EuroQol's funded research, read in full and open to your questions.</p>
+
         <div class="sh-cta" data-cta>
           <button class="sh-btn is-primary" data-go="chat">
             <i class="sh-ray" aria-hidden="true"><b /></i>

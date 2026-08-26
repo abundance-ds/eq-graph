@@ -366,11 +366,20 @@ const icon = name =>
    depth, few enough to tell apart without inventing a palette: the two brand
    colours carry the largest and the rest take neutral steps. */
 const GROUP_INK = [
-  ['Valuation',                      'var(--teal)'],
-  ['Descriptive Systems',            'var(--yellow)'],
-  ['Youth',                          '#5b8f86'],
-  ['Populations and Health Systems', '#9aa3a1'],
-  ['EQ-HWB',                         '#c2b48a'],
+  // Valuation carries the most papers at this depth, so it keeps the brand
+  // green. Youth was a muted teal and sat 96 units from it, close enough to
+  // read as the same colour, so it takes the ochre. Descriptive Systems takes
+  // a warm slate: a third hue would have to survive colourblindness against
+  // both, and a neutral separated by lightness does that more reliably.
+  //
+  // Checked rather than chosen by eye. Against the page: 5.9:1, 2.7:1 and
+  // 4.6:1. Simulated for deuteranopia, the closest pair is still 97 apart,
+  // where anything under about 60 reads as one colour.
+  ['Valuation',                      '#00705f'],
+  ['Youth',                          '#c8901f'],
+  ['Descriptive Systems',            '#7a736a'],
+  ['Populations and Health Systems', '#a7a096'],
+  ['EQ-HWB',                         '#5b8f86'],
 ]
 const groupInk = name => (GROUP_INK.find(g => g[0] === name) || [, '#b9beba'])[1]
 

@@ -255,6 +255,20 @@
    Primary is filled teal; secondary is an outline. On hover a single bright
    ray travels the edge — a conic gradient masked to the border ring, so it
    rides the corner radius instead of cutting across it. */
+/* Sits between the headline and the buttons, on the same left edge, at a
+   measure short enough to read in one go. Placed from JS like the buttons,
+   because the headline is drawn to canvas and its height is only known once
+   the type has been laid out. */
+.sh-sub{
+  position:absolute; z-index:5; left:var(--pad); top:50%;
+  margin:0; max-width:min(34rem, 42vw);
+  color:var(--ink-2);
+  font:400 var(--t-lead)/1.45 var(--font-body);
+  letter-spacing:-.006em;
+  transition:opacity .25s ease;
+}
+@media (max-width:900px){ .sh-sub{ max-width:min(30rem, 78vw); } }
+
 .sh-cta{
   position:absolute; z-index:5; left:var(--pad); top:58%;
   display:flex; gap:.7rem; flex-wrap:wrap;
