@@ -49,7 +49,14 @@ async function returnToStory() {
   setDocumentMode(false);
   history.replaceState(history.state, "", `${location.pathname}${location.search}`);
   await nextTick();
-  storyComponent.value?.restoreAt(storyReturnY.value);
+  /* Closing goes home, not back to where you came in.
+
+     It used to restore the scroll position captured on entry, so arriving from
+     the end of the story dropped the reader straight back into the last fold —
+     and if that landed inside the handover zone, the chat opened again. Close
+     is a way out of the explorer, so it goes to the top, which is the one place
+     that is the same wherever you entered from. */
+  storyComponent.value?.restoreAt(0);
 }
 
 onMounted(() => {
