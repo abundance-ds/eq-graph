@@ -1399,6 +1399,56 @@ export function initStory(DATA, TOPO, root, options = {}){
     // Land inside the hold, with the chart and copy fully settled.
     scrollTo(storyYForBeat(i))
   }
+
+  /* Settle on a fold, never between two.
+
+     A transition is about a third of a screen, so a slow scroll can stop
+     halfway through one and leave the reader looking at a cloud with no
+     sentence attached, and a hard flick can cross a whole fold without ever
+     resting on it. Both are the same fault: the story was letting the scroll
+     position be final when it is really a request.
+
+     So when the wheel stops, the nearest fold pulls the page onto itself. From
+     inside a transition it goes to whichever side is closer, which means a
+     small push forward advances and a small push back returns. From a fling it
+     lands on wherever it ended up, settled, rather than mid-air.
+
+     It only ever moves within the story. Above the first fold the opening is
+     still running, and past the last one the chat is taking over, and neither
+     wants a hand on the wheel. */
+  let settleTimer = 0
+  let userDriving = false
+  function cancelSettle(){ clearTimeout(settleTimer); settleTimer = 0 }
+
+  function scheduleSettle(){
+    cancelSettle()
+    settleTimer = setTimeout(() => {
+      if (!userDriving) return
+      userDriving = false
+      const vh = window.innerHeight
+      const r = scroller.getBoundingClientRect()
+      const timing = storyTiming()
+      const past = -r.top - timing.intro * vh
+      const span = (timing.hold + timing.transition) * vh
+      if (past < 0) return                       // still in the opening
+      const at = past / span
+      const last = BEATS.length - 1
+      if (at > last + 0.6) return                // handing over to the chat
+      const beat = Math.max(0, Math.min(last, Math.round(at)))
+      const target = storyYForBeat(beat)
+      // Already settled: leave it alone rather than nudging by a few pixels.
+      if (Math.abs(target - window.scrollY) < vh * 0.06) return
+      scrollTo(target)
+    }, 180)
+  }
+
+  // A pointer or a key means the reader is steering; a scroll on its own may
+  // just be our own tween finishing, which must not re-trigger a settle.
+  const markDriving = () => { userDriving = true; scheduleSettle() }
+  window.addEventListener('wheel', markDriving, { passive:true })
+  window.addEventListener('touchmove', markDriving, { passive:true })
+  const onSteerKey = ev => { if (/^(Arrow|Page|Home|End| )/.test(ev.key)) markDriving() }
+  window.addEventListener('keydown', onSteerKey)
   function scrollTo(target){
     cancelAnimationFrame(tween)
     clearTweenEvents()
@@ -1461,6 +1511,10 @@ export function initStory(DATA, TOPO, root, options = {}){
       cancelAnimationFrame(tween)
       clearTweenEvents()
       cancelAnimationFrame(sizeRetry)
+      cancelSettle()
+      window.removeEventListener('wheel', markDriving)
+      window.removeEventListener('touchmove', markDriving)
+      window.removeEventListener('keydown', onSteerKey)
       clearTimeout(rz)
       charts.destroy()
       window.removeEventListener('scroll', onScroll)

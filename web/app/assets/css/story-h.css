@@ -129,14 +129,6 @@
 .sh-grid span{border-left:1px solid var(--rule-soft);}
 .sh-grid span:last-child{border-right:1px solid var(--rule-soft);}
 
-/* the frame — two hairlines and nothing else */
-.sh-frame{position:absolute; inset:0; z-index:6; pointer-events:none;}
-.sh-frame > *{position:absolute;}
-.sh-frame .tl{top:1.9rem; left:var(--pad);}
-.sh-frame .tr{top:1.9rem; right:var(--pad); color:var(--ink-2);}
-.sh-frame .bl{bottom:1.9rem; left:var(--pad);}
-.sh-frame .rule-t{top:3.6rem; left:var(--pad); right:var(--pad); height:1px; background:var(--rule);}
-.sh-frame .rule-b{bottom:3.6rem; left:var(--pad); right:var(--pad); height:1px; background:var(--rule);}
 
 /* ── the track ────────────────────────────────────────────────────── */
 /* The track covers the stage at z-index 4, above the globe. Without this it
