@@ -1,0 +1,24 @@
+{
+  "project_id": "1930-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1930,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Investigating alternative methods for linking bolt-on and base instrument value sets",
+  "pi_name_raw": "Michał Jakubczyk",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 114820,
+  "status": "Ongoing",
+  "start_year": 2024,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 470,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

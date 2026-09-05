@@ -1,0 +1,920 @@
+{
+  "record_id": "Pac4f1e0ea5c5",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "EXPLICIT_SUPPORT",
+    "project_ids": [],
+    "reason": "The paper reports EuroQol Group support for travel and accommodation to present and discuss this task force work at EuroQol Academy and other EuroQol meetings, so EuroQol supported work reported in the paper; no direct link to the candidate PhD project beyond co-authorship.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "Pac4f1e0ea5c5",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "The EuroQol Group funded travel and accommodation for task force members to present and discuss this SHEER project at EuroQol meetings (lead author Edward Henry at a EuroQol Academy Meeting; Andrew Lloyd at a meeting in Milan, 2023; Becky Pennington at a plenary meeting), and the work was discussed at the 7th EuroQol Academy 2023. Core funding came from a University of Galway Hardiman Scholarship and the Irish Research Council.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "The paper reports EuroQol Group support for travel and accommodation to present and discuss this task force work at EuroQol Academy and other EuroQol meetings, so EuroQol supported work reported in the paper; no direct link to the candidate PhD project beyond co-authorship.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "SHEER task force consensus development of guidance on family and caregiver health spillovers in economic evaluation",
+        "primary_research_family": "METHODS_RESEARCH",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The study develops methodological guidance for incorporating family and caregiver health spillovers into cost-effectiveness and cost-utility analysis via an expert consensus process, rather than collecting clinical or valuation data.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "METHOD_OR_PROTOCOL_QUALITY",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "CONCEPTUAL_FRAMEWORK_DEVELOPMENT",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "CONCEPTUAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "NONCOMPARATIVE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "LONGITUDINAL_REPEATED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Subject-matter experts in family and caregiver health spillovers and economic evaluation",
+        "role": "Consensus panel members (SHEER task force)",
+        "geographies": [
+          "Ireland",
+          "United Kingdom",
+          "The Netherlands",
+          "Australia",
+          "United States",
+          "Canada",
+          "Spain",
+          "Thailand",
+          "South Africa"
+        ],
+        "conditions": [],
+        "age_description": null,
+        "inclusion_description": "Purposively sampled on the basis of a track record of peer-reviewed publication or presentation on family and caregiver health spillovers and/or applied economic evaluation in areas such as social care, dementia and paediatrics, and/or involvement in the development or application of guidelines for applied economic evaluations; drawn from academia, regulatory agencies and health technology assessment bodies, and the life sciences industry.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Patient and caregiver representatives",
+        "role": "Internal reviewers providing lived-experience perspectives on the draft recommendations",
+        "geographies": [
+          "Ireland"
+        ],
+        "conditions": [],
+        "age_description": null,
+        "inclusion_description": "Identified and recruited through charitable organisations, caregiver advocacy groups, the Irish Health Service Executive and the PPI Ignite Network.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SAM1",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "COMPLETED",
+        "size": 17,
+        "size_text": "17 members; all 17 completed both rounds of voting",
+        "unit": "experts",
+        "description": "Full SHEER task force membership convened in May 2022.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SAM2",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP2",
+        "stage": "ANALYZED",
+        "size": 4,
+        "size_text": "four named patient and caregiver contributors",
+        "unit": "representatives",
+        "description": "Contributors who attended an online meeting to discuss the recommendations during internal review.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Anonymous ratings of appropriateness of proposed emerging good practice recommendations and priority of future research recommendations, over two voting rounds, with free-text comments",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Task force member votes and comments"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU2",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "DOCUMENTARY_SOURCE",
+        "level": "DOCUMENT",
+        "purpose": "Informal evidence review per agenda item, led by section leads, circulated before forum meetings to inform idea generation and the supporting text",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Published literature on family and caregiver health spillovers"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU3",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "QUALITATIVE_MATERIAL",
+        "purpose": "Discussion content from forum-style video meetings, an online discussion board, and the patient/caregiver review meeting, used to generate and refine recommendations",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Task force discussion and stakeholder feedback"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PARTICIPATORY_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Modified nominal group technique",
+        "registry_id": "method:modified-nominal-group-technique"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "SAMPLING",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Purposive sampling",
+        "registry_id": "method:purposive-sampling"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EVIDENCE_IDENTIFICATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Informal evidence review",
+        "registry_id": "method:informal-evidence-review"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Descriptive statistics",
+        "registry_id": "method:descriptive-statistics"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Qualtrics",
+        "registry_id": "software:qualtrics"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Microsoft Excel",
+        "registry_id": "software:microsoft-excel"
+      },
+      {
+        "type": "ProtocolUse",
+        "id": "PU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REPORTING_GUIDELINE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Consolidated Health Economic Evaluation Reporting Standards 2022",
+        "registry_id": "protocol:consolidated-health-economic-evaluation-reporting-standards-2022"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "EQ-5D",
+        "registry_id": "instrument:eq-5d"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "CarerQol",
+        "registry_id": "instrument:carerqol"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "source_label": "Carer Experience Scale",
+        "registry_id": "instrument:carer-experience-scale"
+      },
+      {
+        "type": "Administration",
+        "id": "ADM1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "MU1"
+        ],
+        "respondent": "Task force members (self-report)",
+        "perspective": "Own expert judgement of appropriateness and research priority",
+        "completion": "Self-completed online survey",
+        "assistance": null,
+        "channel": "Online survey platform",
+        "setting": "Remote, following forum-style video conference meetings",
+        "instrument_language": "English",
+        "interview_language": null,
+        "recall_period": null,
+        "time_point": "Round 1 after the item-generating forum meetings; round 2 immediately after the corroborative forum meeting",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "StakeholderInvolvement",
+        "id": "SI1",
+        "study_id": "S1",
+        "part_id": null,
+        "group": "Patients and family caregivers",
+        "activity": "Attended an online meeting to review and discuss the draft consensus recommendations during internal review",
+        "stage": "Internal review, after the consensus recommendations were formed",
+        "role": "Reviewer and lived-experience contributor",
+        "influence": "Feedback and comments were incorporated into the report text before submission; contributors broadly endorsed inclusion of spillovers and highlighted the importance of a sufficient time horizon and of additive summation",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "StakeholderInvolvement",
+        "id": "SI2",
+        "study_id": "S1",
+        "part_id": null,
+        "group": "Health technology assessment bodies, regulatory agencies and the life sciences industry",
+        "activity": "Participation as task force members in agenda setting, discussion and voting",
+        "stage": "Throughout the consensus process",
+        "role": "Consensus panel member",
+        "influence": "Votes counted equally toward the 70% consensus threshold",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OUT1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "CONCEPTUAL_CLASSIFICATION",
+        "label": "Consensus endorsement of emerging good practice recommendations for incorporating family and caregiver health spillovers",
+        "instrument_use_ids": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OUT2",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "CONCEPTUAL_CLASSIFICATION",
+        "label": "Priority ranking of proposed future research avenues",
+        "instrument_use_ids": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Product",
+        "id": "PROD1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "SHEER consensus recommendations for emerging good practice on incorporating family and caregiver health spillovers in cost-effectiveness and cost-utility analysis",
+        "product_type": "IMPLEMENTATION_GUIDANCE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Product",
+        "id": "PROD2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "SHEER spillover research agenda (12 prioritised future research recommendations)",
+        "product_type": "TAXONOMY_OR_FRAMEWORK",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "ProductStateAssertion",
+        "id": "PSA1",
+        "study_id": "S1",
+        "part_id": null,
+        "product_id": "PROD1",
+        "axis": "DEVELOPMENT",
+        "exact_state": "Initial guidelines for emerging good practice, to be viewed as an initial roadmap rather than a strict checklist",
+        "assertion_date": "2023",
+        "asserted_by": "SHEER task force",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Impacts of an individual's illness or its treatment on the health-related quality of life of family members and caregivers, defined by the task force as the focus of the guidance.",
+        "about": [
+          "S1",
+          "PROD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "label": "Family and caregiver health spillovers"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Quality-adjusted life-years gained or lost by caregivers and family members, recommended to be reported separately from patient QALYs and then aggregated by additive summation.",
+        "about": [
+          "S1",
+          "PROD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "label": "Carer QALYs"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Risk that spillover effects are captured twice, at the measurement or valuation stage, or through the monetary value of informal care time.",
+        "about": [
+          "S1",
+          "PROD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "label": "Double counting of spillover effects"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Whether family and caregiver outcomes should be weighted differently from patient outcomes, and the distributional impacts of including or omitting spillovers, for example for socially isolated patients.",
+        "about": [
+          "S1",
+          "PROD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "label": "Equity weighting and distributional consequences"
+      },
+      {
+        "type": "Concept",
+        "id": "C5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Health spillovers attached to interventions displaced when a new intervention is funded from a fixed budget.",
+        "about": [
+          "S1",
+          "PROD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ],
+        "label": "Opportunity cost and displaced or foregone health"
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The task force reached consensus on 11 recommendations for emerging good practice and on 12 prioritised future research recommendations, from 14 good practice and 11 future research items put to the first-round vote.",
+        "about": [
+          "OUT1",
+          "OUT2",
+          "PROD1",
+          "PROD2"
+        ],
+        "values": [
+          {
+            "reported_value": "11",
+            "unit": "consensus emerging good practice recommendations",
+            "denominator": "14 proposed good practice recommendations voted on in round one",
+            "time": "After two voting rounds",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "12",
+            "unit": "future research recommendations",
+            "denominator": null,
+            "time": "Final report",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "17",
+            "unit": "members completing both voting rounds",
+            "denominator": "17 task force members",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "SHEER recommends that family and caregiver health spillovers be included in economic evaluations conducted from a healthcare/health payer perspective as well as from more inclusive societal or public sector perspectives.",
+        "about": [
+          "PROD1",
+          "C1"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The recommended aggregation procedure is stepwise: estimate spillovers among specified caregivers and family members or for the closest and second closest network members; report patient and caregiver/family QALY gains and losses separately; aggregate spillovers with patient effects by additive summation; and supplement the reference case with sensitivity analysis using wider or narrower networks.",
+        "about": [
+          "PROD1",
+          "C2"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Equal weighting should be applied to patient and family/caregiver health impacts unless empirical evidence shows that the decision maker or society values them differently in the context under investigation.",
+        "about": [
+          "PROD1",
+          "C4"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Collection of primary spillover data is currently preferred, with clear justification required when secondary data are used; the evidence review found trial-based evaluations more often used primary data while models relied on secondary data.",
+        "about": [
+          "PROD1",
+          "DU2"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Outcome measurement should follow the jurisdiction's health technology assessment guidelines unless another method is empirically shown to be more appropriate, should ideally use the same measure for patients and spillover recipients when outcomes are to be aggregated, and should otherwise consider cost-consequence analysis.",
+        "about": [
+          "PROD1",
+          "IU1"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F7",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Consensus was not reached on two proposed recommendations: using empirical exchange rates to convert care-related quality of life measures such as the Carer Experience Scale or CarerQol into health-related quality of life outcomes such as EQ-5D, and presenting spillover and patient effects as a multiplier applied to the incremental cost-effectiveness ratio; no proposed recommendation was judged inappropriate.",
+        "about": [
+          "OUT1",
+          "IU2",
+          "IU3"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F8",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The highest priority future research avenues were exploring the distributional consequences of spillovers, adopting longitudinal study designs, and examining joint patient-caregiver utility elicitation methods; the lowest ranked were reporting bias and elicitation of social value weights.",
+        "about": [
+          "OUT2",
+          "PROD2"
+        ],
+        "values": [
+          {
+            "reported_value": "94%",
+            "unit": "members rating as high priority",
+            "denominator": "17 members",
+            "time": "Second-round vote",
+            "subgroup": "Distributional consequences (rank 1)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "76%",
+            "unit": "members rating as high priority",
+            "denominator": "17 members",
+            "time": "Second-round vote",
+            "subgroup": "Longitudinal study designs (rank 2)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "76%",
+            "unit": "members rating as high priority",
+            "denominator": "17 members",
+            "time": "Second-round vote",
+            "subgroup": "Joint utility elicitation methods (rank 2)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "35%",
+            "unit": "members rating as high priority",
+            "denominator": "17 members",
+            "time": "Second-round vote",
+            "subgroup": "Development of novel generic preference-based measures for spillovers (rank 10)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "29%",
+            "unit": "members rating as high priority",
+            "denominator": "17 members",
+            "time": "Second-round vote",
+            "subgroup": "Social value weight estimation (rank 11)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "24%",
+            "unit": "members rating as high priority",
+            "denominator": "17 members",
+            "time": "Second-round vote",
+            "subgroup": "Reporting bias (rank 12)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F9",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Analysts should consider and discuss the risk of double counting given the measurement technique used, flagging it as a source of uncertainty or bias, and should characterise and present uncertainty around spillover estimates, preferably by applying probability distributions to model parameters such as caregiver utility within probabilistic sensitivity analysis.",
+        "about": [
+          "PROD1",
+          "C3"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F10",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Patient and caregiver contributors favoured inclusion of health spillovers in economic evaluations and particularly endorsed a time horizon long enough to capture impacts occurring remote to the caregiving experience, and additive summation across the family network.",
+        "about": [
+          "POP2",
+          "SI1"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "INT1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The recommendations are intended as an initial roadmap rather than a strict checklist, to motivate wider incorporation of health spillovers and to stimulate public discussion and innovation while the evidence base develops.",
+        "finding_ids": [
+          "F1",
+          "F2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "INT2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Globally standardised methods of incorporation are neither realistic nor desirable; balance is needed between consistency where valuable for decision making and variation reflecting different decision maker perspectives, with transparent reporting of assumptions, data sources and methods being the essential common element.",
+        "finding_ids": [
+          "F9",
+          "F1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "INT3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "A theme of principle versus practicability pervaded the discussions, since ideal practice is often infeasible under data constraints; adding an item to the CHEERS 2022 checklist could formalise disclosure of barriers to spillover incorporation.",
+        "finding_ids": [
+          "F5",
+          "F9"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "INT4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "A registry or tariff of spillover utilities and disutilities was discussed as a way to support incorporation where prospective data cannot be collected and to help establish an average spillover for displaced activity.",
+        "finding_ids": [
+          "F5",
+          "F8"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The guidance represents the consensus view of a purposively sampled group of subject-matter experts, and acceptance of invitations may have produced a group sharing the view that inclusion of spillovers is important.",
+        "about": [
+          "POP1",
+          "MU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "No members from Latin America participated, so practices and implications of spillover incorporation in that and other regions remain poorly understood.",
+        "about": [
+          "POP1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The scope was restricted to spillovers on family member and caregiver health-related quality of life from a healthcare system or health payer perspective, so impacts on others, wider welfare effects and interactions with broadly incurred costs were not fully examined.",
+        "about": [
+          "S1",
+          "PROD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The task force did not differentiate first-order from second-order spillovers, and gave limited consideration to cascade effects from shared genetic information.",
+        "about": [
+          "C1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Consultation with patients and caregivers was restricted to the later stages of the process, which may have limited the potential for their input to shape discussions.",
+        "about": [
+          "SI1",
+          "POP2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      },
+      {
+        "type": "Gap",
+        "id": "G1",
+        "study_id": "S1",
+        "part_id": null,
+        "state": "NOT_REPORTED",
+        "affected_item_id": "SAM1",
+        "affected_type": "Sample",
+        "affected_key": "demographics",
+        "evidence": "The report identifies members by affiliation and region but reports no demographic characteristics of the task force membership.",
+        "importance": "Limits assessment of the diversity of the consensus panel beyond jurisdiction and work environment.",
+        "proposed_resolution": "Consult Appendix A of the electronic supplementary material for the full membership listing.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pac4f1e0ea5c5.md"
+        ]
+      }
+    ]
+  }
+}

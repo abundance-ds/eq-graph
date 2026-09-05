@@ -1,0 +1,4 @@
+source	source_id	reason
+openalex	W35752534	OpenAlex assigned DOI 10.1016/j.jval.2022.05.013 to an unrelated 1980 microwave paper; PubMed, the publisher record, and OpenAlex W4283312536 identify the DOI as the 2022 EQ-5D-Y review.
+openalex	W34841471	OpenAlex assigned DOI 10.1007/s40273-021-01101-x to an unrelated 1996 climate-policy paper; the DOI belongs to the 2021 Uganda EQ-5D-5L value-set paper.
+openalex	W2242583878	OpenAlex assigned DOI 10.1007/s11136-017-1753-8 to an unrelated 1992 engineering paper; the DOI belongs to the 2017 EQ-5D-Y longitudinal study.

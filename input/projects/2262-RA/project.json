@@ -1,0 +1,24 @@
+{
+  "project_id": "2262-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2262,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Comprehensive Impact Assessment of EuroQol Research Foundation",
+  "pi_name_raw": "Elly Stolk",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 79758,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 204,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

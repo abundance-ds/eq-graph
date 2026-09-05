@@ -1,0 +1,24 @@
+{
+  "project_id": "1606-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1606,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Examining whether the covid-19 pandemic has affected the Danish general population’s preferences for health",
+  "pi_name_raw": "Cathrine Elgaard Jensen",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 47789,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 841,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

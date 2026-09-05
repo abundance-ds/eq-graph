@@ -1,0 +1,25 @@
+{
+  "project_id": "1877-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1877,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Is the EQ-VT TTO Protocol Suitable for Use in 16- and 17-Year-Old Adolescents?",
+  "pi_name_raw": "Philip Powell",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 60240,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 187,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

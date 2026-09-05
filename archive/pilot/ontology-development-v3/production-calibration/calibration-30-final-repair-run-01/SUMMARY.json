@@ -1,0 +1,57 @@
+{
+  "run": "calibration-30-final-repair-run-01",
+  "model": "gpt-5.6-sol",
+  "workers": 2,
+  "manifest": "calibration-30-final-repair-01/MANIFEST.tsv",
+  "manifest_sha256": "1787415af048855f575efa20765dd66bb8042f2b8c61f92f5afe46660714fe4f",
+  "records": 2,
+  "successful": 2,
+  "failed": 0,
+  "elapsed_agent_seconds": 75.453,
+  "usage": {
+    "input_tokens": 43651,
+    "cached_input_tokens": 7680,
+    "output_tokens": 3331,
+    "reasoning_output_tokens": 480
+  },
+  "results": [
+    {
+      "status": "ok",
+      "record_id": "B09",
+      "model": "gpt-5.6-sol",
+      "returncode": 0,
+      "started_unix": 1786995228.9546611,
+      "finished_unix": 1786995285.048042,
+      "elapsed_seconds": 56.093,
+      "input_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-01/inputs/B09.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-run-01/records/B09.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-run-01/traces/B09.jsonl",
+      "usage": {
+        "input_tokens": 25619,
+        "cached_input_tokens": 3840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2842,
+        "reasoning_output_tokens": 251
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "B17",
+      "model": "gpt-5.6-sol",
+      "returncode": 0,
+      "started_unix": 1786995228.9547122,
+      "finished_unix": 1786995248.315105,
+      "elapsed_seconds": 19.36,
+      "input_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-01/inputs/B17.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-run-01/records/B17.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/calibration-30-final-repair-run-01/traces/B17.jsonl",
+      "usage": {
+        "input_tokens": 18032,
+        "cached_input_tokens": 3840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 489,
+        "reasoning_output_tokens": 229
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "project_id": "82-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 82,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Valuing health in children: an examination of age, perspective and methodological effects (REVISED)",
+  "pi_name_raw": "Koonal Shah",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 126330,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 676,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

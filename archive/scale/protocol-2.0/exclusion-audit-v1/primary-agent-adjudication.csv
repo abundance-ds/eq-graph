@@ -1,0 +1,7 @@
+record_id,audit_outcome,final_outcome,final_code,rationale
+P20b4604aa789,retain,exclude,E1,"The dashboard is a clinical intervention. PROM scores are collected outcomes; the study does not develop or evaluate a health measure."
+Pffe3eca4dc88,retain,exclude,E4,"The paper gives stated-choice survey guidance for patient-preference research. It does not study health-state valuation or a health measure."
+Pc104991b8d09,retain,exclude,E4,"A core outcome set specifies which clinical research outcomes to report. This study assesses adoption and feasibility, not an instrument, measurement method, or valuation method."
+Pbef6e623447a,retain,exclude,E4,"The report evaluates surrogate clinical endpoints for HTA with statistical methods. It does not develop or evaluate a health measure or valuation method."
+Pe8a33f1b5e19,retain,exclude,E1,"The trial tests whether access to QOL data improves clinical outcomes. It does not develop or evaluate the QOL measure."
+P844a23f9b837,retain,exclude,E4,"The review studies presentation and comprehension of PROM results. It does not develop or evaluate a PROM or health-state valuation method."

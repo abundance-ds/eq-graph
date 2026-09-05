@@ -1,0 +1,24 @@
+{
+  "project_id": "1483-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1483,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Scientific international exchange project in the context of the EQ-sponsored PhD project (PHD-287) on inequality research with orthopedic registry data.",
+  "pi_name_raw": "Joshua Bonsel",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 5750,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 320,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

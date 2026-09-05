@@ -1,0 +1,14 @@
+Read:
+
+- pilot/ontology-development-v4/aggregate-validity-v5/TASK.md
+- pilot/ontology-development-v3/questions.tsv
+- pilot/ontology-development-v4/aggregate-validity-v5/REVIEW_C.json
+- docs/APP_DATA_ADAPTER.md
+- web/server/utils/schema.ts
+
+Recheck Q16, Q17, Q18, Q20, Q21, Q22, Q24, Q26, Q27, Q28, Q32, Q38,
+Q44, Q47, Q62, Q89, and Q98. For each template, select one real supported
+example from the database. Test the query pattern. Do not use `NOT TESTABLE`
+only because the question contains a placeholder or omits a parameter. Keep
+`NOT TESTABLE` only when the required evidence or operation is absent after a
+real example is supplied. Return the listed IDs in the listed order.

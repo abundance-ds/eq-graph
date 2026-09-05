@@ -1,0 +1,24 @@
+{
+  "project_id": "2012030",
+  "id_scheme": "year-number",
+  "sequence_number": null,
+  "call_year": null,
+  "grant_type_code": null,
+  "grant_type": null,
+  "revision": null,
+  "title": "EQ-5D-5L valuation study in Hong Kong",
+  "pi_name_raw": "Carlos Wong",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 0,
+  "status": "Completed",
+  "start_year": 2012,
+  "end_year": null,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 711,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

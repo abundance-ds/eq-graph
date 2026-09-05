@@ -1,0 +1,24 @@
+{
+  "project_id": "20170401",
+  "id_scheme": "year-number",
+  "sequence_number": null,
+  "call_year": null,
+  "grant_type_code": null,
+  "grant_type": null,
+  "revision": null,
+  "title": "Deriving EQ-5D-5L preference weights for Denmark - request for budget extension",
+  "pi_name_raw": "Lars Ehlers",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 40946,
+  "status": "Completed",
+  "start_year": 2018,
+  "end_year": 2020,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 866,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

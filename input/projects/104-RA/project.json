@@ -1,0 +1,25 @@
+{
+  "project_id": "104-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 104,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Using TTO data to anchor DCE data and produce EQ-5D-Y value sets: comparing alternative approaches using existing and simulated data",
+  "pi_name_raw": "David Mott",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 24860,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2020,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 673,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

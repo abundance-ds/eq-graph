@@ -1,0 +1,24 @@
+{
+  "project_id": "20200030",
+  "id_scheme": "year-number",
+  "sequence_number": null,
+  "call_year": null,
+  "grant_type_code": null,
+  "grant_type": null,
+  "revision": null,
+  "title": "travel scholarship Lucky Ngwira",
+  "pi_name_raw": "Lucky Ngwira",
+  "working_groups": [
+    "Others"
+  ],
+  "approved_budget_eur": 14700,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": null,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 261,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

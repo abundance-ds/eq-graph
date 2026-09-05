@@ -1,0 +1,24 @@
+{
+  "project_id": "206-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 206,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Estimating an EQ-5D-Y-3L value set in the United Kingdom",
+  "pi_name_raw": "Oliver Rivero-Arias",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 360500,
+  "status": "Ongoing",
+  "start_year": 2023,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 584,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

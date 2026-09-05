@@ -1,0 +1,25 @@
+{
+  "project_id": "1694-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1694,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Better understanding of the transition between Y and adult instruments: taking both measurement and valuation differences into account",
+  "pi_name_raw": "Bram Roudijk",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 33640,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 367,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

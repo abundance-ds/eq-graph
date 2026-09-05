@@ -1,0 +1,25 @@
+{
+  "project_id": "1859-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1859,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Travel Grant to visit the University of Sheffield for Qualitative analysis of EQ-TIPS qualitative data on content validity.",
+  "pi_name_raw": "Janine Verstraete",
+  "working_groups": [
+    "Youth",
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 8867,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 426,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

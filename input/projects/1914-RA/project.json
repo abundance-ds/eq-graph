@@ -1,0 +1,24 @@
+{
+  "project_id": "1914-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1914,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Evaluating the psychometric properties of bolt-ons in breast cancer patients",
+  "pi_name_raw": "Fredrick Dermawan Purba",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 24910,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 479,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

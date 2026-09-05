@@ -1,0 +1,25 @@
+{
+  "project_id": "20200010",
+  "id_scheme": "year-number",
+  "sequence_number": null,
+  "call_year": null,
+  "grant_type_code": null,
+  "grant_type": null,
+  "revision": null,
+  "title": "Describing the Worse than Dead in Youth Valuation",
+  "pi_name_raw": "Titi Fitriana",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 13366,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 221,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

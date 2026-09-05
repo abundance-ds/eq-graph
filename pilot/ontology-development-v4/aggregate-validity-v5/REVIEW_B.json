@@ -1,0 +1,362 @@
+{
+  "evaluations": [
+    {
+      "id": "Q51",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The data contains 15 EQ-TIPS papers from 2023 to 2026: 10 measurement evaluations, three methods studies, one framework study, and one instrument-development study.",
+      "cause": "Titles, instrument uses, study families, findings, and publication dates support a coherent summary."
+    },
+    {
+      "id": "Q52",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Five EQ-HWB adaptation papers cover Argentinian Spanish, Simplified Chinese, Italian, German, and English or multinational development work.",
+      "cause": "Translation purpose, publication, and administration-language data identify the adaptations."
+    },
+    {
+      "id": "Q53",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A ten-paper ranking is available; the 2012 EQ-5D-5L interim-scoring paper ranks first with 2,231 OpenAlex citations.",
+      "cause": "Valuation purposes and dated OpenAlex citation counts support the ranking."
+    },
+    {
+      "id": "Q54",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A crosswalk predicts scores between systems; a native value set directly values states in its target system. The 2012 interim-scoring paper and the 2017 England and China value-set papers are key examples.",
+      "cause": "Separate mapping purposes and value-set study families prevent the two products from being merged."
+    },
+    {
+      "id": "Q55",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "A reliable institution ranking is not available.",
+      "cause": "Affiliations are unnormalized author source text, and projects have no host-institution relation."
+    },
+    {
+      "id": "Q56",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Student-grant candidates and their principal investigators can be listed, but supervisors and host institutions cannot be identified safely.",
+      "cause": "The data has only a principal-investigator project role and no supervisor or project-institution relation."
+    },
+    {
+      "id": "Q57",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "cTTO appears most often in funded valuation-related work, followed by DCE, descriptive statistics, quota sampling, and lead-time TTO.",
+      "cause": "Accepted project-output links, valuation purposes, and canonical current-study methods support the counts."
+    },
+    {
+      "id": "Q58",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The data contains 66 EQ-5D-Y-5L papers, led by 39 measurement evaluations and 11 methods studies.",
+      "cause": "Publication, study-family, and instrument-use data support a dated research summary."
+    },
+    {
+      "id": "Q59",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The open-access introductory set includes the 2021 domain-identification paper and the 2022 patient and public involvement paper.",
+      "cause": "Titles, development purposes, and open-access flags support the selection."
+    },
+    {
+      "id": "Q60",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "From 2024 through 2026, measurement-property evaluation shows the largest increase, followed by content-validity evaluation and instrument development.",
+      "cause": "Controlled research purposes and publication years support a three-year comparison."
+    },
+    {
+      "id": "Q61",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A corpus timeline can show first appearances of EQ-5D-3L in 2005, EQ-5D-5L and EQ-5D-Y in 2010, and later instrument variants and products.",
+      "cause": "Dated publications, canonical instrument identities, research products, and product states support milestones."
+    },
+    {
+      "id": "Q62",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No institution was supplied.",
+      "cause": "The placeholder “institution X” must be replaced with a name."
+    },
+    {
+      "id": "Q63",
+      "verdict": "PASS",
+      "defect_class": "UNSAFE",
+      "result": "The data can list observed native EQ-5D-5L value sets, but it cannot safely identify every country that lacks one.",
+      "cause": "Missing corpus evidence is not evidence that a national value set does not exist."
+    },
+    {
+      "id": "Q64",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The leading systematic review is “Psychometric properties of the EQ-5D-5L,” with 940 OpenAlex citations; the 3L-versus-5L review follows with 375.",
+      "cause": "Review metadata, titles, and dated citation counts support the ranking."
+    },
+    {
+      "id": "Q65",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Youth-instrument papers appear most often in Value in Health, Pharmacoeconomics, Quality of Life Research, and Health and Quality of Life Outcomes.",
+      "cause": "Current youth-instrument uses and publication journals support the counts."
+    },
+    {
+      "id": "Q66",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "A title-and-ID screen finds 32 possible student projects, of which 11 have linked publications and 249 extracted findings.",
+      "cause": "Student-grant status is not a controlled project type, so the candidate set depends on text rules."
+    },
+    {
+      "id": "Q67",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A bounded starter list can combine highly cited valuation-method papers, major protocols, value-set studies, and recent evidence syntheses.",
+      "cause": "Study purpose, study family, publication date, open access, and citation data support transparent selection rules."
+    },
+    {
+      "id": "Q68",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Of 208 EQ-5D methods papers, 39, or 18.8%, name EuroQol in the funding statement.",
+      "cause": "The measure uses explicit funding-statement text and does not substitute broader support or project-link evidence."
+    },
+    {
+      "id": "Q69",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The annual series starts with one paper in 2004 and reaches 132 in 2025; the evidence base has no publications dated before 2004.",
+      "cause": "Publication years support the series, with a scope warning for the empty 1990–2003 period."
+    },
+    {
+      "id": "Q70",
+      "verdict": "PARTIAL",
+      "defect_class": "QUERY",
+      "result": "Member co-author edges can be extracted, but named communities depend on a selected clustering method and resolution.",
+      "cause": "The question does not specify a community algorithm, and no community assignments are stored."
+    },
+    {
+      "id": "Q71",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Of 603 funded-output papers, 319 are open access, for a share of 52.9%; annual values rise from low early levels to about 59% in 2025.",
+      "cause": "Accepted output links, publication years, and open-access flags support the result."
+    },
+    {
+      "id": "Q72",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Funded-linked papers have a mean of 32.4 OpenAlex citations, compared with 144.0 for other corpus papers by resolved researchers.",
+      "cause": "Resolved authors, accepted links, and the dated citation snapshot support the comparison."
+    },
+    {
+      "id": "Q73",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "A valid countries-per-paper co-authorship trend is not available.",
+      "cause": "Study countries describe research settings, while author affiliations are unnormalized and do not provide author-country identities."
+    },
+    {
+      "id": "Q74",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Using first accepted authorship as entry, 554 researchers entered from 2024 through 2026: 185 in 2024, 251 in 2025, and 118 in 2026.",
+      "cause": "Resolved author identities and publication years support the corpus-entry measure."
+    },
+    {
+      "id": "Q75",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "All 439 links with complete project dates fall in the −1 to +8 year window; this confirms 68.4% of all 642 links, while 203 links remain unclassified.",
+      "cause": "Missing project end dates prevent an exact fraction for all accepted links."
+    },
+    {
+      "id": "Q76",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Thirty publications link to more than one project; the EQ-HWB psychometric survey paper links to six projects, the highest count.",
+      "cause": "Accepted project-output links support the publication-level counts."
+    },
+    {
+      "id": "Q77",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The top decile of 297 principal investigators accounts for 332 of 629 linked outputs, or 52.8%.",
+      "cause": "Resolved principal-investigator roles and accepted output links support the concentration measure."
+    },
+    {
+      "id": "Q78",
+      "verdict": "PASS",
+      "defect_class": "UNSAFE",
+      "result": "Among researchers without an observed membership record, Kim Dalziel has the most papers with observed members, at 27.",
+      "cause": "The result uses absence of observed membership only and does not claim confirmed non-membership."
+    },
+    {
+      "id": "Q79",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "The public data cannot return citation components or hubs; the private evidence confirms 4,100 resolved within-corpus citation edges.",
+      "cause": "Paper reference edges are intentionally absent from the serving database."
+    },
+    {
+      "id": "Q80",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "Inter-project citation flow is not available in the public data, although private reference evidence contains 1,963 directed project pairs.",
+      "cause": "The serving database has citation totals but no citing-to-cited publication edges."
+    },
+    {
+      "id": "Q81",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Of 1,734 researchers with accepted publication identities, 1,302 have an ORCID, for a share of 75.1%.",
+      "cause": "Accepted author resolution and reviewed person identifiers support the calculation."
+    },
+    {
+      "id": "Q82",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "One publication has no abstract, but papers with truncated author lists cannot be identified.",
+      "cause": "Missing abstracts are directly detectable, but no author-list truncation flag is stored."
+    },
+    {
+      "id": "Q83",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Papers per project can be compared for exact working-group strings, but a reliable per-group comparison is incomplete.",
+      "cause": "One project field can contain multiple working-group labels instead of normalized project-group relations."
+    },
+    {
+      "id": "Q84",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The graph has 1,893 person researchers and 125 observed members; it also contains 16 group identities that are excluded from the researcher count.",
+      "cause": "Reviewed person types and observed membership records support the totals."
+    },
+    {
+      "id": "Q85",
+      "verdict": "FAIL",
+      "defect_class": "DATA",
+      "result": "OpenAlex topics or fields that cite funded work cannot be ranked.",
+      "cause": "The citation snapshot has counts and yearly totals but no citing-work topic or field data."
+    },
+    {
+      "id": "Q86",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "Citation-lag distribution is unavailable in the public data; private evidence has 4,100 resolved edges with a mean lag of 4.22 years.",
+      "cause": "The public release omits the citing-to-cited paper relation needed to calculate lag."
+    },
+    {
+      "id": "Q87",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "The data reports 31 identifier-consolidation authorships and identity acceptance statuses, but it cannot list all merged, overridden, or skipped profiles with reasons.",
+      "cause": "Resolution methods and outcomes are stored, but full decision-level audit reasons are not."
+    },
+    {
+      "id": "Q88",
+      "verdict": "FAIL",
+      "defect_class": "DATA",
+      "result": "Funded papers cannot be ranked by venue impact.",
+      "cause": "Journal names are present, but journal impact factors or another venue-impact measure are absent."
+    },
+    {
+      "id": "Q89",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No project was supplied.",
+      "cause": "The placeholder “project X” must be replaced with a project ID or title."
+    },
+    {
+      "id": "Q90",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "The public data cannot identify value-set products that later corpus papers reference.",
+      "cause": "Value-set products are present, but publication reference edges are absent from the serving database."
+    },
+    {
+      "id": "Q91",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The top recent completed project is project 330-PHD with nine outputs and 79 OpenAlex citations, followed by 304-PHD with seven outputs and 44 citations.",
+      "cause": "Project dates, completion status, accepted outputs, and citations retrieved on 2026-08-27 support the ranking."
+    },
+    {
+      "id": "Q92",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The funnel is 1,024 projects, 400 projects with outputs, 603 distinct output papers, and 17,345 OpenAlex citations.",
+      "cause": "Accepted output links and the dated citation snapshot support each stage."
+    },
+    {
+      "id": "Q93",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Using the earliest project year and including tied first grants, 137 of 297 first-time principal investigators have an output from that first-year grant set.",
+      "cause": "Resolved principal-investigator roles, project start years, and accepted output links support the calculation."
+    },
+    {
+      "id": "Q94",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Distinct resolved co-author edges increase from 9 in the 2000s to 3,155 in the 2010s and 14,033 in the 2020s.",
+      "cause": "Publication dates and resolved co-authorship pairs support decade-level network growth."
+    },
+    {
+      "id": "Q95",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "A bounded text screen finds 79 projects linked to 121 studies of children, adolescents, cognitive impairment, or dementia.",
+      "cause": "Population labels are source text, and “under-represented” is not a controlled classification."
+    },
+    {
+      "id": "Q96",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The data identifies 54 bolt-on-related papers, including 31 with bolt-ons in the title; each has an abstract or extracted finding for a short summary.",
+      "cause": "The set is below the row limit, and topical uses plus study evidence support one-line summaries."
+    },
+    {
+      "id": "Q97",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "The number of researcher countries in funded publications cannot be calculated reliably.",
+      "cause": "Author affiliations are unnormalized source text and no researcher-country relation exists."
+    },
+    {
+      "id": "Q98",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No DOI was supplied.",
+      "cause": "The placeholder “DOI X” must be replaced with a DOI."
+    },
+    {
+      "id": "Q99",
+      "verdict": "FAIL",
+      "defect_class": "DATA",
+      "result": "The excluded share cannot be calculated because all 797 available publications have the include-study disposition.",
+      "cause": "Pure-application exclusions and their member authors are absent from both current databases."
+    },
+    {
+      "id": "Q100",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "The private data marks all 642 accepted links as full-text confirmed, but it cannot compare graph-entry routes with structured funder metadata.",
+      "cause": "No explicit publication-entry provenance field distinguishes the two routes."
+    }
+  ],
+  "run": {
+    "provider": "codex",
+    "model": "gpt-5.6-sol",
+    "effort": "high",
+    "api_key_removed": false,
+    "database": "web/server/data/serving.sqlite",
+    "publication_count": 797
+  }
+}

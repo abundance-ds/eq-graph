@@ -1,0 +1,24 @@
+{
+  "project_id": "20180280",
+  "id_scheme": "year-number",
+  "sequence_number": null,
+  "call_year": null,
+  "grant_type_code": null,
+  "grant_type": null,
+  "revision": null,
+  "title": "EQ-5D-Y valuation study in Japan",
+  "pi_name_raw": "Takeru Shiroiwa",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 0,
+  "status": "Completed",
+  "start_year": 2018,
+  "end_year": 2019,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 107,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

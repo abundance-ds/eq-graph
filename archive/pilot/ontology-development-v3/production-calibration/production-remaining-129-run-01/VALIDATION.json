@@ -1,0 +1,3137 @@
+{
+  "summary": {
+    "records_expected": 129,
+    "records_present": 129,
+    "records_clean": 129,
+    "dispositions": {
+      "include-study": 128,
+      "exclude": 1
+    },
+    "connections": {
+      "direct_eq": 114,
+      "application_only": 10,
+      "adjacent_measurement": 5
+    },
+    "support": {
+      "explicit": 125,
+      "none-stated": 4
+    },
+    "index_terms": 3580,
+    "index_types": {
+      "Study type": 130,
+      "Design": 132,
+      "Population": 174,
+      "Instrument": 395,
+      "Language": 90,
+      "Administration": 128,
+      "Method": 316,
+      "Protocol": 60,
+      "Analysis": 398,
+      "Model": 150,
+      "Product": 131,
+      "Outcome": 410,
+      "Concept": 684,
+      "Setting": 57,
+      "Geography": 174,
+      "Dataset": 71,
+      "Condition": 80
+    },
+    "normalization_flags": [
+      "P003: possible Analysis typed as Method: non-parametric bootstrap",
+      "P006: possible Analysis typed as Method: framework analysis",
+      "P007: possible Analysis typed as Method: test\u2013retest reliability assessment",
+      "P010: possible Analysis typed as Method: test\u2013retest reliability assessment",
+      "P010: possible Analysis typed as Model: intraclass correlation coefficient",
+      "P011: possible Analysis typed as Method: test-retest reliability",
+      "P011: possible Analysis typed as Method: hypothesis testing for construct validity",
+      "P013: possible Analysis typed as Method: country-specific linear regression",
+      "P014: possible Analysis typed as Method: Thematic content analysis",
+      "P019: possible Analysis typed as Method: Mokken scale analysis",
+      "P022: possible Analysis typed as Method: framework analysis",
+      "P023: possible Analysis typed as Method: secondary analysis",
+      "P025: possible Analysis typed as Method: receiver operating characteristic analysis",
+      "P025: possible Population typed as Setting: general population",
+      "P026: possible Analysis typed as Method: psychometric analysis",
+      "P026: possible Analysis typed as Method: convergent validity analysis",
+      "P026: possible Analysis typed as Method: known-groups validity analysis",
+      "P027: possible Analysis typed as Method: thematic analysis",
+      "P027: possible Analysis typed as Method: content analysis",
+      "P028: possible Analysis typed as Method: ordinal logistic regression",
+      "P028: possible Analysis typed as Method: multivariable ordinary least squares regression",
+      "P031: possible Analysis typed as Method: Spearman rank-order correlation",
+      "P031: possible Analysis typed as Method: differential item functioning analysis",
+      "P031: possible Analysis typed as Method: ordinal logistic regression",
+      "P032: possible Analysis typed as Method: psychometric analysis",
+      "P032: possible Analysis typed as Method: Spearman correlation",
+      "P032: possible Analysis typed as Method: exploratory factor analysis",
+      "P034: possible Analysis typed as Method: construct-validity hypothesis testing",
+      "P036: possible Analysis typed as Method: thematic analysis",
+      "P037: possible Analysis typed as Method: psychometric analysis",
+      "P038: possible Analysis typed as Method: psychometric analysis",
+      "P038: possible Analysis typed as Method: polychoric correlation",
+      "P039: possible Analysis typed as Method: psychometric analysis",
+      "P040: possible Analysis typed as Method: cross-country inequality analysis",
+      "P040: possible Analysis typed as Method: Kruskal\u2013Wallis test",
+      "P040: possible Analysis typed as Method: Mann\u2013Whitney U test",
+      "P041: possible Analysis typed as Method: survey-weighted linear regression",
+      "P042: possible Analysis typed as Method: exploratory factor analysis",
+      "P042: possible Analysis typed as Method: Spearman rank correlation",
+      "P043: possible Analysis typed as Method: convergent validity analysis",
+      "P043: possible Analysis typed as Method: known-groups validity analysis",
+      "P043: possible Analysis typed as Method: test-retest reliability analysis",
+      "P043: possible Analysis typed as Method: responsiveness analysis",
+      "P045: possible Analysis typed as Method: Descriptive health-state analysis",
+      "P052: possible Analysis typed as Method: thematic analysis",
+      "P055: possible Analysis typed as Method: distributional analysis",
+      "P055: possible Analysis typed as Method: comparative value-set analysis",
+      "P064: possible Analysis typed as Method: responsiveness analysis",
+      "P064: possible Analysis typed as Method: anchor-based analysis",
+      "P071: possible Analysis typed as Method: test\u2013retest reliability",
+      "P071: possible Population typed as Setting: Australian pediatric health and general-population samples",
+      "P073: possible Analysis typed as Method: test\u2013retest reliability",
+      "P073: possible Analysis typed as Method: responsiveness analysis",
+      "P080: possible Analysis typed as Method: conversational analysis",
+      "P084: possible Analysis typed as Method: patient-reported outcome analysis",
+      "P092: possible Population typed as Setting: General population",
+      "P094: possible Analysis typed as Method: chi-square test",
+      "P094: possible Analysis typed as Method: MANOVA",
+      "P096: possible Analysis typed as Method: intertemporal agreement analysis",
+      "P097: possible Analysis typed as Method: Spearman rank correlation",
+      "P098: possible Analysis typed as Method: test-retest reliability",
+      "P099: possible Population typed as Setting: Dutch general population",
+      "P101: possible Analysis typed as Method: response redistribution analysis",
+      "P102: possible Analysis typed as Method: bootstrap resampling",
+      "P102: possible Analysis typed as Method: simulation-based responsiveness analysis",
+      "P105: possible Analysis typed as Method: test-retest reliability",
+      "P105: possible Analysis typed as Method: responsiveness analysis",
+      "P106: possible Concept typed as Condition: orthopaedic surgery",
+      "P108: possible Analysis typed as Method: framework analysis",
+      "P110: possible Analysis typed as Method: population norms analysis",
+      "P111: possible Analysis typed as Method: thematic analysis",
+      "P112: possible Analysis typed as Method: descriptive analysis",
+      "P112: possible Analysis typed as Method: chi-square test",
+      "P113: possible Analysis typed as Method: psychometric testing",
+      "P114: possible Analysis typed as Method: Shannon informativity analysis",
+      "P114: possible Analysis typed as Method: domain-dependency analysis",
+      "P117: possible Analysis typed as Method: test-retest reliability",
+      "P119: possible Analysis typed as Method: test-retest reliability",
+      "P121: possible Population typed as Setting: population survey",
+      "P126: possible Analysis typed as Method: ordinary least squares multivariable regression",
+      "P127: possible Analysis typed as Method: Pearson correlation",
+      "P127: possible Analysis typed as Method: ANOVA",
+      "P128: possible Analysis typed as Method: non-response analysis",
+      "P129: possible Analysis typed as Method: concurrent validity testing",
+      "P129: possible Analysis typed as Method: test-retest reliability",
+      "P001: same term has multiple types (Instrument, Outcome): eq-vas",
+      "P003: same term has multiple types (Geography, Setting): singapore",
+      "P011: same term has multiple types (Method, Outcome): known-group validity",
+      "P013: same term has multiple types (Instrument, Outcome): self-reported health",
+      "P018: same term has multiple types (Instrument, Product): eq-hwb",
+      "P018: same term has multiple types (Instrument, Product): eq-hwb-s",
+      "P019: same term has multiple types (Model, Product): eq-5d-5l level sum score",
+      "P023: same term has multiple types (Analysis, Model): multivariate linear regression",
+      "P028: same term has multiple types (Outcome, Product): eq-hwb-s index value",
+      "P033: same term has multiple types (Analysis, Outcome): responsiveness",
+      "P037: same term has multiple types (Method, Outcome): known-groups validity",
+      "P039: same term has multiple types (Analysis, Outcome): convergent validity",
+      "P039: same term has multiple types (Analysis, Outcome): known-groups validity",
+      "P039: same term has multiple types (Concept, Condition): autism spectrum disorder",
+      "P044: same term has multiple types (Instrument, Protocol): eq-vt 2.1",
+      "P046: same term has multiple types (Geography, Setting): united states",
+      "P063: same term has multiple types (Geography, Setting): germany",
+      "P068: same term has multiple types (Geography, Setting): united states",
+      "P071: same term has multiple types (Method, Outcome): responsiveness",
+      "P076: same term has multiple types (Geography, Setting): singapore",
+      "P092: same term has multiple types (Model, Product): japanese eq-5d-y value set",
+      "P101: same term has multiple types (Concept, Method): proxy reporting",
+      "P101: same term has multiple types (Analysis, Outcome): convergent validity",
+      "P101: same term has multiple types (Analysis, Outcome): test\u2013retest reliability",
+      "P101: same term has multiple types (Analysis, Outcome): responsiveness",
+      "P108: same term has multiple types (Administration, Method): cognitive debriefing",
+      "P108: same term has multiple types (Geography, Setting): singapore",
+      "P118: same term has multiple types (Instrument, Outcome): eq-vas",
+      "P118: same term has multiple types (Analysis, Model): multiple linear regression",
+      "P120: same term has multiple types (Dataset, Setting): swedish national quality registers",
+      "P121: same term has multiple types (Condition, Population): post covid-19 condition",
+      "P121: same term has multiple types (Condition, Population): acute covid-19 infection",
+      "P127: same term has multiple types (Concept, Outcome): caregiver burden"
+    ],
+    "source_locator_rate": 0.9993,
+    "mean_output_words": 1450.5,
+    "usage": {
+      "input_tokens": 5208538,
+      "cached_input_tokens": 625408,
+      "output_tokens": 381172,
+      "reasoning_output_tokens": 53366
+    }
+  },
+  "records": [
+    {
+      "record_id": "P001",
+      "doi": "10.1002/hec.4529",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1439,
+      "located_bullets": 37,
+      "substantive_bullets": 38,
+      "index_terms": 32,
+      "usage": {
+        "input_tokens": 43041,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2644,
+        "reasoning_output_tokens": 220
+      }
+    },
+    {
+      "record_id": "P002",
+      "doi": "10.1002/hsr2.70308",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1411,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 31584,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2895,
+        "reasoning_output_tokens": 507
+      }
+    },
+    {
+      "record_id": "P003",
+      "doi": "10.1007/s10198-018-0987-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1336,
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "index_terms": 30,
+      "usage": {
+        "input_tokens": 26919,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2728,
+        "reasoning_output_tokens": 420
+      }
+    },
+    {
+      "record_id": "P004",
+      "doi": "10.1007/s10198-018-0993-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1419,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 36044,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2605,
+        "reasoning_output_tokens": 359
+      }
+    },
+    {
+      "record_id": "P005",
+      "doi": "10.1007/s10198-020-01205-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1556,
+      "located_bullets": 51,
+      "substantive_bullets": 51,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 41168,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3248,
+        "reasoning_output_tokens": 561
+      }
+    },
+    {
+      "record_id": "P006",
+      "doi": "10.1007/s10198-021-01306-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1206,
+      "located_bullets": 30,
+      "substantive_bullets": 30,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 40065,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2351,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P007",
+      "doi": "10.1007/s10198-021-01309-w",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1344,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 35693,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2663,
+        "reasoning_output_tokens": 233
+      }
+    },
+    {
+      "record_id": "P008",
+      "doi": "10.1007/s10198-022-01481-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1323,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 31947,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2701,
+        "reasoning_output_tokens": 479
+      }
+    },
+    {
+      "record_id": "P009",
+      "doi": "10.1007/s10198-023-01668-6",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1498,
+      "located_bullets": 45,
+      "substantive_bullets": 45,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 41069,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2825,
+        "reasoning_output_tokens": 434
+      }
+    },
+    {
+      "record_id": "P010",
+      "doi": "10.1007/s10198-024-01682-2",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1428,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 38529,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3036,
+        "reasoning_output_tokens": 293
+      }
+    },
+    {
+      "record_id": "P011",
+      "doi": "10.1007/s10198-025-01770-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1839,
+      "located_bullets": 51,
+      "substantive_bullets": 52,
+      "index_terms": 38,
+      "usage": {
+        "input_tokens": 69513,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3466,
+        "reasoning_output_tokens": 220
+      }
+    },
+    {
+      "record_id": "P012",
+      "doi": "10.1007/s10198-025-01852-w",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1357,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 37887,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2921,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P013",
+      "doi": "10.1007/s11136-017-1512-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1333,
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "index_terms": 22,
+      "usage": {
+        "input_tokens": 26375,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2281,
+        "reasoning_output_tokens": 175
+      }
+    },
+    {
+      "record_id": "P014",
+      "doi": "10.1007/s11136-019-02115-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1551,
+      "located_bullets": 48,
+      "substantive_bullets": 48,
+      "index_terms": 34,
+      "usage": {
+        "input_tokens": 35001,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3039,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P015",
+      "doi": "10.1007/s11136-020-02469-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1259,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 33815,
+        "cached_input_tokens": 2816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2624,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P016",
+      "doi": "10.1007/s11136-020-02688-y",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1243,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 51294,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2350,
+        "reasoning_output_tokens": 281
+      }
+    },
+    {
+      "record_id": "P017",
+      "doi": "10.1007/s11136-020-02712-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1664,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 36102,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3593,
+        "reasoning_output_tokens": 806
+      }
+    },
+    {
+      "record_id": "P018",
+      "doi": "10.1007/s11136-020-02718-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1083,
+      "located_bullets": 30,
+      "substantive_bullets": 30,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 23628,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2145,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P019",
+      "doi": "10.1007/s11136-021-02922-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1398,
+      "located_bullets": 47,
+      "substantive_bullets": 47,
+      "index_terms": 33,
+      "usage": {
+        "input_tokens": 74454,
+        "cached_input_tokens": 39424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3253,
+        "reasoning_output_tokens": 774
+      }
+    },
+    {
+      "record_id": "P020",
+      "doi": "10.1007/s11136-021-03007-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1464,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 35947,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2547,
+        "reasoning_output_tokens": 255
+      }
+    },
+    {
+      "record_id": "P021",
+      "doi": "10.1007/s11136-021-03075-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1371,
+      "located_bullets": 40,
+      "substantive_bullets": 40,
+      "index_terms": 48,
+      "usage": {
+        "input_tokens": 35879,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2796,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P022",
+      "doi": "10.1007/s11136-022-03304-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1210,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 18,
+      "usage": {
+        "input_tokens": 29600,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2308,
+        "reasoning_output_tokens": 397
+      }
+    },
+    {
+      "record_id": "P023",
+      "doi": "10.1007/s11136-023-03509-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1608,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 31,
+      "usage": {
+        "input_tokens": 40049,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3313,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P024",
+      "doi": "10.1007/s11136-024-03618-y",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1305,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 28164,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2201,
+        "reasoning_output_tokens": 170
+      }
+    },
+    {
+      "record_id": "P025",
+      "doi": "10.1007/s11136-024-03754-5",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1418,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 30,
+      "usage": {
+        "input_tokens": 37768,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2889,
+        "reasoning_output_tokens": 464
+      }
+    },
+    {
+      "record_id": "P026",
+      "doi": "10.1007/s11136-024-03817-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1507,
+      "located_bullets": 47,
+      "substantive_bullets": 47,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 30983,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3038,
+        "reasoning_output_tokens": 400
+      }
+    },
+    {
+      "record_id": "P027",
+      "doi": "10.1007/s11136-024-03875-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1297,
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "index_terms": 36,
+      "usage": {
+        "input_tokens": 33227,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2547,
+        "reasoning_output_tokens": 468
+      }
+    },
+    {
+      "record_id": "P028",
+      "doi": "10.1007/s11136-025-03925-y",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1476,
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "index_terms": 34,
+      "usage": {
+        "input_tokens": 48624,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2901,
+        "reasoning_output_tokens": 318
+      }
+    },
+    {
+      "record_id": "P029",
+      "doi": "10.1007/s11136-025-03930-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1611,
+      "located_bullets": 48,
+      "substantive_bullets": 48,
+      "index_terms": 30,
+      "usage": {
+        "input_tokens": 38509,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3078,
+        "reasoning_output_tokens": 387
+      }
+    },
+    {
+      "record_id": "P030",
+      "doi": "10.1007/s11136-025-03983-2",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1299,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 48,
+      "usage": {
+        "input_tokens": 36733,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2842,
+        "reasoning_output_tokens": 614
+      }
+    },
+    {
+      "record_id": "P031",
+      "doi": "10.1007/s11136-025-04003-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1406,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 30924,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2770,
+        "reasoning_output_tokens": 467
+      }
+    },
+    {
+      "record_id": "P032",
+      "doi": "10.1007/s11136-025-04053-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1592,
+      "located_bullets": 58,
+      "substantive_bullets": 58,
+      "index_terms": 40,
+      "usage": {
+        "input_tokens": 69950,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3334,
+        "reasoning_output_tokens": 489
+      }
+    },
+    {
+      "record_id": "P033",
+      "doi": "10.1007/s11136-025-04077-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1330,
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 40836,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2726,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P034",
+      "doi": "10.1007/s11136-025-04133-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1639,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 30,
+      "usage": {
+        "input_tokens": 37850,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3254,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P035",
+      "doi": "10.1007/s11136-025-04145-0",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1391,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 19,
+      "usage": {
+        "input_tokens": 59194,
+        "cached_input_tokens": 28416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2781,
+        "reasoning_output_tokens": 380
+      }
+    },
+    {
+      "record_id": "P036",
+      "doi": "10.1007/s11136-025-04150-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1252,
+      "located_bullets": 39,
+      "substantive_bullets": 39,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 126282,
+        "cached_input_tokens": 81408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5757,
+        "reasoning_output_tokens": 764
+      }
+    },
+    {
+      "record_id": "P037",
+      "doi": "10.1007/s11136-026-04226-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1572,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 58417,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3127,
+        "reasoning_output_tokens": 268
+      }
+    },
+    {
+      "record_id": "P038",
+      "doi": "10.1007/s11136-026-04242-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1566,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 33,
+      "usage": {
+        "input_tokens": 39394,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3237,
+        "reasoning_output_tokens": 444
+      }
+    },
+    {
+      "record_id": "P039",
+      "doi": "10.1007/s11136-026-04246-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1855,
+      "located_bullets": 66,
+      "substantive_bullets": 66,
+      "index_terms": 40,
+      "usage": {
+        "input_tokens": 38522,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3559,
+        "reasoning_output_tokens": 274
+      }
+    },
+    {
+      "record_id": "P040",
+      "doi": "10.1007/s11136-026-04285-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1879,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 31,
+      "usage": {
+        "input_tokens": 41240,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3422,
+        "reasoning_output_tokens": 427
+      }
+    },
+    {
+      "record_id": "P041",
+      "doi": "10.1007/s11136-026-04294-w",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1243,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 17,
+      "usage": {
+        "input_tokens": 31165,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2627,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P042",
+      "doi": "10.1007/s11136-026-04315-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1703,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 28944,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3382,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P043",
+      "doi": "10.1007/s12311-023-01597-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1434,
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "index_terms": 35,
+      "usage": {
+        "input_tokens": 36124,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3184,
+        "reasoning_output_tokens": 497
+      }
+    },
+    {
+      "record_id": "P044",
+      "doi": "10.1007/s40258-021-00639-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1721,
+      "located_bullets": 52,
+      "substantive_bullets": 53,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 36991,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3262,
+        "reasoning_output_tokens": 494
+      }
+    },
+    {
+      "record_id": "P045",
+      "doi": "10.1007/s40258-022-00772-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "probable"
+      },
+      "errors": [],
+      "word_count": 1683,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 56426,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3361,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P046",
+      "doi": "10.1007/s40258-023-00798-5",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "possible"
+      },
+      "errors": [],
+      "word_count": 1380,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 31439,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2850,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P047",
+      "doi": "10.1007/s40258-025-00954-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1211,
+      "located_bullets": 36,
+      "substantive_bullets": 36,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 35121,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2316,
+        "reasoning_output_tokens": 268
+      }
+    },
+    {
+      "record_id": "P048",
+      "doi": "10.1007/s40271-020-00490-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1230,
+      "located_bullets": 33,
+      "substantive_bullets": 33,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 30257,
+        "cached_input_tokens": 6912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2538,
+        "reasoning_output_tokens": 506
+      }
+    },
+    {
+      "record_id": "P049",
+      "doi": "10.1007/s40271-022-00572-0",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1319,
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 30747,
+        "cached_input_tokens": 2816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2546,
+        "reasoning_output_tokens": 404
+      }
+    },
+    {
+      "record_id": "P050",
+      "doi": "10.1007/s40271-023-00647-6",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1488,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 34597,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2641,
+        "reasoning_output_tokens": 284
+      }
+    },
+    {
+      "record_id": "P051",
+      "doi": "10.1007/s40271-025-00729-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1283,
+      "located_bullets": 36,
+      "substantive_bullets": 36,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 32111,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2415,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P052",
+      "doi": "10.1007/s40271-025-00787-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 2022,
+      "located_bullets": 70,
+      "substantive_bullets": 70,
+      "index_terms": 32,
+      "usage": {
+        "input_tokens": 37949,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3269,
+        "reasoning_output_tokens": 180
+      }
+    },
+    {
+      "record_id": "P053",
+      "doi": "10.1007/s40273-016-0404-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1520,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 29386,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2719,
+        "reasoning_output_tokens": 245
+      }
+    },
+    {
+      "record_id": "P054",
+      "doi": "10.1007/s40273-017-0538-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1543,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 37742,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2923,
+        "reasoning_output_tokens": 315
+      }
+    },
+    {
+      "record_id": "P055",
+      "doi": "10.1007/s40273-018-0623-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1902,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 46,
+      "usage": {
+        "input_tokens": 54810,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3705,
+        "reasoning_output_tokens": 460
+      }
+    },
+    {
+      "record_id": "P056",
+      "doi": "10.1007/s40273-018-0642-5",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1350,
+      "located_bullets": 40,
+      "substantive_bullets": 40,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 40808,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2708,
+        "reasoning_output_tokens": 391
+      }
+    },
+    {
+      "record_id": "P057",
+      "doi": "10.1007/s40273-018-0647-0",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1497,
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 30095,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2806,
+        "reasoning_output_tokens": 174
+      }
+    },
+    {
+      "record_id": "P058",
+      "doi": "10.1007/s40273-018-0694-6",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1512,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 22,
+      "usage": {
+        "input_tokens": 41439,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3467,
+        "reasoning_output_tokens": 858
+      }
+    },
+    {
+      "record_id": "P059",
+      "doi": "10.1007/s40273-019-00811-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1605,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 38811,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3228,
+        "reasoning_output_tokens": 490
+      }
+    },
+    {
+      "record_id": "P060",
+      "doi": "10.1007/s40273-019-00876-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1354,
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 72004,
+        "cached_input_tokens": 45568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2797,
+        "reasoning_output_tokens": 436
+      }
+    },
+    {
+      "record_id": "P061",
+      "doi": "10.1007/s40273-020-00994-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1326,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 27678,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2577,
+        "reasoning_output_tokens": 278
+      }
+    },
+    {
+      "record_id": "P062",
+      "doi": "10.1007/s40273-021-01109-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1284,
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 31758,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2666,
+        "reasoning_output_tokens": 515
+      }
+    },
+    {
+      "record_id": "P063",
+      "doi": "10.1007/s40273-022-01143-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1365,
+      "located_bullets": 40,
+      "substantive_bullets": 40,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 36783,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2534,
+        "reasoning_output_tokens": 287
+      }
+    },
+    {
+      "record_id": "P064",
+      "doi": "10.1007/s40273-022-01172-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1463,
+      "located_bullets": 45,
+      "substantive_bullets": 45,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 41124,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2850,
+        "reasoning_output_tokens": 385
+      }
+    },
+    {
+      "record_id": "P065",
+      "doi": "10.1007/s40273-022-01208-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1826,
+      "located_bullets": 59,
+      "substantive_bullets": 59,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 31388,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3365,
+        "reasoning_output_tokens": 464
+      }
+    },
+    {
+      "record_id": "P066",
+      "doi": "10.1007/s40273-022-01210-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1601,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 18,
+      "usage": {
+        "input_tokens": 32553,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2893,
+        "reasoning_output_tokens": 281
+      }
+    },
+    {
+      "record_id": "P067",
+      "doi": "10.1007/s40273-022-01216-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1464,
+      "located_bullets": 48,
+      "substantive_bullets": 48,
+      "index_terms": 19,
+      "usage": {
+        "input_tokens": 32950,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2688,
+        "reasoning_output_tokens": 359
+      }
+    },
+    {
+      "record_id": "P068",
+      "doi": "10.1007/s40273-022-01222-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1191,
+      "located_bullets": 35,
+      "substantive_bullets": 35,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 24741,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2253,
+        "reasoning_output_tokens": 372
+      }
+    },
+    {
+      "record_id": "P069",
+      "doi": "10.1007/s40273-023-01280-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1274,
+      "located_bullets": 47,
+      "substantive_bullets": 47,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 29326,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2458,
+        "reasoning_output_tokens": 308
+      }
+    },
+    {
+      "record_id": "P070",
+      "doi": "10.1007/s40273-024-01354-2",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1840,
+      "located_bullets": 52,
+      "substantive_bullets": 52,
+      "index_terms": 40,
+      "usage": {
+        "input_tokens": 51314,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3788,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P071",
+      "doi": "10.1007/s40273-024-01355-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1692,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 40,
+      "usage": {
+        "input_tokens": 42837,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3510,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P072",
+      "doi": "10.1007/s40273-024-01404-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1570,
+      "located_bullets": 51,
+      "substantive_bullets": 51,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 44702,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3116,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P073",
+      "doi": "10.1007/s40273-025-01473-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1713,
+      "located_bullets": 61,
+      "substantive_bullets": 61,
+      "index_terms": 35,
+      "usage": {
+        "input_tokens": 39660,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3538,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P074",
+      "doi": "10.1007/s40273-025-01476-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1431,
+      "located_bullets": 36,
+      "substantive_bullets": 36,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 27672,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2620,
+        "reasoning_output_tokens": 408
+      }
+    },
+    {
+      "record_id": "P075",
+      "doi": "10.1007/s40273-025-01493-0",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1639,
+      "located_bullets": 51,
+      "substantive_bullets": 51,
+      "index_terms": 36,
+      "usage": {
+        "input_tokens": 44335,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3233,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P076",
+      "doi": "10.1007/s40273-025-01519-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1459,
+      "located_bullets": 57,
+      "substantive_bullets": 57,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 46002,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3058,
+        "reasoning_output_tokens": 432
+      }
+    },
+    {
+      "record_id": "P077",
+      "doi": "10.1007/s40273-025-01545-5",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1394,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 67192,
+        "cached_input_tokens": 32512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3069,
+        "reasoning_output_tokens": 672
+      }
+    },
+    {
+      "record_id": "P078",
+      "doi": "10.1007/s41669-022-00353-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1655,
+      "located_bullets": 47,
+      "substantive_bullets": 47,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 34249,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3178,
+        "reasoning_output_tokens": 409
+      }
+    },
+    {
+      "record_id": "P079",
+      "doi": "10.1007/s41669-023-00437-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1262,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 22,
+      "usage": {
+        "input_tokens": 35922,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2717,
+        "reasoning_output_tokens": 462
+      }
+    },
+    {
+      "record_id": "P080",
+      "doi": "10.1007/s41669-024-00486-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1768,
+      "located_bullets": 51,
+      "substantive_bullets": 51,
+      "index_terms": 22,
+      "usage": {
+        "input_tokens": 32929,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2871,
+        "reasoning_output_tokens": 185
+      }
+    },
+    {
+      "record_id": "P081",
+      "doi": "10.1016/j.jval.2021.03.019",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1340,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 32702,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2407,
+        "reasoning_output_tokens": 221
+      }
+    },
+    {
+      "record_id": "P082",
+      "doi": "10.1017/s0266462326103602",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1538,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 34,
+      "usage": {
+        "input_tokens": 46148,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2887,
+        "reasoning_output_tokens": 400
+      }
+    },
+    {
+      "record_id": "P083",
+      "doi": "10.1097/mlr.0000000000002200",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1219,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 26446,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2278,
+        "reasoning_output_tokens": 249
+      }
+    },
+    {
+      "record_id": "P084",
+      "doi": "10.1136/bmjopen-2020-048176",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "none-stated",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1733,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 33,
+      "usage": {
+        "input_tokens": 55543,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3421,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P085",
+      "doi": "10.1136/bmjopen-2021-051727",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1566,
+      "located_bullets": 41,
+      "substantive_bullets": 41,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 24877,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3048,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P086",
+      "doi": "10.1136/bmjopen-2024-084440",
+      "exists": true,
+      "classes": {
+        "disposition": "exclude",
+        "connection": "application_only",
+        "euroqol support": "none-stated",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 111,
+      "located_bullets": 0,
+      "substantive_bullets": 0,
+      "index_terms": 0,
+      "usage": {
+        "input_tokens": 32070,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 604,
+        "reasoning_output_tokens": 398
+      }
+    },
+    {
+      "record_id": "P087",
+      "doi": "10.1136/bmjopen-2024-091097",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "none-stated",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1324,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 30,
+      "usage": {
+        "input_tokens": 26796,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2500,
+        "reasoning_output_tokens": 432
+      }
+    },
+    {
+      "record_id": "P088",
+      "doi": "10.1136/bmjopen-2024-097598",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1111,
+      "located_bullets": 36,
+      "substantive_bullets": 36,
+      "index_terms": 18,
+      "usage": {
+        "input_tokens": 27326,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2244,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P089",
+      "doi": "10.1136/bmjopen-2025-102509",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1132,
+      "located_bullets": 40,
+      "substantive_bullets": 40,
+      "index_terms": 32,
+      "usage": {
+        "input_tokens": 89867,
+        "cached_input_tokens": 56832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5887,
+        "reasoning_output_tokens": 544
+      }
+    },
+    {
+      "record_id": "P090",
+      "doi": "10.1177/0272989x18765184",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1218,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 18,
+      "usage": {
+        "input_tokens": 25232,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2438,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P091",
+      "doi": "10.1177/0272989x19841587",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1774,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 33100,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3231,
+        "reasoning_output_tokens": 315
+      }
+    },
+    {
+      "record_id": "P092",
+      "doi": "10.1177/0272989x211001859",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1391,
+      "located_bullets": 39,
+      "substantive_bullets": 39,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 30354,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2477,
+        "reasoning_output_tokens": 232
+      }
+    },
+    {
+      "record_id": "P093",
+      "doi": "10.1177/0272989x251325828",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "none-stated",
+        "project link": "probable"
+      },
+      "errors": [],
+      "word_count": 1191,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 19,
+      "usage": {
+        "input_tokens": 28204,
+        "cached_input_tokens": 2816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2417,
+        "reasoning_output_tokens": 462
+      }
+    },
+    {
+      "record_id": "P094",
+      "doi": "10.1186/s12889-018-5706-0",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1290,
+      "located_bullets": 40,
+      "substantive_bullets": 40,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 37288,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2572,
+        "reasoning_output_tokens": 399
+      }
+    },
+    {
+      "record_id": "P095",
+      "doi": "10.1186/s12955-017-0617-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1321,
+      "located_bullets": 48,
+      "substantive_bullets": 48,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 100945,
+        "cached_input_tokens": 64000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5928,
+        "reasoning_output_tokens": 408
+      }
+    },
+    {
+      "record_id": "P096",
+      "doi": "10.1186/s12955-019-1139-4",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1395,
+      "located_bullets": 44,
+      "substantive_bullets": 44,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 29454,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2642,
+        "reasoning_output_tokens": 283
+      }
+    },
+    {
+      "record_id": "P097",
+      "doi": "10.1186/s12955-020-01394-0",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1362,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 29287,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2883,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P098",
+      "doi": "10.1186/s12955-020-01410-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1730,
+      "located_bullets": 52,
+      "substantive_bullets": 52,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 29754,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3285,
+        "reasoning_output_tokens": 457
+      }
+    },
+    {
+      "record_id": "P099",
+      "doi": "10.1186/s12955-021-01771-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1350,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 25,
+      "usage": {
+        "input_tokens": 31912,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2529,
+        "reasoning_output_tokens": 176
+      }
+    },
+    {
+      "record_id": "P100",
+      "doi": "10.1186/s12955-022-01989-9",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1574,
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 54386,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3627,
+        "reasoning_output_tokens": 913
+      }
+    },
+    {
+      "record_id": "P101",
+      "doi": "10.1186/s12955-022-01996-w",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1666,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 39,
+      "usage": {
+        "input_tokens": 32633,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3149,
+        "reasoning_output_tokens": 197
+      }
+    },
+    {
+      "record_id": "P102",
+      "doi": "10.1186/s12955-022-02031-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1188,
+      "located_bullets": 32,
+      "substantive_bullets": 32,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 51620,
+        "cached_input_tokens": 25344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2695,
+        "reasoning_output_tokens": 486
+      }
+    },
+    {
+      "record_id": "P103",
+      "doi": "10.1186/s12955-023-02131-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1144,
+      "located_bullets": 30,
+      "substantive_bullets": 30,
+      "index_terms": 22,
+      "usage": {
+        "input_tokens": 30813,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2366,
+        "reasoning_output_tokens": 454
+      }
+    },
+    {
+      "record_id": "P104",
+      "doi": "10.1186/s12955-023-02144-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1546,
+      "located_bullets": 59,
+      "substantive_bullets": 60,
+      "index_terms": 34,
+      "usage": {
+        "input_tokens": 37596,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3130,
+        "reasoning_output_tokens": 404
+      }
+    },
+    {
+      "record_id": "P105",
+      "doi": "10.1186/s12955-023-02177-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1222,
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 28993,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2472,
+        "reasoning_output_tokens": 213
+      }
+    },
+    {
+      "record_id": "P106",
+      "doi": "10.1186/s12955-023-02207-w",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1863,
+      "located_bullets": 53,
+      "substantive_bullets": 53,
+      "index_terms": 31,
+      "usage": {
+        "input_tokens": 40513,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3650,
+        "reasoning_output_tokens": 421
+      }
+    },
+    {
+      "record_id": "P107",
+      "doi": "10.1186/s12955-024-02271-w",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1133,
+      "located_bullets": 36,
+      "substantive_bullets": 36,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 49372,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2431,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P108",
+      "doi": "10.1186/s12955-024-02290-7",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1083,
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 90814,
+        "cached_input_tokens": 56832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5443,
+        "reasoning_output_tokens": 588
+      }
+    },
+    {
+      "record_id": "P109",
+      "doi": "10.1186/s12955-024-02305-3",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1466,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 29,
+      "usage": {
+        "input_tokens": 42227,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3197,
+        "reasoning_output_tokens": 652
+      }
+    },
+    {
+      "record_id": "P110",
+      "doi": "10.1186/s12955-024-02323-1",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1687,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 48147,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3122,
+        "reasoning_output_tokens": 159
+      }
+    },
+    {
+      "record_id": "P111",
+      "doi": "10.1186/s12955-025-02397-5",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1181,
+      "located_bullets": 35,
+      "substantive_bullets": 35,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 27694,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2115,
+        "reasoning_output_tokens": 267
+      }
+    },
+    {
+      "record_id": "P112",
+      "doi": "10.1186/s13561-022-00374-y",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1415,
+      "located_bullets": 49,
+      "substantive_bullets": 49,
+      "index_terms": 24,
+      "usage": {
+        "input_tokens": 34829,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2824,
+        "reasoning_output_tokens": 513
+      }
+    },
+    {
+      "record_id": "P113",
+      "doi": "10.1186/s13643-025-03060-2",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1866,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 34,
+      "usage": {
+        "input_tokens": 42945,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3765,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P114",
+      "doi": "10.1186/s41687-021-00406-x",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1196,
+      "located_bullets": 39,
+      "substantive_bullets": 39,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 34379,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2202,
+        "reasoning_output_tokens": 171
+      }
+    },
+    {
+      "record_id": "P115",
+      "doi": "10.1186/s41687-025-00928-8",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1370,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 44333,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2612,
+        "reasoning_output_tokens": 288
+      }
+    },
+    {
+      "record_id": "P116",
+      "doi": "10.1186/s41687-025-00985-z",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1263,
+      "located_bullets": 39,
+      "substantive_bullets": 39,
+      "index_terms": 20,
+      "usage": {
+        "input_tokens": 29136,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2314,
+        "reasoning_output_tokens": 306
+      }
+    },
+    {
+      "record_id": "P117",
+      "doi": "10.1371/journal.pone.0197098",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1390,
+      "located_bullets": 46,
+      "substantive_bullets": 46,
+      "index_terms": 27,
+      "usage": {
+        "input_tokens": 60654,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2948,
+        "reasoning_output_tokens": 341
+      }
+    },
+    {
+      "record_id": "P118",
+      "doi": "10.1371/journal.pone.0200966",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1234,
+      "located_bullets": 31,
+      "substantive_bullets": 31,
+      "index_terms": 26,
+      "usage": {
+        "input_tokens": 32662,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2323,
+        "reasoning_output_tokens": 283
+      }
+    },
+    {
+      "record_id": "P119",
+      "doi": "10.1371/journal.pone.0290606",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1860,
+      "located_bullets": 50,
+      "substantive_bullets": 50,
+      "index_terms": 34,
+      "usage": {
+        "input_tokens": 55491,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3335,
+        "reasoning_output_tokens": 195
+      }
+    },
+    {
+      "record_id": "P120",
+      "doi": "10.2196/27669",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1520,
+      "located_bullets": 37,
+      "substantive_bullets": 37,
+      "index_terms": 31,
+      "usage": {
+        "input_tokens": 31930,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2581,
+        "reasoning_output_tokens": 211
+      }
+    },
+    {
+      "record_id": "P121",
+      "doi": "10.3389/fepid.2023.1144162",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1701,
+      "located_bullets": 38,
+      "substantive_bullets": 38,
+      "index_terms": 39,
+      "usage": {
+        "input_tokens": 39078,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3085,
+        "reasoning_output_tokens": 207
+      }
+    },
+    {
+      "record_id": "P122",
+      "doi": "10.3389/fpubh.2021.744405",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1125,
+      "located_bullets": 34,
+      "substantive_bullets": 34,
+      "index_terms": 22,
+      "usage": {
+        "input_tokens": 58718,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2158,
+        "reasoning_output_tokens": 331
+      }
+    },
+    {
+      "record_id": "P123",
+      "doi": "10.3390/children10101604",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1410,
+      "located_bullets": 43,
+      "substantive_bullets": 43,
+      "index_terms": 38,
+      "usage": {
+        "input_tokens": 40442,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3107,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "record_id": "P124",
+      "doi": "10.3390/children8080714",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1923,
+      "located_bullets": 60,
+      "substantive_bullets": 60,
+      "index_terms": 53,
+      "usage": {
+        "input_tokens": 38279,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3440,
+        "reasoning_output_tokens": 180
+      }
+    },
+    {
+      "record_id": "P125",
+      "doi": "10.3390/children8100920",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "adjacent_measurement",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1905,
+      "located_bullets": 53,
+      "substantive_bullets": 53,
+      "index_terms": 42,
+      "usage": {
+        "input_tokens": 37440,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3487,
+        "reasoning_output_tokens": 342
+      }
+    },
+    {
+      "record_id": "P126",
+      "doi": "10.3390/curroncol32110645",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1360,
+      "located_bullets": 48,
+      "substantive_bullets": 48,
+      "index_terms": 23,
+      "usage": {
+        "input_tokens": 33708,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2780,
+        "reasoning_output_tokens": 345
+      }
+    },
+    {
+      "record_id": "P127",
+      "doi": "10.3390/ijerph19138208",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1696,
+      "located_bullets": 52,
+      "substantive_bullets": 52,
+      "index_terms": 32,
+      "usage": {
+        "input_tokens": 34159,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3182,
+        "reasoning_output_tokens": 236
+      }
+    },
+    {
+      "record_id": "P128",
+      "doi": "10.3390/nu16162591",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "application_only",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1531,
+      "located_bullets": 42,
+      "substantive_bullets": 42,
+      "index_terms": 28,
+      "usage": {
+        "input_tokens": 39681,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3342,
+        "reasoning_output_tokens": 672
+      }
+    },
+    {
+      "record_id": "P129",
+      "doi": "10.4314/ahs.v23i4.63",
+      "exists": true,
+      "classes": {
+        "disposition": "include-study",
+        "connection": "direct_eq",
+        "euroqol support": "explicit",
+        "project link": "explicit"
+      },
+      "errors": [],
+      "word_count": 1543,
+      "located_bullets": 48,
+      "substantive_bullets": 48,
+      "index_terms": 36,
+      "usage": {
+        "input_tokens": 34260,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3091,
+        "reasoning_output_tokens": 516
+      }
+    }
+  ]
+}

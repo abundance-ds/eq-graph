@@ -1,0 +1,97 @@
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Generator-developed design", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Attribute non-attendance analysis", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "External validity analysis", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Attribute non-attendance", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Attribute level overlap", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "DCE experimental design efficiency", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Respondent engagement and data quality in valuation surveys", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Relative attribute importance of EQ-5D-5L dimensions", "record_id": "P331a66a51c5a"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Software", "name": "TPC-QALY", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Software", "name": "Fortran", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Bayesian D-efficient experimental design optimization", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Modified Fedorov algorithm", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Latin hypercube sampling", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Matched-pairs DCE with duration", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Attribute level overlap", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Sample size calculation for discrete choice experiments", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Conditional logit model with nonlinear multiplicative utility function", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Conditional logit model with linear additive utility function", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Conditional logit model with linear multiplicative utility function", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Hyperbolic discount function", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Power discount function", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Product", "name": "TPC-QALY design optimization software package", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Time-preference-corrected QALY tariffs", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Nonlinear time preferences", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Efficient DCE design", "record_id": "P42480dcbbafa"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "EQ-TIPS", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ALIAS", "alias": "EuroQol Toddler and Infant Populations measure", "canonical_name": "EQ-TIPS", "entity_type": "Instrument", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ALIAS", "alias": "TANDI", "canonical_name": "Toddler and Infant Health-Related Quality of Life measure", "entity_type": "Instrument", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "PedsQL infant and toddler scales", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "TNO-AZL Preschool Children Quality of Life Questionnaire", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ALIAS", "alias": "TAPQOL", "canonical_name": "TNO-AZL Preschool Children Quality of Life Questionnaire", "entity_type": "Instrument", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "Infant and Toddler Quality of Life Questionnaire", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ALIAS", "alias": "ITQOL", "canonical_name": "Infant and Toddler Quality of Life Questionnaire", "entity_type": "Instrument", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "Health Utilities Pre-School", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "Infant Health-Related Quality of Life Instrument (IQI)", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Concept elicitation", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Delphi panel", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Observer-reported outcomes", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Family spillover effects", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Life-course continuity of HRQoL measurement", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Preference-weighted measures for young children", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Developmental change versus health change", "record_id": "P43731963824d"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "EQ-HWB-9 experimental 2022 proxy version, German", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "Daily health fluctuation diary", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "DemTect", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Qualitative content analysis (Mayring)", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Random assignment to recall period version", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Double coding with consensus discussion", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Recall period", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Proxy-proxy versus proxy-person perspective", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Health fluctuation in dementia", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Carer burden", "record_id": "P94878b957eaf"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Severity qualifier rating exercise", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Linguist proofreading", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Version Management Committee review", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Cross-cultural translation and linguistic equivalence", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Severity qualifier ordering", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Child-appropriate wording", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Response fatigue in children", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Product", "name": "EQ-5D-Y-5L Bahasa Indonesia (experimental version)", "record_id": "Pf53a5ee15eef"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Instrument", "name": "Study-specific post COVID-19 symptom severity checklist", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Change score analysis", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Stochastic regression imputation", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Attrition analysis", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Stratified sensitivity analysis", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Software", "name": "R 4.4.1", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Long COVID", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Minimal important change", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Regression to the mean", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Sex differences in health-related quality of life", "record_id": "P9b4818f6b5e2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Systematic database search", "record_id": "Pd44d1f7862a2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Instrument feasibility", "record_id": "Pd44d1f7862a2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Older adults", "record_id": "Pd44d1f7862a2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Mode of administration", "record_id": "Pd44d1f7862a2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Missing data and item nonresponse", "record_id": "Pd44d1f7862a2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Cognitive impairment", "record_id": "Pd44d1f7862a2"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Modified nominal group technique", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Purposive sampling", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Informal evidence review", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "Descriptive statistics", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Software", "name": "Microsoft Excel", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Protocol", "name": "Consolidated Health Economic Evaluation Reporting Standards 2022", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Family and caregiver health spillovers", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Double counting of spillover effects", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Equity weighting and distributional consequences", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Opportunity cost and displaced or foregone health", "record_id": "Pac4f1e0ea5c5"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "DCE-to-cTTO mapping", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Method", "name": "cTTO feedback module", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Power mapping model without constant", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Power mapping model with constant", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Linear mapping model with constant", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Linear mapping model without constant", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Model", "name": "Hybrid cTTO-DCE model", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Child health valuation from an adult perspective", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Two-step DCE anchoring onto cTTO", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Valuation protocol design expansion", "record_id": "P9cd3ec6c2594"}
+{"action": "ADD_REGISTRY_ENTITY", "entity_type": "Concept", "name": "Valuation in low- and middle-income settings", "record_id": "P9cd3ec6c2594"}

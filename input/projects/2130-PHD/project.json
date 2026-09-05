@@ -1,0 +1,24 @@
+{
+  "project_id": "2130-PHD",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2130,
+  "call_year": null,
+  "grant_type_code": "PHD",
+  "grant_type": "2.1 PhD grant",
+  "revision": null,
+  "title": "3.5 year PhD Studentship on ‘Identifying, developing and testing methods to generate EQ-5D-5L bolt-on value sets: What can and should be done?’",
+  "pi_name_raw": "yaling Yang",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 188109,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2029,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 546,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

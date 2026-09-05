@@ -1,0 +1,25 @@
+{
+  "project_id": "2177-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2177,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Quantitative testing of Experimental and Modified version of EQ-HWB-S using EQ-DAPHNIE data from Argentina and Germany",
+  "pi_name_raw": "Fredrick Purba",
+  "working_groups": [
+    "Populations and Health Systems",
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 11508,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 599,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "426-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 426,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Health-Related Quality of Life in children dependent on technology for breathing",
+  "pi_name_raw": "Janine Verstraete",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 38855,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 254,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

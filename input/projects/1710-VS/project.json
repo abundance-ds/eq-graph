@@ -1,0 +1,24 @@
+{
+  "project_id": "1710-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1710,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "Valuation of the EQ-5D-5L in Greece",
+  "pi_name_raw": "John (Yannis) Yfantopoulos",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 50000,
+  "status": "Ongoing",
+  "start_year": 2023,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 893,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

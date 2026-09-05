@@ -1,0 +1,24 @@
+{
+  "project_id": "2040-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2040,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Investigating the Interpretation of EQ-HWB and EQ-HWB-S Response Options in the UK, USA, Germany, and China",
+  "pi_name_raw": "Maja Kuharic",
+  "working_groups": [
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 86170,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 534,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

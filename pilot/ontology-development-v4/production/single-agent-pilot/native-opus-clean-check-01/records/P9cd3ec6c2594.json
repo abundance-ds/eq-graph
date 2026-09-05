@@ -1,0 +1,1273 @@
+{
+  "record_id": "P9cd3ec6c2594",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "20180490"
+    ],
+    "reason": "Explicit EuroQol funding statement naming EQ Project 20180490, and the paper is the direct output of candidate project 20180490 on expanding the number of cTTO states in the EQ-5D-Y-3L valuation protocol in Indonesia.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "P9cd3ec6c2594",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol Research Foundation grant EQ Project 20180490 (unrestricted) funded the Indonesian EQ-5D-Y-3L valuation study; the EuroQol Group also supplied the EQ-PVT valuation software, the standard EQ-5D-Y-3L valuation protocol and quality-control support, and the journal supplement was funded by the EuroQol Research Foundation.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "Explicit EuroQol funding statement naming EQ Project 20180490, and the paper is the direct output of candidate project 20180490 on expanding the number of cTTO states in the EQ-5D-Y-3L valuation protocol in Indonesia.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Indonesian EQ-5D-Y-3L valuation study with expanded cTTO design (DCE anchored onto cTTO)",
+        "primary_research_family": "VALUE_SET_DEVELOPMENT",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The study elicits adult stated preferences for EQ-5D-Y-3L states in Indonesia with DCE and composite TTO and produces the first Indonesian EQ-5D-Y-3L value set, while methodologically testing an expanded number of cTTO states and alternative anchoring functions.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "PU1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "VALUE_SET_DEVELOPMENT",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "PU2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "VALUATION_METHOD_EVALUATION",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "StudyPart",
+        "id": "PDCE",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Discrete choice experiment survey in a representative Indonesian adult sample",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "StudyPart",
+        "id": "PTTO",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Composite time trade-off interviews for 23 EQ-5D-Y-3L states in Java",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "StudyPart",
+        "id": "PMAP",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Modelling and anchoring: mixed-logit DCE model mapped onto mean observed cTTO values",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "QUANTITATIVE_EMPIRICAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "CROSS_SECTIONAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "axis": "comparison_structure",
+        "value": "BETWEEN_METHOD",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NONRANDOMIZED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D5",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "axis": "comparison_structure",
+        "value": "NONCOMPARATIVE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D6",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "axis": "comparison_structure",
+        "value": "NONCOMPARATIVE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "label": "Indonesian adult general population (DCE respondents)",
+        "role": "Adult respondents valuing child health states from the perspective of a 10-year-old child",
+        "geographies": [
+          "Indonesia",
+          "Java",
+          "Sumatera",
+          "Sulawesi",
+          "Kalimantan"
+        ],
+        "conditions": [],
+        "age_description": "Adults aged 17 years and older (quota groups 17-30, 31-50, above 50 years)",
+        "inclusion_description": "Multi-stage stratified quota sampling by urban/rural residence, age, sex and education, with religion and island of residence quotas; respondents had to have lived at least half their life on the island represented; interviews in 14 cities and surrounding rural areas",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "label": "Adults living on Java (cTTO respondents)",
+        "role": "Adult respondents valuing child health states in composite time trade-off interviews",
+        "geographies": [
+          "Indonesia",
+          "Java (Jakarta and Bandung district)"
+        ],
+        "conditions": [],
+        "age_description": "Adults aged 17 years and older",
+        "inclusion_description": "Quota selection by living area (urban/rural) and sex; sample mutually exclusive from the DCE sample",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "population_id": "POP1",
+        "stage": "COMPLETED",
+        "size": 1090,
+        "size_text": "1090 respondents completed the DCE interview",
+        "unit": "respondents",
+        "description": "Completed face-to-face paper-based DCE interviews",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA2",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "population_id": "POP1",
+        "stage": "EXCLUDED",
+        "size": 18,
+        "size_text": "18 excluded",
+        "unit": "respondents",
+        "description": "Excluded for failing the logically dominant choice pair check",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA3",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "population_id": "POP1",
+        "stage": "ANALYZED",
+        "size": 1072,
+        "size_text": "1072 respondents, 16,080 choice observations",
+        "unit": "respondents",
+        "description": "Analysed DCE sample, each completing 15 choice pairs",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA4",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "population_id": "POP2",
+        "stage": "COMPLETED",
+        "size": 228,
+        "size_text": "228 respondents completed the cTTO interview",
+        "unit": "respondents",
+        "description": "Completed computer-assisted personal cTTO interviews",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA5",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "population_id": "POP2",
+        "stage": "EXCLUDED",
+        "size": 6,
+        "size_text": "6 excluded",
+        "unit": "respondents",
+        "description": "Two excluded for non-trading and four because they could not understand the task",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA6",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "population_id": "POP2",
+        "stage": "ANALYZED",
+        "size": 222,
+        "size_text": "222 respondents providing 2664 cTTO observations",
+        "unit": "respondents",
+        "description": "Analysed cTTO sample; each respondent valued 12 states from one of two blocks",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Estimate latent-scale EQ-5D-Y-3L values from adult choices",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "DCE choice responses"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Anchor latent DCE values on the full health-dead QALY scale",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Composite time trade-off values for 23 health states"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU3",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "origin": "DOCUMENTARY_SOURCE",
+        "level": "AGGREGATE_ESTIMATE",
+        "purpose": "Define sampling quotas and assess representativeness of the samples",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Indonesian Bureau of Statistics general population figures"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "VALUATION_TARGET",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "EQ-5D-Y-3L",
+        "registry_id": "instrument:eq-5d-y-3l"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "EQ-5D-5L",
+        "registry_id": "instrument:eq-5d-5l"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREFERENCE_ELICITATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Discrete choice experiment",
+        "registry_id": "method:dce"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREFERENCE_ELICITATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Composite time trade-off",
+        "registry_id": "method:ctto"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREFERENCE_ELICITATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Lead-time TTO",
+        "registry_id": "method:lead-time-tto"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "SAMPLING",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Multi-stage stratified quota sampling",
+        "registry_id": "method:multistage-stratified-quota-sampling"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU5",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Orthogonal experimental design",
+        "registry_id": "method:orthogonal-design"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU6",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "MAPPING_OR_DERIVATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "DCE-to-cTTO mapping",
+        "registry_id": "method:dce-to-ctto-mapping"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU8",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "cTTO feedback module",
+        "registry_id": "method:ctto-feedback-module"
+      },
+      {
+        "type": "ProtocolUse",
+        "id": "PR1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "VALUATION_PROTOCOL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "International EQ-5D-Y-3L valuation protocol",
+        "registry_id": "protocol:eq-5d-y-3l-international-valuation"
+      },
+      {
+        "type": "ProtocolUse",
+        "id": "PR2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL_PROTOCOL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "EQ-5D-5L valuation quality-control process",
+        "registry_id": "protocol:eq-5d-5l-valuation-qc-2017"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU1",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "VALUATION_ADMINISTRATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "EuroQol Portable Valuation Technology",
+        "registry_id": "software:eq-pvt"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CHOICE_MODELING",
+        "analytic_role": "PRIMARY_REPORTED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Mixed logit model",
+        "registry_id": "model:mixed-logit"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO2",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "MAPPING",
+        "analytic_role": "PRIMARY_REPORTED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Power mapping model without constant",
+        "registry_id": "model:power-mapping-model-without-constant"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO3",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "MAPPING",
+        "analytic_role": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Power mapping model with constant",
+        "registry_id": "model:power-mapping-model-with-constant"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO4",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "MAPPING",
+        "analytic_role": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Linear mapping model with constant",
+        "registry_id": "model:linear-mapping-model-with-constant"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO5",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "MAPPING",
+        "analytic_role": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Linear mapping model without constant",
+        "registry_id": "model:linear-mapping-model-without-constant"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO6",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "STATISTICAL_ESTIMATION",
+        "analytic_role": "SENSITIVITY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Hybrid cTTO-DCE model",
+        "registry_id": "model:hybrid-ctto-dce-model"
+      },
+      {
+        "type": "TaskDesign",
+        "id": "TD1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "applies_to": [
+          "IU1",
+          "MU1"
+        ],
+        "label": "EQ-5D-Y-3L discrete choice experiment design",
+        "profiles": [
+          "Paired EQ-5D-Y-3L health states"
+        ],
+        "attributes": [
+          "Mobility (walking about)",
+          "Looking after myself",
+          "Doing usual activities",
+          "Having pain or discomfort",
+          "Feeling worried, sad or unhappy"
+        ],
+        "levels": [
+          "No problems",
+          "Some problems",
+          "A lot of problems"
+        ],
+        "duration": "Minimum plausible interview duration of 300 seconds",
+        "alternatives": "Two health state alternatives per choice pair, with two attributes held at overlapping levels",
+        "task_count": "15 choice pairs per respondent, plus two practice tasks and one dominant pair attentiveness check",
+        "block": "10 blocks of 15 pairs",
+        "order": "Health state pair presentation order randomised, as was left/right presentation",
+        "randomization_unit": "Respondent",
+        "stopping_rule": null,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "TaskDesign",
+        "id": "TD2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "applies_to": [
+          "IU1",
+          "MU2",
+          "MU3"
+        ],
+        "label": "Expanded composite time trade-off design with 23 health states",
+        "profiles": [
+          "11112",
+          "11113",
+          "23111",
+          "32211",
+          "13212",
+          "13321",
+          "21322",
+          "22232",
+          "31313",
+          "33122",
+          "33332",
+          "33333",
+          "11121",
+          "21131",
+          "12123",
+          "31221",
+          "11232",
+          "12331",
+          "22312",
+          "22223",
+          "32132",
+          "32232",
+          "23233"
+        ],
+        "attributes": [
+          "Mobility (walking about)",
+          "Looking after myself",
+          "Doing usual activities",
+          "Having pain or discomfort",
+          "Feeling worried, sad or unhappy"
+        ],
+        "levels": [
+          "No problems",
+          "Some problems",
+          "A lot of problems"
+        ],
+        "duration": "10 years of impaired health in Life B; 10 years of full health as lead time for worse-than-dead states (total 20 years); at least 30 seconds per cTTO task on average",
+        "alternatives": "Life A (full health), Life B (impaired health), or 'about the same'",
+        "task_count": "12 states per respondent (23 unique states, 33333 in both blocks), about 100 observations per state",
+        "block": "Two blocks of 12 states",
+        "order": null,
+        "randomization_unit": "Respondent",
+        "stopping_rule": "Iteration over lifespan until indifference reached",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Administration",
+        "id": "AD1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "applies_to": [
+          "IU1",
+          "MU1",
+          "TD1"
+        ],
+        "respondent": "Adult general population respondents",
+        "perspective": "Adults considering their views for a 10-year-old child",
+        "completion": "Interviewer-administered paper-based questionnaire",
+        "assistance": "Trained interviewers gave instructions, practice tasks and re-explanation after illogical responses",
+        "channel": "Paper-based, face-to-face",
+        "setting": "Public places such as mosques, universities and markets in 14 cities and surrounding rural areas",
+        "instrument_language": null,
+        "interview_language": null,
+        "recall_period": null,
+        "time_point": "4 August 2019 to 14 November 2019",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Administration",
+        "id": "AD2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "applies_to": [
+          "IU1",
+          "MU2",
+          "SU1",
+          "TD2"
+        ],
+        "respondent": "Adult general population respondents on Java",
+        "perspective": "Adults considering their views for a 10-year-old child",
+        "completion": "Computer-assisted personal interview",
+        "assistance": "Trained interviewers using wheelchair practice examples and a feedback module",
+        "channel": "Computer-assisted face-to-face interview using offline EQ-PVT software",
+        "setting": "Interview sites in Jakarta (urban) and Bandung district (rural)",
+        "instrument_language": null,
+        "interview_language": null,
+        "recall_period": null,
+        "time_point": "6 August 2019 to 2 September 2019",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "family": "PREFERENCE_OR_UTILITY",
+        "label": "Latent-scale DCE values for EQ-5D-Y-3L dimension levels",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "family": "PREFERENCE_OR_UTILITY",
+        "label": "Mean observed composite time trade-off values for 23 EQ-5D-Y-3L states",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU3",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "Fit of alternative anchoring functions (R-squared, mean absolute error, logical consistency)",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Product",
+        "id": "PD1",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "label": "Indonesian EQ-5D-Y-3L value set",
+        "product_type": "VALUE_SET",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "ProductStateAssertion",
+        "id": "PS1",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "product_id": "PD1",
+        "axis": "DEVELOPMENT",
+        "exact_state": "First EQ-5D-Y-3L value set for Indonesia, now available for cost-utility analyses and health-related quality-of-life studies for children in Indonesia",
+        "assertion_date": "2022",
+        "asserted_by": "Study authors",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "ScoringUse",
+        "id": "SC1",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "instrument_use_id": "IU1",
+        "product_id": "PD1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "source_label": "Indonesian EQ-5D-Y-3L value set",
+        "registry_id": "product:eq-5d-y-3l-id"
+      },
+      {
+        "type": "Finding",
+        "id": "FI1",
+        "study_id": "S1",
+        "part_id": "PDCE",
+        "statement": "The mixed-logit DCE model produced logically ordered, statistically significant coefficients; pain/discomfort carried the largest weight and self-care the smallest, with wide preference heterogeneity across respondents.",
+        "about": [
+          "MU1",
+          "MO1",
+          "IU1",
+          "OU1"
+        ],
+        "values": [
+          {
+            "reported_value": "-2.173",
+            "unit": "mixed-logit coefficient",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Pain/discomfort level 3",
+            "comparator": null,
+            "direction": "Largest disutility",
+            "uncertainty": "SE 0.083"
+          },
+          {
+            "reported_value": "-1.711",
+            "unit": "mixed-logit coefficient",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Self-care level 3",
+            "comparator": null,
+            "direction": "Smallest disutility among level 3 coefficients",
+            "uncertainty": "SE 0.083"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI2",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "statement": "The 222 cTTO respondents provided 2664 observations; mean observed values ranged from -0.185 for state 33333 to 0.939 for state 11121, and 8.9% of values were negative, with 76% of negative values concentrated in states 33332 and 33333.",
+        "about": [
+          "MU2",
+          "OU2",
+          "CO1"
+        ],
+        "values": [
+          {
+            "reported_value": "-0.185",
+            "unit": "cTTO value",
+            "denominator": null,
+            "time": null,
+            "subgroup": "State 33333",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "0.939",
+            "unit": "cTTO value",
+            "denominator": null,
+            "time": null,
+            "subgroup": "State 11121",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "238 (8.9%)",
+            "unit": "negative cTTO observations",
+            "denominator": "2664 observations",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI3",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "statement": "The distribution of mean cTTO values was non-linear: values for the two worst states were far lower than a linear main-effects model over all cTTO data predicted.",
+        "about": [
+          "MU2",
+          "OU2"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI4",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "statement": "Non-linear (power) mapping functions outperformed linear mapping in fit and accuracy; the power model with a constant fitted best statistically but mispredicted mild states, so the power model without a constant was preferred.",
+        "about": [
+          "MO2",
+          "MO3",
+          "MO4",
+          "MO5",
+          "OU3"
+        ],
+        "values": [
+          {
+            "reported_value": "0.0458",
+            "unit": "mean absolute error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Power mapping with constant",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": "R-squared 0.9856"
+          },
+          {
+            "reported_value": "0.0598",
+            "unit": "mean absolute error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Power mapping without constant (preferred)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": "R-squared 0.9773"
+          },
+          {
+            "reported_value": "0.0853",
+            "unit": "mean absolute error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Linear mapping",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": "R-squared 0.827"
+          },
+          {
+            "reported_value": "0.0916",
+            "unit": "mean absolute error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Linear mapping without constant",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": "R-squared 0.926"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI5",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "statement": "The final Indonesian EQ-5D-Y-3L value set applies a rescaling coefficient of 0.1048 and a power of 1.9013 and ranges from 1.000 for full health (11111) to -0.086 for the worst state (33333), with pain/discomfort the most and self-care the least important dimension.",
+        "about": [
+          "PD1",
+          "MO2"
+        ],
+        "values": [
+          {
+            "reported_value": "1.000",
+            "unit": "value",
+            "denominator": null,
+            "time": null,
+            "subgroup": "State 11111",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "-0.086",
+            "unit": "value",
+            "denominator": null,
+            "time": null,
+            "subgroup": "State 33333",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "0.791",
+            "unit": "value",
+            "denominator": null,
+            "time": null,
+            "subgroup": "State 12312 (worked example)",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI6",
+        "study_id": "S1",
+        "part_id": "PMAP",
+        "statement": "Hybrid modelling was not viable because DCE observations (16,080) far outnumbered cTTO observations (2220), so the hybrid estimates almost entirely reproduced the DCE model and did not reflect respondents' cTTO scale use.",
+        "about": [
+          "MO6"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI7",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Compared with the adult Indonesian EQ-5D-5L valuation, far fewer cTTO observations were negative in the youth valuation (2.5% versus 35.4%), and dimension importance differed, with pain/discomfort most important for children but least important for adults.",
+        "about": [
+          "IU1",
+          "IU3",
+          "CO1"
+        ],
+        "values": [
+          {
+            "reported_value": "2.5%",
+            "unit": "negative cTTO scores",
+            "denominator": null,
+            "time": null,
+            "subgroup": "EQ-5D-Y-3L youth valuation",
+            "comparator": "EQ-5D-5L adult valuation (35.4%)",
+            "direction": "Lower",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI8",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The analysed DCE sample matched the Indonesian general population on residence, sex, age, education, island of residence and religion within an absolute difference of about 5%, while the cTTO sample came entirely from Java and over-represented middle education levels.",
+        "about": [
+          "MU4",
+          "POP1",
+          "POP2"
+        ],
+        "values": [
+          {
+            "reported_value": "100%",
+            "unit": "cTTO respondents living on Java",
+            "denominator": "222 cTTO respondents",
+            "time": null,
+            "subgroup": null,
+            "comparator": "56.81% of the general population",
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Mapping a mixed-logit DCE model with a power term and no constant gives a consistent first EQ-5D-Y-3L value set for Indonesia based on adult preferences for a 10-year-old child.",
+        "finding_ids": [
+          "FI1",
+          "FI4",
+          "FI5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The results support expanding the cTTO component of the EQ-5D-Y valuation design beyond ten states, because the larger set of states made the non-linearity visible and allowed the mapping function to be identified.",
+        "finding_ids": [
+          "FI3",
+          "FI4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Choosing a non-linear transformation violates the interval-scale assumption for combined cTTO/DCE values, but was preferred because linear mapping either produced values above 1 for mild states or mispredicted severe states by about 0.4; the ordering of states was preserved.",
+        "finding_ids": [
+          "FI4",
+          "FI5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Divergence between cTTO-derived and DCE-derived values raises a concern about the commensurability of the two methods and needs further reflection for protocols requiring input from both.",
+        "finding_ids": [
+          "FI3",
+          "FI4",
+          "FI6"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Differences between the Indonesian youth and adult value sets justify separate value sets for children and adults.",
+        "finding_ids": [
+          "FI7"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "LI1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Even the expanded 23-state cTTO design was too small: few cTTO values were collected where the value curve bends most, and the design could not support model specifications other than main effects, so the decision between mapping functions rested largely on two outlying observations.",
+        "about": [
+          "TD2",
+          "MU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "LI2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "DCE and cTTO participants were sampled differently; cTTO data came from one island (Java) with quotas only on age and sex, so the cTTO values were less representative of the Indonesian adult population than the DCE values.",
+        "about": [
+          "MU4",
+          "POP2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "LI3",
+        "study_id": "S1",
+        "part_id": "PTTO",
+        "statement": "The number of observations per cTTO state was halved to about 100 to allow more states, which lowers the reliability of each individual data point.",
+        "about": [
+          "TD2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "CO1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Lead-time TTO used for states valued below dead; negative values concentrated in the two most severe states.",
+        "about": [
+          "MU3",
+          "MU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "label": "Health states worse than dead"
+      },
+      {
+        "type": "Concept",
+        "id": "CO2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Adults value EQ-5D-Y-3L states considering their views for a 10-year-old child.",
+        "about": [
+          "IU1",
+          "AD1",
+          "AD2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "label": "Child health valuation from an adult perspective"
+      },
+      {
+        "type": "Concept",
+        "id": "CO3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Latent DCE values anchored on the full health-dead QALY scale using cTTO values through linear or non-linear mapping.",
+        "about": [
+          "MU6",
+          "MO2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "label": "Two-step DCE anchoring onto cTTO"
+      },
+      {
+        "type": "Concept",
+        "id": "CO4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Experimental expansion of the number of cTTO states in the standard EQ-5D-Y-3L valuation protocol.",
+        "about": [
+          "PR1",
+          "TD2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "label": "Valuation protocol design expansion"
+      },
+      {
+        "type": "Concept",
+        "id": "CO5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Offline valuation software and face-to-face paper-based DCE used to reach respondents with limited internet access and low education.",
+        "about": [
+          "SU1",
+          "AD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ],
+        "label": "Valuation in low- and middle-income settings"
+      },
+      {
+        "type": "Gap",
+        "id": "GA1",
+        "study_id": "S1",
+        "part_id": null,
+        "state": "NOT_REPORTED",
+        "affected_item_id": "AD1",
+        "affected_type": "Administration",
+        "affected_key": "instrument_language",
+        "evidence": "The paper describes face-to-face interviews across Indonesia but does not state the language version of the EQ-5D-Y-3L materials or the interview language.",
+        "importance": "Language version is a distinguishing feature of EuroQol valuation studies.",
+        "proposed_resolution": "Check the EQ-5D-Y-3L Indonesian translation record or contact the authors.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9cd3ec6c2594.md"
+        ]
+      }
+    ]
+  }
+}

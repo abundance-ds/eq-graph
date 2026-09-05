@@ -1,0 +1,25 @@
+{
+  "project_id": "83-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 83,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "An Australian Value Set for the EQ-5D-Y",
+  "pi_name_raw": "Richard Norman",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 135918,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 278,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

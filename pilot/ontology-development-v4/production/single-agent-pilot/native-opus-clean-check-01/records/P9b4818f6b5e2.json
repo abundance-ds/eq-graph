@@ -1,0 +1,1014 @@
+{
+  "record_id": "P9b4818f6b5e2",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "1569-RA"
+    ],
+    "reason": "Funding statement names the EuroQol Research Foundation (EQ Project1569-RA) to Sander van Kuijk, and the paper reports the Long CORFU 3-year follow-up that is the candidate project's data collection.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "P9b4818f6b5e2",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol Research Foundation grant EQ Project1569-RA supported the Long CORFU three-year follow-up questionnaire and this longitudinal EQ-5D-5L analysis; ZonMw co-funded the work.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "Funding statement names the EuroQol Research Foundation (EQ Project1569-RA) to Sander van Kuijk, and the paper reports the Long CORFU 3-year follow-up that is the candidate project's data collection.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Longitudinal analysis of EQ-5D-5L HRQoL change between 2 and 3 years after COVID-19 in Dutch adults with post COVID-19 condition (CORFU/Long CORFU)",
+        "primary_research_family": "HEALTH_OUTCOME_RESEARCH",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The study describes and models within-person change in EQ-5D-5L utility and EQ VAS in a clinical cohort with post COVID-19 condition, rather than developing values or testing measurement properties.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "OUTCOME_DESCRIPTION",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "LONGITUDINAL_REPEATED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "WITHIN_PERSON",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "QUANTITATIVE_EMPIRICAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NONRANDOMIZED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Dutch adult COVID-19 survivors with post COVID-19 condition from the CORFU cohorts (COVAS, MaastrICCht, ELVIS)",
+        "role": "Target population of the longitudinal HRQoL analysis",
+        "geographies": [
+          "Netherlands"
+        ],
+        "conditions": [
+          "Post COVID-19 condition",
+          "SARS-CoV-2 infection"
+        ],
+        "age_description": "Adults aged at least 18 years at cohort admission; mean age 64 years (SD 12)",
+        "inclusion_description": "Confirmed SARS-CoV-2 infection (PCR positive or CO-RADS 4-5) during March-December 2020, sufficient knowledge of Dutch, participation in both the 2-year and 3-year follow-up, and meeting the post COVID-19 condition definition at 2 years (at least one symptom scored 3 or higher that was new or worsened after infection)",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA1",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "ANALYZED",
+        "size": 158,
+        "size_text": "158 participants",
+        "unit": "participants",
+        "description": "Participants meeting the post COVID-19 condition definition at 2 years with both 2- and 3-year questionnaires; 68% male, 97% ethnically Dutch, 64% hospital ward and 27% ICU during acute COVID-19",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA2",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "COMPLETED",
+        "size": 135,
+        "size_text": "135 (85%)",
+        "unit": "participants",
+        "description": "Participants who still met the post COVID-19 condition definition at the 3-year follow-up",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Self-report follow-up questionnaires at 2 and 3 years after infection, including EQ-5D-5L, EQ VAS, symptoms and patient characteristics",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "CORFU and Long CORFU follow-up questionnaire data"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU2",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "PRIOR_RESEARCH_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Acute-phase clinical and sociodemographic characteristics from the contributing Dutch COVID-19 cohorts",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "COVAS, MaastrICCht and ELVIS cohort baseline data"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CURRENT_HEALTH_MEASUREMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "EQ-5D-5L",
+        "registry_id": "instrument:eq-5d-5l"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CURRENT_HEALTH_MEASUREMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "EQ VAS",
+        "registry_id": "instrument:eq-vas"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREDICTOR_MEASURE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Study-specific post COVID-19 symptom severity checklist",
+        "registry_id": "instrument:study-specific-post-covid-19-symptom-severity-checklist"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "SF-36",
+        "registry_id": "instrument:sf-36"
+      },
+      {
+        "type": "ScoringUse",
+        "id": "SC1",
+        "study_id": "S1",
+        "part_id": null,
+        "instrument_use_id": "IU1",
+        "product_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Netherlands EQ-5D-5L value set (2016)",
+        "registry_id": "product:eq-5d-5l-nl-2016"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Self-administered survey",
+        "registry_id": "method:self-administered-survey"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Change score analysis",
+        "registry_id": "method:change-score-analysis"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Stochastic regression imputation",
+        "registry_id": "method:stochastic-regression-imputation"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "One-sample t-test",
+        "registry_id": "method:one-sample-t-test"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Attrition analysis",
+        "registry_id": "method:attrition-analysis"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Stratified sensitivity analysis",
+        "registry_id": "method:stratified-sensitivity-analysis"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "STATISTICAL_ESTIMATION",
+        "analytic_role": "PRIMARY_REPORTED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "Multivariate linear regression model",
+        "registry_id": "model:multivariate-linear-regression"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SW1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "source_label": "R 4.4.1",
+        "registry_id": "software:r-4-4-1"
+      },
+      {
+        "type": "Administration",
+        "id": "AD1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1",
+          "IU2",
+          "IU3"
+        ],
+        "respondent": "Patient self-report",
+        "perspective": "Self",
+        "completion": "Self-completed",
+        "assistance": null,
+        "channel": "Digital or paper questionnaire",
+        "setting": "Home / postal and online follow-up",
+        "instrument_language": "Dutch",
+        "interview_language": null,
+        "recall_period": "Current health at the moment of completing the questionnaire",
+        "time_point": "2 years and 3 years after SARS-CoV-2 infection; data collected March 2023 to February 2024",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Post COVID-19 condition at 2-year follow-up",
+        "levels": [
+          "Present"
+        ],
+        "role": "STUDIED_CONDITION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Sex",
+        "levels": [
+          "Male",
+          "Female"
+        ],
+        "role": "EFFECT_MODIFIER",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF3",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Age group",
+        "levels": [
+          "<67 years",
+          ">=67 years"
+        ],
+        "role": "EFFECT_MODIFIER",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF4",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Problems with social participation at 2-year follow-up",
+        "levels": [
+          "No problems",
+          "Having problems"
+        ],
+        "role": "EXPOSURE_OR_DETERMINANT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF5",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Severity of acute COVID-19 illness by treatment setting",
+        "levels": [
+          "Home",
+          "Hospital ward",
+          "ICU"
+        ],
+        "role": "EXPOSURE_OR_DETERMINANT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF6",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Initial (2-year) HRQoL level",
+        "levels": [
+          "Low",
+          "Moderate",
+          "High"
+        ],
+        "role": "STRATIFIER",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "PREFERENCE_OR_UTILITY",
+        "label": "Within-person change in EQ-5D-5L utility (Dutch value set) between 2 and 3 years",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O2",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "HEALTH_STATUS_OR_EQ_VAS",
+        "label": "Within-person change in EQ VAS between 2 and 3 years",
+        "instrument_use_ids": [
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O3",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "CLINICAL_EVENT_OR_MORBIDITY",
+        "label": "Persistence of post COVID-19 condition symptoms at 3 years",
+        "instrument_use_ids": [
+          "IU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Mean within-person change in EQ-5D-5L utility and EQ VAS between 2 and 3 years after infection was not significantly different from zero.",
+        "about": [
+          "O1",
+          "O2"
+        ],
+        "values": [
+          {
+            "reported_value": "0.008",
+            "unit": "EQ-5D-5L utility change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years after infection",
+            "subgroup": null,
+            "comparator": "No change (zero)",
+            "direction": "No significant change",
+            "uncertainty": "95% CI -0.02 to 0.04; p=0.553"
+          },
+          {
+            "reported_value": "0.9",
+            "unit": "EQ VAS points change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years after infection",
+            "subgroup": null,
+            "comparator": "No change (zero)",
+            "direction": "No significant change",
+            "uncertainty": "95% CI -1.6 to 3.4; p=0.467"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Individual change scores varied widely in both directions: about 30% declined, 32% improved and 37% showed no change in utility, with a similar spread for EQ VAS.",
+        "about": [
+          "O1",
+          "O2"
+        ],
+        "values": [
+          {
+            "reported_value": "30%",
+            "unit": "proportion of participants",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Utility decline (median -0.12, min -0.875, max -0.066)",
+            "comparator": null,
+            "direction": "Decline",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "32%",
+            "unit": "proportion of participants",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Utility improvement (median 0.157, min 0.061, max 0.703)",
+            "comparator": null,
+            "direction": "Improvement",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "37%",
+            "unit": "proportion of participants",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Utility no change",
+            "comparator": null,
+            "direction": "Stable",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "36% decline, 37% improvement, 27% no change",
+            "unit": "proportion of participants",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "EQ VAS",
+            "comparator": null,
+            "direction": "Mixed",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "In the multivariable model, female sex was associated with lower (declining) utility change scores, with a significant positive interaction for women aged 67 years or older.",
+        "about": [
+          "O1",
+          "SF2",
+          "SF3"
+        ],
+        "values": [
+          {
+            "reported_value": "-0.10",
+            "unit": "adjusted beta, utility change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Female vs male",
+            "comparator": "Male",
+            "direction": "Lower change score",
+            "uncertainty": "95% CI -0.18 to -0.02; p=0.012"
+          },
+          {
+            "reported_value": "0.14",
+            "unit": "adjusted beta, utility change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Female and age >=67 interaction",
+            "comparator": "Female aged <67",
+            "direction": "Higher change score",
+            "uncertainty": "95% CI 0.02 to 0.27; p=0.028"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Participants reporting social participation problems at 2 years had higher subsequent change scores on both EQ utility and EQ VAS.",
+        "about": [
+          "O1",
+          "O2",
+          "SF4"
+        ],
+        "values": [
+          {
+            "reported_value": "0.09",
+            "unit": "adjusted beta, utility change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Having social participation problems",
+            "comparator": "No problems",
+            "direction": "Higher change score",
+            "uncertainty": "95% CI 0.00 to 0.17; p=0.043"
+          },
+          {
+            "reported_value": "11",
+            "unit": "adjusted beta, EQ VAS points change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Having social participation problems",
+            "comparator": "No problems",
+            "direction": "Higher change score",
+            "uncertainty": "95% CI 3.9 to 19; p=0.003"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Median EQ-5D-5L utility and EQ VAS levels were similar at 2 and 3 years, and most participants still met the post COVID-19 condition definition at 3 years.",
+        "about": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "values": [
+          {
+            "reported_value": "0.739 (Q1 0.596, Q3 0.821)",
+            "unit": "EQ-5D-5L utility, Dutch value set",
+            "denominator": "158 participants",
+            "time": "2-year follow-up",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "0.743 (Q1 0.592, Q3 0.817)",
+            "unit": "EQ-5D-5L utility, Dutch value set",
+            "denominator": "158 participants",
+            "time": "3-year follow-up",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "64.0 (Q1 50.0, Q3 75.0)",
+            "unit": "EQ VAS",
+            "denominator": "158 participants",
+            "time": "2-year follow-up",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "64.0 (Q1 50.3, Q3 73.8)",
+            "unit": "EQ VAS",
+            "denominator": "158 participants",
+            "time": "3-year follow-up",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "135 (85%)",
+            "unit": "participants with persisting post COVID-19 condition",
+            "denominator": "158 participants",
+            "time": "3-year follow-up",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Direction of change depended on initial HRQoL: participants with low initial utility tended to improve, while those with high initial utility most often showed no change.",
+        "about": [
+          "O1",
+          "SF6"
+        ],
+        "values": [
+          {
+            "reported_value": "Improvement predominant in the low initial utility stratum; no change predominant in the high initial utility stratum",
+            "unit": null,
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Strata of 2-year utility (<0.5, 0.5-0.8, 0.8-1.0)",
+            "comparator": null,
+            "direction": "Mixed",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F7",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The most frequent post COVID-19 symptoms at the 2-year follow-up were fatigue, muscle pain or weakness, and sleeping problems, and the sex association seen for utility was not seen for EQ VAS.",
+        "about": [
+          "O2",
+          "O3"
+        ],
+        "values": [
+          {
+            "reported_value": "-2.2",
+            "unit": "adjusted beta, EQ VAS points change",
+            "denominator": "158 participants",
+            "time": "2 to 3 years",
+            "subgroup": "Female vs male",
+            "comparator": "Male",
+            "direction": "Not significant",
+            "uncertainty": "95% CI -9.4 to 4.9; p=0.537"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Individual HRQoL trajectories in post COVID-19 condition are highly heterogeneous within a one-year window, so group means hide substantial declines and improvements.",
+        "finding_ids": [
+          "F1",
+          "F2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Women, particularly younger women, appear more vulnerable to prolonged HRQoL decline, supporting sex-specific investigation of recovery in post COVID-19 condition.",
+        "finding_ids": [
+          "F3",
+          "F7"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Improvement among those with initial social participation problems may reflect psychological adaptation and social context, while the opposite pattern in initially healthier participants may reflect regression to the mean or ceiling limits of the scales.",
+        "finding_ids": [
+          "F4",
+          "F6"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Persisting symptoms at three years alongside HRQoL improvement in about a third of participants suggests that perceived quality of life is not proportional to symptom burden.",
+        "finding_ids": [
+          "F2",
+          "F5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Loss to follow-up differed by sex and social participation, so selective attrition mechanisms cannot be ruled out and the direction of any bias is uncertain.",
+        "about": [
+          "SA1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Whether symptoms predated the infection relied on recall two years after infection, so recall bias is possible.",
+        "about": [
+          "IU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Other potential influences such as unrelated health conditions, life events or reinfection were not assessed.",
+        "about": [
+          "S1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Men were overrepresented because of the sampling of the contributing cohorts, and some subgroups were underrepresented in the stratified analyses, so secondary patterns are exploratory.",
+        "about": [
+          "SA1",
+          "MU6"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The trend of decline in high baseline health and improvement in low baseline health may reflect moderate measurement reliability of the EQ measures or regression to the mean.",
+        "about": [
+          "O1",
+          "O2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The EQ-5D-5L index is an aggregate score that does not separate physical and mental domains, limiting comparison with domain-specific studies.",
+        "about": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Post COVID-19 condition defined by new or worsened symptoms persisting years after SARS-CoV-2 infection.",
+        "about": [
+          "SF1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "label": "Long COVID"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Authors interpret HRQoL improvement among people with social participation problems as possible psychological adaptation and changed health perception.",
+        "about": [
+          "F4",
+          "IN3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "label": "Response shift"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Change scores were interpreted using +/-0.06 utility and +/-4.0 EQ VAS thresholds for measurement error.",
+        "about": [
+          "MU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "label": "Minimal important change"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Proposed explanation for improvement in low-baseline and decline in high-baseline HRQoL groups.",
+        "about": [
+          "F6",
+          "L5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "label": "Regression to the mean"
+      },
+      {
+        "type": "Concept",
+        "id": "C5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Sex-specific vulnerability to prolonged HRQoL decline and possible sex differences in health perception and reporting.",
+        "about": [
+          "F3",
+          "IN2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ],
+        "label": "Sex differences in health-related quality of life"
+      },
+      {
+        "type": "Gap",
+        "id": "G1",
+        "study_id": "S1",
+        "part_id": null,
+        "state": "NOT_REPORTED",
+        "affected_item_id": "SA1",
+        "affected_type": "Sample",
+        "affected_key": "size",
+        "evidence": "Reasons for non-participation at the 3-year follow-up were unknown, and the number approached or enrolled at each wave is not stated in the text.",
+        "importance": "Limits assessment of attrition and representativeness.",
+        "proposed_resolution": "Consult the flow diagram and CORFU cohort profile publication for approached and responding counts.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P9b4818f6b5e2.md"
+        ]
+      }
+    ]
+  }
+}

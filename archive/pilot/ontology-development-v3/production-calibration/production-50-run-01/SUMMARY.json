@@ -1,0 +1,969 @@
+{
+  "run": "production-50-run-01",
+  "model": "gpt-5.6-luna",
+  "workers": 4,
+  "manifest": "production-50/MANIFEST.tsv",
+  "manifest_sha256": "9483c668d5b959ec82b0a431b8b4ddb79890b1ddab392f41f0f0ec5e82317153",
+  "records": 50,
+  "successful": 50,
+  "failed": 0,
+  "elapsed_agent_seconds": 2864.215,
+  "usage": {
+    "input_tokens": 1908465,
+    "cached_input_tokens": 98304,
+    "output_tokens": 145413,
+    "reasoning_output_tokens": 21268
+  },
+  "results": [
+    {
+      "status": "ok",
+      "record_id": "P001",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990587.02004,
+      "finished_unix": 1786990652.060443,
+      "elapsed_seconds": 65.04,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P001.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P001.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P001.jsonl",
+      "usage": {
+        "input_tokens": 44647,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3439,
+        "reasoning_output_tokens": 768
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P002",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990587.0201979,
+      "finished_unix": 1786990638.765214,
+      "elapsed_seconds": 51.745,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P002.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P002.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P002.jsonl",
+      "usage": {
+        "input_tokens": 32708,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2670,
+        "reasoning_output_tokens": 299
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P003",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990587.020085,
+      "finished_unix": 1786990653.483098,
+      "elapsed_seconds": 66.463,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P003.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P003.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P003.jsonl",
+      "usage": {
+        "input_tokens": 103919,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3466,
+        "reasoning_output_tokens": 769
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P004",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990587.0200262,
+      "finished_unix": 1786990641.6660428,
+      "elapsed_seconds": 54.646,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P004.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P004.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P004.jsonl",
+      "usage": {
+        "input_tokens": 37899,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2860,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P005",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990638.7671602,
+      "finished_unix": 1786990709.402143,
+      "elapsed_seconds": 70.635,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P005.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P005.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P005.jsonl",
+      "usage": {
+        "input_tokens": 52240,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3616,
+        "reasoning_output_tokens": 734
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P006",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990641.666825,
+      "finished_unix": 1786990697.538008,
+      "elapsed_seconds": 55.871,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P006.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P006.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P006.jsonl",
+      "usage": {
+        "input_tokens": 45564,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2922,
+        "reasoning_output_tokens": 366
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P007",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990652.062013,
+      "finished_unix": 1786990714.9141,
+      "elapsed_seconds": 62.852,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P007.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P007.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P007.jsonl",
+      "usage": {
+        "input_tokens": 43138,
+        "cached_input_tokens": 2816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3295,
+        "reasoning_output_tokens": 422
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P008",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990653.484555,
+      "finished_unix": 1786990709.370809,
+      "elapsed_seconds": 55.886,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P008.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P008.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P008.jsonl",
+      "usage": {
+        "input_tokens": 57191,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2904,
+        "reasoning_output_tokens": 501
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P009",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990697.539795,
+      "finished_unix": 1786990740.83257,
+      "elapsed_seconds": 43.293,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P009.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P009.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P009.jsonl",
+      "usage": {
+        "input_tokens": 26824,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2219,
+        "reasoning_output_tokens": 315
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P010",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990709.371927,
+      "finished_unix": 1786990769.108117,
+      "elapsed_seconds": 59.736,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P010.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P010.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P010.jsonl",
+      "usage": {
+        "input_tokens": 30535,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3137,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P011",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990709.402814,
+      "finished_unix": 1786990763.611379,
+      "elapsed_seconds": 54.209,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P011.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P011.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P011.jsonl",
+      "usage": {
+        "input_tokens": 29619,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2794,
+        "reasoning_output_tokens": 379
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P012",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990714.915435,
+      "finished_unix": 1786990774.135823,
+      "elapsed_seconds": 59.22,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P012.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P012.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P012.jsonl",
+      "usage": {
+        "input_tokens": 29119,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3072,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P013",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990740.8338509,
+      "finished_unix": 1786990802.633467,
+      "elapsed_seconds": 61.8,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P013.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P013.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P013.jsonl",
+      "usage": {
+        "input_tokens": 31915,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3227,
+        "reasoning_output_tokens": 480
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P014",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990763.613048,
+      "finished_unix": 1786990821.019677,
+      "elapsed_seconds": 57.407,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P014.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P014.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P014.jsonl",
+      "usage": {
+        "input_tokens": 31829,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3002,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P015",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990769.1094348,
+      "finished_unix": 1786990826.068748,
+      "elapsed_seconds": 56.959,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P015.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P015.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P015.jsonl",
+      "usage": {
+        "input_tokens": 32846,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2991,
+        "reasoning_output_tokens": 431
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P016",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990774.137523,
+      "finished_unix": 1786990830.3437781,
+      "elapsed_seconds": 56.206,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P016.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P016.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P016.jsonl",
+      "usage": {
+        "input_tokens": 36683,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2934,
+        "reasoning_output_tokens": 622
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P017",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990802.6350799,
+      "finished_unix": 1786990844.262437,
+      "elapsed_seconds": 41.627,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P017.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P017.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P017.jsonl",
+      "usage": {
+        "input_tokens": 28953,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2129,
+        "reasoning_output_tokens": 406
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P018",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990821.0208588,
+      "finished_unix": 1786990872.7196631,
+      "elapsed_seconds": 51.699,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P018.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P018.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P018.jsonl",
+      "usage": {
+        "input_tokens": 29898,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2605,
+        "reasoning_output_tokens": 350
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P019",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990826.0697038,
+      "finished_unix": 1786990873.7111099,
+      "elapsed_seconds": 47.641,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P019.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P019.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P019.jsonl",
+      "usage": {
+        "input_tokens": 35278,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2446,
+        "reasoning_output_tokens": 286
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P020",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990830.3450801,
+      "finished_unix": 1786990875.821889,
+      "elapsed_seconds": 45.477,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P020.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P020.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P020.jsonl",
+      "usage": {
+        "input_tokens": 35190,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2338,
+        "reasoning_output_tokens": 383
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P021",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990844.2641668,
+      "finished_unix": 1786990916.4552479,
+      "elapsed_seconds": 72.191,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P021.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P021.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P021.jsonl",
+      "usage": {
+        "input_tokens": 47992,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3699,
+        "reasoning_output_tokens": 341
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P022",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990872.7212439,
+      "finished_unix": 1786990938.998969,
+      "elapsed_seconds": 66.278,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P022.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P022.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P022.jsonl",
+      "usage": {
+        "input_tokens": 43603,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3498,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P023",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990873.712588,
+      "finished_unix": 1786990934.814434,
+      "elapsed_seconds": 61.102,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P023.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P023.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P023.jsonl",
+      "usage": {
+        "input_tokens": 35558,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3169,
+        "reasoning_output_tokens": 730
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P024",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990875.822551,
+      "finished_unix": 1786990935.808487,
+      "elapsed_seconds": 59.986,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P024.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P024.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P024.jsonl",
+      "usage": {
+        "input_tokens": 30112,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3172,
+        "reasoning_output_tokens": 150
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P025",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990916.4575,
+      "finished_unix": 1786990964.8201542,
+      "elapsed_seconds": 48.363,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P025.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P025.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P025.jsonl",
+      "usage": {
+        "input_tokens": 29134,
+        "cached_input_tokens": 6912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2465,
+        "reasoning_output_tokens": 355
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P026",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990934.816532,
+      "finished_unix": 1786990991.518146,
+      "elapsed_seconds": 56.702,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P026.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P026.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P026.jsonl",
+      "usage": {
+        "input_tokens": 44591,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2671,
+        "reasoning_output_tokens": 143
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P027",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990935.810289,
+      "finished_unix": 1786991003.811978,
+      "elapsed_seconds": 68.002,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P027.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P027.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P027.jsonl",
+      "usage": {
+        "input_tokens": 48089,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3594,
+        "reasoning_output_tokens": 515
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P028",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990939.000046,
+      "finished_unix": 1786991002.72573,
+      "elapsed_seconds": 63.726,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P028.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P028.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P028.jsonl",
+      "usage": {
+        "input_tokens": 49325,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3318,
+        "reasoning_output_tokens": 381
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P029",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990964.821771,
+      "finished_unix": 1786991009.985804,
+      "elapsed_seconds": 45.164,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P029.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P029.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P029.jsonl",
+      "usage": {
+        "input_tokens": 41351,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2316,
+        "reasoning_output_tokens": 337
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P030",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786990991.5198138,
+      "finished_unix": 1786991035.298069,
+      "elapsed_seconds": 43.778,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P030.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P030.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P030.jsonl",
+      "usage": {
+        "input_tokens": 24925,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2238,
+        "reasoning_output_tokens": 160
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P031",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991002.726903,
+      "finished_unix": 1786991059.8142312,
+      "elapsed_seconds": 57.087,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P031.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P031.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P031.jsonl",
+      "usage": {
+        "input_tokens": 27871,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2983,
+        "reasoning_output_tokens": 394
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P032",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991003.812923,
+      "finished_unix": 1786991055.136579,
+      "elapsed_seconds": 51.324,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P032.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P032.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P032.jsonl",
+      "usage": {
+        "input_tokens": 25465,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2602,
+        "reasoning_output_tokens": 317
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P033",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991009.986967,
+      "finished_unix": 1786991067.719129,
+      "elapsed_seconds": 57.732,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P033.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P033.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P033.jsonl",
+      "usage": {
+        "input_tokens": 33362,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3018,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P034",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991035.298785,
+      "finished_unix": 1786991108.5594618,
+      "elapsed_seconds": 73.261,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P034.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P034.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P034.jsonl",
+      "usage": {
+        "input_tokens": 34672,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3844,
+        "reasoning_output_tokens": 997
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P035",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991055.138052,
+      "finished_unix": 1786991113.0805912,
+      "elapsed_seconds": 57.943,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P035.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P035.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P035.jsonl",
+      "usage": {
+        "input_tokens": 40809,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3033,
+        "reasoning_output_tokens": 351
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P036",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991059.8156958,
+      "finished_unix": 1786991114.567351,
+      "elapsed_seconds": 54.752,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P036.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P036.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P036.jsonl",
+      "usage": {
+        "input_tokens": 44070,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2839,
+        "reasoning_output_tokens": 197
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P037",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991067.7203789,
+      "finished_unix": 1786991109.376153,
+      "elapsed_seconds": 41.656,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P037.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P037.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P037.jsonl",
+      "usage": {
+        "input_tokens": 32505,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2141,
+        "reasoning_output_tokens": 434
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P038",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991108.560692,
+      "finished_unix": 1786991211.719129,
+      "elapsed_seconds": 103.158,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P038.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P038.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P038.jsonl",
+      "usage": {
+        "input_tokens": 40069,
+        "cached_input_tokens": 38656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2689,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P039",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991109.376944,
+      "finished_unix": 1786991167.973258,
+      "elapsed_seconds": 58.596,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P039.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P039.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P039.jsonl",
+      "usage": {
+        "input_tokens": 31868,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3054,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P040",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991113.0823748,
+      "finished_unix": 1786991166.2737339,
+      "elapsed_seconds": 53.191,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P040.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P040.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P040.jsonl",
+      "usage": {
+        "input_tokens": 58604,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2718,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P041",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991114.56823,
+      "finished_unix": 1786991165.693126,
+      "elapsed_seconds": 51.125,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P041.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P041.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P041.jsonl",
+      "usage": {
+        "input_tokens": 28950,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2630,
+        "reasoning_output_tokens": 143
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P042",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991165.694242,
+      "finished_unix": 1786991222.809834,
+      "elapsed_seconds": 57.116,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P042.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P042.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P042.jsonl",
+      "usage": {
+        "input_tokens": 47144,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2955,
+        "reasoning_output_tokens": 335
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P043",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991166.274658,
+      "finished_unix": 1786991228.956932,
+      "elapsed_seconds": 62.682,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P043.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P043.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P043.jsonl",
+      "usage": {
+        "input_tokens": 30626,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3242,
+        "reasoning_output_tokens": 760
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P044",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991167.974227,
+      "finished_unix": 1786991217.2141,
+      "elapsed_seconds": 49.24,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P044.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P044.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P044.jsonl",
+      "usage": {
+        "input_tokens": 26227,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2420,
+        "reasoning_output_tokens": 298
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P045",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991211.720983,
+      "finished_unix": 1786991265.564703,
+      "elapsed_seconds": 53.844,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P045.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P045.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P045.jsonl",
+      "usage": {
+        "input_tokens": 35831,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2807,
+        "reasoning_output_tokens": 129
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P046",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991217.2150688,
+      "finished_unix": 1786991279.118607,
+      "elapsed_seconds": 61.904,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P046.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P046.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P046.jsonl",
+      "usage": {
+        "input_tokens": 52895,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3213,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P047",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991222.810532,
+      "finished_unix": 1786991274.5859468,
+      "elapsed_seconds": 51.775,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P047.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P047.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P047.jsonl",
+      "usage": {
+        "input_tokens": 36299,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2705,
+        "reasoning_output_tokens": 349
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P048",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991228.958213,
+      "finished_unix": 1786991285.439492,
+      "elapsed_seconds": 56.481,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P048.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P048.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P048.jsonl",
+      "usage": {
+        "input_tokens": 32086,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2715,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P049",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991265.566734,
+      "finished_unix": 1786991322.657415,
+      "elapsed_seconds": 57.091,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P049.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P049.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P049.jsonl",
+      "usage": {
+        "input_tokens": 29531,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2991,
+        "reasoning_output_tokens": 302
+      }
+    },
+    {
+      "status": "ok",
+      "record_id": "P050",
+      "model": "gpt-5.6-luna",
+      "returncode": 0,
+      "started_unix": 1786991274.587934,
+      "finished_unix": 1786991325.1407979,
+      "elapsed_seconds": 50.553,
+      "input_path": "pilot/ontology-development-v3/production-calibration/production-50/inputs/P050.md",
+      "output_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/records/P050.md",
+      "trace_path": "pilot/ontology-development-v3/production-calibration/production-50-run-01/traces/P050.jsonl",
+      "usage": {
+        "input_tokens": 28906,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2608,
+        "reasoning_output_tokens": 479
+      }
+    }
+  ]
+}

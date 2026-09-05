@@ -1,0 +1,24 @@
+{
+  "project_id": "222-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 222,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Pilot of the UK EQ-5D-5L TTO valuation to assess equivalence and feasibility of online interviews and face-to-face interviews during the COVID-19 pandemic",
+  "pi_name_raw": "Donna Rowen",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 171453,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 185,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

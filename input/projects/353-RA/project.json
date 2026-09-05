@@ -1,0 +1,24 @@
+{
+  "project_id": "353-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 353,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Psychometric testing of E-QALY in China: a new study using face-to-face survey method",
+  "pi_name_raw": "Zhihao Yang",
+  "working_groups": [
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 20780,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 550,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

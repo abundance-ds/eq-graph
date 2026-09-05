@@ -1,0 +1,212 @@
+group	key	value	definition
+classification	primary_research_family	VALUE_SET_DEVELOPMENT	New or revised preference-based value set or scoring system is the main output; a secondary value-set product is insufficient.
+classification	primary_research_family	MEASUREMENT_PROPERTY_EVALUATION	Measurement performance is the main decision and no new instrument content is a principal output.
+classification	primary_research_family	INSTRUMENT_VERSION_DEVELOPMENT	New, revised, translated, or adapted instrument content is a principal output; selection of a development approach alone is methods research.
+classification	primary_research_family	POPULATION_REFERENCE_DESCRIPTION	Norms, population data, or reference data are the stated main aim or output; representativeness alone is insufficient.
+classification	primary_research_family	METHODS_RESEARCH	Approach, method, or protocol selection, reliability, assumptions, performance, feasibility, quality, or use is the main decision.
+classification	primary_research_family	APPLIED_USE_RESEARCH	Use, provision, workflow, implementation, prediction support, visualization, or decision support is primary.
+classification	primary_research_family	EVIDENCE_SYNTHESIS	Systematic identification and combination of prior evidence is the main output; selected-dataset reuse for another decision is insufficient.
+classification	primary_research_family	HEALTH_ECONOMIC_EVALUATION	The study compares costs and health consequences for a decision; methodological inputs do not remove this family.
+classification	primary_research_family	CONCEPTUAL_FRAMEWORK_DEVELOPMENT	A taxonomy, definition, framework, or conceptual classification is the main output; method recommendations can be secondary.
+classification	primary_research_family	HEALTH_OUTCOME_RESEARCH	Health, HRQoL, well-being, or health-behavior outcomes are primary.
+classification	primary_research_family	HEALTH_PREFERENCE_RESEARCH	Empirical health-preference patterns or differences are the main result without value-set development or a primary method decision.
+classification	primary_research_family	ECONOMIC_BURDEN_RESEARCH	Attributable cost, resource, productivity, or monetized well-being burden is estimated without decision alternatives.
+classification	research_purpose	HEALTH_STATE_VALUATION	Direct preference elicitation occurs in the current study.
+classification	research_purpose	VALUE_SET_DEVELOPMENT	The work develops or revises a value set.
+classification	research_purpose	VALUATION_METHOD_EVALUATION	The work evaluates a valuation method.
+classification	research_purpose	PREFERENCE_COMPARISON	The work compares health preferences.
+classification	research_purpose	MAPPING_OR_CROSSWALK	The work maps between instruments, scales, or values.
+classification	research_purpose	POPULATION_NORMS	The work produces population norms or reference data.
+classification	research_purpose	MEASUREMENT_PROPERTY_EVALUATION	The work evaluates a measurement property.
+classification	research_purpose	CONTENT_VALIDITY_EVALUATION	The work evaluates relevance, comprehensiveness, or comprehensibility.
+classification	research_purpose	INSTRUMENT_DEVELOPMENT	The work creates or revises instrument content.
+classification	research_purpose	TRANSLATION_AND_CULTURAL_ADAPTATION	The work translates or culturally adapts an instrument.
+classification	research_purpose	METHOD_OR_PROTOCOL_QUALITY	The work evaluates method or protocol quality.
+classification	research_purpose	IMPLEMENTATION_EVALUATION	The work evaluates practical implementation.
+classification	research_purpose	DECISION_SUPPORT_DEVELOPMENT	The work develops decision support.
+classification	research_purpose	OUTCOME_DESCRIPTION	The work describes or explains outcomes.
+classification	research_purpose	ECONOMIC_EVALUATION	The work compares costs and consequences for a decision.
+classification	research_purpose	ECONOMIC_BURDEN_ESTIMATION	The work estimates noncomparative economic burden.
+classification	research_purpose	EVIDENCE_SYNTHESIS	The work synthesizes prior evidence.
+classification	research_purpose	CONCEPTUAL_FRAMEWORK_DEVELOPMENT	The work develops a concept, taxonomy, or framework.
+design	component_approach	QUANTITATIVE_EMPIRICAL	Numeric empirical observation or analysis.
+design	component_approach	QUALITATIVE_INQUIRY	Qualitative collection or interpretive inquiry.
+design	component_approach	PARTICIPATORY_DESIGN	Joint creation, refinement, or selection defines the part.
+design	component_approach	MODEL_BASED	A statistical or decision model defines the part.
+design	component_approach	EVIDENCE_SYNTHESIS	Prior studies or evidence are systematically combined.
+design	component_approach	CONCEPTUAL	Conceptual reasoning or framework work without empirical collection.
+design	component_approach	TRANSLATION_ADAPTATION_WORKFLOW	A translation or cultural-adaptation workflow defines the part.
+design	temporal_structure	CROSS_SECTIONAL	One observation window per unit.
+design	temporal_structure	LONGITUDINAL_REPEATED	The same units contribute observations across time.
+design	temporal_structure	VARIABLE_SOURCE_TIME	Variation in source dates is an input feature.
+design	temporal_structure	NOT_APPLICABLE	Time structure does not apply.
+design	temporal_structure	NOT_REPORTED	The source does not report time structure.
+design	comparison_structure	NONCOMPARATIVE	No planned comparison structure.
+design	comparison_structure	BETWEEN_GROUP	Different groups are compared.
+design	comparison_structure	WITHIN_PERSON	The same person contributes compared observations.
+design	comparison_structure	WITHIN_DYAD	Linked members of a dyad are compared.
+design	comparison_structure	BETWEEN_METHOD	Methods are compared.
+design	comparison_structure	BETWEEN_INSTRUMENT	Instruments are compared.
+design	comparison_structure	BETWEEN_CONTEXT	Places, countries, modes, or settings are compared.
+design	allocation_structure	RANDOMIZED	People or study units are assigned at random.
+design	allocation_structure	NONRANDOMIZED	People or study units are assigned without randomization.
+design	allocation_structure	NOT_APPLICABLE	The study makes no assignment.
+design	allocation_structure	NOT_REPORTED	Applicable allocation is not reported.
+design	mixed_method_integration	CONVERGENT_PARALLEL	Different approaches are integrated in parallel.
+design	mixed_method_integration	SEQUENTIAL	One approach informs a later approach.
+design	mixed_method_integration	EMBEDDED	One approach is embedded in another.
+design	mixed_method_integration	NOT_REPORTED	Integration is present but not described.
+design	synthesis_design	SYSTEMATIC_REVIEW	Systematic review methods are used.
+design	synthesis_design	META_ANALYSIS	Quantitative evidence is pooled.
+design	synthesis_design	NARRATIVE_SYNTHESIS	Evidence is synthesized narratively.
+design	synthesis_design	NOT_APPLICABLE	Synthesis design does not apply.
+data	data_origin	CURRENT_STUDY_COLLECTION	Collection was designed for the reported investigation.
+data	data_origin	PRIOR_RESEARCH_COLLECTION	The study reuses prior research collection.
+data	data_origin	ROUTINE_SERVICE_COLLECTION	The study uses established service or monitoring data.
+data	data_origin	REVIEW_EXTRACTED_EVIDENCE	The study extracts evidence for a review.
+data	data_origin	DOCUMENTARY_SOURCE	The study uses documents as source material.
+data	data_origin	PUBLISHED_MODEL_INPUT	The study uses a published model input.
+data	data_origin	SIMULATED_DATA	The study creates simulated data.
+data	data_origin	CONCEPTUAL_MATERIAL	The study uses conceptual material.
+data	data_origin	NOT_REPORTED	Data origin is not reported.
+data	data_level	PARTICIPANT_RESPONSE	A person supplied a response.
+data	data_level	QUALITATIVE_MATERIAL	Interview, observation, or other qualitative material.
+data	data_level	AGGREGATE_ESTIMATE	A summary estimate rather than unit data.
+data	data_level	MODEL_PARAMETER	A model input or parameter.
+data	data_level	SIMULATED_UNIT	A simulated observation or unit.
+data	data_level	DOCUMENT	A record, claim, chart, report, or document.
+data	data_level	NOT_REPORTED	Data level is not reported.
+use	use_context	DIRECT_CURRENT_ACTIVITY	The current study directly performs the activity.
+use	use_context	CURRENT_STUDY_OBJECT	The current study examines the entity as an object.
+use	use_context	SOURCE_STUDY_ACTIVITY	A source study performed the activity.
+use	use_context	INPUT_DATA_PROVENANCE	The entity identifies input-data provenance.
+use	use_context	PLANNED_ACTIVITY	The source states that the activity is planned.
+use	use_context	DISCUSSION_ONLY	The entity appears only in discussion or background.
+use	instrument_function	CURRENT_HEALTH_MEASUREMENT	Measures current health.
+use	instrument_function	OUTCOME_MEASURE	Measures a study outcome.
+use	instrument_function	PREDICTOR_MEASURE	Measures a predictor or determinant.
+use	instrument_function	HEALTH_STATE_DESCRIPTION	Defines health states.
+use	instrument_function	VALUATION_TARGET	Defines what is valued.
+use	instrument_function	SCORING_INPUT	Supplies responses for scoring.
+use	instrument_function	MAPPING_SOURCE	Supplies the source measure for mapping.
+use	instrument_function	MAPPING_TARGET	Supplies the target measure for mapping.
+use	instrument_function	COMPARATOR	Acts as an instrument comparator.
+use	instrument_function	CONTENT_TEST_OBJECT	Has its content tested.
+use	instrument_function	MEASUREMENT_PROPERTY_TEST_OBJECT	Has reliability, validity, responsiveness, agreement, invariance, or score-distribution performance evaluated.
+use	instrument_function	DEVELOPMENT_OBJECT	Has its content developed or revised.
+use	instrument_function	TRANSLATION_SOURCE	Supplies source-language content.
+use	instrument_function	TRANSLATION_TARGET	Receives translated or adapted content.
+use	instrument_function	VISUALIZATION_OBJECT	Has its information visualized.
+use	instrument_function	EVIDENCE_SYNTHESIS_TARGET	Is a target of evidence synthesis.
+use	instrument_function	IMPLEMENTATION_OBJECT	Is implemented or prepared for implementation.
+use	instrument_function	REFERENCE_ONLY	Is referenced without another current function.
+use	method_function	SAMPLING	Selects or recruits the sample.
+use	method_function	PREFERENCE_ELICITATION	Elicits preferences.
+use	method_function	QUALITATIVE_DATA_COLLECTION	Collects qualitative material.
+use	method_function	QUANTITATIVE_DATA_COLLECTION	Collects quantitative data.
+use	method_function	QUANTITATIVE_ANALYSIS	Analyses quantitative data.
+use	method_function	QUALITATIVE_ANALYSIS	Analyses qualitative material.
+use	method_function	MEASUREMENT_PROPERTY_ANALYSIS	Evaluates measurement properties.
+use	method_function	EVIDENCE_IDENTIFICATION	Finds evidence for synthesis.
+use	method_function	EVIDENCE_SYNTHESIS	Combines prior evidence.
+use	method_function	MAPPING_OR_DERIVATION	Maps or derives scores or values.
+use	method_function	ECONOMIC_EVALUATION	Performs economic analysis.
+use	method_function	MIXED_METHOD_INTEGRATION	Integrates different empirical approaches.
+use	method_function	QUALITY_CONTROL	Checks or improves data or process quality.
+use	method_function	PARTICIPATORY_DESIGN	Jointly creates, refines, or selects an output.
+use	method_function	EXPERIMENTAL_DESIGN	Constructs an experimental design, task set, block, or randomization schedule.
+use	method_function	INSTRUMENT_TRANSLATION_OR_ADAPTATION	Translates or culturally adapts instrument content, instructions, labels, or response options.
+use	protocol_function	GOVERNING_STUDY_PROTOCOL	Governs the study.
+use	protocol_function	VALUATION_PROTOCOL	Governs health-state valuation.
+use	protocol_function	TRANSLATION_PROTOCOL	Governs translation or cultural adaptation.
+use	protocol_function	QUALITY_CONTROL_PROTOCOL	Governs quality control.
+use	protocol_function	REPORTING_GUIDELINE	Guides reporting.
+use	protocol_function	CRITICAL_APPRAISAL_PROTOCOL	Guides critical appraisal.
+use	model_function	STATISTICAL_ESTIMATION	Estimates statistical parameters.
+use	model_function	CHOICE_MODELING	Models choices.
+use	model_function	MAPPING	Maps between measures or scales.
+use	model_function	META_ANALYSIS	Pools evidence statistically.
+use	model_function	DECISION_ANALYSIS	Models a decision.
+use	model_function	SCORING	Calculates scores or values.
+use	product_function	ANALYSIS_OBJECT	Has its validity, obsolescence, properties, or performance examined.
+use	product_function	COMPARATOR	Acts as a product comparator.
+use	product_function	EVIDENCE_SYNTHESIS_TARGET	Is a target of evidence synthesis.
+use	software_function	VALUATION_ADMINISTRATION	Administers or records a health-state valuation task.
+use	software_function	DATA_COLLECTION	Administers a survey, interview, instrument, or other data-collection activity.
+use	software_function	DATA_MANAGEMENT	Stores, cleans, transforms, links, or manages data.
+use	software_function	QUANTITATIVE_ANALYSIS	Performs statistical, econometric, psychometric, or other quantitative analysis.
+use	software_function	QUALITATIVE_ANALYSIS	Supports coding or analysis of qualitative material.
+use	software_function	MODEL_IMPLEMENTATION	Implements or executes a statistical, mapping, decision, scoring, or simulation model.
+use	software_function	EXPERIMENTAL_DESIGN	Constructs an experimental design, task set, block, or randomization schedule.
+use	software_function	VISUALIZATION_OR_REPORTING	Creates visual or reported outputs.
+use	analytic_role	CANDIDATE	A model considered for selection.
+use	analytic_role	COMPARATOR	A comparison model.
+use	analytic_role	PRIMARY_REPORTED	The main reported model.
+use	analytic_role	SENSITIVITY	A sensitivity-analysis model.
+use	analytic_role	SUBGROUP	A subgroup model.
+factor	factor_role	STUDIED_CONDITION	A condition that defines or structures the study.
+factor	factor_role	EXPOSURE_OR_DETERMINANT	A tested exposure or determinant.
+factor	factor_role	COMPARATOR	A reference factor level.
+factor	factor_role	STRATIFIER	A factor used for separate results without a modification claim.
+factor	factor_role	EFFECT_MODIFIER	A factor with a reported interaction or modification claim.
+factor	factor_role	TARGET_STAGE	A stage or time point that structures an analysis.
+sample	sample_stage	APPROACHED	Units approached or invited.
+sample	sample_stage	ENROLLED	Units enrolled.
+sample	sample_stage	COMPLETED	Units that completed the stated activity.
+sample	sample_stage	ANALYZED	Units included in analysis.
+sample	sample_stage	EXCLUDED	Units excluded at the stated stage.
+sample	sample_stage	INCLUDED_EVIDENCE	Evidence units included in synthesis.
+sample	sample_stage	SIMULATED	Simulated units.
+sample	sample_stage	PLANNED_TARGET	Units that the source states the study intends to recruit, enroll, complete, or analyze before that stage occurs; a power minimum alone is insufficient.
+sample	sample_stage	IDENTIFIED	People, claims, records, or other units identified before an eligibility decision; use IDENTIFIED_RECORDS for evidence-search records.
+sample	sample_stage	IDENTIFIED_RECORDS	Evidence records identified by a search before screening or deduplication.
+sample	sample_stage	SCREENED	Units assessed at a stated initial screening stage before the final eligibility decision; preserve the exact screening scope in size_text.
+sample	sample_stage	ELIGIBLE	Units that met the stated eligibility criteria at that point in the flow.
+sample	sample_stage	FULL_TEXT_ASSESSED	Reports or papers assessed in full for evidence-synthesis eligibility.
+status	execution_state	PLANNED	Study execution is planned.
+status	execution_state	RECRUITING	Recruitment is active.
+status	execution_state	DATA_COLLECTION_ACTIVE	Data collection is active.
+status	execution_state	DATA_COLLECTION_COMPLETE	Data collection is complete.
+status	execution_state	ANALYSIS_ACTIVE	Analysis is active.
+status	execution_state	COMPLETED	Study execution is complete.
+status	execution_state	NOT_REPORTED	Execution state is not reported.
+status	result_state	NO_RESULTS_YET	No results are available at the source date.
+status	result_state	PARTIAL_RESULTS	Only partial results are available.
+status	result_state	RESULTS_REPORTED	Results are reported.
+status	result_state	NOT_REPORTED	Result state is not reported.
+status	publication_form	ORIGINAL_RESEARCH_ARTICLE	Original research report.
+status	publication_form	PROTOCOL_ARTICLE	Study protocol report.
+status	publication_form	REVIEW_ARTICLE	Review report.
+status	publication_form	CONCEPTUAL_ARTICLE	Conceptual or framework report.
+status	publication_form	OPINION_ARTICLE	Commentary or opinion report.
+status	publication_form	CORRECTION_NOTICE	Editorial notice that corrects another publication and reports no separate study.
+status	publication_form	RETRACTION_NOTICE	Editorial notice that retracts another publication and reports no separate study.
+status	publication_status	RETRACTED	The publication is reported as retracted.
+outcome	outcome_family	PREFERENCE_OR_UTILITY	Preference or utility outcome.
+outcome	outcome_family	HEALTH_STATUS_OR_EQ_VAS	Health status, HRQoL, well-being, or EQ VAS outcome.
+outcome	outcome_family	HEALTH_BEHAVIOR	Behavior that affects health.
+outcome	outcome_family	CLINICAL_EVENT_OR_MORBIDITY	Diagnosis, complication, adverse event, morbidity, survival, mortality, or another clinical endpoint; self-reported HRQoL belongs to HEALTH_STATUS_OR_EQ_VAS.
+outcome	outcome_family	HEALTH_SERVICE_USE	Admission, readmission, length of stay, visit, procedure, care contact, or other use of health services without conversion to cost or burden.
+outcome	outcome_family	MEASUREMENT_PROPERTY	Reliability, validity, responsiveness, agreement, or related property.
+outcome	outcome_family	CONTENT_VALIDITY	Relevance, comprehensiveness, or comprehensibility.
+outcome	outcome_family	FEASIBILITY	Feasibility outcome.
+outcome	outcome_family	USABILITY_OR_ACCEPTABILITY	Usability or acceptability outcome.
+outcome	outcome_family	METHOD_PERFORMANCE_OR_DATA_QUALITY	Method performance or data-quality outcome.
+outcome	outcome_family	IMPLEMENTATION	Implementation outcome.
+outcome	outcome_family	ECONOMIC_OR_BURDEN	Cost, QALY, ICER, DALY, productivity, or monetized burden; raw health-service use belongs to HEALTH_SERVICE_USE.
+outcome	outcome_family	CONCEPTUAL_CLASSIFICATION	Conceptual classification outcome.
+product	product_type	VALUE_SET	Preference-based value set.
+product	product_type	SCORING_ALGORITHM	Reusable scoring algorithm.
+product	product_type	POPULATION_REFERENCE_DATA	Reusable population reference data.
+product	product_type	INSTRUMENT_VERSION	Instrument or language version.
+product	product_type	MAPPING_FUNCTION	Reusable mapping function.
+product	product_type	PROTOCOL	Reusable protocol.
+product	product_type	CHECKLIST_OR_TOOL	Reusable checklist or tool.
+product	product_type	SOFTWARE_OR_DECISION_SUPPORT	Reusable software or decision support.
+product	product_type	TAXONOMY_OR_FRAMEWORK	Reusable taxonomy or framework.
+product	product_type	IMPLEMENTATION_GUIDANCE	Reusable implementation guidance.
+product	product_type	DATASET	Reusable dataset.
+gap	gap_state	UNMAPPED_VALUE	A controlled key exists but no value fits.
+gap	gap_state	UNMODELED_ASPECT	An important fact has no key or relation.
+gap	gap_state	UNCERTAIN_MAPPING	More than one mapping remains plausible.
+gap	gap_state	NOT_REPORTED	A required fact is absent.

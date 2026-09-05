@@ -1,0 +1,24 @@
+{
+  "project_id": "116-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 116,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Development and testing of EQ-5D-5L bolt-on descriptors for hearing",
+  "pi_name_raw": "Chris Sampson",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 163576,
+  "status": "Ongoing",
+  "start_year": 2021,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 667,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

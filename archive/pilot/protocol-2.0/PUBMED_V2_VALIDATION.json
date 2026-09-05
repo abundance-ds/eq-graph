@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "checks": {
+    "ten_people": true,
+    "all_pubmed_records_parsed": true,
+    "all_raw_files_saved": true,
+    "all_derived_files_saved": true,
+    "unquoted_author_terms": true,
+    "orcid_identifier_terms": true,
+    "funnel_columns_present": true,
+    "scholar_caps_labelled": true,
+    "eligibility_partition_complete": true,
+    "abstract_partition_complete": true
+  },
+  "pubmed_v1_records": 262,
+  "pubmed_v2_records": 578,
+  "known_v1_misses_audited": 69,
+  "known_v1_misses_recovered_v2": 65,
+  "profile_decisions": {
+    "accept": 7,
+    "caution": 2,
+    "reject": 1
+  },
+  "aggregate_after_profile_check": {
+    "source_records_used": 3032,
+    "deduplicated_works": 1729,
+    "document_excluded": 21,
+    "non_journal_excluded": 307,
+    "publication_type_uncertain": 0,
+    "full_journal_article_candidates": 1401,
+    "positive_signal": 646,
+    "retrieved": "2026-08-03",
+    "journal_article_candidates_before_abstract_gate": 1401,
+    "abstract_available_before_enrichment": 896,
+    "abstract_enriched": 186,
+    "abstract_unavailable_excluded": 319,
+    "screening_ready": 1082,
+    "duplicates_merged_after_abstract_enrichment": 4,
+    "deduplicated_works_after_abstract_enrichment": 1729
+  },
+  "scope": "PubMed v2 retrieval, profile decisions, and pre-screen funnel"
+}

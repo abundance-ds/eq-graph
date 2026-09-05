@@ -1,0 +1,24 @@
+{
+  "project_id": "2107-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2107,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Travel Grant to support EQ PhD network member to present EQ-HWB research on iHEA meeting and to visit National University of Singapore for learning and exploring research collaborations.",
+  "pi_name_raw": "Haode Wang",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 6090,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 487,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

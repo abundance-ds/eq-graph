@@ -1,0 +1,24 @@
+{
+  "project_id": "118-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 118,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "An international comparison of the impacts of COVID-19 using EQ-5D",
+  "pi_name_raw": "Philip Clarke",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 25000,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": null,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 438,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "base_records": 209,
+  "added_records": 64,
+  "excluded_added_records": [
+    "PDF-P059",
+    "PDF-P062"
+  ],
+  "combined_records": 273,
+  "openalex_rows": 273,
+  "manifest_sha256": "c77397a0d223596126ed48b7c44fdae292e05b3a7db3ed2e8a0860ec43d5b128",
+  "openalex_sha256": "9ae39888f0c545a710a3d22982e25bf74ff78fc4c9b03bbaf579605dd9c20bbc"
+}

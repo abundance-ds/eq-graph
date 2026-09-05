@@ -1,0 +1,24 @@
+{
+  "project_id": "1700-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1700,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Cognition bolt-ons for the EQ-5D-5L and EQ-5D-3L: a systematic review",
+  "pi_name_raw": "Fanni Rencz",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 60000,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 1009,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

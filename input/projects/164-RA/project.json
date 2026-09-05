@@ -1,0 +1,24 @@
+{
+  "project_id": "164-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 164,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Can adding routinely collected EQ-5D-5L administrative data improve predictions about who will be a high-cost user of healthcare?",
+  "pi_name_raw": "Stirling Bryan",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 23360,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2021,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 523,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "2134-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2134,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Evaluating respondent burden for the EQ-HWB and EQ-HWB-S in prostate cancer",
+  "pi_name_raw": "Jessica Roydhouse",
+  "working_groups": [
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 74795,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2027,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 566,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

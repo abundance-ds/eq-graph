@@ -1,0 +1,24 @@
+{
+  "project_id": "140-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 140,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Assessing regional variations in the impact of COVID-19 on quality of life as a function of regional social isolation controls in the U.S.",
+  "pi_name_raw": "Nadine Zawadzkli",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 30740,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": null,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 884,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

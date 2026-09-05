@@ -1,0 +1,9 @@
+Read:
+
+- pilot/ontology-development-v4/aggregate-validity-v5/TASK.md
+- pilot/ontology-development-v3/questions.tsv
+- docs/APP_DATA_ADAPTER.md
+- web/server/utils/schema.ts
+
+Independently test Q51 through Q100. Do not read an earlier aggregate-validity
+result. Return all 50 IDs in numeric order through the supplied output contract.

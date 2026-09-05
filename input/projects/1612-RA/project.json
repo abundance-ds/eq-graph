@@ -1,0 +1,24 @@
+{
+  "project_id": "1612-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1612,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Impact of demographic change on expected value set redundancy",
+  "pi_name_raw": "Marcel Jonker",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 22000,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 219,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

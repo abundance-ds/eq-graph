@@ -1,0 +1,25 @@
+{
+  "project_id": "1666-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1666,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "Estimating EQ-5D-Y-3L Value Set for the kingdom of Saudi Arabia using DCE and c-TTO Values",
+  "pi_name_raw": "Professor Ahmed Hamdan AlJedai",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 0,
+  "status": "Ongoing",
+  "start_year": 2023,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 422,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "project_id": "1566-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1566,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Examining the psychometric performance of the EQ-HWB in caregivers of persons living with dementia.",
+  "pi_name_raw": "Cate Bailey",
+  "working_groups": [
+    "Descriptive Systems",
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 24540,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 986,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

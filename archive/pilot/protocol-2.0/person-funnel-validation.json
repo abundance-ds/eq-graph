@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "pubmed_query_version": "v2",
+  "persons": 10,
+  "raw_source_records": 3189,
+  "accepted_source_records": 3032,
+  "unique_deduplicated_papers": 1729,
+  "unique_screening_ready_papers": 1082,
+  "abstract_rule": "A title/abstract screening record must be an eligible article with a real abstract.",
+  "note": "Per-person dedup counts overlap when a paper belongs to multiple sampled people."
+}

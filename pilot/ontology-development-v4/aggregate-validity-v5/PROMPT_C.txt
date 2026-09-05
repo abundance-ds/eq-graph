@@ -1,0 +1,24 @@
+Read:
+
+- pilot/ontology-development-v4/aggregate-validity-v5/TASK.md
+- pilot/ontology-development-v3/questions.tsv
+- pilot/ontology-development-v4/aggregate-validity-v5/REVIEW_A.json
+- pilot/ontology-development-v4/aggregate-validity-v5/REVIEW_B.json
+- docs/APP_DATA_ADAPTER.md
+- docs/WORKPLAN.md
+- web/server/utils/schema.ts
+
+Adjudicate Q1 through Q100. Return all IDs in numeric order through the supplied
+output contract. Recheck material claims and every issue with read-only SQL.
+
+Apply one rubric:
+
+- `PASS`: a coherent answer is available without a material caveat.
+- `PARTIAL`: a useful answer is available, but a material limit changes its
+  interpretation.
+- `FAIL`: the answer would mix unlike concepts or materially mislead.
+- `NOT TESTABLE`: required evidence or external input is absent.
+
+A normal calculation can pass. For a template question, test one supported
+example. A corpus boundary matters only when the question claims broader
+coverage. Do not propose or make an ontology change.

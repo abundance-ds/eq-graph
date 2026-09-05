@@ -1,0 +1,18 @@
+publication_id,author_order,action,target_person_id,display_name,reason
+doi:10.1007/s11136-021-03075-x,12,MERGE,person:orcid:0000-0001-6962-0564,,Exact full name and the same Hanoi population-health affiliation as the ORCID-identified author
+doi:10.1007/s11136-025-04074-y,2,MERGE,person:orcid:0000-0002-7142-3364,,Exact full name and the same Alberta APERSU affiliation as the ORCID-identified author
+doi:10.1186/s41687-021-00406-x,4,MERGE,person:eqmember:19005,,Exact reviewed name alias and the same Erasmus MC affiliation as the ORCID-identified member
+doi:10.3390/nu16162591,8,MERGE,person:orcid:0000-0002-4331-3141,,Exact full name and the same Erasmus MC public-health affiliation as the ORCID-identified author
+doi:10.1186/s12955-019-1139-4,4,MERGE,person:orcid:0000-0002-4331-3141,,OpenAlex split; exact full name and the same Erasmus MC public-health affiliation
+doi:10.1007/s40273-018-0694-6,1,MERGE,person:leader:b101d0407270,,Exact uncommon name plus EuroQol project and publication evidence in the same specialized DCE research program
+doi:10.1007/s40273-022-01222-x,1,MERGE,person:orcid:0000-0002-4758-7588,,OpenAlex split; exact full name and the same University of Illinois Chicago unit
+doi:10.1007/s10198-025-01804-4,2,MERGE,person:openalex:A5086528283,,OpenAlex split; exact full name and the same Melbourne child-health economics unit and research area
+doi:10.1371/journal.pone.0305983,2,MERGE,person:openalex:A5112406075,,Correction notice repeats the author of the corrected article
+doi:10.1371/journal.pone.0305983,3,MERGE,person:orcid:0000-0002-8249-7481,,Correction notice repeats the ORCID-identified author of the corrected article
+doi:10.1371/journal.pone.0209344,9,MERGE,person:orcid:0000-0003-0545-1567,,Original article and correction notice identify the same author
+doi:10.1038/s41433-023-02860-x,7,ACCEPT_DISTINCT,,Samuel S R Ramsewak,The source lists two separate authors with the same initials; affiliation and contribution text identify this author as Samuel
+doi:10.1038/s41433-023-02860-x,11,ACCEPT_DISTINCT,,Shivaa S R Ramsewak,The source lists two separate authors with the same initials; affiliation and contribution text identify this author as Shivaa
+doi:10.1007/s11136-025-04150-3,8,MERGE,person:eqmember:17930,,OpenAlex profile split; exact name and repeated EuroQol co-author context identify Michael Herdman
+doi:10.1007/s40273-021-01002-z,5,MERGE,person:leader:39e3bb2019e3,,Exact name variant with the same ORCID and OpenAlex identity as the project leader
+doi:10.1007/s10198-021-01377-y,2,MERGE,person:leader:8677f310bcd0,,Exact surname and initials with the same ORCID as the project leader
+doi:10.1007/s10198-023-01668-6,2,MERGE,person:leader:8677f310bcd0,,Exact full name with the same ORCID as the project leader

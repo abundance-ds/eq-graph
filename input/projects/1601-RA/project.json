@@ -1,0 +1,24 @@
+{
+  "project_id": "1601-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1601,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Testing the performance and psychometric properties of six bolt-ons in general population and patients with myasthenia gravis",
+  "pi_name_raw": "Dewilde Sarah",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 103860,
+  "status": "Completed",
+  "start_year": 2023,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 21,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

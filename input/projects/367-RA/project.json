@@ -1,0 +1,24 @@
+{
+  "project_id": "367-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 367,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Population Health Primary Data Collection Project",
+  "pi_name_raw": "Jeff Johnson",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 1439446,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 357,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

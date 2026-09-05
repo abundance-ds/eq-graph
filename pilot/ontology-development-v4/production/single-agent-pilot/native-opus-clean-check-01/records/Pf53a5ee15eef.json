@@ -1,0 +1,1043 @@
+{
+  "record_id": "Pf53a5ee15eef",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "20180140"
+    ],
+    "reason": "Funding statement names EuroQol Group grant EQ Project 20180140, and the paper reports the translation step of that Indonesian EQ-5D-Y-5L validation project.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "Pf53a5ee15eef",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol Research Foundation grant (EQ Project 20180140) funded the study; the EuroQol Version Management Committee governed the translation and provided the translation guidelines.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "Funding statement names EuroQol Group grant EQ Project 20180140, and the paper reports the translation step of that Indonesian EQ-5D-Y-5L validation project.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Adaptation of the experimental EQ-5D-Y-5L into Bahasa Indonesia",
+        "primary_research_family": "INSTRUMENT_VERSION_DEVELOPMENT",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The study produces a new language version of the EQ-5D-Y-5L through forward/backward translation, cognitive debriefing and proofreading following EuroQol translation guidelines.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "TRANSLATION_AND_CULTURAL_ADAPTATION",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "INSTRUMENT_DEVELOPMENT",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "TRANSLATION_ADAPTATION_WORKFLOW",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "CROSS_SECTIONAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "BETWEEN_INSTRUMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D5",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "StudyPart",
+        "id": "PT1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Forward and backward translation with Version Management Committee review",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "StudyPart",
+        "id": "PT2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Cognitive debriefing with children",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "StudyPart",
+        "id": "PT3",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Finalization and linguist proofreading",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D11",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "axis": "component_approach",
+        "value": "TRANSLATION_ADAPTATION_WORKFLOW",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D12",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "axis": "temporal_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D13",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "axis": "comparison_structure",
+        "value": "BETWEEN_INSTRUMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D14",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D21",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "axis": "component_approach",
+        "value": "QUALITATIVE_INQUIRY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D22",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "axis": "temporal_structure",
+        "value": "CROSS_SECTIONAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D23",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "axis": "comparison_structure",
+        "value": "NONCOMPARATIVE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D24",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "axis": "allocation_structure",
+        "value": "NONRANDOMIZED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D31",
+        "study_id": "S1",
+        "part_id": "PT3",
+        "axis": "component_approach",
+        "value": "TRANSLATION_ADAPTATION_WORKFLOW",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D32",
+        "study_id": "S1",
+        "part_id": "PT3",
+        "axis": "temporal_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D33",
+        "study_id": "S1",
+        "part_id": "PT3",
+        "axis": "comparison_structure",
+        "value": "NONCOMPARATIVE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D34",
+        "study_id": "S1",
+        "part_id": "PT3",
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "label": "Indonesian children aged 8 to 15 years",
+        "role": "Cognitive debriefing participants",
+        "geographies": [
+          "Indonesia"
+        ],
+        "conditions": [
+          "Healthy",
+          "Chronic illness",
+          "Acute illness"
+        ],
+        "age_description": "8 to 15 years, sampled across age bands 8-9, 10-12 and 13-15",
+        "inclusion_description": "Children attending school, from urban settings and various socioeconomic statuses, who had never seen the questionnaire before; healthy children approached by interviewer convenience and ill children approached at hospital",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP2",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "label": "Professional translators and linguists",
+        "role": "Forward translators (2 native Bahasa Indonesia speakers), backward translators (2 native English speakers fluent in Bahasa Indonesia), and a proofreading linguist",
+        "geographies": [
+          "Indonesia"
+        ],
+        "conditions": [],
+        "age_description": null,
+        "inclusion_description": "One forward translator was a public health PhD candidate with a medical background, the other had an economics background; one back translator was a professional translator resident in Indonesia, the other held a language diploma in Indonesian studies",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA1",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "population_id": "POP1",
+        "stage": "ANALYZED",
+        "size": 10,
+        "size_text": "10 participants",
+        "unit": "children",
+        "description": "Mean age 11.3 years; 5 female, 5 male; 4 healthy, 5 chronic illness, 1 acute illness; all urban; mean completion time 3.2 minutes",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "QUALITATIVE_MATERIAL",
+        "purpose": "Assess clarity, naturalness and adequacy of translated wording and comprehension of severity levels",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Cognitive interview transcripts and debriefing reports"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU2",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Check hierarchical ordering of in-between qualifiers for levels 2, 3 and 4",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Rating exercise scores (0-100) for level qualifiers"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU3",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Describe self-reported health profiles and VAS scores of debriefing participants",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-Y-5L health profiles and EQ VAS scores"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU4",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "origin": "DOCUMENTARY_SOURCE",
+        "level": "DOCUMENT",
+        "purpose": "Compare wording, headings, font styles and qualifiers across EQ-5D source and Bahasa Indonesia versions",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Existing EQ-5D English source versions and Bahasa Indonesia versions"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "TRANSLATION_TARGET",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-Y-5L, Bahasa Indonesia",
+        "registry_id": "instrument:eq-5d-y-5l-id-id"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "TRANSLATION_SOURCE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-Y-5L",
+        "registry_id": "instrument:eq-5d-y-5l"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-Y-3L, Bahasa Indonesia",
+        "registry_id": "instrument:eq-5d-y-3l-id-id"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU4",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-3L, Bahasa Indonesia",
+        "registry_id": "instrument:eq-5d-3l-id-id"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU5",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-5L, Bahasa Indonesia",
+        "registry_id": "instrument:eq-5d-5l-id-id"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU6",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CURRENT_HEALTH_MEASUREMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ VAS",
+        "registry_id": "instrument:eq-vas"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "INSTRUMENT_TRANSLATION_OR_ADAPTATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Forward translation",
+        "registry_id": "method:forward-translation"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "INSTRUMENT_TRANSLATION_OR_ADAPTATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Back translation",
+        "registry_id": "method:back-translation"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU7",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "INSTRUMENT_TRANSLATION_OR_ADAPTATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Consensus meeting",
+        "registry_id": "method:consensus-meeting"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITATIVE_DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Cognitive debriefing",
+        "registry_id": "method:cognitive-debriefing"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Severity qualifier rating exercise",
+        "registry_id": "method:severity-qualifier-rating-exercise"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU5",
+        "study_id": "S1",
+        "part_id": "PT3",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Linguist proofreading",
+        "registry_id": "method:linguist-proofreading"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU6",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "Version Management Committee review",
+        "registry_id": "method:version-management-committee-review"
+      },
+      {
+        "type": "ProtocolUse",
+        "id": "PU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "TRANSLATION_PROTOCOL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EuroQol Full Translation Guidelines (2018)",
+        "registry_id": "protocol:euroqol-full-translation-2018"
+      },
+      {
+        "type": "ProtocolUse",
+        "id": "PU2",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "TRANSLATION_PROTOCOL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EuroQol Translation Guidelines: Definition of Concepts",
+        "registry_id": "protocol:euroqol-translation-definition-of-concepts"
+      },
+      {
+        "type": "Administration",
+        "id": "AD1",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "applies_to": [
+          "IU1",
+          "IU6"
+        ],
+        "respondent": "Child self-report",
+        "perspective": "Self",
+        "completion": "Self-completed questionnaire before the in-depth interview; mean completion time 3.2 minutes",
+        "assistance": null,
+        "channel": "Paper questionnaire with face-to-face interview",
+        "setting": "Hospital for ill children; convenience settings for healthy children",
+        "instrument_language": "Bahasa Indonesia",
+        "interview_language": "Bahasa Indonesia",
+        "recall_period": "Health today",
+        "time_point": "Single session, November 2018 to February 2019",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "StakeholderInvolvement",
+        "id": "SI1",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "group": "EuroQol Version Management Committee",
+        "activity": "Reviewed translation reports, resolved discrepancies, decided which issues to test in cognitive debriefing, and approved the effective version",
+        "stage": "Throughout translation and finalization",
+        "role": "Methodological oversight and approval",
+        "influence": "Determined the wording decisions and approved the final effective version",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "StakeholderInvolvement",
+        "id": "SI2",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "group": "Children aged 8 to 15",
+        "activity": "Cognitive debriefing interviews, rating exercise, and preference testing of alternative Bahasa words",
+        "stage": "Cognitive debriefing",
+        "role": "Participants informing wording choices",
+        "influence": "Their preference for 'khawatir' over 'cemas' changed the final wording",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O1",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "family": "CONTENT_VALIDITY",
+        "label": "Comprehensibility and conceptual equivalence of translated wording",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O2",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "family": "MEASUREMENT_PROPERTY",
+        "label": "Hierarchical ordering of severity qualifiers in the rating exercise",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O3",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "family": "FEASIBILITY",
+        "label": "Feasibility of the cognitive debriefing task for children",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Achieving conceptual and semantic equivalence of EQ-5D qualifiers across languages and across EQ-5D versions",
+        "about": [
+          "IU1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "label": "Cross-cultural translation and linguistic equivalence"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Whether translated in-between level labels preserve the intended hierarchical severity order",
+        "about": [
+          "O2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "label": "Severity qualifier ordering"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Adapting instrument wording to children's comprehension level and everyday language",
+        "about": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "label": "Child-appropriate wording"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Saturation in responses caused by an extensive cognitive debriefing protocol",
+        "about": [
+          "O3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "label": "Response fatigue in children"
+      },
+      {
+        "type": "Product",
+        "id": "PR1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "EQ-5D-Y-5L Bahasa Indonesia (experimental version)",
+        "product_type": "INSTRUMENT_VERSION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "ProductStateAssertion",
+        "id": "PSA1",
+        "study_id": "S1",
+        "part_id": "PT3",
+        "product_id": "PR1",
+        "axis": "APPROVAL",
+        "exact_state": "effective version",
+        "assertion_date": null,
+        "asserted_by": "EuroQol Version Management Committee",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "ProductUse",
+        "id": "PRU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "ANALYSIS_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ],
+        "source_label": "EQ-5D-Y-5L Bahasa Indonesia (experimental version)",
+        "registry_id": "product:eq-5d-y-5l-bahasa-indonesia-experimental-version"
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "statement": "Comparison of English EQ-5D source versions showed differences in wordings, headings, font styles and qualifiers across the adult 3L, adult 5L, EQ-5D-Y-3L and EQ-5D-Y-5L that must be considered when translating.",
+        "about": [
+          "IU2",
+          "IU3",
+          "IU4",
+          "IU5"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "statement": "In the Bahasa Indonesia versions, levels 1, 2 and 4 of the EQ-5D-Y-5L matched levels 1, 2 and 3 of the EQ-5D-Y-3L, instead of levels 1, 3 and 4 as in the English versions, because the EQ-5D-3L Bahasa Indonesia lacks a level 2 magnitude qualifier.",
+        "about": [
+          "IU1",
+          "IU3",
+          "IU4"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "statement": "The existing Bahasa translations for 'pain' ('kesakitan', 'nyeri') and 'worried' ('cemas') were judged not comprehensible or not age appropriate, so 'rasa sakit' (with 'pada tubuh' added for discomfort) and 'khawatir' were adopted, breaking consistency with the EQ-5D-Y-3L Bahasa version.",
+        "about": [
+          "IU1",
+          "C3"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": "PT1",
+        "statement": "Translating the level 3 qualifier 'some' was difficult; 'cukup' was chosen over 'sedikit', 'beberapa', 'setengah' and 'kurang lebih' to align with level 3 of the EQ-5D-5L, although no back translator rendered 'cukup' as 'some'.",
+        "about": [
+          "IU1",
+          "C1"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "statement": "In the rating exercise most children ordered the in-between levels correctly, but several gave nearly identical scores to levels 2 and 3 and one child inverted them in mobility and self-care.",
+        "about": [
+          "O2"
+        ],
+        "values": [
+          {
+            "reported_value": "8",
+            "unit": "children",
+            "denominator": "10",
+            "time": null,
+            "subgroup": "Ordered levels correctly from best to worst in all dimensions",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "3 to 5",
+            "unit": "children",
+            "denominator": "10",
+            "time": null,
+            "subgroup": "Gave level 2 and level 3 scores differing by 10 points or less",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "1",
+            "unit": "children",
+            "denominator": "10",
+            "time": null,
+            "subgroup": "Reversed the order of levels 2 and 3 in mobility and self-care",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F6",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "statement": "Seven of 10 participants preferred 'khawatir' over the previously used 'cemas' as the translation of 'worried', finding it easier and more familiar in everyday life.",
+        "about": [
+          "O1",
+          "F3"
+        ],
+        "values": [
+          {
+            "reported_value": "7",
+            "unit": "children",
+            "denominator": "10",
+            "time": null,
+            "subgroup": "Preferred 'khawatir'",
+            "comparator": "'cemas'",
+            "direction": "favouring the proposed new wording",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F7",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "statement": "Children understood the instructions, the pain or discomfort dimension and the EQ VAS well, but some attributed self-care and usual activity problems to causes unrelated to health, and the in-depth example-giving task appeared to evoke response saturation.",
+        "about": [
+          "O1",
+          "O3",
+          "C4"
+        ],
+        "values": [
+          {
+            "reported_value": "3",
+            "unit": "children",
+            "denominator": "10",
+            "time": null,
+            "subgroup": "Commented on the visual presentation of the questionnaire",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "3.2",
+            "unit": "minutes",
+            "denominator": "10 children",
+            "time": null,
+            "subgroup": "Mean questionnaire completion time",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F8",
+        "study_id": "S1",
+        "part_id": "PT2",
+        "statement": "There was a low correspondence between the health profiles children reported and their EQ VAS scores, although all children said the questionnaire was easy to understand.",
+        "about": [
+          "DU3"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "I1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The multistep process produced a comprehensible and conceptually equivalent EQ-5D-Y-5L Bahasa Indonesia for children aged 8 to 16.",
+        "finding_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "I2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The qualifiers of the existing EQ-5D-3L and EQ-5D-Y-3L Bahasa Indonesia should be amended to restore parallel wording across EQ-5D versions, and results from these two measures should be interpreted with caution in international comparisons until then; the amendment is timely because no national Indonesian 3L value set yet exists.",
+        "finding_ids": [
+          "F2",
+          "F4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "I3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Difficulty in discriminating between levels 2 and 3 is not specific to Bahasa Indonesia and has been reported in Chichewa and Chinese, so linguistic experts should refine in-between qualifiers and valuation practice sessions should explain the qualifier rank order.",
+        "finding_ids": [
+          "F5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "I4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The example-giving section of cognitive debriefing is cognitively demanding for children and could be replaced by the ranking exercise developed for EQ-5D youth translations; forward translation guidance should also request simple fluent child-appropriate drafts alongside literal ones.",
+        "finding_ids": [
+          "F7"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The rationale behind the children's EQ VAS scores was not explored, so the discrepancy between reported health profiles and VAS scores can only be explained speculatively.",
+        "about": [
+          "F8"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The extensive cognitive debriefing appeared to cause response saturation or fatigue in some children, which may have limited the quality of their later answers.",
+        "about": [
+          "F7",
+          "C4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "An experimental version of the EQ-5D-Y-5L was translated because no official EuroQol version was available at the time, and the translation guideline used has since been revised.",
+        "about": [
+          "IU2",
+          "PU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pf53a5ee15eef.md"
+        ]
+      }
+    ]
+  }
+}

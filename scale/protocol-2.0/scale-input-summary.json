@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "people": 316,
+  "profiles_ready": 271,
+  "profiles_needing_review": 45,
+  "people_in_profile_review_queue": 104,
+  "ready_people_with_additional_profile_ids_held": 59,
+  "additional_profile_assignments_held": 76,
+  "distinct_additional_profile_ids_held": 76,
+  "profile_resolution_status": {
+    "ambiguous": 9,
+    "not_found": 9,
+    "ok": 262,
+    "ok_via_works": 14,
+    "unresolved": 21,
+    "weak_via_works": 1
+  },
+  "funding_metadata_works": 739,
+  "funding_metadata_candidate_articles": 686,
+  "funding_metadata_excluded_formats": 53,
+  "candidate_articles_with_abstract": 547,
+  "candidate_articles_without_abstract": 139,
+  "works_with_euroqol_award_id": 377,
+  "pilot_discovery_overlap_by_doi": 81,
+  "pilot_retained_overlap_by_doi": 69,
+  "input_file": "artefacts/03_funder_works.json",
+  "input_file_mtime_utc": "2026-07-28T20:20:27.076578+00:00",
+  "rule": "OpenAlex funding metadata is a discovery signal. Full text must confirm the funding scope before publication.",
+  "failures": []
+}

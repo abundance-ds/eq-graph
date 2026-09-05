@@ -1,0 +1,16 @@
+record_id	paper_id	article_path	sha256	bytes	coverage_reason
+C001	10.1007/s40273-018-0615-8	corpus/2012020/doi_10.1007_s40273-018-0615-8.md	ce4008f8960d9f27e76693f2f31fd1b2b043c3b86ccef599e799a745c444849f	48419	standard EQ-5D-5L value-set development
+C002	10.1007/s11136-026-04223-x	corpus/429-RA/doi_10.1007_s11136-026-04223-x.md	5266d9a9ea95e329ff9e5e1e46f124ffe129051b75fd16ce030459f108d798fe	49434	instrument reduction and measurement evaluation
+C003	10.1007/s40271-024-00715-5	corpus/150-RA/doi_10.1007_s40271-024-00715-5.md	19259d3a21512fdd2c1e447fe6e44febcbd2388f57eabe3431d298282c222d05	62053	qualitative proxy appropriateness research
+C004	10.1007/s11136-018-1985-2	corpus/2015400/doi_10.1007_s11136-018-1985-2.md	363625c754d379c479f786321eb244e48678aacfa36d92fe001dd38ac3247539	71162	adolescent population health and reference boundary
+C005	10.1038/s41433-023-02860-x	corpus/341-RA/doi_10.1038_s41433-023-02860-x.md	6a27dd1b66faeb7e4095b044a2f9b8df67dc165bf02ff8811dbcc59b536643d6	71413	cost-of-illness and wellbeing burden
+C006	10.1213/ane.0000000000007107	corpus/1483-TVG/doi_10.1213_ane.0000000000007107.md	46894a0a2caf783ddeed15e6c822abcc1444a18dc7b1ad824a631c826f233f5a	93921	clinical care determinants and outcomes without EQ use
+C007	10.1007/s11136-025-03990-3	corpus/330-PHD/doi_10.1007_s11136-025-03990-3.md	171009067ec3beb38d0342b099ed4a4172530dea123ad3a96a6a5907bfd95ba1	77245	stakeholder views before PROM implementation co-design
+C008	10.1371/journal.pone.0302886	corpus/348-PHD/doi_10.1371_journal.pone.0302886.md	9420b24805f77c45e43b06a4d79dde1108b29b495b94d16550687f99631dcbb5	188611	mixed-method PTO protocol and task design
+C009	10.1007/s40273-015-0292-9	corpus/2013230/doi_10.1007_s40273-015-0292-9.md	183a6da25535bfd5f18299dc5aa2c40eea8e4b804bf42793efda1eb3a62ae76c	55363	valuation reporting-checklist development
+C010	10.1007/s40273-021-01002-z	corpus/20180130/doi_10.1007_s40273-021-01002-z.md	f16bf7a38694b56920da191a401bb044d65a40b646a083e7fd2139a5fca87322	94816	retracted value-set article and product-state boundary
+C011	10.1007/s10198-021-01377-y	corpus/20190890/doi_10.1007_s10198-021-01377-y.md	57250a97f739fa5d4c81b213313ae376cc98f670ef1f80444769917babf91e0d	63193	valuation perspective experiment and task factors
+C012	10.1007/s10198-024-01719-6	corpus/238-RA/doi_10.1007_s10198-024-01719-6.md	7ca37497aa5ba3a9bab94fe0156583e85bd35a99d4934ff5af8381837dda5394	101030	bolt-on development and measurement performance
+C013	10.1007/s12311-024-01657-2	corpus/349-RA/doi_10.1007_s12311-024-01657-2.md	ba3549249f6cd84bf6aea4d81fd2cf43e6024a192e0c9ede4d0451c2ffb36a93	64795	longitudinal HRQoL determinant research
+C014	10.1186/s12955-023-02131-z	corpus/2016230/doi_10.1186_s12955-023-02131-z.md	b2083bc30a6caf142e5ea44beb9a49f3d4bfb500e10f6c8158ee2dfdc88eee01	50150	review of health-state utilities in economic evaluations
+C015	10.3390/nu16162591	corpus/460-RA/doi_10.3390_nu16162591.md	8b7cca005d2c1fa9631f3981fddf0945e20dfa67678fc845fd73f939bddb73a9	82631	EuroQol-supported longitudinal outcome research without EQ use

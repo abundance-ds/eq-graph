@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use EQ-Graph, cite the data release and the repository."
+title: "EQ-Graph: a research knowledge graph of EuroQol-funded projects and their publications"
+type: dataset
+version: beta-2026-08-29
+date-released: "2026-08-29"
+repository-code: "https://github.com/abundance-ds/eq-graph"
+url: "https://eq-graph.abundanceds.com"
+license:
+  - CC-BY-4.0
+  - MIT
+authors:
+  - family-names: Schneider
+    given-names: Paul
+  - family-names: Kulkarni
+    given-names: Anuja
+  - family-names: Pogoda
+    given-names: Kazik
+  - name: Abundance Decision Systems
+    website: "https://abundanceds.com"
+keywords:
+  - EuroQol
+  - EQ-5D
+  - health-related quality of life
+  - research portfolio
+  - knowledge graph
+abstract: >-
+  Typed evidence extracted from the full texts of 797 publications linked to
+  1,024 EuroQol-funded projects under ontology 0.13: studies, populations,
+  instruments, methods, findings, limitations, research products, resolved
+  people, accepted project-publication links, and a dated citation snapshot.

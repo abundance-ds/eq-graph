@@ -1,0 +1,311 @@
+{
+  "evaluations": [
+    {
+      "id": "Q1",
+      "verdict": "PASS",
+      "current_result": "1,024 funded projects; combined approved budget EUR 51,108,489; every project row carries a budget value.",
+      "main_cause": "Both totals are direct modelled fields on projects with no nulls."
+    },
+    {
+      "id": "Q2",
+      "verdict": "PASS",
+      "current_result": "Counts by start year 2012-2027 (4, 27, 29, 47, 62, 42, 36, 67, 92, 87, 81, 77, 94, 142, 130, 2); 5 projects lack a start year.",
+      "main_cause": "start_year supports the series; it is a start proxy for award year and 5 rows are null."
+    },
+    {
+      "id": "Q3",
+      "verdict": "PASS",
+      "current_result": "Median EUR 30,000; IQR EUR 16,535-59,516; largest grant EUR 1,439,446; 21 projects recorded at EUR 0.",
+      "main_cause": "approved_budget_eur is complete and numeric, so the full distribution is computable."
+    },
+    {
+      "id": "Q4",
+      "verdict": "PASS",
+      "current_result": "711 Completed, 312 Ongoing, 1 Closed.",
+      "main_cause": "status is a clean enumerated project field matching the question exactly."
+    },
+    {
+      "id": "Q5",
+      "verdict": "PASS",
+      "current_result": "Valuation leads on both counts: 266 projects and EUR 12,964,302; second is Descriptive Systems (167 / EUR 6.97M).",
+      "main_cause": "working_group answers both parts, though combined labels such as 'Valuation, Youth' must be split before shares are quoted."
+    },
+    {
+      "id": "Q6",
+      "verdict": "PARTIAL",
+      "current_result": "183 of 711 completed projects (25.7%) have at least one accepted publication link.",
+      "main_cause": "The ratio is bounded by the 273-publication corpus and conservative link acceptance, so it understates real output rather than measuring it."
+    },
+    {
+      "id": "Q7",
+      "verdict": "PARTIAL",
+      "current_result": "Median 3 years from project start to first linked output (mean 2.86) over the 190 projects that have a dated output link.",
+      "main_cause": "Only 190 of 1,024 projects contribute; the sample is right-censored by corpus coverage, not by real absence of publications."
+    },
+    {
+      "id": "Q8",
+      "verdict": "PARTIAL",
+      "current_result": "361-RA (10), 330-PHD (8), 304-PHD (7), 2013240 (6), 20180130 and 20180510 (5 each).",
+      "main_cause": "Ranking is well formed but the counts track which papers were ingested into the 273-publication corpus, so the leaderboard is coverage-driven."
+    },
+    {
+      "id": "Q9",
+      "verdict": "PARTIAL",
+      "current_result": "156 projects marked Completed with end year 2022 or earlier have no accepted publication link.",
+      "main_cause": "A missing accepted link is not evidence that no publication exists; the list is a follow-up queue, not a finding of non-production."
+    },
+    {
+      "id": "Q10",
+      "verdict": "FAIL",
+      "current_result": "No instrument-family split is derivable; abstract keyword sums (5L EUR 25.2M, Y EUR 10.7M, HWB EUR 9.3M, 3L EUR 5.0M, TIPS EUR 2.6M) overlap to EUR 52.9M against a EUR 51.1M portfolio.",
+      "main_cause": "Projects have no instrument relation, so any split double counts and cannot produce valid shares."
+    },
+    {
+      "id": "Q11",
+      "verdict": "FAIL",
+      "current_result": "No answer available; projects carry no institution or country attribute, and the 1,933 author affiliation rows are raw source strings across 1,020 distinct values.",
+      "main_cause": "Funding is not linked to normalized institutions or countries anywhere in the serving database."
+    },
+    {
+      "id": "Q12",
+      "verdict": "PASS",
+      "current_result": "'Psychometric properties of the EQ-5D-5L: a systematic review of the literature' (2021), 950 citations, linked as an output of project 2016170.",
+      "main_cause": "Dated OpenAlex counts join cleanly to accepted output links; the retrieval date 2026-08-21 must be stated."
+    },
+    {
+      "id": "Q13",
+      "verdict": "PARTIAL",
+      "current_result": "Working-group mix by era shows Valuation falling from 115/191 projects in 2012-2017 to a smaller share by 2018-2022 as Descriptive Systems, Youth and EQ-HWB grow.",
+      "main_cause": "Working group is an organisational unit, not a topic classification, so the trend is a proxy rather than a topical mix."
+    },
+    {
+      "id": "Q14",
+      "verdict": "PASS",
+      "current_result": "By deduplicated person: Nan Luo 55 grants / EUR 2,765,985; Zhihao Yang 22 / EUR 831,477; Feng Xie 22 / EUR 1,049,158; Nancy Devlin 21 / EUR 980,889.",
+      "main_cause": "project_people holds one PRINCIPAL_INVESTIGATOR row per project against resolved people, so both count and budget aggregate correctly."
+    },
+    {
+      "id": "Q15",
+      "verdict": "PASS",
+      "current_result": "5 publications with explicit EuroQol support and no accepted project link, including the Pakistan EQ-5D-3L valuation study and the isiXhosa EQ-5D-Y reliability paper.",
+      "main_cause": "euroqol_support and the accepted-link table together isolate exactly the unattributed set the question asks for."
+    },
+    {
+      "id": "Q16",
+      "verdict": "PARTIAL",
+      "current_result": "Funded value-set development is evidenced for 23 countries (Slovenia, Poland, Indonesia, Germany, Denmark each 2 projects; 18 others 1 each).",
+      "main_cause": "Only projects with a published linked output are visible; ongoing or unpublished valuations in a country return nothing and must not read as 'never funded'."
+    },
+    {
+      "id": "Q17",
+      "verdict": "PASS",
+      "current_result": "For Nan Luo, 15 linked outputs across 10 grants (e.g. 2015410 -> EuroQol TTO Protocols 2016; 1741-RA -> Singapore EQ-5D-5L value set 2025).",
+      "main_cause": "project_people to project_publications to publications resolves per-person grant outputs directly."
+    },
+    {
+      "id": "Q18",
+      "verdict": "PARTIAL",
+      "current_result": "1,004 project abstracts are available (average 2,023 characters) but only keyword overlap is possible; no similarity score or ranking can be produced.",
+      "main_cause": "The read-only SQL surface has no embedding or text-similarity function, so 'most similar' cannot be ordered."
+    },
+    {
+      "id": "Q19",
+      "verdict": "PASS",
+      "current_result": "Yes: completed 20180160 (four cognition bolt-on items in elderly), plus ongoing 1691-RA (EQ-HWB-S cognition bolt-on) and 2416-BT (vision, hearing and cognition bolt-ons in older adults).",
+      "main_cause": "Named projects with status and years answer the coverage question, even though the topic filter is abstract text."
+    },
+    {
+      "id": "Q20",
+      "verdict": "PARTIAL",
+      "current_result": "308 of 312 ongoing projects carry abstracts, so candidate overlaps can be surfaced by term, but no aim-level match or ranking is possible.",
+      "main_cause": "Aims are unstructured free text on projects; overlap is judged by the reader, not by the graph."
+    },
+    {
+      "id": "Q21",
+      "verdict": "PASS",
+      "current_result": "For Nan Luo, 10+ observed members co-authored with him (Zhihao Yang 17 papers, Jan Busschbach 9, Kim Rand 6, Michael Herdman 6).",
+      "main_cause": "Resolved authorships join to euroqol_memberships; membership is observation-dated so prior-period status cannot be asserted."
+    },
+    {
+      "id": "Q22",
+      "verdict": "PASS",
+      "current_result": "Per-grant lag is computable, e.g. Nan Luo: 2015410 1 year, 2016230 3, 20170330 4, 20180600 8, 1741-RA 1.",
+      "main_cause": "Project start years and first linked output years support the interval for any named applicant."
+    },
+    {
+      "id": "Q23",
+      "verdict": "PARTIAL",
+      "current_result": "179 of the 182 completed projects whose abstracts mention a value set have no linked value-set publication.",
+      "main_cause": "'Promised' is not modelled, so background mentions inflate the numerator while missing links inflate it again; the result is a triage list only."
+    },
+    {
+      "id": "Q24",
+      "verdict": "PARTIAL",
+      "current_result": "Valuation methods resolve per country for 26 countries (e.g. Netherlands TTO/cTTO/lead-time TTO/DCE/DCE-with-death/DCE-with-duration; Germany cTTO, DCE, DCE-without-duration, lead-time TTO).",
+      "main_cause": "study_countries and typed method uses work well, but there is no region attribute, so region Y must be assembled by hand."
+    },
+    {
+      "id": "Q25",
+      "verdict": "PARTIAL",
+      "current_result": "10 of 32 projects with -PHD or -SG identifiers (31%) have at least one accepted publication link.",
+      "main_cause": "Grant type is not a field; the cohort is inferred from identifier suffixes and the numerator is bounded by corpus link coverage."
+    },
+    {
+      "id": "Q26",
+      "verdict": "PARTIAL",
+      "current_result": "No structured condition or instrument attribute exists on projects; only abstract keyword co-occurrence can be returned.",
+      "main_cause": "Both match dimensions are unmodelled at project level, so shared-attribute retrieval is text-based and unverifiable."
+    },
+    {
+      "id": "Q27",
+      "verdict": "PASS",
+      "current_result": "Completed projects by band: under EUR 20k 0.17 publications each, EUR 20-50k 0.35, EUR 50-100k 0.59, EUR 100k+ 1.39.",
+      "main_cause": "Budget and accepted links are both modelled, giving a coherent band comparison with the corpus caveat on link coverage."
+    },
+    {
+      "id": "Q28",
+      "verdict": "PARTIAL",
+      "current_result": "272 of 273 publications carry a DOI, so pasted references can be matched and flagged as EuroQol-funded via support and accepted links; the database itself holds no reference lists.",
+      "main_cause": "Corpus membership testing works on supplied DOIs, but reference lists are deliberately excluded from the serving database."
+    },
+    {
+      "id": "Q29",
+      "verdict": "PASS",
+      "current_result": "EQ-5D-5L value sets recorded for about 23 countries including Germany, Egypt, Philippines, Sweden, Taiwan, Romania, Vietnam, Morocco, Denmark, Indonesia, Poland, France, Slovenia, Singapore, Belgium, Hungary, Italy, Peru, UAE, Ghana, Trinidad and Tobago.",
+      "main_cause": "VALUE_SET products join to study countries; 4 of 41 value-set studies lack a country row and the list is corpus-bounded, not the global tally."
+    },
+    {
+      "id": "Q30",
+      "verdict": "PARTIAL",
+      "current_result": "EQ-VT use is recorded for around 20 studies, but only EQ-VT 2.0, 2.1 and 2.6.1 are canonicalised; versions 1.0, 1.1 and 'v2' survive only inside free-text source labels.",
+      "main_cause": "Protocol version is not a normalised attribute, so version-by-value-set reporting depends on parsing label strings."
+    },
+    {
+      "id": "Q31",
+      "verdict": "PASS",
+      "current_result": "32 ongoing EQ-HWB projects with named PIs, including valuation-specific work: 1611-RA (Marcel Jonker, EQ-HWB-S pilot valuation, DCE with duration), 1823-RA and 1919-RA (OPUF elicitation).",
+      "main_cause": "Ongoing status, PI and the EQ-HWB working group are modelled; only the valuation sub-filter relies on abstract text."
+    },
+    {
+      "id": "Q32",
+      "verdict": "PASS",
+      "current_result": "Publications since 2021 by working group: Valuation 56, Youth 33, Descriptive Systems 32, Valuation+Youth 27, Populations and Health Systems 26.",
+      "main_cause": "Working group, accepted links and publication year join cleanly; combined group labels need splitting before per-group totals."
+    },
+    {
+      "id": "Q33",
+      "verdict": "PASS",
+      "current_result": "14 studies use both EQ-5D-5L and EQ-5D-3L as current activity, including the head-to-head comparisons (V2-P135, V2-P137, V2-P144) and the Hungarian parallel valuation PDF-P018.",
+      "main_cause": "Context-filtered instrument uses plus PREFERENCE_COMPARISON purpose identify same-population comparisons reliably."
+    },
+    {
+      "id": "Q34",
+      "verdict": "PARTIAL",
+      "current_result": "8 population-norms studies and 6 reference-data products; EQ-5D-5L norms cover Germany, Italy, Romania, Trinidad and Tobago and Indonesia, plus one multi-country dataset.",
+      "main_cause": "The purpose and product types are correct, but corpus coverage of national norms is thin, so absence of a country means nothing."
+    },
+    {
+      "id": "Q35",
+      "verdict": "PARTIAL",
+      "current_result": "Only 5 studies carry the MAPPING_OR_CROSSWALK purpose, and they are 3L/5L crosswalks, Y-3L DCE-to-TTO mapping and mapped-utility CEA, not condition-specific instrument to EQ-5D mappings.",
+      "main_cause": "The retrieval path is sound but the corpus holds almost none of the specific study class asked about."
+    },
+    {
+      "id": "Q36",
+      "verdict": "PASS",
+      "current_result": "Yes: 8 EQ-5D-Y studies record both proxy and self administrations, including PDF-P009, V2-P035, V2-P119, V2-P150, V2-P169 and V2-P203.",
+      "main_cause": "administrations captures respondent role per study part, so proxy-versus-self designs are directly identifiable."
+    },
+    {
+      "id": "Q37",
+      "verdict": "PASS",
+      "current_result": "34 studies use DCE as current preference elicitation, with countries attached (Australia, Egypt, Philippines, Sweden, Romania, Vietnam, Morocco, Denmark, Indonesia, Netherlands, Poland, France, Slovenia, Germany, China, Brazil and more).",
+      "main_cause": "Typed method uses with function PREFERENCE_ELICITATION join to study_countries; a few studies lack a country row."
+    },
+    {
+      "id": "Q38",
+      "verdict": "PASS",
+      "current_result": "For Nan Luo: Zhihao Yang 17 shared papers, Jan Busschbach 9, Pei Wang 6, Michael Herdman 6, Kim Rand 6, Bin Wu 5.",
+      "main_cause": "Accepted authorships against resolved people give a correct within-corpus co-author frequency."
+    },
+    {
+      "id": "Q39",
+      "verdict": "PARTIAL",
+      "current_result": "43 bolt-on concept rows name cognition, vision, sleep, fatigue, dermatology/skin irritation, cancer, psychosocial and climate-relevant items across 12 studies.",
+      "main_cause": "Condition is not a structured axis; the topics come from concept text, so counts per condition are indicative only."
+    },
+    {
+      "id": "Q40",
+      "verdict": "PARTIAL",
+      "current_result": "Ongoing status is exact (312 projects), but the EQ-5D-5L valuation filter returns 84 abstract keyword hits of which only a few, such as 2247-VS (Turkish EQ-5D-5L value set), are genuine valuation studies.",
+      "main_cause": "There is no project-level instrument or study-type field, so the topical filter is noisy free-text matching."
+    },
+    {
+      "id": "Q41",
+      "verdict": "PARTIAL",
+      "current_result": "7 studies treat the EQ-VT protocol as the object of study, including the 2016 EuroQol TTO Protocols paper, the 2021 'one-size-fits-all?' paper and the 2024 interviewer QC investigation.",
+      "main_cause": "CURRENT_STUDY_OBJECT identifies evaluation of EQ-VT, but 'introduced' is not a modelled relation and the originating protocol paper is not separable."
+    },
+    {
+      "id": "Q42",
+      "verdict": "PASS",
+      "current_result": "9 studies address DCE with duration, including the German 5L value set, PDF-P028 (direct DCE-with-duration versus cTTO comparison), V2-P138 severity-stratified designs and PDF-P041 EQ-5D-Y-5L testing.",
+      "main_cause": "'DCE with duration' is canonicalised as a distinct method and separated from DCE without duration and DCE with death."
+    },
+    {
+      "id": "Q43",
+      "verdict": "FAIL",
+      "current_result": "42 of 43 value-set products come from publications marked explicit EuroQol support; only one is unclear and one has no accepted project link.",
+      "main_cause": "The corpus sampling frame is EuroQol-connected by construction, so it cannot supply the non-EuroQol comparison the question requires."
+    },
+    {
+      "id": "Q44",
+      "verdict": "PASS",
+      "current_result": "For Nan Luo, grants span 12 working-group labels (Descriptive Systems 14, Education and Outreach 13, Valuation 9, Youth 5 and others); via authorship 7 labels.",
+      "main_cause": "project_people to projects gives the working-group span directly, with combined labels needing a split."
+    },
+    {
+      "id": "Q45",
+      "verdict": "PARTIAL",
+      "current_result": "5L valuation studies show analysed samples clustering near 1,000-1,200 respondents (974, 986, 1,000, 1,014, 1,054, 1,158, 1,252) alongside 7,000-12,000 valuation observations.",
+      "main_cause": "Respondent counts and valuation-task counts share one sample_size field, so a typical value requires reading the label to avoid mixing units."
+    },
+    {
+      "id": "Q46",
+      "verdict": "FAIL",
+      "current_result": "No answer possible; the serving database holds only dated aggregate citation counts and yearly totals, with no citing-to-cited edges and no reference lists.",
+      "main_cause": "Paper reference lists are deliberately excluded from the serving database, so specific citing-paper questions have no evidence path."
+    },
+    {
+      "id": "Q47",
+      "verdict": "PASS",
+      "current_result": "For Nan Luo on accepted project outputs: Zhihao Yang (17), Jan Busschbach (9), Kim Rand (6), Michael Herdman (6), Fredrick Purba (3), Juan M. Ramos-Goni (3), Elly Stolk (2).",
+      "main_cause": "Membership, resolved authorship and project_output='yes' combine correctly to restrict to funded outputs."
+    },
+    {
+      "id": "Q48",
+      "verdict": "PARTIAL",
+      "current_result": "Only 21 of 312 ongoing projects have any linked publication; abstract keywords suggest EQ-5D-5L in 155, EQ-5D-Y in 63 and EQ-HWB in 76, with heavy overlap.",
+      "main_cause": "No project-to-instrument relation exists, so a per-project instrument target is inferred from text rather than recorded."
+    },
+    {
+      "id": "Q49",
+      "verdict": "PASS",
+      "current_result": "11 EQ-5D-Y studies report test-retest outcomes, including V2-P068 and V2-P091 (Y-3L versus Y-5L), V2-P119 (autistic children), V2-P169 and PDF-P009.",
+      "main_cause": "Instrument uses join to typed outcomes, so the reliability sub-question resolves without free-text guessing."
+    },
+    {
+      "id": "Q50",
+      "verdict": "PASS",
+      "current_result": "22 value-set development studies record both a TTO variant and a DCE variant as current activity in the same study.",
+      "main_cause": "Study-scoped method uses with context filtering identify dual-elicitation designs for the same value set cleanly."
+    }
+  ],
+  "run": {
+    "model": "claude-opus-5",
+    "effort": "high",
+    "api_key_removed": true,
+    "database": "web/server/data/serving.sqlite",
+    "publication_count": 273
+  }
+}

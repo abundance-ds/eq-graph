@@ -1,0 +1,1075 @@
+{
+  "record_id": "P94878b957eaf",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "EXPLICIT_SUPPORT",
+    "project_ids": [],
+    "reason": "Funding statement states the EuroQol Research Foundation funded the study (grant 1592-RA), which is not the listed candidate project 1557-RA.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "P94878b957eaf",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "The EuroQol Research Foundation funded the study (grant 1592-RA); a EuroQol travel grant supported the qualitative analysis research stay at Monash University.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "Funding statement states the EuroQol Research Foundation funded the study (grant 1592-RA), which is not the listed candidate project 1557-RA.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Qualitative face validity study of the proxy EQ-HWB-9 with informal caregivers of community-dwelling people with dementia in Germany, comparing 'today' and '7-day' recall periods",
+        "primary_research_family": "MEASUREMENT_PROPERTY_EVALUATION",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The study evaluates face validity, acceptability, item suitability and recall-period adherence of the EQ-HWB-9 used as a proxy measure.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "PU1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "CONTENT_VALIDITY_EVALUATION",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "PU2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "MEASUREMENT_PROPERTY_EVALUATION",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "QUALITATIVE_INQUIRY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "BETWEEN_GROUP",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "RANDOMIZED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "CROSS_SECTIONAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Informal caregivers of community-dwelling people living with dementia",
+        "role": "Proxy respondents and interviewees",
+        "geographies": [
+          "Germany (Mecklenburg-Western Pomerania, Hamburg, Berlin, Brandenburg)"
+        ],
+        "conditions": [
+          "Caregiving for dementia"
+        ],
+        "age_description": "Mean age 70.6 years (SD 10.6); 72.6% female",
+        "inclusion_description": "Caregivers living with the person with dementia or providing daily care; recruited May 2023 to December 2024 via study nurses in general practices and memory clinics",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Community-dwelling people living with dementia (care recipients)",
+        "role": "Target of proxy assessment",
+        "geographies": [
+          "Germany"
+        ],
+        "conditions": [
+          "Dementia"
+        ],
+        "age_description": "Mean age 77.3 years (SD 8.0); 42.5% female",
+        "inclusion_description": "Positive DemTect screening (score ≤ 8) or formal dementia diagnosis confirmed by a treating physician; mean MMSE 18.7",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA1",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "ANALYZED",
+        "size": 73,
+        "size_text": "73 interviews included; one interview could not be performed",
+        "unit": "caregiver interviews",
+        "description": "Interviews lasting 5-18 minutes (mean 9 minutes); 37 caregivers in the 'today' group and 34-36 in the '7-day' group",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA2",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP2",
+        "stage": "ANALYZED",
+        "size": 73,
+        "size_text": "73",
+        "unit": "people living with dementia",
+        "description": "Dyad partners of the interviewed caregivers",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "QUALITATIVE_MATERIAL",
+        "purpose": "Audio-recorded, verbatim transcribed semi-structured interviews analysed for face validity of the proxy EQ-HWB-9",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Caregiver interview transcripts"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU2",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "CURRENT_STUDY_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Sociodemographic characteristics, cognitive status and caregiver burden of the dyads",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Dyad survey data"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "CONTENT_TEST_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "EQ-HWB-9 experimental 2022 proxy version, German",
+        "registry_id": "instrument:eq-hwb-9-experimental-2022-proxy-version-german"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREDICTOR_MEASURE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Mini-Mental State Examination",
+        "registry_id": "instrument:mmse"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREDICTOR_MEASURE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Zarit Burden Interview, 7-item version",
+        "registry_id": "instrument:zarit-burden-interview-7"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CURRENT_HEALTH_MEASUREMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Daily health fluctuation diary",
+        "registry_id": "instrument:daily-health-fluctuation-diary"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "DemTect",
+        "registry_id": "instrument:demtect"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITATIVE_DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Semi-structured interview",
+        "registry_id": "method:semi-structured-interview"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Qualitative content analysis (Mayring)",
+        "registry_id": "method:qualitative-content-analysis-mayring"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Random assignment to recall period version",
+        "registry_id": "method:random-assignment-to-recall-period-version"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "Double coding with consensus discussion",
+        "registry_id": "method:double-coding-with-consensus-discussion"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "source_label": "MAXQDA 24",
+        "registry_id": "software:maxqda-24"
+      },
+      {
+        "type": "TaskDesign",
+        "id": "TD1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1"
+        ],
+        "label": "Recall period comparison for the proxy EQ-HWB-9",
+        "profiles": [],
+        "attributes": [
+          "recall period"
+        ],
+        "levels": [
+          "today",
+          "7 days"
+        ],
+        "duration": "14 days with EQ-HWB-9 completion on day 1, day 7 and day 14",
+        "alternatives": null,
+        "task_count": "3 EQ-HWB-9 completions plus one final interview",
+        "block": null,
+        "order": null,
+        "randomization_unit": "caregiver-patient dyad",
+        "stopping_rule": null,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Administration",
+        "id": "AD1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1"
+        ],
+        "respondent": "Informal caregiver as proxy for the person living with dementia",
+        "perspective": "Proxy-proxy perspective (caregiver's own view of the care recipient's health)",
+        "completion": "Self-completed questionnaire, with interviewer-administered interview afterwards",
+        "assistance": "Study nurses present at the caregivers' homes",
+        "channel": "Paper questionnaire and face-to-face interview",
+        "setting": "Caregivers' homes",
+        "instrument_language": "German",
+        "interview_language": "German",
+        "recall_period": "Today or 7 days by random assignment",
+        "time_point": "Day 1, day 7 and day 14; interview after the final survey",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "SF1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Recall period of the EQ-HWB-9 proxy version",
+        "levels": [
+          "today",
+          "7 days"
+        ],
+        "role": "EXPOSURE_OR_DETERMINANT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "CONTENT_VALIDITY",
+        "label": "Face validity of the EQ-HWB-9: acceptability, ease of completion, suitability of dimensions and missing content",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU2",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "Adherence to the assigned recall period and preferred recall period",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU3",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "Adherence to the proxy-proxy perspective and response certainty",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "OU4",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "FEASIBILITY",
+        "label": "Preferred frequency of administration of the EQ-HWB-9",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Most caregivers rated the EQ-HWB-9 as an acceptable proxy measure of the health and wellbeing of the person with dementia, with no difference between recall groups.",
+        "about": [
+          "OU1"
+        ],
+        "values": [
+          {
+            "reported_value": "88% (n=64) acceptable",
+            "unit": "percent of caregivers",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "7% (n=5) moderately acceptable",
+            "unit": "percent of caregivers",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "4% (n=3) not acceptable",
+            "unit": "percent of caregivers",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Most caregivers found the items easy to answer, but a substantial minority reported moderate or high difficulty, citing the inherent difficulty of rating another person and vague distinctions between response options such as 'only occasionally' and 'sometimes'.",
+        "about": [
+          "OU1"
+        ],
+        "values": [
+          {
+            "reported_value": "62% (44/71) easy",
+            "unit": "percent of caregivers",
+            "denominator": "71 caregivers answering",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "28% (20/71) moderately difficult",
+            "unit": "percent of caregivers",
+            "denominator": "71 caregivers answering",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "10% (7/71) challenging",
+            "unit": "percent of caregivers",
+            "denominator": "71 caregivers answering",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Caregivers judged observable dimensions as more suitable for describing the health status of the person with dementia than internal states, which required interpretation of facial expressions, gestures and behaviour.",
+        "about": [
+          "OU1"
+        ],
+        "values": [
+          {
+            "reported_value": "75%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Activities of daily living",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "71%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Concentration",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "69%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Mobility",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "40%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Loneliness",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "38%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Sadness",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "35%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Anxiety",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "51% versus 70%",
+            "unit": "percent rating dimension suitable",
+            "denominator": "caregivers by recall group",
+            "time": null,
+            "subgroup": "Loss of control, 7-day group versus today group",
+            "comparator": "today recall group",
+            "direction": "lower in the 7-day group",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Over half of caregivers reported no missing dimensions; those who did most often named sleep, communication and the occurrence of events. Loneliness, pain and sadness/depression were the items most often reported as difficult to answer.",
+        "about": [
+          "OU1"
+        ],
+        "values": [
+          {
+            "reported_value": "55% (n=40) reported nothing missing",
+            "unit": "percent of caregivers",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "15% (n=11)",
+            "unit": "percent naming item difficult",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Loneliness",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "15% (n=11)",
+            "unit": "percent naming item difficult",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Pain",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "11% (n=8)",
+            "unit": "percent naming item difficult",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": "Feeling sad or depressed",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Self-reported adherence was lower in the 7-day recall group than in the 'today' recall group, with more frequent deviations from the instructed recall period.",
+        "about": [
+          "OU2"
+        ],
+        "values": [
+          {
+            "reported_value": "86% (32/37) adhered",
+            "unit": "percent of caregivers",
+            "denominator": "37 caregivers",
+            "time": null,
+            "subgroup": "Today recall group",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "76% (26/34) strictly adhered",
+            "unit": "percent of caregivers",
+            "denominator": "34 caregivers answering",
+            "time": null,
+            "subgroup": "7-day recall group",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Caregivers most often preferred a seven-day recall period, and generally preferred the recall period to which they had been assigned; recall periods longer than seven days were regarded as inappropriate.",
+        "about": [
+          "OU2"
+        ],
+        "values": [
+          {
+            "reported_value": "31.8% preferred seven days",
+            "unit": "percent of caregivers",
+            "denominator": "total sample",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "38.7% preferred seven days",
+            "unit": "percent of caregivers",
+            "denominator": "7-day recall group",
+            "time": null,
+            "subgroup": "7-day recall group",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "19.7% preferred 'today' or up to two days",
+            "unit": "percent of caregivers",
+            "denominator": "total sample",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "37.1% preferred 'today' or up to two days",
+            "unit": "percent of caregivers",
+            "denominator": "today recall group",
+            "time": null,
+            "subgroup": "Today recall group",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F7",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Caregivers generally understood and followed the instructed proxy-proxy perspective, but described tension between their own view and an accurate depiction of the care recipient, and reported uncertainty in selecting response options, particularly for pain, sadness/depression and anxiety when communication was impaired. Relationship closeness affected perceived difficulty.",
+        "about": [
+          "OU3"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F8",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Preferences for administration frequency were heterogeneous, with weekly administration the most common preference.",
+        "about": [
+          "OU4"
+        ],
+        "values": [
+          {
+            "reported_value": "34% (20/59) weekly",
+            "unit": "percent of caregivers",
+            "denominator": "59 caregivers answering",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "12% twice a year",
+            "unit": "percent of caregivers",
+            "denominator": "59 caregivers answering",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "10% quarterly",
+            "unit": "percent of caregivers",
+            "denominator": "59 caregivers answering",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F9",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Many caregivers reported health changes in the care recipient during the study period and described fluctuating good and bad days as typical, with events such as visits or medical appointments influencing behaviour.",
+        "about": [],
+        "values": [
+          {
+            "reported_value": "44% reported health change",
+            "unit": "percent of caregivers",
+            "denominator": "73 caregivers",
+            "time": "during the 14-day study period",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "85% rated such behaviour as typical",
+            "unit": "percent of caregivers",
+            "denominator": "73 caregivers",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The EQ-HWB-9 is broadly acceptable and feasible as a proxy measure for the health and wellbeing of community-dwelling people with dementia when completed by informal caregivers.",
+        "finding_ids": [
+          "F1",
+          "F2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Recall periods need careful tailoring in dementia: the seven-day period reduced adherence, while periods longer than seven days were seen as inappropriate, and recall length appears to matter most for less observable dimensions.",
+        "finding_ids": [
+          "F5",
+          "F6",
+          "F3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Proxy reporting of non-observable domains relies on interpretation of non-verbal cues and creates response uncertainty and potential bias, so clear instructions and guidance should accompany proxy measures.",
+        "finding_ids": [
+          "F7",
+          "F3",
+          "F4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Content that caregivers judged missing, such as sleep and communication, is present in the 25-item EQ-HWB, suggesting item reduction removed content relevant to this population, although the measure is intentionally generic.",
+        "finding_ids": [
+          "F4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Interviews were conducted by trained study nurses rather than researchers, which may have reduced the depth of questioning.",
+        "about": [
+          "MU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The interviews were embedded in a larger mixed-methods study, so the study framing may have shaped caregivers' preferences for the recall period they had been assigned.",
+        "about": [
+          "OU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Only the proxy-proxy perspective was examined; results may differ under a proxy-person perspective.",
+        "about": [
+          "AD1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The retrospective interview design may have introduced recall bias, and adherence to the recall period was self-reported and could not be verified.",
+        "about": [
+          "OU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Dementia type was not assessed and the influence of cognitive impairment or disease severity on caregiver perceptions was not explored.",
+        "about": [
+          "POP2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Most interviews were coded by a single researcher, with double coding only for a subset.",
+        "about": [
+          "MU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Assessment of the health and wellbeing of people with dementia by informal caregivers acting as proxies",
+        "about": [
+          "IU1",
+          "OU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "label": "Proxy reporting"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Comparison of 'today' and '7-day' recall frames for a proxy-completed wellbeing measure",
+        "about": [
+          "SF1",
+          "OU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "label": "Recall period"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Instructed perspective taken by caregivers when rating another person's health",
+        "about": [
+          "AD1",
+          "OU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "label": "Proxy-proxy versus proxy-person perspective"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Day-to-day variation in the condition of people living with dementia and its effect on measurement",
+        "about": [
+          "IU4",
+          "F9"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "label": "Health fluctuation in dementia"
+      },
+      {
+        "type": "Concept",
+        "id": "C5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Caregiver burden as a possible source of bias in proxy ratings",
+        "about": [
+          "IU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P94878b957eaf.md"
+        ],
+        "label": "Carer burden"
+      }
+    ]
+  }
+}

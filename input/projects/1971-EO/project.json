@@ -1,0 +1,24 @@
+{
+  "project_id": "1971-EO",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1971,
+  "call_year": null,
+  "grant_type_code": "EO",
+  "grant_type": "3.1 Education and outreach project",
+  "revision": null,
+  "title": "Travel scholarship request to attend ISPOR Europe 2024 for findings dissemination.",
+  "pi_name_raw": "Jia Jia Lee",
+  "working_groups": [
+    "Dissemination, OA fee"
+  ],
+  "approved_budget_eur": 1636,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 475,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

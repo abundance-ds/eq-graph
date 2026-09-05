@@ -1,0 +1,24 @@
+{
+  "project_id": "2100-EOI",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2100,
+  "call_year": null,
+  "grant_type_code": "EOI",
+  "grant_type": "3.3 Expression of interest form for regional events",
+  "revision": null,
+  "title": "1st EuroQol Central and Eastern Europe Regional Meeting",
+  "pi_name_raw": "Dominik Golicki",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 77298,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2026,
+  "has_abstract": false,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 460,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

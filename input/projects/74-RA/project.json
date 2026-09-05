@@ -1,0 +1,24 @@
+{
+  "project_id": "74-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 74,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "General public EQ-5D measurement before and during general Covid-19 quarantine in Spain",
+  "pi_name_raw": "Juan Manuel Ramos-Goñi",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 16920,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 298,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

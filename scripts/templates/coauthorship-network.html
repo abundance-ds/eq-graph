@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EuroQol co-authorship network</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #ffffff;
+      --foreground: #171717;
+      --card: #f5f5f5;
+      --card-foreground: #171717;
+      --muted-foreground: #737373;
+      --border: #d4d4d4;
+      --member: #2563eb;
+      --leader: #ea580c;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #171717;
+        --foreground: #fafafa;
+        --card: #252525;
+        --card-foreground: #fafafa;
+        --muted-foreground: #a3a3a3;
+        --border: #525252;
+        --member: #60a5fa;
+        --leader: #fb923c;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    main {
+      width: min(1100px, 100%);
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    .summary {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 14px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+      color: var(--card-foreground);
+    }
+
+    .summary strong {
+      font-weight: 500;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px 16px;
+      margin: 10px 0 4px;
+      font-size: 0.82rem;
+    }
+
+    .legend > span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .muted {
+      color: var(--muted-foreground);
+    }
+
+    .key {
+      display: inline-block;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+    }
+
+    .member-key {
+      background: var(--member);
+    }
+
+    .author-key {
+      background: var(--muted-foreground);
+      opacity: 0.55;
+    }
+
+    .leader-key {
+      border: 2px solid var(--leader);
+    }
+
+    .stage {
+      position: relative;
+      width: 100%;
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      color: var(--foreground);
+      touch-action: none;
+    }
+
+    .network-link {
+      stroke: var(--muted-foreground);
+      stroke-linecap: round;
+    }
+
+    .network-node {
+      cursor: pointer;
+    }
+
+    .network-node.is-member {
+      fill: var(--member);
+    }
+
+    .network-node.is-author {
+      fill: var(--muted-foreground);
+    }
+
+    .network-node.is-leader {
+      stroke: var(--leader);
+      stroke-width: 2.2px;
+    }
+
+    .network-node.is-selected {
+      stroke: var(--foreground);
+      stroke-width: 3px;
+    }
+
+    .network-label {
+      fill: var(--foreground);
+      font-size: 11px;
+      paint-order: stroke;
+      stroke: var(--background);
+      stroke-width: 3px;
+      stroke-linejoin: round;
+      pointer-events: none;
+    }
+
+    .tooltip {
+      position: absolute;
+      visibility: hidden;
+      z-index: 2;
+      max-width: min(320px, calc(100% - 8px));
+      padding: 7px 9px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--card);
+      color: var(--card-foreground);
+      box-shadow: 0 4px 16px color-mix(in srgb, var(--foreground) 14%, transparent);
+      pointer-events: none;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        padding: 14px;
+      }
+
+      .legend {
+        gap: 5px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main id="eq-coauthorship-network">
+    <h1>Co-authorship network</h1>
+    <div class="summary" aria-live="polite">
+      <strong id="network-person">Research network</strong>
+      <span id="network-detail"></span>
+    </div>
+
+    <div class="legend" aria-label="Legend">
+      <span><i class="key member-key" aria-hidden="true"></i>EuroQol member</span>
+      <span><i class="key author-key" aria-hidden="true"></i>Other author</span>
+      <span><i class="key leader-key" aria-hidden="true"></i>Project leader ring</span>
+      <span class="muted">Node size: papers · line width: shared papers</span>
+    </div>
+
+    <div class="stage">
+      <svg viewBox="0 0 960 620" role="img" aria-labelledby="network-title network-desc">
+        <title id="network-title">EuroQol co-authorship network</title>
+        <desc id="network-desc"></desc>
+        <g class="zoom-layer">
+          <g class="network-links"></g>
+          <g class="network-nodes"></g>
+          <g class="network-labels"></g>
+        </g>
+      </svg>
+      <div class="tooltip" role="status"></div>
+    </div>
+    <p class="sr-only" id="network-fallback"></p>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script>
+  (() => {
+    const root = document.getElementById("eq-coauthorship-network");
+    const graph = __COAUTHORSHIP_DATA__;
+    const d3 = window.d3;
+    const width = 960;
+    const height = 620;
+    const margin = 38;
+    const personName = root.querySelector("#network-person");
+    const personDetail = root.querySelector("#network-detail");
+    const tooltip = root.querySelector(".tooltip");
+    const svgElement = root.querySelector("svg");
+
+    if (!d3) {
+      personDetail.textContent = "The network library did not load.";
+      return;
+    }
+
+    const svg = d3.select(svgElement);
+    const zoomLayer = svg.select(".zoom-layer");
+    const nodes = graph.nodes.map((node) => ({ ...node }));
+    const links = graph.links.map((link) => ({ ...link }));
+    const nodeById = new Map(nodes.map((node) => [node.id, node]));
+    const radius = d3.scaleSqrt()
+      .domain([1, d3.max(nodes, (node) => node.p)])
+      .range([3.2, 14]);
+    const linkWidth = d3.scaleSqrt()
+      .domain([1, d3.max(links, (link) => link.w)])
+      .range([0.7, 4.8]);
+
+    const simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links)
+        .id((node) => node.id)
+        .distance((link) => 92 / Math.sqrt(link.w))
+        .strength((link) => Math.min(0.9, 0.22 + link.w * 0.075)))
+      .force("charge", d3.forceManyBody().strength((node) => -34 - node.p * 1.7))
+      .force("collide", d3.forceCollide().radius((node) => radius(node.p) + 2.5).iterations(2))
+      .force("x", d3.forceX(width / 2).strength(0.035))
+      .force("y", d3.forceY(height / 2).strength(0.035))
+      .stop();
+
+    for (let index = 0; index < 320; index += 1) simulation.tick();
+
+    const adjacency = new Map(nodes.map((node) => [node.id, []]));
+    links.forEach((link) => {
+      adjacency.get(link.source.id).push({ id: link.target.id, weight: link.w });
+      adjacency.get(link.target.id).push({ id: link.source.id, weight: link.w });
+    });
+
+    const unseen = new Set(nodes.map((node) => node.id));
+    const components = [];
+    while (unseen.size) {
+      const start = unseen.values().next().value;
+      const stack = [start];
+      const component = [];
+      unseen.delete(start);
+      while (stack.length) {
+        const current = stack.pop();
+        component.push(nodeById.get(current));
+        adjacency.get(current).forEach((neighbor) => {
+          if (unseen.delete(neighbor.id)) stack.push(neighbor.id);
+        });
+      }
+      components.push(component);
+    }
+    components.sort((left, right) => d3.descending(left.length, right.length));
+
+    function fitGroup(group, x0, x1, y0, y1) {
+      const xExtent = d3.extent(group, (node) => node.x);
+      const yExtent = d3.extent(group, (node) => node.y);
+      const scale = Math.min(
+        (x1 - x0) / Math.max(1, xExtent[1] - xExtent[0]),
+        (y1 - y0) / Math.max(1, yExtent[1] - yExtent[0])
+      );
+      const sourceCenterX = (xExtent[0] + xExtent[1]) / 2;
+      const sourceCenterY = (yExtent[0] + yExtent[1]) / 2;
+      const targetCenterX = (x0 + x1) / 2;
+      const targetCenterY = (y0 + y1) / 2;
+      group.forEach((node) => {
+        node.x = targetCenterX + (node.x - sourceCenterX) * scale;
+        node.y = targetCenterY + (node.y - sourceCenterY) * scale;
+      });
+    }
+
+    fitGroup(components[0], margin, width - 178, margin, height - margin);
+    const separateNodes = components.slice(1).flat();
+    if (separateNodes.length) {
+      fitGroup(separateNodes, width - 150, width - margin, height - 126, height - margin);
+    }
+
+    const link = svg.select(".network-links")
+      .selectAll("line")
+      .data(links)
+      .join("line")
+      .attr("class", "network-link")
+      .attr("x1", (item) => item.source.x)
+      .attr("y1", (item) => item.source.y)
+      .attr("x2", (item) => item.target.x)
+      .attr("y2", (item) => item.target.y)
+      .attr("stroke-width", (item) => linkWidth(item.w))
+      .attr("stroke-opacity", (item) => 0.16 + Math.min(0.44, item.w * 0.045));
+
+    const node = svg.select(".network-nodes")
+      .selectAll("circle")
+      .data(nodes)
+      .join("circle")
+      .attr("class", (item) => `network-node ${item.m ? "is-member" : "is-author"}${item.l ? " is-leader" : ""}`)
+      .attr("cx", (item) => item.x)
+      .attr("cy", (item) => item.y)
+      .attr("r", (item) => radius(item.p))
+      .attr("fill-opacity", (item) => item.m ? 0.82 : 0.48)
+      .attr("aria-label", (item) => `${item.n}: ${item.p} papers, ${adjacency.get(item.id).length} coauthors`)
+      .on("pointerenter", showTooltip)
+      .on("pointerleave", hideTooltip)
+      .on("click", (event, item) => {
+        event.stopPropagation();
+        selectNode(item);
+      });
+
+    const labelNodes = [...nodes]
+      .sort((left, right) => d3.descending(left.p, right.p) || d3.ascending(left.n, right.n))
+      .slice(0, 6);
+
+    const labels = svg.select(".network-labels")
+      .selectAll("text")
+      .data(labelNodes)
+      .join("text")
+      .attr("class", "network-label")
+      .attr("x", (item) => item.x)
+      .attr("y", (item) => item.y - radius(item.p) - 4)
+      .attr("text-anchor", "middle")
+      .text((item) => item.n);
+
+    if (separateNodes.length) {
+      const groupLabel = components.length === 2
+        ? `separate ${separateNodes.length}-author group`
+        : `${separateNodes.length} authors in ${components.length - 1} separate groups`;
+      svg.select(".network-labels")
+        .append("text")
+        .attr("class", "network-label")
+        .attr("x", width - 94)
+        .attr("y", height - 137)
+        .attr("text-anchor", "middle")
+        .text(groupLabel);
+    }
+
+    function resetSelection() {
+      node.classed("is-selected", false).attr("opacity", 1);
+      link.attr("stroke-opacity", (item) => 0.16 + Math.min(0.44, item.w * 0.045));
+      labels.attr("opacity", 1);
+      const top = labelNodes[0];
+      personName.textContent = "Research network";
+      personDetail.textContent = `${graph.meta.authors} recurring authors · ${graph.meta.links} coauthor links · largest node: ${top.n} (${top.p} papers)`;
+    }
+
+    function selectNode(selected) {
+      const neighborIds = new Set(adjacency.get(selected.id).map((item) => item.id));
+      neighborIds.add(selected.id);
+      node
+        .classed("is-selected", (item) => item.id === selected.id)
+        .attr("opacity", (item) => neighborIds.has(item.id) ? 1 : 0.12);
+      link.attr("stroke-opacity", (item) => {
+        const incident = item.source.id === selected.id || item.target.id === selected.id;
+        return incident ? 0.82 : 0.035;
+      });
+      labels.attr("opacity", (item) => neighborIds.has(item.id) ? 1 : 0.16);
+
+      const collaborators = [...adjacency.get(selected.id)]
+        .sort((left, right) => d3.descending(left.weight, right.weight) || d3.ascending(nodeById.get(left.id).n, nodeById.get(right.id).n));
+      const strongest = collaborators.slice(0, 4)
+        .map((item) => `${nodeById.get(item.id).n} (${item.weight})`)
+        .join(", ");
+      personName.textContent = selected.n;
+      personDetail.textContent = `${selected.p} papers · ${collaborators.length} coauthors${strongest ? ` · strongest links: ${strongest}` : ""}`;
+    }
+
+    function showTooltip(event, item) {
+      tooltip.textContent = `${item.n} · ${item.p} papers · ${adjacency.get(item.id).length} coauthors${item.m ? " · EuroQol member" : ""}${item.l ? " · project leader" : ""}`;
+      tooltip.style.visibility = "visible";
+      const markRect = event.currentTarget.getBoundingClientRect();
+      const rootRect = root.getBoundingClientRect();
+      const tipRect = tooltip.getBoundingClientRect();
+      const preferredLeft = markRect.left - rootRect.left + markRect.width / 2 - tipRect.width / 2;
+      const preferredTop = markRect.top - rootRect.top - tipRect.height - 8;
+      tooltip.style.left = `${Math.max(4, Math.min(rootRect.width - tipRect.width - 4, preferredLeft))}px`;
+      tooltip.style.top = `${Math.max(4, preferredTop)}px`;
+    }
+
+    function hideTooltip() {
+      tooltip.style.visibility = "hidden";
+    }
+
+    svg.on("click", resetSelection);
+    svg.call(d3.zoom()
+      .scaleExtent([0.75, 5])
+      .on("zoom", (event) => zoomLayer.attr("transform", event.transform)));
+
+    root.querySelector("#network-desc").textContent = `A weighted network of ${graph.meta.authors} authors who each appear on at least ${graph.meta.minimum_papers} papers. Larger nodes have more papers. Shorter and wider links show more shared papers.`;
+    root.querySelector("#network-fallback").textContent = `The network includes ${graph.meta.authors} authors and ${graph.meta.links} co-authorship links from ${graph.meta.publications} research papers.`;
+    resetSelection();
+  })();
+  </script>
+</body>
+</html>

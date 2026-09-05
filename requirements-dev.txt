@@ -1,0 +1,3 @@
+-r requirements-scale-pilot.txt
+-r requirements-pdf.txt
+pytest>=9,<10

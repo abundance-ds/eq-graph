@@ -1,0 +1,937 @@
+{
+  "record_id": "Pd44d1f7862a2",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "2015200"
+    ],
+    "reason": "Funding statement names EuroQol Research Foundation Grant No. 2015200, which is the candidate project on EQ-5D feasibility in the elderly led by the paper's senior author.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "Pd44d1f7862a2",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol Research Foundation funded the research reported (grant 2015200); two authors are EuroQol Group members.",
+      "publication_form": "REVIEW_ARTICLE",
+      "publication_relation": null,
+      "reason": "Funding statement names EuroQol Research Foundation Grant No. 2015200, which is the candidate project on EQ-5D feasibility in the elderly led by the paper's senior author.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Systematic review of EQ-5D-3L and EQ-5D-5L feasibility in the elderly population",
+        "primary_research_family": "EVIDENCE_SYNTHESIS",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "Systematic literature search and qualitative synthesis of published studies reporting feasibility outcomes of the EQ-5D in respondents aged 65+.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "EVIDENCE_SYNTHESIS",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "MEASUREMENT_PROPERTY_EVALUATION",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "synthesis_design",
+        "value": "SYSTEMATIC_REVIEW",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "EVIDENCE_SYNTHESIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "BETWEEN_INSTRUMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D5",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Published studies applying the EQ-5D-3L or EQ-5D-5L in samples exclusively aged 65 years and over",
+        "role": "Evidence source population",
+        "geographies": [
+          "United Kingdom",
+          "Germany",
+          "Netherlands",
+          "Spain",
+          "Sweden",
+          "Switzerland",
+          "Australia",
+          "Canada",
+          "South Africa"
+        ],
+        "conditions": [
+          "general elderly population",
+          "multimorbidity",
+          "dementia and cognitive impairment",
+          "hip and femoral neck fracture",
+          "falls",
+          "cardiac surgery",
+          "rehabilitation patients"
+        ],
+        "age_description": "All study participants at least 65 years; included samples ranged up to 104 years",
+        "inclusion_description": "English or German publications up to November 2020 using the EQ-5D-3L or 5L as primary or secondary outcome, with minimum sample age of 65 years reported and feasibility information reported at least as secondary analysis; excluded abstracts, proceedings, reviews and protocols",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA1",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "IDENTIFIED_RECORDS",
+        "size": 2063,
+        "size_text": "2063 records from PubMed, PsycInfo and the EuroQol website, plus 12 from manual reference-list search",
+        "unit": "records",
+        "description": "Initial search up to June 2019",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA2",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "SCREENED",
+        "size": 1766,
+        "size_text": "1766 references screened on title and abstract after duplicate removal",
+        "unit": "records",
+        "description": "Title/abstract screening",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA3",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "FULL_TEXT_ASSESSED",
+        "size": 153,
+        "size_text": "153 full texts assessed for eligibility; 139 excluded",
+        "unit": "articles",
+        "description": "Full-text eligibility assessment",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SA4",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "INCLUDED_EVIDENCE",
+        "size": 17,
+        "size_text": "17 included studies (14 from the initial search, 3 from the November 2020 update)",
+        "unit": "studies",
+        "description": "Included studies; sample sizes within them ranged from 10 to 3073 respondents",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "REVIEW_EXTRACTED_EVIDENCE",
+        "level": "AGGREGATE_ESTIMATE",
+        "purpose": "Extract EQ-5D version, administration mode, missing values, completion rates, completion time and qualitative completion statements from included studies",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "Feasibility outcomes extracted from included publications"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "EQ-5D-3L",
+        "registry_id": "instrument:eq-5d-3l"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "EQ-5D-5L",
+        "registry_id": "instrument:eq-5d-5l"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "MEASUREMENT_PROPERTY_TEST_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "EQ VAS",
+        "registry_id": "instrument:eq-vas"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "SOURCE_STUDY_ACTIVITY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "EQ-5D cognition bolt-on",
+        "registry_id": "instrument:eq-5d-bolton-cognition"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "SF-36",
+        "registry_id": "instrument:sf-36"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "ICECAP-O",
+        "registry_id": "instrument:icecap-o"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU7",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "Assessment of Quality of Life (AQoL)",
+        "registry_id": "instrument:aqol"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EVIDENCE_IDENTIFICATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "Systematic database search",
+        "registry_id": "method:systematic-database-search"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EVIDENCE_IDENTIFICATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "Citation searching",
+        "registry_id": "method:citation-searching"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "Independent dual-screening workflow",
+        "registry_id": "method:c50-p028-independent-dual-screening"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EVIDENCE_SYNTHESIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "source_label": "Narrative synthesis",
+        "registry_id": "method:narrative-synthesis"
+      },
+      {
+        "type": "Outcome",
+        "id": "O1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "FEASIBILITY",
+        "label": "Proportion of missing values on the EQ-5D descriptive system dimensions",
+        "instrument_use_ids": [
+          "IU1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O2",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "FEASIBILITY",
+        "label": "Proportion of missing EQ VAS ratings",
+        "instrument_use_ids": [
+          "IU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O3",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "FEASIBILITY",
+        "label": "Completion rate, i.e. proportion of computable EQ-5D index values",
+        "instrument_use_ids": [
+          "IU1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O4",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "FEASIBILITY",
+        "label": "Time required to complete the EQ-5D",
+        "instrument_use_ids": [
+          "IU1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O5",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "FEASIBILITY",
+        "label": "Need for interviewer assistance or interviewer-based administration",
+        "instrument_use_ids": [
+          "IU1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Seventeen studies met the inclusion criteria; 15 reported on the EQ-5D-3L and only 2 on the EQ-5D-5L, with 13 conducted in patient populations and 4 in general populations, and 16 using a quantitative and 1 a qualitative design.",
+        "about": [
+          "SA4",
+          "IU1",
+          "IU2"
+        ],
+        "values": [
+          {
+            "reported_value": "17",
+            "unit": "studies",
+            "denominator": "153 full texts assessed",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "2",
+            "unit": "studies",
+            "denominator": "17 included studies",
+            "time": null,
+            "subgroup": "EQ-5D-5L",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Missing values per EQ-5D dimension ranged from 0 to 10.7% and were mostly below 7%, with the highest proportions in a sample of cognitively impaired respondents.",
+        "about": [
+          "O1",
+          "IU1",
+          "IU2"
+        ],
+        "values": [
+          {
+            "reported_value": "0 to 10.7%",
+            "unit": "percent missing per dimension",
+            "denominator": "respondents in included studies",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Missing EQ VAS ratings ranged from 2.3% to 25.3% and generally exceeded the proportion of missing values on the descriptive system.",
+        "about": [
+          "O2",
+          "IU3"
+        ],
+        "values": [
+          {
+            "reported_value": "2.3-25.3%",
+            "unit": "percent missing",
+            "denominator": "respondents in included studies reporting EQ VAS missingness",
+            "time": null,
+            "subgroup": null,
+            "comparator": "descriptive system missingness",
+            "direction": "higher",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Completion rates for the EQ-5D-3L were around or above 90% at baseline in most studies, with two studies just above 80%; the single EQ-5D-5L study reported 89.5%, and age-specific rates fell from 94.9% at 65-69 years to 90.9% at 90 years and above.",
+        "about": [
+          "O3",
+          "IU1",
+          "IU2"
+        ],
+        "values": [
+          {
+            "reported_value": "94%",
+            "unit": "percent computable index values",
+            "denominator": "3073 respondents",
+            "time": null,
+            "subgroup": "Swiss general elderly population, total sample",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "90.9%",
+            "unit": "percent computable index values",
+            "denominator": null,
+            "time": null,
+            "subgroup": "aged 90 years and above",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "89.5%",
+            "unit": "percent computable index values",
+            "denominator": "86 geriatric rehabilitation in-patients",
+            "time": null,
+            "subgroup": "EQ-5D-5L",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Completion time was reported in three studies; both EQ-5D versions were usually completed in under five minutes, with means of 265 seconds for the EQ-5D-5L under observation in care homes and 222 seconds in geriatric rehabilitation, and respondents needing assistance took longer than unassisted self-completers.",
+        "about": [
+          "O4",
+          "IU1",
+          "IU2"
+        ],
+        "values": [
+          {
+            "reported_value": "265 +/- 158 s",
+            "unit": "seconds",
+            "denominator": "25 aged care residents",
+            "time": null,
+            "subgroup": "EQ-5D-5L, self-complete under observation",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": "SD 158 s"
+          },
+          {
+            "reported_value": "222 +/- 117 s",
+            "unit": "seconds",
+            "denominator": "86 geriatric rehabilitation in-patients",
+            "time": null,
+            "subgroup": "EQ-5D-5L, total sample",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": "SD 117 s"
+          },
+          {
+            "reported_value": "182 +/- 105 s",
+            "unit": "seconds",
+            "denominator": null,
+            "time": null,
+            "subgroup": "no assistance group",
+            "comparator": "255 +/- 138 s in some assistance group",
+            "direction": "shorter",
+            "uncertainty": "SD 105 s"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Interviewer assistance was frequently required: around 50% of one rehabilitation sample needed interviewer administration with the probability rising from 11% at age 65 to 37% at 75 and 73% at 85, and 55% of another sample asked for help or clarification on at least one dimension.",
+        "about": [
+          "O5",
+          "C3"
+        ],
+        "values": [
+          {
+            "reported_value": "11%",
+            "unit": "probability of requiring interviewer administration",
+            "denominator": "214 rehabilitation patients",
+            "time": null,
+            "subgroup": "age 65 years",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "73%",
+            "unit": "probability of requiring interviewer administration",
+            "denominator": "214 rehabilitation patients",
+            "time": null,
+            "subgroup": "age 85 years",
+            "comparator": null,
+            "direction": "increasing with age",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "55%",
+            "unit": "percent of respondents asking for help or clarification",
+            "denominator": "73 rehabilitation patients",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F7",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Terminology and operationalisation of feasibility were inconsistent: only 8 studies used the term 'feasibility', 7 used 'completion', and one each 'practicality' and 'acceptability'; feasibility was assessed through missing values (11 studies), completion rates (13), qualitative completion statements (9) and completion time (3).",
+        "about": [
+          "C1",
+          "SA4"
+        ],
+        "values": [
+          {
+            "reported_value": "8",
+            "unit": "studies using the term feasibility",
+            "denominator": "17 included studies",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "13",
+            "unit": "studies reporting completion rates",
+            "denominator": "17 included studies",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F8",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Qualitative statements described the EQ-5D as brief and easy to use in older respondents, with rare comprehension problems arising from narrow item interpretation or restrictive wording, while the EQ VAS concept caused the most difficulty, affecting 27% of respondents in one study.",
+        "about": [
+          "IU3",
+          "C1"
+        ],
+        "values": [
+          {
+            "reported_value": "27%",
+            "unit": "percent with difficulty completing or understanding the EQ VAS",
+            "denominator": "73 rehabilitation patients",
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Feasibility outcomes in the elderly are only slightly below those of younger general populations and remain within an acceptable range, so the EQ-5D-3L has good feasibility and is highly applicable in older respondents.",
+        "finding_ids": [
+          "F2",
+          "F3",
+          "F4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The authors propose a working benchmark of approximately less than 10% missing values and about 90% computable index values as demonstrating reasonable feasibility of the EQ-5D in the elderly, and recommend standardising the reporting term as 'feasibility'.",
+        "finding_ids": [
+          "F2",
+          "F4",
+          "F7"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Older respondents have a higher propensity to need assistance or interviewer administration, but the effect of interviewer support on missing values cannot be quantified because included studies did not compare assisted with unassisted subgroups and were too heterogeneous.",
+        "finding_ids": [
+          "F6",
+          "F8"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Evidence on the EQ-5D-5L in the elderly is very limited and no study compared the 3L and 5L in this population, so further research on 5L feasibility is needed.",
+        "finding_ids": [
+          "F1",
+          "F4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The strict criterion that all participants be 65 years or older excluded studies in which only a minority of respondents were younger.",
+        "about": [
+          "POP1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Included studies sampled only western, developed countries, so findings do not generalise to elderly populations in Asia, Africa or South America.",
+        "about": [
+          "POP1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The elderly target population is heterogeneous, ranging from healthy independent to frail or cognitively impaired respondents, limiting generalisability, particularly for the EQ-5D-5L which appeared in only two studies.",
+        "about": [
+          "POP1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Inconsistent feasibility terminology and differing database search engines may have caused relevant publications to be missed, especially where feasibility was only a secondary or descriptive analysis.",
+        "about": [
+          "MU1",
+          "C1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Ease with which a measure can be completed, operationalised as missing values, completion rates, completion time and qualitative completion statements.",
+        "about": [
+          "IU1",
+          "IU2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "label": "Instrument feasibility"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Respondents aged 65 years and over, including frail, multimorbid and cognitively impaired groups.",
+        "about": [
+          "POP1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "label": "Older adults"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Self-completion versus interviewer-assisted or interviewer-administered collection of EQ-5D data.",
+        "about": [
+          "O5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "label": "Mode of administration"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Prevalence and handling of missing responses on the EQ-5D descriptive system and EQ VAS.",
+        "about": [
+          "O1",
+          "O2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "label": "Missing data and item nonresponse"
+      },
+      {
+        "type": "Concept",
+        "id": "C5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Cognitive decline and dementia affecting the ability of elderly respondents to complete HRQoL measures.",
+        "about": [
+          "POP1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ],
+        "label": "Cognitive impairment"
+      },
+      {
+        "type": "Gap",
+        "id": "G1",
+        "study_id": "S1",
+        "part_id": null,
+        "state": "NOT_REPORTED",
+        "affected_item_id": "MU3",
+        "affected_type": "MethodUse",
+        "affected_key": "critical appraisal",
+        "evidence": "The paper describes screening, extraction and verification procedures but reports no formal risk-of-bias or quality appraisal of included studies.",
+        "importance": "Affects assessment of the strength of the synthesised evidence.",
+        "proposed_resolution": "Record as not reported unless a quality appraisal tool is identified in the appendix.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/Pd44d1f7862a2.md"
+        ]
+      }
+    ]
+  }
+}

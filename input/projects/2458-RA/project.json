@@ -1,0 +1,25 @@
+{
+  "project_id": "2458-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2458,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Testing EQ-TIPS using latent discrete choice experiments: a mixed-methods study",
+  "pi_name_raw": "Yiting Luo",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 55373,
+  "status": "Ongoing",
+  "start_year": 2026,
+  "end_year": 2027,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 740,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

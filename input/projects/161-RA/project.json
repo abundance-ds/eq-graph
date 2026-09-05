@@ -1,0 +1,25 @@
+{
+  "project_id": "161-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 161,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "PhD dissertation funding request for a novel valuation method: Feasibility and application of the single profile preference elicitation (SPP) method to value bolt-on items. (Revised application)",
+  "pi_name_raw": "Andrea L. Monteiro",
+  "working_groups": [
+    "Descriptive Systems",
+    "Valuation"
+  ],
+  "approved_budget_eur": 67769,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 294,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

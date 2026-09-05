@@ -1,0 +1,24 @@
+{
+  "project_id": "1507-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1507,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "Completion of the Covid-stranded Norwegian EQ-5D-5L valuation study",
+  "pi_name_raw": "Kim Rand",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 49000,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 325,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

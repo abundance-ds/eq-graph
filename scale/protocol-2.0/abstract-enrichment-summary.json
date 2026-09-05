@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "candidate_articles_and_reviews": 23175,
+  "abstract_length_gate": 80,
+  "abstracts_available_before_enrichment": 14780,
+  "records_queried_by_exact_identifier": 6269,
+  "europe_pmc_batches": 314,
+  "network_requests_this_run": 314,
+  "abstracts_enriched": 3568,
+  "abstracts_passing_length_gate": 18348,
+  "abstracts_unavailable_or_short": 4827,
+  "records_without_doi_or_pmid_not_queried": 2126,
+  "rule": "Preserve source abstracts. For missing or short text, accept a Europe PMC abstract only on exact normalized DOI or exact PMID. Do not use fuzzy matching.",
+  "quality_status": "Length gate only. A separate abstract-quality check is required before screening.",
+  "failures": []
+}

@@ -1,0 +1,971 @@
+{
+  "record_id": "P331a66a51c5a",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "2016260"
+    ],
+    "reason": "Explicit EuroQol Research Foundation grant 2016260 supported the study, and the paper analyses data from that multi-arm DCE design comparison project led by Brendan Mulhern.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "P331a66a51c5a",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol grant 2016260 partially supported the Australian multi-arm EQ-5D-5L DCE design comparison study whose data are analysed here.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "Explicit EuroQol Research Foundation grant 2016260 supported the study, and the paper analyses data from that multi-arm DCE design comparison project led by Brendan Mulhern.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Attribute non-attendance across EQ-5D-5L DCE designs with and without attribute level overlap, Australian general population",
+        "primary_research_family": "METHODS_RESEARCH",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The study compares DCE design construction methods and attribute overlap by their effect on respondent attribute non-attendance, so the object of research is valuation study methodology rather than a value set.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "VALUATION_METHOD_EVALUATION",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "METHOD_OR_PROTOCOL_QUALITY",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "BETWEEN_METHOD",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "RANDOMIZED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "CROSS_SECTIONAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "QUANTITATIVE_EMPIRICAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Australian general population adults recruited from an online panel",
+        "role": "General population respondents valuing EQ-5D-5L health states in DCE tasks",
+        "geographies": [
+          "Australia"
+        ],
+        "conditions": [],
+        "age_description": "Adults; sample quotas set on age, gender and region to match the Australian general population",
+        "inclusion_description": "Members of the Pureprofile online panel, quota-sampled by age, gender and region; 47% reported a long-term health condition and 22% reported the best EQ-5D-5L health state",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SAM1",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "COMPLETED",
+        "size": 3365,
+        "size_text": "3365 respondents recruited to the full 19-design multi-arm DCE",
+        "unit": "respondents",
+        "description": "Full multi-arm survey sample across 19 designs",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SAM2",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "ANALYZED",
+        "size": 1432,
+        "size_text": "N = 1432 across the 8 zero-prior designs analysed (4 construction methods x overlap/no overlap)",
+        "unit": "respondents",
+        "description": "Subsample allocated to the eight zero-prior designs analysed in this paper; classified as 493 full attenders, 705 partial attenders and 234 non-attenders",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "PRIOR_RESEARCH_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Secondary analysis of DCE choice data from the multi-arm EQ-5D-5L design comparison survey, plus self-reported EQ-5D-5L, demographics, completion times and feedback questions",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Australian multi-arm EQ-5D-5L DCE choice dataset"
+      },
+      {
+        "type": "StudyFactor",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Design construction method",
+        "levels": [
+          "Generator-developed design",
+          "Modified Fedorov algorithm in Ngene",
+          "Modified Fedorov algorithm in SAS macros",
+          "Bayesian D-efficient design algorithm implemented in R"
+        ],
+        "role": "EXPOSURE_OR_DETERMINANT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Attribute level overlap",
+        "levels": [
+          "No overlap",
+          "Overlap on two of five attributes"
+        ],
+        "role": "EXPOSURE_OR_DETERMINANT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "StudyFactor",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Attendance class from equality constrained latent class model",
+        "levels": [
+          "Full attenders",
+          "Partial attenders",
+          "Non-attenders"
+        ],
+        "role": "STRATIFIER",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "HEALTH_STATE_DESCRIPTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "EQ-5D-5L",
+        "registry_id": "instrument:eq-5d-5l"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CURRENT_HEALTH_MEASUREMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "EQ-5D-5L",
+        "registry_id": "instrument:eq-5d-5l"
+      },
+      {
+        "type": "TaskDesign",
+        "id": "TD1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1"
+        ],
+        "label": "Paired-profile discrete choice experiment with EQ-5D-5L health states, zero priors, with or without overlap on two attributes",
+        "profiles": [
+          "EQ-5D-5L health states defined by five levels on each of five dimensions"
+        ],
+        "attributes": [
+          "Mobility",
+          "Self-care",
+          "Usual activities",
+          "Pain/discomfort",
+          "Anxiety/depression"
+        ],
+        "levels": [
+          "No problems",
+          "Slight problems",
+          "Moderate problems",
+          "Severe problems",
+          "Extreme problems/unable to"
+        ],
+        "duration": null,
+        "alternatives": "Two hypothetical health states per choice task, forced choice",
+        "task_count": "21 choice sets per respondent",
+        "block": "8 zero-prior designs analysed (of 19 designs in the parent survey)",
+        "order": "Dimension order presented as mobility, self-care, usual activities, pain/discomfort, anxiety/depression",
+        "randomization_unit": "Respondent randomly allocated to one design arm",
+        "stopping_rule": null,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Administration",
+        "id": "AD1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1",
+          "IU2"
+        ],
+        "respondent": "Self-report by general population respondents",
+        "perspective": "Personal preference between two hypothetical health states",
+        "completion": "Self-completed",
+        "assistance": null,
+        "channel": "Online survey",
+        "setting": "Online panel (Pureprofile)",
+        "instrument_language": "English",
+        "interview_language": null,
+        "recall_period": null,
+        "time_point": "Single survey session",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "PREFERENCE_ELICITATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Discrete choice experiment",
+        "registry_id": "method:dce"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Modified Fedorov algorithm",
+        "registry_id": "method:modified-fedorov-algorithm"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Generator-developed design",
+        "registry_id": "method:generator-developed-design"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Bayesian efficient design algorithm",
+        "registry_id": "method:bayesian-efficient-design"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Attribute non-attendance analysis",
+        "registry_id": "method:attribute-non-attendance-analysis"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Relative attribute importance calculation",
+        "registry_id": "method:relative-attribute-importance-calculation"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU7",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUALITY_CONTROL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "External validity analysis",
+        "registry_id": "method:external-validity-analysis"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU8",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "SAMPLING",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Quota sampling",
+        "registry_id": "method:quota-sampling"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CHOICE_MODELING",
+        "analytic_role": "PRIMARY_REPORTED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Equality-constrained latent-class model",
+        "registry_id": "model:equality-constrained-latent-class"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CHOICE_MODELING",
+        "analytic_role": "PRIMARY_REPORTED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Multinomial logit model",
+        "registry_id": "model:conditional-logit"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Latent GOLD 5.1",
+        "registry_id": "software:latent-gold-5-1"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "R",
+        "registry_id": "software:r"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "RStudio",
+        "registry_id": "software:rstudio"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "gmnl R package",
+        "registry_id": "software:r-gmnl"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "Ngene",
+        "registry_id": "software:ngene"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SU6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "source_label": "SAS",
+        "registry_id": "software:sas"
+      },
+      {
+        "type": "Outcome",
+        "id": "O1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "Inferred attribute non-attendance and full attendance class probabilities by design",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O2",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "PREFERENCE_OR_UTILITY",
+        "label": "EQ-5D-5L utility decrements and relative attribute importance before and after excluding non-attenders",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O3",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "External validity indicators of attendance classes (straightlining, completion time, self-reported task difficulty)",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Attribute level overlap increased the estimated probability of attending to all five EQ-5D-5L attributes for every construction method.",
+        "about": [
+          "O1",
+          "F2"
+        ],
+        "values": [
+          {
+            "reported_value": "22.3-28.4%",
+            "unit": "full attendance probability",
+            "denominator": "designs without overlap",
+            "time": null,
+            "subgroup": "No overlap",
+            "comparator": "Designs with overlap",
+            "direction": "lower",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "28.2-54.2%",
+            "unit": "full attendance probability",
+            "denominator": "designs with overlap",
+            "time": null,
+            "subgroup": "Overlap",
+            "comparator": "Designs without overlap",
+            "direction": "higher",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Among designs with overlap, modified Fedorov designs constructed in Ngene and SAS achieved the highest full attendance rates, while the Bayesian D-efficient design in R achieved the lowest.",
+        "about": [
+          "O1",
+          "F1"
+        ],
+        "values": [
+          {
+            "reported_value": "54.2%",
+            "unit": "full attendance probability",
+            "denominator": "Ngene design with overlap",
+            "time": null,
+            "subgroup": "Ngene, overlap",
+            "comparator": "Ngene, no overlap (24.6%)",
+            "direction": "higher",
+            "uncertainty": "95% CI 54.2-54.4"
+          },
+          {
+            "reported_value": "49.4%",
+            "unit": "full attendance probability",
+            "denominator": "SAS design with overlap",
+            "time": null,
+            "subgroup": "SAS, overlap",
+            "comparator": "SAS, no overlap (22.3%)",
+            "direction": "higher",
+            "uncertainty": "95% CI 49.4-49.8"
+          },
+          {
+            "reported_value": "30.8%",
+            "unit": "full attendance probability",
+            "denominator": "generator-developed design with overlap",
+            "time": null,
+            "subgroup": "Generator-developed, overlap",
+            "comparator": "Generator-developed, no overlap (28.4%)",
+            "direction": "higher",
+            "uncertainty": "95% CI 30.7-31.0"
+          },
+          {
+            "reported_value": "28.2%",
+            "unit": "full attendance probability",
+            "denominator": "R Bayesian D-efficient design with overlap",
+            "time": null,
+            "subgroup": "R, overlap",
+            "comparator": "R, no overlap (22.6%)",
+            "direction": "higher",
+            "uncertainty": "95% CI 28.1-28.3"
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Overlap also increased the estimated probability of ignoring all attributes in the generator-developed, Ngene and SAS designs, but not in the R design.",
+        "about": [
+          "O1",
+          "F2"
+        ],
+        "values": [
+          {
+            "reported_value": "8.5% to 22.9%",
+            "unit": "non-attendance to all attributes",
+            "denominator": "Ngene designs",
+            "time": null,
+            "subgroup": "Ngene",
+            "comparator": "no overlap vs overlap",
+            "direction": "increase",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "17.8% to 14.1%",
+            "unit": "non-attendance to all attributes",
+            "denominator": "R designs",
+            "time": null,
+            "subgroup": "R",
+            "comparator": "no overlap vs overlap",
+            "direction": "decrease",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Many interaction terms between full attendance and EQ-5D-5L attribute levels were statistically significant, and utility decrements were generally larger for full attenders, especially at levels 4 and 5.",
+        "about": [
+          "O2",
+          "F3"
+        ],
+        "values": [
+          {
+            "reported_value": "13-17 significant interaction terms",
+            "unit": "count",
+            "denominator": "designs with overlap",
+            "time": null,
+            "subgroup": "Overlap designs",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "12-15 significant interaction terms",
+            "unit": "count",
+            "denominator": "designs without overlap",
+            "time": null,
+            "subgroup": "No-overlap designs",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "-0.427 for partial attenders vs -1.168 for full attenders",
+            "unit": "utility coefficient for moderate mobility problems",
+            "denominator": "generator-developed design with overlap",
+            "time": null,
+            "subgroup": "MO3",
+            "comparator": "partial vs full attenders",
+            "direction": "larger decrement in full attenders",
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Relative attribute importance changed after excluding non-attenders, with mobility consistently more important before exclusion and anxiety/depression more important among full attenders, but no clear overall pattern across designs.",
+        "about": [
+          "O2"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "External validity checks supported the ECLC attendance classification: non-attenders straightlined most, completed tasks fastest, reported the most difficulty and least often said they considered the whole description.",
+        "about": [
+          "O3",
+          "F3"
+        ],
+        "values": [
+          {
+            "reported_value": "3.9% vs 1.2% vs 0.4%",
+            "unit": "straightlining",
+            "denominator": "non-attenders, partial attenders, full attenders",
+            "time": null,
+            "subgroup": "Attendance classes",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "3.2 vs 5.0 vs 6.3 minutes",
+            "unit": "median time on DCE choice tasks",
+            "denominator": "non-attenders, partial attenders, full attenders",
+            "time": null,
+            "subgroup": "Attendance classes",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "55.6% vs 71.3% vs 82.5%",
+            "unit": "agreed they considered the entire description",
+            "denominator": "non-attenders, partial attenders, full attenders",
+            "time": null,
+            "subgroup": "Attendance classes",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "FI7",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Non-attenders were more likely to be male, younger and single, while education, household income and region did not differ across attendance classes.",
+        "about": [
+          "F3"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Modified Fedorov designs implemented in Ngene or SAS with attribute level overlap are recommended for EQ-5D-5L valuation DCEs, because they reduce attribute non-attendance and improve respondent engagement.",
+        "finding_ids": [
+          "FI1",
+          "FI2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Attribute non-attendance analysis is useful as a quality-control tool: respondents attending to no attributes should be excluded, and partial attenders should be examined in robustness checks.",
+        "finding_ids": [
+          "FI3",
+          "FI4",
+          "FI6"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Accounting for attribute non-attendance changes EQ-5D-5L health state values, most clearly for mobility and anxiety/depression, possibly reflecting dimension order effects or genuine preference heterogeneity.",
+        "finding_ids": [
+          "FI4",
+          "FI5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The equality constrained latent class model assumes preference homogeneity, so respondents who simply place low importance on an attribute may be misclassified as non-attenders, and the estimates may represent an upper bound on attribute non-attendance.",
+        "about": [
+          "MO1",
+          "O1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Dimension order effects were not directly tested, so the differential findings for mobility and anxiety/depression cannot be separated from ordering.",
+        "about": [
+          "O2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Only zero-prior designs from four construction methods were analysed, so results do not cover designs constructed with informative priors or the other methods in the parent survey.",
+        "about": [
+          "F1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The sample was more highly educated than the overall Australian population.",
+        "about": [
+          "POP1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Respondents ignoring one or more attributes when making discrete choices, either as a simplifying heuristic or because the attribute is unimportant to them.",
+        "about": [
+          "O1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "label": "Attribute non-attendance"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Setting a subset of attributes at the same level in both options of a choice task to reduce task complexity.",
+        "about": [
+          "F2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "label": "Attribute level overlap"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Trade-off between statistical efficiency of a choice design and behavioural or respondent efficiency.",
+        "about": [
+          "F1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "label": "DCE experimental design efficiency"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Use of straightlining, completion time and self-reported difficulty as indicators of engagement for quality control in health state valuation.",
+        "about": [
+          "O3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "label": "Respondent engagement and data quality in valuation surveys"
+      },
+      {
+        "type": "Concept",
+        "id": "C5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Share of total utility range attributable to each EQ-5D-5L dimension.",
+        "about": [
+          "O2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P331a66a51c5a.md"
+        ],
+        "label": "Relative attribute importance of EQ-5D-5L dimensions"
+      }
+    ]
+  }
+}

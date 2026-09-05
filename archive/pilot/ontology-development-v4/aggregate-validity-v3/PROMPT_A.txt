@@ -1,0 +1,14 @@
+Work in the repository root. Read:
+- pilot/ontology-development-v4/aggregate-validity-v3/TASK.md
+- pilot/ontology-development-v3/questions.tsv
+- pilot/ontology-development-v4/aggregate-validity-v2/RESULT.md
+- docs/APP_DATA_ADAPTER.md
+
+Independently reevaluate Q1 through Q50 against the current
+web/server/data/serving.sqlite. Use sqlite3 for direct checks. Read the private
+database only if a question explicitly concerns evidence that the public
+database omits. Do not edit any file. Do not redesign the ontology.
+
+Return exactly one compact Markdown table with columns ID, Verdict, Current
+result, Main cause. Include all 50 assigned IDs in numeric order. Then give
+verdict totals. Keep each result and cause short and factual.

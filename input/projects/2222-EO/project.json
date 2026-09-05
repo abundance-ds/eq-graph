@@ -1,0 +1,24 @@
+{
+  "project_id": "2222-EO",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 2222,
+  "call_year": null,
+  "grant_type_code": "EO",
+  "grant_type": "3.1 Education and outreach project",
+  "revision": null,
+  "title": "Application for a grant to prepare and conduct a workshop in ISPOR Real-World Evidence Summit 2025 on 30 September in Tokyo, Japan",
+  "pi_name_raw": "Nan Luo",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 8290,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 1010,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

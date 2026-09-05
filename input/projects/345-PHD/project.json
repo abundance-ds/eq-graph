@@ -1,0 +1,24 @@
+{
+  "project_id": "345-PHD",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 345,
+  "call_year": null,
+  "grant_type_code": "PHD",
+  "grant_type": "2.1 PhD grant",
+  "revision": null,
+  "title": "Statistical methods for handling and analyzing EQ-5D-5L data in randomized clinical trials",
+  "pi_name_raw": "Feng Xie",
+  "working_groups": [
+    "Others"
+  ],
+  "approved_budget_eur": 90000,
+  "status": "Ongoing",
+  "start_year": 2020,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 55,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

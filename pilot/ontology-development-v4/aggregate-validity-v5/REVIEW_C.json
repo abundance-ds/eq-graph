@@ -1,0 +1,712 @@
+{
+  "evaluations": [
+    {
+      "id": "Q1",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "There are 1,024 projects with a combined approved budget of €51,108,489.",
+      "cause": "All projects have an approved budget."
+    },
+    {
+      "id": "Q2",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Annual project-start counts are available from 2012 onward.",
+      "cause": "Start year is not award year, and five projects have no start year."
+    },
+    {
+      "id": "Q3",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The median budget is €30,000, the IQR is €16,539.50–€59,576, and the maximum is €1,439,446.",
+      "cause": "All 1,024 projects have budget data."
+    },
+    {
+      "id": "Q4",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "There are 312 ongoing, 711 completed, and one closed project.",
+      "cause": "Every project has a status."
+    },
+    {
+      "id": "Q5",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "The exact Valuation label leads with 266 projects and €12,964,302.",
+      "cause": "Some projects combine several working groups in one field."
+    },
+    {
+      "id": "Q6",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "373 of 711 completed projects have an accepted output, or 52.5%.",
+      "cause": "Project status and accepted output links support the calculation."
+    },
+    {
+      "id": "Q7",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The median start-to-first-publication lag is two years across 399 linked projects with known start years.",
+      "cause": "The available year values support a normal lag calculation."
+    },
+    {
+      "id": "Q8",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The five leading projects have 12, 9, 7, 6, and 6 accepted outputs.",
+      "cause": "Distinct accepted output links support the ranking."
+    },
+    {
+      "id": "Q9",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "118 projects completed by 2023 have no accepted output link.",
+      "cause": "Another 189 completed projects have no end year and cannot be classified."
+    },
+    {
+      "id": "Q10",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Project text identifies all requested instrument families, but it does not support an exclusive budget split.",
+      "cause": "Projects have no normalized instrument relation and can match several families."
+    },
+    {
+      "id": "Q11",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "A reliable ranking of recipient institutions or countries is not available.",
+      "cause": "The data has no project-to-recipient-institution or project-to-country relation."
+    },
+    {
+      "id": "Q12",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "“Psychometric properties of the EQ-5D-5L” leads with 940 OpenAlex citations and links to project 2016170.",
+      "cause": "An accepted output link and the 2026-08-27 citation snapshot support the result."
+    },
+    {
+      "id": "Q13",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Topic evidence is available for outputs linked to 400 of the 1,024 projects.",
+      "cause": "The complete project portfolio has no normalized topic classification."
+    },
+    {
+      "id": "Q14",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Nan Luo leads by grant count, with 55, and approved budget, with €2,765,985.",
+      "cause": "Resolved PI roles and complete budget data support both rankings."
+    },
+    {
+      "id": "Q15",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "There are 194 papers with explicit EuroQol support but no accepted project link.",
+      "cause": "The support field includes financial and non-financial support, so statement review is necessary."
+    },
+    {
+      "id": "Q16",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No country was supplied.",
+      "cause": "The country parameter is required."
+    },
+    {
+      "id": "Q17",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No applicant was supplied.",
+      "cause": "The applicant parameter is required."
+    },
+    {
+      "id": "Q18",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No proposal abstract was supplied.",
+      "cause": "Similarity testing requires the proposal text."
+    },
+    {
+      "id": "Q19",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Completed projects, ongoing projects, and publications provide direct cognition bolt-on examples.",
+      "cause": "Project status, project text, and publication evidence agree."
+    },
+    {
+      "id": "Q20",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No proposal aims were supplied.",
+      "cause": "Overlap testing requires the proposal aims."
+    },
+    {
+      "id": "Q21",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No applicant was supplied.",
+      "cause": "The applicant parameter is required."
+    },
+    {
+      "id": "Q22",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No applicant was supplied.",
+      "cause": "The applicant parameter is required."
+    },
+    {
+      "id": "Q23",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Of 191 completed project texts that mention a value set, 130 have no linked value-set product.",
+      "cause": "Promises are not structured, and a missing link does not prove that no publication exists."
+    },
+    {
+      "id": "Q24",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No region was supplied.",
+      "cause": "The region parameter is required."
+    },
+    {
+      "id": "Q25",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "The PHD identifier rule finds 21 projects, and nine have an accepted output.",
+      "cause": "Student-grant status is not a controlled project type."
+    },
+    {
+      "id": "Q26",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No target condition or instrument was supplied.",
+      "cause": "Both proposal attributes are required."
+    },
+    {
+      "id": "Q27",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No proposal budget or budget band was supplied.",
+      "cause": "The comparison band cannot be selected."
+    },
+    {
+      "id": "Q28",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No proposal reference list was supplied.",
+      "cause": "Reference matching requires citations or identifiers."
+    },
+    {
+      "id": "Q29",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "The evidence base identifies native EQ-5D-5L value-set evidence for 29 countries.",
+      "cause": "The corpus does not establish a complete worldwide list."
+    },
+    {
+      "id": "Q30",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Direct protocol evidence covers 61 value-set products in 52 studies; 42 studies have one product and one protocol identity.",
+      "cause": "Protocols and products are linked at study level, and some versions are missing or ambiguous."
+    },
+    {
+      "id": "Q31",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A supported current example is Marcel Jonker’s ongoing EQ-HWB-S DCE-with-duration valuation pilot.",
+      "cause": "The project status, text, and resolved PI link support the example."
+    },
+    {
+      "id": "Q32",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No working group was supplied.",
+      "cause": "The working-group parameter is required."
+    },
+    {
+      "id": "Q33",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Fifty-seven studies contain both 3L and 5L use with value-set evidence.",
+      "cause": "The uses and value sets cannot always be bound to the same sample or study part."
+    },
+    {
+      "id": "Q34",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "The data identifies 28 relevant population-reference papers and 20 normalized countries.",
+      "cause": "Some country-specific papers have no structured country value."
+    },
+    {
+      "id": "Q35",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "Two papers have explicit condition-specific source and EQ-5D target roles; seven have mapping-function evidence.",
+      "cause": "Mapping source and target roles are incomplete across the literature."
+    },
+    {
+      "id": "Q36",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Yes. Direct EQ-5D-Y proxy-versus-self agreement studies are available.",
+      "cause": "Publication text and current instrument-use evidence agree."
+    },
+    {
+      "id": "Q37",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "The evidence identifies 134 valuation papers with DCE use across 30 recorded countries.",
+      "cause": "Twenty-seven matching studies have no normalized country."
+    },
+    {
+      "id": "Q38",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No researcher was supplied.",
+      "cause": "The researcher parameter is required."
+    },
+    {
+      "id": "Q39",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "The data has 51 bolt-on papers with population and concept evidence.",
+      "cause": "No normalized relation binds each bolt-on dimension to its target condition."
+    },
+    {
+      "id": "Q40",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "A bounded text rule identifies 32 ongoing 5L valuation candidates.",
+      "cause": "Target instrument and valuation purpose are not normalized for projects."
+    },
+    {
+      "id": "Q41",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The evidence includes the 2016 EQ-5D-5L quality-control paper and later EQ-VT development papers.",
+      "cause": "Direct protocol use and publication-purpose evidence support the examples."
+    },
+    {
+      "id": "Q42",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Direct method evidence identifies 34 DCE-with-duration papers from 2014 onward.",
+      "cause": "The method appears in current study activity."
+    },
+    {
+      "id": "Q43",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "UNSAFE",
+      "result": "No value-set product has explicit evidence that EuroQol did not fund it.",
+      "cause": "A missing funding statement is not evidence of no funding."
+    },
+    {
+      "id": "Q44",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No researcher was supplied.",
+      "cause": "The researcher parameter is required."
+    },
+    {
+      "id": "Q45",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Across 143 analyzed samples, the median is 1,014 and the IQR is 500–1,775.",
+      "cause": "Numeric analyzed-sample sizes and direct 5L value-set evidence support the distribution."
+    },
+    {
+      "id": "Q46",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Sixty-two corpus papers cite the 1997 UK MVH paper.",
+      "cause": "Private reference evidence contains 62 exact DOI occurrences."
+    },
+    {
+      "id": "Q47",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No researcher was supplied.",
+      "cause": "The researcher parameter is required."
+    },
+    {
+      "id": "Q48",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Common instrument names occur in the text of 285 of 312 ongoing projects.",
+      "cause": "Projects have no normalized target-instrument relation."
+    },
+    {
+      "id": "Q49",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The corpus contains direct EQ-5D-Y test–retest studies.",
+      "cause": "Publication text and current instrument-use evidence support the examples."
+    },
+    {
+      "id": "Q50",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Fifty-six papers report TTO, DCE, and a value-set product; 49 studies have exactly one value-set product.",
+      "cause": "The 49 single-product studies provide a safe same-value-set list."
+    },
+    {
+      "id": "Q51",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "The evidence base contains 15 EQ-TIPS papers from 2023 to 2026.",
+      "cause": "“Exists so far” claims broader coverage than the current corpus can establish."
+    },
+    {
+      "id": "Q52",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Five adaptation papers cover Argentinian Spanish, Simplified Chinese, Italian, German, and English or multinational work.",
+      "cause": "Translation purpose and administration-language evidence support the list."
+    },
+    {
+      "id": "Q53",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A ten-paper ranking is available; the 2012 interim-scoring paper leads with 2,231 OpenAlex citations.",
+      "cause": "Valuation purposes and the dated citation snapshot support the ranking."
+    },
+    {
+      "id": "Q54",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A crosswalk predicts between systems; a native value set directly values states in its target system.",
+      "cause": "Mapping purposes and value-set development are separate, with supported key references for each."
+    },
+    {
+      "id": "Q55",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "A reliable host-institution ranking is not available.",
+      "cause": "Author affiliations are unnormalized and are not project host relations."
+    },
+    {
+      "id": "Q56",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Student-grant candidates and their PIs can be listed, but supervisors and host institutions cannot.",
+      "cause": "The data contains only a PI project role and no project-institution relation."
+    },
+    {
+      "id": "Q57",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "cTTO leads across funded valuation outputs, followed by DCE, descriptive statistics, quota sampling, and lead-time TTO.",
+      "cause": "Accepted output links and canonical direct-method uses support the ranking."
+    },
+    {
+      "id": "Q58",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "The evidence base contains 66 EQ-5D-Y-5L papers, including 39 measurement evaluations and 11 methods studies.",
+      "cause": "“Published so far” claims broader coverage than the current corpus can establish."
+    },
+    {
+      "id": "Q59",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Supported open-access introductory examples include the 2021 domain paper and the 2022 PPIE paper.",
+      "cause": "Titles, development evidence, and open-access flags support the examples."
+    },
+    {
+      "id": "Q60",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The strongest recent concept growth is for proxy reporting, bolt-ons, ceiling effects, and content validity.",
+      "cause": "Concept and publication-year data support a 2024–2026 versus 2021–2023 comparison."
+    },
+    {
+      "id": "Q61",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The corpus timeline starts with 3L in 2005 and 5L and EQ-5D-Y in 2010, followed by later variants and products.",
+      "cause": "Dated instrument identities and product states support corpus milestones."
+    },
+    {
+      "id": "Q62",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No institution was supplied.",
+      "cause": "The institution parameter is required."
+    },
+    {
+      "id": "Q63",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "UNSAFE",
+      "result": "The data can list 29 observed countries with native 5L evidence but cannot identify all countries that lack a value set.",
+      "cause": "Missing corpus evidence does not prove absence."
+    },
+    {
+      "id": "Q64",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The leading systematic reviews have 940 and 375 OpenAlex citations.",
+      "cause": "Review metadata, titles, and dated citation counts support the ranking."
+    },
+    {
+      "id": "Q65",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Youth-instrument papers appear most often in Value in Health, Pharmacoeconomics, Quality of Life Research, and Health and Quality of Life Outcomes.",
+      "cause": "Current youth-instrument uses and journal metadata support the counts."
+    },
+    {
+      "id": "Q66",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "A text-and-ID screen finds 32 possible student projects, including 11 with linked publications.",
+      "cause": "Student-grant status is not a controlled project type."
+    },
+    {
+      "id": "Q67",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "A bounded starter list can combine cited methods papers, protocols, value-set studies, and recent syntheses.",
+      "cause": "Purpose, family, date, open-access, and citation fields support transparent selection."
+    },
+    {
+      "id": "Q68",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "Within the corpus, 39 of 208 EQ-5D methods papers mention EuroQol in the funding statement, or 18.8%.",
+      "cause": "The question claims coverage of the broader methodological literature."
+    },
+    {
+      "id": "Q69",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The included-corpus series starts with one paper in 2004 and reaches 132 papers in 2025.",
+      "cause": "No included publication is dated from 1990 through 2003."
+    },
+    {
+      "id": "Q70",
+      "verdict": "PARTIAL",
+      "defect_class": "QUERY",
+      "result": "Member co-authorship edges are available, but community assignments depend on the clustering method and resolution.",
+      "cause": "No algorithm was selected and no community assignments are stored."
+    },
+    {
+      "id": "Q71",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Of 603 accepted funded-output papers, 319 are open access, or 52.9%; an annual trend is available.",
+      "cause": "Accepted output links, years, and open-access flags support the calculation."
+    },
+    {
+      "id": "Q72",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "After publication-level deduplication, funded-linked papers average 28.9 citations and other corpus papers average 131.5.",
+      "cause": "Resolved authors, accepted output links, and the dated citation snapshot support the corrected calculation."
+    },
+    {
+      "id": "Q73",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "A valid countries-per-paper co-authorship trend is not available.",
+      "cause": "Study countries are research settings, while author affiliations do not provide normalized author countries."
+    },
+    {
+      "id": "Q74",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Using first accepted authorship, 554 researchers entered from 2024 through 2026.",
+      "cause": "Resolved author identities and publication years support the measure."
+    },
+    {
+      "id": "Q75",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "All 439 links with complete project dates fall in the window, covering 68.4% of all 642 accepted links.",
+      "cause": "The other 203 links lack a complete project period."
+    },
+    {
+      "id": "Q76",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Thirty publications link to more than one funded project; the maximum is six projects.",
+      "cause": "Accepted direct-output links support the counts."
+    },
+    {
+      "id": "Q77",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The top 30 of 297 PIs account for 332 of 629 linked outputs, or 52.8%.",
+      "cause": "The calculation includes PIs with zero linked outputs in the denominator."
+    },
+    {
+      "id": "Q78",
+      "verdict": "PARTIAL",
+      "defect_class": "UNSAFE",
+      "result": "Among researchers without an observed membership record, Kim Dalziel leads with 27 papers shared with observed members.",
+      "cause": "No membership record does not prove that a researcher is a non-member."
+    },
+    {
+      "id": "Q79",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Private reference evidence gives 4,084 edges, 138 weak components, 135 isolates, and a largest component of 658 papers.",
+      "cause": "The task permits private reference evidence for citation-network questions."
+    },
+    {
+      "id": "Q80",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Private reference evidence identifies 1,963 directed inter-project citation pairs.",
+      "cause": "Exact citation edges and accepted output links support project-to-project flow."
+    },
+    {
+      "id": "Q81",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Of 1,734 resolved publication researchers, 1,315 have an ORCID identifier, or 75.8%.",
+      "cause": "Accepted author identities and reviewed ORCID identifiers support the calculation."
+    },
+    {
+      "id": "Q82",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "One publication has no abstract, but truncated author lists cannot be identified.",
+      "cause": "The data has no author-list truncation flag."
+    },
+    {
+      "id": "Q83",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Papers per project can be calculated for exact working-group strings.",
+      "cause": "Some fields combine several groups, so per-group attribution is incomplete."
+    },
+    {
+      "id": "Q84",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The graph contains 1,893 researchers and 125 observed members, plus 16 group identities.",
+      "cause": "Reviewed entity types and membership records support the totals."
+    },
+    {
+      "id": "Q85",
+      "verdict": "FAIL",
+      "defect_class": "DATA",
+      "result": "Citing-work OpenAlex topics or fields cannot be ranked.",
+      "cause": "The citation snapshot contains totals but no citing-work topic metadata."
+    },
+    {
+      "id": "Q86",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "For 4,084 resolved citation edges, lag ranges from −3 to 16 years and averages 4.22 years.",
+      "cause": "Private reference edges and publication years support the full distribution."
+    },
+    {
+      "id": "Q87",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "The data identifies 31 consolidation authorships and several acceptance statuses, but not all merge, override, or skip reasons.",
+      "cause": "Resolution methods are stored, but decision-level audit reasons are not."
+    },
+    {
+      "id": "Q88",
+      "verdict": "FAIL",
+      "defect_class": "DATA",
+      "result": "Funded papers cannot be ranked by venue impact.",
+      "cause": "Journal names are present, but no venue-impact measure is available."
+    },
+    {
+      "id": "Q89",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No project was supplied.",
+      "cause": "A project ID or title is required."
+    },
+    {
+      "id": "Q90",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Private reference evidence identifies 70 projects linked to 76 value-set output papers that later corpus papers cite.",
+      "cause": "Value-set products, accepted output links, and exact citation edges support the result."
+    },
+    {
+      "id": "Q91",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The five leading recent projects are 330-PHD, 304-PHD, 124-VS, 414-PHD, and 287-PHD.",
+      "cause": "Completion dates, accepted outputs, and the 2026-08-27 citation snapshot support the ranking."
+    },
+    {
+      "id": "Q92",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The funnel is 1,024 projects, 400 projects with outputs, 603 output papers, and 17,345 OpenAlex citations.",
+      "cause": "Accepted output links and the dated citation snapshot support each stage."
+    },
+    {
+      "id": "Q93",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "Using known start years and tied first-year grants, 137 of 297 PIs have an output from their first grant year.",
+      "cause": "Four PIs have at least one project with no start year."
+    },
+    {
+      "id": "Q94",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Distinct resolved co-author edges rise from 9 in the 2000s to 3,155 in the 2010s and 14,033 in the 2020s.",
+      "cause": "Publication years and resolved co-authorship pairs support decade counts."
+    },
+    {
+      "id": "Q95",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "A bounded text screen finds 79 projects linked to 121 relevant studies.",
+      "cause": "Population labels are source text, and under-representation is not a controlled category."
+    },
+    {
+      "id": "Q96",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "The corpus contains 54 bolt-on-related papers, and all have an abstract or finding for a one-line summary.",
+      "cause": "The bounded corpus set and available study evidence support the requested output."
+    },
+    {
+      "id": "Q97",
+      "verdict": "FAIL",
+      "defect_class": "STRUCTURE",
+      "result": "The number of researcher countries in funded publications cannot be calculated reliably.",
+      "cause": "Affiliations are unnormalized and no researcher-country relation exists."
+    },
+    {
+      "id": "Q98",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "MISSING_INPUT",
+      "result": "No DOI was supplied.",
+      "cause": "A DOI is required."
+    },
+    {
+      "id": "Q99",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "DATA",
+      "result": "The excluded pure-application share cannot be calculated.",
+      "cause": "Both current databases contain only the 797 included publications."
+    },
+    {
+      "id": "Q100",
+      "verdict": "NOT TESTABLE",
+      "defect_class": "STRUCTURE",
+      "result": "Papers cannot be separated by full-text grant mining versus structured funder metadata.",
+      "cause": "No publication-entry provenance field distinguishes these routes."
+    }
+  ],
+  "run": {
+    "provider": "codex",
+    "model": "gpt-5.6-sol",
+    "effort": "high",
+    "api_key_removed": false,
+    "database": "web/server/data/serving.sqlite",
+    "publication_count": 797
+  }
+}

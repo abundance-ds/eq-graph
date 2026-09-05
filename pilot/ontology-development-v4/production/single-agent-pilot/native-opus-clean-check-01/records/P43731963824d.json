@@ -1,0 +1,635 @@
+{
+  "record_id": "P43731963824d",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "365-RA"
+    ],
+    "reason": "The manuscript states it was supported by EuroQol Research Foundation grant EQ.365, and it draws directly on the EQ-TIPS project, matching candidate project 365-RA on HRQoL measurement in infants and toddlers.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "P43731963824d",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol Research Foundation grant EQ365 supported production of the manuscript (with direct consultancy funding to the first author) and funded the underlying EQ-TIPS measure development programme on which the commentary draws.",
+      "publication_form": "OPINION_ARTICLE",
+      "publication_relation": null,
+      "reason": "The manuscript states it was supported by EuroQol Research Foundation grant EQ.365, and it draws directly on the EQ-TIPS project, matching candidate project 365-RA on HRQoL measurement in infants and toddlers.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Commentary on conceptual and methodological challenges in measuring HRQoL in infants and toddlers (0-47 months), drawing on the EQ-TIPS project",
+        "primary_research_family": "CONCEPTUAL_FRAMEWORK_DEVELOPMENT",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The paper is a conceptual commentary that articulates six challenges and eight proposed recommendations towards a core conceptual model of infant and toddler HRQoL measurement; no new data were generated or analysed.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "CONCEPTUAL_FRAMEWORK_DEVELOPMENT",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "METHOD_OR_PROTOCOL_QUALITY",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "CONCEPTUAL",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "BETWEEN_INSTRUMENT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Infants and toddlers aged 0-47 months whose HRQoL is to be measured",
+        "role": "Target population of the discussed measures",
+        "geographies": [],
+        "conditions": [],
+        "age_description": "0-47 months (infants 0-11 months; toddlers 12-47 months)",
+        "inclusion_description": "Very young children who cannot reliably self-report HRQoL and require observer or proxy report",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP2",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Primary caregivers acting as proxy respondents",
+        "role": "Preferred proxy respondent and source of conceptual input",
+        "geographies": [],
+        "conditions": [],
+        "age_description": null,
+        "inclusion_description": "Parents or legal guardians with the closest and most prolonged interaction with the child",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "CONCEPTUAL_MATERIAL",
+        "level": "QUALITATIVE_MATERIAL",
+        "purpose": "Collective experience and lessons learned over six years of multi-country EQ-TIPS development research, plus published literature on paediatric HRQoL instruments, used to derive challenges and recommendations",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Accumulated EQ-TIPS project experience and published paediatric HRQoL literature"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "DEVELOPMENT_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "EQ-TIPS",
+        "registry_id": "instrument:eq-tips"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Toddler and Infant Health-Related Quality of Life measure",
+        "registry_id": "instrument:tandi"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "REFERENCE_ONLY",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "EQ-5D-Y proxy version 1",
+        "registry_id": "instrument:eq-5d-y-proxy-v1"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "PedsQL infant and toddler scales",
+        "registry_id": "instrument:pedsql-infant-and-toddler-scales"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "TNO-AZL Preschool Children Quality of Life Questionnaire",
+        "registry_id": "instrument:tno-azl-preschool-children-quality-of-life-questionnaire"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Infant and Toddler Quality of Life Questionnaire",
+        "registry_id": "instrument:infant-and-toddler-quality-of-life-questionnaire"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU7",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Health Utilities Pre-School",
+        "registry_id": "instrument:health-utilities-pre-school"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU8",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Infant Health-Related Quality of Life Instrument (IQI)",
+        "registry_id": "instrument:infant-health-related-quality-of-life-instrument-iqi"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "QUALITATIVE_DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Concept elicitation",
+        "registry_id": "method:concept-elicitation"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "QUALITATIVE_DATA_COLLECTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Cognitive interview",
+        "registry_id": "method:cognitive-interview"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DISCUSSION_ONLY",
+        "function": "PARTICIPATORY_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "source_label": "Delphi panel",
+        "registry_id": "method:delphi-panel"
+      },
+      {
+        "type": "Administration",
+        "id": "ADM1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1"
+        ],
+        "respondent": "Proxy respondent, typically the parent or primary caregiver (observer-reported outcome, proxy-proxy perspective)",
+        "perspective": "Observer answers on behalf of the child based on observable states, not inferring how the child would respond",
+        "completion": null,
+        "assistance": null,
+        "channel": null,
+        "setting": null,
+        "instrument_language": null,
+        "interview_language": null,
+        "recall_period": "Today",
+        "time_point": null,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "CONCEPTUAL_CLASSIFICATION",
+        "label": "Conceptual challenges and proposed recommendations for infant and toddler HRQoL measurement",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Distinction between proxy-proxy and proxy-patient perspectives, with the observer-based (proxy-proxy) approach recommended for infants and toddlers.",
+        "about": [
+          "IU1",
+          "POP2"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "label": "Proxy reporting"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Reliance on observable behaviours, signs or events to reduce caregiver subjectivity, consistent with FDA and ISPOR guidance.",
+        "about": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "label": "Observer-reported outcomes"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Bidirectional spillover between child and caregiver HRQoL, and the risk of double counting in economic evaluation.",
+        "about": [
+          "O1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "label": "Family spillover effects"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Discontinuity in scores and QALYs when instruments, report modes or value sets change with age, versus age-based sensitivity.",
+        "about": [
+          "IU1",
+          "IU3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "label": "Life-course continuity of HRQoL measurement"
+      },
+      {
+        "type": "Concept",
+        "id": "C5",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Need for generic preference-weighted HRQoL measures and value sets designed for children aged 0-47 months rather than adult-derived measures and values.",
+        "about": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "label": "Preference-weighted measures for young children"
+      },
+      {
+        "type": "Concept",
+        "id": "C6",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Items must detect genuine HRQoL change rather than expected developmental change in rapidly developing children.",
+        "about": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ],
+        "label": "Developmental change versus health change"
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Six conceptual challenges for infant and toddler HRQoL measurement were identified: what concepts to measure; how to identify which concepts matter; proxy reporting; rapid developmental change; transitioning between instruments; and spillover effects.",
+        "about": [
+          "O1"
+        ],
+        "values": [
+          {
+            "reported_value": "6 challenges",
+            "unit": null,
+            "denominator": null,
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Eight recommendations are proposed, including greater consensus on a core HRQoL conceptual model, operationalising subjective aspects through observable behavioural correlates, prioritising primary caregiver perspectives, using the primary caregiver as default proxy with an observer-based response perspective, designing items to detect HRQoL change rather than developmental change, deciding between continuity and age-based sensitivity, and minimising capture of caregiver or family spillover.",
+        "about": [
+          "O1"
+        ],
+        "values": [
+          {
+            "reported_value": "8 recommendations",
+            "unit": null,
+            "denominator": null,
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Existing HRQoL instruments for very young children are heterogeneous in the concepts they capture and do not reflect a shared core conceptualisation of HRQoL, which limits comparability and adds uncertainty in health technology assessment.",
+        "about": [
+          "IU4",
+          "IU5",
+          "IU6",
+          "IU7",
+          "IU8"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Submissions to NICE and in Australia for children under five have mostly used generic HRQoL measures and value sets designed for adults, which lack content validity for infants and toddlers and can yield biased utility estimates.",
+        "about": [
+          "C5"
+        ],
+        "values": [
+          {
+            "reported_value": "29.2%",
+            "unit": "percent of cost-utility analysis submissions",
+            "denominator": "Pediatric Economic Database Evaluation submissions 1997-2009",
+            "time": "1997-2009",
+            "subgroup": "Infants up to one year of age",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "In its development EQ-TIPS prioritised age-related content validity over continuity with the EQ-5D-Y, adding dimensions such as eating or drinking and sleep that the EQ-5D-Y does not cover, so implications of transitions between descriptive systems require further research.",
+        "about": [
+          "IU1",
+          "IU3",
+          "C4"
+        ],
+        "values": [],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F6",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "EQ-TIPS experimental version 3.0 contains seven observably operationalised dimensions (movement, eating or drinking, sleep, pain, managing emotions, interacting with others, play) with three-level and five-level variants, retains the EQ VAS and a 'Today' recall period, and is completed by a proxy, typically the parent.",
+        "about": [
+          "IU1"
+        ],
+        "values": [
+          {
+            "reported_value": "7 dimensions",
+            "unit": null,
+            "denominator": null,
+            "time": null,
+            "subgroup": "EQ-TIPS experimental version 3.0",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The recommendations offer a foundation for future consensus-building and research to refine and harmonise best practice in infant and toddler HRQoL measurement, particularly for health technology assessment, where standardisation should improve comparability and reduce methodology-induced bias.",
+        "finding_ids": [
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "F5",
+          "F6"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The recommendations are based on the informed perspectives of a single research team, are not definitive, and should be treated as a starting point for further debate and iterative refinement.",
+        "about": [
+          "O1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The set of recommendations is not exhaustive; other issues such as equity concerns and cross-cultural adaptation are also likely to be important.",
+        "about": [
+          "O1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The focus is on single questionnaire-based assessments, whereas comprehensive assessment of infant and toddler HRQoL may require a multimethod approach combining caregiver reports, direct observation and interviews.",
+        "about": [
+          "O1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "Product",
+        "id": "PR1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Set of eight proposed recommendations for measuring HRQoL in infants and toddlers",
+        "product_type": "IMPLEMENTATION_GUIDANCE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      },
+      {
+        "type": "ProductStateAssertion",
+        "id": "PSA1",
+        "study_id": "S1",
+        "part_id": null,
+        "product_id": "PR1",
+        "axis": "DEVELOPMENT",
+        "exact_state": "Proposed recommendations offered as a foundation for future consensus-building, not definitive",
+        "assertion_date": null,
+        "asserted_by": "Authors",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P43731963824d.md"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "external co-authorship analysis; no co-author edges are loaded into the research database",
+  "publications": 270,
+  "person_nodes": 628,
+  "coauthor_edges": 3603,
+  "people_with_multiple_papers": 214,
+  "maximum_paper_count": 42,
+  "maximum_pair_count": 17,
+  "node_size_field": "paper_count",
+  "layout_edge_weight_field": "coauthored_paper_count",
+  "layout_distance_field": "layout_distance"
+}

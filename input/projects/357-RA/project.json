@@ -1,0 +1,24 @@
+{
+  "project_id": "357-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 357,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "A comparative investigation of inequality measures for EQ-5D outcomes",
+  "pi_name_raw": "Henry Bailey",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 65721,
+  "status": "Ongoing",
+  "start_year": 2021,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 243,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

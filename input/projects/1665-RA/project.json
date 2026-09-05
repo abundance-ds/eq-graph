@@ -1,0 +1,24 @@
+{
+  "project_id": "1665-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1665,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Evaluating the validity of the EQ Health and Wellbeing short (EQ-HWB-S) in a large general population sample.",
+  "pi_name_raw": "Emily McDool",
+  "working_groups": [
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 22180,
+  "status": "Completed",
+  "start_year": 2025,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 349,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

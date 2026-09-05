@@ -1,0 +1,25 @@
+{
+  "project_id": "237-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 237,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "The effect of duration on the gap between adults’ and children’s TTO valuations",
+  "pi_name_raw": "Arthur Attema",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 31692,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2022,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 58,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

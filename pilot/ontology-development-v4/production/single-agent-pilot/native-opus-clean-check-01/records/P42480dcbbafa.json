@@ -1,0 +1,926 @@
+{
+  "record_id": "P42480dcbbafa",
+  "eligibility": {
+    "decision": "INCLUDE",
+    "basis": "BOTH",
+    "project_ids": [
+      "20180320"
+    ],
+    "reason": "The paper acknowledges financial support from the EuroQol Research Foundation and matches candidate project 20180320 (Jonker, user-friendly tool to optimize D-efficient DCE duration designs) in title, abstract, and content.",
+    "source": [
+      "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+    ]
+  },
+  "record": {
+    "schema_version": "eq-record-0.1",
+    "record_id": "P42480dcbbafa",
+    "assessment": {
+      "disposition": "include-study",
+      "connection": "direct_eq",
+      "euroqol_support": "explicit",
+      "support_scope": "EuroQol Research Foundation gave financial support for the methodological work on optimizing Bayesian D-efficient DCE duration designs and the accompanying TPC-QALY software.",
+      "publication_form": "ORIGINAL_RESEARCH_ARTICLE",
+      "publication_relation": null,
+      "reason": "The paper acknowledges financial support from the EuroQol Research Foundation and matches candidate project 20180320 (Jonker, user-friendly tool to optimize D-efficient DCE duration designs) in title, abstract, and content.",
+      "source": [
+        "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+      ]
+    },
+    "studies": [
+      {
+        "id": "S1",
+        "label": "Optimization and evaluation of Bayesian D-efficient DCE-duration designs for time-preference-corrected QALY tariffs",
+        "primary_research_family": "METHODS_RESEARCH",
+        "execution_state": "COMPLETED",
+        "result_state": "RESULTS_REPORTED",
+        "family_rationale": "The work develops D-error calculations and a software algorithm for DCE-duration design optimization and compares the statistical efficiency of eight designs; it does not value health states in a new sample.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "type": "Purpose",
+        "id": "P1",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "VALUATION_METHOD_EVALUATION",
+        "rank": 1,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P2",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "METHOD_OR_PROTOCOL_QUALITY",
+        "rank": 2,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Purpose",
+        "id": "P3",
+        "study_id": "S1",
+        "part_id": null,
+        "value": "DECISION_SUPPORT_DEVELOPMENT",
+        "rank": 3,
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D1",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "component_approach",
+        "value": "MODEL_BASED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D2",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "comparison_structure",
+        "value": "BETWEEN_METHOD",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D3",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "temporal_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Design",
+        "id": "D4",
+        "study_id": "S1",
+        "part_id": null,
+        "axis": "allocation_structure",
+        "value": "NOT_APPLICABLE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Population",
+        "id": "POP1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "Dutch general population respondents whose DCE-duration data provided the Bayesian priors",
+        "role": "Source of prior parameter estimates",
+        "geographies": [
+          "The Netherlands"
+        ],
+        "conditions": [],
+        "age_description": null,
+        "inclusion_description": "Randomly sampled members of the Dutch general population who completed a severity-stratified heterogeneous DCE-duration study reported by Lim et al.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Sample",
+        "id": "SM1",
+        "study_id": "S1",
+        "part_id": null,
+        "population_id": "POP1",
+        "stage": "ANALYZED",
+        "size": 517,
+        "size_text": "517 respondents",
+        "unit": "respondents",
+        "description": "Existing DCE-duration data set (8 subdesigns, 21 matched pairwise choice tasks per subdesign) refitted with conditional logit models to obtain Bayesian priors.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "DataUse",
+        "id": "DU1",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "PRIOR_RESEARCH_COLLECTION",
+        "level": "PARTICIPANT_RESPONSE",
+        "purpose": "Estimating conditional logit parameters used as Bayesian priors for design optimization",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Dutch EQ-5D-5L DCE-duration choice data"
+      },
+      {
+        "type": "DataUse",
+        "id": "DU2",
+        "study_id": "S1",
+        "part_id": null,
+        "origin": "SIMULATED_DATA",
+        "level": "MODEL_PARAMETER",
+        "purpose": "Evaluating Bayesian D-errors, asymptotic standard errors, and required sample sizes of candidate designs",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Quasi-random Bayesian draws from prior distributions (Latin hypercube samples of 50 to 1000 draws)"
+      },
+      {
+        "type": "InstrumentUse",
+        "id": "IU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "HEALTH_STATE_DESCRIPTION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "EQ-5D-5L",
+        "registry_id": "instrument:eq-5d-5l"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Bayesian D-efficient experimental design optimization",
+        "registry_id": "method:bayesian-d-efficient-experimental-design-optimization"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Modified Fedorov algorithm",
+        "registry_id": "method:modified-fedorov-algorithm"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Latin hypercube sampling",
+        "registry_id": "method:latin-hypercube-sampling"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Matched-pairs DCE with duration",
+        "registry_id": "method:matched-pairs-dce-with-duration"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Severity-stratified DCE design",
+        "registry_id": "method:severity-stratified-dce-design"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Heterogeneous DCE design algorithm",
+        "registry_id": "method:heterogeneous-dce-design"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU7",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Attribute level overlap",
+        "registry_id": "method:attribute-level-overlap"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU8",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "QUANTITATIVE_ANALYSIS",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Sample size calculation for discrete choice experiments",
+        "registry_id": "method:sample-size-calculation-for-discrete-choice-experiments"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU9",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Genetic algorithm",
+        "registry_id": "method:genetic-algorithm"
+      },
+      {
+        "type": "MethodUse",
+        "id": "MU10",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "SOURCE_STUDY_ACTIVITY",
+        "function": "PREFERENCE_ELICITATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "DCE with duration",
+        "registry_id": "method:dce-duration"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CHOICE_MODELING",
+        "analytic_role": "PRIMARY_REPORTED",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Conditional logit model with nonlinear multiplicative utility function",
+        "registry_id": "model:conditional-logit-model-with-nonlinear-multiplicative-utility-function"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CHOICE_MODELING",
+        "analytic_role": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Conditional logit model with linear additive utility function",
+        "registry_id": "model:conditional-logit-model-with-linear-additive-utility-function"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO3",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "CHOICE_MODELING",
+        "analytic_role": "COMPARATOR",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Conditional logit model with linear multiplicative utility function",
+        "registry_id": "model:conditional-logit-model-with-linear-multiplicative-utility-function"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO4",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "STATISTICAL_ESTIMATION",
+        "analytic_role": "CANDIDATE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Exponential discount function",
+        "registry_id": "model:exponential-discount-function"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO5",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "STATISTICAL_ESTIMATION",
+        "analytic_role": "CANDIDATE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Hyperbolic discount function",
+        "registry_id": "model:hyperbolic-discount-function"
+      },
+      {
+        "type": "ModelUse",
+        "id": "MO6",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "STATISTICAL_ESTIMATION",
+        "analytic_role": "CANDIDATE",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Power discount function",
+        "registry_id": "model:power-discount-function"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SW1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "EXPERIMENTAL_DESIGN",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "TPC-QALY",
+        "registry_id": "software:tpc-qaly"
+      },
+      {
+        "type": "SoftwareUse",
+        "id": "SW2",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "DIRECT_CURRENT_ACTIVITY",
+        "function": "MODEL_IMPLEMENTATION",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "Fortran",
+        "registry_id": "software:fortran"
+      },
+      {
+        "type": "TaskDesign",
+        "id": "TD1",
+        "study_id": "S1",
+        "part_id": null,
+        "applies_to": [
+          "IU1",
+          "MU4"
+        ],
+        "label": "Matched-pairs EQ-5D-5L DCE-duration design used for the efficiency comparisons",
+        "profiles": [
+          "EQ-5D-5L health states selected by severity-stratified candidate sets"
+        ],
+        "attributes": [
+          "Five EQ-5D-5L dimensions (dummy coded)",
+          "Duration (life years)"
+        ],
+        "levels": [
+          "5 levels per EQ-5D-5L dimension",
+          "Duration levels for options A and B: 2, 3, 5, 7, 8, 9, 10, 11, 12, 12, 15, 15 years",
+          "Duration levels for option C: integers below the corresponding A/B duration plus 3 and 6 months"
+        ],
+        "duration": "Fixed duration level set with 2 attribute levels overlapped",
+        "alternatives": "Options A and B (impaired states, equal duration) and option C (perfect health, shorter duration)",
+        "task_count": "12 matched pairwise choice tasks per subdesign",
+        "block": "10 subdesigns in the heterogeneous designs",
+        "order": "Duration levels randomly distributed across choice tasks; options A and B randomized",
+        "randomization_unit": "respondent (random assignment to one subdesign)",
+        "stopping_rule": "Best D-error from 3 runs of 200 000 optimization iterations each",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O1",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "Bayesian D-error of the DCE design",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Outcome",
+        "id": "O2",
+        "study_id": "S1",
+        "part_id": null,
+        "family": "METHOD_PERFORMANCE_OR_DATA_QUALITY",
+        "label": "Asymptotic standard error and required sample size for the discount rate parameter",
+        "instrument_use_ids": [
+          "IU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Product",
+        "id": "PR1",
+        "study_id": "S1",
+        "part_id": null,
+        "label": "TPC-QALY design optimization software package",
+        "product_type": "SOFTWARE_OR_DECISION_SUPPORT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "ProductStateAssertion",
+        "id": "PSA1",
+        "study_id": "S1",
+        "part_id": null,
+        "product_id": "PR1",
+        "axis": "DEVELOPMENT",
+        "exact_state": "Implemented in Fortran with a Windows user interface and released with the article as accompanying software",
+        "assertion_date": "2019",
+        "asserted_by": "Authors",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "ProductUse",
+        "id": "PU1",
+        "study_id": "S1",
+        "part_id": null,
+        "context": "CURRENT_STUDY_OBJECT",
+        "function": "ANALYSIS_OBJECT",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "source_label": "TPC-QALY design optimization software package",
+        "registry_id": "product:tpc-qaly-design-optimization-software-package"
+      },
+      {
+        "type": "Concept",
+        "id": "C1",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "QALY tariffs estimated without confounding between health-state values and respondents' nonlinear time preferences.",
+        "about": [
+          "MO1",
+          "MO4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "label": "Time-preference-corrected QALY tariffs"
+      },
+      {
+        "type": "Concept",
+        "id": "C2",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Exponential, hyperbolic and power discount functions replace the linear time preference assumption in DCE-duration utility models.",
+        "about": [
+          "MO4",
+          "MO5",
+          "MO6"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "label": "Nonlinear time preferences"
+      },
+      {
+        "type": "Concept",
+        "id": "C3",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "Bayesian D-efficiency, attribute level overlap, severity stratification and heterogeneous subdesigns for health state valuation experiments.",
+        "about": [
+          "MU1",
+          "MU6",
+          "MU7"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "label": "Efficient DCE design"
+      },
+      {
+        "type": "Concept",
+        "id": "C4",
+        "study_id": "S1",
+        "part_id": null,
+        "description": "In DCE-duration, states worse than immediate death are identified by model-based extrapolation that is sensitive to time preference assumptions.",
+        "about": [
+          "MO1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ],
+        "label": "Health states worse than dead"
+      },
+      {
+        "type": "Finding",
+        "id": "F1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Designs optimized for a nonlinear multiplicative utility function with a discount function achieved the lowest Bayesian D-errors, and the choice of discount function used for optimization made almost no difference.",
+        "about": [
+          "O1"
+        ],
+        "values": [
+          {
+            "reported_value": "0.0619",
+            "unit": "Bayesian D-error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Exponential utility function design, evaluated on exponential TPC utility function",
+            "comparator": null,
+            "direction": "lower is better",
+            "uncertainty": null
+          },
+          {
+            "reported_value": "1.00",
+            "unit": "relative design efficiency",
+            "denominator": null,
+            "time": null,
+            "subgroup": "All four TPC-optimized designs",
+            "comparator": "most efficient design",
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Conventional designs were less efficient for time-preference-corrected QALY tariff estimation, with average relative design efficiencies of 0.91 for the linear multiplicative design, 0.80 for the heterogeneous linear additive design with severity stratification, and 0.69 for the homogeneous linear additive designs without severity stratification.",
+        "about": [
+          "O1"
+        ],
+        "values": [
+          {
+            "reported_value": "0.91",
+            "unit": "relative design efficiency",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Linear multiplicative design",
+            "comparator": "best TPC-optimized design",
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "0.80",
+            "unit": "relative design efficiency",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Heterogeneous linear additive design with severity stratification",
+            "comparator": "best TPC-optimized design",
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "0.69",
+            "unit": "relative design efficiency",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Homogeneous linear additive designs without severity stratification",
+            "comparator": "best TPC-optimized design",
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Standard homogeneous linear additive designs gave 2.5 to 3.5 times larger asymptotic standard errors and up to 11 times larger required sample sizes for the discount rate parameter than the TPC-optimized designs.",
+        "about": [
+          "O2"
+        ],
+        "values": [
+          {
+            "reported_value": "100",
+            "unit": "respondents",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Exponential TPC design, exponential discount rate parameter",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "1068",
+            "unit": "respondents",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Standard linear additive design with 0 priors, exponential discount rate parameter",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "400",
+            "unit": "respondents",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Exponential TPC design, hyperbolic discount rate parameter",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "175",
+            "unit": "respondents",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Exponential TPC design, power discount rate parameter",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F4",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The exponential discount rate parameter was best identified: its asymptotic standard error was about half that of the hyperbolic and a quarter of the power discount rate parameter.",
+        "about": [
+          "O2"
+        ],
+        "values": [
+          {
+            "reported_value": "0.43",
+            "unit": "asymptotic standard error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Exponential discount rate, exponential TPC design",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "0.96",
+            "unit": "asymptotic standard error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Hyperbolic discount rate, exponential TPC design",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "1.74",
+            "unit": "asymptotic standard error",
+            "denominator": null,
+            "time": null,
+            "subgroup": "Power discount rate, exponential TPC design",
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Finding",
+        "id": "F5",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Nearly all design improvement occurred early in the optimization and the number of Bayesian draws did not change the ranking of successive designs.",
+        "about": [
+          "O1"
+        ],
+        "values": [
+          {
+            "reported_value": "98% of the total D-error decrease",
+            "unit": null,
+            "denominator": "total decrease in D-error",
+            "time": "first 10 000 iterations",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "99%",
+            "unit": null,
+            "denominator": "total decrease in D-error",
+            "time": "first 30 000 iterations",
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "identical rankings across 50, 100, 200, 300 and 1000 Bayesian draws",
+            "unit": null,
+            "denominator": null,
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          },
+          {
+            "reported_value": "15 minutes single threaded for 200 000 iterations with 100 draws",
+            "unit": "run time",
+            "denominator": null,
+            "time": null,
+            "subgroup": null,
+            "comparator": null,
+            "direction": null,
+            "uncertainty": null
+          }
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Applied researchers should use DCE designs optimized for the correct nonlinear multiplicative utility function when estimating time-preference-corrected QALY tariffs, because standard designs require substantially larger samples for the same reliability.",
+        "finding_ids": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "Optimizing for one discount function does not preclude estimation with another, and simultaneous optimization for several discount functions adds little value relative to its run time.",
+        "finding_ids": [
+          "F1",
+          "F4"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Interpretation",
+        "id": "IN3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The TPC-QALY software makes theoretically sound and efficient DCE-duration designs, including for the EQ-5D-5L, accessible to health-state valuation researchers, but it needs informative priors and pilot data to update them.",
+        "finding_ids": [
+          "F1",
+          "F5"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L1",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The results depend on a specific set of priors derived from a single data set that was itself collected with a design not optimized for any of the included discount functions.",
+        "about": [
+          "DU1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L2",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The prior data set had more than 500 respondents and hence produced relatively precise conditional logit estimates, so a sensitivity analysis with substantially inflated prior standard errors was needed (and gave closely corresponding results).",
+        "about": [
+          "SM1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Limitation",
+        "id": "L3",
+        "study_id": "S1",
+        "part_id": null,
+        "statement": "The design optimization relies on informative priors for severity stratification, health-state selection, and duration values, so the software is not intended for use with uninformative priors.",
+        "about": [
+          "PR1"
+        ],
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      },
+      {
+        "type": "Gap",
+        "id": "G1",
+        "study_id": "S1",
+        "part_id": null,
+        "state": "NOT_REPORTED",
+        "affected_item_id": "POP1",
+        "affected_type": "Population",
+        "affected_key": "age_description",
+        "evidence": "The article only states that 517 respondents were randomly sampled from the Dutch general population in the source study.",
+        "importance": "low",
+        "proposed_resolution": "Consult the source publication (Lim et al) for respondent demographics.",
+        "source": [
+          "scale/protocol-2.0/fulltext-preparation-v2/markdown/P42480dcbbafa.md"
+        ]
+      }
+    ]
+  }
+}

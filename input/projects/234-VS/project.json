@@ -1,0 +1,24 @@
+{
+  "project_id": "234-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 234,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "Valuing Health-Related Quality of Life: Developing an EQ-5D-5L Value Set for Ghana",
+  "pi_name_raw": "Brendan Mulhern",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 55779,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 651,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

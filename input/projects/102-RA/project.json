@@ -1,0 +1,24 @@
+{
+  "project_id": "102-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 102,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "The impact of COVID-19 on health status, based on the EQ-5D-5L, of adults visiting emergency departments and primary care clinics in Alberta, Canada",
+  "pi_name_raw": "Fatima Al Sayah",
+  "working_groups": [
+    "Populations and Health Systems"
+  ],
+  "approved_budget_eur": 31955,
+  "status": "Completed",
+  "start_year": 2020,
+  "end_year": null,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 653,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "365-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 365,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Measuring Health-Related Quality of Life (HRQoL) in the Youngest Population",
+  "pi_name_raw": "Janine Verstraete",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 475039,
+  "status": "Ongoing",
+  "start_year": 2022,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 317,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

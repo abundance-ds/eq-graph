@@ -1,0 +1,16 @@
+{
+  "base_people": 689,
+  "new_people": 82,
+  "total_people": 771,
+  "new_authorships": 358,
+  "unresolved_new_authorships": 3,
+  "ambiguous_external_identifiers": 1,
+  "identity_review_rows": 33,
+  "output_hashes": {
+    "PERSONS.tsv": "7f1981812518d78ac00ac5db39c7fd702c6baa3511b7a4871311b566090f8a4b",
+    "PERSON_NAMES.tsv": "533a83c43ae8abb9f66c8cd3bd0b593df08fb2a5de6244ae89cdd7a06cc48c64",
+    "PERSON_IDENTIFIERS.tsv": "43aea66db32579a670b4e545c757d4f12538ce1a2a6e455e03fcb3fa8e0fd86b",
+    "PROJECT_PERSONS.tsv": "39067cb6845c6d1b5f3174694036d7abda4253b80988b23f82cf35b444bb1f7c",
+    "PUBLICATION_AUTHORS.tsv": "d62ede90fcb597e3c8b445103f4504d79064a5454c584e3b794df1dcf86963d0"
+  }
+}

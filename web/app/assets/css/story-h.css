@@ -1,0 +1,842 @@
+/* ═══════════════════════════════════════════════════════════════════ THE STORY — horizontal, on paper, Swiss.  */
+
+.sh-root{
+  /* fonts, so this route works on its own as well as inside the landing */
+  --font-body:'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display:'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-num:'IBM Plex Mono', 'SFMono-Regular', Consolas, Menlo, monospace;
+  --ink:#1a1a17; --ink-2:#5c5c56; --ink-3:#8e8e86; --ink-4:#c4c4bb;
+  --rule:rgba(26,26,23,.17); --rule-soft:rgba(26,26,23,.08);
+
+  /* ── The type scale ────────────────────────────────────────────────── */
+  /* Every size in this file used to be picked on the spot: 12px here, .95rem there, 11px, .92rem, .76rem, 9.5px. */
+  --t-micro:  .72rem;   /* captions under a chart, axis notes            */
+  --t-fine:   .82rem;   /* asides, chart tick labels, the key            */
+  --t-body:   .95rem;   /* the paragraph                                 */
+  --t-lead:  1.14rem;   /* larger UI text, the country card's label      */
+  --t-head:  clamp(1.05rem, 1.62vw, 1.5rem);  /* the beat's sentence     */
+  --t-display: clamp(2.2rem, 4.1vw, 3.7rem);  /* the number AND its noun */
+
+  /* Leading is a property of the role, not of the size.  */
+  --lh-display: .86;
+  --lh-head:   1.14;
+  --lh-body:   1.62;
+  --lh-fine:   1.5;
+
+  /* Tracking tightens as size grows — the classic correction.  */
+  --tr-display: -.045em;
+  --tr-head:    -.025em;
+  --tr-body:    -.004em;
+  --tr-micro:    .02em;
+  /* Straight off the logo artwork.  */
+  --yellow:#b88016; --teal:#007d6c; --teal-deep:#007d6c;
+  --blue:#2f6f9f;   /* analogous to the teal, for the second category */
+  --teal-hover:#0e8474;
+
+  --tip-bg:rgba(255,255,253,.96);
+  --btn-2-ink:#1a1a17;                   /* the outlined button */
+  --btn-2-line:rgba(26,26,23,.30);
+  --btn-2-line-hover:rgba(26,26,23,.62);
+  --ray-soft:rgba(0,125,108,.20);        /* the sweep around a hovered button */
+  --ray-hot:#007d6c;
+
+  /* The canvases cannot read hex tokens, so the same palette is published as plain "r,g,b" triples.  */
+  --ground-rgb:252,252,251;              /* the ground the dots sit on */
+  --ink-rgb:26,26,23;                    /* type, furniture, particles   */
+  --dot-grey-rgb:138,138,130;
+  --dot-teal-rgb:0,125,108;              /* #007d6c, the EuroQol green */
+  --dot-yellow-rgb:184,128,22;
+  --globe-lit-rgb:0,125,108;             /* a country with research in it */
+  --globe-land-rgb:122,124,114;          /* every other coastline        */
+  --globe-pin-rgb:26,26,23;
+  --globe-body:255,255,253;              /* the glass ball, near to far  */
+  --globe-body-mid:243,243,238;
+  --globe-body-far:227,228,220;
+  --globe-body-a:.62;
+  --globe-line-boost:1.8;                /* hairlines carry more weight on paper */
+
+  --gut:1.5rem;                          /* the grid gutter */
+  --col:calc((100% - 11 * var(--gut)) / 12);
+
+  position:relative; background:#fcfcfb; color:var(--ink);
+  font-family:var(--font-body);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ── the sticky visual and normal-flow story steps ───────────────── */
+.sh-scroll{position:relative;}
+.sh-stage{
+  position:sticky; top:0; z-index:1; height:100vh; height:100svh; overflow:hidden;
+  background:#fcfcfb;
+}
+
+/* the drifting ground — two blooms, very slow, very low */
+.sh-glow{position:absolute; inset:-20%; pointer-events:none; z-index:0;}
+.sh-glow i{
+  position:absolute; border-radius:50%; filter:blur(100px); opacity:.30;
+  will-change:transform;
+}
+.sh-glow i.a{width:52vw; height:52vw; background:radial-gradient(circle, rgba(214,163,60,.16), rgba(214,163,60,0) 70%);}
+.sh-glow i.b{width:46vw; height:46vw; background:radial-gradient(circle, rgba(0,125,108,.14), rgba(0,125,108,0) 70%);}
+@media (prefers-reduced-motion: reduce){ .sh-glow i{animation:none !important;} }
+
+/* the grid, made visible — this is the Swiss part */
+.sh-grid{position:absolute; inset:0; z-index:1; pointer-events:none;
+  padding:0 var(--pad); display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);}
+.sh-grid span{border-left:1px solid var(--rule-soft);}
+.sh-grid span:last-child{border-right:1px solid var(--rule-soft);}
+
+/* Each step stays in document flow. The visual remains sticky behind it. */
+.sh-steps{position:relative; z-index:4; pointer-events:none;}
+.sh-panel{
+  min-height:96vh; min-height:96svh; padding:0 var(--pad);
+  display:grid; grid-template-columns:repeat(12, 1fr); gap:var(--gut);
+  align-items:center; pointer-events:none;
+}
+.sh-panel:first-child{margin-top:0;}
+.sh-panel .sh-copy{
+  opacity:0; transform:none;
+  transition:none;
+  will-change:opacity, transform;
+  pointer-events:auto;
+}
+
+/* The copy leaves most of the stage to the visual. */
+.sh-copy{grid-column:1 / span 4; align-self:center;}
+@media (max-width:900px){ .sh-copy{grid-column:1 / span 5;} }
+
+.sh-step-kicker{
+  display:flex; align-items:center; gap:.65rem;
+  margin:0 0 1rem; color:var(--ink-3);
+  font:500 var(--t-micro)/1.2 var(--font-num); letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.sh-step-kicker span{
+  min-width:2rem; color:var(--teal); font-variant-numeric:tabular-nums;
+}
+
+/* The figure and its noun are one object, so they share a line and a baseline.  */
+.sh-num{
+  display:flex; align-items:baseline; flex-wrap:wrap; gap:0 .28em;
+  font-family:var(--font-display); font-weight:500;
+  font-size:var(--t-display); line-height:var(--lh-display); letter-spacing:var(--tr-display);
+  color:var(--ink); margin:0 0 .35rem; font-variant-numeric:tabular-nums;
+}
+/* Same ink as the figure.  */
+/* The noun is set at the SAME size as the figure.  */
+.sh-unit{
+  font-size:1em; letter-spacing:var(--tr-display); font-weight:500;
+  color:var(--ink);
+}
+@media (max-width:640px){
+  .sh-num{font-size:clamp(1.9rem, 8.4vw, 2.6rem);}
+  .sh-unit{font-size:1em;}
+}
+.sh-head{
+  font-family:var(--font-display); font-weight:500;
+  /* Clearly below the unit, not level with it.  */
+  font-size:var(--t-head); line-height:var(--lh-head); letter-spacing:var(--tr-head);
+  color:var(--ink); margin:0 0 1.1rem;
+}
+.sh-body{
+  font-size:var(--t-body); line-height:var(--lh-body); letter-spacing:var(--tr-body);
+  color:var(--ink-2); margin:0; max-width:34ch;
+}
+.sh-body b{color:var(--ink); font-weight:500;}
+
+/* The consequence.  */
+.sh-so{
+  margin:1.15rem 0 0;
+  font-size:var(--t-body); line-height:var(--lh-body); letter-spacing:var(--tr-body);
+  color:var(--ink-2); max-width:34ch;
+}
+.sh-so b{color:var(--ink); font-weight:500;}
+
+/* a hairline under the copy, running out to the gutter — Swiss detail */
+.sh-copy::after{
+  content:''; display:block; height:1px; margin-top:2.2rem;
+  background:linear-gradient(90deg, var(--rule) 0%, var(--rule) 22%, transparent 100%);
+}
+
+/* ── the instrument ─────────────────────────────────────────────────── */
+/* The opening object: five extruded forms whose heights are the levels of an EQ-5D health state. */
+/* The globe fills the fold and sits behind the words, so the type always reads over it and the whole right half is grabbable. */
+.sh-instrument{
+  position:absolute; inset:0; z-index:1;
+  opacity:0; transition:none; pointer-events:none;
+}
+.sh-instrument canvas{width:100%; height:100%; display:block;}
+/* the globe is the one object you can put your hands on */
+.sh-instrument.is-globe{pointer-events:none;}
+.sh-instrument.is-globe canvas{pointer-events:auto; cursor:grab; touch-action:none;}
+.sh-instrument.is-globe canvas.is-dragging{cursor:grabbing;}
+
+/* ── the two ways in ────────────────────────────────────────────────── */
+/* Sitting under the opening line, in the left columns, from first paint. */
+.sh-hero-kicker{
+  position:absolute; z-index:5; left:var(--pad);
+  margin:0; color:var(--teal);
+  font:500 var(--t-micro)/1.2 var(--font-num);
+  letter-spacing:.09em; text-transform:uppercase;
+  transition:opacity .25s ease;
+}
+/* Sits between the headline and the buttons, on the same left edge, at a measure short enough to read in one go.  */
+.sh-sub{
+  position:absolute; z-index:5; left:var(--pad); top:50%;
+  margin:0; max-width:min(40rem, 53vw);
+  color:var(--ink-2);
+  font:400 var(--t-lead)/1.45 var(--font-body);
+  letter-spacing:-.006em;
+  text-wrap:balance;   /* one line where it fits; two even lines where it must wrap, never a lone last word */
+  transition:opacity .25s ease;
+}
+@media (max-width:900px){ .sh-sub{ max-width:min(30rem, 78vw); } }
+
+.sh-scope{
+  position:absolute; z-index:5; left:var(--pad); top:66%;
+  margin:0; max-width:min(36rem, 68vw);
+  color:var(--ink-3);
+  font:500 var(--t-fine)/1.4 var(--font-num);
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.005em;
+  transition:opacity .25s ease;
+}
+
+.sh-cta{
+  position:absolute; z-index:5; left:var(--pad); top:73%;
+  display:flex; align-items:center; gap:.95rem; flex-wrap:wrap;
+  transition:opacity .25s ease;
+}
+
+@media (max-width:640px){
+  .sh-sub{
+    max-width:calc(100vw - 3rem);
+    font-size:.95rem; line-height:1.45;
+  }
+  .sh-scope{max-width:calc(100vw - 3rem); font-size:.72rem;}
+  /* Three items no longer fit on one line, so they get a row each instead of an accidental wrap. */
+  .sh-cta{flex-direction:column; align-items:flex-start; gap:.65rem;}
+  /* top is set from script (right under the buttons, whatever their height); this is only the pre-JS fallback. */
+  .sh-instrument.is-globe{top:58%; bottom:0;}
+}
+
+/* The two ways in.  */
+.sh-btn{
+  position:relative; isolation:isolate;
+  font-family:var(--font-body); font-size:var(--t-body); font-weight:500;
+  padding:.82rem 1.75rem; border-radius:999px; cursor:pointer;
+  border:1px solid transparent; letter-spacing:-.005em;
+  transition:transform .18s cubic-bezier(.16,1,.3,1), background .2s ease, box-shadow .2s ease;
+}
+.sh-btn span{position:relative; z-index:2;}
+.sh-btn:active{transform:translateY(1px);}
+
+.sh-btn.is-primary{
+  min-width:8.25rem;
+  background:var(--teal-deep); color:#fff; border-color:var(--teal-deep);
+  box-shadow:0 1px 0 rgba(255,255,255,.10) inset, 0 8px 24px rgba(0,125,108,.30);
+}
+.sh-btn.is-primary:hover{background:var(--teal-hover); border-color:var(--teal-hover);}
+
+.sh-tour-link{
+  min-height:44px; padding:.3rem .15rem;
+  border:0; background:transparent; color:var(--ink-2);
+  font:500 var(--t-body)/1.2 var(--font-body); cursor:pointer;
+  text-decoration:underline; text-decoration-color:transparent;
+  text-underline-offset:.25rem;
+  transition:color .15s ease, text-decoration-color .15s ease;
+}
+a.sh-tour-link{display:inline-flex; align-items:center;}
+.sh-tour-link:hover{color:var(--teal); text-decoration-color:currentColor;}
+.sh-tour-link:focus-visible{outline:2px solid var(--teal); outline-offset:4px;}
+
+/* The ray.  */
+.sh-ray{
+  position:absolute; inset:-1px; border-radius:inherit; overflow:hidden;
+  opacity:0; transition:opacity .2s ease; pointer-events:none; z-index:1;
+  padding:1.4px;
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+          mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+          mask-composite:exclude;
+}
+.sh-ray b{
+  position:absolute; left:50%; top:50%; width:340%; aspect-ratio:1;
+  transform:translate3d(-50%,-50%,0) rotate(0turn);
+  will-change:transform; backface-visibility:hidden;
+  background:conic-gradient(
+    transparent 0turn .17turn,
+    var(--ray-soft) .21turn,
+    var(--ray-hot) .25turn,
+    var(--ray-soft) .29turn,
+    transparent .33turn 1turn);
+  animation:sh-ray 2s linear infinite;
+  animation-play-state:paused;
+}
+/* The light has to contrast with what it is running around.  */
+.sh-btn.is-primary{
+  --ray-soft:rgba(255,255,255,.28);
+  --ray-hot:#ffffff;
+}
+.sh-btn.is-primary .sh-ray{ padding:1.7px; }
+
+.sh-btn:hover .sh-ray, .sh-btn:focus-visible .sh-ray{opacity:1;}
+.sh-btn:hover .sh-ray b, .sh-btn:focus-visible .sh-ray b{animation-play-state:running;}
+@keyframes sh-ray{ to{ transform:translate3d(-50%,-50%,0) rotate(1turn); } }
+@media (prefers-reduced-motion: reduce){ .sh-ray b{animation:none;} }
+
+/* The beat dots, the fold arrows and Skip all belong to the story.  */
+.sh-root[data-story-phase="intro"] .sh-dots,
+.sh-root[data-story-phase="intro"] .sh-controls,
+.sh-root[data-story-phase="end"] .sh-dots,
+.sh-root[data-story-phase="end"] .sh-controls{
+  opacity:0; pointer-events:none;
+}
+.sh-dots, .sh-controls{ transition:opacity .3s ease; }
+
+/* ── the dot field ────────────────────────────────────────────────── */
+.sh-field{
+  position:absolute; inset:0; z-index:2; pointer-events:none;
+  transition:none; will-change:opacity;
+}
+.sh-field canvas{width:100%; height:100%; display:block;}
+.sh-data-tip{
+  position:absolute; z-index:7; transform:translate(-50%,-100%);
+  min-width:14.5rem; padding:.65rem .75rem;
+  border:1px solid var(--rule); border-radius:5px;
+  background:rgba(252,252,251,.96); box-shadow:0 8px 24px rgba(20,28,26,.08);
+  color:var(--ink); font:400 var(--t-fine)/1.35 var(--font-body);
+  pointer-events:none;
+}
+.sh-data-tip strong{display:block; margin-bottom:.35rem; font:600 var(--t-body)/1 var(--font-num);}
+.sh-data-tip span{display:flex; align-items:baseline; justify-content:space-between; gap:1rem; white-space:nowrap; color:var(--ink-2);}
+.sh-data-tip b{color:var(--ink); font:600 var(--t-fine)/1.35 var(--font-num);}
+.sh-data-tip[hidden]{display:none;}
+
+.viz-chart-tip{
+  position:absolute; z-index:8; width:max-content; max-width:min(28rem, calc(100% - 1rem));
+  padding:.72rem .82rem; border:1px solid var(--rule); border-radius:6px;
+  background:rgba(252,252,251,.98); box-shadow:0 10px 30px rgba(20,28,26,.12);
+  color:var(--ink); pointer-events:none;
+}
+.viz-chart-tip[hidden]{display:none;}
+.viz-chart-tip strong,
+.viz-chart-tip span,
+.viz-chart-tip em{display:block;}
+.viz-chart-tip strong{font:600 var(--t-fine)/1.35 var(--font-body);}
+.viz-chart-tip span{margin-top:.22rem; color:var(--ink-2); font:400 var(--t-fine)/1.4 var(--font-body);}
+.viz-chart-tip em{margin-top:.38rem; color:var(--teal); font:500 var(--t-micro)/1.3 var(--font-num); font-style:normal;}
+
+/* Statistical charts use SVG.  */
+.sh-charts{
+  position:absolute; z-index:3; pointer-events:none;
+  left:38%; right:2.6%; top:10.5%; bottom:9%;
+  will-change:opacity;
+}
+.sh-chart-scene{
+  position:absolute; inset:0; opacity:0; will-change:opacity;
+  transition:none;
+}
+@media (prefers-reduced-motion:reduce){
+  .sh-panel .sh-copy,
+  .sh-chart-scene,
+  .sh-field,
+  .sh-instrument,
+  .sh-path,
+  .sh-path-action,
+  .sh-card-enter-active,
+  .sh-card-leave-active{transition:none !important;}
+}
+.sh-chart-scene svg{width:100%; height:100%; overflow:visible; display:block;}
+.sh-chart-scene text{font-family:var(--font-body); fill:var(--ink-2);}
+.sh-chart-scene .viz-label{font:500 11.5px var(--font-body); fill:var(--ink);}
+.sh-chart-scene .viz-value{font:500 11.5px var(--font-num); fill:var(--ink);}
+.sh-chart-scene .viz-axis{font:500 11.5px var(--font-num); fill:var(--ink-3);}
+.sh-chart-scene .viz-axis.is-strong{fill:var(--ink-2);}
+.sh-chart-scene .viz-kicker{font:500 10px var(--font-num); letter-spacing:.08em; fill:var(--ink-3);}
+/* Chart captions were 10px mono, which is a size for an axis tick, not for a line of prose someone has to read. */
+.sh-chart-scene .viz-note{font:400 15px var(--font-body); fill:var(--ink-3);}
+.sh-chart-scene .viz-legend{font:500 15px var(--font-body); fill:var(--ink-2);}
+.sh-chart-scene .viz-legend-swatch{rx:2;}
+.sh-chart-scene .viz-gridline{stroke:var(--rule); stroke-width:1; vector-effect:non-scaling-stroke;}
+.sh-chart-scene .viz-bar{fill:rgba(26,26,23,.48);}
+.sh-chart-scene .viz-bar.is-amber,
+.sh-chart-scene .viz-segment.is-amber,
+.sh-chart-scene .viz-matrix-cell.is-amber,
+.sh-chart-scene .viz-output-bar.is-amber{fill:var(--yellow);}
+.sh-chart-scene .viz-bar.is-teal,
+.sh-chart-scene .viz-segment.is-teal,
+.sh-chart-scene .viz-matrix-cell.is-teal,
+.sh-chart-scene .viz-output-bar.is-teal{fill:var(--teal);}
+.sh-chart-scene .viz-segment.is-ink{fill:var(--ink);}
+.sh-chart-scene .viz-output-bar.is-muted{fill:var(--ink-4);}
+.sh-chart-scene .viz-minibar{fill:rgba(0,125,108,.60);}
+.sh-chart-scene .viz-citation-dot{opacity:.84;}
+.sh-chart-scene .viz-row-hit{fill:transparent;}
+.sh-chart-scene .viz-hover-row{cursor:pointer; outline:none;}
+.sh-chart-scene .viz-hover-row .viz-citation-dot,
+.sh-chart-scene .viz-hover-row .viz-label,
+.sh-chart-scene .viz-hover-row .viz-cell-total{transition:opacity .16s ease, fill .16s ease;}
+.sh-chart-scene:has(.viz-hover-row:hover) .viz-hover-row:not(:hover),
+.sh-chart-scene:has(.viz-hover-row:focus) .viz-hover-row:not(:focus){opacity:.30;}
+.sh-chart-scene .viz-hover-row:hover .viz-label,
+.sh-chart-scene .viz-hover-row:focus .viz-label{fill:var(--teal);}
+
+.sh-chart-scene .viz-project-row{outline:none; transition:opacity .16s ease;}
+.sh-chart-scene:has(.viz-project-row:hover) .viz-project-row:not(:hover),
+.sh-chart-scene:has(.viz-project-row:focus) .viz-project-row:not(:focus){opacity:.24;}
+.sh-chart-scene .viz-project-row:hover .viz-label,
+.sh-chart-scene .viz-project-row:focus .viz-label,
+.sh-chart-scene .viz-project-row:hover .viz-cell-total,
+.sh-chart-scene .viz-project-row:focus .viz-cell-total{fill:var(--teal);}
+
+.sh-chart-scene .viz-matrix-hit{outline:none; transition:opacity .16s ease;}
+.sh-chart-scene .viz-matrix-hit .viz-matrix-cell{
+  transition:stroke .16s ease, stroke-width .16s ease, opacity .16s ease;
+}
+.sh-chart-scene .viz-matrix-hit:hover .viz-matrix-cell,
+.sh-chart-scene .viz-matrix-hit:focus .viz-matrix-cell{
+  stroke:var(--ink); stroke-width:1.5; vector-effect:non-scaling-stroke;
+}
+.sh-chart-scene .viz-cell-value{font:500 11.5px var(--font-num); fill:var(--ink-2);}
+.sh-chart-scene .is-reverse{fill:#fff !important;}
+.sh-chart-scene .is-amber-text{fill:var(--yellow);}
+.sh-chart-scene .viz-segment-label{font:500 11.5px var(--font-body);}
+.sh-chart-scene .viz-segment-value{font:500 11.5px var(--font-num);}
+.sh-chart-scene .viz-concept-link{fill:none; stroke:var(--teal); opacity:.34; stroke-linecap:round;}
+.sh-chart-scene .viz-concept-anchor{fill:var(--yellow);}
+.sh-chart-scene .viz-family-anchor{fill:var(--teal);}
+
+/* Covers the stage until the story has something on it.  */
+.sh-loading{
+  position:fixed; inset:0; z-index:8;
+  display:grid; place-content:center;
+  background:var(--ground,#fcfcfb);
+  transition:opacity .45s ease;
+}
+.sh-loading.is-done{ opacity:0; pointer-events:none; }
+.sh-load-error{
+  display:grid; justify-items:center; gap:.85rem; color:var(--ink-2); text-align:center;
+}
+.sh-load-error p{margin:0;}
+.sh-load-error button{
+  min-height:42px; padding:.65rem 1.1rem; border:1px solid var(--rule);
+  border-radius:999px; background:#fff; color:var(--ink); cursor:pointer;
+}
+.sh-load-error button:hover{border-color:var(--teal); color:var(--teal);}
+
+/* Sits under the mark, quiet.  */
+/* About and Skip trade the top right corner.  */
+
+/* Bottom right of the visual, not the top bar.  */
+.sh-controls{
+  position:absolute; right:var(--pad); bottom:1.35rem; z-index:8;
+  display:flex; align-items:center; gap:1.4rem;
+}
+.sh-step{ display:flex; align-items:center; gap:.4rem; }
+.sh-step button{
+  width:40px; height:40px; padding:0;
+  display:inline-flex; align-items:center; justify-content:center;
+  border:1px solid var(--rule); border-radius:999px;
+  background:transparent; color:var(--ink); cursor:pointer;
+  transition:border-color .15s ease, color .15s ease;
+}
+.sh-step svg{ width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.7;
+              stroke-linecap:round; stroke-linejoin:round; }
+.sh-step button:hover{ border-color:var(--teal); color:var(--teal); }
+.sh-step button:disabled{opacity:.28; cursor:default; border-color:var(--rule); color:var(--ink-3);}
+.sh-step button:focus-visible{ outline:2px solid var(--accent,#007d6c); outline-offset:3px; }
+
+.sh-skip{
+  position:static;
+  min-height:44px; padding:0 .15rem;
+  display:inline-flex; align-items:center; gap:.45rem;
+  border:0; background:transparent;
+  color:var(--ink); font:600 var(--t-body) var(--font-body); cursor:pointer;
+  transition:color .15s ease;
+}
+.sh-skip:hover{color:var(--teal);}
+.sh-skip:focus-visible{outline:2px solid var(--teal); outline-offset:4px;}
+
+/* ── progress ─────────────────────────────────────────────────────── */
+.sh-dots{
+  position:absolute; bottom:1.75rem; left:50%; transform:translateX(-50%); z-index:6;
+  display:flex; align-items:center; gap:0;
+}
+.sh-dots button{
+  appearance:none; border:0; padding:0; cursor:pointer; position:relative;
+  width:30px; height:44px; background:transparent; display:grid; place-items:center;
+}
+.sh-dots button::before{
+  content:''; width:5px; height:5px; border-radius:3px; background:var(--ink-4); display:block;
+  transition:width .38s cubic-bezier(.16,1,.3,1), background .38s ease;
+}
+.sh-dots button:hover::before{background:var(--ink-3);}
+.sh-dots button:focus-visible{outline:2px solid var(--teal); outline-offset:4px;}
+.sh-dots button.on::before{width:22px; background:var(--ink);}
+
+.sh-root{--pad:3rem; min-height:100vh;}
+@media (max-width:900px){ .sh-root{--pad:1.5rem; --gut:.9rem;} }
+
+/* On a phone, reserve the lower part of the fold for the changing data object.  */
+@media (max-width:720px){
+  .sh-panel{min-height:104svh; align-items:start; padding-top:6.2rem;}
+  .sh-copy{grid-column:1 / -1; align-self:start;}
+  .sh-num{margin-bottom:.15rem;}
+  .sh-head{margin-bottom:.7rem; max-width:24ch;}
+  .sh-body{font-size:var(--t-fine); line-height:var(--lh-fine); max-width:30ch;}
+  .sh-so{font-size:var(--t-fine); line-height:var(--lh-fine); margin-top:.72rem; max-width:30ch; padding-left:.7rem;}
+  .sh-copy::after{display:none;}
+  .sh-charts{left:var(--pad); right:var(--pad); top:48%; bottom:9%;}
+  .sh-chart-scene .viz-label{font-size:10px;}
+  .sh-chart-scene .viz-value{font-size:10px;}
+  .sh-chart-scene .viz-note{display:none;}
+}
+
+/* ══════════════ The country card ══════════════ Click a country on the globe and this eases in beside it.  */
+.sh-country{
+  position:absolute;
+  left:var(--country-left, auto);
+  right:auto;
+  top:var(--country-top, 50%);
+  transform:none;
+  z-index:9;
+  width:min(17rem, calc(100vw - 3rem));
+  padding:1.2rem 1.35rem 1.15rem;
+  border-radius:10px;
+  background:#fff;
+  box-shadow:0 18px 48px rgba(20,28,26,.13), 0 2px 6px rgba(20,28,26,.06);
+}
+.sh-country::before{
+  content:''; position:absolute; top:var(--country-pin-y, 50%);
+  width:18px; height:1px; background:rgba(26,26,23,.34);
+}
+.sh-country.is-right::before{left:-18px;}
+.sh-country.is-left::before{right:-18px;}
+.sh-country h3{
+  margin:0 0 1.1rem;
+  padding-right:1.5rem;
+  font-family:var(--font-display);
+  font-weight:500;
+  font-size:var(--t-lead);
+  line-height:1.2;
+  letter-spacing:-.02em;
+  color:#1a1a17;
+}
+.sh-country dl{margin:0; display:flex; flex-direction:column; gap:1rem;}
+.sh-country dt{
+  font-family:var(--font-display);
+  font-weight:500;
+  font-size:var(--t-lead);
+  line-height:1;
+  letter-spacing:-.01em;
+  color:#1a1a17;
+  font-variant-numeric:tabular-nums;
+}
+.sh-country dd{margin:.15rem 0 0; color:var(--ink-3); font-size:var(--t-fine);}
+
+.sh-end{
+  position:relative;
+  min-height:100vh; min-height:100svh;
+  pointer-events:auto;
+  background:transparent;
+}
+.sh-end .sh-copy{
+  grid-column:2 / span 10;
+  width:100%; max-width:70rem; justify-self:center;
+  padding:1.5rem 0;
+  pointer-events:auto;
+}
+.sh-end .sh-head{
+  max-width:42rem; margin:0 auto .55rem; text-align:center;
+  font-size:clamp(1.7rem, 2.5vw, 2.4rem);
+}
+.sh-end .sh-body{max-width:42rem; margin:0 auto; text-align:center;}
+.sh-end .sh-copy::after{display:none;}
+
+/* Two doors of the same shape. Title top-left, action bottom-right, the live thing in between. */
+.sh-handoff-grid{
+  display:grid; grid-template-columns:repeat(2, minmax(0, 1fr));
+  align-items:stretch; gap:clamp(1.5rem, 3vw, 3rem);
+  margin-top:2.4rem;
+}
+.sh-path{
+  position:relative; display:flex; flex-direction:column; gap:1rem;
+  min-height:19rem; min-width:0; margin:0; padding:1.35rem 1.35rem 1.15rem;
+  overflow:hidden;
+  border:1px solid rgba(26,26,23,.18); border-radius:14px; background:rgba(252,252,251,.94);
+  color:var(--ink); text-decoration:none;
+  box-shadow:0 12px 34px rgba(20,28,26,.06);
+  transition:border-color .2s ease, box-shadow .2s ease;
+}
+.sh-path:hover, .sh-path:focus-within{border-color:rgba(0,125,108,.46); box-shadow:0 12px 34px rgba(20,28,26,.08), 0 0 0 2px rgba(0,125,108,.10);}
+.sh-path:focus-visible{outline:2px solid var(--teal); outline-offset:3px;}
+.sh-path-text{
+  position:relative; z-index:1;
+  display:flex; flex-direction:column; gap:.3rem;
+  pointer-events:none;
+}
+.sh-path-text b{font:500 var(--t-lead)/1.2 var(--font-display); letter-spacing:-.01em; color:var(--ink);}
+.sh-path-text small{max-width:24rem; font:400 var(--t-fine)/1.35 var(--font-body); color:var(--ink-2);}
+.sh-path-foot{
+  position:relative; z-index:1;
+  display:flex; align-items:flex-end; justify-content:space-between; gap:1rem;
+  margin-top:auto;
+}
+.sh-path-foot-end{justify-content:flex-end;}
+.sh-path-action{
+  flex:0 0 auto; margin-left:auto;
+  display:inline-flex; align-items:center; justify-content:center; gap:.4rem;
+  height:38px; padding:0 .95rem;
+  border:0; border-radius:9px; background:var(--ink); color:#fff; cursor:pointer;
+  font:500 var(--t-fine)/1 var(--font-body);
+  transition:background .15s ease;
+}
+.sh-path:hover .sh-path-action, .sh-path-action:hover{background:var(--teal);}
+.sh-path-action:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
+.sh-path-action svg{width:15px; height:15px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+
+/* The ask door. The field has no box; the typing caret says it is a field. */
+.sh-path-input{
+  position:relative; display:block; flex:1 1 auto; min-height:5.4rem;
+  padding-top:.9rem; border-top:1px solid var(--rule);
+  cursor:text;
+}
+.sh-path-input textarea{
+  display:block; width:100%; height:100%; min-height:4.5rem; resize:none;
+  padding:0; border:0; outline:0; background:transparent;
+  color:var(--ink); font:400 var(--t-body)/1.5 var(--font-body);
+}
+.sh-path-input textarea::placeholder{color:var(--ink-3);}
+.sh-path-ghost{
+  position:absolute; left:0; right:0; top:.9rem;
+  color:var(--ink-3); font:400 var(--t-body)/1.5 var(--font-body);
+  white-space:pre-wrap; overflow-wrap:anywhere; pointer-events:none;
+}
+.sh-path-ghost::after{
+  content:''; display:inline-block; width:2px; height:1em; margin-left:2px;
+  vertical-align:-.12em; background:var(--teal);
+  animation:sh-caret 1s steps(2, jump-none) infinite;
+}
+@keyframes sh-caret{50%{opacity:0;}}
+.sh-path-ask.is-focused .sh-path-ghost, .sh-path-ask.has-value .sh-path-ghost{display:none;}
+.sh-path-chips{display:flex; flex-direction:column; align-items:flex-start; gap:.4rem; flex:1 1 auto; min-width:0;}
+.sh-path-chips button{
+  max-width:100%; padding:.4rem .7rem; border:1px solid var(--rule); border-radius:999px;
+  background:none; color:var(--ink-2); text-align:left; cursor:pointer;
+  font:400 var(--t-fine)/1.2 var(--font-body);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  transition:border-color .15s ease, color .15s ease;
+}
+.sh-path-chips button:hover{border-color:rgba(0,125,108,.46); color:var(--ink);}
+.sh-path-chips button:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
+
+/* The graph door. A live excerpt of the graph, drawn behind its invitation. */
+.sh-path-graph canvas{position:absolute; inset:0; display:block; width:100%; height:100%;}
+.sh-path-graph .sh-path-text b,
+.sh-path-graph .sh-path-text small{text-shadow:0 0 8px #fcfcfb, 0 0 3px #fcfcfb, 0 0 1px #fcfcfb;}
+
+@media (max-width:800px){
+  .sh-end{padding-top:5.7rem; background:transparent;}
+  .sh-end .sh-copy{grid-column:1 / -1; align-self:center; padding:1rem 0 3rem;}
+  .sh-end .sh-head{font-size:clamp(1.6rem, 7vw, 2rem);}
+  .sh-handoff-grid{grid-template-columns:1fr; gap:1.25rem; margin-top:1.5rem;}
+  .sh-path{min-height:0; padding:1.1rem 1.1rem 1rem;}
+  .sh-path-graph{min-height:12rem;}
+  .sh-path-chips{display:none;}
+}
+@media (prefers-reduced-motion: reduce){
+  .sh-path-ghost::after{animation:none;}
+}
+
+/* Inside the card, top right — the close belongs to the thing it closes. */
+/* The five versions, present or not. Same dot as every chart that counts. */
+.sh-family{
+  list-style:none; margin:1.1rem 0 0; padding:.9rem 0 0;
+  border-top:1px solid var(--rule-soft);
+  display:flex; flex-wrap:wrap; gap:.3rem .9rem;
+}
+.sh-family li{
+  display:inline-flex; align-items:center; gap:.36rem;
+  color:var(--ink-4); font:500 var(--t-micro) var(--font-num);
+}
+.sh-family li i{
+  width:6px; height:6px; border-radius:50%;
+  background:currentColor; opacity:.45;
+}
+.sh-family li.is-on{ color:var(--teal); }
+.sh-family li.is-on i{ opacity:1; }
+
+.sh-country-x{
+  position:absolute;
+  top:.55rem;
+  right:.55rem;
+  width:32px;
+  height:32px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:#8e8e86;
+  font-size:var(--t-lead);
+  line-height:1;
+  cursor:pointer;
+  transition:background .15s ease, color .15s ease;
+}
+.sh-country-x:hover{background:#f2f2f0; color:#1a1a17;}
+.sh-country-x:focus-visible{outline:2px solid var(--accent, #007d6c); outline-offset:2px;}
+
+/* It arrives, rather than appearing.  */
+.sh-card-enter-active{transition:opacity .26s ease, transform .34s cubic-bezier(.16,1,.3,1);}
+.sh-card-leave-active{transition:opacity .18s ease, transform .18s ease;}
+.sh-card-enter-from,
+.sh-card-leave-to{opacity:0; transform:translateY(10px) scale(.985);}
+
+@media (max-width:640px){
+  .sh-country{
+    right:1rem; left:1rem; top:auto; bottom:5.5rem;
+    width:auto; transform:none;
+  }
+  .sh-country::before{display:none;}
+  .sh-country dl{flex-direction:row; gap:1.4rem;}
+  .sh-card-enter-from,
+  .sh-card-leave-to{transform:translateY(10px) scale(.985);}
+}
+
+/* Margin totals on the matrix.  */
+.sh-chart-scene .viz-cell-total{
+  font:500 11.5px var(--font-num);
+  font-variant-numeric:tabular-nums;
+  fill:var(--ink-1, #1a1a17);
+}
+.sh-chart-scene .viz-rule{ stroke:var(--hairline-strong, #cbc9c1); stroke-width:1; }
+
+/* Names the direction each margin sums in.  */
+.sh-chart-scene .viz-margin-note{
+  font:500 10px var(--font-num);
+  fill:var(--ink-3);
+}
+
+/* The name of a whole axis, not one of its ticks — so it sits above the tick labels and reads as the category they belong to. */
+.sh-chart-scene .viz-axis-title{
+  font:500 10px var(--font-num);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  fill:var(--ink-3);
+}
+
+/* ── The co-authorship network ────────────────────────────────────────── */
+/* A light research-tool treatment: fine links, translucent nodes, and flat labels. */
+.sh-chart-scene .viz-net-link{
+  stroke:rgba(26,26,23,.11);
+  stroke-linecap:round;
+  vector-effect:non-scaling-stroke;
+}
+.sh-chart-scene .viz-net-node{
+  stroke:rgba(26,26,23,.42); stroke-width:.75;
+  vector-effect:non-scaling-stroke;
+  transition:opacity .18s ease, stroke .18s ease, r .18s ease;
+}
+.sh-chart-scene .viz-net-node[data-id]{cursor:pointer;}
+.sh-chart-scene .viz-net-node[data-id]:hover{stroke:var(--teal); stroke-width:1.8;}
+/* The count sits in the circle it belongs to. */
+.sh-chart-scene .viz-net-count{
+  font-family:var(--font-num); font-weight:500;
+  fill:#26262a; font-variant-numeric:tabular-nums;
+  pointer-events:none;
+}
+.sh-chart-scene .viz-net-name{
+  font:500 11.5px var(--font-body); fill:var(--ink-2);
+  pointer-events:none;
+  transition:opacity .18s ease;
+}
+
+/* Selected: the person and their collaborators stay lit, everything else steps back.  */
+.sh-chart-scene .is-faded{ opacity:.13; }
+/* The spotlight: the person under the pointer is ringed in ink so they read as chosen rather than merely un-dimmed. */
+.sh-chart-scene .viz-net-node.is-lit{ stroke:#1a1a17; stroke-width:1.45; }
+.sh-chart-scene .viz-net-node:focus-visible{
+  outline:none; stroke:var(--teal); stroke-width:2.2;
+}
+/* A plate of the page colour behind each name.  */
+.sh-chart-scene .viz-net-plate{ fill:rgba(252,252,251,.90); stroke:rgba(26,26,23,.10); stroke-width:.5; }
+.sh-chart-scene .viz-net-link.is-faded{ stroke-opacity:.06; }
+.sh-chart-scene .viz-net-node.is-picked{
+  stroke:#1a1a17; stroke-width:1.8;
+  filter:drop-shadow(0 0 5px rgba(0,125,108,.24));
+}
+/* Only darken lines once someone is actually being followed.  */
+.sh-chart-scene.is-focused .viz-net-link:not(.is-faded){ stroke:rgba(26,26,23,.62); }
+
+/* The panel names what a thick line cannot: who the strong bonds are with.  */
+/* Bottom left.  */
+.viz-net-panel{
+  position:absolute; z-index:4;
+  width:max-content; max-width:min(24rem, calc(100% - 1rem));
+  padding:.85rem 2.2rem .9rem 1rem;
+  border:1px solid var(--rule);
+  border-radius:6px;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 10px 28px rgba(20,28,26,.10);
+  display:flex; flex-direction:column; gap:.25rem;
+}
+.viz-net-panel strong{
+  font:500 var(--t-lead)/1.2 var(--font-display);
+  letter-spacing:-.02em; color:var(--ink);
+}
+.viz-net-panel span{ font-size:var(--t-fine); line-height:1.5; color:var(--ink-2); }
+/* The counts are what the panel exists to say, so they are the one thing set in ink against the sentence around them. */
+.viz-net-panel b{ font-weight:600; color:var(--ink); }
+
+/* The two figures, each with its own mark.  */
+.viz-net-figs{ display:flex; flex-wrap:wrap; gap:0.15rem 1.1rem; }
+.viz-fig{ display:inline-flex; align-items:center; gap:0.36rem; white-space:nowrap; }
+/* The number and the name sit over their circle, so without this the pointer lands on a digit and the hover never reaches the node underneath.  */
+.viz-net-count, .viz-net-name, .viz-net-plate{ pointer-events:none; }
+
+/* The mark in transit, not a new quantity, so it stays grey. */
+.viz-net-mote{ fill:var(--ink-3); pointer-events:none; }
+
+@media (prefers-reduced-motion: reduce){
+  .viz-net-mote{ display:none; }
+}
+
+/* Blurred as well as gradiented: the gradient gives the falloff, the blur takes the banding off it on a light ground. */
+.viz-net-haze{ fill:url(#viz-net-haze); filter:blur(16px); pointer-events:none; }
+
+/* While a person is held, the field around them is nearly gone.  */
+.sh-chart-scene.is-focused .viz-net-node.is-faded{ opacity:.14; }
+.sh-chart-scene.is-focused .viz-net-name.is-faded,
+.sh-chart-scene.is-focused .viz-net-count.is-faded{ opacity:.10; }
+
+/* One dot is one thing counted. Same mark in every chart that counts.*/
+.sh-chart-scene .viz-dot{ fill:var(--teal); }
+
+.sh-chart-scene .viz-ico{
+  display:block; width:14px; height:14px; flex:none; color:var(--ink-3);
+}
+.viz-net-panel button{
+  position:absolute; top:.45rem; right:.45rem;
+  width:28px; height:28px; border:0; border-radius:7px;
+  background:none; color:var(--ink-3); font-size:1.15rem; line-height:1; cursor:pointer;
+}
+.viz-net-panel button:hover{ background:#f2f2f0; color:var(--ink); }
+
+/* Only the chart on screen takes input. */
+.sh-chart-scene.is-live{pointer-events:auto;}
+
+/* Open explorer belongs to the story, not to the landing screen.  */
+.sh-root[data-story-phase="intro"] .sh-skip{
+  opacity:0;
+  pointer-events:none;
+}
+.sh-skip{ transition:opacity .3s ease; }
+
+/* The share is the point of each row: how much of what a group funded has reached the literature.  */
+.sh-chart-scene .viz-share{
+  font:500 13px var(--font-num);
+  font-variant-numeric:tabular-nums;
+  fill:var(--ink);
+}

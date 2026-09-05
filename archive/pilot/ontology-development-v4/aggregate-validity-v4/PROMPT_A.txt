@@ -1,0 +1,10 @@
+Read these files:
+
+- pilot/ontology-development-v4/aggregate-validity-v4/TASK.md
+- pilot/ontology-development-v3/questions.tsv
+- docs/APP_DATA_ADAPTER.md
+- web/server/utils/schema.ts
+
+Independently test Q1 through Q50 against the current 273-publication serving
+database. Do not read an earlier aggregate-validity result. Return all 50
+assigned IDs in numeric order through the supplied JSON contract.

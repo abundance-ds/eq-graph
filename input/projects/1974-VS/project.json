@@ -1,0 +1,24 @@
+{
+  "project_id": "1974-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1974,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "Comparative Study of TTO-based, Hybrid, and DCE with duration Value Sets for EQ-5D-5L in Qatar",
+  "pi_name_raw": "Fatima Al Sayah",
+  "working_groups": [
+    "Valuation"
+  ],
+  "approved_budget_eur": 93223,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2027,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 480,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

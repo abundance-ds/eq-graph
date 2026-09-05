@@ -1,0 +1,37 @@
+Read these files:
+
+- pilot/ontology-development-v4/aggregate-validity-v4/TASK.md
+- pilot/ontology-development-v3/questions.tsv
+- pilot/ontology-development-v4/aggregate-validity-v4/REVIEW_A.json
+- pilot/ontology-development-v4/aggregate-validity-v4/REVIEW_B.json
+- pilot/ontology-development-v4/aggregate-validity-v3/RESULT.md
+- docs/APP_DATA_ADAPTER.md
+- docs/WORKPLAN.md
+- web/server/utils/schema.ts
+
+Adjudicate Q1 through Q100 against the current 273-publication data. Return all
+100 IDs in numeric order through the supplied JSON contract.
+
+Apply these rules consistently:
+
+- `PASS`: the system supports a coherent answer without a material caveat.
+- `PARTIAL`: it supports a useful answer, but a material limitation changes its
+  interpretation.
+- `FAIL`: the available answer is structurally wrong, mixes unlike concepts,
+  or would materially mislead the user.
+- `NOT TESTABLE`: the required evidence or external input is absent, so no
+  current answer can be tested.
+- A known 273-publication boundary does not by itself reduce a verdict when the
+  question explicitly asks about the corpus. It matters for claims about all
+  EuroQol research, all project outputs, or the global literature.
+- For X, Y, or proposal templates, test a real example when the data supports
+  the parameter. Do not mark a sound query pattern untestable only because the
+  template has no supplied value.
+- A result that needs normal computation from available tables can pass. The
+  exact derived result does not need to be a stored field.
+- Use the public serving database first. If a question explicitly concerns
+  references, provenance, or audit evidence that the public database omits,
+  inspect the private typed database. State the public boundary in the cause.
+- Recheck every A/B or prior/current disagreement with SQL or an exact schema
+  fact. Do not copy any prior verdict without review.
+- Do not propose or make an ontology change.

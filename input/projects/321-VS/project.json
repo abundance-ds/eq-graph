@@ -1,0 +1,25 @@
+{
+  "project_id": "321-VS",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 321,
+  "call_year": null,
+  "grant_type_code": "VS",
+  "grant_type": "1.2 Valuation study",
+  "revision": null,
+  "title": "A multi-country EQ-5D-Y valuation study in Asia (Resubmission of project 154-2020RA)",
+  "pi_name_raw": "Nan Luo",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 147810,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 553,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

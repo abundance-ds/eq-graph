@@ -1,0 +1,24 @@
+{
+  "project_id": "444-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 444,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Comparing the psychometric properties of the EQ-5D-3L and EQ-5D-5L in Chinese patients with pompe disease",
+  "pi_name_raw": "Ricahrd Xu",
+  "working_groups": [
+    "Descriptive Systems"
+  ],
+  "approved_budget_eur": 24160,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 224,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

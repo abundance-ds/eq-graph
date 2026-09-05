@@ -1,0 +1,24 @@
+{
+  "project_id": "1934-TVG",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1934,
+  "call_year": null,
+  "grant_type_code": "TVG",
+  "grant_type": "2.3 Travel grant",
+  "revision": null,
+  "title": "Research visit Melbourne School of Population and Global Health of the University of Melbourne.",
+  "pi_name_raw": "Ava Hoogenboom",
+  "working_groups": [
+    "Education and Outreach"
+  ],
+  "approved_budget_eur": 4100,
+  "status": "Ongoing",
+  "start_year": 2024,
+  "end_year": 2024,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 471,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

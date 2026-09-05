@@ -1,0 +1,25 @@
+{
+  "project_id": "416-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 416,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Mind the gap. Psychological distance in EQ-5D-Y valuation",
+  "pi_name_raw": "Stefan Lipman",
+  "working_groups": [
+    "Valuation",
+    "Youth"
+  ],
+  "approved_budget_eur": 24890,
+  "status": "Completed",
+  "start_year": 2022,
+  "end_year": 2023,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 234,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

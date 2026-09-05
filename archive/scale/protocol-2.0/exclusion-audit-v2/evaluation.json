@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "reviewer": "Separate AI subagent; production outcomes, codes, and reasons withheld",
+  "sample_method": "Simple random sample without replacement from completed exclusions.",
+  "seed": 2026080502,
+  "sampling_frame_exclusions": 4707,
+  "sample_size": 100,
+  "outcome_agreements": 98,
+  "audit_exclusions": 98,
+  "audit_retains_for_adjudication": 2,
+  "audit_retain_record_ids": [
+    "P87a0b8d01ebc",
+    "P362be7fa8a06"
+  ],
+  "adjudications_complete": true,
+  "confirmed_true_negatives": 100,
+  "confirmed_false_exclusions": [],
+  "continue_frozen_prompt": true,
+  "production_code_counts": {
+    "E1": 18,
+    "E2": 9,
+    "E3": 6,
+    "E4": 60,
+    "E5": 7
+  },
+  "audit_code_counts": {
+    "E1": 18,
+    "E2": 8,
+    "E3": 6,
+    "E4": 59,
+    "E5": 7,
+    "R2": 1,
+    "RU": 1
+  },
+  "interpretation_rule": "An audit retain is a disagreement for operator adjudication, not an automatic false exclusion. Continue the frozen screen unchanged only if adjudication finds no substantive false exclusion or systematic scope problem.",
+  "limitations": [
+    "This is an AI consistency and error-finding check, not independent human validation.",
+    "The primary-agent adjudication is also AI review, not human adjudication.",
+    "A random sample can miss rare or systematic false exclusions."
+  ],
+  "failures": []
+}

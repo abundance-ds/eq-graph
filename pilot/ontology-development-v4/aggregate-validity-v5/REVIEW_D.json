@@ -1,0 +1,131 @@
+{
+  "evaluations": [
+    {
+      "id": "Q16",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Morocco is a supported example. Project 1411-VS produced the 2025 EQ-5D-5L value-set paper.",
+      "cause": "The accepted output link, study family, country, and direct instrument use agree."
+    },
+    {
+      "id": "Q17",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "For Nan Luo, 26 completed grants have 39 accepted outputs that also list Luo as an author.",
+      "cause": "Resolved PI roles, accepted output links, and resolved authorship support the result."
+    },
+    {
+      "id": "Q18",
+      "verdict": "PARTIAL",
+      "defect_class": "QUERY",
+      "result": "For proposal 2128-VS, the lexical ranking places Morocco project 1411-VS first, with 29 of 98 retained abstract terms shared.",
+      "cause": "Project abstracts support a bounded ranking, but token overlap is not validated semantic similarity."
+    },
+    {
+      "id": "Q20",
+      "verdict": "PARTIAL",
+      "defect_class": "QUERY",
+      "result": "For the aims of proposal 2128-VS, ongoing Turkish value-set project 2247-VS ranks first, with 25 shared terms.",
+      "cause": "The pattern finds lexical overlap but does not measure semantic or scientific overlap directly."
+    },
+    {
+      "id": "Q21",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "Nan Luo coauthored with observed members Zhihao Yang on 44 papers, Jan Busschbach on 18, and Kim Rand on 18.",
+      "cause": "Coauthorship is resolved, but membership is observed only on 2026-08-21 and is not historical."
+    },
+    {
+      "id": "Q22",
+      "verdict": "PARTIAL",
+      "defect_class": "DATA",
+      "result": "For Nan Luo's grant 1741-RA, the first authored accepted output was in 2025, one calendar year after the 2024 grant period.",
+      "cause": "Project and publication dates have only year-level precision."
+    },
+    {
+      "id": "Q24",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Morocco project 1411-VS used cTTO, DCE, and a hybrid heteroskedastic Tobit model.",
+      "cause": "The accepted output, country, value-set family, and direct method and model uses agree."
+    },
+    {
+      "id": "Q26",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "For cerebral palsy and EQ-5D-Y-5L from proposal 2169-RA, completed project 20180730 matches both attributes.",
+      "cause": "Both attributes occur in project text, but projects have no controlled condition or instrument relations."
+    },
+    {
+      "id": "Q27",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "For the €116,418 proposal 2169-RA and a €100,000–€149,999 band, 28 completed projects averaged 1.86 accepted outputs; 71.4% had an output.",
+      "cause": "Complete budgets, project status, and accepted output links support the defined comparison."
+    },
+    {
+      "id": "Q28",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Using the reference list from DOI 10.1007/s40258-025-00989-2, 65 cited works match the corpus and 40 link to funded outputs.",
+      "cause": "Private citation occurrences and accepted project-output links support both classifications."
+    },
+    {
+      "id": "Q32",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "For the Valuation working group, 164 distinct accepted output publications fall in 2022–2026.",
+      "cause": "The query separates combined working-group labels and uses accepted output links and publication years."
+    },
+    {
+      "id": "Q38",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Nan Luo's most frequent resolved coauthors are Zhihao Yang with 44 papers, Jan Busschbach with 18, and Kim Rand with 18.",
+      "cause": "Resolved publication authorships support the ranking."
+    },
+    {
+      "id": "Q44",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Nan Luo's projects span seven groups, led by Descriptive Systems with 20 projects, Education and Outreach with 13, and Valuation with 13.",
+      "cause": "Resolved project roles and separated working-group labels support the result."
+    },
+    {
+      "id": "Q47",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "On Nan Luo's funded outputs, observed-member coauthors include Zhihao Yang on 35 papers, Jan Busschbach on 16, and Kim Rand on 12.",
+      "cause": "Accepted output links, resolved coauthorship, and observed membership support the list."
+    },
+    {
+      "id": "Q62",
+      "verdict": "PARTIAL",
+      "defect_class": "STRUCTURE",
+      "result": "For EuroQol Research Foundation, affiliation text identifies 15 resolved people on 82 papers, led by Bram Roudijk, Elly Stolk, and Gouke Bonsel.",
+      "cause": "Affiliations are unnormalized paper-level text and do not establish current employment."
+    },
+    {
+      "id": "Q89",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "Project 361-RA has 12 accepted outputs, 124 OpenAlex citations as of 2026-08-27, and 27 resolved person collaborators excluding the PI.",
+      "cause": "Accepted outputs, the dated citation snapshot, and resolved authorships support the profile."
+    },
+    {
+      "id": "Q98",
+      "verdict": "PASS",
+      "defect_class": "NONE",
+      "result": "For DOI 10.1007/s40273-025-01519-7, the accepted producer link is project 1741-RA.",
+      "cause": "JATS funding metadata names EuroQol Research Foundation award 1741-RA, and the private link is full-text confirmed."
+    }
+  ],
+  "run": {
+    "provider": "codex",
+    "model": "gpt-5.6-sol",
+    "effort": "high",
+    "api_key_removed": false,
+    "database": "web/server/data/serving.sqlite",
+    "publication_count": 797
+  }
+}

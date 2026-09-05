@@ -1,0 +1,25 @@
+{
+  "project_id": "1611-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1611,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Pilot valuation of the EQ-HWB-S using the VWG DCE with duration protocol",
+  "pi_name_raw": "Marcel Jonker",
+  "working_groups": [
+    "Valuation",
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 82284,
+  "status": "Ongoing",
+  "start_year": 2025,
+  "end_year": 2026,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 338,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

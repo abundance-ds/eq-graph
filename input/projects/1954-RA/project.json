@@ -1,0 +1,24 @@
+{
+  "project_id": "1954-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 1954,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "Translation of the EQ-HWB into Dutch language",
+  "pi_name_raw": "Juanita Haagsma",
+  "working_groups": [
+    "EQ-HWB"
+  ],
+  "approved_budget_eur": 17185,
+  "status": "Completed",
+  "start_year": 2024,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 940,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}

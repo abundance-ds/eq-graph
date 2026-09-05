@@ -1,0 +1,24 @@
+{
+  "project_id": "389-RA",
+  "id_scheme": "sequence-suffix",
+  "sequence_number": 389,
+  "call_year": null,
+  "grant_type_code": "RA",
+  "grant_type": "1.1 Regular research project",
+  "revision": null,
+  "title": "A head-to-head comparison of measurement properties of EQ-5D-Y-3L and EQ-5D-Y-5L in children and adolescents with heart diseases",
+  "pi_name_raw": "Mihir Gandhi",
+  "working_groups": [
+    "Youth"
+  ],
+  "approved_budget_eur": 25000,
+  "status": "Completed",
+  "start_year": 2021,
+  "end_year": 2025,
+  "has_abstract": true,
+  "source": {
+    "file": "Funded projects – Table for Download - EuroQol.csv",
+    "row": 240,
+    "url": "https://euroqol.org/research-at-euroqol/our-research-portfolio/funded-projects-download/"
+  }
+}
