@@ -40,6 +40,6 @@ This project was supported by the EuroQol Research Foundation (seed grant **2582
 
 ## Contact
 
-Paul Schneider, Anuja Kulkarni, and Kazik Pogoda
-[Abundance Decision Systems](https://abundanceds.com)
+Paul Schneider, Anuja Kulkarni, and Kazik Pogoda <br>
+[Abundance Decision Systems](https://abundanceds.com) <br>
 [contact@abundanceds.com](mailto:contact@abundanceds.com)
