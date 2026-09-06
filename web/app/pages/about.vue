@@ -14,7 +14,7 @@ const portfolio = computed(() => data.value?.portfolio);
 const n = (value: unknown) => Number(value ?? 0).toLocaleString("en");
 
 const repo = "https://github.com/abundance-ds/eq-graph";
-const email = "paul@abundanceds.com";
+const email = "pschneider@abundanceds.com";
 </script>
 
 <template>

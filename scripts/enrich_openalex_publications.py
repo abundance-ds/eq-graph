@@ -22,7 +22,7 @@ from typing import Any
 
 
 OPENALEX_WORKS = "https://api.openalex.org/works"
-CONTACT = "paul@abundanceds.com"
+CONTACT = "pschneider@abundanceds.com"
 SELECT = ",".join(
     (
         "id",

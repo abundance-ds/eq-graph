@@ -19,7 +19,7 @@ ACCEPTED = SCALE / "profile-qa-v1" / "accepted.csv"
 RAW = SCALE / "raw" / "identifier-sources"
 OUT = SCALE / "identifier-sources"
 MANIFEST = SCALE / "identifier-source-summary.json"
-USER_AGENT = "eq-graph-protocol-2.0/0.2 (research; contact: paul@abundanceds.com)"
+USER_AGENT = "eq-graph-protocol-2.0/0.2 (research; contact: pschneider@abundanceds.com)"
 PUBMED_CHUNK = 200
 
 

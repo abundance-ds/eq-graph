@@ -23,7 +23,7 @@ OUT = SCALE / "article-corpus.jsonl"
 SUMMARY = SCALE / "abstract-enrichment-summary.json"
 SELECTION = SCALE / "abstract-enrichment-selection.json"
 RAW = SCALE / "raw" / "abstract-enrichment" / "europe-pmc"
-USER_AGENT = "eq-graph-protocol-2.0/0.2 (research; contact: paul@abundanceds.com)"
+USER_AGENT = "eq-graph-protocol-2.0/0.2 (research; contact: pschneider@abundanceds.com)"
 BATCH_SIZE = 20
 MIN_ABSTRACT_LENGTH = 80
 

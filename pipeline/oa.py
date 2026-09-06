@@ -15,7 +15,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE = ROOT / "cache" / "http"
-MAILTO = "paul@abundanceds.com"
+MAILTO = "pschneider@abundanceds.com"
 API_KEY = os.environ.get("OPENALEX_API_KEY", "")
 EUROQOL_FUNDER = "F4320323856"
 EQ_SEARCH = 'EQ-5D OR EuroQol OR EQ-HWB OR "health-related quality of life"'

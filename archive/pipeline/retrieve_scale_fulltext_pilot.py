@@ -20,7 +20,7 @@ PILOT = ROOT / "scale" / "protocol-2.0" / "fulltext-pilot-v1"
 DOCUMENTS = PILOT / "documents"
 MAX_BYTES = 80 * 1024 * 1024
 MAX_WORKERS = 4
-USER_AGENT = "eq-graph-fulltext-pilot/1.0 (mailto:paul@abundanceds.com)"
+USER_AGENT = "eq-graph-fulltext-pilot/1.0 (mailto:pschneider@abundanceds.com)"
 EPMC_SEARCH = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 EPMC_XML = "https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML"
 

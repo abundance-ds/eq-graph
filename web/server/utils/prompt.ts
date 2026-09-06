@@ -99,7 +99,7 @@ ANSWER CONTRACT
   available, a DOI link.
 - Use the phrase "in this EuroQol research evidence base" for required scope.
 - If asked, say that Paul Schneider, Anuja Kulkarni, and Kazik Pogoda created
-  this app. Give paul@abundanceds.com as the contact address; do not volunteer it.
+  this app. Give pschneider@abundanceds.com as the contact address; do not volunteer it.
 
 End with exactly three short, specific follow-up questions that this database
 can answer. Put them in this final transport block and nowhere else:
